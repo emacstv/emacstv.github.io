@@ -1,0 +1,2086 @@
+* Writing academic papers in Org-Roam  :emacsconf:emacsconf2024:org:OrgRoam:academic:research:writing:
+:PROPERTIES:
+:DATE: 2024-12-07
+:URL: https://emacsconf.org/2024/talks/papers
+:MEDIA_URL: https://media.emacsconf.org/2024/emacsconf-2024-papers--writing-academic-papers-in-orgroam--vincent-conus--main.webm
+:YOUTUBE_URL: https://youtu.be/BKQcgpZS2GM
+:TOOBNIX_URL: https://toobnix.org/w/9LYtH8MWCMZ7N4DNteys17
+:TRANSCRIPT_URL: https://media.emacsconf.org/2024/emacsconf-2024-papers--writing-academic-papers-in-orgroam--vincent-conus--main.vtt
+:SPEAKERS: Vincent Conus
+:SERIES: EmacsConf 2024
+:END:
+* Managing writing project metadata with org-mode  :emacsconf:emacsconf2024:org:writing:
+:PROPERTIES:
+:DATE: 2024-12-07
+:URL: https://emacsconf.org/2024/talks/project
+:MEDIA_URL: https://media.emacsconf.org/2024/emacsconf-2024-project--managing-writing-project-metadata-with-orgmode--blaine-mooers--main.webm
+:YOUTUBE_URL: https://youtu.be/Wn38JmqyTbk
+:TOOBNIX_URL: https://toobnix.org/w/dEiXtAr3p16hD3atJk78Ex
+:TRANSCRIPT_URL: https://media.emacsconf.org/2024/emacsconf-2024-project--managing-writing-project-metadata-with-orgmode--blaine-mooers--main.vtt
+:SPEAKERS: Blaine Mooers
+:SERIES: EmacsConf 2024
+:END:
+* Gypsum: my clone of Emacs and ELisp written in Scheme  :emacsconf:emacsconf2024:scheme:
+:PROPERTIES:
+:DATE: 2024-12-07
+:URL: https://emacsconf.org/2024/talks/gypsum
+:MEDIA_URL: https://media.emacsconf.org/2024/emacsconf-2024-gypsum--gypsum-my-clone-of-emacs-and-elisp-written-in-scheme--ramin-honary--main.webm
+:YOUTUBE_URL: https://youtu.be/gLEFuDolR6Y
+:TOOBNIX_URL: https://toobnix.org/w/8yqjkevWPH7RSRzPpHb5JB
+:TRANSCRIPT_URL: https://media.emacsconf.org/2024/emacsconf-2024-gypsum--gypsum-my-clone-of-emacs-and-elisp-written-in-scheme--ramin-honary--main.vtt
+:SPEAKERS: Ramin Honary
+:SERIES: EmacsConf 2024
+:END:
+* The Future of Org  :emacsconf:emacsconf2024:org:
+:PROPERTIES:
+:DATE: 2024-12-07
+:URL: https://emacsconf.org/2024/talks/org-update
+:MEDIA_URL: https://media.emacsconf.org/2024/emacsconf-2024-org-update--the-future-of-org--ihor-radchenko--main.webm
+:YOUTUBE_URL: https://youtu.be/2RJYcqJsldY
+:TOOBNIX_URL: https://toobnix.org/w/2DAHY6wCAXnpeSqwUHaidv
+:TRANSCRIPT_URL: https://media.emacsconf.org/2024/emacsconf-2024-org-update--the-future-of-org--ihor-radchenko--main.vtt
+:SPEAKERS: Ihor Radchenko
+:SERIES: EmacsConf 2024
+:END:
+* An experimental Emacs core in Rust  :emacsconf:emacsconf2024:rust:
+:PROPERTIES:
+:DATE: 2024-12-07
+:URL: https://emacsconf.org/2024/talks/rust
+:MEDIA_URL: https://media.emacsconf.org/2024/emacsconf-2024-rust--an-experimental-emacs-core-in-rust--troy-hinckley--main.webm
+:YOUTUBE_URL: https://youtu.be/629ct-cBwSI
+:TOOBNIX_URL: https://toobnix.org/w/wYBo5m5jsiu1JUfcHzdhhu
+:TRANSCRIPT_URL: https://media.emacsconf.org/2024/emacsconf-2024-rust--an-experimental-emacs-core-in-rust--troy-hinckley--main.vtt
+:SPEAKERS: Troy Hinckley
+:SERIES: EmacsConf 2024
+:END:
+* Colour your Emacs with ease  :emacsconf:emacsconf2024:theming:color:
+:PROPERTIES:
+:DATE: 2024-12-07
+:URL: https://emacsconf.org/2024/talks/color
+:MEDIA_URL: https://media.emacsconf.org/2024/emacsconf-2024-color--colour-your-emacs-with-ease--ryota--main.webm
+:YOUTUBE_URL: https://youtu.be/w1Khu7G0MFg
+:TOOBNIX_URL: https://toobnix.org/w/oAGLWntah15B4XHLX19Uqc
+:TRANSCRIPT_URL: https://media.emacsconf.org/2024/emacsconf-2024-color--colour-your-emacs-with-ease--ryota--main.vtt
+:SPEAKERS: Ryota Sawada
+:SERIES: EmacsConf 2024
+:END:
+* p-search: a local search engine in Emacs  :emacsconf:emacsconf2024:search:
+:PROPERTIES:
+:DATE: 2024-12-07
+:URL: https://emacsconf.org/2024/talks/p-search
+:MEDIA_URL: https://media.emacsconf.org/2024/emacsconf-2024-p-search--psearch-a-local-search-engine-in-emacs--zac-romero--main.webm
+:YOUTUBE_URL: https://youtu.be/WwgqbT2rnHI
+:TOOBNIX_URL: https://toobnix.org/w/5dxttHedexYoCLxpT4VyMT
+:TRANSCRIPT_URL: https://media.emacsconf.org/2024/emacsconf-2024-p-search--psearch-a-local-search-engine-in-emacs--zac-romero--main.vtt
+:SPEAKERS: Zac Romero
+:SERIES: EmacsConf 2024
+:END:
+* Exploring shared philosophies in Julia and Emacs  :emacsconf:emacsconf2024:julia:
+:PROPERTIES:
+:DATE: 2024-12-07
+:URL: https://emacsconf.org/2024/talks/julia
+:MEDIA_URL: https://media.emacsconf.org/2024/emacsconf-2024-julia--exploring-shared-philosophies-in-julia-and-emacs--gabriele-bozzola--main.webm
+:YOUTUBE_URL: https://youtu.be/RTVXaDR697k
+:TOOBNIX_URL: https://toobnix.org/w/eftuibSfVSWF4okoG5ChfC
+:TRANSCRIPT_URL: https://media.emacsconf.org/2024/emacsconf-2024-julia--exploring-shared-philosophies-in-julia-and-emacs--gabriele-bozzola--main.vtt
+:SPEAKERS: Gabriele Bozzola
+:SERIES: EmacsConf 2024
+:END:
+* My journey of finding and creating the “perfect” Emacs theme  :emacsconf:emacsconf2024:theming:
+:PROPERTIES:
+:DATE: 2024-12-07
+:URL: https://emacsconf.org/2024/talks/theme
+:MEDIA_URL: https://media.emacsconf.org/2024/emacsconf-2024-theme--my-journey-of-finding-and-creating-the-perfect-emacs-theme--metrowind--main.webm
+:YOUTUBE_URL: https://youtu.be/GMzQs-pbueU
+:TOOBNIX_URL: https://toobnix.org/w/i1zSnandCQWd8688pyxhKr
+:TRANSCRIPT_URL: https://media.emacsconf.org/2024/emacsconf-2024-theme--my-journey-of-finding-and-creating-the-perfect-emacs-theme--metrowind--main.vtt
+:SPEAKERS: MetroWind
+:SERIES: EmacsConf 2024
+:END:
+* Beguiling Emacs: Guile-Emacs relaunched!  :emacsconf:emacsconf2024:guile:
+:PROPERTIES:
+:DATE: 2024-12-07
+:URL: https://emacsconf.org/2024/talks/guile
+:MEDIA_URL: https://media.emacsconf.org/2024/emacsconf-2024-guile--beguiling-emacs-guileemacs-relaunched--robin-templeton--main.webm
+:YOUTUBE_URL: https://youtu.be/yjC162DnsKI
+:TOOBNIX_URL: https://toobnix.org/w/iizGyFwoAetXBw3Uy67vwj
+:TRANSCRIPT_URL: https://media.emacsconf.org/2024/emacsconf-2024-guile--beguiling-emacs-guileemacs-relaunched--robin-templeton--main.vtt
+:SPEAKERS: Robin Templeton
+:SERIES: EmacsConf 2024
+:END:
+* Watering my (digital) plant with Emacs timers  :emacsconf:emacsconf2024:timers:
+:PROPERTIES:
+:DATE: 2024-12-07
+:URL: https://emacsconf.org/2024/talks/water
+:MEDIA_URL: https://media.emacsconf.org/2024/emacsconf-2024-water--watering-my-digital-plant-with-emacs-timers--christopher-howard--main.webm
+:YOUTUBE_URL: https://youtu.be/dje40OyZuoo
+:TOOBNIX_URL: https://toobnix.org/w/kbwz39PxBuNKWcJfr5bGvW
+:TRANSCRIPT_URL: https://media.emacsconf.org/2024/emacsconf-2024-water--watering-my-digital-plant-with-emacs-timers--christopher-howard--main.vtt
+:SPEAKERS: Christopher Howard
+:SERIES: EmacsConf 2024
+:END:
+* Committing secrets with git using sops-mode  :emacsconf:emacsconf2024:vc:git:
+:PROPERTIES:
+:DATE: 2024-12-07
+:URL: https://emacsconf.org/2024/talks/secrets
+:MEDIA_URL: https://media.emacsconf.org/2024/emacsconf-2024-secrets--committing-secrets-with-git-using-sopsmode--jonathan-otsuka--main.webm
+:YOUTUBE_URL:
+:TOOBNIX_URL:
+:TRANSCRIPT_URL: https://media.emacsconf.org/2024/emacsconf-2024-secrets--committing-secrets-with-git-using-sopsmode--jonathan-otsuka--main.vtt
+:SPEAKERS: Jonathan Otsuka
+:SERIES: EmacsConf 2024
+:END:
+* Emacs as a shell  :emacsconf:emacsconf2024:shell:
+:PROPERTIES:
+:DATE: 2024-12-07
+:URL: https://emacsconf.org/2024/talks/shell
+:MEDIA_URL: https://media.emacsconf.org/2024/emacsconf-2024-shell--emacs-as-a-shell--christopher-howard--main.webm
+:YOUTUBE_URL: https://youtu.be/jhX8wz8LeXE
+:TOOBNIX_URL: https://toobnix.org/w/hJ11FBLcpEF4cMxMpJi3FE
+:TRANSCRIPT_URL: https://media.emacsconf.org/2024/emacsconf-2024-shell--emacs-as-a-shell--christopher-howard--main.vtt
+:SPEAKERS: Christopher Howard
+:SERIES: EmacsConf 2024
+:END:
+* Elisp and McCLIM  :emacsconf:emacsconf2024:CommonLisp:elisp:
+:PROPERTIES:
+:DATE: 2024-12-07
+:URL: https://emacsconf.org/2024/talks/mcclim
+:MEDIA_URL: https://media.emacsconf.org/2024/emacsconf-2024-mcclim--elisp-and-mcclim--screwlisp--main.webm
+:YOUTUBE_URL: https://youtu.be/cuJ3qih7408
+:TOOBNIX_URL: https://toobnix.org/w/pfYUAuMPmkTRfBZSgXFtbT
+:TRANSCRIPT_URL: https://media.emacsconf.org/2024/emacsconf-2024-mcclim--elisp-and-mcclim--screwlisp--main.vtt
+:SPEAKERS: screwlisp
+:SERIES: EmacsConf 2024
+:END:
+* Re-imagining the Emacs user experience with Casual Suite  :emacsconf:emacsconf2024:keybinding:menu:ui:
+:PROPERTIES:
+:DATE: 2024-12-07
+:URL: https://emacsconf.org/2024/talks/casual
+:MEDIA_URL: https://media.emacsconf.org/2024/emacsconf-2024-casual--reimagining-the-emacs-user-experience-with-casual-suite--charles-choi--main.webm
+:YOUTUBE_URL: https://youtu.be/-eMmmAKcFR4
+:TOOBNIX_URL: https://toobnix.org/w/5vCCqXFtWJ3EK7W3HKPRUD
+:TRANSCRIPT_URL: https://media.emacsconf.org/2024/emacsconf-2024-casual--reimagining-the-emacs-user-experience-with-casual-suite--charles-choi--main.vtt
+:SPEAKERS: Charles Choi
+:SERIES: EmacsConf 2024
+:END:
+* New in hyperdrive.el: quick install, peer graph, transclusion!  :emacsconf:emacsconf2024:hyperdrive:
+:PROPERTIES:
+:DATE: 2024-12-07
+:URL: https://emacsconf.org/2024/talks/hyperdrive
+:MEDIA_URL: https://media.emacsconf.org/2024/emacsconf-2024-hyperdrive--new-in-hyperdriveel-quick-install-peer-graph-transclusion--joseph-turner--main.webm
+:YOUTUBE_URL: https://youtu.be/zG9qFogCY2A
+:TOOBNIX_URL: https://toobnix.org/w/pea2Nfx82eZhBAN2zatdix
+:TRANSCRIPT_URL: https://media.emacsconf.org/2024/emacsconf-2024-hyperdrive--new-in-hyperdriveel-quick-install-peer-graph-transclusion--joseph-turner--main.vtt
+:SPEAKERS: Joseph Turner
+:SERIES: EmacsConf 2024
+:END:
+* Emacs, eev, and Maxima - now!  :emacsconf:emacsconf2024:eev:
+:PROPERTIES:
+:DATE: 2024-12-07
+:URL: https://emacsconf.org/2024/talks/maxima
+:MEDIA_URL: https://media.emacsconf.org/2024/emacsconf-2024-maxima--emacs-eev-and-maxima-now--eduardo-ochs--main.webm
+:YOUTUBE_URL: https://www.youtube.com/watch?v=vIGreLNBqSg
+:TOOBNIX_URL: https://toobnix.org/w/6odX1p46GQ3XnnRPedgWRr
+:TRANSCRIPT_URL: https://media.emacsconf.org/2024/emacsconf-2024-maxima--emacs-eev-and-maxima-now--eduardo-ochs--main.vtt
+:SPEAKERS: Eduardo Ochs
+:SERIES: EmacsConf 2024
+:END:
+* Emacs Writing Studio  :emacsconf:emacsconf2024:writing:StarterKit:
+:PROPERTIES:
+:DATE: 2024-12-07
+:URL: https://emacsconf.org/2024/talks/writing
+:MEDIA_URL: https://media.emacsconf.org/2024/emacsconf-2024-writing--emacs-writing-studio--peter-prevos--main.webm
+:YOUTUBE_URL: https://youtu.be/sIoCeje53eU
+:TOOBNIX_URL: https://toobnix.org/w/5iSx9Hu5JvZE7j4UF82t4H
+:TRANSCRIPT_URL: https://media.emacsconf.org/2024/emacsconf-2024-writing--emacs-writing-studio--peter-prevos--main.vtt
+:SPEAKERS: Peter Prevos
+:SERIES: EmacsConf 2024
+:END:
+* Emacs 30 Highlights  :emacsconf:emacsconf2024:highlights:update:EmacsDevel:
+:PROPERTIES:
+:DATE: 2024-12-07
+:URL: https://emacsconf.org/2024/talks/emacs30
+:MEDIA_URL: https://media.emacsconf.org/2024/emacsconf-2024-emacs30--emacs-30-highlights--philip-kaludercic--main.webm
+:YOUTUBE_URL: https://youtu.be/xZJhMAMI7A0
+:TOOBNIX_URL: https://toobnix.org/w/fxFD5JMMkmj1bazUw4zErx
+:TRANSCRIPT_URL: https://media.emacsconf.org/2024/emacsconf-2024-emacs30--emacs-30-highlights--philip-kaludercic--main.vtt
+:SPEAKERS: Philip Kaludercic
+:SERIES: EmacsConf 2024
+:END:
+* Saturday closing remarks  :emacsconf:emacsconf2024:closing:
+:PROPERTIES:
+:DATE: 2024-12-07
+:URL: https://emacsconf.org/2024/talks/sat-close
+:MEDIA_URL: https://media.emacsconf.org/2024/emacsconf-2024-sat-close--saturday-closing-remarks--main.webm
+:YOUTUBE_URL:
+:TOOBNIX_URL:
+:TRANSCRIPT_URL: https://media.emacsconf.org/2024/emacsconf-2024-sat-close--saturday-closing-remarks--main.vtt
+:SPEAKERS:
+:SERIES: EmacsConf 2024
+:END:
+* Unlocking linked data: replacing specialized apps with an Org-based semantic wiki  :emacsconf:emacsconf2024:org:pkm:
+:PROPERTIES:
+:DATE: 2024-12-08
+:URL: https://emacsconf.org/2024/talks/links
+:MEDIA_URL: https://media.emacsconf.org/2024/emacsconf-2024-links--unlocking-linked-data-replacing-specialized-apps-with-an-orgbased-semantic-wiki--abhinav-tushar--main.webm
+:YOUTUBE_URL: https://youtu.be/yp01TbmeWpc
+:TOOBNIX_URL: https://toobnix.org/w/qUW7dHGcHqXW5ZVKtwXspy
+:TRANSCRIPT_URL: https://media.emacsconf.org/2024/emacsconf-2024-links--unlocking-linked-data-replacing-specialized-apps-with-an-orgbased-semantic-wiki--abhinav-tushar--main.vtt
+:SPEAKERS: Abhinav Tushar
+:SERIES: EmacsConf 2024
+:END:
+* Emacs regex compilation and future directions for expressive pattern matching  :emacsconf:emacsconf2024:regex:
+:PROPERTIES:
+:DATE: 2024-12-08
+:URL: https://emacsconf.org/2024/talks/regex
+:MEDIA_URL: https://media.emacsconf.org/2024/emacsconf-2024-regex--emacs-regex-compilation-and-future-directions-for-expressive-pattern-matching--danny-mcclanahan--main.webm
+:YOUTUBE_URL: https://www.youtube.com/watch?v=v3Bl8VLaLqg
+:TOOBNIX_URL: https://toobnix.org/w/q6Mhn7TPtDi7acd6y3KtRf
+:TRANSCRIPT_URL: https://media.emacsconf.org/2024/emacsconf-2024-regex--emacs-regex-compilation-and-future-directions-for-expressive-pattern-matching--danny-mcclanahan--main.vtt
+:SPEAKERS: Danny McClanahan
+:SERIES: EmacsConf 2024
+:END:
+* Survival of the skillest: Thriving in the learning jungle  :emacsconf:emacsconf2024:learning:planning:org:gtd:
+:PROPERTIES:
+:DATE: 2024-12-08
+:URL: https://emacsconf.org/2024/talks/learning
+:MEDIA_URL: https://media.emacsconf.org/2024/emacsconf-2024-learning--survival-of-the-skillest-thriving-in-the-learning-jungle--bala-ramadurai--main.webm
+:YOUTUBE_URL: https://youtu.be/VcHy8XnPia8
+:TOOBNIX_URL: https://toobnix.org/w/2FSZbvb7v5eZMRFL1f2DXP
+:TRANSCRIPT_URL: https://media.emacsconf.org/2024/emacsconf-2024-learning--survival-of-the-skillest-thriving-in-the-learning-jungle--bala-ramadurai--main.vtt
+:SPEAKERS: Bala Ramadurai
+:SERIES: EmacsConf 2024
+:END:
+* About Blee: enveloping our own autonomy directed digital ecosystem with Emacs  :emacsconf:emacsconf2024:StarterKit:config:
+:PROPERTIES:
+:DATE: 2024-12-08
+:URL: https://emacsconf.org/2024/talks/blee
+:MEDIA_URL: https://media.emacsconf.org/2024/emacsconf-2024-blee--about-blee-towards-an-integrated-emacs-environment-for-enveloping-our-own-autonomy-directed-digital-ecosystem--mohsen-banan--main.webm
+:YOUTUBE_URL: https://youtu.be/wa6tjBXZiTU
+:TOOBNIX_URL: https://toobnix.org/w/4VywQEXSoLARtG1JZf9hoo
+:TRANSCRIPT_URL: https://media.emacsconf.org/2024/emacsconf-2024-blee--about-blee-towards-an-integrated-emacs-environment-for-enveloping-our-own-autonomy-directed-digital-ecosystem--mohsen-banan--main.vtt
+:SPEAKERS: Mohsen BANAN
+:SERIES: EmacsConf 2024
+:END:
+* Fun things with GNU Hyperbole  :emacsconf:emacsconf2024:hyperbole:
+:PROPERTIES:
+:DATE: 2024-12-08
+:URL: https://emacsconf.org/2024/talks/hyperbole
+:MEDIA_URL: https://media.emacsconf.org/2024/emacsconf-2024-hyperbole--fun-things-with-gnu-hyperbole--mats-lidell--main.webm
+:YOUTUBE_URL: https://youtu.be/cFdgpb0TeQo
+:TOOBNIX_URL: https://toobnix.org/w/jrZezGxN7xhH9gjfEC3Ux6
+:TRANSCRIPT_URL: https://media.emacsconf.org/2024/emacsconf-2024-hyperbole--fun-things-with-gnu-hyperbole--mats-lidell--main.vtt
+:SPEAKERS: Mats Lidell
+:SERIES: EmacsConf 2024
+:END:
+* Open mic/pad for quick updates etc.  :emacsconf:emacsconf2024:community:
+:PROPERTIES:
+:DATE: 2024-12-08
+:URL: https://emacsconf.org/2024/talks/open-mic
+:MEDIA_URL: https://media.emacsconf.org/2024/emacsconf-2024-open-mic--open-micpad-for-quick-updates-etc--main.webm
+:YOUTUBE_URL:
+:TOOBNIX_URL:
+:TRANSCRIPT_URL: https://media.emacsconf.org/2024/emacsconf-2024-open-mic--open-micpad-for-quick-updates-etc--main.vtt
+:SPEAKERS:
+:SERIES: EmacsConf 2024
+:END:
+* PGmacs: browsing and editing PostgreSQL databases from Emacs  :emacsconf:emacsconf2024:db:postgres:coding:
+:PROPERTIES:
+:DATE: 2024-12-08
+:URL: https://emacsconf.org/2024/talks/pgmacs
+:MEDIA_URL: https://media.emacsconf.org/2024/emacsconf-2024-pgmacs--pgmacs-browsing-and-editing-postgresql-databases-from-emacs--eric-marsden--main.webm
+:YOUTUBE_URL: https://youtu.be/BLs9gc_MLh0
+:TOOBNIX_URL:
+:TRANSCRIPT_URL: https://media.emacsconf.org/2024/emacsconf-2024-pgmacs--pgmacs-browsing-and-editing-postgresql-databases-from-emacs--eric-marsden--main.vtt
+:SPEAKERS: Eric Marsden
+:SERIES: EmacsConf 2024
+:END:
+* Literate programming for the 21st Century  :emacsconf:emacsconf2024:org:OrgBabel:literate:
+:PROPERTIES:
+:DATE: 2024-12-08
+:URL: https://emacsconf.org/2024/talks/literate
+:MEDIA_URL: https://media.emacsconf.org/2024/emacsconf-2024-literate--literate-programming-for-the-21st-century--howard-abrams--main.webm
+:YOUTUBE_URL: https://youtu.be/9eEtPnTknhQ
+:TOOBNIX_URL: https://toobnix.org/w/mNDvUTsr99KV59dkTsZEbb
+:TRANSCRIPT_URL: https://media.emacsconf.org/2024/emacsconf-2024-literate--literate-programming-for-the-21st-century--howard-abrams--main.vtt
+:SPEAKERS: Howard Abrams
+:SERIES: EmacsConf 2024
+:END:
+* An example of a cohesive student workflow in Emacs  :emacsconf:emacsconf2024:workflow:student:org:
+:PROPERTIES:
+:DATE: 2024-12-08
+:URL: https://emacsconf.org/2024/talks/students
+:MEDIA_URL: https://media.emacsconf.org/2024/emacsconf-2024-students--an-example-of-a-cohesive-student-workflow-in-emacs--daniel-pinkston--main.webm
+:YOUTUBE_URL: https://www.youtube.com/watch?v=7WTIKv5g6mw
+:TOOBNIX_URL: https://toobnix.org/w/kBVhYEDpS6mvUPWLeQHGn1
+:TRANSCRIPT_URL: https://media.emacsconf.org/2024/emacsconf-2024-students--an-example-of-a-cohesive-student-workflow-in-emacs--daniel-pinkston--main.vtt
+:SPEAKERS: Daniel Pinkston
+:SERIES: EmacsConf 2024
+:END:
+* So you want to be an Emacs-fluencer?  :emacsconf:emacsconf2024:video:sharing:
+:PROPERTIES:
+:DATE: 2024-12-08
+:URL: https://emacsconf.org/2024/talks/sharing
+:MEDIA_URL: https://media.emacsconf.org/2024/emacsconf-2024-sharing--so-you-want-to-be-an-emacsfluencer--gopar--main.webm
+:YOUTUBE_URL: https://youtu.be/0EF-jNk5kUY
+:TOOBNIX_URL: https://toobnix.org/w/a8CwD5Svj5AeX3rdzLxyP7
+:TRANSCRIPT_URL: https://media.emacsconf.org/2024/emacsconf-2024-sharing--so-you-want-to-be-an-emacsfluencer--gopar--main.vtt
+:SPEAKERS: Gopar
+:SERIES: EmacsConf 2024
+:END:
+* Transducers: finally, ergonomic data processing for Emacs!  :emacsconf:emacsconf2024:elisp:data:
+:PROPERTIES:
+:DATE: 2024-12-08
+:URL: https://emacsconf.org/2024/talks/transducers
+:MEDIA_URL: https://media.emacsconf.org/2024/emacsconf-2024-transducers--transducers-finally-ergonomic-data-processing-for-emacs--colin-woodbury--main.webm
+:YOUTUBE_URL: https://youtu.be/0FTBMyLkPFw
+:TOOBNIX_URL:
+:TRANSCRIPT_URL: https://media.emacsconf.org/2024/emacsconf-2024-transducers--transducers-finally-ergonomic-data-processing-for-emacs--colin-woodbury--main.vtt
+:SPEAKERS: Colin Woodbury
+:SERIES: EmacsConf 2024
+:END:
+* Sunday closing remarks  :emacsconf:emacsconf2024:
+:PROPERTIES:
+:DATE: 2024-12-08
+:URL: https://emacsconf.org/2024/talks/sun-close
+:MEDIA_URL: https://media.emacsconf.org/2024/emacsconf-2024-sun-close--sunday-closing-remarks--main.webm
+:YOUTUBE_URL:
+:TOOBNIX_URL:
+:TRANSCRIPT_URL: https://media.emacsconf.org/2024/emacsconf-2024-sun-close--sunday-closing-remarks--main.vtt
+:SPEAKERS:
+:SERIES: EmacsConf 2024
+:END:
+* An Org-Mode based text adventure game for learning the basics of Emacs, inside Emacs, written in Emacs Lisp  :emacsconf:emacsconf2023:fun:learning:org:
+:PROPERTIES:
+:DATE: 2023-12-02
+:URL: https://emacsconf.org/2023/talks/adventure
+:MEDIA_URL: https://media.emacsconf.org/2023/emacsconf-2023-adventure--an-orgmode-based-text-adventure-game-for-learning-the-basics-of-emacs-inside-emacs-written-in-emacs-lisp--chunghong-chan--main.webm
+:YOUTUBE_URL: https://youtu.be/7R0yA0R1jsk
+:TOOBNIX_URL: https://toobnix.org/w/2oqbPJB8Wm3QSo4HCKAyVn
+:TRANSCRIPT_URL: https://media.emacsconf.org/2023/emacsconf-2023-adventure--an-orgmode-based-text-adventure-game-for-learning-the-basics-of-emacs-inside-emacs-written-in-emacs-lisp--chunghong-chan--main.vtt
+:SPEAKERS: Chung-hong Chan
+:SERIES: EmacsConf 2023
+:END:
+* Authoring and presenting university courses with Emacs and a full libre software stack  :emacsconf:emacsconf2023:teaching:org:latex:beamer:
+:PROPERTIES:
+:DATE: 2023-12-02
+:URL: https://emacsconf.org/2023/talks/uni
+:MEDIA_URL: https://media.emacsconf.org/2023/emacsconf-2023-uni--authoring-and-presenting-university-courses-with-emacs-and-a-full-libre-software-stack--james-howell--main.webm
+:YOUTUBE_URL: https://www.youtube.com/watch?v=cklJ58i-HUY
+:TOOBNIX_URL: https://toobnix.org/w/mAnNW7jnPq5qhUPH2dzVQf
+:TRANSCRIPT_URL: https://media.emacsconf.org/2023/emacsconf-2023-uni--authoring-and-presenting-university-courses-with-emacs-and-a-full-libre-software-stack--james-howell--main.vtt
+:SPEAKERS: James Howell
+:SERIES: EmacsConf 2023
+:END:
+* MatplotLLM, iterative natural language data visualization in org-babel  :emacsconf:emacsconf2023:math:ai:org:OrgBabel:
+:PROPERTIES:
+:DATE: 2023-12-02
+:URL: https://emacsconf.org/2023/talks/matplotllm
+:MEDIA_URL: https://media.emacsconf.org/2023/emacsconf-2023-matplotllm--matplotllm-iterative-natural-language-data-visualization-in-orgbabel--abhinav-tushar--main.webm
+:YOUTUBE_URL: https://youtu.be/LhhFA5i_Os4
+:TOOBNIX_URL: https://toobnix.org/w/7bwq1vAqYzY24iEMYAdcB1
+:TRANSCRIPT_URL: https://media.emacsconf.org/2023/emacsconf-2023-matplotllm--matplotllm-iterative-natural-language-data-visualization-in-orgbabel--abhinav-tushar--main.vtt
+:SPEAKERS: Abhinav Tushar
+:SERIES: EmacsConf 2023
+:END:
+* Teaching computer and data science with literate programming tools  :emacsconf:emacsconf2023:org:teaching:literate:
+:PROPERTIES:
+:DATE: 2023-12-02
+:URL: https://emacsconf.org/2023/talks/teaching
+:MEDIA_URL: https://media.emacsconf.org/2023/emacsconf-2023-teaching--teaching-computer-and-data-science-with-literate-programming-tools--marcus-birkenkrahe--main.webm
+:YOUTUBE_URL: https://youtu.be/U15zUNBz2CU
+:TOOBNIX_URL: https://toobnix.org/w/b4eLjcLo9vcewVTzrv95L8
+:TRANSCRIPT_URL: https://media.emacsconf.org/2023/emacsconf-2023-teaching--teaching-computer-and-data-science-with-literate-programming-tools--marcus-birkenkrahe--main.vtt
+:SPEAKERS: Marcus Birkenkrahe
+:SERIES: EmacsConf 2023
+:END:
+* Enhancing productivity with voice computing  :emacsconf:emacsconf2023:voice:
+:PROPERTIES:
+:DATE: 2023-12-02
+:URL: https://emacsconf.org/2023/talks/voice
+:MEDIA_URL: https://media.emacsconf.org/2023/emacsconf-2023-voice--enhancing-productivity-with-voice-computing--blaine-mooers--main.webm
+:YOUTUBE_URL: https://www.youtube.com/watch?v=Z7l1ImjXOWM
+:TOOBNIX_URL: https://toobnix.org/w/vYHj7iSYhUbTxDv93NvzzY
+:TRANSCRIPT_URL: https://media.emacsconf.org/2023/emacsconf-2023-voice--enhancing-productivity-with-voice-computing--blaine-mooers--main.vtt
+:SPEAKERS: Blaine Mooers
+:SERIES: EmacsConf 2023
+:END:
+* Who needs Excel? Managing your students qualifications with org-table  :emacsconf:emacsconf2023:teaching:org:tables:
+:PROPERTIES:
+:DATE: 2023-12-02
+:URL: https://emacsconf.org/2023/talks/table
+:MEDIA_URL: https://media.emacsconf.org/2023/emacsconf-2023-table--who-needs-excel-managing-your-students-qualifications-with-orgtable--daniel-molina--main.webm
+:YOUTUBE_URL: https://www.youtube.com/watch?v=UzDqOrFGWbw
+:TOOBNIX_URL: https://toobnix.org/w/p8K8mtayv2HYtw1gK3zUwR
+:TRANSCRIPT_URL: https://media.emacsconf.org/2023/emacsconf-2023-table--who-needs-excel-managing-your-students-qualifications-with-orgtable--daniel-molina--main.vtt
+:SPEAKERS: Daniel Molina
+:SERIES: EmacsConf 2023
+:END:
+* LLM clients in Emacs, functionality and standardization  :emacsconf:emacsconf2023:ai:
+:PROPERTIES:
+:DATE: 2023-12-02
+:URL: https://emacsconf.org/2023/talks/llm
+:MEDIA_URL: https://media.emacsconf.org/2023/emacsconf-2023-llm--llm-clients-in-emacs-functionality-and-standardization--andrew-hyatt--main.webm
+:YOUTUBE_URL: https://www.youtube.com/watch?v=HN3Y75D4tEs
+:TOOBNIX_URL: https://toobnix.org/w/ck1LWXvRiAGNLWFA8s4Ymi
+:TRANSCRIPT_URL: https://media.emacsconf.org/2023/emacsconf-2023-llm--llm-clients-in-emacs-functionality-and-standardization--andrew-hyatt--main.vtt
+:SPEAKERS: Andrew Hyatt
+:SERIES: EmacsConf 2023
+:END:
+* one.el: the static site generator for Emacs Lisp Programmers  :emacsconf:emacsconf2023:org:sharing:
+:PROPERTIES:
+:DATE: 2023-12-02
+:URL: https://emacsconf.org/2023/talks/one
+:MEDIA_URL: https://media.emacsconf.org/2023/emacsconf-2023-one--oneel-the-static-site-generator-for-emacs-lisp-programmers--tony-aldon--main.webm
+:YOUTUBE_URL: https://www.youtube.com/watch?v=GGP2mxZn4mY
+:TOOBNIX_URL: https://toobnix.org/w/x2yYYWLHQe75FTV8sWiDmy
+:TRANSCRIPT_URL: https://media.emacsconf.org/2023/emacsconf-2023-one--oneel-the-static-site-generator-for-emacs-lisp-programmers--tony-aldon--main.vtt
+:SPEAKERS: Tony Aldon
+:SERIES: EmacsConf 2023
+:END:
+* Emacs turbo-charges my writing  :emacsconf:emacsconf2023:writing:
+:PROPERTIES:
+:DATE: 2023-12-02
+:URL: https://emacsconf.org/2023/talks/writing
+:MEDIA_URL: https://media.emacsconf.org/2023/emacsconf-2023-writing--emacs-turbocharges-my-writing--jeremy-friesen--main.webm
+:YOUTUBE_URL: https://www.youtube.com/watch?v=HxlEK6W7RyA
+:TOOBNIX_URL: https://toobnix.org/w/ke3UCJaJSLyQr7Emv8VxST
+:TRANSCRIPT_URL: https://media.emacsconf.org/2023/emacsconf-2023-writing--emacs-turbocharges-my-writing--jeremy-friesen--main.vtt
+:SPEAKERS: Jeremy Friesen
+:SERIES: EmacsConf 2023
+:END:
+* Improving compiler diagnostics with overlays  :emacsconf:emacsconf2023:coding:appearance:elisp:
+:PROPERTIES:
+:DATE: 2023-12-02
+:URL: https://emacsconf.org/2023/talks/overlay
+:MEDIA_URL: https://media.emacsconf.org/2023/emacsconf-2023-overlay--improving-compiler-diagnostics-with-overlays--jeff-trull--main.webm
+:YOUTUBE_URL: https://www.youtube.com/watch?v=g7mwN5QtcmA
+:TOOBNIX_URL: https://toobnix.org/w/5fJkawU4R9b1dJq5BcDykx
+:TRANSCRIPT_URL: https://media.emacsconf.org/2023/emacsconf-2023-overlay--improving-compiler-diagnostics-with-overlays--jeff-trull--main.vtt
+:SPEAKERS: Jeff Trull
+:SERIES: EmacsConf 2023
+:END:
+* Why Nabokov would use Org-Mode if he were writing today  :emacsconf:emacsconf2023:writing:org:
+:PROPERTIES:
+:DATE: 2023-12-02
+:URL: https://emacsconf.org/2023/talks/nabokov
+:MEDIA_URL: https://media.emacsconf.org/2023/emacsconf-2023-nabokov--why-nabokov-would-use-orgmode-if-he-were-writing-today--edmund-jorgensen--main.webm
+:YOUTUBE_URL: https://www.youtube.com/watch?v=-E_uNxwL2_I
+:TOOBNIX_URL: https://toobnix.org/w/bDou9TDETryMt18KcdB56A
+:TRANSCRIPT_URL: https://media.emacsconf.org/2023/emacsconf-2023-nabokov--why-nabokov-would-use-orgmode-if-he-were-writing-today--edmund-jorgensen--main.vtt
+:SPEAKERS: Edmund Jorgensen
+:SERIES: EmacsConf 2023
+:END:
+* Editor Integrated REPL Driven Development for all languages  :emacsconf:emacsconf2023:coding:repl:
+:PROPERTIES:
+:DATE: 2023-12-02
+:URL: https://emacsconf.org/2023/talks/eval
+:MEDIA_URL: https://media.emacsconf.org/2023/emacsconf-2023-eval--editor-integrated-repl-driven-development-for-all-languages--musa-alhassy--main.webm
+:YOUTUBE_URL: https://www.youtube.com/watch?v=1bk0pqpMCfQ
+:TOOBNIX_URL: https://toobnix.org/w/74srjNx1cgMr5MsJ9NWNNi
+:TRANSCRIPT_URL: https://media.emacsconf.org/2023/emacsconf-2023-eval--editor-integrated-repl-driven-development-for-all-languages--musa-alhassy--main.vtt
+:SPEAKERS: Musa Al-hassy
+:SERIES: EmacsConf 2023
+:END:
+* Collaborative data processing and documenting using org-babel  :emacsconf:emacsconf2023:org:OrgBabel:collaboration:literate:
+:PROPERTIES:
+:DATE: 2023-12-02
+:URL: https://emacsconf.org/2023/talks/collab
+:MEDIA_URL: https://media.emacsconf.org/2023/emacsconf-2023-collab--collaborative-data-processing-and-documenting-using-orgbabel--jonathan-hartman-lukas-c-bossert--main.webm
+:YOUTUBE_URL: https://www.youtube.com/watch?v=fz7-Kd83IjM
+:TOOBNIX_URL: https://toobnix.org/w/7AAwoawr5MXNSrqiHJQoak
+:TRANSCRIPT_URL: https://media.emacsconf.org/2023/emacsconf-2023-collab--collaborative-data-processing-and-documenting-using-orgbabel--jonathan-hartman-lukas-c-bossert--main.vtt
+:SPEAKERS: Jonathan Hartman, Lukas C. Bossert
+:SERIES: EmacsConf 2023
+:END:
+* REPLs in strange places: Lua, LaTeX, LPeg, LPegRex, TikZ  :emacsconf:emacsconf2023:repl:coding:
+:PROPERTIES:
+:DATE: 2023-12-02
+:URL: https://emacsconf.org/2023/talks/repl
+:MEDIA_URL: https://media.emacsconf.org/2023/emacsconf-2023-repl--repls-in-strange-places-lua-latex-lpeg-lpegrex-tikz--eduardo-ochs--main.webm
+:YOUTUBE_URL: https://www.youtube.com/watch?v=lGjfzfC1CH0
+:TOOBNIX_URL: https://toobnix.org/w/oAjqkLNfo9B63EE1G6cJJV
+:TRANSCRIPT_URL: https://media.emacsconf.org/2023/emacsconf-2023-repl--repls-in-strange-places-lua-latex-lpeg-lpegrex-tikz--eduardo-ochs--main.vtt
+:SPEAKERS: Eduardo Ochs
+:SERIES: EmacsConf 2023
+:END:
+* How I play TTRPGs in Emacs  :emacsconf:emacsconf2023:fun:org:games:rpg:
+:PROPERTIES:
+:DATE: 2023-12-02
+:URL: https://emacsconf.org/2023/talks/solo
+:MEDIA_URL: https://media.emacsconf.org/2023/emacsconf-2023-solo--how-i-play-ttrpgs-in-emacs--howard-abrams--main.webm
+:YOUTUBE_URL: https://www.youtube.com/watch?v=KUMkj9HWiEY
+:TOOBNIX_URL: https://toobnix.org/w/oNkcCHdWCKXRv6KnUTAeEC
+:TRANSCRIPT_URL: https://media.emacsconf.org/2023/emacsconf-2023-solo--how-i-play-ttrpgs-in-emacs--howard-abrams--main.vtt
+:SPEAKERS: Howard Abrams
+:SERIES: EmacsConf 2023
+:END:
+* Org-Mode workflow: informal reference tracking  :emacsconf:emacsconf2023:org:workflow:research:
+:PROPERTIES:
+:DATE: 2023-12-02
+:URL: https://emacsconf.org/2023/talks/ref
+:MEDIA_URL: https://media.emacsconf.org/2023/emacsconf-2023-ref--orgmode-workflow-informal-reference-tracking--christopher-howard--main.webm
+:YOUTUBE_URL: https://www.youtube.com/watch?v=qx1yeJ1Exrw
+:TOOBNIX_URL: https://toobnix.org/w/cYpEatASFWXLzDfKH4Fhec
+:TRANSCRIPT_URL: https://media.emacsconf.org/2023/emacsconf-2023-ref--orgmode-workflow-informal-reference-tracking--christopher-howard--main.vtt
+:SPEAKERS: Christopher Howard
+:SERIES: EmacsConf 2023
+:END:
+* Literate Documentation with Emacs and Org Mode  :emacsconf:emacsconf2023:literate:org:
+:PROPERTIES:
+:DATE: 2023-12-02
+:URL: https://emacsconf.org/2023/talks/doc
+:MEDIA_URL: https://media.emacsconf.org/2023/emacsconf-2023-doc--literate-documentation-with-emacs-and-org-mode--mike-hamrick--main.webm
+:YOUTUBE_URL: https://www.youtube.com/watch?v=BAFZ-vTnfSo
+:TOOBNIX_URL: https://toobnix.org/w/8ak16Qy1tjeFEqmcnan6MQ
+:TRANSCRIPT_URL: https://media.emacsconf.org/2023/emacsconf-2023-doc--literate-documentation-with-emacs-and-org-mode--mike-hamrick--main.vtt
+:SPEAKERS: Mike Hamrick
+:SERIES: EmacsConf 2023
+:END:
+* (Un)entangling projects and repos  :emacsconf:emacsconf2023:org:projectile:OrgRoam:
+:PROPERTIES:
+:DATE: 2023-12-02
+:URL: https://emacsconf.org/2023/talks/unentangling
+:MEDIA_URL: https://media.emacsconf.org/2023/emacsconf-2023-unentangling--unentangling-projects-and-repos--alexey-bochkarev--main.webm
+:YOUTUBE_URL: https://www.youtube.com/watch?v=o9j4IwJsvPI
+:TOOBNIX_URL: https://toobnix.org/w/wLxyZBoFAad575Lp4PGyoF
+:TRANSCRIPT_URL: https://media.emacsconf.org/2023/emacsconf-2023-unentangling--unentangling-projects-and-repos--alexey-bochkarev--main.vtt
+:SPEAKERS: Alexey Bochkarev
+:SERIES: EmacsConf 2023
+:END:
+* Emacs development updates  :emacsconf:emacsconf2023:EmacsDevel:
+:PROPERTIES:
+:DATE: 2023-12-02
+:URL: https://emacsconf.org/2023/talks/devel
+:MEDIA_URL: https://media.emacsconf.org/2023/emacsconf-2023-devel--emacs-development-updates--john-wiegley--main.webm
+:YOUTUBE_URL: https://www.youtube.com/watch?v=SPSoRZVJUf8
+:TOOBNIX_URL: https://toobnix.org/w/57HSebb9a9JZynh2B3ehze
+:TRANSCRIPT_URL: https://media.emacsconf.org/2023/emacsconf-2023-devel--emacs-development-updates--john-wiegley--main.vtt
+:SPEAKERS: John Wiegley
+:SERIES: EmacsConf 2023
+:END:
+* Windows into Freedom  :emacsconf:emacsconf2023:windows:
+:PROPERTIES:
+:DATE: 2023-12-02
+:URL: https://emacsconf.org/2023/talks/windows
+:MEDIA_URL: https://media.emacsconf.org/2023/emacsconf-2023-windows--windows-into-freedom--corwin-brust--main.webm
+:YOUTUBE_URL: https://www.youtube.com/watch?v=7aVgVd2_HTs
+:TOOBNIX_URL: https://toobnix.org/w/4DeRkvJyKFdCBLWnHtsZW2
+:TRANSCRIPT_URL: https://media.emacsconf.org/2023/emacsconf-2023-windows--windows-into-freedom--corwin-brust--main.vtt
+:SPEAKERS: Corwin Brust
+:SERIES: EmacsConf 2023
+:END:
+* Emacs core development: how it works  :emacsconf:emacsconf2023:EmacsDevel:core:
+:PROPERTIES:
+:DATE: 2023-12-02
+:URL: https://emacsconf.org/2023/talks/core
+:MEDIA_URL: https://media.emacsconf.org/2023/emacsconf-2023-core--emacs-core-development-how-it-works--stefan-kangas--main.webm
+:YOUTUBE_URL: https://www.youtube.com/watch?v=2izQJiuL0vA
+:TOOBNIX_URL: https://toobnix.org/w/m4XmrmE9Geat54AKT1RQaH
+:TRANSCRIPT_URL: https://media.emacsconf.org/2023/emacsconf-2023-core--emacs-core-development-how-it-works--stefan-kangas--main.vtt
+:SPEAKERS: Stefan Kangas
+:SERIES: EmacsConf 2023
+:END:
+* Saturday closing remarks  :emacsconf:emacsconf2023:
+:PROPERTIES:
+:DATE: 2023-12-02
+:URL: https://emacsconf.org/2023/talks/sat-close
+:MEDIA_URL: https://media.emacsconf.org/2023/emacsconf-2023-sat-close--saturday-closing-remarks--main.webm
+:YOUTUBE_URL: https://www.youtube.com/watch?v=6OOUfBF6t7k
+:TOOBNIX_URL: https://www.youtube.com/playlist?list=PLomc4HLgvuCUdrW3JkugtKv8xPelUoOyP
+:TRANSCRIPT_URL: https://media.emacsconf.org/2023/emacsconf-2023-sat-close--saturday-closing-remarks--main.vtt
+:SPEAKERS:
+:SERIES: EmacsConf 2023
+:END:
+* Top 10 ways Hyperbole amps up Emacs  :emacsconf:emacsconf2023:hyperbole:
+:PROPERTIES:
+:DATE: 2023-12-03
+:URL: https://emacsconf.org/2023/talks/hyperamp
+:MEDIA_URL: https://media.emacsconf.org/2023/emacsconf-2023-hyperamp--top-10-ways-hyperbole-amps-up-emacs--robert-weiner--main.webm
+:YOUTUBE_URL: https://www.youtube.com/watch?v=BysjfL25Nlc
+:TOOBNIX_URL: https://toobnix.org/w/4Cpb89zHKgQjob3gHUs73C
+:TRANSCRIPT_URL: https://media.emacsconf.org/2023/emacsconf-2023-hyperamp--top-10-ways-hyperbole-amps-up-emacs--robert-weiner--main.vtt
+:SPEAKERS: Robert Weiner
+:SERIES: EmacsConf 2023
+:END:
+* Using Koutline for stream of thought journaling  :emacsconf:emacsconf2023:journaling:
+:PROPERTIES:
+:DATE: 2023-12-03
+:URL: https://emacsconf.org/2023/talks/koutline
+:MEDIA_URL: https://media.emacsconf.org/2023/emacsconf-2023-koutline--using-koutline-for-stream-of-thought-journaling--matthew-jorgensen-plasmastrike--main.webm
+:YOUTUBE_URL: https://www.youtube.com/watch?v=dO-gv898Vmg
+:TOOBNIX_URL: https://toobnix.org/w/vV7qtK176DVE6RLXrZ18Ee
+:TRANSCRIPT_URL: https://media.emacsconf.org/2023/emacsconf-2023-koutline--using-koutline-for-stream-of-thought-journaling--matthew-jorgensen-plasmastrike--main.vtt
+:SPEAKERS: Matthew Jorgensen (PlasmaStrike)
+:SERIES: EmacsConf 2023
+:END:
+* Bringing joy to Scheme programming  :emacsconf:emacsconf2023:scheme:coding:
+:PROPERTIES:
+:DATE: 2023-12-03
+:URL: https://emacsconf.org/2023/talks/scheme
+:MEDIA_URL: https://media.emacsconf.org/2023/emacsconf-2023-scheme--bringing-joy-to-scheme-programming--andrew-tropin--main.webm
+:YOUTUBE_URL: https://www.youtube.com/watch?v=F-H3YQywr-4
+:TOOBNIX_URL: https://toobnix.org/w/4moUfTEo2G8we5JuLGArWx
+:TRANSCRIPT_URL: https://media.emacsconf.org/2023/emacsconf-2023-scheme--bringing-joy-to-scheme-programming--andrew-tropin--main.vtt
+:SPEAKERS: Andrew Tropin
+:SERIES: EmacsConf 2023
+:END:
+* Parallel text replacement  :emacsconf:emacsconf2023:editing:
+:PROPERTIES:
+:DATE: 2023-12-03
+:URL: https://emacsconf.org/2023/talks/parallel
+:MEDIA_URL: https://media.emacsconf.org/2023/emacsconf-2023-parallel--parallel-text-replacement--lovro-valentino-picotti--main.webm
+:YOUTUBE_URL: https://www.youtube.com/watch?v=fUbBIWOJFh4
+:TOOBNIX_URL: https://toobnix.org/w/t3G5zo35epS6HvVot9MdZv
+:TRANSCRIPT_URL: https://media.emacsconf.org/2023/emacsconf-2023-parallel--parallel-text-replacement--lovro-valentino-picotti--main.vtt
+:SPEAKERS: Lovro, Valentino Picotti
+:SERIES: EmacsConf 2023
+:END:
+* Eat and Eat powered Eshell, fast featureful terminal inside Emacs  :emacsconf:emacsconf2023:shell:
+:PROPERTIES:
+:DATE: 2023-12-03
+:URL: https://emacsconf.org/2023/talks/eat
+:MEDIA_URL: https://media.emacsconf.org/2023/emacsconf-2023-eat--eat-and-eat-powered-eshell-fast-featureful-terminal-inside-emacs--akib-azmain-turja--main.webm
+:YOUTUBE_URL: https://www.youtube.com/watch?v=KQ5Jt-63G9U
+:TOOBNIX_URL: https://toobnix.org/w/t4pPDtbXiZdHHEyWJVUtNs
+:TRANSCRIPT_URL: https://media.emacsconf.org/2023/emacsconf-2023-eat--eat-and-eat-powered-eshell-fast-featureful-terminal-inside-emacs--akib-azmain-turja--main.vtt
+:SPEAKERS: Akib Azmain Turja
+:SERIES: EmacsConf 2023
+:END:
+* GNU Emacs: A World of Possibilities  :emacsconf:emacsconf2023:
+:PROPERTIES:
+:DATE: 2023-12-03
+:URL: https://emacsconf.org/2023/talks/world
+:MEDIA_URL: https://media.emacsconf.org/2023/emacsconf-2023-world--gnu-emacs-a-world-of-possibilities--anand-tamariya--main.webm
+:YOUTUBE_URL: https://www.youtube.com/watch?v=T5yZZK18w5w
+:TOOBNIX_URL: https://toobnix.org/w/jFaSuNYt2FqibtcAvmVdbF
+:TRANSCRIPT_URL: https://media.emacsconf.org/2023/emacsconf-2023-world--gnu-emacs-a-world-of-possibilities--anand-tamariya--main.vtt
+:SPEAKERS: Anand Tamariya
+:SERIES: EmacsConf 2023
+:END:
+* The browser in a buffer  :emacsconf:emacsconf2023:morning:web:
+:PROPERTIES:
+:DATE: 2023-12-03
+:URL: https://emacsconf.org/2023/talks/poltys
+:MEDIA_URL: https://media.emacsconf.org/2023/emacsconf-2023-poltys--the-browser-in-a-buffer--michael-bauer--main.webm
+:YOUTUBE_URL: https://www.youtube.com/watch?v=mp6gaVjmKIU
+:TOOBNIX_URL: https://toobnix.org/w/1quXfJqC9bh9VxkA9UC21x
+:TRANSCRIPT_URL: https://media.emacsconf.org/2023/emacsconf-2023-poltys--the-browser-in-a-buffer--michael-bauer--main.vtt
+:SPEAKERS: Michael Bauer
+:SERIES: EmacsConf 2023
+:END:
+* A modern Emacs look-and-feel without pain  :emacsconf:emacsconf2023:live:theming:
+:PROPERTIES:
+:DATE: 2023-12-03
+:URL: https://emacsconf.org/2023/talks/flat
+:MEDIA_URL: https://media.emacsconf.org/2023/emacsconf-2023-flat--a-modern-emacs-lookandfeel-without-pain--pedro-a-aranda--main.webm
+:YOUTUBE_URL: https://www.youtube.com/watch?v=E1u6DcHis9M
+:TOOBNIX_URL: https://toobnix.org/w/1DRDY8vZK3SW5M8zAPJQSp
+:TRANSCRIPT_URL: https://media.emacsconf.org/2023/emacsconf-2023-flat--a-modern-emacs-lookandfeel-without-pain--pedro-a-aranda--main.vtt
+:SPEAKERS: Pedro A. Aranda
+:SERIES: EmacsConf 2023
+:END:
+* Speedcubing in Emacs  :emacsconf:emacsconf2023:fun:
+:PROPERTIES:
+:DATE: 2023-12-03
+:URL: https://emacsconf.org/2023/talks/cubing
+:MEDIA_URL: https://media.emacsconf.org/2023/emacsconf-2023-cubing--speedcubing-in-emacs--vasilij-wasamasa-schneidermann--main.webm
+:YOUTUBE_URL: https://www.youtube.com/watch?v=Q5HPmyaiu4g
+:TOOBNIX_URL: https://toobnix.org/w/2DYX2o8kB1Rv8Mqaj7H1Dx
+:TRANSCRIPT_URL: https://media.emacsconf.org/2023/emacsconf-2023-cubing--speedcubing-in-emacs--vasilij-wasamasa-schneidermann--main.vtt
+:SPEAKERS: wasamasa
+:SERIES: EmacsConf 2023
+:END:
+* The Emacsen family, the design of an Emacs and the importance of Lisp  :emacsconf:emacsconf2023:elisp:
+:PROPERTIES:
+:DATE: 2023-12-03
+:URL: https://emacsconf.org/2023/talks/emacsen
+:MEDIA_URL: https://media.emacsconf.org/2023/emacsconf-2023-emacsen--the-emacsen-family-the-design-of-an-emacs-and-the-importance-of-lisp--fermin--main.webm
+:YOUTUBE_URL: https://www.youtube.com/watch?v=7SGcLpjC5CE
+:TOOBNIX_URL: https://toobnix.org/w/qgJ84RLV2FZYyeSusDskwU
+:TRANSCRIPT_URL: https://media.emacsconf.org/2023/emacsconf-2023-emacsen--the-emacsen-family-the-design-of-an-emacs-and-the-importance-of-lisp--fermin--main.vtt
+:SPEAKERS: Fermin
+:SERIES: EmacsConf 2023
+:END:
+* Emacs MultiMedia System (EMMS)  :emacsconf:emacsconf2023:multimedia:
+:PROPERTIES:
+:DATE: 2023-12-03
+:URL: https://emacsconf.org/2023/talks/emms
+:MEDIA_URL: https://media.emacsconf.org/2023/emacsconf-2023-emms--emacs-multimedia-system-emms--yoni-rabkin--main.webm
+:YOUTUBE_URL: https://www.youtube.com/watch?v=kII413hkyis
+:TOOBNIX_URL: https://toobnix.org/w/ppdF62LysvxpXgZVaeF9wk
+:TRANSCRIPT_URL: https://media.emacsconf.org/2023/emacsconf-2023-emms--emacs-multimedia-system-emms--yoni-rabkin--main.vtt
+:SPEAKERS: Yoni Rabkin
+:SERIES: EmacsConf 2023
+:END:
+* emacs-gc-stats: Does garbage collection actually slow down Emacs?  :emacsconf:emacsconf2023:dev:EmacsDevel:
+:PROPERTIES:
+:DATE: 2023-12-03
+:URL: https://emacsconf.org/2023/talks/gc
+:MEDIA_URL: https://media.emacsconf.org/2023/emacsconf-2023-gc--emacsgcstats-does-garbage-collection-actually-slow-down-emacs--ihor-radchenko--main.webm
+:YOUTUBE_URL: https://www.youtube.com/watch?v=YA1RJxH4xfQ
+:TOOBNIX_URL: https://toobnix.org/w/ngenUPBLDDkZGmsxK8vimJ
+:TRANSCRIPT_URL: https://media.emacsconf.org/2023/emacsconf-2023-gc--emacsgcstats-does-garbage-collection-actually-slow-down-emacs--ihor-radchenko--main.vtt
+:SPEAKERS: Ihor Radchenko
+:SERIES: EmacsConf 2023
+:END:
+* hyperdrive.el: Peer-to-peer filesystem in Emacs  :emacsconf:emacsconf2023:hyperdrive:
+:PROPERTIES:
+:DATE: 2023-12-03
+:URL: https://emacsconf.org/2023/talks/hyperdrive
+:MEDIA_URL: https://media.emacsconf.org/2023/emacsconf-2023-hyperdrive--hyperdriveel-peertopeer-filesystem-in-emacs--joseph-turner--main.webm
+:YOUTUBE_URL: https://www.youtube.com/watch?v=OOA9rs5qteU
+:TOOBNIX_URL: https://toobnix.org/w/9wLA55XACiGnS3nNBNwsV5
+:TRANSCRIPT_URL: https://media.emacsconf.org/2023/emacsconf-2023-hyperdrive--hyperdriveel-peertopeer-filesystem-in-emacs--joseph-turner--main.vtt
+:SPEAKERS: Joseph Turner and Protesilaos Stavrou
+:SERIES: EmacsConf 2023
+:END:
+* Programming with steno  :emacsconf:emacsconf2023:input:
+:PROPERTIES:
+:DATE: 2023-12-03
+:URL: https://emacsconf.org/2023/talks/steno
+:MEDIA_URL: https://media.emacsconf.org/2023/emacsconf-2023-steno--programming-with-steno--daniel-alejandro-tapia--main.webm
+:YOUTUBE_URL: https://www.youtube.com/watch?v=McHurKmk-rQ
+:TOOBNIX_URL: https://toobnix.org/w/1xodScC6DPkfbnqG5FmbB3
+:TRANSCRIPT_URL: https://media.emacsconf.org/2023/emacsconf-2023-steno--programming-with-steno--daniel-alejandro-tapia--main.vtt
+:SPEAKERS: Daniel Alejandro Tapia
+:SERIES: EmacsConf 2023
+:END:
+* Mentoring VS-Coders as an Emacsian (or How to show not tell people about the wonders of Emacs)  :emacsconf:emacsconf2023:mentoring:community:
+:PROPERTIES:
+:DATE: 2023-12-03
+:URL: https://emacsconf.org/2023/talks/mentor
+:MEDIA_URL: https://media.emacsconf.org/2023/emacsconf-2023-mentor--mentoring-vscoders-as-an-emacsian-or-how-to-show-not-tell-people-about-the-wonders-of-emacs--jeremy-friesen--main.webm
+:YOUTUBE_URL: https://www.youtube.com/watch?v=44rt1f1llhQ
+:TOOBNIX_URL: https://toobnix.org/w/sV9eKtGiPYZi5urxjoqerv
+:TRANSCRIPT_URL: https://media.emacsconf.org/2023/emacsconf-2023-mentor--mentoring-vscoders-as-an-emacsian-or-how-to-show-not-tell-people-about-the-wonders-of-emacs--jeremy-friesen--main.vtt
+:SPEAKERS: Jeremy Friesen
+:SERIES: EmacsConf 2023
+:END:
+* Writing a language server in OCaml for Emacs, fun, and profit  :emacsconf:emacsconf2023:dev:ocaml:
+:PROPERTIES:
+:DATE: 2023-12-03
+:URL: https://emacsconf.org/2023/talks/lspocaml
+:MEDIA_URL: https://media.emacsconf.org/2023/emacsconf-2023-lspocaml--writing-a-language-server-in-ocaml-for-emacs-fun-and-profit--austin-theriault--main.webm
+:YOUTUBE_URL: https://www.youtube.com/watch?v=VhUIS55UbQs
+:TOOBNIX_URL: https://toobnix.org/w/jgMzmGyx4H1YDwc5n1eRZu
+:TRANSCRIPT_URL: https://media.emacsconf.org/2023/emacsconf-2023-lspocaml--writing-a-language-server-in-ocaml-for-emacs-fun-and-profit--austin-theriault--main.vtt
+:SPEAKERS: Austin Theriault
+:SERIES: EmacsConf 2023
+:END:
+* Emacs saves the Web (maybe)  :emacsconf:emacsconf2023:web:
+:PROPERTIES:
+:DATE: 2023-12-03
+:URL: https://emacsconf.org/2023/talks/web
+:MEDIA_URL: https://media.emacsconf.org/2023/emacsconf-2023-web--emacs-saves-the-web-maybe--yuchen-pei--main.webm
+:YOUTUBE_URL: https://www.youtube.com/watch?v=kqOZwsylo48
+:TOOBNIX_URL: https://toobnix.org/w/fvzGU4cQQ2meZVKNGEHMht
+:TRANSCRIPT_URL: https://media.emacsconf.org/2023/emacsconf-2023-web--emacs-saves-the-web-maybe--yuchen-pei--main.vtt
+:SPEAKERS: Yuchen Pei
+:SERIES: EmacsConf 2023
+:END:
+* What I learned by writing test cases for GNU Hyperbole  :emacsconf:emacsconf2023:hyperbole:
+:PROPERTIES:
+:DATE: 2023-12-03
+:URL: https://emacsconf.org/2023/talks/test
+:MEDIA_URL: https://media.emacsconf.org/2023/emacsconf-2023-test--what-i-learned-by-writing-test-cases-for-gnu-hyperbole--mats-lidell--main.webm
+:YOUTUBE_URL: https://www.youtube.com/watch?v=maNQSKxXIzI
+:TOOBNIX_URL: https://toobnix.org/w/4XmcGSe3TQrJJNUqQXqK2B
+:TRANSCRIPT_URL: https://media.emacsconf.org/2023/emacsconf-2023-test--what-i-learned-by-writing-test-cases-for-gnu-hyperbole--mats-lidell--main.vtt
+:SPEAKERS: Mats Lidell
+:SERIES: EmacsConf 2023
+:END:
+* Sharing Emacs is Caring Emacs: Emacs education and why I embraced video  :emacsconf:emacsconf2023:sharing:
+:PROPERTIES:
+:DATE: 2023-12-03
+:URL: https://emacsconf.org/2023/talks/sharing
+:MEDIA_URL: https://media.emacsconf.org/2023/emacsconf-2023-sharing--sharing-emacs-is-caring-emacs-emacs-education-and-why-i-embraced-video--jacob-boxerman--main.webm
+:YOUTUBE_URL: https://youtu.be/L897BU3BT6g
+:TOOBNIX_URL: https://toobnix.org/w/3b5XfkceUaRjJuN5Pumgee
+:TRANSCRIPT_URL: https://media.emacsconf.org/2023/emacsconf-2023-sharing--sharing-emacs-is-caring-emacs-emacs-education-and-why-i-embraced-video--jacob-boxerman--main.vtt
+:SPEAKERS: Jacob Boxerman
+:SERIES: EmacsConf 2023
+:END:
+* EmacsConf.org: How we use Org Mode and TRAMP to organize and run a multi-track conference  :emacsconf:emacsconf2023:org:tramp:
+:PROPERTIES:
+:DATE: 2023-12-03
+:URL: https://emacsconf.org/2023/talks/emacsconf
+:MEDIA_URL: https://media.emacsconf.org/2023/emacsconf-2023-emacsconf--emacsconforg-how-we-use-org-mode-and-tramp-to-organize-and-run-a-multitrack-conference--sacha-chua--main.webm
+:YOUTUBE_URL: https://www.youtube.com/watch?v=uTregv3rNl0
+:TOOBNIX_URL: https://toobnix.org/w/eX2dXG3xMtUHuuBz4fssGT
+:TRANSCRIPT_URL: https://media.emacsconf.org/2023/emacsconf-2023-emacsconf--emacsconforg-how-we-use-org-mode-and-tramp-to-organize-and-run-a-multitrack-conference--sacha-chua--main.vtt
+:SPEAKERS: Sacha Chua
+:SERIES: EmacsConf 2023
+:END:
+* Sunday closing remarks  :emacsconf:emacsconf2023:
+:PROPERTIES:
+:DATE: 2023-12-03
+:URL: https://emacsconf.org/2023/talks/sun-close
+:MEDIA_URL: https://media.emacsconf.org/2023/emacsconf-2023-sun-close--sunday-closing-remarks--main.webm
+:YOUTUBE_URL: https://www.youtube.com/watch?v=qqvelKB5v0c
+:TOOBNIX_URL: https://toobnix.org/w/p/nMXCCJ25wxKUtbuQiwkakA
+:TRANSCRIPT_URL: https://media.emacsconf.org/2023/emacsconf-2023-sun-close--sunday-closing-remarks--main.vtt
+:SPEAKERS:
+:SERIES: EmacsConf 2023
+:END:
+* Emacs journalism (or everything's a nail if you hit it with Emacs)  :emacsconf:emacsconf2022:org:pandoc:
+:PROPERTIES:
+:DATE: 2022-12-03
+:URL: https://emacsconf.org/2022/talks/journalism
+:MEDIA_URL: https://media.emacsconf.org/2022/emacsconf-2022-journalism--emacs-journalism-or-everythings-a-nail-if-you-hit-it-with-emacs--alfred-zanini--main.webm
+:YOUTUBE_URL: https://youtu.be/E1GSKjx4S3Q
+:TOOBNIX_URL: https://toobnix.org/w/nqaGcHbHSY2dGxVpzvc3WX
+:TRANSCRIPT_URL: https://media.emacsconf.org/2022/emacsconf-2022-journalism--emacs-journalism-or-everythings-a-nail-if-you-hit-it-with-emacs--alfred-zanini--main.vtt
+:SPEAKERS: Alfred Zanini
+:SERIES: EmacsConf 2022
+:END:
+* Back to school with Emacs  :emacsconf:emacsconf2022:student:org:
+:PROPERTIES:
+:DATE: 2022-12-03
+:URL: https://emacsconf.org/2022/talks/school
+:MEDIA_URL: https://media.emacsconf.org/2022/emacsconf-2022-school--back-to-school-with-emacs--daniel-rosel--main.webm
+:YOUTUBE_URL: https://youtu.be/hvwHGwIabLM
+:TOOBNIX_URL: https://toobnix.org/w/tM8H4Dj2hZ69CwWMFStZqX
+:TRANSCRIPT_URL: https://media.emacsconf.org/2022/emacsconf-2022-school--back-to-school-with-emacs--daniel-rosel--main.vtt
+:SPEAKERS: Daniel Rösel
+:SERIES: EmacsConf 2022
+:END:
+* Tree-sitter beyond syntax highlighting  :emacsconf:emacsconf2022:dev:treesitter:
+:PROPERTIES:
+:DATE: 2022-12-03
+:URL: https://emacsconf.org/2022/talks/treesitter
+:MEDIA_URL: https://media.emacsconf.org/2022/emacsconf-2022-treesitter--treesitter-beyond-syntax-highlighting--abin-simon--main.webm
+:YOUTUBE_URL: https://youtu.be/MZPR_SC9LzE
+:TOOBNIX_URL: https://toobnix.org/w/4AKhgQA71ewnyhDUsBnfKt
+:TRANSCRIPT_URL: https://media.emacsconf.org/2022/emacsconf-2022-treesitter--treesitter-beyond-syntax-highlighting--abin-simon--main.vtt
+:SPEAKERS: Abin Simon
+:SERIES: EmacsConf 2022
+:END:
+* How to incorporate handwritten notes into Emacs Orgmode  :emacsconf:emacsconf2022:org:images:
+:PROPERTIES:
+:DATE: 2022-12-03
+:URL: https://emacsconf.org/2022/talks/handwritten
+:MEDIA_URL: https://media.emacsconf.org/2022/emacsconf-2022-handwritten--how-to-incorporate-handwritten-notes-into-emacs-orgmode--bala-ramadurai--main.webm
+:YOUTUBE_URL: https://youtu.be/PYFJsk4Yub8
+:TOOBNIX_URL: https://toobnix.org/w/kr86uvn8KHey8cGULY71Aw
+:TRANSCRIPT_URL: https://media.emacsconf.org/2022/emacsconf-2022-handwritten--how-to-incorporate-handwritten-notes-into-emacs-orgmode--bala-ramadurai--main.vtt
+:SPEAKERS: Bala Ramadurai
+:SERIES: EmacsConf 2022
+:END:
+* lsp-bridge: a smooth-as-butter asynchronous LSP client  :emacsconf:emacsconf2022:coding:dev:async:
+:PROPERTIES:
+:DATE: 2022-12-03
+:URL: https://emacsconf.org/2022/talks/lspbridge
+:MEDIA_URL: https://media.emacsconf.org/2022/emacsconf-2022-lspbridge--lspbridge-a-smooth-as-butter-asynchronous-lsp-client--andy-stewart-matthew-zeng--main.webm
+:YOUTUBE_URL: https://youtu.be/ooCyJ30XeTo
+:TOOBNIX_URL: https://toobnix.org/w/oWZ7s5B5pw6vayDKPJQVBG
+:TRANSCRIPT_URL: https://media.emacsconf.org/2022/emacsconf-2022-lspbridge--lspbridge-a-smooth-as-butter-asynchronous-lsp-client--andy-stewart-matthew-zeng--main.vtt
+:SPEAKERS: Andy Stewart, Matthew Zeng
+:SERIES: EmacsConf 2022
+:END:
+* Writing and organizing literature notes for scientific writing  :emacsconf:emacsconf2022:writing:research:
+:PROPERTIES:
+:DATE: 2022-12-03
+:URL: https://emacsconf.org/2022/talks/science
+:MEDIA_URL: https://media.emacsconf.org/2022/emacsconf-2022-science--writing-and-organizing-literature-notes-for-scientific-writing--vidianos--main.webm
+:YOUTUBE_URL: https://youtu.be/dJ859kiFRLg
+:TOOBNIX_URL: https://toobnix.org/w/v8ypuDbDai4WJYu5CbVRYc
+:TRANSCRIPT_URL: https://media.emacsconf.org/2022/emacsconf-2022-science--writing-and-organizing-literature-notes-for-scientific-writing--vidianos--main.vtt
+:SPEAKERS: Vidianos Giannitsis
+:SERIES: EmacsConf 2022
+:END:
+* asm-blox: a game based on WebAssembly that no one asked for  :emacsconf:emacsconf2022:fun:
+:PROPERTIES:
+:DATE: 2022-12-03
+:URL: https://emacsconf.org/2022/talks/asmblox
+:MEDIA_URL: https://media.emacsconf.org/2022/emacsconf-2022-asmblox--asmblox-a-game-based-on-webassembly-that-no-one-asked-for--zachary-romero--main.webm
+:YOUTUBE_URL: https://youtu.be/M-WEUbGSPUo
+:TOOBNIX_URL: https://toobnix.org/w/rfZ2V1DZNgpMh18gKrsXmY
+:TRANSCRIPT_URL: https://media.emacsconf.org/2022/emacsconf-2022-asmblox--asmblox-a-game-based-on-webassembly-that-no-one-asked-for--zachary-romero--main.vtt
+:SPEAKERS: Zachary Romero
+:SERIES: EmacsConf 2022
+:END:
+* The Emacs Buddy initiative  :emacsconf:emacsconf2022:community:mentoring:
+:PROPERTIES:
+:DATE: 2022-12-03
+:URL: https://emacsconf.org/2022/talks/buddy
+:MEDIA_URL: https://media.emacsconf.org/2022/emacsconf-2022-buddy--the-emacs-buddy-initiative--andrea--main.webm
+:YOUTUBE_URL: https://youtu.be/UlZXd4VqbI8
+:TOOBNIX_URL: https://toobnix.org/w/rGaAhFjM5GCvNHBhs39JA3
+:TRANSCRIPT_URL: https://media.emacsconf.org/2022/emacsconf-2022-buddy--the-emacs-buddy-initiative--andrea--main.vtt
+:SPEAKERS: Andrea
+:SERIES: EmacsConf 2022
+:END:
+* Emacs should become a Wayland compositor  :emacsconf:emacsconf2022:dev:
+:PROPERTIES:
+:DATE: 2022-12-03
+:URL: https://emacsconf.org/2022/talks/wayland
+:MEDIA_URL: https://media.emacsconf.org/2022/emacsconf-2022-wayland--emacs-should-become-a-wayland-compositor--michael-bauer--main.webm
+:YOUTUBE_URL: https://youtu.be/igLhj3hsuME
+:TOOBNIX_URL: https://toobnix.org/w/enc6bnYbm2gHpwrBa6bVjR
+:TRANSCRIPT_URL: https://media.emacsconf.org/2022/emacsconf-2022-wayland--emacs-should-become-a-wayland-compositor--michael-bauer--main.vtt
+:SPEAKERS: Michael Bauer
+:SERIES: EmacsConf 2022
+:END:
+* Attending and organizing Emacs meetups  :emacsconf:emacsconf2022:community:
+:PROPERTIES:
+:DATE: 2022-12-03
+:URL: https://emacsconf.org/2022/talks/meetups
+:MEDIA_URL: https://media.emacsconf.org/2022/emacsconf-2022-meetups--attending-and-organizing-emacs-meetups--bhavin-gandhi--main.webm
+:YOUTUBE_URL: https://youtu.be/kRhm0W3dCX8
+:TOOBNIX_URL: https://toobnix.org/w/nk37ygsa4ijMhV7uY94Lw2
+:TRANSCRIPT_URL: https://media.emacsconf.org/2022/emacsconf-2022-meetups--attending-and-organizing-emacs-meetups--bhavin-gandhi--main.vtt
+:SPEAKERS: Bhavin Gandhi
+:SERIES: EmacsConf 2022
+:END:
+* Using SQLite as a data source: a framework and an example  :emacsconf:emacsconf2022:db:
+:PROPERTIES:
+:DATE: 2022-12-03
+:URL: https://emacsconf.org/2022/talks/sqlite
+:MEDIA_URL: https://media.emacsconf.org/2022/emacsconf-2022-sqlite--using-sqlite-as-a-data-source-a-framework-and-an-example--andrew-hyatt--main.webm
+:YOUTUBE_URL: https://youtu.be/mQGhm79f8TY
+:TOOBNIX_URL: https://toobnix.org/w/a26FMpRuCKmn4YZU4ysdrd
+:TRANSCRIPT_URL: https://media.emacsconf.org/2022/emacsconf-2022-sqlite--using-sqlite-as-a-data-source-a-framework-and-an-example--andrew-hyatt--main.vtt
+:SPEAKERS: Andrew Hyatt
+:SERIES: EmacsConf 2022
+:END:
+* Linking personal info with Hyperbole implicit buttons  :emacsconf:emacsconf2022:hyperbole:
+:PROPERTIES:
+:DATE: 2022-12-03
+:URL: https://emacsconf.org/2022/talks/buttons
+:MEDIA_URL: https://media.emacsconf.org/2022/emacsconf-2022-buttons--linking-personal-info-with-hyperbole-implicit-buttons--mats-lidell--main.webm
+:YOUTUBE_URL: https://youtu.be/TQ_fG7b1iHI
+:TOOBNIX_URL: https://toobnix.org/w/uLx9KkUP8SbH2KZfynEtLR
+:TRANSCRIPT_URL: https://media.emacsconf.org/2022/emacsconf-2022-buttons--linking-personal-info-with-hyperbole-implicit-buttons--mats-lidell--main.vtt
+:SPEAKERS: Mats Lidell
+:SERIES: EmacsConf 2022
+:END:
+* Revisiting the anatomy of Emacs mail user agents  :emacsconf:emacsconf2022:mail:
+:PROPERTIES:
+:DATE: 2022-12-03
+:URL: https://emacsconf.org/2022/talks/mail
+:MEDIA_URL: https://media.emacsconf.org/2022/emacsconf-2022-mail--revisiting-the-anatomy-of-emacs-mail-user-agents--mohsen-banan--main.webm
+:YOUTUBE_URL: https://youtu.be/dJXBUlbxU3E
+:TOOBNIX_URL: https://toobnix.org/w/dAg6eAtVYa2oVuSBcMZE9q
+:TRANSCRIPT_URL: https://media.emacsconf.org/2022/emacsconf-2022-mail--revisiting-the-anatomy-of-emacs-mail-user-agents--mohsen-banan--main.vtt
+:SPEAKERS: Mohsen BANAN
+:SERIES: EmacsConf 2022
+:END:
+* Real estate and Org table formulas  :emacsconf:emacsconf2022:org:tables:
+:PROPERTIES:
+:DATE: 2022-12-03
+:URL: https://emacsconf.org/2022/talks/realestate
+:MEDIA_URL: https://media.emacsconf.org/2022/emacsconf-2022-realestate--real-estate-and-org-table-formulas--daniel-gopar--main.webm
+:YOUTUBE_URL: https://youtu.be/yoyoBMPD53o
+:TOOBNIX_URL: https://toobnix.org/w/wNqs2ukhcQwCzUkar2bq55
+:TRANSCRIPT_URL: https://media.emacsconf.org/2022/emacsconf-2022-realestate--real-estate-and-org-table-formulas--daniel-gopar--main.vtt
+:SPEAKERS: Daniel Gopar
+:SERIES: EmacsConf 2022
+:END:
+* Maintaining the Maintainers: Attribution as an Economic Model for Open Source  :emacsconf:emacsconf2022:maintenance:community:philosophy:
+:PROPERTIES:
+:DATE: 2022-12-03
+:URL: https://emacsconf.org/2022/talks/maint
+:MEDIA_URL: https://media.emacsconf.org/2022/emacsconf-2022-maint--maintaining-the-maintainers-attribution-as-an-economic-model-for-open-source--sid-kasivajhula--main.webm
+:YOUTUBE_URL: https://youtu.be/1WIulCmIHZ4
+:TOOBNIX_URL: https://toobnix.org/w/6vrCBs7r9RELh2byQ4CMsj
+:TRANSCRIPT_URL: https://media.emacsconf.org/2022/emacsconf-2022-maint--maintaining-the-maintainers-attribution-as-an-economic-model-for-open-source--sid-kasivajhula--main.vtt
+:SPEAKERS: Sid Kasivajhula
+:SERIES: EmacsConf 2022
+:END:
+* Health data journaling and visualization with Org Mode and gnuplot  :emacsconf:emacsconf2022:org:OrgBabel:visualization:
+:PROPERTIES:
+:DATE: 2022-12-03
+:URL: https://emacsconf.org/2022/talks/health
+:MEDIA_URL: https://media.emacsconf.org/2022/emacsconf-2022-health--health-data-journaling-and-visualization-with-org-mode-and-gnuplot--david-otoole--main.webm
+:YOUTUBE_URL: https://youtu.be/YmQ1CYMz-OY
+:TOOBNIX_URL: https://toobnix.org/w/j4M57ijUYE4DMVwT9X3CYB
+:TRANSCRIPT_URL: https://media.emacsconf.org/2022/emacsconf-2022-health--health-data-journaling-and-visualization-with-org-mode-and-gnuplot--david-otoole--main.vtt
+:SPEAKERS: David O'Toole
+:SERIES: EmacsConf 2022
+:END:
+* Bidirectional links with eev  :emacsconf:emacsconf2022:eev:
+:PROPERTIES:
+:DATE: 2022-12-03
+:URL: https://emacsconf.org/2022/talks/eev
+:MEDIA_URL: https://media.emacsconf.org/2022/emacsconf-2022-eev--bidirectional-links-with-eev--eduardo-ochs--main.webm
+:YOUTUBE_URL: https://youtu.be/ds8LNPnNY-M
+:TOOBNIX_URL: https://toobnix.org/w/hQUQSeECqpb3AMSqiViksa
+:TRANSCRIPT_URL: https://media.emacsconf.org/2022/emacsconf-2022-eev--bidirectional-links-with-eev--eduardo-ochs--main.vtt
+:SPEAKERS: Eduardo Ochs
+:SERIES: EmacsConf 2022
+:END:
+* Edit live Jupyter notebook cells with Emacs  :emacsconf:emacsconf2022:org:literate:jupyter:
+:PROPERTIES:
+:DATE: 2022-12-03
+:URL: https://emacsconf.org/2022/talks/jupyter
+:MEDIA_URL: https://media.emacsconf.org/2022/emacsconf-2022-jupyter--edit-live-jupyter-notebook-cells-with-emacs--blaine-mooers--main.webm
+:YOUTUBE_URL: https://youtu.be/2NPUDYAOgW0
+:TOOBNIX_URL: https://toobnix.org/w/3umjDWcUmHoypvBnzw7dTQ
+:TRANSCRIPT_URL: https://media.emacsconf.org/2022/emacsconf-2022-jupyter--edit-live-jupyter-notebook-cells-with-emacs--blaine-mooers--main.vtt
+:SPEAKERS: Blaine Mooers
+:SERIES: EmacsConf 2022
+:END:
+* Haskell code exploration with Emacs  :emacsconf:emacsconf2022:coding:haskell:
+:PROPERTIES:
+:DATE: 2022-12-03
+:URL: https://emacsconf.org/2022/talks/haskell
+:MEDIA_URL: https://media.emacsconf.org/2022/emacsconf-2022-haskell--haskell-code-exploration-with-emacs--yuchen-pei--main.webm
+:YOUTUBE_URL: https://youtu.be/_HlirFYS3Iw
+:TOOBNIX_URL: https://toobnix.org/w/6u6Pd9P8zcbwfFVXNHYzUz
+:TRANSCRIPT_URL: https://media.emacsconf.org/2022/emacsconf-2022-haskell--haskell-code-exploration-with-emacs--yuchen-pei--main.vtt
+:SPEAKERS: Yuchen Pei
+:SERIES: EmacsConf 2022
+:END:
+* Saturday closing remarks  :emacsconf:emacsconf2022:
+:PROPERTIES:
+:DATE: 2022-12-03
+:URL: https://emacsconf.org/2022/talks/sat-close
+:MEDIA_URL: https://media.emacsconf.org/2022/emacsconf-2022-sat-close--saturday-closing-remarks--main.webm
+:YOUTUBE_URL:
+:TOOBNIX_URL:
+:TRANSCRIPT_URL: https://media.emacsconf.org/2022/emacsconf-2022-sat-close--saturday-closing-remarks--main.vtt
+:SPEAKERS:
+:SERIES: EmacsConf 2022
+:END:
+* Results of the 2022 Emacs Survey  :emacsconf:emacsconf2022:community:
+:PROPERTIES:
+:DATE: 2022-12-04
+:URL: https://emacsconf.org/2022/talks/survey
+:MEDIA_URL: https://media.emacsconf.org/2022/emacsconf-2022-survey--results-of-the-2022-emacs-survey--timothy--main.webm
+:YOUTUBE_URL: https://youtu.be/7jetbJ_wiSg
+:TOOBNIX_URL: https://toobnix.org/w/gYfDLkR2DTkd1ZW54hXATW
+:TRANSCRIPT_URL: https://media.emacsconf.org/2022/emacsconf-2022-survey--results-of-the-2022-emacs-survey--timothy--main.vtt
+:SPEAKERS: Timothy
+:SERIES: EmacsConf 2022
+:END:
+* This Year in Org  :emacsconf:emacsconf2022:org:summary:
+:PROPERTIES:
+:DATE: 2022-12-04
+:URL: https://emacsconf.org/2022/talks/orgyear
+:MEDIA_URL: https://media.emacsconf.org/2022/emacsconf-2022-orgyear--this-year-in-org--timothy--main.webm
+:YOUTUBE_URL: https://youtu.be/QCj-h3LPFRU
+:TOOBNIX_URL: https://toobnix.org/w/qed3SGg4ZMo8fLuzwXoeNP
+:TRANSCRIPT_URL: https://media.emacsconf.org/2022/emacsconf-2022-orgyear--this-year-in-org--timothy--main.vtt
+:SPEAKERS: Timothy
+:SERIES: EmacsConf 2022
+:END:
+* Build a Zettelkasten with the Hyperbole Rolodex  :emacsconf:emacsconf2022:hyperbole:
+:PROPERTIES:
+:DATE: 2022-12-04
+:URL: https://emacsconf.org/2022/talks/rolodex
+:MEDIA_URL: https://media.emacsconf.org/2022/emacsconf-2022-rolodex--build-a-zettelkasten-with-the-hyperbole-rolodex--ramin-honary--main.webm
+:YOUTUBE_URL: https://youtu.be/HdlCK9w-LyQ
+:TOOBNIX_URL: https://toobnix.org/w/n6kPHmyb7bwombvnc48BE6
+:TRANSCRIPT_URL: https://media.emacsconf.org/2022/emacsconf-2022-rolodex--build-a-zettelkasten-with-the-hyperbole-rolodex--ramin-honary--main.vtt
+:SPEAKERS: Ramin Honary
+:SERIES: EmacsConf 2022
+:END:
+* rde Emacs introduction  :emacsconf:emacsconf2022:config:StarterKit:
+:PROPERTIES:
+:DATE: 2022-12-04
+:URL: https://emacsconf.org/2022/talks/rde
+:MEDIA_URL: https://media.emacsconf.org/2022/emacsconf-2022-rde--rde-emacs-introduction--andrew-tropin--main.webm
+:YOUTUBE_URL: https://youtu.be/etMbtPB25ik
+:TOOBNIX_URL: https://toobnix.org/w/iPos3hVhMrPsnyJskzSkY9
+:TRANSCRIPT_URL: https://media.emacsconf.org/2022/emacsconf-2022-rde--rde-emacs-introduction--andrew-tropin--main.vtt
+:SPEAKERS: Andrew Tropin
+:SERIES: EmacsConf 2022
+:END:
+* Linking headings with org-super-links (poor-man's Zettelkasten)  :emacsconf:emacsconf2022:org:
+:PROPERTIES:
+:DATE: 2022-12-04
+:URL: https://emacsconf.org/2022/talks/orgsuperlinks
+:MEDIA_URL: https://media.emacsconf.org/2022/emacsconf-2022-orgsuperlinks--linking-headings-with-orgsuperlinks-poormans-zettelkasten--karl-voit--main.webm
+:YOUTUBE_URL: https://youtu.be/hRmswFHNbnk
+:TOOBNIX_URL: https://toobnix.org/w/ff1YxBEgR9LxJ51trJwyYk
+:TRANSCRIPT_URL: https://media.emacsconf.org/2022/emacsconf-2022-orgsuperlinks--linking-headings-with-orgsuperlinks-poormans-zettelkasten--karl-voit--main.vtt
+:SPEAKERS: Karl Voit
+:SERIES: EmacsConf 2022
+:END:
+* justl: Driving recipes within Emacs  :emacsconf:emacsconf2022:coding:
+:PROPERTIES:
+:DATE: 2022-12-04
+:URL: https://emacsconf.org/2022/talks/justl
+:MEDIA_URL: https://media.emacsconf.org/2022/emacsconf-2022-justl--justl-driving-recipes-within-emacs--sibi-prabakaran--main.webm
+:YOUTUBE_URL: https://youtu.be/bFYzzJ-OlV4
+:TOOBNIX_URL: https://toobnix.org/w/tonDBKQYxzZMXQhreMpoca
+:TRANSCRIPT_URL: https://media.emacsconf.org/2022/emacsconf-2022-justl--justl-driving-recipes-within-emacs--sibi-prabakaran--main.vtt
+:SPEAKERS: Sibi Prabakaran
+:SERIES: EmacsConf 2022
+:END:
+* orgvm: a simple HTTP server for org  :emacsconf:emacsconf2022:org:
+:PROPERTIES:
+:DATE: 2022-12-04
+:URL: https://emacsconf.org/2022/talks/orgvm
+:MEDIA_URL: https://media.emacsconf.org/2022/emacsconf-2022-orgvm--orgvm-a-simple-http-server-for-org--corwin-brust--main.webm
+:YOUTUBE_URL: https://youtu.be/XR3b3egKkL8
+:TOOBNIX_URL: https://toobnix.org/w/9Ybxov8eVA763kRvHuM6zY
+:TRANSCRIPT_URL: https://media.emacsconf.org/2022/emacsconf-2022-orgvm--orgvm-a-simple-http-server-for-org--corwin-brust--main.vtt
+:SPEAKERS: Corwin Brust
+:SERIES: EmacsConf 2022
+:END:
+* What I'd like to see in Emacs  :emacsconf:emacsconf2022:community:
+:PROPERTIES:
+:DATE: 2022-12-04
+:URL: https://emacsconf.org/2022/talks/rms
+:MEDIA_URL: https://media.emacsconf.org/2022/emacsconf-2022-rms--what-id-like-to-see-in-emacs--main.webm
+:YOUTUBE_URL: https://youtu.be/vEpk2ZTqJu4
+:TOOBNIX_URL: https://toobnix.org/w/oWWwS9T9BTQU8DnJ2g56vm
+:TRANSCRIPT_URL: https://media.emacsconf.org/2022/emacsconf-2022-rms--what-id-like-to-see-in-emacs--main.vtt
+:SPEAKERS: Richard M. Stallman
+:SERIES: EmacsConf 2022
+:END:
+* Powerful productivity with Hyperbole and Org Mode  :emacsconf:emacsconf2022:hyperbole:org:
+:PROPERTIES:
+:DATE: 2022-12-04
+:URL: https://emacsconf.org/2022/talks/hyperorg
+:MEDIA_URL: https://media.emacsconf.org/2022/emacsconf-2022-hyperorg--powerful-productivity-with-hyperbole-and-org-mode--robert-weiner--main.webm
+:YOUTUBE_URL: https://youtu.be/BrTpTNEXMyY
+:TOOBNIX_URL: https://toobnix.org/w/uz8zLQWbjGC49LSx3Y1Vx7
+:TRANSCRIPT_URL: https://media.emacsconf.org/2022/emacsconf-2022-hyperorg--powerful-productivity-with-hyperbole-and-org-mode--robert-weiner--main.vtt
+:SPEAKERS: Robert Weiner
+:SERIES: EmacsConf 2022
+:END:
+* Getting detached from Emacs  :emacsconf:emacsconf2022:processes:
+:PROPERTIES:
+:DATE: 2022-12-04
+:URL: https://emacsconf.org/2022/talks/detached
+:MEDIA_URL: https://media.emacsconf.org/2022/emacsconf-2022-detached--getting-detached-from-emacs--niklas-eklund--main.webm
+:YOUTUBE_URL: https://youtu.be/sV3SeASp30U
+:TOOBNIX_URL: https://toobnix.org/w/5g6W1vPuWeHognYnvnnbNk
+:TRANSCRIPT_URL: https://media.emacsconf.org/2022/emacsconf-2022-detached--getting-detached-from-emacs--niklas-eklund--main.vtt
+:SPEAKERS: Niklas Eklund
+:SERIES: EmacsConf 2022
+:END:
+* Top 10 reasons why you should be using Eshell  :emacsconf:emacsconf2022:shell:eshell:
+:PROPERTIES:
+:DATE: 2022-12-04
+:URL: https://emacsconf.org/2022/talks/eshell
+:MEDIA_URL: https://media.emacsconf.org/2022/emacsconf-2022-eshell--top-10-reasons-why-you-should-be-using-eshell--howard-abrams--main.webm
+:YOUTUBE_URL: https://youtu.be/9xLeqwl_7n0
+:TOOBNIX_URL: https://toobnix.org/w/ndrA731VbY2U6SP8onw3yw
+:TRANSCRIPT_URL: https://media.emacsconf.org/2022/emacsconf-2022-eshell--top-10-reasons-why-you-should-be-using-eshell--howard-abrams--main.vtt
+:SPEAKERS: Howard Abrams
+:SERIES: EmacsConf 2022
+:END:
+* Org workflows for developers  :emacsconf:emacsconf2022:org:
+:PROPERTIES:
+:DATE: 2022-12-04
+:URL: https://emacsconf.org/2022/talks/workflows
+:MEDIA_URL: https://media.emacsconf.org/2022/emacsconf-2022-workflows--org-workflows-for-developers--george-mauer--main.webm
+:YOUTUBE_URL: https://youtu.be/x9RS79X3P3M
+:TOOBNIX_URL: https://toobnix.org/w/bRD59ZVoJk1zpNnchaygk4
+:TRANSCRIPT_URL: https://media.emacsconf.org/2022/emacsconf-2022-workflows--org-workflows-for-developers--george-mauer--main.vtt
+:SPEAKERS: George Mauer
+:SERIES: EmacsConf 2022
+:END:
+* Emacs was async before async was cool  :emacsconf:emacsconf2022:dev:async:
+:PROPERTIES:
+:DATE: 2022-12-04
+:URL: https://emacsconf.org/2022/talks/async
+:MEDIA_URL: https://media.emacsconf.org/2022/emacsconf-2022-async--emacs-was-async-before-async-was-cool--michael-herstine--main.webm
+:YOUTUBE_URL: https://youtu.be/PxJDsq2apyo
+:TOOBNIX_URL: https://toobnix.org/w/6mKNBvuubwoWFA9SFsgUQS
+:TRANSCRIPT_URL: https://media.emacsconf.org/2022/emacsconf-2022-async--emacs-was-async-before-async-was-cool--michael-herstine--main.vtt
+:SPEAKERS: Michael Herstine
+:SERIES: EmacsConf 2022
+:END:
+* GRAIL---A Generalized Representation and Aggregation of Information Layers  :emacsconf:emacsconf2022:
+:PROPERTIES:
+:DATE: 2022-12-04
+:URL: https://emacsconf.org/2022/talks/grail
+:MEDIA_URL: https://media.emacsconf.org/2022/emacsconf-2022-grail--graila-generalized-representation-and-aggregation-of-information-layers--sameer-pradhan--main.webm
+:YOUTUBE_URL: https://youtu.be/q2b3mSOUZcY
+:TOOBNIX_URL: https://toobnix.org/w/iepyHuSZMww6K4yfkntTpA
+:TRANSCRIPT_URL: https://media.emacsconf.org/2022/emacsconf-2022-grail--graila-generalized-representation-and-aggregation-of-information-layers--sameer-pradhan--main.vtt
+:SPEAKERS: Sameer Pradhan
+:SERIES: EmacsConf 2022
+:END:
+* The Wheels on D-Bus  :emacsconf:emacsconf2022:elisp:dev:
+:PROPERTIES:
+:DATE: 2022-12-04
+:URL: https://emacsconf.org/2022/talks/dbus
+:MEDIA_URL: https://media.emacsconf.org/2022/emacsconf-2022-dbus--the-wheels-on-dbus--ian-eure--main.webm
+:YOUTUBE_URL: https://youtu.be/YBCDamLfuWw
+:TOOBNIX_URL: https://toobnix.org/w/uwgjHJvZF9cv5KcYFZmdNz
+:TRANSCRIPT_URL: https://media.emacsconf.org/2022/emacsconf-2022-dbus--the-wheels-on-dbus--ian-eure--main.vtt
+:SPEAKERS: Ian Eure
+:SERIES: EmacsConf 2022
+:END:
+* Putting Org Mode on the Indieweb  :emacsconf:emacsconf2022:org:IndieWeb:
+:PROPERTIES:
+:DATE: 2022-12-04
+:URL: https://emacsconf.org/2022/talks/indieweb
+:MEDIA_URL: https://media.emacsconf.org/2022/emacsconf-2022-indieweb--putting-org-mode-on-the-indieweb--michael-herstine--main.webm
+:YOUTUBE_URL: https://youtu.be/48RoqMbhftg
+:TOOBNIX_URL: https://toobnix.org/w/bTV1JohHSkRvnHYQKZ39hm
+:TRANSCRIPT_URL: https://media.emacsconf.org/2022/emacsconf-2022-indieweb--putting-org-mode-on-the-indieweb--michael-herstine--main.vtt
+:SPEAKERS: Michael Herstine
+:SERIES: EmacsConf 2022
+:END:
+* Pre-localizing Emacs  :emacsconf:emacsconf2022:writing:i18n:
+:PROPERTIES:
+:DATE: 2022-12-04
+:URL: https://emacsconf.org/2022/talks/localizing
+:MEDIA_URL: https://media.emacsconf.org/2022/emacsconf-2022-localizing--prelocalizing-emacs--jeanchristophe-helary--main.webm
+:YOUTUBE_URL: https://youtu.be/xdTNFLUzmlM
+:TOOBNIX_URL: https://toobnix.org/w/7E7zo6E6KvrWamsQUxfRuR
+:TRANSCRIPT_URL: https://media.emacsconf.org/2022/emacsconf-2022-localizing--prelocalizing-emacs--jeanchristophe-helary--main.vtt
+:SPEAKERS: Jean-Christophe Helary
+:SERIES: EmacsConf 2022
+:END:
+* Emacs development updates  :emacsconf:emacsconf2022:EmacsDevel:summary:
+:PROPERTIES:
+:DATE: 2022-12-04
+:URL: https://emacsconf.org/2022/talks/devel
+:MEDIA_URL: https://media.emacsconf.org/2022/emacsconf-2022-devel--emacs-development-updates--john-wiegley--main.webm
+:YOUTUBE_URL: https://youtu.be/Jy5hGMTiQnw
+:TOOBNIX_URL: https://toobnix.org/w/o8S5uKpPTCD717zwHPd5cD
+:TRANSCRIPT_URL: https://media.emacsconf.org/2022/emacsconf-2022-devel--emacs-development-updates--john-wiegley--main.vtt
+:SPEAKERS: John Wiegley
+:SERIES: EmacsConf 2022
+:END:
+* Fanfare for the Common Emacs User  :emacsconf:emacsconf2022:community:
+:PROPERTIES:
+:DATE: 2022-12-04
+:URL: https://emacsconf.org/2022/talks/fanfare
+:MEDIA_URL: https://media.emacsconf.org/2022/emacsconf-2022-fanfare--fanfare-for-the-common-emacs-user--john-cummings--main.webm
+:YOUTUBE_URL: https://youtu.be/tsc7IQ_qxKY
+:TOOBNIX_URL: https://toobnix.org/w/3ikPgKEnX1jVUqnxZrMuHs
+:TRANSCRIPT_URL: https://media.emacsconf.org/2022/emacsconf-2022-fanfare--fanfare-for-the-common-emacs-user--john-cummings--main.vtt
+:SPEAKERS: John Cummings
+:SERIES: EmacsConf 2022
+:END:
+* Short hyperlinks to Python docs  :emacsconf:emacsconf2022:coding:python:
+:PROPERTIES:
+:DATE: 2022-12-04
+:URL: https://emacsconf.org/2022/talks/python
+:MEDIA_URL: https://media.emacsconf.org/2022/emacsconf-2022-python--short-hyperlinks-to-python-docs--eduardo-ochs--main.webm
+:YOUTUBE_URL: https://youtu.be/wkod13CNWMY
+:TOOBNIX_URL: https://toobnix.org/w/rK5n3EhFisCJPQsCueZdmn
+:TRANSCRIPT_URL: https://media.emacsconf.org/2022/emacsconf-2022-python--short-hyperlinks-to-python-docs--eduardo-ochs--main.vtt
+:SPEAKERS: Eduardo Ochs
+:SERIES: EmacsConf 2022
+:END:
+* Sunday closing remarks  :emacsconf:emacsconf2022:
+:PROPERTIES:
+:DATE: 2022-12-04
+:URL: https://emacsconf.org/2022/talks/sun-close
+:MEDIA_URL: https://media.emacsconf.org/2022/emacsconf-2022-sun-close--sunday-closing-remarks--main.webm
+:YOUTUBE_URL:
+:TOOBNIX_URL:
+:TRANSCRIPT_URL: https://media.emacsconf.org/2022/emacsconf-2022-sun-close--sunday-closing-remarks--main.vtt
+:SPEAKERS:
+:SERIES: EmacsConf 2022
+:END:
+* Emacs News Highlights  :emacsconf:emacsconf2021:summary:
+:PROPERTIES:
+:DATE: 2021-11-27
+:URL: https://emacsconf.org/2021/talks/news
+:MEDIA_URL: https://media.emacsconf.org/2021/emacsconf-2021-news--emacs-news-highlights--sacha-chua--main.webm
+:YOUTUBE_URL: https://youtu.be/270ljvW6UrA
+:TOOBNIX_URL: https://toobnix.org/w/ueMACQQh39buYwf5K9Y5fh
+:TRANSCRIPT_URL: https://media.emacsconf.org/2021/emacsconf-2021-news--emacs-news-highlights--sacha-chua--main.vtt
+:SPEAKERS: Sacha Chua
+:SERIES: EmacsConf 2021
+:END:
+* The True Frownies are the Friends We Made Along the Way: An Anecdote of Emacs's Malleability  :emacsconf:emacsconf2021:elisp:
+:PROPERTIES:
+:DATE: 2021-11-27
+:URL: https://emacsconf.org/2021/talks/frownies
+:MEDIA_URL: https://media.emacsconf.org/2021/emacsconf-2021-frownies--the-true-frownies-are-the-friends-we-made-along-the-way-an-anecdote-of-emacs-s-malleability--case-duckworth--main.webm
+:YOUTUBE_URL: https://youtu.be/CZn_H93wc5A
+:TOOBNIX_URL: https://toobnix.org/w/5s64FqtX3pqq4uYDwtTvrA
+:TRANSCRIPT_URL: https://media.emacsconf.org/2021/emacsconf-2021-frownies--the-true-frownies-are-the-friends-we-made-along-the-way-an-anecdote-of-emacs-s-malleability--case-duckworth--main.vtt
+:SPEAKERS: Case Duckworth
+:SERIES: EmacsConf 2021
+:END:
+* Emacs manuals translation and OmegaT  :emacsconf:emacsconf2021:writing:translation:i18n:
+:PROPERTIES:
+:DATE: 2021-11-27
+:URL: https://emacsconf.org/2021/talks/omegat
+:MEDIA_URL: https://media.emacsconf.org/2021/emacsconf-2021-omegat--emacs-manuals-translation-and-omegat--jean-christophe-helary--main.webm
+:YOUTUBE_URL: https://youtu.be/Hv3WIqQibaQ
+:TOOBNIX_URL: https://toobnix.org/w/cQbCi4a9E3YVSW9KdiyW2V
+:TRANSCRIPT_URL: https://media.emacsconf.org/2021/emacsconf-2021-omegat--emacs-manuals-translation-and-omegat--jean-christophe-helary--main.vtt
+:SPEAKERS: Jean-Christophe Helary
+:SERIES: EmacsConf 2021
+:END:
+* GNU's Not UNIX: Why Emacs Demonstrates The UNIX Philosophy Isn't Always The Only Answer  :emacsconf:emacsconf2021:philosophy:
+:PROPERTIES:
+:DATE: 2021-11-27
+:URL: https://emacsconf.org/2021/talks/unix
+:MEDIA_URL: https://media.emacsconf.org/2021/emacsconf-2021-unix--gnus-not-unix-why-emacs-demonstrates-the-unix-philosophy-isnt-always-the-only-answer--daniel-rose--main.webm
+:YOUTUBE_URL: https://youtu.be/kXVjCRIqS4c
+:TOOBNIX_URL: https://toobnix.org/w/18qckj5KshdahW5AiUuMHB
+:TRANSCRIPT_URL: https://media.emacsconf.org/2021/emacsconf-2021-unix--gnus-not-unix-why-emacs-demonstrates-the-unix-philosophy-isnt-always-the-only-answer--daniel-rose--main.vtt
+:SPEAKERS: Daniel Rose
+:SERIES: EmacsConf 2021
+:END:
+* Emacs and Montessori Philosophy  :emacsconf:emacsconf2021:philosophy:
+:PROPERTIES:
+:DATE: 2021-11-27
+:URL: https://emacsconf.org/2021/talks/montessori
+:MEDIA_URL: https://media.emacsconf.org/2021/emacsconf-2021-montessori--emacs-and-montessori-philosophy--grant-shangreaux--main.webm
+:YOUTUBE_URL: https://youtu.be/hd-EbeyE2Uc
+:TOOBNIX_URL: https://toobnix.org/w/c5sEmoZbK3ay1b9VGNmP1z
+:TRANSCRIPT_URL: https://media.emacsconf.org/2021/emacsconf-2021-montessori--emacs-and-montessori-philosophy--grant-shangreaux--main.vtt
+:SPEAKERS: Grant Shangreaux
+:SERIES: EmacsConf 2021
+:END:
+* Emacs as Design Pattern Learning  :emacsconf:emacsconf2021:philosophy:
+:PROPERTIES:
+:DATE: 2021-11-27
+:URL: https://emacsconf.org/2021/talks/pattern
+:MEDIA_URL: https://media.emacsconf.org/2021/emacsconf-2021-pattern--emacs-as-design-pattern-learning--greta-goetz--main.webm
+:YOUTUBE_URL: https://youtu.be/OGT6_KGXWfo
+:TOOBNIX_URL: https://toobnix.org/w/afvaVspSSR9YypjUqTypQz
+:TRANSCRIPT_URL: https://media.emacsconf.org/2021/emacsconf-2021-pattern--emacs-as-design-pattern-learning--greta-goetz--main.vtt
+:SPEAKERS: Greta Goetz
+:SERIES: EmacsConf 2021
+:END:
+* How Emacs made me appreciate software freedom  :emacsconf:emacsconf2021:philosophy:
+:PROPERTIES:
+:DATE: 2021-11-27
+:URL: https://emacsconf.org/2021/talks/freedom
+:MEDIA_URL: https://media.emacsconf.org/2021/emacsconf-2021-freedom--how-emacs-made-me-appreciate-software-freedom--protesilaos-stavrou--main.webm
+:YOUTUBE_URL: https://youtu.be/tCoUwqxfxoQ
+:TOOBNIX_URL: https://toobnix.org/w/ktxYMzsYPYguc3HwkDiKea
+:TRANSCRIPT_URL: https://media.emacsconf.org/2021/emacsconf-2021-freedom--how-emacs-made-me-appreciate-software-freedom--protesilaos-stavrou--main.vtt
+:SPEAKERS: Protesilaos Stavrou
+:SERIES: EmacsConf 2021
+:END:
+* NonGNU ELPA Update  :emacsconf:emacsconf2021:package:
+:PROPERTIES:
+:DATE: 2021-11-27
+:URL: https://emacsconf.org/2021/talks/nongnu
+:MEDIA_URL: https://media.emacsconf.org/2021/emacsconf-2021-nongnu--nongnu-elpa-update--philip-kaludercic--main.webm
+:YOUTUBE_URL: https://youtu.be/WBBiHiXGT7s
+:TOOBNIX_URL: https://toobnix.org/w/ovpi53peSt7aX8EtvKMFFy
+:TRANSCRIPT_URL: https://media.emacsconf.org/2021/emacsconf-2021-nongnu--nongnu-elpa-update--philip-kaludercic--main.vtt
+:SPEAKERS: Philip Kaludercic
+:SERIES: EmacsConf 2021
+:END:
+* Manual Package Management in The Era of Repositories - Why and How  :emacsconf:emacsconf2021:package:config:
+:PROPERTIES:
+:DATE: 2021-11-27
+:URL: https://emacsconf.org/2021/talks/borg
+:MEDIA_URL: https://media.emacsconf.org/2021/emacsconf-2021-borg--manual-package-management-in-the-era-of-repositories-why-and-how--codingquark--main.webm
+:YOUTUBE_URL: https://youtu.be/A9eCpXijb6o
+:TOOBNIX_URL: https://toobnix.org/w/5oG4HmrCV5REgRHfA1rqa3
+:TRANSCRIPT_URL: https://media.emacsconf.org/2021/emacsconf-2021-borg--manual-package-management-in-the-era-of-repositories-why-and-how--codingquark--main.vtt
+:SPEAKERS: Dhavan (codingquark)
+:SERIES: EmacsConf 2021
+:END:
+* Introducing N-Angulator  :emacsconf:emacsconf2021:
+:PROPERTIES:
+:DATE: 2021-11-27
+:URL: https://emacsconf.org/2021/talks/nangulator
+:MEDIA_URL: https://media.emacsconf.org/2021/emacsconf-2021-nangulator--introducing-n-angulator--kevin-haddock--main.webm
+:YOUTUBE_URL: https://youtu.be/ggmfWPmse_w
+:TOOBNIX_URL: https://toobnix.org/w/pHrShaGAJwtXvsqKhNWZ56
+:TRANSCRIPT_URL: https://media.emacsconf.org/2021/emacsconf-2021-nangulator--introducing-n-angulator--kevin-haddock--main.vtt
+:SPEAKERS: Kevin Haddock
+:SERIES: EmacsConf 2021
+:END:
+* Typesetting Gregorian Chant with Emacs  :emacsconf:emacsconf2021:fun:music:
+:PROPERTIES:
+:DATE: 2021-11-27
+:URL: https://emacsconf.org/2021/talks/gregorian
+:MEDIA_URL: https://media.emacsconf.org/2021/emacsconf-2021-gregorian--typesetting-gregorian-chant-with-emacs--spencer-king--main.webm
+:YOUTUBE_URL: https://youtu.be/u8klfUTejzY
+:TOOBNIX_URL: https://toobnix.org/w/ig7rS3VpJjLXCLeq5GYb5z
+:TRANSCRIPT_URL: https://media.emacsconf.org/2021/emacsconf-2021-gregorian--typesetting-gregorian-chant-with-emacs--spencer-king--main.vtt
+:SPEAKERS: Spencer King
+:SERIES: EmacsConf 2021
+:END:
+* telega.el and the Emacs community on Telegram  :emacsconf:emacsconf2021:chat:
+:PROPERTIES:
+:DATE: 2021-11-27
+:URL: https://emacsconf.org/2021/talks/telega
+:MEDIA_URL: https://media.emacsconf.org/2021/emacsconf-2021-telega--telega-el-and-the-emacs-community-on-telegram--gabriele-bozolla--main.webm
+:YOUTUBE_URL: https://youtu.be/cAep6Kj_4NM
+:TOOBNIX_URL: https://toobnix.org/w/g1YBMdbNqMHMZu7wCHB5rH
+:TRANSCRIPT_URL: https://media.emacsconf.org/2021/emacsconf-2021-telega--telega-el-and-the-emacs-community-on-telegram--gabriele-bozolla--main.vtt
+:SPEAKERS: Gabriele Bozzola
+:SERIES: EmacsConf 2021
+:END:
+* A day in the life of a janitor  :emacsconf:emacsconf2021:elisp:dev:maintenance:
+:PROPERTIES:
+:DATE: 2021-11-27
+:URL: https://emacsconf.org/2021/talks/janitor
+:MEDIA_URL: https://media.emacsconf.org/2021/emacsconf-2021-janitor--a-day-in-the-life-of-a-janitor--stefan-monnier--main.webm
+:YOUTUBE_URL: https://youtu.be/48fECfqVGgA
+:TOOBNIX_URL: https://toobnix.org/w/1h7QmFBDjBQZPBeWtARK9j
+:TRANSCRIPT_URL: https://media.emacsconf.org/2021/emacsconf-2021-janitor--a-day-in-the-life-of-a-janitor--stefan-monnier--main.vtt
+:SPEAKERS: Stefan Monnier
+:SERIES: EmacsConf 2021
+:END:
+* Emacs Research Group, Season Zero: What we did together with Emacs in 2 hours a week for a year  :emacsconf:emacsconf2021:
+:PROPERTIES:
+:DATE: 2021-11-27
+:URL: https://emacsconf.org/2021/talks/erg
+:MEDIA_URL: https://media.emacsconf.org/2021/emacsconf-2021-erg--emacs-research-group-season-zero-what-we-did-together-with-emacs-in-2-hours-a-week-for-a-year--noorah-alhasan-joe-corneli-raymond-puzio-leo-vivier--main.webm
+:YOUTUBE_URL: https://youtu.be/h9M4psQEr-o
+:TOOBNIX_URL: https://toobnix.org/w/jXni2SVVquM8FLjMLuK4Fg
+:TRANSCRIPT_URL: https://media.emacsconf.org/2021/emacsconf-2021-erg--emacs-research-group-season-zero-what-we-did-together-with-emacs-in-2-hours-a-week-for-a-year--noorah-alhasan-joe-corneli-raymond-puzio-leo-vivier--main.vtt
+:SPEAKERS: Noorah Alhasan, Joe Corneli, Raymond Puzio, Leo Vivier
+:SERIES: EmacsConf 2021
+:END:
+* One effective CS grad student workflow  :emacsconf:emacsconf2021:org:student:
+:PROPERTIES:
+:DATE: 2021-11-27
+:URL: https://emacsconf.org/2021/talks/cs
+:MEDIA_URL: https://media.emacsconf.org/2021/emacsconf-2021-cs--one-effective-cs-grad-student-workflow--greg-coladonato--main.webm
+:YOUTUBE_URL: https://youtu.be/ByycnJL2LJY
+:TOOBNIX_URL: https://toobnix.org/w/mxFkFd9TiUsJ8goGWZNAcz
+:TRANSCRIPT_URL: https://media.emacsconf.org/2021/emacsconf-2021-cs--one-effective-cs-grad-student-workflow--greg-coladonato--main.vtt
+:SPEAKERS: Greg Coladonato
+:SERIES: EmacsConf 2021
+:END:
+* Using Org-Mode For Recording Continuous Professional Development  :emacsconf:emacsconf2021:org:career:
+:PROPERTIES:
+:DATE: 2021-11-27
+:URL: https://emacsconf.org/2021/talks/professional
+:MEDIA_URL: https://media.emacsconf.org/2021/emacsconf-2021-professional--using-org-mode-for-recording-continuous-professional-development--philip-beadling--main.webm
+:YOUTUBE_URL: https://youtu.be/ubpB83VRqXQ
+:TOOBNIX_URL: https://toobnix.org/w/rXjPE7hdELfGJhFFUqFhF5
+:TRANSCRIPT_URL: https://media.emacsconf.org/2021/emacsconf-2021-professional--using-org-mode-for-recording-continuous-professional-development--philip-beadling--main.vtt
+:SPEAKERS: Philip Beadling
+:SERIES: EmacsConf 2021
+:END:
+* Creating technical API documentation and presentations using org-babel, restclient, and org-treeslide  :emacsconf:emacsconf2021:org:OrgBabel:sharing:
+:PROPERTIES:
+:DATE: 2021-11-27
+:URL: https://emacsconf.org/2021/talks/tech
+:MEDIA_URL: https://media.emacsconf.org/2021/emacsconf-2021-tech--creating-technical-documentation-and-presentations-using-org-babel-restclient-and-org-treeslide--jan-ypma--main.webm
+:YOUTUBE_URL: https://youtu.be/3GQCSOQ3MRU
+:TOOBNIX_URL: https://toobnix.org/w/2pPvDFSAwr2zhGfHGHUbko
+:TRANSCRIPT_URL: https://media.emacsconf.org/2021/emacsconf-2021-tech--creating-technical-documentation-and-presentations-using-org-babel-restclient-and-org-treeslide--jan-ypma--main.vtt
+:SPEAKERS: Jan Ypma
+:SERIES: EmacsConf 2021
+:END:
+* Org as an executable format  :emacsconf:emacsconf2021:org:
+:PROPERTIES:
+:DATE: 2021-11-27
+:URL: https://emacsconf.org/2021/talks/exec
+:MEDIA_URL: https://media.emacsconf.org/2021/emacsconf-2021-exec--org-as-an-executable-format--tom-gillespie--main.webm
+:YOUTUBE_URL: https://youtu.be/0yrc-kQ4clw
+:TOOBNIX_URL: https://toobnix.org/w/6TaLDJ4goGaa2R7dsxMi9F
+:TRANSCRIPT_URL: https://media.emacsconf.org/2021/emacsconf-2021-exec--org-as-an-executable-format--tom-gillespie--main.vtt
+:SPEAKERS: Tom Gillespie
+:SERIES: EmacsConf 2021
+:END:
+* The use of Org mode syntax outside of GNU/Emacs  :emacsconf:emacsconf2021:org:
+:PROPERTIES:
+:DATE: 2021-11-27
+:URL: https://emacsconf.org/2021/talks/org-outside
+:MEDIA_URL: https://media.emacsconf.org/2021/emacsconf-2021-org-outside--the-use-of-org-mode-syntax-outside-of-gnu-emacs--karl-voit--main.webm
+:YOUTUBE_URL: https://youtu.be/JLuTYkhFDQY
+:TOOBNIX_URL: https://toobnix.org/w/g35zpQfCCqDM39ZMEphNj7
+:TRANSCRIPT_URL: https://media.emacsconf.org/2021/emacsconf-2021-org-outside--the-use-of-org-mode-syntax-outside-of-gnu-emacs--karl-voit--main.vtt
+:SPEAKERS: Karl Voit
+:SERIES: EmacsConf 2021
+:END:
+* Using Org-mode to teach programming  :emacsconf:emacsconf2021:org:teaching:
+:PROPERTIES:
+:DATE: 2021-11-27
+:URL: https://emacsconf.org/2021/talks/teach
+:MEDIA_URL: https://media.emacsconf.org/2021/emacsconf-2021-teach--using-org-mode-to-teach-programming--daniel-german--main.webm
+:YOUTUBE_URL: https://youtu.be/Bmi9AAaqegY
+:TOOBNIX_URL: https://toobnix.org/w/w6CowfCZotPnYkwhudU32V
+:TRANSCRIPT_URL: https://media.emacsconf.org/2021/emacsconf-2021-teach--using-org-mode-to-teach-programming--daniel-german--main.vtt
+:SPEAKERS: Daniel German
+:SERIES: EmacsConf 2021
+:END:
+* Babel for academics  :emacsconf:emacsconf2021:org:OrgBabel:research:
+:PROPERTIES:
+:DATE: 2021-11-27
+:URL: https://emacsconf.org/2021/talks/babel
+:MEDIA_URL: https://media.emacsconf.org/2021/emacsconf-2021-babel--babel-for-academics--asilata-bapat--main.webm
+:YOUTUBE_URL: https://youtu.be/1Ooi4KAd2FM
+:TOOBNIX_URL: https://toobnix.org/w/wPJWkEYqyGKxi9SQ82Hmn6
+:TRANSCRIPT_URL: https://media.emacsconf.org/2021/emacsconf-2021-babel--babel-for-academics--asilata-bapat--main.vtt
+:SPEAKERS: Asilata Bapat
+:SERIES: EmacsConf 2021
+:END:
+* Managing a research workflow (bibliographies, note-taking, and arXiv)  :emacsconf:emacsconf2021:org:research:
+:PROPERTIES:
+:DATE: 2021-11-27
+:URL: https://emacsconf.org/2021/talks/research
+:MEDIA_URL: https://media.emacsconf.org/2021/emacsconf-2021-research--managing-a-research-workflow-bibliographies-note-taking-and-arxiv--ahmed-khaled--main.webm
+:YOUTUBE_URL: https://youtu.be/5Q9435eIOVI
+:TOOBNIX_URL: https://toobnix.org/w/jTXAtCYNWFPRFR1pt94yi1
+:TRANSCRIPT_URL: https://media.emacsconf.org/2021/emacsconf-2021-research--managing-a-research-workflow-bibliographies-note-taking-and-arxiv--ahmed-khaled--main.vtt
+:SPEAKERS: Ahmed Khaled
+:SERIES: EmacsConf 2021
+:END:
+* Reproducible molecular graphics with Org-mode  :emacsconf:emacsconf2021:gen:org:science:
+:PROPERTIES:
+:DATE: 2021-11-27
+:URL: https://emacsconf.org/2021/talks/molecular
+:MEDIA_URL: https://media.emacsconf.org/2021/emacsconf-2021-molecular--reproducible-molecular-graphics-with-org-mode--blaine-mooers--main.webm
+:YOUTUBE_URL: https://youtu.be/ZTocGPS-Uqk
+:TOOBNIX_URL: https://toobnix.org/w/tKmTCVtngTLQfQzHpG4BgU
+:TRANSCRIPT_URL: https://media.emacsconf.org/2021/emacsconf-2021-molecular--reproducible-molecular-graphics-with-org-mode--blaine-mooers--main.vtt
+:SPEAKERS: Blaine Mooers
+:SERIES: EmacsConf 2021
+:END:
+* Finding Your (In)voice: Emacs for Invoicing  :emacsconf:emacsconf2021:gen:org:
+:PROPERTIES:
+:DATE: 2021-11-27
+:URL: https://emacsconf.org/2021/talks/invoice
+:MEDIA_URL: https://media.emacsconf.org/2021/emacsconf-2021-invoice--find-your-invoice-emacs-for-invoicing--bala-ramadurai--main.webm
+:YOUTUBE_URL: https://www.youtube.com/watch?v=b__d04aHEbI
+:TOOBNIX_URL: https://toobnix.org/w/kD6nFQsJFSQys8DCmR76gi
+:TRANSCRIPT_URL: https://media.emacsconf.org/2021/emacsconf-2021-invoice--find-your-invoice-emacs-for-invoicing--bala-ramadurai--main.vtt
+:SPEAKERS: Bala Ramadurai
+:SERIES: EmacsConf 2021
+:END:
+* Budgeting, Project Monitoring and Invoicing with Org Mode  :emacsconf:emacsconf2021:gen:org:project:
+:PROPERTIES:
+:DATE: 2021-11-27
+:URL: https://emacsconf.org/2021/talks/project
+:MEDIA_URL: https://media.emacsconf.org/2021/emacsconf-2021-project--budgeting-project-monitoring-and-invoicing-with-org-mode--adolfo-villafiorita--main.webm
+:YOUTUBE_URL: https://youtu.be/qFLBG3ZQyFs
+:TOOBNIX_URL: https://toobnix.org/w/71vGdiqdkaN1bAcoDd8VkT
+:TRANSCRIPT_URL: https://media.emacsconf.org/2021/emacsconf-2021-project--budgeting-project-monitoring-and-invoicing-with-org-mode--adolfo-villafiorita--main.vtt
+:SPEAKERS: Adolfo Villafiorita
+:SERIES: EmacsConf 2021
+:END:
+* Productivity Dashboards with Emacs and Kindle  :emacsconf:emacsconf2021:gen:org:kindle:
+:PROPERTIES:
+:DATE: 2021-11-27
+:URL: https://emacsconf.org/2021/talks/dashboard
+:MEDIA_URL: https://media.emacsconf.org/2021/emacsconf-2021-dashboard--productivity-dashboards-with-emacs-and-kindle--mehmet-tekman--main.webm
+:YOUTUBE_URL: https://youtu.be/lCOMmjlkUuM
+:TOOBNIX_URL: https://toobnix.org/w/ojNW5UwYUzzRTsLhoHZMzG
+:TRANSCRIPT_URL: https://media.emacsconf.org/2021/emacsconf-2021-dashboard--productivity-dashboards-with-emacs-and-kindle--mehmet-tekman--main.vtt
+:SPEAKERS: Mehmet Tekman
+:SERIES: EmacsConf 2021
+:END:
+* Emacs with Nyxt: extend your editor with the power of a Lisp browser  :emacsconf:emacsconf2021:gen:web:
+:PROPERTIES:
+:DATE: 2021-11-27
+:URL: https://emacsconf.org/2021/talks/nyxt
+:MEDIA_URL: https://media.emacsconf.org/2021/emacsconf-2021-nyxt--emacs-with-nyxt-extend-your-editor-with-the-power-of-a-lisp-browser--andrea--main.webm
+:YOUTUBE_URL: https://youtu.be/XarwuynpWkA
+:TOOBNIX_URL: https://toobnix.org/w/qBpVxaayFezJMgG9WVQsoy
+:TRANSCRIPT_URL: https://media.emacsconf.org/2021/emacsconf-2021-nyxt--emacs-with-nyxt-extend-your-editor-with-the-power-of-a-lisp-browser--andrea--main.vtt
+:SPEAKERS: Andrea
+:SERIES: EmacsConf 2021
+:END:
+* Emacs development updates  :emacsconf:emacsconf2021:dev:EmacsDevel:
+:PROPERTIES:
+:DATE: 2021-11-27
+:URL: https://emacsconf.org/2021/talks/dev-update
+:MEDIA_URL: https://media.emacsconf.org/2021/emacsconf-2021-dev-update--emacs-development-updates--john-wiegley--main.webm
+:YOUTUBE_URL: https://youtu.be/tVr3Ko1ArHw
+:TOOBNIX_URL: https://toobnix.org/w/aBGWhAhfgB4obi5c58qhFM
+:TRANSCRIPT_URL: https://media.emacsconf.org/2021/emacsconf-2021-dev-update--emacs-development-updates--john-wiegley--main.vtt
+:SPEAKERS: John Wiegley
+:SERIES: EmacsConf 2021
+:END:
+* On the design of text editors  :emacsconf:emacsconf2021:gen:ui:
+:PROPERTIES:
+:DATE: 2021-11-27
+:URL: https://emacsconf.org/2021/talks/design
+:MEDIA_URL: https://media.emacsconf.org/2021/emacsconf-2021-design--on-the-design-of-text-editors--nicolas-p-rougier--main.webm
+:YOUTUBE_URL: https://youtu.be/7OTe26RZH9A
+:TOOBNIX_URL: https://toobnix.org/w/hmiKha234Q2FygiaspQEP4
+:TRANSCRIPT_URL: https://media.emacsconf.org/2021/emacsconf-2021-design--on-the-design-of-text-editors--nicolas-p-rougier--main.vtt
+:SPEAKERS: Nicolas P. Rougier
+:SERIES: EmacsConf 2021
+:END:
+* Closing remarks day 1  :emacsconf:emacsconf2021:closing:
+:PROPERTIES:
+:DATE: 2021-11-27
+:URL: https://emacsconf.org/2021/talks/day1-close
+:MEDIA_URL: https://media.emacsconf.org/2021/nil--main.webm
+:YOUTUBE_URL:
+:TOOBNIX_URL:
+:TRANSCRIPT_URL: https://media.emacsconf.org/2021/nil--main.vtt
+:SPEAKERS:
+:SERIES: EmacsConf 2021
+:END:
+* Optimizing Emacs Lisp Code  :emacsconf:emacsconf2021:dev:elisp:
+:PROPERTIES:
+:DATE: 2021-11-28
+:URL: https://emacsconf.org/2021/talks/faster
+:MEDIA_URL: https://media.emacsconf.org/2021/emacsconf-2021-faster--optimizing-emacs-lisp-code--dmitry-gutov--main.webm
+:YOUTUBE_URL: https://youtu.be/U-avEdRrX-o
+:TOOBNIX_URL: https://toobnix.org/w/kJkKrSyfeuhL7Gttgxb572
+:TRANSCRIPT_URL: https://media.emacsconf.org/2021/emacsconf-2021-faster--optimizing-emacs-lisp-code--dmitry-gutov--main.vtt
+:SPEAKERS: Dmitry Gutov
+:SERIES: EmacsConf 2021
+:END:
+* Tree-edit: Structural editing for Java, Python, C, and beyond!  :emacsconf:emacsconf2021:dev:
+:PROPERTIES:
+:DATE: 2021-11-28
+:URL: https://emacsconf.org/2021/talks/structural
+:MEDIA_URL: https://media.emacsconf.org/2021/emacsconf-2021-structural--tree-edit-structural-editing-for-java-python-c-and-beyond--ethan-leba--main.webm
+:YOUTUBE_URL: https://youtu.be/FwDsuz0waIY
+:TOOBNIX_URL: https://toobnix.org/w/8Smc22cLzi7UzosijPt7DP
+:TRANSCRIPT_URL: https://media.emacsconf.org/2021/emacsconf-2021-structural--tree-edit-structural-editing-for-java-python-c-and-beyond--ethan-leba--main.vtt
+:SPEAKERS: Ethan Leba
+:SERIES: EmacsConf 2021
+:END:
+* Yak-shaving to a UI framework  :emacsconf:emacsconf2021:ui:
+:PROPERTIES:
+:DATE: 2021-11-28
+:URL: https://emacsconf.org/2021/talks/ui
+:MEDIA_URL: https://media.emacsconf.org/2021/emacsconf-2021-ui--yak-shaving-to-a-ui-framework-help-i-accidentally-yak-shaved-my-way-to-writing-a-ui-framework-because-overlays-were-slow--erik-anderson--main.webm
+:YOUTUBE_URL: https://youtu.be/gSLUAD0T7RA
+:TOOBNIX_URL: https://toobnix.org/w/cwoEZmDr3YDAkskSq8nYEf
+:TRANSCRIPT_URL: https://media.emacsconf.org/2021/emacsconf-2021-ui--yak-shaving-to-a-ui-framework-help-i-accidentally-yak-shaved-my-way-to-writing-a-ui-framework-because-overlays-were-slow--erik-anderson--main.vtt
+:SPEAKERS: Erik Anderson
+:SERIES: EmacsConf 2021
+:END:
+* Moldable Emacs, a step towards sustainable software  :emacsconf:emacsconf2021:elisp:
+:PROPERTIES:
+:DATE: 2021-11-28
+:URL: https://emacsconf.org/2021/talks/mold
+:MEDIA_URL: https://media.emacsconf.org/2021/emacsconf-2021-mold--moldable-emacs-a-step-towards-sustainable-software--andrea--main.webm
+:YOUTUBE_URL: https://youtu.be/lLK7d6bTjuA
+:TOOBNIX_URL: https://toobnix.org/w/4CfNuj8YPpB8HreQHqGXWf
+:TRANSCRIPT_URL: https://media.emacsconf.org/2021/emacsconf-2021-mold--moldable-emacs-a-step-towards-sustainable-software--andrea--main.vtt
+:SPEAKERS: Andrea
+:SERIES: EmacsConf 2021
+:END:
+* Extending the "model" of Emacs to other applications  :emacsconf:emacsconf2021:
+:PROPERTIES:
+:DATE: 2021-11-28
+:URL: https://emacsconf.org/2021/talks/model
+:MEDIA_URL: https://media.emacsconf.org/2021/emacsconf-2021-model--extending-the-model-of-emacs-to-other-applications--laszlo-krajnikovszkij--main.webm
+:YOUTUBE_URL: https://youtu.be/rSUmikIMfhQ
+:TOOBNIX_URL: https://toobnix.org/w/vsuuxy2SUsWpcLoeAtqJhG
+:TRANSCRIPT_URL: https://media.emacsconf.org/2021/emacsconf-2021-model--extending-the-model-of-emacs-to-other-applications--laszlo-krajnikovszkij--main.vtt
+:SPEAKERS: Laszlo Krajnikovszkij
+:SERIES: EmacsConf 2021
+:END:
+* Emacs Lisp native compiler, current status and future developments  :emacsconf:emacsconf2021:EmacsDevel:nativecomp:
+:PROPERTIES:
+:DATE: 2021-11-28
+:URL: https://emacsconf.org/2021/talks/native
+:MEDIA_URL: https://media.emacsconf.org/2021/emacsconf-2021-native--emacs-lisp-native-compiler-current-status-and-future-developments--andrea-corallo--main.webm
+:YOUTUBE_URL: https://youtu.be/bhjO22s6snU
+:TOOBNIX_URL: https://toobnix.org/w/aCnFuNEzX1kMKJp3q31YKx
+:TRANSCRIPT_URL: https://media.emacsconf.org/2021/emacsconf-2021-native--emacs-lisp-native-compiler-current-status-and-future-developments--andrea-corallo--main.vtt
+:SPEAKERS: Andrea Corallo
+:SERIES: EmacsConf 2021
+:END:
+* Old McCarthy Had a Form  :emacsconf:emacsconf2021:elisp:eieio:
+:PROPERTIES:
+:DATE: 2021-11-28
+:URL: https://emacsconf.org/2021/talks/form
+:MEDIA_URL: https://media.emacsconf.org/2021/emacsconf-2021-form--old-mccarthy-had-a-form--ian-eure--main.webm
+:YOUTUBE_URL: https://youtu.be/KtC49N5zK74
+:TOOBNIX_URL: https://toobnix.org/w/mcyaNMBE1QpjvQa2qDayvi
+:TRANSCRIPT_URL: https://media.emacsconf.org/2021/emacsconf-2021-form--old-mccarthy-had-a-form--ian-eure--main.vtt
+:SPEAKERS: Ian Eure
+:SERIES: EmacsConf 2021
+:END:
+* Turbo Bindat  :emacsconf:emacsconf2021:elisp:dev:
+:PROPERTIES:
+:DATE: 2021-11-28
+:URL: https://emacsconf.org/2021/talks/bindat
+:MEDIA_URL: https://media.emacsconf.org/2021/emacsconf-2021-bindat--turbo-bindat--stefan-monnier--main.webm
+:YOUTUBE_URL: https://youtu.be/VM9c0oEb3no
+:TOOBNIX_URL: https://toobnix.org/w/qQeuipEkbSJgZbDm6xRg9q
+:TRANSCRIPT_URL: https://media.emacsconf.org/2021/emacsconf-2021-bindat--turbo-bindat--stefan-monnier--main.vtt
+:SPEAKERS: Stefan Monnier
+:SERIES: EmacsConf 2021
+:END:
+* Test blocks  :emacsconf:emacsconf2021:eev:
+:PROPERTIES:
+:DATE: 2021-11-28
+:URL: https://emacsconf.org/2021/talks/test
+:MEDIA_URL: https://media.emacsconf.org/2021/emacsconf-2021-test--test-blocks--eduardo-ochs--main.webm
+:YOUTUBE_URL: https://youtu.be/ZI7TWDOcvTs
+:TOOBNIX_URL: https://toobnix.org/w/qRKLj4VdBG8cFN1MEfcRho
+:TRANSCRIPT_URL: https://media.emacsconf.org/2021/emacsconf-2021-test--test-blocks--eduardo-ochs--main.vtt
+:SPEAKERS: Eduardo Ochs
+:SERIES: EmacsConf 2021
+:END:
+* Perso-Arabic input methods and making more Emacs apps BIDI aware  :emacsconf:emacsconf2021:bidi:writing:
+:PROPERTIES:
+:DATE: 2021-11-28
+:URL: https://emacsconf.org/2021/talks/bidi
+:MEDIA_URL: https://media.emacsconf.org/2021/emacsconf-2021-bidi--perso-arabic-input-methods-and-making-more-emacs-apps-bidi-aware--mohsen-banan--main.webm
+:YOUTUBE_URL: https://youtu.be/kqIZb80OIKE
+:TOOBNIX_URL: https://toobnix.org/w/sBy9n22kgLMjXu9Cr1Ta44
+:TRANSCRIPT_URL: https://media.emacsconf.org/2021/emacsconf-2021-bidi--perso-arabic-input-methods-and-making-more-emacs-apps-bidi-aware--mohsen-banan--main.vtt
+:SPEAKERS: Mohsen BANAN
+:SERIES: EmacsConf 2021
+:END:
+* Emacs Application Framework: A 2021 Update  :emacsconf:emacsconf2021:dev:
+:PROPERTIES:
+:DATE: 2021-11-28
+:URL: https://emacsconf.org/2021/talks/eaf
+:MEDIA_URL: https://media.emacsconf.org/2021/emacsconf-2021-eaf--emacs-application-framework-a-2021-update--matthew-zeng--main.webm
+:YOUTUBE_URL: https://youtu.be/zJgo2xDI6eY
+:TOOBNIX_URL: https://toobnix.org/w/9hMPmTLzAxx4bxHJnSbkMr
+:TRANSCRIPT_URL: https://media.emacsconf.org/2021/emacsconf-2021-eaf--emacs-application-framework-a-2021-update--matthew-zeng--main.vtt
+:SPEAKERS: Matthew Zeng
+:SERIES: EmacsConf 2021
+:END:
+* Imaginary Programming  :emacsconf:emacsconf2021:dev:
+:PROPERTIES:
+:DATE: 2021-11-28
+:URL: https://emacsconf.org/2021/talks/imaginary
+:MEDIA_URL: https://media.emacsconf.org/2021/emacsconf-2021-imaginary--imaginary-programming--shane-mulligan--main.webm
+:YOUTUBE_URL: https://youtu.be/pJm4TaCyDnk
+:TOOBNIX_URL: https://toobnix.org/w/3ydn2davFQZPoiwB78KZWm
+:TRANSCRIPT_URL: https://media.emacsconf.org/2021/emacsconf-2021-imaginary--imaginary-programming--shane-mulligan--main.vtt
+:SPEAKERS: Shane Mulligan
+:SERIES: EmacsConf 2021
+:END:
+* CLEDE: the Common Lisp Emacs Development Environment  :emacsconf:emacsconf2021:coding:
+:PROPERTIES:
+:DATE: 2021-11-28
+:URL: https://emacsconf.org/2021/talks/clede
+:MEDIA_URL: https://media.emacsconf.org/2021/emacsconf-2021-clede--clede-the-common-lisp-emacs-development-environment--fermin-mf--main.webm
+:YOUTUBE_URL: https://youtu.be/DC-f2Ydq6W0
+:TOOBNIX_URL: https://toobnix.org/w/1HuHMank52gcpHqf4M7Sa5
+:TRANSCRIPT_URL: https://media.emacsconf.org/2021/emacsconf-2021-clede--clede-the-common-lisp-emacs-development-environment--fermin-mf--main.vtt
+:SPEAKERS: Fermin MF
+:SERIES: EmacsConf 2021
+:END:
+* How to help Emacs maintainers?  :emacsconf:emacsconf2021:community:gen:
+:PROPERTIES:
+:DATE: 2021-11-28
+:URL: https://emacsconf.org/2021/talks/maintainers
+:MEDIA_URL: https://media.emacsconf.org/2021/emacsconf-2021-maintainers--how-to-help-emacs-maintainers---bastien-guerry--main.webm
+:YOUTUBE_URL: https://youtu.be/xvna8at7iKk
+:TOOBNIX_URL: https://toobnix.org/w/naNvWzM2jjj5ownu9zmbAf
+:TRANSCRIPT_URL: https://media.emacsconf.org/2021/emacsconf-2021-maintainers--how-to-help-emacs-maintainers---bastien-guerry--main.vtt
+:SPEAKERS: Bastien Guerry
+:SERIES: EmacsConf 2021
+:END:
+* How to build an Emacs  :emacsconf:emacsconf2021:gen:
+:PROPERTIES:
+:DATE: 2021-11-28
+:URL: https://emacsconf.org/2021/talks/build
+:MEDIA_URL: https://media.emacsconf.org/2021/emacsconf-2021-build--how-to-build-an-emacs--fermin-mf--main.webm
+:YOUTUBE_URL: https://youtu.be/Qrr_kcndxhk
+:TOOBNIX_URL: https://toobnix.org/w/jJJwKDTmUVeRQhSj7bazhz
+:TRANSCRIPT_URL: https://media.emacsconf.org/2021/emacsconf-2021-build--how-to-build-an-emacs--fermin-mf--main.vtt
+:SPEAKERS: Fermin MF
+:SERIES: EmacsConf 2021
+:END:
+* M-x Forever: Why Emacs will outlast text editor trends  :emacsconf:emacsconf2021:gen:
+:PROPERTIES:
+:DATE: 2021-11-28
+:URL: https://emacsconf.org/2021/talks/forever
+:MEDIA_URL: https://media.emacsconf.org/2021/emacsconf-2021-forever--m-x-forever-why-emacs-will-outlast-text-editor-trends--david-wilson-system-crafters--main.webm
+:YOUTUBE_URL: https://youtu.be/9ahR5K_wkNQ
+:TOOBNIX_URL: https://toobnix.org/w/jSW4Gk3hsuv2ZfW8jXHz39
+:TRANSCRIPT_URL: https://media.emacsconf.org/2021/emacsconf-2021-forever--m-x-forever-why-emacs-will-outlast-text-editor-trends--david-wilson-system-crafters--main.vtt
+:SPEAKERS: David Wilson (System Crafters)
+:SERIES: EmacsConf 2021
+:END:
+* Closing remarks day 2  :emacsconf:emacsconf2021:
+:PROPERTIES:
+:DATE: 2021-11-28
+:URL: https://emacsconf.org/2021/talks/day2-close
+:MEDIA_URL: https://media.emacsconf.org/2021/nil--main.webm
+:YOUTUBE_URL:
+:TOOBNIX_URL:
+:TRANSCRIPT_URL: https://media.emacsconf.org/2021/nil--main.vtt
+:SPEAKERS:
+:SERIES: EmacsConf 2021
+:END:
+* litdb and Emacs  :research:ai:
+:PROPERTIES:
+:URL:      https://github.com/jkitchin/litdb
+:YOUTUBE_URL: https://www.youtube.com/watch?v=ZkKKuvVUWkE
+:SPEAKERS: John Kitchin
+:DURATION: 11:03
+:END:
+This video shows how litdb is integrated into Emacs. You can use it to insert text about articles you want to review, search your litdb with semantic and fulltext queries, make links to entries in your database, interface with a GPT, and export your notes to PDF.
+* Custom Org clock report for my coaching                         :org:clock:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=FMutOCOoFSQ
+:URL:      https://protesilaos.com/codelog/2024-12-15-emacs-org-coaching-clock/
+:SPEAKERS: Protesilaos Stavrou
+:DURATION: 13:08
+:END:
+* Get Started with Clojure Programming with Cider :cider:clojure:coding:dev:repl:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=evmRpr_DEBQ
+:DURATION: 12:41
+:SPEAKERS: Ken Huang
+:END:
+
+#Clojure programming with #Emacs is very appealing, let's get started!
+
+Timeline:
+00:00 Intro
+00:24 Jack In to a REPl
+05:21 Definition Lookup
+08:58 Switching Code and REPL Buffers
+11:57 Advanced
+12:25 Outro
+
+I've edited and uploaded a subtitle file along with this video, so if you find my English is confusing, you can enable CC while watching, hopefully it helps.
+
+For detailed docs on cider, visit https://cider.mx/ .
+
+Credit
+
+Light Sting by Kevin MacLeod is licensed under a Creative Commons Attribution 4.0 license. https://creativecommons.org/licenses/...
+Source: http://incompetech.com/music/royalty-...
+Artist: http://incompetech.com/
+* The Definitive Emacs + Go setup  :golang:coding:dev:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=9dMYSrstrLk
+:DURATION: 1:07:18
+:SPEAKERS: (Bit-Mage)
+:DATE:     2024-12-12
+:END:
+* Using emacs dape to debug software with DAP protocol   :coding:debugging:dape:golang:
+:PROPERTIES:
+:SPEAKERS: Chmouel Boudjnah (Red Hat)
+:DURATION: 12:45
+:DATE: 2024-12-09
+:YOUTUBE_URL: https://youtu.be/i-A8vds_wE4
+:END:
+
+This is a reupload with a better sound of a video i have made previously.
+
+A little demo on how I debug my Go software with dape on emacs, the config is here:
+
+https://gist.github.com/chmouel/f3021c8d12bca385fb14805f7d6cf793
+
+dape-mode
+
+https://github.com/svaante/dape/
+
+Transcript
+
+**Introduction**
+
+Today, I'll demonstrate a useful Emacs mode: DAP mode. This mode allows you to integrate with the Debug Adapter Protocol (DAP) and debug your code directly within Emacs.
+
+**DAP Mode vs. LSP DAP Mode**
+
+There are two main DAP modes for Emacs: the newer DAP mode and the older LSP DAP mode. DAP mode is more closely aligned with Emacs Lisp primitives, making it more flexible and powerful. However, LSP DAP mode is simpler to set up and works well with LSP servers.
+
+**Debugging a Go Project**
+
+To illustrate, I'll use a Go project as an example. First, I'll set a breakpoint using a custom function that highlights the line for better visibility. This function is a workaround for a known issue with breakpoint markers being hidden.
+
+**Starting the Debugger**
+
+I'll start the debugging session using a configuration file that specifies the debugger (dlv in this case), the program to debug, and other relevant settings. Once the debugger starts, you'll see the current scope, variables, and logs in the Emacs window.
+
+**Interacting with the Debugger**
+
+You can interact with the debugger using various commands:
+
+- **Stepping:** Step over, into, or out of functions.
+- **Breakpoints:** Set, clear, and condition breakpoints.
+- **Variables:** Inspect variable values.
+- **Expressions:** Evaluate expressions.
+
+**Integration with LSP**
+
+DAP mode integrates seamlessly with LSP, providing features like:
+
+- **Code completion:** Suggest variable and function names.
+- **Go-to-definition:** Jump to the definition of a symbol.
+- **Hover documentation:** Display documentation for symbols.
+
+**Debugging Tests**
+
+To debug tests, I use a custom function that automatically sets up the debugger for the current test function. This function leverages the `go-test` library to identify the test and start the debugger with the appropriate arguments.
+
+**Conclusion**
+
+DAP mode is a powerful tool for debugging your code within Emacs. By leveraging its integration with LSP and other Emacs features, you can significantly improve your debugging workflow.
+
+
+---
+#emacs #coding #golang
+* EmacsGME - Solo Roleplaying inside the Emacs Text Editor  :fun:emacsgme:rpg:games:
+:PROPERTIES:
+:SPEAKERS: Category's Solo Game Table
+:DATE: 2024-12-13
+:DURATION: 15:37
+:YOUTUBE_URL: https://www.youtube.com/watch?v=0f9Rvk6dulM
+:END:
+
+  This video is a little showcase for the nerd-crossover event of the season, a solo RPG system inside Emacs! If this sounds like something you want to play with, you can find the project here:-
+
+  EmacsGME - https://github.com/CategoryQ/EmacsGME
+
+  As mentioned in the video, some of this work is based on an earlier physical solo RPG project I created, the "Solo Sci-Fi Sidekick" deck of cards. That can be purchased from DriveThruCards:-
+
+  Solo Sci-Fi Sidekick - https://www.drivethrucards.com/product/360899/Solo-SciFi-Sidekick
+
+  And find places around the video here:-
+
+  00:08 - Intro
+  01:34 - Download
+  01:48 - What it is/isn't
+  02:29 - Installation
+  03:40 - Dice Roller
+  05:08 - Yes/No Oracle
+  07:55 - NPC/Thread Lists
+  08:39 - Dashboard
+  09:14 - Random Events
+  12:10 - Customize
+  13:29 - Additional functions
+  14:34 - Outro
+* Building Emacs 30 from git on openSUSE Tumbleweed  :building:opensuse:emacs30:
+:PROPERTIES:
+:SPEAKERS: Open Source Fiddler
+:DURATION: 21:08
+:YOUTUBE_URL: https://www.youtube.com/watch?v=8dWPDJ4ShFc
+:END:
+* Emacs + Python  :coding:python:
+:PROPERTIES:
+:SPEAKERS: (Bit-Mage)
+:DURATION: 34:45
+:YOUTUBE_URL: https://www.youtube.com/watch?v=YBX2Ki1ZoGg
+:END:
+
+  We begin with a series of specific workflow adaptations in emacs.
+
+  This one's about python.
+
+  My Config Files:
+  https://github.com/rajp152k/.dotfiles
+
+  Blog: https://thebitmage.com
+  twitter: @rajpatil152k
+
+  Thanks for tuning in,
+  This was the Bit-Mage,
+  See you in the next one.
+
+* windows emacs picture pathname capture and display hack  :windows:images:
+:PROPERTIES:
+:SPEAKERS: Kalman Reti
+:DURATION: 04:30
+:DATE: 2024-12-07
+:YOUTUBE_URL: https://www.youtube.com/watch?v=-OKXUK1AYFU
+:END:
+
+I needed to quickly go through a large set of images to select out a subset from which to choose a few for a particular purpose and invented this (I think) cute hack.
+* Crafting Color Overrides for Emacs Modus Themes - System Crafters Live  :theming:modus:color:
+:PROPERTIES:
+:SPEAKERS: System Crafters
+:DURATION: 02:03:21
+:YOUTUBE_URL: https://www.youtube.com/watch?v=4iyCkEA_KaY
+:END:
+
+  In this stream, we'll try to hack the built-in Emacs Modus Themes to produce a custom theme that fits the System Crafters aesthetic.  We'll do this by tweaking a number of customization settings in the Modus Themes including the ability to apply color palette overrides.
+
+  Is it easier to make your own custom theme or tweak the Modus Themes?  Let's find out!
+
+  #gnu #emacs #themes #colors #modus
+
+  GET GOOD AT GIT:
+
+  Have you used Git for a while but still feel like you donât really understand what youâre doing? Do you wish you understood how Git really works under the hood? Wish you knew all the cool techniques that the expert hackers use?
+
+  In December, I'll be running a new one-day workshop called "Git Good: From Basics to Beyond in 4 Hours" that will teach you many of the secrets of expert Git users within 4 hours while giving you hands-on exercises to try it all for yourself!
+
+  More information and registration details can be found here:
+
+     https://systemcrafters.net/courses/git-good-workshop/
+
+
+  SUPPORT THE CHANNEL:
+
+  ð Support My Work: https://systemcrafters.net/how-to-help/#support-my-work
+  ð° Subscribe to the Newsletter: https://systemcrafters.net/newsletter/
+  ð Check out the Store: https://systemcrafters.store
+  ð Get Your Copy of Mastering Emacs: https://www.masteringemacs.org/r/systemcrafters?utm_source=yt&utm_medium=desc&utm_campaign=scme
+
+  SHOW NOTES:
+
+  https://systemcrafters.net/live-streams/november-29-2024/
+
+  JOIN THE COMMUNITY:
+
+  https://systemcrafters.net/community/ (Forum and IRC chat!)
+  https://fosstodon.org/@daviwil
+
+  MY CONFIGURATION:
+
+  (This site is currently down but will be back up soon!)
+
+  https://config.daviwil.com
+  https://config.daviwil.com/emacs
+  https://config.daviwil.com/systems (Guix)
+
+  OTHER SERIES:
+
+  - Emacs Essentials: https://www.youtube.com/watch?v=48JlgiBpw_I&list=PLEoMzSkcN8oPZvSdewHG8uApD7THlLLCV
+  - Emacs From Scratch: https://www.youtube.com/watch?v=74zOY-vgkyw&list=PLEoMzSkcN8oPH1au7H6B7bBJ4ZO7BXjSZ
+  - Emacs Tips: https://www.youtube.com/watch?v=wKTKmE1wLyw&list=PLEoMzSkcN8oMHJ6Xil1YdnYtlWd5hHZql
+  - Emacs Desktop Environment: https://www.youtube.com/watch?v=f7xB2fFk1tQ&list=PLEoMzSkcN8oNPbEMYEtswOVTvq7CVddCS
+  - Emacs IDE: https://www.youtube.com/watch?v=E-NAM9U5JYE&list=PLEoMzSkcN8oNvsrtk_iZSb94krGRofFjN
+  - Emacs Mail: https://www.youtube.com/watch?v=yZRyEhi4y44&list=PLEoMzSkcN8oM-kA19xOQc8s0gr0PpFGJQ
+  - Learning Emacs Lisp: https://www.youtube.com/watch?v=RQK_DaaX34Q&list=PLEoMzSkcN8oPQtn7FQEF3D7sroZbXuPZ7
+  - Craft Your System with GNU Guix: https://www.youtube.com/watch?v=iBaqOK75cho&list=PLEoMzSkcN8oNxnj7jm5V2ZcGc52002pQU
+
+  CREDITS:
+
+  Coriolis Effect by logos feat. stefsax, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/mseq/26296
+  reNovation by airtone, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/airtone/60674
+  ukeSounds by airtone, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/airtone/32655
+  Between Worlds (Instrumental) by Aussens@iter, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/tobias_weber/56664
+* Gamify Org-mode agenda tasks :org:agenda:todo:gamification:fun:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=v1_oHrPeUa0
+:DATE:     2024-12-01T13:17:18-08:00
+:SPEAKERS: Ben
+:DURATION: 02:20
+:END:
+  Code available on my GitHub (ben-maclaurin)
+* Pitch Decks in Emacs: Power Point For Those People  :org:sharing:presentation:dslide:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=00JEayL5Emk
+:DATE:     2024-11-25T15:01:00-08:00
+:SPEAKERS: Positron's Emacs Channel
+:DURATION: 09:32
+:END:
+  0New version, new features.  0.5.5 is turning Redmond into a shanty town.  Learn how programmable slides and pluggable programmable behavior are the only way to do tech demos and team meetings.
+
+  DSL IDE, the only package you ever wanted:
+  https://github.com/positron-solutions/dslide
+
+  Positron's Github Sponsors Page:
+  https://github.com/sponsors/positron-solutions
+
+  PrizeForge, which will replace our Github Sponsors
+  https://prizeforge.com
+
+  Sign up on Github sponsors to get the PrizeForge launch email!
+
+  #emacs #opensource #programming #linux #pitching
+
+  TIMESTAMPS
+  00:00 Intro
+  00:26 Image Features
+  01:17 Hiding Stuff
+  03:10 VLC Process
+  03:56 Text Property Action
+  06:30 The Future of DSLIDE
+  08:40 PrizeForge is the Future
+* Demo of org-mode's cycling of folds with TAB and SHIFT+TAB  :org:folding:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=GEdOj0zcDWk
+:DATE:     2024-11-24T10:29:16-08:00
+:SPEAKERS: Huy Z
+:DURATION: 00:39
+:END:
+  https://orgmode.org/ has a simple and effective way to fold/collapse the entirety or parts of a hierarchical document, recursively.
+  - TAB cycles through the folding state of the element where the cursor is and its children.
+  - SHIFT+TAB cycles through the folding state of the entire document regardless of the cursor's position.
+
+  In this screencap, I show several operations, each with a different starting cursor position and/or starting folding state, where I hit the TAB or SHIFT+TAB keys, showing how elements get folded or unfolded recursively. I do it twice for each operation.

@@ -174,26 +174,34 @@
       });
     }
     async load() {
-      const response = await fetch("/video-feed.org");
-      if (!response.ok) {
-        console.error("Could not fetch org feed");
+      try {
+        const response = await fetch("https://codeberg.org/sachac/emacs-videos/raw/branch/main/index.org");
+        if (!response.ok) {
+          console.error("Could not fetch org feed");
+          this.state.mutate((state) => {
+            state.orgDocument = new OrgDocument([]);
+            return state;
+          });
+          return;
+        }
+        const text = await response.text();
         this.state.mutate((state) => {
-          state.orgDocument = new OrgDocument([]);
+          const orgDocument = OrgParser.parse(text);
+          orgDocument.headings = orgDocument.headings.sort((a, b) => {
+            const dateA = new Date(a.drawer?.DATE || 0);
+            const dateB = new Date(b.drawer?.DATE || 0);
+            return dateB.getTime() - dateA.getTime() || (!a.drawer?.DATE ? 1 : 0);
+          });
+          state.orgDocument = orgDocument;
+          return state;
+        });
+      } catch (error) {
+        console.error(error);
+        this.state.mutate((state) => {
+          state.error = error instanceof Error ? error.message : "Unknown error occurred";
           return state;
         });
       }
-      ;
-      const text = await response.text();
-      this.state.mutate((state) => {
-        const orgDocument = OrgParser.parse(text);
-        orgDocument.headings = orgDocument.headings.sort((a, b) => {
-          const dateA = new Date(a.drawer?.DATE || 0);
-          const dateB = new Date(b.drawer?.DATE || 0);
-          return dateB.getTime() - dateA.getTime() || (!a.drawer?.DATE ? 1 : 0);
-        });
-        state.orgDocument = orgDocument;
-        return state;
-      });
     }
     filterByTags(tagNames) {
       this.state.mutate((state) => {
@@ -289,16 +297,16 @@
       const links = Object.keys(heading.drawer ?? {}).filter((key) => key.endsWith("_URL")).map((key) => {
         return `<a href="${heading.drawer[key]}" target="_blank">${key.slice(0, -4).toLowerCase()}</a>`;
       }).join("&nbsp;\xB7&nbsp;");
+      const results = `<p>${links}&nbsp;${tags}</p>`;
       html += `
       <div class="item">
         <p class="date">${date}</p>
         <p><strong>${title}</strong></p>
-        <p>${links}&nbsp;${tags}</p>
-      </div>
-    `;
+        ${state.error ? state.error : results}
+      </div>`;
     });
     return {
-      html,
+      html: state.error ? state.error : html,
       handlers
     };
   }
