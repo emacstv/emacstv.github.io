@@ -66,9 +66,9 @@ let html = `
       const links = Object.keys(heading.drawer ?? {})
         .filter(key => key.endsWith("_URL") && heading.drawer[key]?.trim())
         .map((key) => {
-          return `<a href="${heading.drawer[key]}" target="_blank">${key.slice(0, -4).toLowerCase()}</a>`
+          return `<a href="${heading.drawer[key]}" target="_blank">${key.slice(0, -4).toLowerCase()}</a>`;
         })
-        .join("&nbsp;·&nbsp;")
+        .join("&nbsp;·&nbsp;");
 
       const speakers = heading.drawer?.SPEAKERS;
       html += `
