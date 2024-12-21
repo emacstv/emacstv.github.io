@@ -64,7 +64,7 @@ let html = `
       }).join(' ') || '';
 
       const links = Object.keys(heading.drawer ?? {})
-        .filter(key => key.endsWith("_URL"))
+        .filter(key => key.endsWith("_URL") && heading.drawer[key]?.trim())
         .map((key) => {
           return `<a href="${heading.drawer[key]}" target="_blank">${key.slice(0, -4).toLowerCase()}</a>`
         })
