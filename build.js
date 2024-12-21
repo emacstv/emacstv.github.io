@@ -68,7 +68,11 @@ const htmlContent = `
       font-size: 0.95em;
       color: #777;
     }
-
+    video {
+      width: 85%;
+      display: block;
+      margin: 0 auto;
+    }
     @media (prefers-color-scheme: dark) {
       body, div, p, h3 {
         background-color: #121212;

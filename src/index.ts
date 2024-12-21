@@ -41,11 +41,13 @@ export function render(state: State, store: StateStore): RenderResult {
 
   let html = `
 <h1>🦬 emacs.tv</h1>
+<br>
+  ${randomPick.html}
+<br>
+<br>
 <div>
   ${tagPicker.html} ${filterByTags.html}
 </div>
-<br>
-  ${randomPick.html}
 <br>
 ${videoList.html}`;
 

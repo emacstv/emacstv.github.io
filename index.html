@@ -49,7 +49,11 @@
       font-size: 0.95em;
       color: #777;
     }
-
+    video {
+      width: 85%;
+      display: block;
+      margin: 0 auto;
+    }
     @media (prefers-color-scheme: dark) {
       body, div, p, h3 {
         background-color: #121212;
@@ -157,11 +161,13 @@
     handlers = handlers.concat(videoList.handlers);
     let html = `
 <h1>\u{1F9AC} emacs.tv</h1>
+<br>
+  ${randomPick.html}
+<br>
+<br>
 <div>
   ${tagPicker.html} ${filterByTags.html}
 </div>
-<br>
-  ${randomPick.html}
 <br>
 ${videoList.html}`;
     return {
