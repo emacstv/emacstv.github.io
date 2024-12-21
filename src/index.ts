@@ -21,13 +21,22 @@ interface State {
 
 export function render(state: State, store: StateStore): RenderResult {
   let handlers: Array<{ nodeId: string, listenerName: string, handler: Function }> = [];
+
+  const randomPick = new RandomPickRenderer(store).render(state.orgDocument.headings);
+  handlers = handlers.concat(randomPick.handlers);
+
   const tagPicker = new TagsPickerRenderer(store).render(state.orgDocument.headings);
   handlers = handlers.concat(tagPicker.handlers);
 
   const filterByTags = new FilterByTagsRenderer(store).render(state.filterByTags);
   handlers = handlers.concat(filterByTags.handlers);
 
-  const videoList = new VideoListRenderer(store).render(state.orgDocument.headings, state.filterByTags)
+  const filteredHeadings = state.orgDocument.headings.filter(heading =>
+    state.filterByTags.length === 0 || state.filterByTags.every(filterTag =>
+      heading.tags?.map(tag => tag.toLowerCase()).includes(filterTag)
+    )
+  );
+  const videoList = new VideoListRenderer(store).render(filteredHeadings);
   handlers = handlers.concat(videoList.handlers);
 
   let html = `
@@ -36,12 +45,41 @@ export function render(state: State, store: StateStore): RenderResult {
   ${tagPicker.html} ${filterByTags.html}
 </div>
 <br>
+  ${randomPick.html}
+<br>
 ${videoList.html}`;
 
   return {
     html: state.error ? state.error : html,
     handlers: handlers
   };
+}
+
+class RandomPickRenderer {
+  private store: StateStore;
+
+  constructor(store: StateStore) {
+    this.store =store;
+  }
+
+  render(headings: OrgHeading[]): RenderResult {
+    let handlers: Array<{ nodeId: string, listenerName: string, handler: Function }> = [];
+    headings = headings.filter(heading => heading.drawer?.MEDIA_URL);
+    if (headings.length === 0) {
+      return {
+        handlers: handlers,
+        html: '<div>No media available.</div>'
+      };
+    }
+    const randomHeading = headings[Math.floor(Math.random() * headings.length)];
+    return {
+      handlers: handlers,
+      html: `<video controls>
+                <source src="${randomHeading.drawer.MEDIA_URL}" type="video/webm">
+                Your browser does not support the video tag.
+             </video>`
+    };
+  }
 }
 
 class TagsPickerRenderer {
@@ -73,24 +111,26 @@ class VideoListRenderer {
     this.store = store;
   }
 
-  render(headings: OrgHeading[], filterByTags: string[]): RenderResult {
-    let handlers: Array<{ nodeId: string, listenerName: string, handler: Function }> = [];
-    let html = '';
-    headings.filter((heading) => {
-      if (filterByTags.length === 0) {
-        return true;
-      }
-      return filterByTags.every(filterTag => heading.tags.map((tag) => tag.toLowerCase()).includes(filterTag));
-    })
-    .forEach((heading) => {
+  render(headings: OrgHeading[]): RenderResult {
+    const result = headings.reduce((acc, heading) => {
       const date = heading.drawer?.DATE
-        ? new Date(heading.drawer.DATE).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })
+        ? new Date(heading.drawer.DATE).toLocaleDateString('en-US', {
+          year: 'numeric',
+          month: 'long',
+          day: 'numeric'
+        })
         : '';
+
       const title = heading.title || 'Untitled';
+
       const tags = heading.tags?.sort()?.map(tag => {
         tag = tag.toLowerCase();
         const tagId = `tag-${tag}-${crypto.randomUUID()}`;
-        handlers.push({ nodeId: tagId, listenerName: 'click', handler: () => this.store.addFilterTag(tag) });
+        acc.handlers.push({
+          nodeId: tagId,
+          listenerName: 'click',
+          handler: () => this.store.addFilterTag(tag)
+        });
         return `<span id="${tagId}" class="tag">#${tag}</span>&nbsp;`;
       }).join(' ') || '';
 
@@ -102,20 +142,22 @@ class VideoListRenderer {
         .join("&nbsp;·&nbsp;");
 
       const speakers = heading.drawer?.SPEAKERS;
-      html += `
+
+      acc.html += `
       <div class="item">
         <p class="date">${date}</p>
         <p><strong>${title}</strong></p>
         <p>${tags}</p>
 ${speakers ?
-       `<p class="speakers">By ${speakers}</p>` : ''}
+       `<p class="speakers">By ${speakers}</p>` : ''
+}
         <p>${links}</p>
       </div><br>`;
-    });
-    return {
-      handlers: handlers,
-      html: html
-    }
+
+      return acc;
+    }, { html: '', handlers: [] });
+
+    return result;
   }
 }
 
