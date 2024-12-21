@@ -30,6 +30,8 @@ const htmlContent = `
       font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
       line-height: 1.5em;
       background-color: #ffffff;
+      margin: 0 auto;
+      max-width: 70ch;
     }
     .item p {
       margin: 0;
