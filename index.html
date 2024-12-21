@@ -175,7 +175,7 @@
     }
     async load() {
       try {
-        const response = await fetch("https://codeberg.org/sachac/emacs-videos/raw/branch/main/index.org");
+        const response = await fetch("./index.org");
         if (!response.ok) {
           console.error("Could not fetch org feed");
           this.state.mutate((state) => {
