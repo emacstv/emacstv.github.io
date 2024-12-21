@@ -70,12 +70,14 @@ let html = `
         })
         .join("&nbsp;·&nbsp;")
 
+      const speakers = heading.drawer?.SPEAKERS;
       html += `
       <div class="item">
         <p class="date">${date}</p>
-        <p><strong>${title}</strong></p>
-        <p>${links}&nbsp;${tags}</p>
-      </div>`;
+        <p><strong>${title}</strong>&nbsp;${tags}</p>
+        <p class="speakers">By ${speakers}</p>
+        <p>${links}</p>
+      </div><br>`;
     });
   return {
     html: state.error ? state.error : html,

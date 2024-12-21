@@ -20,14 +20,18 @@
       margin-bottom: 1em;
     }
     .tag {
-      color: #777;
-      padding: 0.1em 0.3em;
-      border: 1px solid #ccc;
+      color: #FF9500;
+      padding: 0em 0.6em;
+      border: 1px solid #000;
       border-style: dotted;
       border-radius: 5px;
       font-size: 0.8em;
       margin: 0 0.2em;
       cursor: pointer;
+    }
+    .speakers {
+      color: #777;
+      font-size: 0.8em;
     }
     a, a:visited {
       text-decoration: none;
@@ -132,12 +136,14 @@
       const links = Object.keys(heading.drawer ?? {}).filter((key) => key.endsWith("_URL")).map((key) => {
         return `<a href="${heading.drawer[key]}" target="_blank">${key.slice(0, -4).toLowerCase()}</a>`;
       }).join("&nbsp;\xB7&nbsp;");
+      const speakers = heading.drawer?.SPEAKERS;
       html += `
       <div class="item">
         <p class="date">${date}</p>
-        <p><strong>${title}</strong></p>
-        <p>${links}&nbsp;${tags}</p>
-      </div>`;
+        <p><strong>${title}</strong>&nbsp;${tags}</p>
+        <p class="speakers">By ${speakers}</p>
+        <p>${links}</p>
+      </div><br>`;
     });
     return {
       html: state.error ? state.error : html,

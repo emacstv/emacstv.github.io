@@ -39,14 +39,18 @@ const htmlContent = `
       margin-bottom: 1em;
     }
     .tag {
-      color: #777;
-      padding: 0.1em 0.3em;
-      border: 1px solid #ccc;
+      color: #FF9500;
+      padding: 0em 0.6em;
+      border: 1px solid #000;
       border-style: dotted;
       border-radius: 5px;
       font-size: 0.8em;
       margin: 0 0.2em;
       cursor: pointer;
+    }
+    .speakers {
+      color: #777;
+      font-size: 0.8em;
     }
     a, a:visited {
       text-decoration: none;
