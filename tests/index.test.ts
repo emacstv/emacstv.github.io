@@ -10,11 +10,16 @@ describe('OrgParser', () => {
 :YOUTUBE_URL: https://youtu.be/YrlAfWfgvIQ
 :SPEAKERS:
 :END:
-* Writing academic papers in Org-Roam  :emacsconf:emacsconf2024:
+* Writing academic papers in Org-Roam  :emacsconf:emacsconf2024:org:OrgRoam:academic:research:writing:
 :PROPERTIES:
 :DATE: 2024-12-07
+:URL: https://emacsconf.org/2024/talks/papers
 :MEDIA_URL: https://media.emacsconf.org/2024/emacsconf-2024-papers--writing-academic-papers-in-orgroam--vincent-conus--main.webm
+:YOUTUBE_URL: https://youtu.be/BKQcgpZS2GM
+:TOOBNIX_URL: https://toobnix.org/w/9LYtH8MWCMZ7N4DNteys17
+:TRANSCRIPT_URL: https://media.emacsconf.org/2024/emacsconf-2024-papers--writing-academic-papers-in-orgroam--vincent-conus--main.vtt
 :SPEAKERS: Vincent Conus
+:SERIES: EmacsConf 2024
 :END:`;
 
     const document = OrgParser.parse(orgContent);
@@ -32,15 +37,21 @@ describe('OrgParser', () => {
       ),
       new OrgHeading(
         'Writing academic papers in Org-Roam',
-        ['emacsconf', 'emacsconf2024'],
+        ['emacsconf', 'emacsconf2024', 'org', 'OrgRoam', 'academic', 'research', 'writing'],
         {
           DATE: '2024-12-07',
+          URL: 'https://emacsconf.org/2024/talks/papers',
           MEDIA_URL: 'https://media.emacsconf.org/2024/emacsconf-2024-papers--writing-academic-papers-in-orgroam--vincent-conus--main.webm',
-          SPEAKERS: 'Vincent Conus'
+          YOUTUBE_URL: 'https://youtu.be/BKQcgpZS2GM',
+          TOOBNIX_URL: 'https://toobnix.org/w/9LYtH8MWCMZ7N4DNteys17',
+          TRANSCRIPT_URL: 'https://media.emacsconf.org/2024/emacsconf-2024-papers--writing-academic-papers-in-orgroam--vincent-conus--main.vtt',
+          SPEAKERS: 'Vincent Conus',
+          SERIES: 'EmacsConf 2024'
         },
       )
     ]);
 
     expect(document).toEqual(expectedDocument);
   });
-});
+})
+;
