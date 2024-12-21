@@ -2034,7 +2034,7 @@ I needed to quickly go through a large set of images to select out a subset from
   reNovation by airtone, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/airtone/60674
   ukeSounds by airtone, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/airtone/32655
   Between Worlds (Instrumental) by Aussens@iter, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/tobias_weber/56664
-* Gamify Org-mode agenda tasks :org:agenda:todo:gamification:fun:
+* Gamify Org-mode agenda tasks :org:OrgAgenda:todo:gamification:fun:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=v1_oHrPeUa0
 :DATE:     2024-12-01T13:17:18-08:00
@@ -2084,3 +2084,951 @@ I needed to quickly go through a large set of images to select out a subset from
   - SHIFT+TAB cycles through the folding state of the entire document regardless of the cursor's position.
 
   In this screencap, I show several operations, each with a different starting cursor position and/or starting folding state, where I hit the TAB or SHIFT+TAB keys, showing how elements get folded or unfolded recursively. I do it twice for each operation.
+* Scripture in EMACS! rcf-sword.el demo   :religion:org:markdown:sqlite:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=EcmtY1TtS0Q
+:DATE:     2024-11-11T15:45:33-08:00
+:SPEAKERS: Ryan
+:DURATION: 02:37
+:END:
+  Simple and lightning-quick scripture insertion in markdown and org-mode files leveraging new SQLite features in Emacs 29+
+
+  Source code: https://gist.github.com/RyanFleck/3195387af3ebd302152ec3397457689a
+
+  V014 - "Scripture in EMACS! rcf-sword.el demo"
+
+  https://ryanfleck.ca
+* emacs copy images from the clipboard into a org file with yank-media  :org:YankMedia:images:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=OOL6hGLejFE
+:DATE:     2023-06-01T13:06:23-07:00
+:SPEAKERS: NapoleonWils0n
+:DURATION: 43:20
+:END:
+  Emacs 29 has a new command called yank-media allows you to copy an image from the clipboard and insert it into a buffer in a supported mode, the only mode currently support are message and html modes
+
+  But with a bit of detective work i have managed to get yank-media working with org mode so you can easily add images from the clipboard as org file links
+
+  yank-media org mode code
+  https://github.com/NapoleonWils0n/cerberus/blob/master/emacs/yank-media.org
+
+  emacs init.el
+  https://github.com/NapoleonWils0n/fedora-dotfiles/blob/master/.config/emacs/init.el
+
+  building emacs 30 on fedora
+  https://github.com/NapoleonWils0n/cerberus/blob/master/fedora/emacs-build-fedora.org
+* Getting Comfortable with Emacs Registers - System Crafters Live!  :navigation:registers:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=ByhVuBAHCPU
+:DATE:     2024-11-08T22:21:02-08:00
+:SPEAKERS: SystemCrafters
+:DURATION: 02:06:10
+:END:
+  In this stream, we'll take a look at Emacs' feature called "registers" and discuss how they can be useful in our day to day workflow.  We'll also contrast registers to two other Emacs features: bookmarks and the mark ring.
+
+  I have never really used registers in Emacs so this will be partly a way for me to become more comfortable using them!
+
+  #gnu #emacs #workflow #dotfiles #configuration
+
+  GET GOOD AT GIT:
+
+  Have you used Git for a while but still feel like you donât really understand what youâre doing? Do you wish you understood how Git really works under the hood? Wish you knew all the cool techniques that the expert hackers use?
+
+  In December, I'll be running a new one-day workshop called "Git Good: From Basics to Beyond in 4 Hours" that will teach you many of the secrets of expert Git users within 4 hours while giving you hands-on exercises to try it all for yourself!
+
+  More information and registration details can be found here:
+
+     https://systemcrafters.net/courses/git-good-workshop/
+
+
+  SUPPORT THE CHANNEL:
+
+  ð Support My Work: https://systemcrafters.net/how-to-help/#support-my-work
+  ð° Subscribe to the Newsletter: https://systemcrafters.net/newsletter/
+  ð Check out the Store: https://systemcrafters.store
+  ð Get Your Copy of Mastering Emacs: https://www.masteringemacs.org/r/systemcrafters?utm_source=yt&utm_medium=desc&utm_campaign=scme
+
+  SHOW NOTES:
+
+  https://systemcrafters.net/live-streams/november-8-2024/
+
+  JOIN THE COMMUNITY:
+
+  https://systemcrafters.net/community/ (Forum and IRC chat!)
+  https://fosstodon.org/@daviwil
+
+  MY CONFIGURATION:
+
+  (This site is currently down but will be back up soon!)
+
+  https://config.daviwil.com
+  https://config.daviwil.com/emacs
+  https://config.daviwil.com/systems (Guix)
+
+  OTHER SERIES:
+
+  - Emacs Essentials: https://www.youtube.com/watch?v=48JlgiBpw_I&list=PLEoMzSkcN8oPZvSdewHG8uApD7THlLLCV
+  - Emacs From Scratch: https://www.youtube.com/watch?v=74zOY-vgkyw&list=PLEoMzSkcN8oPH1au7H6B7bBJ4ZO7BXjSZ
+  - Emacs Tips: https://www.youtube.com/watch?v=wKTKmE1wLyw&list=PLEoMzSkcN8oMHJ6Xil1YdnYtlWd5hHZql
+  - Emacs Desktop Environment: https://www.youtube.com/watch?v=f7xB2fFk1tQ&list=PLEoMzSkcN8oNPbEMYEtswOVTvq7CVddCS
+  - Emacs IDE: https://www.youtube.com/watch?v=E-NAM9U5JYE&list=PLEoMzSkcN8oNvsrtk_iZSb94krGRofFjN
+  - Emacs Mail: https://www.youtube.com/watch?v=yZRyEhi4y44&list=PLEoMzSkcN8oM-kA19xOQc8s0gr0PpFGJQ
+  - Learning Emacs Lisp: https://www.youtube.com/watch?v=RQK_DaaX34Q&list=PLEoMzSkcN8oPQtn7FQEF3D7sroZbXuPZ7
+  - Craft Your System with GNU Guix: https://www.youtube.com/watch?v=iBaqOK75cho&list=PLEoMzSkcN8oNxnj7jm5V2ZcGc52002pQU
+
+  CREDITS:
+
+  Coriolis Effect by logos feat. stefsax, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/mseq/26296
+  reNovation by airtone, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/airtone/60674
+  ukeSounds by airtone, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/airtone/32655
+  Between Worlds (Instrumental) by Aussens@iter, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/tobias_weber/56664
+* Emacs Shortcuts To Show Nitty Gritty Details Of Selected Buffer Section 2024_11_09_16:22:27  :writing:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=kPGLQ-OYJxM&feature=youtu.be
+:DATE:     2024-11-09T03:28:02-08:00
+:SPEAKERS: Bhaskar Chowdhury
+:DURATION: 09:04
+:END:
+count-words-region
+
+  In this video, you will see a trivial way to find the details of selected buffer regions in Emacs.
+
+  #linux #linuxadmin #sysadmin #opensource #Gentoo #Debian #Slackware #research
+  #linuxkernel #kernel #gnu #Linux #GNU
+
+  Buy Me A Coffee: https://www.buymeacoffee.com/unixbhaskar
+  Patreon: https://www.patreon.com/unixbhaskar
+  Paypal: https://paypal.me/linuxbhaskar
+
+  You can also find me :
+
+  GitHub: https://github.com/unixbhaskar
+
+  Reddit: https://www.reddit.com/user/unixbhaskar
+
+  Blogs: https://unixbhaskar.wordpress.com
+
+  Twitter: https://twitter.com/unixbhaskar
+
+  Linkedin: https://linkedin.com/in/unixbhaskar
+
+  Vimeo: https://vimeo.com/unixbhaskar
+
+  Goodreads: https://goodreads.com/unixbhaskar
+* Exploring Emacs Completion Styles - System Crafters Live!  :completion:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=QNdOBXVdd1Q
+:DATE:     2024-11-15T22:59:00-08:00
+:SPEAKERS: SystemCrafters
+:DURATION: 02:03:03
+:END:
+  In this stream, we'll dive deeper into Emacs' built-in "completion styles", the code that determines how what you type in the minibuffer is matched against the set of all completion candidates.
+
+  We'll experiment with the built in completion styles, try tweaking 'completion-styles-alist' to customize completion for different minibuffer commands, and also take a look at the code for some of these (including the package 'orderless') to understand how they work!
+
+  #gnu #emacs #completions #dotfiles #configuration
+
+  GET GOOD AT GIT:
+
+  Have you used Git for a while but still feel like you donât really understand what youâre doing? Do you wish you understood how Git really works under the hood? Wish you knew all the cool techniques that the expert hackers use?
+
+  In December, I'll be running a new one-day workshop called "Git Good: From Basics to Beyond in 4 Hours" that will teach you many of the secrets of expert Git users within 4 hours while giving you hands-on exercises to try it all for yourself!
+
+  More information and registration details can be found here:
+
+     https://systemcrafters.net/courses/git-good-workshop/
+
+
+  SUPPORT THE CHANNEL:
+
+  ð Support My Work: https://systemcrafters.net/how-to-help/#support-my-work
+  ð° Subscribe to the Newsletter: https://systemcrafters.net/newsletter/
+  ð Check out the Store: https://systemcrafters.store
+  ð Get Your Copy of Mastering Emacs: https://www.masteringemacs.org/r/systemcrafters?utm_source=yt&utm_medium=desc&utm_campaign=scme
+
+  SHOW NOTES:
+
+  https://systemcrafters.net/live-streams/november-15-2024/
+
+  JOIN THE COMMUNITY:
+
+  https://systemcrafters.net/community/ (Forum and IRC chat!)
+  https://fosstodon.org/@daviwil
+
+  MY CONFIGURATION:
+
+  (This site is currently down but will be back up soon!)
+
+  https://config.daviwil.com
+  https://config.daviwil.com/emacs
+  https://config.daviwil.com/systems (Guix)
+
+  OTHER SERIES:
+
+  - Emacs Essentials: https://www.youtube.com/watch?v=48JlgiBpw_I&list=PLEoMzSkcN8oPZvSdewHG8uApD7THlLLCV
+  - Emacs From Scratch: https://www.youtube.com/watch?v=74zOY-vgkyw&list=PLEoMzSkcN8oPH1au7H6B7bBJ4ZO7BXjSZ
+  - Emacs Tips: https://www.youtube.com/watch?v=wKTKmE1wLyw&list=PLEoMzSkcN8oMHJ6Xil1YdnYtlWd5hHZql
+  - Emacs Desktop Environment: https://www.youtube.com/watch?v=f7xB2fFk1tQ&list=PLEoMzSkcN8oNPbEMYEtswOVTvq7CVddCS
+  - Emacs IDE: https://www.youtube.com/watch?v=E-NAM9U5JYE&list=PLEoMzSkcN8oNvsrtk_iZSb94krGRofFjN
+  - Emacs Mail: https://www.youtube.com/watch?v=yZRyEhi4y44&list=PLEoMzSkcN8oM-kA19xOQc8s0gr0PpFGJQ
+  - Learning Emacs Lisp: https://www.youtube.com/watch?v=RQK_DaaX34Q&list=PLEoMzSkcN8oPQtn7FQEF3D7sroZbXuPZ7
+  - Craft Your System with GNU Guix: https://www.youtube.com/watch?v=iBaqOK75cho&list=PLEoMzSkcN8oNxnj7jm5V2ZcGc52002pQU
+
+  CREDITS:
+
+  Coriolis Effect by logos feat. stefsax, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/mseq/26296
+  reNovation by airtone, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/airtone/60674
+  ukeSounds by airtone, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/airtone/32655
+  Between Worlds (Instrumental) by Aussens@iter, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/tobias_weber/56664
+* Emacs: A non-intrusive browser  :web:eww:svg:
+:PROPERTIES:
+:YOUTUBE_URL: https://youtu.be/9vU97OE3nQI
+:DATE:     2024-11-13T08:28:04-08:00
+:SPEAKERS: Anand Tamariya
+:DURATION: 00:45
+:END:
+  Details: https://lifeofpenguin.blogspot.com/2024/09/html-renderer.html
+* Emacs: control where buffers are displayed (the 'display-buffer-alist')  :buffers:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?si=o55awR-etgHGz4jr&v=1-UIzYPn38s&feature=youtu.be
+:DATE:     2024-02-08T04:35:17-08:00
+:SPEAKERS: Protesilaos Stavrou
+:DURATION: 29:51
+:END:
+  In this ~30 minute video I show how to tell Emacs where to place specific buffers. The idea is to have a set of rules that specify how you want Emacs to make use of the available space in the frame and which windows to use.
+  You can find actual code and further links on my website. Check the publication that corresponds to this video: https://protesilaos.com/codelog/2024-02-08-emacs-window-rules-display-buffer-alist
+
+* Xah Talk Show 2024-10-29, Ep594, Emacs Lisp Coding, Command to Search YouTube  :search:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=CDw_V9ry3gE
+:DATE:     2024-10-30T01:12:06-07:00
+:SPEAKERS: Xah Lee
+:DURATION: 01:03:15
+:END:
+  note at
+  http://xahlee.info/talk_show/xah_talk_show_2024-10-29.html
+* Interview with an Emacs Enthusiast in 2023 [Colorized]  :fun:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=urcL86UpqZc&pp=ygUFZW1hY3M%3D
+:DATE:     2023-06-10T06:30:28-07:00
+:SPEAKERS: Programmers are also human
+:DURATION: 08:50
+:END:
+  Emacs OS
+
+  Interview with an Emacs Enthusiast in 2023 with Emerald McS., PhD - aired on Â© The Emacs.
+  org. air date 1990.
+
+  Programmer humor
+  Software humor
+  Elisp humor
+  Software tools
+  Retro computing
+  Vim vs emacs editor
+  Computerphile
+  Emacs humor
+  Emacs jokes
+  emacs vs vim
+  Programming memes
+  gnu emacs
+  spacemacs
+  emacs memes
+  lex friedman ide
+  VS Code
+  configuring emacs
+  melpa
+  evil mode emacs
+  emacs docs
+
+  Music by:
+  www.FesliyanStudios.com
+
+  #software #jokes #emacs
+
+* Evil Mode: Or, How I Learned to Stop Worrying and Love Emacs  :EvilMode:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=JWD1Fpdd4Pc&pp=ygUFZW1hY3M%3D
+:DATE:     2015-06-03T11:24:39-07:00
+:SPEAKERS: thoughtbot
+:DURATION: 40:02
+:END:
+  Aaron Bieber from Wayfair is back to talk to us about his recent experience using Emacs (what?!?!). That's right, Emacs. Aaron decided it was time to see how things looked on the other side and will share what he found, what he missed from Vim, and maybe even a few things we can bring back to Vim from Emacs.
+
+  Learn more from the developers at thoughtbot â¨ï¸
+  Head over to http://tbot.io/dev-blog to read more great articles on our blog.
+
+* The Absolute Beginner's Guide to Emacs  :beginner:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=48JlgiBpw_I&pp=ygUFZW1hY3M%3D
+:DATE:     2021-03-08T06:53:32-08:00
+:SPEAKERS: System Crafters
+:DURATION: 01:11:55
+:END:
+  This video is intended for people who have used other code editors or IDEs before and are curious to try out Emacs!  The goal is to teach you everything you need to know to get started with Emacs and use it for basic editing tasks.  Once you get comfortable with the basics, check out the other Emacs video series that I've created to learn a whole lot more!
+
+  Check out the show notes here: https://systemcrafters.net/emacs-essentials/absolute-beginners-guide-to-emacs/
+
+  Also, if you want to know a little more about what Emacs is capable of, check out my video "5 Reasons to Learn Emacs in 2021": https://youtu.be/bEfYm8sAaQg
+
+  Check out my other video series on Emacs!
+
+  - Emacs From Scratch: https://www.youtube.com/watch?v=74zOY-vgkyw&list=PLEoMzSkcN8oPH1au7H6B7bBJ4ZO7BXjSZ
+  - Emacs Tips: https://www.youtube.com/watch?v=wKTKmE1wLyw&list=PLEoMzSkcN8oMHJ6Xil1YdnYtlWd5hHZql
+  - Emacs Desktop Environment: https://www.youtube.com/watch?v=f7xB2fFk1tQ&list=PLEoMzSkcN8oNPbEMYEtswOVTvq7CVddCS
+  - Emacs IDE: https://www.youtube.com/watch?v=E-NAM9U5JYE&list=PLEoMzSkcN8oNvsrtk_iZSb94krGRofFjN
+  - Emacs Mail: https://www.youtube.com/watch?v=yZRyEhi4y44&list=PLEoMzSkcN8oM-kA19xOQc8s0gr0PpFGJQ
+  - Learning Emacs Lisp: https://www.youtube.com/watch?v=RQK_DaaX34Q&list=PLEoMzSkcN8oPQtn7FQEF3D7sroZbXuPZ7
+
+  We cover the following topics:
+
+  - 0:00 Intro
+  - 1:33 Installation
+  - 2:17 GNU/Linux
+  - 3:03 GUI or Terminal?
+  - 4:06 macOS
+  - 4:46 Windows
+  - 5:13 Basic Concepts
+  - 5:29 The User Interface (Menu Bar, Tool Bar)
+  - 9:11 Menu Bar in the Terminal
+  - 10:02 Where's the file browser?
+  - 11:14 Windows and Frames
+  - 15:12 Buffers
+  - 19:01 The *scratch* buffer
+  - 19:49 The *Messages* buffer
+  - 20:37 The *Warnings* buffer
+  - 21:08 The Mode Line
+  - 25:22 The Echo Area and Minibuffer
+  - 27:06 Commands
+  - 29:27 Dired
+  - 30:49 Calendar
+  - 31:12 eshell
+  - 31:57 Tetris?
+  - 32:40 Major Modes
+  - 36:20 Minor Modes
+  - 37:01 Minor mode: highlight current line
+  - 38:46 Basic Key Bindings
+  - 39:40 Understanding Emacs Key Bindings
+  - 44:53 The Key Prefixes C-x and C-c
+  - 47:25 Opening and Saving Files
+  - 50:00 Switching Buffers
+  - 52:41 Cutting and Copying Text
+  - 55:31 Pasting Text
+  - 56:15 CUA Mode (C-c, C-x, and C-v)
+  - 57:53 Undo and Redo
+  - 59:41 Cancelling Operations
+  - 1:01:04 Learning More Key Bindings
+  - 1:03:20 The Help System
+  - 1:04:28 Configuring Emacs
+  - 1:04:42 The Customization UI
+  - 1:05:53 The init.el File
+  - 1:07:40 What's next?
+
+  My Emacs configuration: https://github.com/daviwil/dotfiles/blob/master/Emacs.org
+
+  If you enjoy the videos on this channel, please consider supporting my work: https://systemcrafters.net/support-the-channel/
+
+  Follow me on Twitter for more Emacs content!
+  https://twitter.com/SystemCrafters
+
+  Chat with the System Crafters community on Discord: https://discord.gg/yVD8Gx6
+
+  Intro music: Coriolis Effect by logos feat. stefsax, licensed CC-BY
+  http://ccmixter.org/files/mseq/26296
+* Emacs Org-mode - a system for note-taking and project planning  :org:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=oJTwQvgfgMM&pp=ygUFZW1hY3M%3D
+:DATE:     2008-07-16T02:48:46-07:00
+:SPEAKERS: Google TechTalks
+:DURATION: 46:56
+:END:
+  Google Tech Talks
+  July 15, 2008
+
+  ABSTRACT
+
+   Org-mode is a large Emacs sub-systems that has been integrated into
+   Emacs with the version 22.1 release. From it original intend,
+   Org-mode is a system for structured note-taking and project planning.
+   It uses strictly plain text files, making it a truly portable,
+   system-independent solution. The project-planning features are
+   implemented using a fairly simple outlining paradigm, upon which
+   meta-data concepts like due dates, priorities, TODO states and tags
+   are overlayed in a non-intrusive way. Besides outlining the system
+   and its basic concepts, I will give background information into the
+   history of Org-mode and discuss the properties of such an evolved
+   system compared to a top-down designed one. Finally, I will also
+   briefly touch on some technical aspects that may be interesting for
+   Emacs wizards and developers.
+
+
+  Speaker: Carsten Dominik
+* Emacs Introduction and Demonstration  :beginner:prelude:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=B6jfrrwR10k&pp=ygUFZW1hY3M%3D
+:DATE:     2014-06-27T16:23:49-07:00
+:SPEAKERS: Howard Abrams
+:DURATION: 36:34
+:END:
+  This presentation was originally given at the Open Source Bridge in Portland, Oregon on 26 June 2014. I re-recorded it at home based on feedback that I had not sufficiently explained all "the magic" I set up...that's right, I did program my presentation in Emacs. ;-)
+
+  Links mentioned in the Talk:
+
+  * Why Learn Emacs?  http://www.howardism.org/Technical/Emacs/why-emacs.html
+  * My Getting Started Guide: http://www.howardism.org/Technical/Emacs/getting-started.html
+  * Start with Aquamacs, a Mac-ish Emacs version: http://aquamacs.org
+  * Install Prelude for good IDE support: https://github.com/bbatsov/prelude
+  * Mastering Emacs may take Ten Years: http://t.co/4BQuIzJIDr
+  * Use KeyRemap4MacBook to gain a new Control key: https://pqrs.org/macosx/keyremap4macbook/
+  * Online Emacs Tutorials: http://www.youtube.com/watch?v=MRYzPWnk2mE
+  * Check out http://orgmode.org org-mode
+  * Mastering the Emacs Shell: http://www.howardism.org/Technical/Emacs/eshell-fun.html
+  * https://github.com/magit/magit/blob/master/README.md
+  * https://github.com/magnars/expand-region.el
+  * https://github.com/magnars/multiple-cursors.el
+  * https://github.com/smihica/emmet-mode for quickly writing HTML
+* Emacs From Scratch #1 - Getting Started with a Basic Usable Configuration  :beginner:configuration:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=74zOY-vgkyw&pp=ygUFZW1hY3M%3D
+:DATE:     2020-09-11T22:19:39-07:00
+:SPEAKERS: System Crafters
+:DURATION: 58:29
+:END:
+  In this stream, we'll start creating a completely custom Emacs configuration from scratch!  We'll also learn some Emacs basics along the way.
+
+  Check out the configuration from this stream here: https://github.com/daviwil/runemacs/tree/3075158cae210060888001c0d76a58a4178f6a00
+
+  My Emacs configuration: https://github.com/daviwil/dotfiles/blob/master/Emacs.org
+
+  If you enjoy this series, please consider becoming a GitHub Sponsor: https://github.com/sponsors/daviwil
+
+  Follow me on Twitter for more Emacs content!
+  https://twitter.com/SystemCrafters
+
+  Chat with the System Crafters community on Discord: https://discord.gg/yVD8Gx6
+
+  Intro music: Coriolis Effect by logos feat. stefsax, licensed CC-BY
+  http://ccmixter.org/files/mseq/26296
+* Doom Emacs On Day One (Learn These Things FIRST!)  :DoomEmacs:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=37H7bD-G7nE&pp=ygUFZW1hY3M%3D
+:DATE:     2022-05-01T14:45:00-07:00
+:SPEAKERS: DistroTube
+:DURATION: 35:09
+:END:
+  Many Vim users find Doom Emacs overwhelming at first, because of the orgy of documentation.  There is so much to learn!  Don't worry.  You don't need to learn everything on Day One.  If you already have a strong foundation with Vim commands, then you are almost ready for Doom Emacs.  But here's a few other things you need to know on Day One.
+
+  REFERENCED:
+  - https://github.com/hlissner/doom-emacs
+
+  WANT TO SUPPORT THE CHANNEL?
+  - Patreon: https://www.patreon.com/distrotube
+  - Paypal: https://www.youtube.com/redirect?event=channel_banner&redir_token=QUFFLUhqazNocEhiaGFBT1l1MnRHbnlIcHFKbXJWVnpQd3xBQ3Jtc0tsLVZJc19YeFlwZ2JqbXVOa3g0Skw4TVhTV2otNm1tM3A1bUNnamh3S2V6OGQtLTBnSjBxYTlvUXMxeEVIS3o4US10NENHMUQ3STk2a01FOFBhUnZjZFctMEhFUTg1TVctQmFfVUdxZXJ4TDl0azlYNA&q=https%3A%2F%2Fwww.paypal.com%2Fcgi-bin%2Fwebscr%3Fcmd%3D_donations%26business%3Dderek%2540distrotube%252ecom%26lc%3DUS%26item_name%3DDistroTube%26no_note%3D0%26currency_code%3DUSD%26bn%3DPP%252dDonationsBF%253abtn_donateCC_LG%252egif%253aNonHostedGuest
+  - Amazon: https://amzn.to/2RotFFi
+  - Teespring: https://teespring.com/stores/distrotube
+
+  DONATE CRYPTO:
+  - Bitcoin: 1Mp6ebz5bNcjNFW7XWHVht36SkiLoxPKoX
+  - Dogecoin: D5fpRD1JRoBFPDXSBocRTp8W9uKzfwLFAu
+  - LBC: bMfA2c3zmcLxPCpyPcrykLvMhZ7A5mQuhJ
+
+  DT ON THE WEB:
+  - Website: http://distrotube.com/
+  - GitLab: https://gitlab.com/dwt1
+  - Mastodon: https://fosstodon.org/@distrotube
+  - Reddit: https://www.reddit.com/r/DistroTube/
+  - LBRY/Odysee: https://odysee.com/@DistroTube:2
+
+  FREE AND OPEN SOURCE SOFTWARE THAT I USE:
+  - Brave Browser - https://brave.com/dis872
+  - Open Broadcaster Software: https://obsproject.com/
+  - Kdenlive: https://kdenlive.org
+  - GIMP: https://www.gimp.org/
+  - VirtualBox: https://www.virtualbox.org/
+  - Doom Emacs: https://github.com/hlissner/doom-emacs
+
+  Your support is very much appreciated. Thanks, guys!
+* The Basics of Emacs as a Text Editor  :beginner:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=jPkIaqSh3cA&pp=ygUFZW1hY3M%3D
+:DATE:     2019-12-03T17:03:35-08:00
+:SPEAKERS: DistroTube
+:DURATION: 16:08
+:END:
+  In this video, I'm going to quickly go through some of the basics of using Emacs, the text editor!
+
+  REFERENCED:
+  ► https://www.gnu.org/software/emacs/
+
+  WANT TO SUPPORT THE CHANNEL?
+  💰 Patreon: https://www.patreon.com/distrotube
+  💳 Paypal: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=derek%40distrotube%2ecom&lc=US&item_name=DistroTube&no_note=0&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHostedGuest
+  🛍️ Amazon: https://amzn.to/2RotFFi
+  👕 Teespring: https://teespring.com/stores/distrotube
+
+  SOCIAL PLATFORMS:
+  🗨️ Mastodon: https://mastodon.technology/@distrotube
+  💬 IRC: irc://freenode #distrotube
+  👫 Reddit: https://www.reddit.com/r/DistroTube/
+
+  DT ON THE WEB:
+  🕸️ Website: http://distrotube.com/
+  🌐 Gopherhole: gopher://distro.tube
+  📁 GitLab: https://gitlab.com/dwt1
+
+  FREE AND OPEN SOURCE SOFTWARE THAT I USE:
+  📽️ Open Broadcaster Software: https://obsproject.com/
+  🎬 Kdenlive: https://kdenlive.org
+  🎨 GIMP: https://www.gimp.org/
+  🔊 Audacity: https://www.audacityteam.org/
+  💻 VirtualBox: https://www.virtualbox.org/
+
+  Your support is very much appreciated. Thanks, guys!
+
+  ---
+  Some of the commands I will go over include:
+  (1) Opening Documents
+         C-x C-f for find file
+         You can type full path to a file or create a new document.
+         You could also just open the path to a directory and find the file.
+  (2) C-x C-+, C-x C-- For Zoom In/Out
+  (3) Basic Navigation
+         C-n, C-p, C-f, C-b
+         M-f, M-b (forward/back by words)
+         C-a, C-e (beginning/end of line)
+         M-a, M-e (backwards/forwards by sentence)
+         M-{, M-} (backwards/forwards by paragraph)
+         M-"LESS THAN", M-"GREATER THAN" (beginning/end of file)
+         M-g g (goto line number)
+         ESC-number C-n/p/f/b (perform motion that number of times)
+  (4) Cut, Copy and Paste
+         C-space to select text to copy/cut
+         C-w cut highlighted
+         M-w copy highlighted
+         C-y paste
+         C-k cut to end of line?
+         C-x backspace, M-k (backwards/forwards delete the current line)
+         M-z character cuts to that character
+         ESC-number ESC-d deletes that number of words
+         C-x u undo
+         C-h v kill-ring
+         C-x 0 to close the kill-ring window
+         C-y Esc-y to cycle through kill-ring for paste
+  (4) Buffers
+         C-x b select another buffer
+         C-x C-b list all buffers
+         C-x k kill a buffer
+  (5) Case change
+         M-c capitalizes a word
+         M-u uppercase word
+         M-l lowercase word
+  (6) Spell Check
+         M-$ check current word
+         sudo pacman -S aspell-en (for Arch users)
+  (7) Query replace M-% (shift-5)
+         Will only look forward in the file!
+         RET exits the query replace
+  (8) Search
+         C-s to search forward
+         C-r to search backward
+  (9) Splits
+         C-x 2 Horizontal Split
+         C-x 3 Vertical Split
+         C-x 0 Close window
+         C-x 4f Opens file in other window
+         C-x o moves cursor to next frame
+  (10) Save and Exit
+         C-x C-s Save
+         C-x C-c Quit
+* What Are The Benefits Of Emacs Over Vim?  :comparison:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=kRkp-uJTK7s&pp=ygUFZW1hY3M%3D
+:DATE:     2021-06-11T16:13:08-07:00
+:SPEAKERS: DistroTube
+:DURATION: 29:44
+:END:
+  Probably one of the most common Vim/Emacs questions that I get is "Why would I choose Emacs over Vim?"  Or "what does Emacs have to offer that Vim doesn't?"  You see this question all the time from Vim users on message boards and support forums.  So I wanted to take a minute to answer it.
+
+  WANT TO SUPPORT THE CHANNEL?
+  💰 Patreon: https://www.patreon.com/distrotube
+  💳 Paypal: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=derek%40distrotube%2ecom&lc=US&item_name=DistroTube&no_note=0&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHostedGuest
+  🛍️ Amazon: https://amzn.to/2RotFFi
+  👕 Teespring: https://teespring.com/stores/distrotube
+
+  DONATE CRYPTO:
+  💰 Bitcoin: 1Mp6ebz5bNcjNFW7XWHVht36SkiLoxPKoX
+  🐶 Dogecoin: D5fpRD1JRoBFPDXSBocRTp8W9uKzfwLFAu
+  📕 LBC: bMfA2c3zmcLxPCpyPcrykLvMhZ7A5mQuhJ
+
+  SOCIAL PLATFORMS:
+  🗨️ Mastodon: https://distrotoot.com/@derek
+  👫 Reddit: https://www.reddit.com/r/DistroTube/
+  📽️ LBRY/Odysee: https://odysee.com/$/invite/@DistroTube:2
+
+  DT ON THE WEB:
+  🕸️ Website: http://distrotube.com/
+  🐿️ Gemini Capsule: gemini://distro.tube
+  📁 GitLab: https://gitlab.com/dwt1
+
+  FREE AND OPEN SOURCE SOFTWARE THAT I USE:
+  🌐 Brave Browser - https://brave.com/dis872
+  📽️ Open Broadcaster Software: https://obsproject.com/
+  🎬 Kdenlive: https://kdenlive.org
+  🎨 GIMP: https://www.gimp.org/
+  🎵  Audacity: https://www.audacityteam.org/
+  💻 VirtualBox: https://www.virtualbox.org/
+  🗒️ Doom Emacs: https://github.com/hlissner/doom-emacs
+
+  Your support is very much appreciated. Thanks, guys!
+* Getting Started with Org Roam - Build a Second Brain in Emacs  :org:OrgRoam:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=AyhPmypHDEw&pp=ygUFZW1hY3M%3D
+:DATE:     2021-07-26T06:39:33-07:00
+:SPEAKERS: System Crafters
+:DURATION: 34:18
+:END:
+  In this video, we'll learn the basics of how to use the Org Roam v2 package to build a personal knowledgebase!  If you've ever struggled to figure out where to put information in your Org files, Org Roam provides a very efficient solution while bringing along all of the other amazing features of Org Mode.
+
+  Check out the show notes here: https://systemcrafters.cc/build-a-second-brain-in-emacs/getting-started-with-org-roam/
+
+  Check out the later videos in this series:
+  - Capture Notes Efficiently in Emacs with Org Roam: https://youtu.be/YxgA5z2R08I
+  - Keep a Journal in Emacs with Org Roam: https://www.youtube.com/watch?v=3-sLBaJAtew
+
+  We cover the following topics:
+
+  - 00:00 Intro
+
+  - 00:28 What is Org Roam?
+  - 03:17 Prerequisites
+  - 05:10 Installation
+  - 07:56 Basic configuration
+  - 10:23 Dealing with migration warnings
+  - 11:12 Creating your first node
+  - 14:40 They're just .org files!
+  - 15:29 Inserting links to other nodes
+  - 17:03 Inserting links to nodes that don't exist yet
+  - 18:43 Inserting node links using completions
+  - 22:17 Creating a heading node
+  - 23:46 Creating aliases for nodes
+  - 27:08 Viewing backlinks for the current file
+  - 31:29 What's next?
+
+  My Emacs configuration: https://config.daviwil.com/emacs
+  My system configurations: https://config.daviwil.com/systems
+
+  If you enjoy this series, please consider becoming a sponsor on GitHub or Patreon:
+
+  - https://github.com/sponsors/daviwil
+  - https://patreon.com/SystemCrafters
+
+  You can also leave a tip via PayPal: https://paypal.me/daviwil
+
+  Chat with the System Crafters community on Discord and IRC: http://systemcrafters.chat
+
+  Follow me on Twitter for more GNU Emacs and GNU Guix content!
+  https://twitter.com/SystemCrafters
+
+  Check out my other video series!
+
+  - Emacs Essentials: https://www.youtube.com/watch?v=48JlgiBpw_I&list=PLEoMzSkcN8oPZvSdewHG8uApD7THlLLCV
+  - Emacs From Scratch: https://www.youtube.com/watch?v=74zOY-vgkyw&list=PLEoMzSkcN8oPH1au7H6B7bBJ4ZO7BXjSZ
+  - Emacs Tips: https://www.youtube.com/watch?v=wKTKmE1wLyw&list=PLEoMzSkcN8oMHJ6Xil1YdnYtlWd5hHZql
+  - Emacs Desktop Environment: https://www.youtube.com/watch?v=f7xB2fFk1tQ&list=PLEoMzSkcN8oNPbEMYEtswOVTvq7CVddCS
+  - Emacs IDE: https://www.youtube.com/watch?v=E-NAM9U5JYE&list=PLEoMzSkcN8oNvsrtk_iZSb94krGRofFjN
+  - Emacs Mail: https://www.youtube.com/watch?v=yZRyEhi4y44&list=PLEoMzSkcN8oM-kA19xOQc8s0gr0PpFGJQ
+  - Learning Emacs Lisp: https://www.youtube.com/watch?v=RQK_DaaX34Q&list=PLEoMzSkcN8oPQtn7FQEF3D7sroZbXuPZ7
+  - Craft Your System with GNU Guix: https://www.youtube.com/watch?v=iBaqOK75cho&list=PLEoMzSkcN8oNxnj7jm5V2ZcGc52002pQU
+
+  Music credits:
+
+  Coriolis Effect by logos feat. stefsax, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/mseq/26296
+  reNovation by airtone, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/airtone/60674
+  ukeSounds by airtone, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/airtone/32655
+  Between Worlds (Instrumental) by Aussens@iter, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/tobias_weber/56664
+* Emacs For Writers  :writing:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=FtieBc3KptU&pp=ygUFZW1hY3M%3D
+:DATE:     2015-10-07T08:30:00-07:00
+:SPEAKERS: thoughtbot
+:DURATION: 01:01:06
+:END:
+  Jay Dixit is a science writer whose work has appeared in The New York Times, Rolling Stone, and Psychology Today. Jay will discuss how he uses Emacs as a non-programmer, and how Emacs has made him a more productive writer, editor, and researcher.
+
+  Learn more from the developers at thoughtbot ⌨️
+  Head over to http://tbot.io/dev-blog to read more great articles on our blog.
+
+* Doom Emacs For Noobs   :DoomEmacs:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=iab2z21cRqA
+:DATE:     2020-09-19T15:41:53-07:00
+:SPEAKERS: DistroTube
+:DURATION: 25:40
+:END:
+  Doom Emacs is my preferred text editor, and I have made several videos about it.  But some of those videos assumed that the viewer had some knowledge of Vim and/or Emacs.  So I decided to make this Doom Emacs introductory video for the complete noob!  This video covers how to install Doom Emacs, how to configure it, and some of the basic keybindings and commands.
+
+  REFERENCED:
+  ► https://github.com/hlissner/doom-emacs - Doom Emacs
+  ► https://pastebin.com/Ku0bPz1U -  My show notes as an org file (needs to be viewed in Emacs :D )
+
+  WANT TO SUPPORT THE CHANNEL?
+  💰 Patreon: https://www.patreon.com/distrotube
+  💳 Paypal: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=derek%40distrotube%2ecom&lc=US&item_name=DistroTube&no_note=0&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHostedGuest
+  🛍️ Amazon: https://amzn.to/2RotFFi
+  👕 Teespring: https://teespring.com/stores/distrotube
+
+  SOCIAL PLATFORMS:
+  🗨️ Mastodon: https://mastodon.technology/@distrotube
+  💬 IRC: irc://freenode #distrotube
+  👫 Reddit: https://www.reddit.com/r/DistroTube/
+  📽️ LBRY: https://lbry.tv/$/invite/@DistroTube:2
+
+  DT ON THE WEB:
+  🕸️ Website: http://distrotube.com/
+  🐿️ Gopherhole: gopher://distro.tube
+  📁 GitLab: https://gitlab.com/dwt1
+  🔊 Audio Podcasts: https://www.buzzsprout.com/1263722
+
+  FREE AND OPEN SOURCE SOFTWARE THAT I USE:
+  🌐 Brave Browser - https://brave.com/dis872
+  📽️ Open Broadcaster Software: https://obsproject.com/
+  🎬 Kdenlive: https://kdenlive.org
+  🎨 GIMP: https://www.gimp.org/
+  🎵  Audacity: https://www.audacityteam.org/
+  💻 VirtualBox: https://www.virtualbox.org/
+  🗒️ Doom Emacs: https://github.com/hlissner/doom-emacs
+
+  Your support is very much appreciated. Thanks, guys!
+* Why I Prefer Emacs Over VSCode and vim  :comparison:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=cxoE2FhOIgI
+:DATE:     2023-03-03T07:00:23-08:00
+:SPEAKERS: Code to the Moon
+:DURATION: 08:22
+:END:
+  Why I use emacs instead of VSCode or vim.
+
+  This video was heavily inspired by Jake B's video here: https://youtu.be/hnMntOQjs7Q
+
+  Join our Discord here: https://discord.gg/2G35Sp6kpQ
+
+  ---
+
+  Camera: Canon EOS R5 https://amzn.to/3CCrxzl
+  Monitor: Dell U4914DW 49in https://amzn.to/3MJV1jx
+  SSD for Video Editing: VectoTech Rapid 8TB https://amzn.to/3hXz9TM
+  Microphone 1: Rode NT1-A https://amzn.to/3vWM4gL
+  Microphone 2: Seinheiser 416 https://amzn.to/3Fkti60
+  Microphone Interface: Focusrite Clarett+ 2Pre https://amzn.to/3J5dy7S
+  Tripod: JOBY GorillaPod 5K https://amzn.to/3JaPxMA
+  Mouse: Razer DeathAdder https://amzn.to/3J9fYCf
+  Computer: 2021 Macbook Pro https://amzn.to/3J7FXtW
+  Lens: Canon RF24mm F1.8 Macro is STM Lens https://amzn.to/3UUs1bB
+  Caffeine: High Brew Cold Brew Coffee https://amzn.to/3hXyx0q
+  More Caffeine: Monster Energy Juice, Pipeline Punch https://amzn.to/3Czmfox
+  Building A Second Brain book: https://amzn.to/3cIShWf
+
+* Emacs as a C/C++ Editor/IDE (Part I): auto-complete, yasnippet, and auto-complete-c-headers  :coding:completion:c:cpp:yasnippet:autocomplete:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=HTUE03LnaXA
+:DATE:     2014-03-12T01:50:02-07:00
+:SPEAKERS: b yuksel
+:DURATION: 06:06
+:END:
+  Emacs as a C/C++ Editor/IDE (Part I): auto-complete, yasnippet, and auto-complete-c-headers. Installation and all the tricks.
+
+  .emacs file is available at: http://barisyuksel.com/cppmode/.emacs
+  package versions are available at: http://barisyuksel.com/cppmode/package_versions.png
+
+  or you can pull/clone it from github:
+  https://github.com/byuksel/Emacs-as-a-C-Cplusplus-Editor-IDE-settings
+* Emacs Rocks! Episode 13: multiple-cursors  :navigation:MultipleCursors:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=jNa3axo40qM
+:DATE:     2012-09-23T16:36:17-07:00
+:SPEAKERS: emacsrocks
+:DURATION: 03:56
+:END:
+  http://emacsrocks.com - Rocking emacs tricks and tips screencast.
+
+  Follow me on twitter: @emacsrocks
+* Org Mode Basics In Doom Emacs  :org:DoomEmacs:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=34zODp_lhqg&pp=ygUFZW1hY3M%3D
+:DATE:     2020-02-24T06:03:24-08:00
+:SPEAKERS: DistroTube
+:DURATION: 26:08
+:END:
+  Org Mode is a document editing, formatting, and organizing mode, designed for notes, planning, and outlining within Doom Emacs.  This video demonstrates some of the basic functions of Org Mode.
+
+  REFERENCED:
+  ► https://github.com/hlissner/doom-emacs - Doom Emacs
+  ► https://gitlab.com/dwt1/dotfiles/-/blob/master/org-mode-basics-in-doom-emacs.org - The Org File I Created
+
+  WANT TO SUPPORT THE CHANNEL?
+  💰 Patreon: https://www.patreon.com/distrotube
+  💳 Paypal: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=derek%40distrotube%2ecom&lc=US&item_name=DistroTube&no_note=0&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHostedGuest
+  🛍️ Amazon: https://amzn.to/2RotFFi
+  👕 Teespring: https://teespring.com/stores/distrotube
+
+  SOCIAL PLATFORMS:
+  🗨️ Mastodon: https://mastodon.technology/@distrotube
+  💬 IRC: irc://freenode #distrotube
+  👫 Reddit: https://www.reddit.com/r/DistroTube/
+  📽️ LBRY: https://lbry.tv/$/invite/@DistroTube:2
+
+  DT ON THE WEB:
+  🕸️ Website: http://distrotube.com/
+  🐿️ Gopherhole: gopher://distro.tube
+  📁 GitLab: https://gitlab.com/dwt1
+
+  FREE AND OPEN SOURCE SOFTWARE THAT I USE:
+  🌐 Brave Browser - https://brave.com/dis872
+  📽️ Open Broadcaster Software: https://obsproject.com/
+  🎬 Kdenlive: https://kdenlive.org
+  🎨 GIMP: https://www.gimp.org/
+  🔊 Audacity: https://www.audacityteam.org/
+  💻 VirtualBox: https://www.virtualbox.org/
+
+  Your support is very much appreciated. Thanks, guys!
+* Three HUGE Mistakes New Emacs Users Make  :beginner:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=s0ed8Da3mjE
+:DATE:     2021-11-05T14:19:29-07:00
+:SPEAKERS: DistroTube
+:DURATION: 13:27
+:END:
+It's a common story.  A person hears about Emacs and wants to give it a try, but their initial experience is usually pretty bad.  Why?  Well, I think a lot of it has to do with three HUGE mistakes that new Emacs users tend to make.
+
+  WANT TO SUPPORT THE CHANNEL?
+  💰 Patreon: https://www.patreon.com/distrotube
+  💳 Paypal: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=derek%40distrotube%2ecom&lc=US&item_name=DistroTube&no_note=0&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHostedGuest
+  🛍️ Amazon: https://amzn.to/2RotFFi
+  👕 Teespring: https://teespring.com/stores/distrotube
+
+  DONATE CRYPTO:
+  💰 Bitcoin: 1Mp6ebz5bNcjNFW7XWHVht36SkiLoxPKoX
+  🐶 Dogecoin: D5fpRD1JRoBFPDXSBocRTp8W9uKzfwLFAu
+  📕 LBC: bMfA2c3zmcLxPCpyPcrykLvMhZ7A5mQuhJ
+
+  SOCIAL PLATFORMS:
+  🗨️ Mastodon: https://distrotoot.com/@derek
+  👫 Reddit: https://www.reddit.com/r/DistroTube/
+  📽️ LBRY/Odysee: https://odysee.com/$/invite/@DistroTube:2
+
+  DT ON THE WEB:
+  🕸️ Website: http://distrotube.com/
+  🐿️ Gemini Capsule: gemini://distro.tube
+  📁 GitLab: https://gitlab.com/dwt1
+
+  FREE AND OPEN SOURCE SOFTWARE THAT I USE:
+  🌐 Brave Browser - https://brave.com/dis872
+  📽️ Open Broadcaster Software: https://obsproject.com/
+  🎬 Kdenlive: https://kdenlive.org
+  🎨 GIMP: https://www.gimp.org/
+  🎵  Ardour: https://ardour.org/
+  💻 VirtualBox: https://www.virtualbox.org/
+  🗒️ Doom Emacs: https://github.com/hlissner/doom-emacs
+
+  Your support is very much appreciated. Thanks, guys!
+* Literate Devops with Emacs  :literate:org:OrgBabel:TRAMP:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=dljNabciEGg
+:DATE:     2015-08-31T21:45:28-07:00
+:SPEAKERS: Howard Abrams
+:DURATION: 28:36
+:END:
+  A demonstration originally given at EmacsConf 2015 that describes how I use org-mode's Babel project and Tramp to configure and work with remote servers in my data center, prior to copying code off into Chef cookbooks and whatnot.
+
+  * My initial essay that started this presentation: http://howardism.org/Technical/Emacs/literate-devops.html
+  * Github that contains the demonstration code and results Sprint Page: https://github.com/howardabrams/literate-devops-demo
+  * Emacs code used to make this demonstration: http://github.com/howardabrams/demo-it
+  * My Emacs configuration files: http://github.com/howardabrams/dot-files
+* Boost Productivity With Emacs, Org Mode and Org Agenda  :org:OrgAgenda:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=Ea_-TaEGa7Y
+:DATE:     2020-09-25T14:54:16-07:00
+:SPEAKERS: DistroTube
+:DURATION: 34:24
+:END:
+  Do you use "productivity apps"?  If so, Emacs, Org Mode and Org Agenda lets you make todo lists, schedule tasks, manage projects and much more.  I've never been a "todo list" or "appointment scheduling" kind of person but the more I play with Emacs and Org, the more I think that I should be doing these things.
+
+  REFERENCED:
+  ► https://github.com/hlissner/doom-emacs - Doom Emacs
+  ► https://orgmode.org - Org Mode
+  ► https://orgmode.org/manual/Agenda-Commands.html - Org Agenda
+
+  WANT TO SUPPORT THE CHANNEL?
+  💰 Patreon: https://www.patreon.com/distrotube
+  💳 Paypal: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=derek%40distrotube%2ecom&lc=US&item_name=DistroTube&no_note=0&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHostedGuest
+  🛍️ Amazon: https://amzn.to/2RotFFi
+  👕 Teespring: https://teespring.com/stores/distrotube
+
+  SOCIAL PLATFORMS:
+  🗨️ Mastodon: https://mastodon.technology/@distrotube
+  💬 IRC: irc://freenode #distrotube
+  👫 Reddit: https://www.reddit.com/r/DistroTube/
+  📽️ LBRY: https://lbry.tv/$/invite/@DistroTube:2
+
+  DT ON THE WEB:
+  🕸️ Website: http://distrotube.com/
+  🐿️ Gopherhole: gopher://distro.tube
+  📁 GitLab: https://gitlab.com/dwt1
+  🔊 Audio Podcasts: https://www.buzzsprout.com/1263722
+
+  FREE AND OPEN SOURCE SOFTWARE THAT I USE:
+  🌐 Brave Browser - https://brave.com/dis872
+  📽️ Open Broadcaster Software: https://obsproject.com/
+  🎬 Kdenlive: https://kdenlive.org
+  🎨 GIMP: https://www.gimp.org/
+  🎵  Audacity: https://www.audacityteam.org/
+  💻 VirtualBox: https://www.virtualbox.org/
+  🗒️ Doom Emacs: https://github.com/hlissner/doom-emacs
+
+  Your support is very much appreciated. Thanks, guys!
+* A New Beginning With GNU Emacs - Configuring Emacs 01  :configuration:beginner:elpaca:EvilMode:general:WhichKey:org:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=d1fgypEiQkE
+:DATE:     2023-06-02T06:00:34-07:00
+:SPEAKERS: DistroTube
+:DURATION: 40:09
+:END:
+  Configuring Emacs will be a video series where I begin with a vanilla installation of GNU Emacs and configure it into what I want.  In this initial video, I will setup the elpaca package manager, evil mode (Vim-like keybindings), general.el (for setting keybindings) and which-key.  I will also do some minor modifications to Org mode.
+
+  THE CONFIGS FROM THIS VIDEO SERIES:
+  ► https://gitlab.com/dwt1/configuring-emacs
+
+  PACKAGES INSTALLED:
+  ► https://github.com/progfolio/elpaca
+  ► https://github.com/emacs-evil/evil
+  ► https://github.com/emacs-evil/evil-collection
+  ► https://github.com/noctuid/general.el
+  ► https://github.com/justbur/emacs-which-key
+
+  WANT TO SUPPORT THE CHANNEL?
+  💰 Patreon: https://www.patreon.com/distrotube
+  💳 Paypal: https://www.youtube.com/redirect?event=channel_banner&redir_token=QUFFLUhqazNocEhiaGFBT1l1MnRHbnlIcHFKbXJWVnpQd3xBQ3Jtc0tsLVZJc19YeFlwZ2JqbXVOa3g0Skw4TVhTV2otNm1tM3A1bUNnamh3S2V6OGQtLTBnSjBxYTlvUXMxeEVIS3o4US10NENHMUQ3STk2a01FOFBhUnZjZFctMEhFUTg1TVctQmFfVUdxZXJ4TDl0azlYNA&q=https%3A%2F%2Fwww.paypal.com%2Fcgi-bin%2Fwebscr%3Fcmd%3D_donations%26business%3Dderek%2540distrotube%252ecom%26lc%3DUS%26item_name%3DDistroTube%26no_note%3D0%26currency_code%3DUSD%26bn%3DPP%252dDonationsBF%253abtn_donateCC_LG%252egif%253aNonHostedGuest
+  🛍️ Amazon: https://amzn.to/2RotFFi
+  👕 Teespring: https://teespring.com/stores/distrotube
+
+  DONATE CRYPTO:
+  💰 Bitcoin: 1Mp6ebz5bNcjNFW7XWHVht36SkiLoxPKoX
+  🐶 Dogecoin: D5fpRD1JRoBFPDXSBocRTp8W9uKzfwLFAu
+  📕 LBC: bMfA2c3zmcLxPCpyPcrykLvMhZ7A5mQuhJ
+
+  DT ON THE WEB:
+  🕸️ Website: http://distrotube.com/
+  📁 GitLab: https://gitlab.com/dwt1
+  🗨️ Mastodon: https://fosstodon.org/@distrotube
+  👫 Reddit: https://www.reddit.com/r/DistroTube/
+  📽️ LBRY/Odysee: https://odysee.com/@DistroTube:2
+
+  FREE AND OPEN SOURCE SOFTWARE THAT I USE:
+  🌐 Brave Browser - https://brave.com/dis872
+  📽️ Open Broadcaster Software: https://obsproject.com/
+  🎬 Kdenlive: https://kdenlive.org
+  🎨 GIMP: https://www.gimp.org/
+  🎵 Tenacity: https://github.com/tenacityteam/tenacity
+  💻 VirtualBox: https://www.virtualbox.org/
+  🗒️ Doom Emacs: https://github.com/hlissner/doom-emacs
+
+  Your support is very much appreciated. Thanks, guys!
