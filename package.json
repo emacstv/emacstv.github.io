@@ -1,0 +1,14 @@
+{
+  "name": "emacstv",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "npx esbuild src/index.ts --bundle --format=iife --global-name=app --outfile=dist/bundle.js && node build.js",
+    "test": "npx jest"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "esbuild": "^0.24.0",
+    "ts-jest": "^29.2.5",
+    "typescript": "^5.0.0"
+  }
+}

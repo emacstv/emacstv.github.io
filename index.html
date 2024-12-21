@@ -93,6 +93,121 @@
     makeStore: () => makeStore,
     render: () => render
   });
+  function render(state, store) {
+    let handlers = [];
+    let idCounter = 1;
+    const filterByTags = state.filterByTags.map((tag) => {
+      const tagId = `filter-${tag}-${idCounter}`;
+      idCounter += 1;
+      handlers.push({ nodeId: tagId, listenerName: "click", handler: () => store.removeFilterTag(tag) });
+      return `<span id="${tagId}" class="tag">${tag} x</span>`;
+    }).join(" ") || "";
+    let html = `
+<h1>\u{1F9AC} emacs.tv</h1>
+<div>
+ <select id="filter" name="options" onchange="store.addFilterTag(this.value)">
+  <option value="">tag filter</option>
+  ${Array.from(new Set(state.orgDocument.headings.flatMap((heading) => heading.tags ?? []))).sort().map((tag) => `<option value="${tag}">${tag}</option>`).join("")}
+ </select> ${filterByTags}
+</div>
+<br>
+  `;
+    handlers.push({ nodeId: "filter", listenerName: "onchange", handler: (tag) => store.removeFilterTag(tag) });
+    state.orgDocument.headings.filter((heading) => {
+      if (state.filterByTags.length === 0) {
+        return true;
+      }
+      return state.filterByTags.every((filterTag) => heading.tags.includes(filterTag));
+    }).forEach((heading) => {
+      const date = heading.drawer?.DATE ? new Date(heading.drawer.DATE).toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric" }) : "";
+      const title = heading.title || "Untitled";
+      const tags = heading.tags?.sort()?.map((tag) => {
+        const tagId = `tag-${tag}-${idCounter}`;
+        idCounter += 1;
+        handlers.push({ nodeId: tagId, listenerName: "click", handler: () => store.addFilterTag(tag) });
+        return `<span id="${tagId}" class="tag">${tag}</span>`;
+      }).join(" ") || "";
+      const links = Object.keys(heading.drawer ?? {}).filter((key) => key.endsWith("_URL")).map((key) => {
+        return `<a href="${heading.drawer[key]}" target="_blank">${key.slice(0, -4).toLowerCase()}</a>`;
+      }).join("&nbsp;\xB7&nbsp;");
+      const results = `<p>${links}&nbsp;${tags}</p>`;
+      html += `
+      <div class="item">
+        <p class="date">${date}</p>
+        <p><strong>${title}</strong></p>
+        ${state.error ? state.error : results}
+      </div>`;
+    });
+    return {
+      html: state.error ? state.error : html,
+      handlers
+    };
+  }
+  var StateStore = class {
+    constructor() {
+      this.state = new ValueStream({
+        filterByTags: [],
+        orgDocument: new OrgDocument([])
+      });
+    }
+    async load() {
+      try {
+        const response = await fetch("./index.org");
+        if (!response.ok) {
+          console.error("Could not fetch org feed");
+          this.state.mutate((state) => {
+            state.orgDocument = new OrgDocument([]);
+            return state;
+          });
+          return;
+        }
+        const text = await response.text();
+        this.state.mutate((state) => {
+          const orgDocument = OrgParser.parse(text);
+          orgDocument.headings = orgDocument.headings.sort((a, b) => {
+            const dateA = new Date(a.drawer?.DATE || 0);
+            const dateB = new Date(b.drawer?.DATE || 0);
+            return dateB.getTime() - dateA.getTime() || (!a.drawer?.DATE ? 1 : 0);
+          });
+          state.orgDocument = orgDocument;
+          return state;
+        });
+      } catch (error) {
+        console.error(error);
+        this.state.mutate((state) => {
+          state.error = error instanceof Error ? error.message : "Unknown error occurred";
+          return state;
+        });
+      }
+    }
+    filterByTags(tagNames) {
+      this.state.mutate((state) => {
+        state.filterByTags = tagNames;
+        return state;
+      });
+    }
+    addFilterTag(tag) {
+      this.state.mutate((state) => {
+        if (state.filterByTags.includes(tag.trim())) {
+          return state;
+        }
+        state.filterByTags.push(tag.trim());
+        return state;
+      });
+    }
+    removeFilterTag(tag) {
+      this.state.mutate((state) => {
+        state.filterByTags = state.filterByTags.filter((filterTag) => filterTag !== tag);
+        return state;
+      });
+    }
+    resetFilter() {
+      this.state.mutate((state) => {
+        state.filterByTags = [];
+        return state;
+      });
+    }
+  };
   var OrgDocument = class {
     constructor(headings) {
       this.headings = headings;
@@ -166,71 +281,6 @@
       this.setString(key, JSON.stringify(value));
     }
   };
-  var StateStore = class {
-    constructor() {
-      this.state = new ValueStream({
-        filterByTags: [],
-        orgDocument: new OrgDocument([])
-      });
-    }
-    async load() {
-      try {
-        const response = await fetch("./index.org");
-        if (!response.ok) {
-          console.error("Could not fetch org feed");
-          this.state.mutate((state) => {
-            state.orgDocument = new OrgDocument([]);
-            return state;
-          });
-          return;
-        }
-        const text = await response.text();
-        this.state.mutate((state) => {
-          const orgDocument = OrgParser.parse(text);
-          orgDocument.headings = orgDocument.headings.sort((a, b) => {
-            const dateA = new Date(a.drawer?.DATE || 0);
-            const dateB = new Date(b.drawer?.DATE || 0);
-            return dateB.getTime() - dateA.getTime() || (!a.drawer?.DATE ? 1 : 0);
-          });
-          state.orgDocument = orgDocument;
-          return state;
-        });
-      } catch (error) {
-        console.error(error);
-        this.state.mutate((state) => {
-          state.error = error instanceof Error ? error.message : "Unknown error occurred";
-          return state;
-        });
-      }
-    }
-    filterByTags(tagNames) {
-      this.state.mutate((state) => {
-        state.filterByTags = tagNames;
-        return state;
-      });
-    }
-    addFilterTag(tag) {
-      this.state.mutate((state) => {
-        if (state.filterByTags.includes(tag.trim())) {
-          return state;
-        }
-        state.filterByTags.push(tag.trim());
-        return state;
-      });
-    }
-    removeFilterTag(tag) {
-      this.state.mutate((state) => {
-        state.filterByTags = state.filterByTags.filter((filterTag) => filterTag !== tag);
-        return state;
-      });
-    }
-    resetFilter() {
-      this.state.mutate((state) => {
-        state.filterByTags = [];
-        return state;
-      });
-    }
-  };
   var ValueStream = class {
     constructor(initialValue) {
       this.subscribers = /* @__PURE__ */ new Set();
@@ -260,56 +310,6 @@
       }
     }
   };
-  function render(state, store) {
-    let handlers = [];
-    let idCounter = 1;
-    const filterByTags = state.filterByTags.map((tag) => {
-      const tagId = `filter-${tag}-${idCounter}`;
-      idCounter += 1;
-      handlers.push({ nodeId: tagId, listenerName: "click", handler: () => store.removeFilterTag(tag) });
-      return `<span id="${tagId}" class="tag">${tag} x</span>`;
-    }).join(" ") || "";
-    let html = `
-<h1>\u{1F9AC} emacs.tv</h1>
-<div>
- <select id="filter" name="options" onchange="store.addFilterTag(this.value)">
-  <option value="">tag filter</option>
-  ${Array.from(new Set(state.orgDocument.headings.flatMap((heading) => heading.tags ?? []))).sort().map((tag) => `<option value="${tag}">${tag}</option>`).join("")}
- </select> ${filterByTags}
-</div>
-<br>
-  `;
-    handlers.push({ nodeId: "filter", listenerName: "onchange", handler: (tag) => store.removeFilterTag(tag) });
-    state.orgDocument.headings.filter((heading) => {
-      if (state.filterByTags.length === 0) {
-        return true;
-      }
-      return state.filterByTags.every((filterTag) => heading.tags.includes(filterTag));
-    }).forEach((heading) => {
-      const date = heading.drawer?.DATE ? new Date(heading.drawer.DATE).toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric" }) : "";
-      const title = heading.title || "Untitled";
-      const tags = heading.tags?.sort()?.map((tag) => {
-        const tagId = `tag-${tag}-${idCounter}`;
-        idCounter += 1;
-        handlers.push({ nodeId: tagId, listenerName: "click", handler: () => store.addFilterTag(tag) });
-        return `<span id="${tagId}" class="tag">${tag}</span>`;
-      }).join(" ") || "";
-      const links = Object.keys(heading.drawer ?? {}).filter((key) => key.endsWith("_URL")).map((key) => {
-        return `<a href="${heading.drawer[key]}" target="_blank">${key.slice(0, -4).toLowerCase()}</a>`;
-      }).join("&nbsp;\xB7&nbsp;");
-      const results = `<p>${links}&nbsp;${tags}</p>`;
-      html += `
-      <div class="item">
-        <p class="date">${date}</p>
-        <p><strong>${title}</strong></p>
-        ${state.error ? state.error : results}
-      </div>`;
-    });
-    return {
-      html: state.error ? state.error : html,
-      handlers
-    };
-  }
   function makeStore() {
     const store = new StateStore();
     store.state.mutate((state) => {
