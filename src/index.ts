@@ -26,7 +26,7 @@ export function render(state: State, store: StateStore): RenderResult {
     const tagId = `filter-${tag}-${idCounter}`;
     idCounter += 1;
     handlers.push({ nodeId: tagId, listenerName: 'click', handler: () => store.removeFilterTag(tag) });
-    return `<span id="${tagId}" class="tag">${tag} x</span>`;
+    return `<span id="${tagId}" class="tag">${tag} <strong>x</strong></span>`;
   }).join(' ') || '';
 let html = `
 <h1>🦬 emacs.tv</h1>

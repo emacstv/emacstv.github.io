@@ -101,7 +101,7 @@
       const tagId = `filter-${tag}-${idCounter}`;
       idCounter += 1;
       handlers.push({ nodeId: tagId, listenerName: "click", handler: () => store.removeFilterTag(tag) });
-      return `<span id="${tagId}" class="tag">${tag} x</span>`;
+      return `<span id="${tagId}" class="tag">${tag} <strong>x</strong></span>`;
     }).join(" ") || "";
     let html = `
 <h1>\u{1F9AC} emacs.tv</h1>
