@@ -48,15 +48,15 @@ let html = `
       if (state.filterByTags.length === 0) {
         return true;
       }
-      return state.filterByTags.every(filterTag => heading.tags.includes(filterTag));
+      return state.filterByTags.every(filterTag => heading.tags.map((tag) => tag.toLowerCase()).includes(filterTag));
     })
     .forEach((heading) => {
       const date = heading.drawer?.DATE
         ? new Date(heading.drawer.DATE).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })
         : '';
       const title = heading.title || 'Untitled';
-
       const tags = heading.tags?.sort()?.map(tag => {
+        tag = tag.toLowerCase();
         const tagId = `tag-${tag}-${idCounter}`;
         idCounter += 1;
         handlers.push({ nodeId: tagId, listenerName: 'click', handler: () => store.addFilterTag(tag) });
@@ -70,13 +70,11 @@ let html = `
         })
         .join("&nbsp;·&nbsp;")
 
-      const results = `<p>${links}&nbsp;${tags}</p>`;
-
       html += `
       <div class="item">
         <p class="date">${date}</p>
         <p><strong>${title}</strong></p>
-        ${state.error ? state.error : results}
+        <p>${links}&nbsp;${tags}</p>
       </div>`;
     });
   return {
@@ -189,8 +187,7 @@ export class OrgParser {
           headings.push(currentHeading);
         }
         const [rest, tagsPart] = line.split(/ +:/);
-        // TODO: Might not want to modify tags and derive on rendering instead.
-        const tags = tagsPart ? tagsPart.split(':').filter((tag) => tag.trim() !== '').map((tag) => tag.toLowerCase()) : [];
+        const tags = tagsPart ? tagsPart.split(':').filter((tag) => tag.trim() !== '') : [];
         const title = rest.replace(/^\* /, '').trim();
         currentHeading = new OrgHeading(title, tags, {});
         continue;
