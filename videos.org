@@ -3032,3 +3032,33 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
   🗒️ Doom Emacs: https://github.com/hlissner/doom-emacs
 
   Your support is very much appreciated. Thanks, guys!
+* Features Your Editor Should Have With Amir Rajan | Rubber Duck Dev Show 78   :dev:coding:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=lPjPa_yqM9g
+:DATE:     2023-03-17T01:07:49-07:00
+:SPEAKERS: Rubber Duck Dev Show
+:DURATION: 56:16
+:URL:      https://www.rubberduckdevshow.com/episodes/78-features-your-editor-should-have-with-amir-rajan/
+:END:
+  In this episode of the Rubber Duck Dev Show, we discuss things your editor should have with Amir Rajan
+
+  For show notes, transcripts and links for our guests and topics, head over to: https://www.rubberduckdevshow.com/episodes/78-features-your-editor-should-have-with-amir-rajan/
+
+  Timestamps:
+  0:00 - Intro
+  07:31 - Editors 4 Fundamental Points
+  19:09 - Drawback in using Emacs
+  30:39 - Advice from a Pro Editor Developer
+  42:44 - Finding the IDE that suits for you
+  54:32 - Outro
+
+  Follow us on Twitter!
+  https://twitter.com/duckiedevshow
+
+  Join us on Discord!
+  https://discord.com/invite/d9xWFjBraq
+
+  There's quackin' MERCH now for the duckies in your life!
+  https://streamlabs.com/rubberduckdevshow/merch
+
+  #rubberduckdevshow #programmingshow
