@@ -200,7 +200,7 @@ export class StateStore {
   public async load() {
     try {
       // Cloned from https://codeberg.org/sachac/emacs-videos/raw/branch/main/index.org
-      const response = await fetch('./index.org');
+      const response = await fetch('./videos.org');
       if (!response.ok) {
         console.error('Could not fetch org feed');
         this.state.mutate(state => {
