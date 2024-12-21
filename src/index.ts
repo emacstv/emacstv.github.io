@@ -33,7 +33,7 @@ let html = `
 <div>
  <select id="filter" name="options" onchange="store.addFilterTag(this.value)">
   <option value="">tag filter</option>
-  ${Array.from(new Set(state.orgDocument.headings.flatMap(heading => heading.tags ?? [])))
+  ${Array.from(new Set(state.orgDocument.headings.flatMap(heading => heading.tags.map((tag) => tag.toLowerCase()) ?? [])))
       .sort()
       .map(tag => `<option value="${tag}">${tag}</option>`)
       .join('')}

@@ -112,7 +112,7 @@
 <div>
  <select id="filter" name="options" onchange="store.addFilterTag(this.value)">
   <option value="">tag filter</option>
-  ${Array.from(new Set(state.orgDocument.headings.flatMap((heading) => heading.tags ?? []))).sort().map((tag) => `<option value="${tag}">${tag}</option>`).join("")}
+  ${Array.from(new Set(state.orgDocument.headings.flatMap((heading) => heading.tags.map((tag) => tag.toLowerCase()) ?? []))).sort().map((tag) => `<option value="${tag}">${tag}</option>`).join("")}
  </select> ${filterByTags}
 </div>
 <br>
