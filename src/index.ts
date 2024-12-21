@@ -21,34 +21,66 @@ interface State {
 
 export function render(state: State, store: StateStore): RenderResult {
   let handlers: Array<{ nodeId: string, listenerName: string, handler: Function }> = [];
-  let idCounter = 1;
-  const filterByTags = state.filterByTags.map(tag => {
-    const tagId = `filter-${tag}-${idCounter}`;
-    idCounter += 1;
-    handlers.push({ nodeId: tagId, listenerName: 'click', handler: () => store.removeFilterTag(tag) });
-    return `<span id="${tagId}" class="dismissible"><span class="tag">#${tag}</span>&nbsp;<span class="x">x</span></span>`;
-  }).join(' ') || '';
-let html = `
+  const tagPicker = new TagsPickerRenderer(store).render(state.orgDocument.headings);
+  handlers = handlers.concat(tagPicker.handlers);
+
+  const filterByTags = new FilterByTagsRenderer(store).render(state.filterByTags);
+  handlers = handlers.concat(filterByTags.handlers);
+
+  const videoList = new VideoListRenderer(store).render(state.orgDocument.headings, state.filterByTags)
+  handlers = handlers.concat(videoList.handlers);
+
+  let html = `
 <h1>🦬 emacs.tv</h1>
 <div>
- <select id="filter" name="options" onchange="store.addFilterTag(this.value)">
-  <option value="">filter</option>
-  ${Array.from(new Set(state.orgDocument.headings.flatMap(heading => heading.tags.map((tag) => tag.toLowerCase()) ?? [])))
-      .sort()
-      .map(tag => `<option value="${tag}">${tag}</option>`)
-      .join('')}
- </select> ${filterByTags}
+  ${tagPicker.html} ${filterByTags.html}
 </div>
 <br>
-  `;
-  handlers.push({ nodeId: 'filter', listenerName: 'onchange', handler: (tag: string) => store.removeFilterTag(tag) });
+${videoList.html}`;
 
-  state.orgDocument.headings
-    .filter((heading) => {
-      if (state.filterByTags.length === 0) {
+  return {
+    html: state.error ? state.error : html,
+    handlers: handlers
+  };
+}
+
+class TagsPickerRenderer {
+  private store: StateStore;
+
+  constructor(store: StateStore) {
+    this.store = store;
+  }
+
+  render(headings: OrgHeading[]): RenderResult {
+    let handlers: Array<{ nodeId: string, listenerName: string, handler: Function }> = [];
+    return {
+      handlers: handlers,
+      html: `<select id="filter" name="options" onchange="store.addFilterTag(this.value)">
+               <option value="">filter</option>
+                 ${Array.from(new Set(headings.flatMap(heading => heading.tags.map((tag) => tag.toLowerCase()) ?? [])))
+                    .sort()
+                    .map(tag => `<option value="${tag}">${tag}</option>`)
+                    .join('')}
+             </select>`
+    }
+  }
+}
+
+class VideoListRenderer {
+  private store: StateStore;
+
+  constructor(store: StateStore) {
+    this.store = store;
+  }
+
+  render(headings: OrgHeading[], filterByTags: string[]): RenderResult {
+    let handlers: Array<{ nodeId: string, listenerName: string, handler: Function }> = [];
+    let html = '';
+    headings.filter((heading) => {
+      if (filterByTags.length === 0) {
         return true;
       }
-      return state.filterByTags.every(filterTag => heading.tags.map((tag) => tag.toLowerCase()).includes(filterTag));
+      return filterByTags.every(filterTag => heading.tags.map((tag) => tag.toLowerCase()).includes(filterTag));
     })
     .forEach((heading) => {
       const date = heading.drawer?.DATE
@@ -57,9 +89,8 @@ let html = `
       const title = heading.title || 'Untitled';
       const tags = heading.tags?.sort()?.map(tag => {
         tag = tag.toLowerCase();
-        const tagId = `tag-${tag}-${idCounter}`;
-        idCounter += 1;
-        handlers.push({ nodeId: tagId, listenerName: 'click', handler: () => store.addFilterTag(tag) });
+        const tagId = `tag-${tag}-${crypto.randomUUID()}`;
+        handlers.push({ nodeId: tagId, listenerName: 'click', handler: () => this.store.addFilterTag(tag) });
         return `<span id="${tagId}" class="tag">#${tag}</span>&nbsp;`;
       }).join(' ') || '';
 
@@ -81,10 +112,35 @@ ${speakers ?
         <p>${links}</p>
       </div><br>`;
     });
-  return {
-    html: state.error ? state.error : html,
-    handlers: handlers
-  };
+    return {
+      handlers: handlers,
+      html: html
+    }
+  }
+}
+
+class FilterByTagsRenderer {
+  private store: StateStore;
+
+  constructor(store: StateStore) {
+    this.store = store;
+  }
+
+  render(tags: string[]): RenderResult {
+    let handlers: Array<{ nodeId: string, listenerName: string, handler: Function }> = [];
+    return {
+      handlers: handlers,
+      html: tags.map(tag => {
+        const tagId = `filter-${tag}-${crypto.randomUUID()}`;
+        handlers.push({
+          nodeId: tagId,
+          listenerName: 'click',
+          handler: () => this.store.removeFilterTag(tag)
+        });
+        return `<span id="${tagId}" class="dismissible"><span class="tag">#${tag}</span>&nbsp;<span class="x">x</span></span>`;
+      }).join(' ') || ''
+    }
+  }
 }
 
 export class StateStore {
