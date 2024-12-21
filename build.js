@@ -40,7 +40,10 @@ const htmlContent = `
     }
     .tag {
       color: #2A9D8F;
-      padding: 0em 0.6em;
+      cursor: pointer;
+    }
+    .dismissible {
+      padding: 0.3em 0.6em;
       border: 1px solid #000;
       border-style: dotted;
       border-radius: 5px;

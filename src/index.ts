@@ -26,7 +26,7 @@ export function render(state: State, store: StateStore): RenderResult {
     const tagId = `filter-${tag}-${idCounter}`;
     idCounter += 1;
     handlers.push({ nodeId: tagId, listenerName: 'click', handler: () => store.removeFilterTag(tag) });
-    return `<span id="${tagId}" class="tag">${tag} <strong>x</strong></span>`;
+    return `<span id="${tagId}" class="tag dismissible">#${tag} <strong>x</strong></span>`;
   }).join(' ') || '';
 let html = `
 <h1>🦬 emacs.tv</h1>
@@ -60,7 +60,7 @@ let html = `
         const tagId = `tag-${tag}-${idCounter}`;
         idCounter += 1;
         handlers.push({ nodeId: tagId, listenerName: 'click', handler: () => store.addFilterTag(tag) });
-        return `<span id="${tagId}" class="tag">${tag}</span>`;
+        return `<span id="${tagId}" class="tag">#${tag}</span>&nbsp;`;
       }).join(' ') || '';
 
       const links = Object.keys(heading.drawer ?? {})
@@ -74,7 +74,8 @@ let html = `
       html += `
       <div class="item">
         <p class="date">${date}</p>
-        <p><strong>${title}</strong>&nbsp;${tags}</p>
+        <p><strong>${title}</strong></p>
+        <p>${tags}</p>
         <p class="speakers">By ${speakers}</p>
         <p>${links}</p>
       </div><br>`;
