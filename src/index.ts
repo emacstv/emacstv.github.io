@@ -189,7 +189,8 @@ export class OrgParser {
           headings.push(currentHeading);
         }
         const [rest, tagsPart] = line.split(/ +:/);
-        const tags = tagsPart ? tagsPart.split(':').filter((tag) => tag.trim() !== '') : [];
+        // TODO: Might not want to modify tags and derive on rendering instead.
+        const tags = tagsPart ? tagsPart.split(':').filter((tag) => tag.trim() !== '').map((tag) => tag.toLowerCase()) : [];
         const title = rest.replace(/^\* /, '').trim();
         currentHeading = new OrgHeading(title, tags, {});
         continue;
