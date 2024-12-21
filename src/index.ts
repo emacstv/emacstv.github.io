@@ -125,7 +125,7 @@ class VideoListRenderer {
 
       const tags = heading.tags?.sort()?.map(tag => {
         tag = tag.toLowerCase();
-        const tagId = `tag-${tag}-${crypto.randomUUID()}`;
+        const tagId = `tag-${tag}-${randomUUID()}`;
         acc.handlers.push({
           nodeId: tagId,
           listenerName: 'click',
@@ -173,7 +173,7 @@ class FilterByTagsRenderer {
     return {
       handlers: handlers,
       html: tags.map(tag => {
-        const tagId = `filter-${tag}-${crypto.randomUUID()}`;
+        const tagId = `filter-${tag}-${randomUUID()}`;
         handlers.push({
           nodeId: tagId,
           listenerName: 'click',
@@ -406,4 +406,13 @@ export function makeState(): State {
     filterByTags: [],
     orgDocument: new OrgDocument([])
   };
+}
+
+// TODO: Remove. This is sucky :)
+function randomUUID() {
+  return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, (c) => {
+    const r = (Math.random() * 16) | 0;
+    const v = c === 'x' ? r : (r & 0x3) | 0x8;
+    return v.toString(16);
+  });
 }

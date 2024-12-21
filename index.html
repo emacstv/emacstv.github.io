@@ -219,7 +219,7 @@ ${videoList.html}`;
         const title = heading.title || "Untitled";
         const tags = heading.tags?.sort()?.map((tag) => {
           tag = tag.toLowerCase();
-          const tagId = `tag-${tag}-${crypto.randomUUID()}`;
+          const tagId = `tag-${tag}-${randomUUID()}`;
           acc.handlers.push({
             nodeId: tagId,
             listenerName: "click",
@@ -253,7 +253,7 @@ ${speakers ? `<p class="speakers">By ${speakers}</p>` : ""}
       return {
         handlers,
         html: tags.map((tag) => {
-          const tagId = `filter-${tag}-${crypto.randomUUID()}`;
+          const tagId = `filter-${tag}-${randomUUID()}`;
           handlers.push({
             nodeId: tagId,
             listenerName: "click",
@@ -444,6 +444,13 @@ ${speakers ? `<p class="speakers">By ${speakers}</p>` : ""}
       filterByTags: [],
       orgDocument: new OrgDocument([])
     };
+  }
+  function randomUUID() {
+    return "xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx".replace(/[xy]/g, (c) => {
+      const r = Math.random() * 16 | 0;
+      const v = c === "x" ? r : r & 3 | 8;
+      return v.toString(16);
+    });
   }
   return __toCommonJS(index_exports);
 })();
