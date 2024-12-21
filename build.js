@@ -39,7 +39,7 @@ const htmlContent = `
       margin-bottom: 1em;
     }
     .tag {
-      color: #FF9500;
+      color: #2A9D8F;
       padding: 0em 0.6em;
       border: 1px solid #000;
       border-style: dotted;
