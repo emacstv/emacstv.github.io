@@ -32,7 +32,7 @@ let html = `
 <h1>🦬 emacs.tv</h1>
 <div>
  <select id="filter" name="options" onchange="store.addFilterTag(this.value)">
-  <option value="">tag filter</option>
+  <option value="">filter</option>
   ${Array.from(new Set(state.orgDocument.headings.flatMap(heading => heading.tags.map((tag) => tag.toLowerCase()) ?? [])))
       .sort()
       .map(tag => `<option value="${tag}">${tag}</option>`)
@@ -76,7 +76,8 @@ let html = `
         <p class="date">${date}</p>
         <p><strong>${title}</strong></p>
         <p>${tags}</p>
-        <p class="speakers">By ${speakers}</p>
+${speakers ?
+       `<p class="speakers">By ${speakers}</p>` : ''}
         <p>${links}</p>
       </div><br>`;
     });

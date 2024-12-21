@@ -10,6 +10,7 @@
     body, div, p, h3 {
       font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
       line-height: 1.5em;
+      background-color: #ffffff;
     }
     .item p {
       margin: 0;
@@ -68,18 +69,17 @@
       a, a:visited {
         color: #9DDFFA;
       }
-select {
-  background-color: transparent;
-  color: #E0E0E0;
-  border: 1px solid #555;
-  padding: 0.3em;
-  border-radius: 5px;
-}
-
-option {
-  background-color: transparent;
-  color: #E0E0E0;
-}
+      select {
+        background-color: transparent;
+        color: #E0E0E0;
+        border: 1px solid #555;
+        padding: 0.3em;
+        border-radius: 5px;
+      }
+      option {
+        background-color: transparent;
+        color: #E0E0E0;
+      }
     }
   </style>
 </head>
@@ -151,7 +151,7 @@ option {
 <h1>\u{1F9AC} emacs.tv</h1>
 <div>
  <select id="filter" name="options" onchange="store.addFilterTag(this.value)">
-  <option value="">tag filter</option>
+  <option value="">filter</option>
   ${Array.from(new Set(state.orgDocument.headings.flatMap((heading) => heading.tags.map((tag) => tag.toLowerCase()) ?? []))).sort().map((tag) => `<option value="${tag}">${tag}</option>`).join("")}
  </select> ${filterByTags}
 </div>
@@ -182,7 +182,7 @@ option {
         <p class="date">${date}</p>
         <p><strong>${title}</strong></p>
         <p>${tags}</p>
-        <p class="speakers">By ${speakers}</p>
+${speakers ? `<p class="speakers">By ${speakers}</p>` : ""}
         <p>${links}</p>
       </div><br>`;
     });

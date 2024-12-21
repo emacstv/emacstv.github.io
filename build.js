@@ -29,6 +29,7 @@ const htmlContent = `
     body, div, p, h3 {
       font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
       line-height: 1.5em;
+      background-color: #ffffff;
     }
     .item p {
       margin: 0;
