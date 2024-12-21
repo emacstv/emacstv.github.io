@@ -32,6 +32,7 @@ const htmlContent = `
       background-color: #ffffff;
       margin: 0 auto;
       max-width: 70ch;
+      padding: 5px;
     }
     .item p {
       margin: 0;
