@@ -50,6 +50,9 @@ const htmlContent = `
       margin: 0 0.2em;
       cursor: pointer;
     }
+    .x {
+      color: #777;
+    }
     .speakers {
       color: #777;
       font-size: 0.8em;

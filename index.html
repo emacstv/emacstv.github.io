@@ -31,6 +31,9 @@
       margin: 0 0.2em;
       cursor: pointer;
     }
+    .x {
+      color: #777;
+    }
     .speakers {
       color: #777;
       font-size: 0.8em;
@@ -107,7 +110,7 @@
       const tagId = `filter-${tag}-${idCounter}`;
       idCounter += 1;
       handlers.push({ nodeId: tagId, listenerName: "click", handler: () => store.removeFilterTag(tag) });
-      return `<span id="${tagId}" class="tag dismissible">#${tag} <strong>x</strong></span>`;
+      return `<span id="${tagId}" class="dismissible"><span class="tag">#${tag}</span>&nbsp;<span class="x">x</span></span>`;
     }).join(" ") || "";
     let html = `
 <h1>\u{1F9AC} emacs.tv</h1>
