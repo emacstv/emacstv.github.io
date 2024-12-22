@@ -26,21 +26,19 @@ const htmlContent = `
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="apple-touch-icon" href="icon.png">
   <style>
-    body, div, p, h3 {
+    body {
+      padding: 5px;
       font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-      line-height: 1.5em;
       background-color: #ffffff;
       margin: 0 auto;
       max-width: 70ch;
-      padding: 5px;
     }
-    .item p {
+    p {
       margin: 0;
-      display: flex;
-      flex-wrap: wrap;
     }
     .item {
       margin-bottom: 1em;
+      line-height: 1.5em;
     }
     .tag {
       color: #2A9D8F;
@@ -48,7 +46,7 @@ const htmlContent = `
     }
     .dismissible {
       padding: 0.3em 0.6em;
-      border: 1px solid #777;
+      border: 0.5px solid #777;
       border-radius: 5px;
       font-size: 0.8em;
       margin: 0 0.2em;
@@ -57,6 +55,10 @@ const htmlContent = `
     .x {
       color: #777;
     }
+    .date {
+      color: #777;
+      font-size: 0.8em;
+    }
     .speakers {
       color: #777;
       font-size: 0.8em;
@@ -64,10 +66,6 @@ const htmlContent = `
     a, a:visited {
       text-decoration: none;
       color: #4183C4;
-    }
-    .item .date {
-      font-size: 0.95em;
-      color: #777;
     }
     video {
       width: 100%;
@@ -83,14 +81,10 @@ const htmlContent = `
         color: #80CBC4;
       }
       .dismissible {
-        border: 1px solid #555;
         color: #E0E0E0;
       }
       .x {
-        color: #BDBDBD;
-      }
-      .speakers, .item .date {
-        color: #BDBDBD;
+        color: #E0E0E0;
       }
       a, a:visited {
         color: #9DDFFA;
@@ -99,8 +93,6 @@ const htmlContent = `
         background-color: transparent;
         color: #E0E0E0;
         border: 1px solid #555;
-        padding: 0.3em;
-        border-radius: 5px;
       }
       option {
         background-color: transparent;

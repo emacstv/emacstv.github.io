@@ -118,6 +118,17 @@ class TagsPickerRenderer {
   }
 }
 
+class DateRenderer {
+  static render(dateStr: string) {
+    const date = new Date(dateStr).toLocaleDateString('en-US', {
+          year: 'numeric',
+          month: 'long',
+          day: 'numeric'
+    })
+    return `<span class="date">${date}</span>`;
+  }
+}
+
 class VideoListRenderer {
   private store: StateStore;
 
@@ -128,11 +139,7 @@ class VideoListRenderer {
   render(headings: OrgHeading[]): RenderResult {
     const result = headings.reduce((acc, heading) => {
       const date = heading.drawer?.DATE
-        ? new Date(heading.drawer.DATE).toLocaleDateString('en-US', {
-          year: 'numeric',
-          month: 'long',
-          day: 'numeric'
-        })
+        ? DateRenderer.render(heading.drawer.DATE)
         : '';
 
       const title = heading.title || 'Untitled';
@@ -159,7 +166,7 @@ class VideoListRenderer {
 
       acc.html += `
       <div class="item">
-        <p class="date">${date}</p>
+        <p>${date}</p>
         <p><strong>${title}</strong></p>
         <p>${tags}</p>
 ${speakers ?

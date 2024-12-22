@@ -7,21 +7,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="apple-touch-icon" href="icon.png">
   <style>
-    body, div, p, h3 {
+    body {
+      padding: 5px;
       font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-      line-height: 1.5em;
       background-color: #ffffff;
       margin: 0 auto;
       max-width: 70ch;
-      padding: 5px;
     }
-    .item p {
+    p {
       margin: 0;
-      display: flex;
-      flex-wrap: wrap;
     }
     .item {
       margin-bottom: 1em;
+      line-height: 1.5em;
     }
     .tag {
       color: #2A9D8F;
@@ -29,7 +27,7 @@
     }
     .dismissible {
       padding: 0.3em 0.6em;
-      border: 1px solid #777;
+      border: 0.5px solid #777;
       border-radius: 5px;
       font-size: 0.8em;
       margin: 0 0.2em;
@@ -38,6 +36,10 @@
     .x {
       color: #777;
     }
+    .date {
+      color: #777;
+      font-size: 0.8em;
+    }
     .speakers {
       color: #777;
       font-size: 0.8em;
@@ -45,10 +47,6 @@
     a, a:visited {
       text-decoration: none;
       color: #4183C4;
-    }
-    .item .date {
-      font-size: 0.95em;
-      color: #777;
     }
     video {
       width: 100%;
@@ -64,14 +62,10 @@
         color: #80CBC4;
       }
       .dismissible {
-        border: 1px solid #555;
         color: #E0E0E0;
       }
       .x {
-        color: #BDBDBD;
-      }
-      .speakers, .item .date {
-        color: #BDBDBD;
+        color: #E0E0E0;
       }
       a, a:visited {
         color: #9DDFFA;
@@ -80,8 +74,6 @@
         background-color: transparent;
         color: #E0E0E0;
         border: 1px solid #555;
-        padding: 0.3em;
-        border-radius: 5px;
       }
       option {
         background-color: transparent;
@@ -224,17 +216,23 @@ ${videoList.html}`;
       };
     }
   };
+  var DateRenderer = class {
+    static render(dateStr) {
+      const date = new Date(dateStr).toLocaleDateString("en-US", {
+        year: "numeric",
+        month: "long",
+        day: "numeric"
+      });
+      return `<span class="date">${date}</span>`;
+    }
+  };
   var VideoListRenderer = class {
     constructor(store) {
       this.store = store;
     }
     render(headings) {
       const result = headings.reduce((acc, heading) => {
-        const date = heading.drawer?.DATE ? new Date(heading.drawer.DATE).toLocaleDateString("en-US", {
-          year: "numeric",
-          month: "long",
-          day: "numeric"
-        }) : "";
+        const date = heading.drawer?.DATE ? DateRenderer.render(heading.drawer.DATE) : "";
         const title = heading.title || "Untitled";
         const tags = heading.tags?.sort()?.map((tag) => {
           tag = tag.toLowerCase();
@@ -252,7 +250,7 @@ ${videoList.html}`;
         const speakers = heading.drawer?.SPEAKERS;
         acc.html += `
       <div class="item">
-        <p class="date">${date}</p>
+        <p>${date}</p>
         <p><strong>${title}</strong></p>
         <p>${tags}</p>
 ${speakers ? `<p class="speakers">By ${speakers}</p>` : ""}
