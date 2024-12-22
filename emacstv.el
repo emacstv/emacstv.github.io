@@ -32,11 +32,11 @@
 	(with-current-buffer (find-file-noselect emacstv-index-org)
 		(let ((data (org-map-entries
 								 (lambda ()
-									 (append (org-entry-properties)
-													 `(("DESCRIPTION" . ,(string-trim
-																								(buffer-substring
-																								 (progn (org-end-of-meta-data t) (point))
-																								 (org-end-of-subtree)))))))
+									 (let* ((end (save-excursion (org-end-of-subtree)))
+													(beg (progn (org-end-of-meta-data t) (point)))
+													(desc (if (< beg end) (string-trim (buffer-substring beg end)) "")))
+										 (append (org-entry-properties)
+														 `(("DESCRIPTION" . ,desc)))))
 								 "LEVEL=1")))
 			(with-temp-file (expand-file-name "videos.json" (file-name-directory emacstv-index-org))
 				(insert (json-encode data))))))

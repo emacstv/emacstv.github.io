@@ -3274,3 +3274,228 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
   org roam: https://www.orgroam.com/
   zotero: https://www.zotero.org/
   vimium C: https://github.com/gdh1995/vimium-c
+* Prolog大好きおじさん　ver3.36で仕切り直しです。Emacsは無理かも。  :coding:prolog:dev:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=W6xxplPS2c0
+:DATE:     2024-10-23T02:32:24-07:00
+:SPEAKERS: kenichi sasagawa
+:DURATION: 04:39
+:LANGUAGE: Japanese
+:END:
+
+
+* Making the Most of Terminal Emacs - System Crafters Live!  :terminal:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=TjMTNSdhUvk
+:DATE:     2024-10-18T22:21:29-07:00
+:SPEAKERS: System Crafters
+:DURATION: 02:07:05
+:END:
+  In this stream, we'll discuss some thoughts I've had after using Emacs in the terminal for various tasks recently and then spend some time working on a streamlined configuration that depends more on built-in Emacs features which should be available in many systems.
+
+  SUPPORT THE CHANNEL:
+
+  👍 Support My Work: https://systemcrafters.net/how-to-help/#support-my-work
+  📰 Subscribe to the Newsletter: https://systemcrafters.net/newsletter/
+  👕 Check out the Store: https://systemcrafters.store
+  📘 Get Your Copy of Mastering Emacs: https://www.masteringemacs.org/r/systemcrafters?utm_source=yt&utm_medium=desc&utm_campaign=scme
+
+  SHOW NOTES:
+
+  https://systemcrafters.net/live-streams/october-18-2024/
+
+  JOIN THE COMMUNITY:
+
+  https://systemcrafters.net/community/ (Forum and IRC chat!)
+  https://fosstodon.org/@daviwil
+
+  MY CONFIGURATION:
+
+  (This site is currently down but will be back up soon!)
+
+  https://config.daviwil.com
+  https://config.daviwil.com/emacs
+  https://config.daviwil.com/systems (Guix)
+
+  OTHER SERIES:
+
+  - Emacs Essentials: https://www.youtube.com/watch?v=48JlgiBpw_I&list=PLEoMzSkcN8oPZvSdewHG8uApD7THlLLCV
+  - Emacs From Scratch: https://www.youtube.com/watch?v=74zOY-vgkyw&list=PLEoMzSkcN8oPH1au7H6B7bBJ4ZO7BXjSZ
+  - Emacs Tips: https://www.youtube.com/watch?v=wKTKmE1wLyw&list=PLEoMzSkcN8oMHJ6Xil1YdnYtlWd5hHZql
+  - Emacs Desktop Environment: https://www.youtube.com/watch?v=f7xB2fFk1tQ&list=PLEoMzSkcN8oNPbEMYEtswOVTvq7CVddCS
+  - Emacs IDE: https://www.youtube.com/watch?v=E-NAM9U5JYE&list=PLEoMzSkcN8oNvsrtk_iZSb94krGRofFjN
+  - Emacs Mail: https://www.youtube.com/watch?v=yZRyEhi4y44&list=PLEoMzSkcN8oM-kA19xOQc8s0gr0PpFGJQ
+  - Learning Emacs Lisp: https://www.youtube.com/watch?v=RQK_DaaX34Q&list=PLEoMzSkcN8oPQtn7FQEF3D7sroZbXuPZ7
+  - Craft Your System with GNU Guix: https://www.youtube.com/watch?v=iBaqOK75cho&list=PLEoMzSkcN8oNxnj7jm5V2ZcGc52002pQU
+
+  CREDITS:
+
+  Coriolis Effect by logos feat. stefsax, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/mseq/26296
+  reNovation by airtone, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/airtone/60674
+  ukeSounds by airtone, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/airtone/32655
+  Between Worlds (Instrumental) by Aussens@iter, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/tobias_weber/56664
+* Customizing Emacs And Eshell - DT LIVE  :eshell:configuration:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=fcwOtRRObqk
+:DATE:     2024-10-05T21:20:16-07:00
+:SPEAKERS: DistroTube
+:DURATION: 01:08:50
+:END:
+  This special live event will be about my recent explorations into Emacs and the Eshell.  I will talk about my latest Emacs config.  I will also interact with the folks hanging out in the YouTube chat!
+
+  WANT TO SUPPORT THE CHANNEL?
+  💰 Patreon: https://www.patreon.com/distrotube
+  💳 Paypal: https://www.youtube.com/redirect?event=channel_banner&redir_token=QUFFLUhqbFF3eGpGSzM5Vk1PMGlENllqckpHeERYWWRld3xBQ3Jtc0tuUVNSYno2bjFGSG1MTGdfYkJnanhhU1o3ODdxejVWZzNTeHhLX0p4VUIwR01PMmF1MEtpdWVYMnppVXBuTmluSU16OFhHUmIyQ2Qyc3Z5MElJSkdMTExSRlRUUm9zZUhoLVVwcmxFdDlhZFhKNnpNZw&q=https%3A%2F%2Fwww.paypal.com%2Fcgi-bin%2Fwebscr%3Fcmd%3D_donations%26business%3Dderek%2540distrotube%252ecom%26lc%3DUS%26item_name%3DDistroTube%26no_note%3D0%26currency_code%3DUSD%26bn%3DPP%252dDonationsBF%253abtn_donateCC_LG%252egif%253aNonHostedGuest
+  🛍️ Amazon: https://amzn.to/2RotFFi
+  👕 Teespring: https://teespring.com/stores/distrotube
+
+  SOCIAL PLATFORMS:
+  🗨️ Mastodon: https://fosstodon.org/@distrotube
+  👫 Reddit: https://www.reddit.com/r/DistroTube/
+  📽️ LBRY/Odysee: https://odysee.com/$/invite/@DistroTu...
+
+  DT ON THE WEB:
+  🕸️ Website: http://distro.tube
+  📁 GitLab: https://gitlab.com/dwt1
+
+  FREE AND OPEN SOURCE SOFTWARE THAT I USE:
+  🌐 Brave Browser - https://brave.com/dis872
+  📽️ Open Broadcaster Software: https://obsproject.com/
+  🎬 Kdenlive: https://kdenlive.org
+  🎨 GIMP: https://www.gimp.org/
+  🎵 Ardour: https://ardour.org/
+  💻 VirtualBox: https://www.virtualbox.org/
+  🗒️ Doom Emacs: https://github.com/hlissner/doom-emacs
+
+  Your support is very much appreciated. Thanks, guys!
+
+* Aprendendo Emacs Lisp - Corte 6: Escrevendo em buffers  :elisp:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=lI3BXmBnKsE
+:DATE:     2024-10-14T04:00:53-07:00
+:SPEAKERS: debxp
+:DURATION: 53:02
+:END:
+  Arquivo do jogo:
+  https://gitlab.com/-/snippets/3756726
+
+  Conteúdo do vídeo:
+  https://blauaraujo.com/elisp
+  -----
+  Curso Shell Script Descomplicado:
+  https://blauaraujo.com/cursos/ssd
+  -----
+  Após a transmissão, o vídeo será tornado exclusivo para membros: somente o conteúdo cortado e editado será disponibilizado publicamente quando estiver pronto.
+  -----
+  Seja membro deste canal e ganhe benefícios:
+  https://www.youtube.com/channel/UC8EGrwe_DXSzrCQclf_pv9g/join
+  -----
+  Todo o nosso trabalho só é possível graças ao apoio de vocês!
+
+  * PIX: pix@blauaraujo.com
+  * PicPay: https://picpay.me/blauaraujo
+  * PayPal: https://bit.ly/paypal-debxp
+  * Meus livros: https://uiclap.bio/blau_araujo
+  * Camisetas: https://reserva.ink/devnullcamisetas
+  -----
+  Nos ajude a adquirir livros essenciais para os projetos do nosso canal:
+  https://www.amazon.com.br/hz/wishlist/ls/2U260RJ8MYY3H?ref_=wl_share
+  -----
+  Muito obrigado!
+  ------
+  Nosso site:
+  https://debxp.org
+
+  Meu site:
+  https://blauaraujo.com
+
+  A comunidade debxp apoia os valores e ideais do Software Livre!
+
+* Making Killing Nicer in Emacs  :editing:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=oQ9JE9kRwG8
+:DATE:     2024-07-09T09:15:01-07:00
+:SPEAKERS: Goparism
+:DURATION: 04:21
+:END:
+  ▶️ Playlist: https://www.youtube.com/playlist?list=PL3kg5TcOuFlqE1_ZTkC7RO2VEC3DFxcg5
+  PROT VIDEO: https://www.youtube.com/watch?v=TJrAkCyH6Dk
+
+  🎥 𝗩𝗶𝗱𝗲𝗼 𝗦𝘂𝗺𝗺𝗮𝗿𝘆:
+  Showcasing how with some simple elisp, we can make the copy/killing experience better in emacs.
+  Please let me know if there are other things I should be looking into!
+
+  🍵 𝗦𝘂𝗽𝗽𝗼𝗿𝘁 𝗠𝗲:
+  Like what you see? Here are a few ways you can support the channel:
+  - https://github.com/sponsors/gopar
+  - https://www.buymeacoffee.com/gopar
+
+  📱 𝗦𝗼𝗰𝗶𝗮𝗹𝘀:
+  📘 Blog: https://pygopar.com
+  🐦 Twitter: https://twitter.com/goparism
+  🌐 Github: https://github.com/gopar
+
+  ✝️ 𝗠𝗶𝘀𝗰:
+
+  James 1:5 - "If any of you lacks wisdom, you should ask God, who gives generously to all without finding fault, and it will be given to you."
+
+  I thank God for all the wisdom he has blessed me with.
+
+  #Emacs #IDE #Programming #SoftwareDevelopment #GNU #GNUEmacs
+
+* organize your life, with orgmode                                      :org:OrgAgenda:OrgRefile:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=qL_rFkJOb78
+:DATE:     2024-10-11T11:37:28-07:00
+:SPEAKERS: daniel
+:DURATION: 30:12
+:END:
+  goal of the video is to spark interest so that you look into it by yourself if you got a usecase.
+
+* 33 CL, Add C-c C-j Functionality from Slime to Sly in Emacs  :sly:coding:dev:CommonLisp:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=z4dgRlGy6dk
+:DATE:     2024-10-12T14:28:54-07:00
+:SPEAKERS: ribbitface
+:DURATION: 23:42
+:END:
+  Similar to slime-eval-last-expression-in-repl C-c C-j
+
+  My first time messing with elisp and creating a shortcut in emacs.
+
+  Copy command from lisp file to sly mrepl and eval it, making sure at end of mrepl buffer first.
+  Does not add all functionality like changing the packages back and forth.
+
+  ;;; The mark is not set now, so there is no region
+  ;;; was error I as getting from interactive "r"
+
+  ;;; Similar slime-eval-last-expression-in-repl C-c C-j
+  (defun copy-to-repl-and-eval (&optional begin end)
+    "Copies previous sexp to bottom of buffer in repl and evals"
+    (interactive (if (use-region-p) (list (region-beginning) (region-end))))
+    (backward-sexp)
+    (mark-sexp)
+    (kill-ring-save (region-beginning) (region-end) t)
+    (forward-sexp)
+    (let ((slyrepl (sly-mrepl)))
+      (if (get-buffer-window slyrepl 'visible)
+   (switch-to-buffer-other-window slyrepl)
+        (switch-to-buffer slyrepl)))
+    (goto-char (point-max))
+    (yank)
+    (sly-mrepl-return))
+
+  (add-hook 'lisp-mode-hook
+     '(lambda ()
+        (local-set-key (kbd "C-c C-j") #'copy-to-repl-and-eval)))
+
+  ;;; I switched from C-[return] to C-c C-j, since YT does not allow angle brackets in description of video.
+
+* Integrando AI con mi herramienta de trabajo preferida: Google Gemini, Emacs Lisp y GNU/Linux!!  :ai:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=32hRTNTgBY8&feature=youtu.be
+:DATE:     2024-09-29T03:14:54-07:00
+:SPEAKERS: lksadj
+:DURATION: 10:01
+:END:
+  Os explico como he integrado mi editor preferido con una herramienta de inteligencia artificial siguiendo sencillos pasos y la filosofía de Unix.
