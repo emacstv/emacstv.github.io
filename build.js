@@ -44,6 +44,9 @@ const htmlContent = `
       color: #2A9D8F;
       cursor: pointer;
     }
+    #die {
+      cursor: pointer;
+    }
     .dismissible {
       padding: 0.3em 0.6em;
       border: 0.5px solid #777;

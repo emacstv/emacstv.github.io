@@ -25,6 +25,9 @@
       color: #2A9D8F;
       cursor: pointer;
     }
+    #die {
+      cursor: pointer;
+    }
     .dismissible {
       padding: 0.3em 0.6em;
       border: 0.5px solid #777;
@@ -177,19 +180,25 @@ ${videoList.html}`;
     }
     render(headings) {
       let handlers = [];
-      headings = headings.filter((heading) => heading.drawer?.MEDIA_URL);
-      if (headings.length === 0) {
+      const renderableHeadings = headings.filter((heading) => heading.drawer?.MEDIA_URL);
+      if (renderableHeadings.length === 0) {
         return {
           handlers,
           html: ""
         };
       }
-      const randomHeading = headings[Math.floor(Math.random() * headings.length)];
+      const randomIndex = Math.floor(Math.random() * renderableHeadings.length);
+      const randomHeading = renderableHeadings[randomIndex];
+      handlers.push({
+        nodeId: "die",
+        listenerName: "click",
+        handler: () => this.store.refresh()
+      });
       return {
         handlers,
         html: `
 <div>
-  <h2>Random pick</h2>
+  <h2 id="die">Random pick \u{1F3B2}</h2>
   <video controls>
     <source src="${randomHeading.drawer.MEDIA_URL}" type="video/webm">
     Your browser does not support the video tag.
@@ -329,6 +338,11 @@ ${speakers ? `<p class="speakers">By ${speakers}</p>` : ""}
           return state;
         });
       }
+    }
+    refresh() {
+      this.state.mutate((state) => {
+        return state;
+      });
     }
     filterByTags(tagNames) {
       this.state.mutate((state) => {

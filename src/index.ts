@@ -67,19 +67,25 @@ class RandomPickRenderer {
 
   render(headings: OrgHeading[]): RenderResult {
     let handlers: Array<{ nodeId: string, listenerName: string, handler: Function }> = [];
-    headings = headings.filter(heading => heading.drawer?.MEDIA_URL);
-    if (headings.length === 0) {
+    const renderableHeadings = headings.filter(heading => heading.drawer?.MEDIA_URL);
+    if (renderableHeadings.length === 0) {
       return {
         handlers: handlers,
         html: ''
       };
     }
-    const randomHeading = headings[Math.floor(Math.random() * headings.length)];
+    const randomIndex = Math.floor(Math.random() * renderableHeadings.length);
+    const randomHeading = renderableHeadings[randomIndex];
+    handlers.push({
+      nodeId: 'die',
+      listenerName: 'click',
+      handler: () => this.store.refresh()
+    });
     return {
       handlers: handlers,
       html: `
 <div>
-  <h2>Random pick</h2>
+  <h2 id="die">Random pick 🎲</h2>
   <video controls>
     <source src="${randomHeading.drawer.MEDIA_URL}" type="video/webm">
     Your browser does not support the video tag.
@@ -251,6 +257,12 @@ export class StateStore {
         return state;
       });
     }
+  }
+
+  public refresh() {
+    this.state.mutate(state => {
+      return state;
+    });
   }
 
   public filterByTags(tagNames: string[]) {
