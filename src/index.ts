@@ -42,7 +42,6 @@ export function render(state: State, store: StateStore): RenderResult {
   let html = `
 <h1>🦬 emacs.tv</h1>
   ${randomPick.html}
-<br>
 ${state.orgDocument.headings.length != 0 ?
 `
 <h2>Videos (${filteredHeadings.length})</h2>
