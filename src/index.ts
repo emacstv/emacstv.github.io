@@ -70,7 +70,7 @@ class RandomPickRenderer {
     if (headings.length === 0) {
       return {
         handlers: handlers,
-        html: '<div>No media available.</div>'
+        html: ''
       };
     }
     const randomHeading = headings[Math.floor(Math.random() * headings.length)];
@@ -98,6 +98,12 @@ class TagsPickerRenderer {
 
   render(headings: OrgHeading[]): RenderResult {
     let handlers: Array<{ nodeId: string, listenerName: string, handler: Function }> = [];
+    if (headings.length === 0) {
+      return {
+        handlers: [],
+        html: ''
+      }
+    }
     return {
       handlers: handlers,
       html: `<select id="filter" name="options" onchange="store.addFilterTag(this.value)">

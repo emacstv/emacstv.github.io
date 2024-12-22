@@ -186,7 +186,7 @@ ${videoList.html}`;
       if (headings.length === 0) {
         return {
           handlers,
-          html: "<div>No media available.</div>"
+          html: ""
         };
       }
       const randomHeading = headings[Math.floor(Math.random() * headings.length)];
@@ -210,6 +210,12 @@ ${videoList.html}`;
     }
     render(headings) {
       let handlers = [];
+      if (headings.length === 0) {
+        return {
+          handlers: [],
+          html: ""
+        };
+      }
       return {
         handlers,
         html: `<select id="filter" name="options" onchange="store.addFilterTag(this.value)">
