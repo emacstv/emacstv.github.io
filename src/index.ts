@@ -321,42 +321,49 @@ export class OrgParser {
     const headings: OrgHeading[] = [];
     let currentHeading: OrgHeading | null = null;
 
-    for (let line of lines) {
+    for (const line of lines) {
       if (line.startsWith('* ')) {
-        if (currentHeading){
+        if (currentHeading) {
           headings.push(currentHeading);
         }
-        let title = "";
+
+        let rawHeading = line.slice(2).trim(); // Remove the '* ' prefix
         let tags: string[] = [];
-        const tagMatch = line.match(/^(.*)\s+:([^\s:]+:)+\s*$/);
+
+        // Match tags at the end of the line in the form :tag1:tag2:
+        const tagMatch = rawHeading.match(/(:[^:\s]+)+:$/);
         if (tagMatch) {
-          title = tagMatch[1].replace(/^\* /, "").trim();
-          tags = tagMatch[2].split(":").filter((tag) => tag.trim() !== "");
-        } else {
-          title = line.replace(/^\* /, "").trim();
+          tags = tagMatch[0].split(':').filter(Boolean); // Extract tags and remove empty strings
+          rawHeading = rawHeading.replace(/(:[^:\s]+)+:$/, '').trim(); // Remove tags from the heading
         }
+
+        // The remaining string becomes the title
+        const title = rawHeading;
         currentHeading = new OrgHeading(title, tags, {});
         continue;
       }
 
+      // Detect properties inside ':PROPERTIES:' block
       if (line.startsWith(':') && currentHeading) {
-        const match = line.match(/^:([^:]+):\s*(.*)$/);
-        if (line === ':PROPERTIES:' || line === ':END:') {
-          continue;
+        if (line.trim() === ':PROPERTIES:' || line.trim() === ':END:') {
+          continue; // Skip property block markers
         }
-        if (match) {
-          const [, key, value] = match;
-          currentHeading.drawer[key] = value.trim();
+        const propertyMatch = line.match(/^:([^:]+):\s*(.*)$/);
+        if (propertyMatch) {
+          const [, key, value] = propertyMatch;
+          currentHeading.drawer[key.trim()] = value.trim();
         }
         continue;
       }
     }
 
+    // Push the last heading if it exists
     if (currentHeading) {
       headings.push(currentHeading);
     }
 
-    return new OrgDocument(headings);
+    // Filter out any invalid or empty headings
+    return new OrgDocument(headings.filter(heading => heading.title));
   }
 }
 

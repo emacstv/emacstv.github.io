@@ -388,31 +388,30 @@ ${speakers ? `<p class="speakers">By ${speakers}</p>` : ""}
       const lines = orgContent.split("\n");
       const headings = [];
       let currentHeading = null;
-      for (let line of lines) {
+      for (const line of lines) {
         if (line.startsWith("* ")) {
           if (currentHeading) {
             headings.push(currentHeading);
           }
-          let title = "";
+          let rawHeading = line.slice(2).trim();
           let tags = [];
-          const tagMatch = line.match(/^(.*)\s+:([^\s:]+:)+\s*$/);
+          const tagMatch = rawHeading.match(/(:[^:\s]+)+:$/);
           if (tagMatch) {
-            title = tagMatch[1].replace(/^\* /, "").trim();
-            tags = tagMatch[2].split(":").filter((tag) => tag.trim() !== "");
-          } else {
-            title = line.replace(/^\* /, "").trim();
+            tags = tagMatch[0].split(":").filter(Boolean);
+            rawHeading = rawHeading.replace(/(:[^:\s]+)+:$/, "").trim();
           }
+          const title = rawHeading;
           currentHeading = new OrgHeading(title, tags, {});
           continue;
         }
         if (line.startsWith(":") && currentHeading) {
-          const match = line.match(/^:([^:]+):\s*(.*)$/);
-          if (line === ":PROPERTIES:" || line === ":END:") {
+          if (line.trim() === ":PROPERTIES:" || line.trim() === ":END:") {
             continue;
           }
-          if (match) {
-            const [, key, value] = match;
-            currentHeading.drawer[key] = value.trim();
+          const propertyMatch = line.match(/^:([^:]+):\s*(.*)$/);
+          if (propertyMatch) {
+            const [, key, value] = propertyMatch;
+            currentHeading.drawer[key.trim()] = value.trim();
           }
           continue;
         }
@@ -420,7 +419,7 @@ ${speakers ? `<p class="speakers">By ${speakers}</p>` : ""}
       if (currentHeading) {
         headings.push(currentHeading);
       }
-      return new OrgDocument(headings);
+      return new OrgDocument(headings.filter((heading) => heading.title));
     }
   };
   var ValueStore = class {
