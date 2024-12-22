@@ -3062,3 +3062,215 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
   https://streamlabs.com/rubberduckdevshow/merch
 
   #rubberduckdevshow #programmingshow
+* The 8 colors I use in emacs  :color:appearance:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=M3dbr2NrnQ0
+:DATE:     2024-10-30T01:58:04-07:00
+:SPEAKERS: Peter Max Friis Jensen
+:DURATION: 12:53
+:END:
+  I find it a bit more emacsy to setup my own personal colors rather than using a theme. To me it is important to create a distraction free writing environment that doesn't affect my sleep rhythm artificially.
+
+  You can explore my setup on github at:
+  https://github.com/maxfriis/my-emacs-config
+
+  I have modified my background color to #210 after I made the video to make it darker and more red.
+* Emacs - Org mode (Tamil)  :org:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=VTwtkVyXXGs
+:DATE:     2024-11-03T00:22:10-07:00
+:SPEAKERS: GoldAyan Tinkers...
+:DURATION: 03:04
+:LANGUAGE: Tamil
+:END:
+  Exploring the emacs org mode in tamil
+
+  Emacs playlist
+  - https://www.youtube.com/playlist?list=PL0vwHm0AGyYP8yg0DZc8ApOEI7mw75U70
+
+  Reference:
+  - https://orgmode.org/
+* Org Roam: The Best Way to Keep a Journal in Emacs  :org:OrgRoam:dailies:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=3-sLBaJAtew&feature=youtu.be
+:DATE:     2021-08-24T06:39:43-07:00
+:SPEAKERS: System Crafters
+:DURATION: 16:50
+:END:
+  In this video, I'll show you how to use Org Roam's "dailies" feature to keep a journal or daily log in Emacs.  We'll cover how to create and review entries both for today, yesterday and tomorrow, and any other specific day.  I'll also show you how you can customize the default template for daily entries to add any other information you'd like to capture.
+
+  Check out the show notes here: https://systemcrafters.net/build-a-second-brain-in-emacs/keep-a-journal/
+
+  Related videos:
+
+  - Build a Second Brain in Emacs with Org Roam: https://www.youtube.com/watch?v=AyhPmypHDEw
+  - Capturing Notes Efficiently with Org Roam: https://youtu.be/YxgA5z2R08I
+
+  Chapters:
+
+  - 00:00 Intro
+  - 00:16 The starting configuration
+  - 00:40 Creating the folder for journal entries
+  - 01:31 Creating a journal entry for today
+  - 04:21 Reviewing today's journal entries
+  - 06:07 Creating and viewing entries for yesterday or tomorrow
+  - 08:40 Creating and viewing entries for a specific date
+  - 12:37 Adding the time to each entry
+  - 15:57 The final configuration
+
+  My Emacs configuration: https://config.daviwil.com/emacs
+  My system configurations: https://config.daviwil.com/systems
+
+  If you enjoy this channel, please consider becoming a sponsor on GitHub, Liberapay, or Patreon:
+  https://systemcrafters.net/support-the-channel
+
+  Chat with the System Crafters community on Discord and IRC: http://systemcrafters.chat
+
+  Follow me on Twitter for more GNU Emacs and GNU Guix content!
+  https://twitter.com/SystemCrafters
+
+  Check out my other video series!
+
+  - Emacs Essentials: https://www.youtube.com/watch?v=48JlgiBpw_I&list=PLEoMzSkcN8oPZvSdewHG8uApD7THlLLCV
+  - Emacs From Scratch: https://www.youtube.com/watch?v=74zOY-vgkyw&list=PLEoMzSkcN8oPH1au7H6B7bBJ4ZO7BXjSZ
+  - Emacs Tips: https://www.youtube.com/watch?v=wKTKmE1wLyw&list=PLEoMzSkcN8oMHJ6Xil1YdnYtlWd5hHZql
+  - Emacs Desktop Environment: https://www.youtube.com/watch?v=f7xB2fFk1tQ&list=PLEoMzSkcN8oNPbEMYEtswOVTvq7CVddCS
+  - Emacs IDE: https://www.youtube.com/watch?v=E-NAM9U5JYE&list=PLEoMzSkcN8oNvsrtk_iZSb94krGRofFjN
+  - Emacs Mail: https://www.youtube.com/watch?v=yZRyEhi4y44&list=PLEoMzSkcN8oM-kA19xOQc8s0gr0PpFGJQ
+  - Learning Emacs Lisp: https://www.youtube.com/watch?v=RQK_DaaX34Q&list=PLEoMzSkcN8oPQtn7FQEF3D7sroZbXuPZ7
+  - Craft Your System with GNU Guix: https://www.youtube.com/watch?v=iBaqOK75cho&list=PLEoMzSkcN8oNxnj7jm5V2ZcGc52002pQU
+
+  Thumbnail image credit:
+  Photo by Noémi Macavei-Katócz on Unsplash: https://unsplash.com/photos/GAv6SVHKQiw
+
+  Music credits:
+
+  Coriolis Effect by logos feat. stefsax, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/mseq/26296
+  reNovation by airtone, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/airtone/60674
+  ukeSounds by airtone, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/airtone/32655
+  Between Worlds (Instrumental) by Aussens@iter, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/tobias_weber/56664
+* shadow-css for personal use - Emacs, Browser, Clojure, REPL Screencast  :dev:clojure:coding:repl:web:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=8TwLHQrqG4w
+:DATE:     2024-11-01T10:39:28-07:00
+:SPEAKERS: faster-than-light-memes
+:DURATION: 02:06:50
+:END:
+  Visit the page here: https://faster-than-light-memes.xyz/documentaries.html
+
+  Tiny overview of my personal usage of [[https://github.com/thheller/shadow-css][shadow-css]], which I like.
+
+
+
+  Conceptually tiny:
+
+  - Write something like =(css :p-4 :mt-2)=, =css= is a macro that just returns a classname, nothing else
+  - shadow-css analyses your =clj/cljs/cljc= sources outputs .css files where the class names =your_namespace_L44=, that's it.
+
+  This is the /clj hiccup shadow-css scittle/ stack.
+
+  It *builds* using *babashka* only, generating *html* from *hiccup* source code,
+  for *development*, you run a clj repl, optionally with a *scittle nrepl* in the *browser*, too.
+
+  *CSS* is generated with the /tailwind-like/ *shadow-css*.
+
+  This stack grew bottom up.
+
+  Resources:
+
+  - [[https://github.com/thheller/shadow-css][shadow-css]]
+  - [[https://code.thheller.com/blog/shadow-cljs/2024/10/30/supercharging-the-repl-workflow.html][Thomas Heller REPL blog post]]
+  - screencast (soon)
+  - [[https://github.com/benjamin-asdf/faster-than-light-memes?tab=readme-ov-file#gen-html-with-clojure-gen-css-with-shadow-css][code]]
+
+  All build steps run with babashka, which is fast!
+
+  -------------
+
+  (Currently, the build duration of my blog is dominated by the emacs org html gen).
+
+  -------------
+
+  This would go well together with a clojure server that returns html,
+  optionally with [[https://github.com/thheller/shadow-graft][shadow-graft]].
+
+  Clojurescript and/or reagent could be added if needed.
+  (Or, because scittle can do reagent).
+
+  -------------
+
+  It's something I would consider for small-medium projects.
+
+  -------------
+
+  The screencast is meant to showcase the intersection of emacs, meow, lispy, clojure, browser and repl driven development.
+
+
+  Music is
+  https://soundcloud.com/vomfeisten/vom-feisten-hollystone-koh-phangan-thailand-261024
+
+  thanks to 44-herz crew :D
+* Java: Create a Kafka producer and consumer in Emacs   :coding:java:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=NMjTyi_p6Z8
+:DATE:     2024-10-29T16:00:25-07:00
+:SPEAKERS: Skybert Hacks
+:DURATION: 16:48
+:END:
+  Write a simple Kafka producer and consumer from scratch in Java using Emacs.
+
+  You can find the source code here: https://github.com/skybert/skybert-kafka-test/
+* How to Install Emacs on macOS: A Step-by-Step Guide for Beginners  :install:MacOS:beginner:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=UwD4xEdWAek
+:DATE:     2024-10-26T18:59:26-07:00
+:SPEAKERS: The Debug Zone
+:DURATION: 05:33
+:END:
+  In this video, we’ll walk you through the process of installing Emacs on macOS, making it easy for beginners to get started with this powerful text editor. Whether you're a seasoned programmer or just diving into coding, Emacs offers a wealth of features that can enhance your workflow. Join us as we break down each step, ensuring you have everything you need to set up Emacs smoothly and efficiently.
+
+  Today's Topic: How to Install Emacs on macOS: A Step-by-Step Guide for Beginners
+
+  Thanks for taking the time to learn more. In this video I'll go through your question, provide various answers & hopefully this will lead to your solution! Remember to always stay just a little bit crazy like me, and get through to the end resolution.
+
+  Don't forget at any stage just hit pause on the video if the question & answers are going too fast.
+
+  Content (except music & images) licensed under CC BY-SA meta.stackexchange.com/help/licensing
+
+  Just wanted to thank those users featured in this video:
+  maximusdooku (https://stackoverflow.com/users/3942806/maximusdooku
+  h q (https://stackoverflow.com/users/2035207/h-q)
+  Bul (https://stackoverflow.com/users/11772495/bul)
+  Gene De Lisa (https://stackoverflow.com/users/409891/gene-de-lisa)
+
+  Trademarks are property of their respective owners.
+  Disclaimer: All information is provided "AS IS" without warranty of any kind. You are responsible for your own actions.
+
+  Please contact me if anything is amiss. I hope you have a wonderful day.
+
+  Related to: #emacs, #installemacs, #emacsmacos, #emacstutorial, #beginnersguide, #step-by-stepemacs, #macosprogramming, #texteditor, #emacsinstallation, #emacssetup, #codingonmacos, #emacsforbeginners, #programmingtools, #opensourcetexteditor, #emacstips, #macosdevelopment, #emacsconfiguration, #learnemacs, #emacsfeatures, #productivitytools
+* restclient fork with graphql builder
+:PROPERTIES:
+:YOUTUBE_URL: https://youtu.be/TiHo10h_hQg
+:DATE:     2024-10-23T17:50:56-07:00
+:SPEAKERS: Yuan Fu
+:DURATION: 00:25
+:END:
+
+
+* Emacs as your Intellectual HQ  :org:gtd:OrgCapture:OrgRoam:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=zQ3BsRvMnpI
+:DATE:     2024-10-20T08:28:13-07:00
+:SPEAKERS: (Bit-Mage)
+:DURATION: 01:02:48
+:END:
+  I describe how I adapt emacs into my daily life as a knowledge worker.
+
+  My dotfiles: https://github.com/rajp152k/.dotfiles/tree/master/doom/.config/doom
+
+  The Blog: https://thebitmage.com/
+  The Buffer: https://buffer. thebitmage.com/
+  org roam: https://www.orgroam.com/
+  zotero: https://www.zotero.org/
+  vimium C: https://github.com/gdh1995/vimium-c

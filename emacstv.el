@@ -62,14 +62,28 @@
 			(org-entry-put (point) "SPEAKERS" .author)
 			(org-entry-put (point) "DURATION" (format-seconds "%02h:%z%02m:%02s" (string-to-number .lengthSeconds))))))
 
-(defun emacstv-add-from-org ()
-	(interactive)
+(defun emacstv-add-from-org (&optional beg end)
+	"Add the link at point.
+If a region is active, add all the YouTube links in that region."
+	(interactive (list (when (region-active-p) (region-beginning))
+										 (when (region-active-p) (region-end))))
 	(when (derived-mode-p 'org-mode)
-		(let ((link (org-element-property :raw-link (org-element-context))))
-			(when (string-match "youtu\\.?be" link)
-				(with-current-buffer (find-file-noselect emacstv-index-org)
-					(emacstv-add-from-youtube link)
-					(display-buffer-in-side-window (current-buffer) nil))))))
+		(if (and beg end)
+				(progn
+					(goto-char beg)
+					(while (re-search-forward org-any-link-re end t)
+						(when (org-element-lineage (org-element-context) 'link t)
+							(let ((link (org-element-property :raw-link (org-element-context))))
+								(when (string-match "youtu\\.?be" link)
+									(with-current-buffer (find-file-noselect emacstv-index-org)
+										(emacstv-add-from-youtube link)
+										(display-buffer-in-side-window (current-buffer) nil)))))))
+			;; add the current link
+			(let ((link (org-element-property :raw-link (org-element-context))))
+				(when (string-match "youtu\\.?be" link)
+					(with-current-buffer (find-file-noselect emacstv-index-org)
+						(emacstv-add-from-youtube link)
+						(display-buffer-in-side-window (current-buffer) nil)))))))
 
 (provide 'emacstv)
 ;;; emacstv.el ends here
