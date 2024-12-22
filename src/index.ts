@@ -43,10 +43,13 @@ export function render(state: State, store: StateStore): RenderResult {
 <h1>🦬 emacs.tv</h1>
   ${randomPick.html}
 <br>
+${state.orgDocument.headings.length != 0 ?
+`
 <h2>Videos</h2>
 filter by ${tagPicker.html} ${filterByTags.html}
 <br>
-<br>
+<br>` : ''
+}
 ${videoList.html}`;
 
   return {
