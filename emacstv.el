@@ -27,6 +27,20 @@
 (defvar emacstv-index-org (expand-file-name "videos.org" (file-name-directory (or load-file-name (buffer-file-name))))
 	"*Where the data is stored.")
 
+(defun emacstv-export-json ()
+	(interactive)
+	(with-current-buffer (find-file-noselect emacstv-index-org)
+		(let ((data (org-map-entries
+								 (lambda ()
+									 (append (org-entry-properties)
+													 `(("DESCRIPTION" . ,(string-trim
+																								(buffer-substring
+																								 (progn (org-end-of-meta-data t) (point))
+																								 (org-end-of-subtree)))))))
+								 "LEVEL=1")))
+			(with-temp-file (expand-file-name "videos.json" (file-name-directory emacstv-index-org))
+				(insert (json-encode data))))))
+
 (defun emacstv-add-from-youtube (url)
 	(interactive "MYouTube URL: ")
 	(let* ((json-object-type 'alist)

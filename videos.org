@@ -3055,7 +3055,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
   Follow us on Twitter!
   https://twitter.com/duckiedevshow
 
-  Join us on Discord!
+ us on Discord!
   https://discord.com/invite/d9xWFjBraq
 
   There's quackin' MERCH now for the duckies in your life!
