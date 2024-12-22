@@ -76,10 +76,13 @@ class RandomPickRenderer {
     const randomHeading = headings[Math.floor(Math.random() * headings.length)];
     return {
       handlers: handlers,
-      html: `<video controls>
+				html: `<div>Random pick:<br />
+             <video controls>
                 <source src="${randomHeading.drawer.MEDIA_URL}" type="video/webm">
                 Your browser does not support the video tag.
-             </video>`
+</video>
+<a href="${randomHeading.drawer['URL'] || randomHeading.drawer['YOUTUBE_URL'] || randomHeading.drawer['TOOBNIX_URL'] || randomHeading.drawer['MEDIA_URL']}">${randomHeading.title}</a> ${randomHeading.drawer['SPEAKERS'] ? ' (' + randomHeading.drawer['SPEAKERS'] + ')' : ''} ${randomHeading.drawer['DATE'] ? ' - ' + randomHeading.drawer['DATE'] : ''}
+</div>`
     };
   }
 }
