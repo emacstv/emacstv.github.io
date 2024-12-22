@@ -53,6 +53,8 @@
 		(let-alist (alist-get 'videoDetails data)
 			(if (org-find-property "YOUTUBE_URL" url)
 					(goto-char (org-find-property "YOUTUBE_URL" url))
+				(unless .title
+					(error "Could not get video details for %s" url))
 				(goto-char (point-max))
 				(unless (bolp) (insert "\n"))
 				(insert "* " .title "\n")
@@ -76,7 +78,9 @@ If a region is active, add all the YouTube links in that region."
 							(let ((link (org-element-property :raw-link (org-element-context))))
 								(when (string-match "youtu\\.?be" link)
 									(with-current-buffer (find-file-noselect emacstv-index-org)
-										(emacstv-add-from-youtube link)
+										(condition-case nil
+												(emacstv-add-from-youtube link)
+											(error nil))
 										(display-buffer-in-side-window (current-buffer) nil)))))))
 			;; add the current link
 			(let ((link (org-element-property :raw-link (org-element-context))))
