@@ -21,8 +21,13 @@ interface State {
 
 export function render(state: State, store: StateStore): RenderResult {
   let handlers: Array<{ nodeId: string, listenerName: string, handler: Function }> = [];
+  const filteredHeadings = state.orgDocument.headings.filter(heading =>
+    state.filterByTags.length === 0 || state.filterByTags.every(filterTag =>
+      heading.tags?.map(tag => tag.toLowerCase()).includes(filterTag)
+    )
+  );
 
-  const randomPick = new RandomPickRenderer(store).render(state.orgDocument.headings);
+  const randomPick = new RandomPickRenderer(store).render(filteredHeadings);
   handlers = handlers.concat(randomPick.handlers);
 
   const tagPicker = new TagsPickerRenderer(store).render(state.orgDocument.headings);
@@ -31,11 +36,6 @@ export function render(state: State, store: StateStore): RenderResult {
   const filterByTags = new FilterByTagsRenderer(store).render(state.filterByTags);
   handlers = handlers.concat(filterByTags.handlers);
 
-  const filteredHeadings = state.orgDocument.headings.filter(heading =>
-    state.filterByTags.length === 0 || state.filterByTags.every(filterTag =>
-      heading.tags?.map(tag => tag.toLowerCase()).includes(filterTag)
-    )
-  );
   const videoList = new VideoListRenderer(store).render(filteredHeadings);
   handlers = handlers.concat(videoList.handlers);
 
