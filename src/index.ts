@@ -45,7 +45,7 @@ export function render(state: State, store: StateStore): RenderResult {
 <br>
 ${state.orgDocument.headings.length != 0 ?
 `
-<h2>Videos</h2>
+<h2>Videos (${filteredHeadings.length})</h2>
 filter by ${tagPicker.html} ${filterByTags.html}
 <br>
 <br>` : ''
