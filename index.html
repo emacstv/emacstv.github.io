@@ -53,6 +53,10 @@
       display: block;
       margin: 0 auto;
     }
+    .video--caption {
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
     @media (prefers-color-scheme: dark) {
       body, div, p, h3 {
         background-color: #121212;
@@ -190,7 +194,12 @@ ${videoList.html}`;
     <source src="${randomHeading.drawer.MEDIA_URL}" type="video/webm">
     Your browser does not support the video tag.
   </video>
-  <a href="${randomHeading.drawer["URL"] || randomHeading.drawer["YOUTUBE_URL"] || randomHeading.drawer["TOOBNIX_URL"] || randomHeading.drawer["MEDIA_URL"]}">${randomHeading.title}</a> ${randomHeading.drawer["SPEAKERS"] ? " (" + randomHeading.drawer["SPEAKERS"] + ")" : ""} ${randomHeading.drawer["DATE"] ? " - " + randomHeading.drawer["DATE"] : ""}
+  <div class="video--caption item">
+   ${DateRenderer.render(randomHeading.drawer.DATE)}
+   <p>
+     <a href="${randomHeading.drawer["URL"] || randomHeading.drawer["YOUTUBE_URL"] || randomHeading.drawer["TOOBNIX_URL"] || randomHeading.drawer["MEDIA_URL"]}">${randomHeading.title}</a> ${randomHeading.drawer["SPEAKERS"] ? " (" + randomHeading.drawer["SPEAKERS"] + ")" : ""}
+   </p>
+  </div>
 </div>`
       };
     }
@@ -218,6 +227,9 @@ ${videoList.html}`;
   };
   var DateRenderer = class {
     static render(dateStr) {
+      if (!dateStr) {
+        return "";
+      }
       const date = new Date(dateStr).toLocaleDateString("en-US", {
         year: "numeric",
         month: "long",
@@ -232,7 +244,7 @@ ${videoList.html}`;
     }
     render(headings) {
       const result = headings.reduce((acc, heading) => {
-        const date = heading.drawer?.DATE ? DateRenderer.render(heading.drawer.DATE) : "";
+        const date = DateRenderer.render(heading.drawer.DATE);
         const title = heading.title || "Untitled";
         const tags = heading.tags?.sort()?.map((tag) => {
           tag = tag.toLowerCase();

@@ -84,7 +84,12 @@ class RandomPickRenderer {
     <source src="${randomHeading.drawer.MEDIA_URL}" type="video/webm">
     Your browser does not support the video tag.
   </video>
-  <a href="${randomHeading.drawer['URL'] || randomHeading.drawer['YOUTUBE_URL'] || randomHeading.drawer['TOOBNIX_URL'] || randomHeading.drawer['MEDIA_URL']}">${randomHeading.title}</a> ${randomHeading.drawer['SPEAKERS'] ? ' (' + randomHeading.drawer['SPEAKERS'] + ')' : ''} ${randomHeading.drawer['DATE'] ? ' - ' + randomHeading.drawer['DATE'] : ''}
+  <div class="video--caption item">
+   ${DateRenderer.render(randomHeading.drawer.DATE)}
+   <p>
+     <a href="${randomHeading.drawer['URL'] || randomHeading.drawer['YOUTUBE_URL'] || randomHeading.drawer['TOOBNIX_URL'] || randomHeading.drawer['MEDIA_URL']}">${randomHeading.title}</a> ${randomHeading.drawer['SPEAKERS'] ? ' (' + randomHeading.drawer['SPEAKERS'] + ')' : ''}
+   </p>
+  </div>
 </div>`
     };
   }
@@ -119,7 +124,10 @@ class TagsPickerRenderer {
 }
 
 class DateRenderer {
-  static render(dateStr: string) {
+  static render(dateStr?: string) {
+    if (!dateStr) {
+      return '';
+    }
     const date = new Date(dateStr).toLocaleDateString('en-US', {
           year: 'numeric',
           month: 'long',
@@ -138,10 +146,7 @@ class VideoListRenderer {
 
   render(headings: OrgHeading[]): RenderResult {
     const result = headings.reduce((acc, heading) => {
-      const date = heading.drawer?.DATE
-        ? DateRenderer.render(heading.drawer.DATE)
-        : '';
-
+      const date = DateRenderer.render(heading.drawer.DATE);
       const title = heading.title || 'Untitled';
 
       const tags = heading.tags?.sort()?.map(tag => {

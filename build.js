@@ -72,6 +72,10 @@ const htmlContent = `
       display: block;
       margin: 0 auto;
     }
+    .video--caption {
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
     @media (prefers-color-scheme: dark) {
       body, div, p, h3 {
         background-color: #121212;
