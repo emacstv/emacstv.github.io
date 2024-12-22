@@ -3493,9 +3493,654 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 
 * Integrando AI con mi herramienta de trabajo preferida: Google Gemini, Emacs Lisp y GNU/Linux!!  :ai:
 :PROPERTIES:
-:YOUTUBE_URL: https://www.youtube.com/watch?v=32hRTNTgBY8&feature=youtu.be
+:YOUTUBE_URL: https://www.youtube.com/watch?v=32hRTNTgBY8
 :DATE:     2024-09-29T03:14:54-07:00
 :SPEAKERS: lksadj
 :DURATION: 10:01
 :END:
   Os explico como he integrado mi editor preferido con una herramienta de inteligencia artificial siguiendo sencillos pasos y la filosofía de Unix.
+* 🤪 emacs tutorial  :beginner:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=SGkesbUG5u0
+:DATE:     2024-09-30T23:00:42-07:00
+:SPEAKERS: Mika
+:DURATION: 06:20
+:END:
+
+
+* Understanding Emacs modes
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=42PYq9rjNr0
+:DATE:     2024-09-17T13:20:14-07:00
+:SPEAKERS: WestDRI
+:DURATION: 58:20
+:END:
+  Other SFU Research Computing training events: https://training.westdri.ca/blog
+  Training Inquiries: training@westdri.ca
+
+* Wizbango Episode 3 [Emacs Basics]
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=0jVLFouaxVo
+:DATE:     2024-09-30T13:00:00-07:00
+:SPEAKERS: Wizbango
+:DURATION: 27:02
+:END:
+  Welcome to Wizbango
+  This is me trying to code a game from scratch in C on Windows but I have no idea what I'm doing so you can learn with me.
+
+  Today I am explaining:
+  - how to install emacs
+  - making directories
+  - finding/creating files
+  - .bat files and echo off
+  - running vcvarsall automatically
+
+* ¿Se sigue utilizando y desarrollando GNU Emacs en 2024? Una "Breve" Intro de solo 2 horas
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=F6cMVdil85E
+:DATE:     2024-10-02T03:27:29-07:00
+:SPEAKERS: Linux en Casa
+:DURATION: 02:08:52
+:END:
+  Emacs, originalmente llamado EMACS, es una familia de editores de texto que se caracterizan por su extensibilidad. El manual de la variante más utilizada, GNU Emacs, la describe como "el editor de visualización en tiempo real, extensible, personalizable y autodocumentado"
+  Wikipedia
+
+  PlayList de GNU Emacs:
+  https://www.youtube.com/playlist?list=PLB4ymvNB9_0aXFBGphhIIw4DGv3FbbRau
+
+
+  ❤️👍❤️👍❤️👍❤️👍❤️👍❤️👍❤️
+  Si deseas apoyarme puedes unirte al Canal de "Linux en Casa"
+  https://www.youtube.com/channel/UCFnFYB2mWAdVwA7Q94AaLPA/join
+  También puedes dejar una Donación a través de los ❤️ Super Gracias y Super Chats ❤️
+  Por supuesto también puedes dejar un "Me Gusta" , un Comentario y ver uno que otro anuncio.
+
+  ¡Gracias por tu apoyo!
+  ❤️👍❤️👍❤️👍❤️👍❤️👍❤️👍❤️
+
+* Emacs 16, 17, 18, 19, 20
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=LRBjVGtaFLc
+:DATE:     2024-10-04T07:36:30-07:00
+:SPEAKERS: ZAXTERMAGER
+:DURATION: 03:35
+:END:
+
+
+* Aprendendo Emacs Lisp - Corte 5: Jogo da adivinhação  :elisp:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=Pcc0x6l033A
+:DATE:     2024-10-03T11:17:08-07:00
+:SPEAKERS: debxp
+:DURATION: 01:07:40
+:END:
+  Arquivo do jogo:
+  https://gitlab.com/-/snippets/3753227
+
+  Conteúdo do vídeo:
+  https://blauaraujo.com/elisp
+  -----
+  Curso Shell Script Descomplicado:
+  https://blauaraujo.com/cursos/ssd
+  -----
+  Após a transmissão, o vídeo será tornado exclusivo para membros: somente o conteúdo cortado e editado será disponibilizado publicamente quando estiver pronto.
+  -----
+  Seja membro deste canal e ganhe benefícios:
+  https://www.youtube.com/channel/UC8EGrwe_DXSzrCQclf_pv9g/join
+  -----
+  Todo o nosso trabalho só é possível graças ao apoio de vocês!
+
+  * PIX: pix@blauaraujo.com
+  * PicPay: https://picpay.me/blauaraujo
+  * PayPal: https://bit.ly/paypal-debxp
+  * Meus livros: https://uiclap.bio/blau_araujo
+  * Camisetas: https://reserva.ink/devnullcamisetas
+  -----
+  Nos ajude a adquirir livros essenciais para os projetos do nosso canal:
+  https://www.amazon.com.br/hz/wishlist/ls/2U260RJ8MYY3H?ref_=wl_share
+  -----
+  Muito obrigado!
+  ------
+  Nosso site:
+  https://debxp.org
+
+  Meu site:
+  https://blauaraujo.com
+
+  A comunidade debxp apoia os valores e ideais do Software Livre!
+
+* Emacs 💜 LaTeX  :org:LaTeX:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=u44X_th6_oY
+:DATE:     2024-10-01T14:10:01-07:00
+:SPEAKERS: karthink
+:DURATION: 14:12
+:END:
+  In which I LaTeX All The Things.
+
+  Instructions for trying out the LaTeX preview development branch: https://abode.karthinks.com/org-latex-preview
+
+  LaTeX input for impatient scholars: https://karthinks.com/software/latex-input-for-impatient-scholars/
+
+  0:00 This video isn't about writing LaTeX
+  0:45 Org mode and LaTeX
+  2:27 This video isn't about Org mode either
+  3:17 Demo: programming modes
+  4:39 Demo: the Emacs calculator
+  9:27 Demo: LaTeX-mode
+  10:31 Demo: the little things
+  11:31 How does it work?
+  12:28 Progress update
+  13:04 Just the typst of thing you'd ask
+  13:54 So, about calc...
+
+* Emacs as Menu for Shell Commands, Passwords and Bluetooth Connections  :shell:
+:PROPERTIES:
+:YOUTUBE_URL: https://youtu.be/94GjrMvxZJg
+:DATE:     2024-10-06T16:18:45-07:00
+:SPEAKERS: Mekeor Melire
+:DURATION: 01:04
+:END:
+
+
+* Configuring Emacs on My New Laptop :configuration:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=81MdyDYqB-A
+:DATE:     2024-09-30T06:31:16-07:00
+:SPEAKERS: Tsoding Daily
+:DURATION: 02:00:09
+:END:
+  Streamed Live on Twitch: https://twitch.tv/tsoding
+  Enable Subtitles for Twitch Chat
+
+  References:
+  - My dotfiles: https://github.com/rexim/dotfiles
+  - https://en.wikipedia.org/wiki/S-expression
+  - https://github.com/rexim/gruber-darker-theme
+  - https://github.com/rexim/simpc-mode
+  - https://github.com/tsoding/cm
+  - https://magit.vc/manual/magit/
+
+  Support:
+  - BTC: bc1qj820dmeazpeq5pjn89mlh9lhws7ghs9v34x9v9
+  - Pay for my VPS: https://zap-hosting.com/en/shop/donation/2038e94867b5e65cab2e72abf8ad956c/
+
+* Closing Pitch | Emacs Appearance Panel | Video 15  :hydra:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=lkza5OLQJ28
+:DATE:     2024-09-21T14:59:47-07:00
+:SPEAKERS: Build Hello
+:DURATION: 04:08
+:END:
+  This series is a collection of videos show casing various features of a custom emacs text editor build.
+
+  In this emacs distro, I've grouped functionality into hydra panels, which gives emacs an easy to use UI.
+
+* Emacs Org Ros Package Take Screenshot And Insert In Open Org Buffer 2024_09_30_08:26:58  :org:images:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=DlP1CsGmKqs
+:DATE:     2024-09-29T20:26:13-07:00
+:SPEAKERS: Bhaskar Chowdhury  ...Musing with GNU_Linux!!
+:DURATION: 07:35
+:END:
+  In this video, you will see, a simple way to insert an image into an open org buffer via the org-ros package.
+
+  #linux #linuxadmin #sysadmin #opensource #Gentoo #Debian #Slackware #research
+  #linuxkernel #kernel #gnu #Linux #GNU
+
+  Buy Me A Coffee: https://www.buymeacoffee.com/unixbhaskar
+  Patreon: https://www.patreon.com/unixbhaskar
+  Paypal: https://paypal.me/linuxbhaskar
+
+  You can also find me :
+
+  GitHub: https://github.com/unixbhaskar
+
+  Reddit: https://www.reddit.com/user/unixbhaskar
+
+  Blogs: https://unixbhaskar.wordpress.com
+
+  Twitter: https://twitter.com/unixbhaskar
+
+  Linkedin: https://linkedin.com/in/unixbhaskar
+
+  Vimeo: https://vimeo.com/unixbhaskar
+
+  Goodreads: https://goodreads.com/unixbhaskar
+
+* Adding Artificial Intelligence To Emacs  :ai:ellama:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=SAi7X2XSD7k
+:DATE:     2024-09-24T06:00:27-07:00
+:SPEAKERS: DistroTube
+:DURATION: 15:30
+:END:
+  Ellama is a tool for interacting with large language models from Emacs.  Ellama is essentially a way to interface with 'ollama' (which I did a previous video on).  It has a ton of useful functions built into it.
+
+  REFERENCED:
+  ► https://github.com/s-kostyaev/ellama - Ellama
+  ► https://gitlab.com/dwt1/dotfiles/-/tree/master/.config/emacs - DT's Emacs Config
+
+  WANT TO SUPPORT THE CHANNEL?
+  💰 Patreon: https://www.patreon.com/distrotube
+  💳 Paypal: https://www.youtube.com/redirect?event=channel_banner&redir_token=QUFFLUhqazNocEhiaGFBT1l1MnRHbnlIcHFKbXJWVnpQd3xBQ3Jtc0tsLVZJc19YeFlwZ2JqbXVOa3g0Skw4TVhTV2otNm1tM3A1bUNnamh3S2V6OGQtLTBnSjBxYTlvUXMxeEVIS3o4US10NENHMUQ3STk2a01FOFBhUnZjZFctMEhFUTg1TVctQmFfVUdxZXJ4TDl0azlYNA&q=https%3A%2F%2Fwww.paypal.com%2Fcgi-bin%2Fwebscr%3Fcmd%3D_donations%26business%3Dderek%2540distrotube%252ecom%26lc%3DUS%26item_name%3DDistroTube%26no_note%3D0%26currency_code%3DUSD%26bn%3DPP%252dDonationsBF%253abtn_donateCC_LG%252egif%253aNonHostedGuest
+  🛍️ Amazon: https://amzn.to/2RotFFi
+  👕 Teespring: https://teespring.com/stores/distrotube
+
+  DT ON THE WEB:
+  🕸️ Website: http://distrotube.com/
+  📁 GitLab: https://gitlab.com/dwt1
+  🗨️ Mastodon: https://fosstodon.org/@distrotube
+  👫 Reddit: https://www.reddit.com/r/DistroTube/
+  📽️ LBRY/Odysee: https://odysee.com/@DistroTube:2
+
+  FREE AND OPEN SOURCE SOFTWARE THAT I USE:
+  🌐 Brave Browser - https://brave.com/dis872
+  📽️ Open Broadcaster Software: https://obsproject.com/
+  🎬 Kdenlive: https://kdenlive.org
+  🎨 GIMP: https://www.gimp.org/
+  💻 VirtualBox: https://www.virtualbox.org/
+  🗒️ Doom Emacs: https://github.com/hlissner/doom-emacs
+
+  Your support is very much appreciated. Thanks, guys!
+
+* Emacs. Buffed.
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=DB45utFvqrE
+:DATE:     2024-09-18T10:00:01-07:00
+:SPEAKERS: (Bit-Mage)
+:DURATION: 30:23
+:END:
+  First of many incoming techno-talkthroughs...
+
+  I talk about buff stackability in emacs:
+  here're the notes for the video from the ideation buffer:
+  https://buffer.thebitmage.com/sitemap?stack=%2F20230712224009-emacs.html#org09cb969
+
+  A lot of pragmatic emacs stuff coming your way,
+  do like share & subscribe if you find it interesting..
+
+  Corrections:
+   - I mention that magit used hydra somewhere in there...
+   - it uses transient, which is similar but not hydra...
+
+  Thanks for tuning in,
+  see you in the next one,
+  This was the (bit-mage).
+
+* Emacs: commands in popup frames with emacsclient  :emacsclient:org:OrgCapture:popup:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=vbWxT8tht9A
+:DATE:     2024-09-19T03:14:24-07:00
+:SPEAKERS: Protesilaos Stavrou
+:DURATION: 14:41
+:END:
+  In this 15-minute video I show the custom code I have to run any Emacs command in a popup frame. The advantage of this is that I do not need to be in Emacs already. The examples I show cover 'org-capture' and my 'tmr' package.
+
+  The code is available on my website (where you can also find all my other publications): https://protesilaos.com/codelog/2024-09-19-emacs-command-popup-frame-emacsclient/
+
+* Emacs. Accelerated.  :building:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=MsP5QF2Ajdw
+:DATE:     2024-09-29T01:29:11-07:00
+:SPEAKERS: (Bit-Mage)
+:DURATION: 30:18
+:END:
+  I build emacs from source in this one with all the tricks and tips you need to do so smoothly. This is a generic overview of building from source that is distro agnostic.
+
+  BTW, I forgot to mention that I've also built it on Arch (I tend to forget cause I broke it in 2 weeks), apart from what I already mentioned (WSL2, Debian, Fedora, Arch, OpenSuse Tumbleweed)
+
+  Further Reading:
+   -  https://akrl.sdf.org/gccemacs.html
+
+  Thanks for tuning in and do let me know in the comments if your experience was actually sped up.
+
+* A New Beginning With GNU Emacs - Configuring Emacs 01
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?amp;list=PL5--8gKSku15e8lXf7aLICFmAHQVo0KXX&v=d1fgypEiQkE
+:DATE:     2023-06-02T06:00:34-07:00
+:SPEAKERS: DistroTube
+:DURATION: 40:09
+:END:
+  Configuring Emacs will be a video series where I begin with a vanilla installation of GNU Emacs and configure it into what I want.  In this initial video, I will setup the elpaca package manager, evil mode (Vim-like keybindings), general.el (for setting keybindings) and which-key.  I will also do some minor modifications to Org mode.
+
+  THE CONFIGS FROM THIS VIDEO SERIES:
+  ► https://gitlab.com/dwt1/configuring-emacs
+
+  PACKAGES INSTALLED:
+  ► https://github.com/progfolio/elpaca
+  ► https://github.com/emacs-evil/evil
+  ► https://github.com/emacs-evil/evil-collection
+  ► https://github.com/noctuid/general.el
+  ► https://github.com/justbur/emacs-which-key
+
+  WANT TO SUPPORT THE CHANNEL?
+  💰 Patreon: https://www.patreon.com/distrotube
+  💳 Paypal: https://www.youtube.com/redirect?event=channel_banner&redir_token=QUFFLUhqazNocEhiaGFBT1l1MnRHbnlIcHFKbXJWVnpQd3xBQ3Jtc0tsLVZJc19YeFlwZ2JqbXVOa3g0Skw4TVhTV2otNm1tM3A1bUNnamh3S2V6OGQtLTBnSjBxYTlvUXMxeEVIS3o4US10NENHMUQ3STk2a01FOFBhUnZjZFctMEhFUTg1TVctQmFfVUdxZXJ4TDl0azlYNA&q=https%3A%2F%2Fwww.paypal.com%2Fcgi-bin%2Fwebscr%3Fcmd%3D_donations%26business%3Dderek%2540distrotube%252ecom%26lc%3DUS%26item_name%3DDistroTube%26no_note%3D0%26currency_code%3DUSD%26bn%3DPP%252dDonationsBF%253abtn_donateCC_LG%252egif%253aNonHostedGuest
+  🛍️ Amazon: https://amzn.to/2RotFFi
+  👕 Teespring: https://teespring.com/stores/distrotube
+
+  DONATE CRYPTO:
+  💰 Bitcoin: 1Mp6ebz5bNcjNFW7XWHVht36SkiLoxPKoX
+  🐶 Dogecoin: D5fpRD1JRoBFPDXSBocRTp8W9uKzfwLFAu
+  📕 LBC: bMfA2c3zmcLxPCpyPcrykLvMhZ7A5mQuhJ
+
+  DT ON THE WEB:
+  🕸️ Website: http://distrotube.com/
+  📁 GitLab: https://gitlab.com/dwt1
+  🗨️ Mastodon: https://fosstodon.org/@distrotube
+  👫 Reddit: https://www.reddit.com/r/DistroTube/
+  📽️ LBRY/Odysee: https://odysee.com/@DistroTube:2
+
+  FREE AND OPEN SOURCE SOFTWARE THAT I USE:
+  🌐 Brave Browser - https://brave.com/dis872
+  📽️ Open Broadcaster Software: https://obsproject.com/
+  🎬 Kdenlive: https://kdenlive.org
+  🎨 GIMP: https://www.gimp.org/
+  🎵 Tenacity: https://github.com/tenacityteam/tenacity
+  💻 VirtualBox: https://www.virtualbox.org/
+  🗒️ Doom Emacs: https://github.com/hlissner/doom-emacs
+
+  Your support is very much appreciated. Thanks, guys!
+
+* Ep586, Emacs Lisp, Rename All Link of HTML Files
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=aKnhoMhA2zw
+:DATE:     2024-09-18T01:46:24-07:00
+:SPEAKERS: Xah Lee
+:DURATION: 01:36:45
+:END:
+  notes at
+  http://xahlee.info/talk_show/xah_talk_show_2024-09-17.html
+
+  note, there is an error.
+  in the function directory-files-recursively, to skip dir name starting with a dot,
+  the proper predicate is
+  (lambda (x) (not (string-match-p "/\\." x)))
+  because the function is passed a subdirectory full path, not just name.
+
+* Emacs w/ auto-dark-mode
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=bPW4Lh3xT-M&feature=youtu.be
+:DATE:     2024-09-12T12:35:18-07:00
+:SPEAKERS: Mattias Bengtsson
+:DURATION: 00:16
+:END:
+  This is on GNOME 47 on Fedora Workstation 47 Beta.
+
+  https://github.com/LionyxML/auto-dark-emacs
+
+* Frame Size | Emacs Appearance Panel | Video 9
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=hmAyEuxIMGg
+:DATE:     2024-09-21T14:50:48-07:00
+:SPEAKERS: Build Hello
+:DURATION: 01:21
+:END:
+  This series is a collection of videos show casing various features of a custom emacs text editor build. In this video, I show transparency and changing frame size.
+
+  In this emacs distro, I've grouped functionality into hydra panels, which gives emacs an easy to use UI.
+
+* From vanilla Emacs to Java IDE in 5 minutes
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?si=tiMPa2-PSbFcMhS7&v=Yah69AfYP34&feature=youtu.be
+:DATE:     2022-05-15T02:21:32-07:00
+:SPEAKERS: Skybert Hacks
+:DURATION: 11:25
+:END:
+  In this video I show you have you can take a vanilla Emacs with no configuration and turn it into a fully fledged Java IDE in 5 minutes:
+  - lsp-mode: java coding
+  - dap-mode: test runner and debugger
+
+   I also briefly show a number of packages I thing are a must for serious coding:
+  - projectile for project navigation and search
+  - magit for git
+  - subword-mode
+  - yasnippet for code snippets
+
+  Lastly, I mention how to debug issues with your Java configuration.
+
+  - 🎞️ Org used in the talk: https://github.com/skybert/talks/tree/main/emacs-java-setup
+  - 📑 My Emacs conf: https://gitlab.com/skybert/my-little-friends/-/tree/master/emacs
+  - 🕸️ skybert.net
+  - 🐦 @torsteinkrause
+  - 📫 torstein@skybert.net
+
+* LLM Function Calling for Emacs: Name Generation
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=e7gBY6wCdxQ
+:DATE:     2024-09-21T14:50:54-07:00
+:SPEAKERS: Andrew Hyatt
+:DURATION: 08:46
+:END:
+  This demonstrates how to use the llm package's function calling to do something useful, for me at least: generate fantasy names that I can use when writing D&D material.
+
+  The LLM package: https://github.com/ahyatt/llm
+  The code shown: https://gist.github.com/ahyatt/9b1a8d8fff4580259fce489b706c80af
+
+* The argument for emacs in just a few minutes (vlog) | IT and DevOps Career Secrets
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=Kr7BmHa7hyU
+:DATE:     2023-09-12T12:57:06-07:00
+:SPEAKERS: Nicholas Bernstein
+:DURATION: 10:42
+:END:
+  --------------------------------------------------
+  For training info: https://nicholasbernstein.com/training/
+  https://www.patreon.com/TheNickBernsteinShow
+  twitter:  @nickbernstein
+  videos on lbry.io: https://open.lbry.io/@nicktrains:b/
+  Mastadon.social: @nickbernstein@mastodon.social
+
+* Emacs. Buffed.
+:PROPERTIES:
+:YOUTUBE_URL: https://youtu.be/DB45utFvqrE?si=JADobcFVokebsuI1
+:DATE:     2024-09-18T10:00:01-07:00
+:SPEAKERS: (Bit-Mage)
+:DURATION: 30:23
+:END:
+  First of many incoming techno-talkthroughs...
+
+  I talk about buff stackability in emacs:
+  here're the notes for the video from the ideation buffer:
+  https://buffer.thebitmage.com/sitemap?stack=%2F20230712224009-emacs.html#org09cb969
+
+  A lot of pragmatic emacs stuff coming your way,
+  do like share & subscribe if you find it interesting..
+
+  Corrections:
+   - I mention that magit used hydra somewhere in there...
+   - it uses transient, which is similar but not hydra...
+
+  Thanks for tuning in,
+  see you in the next one,
+  This was the (bit-mage).
+
+* Lightning Talk: Latest from GNU Emacs
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=QWIq-bKsJk8
+:DATE:     2024-09-04T12:45:09-07:00
+:SPEAKERS: European Lisp Symposium
+:DURATION: 05:34
+:END:
+  Broadcast live for ELS 2024 at https://twitch.tv/elsconf
+  More information about ELS can be found on our website at https://european-lisp-symposium.org
+
+  Speakers: Andrea Corallo
+  Proceedings: https://www.european-lisp-symposium.org/static/proceedings/2024.pdf
+
+* Ep585, Emacs Lisp, Find and Replace in a Dir, and Undo All
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=uvj3ckVXY4w
+:DATE:     2024-09-13T03:37:05-07:00
+:SPEAKERS: Xah Lee
+:DURATION: 01:25:55
+:END:
+  notes at
+  http://xahlee.info/talk_show/xah_talk_show_2024-09-12.html
+
+  note, there is an error.
+  in the function directory-files-recursively, to skip dir name starting with a dot,
+  the proper predicate is
+  (lambda (x) (not (string-match-p "/\\." x)))
+  because the function is passed a subdirectory full path, not just name.
+
+* Unlock the Power of Tree-sitter in Emacs with Combobulate
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=y7f1P-358vE
+:DATE:     2024-09-11T09:56:29-07:00
+:SPEAKERS: Systematician
+:DURATION: 13:29
+:END:
+  In this video, I went through Combobulate which is an Emacs package that helps you do structured editing and navigation by utilizing tree-sitter
+
+  Check out Combobulate: https://github.com/mickeynp/combobulate
+
+  ⏱️ Timestamps:
+  00:00 - Intro
+  01:14 - Installation
+  2:11 - Package Features
+  12:07 - Outro
+
+* Emacs - Firefox in EXWM
+:PROPERTIES:
+:YOUTUBE_URL: https://youtu.be/z6s5nvx-VpE
+:DATE:     2024-09-15T15:09:49-07:00
+:SPEAKERS: Daehwan Nam
+:DURATION: 01:04
+:END:
+  Interactive Functions:
+  https://github.com/daehwannam/emacs-library/blob/9dce7a2d4407118ce1af732fc3b008fa2350dbf2/common/dhnam-web-browser.el
+  - dhnam/app-command-query-to-firefox
+  - dhnam/app-command-open-bookmark-in-firefox
+  - dhnam/exwm-app-command-query-to-existing-firefox
+  - dhnam/exwm-app-command-query-to-new-firefox-tab
+  - dhnam/exwm-app-command-select-bookmark-in-existing-firefox
+  - dhnam/exwm-app-command-select-bookmark-for-new-firefox-tab
+
+  Firefox Add-on for Removing Tabs:
+  https://addons.mozilla.org/en-US/firefox/addon/i-hate-tabs-sdi-for-firefox/
+
+  Firefox Config for Hiding URL/Tool Bar:
+  https://github.com/MrOtherGuy/firefox-csshacks/tree/master/chrome/autohide_toolbox.css
+
+* Emacs - Firefox in EXWM
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=z6s5nvx-VpE
+:DATE:     2024-09-15T15:09:49-07:00
+:SPEAKERS: Daehwan Nam
+:DURATION: 01:04
+:END:
+  Interactive Functions:
+  https://github.com/daehwannam/emacs-library/blob/9dce7a2d4407118ce1af732fc3b008fa2350dbf2/common/dhnam-web-browser.el
+  - dhnam/app-command-query-to-firefox
+  - dhnam/app-command-open-bookmark-in-firefox
+  - dhnam/exwm-app-command-query-to-existing-firefox
+  - dhnam/exwm-app-command-query-to-new-firefox-tab
+  - dhnam/exwm-app-command-select-bookmark-in-existing-firefox
+  - dhnam/exwm-app-command-select-bookmark-for-new-firefox-tab
+
+  Firefox Add-on for Removing Tabs:
+  https://addons.mozilla.org/en-US/firefox/addon/i-hate-tabs-sdi-for-firefox/
+
+  Firefox Config for Hiding URL/Tool Bar:
+  https://github.com/MrOtherGuy/firefox-csshacks/tree/master/chrome/autohide_toolbox.css
+
+* Trying Emacs as a Neovim User // Just Chatting
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=6rnimWgIREo
+:DATE:     2024-09-12T22:55:52-07:00
+:SPEAKERS: Double Dot Studios
+:DURATION: 01:35:29
+:END:
+  I'm trying Emacs because I used to use VSCode before switching to Neovim without giving Emacs a chance.
+
+* Extending ekg with structured data
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?si=jNdPeHQGYUi6rKf5&v=VBBMvjeHdIw&feature=youtu.be
+:DATE:     2024-09-01T17:26:06-07:00
+:SPEAKERS: Andrew Hyatt
+:DURATION: 37:42
+:END:
+  You can see an improved version of this code at https://github.com/ahyatt/ekg/blob/develop/contrib/ekg-email.el.
+
+  ekg can be found at:
+  https://github.com/ahyatt/ekg
+
+* The Oval Editor (Emacs)
+:PROPERTIES:
+:YOUTUBE_URL: https://youtu.be/5YzhcVK4Kf4
+:DATE:     2024-09-16T00:59:42-07:00
+:SPEAKERS: Anand Tamariya
+:DURATION: 02:06
+:END:
+  Enhanced font support https://lifeofpenguin.blogspot.com/2024/09/the-oval-editor-emacs.html
+
+* Testing Transient Menus (Charles Choi)
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=QhExVelbhlY
+:DATE:     2024-09-04T21:06:10-07:00
+:SPEAKERS: Emacs SF
+:DURATION: 17:40
+:END:
+  Charles Choi (kickingvegas) shows us how he tests his Casual suite of Transient menus for different popular (but complex) Emacs packages
+
+* Interview With Prot - Philosopher, Writer and Emacs Contributor
+:PROPERTIES:
+:YOUTUBE_URL: https://youtube.com/watch?v=yHHlYB3zE3U&si=ir2VVJ2kLuOZnWCo
+:DATE:     2024-09-06T12:01:18-07:00
+:SPEAKERS: Gavin Freeborn
+:DURATION: 01:07:49
+:END:
+  Join us for an interview with Prot the philosopher, and writer. We chat about Prot's journey into Linux, Emacs, and Free Software. We also discuss Prot's background in European politics, his philosophical views, and his writing and practical applications over theoretical purity. He tells us about his secluded lifestyle and future plans, emphasizing self-sufficiency and continual exploration of philosophy and Emacs. Don't miss this deep dive into the life and perspectives of Prot, where philosophy meets practicality and of course Emacs and its community.
+
+
+  Prot's YouTube Channel: https://www.youtube.com/c/ProtesilaosStavrou
+  Prot's Website: https://protesilaos.com/
+
+  Let me know what you think and if there is anything specific you would like to learn about.
+
+  ----------------► Wanna Support Me? ◀︎----------------
+  Github:
+      https://www.github.com/sponsors/gavinok
+  Patreon:
+      https://www.patreon.com/gavinfreeborn
+
+  ----------------► Wanna Checkout My Dots? ◀︎----------------
+  Vimrc:
+      https://github.com/Gavinok/dotvim
+  Emacs Config:
+      https://github.com/Gavinok/emacs.d
+  ----------------► Come Join The Community◀︎----------------
+  LBRY:
+      https://odysee.com/@GavinFreeborn:d
+  Discord:
+      https://discord.gg/JJk5KKU
+
+  Timestamps
+  00:00:00 Start Of Video
+  00:02:09 Prots Writing
+  00:03:17 How Prot Got Involved in Linux And Open Source
+  00:05:02 Prot's First Experience Programming
+  00:06:03 Prot's Move To Emacs
+  00:07:24 My History With Vim
+  00:08:20 Prot's Motivation & Goal
+  00:09:24 Balance of sharing without preaching
+  00:10:10 Emacs Community
+  00:11:45 Does Prot Miss Vim?
+  00:13:22 What Does Prot Use Emacs For?
+  01:06:53 Connecting It All
+
+* Extending ekg with structured data
+:PROPERTIES:
+:YOUTUBE_URL: https://youtu.be/VBBMvjeHdIw?si=jNdPeHQGYUi6rKf5
+:DATE:     2024-09-01T17:26:06-07:00
+:SPEAKERS: Andrew Hyatt
+:DURATION: 37:42
+:END:
+  You can see an improved version of this code at https://github.com/ahyatt/ekg/blob/develop/contrib/ekg-email.el.
+
+  ekg can be found at:
+  https://github.com/ahyatt/ekg
+
+*
