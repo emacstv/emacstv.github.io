@@ -288,14 +288,21 @@ export class OrgParser {
     const lines = orgContent.split('\n');
     const headings: OrgHeading[] = [];
     let currentHeading: OrgHeading | null = null;
+
     for (let line of lines) {
       if (line.startsWith('* ')) {
         if (currentHeading){
           headings.push(currentHeading);
         }
-        const [rest, tagsPart] = line.split(/ +:/);
-        const tags = tagsPart ? tagsPart.split(':').filter((tag) => tag.trim() !== '') : [];
-        const title = rest.replace(/^\* /, '').trim();
+        let title = "";
+        let tags: string[] = [];
+        const tagMatch = line.match(/^(.*)\s+:([^\s:]+:)+\s*$/);
+        if (tagMatch) {
+          title = tagMatch[1].replace(/^\* /, "").trim();
+          tags = tagMatch[2].split(":").filter((tag) => tag.trim() !== "");
+        } else {
+          title = line.replace(/^\* /, "").trim();
+        }
         currentHeading = new OrgHeading(title, tags, {});
         continue;
       }
@@ -314,8 +321,8 @@ export class OrgParser {
     }
 
     if (currentHeading) {
-      headings.push(currentHeading)
-    };
+      headings.push(currentHeading);
+    }
 
     return new OrgDocument(headings);
   }

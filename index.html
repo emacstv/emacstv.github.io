@@ -363,9 +363,15 @@ ${speakers ? `<p class="speakers">By ${speakers}</p>` : ""}
           if (currentHeading) {
             headings.push(currentHeading);
           }
-          const [rest, tagsPart] = line.split(/ +:/);
-          const tags = tagsPart ? tagsPart.split(":").filter((tag) => tag.trim() !== "") : [];
-          const title = rest.replace(/^\* /, "").trim();
+          let title = "";
+          let tags = [];
+          const tagMatch = line.match(/^(.*)\s+:([^\s:]+:)+\s*$/);
+          if (tagMatch) {
+            title = tagMatch[1].replace(/^\* /, "").trim();
+            tags = tagMatch[2].split(":").filter((tag) => tag.trim() !== "");
+          } else {
+            title = line.replace(/^\* /, "").trim();
+          }
           currentHeading = new OrgHeading(title, tags, {});
           continue;
         }
@@ -384,7 +390,6 @@ ${speakers ? `<p class="speakers">By ${speakers}</p>` : ""}
       if (currentHeading) {
         headings.push(currentHeading);
       }
-      ;
       return new OrgDocument(headings);
     }
   };
