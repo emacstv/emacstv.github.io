@@ -66,7 +66,9 @@ class RandomPickRenderer {
 
   render(headings: OrgHeading[]): RenderResult {
     let handlers: Array<{ nodeId: string, listenerName: string, handler: Function }> = [];
-    const renderableHeadings = headings.filter(heading => heading.drawer?.MEDIA_URL);
+    const renderableHeadings = headings.filter(heading =>
+      heading.drawer?.MEDIA_URL || heading.drawer?.TOOBNIX_URL || heading.drawer?.YOUTUBE_URL
+                                              );
     if (renderableHeadings.length === 0) {
       return {
         handlers: handlers,
@@ -80,23 +82,58 @@ class RandomPickRenderer {
       listenerName: 'click',
       handler: () => this.store.refresh()
     });
+
+    let player = '';
+    if (randomHeading.drawer['MEDIA_URL']) {
+      player = `
+<video controls>
+  <source src="${randomHeading.drawer['MEDIA_URL']}" type="video/webm">
+  Your browser does not support the video tag.
+</video>`;
+  } else if (randomHeading.drawer['TOOBNIX_URL']) {
+    const toobnixId = this.extractToobnixId(randomHeading.drawer['TOOBNIX_URL']);
+    player = `
+<div class="video-container">
+  <iframe title="" src="https://toobnix.org/videos/embed/${toobnixId}"
+          frameborder="0" allowfullscreen="" sandbox="allow-same-origin allow-scripts allow-popups allow-forms">
+  </iframe>
+</div>`;
+  } else if (randomHeading.drawer['YOUTUBE_URL']) {
+    const youtubeId = this.extractYouTubeId(randomHeading.drawer['YOUTUBE_URL']);
+    player = `
+<div class="video-container">
+  <iframe src="https://www.youtube.com/embed/${youtubeId}"
+          title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+          encrypted-media; gyroscope; picture-in-picture; web-share"
+           referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+  </iframe>
+</div>`;
+  }
     return {
       handlers: handlers,
       html: `
 <div>
-  <h2 id="die">Random pick 🎲</h2>
-  <video controls>
-    <source src="${randomHeading.drawer.MEDIA_URL}" type="video/webm">
-    Your browser does not support the video tag.
-  </video>
+  <h2 id="die">Lucky pick 🎲</h2>
+  ${player}
   <div class="video--caption item">
-   ${DateRenderer.render(randomHeading.drawer.DATE)}
-   <p>
-     <a href="${randomHeading.drawer['URL'] || randomHeading.drawer['YOUTUBE_URL'] || randomHeading.drawer['TOOBNIX_URL'] || randomHeading.drawer['MEDIA_URL']}">${randomHeading.title}</a> ${randomHeading.drawer['SPEAKERS'] ? ' (' + randomHeading.drawer['SPEAKERS'] + ')' : ''}
-   </p>
+    ${DateRenderer.render(randomHeading.drawer.DATE)}
+    <p>
+      <a href="${randomHeading.drawer['URL'] || randomHeading.drawer['YOUTUBE_URL'] || randomHeading.drawer['TOOBNIX_URL'] || randomHeading.drawer['MEDIA_URL']}">${randomHeading.title}</a> ${randomHeading.drawer['SPEAKERS'] ? ' (' + randomHeading.drawer['SPEAKERS'] + ')' : ''}
+    </p>
   </div>
 </div>`
     };
+  }
+
+  private extractYouTubeId(url: string): string {
+    const match = url.match(/(?:https?:\/\/)?(?:www\.)?youtube\.com\/watch\?v=([^&]+)/) ||
+      url.match(/youtu\.be\/([^?]+)/);
+    return match ? match[1] : '';
+  }
+
+  private extractToobnixId(url: string): string {
+    const match = url.match(/toobnix\.org\/w\/([^/?]+)/);
+    return match ? match[1] : '';
   }
 }
 

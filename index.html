@@ -28,6 +28,18 @@
     #die {
       cursor: pointer;
     }
+    .video-container {
+      position: relative;
+      width: 100%;
+      padding-top: 56.25%; /* 16:9 Aspect Ratio (9/16 = 0.5625) */
+    }
+    .video-container iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
     .dismissible {
       padding: 0.3em 0.6em;
       border: 0.5px solid #777;
@@ -179,7 +191,9 @@ ${videoList.html}`;
     }
     render(headings) {
       let handlers = [];
-      const renderableHeadings = headings.filter((heading) => heading.drawer?.MEDIA_URL);
+      const renderableHeadings = headings.filter(
+        (heading) => heading.drawer?.MEDIA_URL || heading.drawer?.TOOBNIX_URL || heading.drawer?.YOUTUBE_URL
+      );
       if (renderableHeadings.length === 0) {
         return {
           handlers,
@@ -193,23 +207,54 @@ ${videoList.html}`;
         listenerName: "click",
         handler: () => this.store.refresh()
       });
+      let player = "";
+      if (randomHeading.drawer["MEDIA_URL"]) {
+        player = `
+<video controls>
+  <source src="${randomHeading.drawer["MEDIA_URL"]}" type="video/webm">
+  Your browser does not support the video tag.
+</video>`;
+      } else if (randomHeading.drawer["TOOBNIX_URL"]) {
+        const toobnixId = this.extractToobnixId(randomHeading.drawer["TOOBNIX_URL"]);
+        player = `
+<div class="video-container">
+  <iframe title="" src="https://toobnix.org/videos/embed/${toobnixId}"
+          frameborder="0" allowfullscreen="" sandbox="allow-same-origin allow-scripts allow-popups allow-forms">
+  </iframe>
+</div>`;
+      } else if (randomHeading.drawer["YOUTUBE_URL"]) {
+        const youtubeId = this.extractYouTubeId(randomHeading.drawer["YOUTUBE_URL"]);
+        player = `
+<div class="video-container">
+  <iframe src="https://www.youtube.com/embed/${youtubeId}"
+          title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+          encrypted-media; gyroscope; picture-in-picture; web-share"
+           referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+  </iframe>
+</div>`;
+      }
       return {
         handlers,
         html: `
 <div>
-  <h2 id="die">Random pick \u{1F3B2}</h2>
-  <video controls>
-    <source src="${randomHeading.drawer.MEDIA_URL}" type="video/webm">
-    Your browser does not support the video tag.
-  </video>
+  <h2 id="die">Lucky pick \u{1F3B2}</h2>
+  ${player}
   <div class="video--caption item">
-   ${DateRenderer.render(randomHeading.drawer.DATE)}
-   <p>
-     <a href="${randomHeading.drawer["URL"] || randomHeading.drawer["YOUTUBE_URL"] || randomHeading.drawer["TOOBNIX_URL"] || randomHeading.drawer["MEDIA_URL"]}">${randomHeading.title}</a> ${randomHeading.drawer["SPEAKERS"] ? " (" + randomHeading.drawer["SPEAKERS"] + ")" : ""}
-   </p>
+    ${DateRenderer.render(randomHeading.drawer.DATE)}
+    <p>
+      <a href="${randomHeading.drawer["URL"] || randomHeading.drawer["YOUTUBE_URL"] || randomHeading.drawer["TOOBNIX_URL"] || randomHeading.drawer["MEDIA_URL"]}">${randomHeading.title}</a> ${randomHeading.drawer["SPEAKERS"] ? " (" + randomHeading.drawer["SPEAKERS"] + ")" : ""}
+    </p>
   </div>
 </div>`
       };
+    }
+    extractYouTubeId(url) {
+      const match = url.match(/(?:https?:\/\/)?(?:www\.)?youtube\.com\/watch\?v=([^&]+)/) || url.match(/youtu\.be\/([^?]+)/);
+      return match ? match[1] : "";
+    }
+    extractToobnixId(url) {
+      const match = url.match(/toobnix\.org\/w\/([^/?]+)/);
+      return match ? match[1] : "";
     }
   };
   var TagsPickerRenderer = class {

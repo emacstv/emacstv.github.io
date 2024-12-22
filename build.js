@@ -47,6 +47,18 @@ const htmlContent = `
     #die {
       cursor: pointer;
     }
+    .video-container {
+      position: relative;
+      width: 100%;
+      padding-top: 56.25%; /* 16:9 Aspect Ratio (9/16 = 0.5625) */
+    }
+    .video-container iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
     .dismissible {
       padding: 0.3em 0.6em;
       border: 0.5px solid #777;
