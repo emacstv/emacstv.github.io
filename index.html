@@ -171,6 +171,12 @@
     handlers = handlers.concat(filterByTags.handlers);
     const videoList = new VideoListRenderer(store).render(filteredHeadings);
     handlers = handlers.concat(videoList.handlers);
+    if (state.orgDocument.headings.length === 0) {
+      return {
+        html: "",
+        handlers: []
+      };
+    }
     let html = `
 <h1>\u{1F9AC} emacs.tv</h1>
   ${randomPick.html}

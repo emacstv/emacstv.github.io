@@ -39,6 +39,13 @@ export function render(state: State, store: StateStore): RenderResult {
   const videoList = new VideoListRenderer(store).render(filteredHeadings);
   handlers = handlers.concat(videoList.handlers);
 
+  if (state.orgDocument.headings.length === 0) {
+    return {
+      html: '',
+      handlers: []
+    }
+  }
+
   let html = `
 <h1>🦬 emacs.tv</h1>
   ${randomPick.html}
