@@ -1797,6 +1797,7 @@
 :YOUTUBE_URL: https://www.youtube.com/watch?v=ZkKKuvVUWkE
 :SPEAKERS: John Kitchin
 :DURATION: 11:03
+:DATE: 2024-12-16
 :END:
 This video shows how litdb is integrated into Emacs. You can use it to insert text about articles you want to review, search your litdb with semantic and fulltext queries, make links to entries in your database, interface with a GPT, and export your notes to PDF.
 * Custom Org clock report for my coaching                         :org:clock:
@@ -1805,12 +1806,14 @@ This video shows how litdb is integrated into Emacs. You can use it to insert te
 :URL:      https://protesilaos.com/codelog/2024-12-15-emacs-org-coaching-clock/
 :SPEAKERS: Protesilaos Stavrou
 :DURATION: 13:08
+:DATE: 2024-12-15
 :END:
 * Get Started with Clojure Programming with Cider :cider:clojure:coding:dev:repl:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=evmRpr_DEBQ
 :DURATION: 12:41
 :SPEAKERS: Ken Huang
+:DATE: 2024-12-15
 :END:
 
 #Clojure programming with #Emacs is very appealing, let's get started!
@@ -1938,12 +1941,14 @@ DAP mode is a powerful tool for debugging your code within Emacs. By leveraging 
 :SPEAKERS: Open Source Fiddler
 :DURATION: 21:08
 :YOUTUBE_URL: https://www.youtube.com/watch?v=8dWPDJ4ShFc
+:DATE:     2024-12-14T10:15:12-08:00
 :END:
 * Emacs + Python  :coding:python:
 :PROPERTIES:
 :SPEAKERS: (Bit-Mage)
 :DURATION: 34:45
 :YOUTUBE_URL: https://www.youtube.com/watch?v=YBX2Ki1ZoGg
+:DATE:     2024-11-29T23:19:31-08:00
 :END:
 
   We begin with a series of specific workflow adaptations in emacs.
@@ -1974,6 +1979,7 @@ I needed to quickly go through a large set of images to select out a subset from
 :SPEAKERS: System Crafters
 :DURATION: 02:03:21
 :YOUTUBE_URL: https://www.youtube.com/watch?v=4iyCkEA_KaY
+:DATE:     2024-11-29T22:12:33-08:00
 :END:
 
   In this stream, we'll try to hack the built-in Emacs Modus Themes to produce a custom theme that fits the System Crafters aesthetic.  We'll do this by tweaking a number of customization settings in the Modus Themes including the ability to apply color palette overrides.
