@@ -70,7 +70,7 @@ const htmlContent = `
       color: #777;
     }
     video {
-      width: 85%;
+      width: 100%;
       display: block;
       margin: 0 auto;
     }
