@@ -162,13 +162,11 @@
     handlers = handlers.concat(videoList.handlers);
     let html = `
 <h1>\u{1F9AC} emacs.tv</h1>
-<br>
   ${randomPick.html}
 <br>
+<h2>Videos</h2>
+filter by ${tagPicker.html} ${filterByTags.html}
 <br>
-<div>
-  ${tagPicker.html} ${filterByTags.html}
-</div>
 <br>
 ${videoList.html}`;
     return {
@@ -219,7 +217,7 @@ ${videoList.html}`;
       return {
         handlers,
         html: `<select id="filter" name="options" onchange="store.addFilterTag(this.value)">
-               <option value="">filter</option>
+               <option value="">tag</option>
                  ${Array.from(new Set(headings.flatMap((heading) => heading.tags.map((tag) => tag.toLowerCase()) ?? []))).sort().map((tag) => `<option value="${tag}">${tag}</option>`).join("")}
              </select>`
       };

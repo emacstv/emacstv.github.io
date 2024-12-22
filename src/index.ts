@@ -41,13 +41,11 @@ export function render(state: State, store: StateStore): RenderResult {
 
   let html = `
 <h1>🦬 emacs.tv</h1>
-<br>
   ${randomPick.html}
 <br>
+<h2>Videos</h2>
+filter by ${tagPicker.html} ${filterByTags.html}
 <br>
-<div>
-  ${tagPicker.html} ${filterByTags.html}
-</div>
 <br>
 ${videoList.html}`;
 
@@ -107,7 +105,7 @@ class TagsPickerRenderer {
     return {
       handlers: handlers,
       html: `<select id="filter" name="options" onchange="store.addFilterTag(this.value)">
-               <option value="">filter</option>
+               <option value="">tag</option>
                  ${Array.from(new Set(headings.flatMap(heading => heading.tags.map((tag) => tag.toLowerCase()) ?? [])))
                     .sort()
                     .map(tag => `<option value="${tag}">${tag}</option>`)
