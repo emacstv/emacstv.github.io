@@ -285,7 +285,9 @@ export class StateStore {
 
   public async load() {
     try {
-      const response = await fetch('./videos.org');
+      const response = await fetch('./videos.org', {
+        headers: { 'Accept-Encoding': 'gzip, deflate, br' }
+      });
       if (!response.ok) {
         console.error('Could not fetch org feed');
         this.state.mutate(state => {
