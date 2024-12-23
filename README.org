@@ -8,8 +8,8 @@ This project was born out of a [[https://social.sachachua.com/@sacha/statuses/01
 
 Help keep =emacs.tv= fresh and interesting by submitting new content.
 
-1. [[https://github.com/emacstv/emacstv.github.io/fork][Fork]] this repository.
-2. Add a new entry to [[https://raw.githubusercontent.com/emacstv/emacstv.github.io/refs/heads/main/videos.org][videos.org]].
+- [[https://github.com/emacstv/emacstv.github.io/fork][Fork]] this repository.
+- Add a new entry to [[https://raw.githubusercontent.com/emacstv/emacstv.github.io/refs/heads/main/videos.org][videos.org]].
 
 For example:
 
@@ -27,4 +27,4 @@ For example:
   :END:
 #+end_src
 
-3. Submit a pull request.
+- Submit a pull request.
