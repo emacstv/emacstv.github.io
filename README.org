@@ -28,3 +28,7 @@ For example:
 #+end_src
 
 - Submit a pull request.
+
+* Improve tags/metadata
+
+Many videos could really do with more tags and additional metadata. Please help us by submitting pull requests with metadata improvements.
