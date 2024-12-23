@@ -9,12 +9,12 @@ This project was born out of a [[https://social.sachachua.com/@sacha/statuses/01
 Help keep =emacs.tv= fresh and interesting by submitting new content.
 
 - [[https://github.com/emacstv/emacstv.github.io/fork][Fork]] this repository.
-- Add a new entry to [[https://raw.githubusercontent.com/emacstv/emacstv.github.io/refs/heads/main/videos.org][videos.org]].
+- Add a new entry to [[https://raw.githubusercontent.com/emacstv/emacstv.github.io/refs/heads/main/videos.org][videos.org]]. Be sure to add as many of the fields provided as possible and _please include tags_.
 
 For example:
 
 #+begin_src org
-  ,* EmacsConf.org: How we use Org Mode and TRAMP to organize and run a multi-track conference  :emacsconf:emacsconf2023:org:tramp:
+  ,* EmacsConf.org: How we use Org Mode and TRAMP to organize and run a multi-track conference :emacsconf:emacsconf2023:org:tramp:
   :PROPERTIES:
   :DATE: 2023-12-03
   :URL: https://emacsconf.org/2023/talks/emacsconf
