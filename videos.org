@@ -3303,6 +3303,29 @@ count-words-region
 
   Your support is very much appreciated. Thanks, guys!
 
+* Simple, Non-Commercial, Open Source Notes :org:writing:comparison:OrgRoam:DoomEmacs:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=XRpHIa-2XCE
+:DATE:     2023-08-21T21:03:00-07:00
+:SPEAKERS: By Default
+:DURATION: 30:24
+:END:
+A 30 minute video about opening up a text box and typing something into it for later, made for people who watch videos about doing that rather than just getting work done.
+
+00:29 Requirements
+4:10 Zettlr, VNote, and nb
+5:48 Zim
+7:50 QOwnNotes
+12:31 The end of pretending this is about productivity
+14:48 Emacs
+21:18 Neovim
+25:59 It never ends
+27:12 Kakoune, Helix, Vis, Neatvi (I don't use these)
+
+Please look at silverbullet.md, a browser based, MIT licensed markdown notes editor that seems very in line with my personal tastes. It would be up there in the A tier.
+
+I’ve messed with Kakoune a bit and think I’ll make a follow up about taking notes in kak (and Helix) since there were some challenges and considerations. Emacs is the best all around for notes but can be slow, Neovim is the fastest and best supported, Kakoune has interesting consistent bindings and minimalist philosophy, and Helix is snappy and kak-ish but wordier and not extensible. I could just pick one and stick with it but why not overanalyze all of them more??
+
 * Cleaning Up My Emacs Config - Configuring Emacs 06
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=tT1foT5Ccdo&list=PL5--8gKSku15e8lXf7aLICFmAHQVo0KXX&index=6&pp=iAQB
