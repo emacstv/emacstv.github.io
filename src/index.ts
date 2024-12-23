@@ -47,7 +47,14 @@ export function render(state: State, store: StateStore): RenderResult {
   }
 
   let html = `
-<h1>🦬 emacs.tv</h1>
+<h1 id="header">
+  <span>🦬 emacs.tv</span>
+  <span style="font-size: 1rem; font-weight: normal;">
+    <a href="https://github.com/emacstv/emacstv.github.io#-emacstv">about</a>
+ |
+    <a href="https://github.com/emacstv/emacstv.github.io#add-videos">submit</a>
+  </span>
+</h1>
   ${randomPick.html}
 ${state.orgDocument.headings.length != 0 ?
 `

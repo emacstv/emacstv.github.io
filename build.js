@@ -49,6 +49,10 @@ const htmlContent = `
       justify-content: space-between;
       cursor: pointer;
     }
+    #header {
+      display: flex;
+      justify-content: space-between; align-items: baseline;
+    }
     #die {
       cursor: pointer;
     }
