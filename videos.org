@@ -4341,7 +4341,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
   5. Youtube: https://youtube.com/ravisagar1
   ####
 
-* Start Using Org-roam Today | Install, Configure, and Use    :org:OrgRoam:a:
+* Start Using Org-roam Today | Install, Configure, and Use    :org:OrgRoam:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=KlYctaKMixA
 :DATE:     2023-05-20T18:17:27-07:00
@@ -4440,7 +4440,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 
   https://m.do.co/c/7f5e62376da9
 
-* How I Crafted the New Website with Org Publish - System Crafters Live! :org:publishing:sharing:a:
+* How I Crafted the New Website with Org Publish - System Crafters Live! :org:publishing:sharing:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=atKDa510qaM
 :DATE:     2023-05-12T10:21:31-07:00
@@ -5576,7 +5576,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 :END:
   Video demo of sharing text with Captee via the macOS Share Menu. Demo also shows the usage of Org Protocol to directly transfer the shared text as an Org captured item to Emacs. Learn more at http://yummymelon.com/captee
 
-* Performance: magit vs mgit (Meta git)
+* Performance: magit vs mgit (Meta git)                               :magit:
 :PROPERTIES:
 :YOUTUBE_URL: https://youtu.be/d14tLD5XiCU
 :DATE:     2023-04-02T22:27:14-07:00
@@ -6384,7 +6384,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 
   https://kitchingroup.cheme.cmu.edu/blog/2023/02/25/MS-Word-comments-from-org-mode/
 
-* Emacs Magit Way Of Creating Rudimentary Patch 2023_02_21_03:53:35
+* Emacs Magit Way Of Creating Rudimentary Patch 2023_02_21_03:53:35   :magit:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=Cn3YovbsH18&feature=youtu.be
 :DATE:     2023-02-20T15:10:15-08:00
@@ -8607,7 +8607,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 :END:
 
 
-* Learn git with Emacs magit - its magit
+* Learn git with Emacs magit - its magit                              :magit:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=sDk-p-2lqyU
 :DATE:     2022-12-08T22:50:46-08:00
@@ -13140,7 +13140,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 
   #emacs #orgmode #productivity #textediting
 
-* Emacs Magit Is A Visually Appealing Git Controlling Software 2022_07_03_04:06:17
+* Emacs Magit Is A Visually Appealing Git Controlling Software 2022_07_03_04:06:17 :magit:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=8x8vF0_MFKI
 :DATE:     2022-07-02T16:20:38-07:00
@@ -18147,7 +18147,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
   10:51 - 12:22 Vertico Multiform for toggling on the fly
   12:13 - 12:43 Getting Vertico Extensions
 
-* Emacs: resolve Git conflicts with SMERGE and EDIFF
+* Emacs: resolve Git conflicts with SMERGE and EDIFF                  :magit:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?t=206&v=9S2pMZ6U5Tc&feature=youtu.be
 :DATE:     2020-04-10T02:22:54-07:00
@@ -18156,7 +18156,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 :END:
   Demo of how to use the built-in `smerge-mode' and/or `ediff' to resolve merge conflicts between different versions of a file. These tools can be accessed via both the standard Version Control framework (VC) and Magit. /// My dotemacs: https://protesilaos.com/dotemacs
 
-* Magit: Boot Your Git Productivity in Emacs
+* Magit: Boot Your Git Productivity in Emacs                          :magit:
 :PROPERTIES:
 :YOUTUBE_URL: https://youtu.be/cxJeyPZQGNI
 :DATE:     2022-01-03T16:43:38-08:00
@@ -18822,7 +18822,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
   Page URL:
   https://commons.wikimedia.org/wiki/File:Emacs_512.png
 
-* Magit on GNU/Emacs
+* Magit on GNU/Emacs                                                  :magit:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=xLQmcvYbms4
 :DATE:     2021-12-10T07:56:30-08:00
@@ -18839,7 +18839,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 
   https://www.gnu.org/s/emacs/
 
-* Emacs: Learning VC for version control
+* Emacs: Learning VC for version control                              :magit:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=axVzCYMsH3I
 :DATE:     2021-12-08T02:28:32-08:00
@@ -19342,7 +19342,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
   Find me at https://richarde.dev/ or on Twitter at @RaeHaskell.
   Video index at https://richarde.dev/videos.html
 
-* Emacs Sign Git Commit In Magit 2021_11_21 07:17:00
+* Emacs Sign Git Commit In Magit 2021_11_21 07:17:00                  :magit:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=yKqu44bmpUw
 :DATE:     2021-11-20T18:00:36-08:00
@@ -20669,7 +20669,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
   ukeSounds by airtone, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/airtone/32655
   Between Worlds (Instrumental) by Aussens@iter, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/tobias_weber/56664
 
-* Magit: 3 Quick Ways to Revert Git Commits | Emacs Tutorial
+* Magit: 3 Quick Ways to Revert Git Commits | Emacs Tutorial          :magit:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=7D4cV0aodGw&feature=youtu.be
 :DATE:     2021-10-02T23:20:39-07:00
@@ -21313,7 +21313,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
   referenced a previous EmacsNYC talk Evan Misshula gave about
   reproducible research: https://www.youtube.com/watch?v=CGnt_PWoM5Y
 
-* Fix Your Git Commits Like a Rebase Expert with Magit
+* Fix Your Git Commits Like a Rebase Expert with Magit                :magit:
 :PROPERTIES:
 :YOUTUBE_URL: https://youtu.be/zM7K1y4h6UQ
 :DATE:     2021-09-07T08:09:11-07:00
@@ -22851,7 +22851,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 :END:
   In this video I demonstrate how you can take notes using orgzly, a very popular mobile application for Emacs ORG mode.
 
-* An Introduction to the Ultimate Git Interface, Magit!
+* An Introduction to the Ultimate Git Interface, Magit!               :magit:
 :PROPERTIES:
 :YOUTUBE_URL: https://youtu.be/_zfvQkJsYwI
 :DATE:     2021-06-29T09:46:22-07:00
@@ -23593,7 +23593,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 :END:
   In this working meeting from 2021, we introduced how we organize and implement high test coverage and test-driven development in Clojure with Emacs Cider.
 
-* System Crafters Live! - Taking a look at Magit 3.0 • Streaming with Emacs Lisp
+* System Crafters Live! - Taking a look at Magit 3.0 • Streaming with Emacs Lisp :magit:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=6X0iDFh83-Y
 :DATE:     2021-05-28T11:45:13-07:00
@@ -26872,7 +26872,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
   - https://tlestang.github.io/
   - https://www.rse.ox.ac.uk/
 
-* OneBlog from emacs - Next.js, GitHub, and Real-time, and magit
+* OneBlog from emacs - Next.js, GitHub, and Real-time, and magit      :magit:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=VVOd1yOKVqQ
 :DATE:     2020-12-03T13:13:05-08:00
@@ -27795,7 +27795,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
   Repository with configs:
   https://github.com/abcdw/rde
 
-* Emacs From Scratch #4 - Projectile and Magit
+* Emacs From Scratch #4 - Projectile and Magit                        :magit:
 :PROPERTIES:
 :YOUTUBE_URL: https://youtu.be/INTu30BHZGk
 :DATE:     2020-09-25T22:22:08-07:00
@@ -28799,7 +28799,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 :END:
   Demo of the set of packages and configurations I have in my dotemacs for the purposes of a distraction-free workflow. /// Code for those snippets here: https://protesilaos.com/codelog/2020-07-16-emacs-focused-editing/ /// And here is my dotemacs: https://protesilaos.com/dotemacs
 
-* The Magit Git Client Is The "Killer Feature" In Emacs
+* The Magit Git Client Is The "Killer Feature" In Emacs               :magit:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=X_iX5US1_xE&feature=youtu.be
 :DATE:     2020-07-10T15:08:20-07:00
@@ -29470,7 +29470,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 
   or use python, cc, gcc, perl etc in place of bash.
 
-* Emacs: introduction to MAGIT
+* Emacs: introduction to MAGIT                                        :magit:
 :PROPERTIES:
 :YOUTUBE_URL: https://youtu.be/2-0OwGTt0dI
 :DATE:     2020-04-04T02:20:41-07:00
@@ -30716,7 +30716,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 :END:
   For installation instructions and download links go to https://vimvalley.com/replacing-scrivener-with-emacs-and-vim
 
-* Emacs Magit - The Git Commit Flow in More Detail - Emacs Doom 19
+* Emacs Magit - The Git Commit Flow in More Detail - Emacs Doom 19    :magit:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=qXgGtyjXPiw&feature=youtu.be
 :DATE:     2019-10-08T12:38:10-07:00
@@ -31501,7 +31501,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 
   starting with https://www.youtube.com/watch?v=3u6eTSzHT6s.
 
-* Magit Introduction and Demonstration
+* Magit Introduction and Demonstration                                :magit:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=vQO7F2Q9DwA&feature=youtu.be
 :DATE:     2015-10-29T20:24:16-07:00
@@ -32720,7 +32720,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
   My twitter:
   https://twitter.com/valignatev
 
-* 2018-12-11: It's Magit! - John Wiegley
+* 2018-12-11: It's Magit! - John Wiegley                              :magit:
 :PROPERTIES:
 :YOUTUBE_URL: https://youtu.be/j-k-lkilbEs
 :DATE:     2019-01-01T18:27:32-08:00
@@ -32953,7 +32953,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 :END:
 
 
-* Moray Jones - The magic of magit: an emacs porcelain for git
+* Moray Jones - The magic of magit: an emacs porcelain for git        :magit:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=p-bZsI1Qhq4
 :DATE:     2018-11-06T23:58:04-08:00
@@ -33245,7 +33245,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 :END:
   Some more (slow) live coding
 
-* Using Emacs for JavaScript development!
+* Using Emacs for JavaScript development!                             :magit:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=5hJBMwwGhlo
 :DATE:     2018-05-12T13:14:28-07:00
@@ -33847,7 +33847,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 :END:
   Minibuffer is a developer console for Unity available here: http://u3d.as/B8H
 
-* Magit: Git in Emacs - Grumpy Gits SG
+* Magit: Git in Emacs - Grumpy Gits SG                                :magit:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=OMIxZhLU71U
 :DATE:     2016-11-14T07:37:28-08:00
@@ -34336,7 +34336,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 :END:
 
 
-* Productive Emacs: Magit
+* Productive Emacs: Magit                                             :magit:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=D1SJ6mFWYyA
 :DATE:     2016-11-12T12:17:18-08:00
@@ -34542,7 +34542,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 
   http://act.yapc.eu/ye2016/talk/6851
 
-* Rewrite git history with Emacs, magit and git rebase
+* Rewrite git history with Emacs, magit and git rebase                :magit:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=mtliRYQd0j4
 :DATE:     2016-03-16T14:05:23-07:00
