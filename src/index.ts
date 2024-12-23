@@ -120,7 +120,7 @@ class RandomPickRenderer {
       handlers: handlers,
       html: `
 <div>
-  <h2 id="die">Lucky pick 🎲</h2>
+  <h2 style="display: flex; justify-content: space-between;"><span>Lucky pick</span><span id="die">🎲</span></h2>
   ${player}
   <div class="video--caption item">
     ${DateRenderer.render(randomHeading.drawer.DATE)}
@@ -161,13 +161,14 @@ class TagsPickerRenderer {
     }
     return {
       handlers: handlers,
-      html: `<select id="filter" name="options" onchange="store.addFilterTag(this.value)">
-               <option value="">tag</option>
-                 ${Array.from(new Set(headings.flatMap(heading => heading.tags.map((tag) => tag.toLowerCase()) ?? [])))
-                    .sort()
-                    .map(tag => `<option value="${tag}">${tag}</option>`)
-                    .join('')}
-             </select>`
+      html: `
+<select id="filter" name="options" onchange="store.addFilterTag(this.value)">
+  <option value="">tag</option>
+    ${Array.from(new Set(headings.flatMap(heading => heading.tags.map((tag) => tag.toLowerCase()) ?? [])))
+       .sort()
+       .map(tag => `<option value="${tag}">${tag}</option>`)
+       .join('')}
+</select>`
     }
   }
 }
