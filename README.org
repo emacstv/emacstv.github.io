@@ -1,0 +1,30 @@
+* 🦬 emacs.tv
+
+[[https://emacs.tv][emacs.tv]] aggregates videos of our favorite text editor [[https://www.gnu.org/software/emacs/][GNU Emacs]].
+
+This project was born out of a [[https://social.sachachua.com/@sacha/statuses/01JF94JQQNNRXMTKN3Y1774TFP][collaboration]] between [[https://sachachua.com/blog/][Sacha Chua]] and [[https://lmno.lol/alvaro][Alvaro Ramirez]].
+
+* Add videos
+
+Help keep =emacs.tv= fresh and interesting by submitting new content.
+
+1. [[https://github.com/emacstv/emacstv.github.io/fork][Fork]] this repository.
+2. Add a new entry to [[https://raw.githubusercontent.com/emacstv/emacstv.github.io/refs/heads/main/videos.org][videos.org]].
+
+For example:
+
+#+begin_src org
+  ,* EmacsConf.org: How we use Org Mode and TRAMP to organize and run a multi-track conference  :emacsconf:emacsconf2023:org:tramp:
+  :PROPERTIES:
+  :DATE: 2023-12-03
+  :URL: https://emacsconf.org/2023/talks/emacsconf
+  :MEDIA_URL: https://media.emacsconf.org/2023/emacsconf-2023-emacsconf--emacsconforg-how-we-use-org-mode-and-tramp-to-organize-and-run-a-multitrack-conference--sacha-chua--main.webm
+  :YOUTUBE_URL: https://www.youtube.com/watch?v=uTregv3rNl0
+  :TOOBNIX_URL: https://toobnix.org/w/eX2dXG3xMtUHuuBz4fssGT
+  :TRANSCRIPT_URL: https://media.emacsconf.org/2023/emacsconf-2023-emacsconf--emacsconforg-how-we-use-org-mode-and-tramp-to-organize-and-run-a-multitrack-conference--sacha-chua--main.vtt
+  :SPEAKERS: Sacha Chua
+  :SERIES: EmacsConf 2023
+  :END:
+#+end_src
+
+3. Submit a pull request.
