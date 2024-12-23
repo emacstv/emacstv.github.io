@@ -1,6 +1,6 @@
 * 🦬 emacs.tv
 
-[[https://emacs.tv][emacs.tv]] aggregates videos of our favorite text editor [[https://www.gnu.org/software/emacs/][GNU Emacs]].
+[[https://emacs.tv][emacs.tv]] aggregates videos related to our favorite text editor [[https://www.gnu.org/software/emacs/][GNU Emacs]].
 
 This project was born out of a [[https://social.sachachua.com/@sacha/statuses/01JF94JQQNNRXMTKN3Y1774TFP][collaboration]] between [[https://sachachua.com/blog/][Sacha Chua]] and [[https://lmno.lol/alvaro][Alvaro Ramirez]].
 
