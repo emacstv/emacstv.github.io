@@ -20231,7 +20231,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 
   Jetzt viel Erfolg – wir sehen uns in den Videos auf diesen Kanal!
 
-* Configurazione Emacs v1.6 (2021-10-16)
+* Configurazione Emacs v1.6 (2021-10-16)  :NyanMode:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=O0RwLsnccYM
 :DATE:     2021-10-15T18:40:36-07:00
@@ -30373,7 +30373,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 :END:
   In this video I present all the information you need to decide whether switching to GNU Emacs is the right thing for you. /// And here is my own set of customisations (dotemacs): https://protesilaos.com/dotemacs
 
-* .Emacs #3 - Installing Packages and Extensions
+* .Emacs #3 - Installing Packages and Extensions  :NyanMode:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=Cf6tRBPbWKs&feature=youtu.be
 :DATE:     2013-07-19T10:00:26-07:00
@@ -32265,7 +32265,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 :END:
   Showing notifications when a compilation is finished
 
-* GNU Emacs Retro Mode
+* GNU Emacs Retro Mode  :NyanMode:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=_CkQcL3pnMw
 :DATE:     2019-03-15T20:25:43-07:00
@@ -34559,7 +34559,7 @@ Full code on github:
 
   Video was captured using the built-in Quicktime screen recording (NOT recommended, resolution of capture region can't be numerically configured) on the Mac. Keystrokes are shown on the screen by the open source keycastr. Video was downsampled and transcoded to MKV using handbrake on Linux.
 
-* How to run nyan-mode in emacs at startup
+* How to run nyan-mode in emacs at startup  :fun:NyanMode:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=ZJr5dYGrhXc
 :DATE:     2016-08-28T11:12:09-07:00
@@ -34589,12 +34589,13 @@ Full code on github:
 
   My config is at: https://github.com/abo-abo/oremacs.
 
-* The Story Of blackboard-bold-mode
+* The Story Of blackboard-bold-mode  :elisp:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=c0z7dh1JAZM
 :DATE:     2016-08-10T21:20:59-07:00
 :SPEAKERS: grettke
 :DURATION: 05:03
+:URL:      https://www.wisdomandwonder.com/article/10349/screencast-the-story-of-blackboard-bold-mode
 :END:
   Source (and comments) here: https://www.wisdomandwonder.com/article/10349/screencast-the-story-of-blackboard-bold-mode
 
@@ -34648,7 +34649,7 @@ Full code on github:
 :END:
   Link: https://www.crowdcast.io/e/rubyonlineconf2015/1
 
-* Emacs Party Mode demo
+* Emacs Party Mode demo  :fun:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=k-ciw_dUhGk
 :DATE:     2016-06-27T16:35:46-07:00
@@ -34710,7 +34711,7 @@ Full code on github:
 :END:
   Pessoal, como vou utilizar o emacs shell em algumas video aulas, estou postando esse vídeo pra que os alunos que não estão familiarizados com emacs não estranhem muito quando eu estiver utilizando ele.
 
-* Emacs: regexp I-search macro
+* Emacs: regexp I-search macro  :search:replace:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=G8TELUiGaxk
 :DATE:     2016-05-15T13:21:33-07:00
@@ -34719,7 +34720,7 @@ Full code on github:
 :END:
   Just a fun macro using regexp I-search to replace all pass lines by a custom line based on classes names.
 
-* Have Emacs Teach You Chinese
+* Have Emacs Teach You Chinese  :org:OrgDrill:OrgCapture:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=uraPXeLfWcM
 :DATE:     2016-05-05T09:30:01-07:00
@@ -34754,7 +34755,7 @@ Full code on github:
 
   The package has been renamed form thread to timp in order to compile with melpa regulation.
 
-* use-package
+* use-package  :UsePackage:configuration:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=TaetS-aZVwM
 :DATE:     2016-04-08T18:38:32-07:00
@@ -34829,7 +34830,7 @@ Using restclient within emacs...
 :DURATION: 33:10
 :END:
 
-* GNU Emacs #2: Buffer y Ventana  :buffers:
+* GNU Emacs #2: Buffer y Ventana  :buffers:windows:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=EMv_2ZN7V6k
 :DATE:     2016-03-13T15:11:02-07:00
@@ -34899,7 +34900,7 @@ Using restclient within emacs...
   ukeSounds by airtone, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/airtone/32655
   Between Worlds (Instrumental) by Aussens@iter, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/tobias_weber/56664
 
-* Emacs Org Attach Various Methods 2024_12_17_14:56:08
+* Emacs Org Attach Various Methods 2024_12_17_14:56:08  :org:OrgAttach:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=I5VNszZaOIA
 :DATE:     2024-12-17T02:29:19-08:00
@@ -34931,7 +34932,7 @@ Using restclient within emacs...
 
   Goodreads: https://goodreads.com/unixbhaskar
 
-* Xah Talk Show 2024-12-21 Ep605. Run Code of Python JS Fsharp Etc in Emacs. Are You Based? :python:
+* Xah Talk Show 2024-12-21 Ep605. Run Code of Python JS Fsharp Etc in Emacs. Are You Based? :python:coding:javascript:fsharp:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=IWyat0bbCss
 :DATE:     2024-12-22T01:34:36-08:00
@@ -34945,7 +34946,7 @@ Using restclient within emacs...
   39:05 what does based mean
   42:49 how to be an independent thinker
 
-* Трошки про Emacs
+* Трошки про Emacs  :paredit:cider:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=gMb6VTqUE10
 :DATE:     2024-12-21T08:05:10-08:00
@@ -34954,7 +34955,7 @@ Using restclient within emacs...
 :END:
   Замість рішення другої частини 13 дня AoC я трохи розповідаю за те, як працюють разом Emacs та Clojure: paredit, cider, інше по дрібницям. Дещо сумбурно, не готував це. 😁
 
-* 00: Why You Want Programmable Tools
+* 00: Why You Want Programmable Tools  :community:why:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=u7DW78ng9Cg
 :DATE:     2024-12-20T07:31:17-08:00
