@@ -2756,7 +2756,7 @@ count-words-region
   More Caffeine: Monster Energy Juice, Pipeline Punch https://amzn.to/3Czmfox
   Building A Second Brain book: https://amzn.to/3cIShWf
 
-* Emacs as a C/C++ Editor/IDE (Part I): auto-complete, yasnippet, and auto-complete-c-headers  :coding:completion:c:cpp:yasnippet:autocomplete:
+* Emacs as a C/C++ Editor/IDE (Part I): auto-complete, yasnippet, and auto-complete-c-headers :coding:completion:c:cpp:yasnippet:autocomplete:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=HTUE03LnaXA
 :DATE:     2014-03-12T01:50:02-07:00
@@ -4896,7 +4896,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
   5. Youtube: https://youtube.com/ravisagar1
   ####
 
-* From vanilla Emacs to Python IDE
+* From vanilla Emacs to Python IDE                                   :python:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=JmmTUIahB1U
 :DATE:     2023-04-25T15:00:14-07:00
@@ -5899,7 +5899,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
   7:49 - Footnote operations
   10:05 - Conclusion If you appreciate what I do and are interested in showing your support, I invite you to 'buy me a coffee': https://buymeacoffee.com/jakebox
 
-* LaTeX snippets with Yasnippet & Auto Activating Snippets
+* LaTeX snippets with Yasnippet & Auto Activating Snippets        :yasnippet:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=5cGsiRtBK9I&feature=youtu.be
 :DATE:     2023-02-28T06:57:58-08:00
@@ -5948,7 +5948,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
   Emacs Lisp to run a ChatGPT session inside Emacs:
   https://gist.github.com/vivekhaldar/12c70d684af0302bfa5c816017614589
 
-* Python in Emacs 0079 - How to use ChatGPT in Python / Emacs code development?
+* Python in Emacs 0079 - How to use ChatGPT in Python / Emacs code development? :python:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=fXaJ3IcimOc
 :DATE:     2023-03-18T00:59:16-07:00
@@ -6595,7 +6595,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
   Buy me a coffee:
   https://www.buymeacoffee.com/vernon.grant
 
-* 0061. Emacs. Howm. Списки. Ч.2
+* 0061. Emacs. Howm. Списки. Ч.2                                       :howm:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=mEr6jrbstDI
 :DATE:     2023-02-14T10:31:28-08:00
@@ -6739,7 +6739,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 
   Goodreads: https://goodreads.com/unixbhaskar
 
-* Supercharge your Emacs / Spacemacs / Doom with Yasnippets!
+* Supercharge your Emacs / Spacemacs / Doom with Yasnippets!      :yasnippet:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=xmBovJvQ3KU
 :DATE:     2020-08-23T12:25:58-07:00
@@ -6937,7 +6937,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 :END:
   Emacs is Cool. Leverage Emacs as file manager and do things efficiently. A cool trick to know the file size in dired.
 
-* Beautifying Org Plot with YASnippet and Context Menus
+* Beautifying Org Plot with YASnippet and Context Menus           :yasnippet:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=KrQmiSToo7o
 :DATE:     2023-01-27T22:50:08-08:00
@@ -7008,7 +7008,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
   Demo of elisp-autofmt with animated fill column:
   see: https://codeberg.org/ideasman42/emacs-elisp-autofmt
 
-* Emacs Lisp Write Python Mode from Scratch
+* Emacs Lisp Write Python Mode from Scratch                          :python:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=ANQNLuKodHA
 :DATE:     2023-01-17T01:28:18-08:00
@@ -7017,7 +7017,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 :END:
   notes at http://xahlee.info/talk_show/xah_talk_show_2023-01-16.html
 
-* Xah Talk Show 2023-01-19 Emacs Lisp Write Python Mode from Scratch, Part 2
+* Xah Talk Show 2023-01-19 Emacs Lisp Write Python Mode from Scratch, Part 2 :python:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=r4GM0YqnlBA
 :DATE:     2023-01-20T05:19:03-08:00
@@ -7026,7 +7026,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 :END:
   notes at http://xahlee.info/talk_show/xah_talk_show_2023-01-19.html
 
-* Xah Talk Show 2023-01-22 Emacs Lisp Write Python Mode from Scratch, Part 3
+* Xah Talk Show 2023-01-22 Emacs Lisp Write Python Mode from Scratch, Part 3 :python:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=HY9vgjPO5aU
 :DATE:     2023-01-23T03:09:09-08:00
@@ -7035,7 +7035,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 :END:
   notes at http://xahlee.info/talk_show/xah_talk_show_2023-01-22.html
 
-* 0060. Emacs. Howm. Списки Ч.1
+* 0060. Emacs. Howm. Списки Ч.1                                        :howm:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=spv9blubMcs
 :DATE:     2023-01-22T08:04:13-08:00
@@ -7299,7 +7299,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 
   https://www.reddit.com/r/orgmode/comments/10bokrk/homm3_campaign_scenario_2_150_faster_deduction/
 
-* 0059. Emacs. Howm. Работа со ссылками
+* 0059. Emacs. Howm. Работа со ссылками                                :howm:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=aGTJC1AIugk
 :DATE:     2023-01-15T22:10:28-08:00
@@ -7424,7 +7424,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
   10:14 Review
   11:18 Conclusion If you appreciate what I do and are interested in showing your support, I invite you to 'buy me a coffee': https://buymeacoffee.com/jakebox
 
-* Send emacs buffer to arbitrary Python process
+* Send emacs buffer to arbitrary Python process                      :python:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=0KCXWC4AU2U
 :DATE:     2023-01-07T15:06:58-08:00
@@ -7482,7 +7482,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 :END:
   Just a test stream and some set-up's.
 
-* Guido van Rossum: Python and the Future of Programming | Lex Fridman Podcast #341
+* Guido van Rossum: Python and the Future of Programming | Lex Fridman Podcast #341 :python:
 :PROPERTIES:
 :YOUTUBE_URL: https://youtu.be/-DVyjdw4t9I?t=6305
 :DATE:     2022-11-26T08:23:48-08:00
@@ -8249,7 +8249,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 :END:
 
 
-* 0058. Emacs. Howm. Начало
+* 0058. Emacs. Howm. Начало                                            :howm:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=VwH3IslQlCM
 :DATE:     2022-12-18T14:36:59-08:00
@@ -8335,7 +8335,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
   5. Youtube: https://youtube.com/ravisagar1
   ####
 
-* Emacs packages ednc, vertico, consult, embark, marginalia, orderless and fd-dired
+* Emacs packages ednc, vertico, consult, embark, marginalia, orderless and fd-dired :embark:consult:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=gal3YxBkusY
 :DATE:     2022-12-15T08:14:13-08:00
@@ -8488,7 +8488,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 :END:
   notes at http://xahlee.info/talk_show/xah_talk_show_2022-12-06.html
 
-* 0057. Пакет Howm для Emacs
+* 0057. Пакет Howm для Emacs                                           :howm:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=Ee1OfQ6R2iw
 :DATE:     2022-12-09T22:51:50-08:00
@@ -9065,7 +9065,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 
   #emacs #linux #newbie #newjob
 
-* Best Python IDE: Vim, Emacs, PyCharm, or Visual Studio Code? | Guido van Rossum and Lex Fridman
+* Best Python IDE: Vim, Emacs, PyCharm, or Visual Studio Code? | Guido van Rossum and Lex Fridman :python:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=G5mtQhWNezQ
 :DATE:     2022-11-26T15:00:06-08:00
@@ -9405,7 +9405,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
   emacs init.el
   https://github.com/NapoleonWils0n/ubuntu-dotfiles/blob/master/.config/emacs/init.el
 
-* Xah Talk Show 2022-11-10 Emacs Lisp Write a Python Mode from Scratch, and Why Python Sucks
+* Xah Talk Show 2022-11-10 Emacs Lisp Write a Python Mode from Scratch, and Why Python Sucks :python:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=fsVRPwKOuPc
 :DATE:     2022-11-11T03:12:14-08:00
@@ -11721,7 +11721,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 
   #linux #emacs #orgmode
 
-* Automatic Code Formatting: JavaScript, Python, PowerShell, Golang, Emacs Lisp, WolframLang
+* Automatic Code Formatting: JavaScript, Python, PowerShell, Golang, Emacs Lisp, WolframLang :python:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=NbQhPL7RlK0
 :DATE:     2022-08-28T09:24:35-07:00
@@ -11950,7 +11950,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
   3:04 creating Anki cards
   7:30 incremental reading
 
-* Emacs Snippets and Templates
+* Emacs Snippets and Templates                                    :yasnippet:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=uBRxUnMYIjs
 :DATE:     2022-08-11T18:39:59-07:00
@@ -12077,7 +12077,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 
   Goodreads: https://goodreads.com/unixbhaskar
 
-* Using Python to Code by Voice
+* Using Python to Code by Voice                                      :python:
 :PROPERTIES:
 :YOUTUBE_URL: https://m.youtube.com/watch?v=8SkdfdXWYaI
 :DATE:     2013-03-20T17:39:57-07:00
@@ -12510,7 +12510,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 
   Powered by Restream https://restre.am/yt
 
-* Emacs - zk - Quickly Find and Insert Links, with Embark
+* Emacs - zk - Quickly Find and Insert Links, with Embark                :zk:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=VIPxC8TMR6s
 :DATE:     2022-07-21T11:12:18-07:00
@@ -15242,7 +15242,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
   5. Youtube: https://youtube.com/ravisagar1
   ####
 
-* Emacs YASnippet
+* Emacs YASnippet                                                 :yasnippet:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=UWJRgmAIZcg
 :DATE:     2022-03-27T05:30:07-07:00
@@ -15320,7 +15320,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
   5. Youtube: https://youtube.com/ravisagar1
   ####
 
-* Python in Emacs 0003 -- Why I insist using Emacs for Python coding? And what is elpy mode?
+* Python in Emacs 0003 -- Why I insist using Emacs for Python coding? And what is elpy mode? :python:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=P4rtox7A8IA
 :DATE:     2022-03-18T18:32:59-07:00
@@ -15332,7 +15332,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
   2. Writing GNU Emacs Extensions (https://amzn.to/3JnMa64)
   3. Emacs Lisp - An Introduction (https://amzn.to/3Sgv8ur)
 
-* Python in Emacs 0004 -- How to test python code in Emacs using pylint and ipython
+* Python in Emacs 0004 -- How to test python code in Emacs using pylint and ipython :python:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=ETB8YB_2Juc
 :DATE:     2022-03-19T17:47:59-07:00
@@ -16658,7 +16658,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 
   Powered by Restream https://restream.io/
 
-* Emacs: zk note-taking package demo
+* Emacs: zk note-taking package demo                                     :zk:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=BixlUK4QTNk
 :DATE:     2022-01-31T03:44:31-08:00
@@ -17509,7 +17509,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
   ukeSounds by airtone, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/airtone/32655
   Between Worlds (Instrumental) by Aussens@iter, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/tobias_weber/56664
 
-* 21天学会Emacs 2022 Edition（第四天：vertico, orderless, marginalia, embark）
+* [#B] 21天学会Emacs 2022 Edition（第四天：vertico, orderless, marginalia, embark） :embark:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=HzlLxWTD6QY
 :DATE:     2022-01-21T21:37:54-08:00
@@ -18759,7 +18759,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 
    #vim #emacs #undotree
 
-* Emacs: Yasnippet
+* Emacs: Yasnippet                                                :yasnippet:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=OIdtVXCC7Wc
 :DATE:     2021-12-12T14:37:13-08:00
@@ -18778,7 +18778,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 
   Music: Night In Venice by Kevin McLeod
 
-* Emacs: completion framework (Embark,Consult,Orderless,etc.)
+* Emacs: completion framework (Embark,Consult,Orderless,etc.) :embark:consult:orderless:marginalia:completion:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=43Dg5zYPHTU&feature=youtu.be
 :DATE:     2021-01-06T06:57:26-08:00
@@ -19006,7 +19006,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 
   Music: Night In Venice by Kevin McLeod
 
-* GNU/Emacs - Vertico Embark Consult Marginalia Orderless for completion & some extra functionalities
+* GNU/Emacs - Vertico Embark Consult Marginalia Orderless for completion & some extra functionalities :embark:consult:marginalia:orderless:vertico:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=QBvGa0Yg1NI
 :DATE:     2021-12-04T10:05:27-08:00
@@ -19285,7 +19285,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
   https://phundrak.com/en (English)
   https://phundrak.com (French)
 
-* Python Interactive Programming in Emacs
+* Python Interactive Programming in Emacs                            :python:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=MXF81Q0a91M
 :DATE:     2021-11-21T00:30:35-08:00
@@ -19421,7 +19421,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 
   #linux #emacs #datetime
 
-* Yasnippet & Neotree on GNU/Emacs
+* Yasnippet & Neotree on GNU/Emacs                                :yasnippet:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=M1txXPyAL6I
 :DATE:     2021-11-28T23:17:05-08:00
@@ -20107,7 +20107,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
   Org Mode Playlist von Rainer König:
   https://youtu.be/sQS06Qjnkcc
 
-* getting covid data from John Hopkins University with python, covid19pandas  and emacs
+* getting covid data from John Hopkins University with python, covid19pandas  and emacs :python:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=KE-GjOb58x8
 :DATE:     2021-10-21T01:59:09-07:00
@@ -20466,7 +20466,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 
   https://www.orgroam.com/
 
-* System Crafters Live! - The Many Uses of Embark
+* System Crafters Live! - The Many Uses of Embark                    :embark:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=qk2Is_sC8Lk
 :DATE:     2021-10-15T23:07:54-07:00
@@ -21496,7 +21496,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 
   Details: https://lifeofpenguin.blogspot.com/2021/08/scribble-notes-in-gnu-emacs.html
 
-* Bring a Web Browser, Python, Javascript and more to EMACS - Emacs Application Framework
+* Bring a Web Browser, Python, Javascript and more to EMACS - Emacs Application Framework :python:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=z9W0pnShEWc
 :DATE:     2021-09-05T20:07:16-07:00
@@ -22368,7 +22368,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 
   https://betterprogramming.pub/15-reasons-why-i-use-emacs-with-gifs-5b03c6608b61
 
-* Use the result of a Python source-block in a table formula | org-table | Inside Emacs #6 (part 14) :org:
+* Use the result of a Python source-block in a table formula | org-table | Inside Emacs #6 (part 14) :org:python:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=ay7zslbSFqg&feature=youtu.be
 :DATE:     2021-07-23T08:36:23-07:00
@@ -23229,7 +23229,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
   👉 https://github.com/tonyaldon/inside-emacs
   👉 Music: https://soundcloud.com/vinkate/in-your-mind
 
-* Powerful Text Snippets – Emacs YASnippet – Straightforward Emacs
+* Powerful Text Snippets – Emacs YASnippet – Straightforward Emacs :yasnippet:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=W-bRZlseNm0
 :DATE:     2021-06-17T14:16:08-07:00
@@ -23739,7 +23739,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
   ukeSounds by airtone, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/airtone/32655
   Between Worlds (Instrumental) by Aussens@iter, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/tobias_weber/56664
 
-* System Crafters Live! - Replacing Ivy and Counsel with Vertico and Consult
+* System Crafters Live! - Replacing Ivy and Counsel with Vertico and Consult :vertico:consult:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=UtqE-lR2HCA
 :DATE:     2021-05-21T23:46:30-07:00
@@ -25482,7 +25482,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 :END:
   Check it out at https://github.com/repelliuss/org-gamedb !
 
-* Emacs IDE - Python Development Configuration
+* Emacs IDE - Python Development Configuration                       :python:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=jPXIP46BnNA&feature=youtu.be
 :DATE:     2020-12-02T22:25:59-08:00
@@ -26381,7 +26381,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
   Intro music: Coriolis Effect by logos feat. stefsax, licensed CC-BY
   http://ccmixter.org/files/mseq/26296
 
-* Emacs: Embark and my extras
+* Emacs: Embark and my extras                                        :embark:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=uoP9ZYdNCHg
 :DATE:     2021-01-09T05:48:27-08:00
@@ -27351,7 +27351,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
   Other videos related to Org-transclusion:
   How to install video: https://youtu.be/c1aelYM3m9U
 
-* doing your own OLS and lasso with emacs and python
+* doing your own OLS and lasso with emacs and python                 :python:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=r2QteNGlMYM
 :DATE:     2020-11-02T05:10:19-08:00
@@ -27369,7 +27369,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 
   notebook for the course: https://github.com/janboone/msc_datascience/blob/master/Statistical_Hacking.ipynb
 
-* bootstrapping difference mean samples with emacs and python
+* bootstrapping difference mean samples with emacs and python        :python:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=69zsXfKib2o
 :DATE:     2020-11-02T04:02:35-08:00
@@ -28736,7 +28736,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 
   Read more about OrgMode and some "show notes" in the OrgMode section of my blog at http://koenig-haunstetten.de/tag/orgmode/
 
-* Live Coding in Python v4.2 (Emacs)
+* Live Coding in Python v4.2 (Emacs)                                 :python:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=aRmUiTPVnNg
 :DATE:     2020-07-13T22:34:49-07:00
@@ -29879,7 +29879,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 
   Series page: http://cestlaz.github.io/stories/emacs
 
-* Emacs - 05 - Themes
+* Emacs - 05 - Themes                           :theming:DoomEmacs:spacemacs:
 :PROPERTIES:
 :YOUTUBE_URL: https://youtu.be/B2rjBrnXc_E
 :DATE:     2020-02-05T05:51:36-08:00
@@ -29902,7 +29902,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
   Follow on LBRY: https://lbry.tv/@lukewh:3
   Join LBRY: https://lbry.tv/$/invite/@lukewh:3 (I get 20LBC if you do this)
 
-* Emacs - 02 - Frames, Windows and Buffers
+* Emacs - 02 - Frames, Windows and Buffers           :buffers:windows:frames:
 :PROPERTIES:
 :YOUTUBE_URL: https://youtu.be/PNsKHR3TyDE
 :DATE:     2020-01-31T05:51:37-08:00
@@ -29938,7 +29938,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 
   Emacs config: https://github.com/zamansky/dot-emacs
 
-* Emacs - 01 - Intro, files and movement
+* Emacs - 01 - Intro, files and movement                           :beginner:
 :PROPERTIES:
 :YOUTUBE_URL: https://youtu.be/9pkuBijrMD4
 :DATE:     2020-01-29T05:00:34-08:00
@@ -30004,7 +30004,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 
   Your support is very much appreciated. Thanks, guys!
 
-* Emacs and the joy of text editing with Adam Schwartz
+* Emacs and the joy of text editing with Adam Schwartz              :editing:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=0tFFQKdM2cg
 :DATE:     2020-01-20T12:30:56-08:00
@@ -30018,7 +30018,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
   Adam Schwartz is a Software Engineer at Diagnotes and a recent graduate from Earlham College, where he studied ceramics, philosophy, and computer
   science.
 
-* Python + Org-mode for fluent output generation of scientific research :org:
+* Python + Org-mode for fluent output generation of scientific research :org:python:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=Bvse62CR-w0&feature=youtu.be
 :DATE:     2015-10-09T14:19:17-07:00
@@ -32211,7 +32211,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 :END:
   How to get a decent environment for C/C++ development in Spacemacs.
 
-* 2019-02-27: Emacs as a Python IDE - Sean Farley
+* 2019-02-27: Emacs as a Python IDE - Sean Farley                    :python:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=GxMAPW9_LsA
 :DATE:     2019-03-28T21:47:01-07:00
@@ -32439,7 +32439,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 :END:
   yt-description
 
-* The Emacs Ipython Notebook- John Miller (Honeywell UOP)
+* The Emacs Ipython Notebook- John Miller (Honeywell UOP)            :python:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=OB9vFu9Za8w
 :DATE:     2018-10-10T15:43:47-07:00
@@ -32543,7 +32543,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 :END:
   This could be done much faster with `query-replace-regexp` Emacs command, yet I wanted to show some Elisp in action.
 
-* Emacs Screencast: EP04 login using hash in python (Fixing more bugs & summarizing for now)
+* Emacs Screencast: EP04 login using hash in python (Fixing more bugs & summarizing for now) :python:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=bClNLhbqIvI
 :DATE:     2019-01-27T00:31:46-08:00
@@ -32708,7 +32708,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 :SPEAKERS: valignatev
 :DURATION: 15:55
 :END:
-  Full code on github:
+Full code on github:
   https://github.com/valignatev/python-snowterm
 
   Python curses documentation:
@@ -33123,7 +33123,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 :END:
   Real world use of emacs. First 20 min is running mwe log commands package. From 20:00 to end, modifying a emacs lisp code that creates ATOM/RSS entry. Elisp code shows beginning at 25:30.
 
-* Emacs + org-mode + python in reproducible research; SciPy 2013 Presentation
+* Emacs + org-mode + python in reproducible research; SciPy 2013 Presentation :python:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=1-dUkyn_fZA
 :DATE:     2013-07-02T10:57:08-07:00
@@ -33355,7 +33355,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 
   God bless 'mark-next-like-this
 
-* Emacs Tutorial 20 - Yasnippet!
+* Emacs Tutorial 20 - Yasnippet!                                  :yasnippet:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=39u8K12rXHE
 :DATE:     2018-03-11T12:05:47-07:00
@@ -33664,7 +33664,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 :END:
 
 
-* Python Interactive (PYNT) - Emacs Python to Jupyter Notebook Converter Feature Demo
+* Python Interactive (PYNT) - Emacs Python to Jupyter Notebook Converter Feature Demo :python:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=wtVF5cMhBjg
 :DATE:     2018-02-04T14:18:58-08:00
@@ -34275,7 +34275,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
   Github: https://github.com/kskkwn/.emacs.d
   (Japanese blog post): http://ksknw.hatenablog.com/entry/2017/01/08/205854
 
-* emacs+python
+* emacs+python                                                       :python:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=XtmM8sxE_zo
 :DATE:     2017-01-08T03:28:21-08:00
@@ -34837,3 +34837,327 @@ Using restclient within emacs...
 :DURATION: 06:35
 :END:
   Dentro de este episodio se habla acerca de las diferencias entre lo que es un buffer y una ventana en emacs.
+* Emacs 31 News Stream VOD  :emacs31:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=yDVj75fC2pQ
+:DATE:     2024-12-20T13:07:01-08:00
+:SPEAKERS: PizzaTorque
+:DURATION: 01:26:53
+:END:
+  Going through Emacs 31 news and testing out some of the new features
+
+* Using Howm in Emacs for Notes and Tasks - System Crafters Live!  :howm:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=eSmTN5jynvg
+:DATE:     2024-12-20T22:26:17-08:00
+:SPEAKERS: System Crafters
+:DURATION: 02:11:20
+:END:
+  In this stream, we'll take a look at a package for Emacs called Howm which provides a streamlined, text-based system for note taking and task management.  We'll try out a few of its key features and compare it to Org Mode and Denote to see if it's worth adding to your workflow!
+
+  #gnu #emacs #howm #notetaking #orgmode #denote
+
+  SUPPORT THE CHANNEL:
+
+  👍 Support My Work: https://systemcrafters.net/how-to-help/#support-my-work
+  📰 Subscribe to the Newsletter: https://systemcrafters.net/newsletter/
+  👕 Check out the Store: https://systemcrafters.store
+  📘 Get Your Copy of Mastering Emacs: https://www.masteringemacs.org/r/systemcrafters?utm_source=yt&utm_medium=desc&utm_campaign=scme
+
+  SHOW NOTES:
+
+  https://systemcrafters.net/live-streams/december-20-2024/
+
+  JOIN THE COMMUNITY:
+
+  https://systemcrafters.net/community/ (Forum and IRC chat!)
+  https://fosstodon.org/@daviwil
+
+  MY CONFIGURATION:
+
+  (This site is currently down but will be back up soon!)
+
+  https://config.daviwil.com
+  https://config.daviwil.com/emacs
+  https://config.daviwil.com/systems (Guix)
+
+  OTHER SERIES:
+
+  - Emacs Essentials: https://www.youtube.com/watch?v=48JlgiBpw_I&list=PLEoMzSkcN8oPZvSdewHG8uApD7THlLLCV
+  - Emacs From Scratch: https://www.youtube.com/watch?v=74zOY-vgkyw&list=PLEoMzSkcN8oPH1au7H6B7bBJ4ZO7BXjSZ
+  - Emacs Tips: https://www.youtube.com/watch?v=wKTKmE1wLyw&list=PLEoMzSkcN8oMHJ6Xil1YdnYtlWd5hHZql
+  - Emacs Desktop Environment: https://www.youtube.com/watch?v=f7xB2fFk1tQ&list=PLEoMzSkcN8oNPbEMYEtswOVTvq7CVddCS
+  - Emacs IDE: https://www.youtube.com/watch?v=E-NAM9U5JYE&list=PLEoMzSkcN8oNvsrtk_iZSb94krGRofFjN
+  - Emacs Mail: https://www.youtube.com/watch?v=yZRyEhi4y44&list=PLEoMzSkcN8oM-kA19xOQc8s0gr0PpFGJQ
+  - Learning Emacs Lisp: https://www.youtube.com/watch?v=RQK_DaaX34Q&list=PLEoMzSkcN8oPQtn7FQEF3D7sroZbXuPZ7
+  - Craft Your System with GNU Guix: https://www.youtube.com/watch?v=iBaqOK75cho&list=PLEoMzSkcN8oNxnj7jm5V2ZcGc52002pQU
+
+  CREDITS:
+
+  Coriolis Effect by logos feat. stefsax, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/mseq/26296
+  reNovation by airtone, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/airtone/60674
+  ukeSounds by airtone, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/airtone/32655
+  Between Worlds (Instrumental) by Aussens@iter, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/tobias_weber/56664
+
+* Emacs Org Attach Various Methods 2024_12_17_14:56:08
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=I5VNszZaOIA
+:DATE:     2024-12-17T02:29:19-08:00
+:SPEAKERS: Bhaskar Chowdhury  ...Musing with GNU_Linux!!
+:DURATION: 04:04
+:END:
+  In this video, you will see, various methods to use the Emacs org attach facility.
+
+  #linux #linuxadmin #sysadmin #opensource #Gentoo #Debian #Slackware #research
+  #linuxkernel #kernel #gnu #Linux #GNU
+
+  Buy Me A Coffee: https://www.buymeacoffee.com/unixbhaskar
+  Patreon: https://www.patreon.com/unixbhaskar
+  Paypal: https://paypal.me/linuxbhaskar
+
+  You can also find me :
+
+  GitHub: https://github.com/unixbhaskar
+
+  Reddit: https://www.reddit.com/user/unixbhaskar
+
+  Blogs: https://unixbhaskar.wordpress.com
+
+  Twitter: https://twitter.com/unixbhaskar
+
+  Linkedin: https://linkedin.com/in/unixbhaskar
+
+  Vimeo: https://vimeo.com/unixbhaskar
+
+  Goodreads: https://goodreads.com/unixbhaskar
+
+* Xah Talk Show 2024-12-21 Ep605. Run Code of Python JS Fsharp Etc in Emacs. Are You Based? :python:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=IWyat0bbCss
+:DATE:     2024-12-22T01:34:36-08:00
+:SPEAKERS: Xah Lee
+:DURATION: 53:30
+:END:
+  code at
+  http://xahlee.info/talk_show/xah_talk_show_2024-12-21.html
+
+  timestamp
+  39:05 what does based mean
+  42:49 how to be an independent thinker
+
+* Трошки про Emacs
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=gMb6VTqUE10
+:DATE:     2024-12-21T08:05:10-08:00
+:SPEAKERS: Alexander Solovyov
+:DURATION: 21:31
+:END:
+  Замість рішення другої частини 13 дня AoC я трохи розповідаю за те, як працюють разом Emacs та Clojure: paredit, cider, інше по дрібницям. Дещо сумбурно, не готував це. 😁
+
+* 00: Why You Want Programmable Tools
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=u7DW78ng9Cg
+:DATE:     2024-12-20T07:31:17-08:00
+:SPEAKERS: Positron's Emacs Channel
+:DURATION: 04:36
+:END:
+  https://github.com/sponsors/positron-solutions
+
+  We write the packages used to make a lot of this content!  Buy me a hamburger!  Dslide now supports keyboard macros.  Check it out!
+
+  The first step is knowing why having a bunch of settings will never be as good as having programming in your workflow.  It will remain true because bootstrapping never goes away.  Ecosystem strength comes from user groups who share that philosophy.  You're in good company with Emacs.
+
+  #emacs #opensource #programming
+
+  TIMESTAMPS
+  00:00 Configuration doesn't scale
+  01:05 Fast ROI
+  01:26 Never out of style
+  01:48 The language of programmable tools
+  02:42 Friends of Emacs
+  03:10 Revolution is Everywhere
+* Emacs, howm, how?  :howm:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=o1x_UM0HDhE&pp=ygUKaG93bSBlbWFjcw%3D%3D
+:DATE:     2024-09-16T16:40:11-07:00
+:SPEAKERS: qnnnp
+:DURATION: 10:36
+:END:
+  Обещанная (не единожды) "экскурсия" по моей картотеке. Как, что и зачем я там делаю. Демонстрация умопомрачительных возможностей Emacs.
+
+  Руководством по howm можно разжиться здесь:
+  https://github.com/Emacs101/howm-manual
+
+  Вот еще две статьи о Emacs, которые могут пригодится новичкам:
+  Как оседлать Emacs?
+  https://qnnnp.substack.com/p/emacs
+
+  Создание базы знаний в Emacs
+  https://qnnnp.substack.com/p/emacs-2a6
+
+  #emacs #zettelkasten
+* How I Wrote my Book in Emacs + Org  :org:writing:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=pqLSPo5k70c
+:DATE:     2023-10-06T11:07:29-07:00
+:SPEAKERS: Joshua Blais
+:DURATION: 08:51
+:END:
+  It's been a minute!
+  I give a brief life update and talk about my book - and how I've been writing it in emacs. The various tools and shortcuts I used to write my book.
+* emacs youtube-sub-extractor.el and mpv.el  :mpv:youtube:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=pCCWQUvU5Fs
+:DATE:     2023-03-27T09:46:48-07:00
+:SPEAKERS: NapoleonWils0n
+:DURATION: 57:40
+:END:
+  Extracts video subtitles using yt-dlp and shows them in a buffer.
+  You can then use mpv.el to jump to ant point in the video from the subtitles timestamps
+
+  This makes it really easy to search through the subtitles for a particular phrase and instantly jump to that point in the video
+
+  youtube-sub-extractor.el
+  https://github.com/agzam/youtube-sub-extractor.el
+
+  mpv
+  https://github.com/kljohann/mpv.el
+
+  emac init.el
+  https://github.com/NapoleonWils0n/nixos-dotfiles/blob/master/.config/emacs/init.el
+
+  mpv config
+  https://github.com/NapoleonWils0n/nixos-dotfiles/tree/master/.config/mpv
+
+  subed by @sachactube
+  https://github.com/sachac/subed
+* Using Emacs 81 -  Building Emacs and elfeed-webkit  :elfeed:building:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=GGypKmrOf2I&pp=ygULZW1hY3Mgc3ViZWQ%3D
+:DATE:     2023-06-26T12:44:31-07:00
+:SPEAKERS: Mike Zamansky
+:DURATION: 24:14
+:URL:      https://cestlaz.github.io'/post/using-emacs-81-elfeed-webkit
+:END:
+  Blog post:
+
+  https://cestlaz.github.io'/post/using-emacs-81-elfeed-webkit
+
+* Emacs Makes Moving Words and Lines Super Easy  :editing:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=bXC-pjlXkrA
+:DATE:     2023-11-07T06:00:29-08:00
+:SPEAKERS: DistroTube
+:DURATION: 12:28
+:END:
+  I'm constantly amazed at some of the cool functionality available in Emacs, both out of the box as well as with third party packages.  Today, I'm going to share a couple of neat Emacs programs that make moving words, lines and blocks of text super easy.
+
+  REFERENCED:
+  ► https://github.com/rejeep/drag-stuff.el
+  ► https://www.vim.org/scripts/script.php?script_id=3656
+
+  WANT TO SUPPORT THE CHANNEL?
+  💰 Patreon: https://www.patreon.com/distrotube
+  💳 Paypal: https://www.youtube.com/redirect?event=channel_banner&redir_token=QUFFLUhqazNocEhiaGFBT1l1MnRHbnlIcHFKbXJWVnpQd3xBQ3Jtc0tsLVZJc19YeFlwZ2JqbXVOa3g0Skw4TVhTV2otNm1tM3A1bUNnamh3S2V6OGQtLTBnSjBxYTlvUXMxeEVIS3o4US10NENHMUQ3STk2a01FOFBhUnZjZFctMEhFUTg1TVctQmFfVUdxZXJ4TDl0azlYNA&q=https%3A%2F%2Fwww.paypal.com%2Fcgi-bin%2Fwebscr%3Fcmd%3D_donations%26business%3Dderek%2540distrotube%252ecom%26lc%3DUS%26item_name%3DDistroTube%26no_note%3D0%26currency_code%3DUSD%26bn%3DPP%252dDonationsBF%253abtn_donateCC_LG%252egif%253aNonHostedGuest
+  🛍️ Amazon: https://amzn.to/2RotFFi
+  👕 Teespring: https://teespring.com/stores/distrotube
+
+  DT ON THE WEB:
+  🕸️ Website: http://distrotube.com/
+  📁 GitLab: https://gitlab.com/dwt1
+  🗨️ Mastodon: https://fosstodon.org/@distrotube
+  👫 Reddit: https://www.reddit.com/r/DistroTube/
+  📽️ LBRY/Odysee: https://odysee.com/@DistroTube:2
+
+  FREE AND OPEN SOURCE SOFTWARE THAT I USE:
+  🌐 Brave Browser - https://brave.com/dis872
+  📽️ Open Broadcaster Software: https://obsproject.com/
+  🎬 Kdenlive: https://kdenlive.org
+  🎨 GIMP: https://www.gimp.org/
+  🎵 Tenacity: https://github.com/tenacityteam/tenacity
+  💻 VirtualBox: https://www.virtualbox.org/
+  🗒️ Doom Emacs: https://github.com/hlissner/doom-emacs
+
+  Your support is very much appreciated. Thanks, guys!
+* Audio braindump workflow tweaks: Adding Org Mode hyperlinks to recordings based on keywords  :org:
+:PROPERTIES:
+:YOUTUBE_URL: https://youtu.be/z_ESh0itp94
+:DATE:     2023-12-24T11:30:12-08:00
+:SPEAKERS: Sacha Chua
+:DURATION: 00:56
+:END:
+  I've been experimenting with using speech recognition, Emacs, and Org Mode to lightly structure audio braindumps. Details:
+  https://sachachua.com/blog/2023/12/audio-braindump-workflow-tweaks-adding-org-mode-hyperlinks-to-recordings-based-on-keywords/
+* Yay Emacs 7: using word timing in caption editing with subed-word-data  :subed:
+:PROPERTIES:
+:YOUTUBE_URL: https://youtube.com/shorts/JeBg7-cF4Zk
+:DATE:     2024-11-16T06:02:32-08:00
+:SPEAKERS: Sacha Chua
+:DURATION: 00:58
+:END:
+  https://sachachua.com/blog/2024/11/yay-emacs-7-using-word-timing-in-caption-editing-with-subed-word-data/
+
+  When I work with video captions, I often want to split long captions using subed-split-subtitle. If my player is somewhere in the current subtitle, it'll use that timestamp. If not, it'll make a reasonable guess based on character position.
+
+  I can use subed-word-data.el to load word-level times from WhisperX JSON or from Youtube SRV2 files. This allows me to split a subtitle using the timestamp for that word.
+
+  Because subed-word-data colours words based on transcription confidence, I can see where something might need to be closely examined, like when there's no timing information for the words at the start or end.
+
+  If I combine that with subed-waveform, I can see silences. Then I can tweak start times by shift-left-clicking on the waveform. This automatically adjusts the end time of the previous subtitle too.
+
+  I like how Emacs makes it easy to use word timing data when editing captions. Yay Emacs!
+* Yay #Emacs 5: Tweaking my video workflow with WhisperX and subed-record  :subed:SubedRecord:
+:PROPERTIES:
+:YOUTUBE_URL: https://youtube.com/shorts/s6Y_wx-4xsI
+:DATE:     2024-10-07T11:12:50-07:00
+:SPEAKERS: Sacha Chua
+:DURATION: 00:44
+:END:
+  I'm tweaking my video workflow. I use Orgzly Revived on my Android phone to write the text, and I use Easy Voice Recorder to record it. Syncthing automatically copies both to my laptop. I use WhisperX to transcribe my recording, and I use a little bit of Emacs Lisp to figure out timestamps for each word. I edit this to fix errors. I can even rearrange things and get rid of anything I don't want.Then I use subed-convert to turn it into a VTT file. I can tweak the start and end times by looking at the waveforms. Then I add comments with the visuals I want. I can add images, animated GIFs, or videos, and they're automatically squeezed or stretched to fit. I can also have them play at original speed. Then I set up open captions and use subed-record-compile-video. Tada!
+
+  Links:
+
+  - Notes at YayEmacs.com
+  - [Orgzly Revived] (https://www.orgzlyrevived.com/)
+  - [Easy Voice Recorder] (https://play.google.com/store/apps/details?id=com.coffeebeanventures.easyvoicerecorder&hl=en_US)
+  - [WhisperX] (https://github.com/m-bain/whisperX)
+  - [Using Emacs Lisp to process WhisperX timestamps] (https://sachachua.com/blog/2024/09/using-whisperx-to-get-word-level-timestamps-for-audio-editing-with-emacs-and-subed-record/)
+  - [Subed] (https://github.com/sachac/subed)- [My other blog posts about subed] (https://sachachua.com/blog/category/subed/)
+  - [Subed-record] (https://github.com/sachac/subed-record)
+  - Animated GIF by DemonDeLuxe (Dominique Toussaint) - Image:Newtons cradle animation book.gif, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=3717500
+* Yay #Emacs: Embark completion with C-h :embark:
+:PROPERTIES:
+:YOUTUBE_URL: https://youtube.com/shorts/NUgKVOX6UZQ
+:DATE:     2024-10-06T11:24:04-07:00
+:SPEAKERS: Sacha Chua
+:DURATION: 00:24
+:END:
+  I use Embark to configure context-sensitive keyboard shortcuts that I can bring up with embark-act, which I've bound to "C-c .". If I pause for a moment, it'll show me which-key lists of the shortcuts. To switch to the next set of shortcuts, I can press the same shortcut again. Sometimes this list is still hard to skim. I can use C-h to select a command with completion, which is extra nice with vertico-multiform-mode and a little configuration.
+
+  Embark: https://github.com/oantolin/embark
+
+* Yay #Emacs: rewriting and copying custom Org Mode links  :org:
+:PROPERTIES:
+:YOUTUBE_URL: https://youtube.com/shorts/DAdoISCV8sI
+:DATE:     2024-09-20T09:03:58-07:00
+:SPEAKERS: Sacha Chua
+:DURATION: 00:38
+:END:
+  I use `org-link-set-parameters` to define a lot of custom links in Org Mode for things like my blog or my Emacs config. Then I can code how I want to complete, open, and export those links. These links don't make sense to other people, of course. I want to be able to quickly copy or replace my custom links with regular web links, like the ones I use when I export to HTML.
+
+  My shortcut for this is `C-. u` to copy the exported URL and `C-. r` to rewrite a link. These stand for `my-embark-org-copy-exported-url` and `my-embark-replace-link-with-exported-url` respectively.
+
+  https://sachachua.com/dotemacs#git-projects
+
+  https://sachachua.com/blog/2024/01/using-an-emacs-lisp-macro-to-define-quick-custom-org-mode-links-to-project-files/
+
+* Yay Emacs 6: Inserting links with consult-omni  :ConsultOmni:consult:web:search:
+:PROPERTIES:
+:YOUTUBE_URL: https://youtube.com/shorts/GH4zBesvupk
+:DATE:     2024-09-19T07:39:15-07:00
+:SPEAKERS: Sacha Chua
+:DURATION: 00:24
+:END:
+  I want to quickly look up and add links. consult-omni (https://github.com/armindarvish/consult-omni) lets me search within Emacs instead of switching to a web interface. After I set up consult-omni-google with a Google custom search engine and a JSON API key, I can call it with my shortcut: `M-g w'. Using `M-n' for future history pulls in the word at point. Then I can select a site and use Embark to insert with `C-. i' or copy with `C-. w'.
+
+  My config: https://sachachua.com/dotemacs#consult-omni
