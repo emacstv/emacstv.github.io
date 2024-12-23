@@ -44,6 +44,11 @@ const htmlContent = `
       color: #2A9D8F;
       cursor: pointer;
     }
+    #random-pick-heading {
+      display: flex;
+      justify-content: space-between;
+      cursor: pointer;
+    }
     #die {
       cursor: pointer;
     }

@@ -85,6 +85,11 @@ class RandomPickRenderer {
     const randomIndex = Math.floor(Math.random() * renderableHeadings.length);
     const randomHeading = renderableHeadings[randomIndex];
     handlers.push({
+      nodeId: 'random-pick-heading',
+      listenerName: 'click',
+      handler: () => this.store.refresh()
+    });
+    handlers.push({
       nodeId: 'die',
       listenerName: 'click',
       handler: () => this.store.refresh()
@@ -120,7 +125,7 @@ class RandomPickRenderer {
       handlers: handlers,
       html: `
 <div>
-  <h2 style="display: flex; justify-content: space-between;"><span>Lucky pick</span><span id="die">🎲</span></h2>
+  <h2 id="random-pick-heading"><span>Lucky pick</span><span id="die">🎲</span></h2>
   ${player}
   <div class="video--caption item">
     ${DateRenderer.render(randomHeading.drawer.DATE)}
