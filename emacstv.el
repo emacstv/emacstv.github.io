@@ -107,7 +107,7 @@ Returns nil if not found."
     <item>
       <title>%s</title>
       <link>%s</link>
-      <description>%s</description>
+      <description><![CDATA[<div id=\"content\">%s</div>]]></description>
       <pubDate>%s</pubDate>
     </item>"
                             title
