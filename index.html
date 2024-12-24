@@ -222,6 +222,8 @@ ${videoList.html}`;
       }
       const randomIndex = Math.floor(Math.random() * renderableHeadings.length);
       const randomHeading = renderableHeadings[randomIndex];
+      const video = new VideoRenderer(this.store).render(randomHeading);
+      handlers.push(...video.handlers);
       handlers.push({
         nodeId: "random-pick-heading",
         listenerName: "click",
@@ -265,10 +267,7 @@ ${videoList.html}`;
   <h2 id="random-pick-heading"><span>Lucky pick</span><span id="die">\u{1F3B2}</span></h2>
   ${player}
   <div class="video--caption item">
-    ${DateRenderer.render(randomHeading.drawer.DATE)}
-    <p>
-      <a href="${randomHeading.drawer["URL"] || randomHeading.drawer["YOUTUBE_URL"] || randomHeading.drawer["TOOBNIX_URL"] || randomHeading.drawer["MEDIA_URL"]}">${randomHeading.title}</a> ${randomHeading.drawer["SPEAKERS"] ? " (" + randomHeading.drawer["SPEAKERS"] + ")" : ""}
-    </p>
+  ${video.html}
   </div>
 </div>`
       };
@@ -323,23 +322,37 @@ ${videoList.html}`;
     }
     render(headings) {
       const result = headings.reduce((acc, heading) => {
-        const date = DateRenderer.render(heading.drawer.DATE);
-        const title = heading.title || "Untitled";
-        const tags = heading.tags?.sort()?.map((tag) => {
-          tag = tag.toLowerCase();
-          const tagId = `tag-${tag}-${randomUUID()}`;
-          acc.handlers.push({
-            nodeId: tagId,
-            listenerName: "click",
-            handler: () => this.store.addFilterTag(tag)
-          });
-          return `<span id="${tagId}" class="tag">#${tag}</span>&nbsp;`;
-        }).join(" ") || "";
-        const links = Object.keys(heading.drawer ?? {}).filter((key) => key.endsWith("_URL") && heading.drawer[key]?.trim()).map((key) => {
-          return `<a href="${heading.drawer[key]}" target="_blank">${key.slice(0, -4).toLowerCase()}</a>`;
-        }).join("&nbsp;\xB7&nbsp;");
-        const speakers = heading.drawer?.SPEAKERS;
-        acc.html += `
+        const video = new VideoRenderer(this.store).render(heading);
+        acc.html += video.html;
+        acc.handlers.push(...video.handlers);
+        return acc;
+      }, { html: "", handlers: [] });
+      return result;
+    }
+  };
+  var VideoRenderer = class {
+    constructor(store) {
+      this.store = store;
+    }
+    render(heading) {
+      const result = { html: "", handlers: [] };
+      const date = DateRenderer.render(heading.drawer.DATE);
+      const title = heading.title || "Untitled";
+      const tags = heading.tags?.sort()?.map((tag) => {
+        tag = tag.toLowerCase();
+        const tagId = `tag-${tag}-${randomUUID()}`;
+        result.handlers.push({
+          nodeId: tagId,
+          listenerName: "click",
+          handler: () => this.store.addFilterTag(tag)
+        });
+        return `<span id="${tagId}" class="tag">#${tag}</span>&nbsp;`;
+      }).join(" ") || "";
+      const links = Object.keys(heading.drawer ?? {}).filter((key) => key.endsWith("_URL") && heading.drawer[key]?.trim()).map((key) => {
+        return `<a href="${heading.drawer[key]}" target="_blank">${key.slice(0, -4).toLowerCase()}</a>`;
+      }).join("&nbsp;\xB7&nbsp;");
+      const speakers = heading.drawer?.SPEAKERS;
+      result.html += `
       <div class="item">
         <p>${date}</p>
         <p><strong>${title}</strong></p>
@@ -347,8 +360,6 @@ ${videoList.html}`;
 ${speakers ? `<p class="speakers">By ${speakers}</p>` : ""}
         <p>${links}</p>
       </div><br>`;
-        return acc;
-      }, { html: "", handlers: [] });
       return result;
     }
   };
