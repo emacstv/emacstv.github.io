@@ -29,6 +29,10 @@ For example:
 
 - Submit a pull request.
 
+** YouTube helper
+
+To add YouTube videos, you can use the =M-x emacstv-add-from-youtube= helper from [[https://github.com/emacstv/emacstv.github.io/blob/main/emacstv.el][emacstv.el]].
+
 * Improve tags/metadata
 
 Many videos could really do with more tags and additional metadata. Please help us by submitting pull requests with metadata improvements.
