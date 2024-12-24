@@ -21,6 +21,7 @@ const htmlContent = `
 <html>
 <head>
   <title>emacs.tv</title>
+  <link rel="alternate" type="application/rss+xml" title="feed" href="/videos.rss">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
     body {
