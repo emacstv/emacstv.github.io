@@ -32,7 +32,7 @@
 	(cond
 	 ((string-match "youtu.be/\\(.*\\)" url) (match-string 1 url))
 	 ((string-match "www.youtube.com/watch\\?\\(.*\\)" url)
-		(assoc-default "v" (url-parse-args (match-string 1 url)) #'string=))
+		(car (assoc-default "v" (url-parse-query-string (match-string 1 url)) #'string=)))
 	 (t (error "Unknown URL pattern"))))
 
 (defun emacstv-find-by-youtube-url (url)
@@ -136,9 +136,10 @@ Returns nil if not found."
 (defun emacstv-add-from-youtube (url)
 	"Add an entry for URL."
 	(interactive (list (read-string "YouTube URL: "
-																	(when (string-match "^https://\\(www\\.\\)?youtu"
-																											(or (car kill-ring) ""))
-																		(car kill-ring)))))
+																	(let ((clipboard (current-kill 0 t)))
+																		(when (string-match "^https://\\(www\\.\\)?youtu"
+																												clipboard)
+																			clipboard)))))
 	(let* ((json-object-type 'alist)
 				 (json-array-type 'list)
 				 data)
@@ -181,19 +182,21 @@ If a region is active, add all the YouTube links in that region."
 								(when (string-match "youtu\\.?be" link)
 									(with-current-buffer (find-file-noselect emacstv-index-org)
 										(condition-case nil
-												(emacstv-add-from-youtube link)
+												(unless (emacstv-find-by-youtube-url link)
+													(emacstv-add-from-youtube link))
 											(error nil))
 										(display-buffer (current-buffer) nil)))))))
 			;; add the current link
 			(let ((link (org-element-property :raw-link (org-element-context))))
 				(when (string-match "youtu\\.?be" link)
 					(with-current-buffer (find-file-noselect emacstv-index-org)
-						(emacstv-add-from-youtube link)
-						(display-buffer (current-buffer))))))))
+						(unless (emacstv-find-by-youtube-url link)
+							(emacstv-add-from-youtube link)
+							(display-buffer (current-buffer)))))))))
 
 (defun emacstv-insert-org-list-from-spookfox ()
 	(interactive)
-	(insert (spookfox-js-injection-eval-in-active-tab "[...document.querySelectorAll('a.ytd-playlist-video-renderer#video-title')].map((o) => `- [[${o.href}][${o.getAttribute('title')}]]\n`).join('')" t)))
+	(insert (spookfox-js-injection-eval-in-active-tab "[...document.querySelectorAll('a.ytd-playlist-video-renderer#video-title')].map((o) => `- [[${o.href}][${o.getAttribute('title')}]]\n`).join('') || [...document.querySelectorAll('#primary a.ytd-playlist-panel-video-renderer#wc-endpoint')].map((o) => `- [[${o.href}][${o.querySelector('#video-title').getAttribute('title')}]]\n`).join('') || [...document.querySelectorAll('a.ytd-rich-grid-media#video-title-link')].map((o) => `- [[${o.href}][${o.getAttribute('title')}]]\n`).join('')" t)))
 
 (defun emacstv-sort-by-newest-first ()
 	(interactive)

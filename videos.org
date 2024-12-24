@@ -1,4 +1,27 @@
 
+* Demo of New Elisp Package: Master of Ceremonies  :sharing:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=1IQtgfNEE5Q&pp=ygUOZW1hY3MgZWxlbWVudHM%3D
+:DATE:     2024-12-23T05:00:46-08:00
+:SPEAKERS: Positron's Emacs Channel
+:DURATION: 01:00
+:END:
+  Just added this one to MELPA.
+
+  Master of Ceremonies is a new package for Emacs content creators.  It's the companion to Dslide.  I use it in basically every video I make.  Have some buffer text?  Great, now you have video content.  It's that simple.
+
+  It's now really useful for quickly churning out images of buffer text in Emacs.  Its job is to display small excerpts of buffer text, but full frame with zero clutter.  From there, you can highlight, occlude, or remap all the faces to obtain something useful for making videos and other content.  Emacs can natively pump out SVGs, so you can use the outputs in a wide variety of roles.
+
+  The package also has a lot of little gizmos for doing presentation.  It's all written up in the manual, so just install it and run M-x info-display-manaul RET dslide.
+
+  I'll be going over the transient menus pretty soon to talk in-depth about how to use transient to go beyond just keymaps.  We will also discuss what MoC does behind the scenes and get a taste of Emacs display.
+
+  This work is important.  If you can, tag my Github sponsors.  Everyone will be converted over to PrizeForge for our launch:
+  https://github.com/sponsors/positron-solutions
+  The new package:
+  https://github.com/positron-solutions/moc
+
+  #emacs #opensource #programming #vector #shorts
 * Xah Talk Show 2024-12-21 Ep605. Run Code of Python JS Fsharp Etc in Emacs. Are You Based? :python:coding:javascript:fsharp:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=IWyat0bbCss
@@ -2336,6 +2359,192 @@ count-words-region
 
   #Emacs #IDE #Programming #SoftwareDevelopment #GNU #GNUEmacs
 
+* Double Your Productivity With Emacs Org-Mode
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=aiBt8CieE7U&list=PLknodeJt-I5GJmcd7ENakYf_M0x9q50d1&index=16&pp=iAQB
+:DATE:     2024-04-26T09:00:01-07:00
+:SPEAKERS: Gavin Freeborn
+:DURATION: 24:14
+:END:
+  To try everything Brilliant has to offer—free—for a full 30 days, visit https://brilliant.org/GavinFreeborn . You’ll also get 20% off an annual premium subscription.
+
+  This video demos Org-mode as a productivity and time management tool.
+
+  Show Notes: https://gist.github.com/Gavinok/50f804ea5a2856ee52dee1ba02e97cb9
+  Plain Org (IPhone App): https://plainorg.com/
+
+  Let me know what you think and if there is anything specific you would like to learn about.
+
+  ----------------► Wanna Support Me? ◀︎----------------
+  Github:
+      https://www.github.com/sponsors/gavinok
+  Patreon:
+      https://www.patreon.com/gavinfreeborn
+
+  ----------------► Wanna Checkout My Dots? ◀︎----------------
+  Vimrc:
+      https://github.com/Gavinok/dotvim
+  Emacs Config:
+      https://github.com/Gavinok/emacs.d
+  ----------------► Come Join The Community◀︎----------------
+  LBRY:
+      https://odysee.com/@GavinFreeborn:d
+  Discord:
+      https://discord.gg/JJk5KKU
+
+  This video was sponsored by Brilliant
+
+  Timestamps
+  00:00 Start Of Video
+  01:04 What is productivity
+  01:44 Why Org
+  05:13 Example Usecase
+  08:41 Org Agenda
+  10:18 Timestamps are Great
+  12:33 Org Capture
+  16:09 Sharing Your Tasks And Schedule With Other Programs
+  19:29 Notifications
+  21:55 Handling Conflicts
+  22:20 Searching
+  23:18 Conclusion
+
+* Org Tables - From Zero to Hero
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=g43XNwKY1YA&list=PLknodeJt-I5GJmcd7ENakYf_M0x9q50d1&index=15&pp=iAQB
+:DATE:     2024-03-29T09:00:29-07:00
+:SPEAKERS: Gavin Freeborn
+:DURATION: 19:10
+:END:
+  To try everything Brilliant has to offer—free—for a full 30 days, visit https://brilliant.org/GavinFreeborn . You’ll also get 20% off an annual premium subscription.
+
+  This tutorial focuses on Emacs's org-mode's table functionality. Tables on a surface level are simple. However, with the power of org-mode they become a spreadsheet system, time-tracking tool, programming tool, and much more.
+
+  Small correction the reason I used :export both was for use with org export. I should have removed that from the version used in this video.
+
+  One package I recommend checking out is https://github.com/casouri/valign if you work with lots of images and latex fragments. It does a better job at aligning the table in these cases than default emacs does.
+
+  Show notes https://gist.github.com/Gavinok/f5fdb853e62d730be650b5ad413657e5
+
+  Let me know what you think and if there is anything specific you would like to learn about.
+
+  ----------------► Wanna Support Me? ◀︎----------------
+  Github:
+      https://www.github.com/sponsors/gavinok
+  Patreon:
+      https://www.patreon.com/gavinfreeborn
+
+  ----------------► Wanna Checkout My Dots? ◀︎----------------
+  Vimrc:
+      https://github.com/Gavinok/dotvim
+  Emacs Config:
+      https://github.com/Gavinok/emacs.d
+  ----------------► Come Join The Community◀︎----------------
+  LBRY:
+      https://odysee.com/@GavinFreeborn:d
+  Matrix Space:
+      https://matrix.to/#/%23gavinfreeborn:matrix.org
+  Discord:
+      https://discord.gg/JJk5KKU
+
+  This video was sponsored by Brilliant
+
+  TIMESTAMPS
+  0:00 Intro
+  1:50 Creating a table
+  4:56 Generating tables
+  6:11 Calculations
+  7:43 References
+  12:07 Using Tables For Org Babel
+  18:22 Conclusion
+
+* Org Tables Changed My Life
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=o74kz7diOsQ&list=PLknodeJt-I5GJmcd7ENakYf_M0x9q50d1&index=14&pp=iAQB
+:DATE:     2024-03-24T13:29:26-07:00
+:SPEAKERS: Gavin Freeborn
+:DURATION: 19:10
+:END:
+
+
+* Modern Emacs: all those new tools that make Emacs better and faster
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=SOxlQ7ogplA&pp=ygUOZW1hY3MgZWxlbWVudHM%3D
+:DATE:     2024-03-05T16:43:13-08:00
+:SPEAKERS: WestDRI
+:DURATION: 59:18
+:END:
+  Other SFU Research Computing training events: https://training.westdri.ca/blog
+  Training Inquiries: training@westdri.ca
+
+* Learn Emacs Lisp in 30 Minutes
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=1y__2IK-aLM&list=PLknodeJt-I5GJmcd7ENakYf_M0x9q50d1&index=13&pp=iAQB
+:DATE:     2024-02-29T09:00:02-08:00
+:SPEAKERS: Gavin Freeborn
+:DURATION: 30:22
+:END:
+  To try everything Brilliant has to offer—free—for a full 30 days, visit https://brilliant.org/GavinFreeborn/. The first 200 of you will get 20% off Brilliant’s annual premium subscription.
+
+  This tutorial is focused on Learning Emacs Lisp. I did my best to cram as much of the language into this video. While this should be more than enough to get started a few topics are still missing which I will be covering in a future video.
+
+  Let me know what you think and if there is anything specific you would like to learn about.
+
+  Notes From This Video:
+  https://gist.github.com/Gavinok/5780b195c777b5ffa4842eebebdf13f7
+
+  ----------------► Wanna Support Me? ◀︎----------------
+  Github:
+      https://www.github.com/sponsors/gavinok
+  Patreon:
+      https://www.patreon.com/gavinfreeborn
+
+  ----------------► Wanna Checkout My Dots? ◀︎----------------
+  Vimrc:
+      https://github.com/Gavinok/dotvim
+  Emacs Config:
+      https://github.com/Gavinok/emacs.d
+  ----------------► Come Join The Community◀︎----------------
+  LBRY:
+      https://odysee.com/@GavinFreeborn:d
+  Matrix Space:
+      https://matrix.to/#/%23gavinfreeborn:matrix.org
+  Discord:
+      https://discord.gg/JJk5KKU
+
+  This video was sponsored by Brilliant
+
+  00:00 Start Of Video
+  02:53 Common Emacs Terms
+  04:38 Major and Minor modes
+  05:27 Basic Syntax
+  07:03 Basic Types
+  07:51 Quote
+  09:11 Quasiquote
+  10:16 Interactive functions
+  12:17 Keybindings
+  13:09 Keybindings in modern Emacs
+  13:42 Keybindings for specific filetypes
+  15:39 Namespacing
+  16:22 if, when, and unless
+  17:03 Whem & Unless
+  17:38 or and not
+  17:57 progn
+  19:00 Variables
+  19:32 Setting Variables
+  19:56 setopt
+  21:05 Lists
+  22:04 Iteration and Loops
+  22:19 cl-loop
+  22:47 While Loop
+  23:26 Start of unedited clips
+  23:34 dotimes
+  23:55 dolist
+  24:45 Hooks
+  26:20 A practical usecase for hooks
+  26:51 let and temp vars
+  27:58 Other videos you should check out
+  29:22 Conclusion
+
 * Live: Emacs package maintenance ('fontaine', 'spacious-padding', 'ef-themes', 'denote', ...)
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=4Gg9PThHYZI&list=PL8Bwba5vnQK14z96Gil86pLMDO2GnOhQ6&index=5&pp=iAQB
@@ -2402,6 +2611,20 @@ count-words-region
 
   Your support is very much appreciated. Thanks, guys!
 
+* Using Emacs episode 82 - conda and direnv
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=UrJoBaJv5kA&list=PL9KxKa8NpFxIcNQa9js7dQQIHc81b0-Xg&index=83&pp=iAQB
+:DATE:     2024-02-13T07:08:39-08:00
+:SPEAKERS: Mike Zamansky
+:DURATION: 15:20
+:END:
+  Since I'm planning on using Python in the near future, I thought I'd see how things have changed in terms on environment management.
+
+  Conda lends support for anaconda / miniconda - a virtualenv replacement and then some.
+
+  Envrc takes care of direnv support - a way to automatically set up your environment when you change into a directory.
+
+  Matching blog post (which includes configuration file info): https://cestlaz.github.io/posts/using-emacs-82-conda-direnv
 * Emacs: control where buffers are displayed (the 'display-buffer-alist')  :buffers:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?si=o55awR-etgHGz4jr&v=1-UIzYPn38s&feature=youtu.be
@@ -2436,6 +2659,55 @@ count-words-region
 
   Find all my publications on my website (Emacs, philsophy, Linux, etc.): https://protesilaos.com
 
+* M-x Compile: A Deep Dive into Compiling Code with Emacs
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=6oeE52bIFyE&list=PLknodeJt-I5GJmcd7ENakYf_M0x9q50d1&index=12&pp=iAQB
+:DATE:     2024-01-26T07:29:40-08:00
+:SPEAKERS: Gavin Freeborn
+:DURATION: 15:46
+:END:
+  To try everything Brilliant has to offer—free—for a full 30 days, visit http://brilliant.org/GavinFreeborn/. The first 200 of you will get 20% off Brilliant’s annual premium subscription.
+
+  This tutorial is focused on Emacs's Compile package. We can use it to lint, compile, and run our code.
+
+  Let me know what you think and if there is anything specific you would like to learn about.
+
+  Emacs Config:
+      https://github.com/Gavinok/emacs.d
+  ----------------► Come Join The Community◀︎----------------
+  LBRY:
+      https://odysee.com/@GavinFreeborn:d
+  Matrix Space:
+      https://matrix.to/#/%23gavinfreeborn:matrix.org
+  Discord:
+      https://discord.gg/JJk5KKU
+
+  This video was sponsored by Brilliant
+
+  00:00 Start Of Video
+  02:04 Intro To Compile
+  03:14 Compiling Projects
+  03:29 Navigating Compilation Errors
+  04:07 Per File compile-command
+  05:01 Per Major Mode compile-command
+  05:41 Auto Scroll Compile Buffer
+  06:11 Handling Colors & Escape Sequences
+  07:11 Setting Env Variables When Compiling Code
+  07:56 Creating Your Own Filters (optional)
+  13:11 Finding Errors In Shell-mode and VTerm
+  14:42 Conclusion
+
+* Learning Elisp 17 - A Thesaurus mode
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=ZBN4Kphv-ac&list=PL9KxKa8NpFxKGctwh4-BqjQvdSRhh4NV-&index=19&pp=iAQB
+:DATE:     2024-01-25T05:48:39-08:00
+:SPEAKERS: Mike Zamansky
+:DURATION: 16:36
+:END:
+  Matching  blog post:
+
+  https://cestlaz.github.io/post/learning-elisp-17
+
 * Emacs: Denote links to Org headings
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=FlTnPL27VwU
@@ -2450,6 +2722,17 @@ count-words-region
   * * *
 
   Find all my publications on my website (Emacs, philosophy, etc.): https://protesilaos.com
+
+* Learning Elisp 16 - using a web API
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=tGZNhJmZ_2M&list=PL9KxKa8NpFxKGctwh4-BqjQvdSRhh4NV-&index=18&pp=iAQB
+:DATE:     2024-01-16T08:12:26-08:00
+:SPEAKERS: Mike Zamansky
+:DURATION: 21:16
+:END:
+  Matching  blog post:
+
+  https://cestlaz.github.io/post/learning-elisp-16
 
 * Emacs: customize fonts (generic method and 'fontaine' package)
 :PROPERTIES:
@@ -3036,6 +3319,17 @@ count-words-region
 :SPEAKERS:
 :SERIES: EmacsConf 2023
 :END:
+* Learning Elisp 15 - cleaning up our emoji mode
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=Y9TPHo33Y1Y&list=PL9KxKa8NpFxKGctwh4-BqjQvdSRhh4NV-&index=17&pp=iAQB
+:DATE:     2023-11-29T08:59:56-08:00
+:SPEAKERS: Mike Zamansky
+:DURATION: 12:00
+:END:
+  Matching  blog post:
+
+  https://cestlaz.github.io/post/learning-elisp-15
+
 * Emacs: Denote Org dynamic blocks
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=zzXcav0yb50
@@ -3049,6 +3343,28 @@ count-words-region
 
   Find all my publications on my website (Emacs, philosophy, Linux, etc.): https://protesilaos.com
 
+* Learning Elisp 14 - a minor mode
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=YBV9czwq-nw&list=PL9KxKa8NpFxKGctwh4-BqjQvdSRhh4NV-&index=16&pp=iAQB
+:DATE:     2023-11-21T12:00:19-08:00
+:SPEAKERS: Mike Zamansky
+:DURATION: 08:33
+:END:
+  Matching  blog post:
+
+  https://cestlaz.github.io/post/learning-elisp-14
+
+* ⚡Talking about Emacs for 11 minutes - Aidan H
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=n02zSVxQ8Vc&pp=ygUOZW1hY3MgZWxlbWVudHM%3D
+:DATE:     2023-11-19T09:00:09-08:00
+:SPEAKERS: UWCS - University of Warwick Computing Society
+:DURATION: 11:08
+:END:
+  Emacs. Is it just a text editor? No! It's more than that with some fun features you may not know about.
+
+  Talk by Aidan H.
+
 * Emacs: ediff basics
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=pSvsAutseO0
@@ -3061,6 +3377,17 @@ count-words-region
   * * *
 
   Find all my publications on my website (Emacs, philosophy, etc.): https://protesilaos.com
+
+* Learning elisp 13 - emoji replace part 3 - text properties
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=x9eFxYS-hzw&list=PL9KxKa8NpFxKGctwh4-BqjQvdSRhh4NV-&index=15&pp=iAQB
+:DATE:     2023-11-08T08:27:03-08:00
+:SPEAKERS: Mike Zamansky
+:DURATION: 09:13
+:END:
+  Matching  blog post:
+
+  https://cestlaz.github.io/post/learning-elisp-13
 
 * Emacs Makes Moving Words and Lines Super Easy  :editing:
 :PROPERTIES:
@@ -3098,6 +3425,17 @@ count-words-region
   🗒️ Doom Emacs: https://github.com/hlissner/doom-emacs
 
   Your support is very much appreciated. Thanks, guys!
+* Learning elisp 12 - emoji replace part 2 - hooks
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=6h4KngDdsbo&list=PL9KxKa8NpFxKGctwh4-BqjQvdSRhh4NV-&index=14&pp=iAQB
+:DATE:     2023-10-30T10:44:36-07:00
+:SPEAKERS: Mike Zamansky
+:DURATION: 13:47
+:END:
+  Matching blog post:
+
+  https://cestlaz.github.io/post/learning-elisp-12/
+
 * Listen To Internet Radio With Emacs And Eradio
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=P8p3zXSzY4c&list=PL5--8gKSku15uYCnmxWPO17Dq6hVabAB4&index=4&pp=iAQB
@@ -3133,6 +3471,53 @@ count-words-region
   🗒️ Doom Emacs: https://github.com/hlissner/doom-emacs
 
   Your support is very much appreciated. Thanks, guys!
+
+* Learning elisp 11 - Emoji Replace part 1
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=DvFjCVHpoyk&list=PL9KxKa8NpFxKGctwh4-BqjQvdSRhh4NV-&index=13&pp=iAQB
+:DATE:     2023-10-18T14:18:37-07:00
+:SPEAKERS: Mike Zamansky
+:DURATION: 15:33
+:END:
+  Matching blog post:
+
+  https://cestlaz.github.io/post/learning-elisp-11/
+
+* 5 Reasons I Love Emacs Orgmode
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=DEeStDz_imQ&list=PLknodeJt-I5GJmcd7ENakYf_M0x9q50d1&index=11&pp=iAQB
+:DATE:     2023-10-13T08:00:10-07:00
+:SPEAKERS: Gavin Freeborn
+:DURATION: 15:42
+:END:
+  This tutorial is focused on OrgMode. In particular 5 things I love about it
+
+  - Videos on org capture
+    - How I Use org-capture and Stuff - https://www.youtube.com/watch?v=KdcXu_RdKI0
+    - Organize Your Life with Org Mode - https://systemcrafters.net/emacs-from-scratch/organize-your-life-with-org-mode/
+  - Videos about org agenda
+    - Emacs: custom Org agenda - https://www.youtube.com/watch?v=UqtBXrzXPgQ
+
+  Let me know what you think and if there is anything specific you would like to learn about.
+
+  ----------------► Wanna Support Me? ◀︎----------------
+  Github:
+      https://www.github.com/sponsors/gavinok
+  Patreon:
+      https://www.patreon.com/gavinfreeborn
+
+  ----------------► Wanna Checkout My Dots? ◀︎----------------
+  Vimrc:
+      https://github.com/Gavinok/dotvim
+  Emacs Config:
+      https://github.com/Gavinok/emacs.d
+  ----------------► Come Join The Community◀︎----------------
+  LBRY:
+      https://odysee.com/@GavinFreeborn:d
+  Matrix Space:
+      https://matrix.to/#/%23gavinfreeborn:matrix.org
+  Discord:
+      https://discord.gg/JJk5KKU
 
 * Emacs: new Denote developments (version 2.1.0-dev)
 :PROPERTIES:
@@ -3212,6 +3597,16 @@ count-words-region
   - Mailing list: https://lists.sr.ht/~protesilaos/denote
   - Video demo: https://protesilaos.com/codelog/2022-06-18-denote-demo/
   - Backronyms: Denote Everything Neatly; Omit The Excesses.  Don't Ever Note Only The Epiphenomenal.
+
+* Learning elisp 10 -built in data structures
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=oszVyBvxmzg&list=PL9KxKa8NpFxKGctwh4-BqjQvdSRhh4NV-&index=12&pp=iAQB
+:DATE:     2023-09-18T16:36:29-07:00
+:SPEAKERS: Mike Zamansky
+:DURATION: 16:06
+:END:
+  Matching blog post:
+  https://cestlaz.github.io/post/learning-elisp-10
 
 * An Emacs "Killer Feature" Is Bulk Renaming
 :PROPERTIES:
@@ -3296,6 +3691,27 @@ count-words-region
 
   Your support is very much appreciated. Thanks, guys!
 
+* Learning elisp part 9 - regex conclusion
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=DqHuCePi2FA&list=PL9KxKa8NpFxKGctwh4-BqjQvdSRhh4NV-&index=11&pp=iAQB
+:DATE:     2023-08-30T03:51:55-07:00
+:SPEAKERS: Mike Zamansky
+:DURATION: 24:20
+:END:
+  Blog post:
+
+  https://cestlaz.github.io/post/learning-elisp-9
+
+* Learning elisp 8 - regex part 2
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=2hbX4h4ZdAc&list=PL9KxKa8NpFxKGctwh4-BqjQvdSRhh4NV-&index=10&pp=iAQB
+:DATE:     2023-08-23T04:25:29-07:00
+:SPEAKERS: Mike Zamansky
+:DURATION: 19:53
+:END:
+  Matching blog post:
+  https://cestlaz.github.io/post/learning-elisp-8
+
 * Simple, Non-Commercial, Open Source Notes :org:writing:comparison:OrgRoam:DoomEmacs:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=XRpHIa-2XCE
@@ -3360,6 +3776,39 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
 
   Your support is very much appreciated. Thanks, guys!
 
+* Learning Elisp Part 7 - Regular Expressions
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=-kyJLcsiH_4&list=PL9KxKa8NpFxKGctwh4-BqjQvdSRhh4NV-&index=9&pp=iAQB
+:DATE:     2023-08-15T14:54:19-07:00
+:SPEAKERS: Mike Zamansky
+:DURATION: 29:12
+:END:
+  Matching blog post:
+
+  https://cestlaz.github.io/post/learning-elisp-7
+
+* Learning Elisp part 6 - rot13 5 - rotating the region
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=YzQ8iG3nZQ8&list=PL9KxKa8NpFxKGctwh4-BqjQvdSRhh4NV-&index=8&pp=iAQB
+:DATE:     2023-08-07T09:54:30-07:00
+:SPEAKERS: Mike Zamansky
+:DURATION: 11:22
+:END:
+  Matching blog post:
+
+  https://cestlaz.github.io/post/learning-elisp-5
+
+* Learning Elisp 6 - rot13 part 4 - Prefix Arguments
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=5oHpxh0JsBE&list=PL9KxKa8NpFxKGctwh4-BqjQvdSRhh4NV-&index=7&pp=iAQB
+:DATE:     2023-08-07T09:54:23-07:00
+:SPEAKERS: Mike Zamansky
+:DURATION: 09:05
+:END:
+  Matching blog post:
+
+  https://cestlaz.github.io/post/learning-elisp-6
+
 * Emacs: contribute to GNU Emacs core
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=xvBJv1ea-i4&list=PL8Bwba5vnQK14z96Gil86pLMDO2GnOhQ6&index=19&pp=iAQB
@@ -3368,6 +3817,28 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
 :DURATION: 21:42
 :END:
   Steps to follow if you want to contribute to emacs.git (core GNU Emacs project).  Find all my Emacs packages on my website: https://protesilaos.com/emacs
+
+* Learning Elisp 5 - Rot13 part 3 - interactive functions
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=WvPXnsNC8JU&list=PL9KxKa8NpFxKGctwh4-BqjQvdSRhh4NV-&index=6&pp=iAQB
+:DATE:     2023-08-01T08:03:40-07:00
+:SPEAKERS: Mike Zamansky
+:DURATION: 12:55
+:END:
+  Matching blog post:
+
+  https://cestlaz.github.io/post/learning-elisp-5
+
+* Learning Elisp 5 - rot13 part 2 - conditionals
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=gT8RBdtZtfk&list=PL9KxKa8NpFxKGctwh4-BqjQvdSRhh4NV-&index=5&pp=iAQB
+:DATE:     2023-08-01T08:03:36-07:00
+:SPEAKERS: Mike Zamansky
+:DURATION: 14:04
+:END:
+  Matching blog post:
+
+  https://cestlaz.github.io/post/learning-elisp-5
 
 * Dired, Neotree and True Transparency - Configuring Emacs 05
 :PROPERTIES:
@@ -3419,6 +3890,45 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
 :END:
   In this video I show how to customise the Emacs mode line (the `mode-line-format`) to make it more useful and pretty.  The code I used, as well as links to my actual code, are on my website: https://protesilaos.com/codelog/2023-07-29-emacs-custom-modeline-tutorial/
 
+* Learning Elisp  4 - Rot13 part 1
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=_3OvTrkSqEE&list=PL9KxKa8NpFxKGctwh4-BqjQvdSRhh4NV-&index=4&pp=iAQB
+:DATE:     2023-07-25T13:07:31-07:00
+:SPEAKERS: Mike Zamansky
+:DURATION: 34:12
+:END:
+  Matching Blog Post:
+
+  https://cestlaz.github.io/post/learning-elisp-4
+
+  To skip my internet history rant and get to the elisp part:
+
+  00:00 -  Start
+  09:28  - Start of internethistory and rot13 rant
+  18:27 -  Post Rant
+
+* Learning Elisp 3 - Functions
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=v3wdkJa87No&list=PL9KxKa8NpFxKGctwh4-BqjQvdSRhh4NV-&index=3&pp=iAQB
+:DATE:     2023-07-14T08:46:24-07:00
+:SPEAKERS: Mike Zamansky
+:DURATION: 12:36
+:END:
+  Matching Blog Post:
+
+  https://cestlaz.github.io/post/learning-elisp-3
+
+* Learning Elisp -2 - Variables
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=eQNqIsyw1mo&list=PL9KxKa8NpFxKGctwh4-BqjQvdSRhh4NV-&index=2&pp=iAQB
+:DATE:     2023-07-13T09:01:01-07:00
+:SPEAKERS: Mike Zamansky
+:DURATION: 11:59
+:END:
+  Matching blog post:
+
+  https://cestlaz.github.io/post/learning-elisp-2
+
 * App Launchers, Dashboard & Language Support - Configuring Emacs 04
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=GUIq7ZJoEGY&list=PL5--8gKSku15e8lXf7aLICFmAHQVo0KXX&index=4&pp=iAQB
@@ -3462,6 +3972,17 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
   🗒️ Doom Emacs: https://github.com/hlissner/doom-emacs
 
   Your support is very much appreciated. Thanks, guys!
+
+* Learning Elisp - 1 - intro
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=x9Qws7ZOksc&list=PL9KxKa8NpFxKGctwh4-BqjQvdSRhh4NV-&index=1&pp=iAQB
+:DATE:     2023-07-06T07:27:45-07:00
+:SPEAKERS: Mike Zamansky
+:DURATION: 19:49
+:END:
+  This video is the first in a series that will introduce you to basic Elisp programming for Emacs.
+
+  I'll be writing matching posts on my blog at http://cestlaz.github.io
 
 * Emacs: mark and register basics
 :PROPERTIES:
@@ -3550,6 +4071,30 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
 
   Your support is very much appreciated. Thanks, guys!
 
+* Emacs From Scratch, An Emacs tutorial for beginners – 14 Editing Modes, Part 2
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=tAa-r_fZW5Y&list=PLlONLmJCfHToFfk1WgTOwZMfIr062jIN9&index=14&pp=iAQB
+:DATE:     2023-06-12T03:07:03-07:00
+:SPEAKERS: lxsameer
+:DURATION: 57:00
+:END:
+  Learn #Emacs from scratch. In this Emacs #tutorial, I'll discuss one of the most  fundamental concepts in #Elisp, Editing Modes. No matter what you are planning to do in Emacs, eventually, you will come across #major modes and #minor modes. In this episode, we create a simple minor mode, and learn more about #hooks, #keymaps, and interactive functions.
+
+  If you're interested in what I'm doing or this video series and like to see them continue, please consider supporting me via https://www.buymeacoffee.com/lxsameer
+
+  website: https://fg42.org
+  Repository: https://devheroes.codes/FG42/FG42
+  Branch: https://devheroes.codes/FG42/FG42/src/branch/ep14
+  Slides: https://devheroes.codes/FG42/FG42/src/branch/ep14/docs/videos.org#user-content-headline-96
+
+
+  00:00 Introduction
+  01:58 Minor mode
+  09:41 Interactive functions
+  22:12 Hooks
+  33:04 Keymaps
+  42:06 Buffer local minor mode
+
 * emacs in Tamil part2
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=yFXF-oEAEww
@@ -3560,6 +4105,20 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
   emacs in Tamil part2
   #emacs #emacsintamil #kanchilug
 
+* Emacs Eglot  :dev:eglot:coding:completion:lsp:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=Czcnl-d34Mg&pp=ygUOZW1hY3MgZWxlbWVudHM%3D
+:DATE:     2023-06-11T07:45:00-07:00
+:SPEAKERS: Tim Unkert Net
+:DURATION: 05:47
+:END:
+  In this video, I discuss Emacs' Eglot package, a language server protocol package for Emacs. With Eglot you can easily set up LSP for your language of choice. I demonstrate this with the Dart programming language showing you how to install and set up Eglot, then how to use Eglot to jump to definition, to find all references of a function, and how to rename all occurrences of a function throughout the document. I show you all "completion at point", which gives you all possible completions for an object in your programming language of choice.
+
+  To check out a blog post on this topic please visit:
+  https://timunkert.net/eglot.html
+
+  And to check out a website with a lot of other great Emacs information please visit:
+  https://timunkert.net/index.html
 * Fixing Some Major Bugs And Minor Annoyances - Configuring Emacs 02
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=4ZH9pobulDo&list=PL5--8gKSku15e8lXf7aLICFmAHQVo0KXX&index=2&pp=iAQB
@@ -14600,6 +15159,52 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
   Theme inspiration: Leonardo Tamiano's emacs,
   check his youtube channel for great computer science content.
 
+* Unleash The REPL With Sly
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=0DLdQ6yb7h8&list=PLknodeJt-I5GJmcd7ENakYf_M0x9q50d1&index=5&pp=iAQB
+:DATE:     2022-04-30T08:11:10-07:00
+:SPEAKERS: Gavin Freeborn
+:DURATION: 14:44
+:END:
+  This tutorial is focused on Sly a Common Lisp REPL for emacs It offers code completion, debugging, and muchThis tutorial is focused on Sly a Common Lisp REPL for emacs It offers code completion, debugging, and much more.
+
+  Sly's Github Page:
+      https://github.com/joaotavora/sly
+
+  Let me know what you think and if there is anything specific you would like to learn about.
+
+  ----------------► Wanna Support Me? ◀︎----------------
+  Github:
+      https://www.github.com/sponsors/gavinok
+  Patreon:
+      https://www.patreon.com/gavinfreeborn
+
+  ----------------► Wanna Checkout My Dots? ◀︎----------------
+  Vimrc:
+      https://github.com/Gavinok/dotvim
+  Emacs Config:
+      https://github.com/Gavinok/emacs.d
+  ----------------► Come Join The Community◀︎----------------
+  LBRY:
+      https://open.lbry.com/@GavinFreeborn:d?r=FVxxdjxLmbpPS5K4EdMsLjBjkxv9eEGs
+  Matrix Space:
+      https://matrix.to/#/%23gavinfreeborn:matrix.org
+  Discord:
+      https://discord.gg/JJk5KKU
+
+  ⏱️TIMESTAMPS⏱️
+  00:00 Intro
+  00:00:55 Sly vs Slime
+  00:01:53 Installation
+  00:02:43 Starting Sly
+  00:03:30 Evaluating And Compiling CL
+  00:06:39 Code Completion
+  00:07:16 Installing Company
+  00:08:01 Stickers (for debugging)
+  00:10:19 Break Points
+  00:11:35 The Inspector
+  00:14:00 Outro
+
 * real reason emacs is superior (sagemath+latex+org)
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=cd4_O3TqArs
@@ -14706,6 +15311,41 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
   Vimeo: https://vimeo.com/unixbhaskar
 
   Goodreads: https://goodreads.com/unixbhaskar
+
+* LEM - What If Emacs Was Multithreaded
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=Ph8M8ThBgPc&list=PLknodeJt-I5GJmcd7ENakYf_M0x9q50d1&index=4&pp=iAQB
+:DATE:     2022-04-23T09:04:11-07:00
+:SPEAKERS: Gavin Freeborn
+:DURATION: 14:31
+:END:
+  This tutorial is focused on the LEM an Emacs like editor written in Common Lisp.
+
+  LEM project:
+      https://github.com/lem-project/lem
+  My LEM config:
+     https://github.com/Gavinok/.lem
+
+  Let me know what you think and if there is anything specific you would like to learn about.
+
+  ----------------► Wanna Support Me? ◀︎----------------
+  Github:
+      https://www.github.com/sponsors/gavinok
+  Patreon:
+      https://www.patreon.com/gavinfreeborn
+
+  ----------------► Wanna Checkout My Dots? ◀︎----------------
+  Vimrc:
+      https://github.com/Gavinok/dotvim
+  Emacs Config:
+      https://github.com/Gavinok/emacs.d
+  ----------------► Come Join The Community◀︎----------------
+  LBRY:
+      https://open.lbry.com/@GavinFreeborn:d?r=FVxxdjxLmbpPS5K4EdMsLjBjkxv9eEGs
+  Matrix Space:
+      https://matrix.to/#/%23gavinfreeborn:matrix.org
+  Discord:
+      https://discord.gg/JJk5KKU
 
 * Org-mode - Hide red rectangles from toc                               :org:
 :PROPERTIES:
@@ -15015,6 +15655,28 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
   🗒️ Doom Emacs: https://github.com/hlissner/doom-emacs
 
   Your support is very much appreciated. Thanks, guys!
+
+* Emacs From Scratch, An Emacs Tutorial for Beginners - 05 Lists
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=C7KRx4MHjGU&list=PLlONLmJCfHToFfk1WgTOwZMfIr062jIN9&index=5&pp=iAQB
+:DATE:     2022-04-13T07:23:46-07:00
+:SPEAKERS: lxsameer
+:DURATION: 24:32
+:END:
+  Learn #Emacs from scratch. In this Emacs #tutorial, I talk about the heart of #Lisp, lists.
+  They are so important in #elisp that you are going to use them ALL the time.
+
+  If you're interested in what I'm doing or this video series and like to see them continue please consider to support me via https://www.buymeacoffee.com/lxsameer
+
+  website: https://fg42.org
+  Repository: https://devheroes.codes/FG42/FG42
+  Branch: https://devheroes.codes/FG42/FG42/src/branch/ep5
+  Slides: https://devheroes.codes/FG42/FG42/src/branch/ep5/docs/videos.org#headline-32
+
+  00:00 Introduction
+  00:45 What is a list?
+  01:32 Cons cells
+  11:13 Some useful functions
 
 * Org-mode - Copy paste screenshots                                     :org:
 :PROPERTIES:
@@ -15463,6 +16125,29 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
   I am a guy from UP bareilly India. Who love Computers/Linux/Programming.
   I enjoy making Tech videos.
   Please subscribe to my channel.
+
+* Emacs From Scratch, An Emacs Tutorial for Beginners - 04 Conditionals
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=NE1XUfrrGYI&list=PLlONLmJCfHToFfk1WgTOwZMfIr062jIN9&index=4&pp=iAQB
+:DATE:     2022-03-14T12:43:24-07:00
+:SPEAKERS: lxsameer
+:DURATION: 49:34
+:END:
+  Learn #Emacs from scratch. In this Emacs #tutorial I explain conditionals in #elisp. For example "if" and "cond" forms and other useful expressions like "let" and "progn". If you are a beginner make sure to watch this episode.
+
+  If you're interested in what I'm doing or this video series and like to see them continue please consider to support me via https://www.buymeacoffee.com/lxsameer
+
+  website: https://fg42.org
+  Repository: https://devheroes.codes/FG42/FG42
+  Branch: https://devheroes.codes/FG42/FG42/src/branch/ep4
+  Slides: https://devheroes.codes/FG42/FG42/src/branch/ep4/docs/videos.org#headline-24
+
+  00:00 Introduction
+  00:40 What is true?
+  03:06 Conditional special form
+  14:18 let form
+  21:17 progn form
+  40:46 Type predicates
 
 * Emacs: pulsar.el demo (blink highlight line)
 :PROPERTIES:
@@ -18217,7 +18902,7 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
 
   Your support is very much appreciated. Thanks, guys!
 
-* Shell History Navigation in Emacs Mode
+* Shell History Navigation in Emacs Mode  :shell:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=3_uAlcymu1A
 :DATE:     2022-01-07T05:45:10-08:00
@@ -20658,6 +21343,15 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 
   This enhancements can be found at https://github.com/jkitchin/scimax/blob/master/scimax-ivy.el
 
+* Using Emacs Episode 80 - Vertico, Marginalia, Consult, and Embark
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=5ffb2at2d7w&list=PL9KxKa8NpFxIcNQa9js7dQQIHc81b0-Xg&index=81&pp=iAQB
+:DATE:     2021-10-25T15:17:41-07:00
+:SPEAKERS: Mike Zamansky
+:DURATION: 25:09
+:END:
+  Blog: http://cestlaz.github.io/post/using-emacs-80-vertico
+
 * Emacs: Updating init.el for Typescript React
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=FIW31ivaxjg
@@ -21128,6 +21822,15 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
   ukeSounds by airtone, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/airtone/32655
   Between Worlds (Instrumental) by Aussens@iter, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/tobias_weber/56664
 
+* Using Emacs Episode 79 - project
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=UagDCTjcifY&list=PL9KxKa8NpFxIcNQa9js7dQQIHc81b0-Xg&index=80&pp=iAQB
+:DATE:     2021-10-12T06:27:08-07:00
+:SPEAKERS: Mike Zamansky
+:DURATION: 11:40
+:END:
+  Blog post: http://cestlaz.github.io/post/using-emacs-79-poject
+
 * Live de Segunda #98 - Conhecendo o Emacs! (se o Facebook não cair)
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=YgwFlk9aY9I
@@ -21165,6 +21868,15 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
   * PicPay: https://app.picpay.com/user/blauaraujo
   * Chave PIX: e26a05db-d200-4261-aa65-c6ac3dc2dd0f
   * Apoia.se (apoio regular mensal): https://apoia.se/debxpcursos
+
+* Using Emacs Episode 78 - a grading workflow
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=7HLVcQi8GGk&list=PL9KxKa8NpFxIcNQa9js7dQQIHc81b0-Xg&index=79&pp=iAQB
+:DATE:     2021-10-10T08:30:45-07:00
+:SPEAKERS: Mike Zamansky
+:DURATION: 18:40
+:END:
+
 
 * Spell-checking in scimax  :writing:spelling:
 :PROPERTIES:
@@ -27747,6 +28459,20 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
   EmacsConf2020 talk page (includes Q&A): https://emacsconf.org/2020/talks/34/
   EAF repo: https://github.com/emacs-eaf/emacs-application-framework
 
+* Using Emacs 77 - Clojure Demo and Advent of Code
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=ecJ1TJGWrfs&list=PL9KxKa8NpFxIcNQa9js7dQQIHc81b0-Xg&index=78&pp=iAQB
+:DATE:     2020-12-03T14:14:42-08:00
+:SPEAKERS: Mike Zamansky
+:DURATION: 37:56
+:END:
+  Blog post: https://cestlaz.github.io/post/advent-2020-day03/
+
+  Series page: http://cestlaz.github.io/stories/emacs
+
+
+  Emacs config: https://github.com/zamansky/dot-emacs
+
 * OneBlog from emacs - Next.js, GitHub, and Real-time, and magit      :magit:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=VVOd1yOKVqQ
@@ -28275,6 +29001,21 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 
   Proof of concept implemented on top of emacsbridge, and will be pushed there soon: https://github.com/aardsoft/emacsbridge
 
+* Using Emacs 76 - Bookmarks and Burly
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=JVFnaQVNEE0&list=PL9KxKa8NpFxIcNQa9js7dQQIHc81b0-Xg&index=77&pp=iAQB
+:DATE:     2020-10-23T10:44:29-07:00
+:SPEAKERS: Mike Zamansky
+:DURATION: 17:32
+:END:
+  Blog post: https://cestlaz.github.io/post/using-emacs-76-bookmarks-burly
+
+
+  Series page: http://cestlaz.github.io/stories/emacs
+
+
+  Emacs config: https://github.com/zamansky/dot-emacs
+
 * Org-transclusion (alpha v0.0.3) Demo #3                               :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=KxDrE3spAL8&feature=youtu.be
@@ -28683,6 +29424,20 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
   - Medium: https://medium.com/@lexfridman
   - Support on Patreon: https://www.patreon.com/lexfridman
 
+* Using Emacs 75 - bufler
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=KqvjeRf84do&list=PL9KxKa8NpFxIcNQa9js7dQQIHc81b0-Xg&index=76&pp=iAQB
+:DATE:     2020-09-22T10:38:08-07:00
+:SPEAKERS: Mike Zamansky
+:DURATION: 10:02
+:END:
+  Blog post: http://cestlaz.github.io/post/using-emacs-75-bufler.
+
+  Series page: http://cestlaz.github.io/stories/emacs
+
+
+  Emacs config: https://github.com/zamansky/dot-emacs
+
 * Building reproducible Emacs
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=2_e3kPJQ93s
@@ -29080,6 +29835,20 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 :DURATION: 11:09
 :END:
   See how some of the tools we've been working on at Tweag can help you with your Python development and deployment workflows. Steve Purcell shows you how to use Poetry to manage the dependencies of a Python program, and then easily add in some Nix tools that make builds and deployment easy. Read our recent blog post on the topic: https://www.tweag.io/blog/2020-08-12-poetry2nix/
+
+* Using Emacs 74 - Eglot
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=ROnceqt3kpE&list=PL9KxKa8NpFxIcNQa9js7dQQIHc81b0-Xg&index=75&pp=iAQB
+:DATE:     2020-08-31T10:41:13-07:00
+:SPEAKERS: Mike Zamansky
+:DURATION: 17:35
+:END:
+  Blog post: http://cestlaz.github.io/post/using-emacs-74-eglot
+
+  Series page: http://cestlaz.github.io/stories/emacs
+
+
+  Emacs config: https://github.com/zamansky/dot-emacs
 
 * Intermediate Emacs: Extending & Creating Helm Sources
 :PROPERTIES:
@@ -30196,6 +30965,21 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 :END:
   Emacs being Emacs.
 
+* Using Emacs 72 - customizing elfeed
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=G1NGNR40lB4&list=PL9KxKa8NpFxIcNQa9js7dQQIHc81b0-Xg&index=73&pp=iAQB
+:DATE:     2020-05-21T13:49:42-07:00
+:SPEAKERS: Mike Zamansky
+:DURATION: 12:13
+:END:
+  Blog post: http://cestlaz.github.io/post/using-emacs-72-customizing-elfeed
+
+
+  Series page: http://cestlaz.github.io/stories/emacs
+
+
+  Emacs config: https://github.com/zamansky/dot-emacs
+
 * Bringing GNU Emacs to native code
 :PROPERTIES:
 :YOUTUBE_URL: https://youtu.be/zKHYZOAc_bQ
@@ -30285,6 +31069,21 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
   https://www.ianjones.us/blog/2020-05-05-doom-emacs
 
    It assumes you have little experience with emacs and you want to use emacs doom project on MacOS.
+
+* Using Emacs 71 - openwith
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=_qjJ5UzInRI&list=PL9KxKa8NpFxIcNQa9js7dQQIHc81b0-Xg&index=72&pp=iAQB
+:DATE:     2020-05-13T08:57:05-07:00
+:SPEAKERS: Mike Zamansky
+:DURATION: 14:00
+:END:
+  Blog post: http://cestlaz.github.io/post/using-emacs-71-openwith
+
+
+  Series page: http://cestlaz.github.io/stories/emacs
+
+
+  Emacs config: https://github.com/zamansky/dot-emacs
 
 * Org-roam-bibtex - Quick Presentation                          :org:OrgRoam:
 :PROPERTIES:
@@ -30684,6 +31483,20 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 :END:
   Demo of the main features of VC, the version control framework that is built into Emacs. /// My dotemacs: https://protesilaos.com/dotemacs
 
+* Using Emacs Episode 70
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=FYKcVKg0OCU&list=PL9KxKa8NpFxIcNQa9js7dQQIHc81b0-Xg&index=71&pp=iAQB
+:DATE:     2020-03-27T12:36:47-07:00
+:SPEAKERS: Mike Zamansky
+:DURATION: 11:40
+:END:
+  Blog post: http://cestlaz.github.io/post/using-emacs-70-org-protocol
+
+  Series page: http://cestlaz.github.io/stories/emacs
+
+
+  Emacs config: https://github.com/zamansky/dot-emacs
+
 * Friendship With Emacs Is Over, Vim Is My Best Friend
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=NNo2HWM3iPA&list=PL5--8gKSku15uYCnmxWPO17Dq6hVabAB4&index=48&pp=iAQB
@@ -30759,6 +31572,19 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 
   And if interested in supporting me, sign up for my patreon at https://patreon.com/technovangelist
 
+* Using Emacs 69 - Floobits
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=-0x4PV1EB5w&list=PL9KxKa8NpFxIcNQa9js7dQQIHc81b0-Xg&index=70&pp=iAQB
+:DATE:     2020-03-21T08:00:22-07:00
+:SPEAKERS: Mike Zamansky
+:DURATION: 15:44
+:END:
+  Blog post: http://cestlaz.github.io/post/using-e.macs-69-floobits..
+
+  Series page: http://cestlaz.github.io/stories/emacs
+
+  Emacs config: https://github.com/zamansky/dot-emacs
+
 * Spacemacs--Zetteldeft Intro (For Taking Bible Notes)
 :PROPERTIES:
 :YOUTUBE_URL: https://youtu.be/H-TVhVslTuo
@@ -30796,6 +31622,19 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 
   Follow on LBRY: https://lbry.tv/@lukewh:3
   Join LBRY: https://lbry.tv/$/invite/@lukewh:3 (I get 20LBC if you do this)
+
+* Using Emacs 68 - Tramp and org-publish
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=tlCOsigPjk8&list=PL9KxKa8NpFxIcNQa9js7dQQIHc81b0-Xg&index=69&pp=iAQB
+:DATE:     2020-03-15T13:53:25-07:00
+:SPEAKERS: Mike Zamansky
+:DURATION: 16:21
+:END:
+  Blog post: http://cestlaz.github.io/post/using-emacs-68-tramp-org-publish
+
+  Series page: http://cestlaz.github.io/stories/emacs
+
+  Emacs config: https://github.com/zamansky/dot-emacs
 
 * Emacs: edit keyboard macros
 :PROPERTIES:
@@ -30979,6 +31818,19 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 :END:
   شماره ششم  از سری سکرین کست های ایمکس.
 
+* Using Emacs Episode 67 - An Emacs vs Vim rant
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=0M6erlK57go&list=PL9KxKa8NpFxIcNQa9js7dQQIHc81b0-Xg&index=68&pp=iAQB
+:DATE:     2020-02-23T05:05:24-08:00
+:SPEAKERS: Mike Zamansky
+:DURATION: 35:20
+:END:
+  Blog post: http://cestlaz.github.io/post/using-emacs-67-emacs-rant.org
+
+  Series page: http://cestlaz.github.io/stories/emacs
+
+  Emacs config: https://github.com/zamansky/dot-emacs
+
 * Emacs - 11 - Clean configs with org-mode                              :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://youtu.be/mFsbpS5R6PI
@@ -31107,6 +31959,20 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
   How to Do 90% of What Plugins Do (With Just Vim): https://www.youtube.com/watch?v=XA2WjJbmmoM
   Org-Mode google talk: https://www.youtube.com/watch?v=oJTwQvgfgMM
   Mastering The Vim Language: https://www.youtube.com/watch?v=wlR5gYd6um0
+
+* Using Emacs Episode 66 - Switching Eshell buffers in Elisp
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=-dIjFZBDt64&list=PL9KxKa8NpFxIcNQa9js7dQQIHc81b0-Xg&index=67&pp=iAQB
+:DATE:     2020-02-08T05:21:25-08:00
+:SPEAKERS: Mike Zamansky
+:DURATION: 23:43
+:END:
+  Blog post: http://cestlaz.github.io/post/using-eshell-elisp
+
+
+  Series page: http://cestlaz.github.io/stories/emacs
+
+  Emacs config: https://github.com/zamansky/dot-emacs
 
 * Vim Versus Emacs. Which Is Better?
 :PROPERTIES:
@@ -31345,6 +32211,19 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
   Adam Schwartz is a Software Engineer at Diagnotes and a recent graduate from Earlham College, where he studied ceramics, philosophy, and computer
   science.
 
+* Using Emacs Episode 64 - notmuch
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=GlrsoIwJ-UM&list=PL9KxKa8NpFxIcNQa9js7dQQIHc81b0-Xg&index=65&pp=iAQB
+:DATE:     2020-01-18T09:46:24-08:00
+:SPEAKERS: Mike Zamansky
+:DURATION: 19:41
+:END:
+  Blog post: http://cestlaz.github.io/post/using-emacs-64-notmuch
+
+  Series page: http://cestlaz.github.io/stories/emacs
+
+  Emacs config: https://github.com/zamansky/dot-emacs
+
 * Clojurescript with Shadow-cljs, Reagent, and Emacs (CIDER) , and Tailwind - reusable components.
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=_CTTbC6owS0
@@ -31390,6 +32269,23 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
   ;; Install company for inline completion with dropdown
           (require 'company)
           (global-company-mode)
+
+* Using Emacs 63 - ClojureScript
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=BZNJi5pP8fU&list=PL9KxKa8NpFxIcNQa9js7dQQIHc81b0-Xg&index=64&pp=iAQB
+:DATE:     2020-01-09T05:29:10-08:00
+:SPEAKERS: Mike Zamansky
+:DURATION: 33:42
+:END:
+  This is more a tutorial about ClojureScript than Emacs but does show how I use Emacs for ClojureScript development.
+
+
+
+  Blog post: http://cestlaz.github.io/post/using-emacs-63-clojurescript...
+
+  Series page: http://cestlaz.github.io/stories/emacs
+
+  Emacs config: https://github.com/zamansky/dot-emacs
 
 * Emacs: window rules and parameters (`display-buffer-alist' and extras)
 :PROPERTIES:
@@ -31787,6 +32683,19 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 :END:
   better-defaults. Exactly what the package does. If you don't have time to watch this video, check out the README at https://github.com/technomancy/better-defaults
 
+* Using Emacs 62 - Magit Forge
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=wgI8r3Nx_BI&list=PL9KxKa8NpFxIcNQa9js7dQQIHc81b0-Xg&index=63&pp=iAQB
+:DATE:     2019-11-19T09:39:58-08:00
+:SPEAKERS: Mike Zamansky
+:DURATION: 17:53
+:END:
+  Blog post: http://cestlaz.github.io/post/using-emacs-62-magit-forge
+
+  Series page: http://cestlaz.github.io/stories/emacs
+
+  Emacs config: https://github.com/zamansky/dot-emacs
+
 * Emacs: store music playlists (Dired+Bongo)
 :PROPERTIES:
 :YOUTUBE_URL: https://youtu.be/-qo2Ai3pZRk
@@ -31828,6 +32737,19 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 :DURATION: 08:37
 :END:
   In this demo I show how to use the built-in file manager of Emacs (Dired) to change the file permissions of multiple items at once. I also offer a primer on the numbers you must pass to the `chmod' command (I know this works on Linux, not sure about other operating systems). /// And here is my dotemacs, if you are interested: https://protesilaos.com/dotemacs
+
+* Using Emacs Episode 61 - org-msg
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=cPZe0AGOUJU&list=PL9KxKa8NpFxIcNQa9js7dQQIHc81b0-Xg&index=62&pp=iAQB
+:DATE:     2019-11-16T05:12:38-08:00
+:SPEAKERS: Mike Zamansky
+:DURATION: 14:53
+:END:
+  Blog post: http://cestlaz.github.io/post/using-emacs-61-org-msg
+
+  Series page: http://cestlaz.github.io/stories/emacs
+
+  Emacs config: https://github.com/zamansky/dot-emacs
 
 * Emacs music management with Bongo and Dired
 :PROPERTIES:
@@ -32015,6 +32937,21 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 :END:
 
 
+* Using Emacs Episode 60 - Restclient
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=L7Jcoe3oHTs&list=PL9KxKa8NpFxIcNQa9js7dQQIHc81b0-Xg&index=61&pp=iAQB
+:DATE:     2019-10-25T14:18:49-07:00
+:SPEAKERS: Mike Zamansky
+:DURATION: 14:36
+:END:
+  Using Emacs Episode 60 - Restclient
+
+  Blog post: http://cestlaz.github.io/post/using-emacs-60-restclient
+
+  Series page: http://cestlaz.github.io/stories/emacs
+
+  Emacs config: https://github.com/zamansky/dot-emacs
+
 * Introduction to "organice"  - Using Org mode from the browser and smartphone :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=aQKc0hcFXCk&feature=youtu.be
@@ -32056,6 +32993,21 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 :DURATION: 16:37
 :END:
   Just me talking about the importance of good documentation and how Emacs is the embodiment of the GNU world-view. /// Though not related to this video, here is my "dotemacs", in case you are interested: https://protesilaos.com/dotemacs
+
+* Using Emacs 59 - Markdown
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=IlhkYmUU-ns&list=PL9KxKa8NpFxIcNQa9js7dQQIHc81b0-Xg&index=60&pp=iAQB
+:DATE:     2019-10-18T12:40:47-07:00
+:SPEAKERS: Mike Zamansky
+:DURATION: 11:48
+:END:
+  Using Emacs Episode 59-markdown
+
+  Blog post: http://cestlaz.github.io/post/using-emacs-59-markdown
+
+  Series page: http://cestlaz.github.io/stories/emacs
+
+  Emacs config: https://github.com/zamansky/dot-emacs
 
 * Lightning talk: Commanding Emacs from Coq
 :PROPERTIES:
@@ -33454,6 +34406,21 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 :END:
   I have to make some clarifications on last weeks video ;-)
 
+* Using Emacs Episode 57 - dired-narrow
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=pZzDayi5lRo&list=PL9KxKa8NpFxIcNQa9js7dQQIHc81b0-Xg&index=58&pp=iAQB
+:DATE:     2019-04-07T09:20:17-07:00
+:SPEAKERS: Mike Zamansky
+:DURATION: 07:54
+:END:
+  Using Emacs Episode 57 - dired-narrow
+
+  Blog post: http://cestlaz.github.io/post/using-emacs-57-dired-narrow
+
+  Series page: http://cestlaz.github.io/stories/emacs
+
+  Emacs config: https://github.com/zamansky/using-emacs
+
 * Orgmode TV - News about the future plans
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=NqPhz8aqk2U&feature=youtu.be
@@ -33779,6 +34746,21 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 :END:
   This is part 1 of a lecture given at Virgo University in Galicia going over everything you need to know about Emacs.. Enjoy
 
+* Using Emacs episode 56 - dictionaries
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=Jtgulzjq7hk&list=PL9KxKa8NpFxIcNQa9js7dQQIHc81b0-Xg&index=57&pp=iAQB
+:DATE:     2019-01-28T14:04:12-08:00
+:SPEAKERS: Mike Zamansky
+:DURATION: 11:28
+:END:
+  Using Emacs Episode 55 - C++ Irony Completions
+
+  Blog post: http://cestlaz.github.io/post/using-emacs-56-dictionaries
+
+  Series page: http://cestlaz.github.io/stories/emacs
+
+  Emacs config: https://github.com/zamansky/using-emacs
+
 * Emacs Screencast: EP04 login using hash in python (Fixing more bugs & summarizing for now) :python:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=bClNLhbqIvI
@@ -33820,6 +34802,21 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 :DURATION: 02:03
 :END:
 
+
+* Using Emacs episode 55 - C++ Irony Completions
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=GRdZuc1Z4WI&list=PL9KxKa8NpFxIcNQa9js7dQQIHc81b0-Xg&index=56&pp=iAQB
+:DATE:     2019-01-21T05:36:59-08:00
+:SPEAKERS: Mike Zamansky
+:DURATION: 03:49
+:END:
+  Using Emacs Episode 55 - C++ Irony Completions
+
+  Blog post: http://cestlaz.github.io/post/using-emacs-55-irony-completions
+
+  Series page: http://cestlaz.github.io/stories/emacs
+
+  Emacs config: https://github.com/zamansky/using-emacs
 
 * Selectric Mode - Emacs
 :PROPERTIES:
@@ -34302,6 +35299,36 @@ Full code on github:
   GNU Emacs for all
   Having using GNU Emacs for more that 6 years now and doing Python development for equal amount of time I’d like to share my experience with this great GNU software which has been for 30 years. I’d like to go through how I use Emacs for almost all my tasks like note taking, agenda, LaTeX, reveal.js presentations, IDE, and IRC. In this talk I’ll demonstrate how Emacs can be configured to do all such thing without a need to a dedicated application for each specific task. I’ll also talk about how to maintain Emacs configurations using org-mode and literate programming.
 
+* Using Emacs episode 53 - emailing org-agenda
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=wus8R1TWYZ4&list=PL9KxKa8NpFxIcNQa9js7dQQIHc81b0-Xg&index=54&pp=iAQB
+:DATE:     2018-11-03T06:24:49-07:00
+:SPEAKERS: Mike Zamansky
+:DURATION: 17:40
+:END:
+  Using Emacs Episode 53 - emailing org-agenda
+
+  Blog post: http://cestlaz.github.io/post/using-emacs-53-emailing-org-agenda
+
+  Series page: http://cestlaz.github.io/stories/emacs
+
+  Emacs config: https://github.com/zamansky/using-emacs
+
+* Using Emacs Episode 52 - eyebrowse
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=s6IXj0bS7L8&list=PL9KxKa8NpFxIcNQa9js7dQQIHc81b0-Xg&index=53&pp=iAQB
+:DATE:     2018-10-30T11:42:02-07:00
+:SPEAKERS: Mike Zamansky
+:DURATION: 08:07
+:END:
+  Using Emacs Episode 52 - eyebrowse
+
+  Blog post: http://cestlaz.github.io/post/using-emacs-52-eyebrowse
+
+  Series page: http://cestlaz.github.io/stories/emacs
+
+  Emacs config: https://github.com/zamansky/using-emacs
+
 * emacs : set up config -08 (iedit & paredit)
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=xrNOLTAl1ug
@@ -34338,6 +35365,21 @@ Full code on github:
 
   The github repository :
   https://github.com/analyzeninvest/.emacs.d
+
+* Using Emacs Episode 51 - day to day with org-mode
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=C6nbjqn5Uxw&list=PL9KxKa8NpFxIcNQa9js7dQQIHc81b0-Xg&index=52&pp=iAQB
+:DATE:     2018-10-24T14:40:12-07:00
+:SPEAKERS: Mike Zamansky
+:DURATION: 21:15
+:END:
+  Using Emacs Episode 51 - day to day with org-mode
+
+  Blog post: http://cestlaz.github.io/post/using-emacs-dtd-org
+
+  Series page: http://cestlaz.github.io/stories/emacs
+
+  Emacs config: https://github.com/zamansky/using-emacs
 
 * emacs : set up config 05 (key bindings & other setup)
 :PROPERTIES:
@@ -34624,6 +35666,19 @@ Full code on github:
 
   A pet plugin to make my editor feel like an IDE: https://github.com/iocanel/idee
 
+* Using Emacs Episode 49 - mu4e-conversation
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=V5efS8uXANI&list=PL9KxKa8NpFxIcNQa9js7dQQIHc81b0-Xg&index=50&pp=iAQB
+:DATE:     2018-06-21T11:05:36-07:00
+:SPEAKERS: Mike Zamansky
+:DURATION: 06:39
+:END:
+  Blog post: http://cestlaz.github.io/posts/using-emacs-48-siversearcher
+
+  Series page: http://cestlaz.github.io/stories/emacs
+
+  Emacs config: https://github.com/zamansky/using-emacs
+
 * Ditch your word processor: Write prose like code in a text editor :writing:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=TVUDpWKI-EM&feature=youtu.be
@@ -34796,6 +35851,45 @@ Full code on github:
 :END:
 
 
+* Using Emacs Episode 47 - Magit
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=1IYsiHXR620&list=PL9KxKa8NpFxIcNQa9js7dQQIHc81b0-Xg&index=48&pp=iAQB
+:DATE:     2018-04-07T11:09:09-07:00
+:SPEAKERS: Mike Zamansky
+:DURATION: 18:42
+:END:
+  Blog post: http://cestlaz.github.io/posts/using-emacs-46-auto-yasnippets
+
+  Series page: http://cestlaz.github.io/stories/emacs
+
+  Emacs config: https://github.com/zamansky/using-emacs
+
+* Using Emacs 46 - auto yasnippets
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=utrMabxgXbg&list=PL9KxKa8NpFxIcNQa9js7dQQIHc81b0-Xg&index=47&pp=iAQB
+:DATE:     2018-03-15T17:39:29-07:00
+:SPEAKERS: Mike Zamansky
+:DURATION: 09:03
+:END:
+  Blog post: http://cestlaz.github.io/posts/using-emacs-46-auto-yasnippets
+
+  Series page: http://cestlaz.github.io/stories/emacs
+
+  Emacs config: https://github.com/zamansky/using-emacs
+
+* Using Emacs 45 - Company or Autocomplete
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=srFQwTvbaxY&list=PL9KxKa8NpFxIcNQa9js7dQQIHc81b0-Xg&index=46&pp=iAQB
+:DATE:     2018-03-11T12:48:24-07:00
+:SPEAKERS: Mike Zamansky
+:DURATION: 13:18
+:END:
+  Blog post: http://cestlaz.github.io/posts/using-emacs-45-company
+
+  Series page: http://cestlaz.github.io/stories/emacs
+
+  Emacs config: https://github.com/zamansky/using-emacs
+
 * Emacs Tutorial 20 - Yasnippet!                                  :yasnippet:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=39u8K12rXHE
@@ -34839,6 +35933,19 @@ Full code on github:
   Github page: https://github.com/Kungsgeten/org-brain
   The Brain: https://thebrain.com/
 
+* Using Emacs 44 - An Org mode and PDF-tools workflow
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=LFO2UbzbZhA&list=PL9KxKa8NpFxIcNQa9js7dQQIHc81b0-Xg&index=45&pp=iAQB
+:DATE:     2018-03-03T06:11:06-08:00
+:SPEAKERS: Mike Zamansky
+:DURATION: 14:40
+:END:
+  Blog post: http://cestlaz.github.io/posts/using-emacs-44-pdf
+
+  Series page: http://cestlaz.github.io/stories/emacs
+
+  Emacs config: https://github.com/zamansky/using-emacs
+
 * Shaping Sound with Emacs
 :PROPERTIES:
 :YOUTUBE_URL: https://youtu.be/Vrx_EcOTlTc
@@ -34857,6 +35964,19 @@ Full code on github:
 :DURATION: 01:14
 :END:
 
+
+* Using Emacs 43 - Music
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=LWd60rc_rQ0&list=PL9KxKa8NpFxIcNQa9js7dQQIHc81b0-Xg&index=44&pp=iAQB
+:DATE:     2018-02-20T12:05:59-08:00
+:SPEAKERS: Mike Zamansky
+:DURATION: 14:54
+:END:
+  Blog post: http://cestlaz.github.io/posts/using-emacs-43-music
+
+  Series page: http://cestlaz.github.io/stories/emacs
+
+  Emacs config: https://github.com/zamansky/using-emacs
 
 * Emacs Tutorial 17 - Searching with swiper!
 :PROPERTIES:
@@ -34880,6 +36000,19 @@ Full code on github:
   mpd.conf: https://pastebin.com/P7rwMFLq
   My emacs config: https://github.com/daedreth/UncleDavesEmacs#emms-with-mpd
 
+* Using Emacs 42 - Git Gutter and Timemachine
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=P-mLxkb-EE8&list=PL9KxKa8NpFxIcNQa9js7dQQIHc81b0-Xg&index=43&pp=iAQB
+:DATE:     2018-02-18T14:14:20-08:00
+:SPEAKERS: Mike Zamansky
+:DURATION: 08:34
+:END:
+  Blog post: http://cestlaz.github.io/posts/using-emacs-42-git-gutter
+
+  Series page: http://cestlaz.github.io/stories/emacs
+
+  Emacs config: https://github.com/zamansky/using-emacs
+
 * To Luke Smith: Why bother with Emacs? Part 2
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=fgkHGPDeNfA&t=20s
@@ -34902,6 +36035,19 @@ Full code on github:
 
   Notice me, Luke Sensei!
 
+* Using Emacs 41 - pandoc
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=qVUZsH-MDRM&list=PL9KxKa8NpFxIcNQa9js7dQQIHc81b0-Xg&index=42&pp=iAQB
+:DATE:     2018-02-13T05:32:22-08:00
+:SPEAKERS: Mike Zamansky
+:DURATION: 04:37
+:END:
+  Blog post: http://cestlaz.github.io/posts/using-emacs-41-pandoc
+
+  Series page: http://cestlaz.github.io/stories/emacs
+
+  Emacs config: https://github.com/zamansky/using-emacs
+
 * To Luke Smith: Why bother with Emacs? Part 1
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=EsAkPl3On3E
@@ -34921,6 +36067,19 @@ Full code on github:
 :DURATION: 03:36
 :END:
 
+
+* Using Emacs 40 - atomic-chrome
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=wyPZws66Sic&list=PL9KxKa8NpFxIcNQa9js7dQQIHc81b0-Xg&index=41&pp=iAQB
+:DATE:     2018-01-31T05:04:27-08:00
+:SPEAKERS: Mike Zamansky
+:DURATION: 06:38
+:END:
+  Blog post: http://cestlaz.github.io/posts/using-emacs-40-atomic-chrome
+
+  Series page: http://cestlaz.github.io/stories/emacs
+
+  Emacs config: https://github.com/zamansky/using-emacs
 
 * Org noter - Screencast                                                :org:
 :PROPERTIES:
@@ -34958,6 +36117,16 @@ Full code on github:
   We finally get around to discussing macros!
   We are also discussing how you can save them and retrieve them at a later date.
 
+* Emacs Tutorial 15 - Kill-ring and a popup menu to replace it!
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=LFXA089Tx38&list=PLX2044Ew-UVVv31a0-Qn3dA6Sd_-NyA1n&index=15&pp=iAQB
+:DATE:     2018-01-11T14:26:40-08:00
+:SPEAKERS: Uncle Dave
+:DURATION: 06:30
+:END:
+  We get around to talking about cutting and yanking, finally.
+  We also replace the default yank-pop functionality with a nice popup menu.
+
 * Emacs Tutorial 14 - EXWM aka managing X windows with emacs.
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=Gk9-q8tXbMs
@@ -34967,6 +36136,70 @@ Full code on github:
 :END:
   Whoa.
 
+* Emacs Tutorial 13 - Spaceline and diminishing modes!
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=JEq8cef8j5Q&list=PLX2044Ew-UVVv31a0-Qn3dA6Sd_-NyA1n&index=13&pp=iAQB
+:DATE:     2018-01-10T15:00:04-08:00
+:SPEAKERS: Uncle Dave
+:DURATION: 13:55
+:END:
+  We replace the ol' rusty modeline with a new and improved spaceline and learn how to get rid of the clutter on it!
+
+* Emacs Tutorial 12 - Fixing Emacs Part 3 - We're done.
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=LB3GOLoJEws&list=PLX2044Ew-UVVv31a0-Qn3dA6Sd_-NyA1n&index=12&pp=iAQB
+:DATE:     2018-01-10T14:33:21-08:00
+:SPEAKERS: Uncle Dave
+:DURATION: 14:13
+:END:
+  We finally fixed emacs, all the big annoyances are gone now, and have some nice tools set up.
+
+* Emacs Tutorial 10 - Fixing Emacs Part 1
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=v7ImYw3bk6g&list=PLX2044Ew-UVVv31a0-Qn3dA6Sd_-NyA1n&index=10&pp=iAQB
+:DATE:     2018-01-10T14:32:27-08:00
+:SPEAKERS: Uncle Dave
+:DURATION: 16:09
+:END:
+  Today we start fixing emacs, or at least the parts that annoy me.
+
+* Emacs Tutorial 11 - Fixing Emacs Part 2
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=crDdqZWgZw8&list=PLX2044Ew-UVVv31a0-Qn3dA6Sd_-NyA1n&index=11&pp=iAQB
+:DATE:     2018-01-10T14:30:37-08:00
+:SPEAKERS: Uncle Dave
+:DURATION: 13:05
+:END:
+  Another day, another person complaining about emacs.
+  We fix some more stuff today.
+
+* Emacs Tutorial 9 - Switching windows in a smart way!
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=dppr_js-U0s&list=PLX2044Ew-UVVv31a0-Qn3dA6Sd_-NyA1n&index=9&pp=iAQB
+:DATE:     2018-01-10T08:28:23-08:00
+:SPEAKERS: Uncle Dave
+:DURATION: 13:10
+:END:
+  We install switch-window and write custom function to create new panes!
+
+* Emacs Tutorial 8 - Avy, rainbow and custom functions!
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=3DcmEvOKUj0&list=PLX2044Ew-UVVv31a0-Qn3dA6Sd_-NyA1n&index=8&pp=iAQB
+:DATE:     2018-01-09T07:33:57-08:00
+:SPEAKERS: Uncle Dave
+:DURATION: 08:43
+:END:
+  We learn how to use avy, have our colorcodes be automagically previewed and learn how to use basic elisp to edit and reload our configuration at a keypress!
+
+* Emacs Tutorial 7 - ido-mode, finally!
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=JWMxvY2dFYA&list=PLX2044Ew-UVVv31a0-Qn3dA6Sd_-NyA1n&index=7&pp=iAQB
+:DATE:     2018-01-09T07:33:23-08:00
+:SPEAKERS: Uncle Dave
+:DURATION: 17:22
+:END:
+  We finally have a look at one of my favorite packages, ido-vertical!
+
 * Emacs Tutorial 6 - Introducing: org-mode
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=a_y0Tf906Ec&feature=youtu.be
@@ -34975,6 +36208,25 @@ Full code on github:
 :DURATION: 16:11
 :END:
   Today we have a look at the basics of org-mode and utilize it to org(anize) our configuration!
+
+* Emacs Tutorial 5 - A lot of tiny QoL changes!
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=L9vA7FHoQnk&list=PLX2044Ew-UVVv31a0-Qn3dA6Sd_-NyA1n&index=5&pp=iAQB
+:DATE:     2018-01-09T05:28:13-08:00
+:SPEAKERS: Uncle Dave
+:DURATION: 16:36
+:END:
+  Ho boi, we went through a lot of variables and functions.
+  Now our emacs starts to actually look like a good editor though, so at least there is that.
+
+* Emacs Tutorial 4 - Custom theme and a new font!
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=4ZAKItc16OE&list=PLX2044Ew-UVVv31a0-Qn3dA6Sd_-NyA1n&index=4&pp=iAQB
+:DATE:     2018-01-09T04:56:44-08:00
+:SPEAKERS: Uncle Dave
+:DURATION: 13:02
+:END:
+  We finally get rid of the ugly default theme and use my favorite font.
 
 * Emacs Tutorial 3 - Packages and which-key.
 :PROPERTIES:
@@ -35016,6 +36268,17 @@ Full code on github:
   https://koenig-haunstetten.de/2017/12/29/another-approach-for-goal-tracking/
 
   Hope you like this, I definitely think this is the best way to manage my goals for 2018.
+
+* Using Emacs 39 - mu4e
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=newRHXKm4H4&list=PL9KxKa8NpFxIcNQa9js7dQQIHc81b0-Xg&index=40&pp=iAQB
+:DATE:     2017-12-24T12:50:56-08:00
+:SPEAKERS: Mike Zamansky
+:DURATION: 24:35
+:END:
+  Blog post: http://cestlaz.github.io/posts/using-emacs-39-mu4e
+
+  Series page: http://cestlaz.github.io/stories/emacs
 
 * OrgMode E07S05: Goal setting & Goal Tracking
 :PROPERTIES:
@@ -35064,6 +36327,17 @@ Full code on github:
 :DURATION: 06:15
 :END:
   Like many experienced programmers, I use Emacs as my text editor (even on Windows)... any I occasionally have to explain why.  Then, I saw a discussion on Adafruit's Discus  server about favorite editors, and had a real need for one of Emacs' more obscure (and very powerful) features so I decided to screencast it :-)
+
+* Using Emacs 38 - Dired
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=Fg7HmmRYWy8&list=PL9KxKa8NpFxIcNQa9js7dQQIHc81b0-Xg&index=39&pp=iAQB
+:DATE:     2017-11-24T07:02:52-08:00
+:SPEAKERS: Mike Zamansky
+:DURATION: 16:19
+:END:
+  Blog post: http://cestlaz.github.io/posts/using-emacs-38-dired
+
+  Series page: http://cestlaz.github.io/stories/emacs
 
 * Emacs Tutorial
 :PROPERTIES:
@@ -35141,6 +36415,17 @@ Full code on github:
   "Errata":
 
   - 7:30: No! They called "green threads", not "cooperating threads". Sorry about the confusion.
+
+* Using Emacs 37 - Treemacs file view
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=ACg6RnVdw8k&list=PL9KxKa8NpFxIcNQa9js7dQQIHc81b0-Xg&index=38&pp=iAQB
+:DATE:     2017-09-24T09:02:42-07:00
+:SPEAKERS: Mike Zamansky
+:DURATION: 09:56
+:END:
+  Blog post: http://cestlaz.github.io/posts/using-emacs-37-treemacs
+
+  Series page: http://cestlaz.github.io/stories/emacs
 
 * Emacs - line wrapping, visual line mode and line truncation
 :PROPERTIES:
@@ -35274,6 +36559,17 @@ Full code on github:
   Playlist: The (Subjective) Spacemacs Howto
   https://www.youtube.com/playlist?list=PLPNohcoOBa5GejCpa5-Mw79bXnyynM1Nn
 
+* Using Emacs 36 - A touch of elisp
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=NQhud2ZNd1w&list=PL9KxKa8NpFxIcNQa9js7dQQIHc81b0-Xg&index=37&pp=iAQB
+:DATE:     2017-07-30T14:16:28-07:00
+:SPEAKERS: Mike Zamansky
+:DURATION: 12:39
+:END:
+  Blog post: http://cestlaz.github.io/posts/using-emacs-36-touch-of-elisp
+
+  Series page: http://cestlaz.github.io/stories/emacs
+
 * Emacs - the C-q prefix, ASCII Control Characters and Caret Notation
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=qMj0YvMPivE
@@ -35326,6 +36622,17 @@ Full code on github:
   Link to Code:
   http://emacs-fu.blogspot.co.id/2009/11/copying-lines-without-selecting-them.html
 
+* Using Emacs 35 - blogging
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=wSeTic9obKw&list=PL9KxKa8NpFxIcNQa9js7dQQIHc81b0-Xg&index=36&pp=iAQB
+:DATE:     2017-06-27T13:07:00-07:00
+:SPEAKERS: Mike Zamansky
+:DURATION: 14:00
+:END:
+  Blog post: http://cestlaz.github.io/posts/using-emacs-35-blogging
+
+  Series page: http://cestlaz.github.io/stories/emacs
+
 * Configuring my Emacs. Vim users are not invited!
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=PKaJoqQQoIA&feature=youtu.be
@@ -35335,6 +36642,17 @@ Full code on github:
 :END:
   - My Emacs Configuration: http://github.com/rexim/dotfiles
   - My Color Theme: https://github.com/rexim/gruber-darker-theme
+
+* Using Emacs 34 - IBuffer and Emmet mode
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=yUfA-7wWNKA&list=PL9KxKa8NpFxIcNQa9js7dQQIHc81b0-Xg&index=35&pp=iAQB
+:DATE:     2017-06-15T13:23:55-07:00
+:SPEAKERS: Mike Zamansky
+:DURATION: 11:43
+:END:
+  Blog post: http://cestlaz.github.io/posts/using-emacs-34-ibuffer-emmet
+
+  Series page: http://cestlaz.github.io/stories/emacs
 
 * froscon12 lisp  open emacs workshop
 :PROPERTIES:
@@ -35382,6 +36700,17 @@ Full code on github:
   - vi or vim
   - emacs
   - What is x-emacs?
+
+* Using Emacs 33 - projectile and dumb-jump
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=wBfZzaff77g&list=PL9KxKa8NpFxIcNQa9js7dQQIHc81b0-Xg&index=34&pp=iAQB
+:DATE:     2017-04-28T13:53:18-07:00
+:SPEAKERS: Mike Zamansky
+:DURATION: 11:24
+:END:
+  Blog post: http://cestlaz.github.io/posts/using-emacs-33-projectile-jump
+
+  Series page: http://cestlaz.github.io/stories/emacs
 
 * Emacs: Move The Buffer Contents And Cursor Up Or Down By One Line
 :PROPERTIES:
@@ -35473,6 +36802,17 @@ Full code on github:
 
   More info about those videos here: https://vincent.bernat.im/en/blog/2017-netops-org-mode
 
+* emacs c++
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=7SQmleA4EMo&list=PL9KxKa8NpFxIcNQa9js7dQQIHc81b0-Xg&index=33&pp=iAQB
+:DATE:     2017-03-04T12:22:02-08:00
+:SPEAKERS: Mike Zamansky
+:DURATION: 21:44
+:END:
+  Blog post: http://cestlaz.github.io/posts/using-emacs-32-cpp
+
+  Series page: http://cestlaz.github.io/stories/emacs
+
 * Applying a network change with Emacs and Org mode                     :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=jCH-gO7RfFE
@@ -35495,6 +36835,39 @@ Full code on github:
 
   More info on this video here: https://vincent.bernat.im/en/blog/2017-netops-org-mode
 
+* Using emacs 31 -elfeed and macros
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=5zuSUbAHH8c&list=PL9KxKa8NpFxIcNQa9js7dQQIHc81b0-Xg&index=32&pp=iAQB
+:DATE:     2017-03-01T07:24:04-08:00
+:SPEAKERS: Mike Zamansky
+:DURATION: 11:23
+:END:
+  Blog post: http://cestlaz.github.io/posts/using-emacs-31-elfeed-macros
+
+  Series page: http://cestlaz.github.io/stories/emacs
+
+* Using emas 30 - elfeed and hydras
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=tjnK1rkO7RU&list=PL9KxKa8NpFxIcNQa9js7dQQIHc81b0-Xg&index=31&pp=iAQB
+:DATE:     2017-02-25T14:44:50-08:00
+:SPEAKERS: Mike Zamansky
+:DURATION: 11:10
+:END:
+  Blog post: http://cestlaz.github.io/posts/using-emacs-30-elfeed-hydra
+
+  Series page: http://cestlaz.github.io/stories/emacs
+
+* Using emacs 29 - elfeed part 1
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=pOFqzK1Ymr4&list=PL9KxKa8NpFxIcNQa9js7dQQIHc81b0-Xg&index=30&pp=iAQB
+:DATE:     2017-02-22T11:50:31-08:00
+:SPEAKERS: Mike Zamansky
+:DURATION: 13:43
+:END:
+  Blog post: http://cestlaz.github.io/posts/using-emacs-29%20elfeed
+
+  Series page: http://cestlaz.github.io/stories/emacs
+
 * GNU Emacs #6: Shell
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=7-EFI65kmDA
@@ -35505,6 +36878,28 @@ Full code on github:
   Después de un buen rato de no continuar con la serie, en este episodio hablamos un poco acerca de los shells modes que podemos encontrar dentro de emacs.
 
   Gracias a las personas que se han tomado el tiempo de regalarme un me gusta y/o comentario, se aprecia:)
+
+* Using emacs 28 - rectangles
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=pcA5NeEudgU&list=PL9KxKa8NpFxIcNQa9js7dQQIHc81b0-Xg&index=29&pp=iAQB
+:DATE:     2017-02-09T09:37:11-08:00
+:SPEAKERS: Mike Zamansky
+:DURATION: 05:35
+:END:
+  Blog post: http://cestlaz.github.io/posts/using-emacs-28-rectangles
+
+  Series page: http://cestlaz.github.io/stories/emacs
+
+* Using emacs 27 - shell and eshell
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=pjhRFMUxBB4&list=PL9KxKa8NpFxIcNQa9js7dQQIHc81b0-Xg&index=28&pp=iAQB
+:DATE:     2017-01-27T05:24:31-08:00
+:SPEAKERS: Mike Zamansky
+:DURATION: 08:30
+:END:
+  Blog post: http://cestlaz.github.io/posts/using-emacs-27-shell
+
+  Series page: http://cestlaz.github.io/stories/emacs
 
 * Run Scheme on Emacs - Ubuntu
 :PROPERTIES:
@@ -35632,6 +37027,30 @@ Full code on github:
   Github: https://github.com/kskkwn/.emacs.d
   (Japanese blog post): http://ksknw.hatenablog.com/entry/2017/01/08/205854
 
+* Using emacs 26 - Google Calendar and Org Agenda (good version)
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=vO_RF2dK7M0&list=PL9KxKa8NpFxIcNQa9js7dQQIHc81b0-Xg&index=27&pp=iAQB
+:DATE:     2017-01-05T12:09:38-08:00
+:SPEAKERS: Mike Zamansky
+:DURATION: 12:32
+:END:
+  Blog post: http://cestlaz.github.io/posts/using-emacs-26-gcal
+
+  Series page: http://cestlaz.github.io/stories/emacs
+
+* Bad quality version - Using emacs - 26 - Google Calendar sync and Org Agenda
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=RyNBtfu9AJ4&list=PL9KxKa8NpFxIcNQa9js7dQQIHc81b0-Xg&index=26&pp=iAQB
+:DATE:     2017-01-05T08:35:51-08:00
+:SPEAKERS: Mike Zamansky
+:DURATION: 14:54
+:END:
+  Better version here: https://youtu.be/vO_RF2dK7M0
+
+  Blog post: http://cestlaz.github.io/posts/using-emacs-26-gcal
+
+  Series page: http://cestlaz.github.io/stories/emacs
+
 * OrgMode E07S03: Google Calendar integration                           :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=cIzzjSaq2N8&feature=youtu.be
@@ -35647,6 +37066,17 @@ Full code on github:
   http://koenig-haunstetten.de/2017/01/02/google-calendar-integration-in-orgmode/
 
   Read more about OrgMode and some "show notes" in the OrgMode section of my blog at http://koenig-haunstetten.de/tag/orgmode/
+
+* Using emacs - 25 - tramp
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=Iqh50fgbIVk&list=PL9KxKa8NpFxIcNQa9js7dQQIHc81b0-Xg&index=25&pp=iAQB
+:DATE:     2016-12-26T07:55:21-08:00
+:SPEAKERS: Mike Zamansky
+:DURATION: 09:12
+:END:
+  Blog post: http://cestlaz.github.io/posts/using-emacs-25-tramp.
+
+  Series page: http://cestlaz.github.io/stories/emacs
 
 * Talk: Spacemacs – A Distribution for GNU Emacs
 :PROPERTIES:
@@ -35686,6 +37116,28 @@ Full code on github:
 :END:
   Introduction to using Emacs to edit Common Lisp. Basic Common Lisp introduction, cursor movement in Emacs, command Read/Eval/Print Loop (REPL).
 
+* Using Emacs 24 - links
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=gjr9mP01oWE&list=PL9KxKa8NpFxIcNQa9js7dQQIHc81b0-Xg&index=24&pp=iAQB
+:DATE:     2016-12-03T13:05:14-08:00
+:SPEAKERS: Mike Zamansky
+:DURATION: 08:47
+:END:
+  Blog post:http://cestlaz.github.io/posts/using-emacs-24-capture-2
+
+  Series page: http://cestlaz.github.io/stories/emacs
+
+* Using Emacs 23 - capture
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=-wPfxuxIfeU&list=PL9KxKa8NpFxIcNQa9js7dQQIHc81b0-Xg&index=23&pp=iAQB
+:DATE:     2016-11-29T14:24:59-08:00
+:SPEAKERS: Mike Zamansky
+:DURATION: 12:40
+:END:
+  Blog post: http://cestlaz.github.io/posts/using-emacs-23-capture
+
+  Series page: http://cestlaz.github.io/stories/emacs
+
 * Productive Emacs: clojure refactor (cljr-refactor)  :clojure:coding:dev:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=pKzIxtR0ElU
@@ -35698,6 +37150,36 @@ Full code on github:
   For spacemacs users; it is included in the clojure layer.
 
   Package: https://github.com/clojure-emacs/clj-refactor.el
+
+* Using Emacs 22 - emacsclient
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=9AHGsCtsClg&list=PL9KxKa8NpFxIcNQa9js7dQQIHc81b0-Xg&index=22&pp=iAQB
+:DATE:     2016-11-19T04:55:23-08:00
+:SPEAKERS: Mike Zamansky
+:DURATION: 04:47
+:END:
+  Blog post: http://cestlaz.github.io/posts/using-emacs-22-emacsclient
+
+  Series page: http://cestlaz.github.io/stories/emacs
+
+* Using Emacs 21 - Web Mode
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=69bQa5n23jc&list=PL9KxKa8NpFxIcNQa9js7dQQIHc81b0-Xg&index=21&pp=iAQB
+:DATE:     2016-11-16T10:37:15-08:00
+:SPEAKERS: Mike Zamansky
+:DURATION: 07:49
+:END:
+  Note: I was able to solve the quote insertion issue I had in the video by setting web-mode-enabled-auto-quoting:
+
+  (setq web-mode-enable-auto-quoting t)
+
+  Blog post: http://cestlaz.github.io/posts/using-...
+
+  Series page: http://cestlaz.github.io/stories/emacs
+  Category
+  Blog post: http://cestlaz.github.io/posts/using-emacs-21-webmode
+
+  Series page: http://cestlaz.github.io/stories/emacs
 
 * Debug a function in Emacs with Spacemacs
 :PROPERTIES:
@@ -35725,6 +37207,18 @@ Full code on github:
 
   http://amara.org/v/0Myd/
 
+* Using Emacs 20 - yanking
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=LReZI7VAy8w&list=PL9KxKa8NpFxIcNQa9js7dQQIHc81b0-Xg&index=20&pp=iAQB
+:DATE:     2016-11-13T09:26:01-08:00
+:SPEAKERS: Mike Zamansky
+:DURATION: 09:39
+:END:
+  Blog post: http://cestlaz.github.io/posts/using-emacs-20-yanking
+
+  Series page: http://cestlaz.github.io/stories/emacs
+  Category
+
 * Productive Emacs: Magit                                             :magit:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=D1SJ6mFWYyA
@@ -35736,6 +37230,17 @@ Full code on github:
 
   Magit: https://magit.vc/
   Pro Git Book: https://git-scm.com/book/en/v2
+
+* Using Emacs 19 - moving to a live config
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=8RwQNXOjSis&list=PL9KxKa8NpFxIcNQa9js7dQQIHc81b0-Xg&index=19&pp=iAQB
+:DATE:     2016-11-10T15:21:11-08:00
+:SPEAKERS: Mike Zamansky
+:DURATION: 08:33
+:END:
+  Blog post: http://cestlaz.github.io/posts/using-eamcs-19-live
+
+  Series page: http://cestlaz.github.io/stories/emacs
 
 * Writing Thesis with Emacs + AUCTeX +Yasnippet
 :PROPERTIES:
@@ -35773,6 +37278,17 @@ Full code on github:
   - https://github.com/wx672/dotfile/tree/master/dot.tmux
   - https://github.com/wx672/dotfile/blob/master/dot.tmux.conf
 
+* Using Emacs 18 - iedit, narrowing, and widening
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=xne0kS1DfVs&list=PL9KxKa8NpFxIcNQa9js7dQQIHc81b0-Xg&index=18&pp=iAQB
+:DATE:     2016-11-02T11:30:51-07:00
+:SPEAKERS: Mike Zamansky
+:DURATION: 09:31
+:END:
+  Blog post: http://cestlaz.github.io/posts/using-emacs-18-narrow
+
+  Series page: http://cestlaz.github.io/stories/emacs
+
 * Productive Emacs: Paredit
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=T1WBsI3gdDE
@@ -35806,6 +37322,19 @@ Full code on github:
   Help us caption & translate this video!
 
   http://amara.org/v/ZQzn/
+
+* Using Emacs 17  - Misc features
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=vKIFi1h0I5Y&list=PL9KxKa8NpFxIcNQa9js7dQQIHc81b0-Xg&index=17&pp=iAQB
+:DATE:     2016-10-28T12:42:16-07:00
+:SPEAKERS: Mike Zamansky
+:DURATION: 11:41
+:END:
+  It looks like the video is a little choppy - sorry about that. These packages are small and simple so I'm hoping the gist gets across.
+
+  Blog post: http://cestlaz.github.io/posts/using-emacs-17-misc
+
+  Series page: http://cestlaz.github.io/stories/emacs
 
 * Ivy completion at point
 :PROPERTIES:
@@ -35842,6 +37371,16 @@ Full code on github:
 
 
   Thanks for watching!!
+
+* Using Emacs 16 - undo tree
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=zL0FJ-jbDPU&list=PL9KxKa8NpFxIcNQa9js7dQQIHc81b0-Xg&index=16&pp=iAQB
+:DATE:     2016-10-09T09:27:28-07:00
+:SPEAKERS: Mike Zamansky
+:DURATION: 10:43
+:END:
+  Series page: http://cestlaz.github.io/stories/emacs
+  Blog post: http://cestlaz.github.io/posts/using-emacs-16-undo-tree
 
 * New Emacs package pamparam: flashcards with spaced repetition.
 :PROPERTIES:
@@ -35964,6 +37503,16 @@ Full code on github:
 
   http://act.yapc.eu/ye2016/talk/6851
 
+* Using Emacs - 15 - macros
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=Y1oVNBuIoXo&list=PL9KxKa8NpFxIcNQa9js7dQQIHc81b0-Xg&index=15&pp=iAQB
+:DATE:     2016-09-02T16:15:31-07:00
+:SPEAKERS: Mike Zamansky
+:DURATION: 11:37
+:END:
+  Series page: http://cestlaz.github.io/stories/emacs
+  Blog post: http://cestlaz.github.io/posts/using-emacs-15-macros
+
 * OrgMode E06S05: Tracking habits
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=acj3NhXlnnk&feature=youtu.be
@@ -36007,6 +37556,16 @@ Full code on github:
 
   My config is at: https://github.com/abo-abo/oremacs.
 
+* Using Emacs - 14 - Thoughts on Using Emacs
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=tSx_sGgoVNk&list=PL9KxKa8NpFxIcNQa9js7dQQIHc81b0-Xg&index=14&pp=iAQB
+:DATE:     2016-08-17T07:15:49-07:00
+:SPEAKERS: Mike Zamansky
+:DURATION: 08:40
+:END:
+  Series page: http://cestlaz.github.io/stories/eamcs
+  Blog post: http://cestlaz.github.io/posts/using-emacs-14-thoughts
+
 * The Story Of blackboard-bold-mode  :elisp:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=c0z7dh1JAZM
@@ -36036,6 +37595,19 @@ Full code on github:
   A small tutorial on the old and new features of the lispy.
 
   https://github.com/abo-abo/lispy
+
+* Using Emacs - 13 - yasnippet
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=4aYMa8f6B0o&list=PL9KxKa8NpFxIcNQa9js7dQQIHc81b0-Xg&index=13&pp=iAQB
+:DATE:     2016-08-04T12:29:06-07:00
+:SPEAKERS: Mike Zamansky
+:DURATION: 12:54
+:END:
+  Using Emacs series episode 13
+
+  Series page: http://cestlaz.github.io/stories/emacs
+
+  Blog post: http://cestlaz.github.io/posts/using-emacs-13-yasnippet
 
 * Emacs для начинающих. Мои shortcuts/ For beginners. My shortcuts
 :PROPERTIES:
@@ -36076,6 +37648,32 @@ Full code on github:
 :DURATION: 05:17
 :END:
   Eloud is a lightweight, interactive screen reader for the Emacs text editor. Visit the GitHub repository for installation instructions: https://github.com/smythp/eloud
+
+* Using Emacs - 12 - flycheck and Jedi for Python
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=wbj_Wjm1Tuw&list=PL9KxKa8NpFxIcNQa9js7dQQIHc81b0-Xg&index=12&pp=iAQB
+:DATE:     2016-07-27T16:02:20-07:00
+:SPEAKERS: Mike Zamansky
+:DURATION: 14:14
+:END:
+  How I use emacs for Python development.
+
+  Blog post: http://cestlaz.github.io/posts/using-emacs-12-python
+
+  Series page: http://cestlaz.github.io/stories/emacs
+
+* Using emacs - 11 - reveal.js and org-mode
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=psDpCpcIVYs&list=PL9KxKa8NpFxIcNQa9js7dQQIHc81b0-Xg&index=11&pp=iAQB
+:DATE:     2016-07-19T09:13:24-07:00
+:SPEAKERS: Mike Zamansky
+:DURATION: 16:08
+:END:
+  An introduction on using org-mode to create reveal.js presentations.
+
+  Blog post: http://cestlaz.github.io/posts/using-emacs-11-reveal
+
+  Series page: http://cestlaz.github.io/stories/emacs
 
 * Emacs for note-taking / outlining, quick demo  :org:
 :PROPERTIES:
@@ -36118,6 +37716,17 @@ Full code on github:
 :END:
   Emacs Salesforce Client
 
+* Using Emacs 9 - Themes
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=cod2ABxlrV8&list=PL9KxKa8NpFxIcNQa9js7dQQIHc81b0-Xg&index=9&pp=iAQB
+:DATE:     2016-06-28T11:34:26-07:00
+:SPEAKERS: Mike Zamansky
+:DURATION: 04:21
+:END:
+  Link to post: http://cestlaz.github.io/posts/using-emacs-9-themes
+
+  Link to series page: http://cestlaz.github.io/stories/emacs
+
 * Emacs Party Mode demo  :fun:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=k-ciw_dUhGk
@@ -36128,6 +37737,50 @@ Full code on github:
   Demo of Emacs party-mode.el, which can be found on github here: https://github.com/parkeristyping/party-mode
 
   Thanks to crapface for letting me use his tunes. https://soundcloud.com/crapface
+
+* Using Emacs 8 - Auto-complete
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=5FBVhdyU4dA&list=PL9KxKa8NpFxIcNQa9js7dQQIHc81b0-Xg&index=8&pp=iAQB
+:DATE:     2016-06-26T06:41:27-07:00
+:SPEAKERS: Mike Zamansky
+:DURATION: 04:49
+:END:
+  Link to post: http://cestlaz.github.io/posts/using-emacs-8-autocomplete
+
+  Link to series page: http://cestlaz.github.io/stories/emacs
+
+* Using Emacs 7 - Navigating with Avy
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=ziytRbASKeU&list=PL9KxKa8NpFxIcNQa9js7dQQIHc81b0-Xg&index=7&pp=iAQB
+:DATE:     2016-06-24T12:28:33-07:00
+:SPEAKERS: Mike Zamansky
+:DURATION: 05:44
+:END:
+  Link to related blog post: http://cestlaz.github.io/posts/using-emacs-7-avy
+
+  Link to series home page: http://cestlaz.github.io/stories/emacs
+
+* Using Emacs 6 - Search (Swiper)
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=0mwwN0S1dnQ&list=PL9KxKa8NpFxIcNQa9js7dQQIHc81b0-Xg&index=6&pp=iAQB
+:DATE:     2016-06-20T08:44:05-07:00
+:SPEAKERS: Mike Zamansky
+:DURATION: 09:12
+:END:
+  Link to related blog post: http://cestlaz.github.io/posts/using-emacs-6-swiper
+
+  Link to series home page: http://cestlaz.github.io/stories/emacs
+
+* Using Emacs 5 - Windows
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=D6OUMVbPKSA&list=PL9KxKa8NpFxIcNQa9js7dQQIHc81b0-Xg&index=5&pp=iAQB
+:DATE:     2016-06-14T15:25:05-07:00
+:SPEAKERS: Mike Zamansky
+:DURATION: 10:40
+:END:
+  Link to related blog post: http://cestlaz.github.io/posts/using-emacs-5-windows
+
+  Link to series home page: http://cestlaz.github.io/stories/emacs
 
 * OrgMode E02S02: Agenda view (advanced)                                :org:
 :PROPERTIES:
@@ -36166,6 +37819,17 @@ Full code on github:
 :END:
   Discuss on http://bitwise.handmade.network/forums
 
+* Using Emacs - Lesson 4 - Buffers
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=v5eTK5lC0xs&list=PL9KxKa8NpFxIcNQa9js7dQQIHc81b0-Xg&index=4&pp=iAQB
+:DATE:     2016-05-31T05:26:45-07:00
+:SPEAKERS: Mike Zamansky
+:DURATION: 11:35
+:END:
+  Link to related blog post: http://cestlaz.github.io/posts/using-emacs-4-buffers
+
+  Link to series home page: http://cestlaz.github.io/stories/emacs
+
 * TimoB: Emacs - Beating the Learning Curve
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=EYnq8yFvZwM
@@ -36178,6 +37842,30 @@ Full code on github:
   Wer bislang nur bunte, langsame IDEs verwendet hat, kann bei uns lernen was man mit Meta-X alles machen kann.  Wir geben eine schmerzlose Einführung in emacs, in der _nicht_ (nur) die super-coolsten Features gezeigt werden, sondern die in täglicher Arbeit am häufigsten verwendeten Tastenkombinationen  ervorgehoben und besprochen werden.  Wer vim verwendet möge bitte einen eigenen Vortrag halten.
 
   TimoB
+
+* Using Emacs - lesson 3 Elisp
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=nyQxRarVYH4&list=PL9KxKa8NpFxIcNQa9js7dQQIHc81b0-Xg&index=3&pp=iAQB
+:DATE:     2016-05-26T07:37:49-07:00
+:SPEAKERS: Mike Zamansky
+:DURATION: 07:01
+:END:
+  Accompanying blog post: http://cestlaz.github.io/posts/using-emacs-3-elisp/#.V0yaOx9vHmE
+
+  Series page: http://cestlaz.github.io/stories/emacs/
+
+* Using Emacs 2 - org
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=x5KiYDd9s8k&list=PL9KxKa8NpFxIcNQa9js7dQQIHc81b0-Xg&index=2&pp=iAQB
+:DATE:     2016-05-23T13:06:33-07:00
+:SPEAKERS: Mike Zamansky
+:DURATION: 08:24
+:END:
+  Series page: http://cestlaz.github.io/sories/emacs
+
+  Episode 1 notes and blogpost: http://cestlaz.github.io/posts/using-emacs-2-org
+
+  This video will show the very basics of org-mode - the format that we'll use for notes on this series
 
 * Using Emacs - 1 - setting up the package manager
 :PROPERTIES:
