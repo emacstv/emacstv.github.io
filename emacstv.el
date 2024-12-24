@@ -27,14 +27,18 @@
 (defvar emacstv-index-org (expand-file-name "videos.org" (file-name-directory (or load-file-name (buffer-file-name))))
 	"*Where the data is stored.")
 
+(defun emacstv-youtube-id (url)
+	"Return the video ID for URL."
+	(cond
+	 ((string-match "youtu.be/\\(.*\\)" url) (match-string 1 url))
+	 ((string-match "www.youtube.com/watch\\?\\(.*\\)" url)
+		(assoc-default "v" (url-parse-args (match-string 1 url)) #'string=))
+	 (t (error "Unknown URL pattern"))))
+
 (defun emacstv-find-by-youtube-url (url)
 	"Move point to the entry for URL.
 Returns nil if not found."
-	(let* ((id-re (regexp-quote (cond
-															 ((string-match "youtu.be/\\(.*\\)" url) (match-string 1 url))
-															 ((string-match "www.youtube.com/watch\\?\\(.*\\)" url)
-																(assoc-default "v" (url-parse-args (match-string 1 url)) #'string=))
-															 (t (error "Unknown URL pattern")))))
+	(let* ((id-re (regexp-quote (emacstv-youtube-id url)))
 				 (pos
 					(catch 'found
 						(org-map-entries
@@ -154,6 +158,11 @@ Returns nil if not found."
 			(org-entry-put (point) "SPEAKERS" .author)
 			(org-entry-put (point) "DURATION" (format-seconds "%02h:%z%02m:%02s" (string-to-number .lengthSeconds))))))
 
+;; useful for extracting from YouTube:
+;; from channel page:
+;; [...document.querySelectorAll('a.ytd-rich-grid-media#video-title-link')].map((o) => `- [[${o.href}][${o.getAttribute('title')}]]\n`).join('')
+;; from playlist:
+;; [...document.querySelectorAll('a.ytd-playlist-panel-video-renderer#wc-endpoint')].map((o) => `- [[${o.href}][${o.querySelector('#video-title').getAttribute('title')}]]\n`).join('')
 (defun emacstv-add-from-org (&optional beg end)
 	"Add the link at point.
 If a region is active, add all the YouTube links in that region."
@@ -171,13 +180,25 @@ If a region is active, add all the YouTube links in that region."
 										(condition-case nil
 												(emacstv-add-from-youtube link)
 											(error nil))
-										(display-buffer-in-side-window (current-buffer) nil)))))))
+										(display-buffer (current-buffer) nil)))))))
 			;; add the current link
 			(let ((link (org-element-property :raw-link (org-element-context))))
 				(when (string-match "youtu\\.?be" link)
 					(with-current-buffer (find-file-noselect emacstv-index-org)
 						(emacstv-add-from-youtube link)
-						(display-buffer-in-side-window (current-buffer) nil)))))))
+						(display-buffer (current-buffer))))))))
 
+(defun emacstv-sort-by-newest-first ()
+	(interactive)
+	(goto-char (point-min))
+	(org-sort-entries nil ?R nil nil "DATE"))
+
+(defun emacstv-count-entries ()
+	(interactive)
+	(let ((count 0))
+		(org-map-entries
+		 (lambda () (cl-incf count))
+		 "LEVEL=1")
+		(message "%d videos" count)))
 (provide 'emacstv)
 ;;; emacstv.el ends here
