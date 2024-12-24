@@ -20893,7 +20893,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 
   Powered by Restream https://restream.io/
 
-* Configurazione Emacs v1.6 (2021-10-16)  :NyanMode:
+* Configurazione Emacs v1.6 (2021-10-16)  :NyanMode:configuration:org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=O0RwLsnccYM
 :DATE:     2021-10-15T18:40:36-07:00
@@ -20959,7 +20959,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 
   This allows me to search for content in every org-file that has ever been indexed with a variety of scopes.
 
-* Tutorial Emacs 02 - Init File
+* Tutorial Emacs 02 - Init File  :beginner:configuration:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=p-Qe0vHK2Z0
 :DATE:     2021-10-14T04:24:19-07:00
@@ -20995,7 +20995,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 
   You can find the library at https://github.com/jkitchin/scimax/blob/master/scimax-notebook.org.
 
-* "Type-Driven API Design in Rust" by Will Crichton
+* "Type-Driven API Design in Rust" by Will Crichton  :coding:rust:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=bnnacleqg6k
 :DATE:     2021-10-12T13:15:41-07:00
@@ -21014,7 +21014,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
   Recorded at Strange Loop 2021
   https://thestrangeloop.com
 
-* Trying Out Doom Emacs
+* Trying Out Doom Emacs  :DoomEmacs:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=DwnCXA77pGY
 :DATE:     2021-10-12T12:12:44-07:00
@@ -21150,7 +21150,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
   * Chave PIX: e26a05db-d200-4261-aa65-c6ac3dc2dd0f
   * Apoia.se (apoio regular mensal): https://apoia.se/debxpcursos
 
-* Spell-checking in scimax
+* Spell-checking in scimax  :writing:spelling:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=V5IPZVje-ps
 :DATE:     2021-10-08T13:38:17-07:00
@@ -21161,7 +21161,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 
   Find scimax at https://github.com/jkitchin/scimax.
 
-* scimax - Managing RSS feeds with Emacs and elfeed
+* scimax - Managing RSS feeds with Emacs and elfeed  :rss:elfeed:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=rvWbUGx9U5E
 :DATE:     2021-10-08T00:54:00-07:00
@@ -21172,7 +21172,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 
   Find scimax at https://github.com/jkitchin/scimax.
 
-* Ictech | The evolution of TECO and Emacs - Hands on demo
+* Ictech | The evolution of TECO and Emacs - Hands on demo  :history:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=GvxZ7wfKj8E
 :DATE:     2021-10-06T21:02:41-07:00
@@ -21181,7 +21181,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 :END:
   The demo is held by Lars Brinkhoff - ITS Restoration guy
 
-* GNU/Emacs - More Org Stuff
+* GNU/Emacs - More Org Stuff :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=DNR3pgnurfc
 :DATE:     2021-10-06T11:58:02-07:00
@@ -21196,6 +21196,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 :DATE:     2021-10-03T10:11:03-07:00
 :SPEAKERS: Datenschauer
 :DURATION: 01:10:51
+:LANGUAGE: German
 :END:
   Das Video ist der Auftakt zu einer Reihe über Emacs.
   In dieser ersten Einführung möchte ich euch zeigen, wie ich meinen (wissenschaftlichen) Alltag mit der Hilfe von Emacs meistere.
@@ -21246,7 +21247,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 
   #emacs #magit #git #productivity
 
-* scimax - data structures in emacs-lisp
+* scimax - data structures in emacs-lisp  :elisp:data:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=HyFbIWvmV0A
 :DATE:     2021-10-02T21:00:37-07:00
@@ -21364,7 +21365,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 
   https://chrismaiorana.com/best-documentation-reader
 
-* Emacs as a Web Integrated Development Environment+
+* Emacs as a Web Integrated Development Environment+  :coding:web:lsp:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=LGPdUkb9JHM
 :DATE:     2021-09-27T11:41:58-07:00
@@ -21373,7 +21374,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 :END:
   Basic demonstration of lsp-mode/Emacs/gitpod integration
 
-* Build Your Website with Org Mode                                      :org:
+* Build Your Website with Org Mode                                      :org:publishing:sharing:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=AfkrzFodoNw
 :DATE:     2021-09-27T07:00:49-07:00
@@ -21449,7 +21450,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 
   The video thumbnail is a tweak of the Levitating, Meditating, Flute-playing Gnu under the terms of the GNU General Public License: https://www.gnu.org/graphics/meditate.html
 
-* O que é, e como utilizar: Org em Emacs
+* O que é, e como utilizar: Org em Emacs  :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=ffBDQauDAgQ
 :DATE:     2021-09-26T12:25:27-07:00
@@ -36677,7 +36678,7 @@ Using restclient within emacs...
   Learn more from the developers at thoughtbot â¨ï¸
   Head over to http://tbot.io/dev-blog to read more great articles on our blog.
 
-* swiper screencast
+* swiper screencast  :swiper:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=VvnJQpTFVDc&feature=youtu.be
 :DATE:     2015-04-17T13:19:32-07:00
@@ -36686,7 +36687,7 @@ Using restclient within emacs...
 :END:
   A demo of an Emacs package https://github.com/abo-abo/swiper.
 
-* Emacs configuration in 24 minutes
+* Emacs configuration in 24 minutes  :configuration:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=FRu8SRWuUko&feature=youtu.be
 :DATE:     2015-04-12T12:15:13-07:00
@@ -36706,7 +36707,7 @@ Using restclient within emacs...
 :END:
   Notes at http://sachachua.com/blog/2015/04/2015-04-08-emacs-lisp-development-tips-with-john-wiegley/ . Best viewed full screen at 720p - use the settings (gear icon) to pick a higher resolution so that you can read what's on the screen.
 
-* Using embedded emacs calc-mode for symbolic processing
+* Using embedded emacs calc-mode for symbolic processing   :calc:math:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=p7O43b6kEc4&feature=youtu.be
 :DATE:     2015-03-13T17:23:15-07:00
@@ -36715,7 +36716,7 @@ Using restclient within emacs...
 :END:
 
 
-* How I Use org-capture and Stuff
+* How I Use org-capture and Stuff  :org:OrgCapture:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=KdcXu_RdKI0&feature=youtu.be
 :DATE:     2015-03-10T08:30:00-07:00
@@ -36729,7 +36730,7 @@ Using restclient within emacs...
   Learn more from the developers at thoughtbot ⌨️
   Head over to http://tbot.io/dev-blog to read more great articles on our blog.
 
-* org-ref in action                                                     :org:
+* org-ref in action                                                     :org:OrgRef:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=Zya8SfmCtFA&feature=youtu.be
 :DATE:     2014-12-19T12:11:32-08:00
@@ -36738,7 +36739,7 @@ Using restclient within emacs...
 :END:
 
 
-* Edit LISP structurally with Emacs package lispy
+* Edit LISP structurally with Emacs package lispy  :lispy:
 :PROPERTIES:
 :YOUTUBE_URL: https://youtu.be/BverGxP41cE
 :DATE:     2014-11-22T15:05:05-08:00
@@ -36747,7 +36748,7 @@ Using restclient within emacs...
 :END:
   This is an overview screencast of https://github.com/abo-abo/lispy.
 
-* Paxedit Demo
+* Paxedit Demo  :paxedit:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=vI1l-oC7HvI
 :DATE:     2014-11-13T12:13:33-08:00
@@ -36843,7 +36844,7 @@ Using restclient within emacs...
   * https://github.com/magnars/expand-region.el
   * https://github.com/magnars/multiple-cursors.el
   * https://github.com/smihica/emmet-mode for quickly writing HTML
-* Lucid Energize Demo VHS 1993
+* Lucid Energize Demo VHS 1993  :history:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=pQQTScuApWkjj
 :DATE:     2014-05-16T08:55:54-07:00
@@ -36854,7 +36855,7 @@ Using restclient within emacs...
 
   See also http://www.dreamsongs.com/Cadillac.html
 
-* Mockup Monday #9: Emacs on the iPhone
+* Mockup Monday #9: Emacs on the iPhone  :mobile:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=-2NBTOZnEy8&feature=youtu.be
 :DATE:     2014-04-07T10:36:45-07:00
@@ -36877,7 +36878,7 @@ Using restclient within emacs...
 
   or you can pull/clone it from github:
   https://github.com/byuksel/Emacs-as-a-C-Cplusplus-Editor-IDE-settings
-* Writing A Spotify Client in 16 Minutes
+* Writing A Spotify Client in 16 Minutes  :coding:helm:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=XjKtkEMUYGc&feature=youtu.be
 :DATE:     2013-10-08T06:13:46-07:00
@@ -36956,7 +36957,7 @@ Using restclient within emacs...
   http://emacsrocks.com - Rocking emacs tricks and tips screencast.
 
   Follow me on twitter: @emacsrocks
-* Emacs Rocks! Live at WebRebels
+* Emacs Rocks! Live at WebRebels  :music:fun:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=p3Te_a-AGqM
 :DATE:     2012-05-24T11:21:15-07:00
@@ -36965,7 +36966,7 @@ Using restclient within emacs...
 :END:
   Crappy sound. Swearing. A noisy bar. Can you handle it? Then here's the 18 minute emacsrocks live show from Web Rebels in Oslo 2012. See more at http://emacsrocks.com
 
-* Land of Lisp- The Music Video!
+* Land of Lisp- The Music Video!  :music:fun:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=HM1Zb3xmvMc&feature=youtu.be
 :DATE:     2010-10-20T08:31:44-07:00
@@ -36975,7 +36976,7 @@ Using restclient within emacs...
   Land of Lisp...the music video!
   If you like this video, you'll love "Land of Lisp" the book: http://nostarch.com/lisp.htm
 
-* Emacs Power: Can your editor do THIS!
+* Emacs Power: Can your editor do THIS!  :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=EQAd41VAXWo&feature=youtu.be
 :DATE:     2008-11-23T07:29:17-08:00
@@ -37022,7 +37023,7 @@ Using restclient within emacs...
 
 
   Speaker: Carsten Dominik
-* Emacs artist-mode
+* Emacs artist-mode  :fun:artist:drawing:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=LDbi56U5qRw&feature=youtu.be
 :DATE:     2008-05-22T07:04:51-07:00
