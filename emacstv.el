@@ -27,6 +27,25 @@
 (defvar emacstv-index-org (expand-file-name "videos.org" (file-name-directory (or load-file-name (buffer-file-name))))
 	"*Where the data is stored.")
 
+(defun emacstv-find-by-youtube-url (url)
+	"Move point to the entry for URL.
+Returns nil if not found."
+	(let* ((id-re (regexp-quote (cond
+															 ((string-match "youtu.be/\\(.*\\)" url) (match-string 1 url))
+															 ((string-match "www.youtube.com/watch\\?\\(.*\\)" url)
+																(assoc-default "v" (url-parse-args (match-string 1 url)) #'string=))
+															 (t (error "Unknown URL pattern")))))
+				 (pos
+					(catch 'found
+						(org-map-entries
+						 (lambda ()
+							 (when (string-match id-re (org-entry-get (point) "YOUTUBE_URL"))
+								 (throw 'found (point))))
+						 "YOUTUBE_URL={.}")
+						nil)))
+		(when pos
+			(goto-char pos))))
+
 (defun emacstv-export-json ()
 	(interactive)
 	(with-current-buffer (find-file-noselect emacstv-index-org)
@@ -42,7 +61,11 @@
 				(insert (json-encode data))))))
 
 (defun emacstv-add-from-youtube (url)
-	(interactive "MYouTube URL: ")
+	"Add an entry for URL."
+	(interactive (list (read-string "YouTube URL: "
+																	(when (string-match "^https://\\(www\\.\\)?youtu"
+																											(or (car kill-ring) ""))
+																		(car kill-ring)))))
 	(let* ((json-object-type 'alist)
 				 (json-array-type 'list)
 				 data)
@@ -51,8 +74,7 @@
 			(when (re-search-forward "ytInitialPlayerResponse *= *" nil t)
 				(setq data (json-read))))
 		(let-alist (alist-get 'videoDetails data)
-			(if (org-find-property "YOUTUBE_URL" url)
-					(goto-char (org-find-property "YOUTUBE_URL" url))
+			(unless (emacstv-find-by-youtube-url url)
 				(unless .title
 					(error "Could not get video details for %s" url))
 				(goto-char (point-max))
