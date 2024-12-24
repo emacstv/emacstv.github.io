@@ -9,6 +9,18 @@
 :SPEAKERS: Vincent Conus
 :SERIES: EmacsConf 2024
 :END:
+
+* Q&A: Writing academic papers in Org-Roam  :answers:emacsconf:emacsconf2024:
+:PROPERTIES:
+:DATE: 2024-12-07
+:URL: https://emacsconf.org/2024/talks/papers
+:MEDIA_URL: https://media.emacsconf.org/2024/emacsconf-2024-papers--writing-academic-papers-in-orgroam--vincent-conus--answers.webm
+:YOUTUBE_URL: https://youtu.be/ujUX4vC5TKg
+:TOOBNIX_URL: https://toobnix.org/w/tC5hnamhUC8PJrrMdXsLXJ
+:TRANSCRIPT_URL: https://media.emacsconf.org/2024/emacsconf-2024-papers--writing-academic-papers-in-orgroam--vincent-conus--answers.vtt
+:SPEAKERS: Vincent Conus
+:SERIES: EmacsConf 2024
+:END:
 * Managing writing project metadata with org-mode  :emacsconf:emacsconf2024:org:writing:
 :PROPERTIES:
 :DATE: 2024-12-07
@@ -17,6 +29,17 @@
 :YOUTUBE_URL: https://youtu.be/Wn38JmqyTbk
 :TOOBNIX_URL: https://toobnix.org/w/dEiXtAr3p16hD3atJk78Ex
 :TRANSCRIPT_URL: https://media.emacsconf.org/2024/emacsconf-2024-project--managing-writing-project-metadata-with-orgmode--blaine-mooers--main.vtt
+:SPEAKERS: Blaine Mooers
+:SERIES: EmacsConf 2024
+:END:
+* Q&A: Managing writing project metadata with org-mode  :answers:emacsconf:emacsconf2024:
+:PROPERTIES:
+:DATE: 2024-12-07
+:URL: https://emacsconf.org/2024/talks/project
+:MEDIA_URL: https://media.emacsconf.org/2024/emacsconf-2024-project--managing-writing-project-metadata-with-orgmode--blaine-mooers--answers.webm
+:YOUTUBE_URL: https://www.youtube.com/watch?v=ZJUao__OjBw
+:TOOBNIX_URL: https://toobnix.org/w/oNdkFWvoxz8mXXtBTCiruv
+:TRANSCRIPT_URL: https://media.emacsconf.org/2024/emacsconf-2024-project--managing-writing-project-metadata-with-orgmode--blaine-mooers--answers.vtt
 :SPEAKERS: Blaine Mooers
 :SERIES: EmacsConf 2024
 :END:
@@ -31,6 +54,17 @@
 :SPEAKERS: Ramin Honary
 :SERIES: EmacsConf 2024
 :END:
+* Q&A: Gypsum: my clone of Emacs and ELisp written in Scheme  :answers:emacsconf:emacsconf2024:
+:PROPERTIES:
+:DATE: 2024-12-07
+:URL: https://emacsconf.org/2024/talks/gypsum
+:MEDIA_URL: https://media.emacsconf.org/2024/emacsconf-2024-gypsum--gypsum-my-clone-of-emacs-and-elisp-written-in-scheme--ramin-honary--answers.webm
+:YOUTUBE_URL: https://www.youtube.com/watch?v=sLw3IdJMabU
+:TOOBNIX_URL: https://toobnix.org/w/2c8K6cXhofT9dRgwcSrugm
+:TRANSCRIPT_URL: https://media.emacsconf.org/2024/emacsconf-2024-gypsum--gypsum-my-clone-of-emacs-and-elisp-written-in-scheme--ramin-honary--answers.vtt
+:SPEAKERS: Ramin Honary
+:SERIES: EmacsConf 2024
+:END:
 * The Future of Org  :emacsconf:emacsconf2024:org:
 :PROPERTIES:
 :DATE: 2024-12-07
@@ -39,6 +73,17 @@
 :YOUTUBE_URL: https://youtu.be/2RJYcqJsldY
 :TOOBNIX_URL: https://toobnix.org/w/2DAHY6wCAXnpeSqwUHaidv
 :TRANSCRIPT_URL: https://media.emacsconf.org/2024/emacsconf-2024-org-update--the-future-of-org--ihor-radchenko--main.vtt
+:SPEAKERS: Ihor Radchenko
+:SERIES: EmacsConf 2024
+:END:
+* Q&A: The Future of Org  :answers:emacsconf:emacsconf2024:
+:PROPERTIES:
+:DATE: 2024-12-07
+:URL: https://emacsconf.org/2024/talks/org-update
+:MEDIA_URL: https://media.emacsconf.org/2024/emacsconf-2024-org-update--the-future-of-org--ihor-radchenko--answers.webm
+:YOUTUBE_URL: https://www.youtube.com/watch?v=lqeOvzeYrd0
+:TOOBNIX_URL: https://toobnix.org/w/jXXgJdCBjM6C1MFqrmqFtQ
+:TRANSCRIPT_URL: https://media.emacsconf.org/2024/emacsconf-2024-org-update--the-future-of-org--ihor-radchenko--answers.vtt
 :SPEAKERS: Ihor Radchenko
 :SERIES: EmacsConf 2024
 :END:
@@ -53,6 +98,17 @@
 :SPEAKERS: Troy Hinckley
 :SERIES: EmacsConf 2024
 :END:
+* Q&A: An experimental Emacs core in Rust  :answers:emacsconf:emacsconf2024:
+:PROPERTIES:
+:DATE: 2024-12-07
+:URL: https://emacsconf.org/2024/talks/rust
+:MEDIA_URL: https://media.emacsconf.org/2024/emacsconf-2024-rust--an-experimental-emacs-core-in-rust--troy-hinckley--answers.webm
+:YOUTUBE_URL: https://www.youtube.com/watch?v=sBpTP0kJV-g
+:TOOBNIX_URL: https://toobnix.org/w/8n3SZoZGuon4C2tyHhAd2H
+:TRANSCRIPT_URL: https://media.emacsconf.org/2024/emacsconf-2024-rust--an-experimental-emacs-core-in-rust--troy-hinckley--answers.vtt
+:SPEAKERS: Troy Hinckley
+:SERIES: EmacsConf 2024
+:END:
 * Colour your Emacs with ease  :emacsconf:emacsconf2024:theming:color:
 :PROPERTIES:
 :DATE: 2024-12-07
@@ -61,6 +117,17 @@
 :YOUTUBE_URL: https://youtu.be/w1Khu7G0MFg
 :TOOBNIX_URL: https://toobnix.org/w/oAGLWntah15B4XHLX19Uqc
 :TRANSCRIPT_URL: https://media.emacsconf.org/2024/emacsconf-2024-color--colour-your-emacs-with-ease--ryota--main.vtt
+:SPEAKERS: Ryota Sawada
+:SERIES: EmacsConf 2024
+:END:
+* Q&A: Colour your Emacs with ease  :answers:emacsconf:emacsconf2024:
+:PROPERTIES:
+:DATE: 2024-12-07
+:URL: https://emacsconf.org/2024/talks/color
+:MEDIA_URL: https://media.emacsconf.org/2024/emacsconf-2024-color--colour-your-emacs-with-ease--ryota--answers.webm
+:YOUTUBE_URL: https://www.youtube.com/watch?v=JJB8mxYEen8
+:TOOBNIX_URL: https://toobnix.org/w/6JccKrjCLLxcpRuhqScfn2
+:TRANSCRIPT_URL: https://media.emacsconf.org/2024/emacsconf-2024-color--colour-your-emacs-with-ease--ryota--answers.vtt
 :SPEAKERS: Ryota Sawada
 :SERIES: EmacsConf 2024
 :END:
@@ -75,6 +142,17 @@
 :SPEAKERS: Zac Romero
 :SERIES: EmacsConf 2024
 :END:
+* Q&A: p-search: a local search engine in Emacs  :answers:emacsconf:emacsconf2024:
+:PROPERTIES:
+:DATE: 2024-12-07
+:URL: https://emacsconf.org/2024/talks/p-search
+:MEDIA_URL: https://media.emacsconf.org/2024/emacsconf-2024-p-search--psearch-a-local-search-engine-in-emacs--zac-romero--answers.webm
+:YOUTUBE_URL: https://www.youtube.com/watch?v=BrT0tlyUgMk
+:TOOBNIX_URL: https://toobnix.org/w/sh5Qns9GeqHwFwbTEMhckh
+:TRANSCRIPT_URL: https://media.emacsconf.org/2024/emacsconf-2024-p-search--psearch-a-local-search-engine-in-emacs--zac-romero--answers.vtt
+:SPEAKERS: Zac Romero
+:SERIES: EmacsConf 2024
+:END:
 * Exploring shared philosophies in Julia and Emacs  :emacsconf:emacsconf2024:julia:
 :PROPERTIES:
 :DATE: 2024-12-07
@@ -83,6 +161,17 @@
 :YOUTUBE_URL: https://youtu.be/RTVXaDR697k
 :TOOBNIX_URL: https://toobnix.org/w/eftuibSfVSWF4okoG5ChfC
 :TRANSCRIPT_URL: https://media.emacsconf.org/2024/emacsconf-2024-julia--exploring-shared-philosophies-in-julia-and-emacs--gabriele-bozzola--main.vtt
+:SPEAKERS: Gabriele Bozzola
+:SERIES: EmacsConf 2024
+:END:
+* Q&A: Exploring shared philosophies in Julia and Emacs  :answers:emacsconf:emacsconf2024:
+:PROPERTIES:
+:DATE: 2024-12-07
+:URL: https://emacsconf.org/2024/talks/julia
+:MEDIA_URL: https://media.emacsconf.org/2024/emacsconf-2024-julia--exploring-shared-philosophies-in-julia-and-emacs--gabriele-bozzola--answers.webm
+:YOUTUBE_URL: https://www.youtube.com/watch?v=CkpadkAZOxs
+:TOOBNIX_URL: https://toobnix.org/w/8j563gDQLnQ624TLeF1PYA
+:TRANSCRIPT_URL: https://media.emacsconf.org/2024/emacsconf-2024-julia--exploring-shared-philosophies-in-julia-and-emacs--gabriele-bozzola--answers.vtt
 :SPEAKERS: Gabriele Bozzola
 :SERIES: EmacsConf 2024
 :END:
@@ -97,6 +186,17 @@
 :SPEAKERS: MetroWind
 :SERIES: EmacsConf 2024
 :END:
+* Q&A: My journey of finding and creating the “perfect” Emacs theme  :answers:emacsconf:emacsconf2024:
+:PROPERTIES:
+:DATE: 2024-12-07
+:URL: https://emacsconf.org/2024/talks/theme
+:MEDIA_URL: https://media.emacsconf.org/2024/emacsconf-2024-theme--my-journey-of-finding-and-creating-the-perfect-emacs-theme--metrowind--answers.webm
+:YOUTUBE_URL: https://www.youtube.com/watch?v=2xiyUItX5Gw
+:TOOBNIX_URL: https://toobnix.org/w/sqEJFjcC2KjnPZRmifpqLC
+:TRANSCRIPT_URL: https://media.emacsconf.org/2024/emacsconf-2024-theme--my-journey-of-finding-and-creating-the-perfect-emacs-theme--metrowind--answers.vtt
+:SPEAKERS: MetroWind
+:SERIES: EmacsConf 2024
+:END:
 * Beguiling Emacs: Guile-Emacs relaunched!  :emacsconf:emacsconf2024:guile:
 :PROPERTIES:
 :DATE: 2024-12-07
@@ -105,6 +205,17 @@
 :YOUTUBE_URL: https://youtu.be/yjC162DnsKI
 :TOOBNIX_URL: https://toobnix.org/w/iizGyFwoAetXBw3Uy67vwj
 :TRANSCRIPT_URL: https://media.emacsconf.org/2024/emacsconf-2024-guile--beguiling-emacs-guileemacs-relaunched--robin-templeton--main.vtt
+:SPEAKERS: Robin Templeton
+:SERIES: EmacsConf 2024
+:END:
+* Q&A: Beguiling Emacs: Guile-Emacs relaunched!  :answers:emacsconf:emacsconf2024:
+:PROPERTIES:
+:DATE: 2024-12-07
+:URL: https://emacsconf.org/2024/talks/guile
+:MEDIA_URL: https://media.emacsconf.org/2024/emacsconf-2024-guile--beguiling-emacs-guileemacs-relaunched--robin-templeton--answers.webm
+:YOUTUBE_URL: https://www.youtube.com/watch?v=c2RAWGTF0V0
+:TOOBNIX_URL: https://toobnix.org/w/9o8V4CJ29rK3Fk4CznSPQ4
+:TRANSCRIPT_URL: https://media.emacsconf.org/2024/emacsconf-2024-guile--beguiling-emacs-guileemacs-relaunched--robin-templeton--answers.vtt
 :SPEAKERS: Robin Templeton
 :SERIES: EmacsConf 2024
 :END:
@@ -152,6 +263,17 @@
 :SPEAKERS: screwlisp
 :SERIES: EmacsConf 2024
 :END:
+* Q&A: Elisp and McCLIM  :answers:emacsconf:emacsconf2024:
+:PROPERTIES:
+:DATE: 2024-12-07
+:URL: https://emacsconf.org/2024/talks/mcclim
+:MEDIA_URL: https://media.emacsconf.org/2024/emacsconf-2024-mcclim--elisp-and-mcclim--screwlisp--answers.webm
+:YOUTUBE_URL: https://www.youtube.com/watch?v=ot57sGD0XTg
+:TOOBNIX_URL: https://toobnix.org/w/pfYUAuMPmkTRfBZSgXFtbT
+:TRANSCRIPT_URL: https://media.emacsconf.org/2024/emacsconf-2024-mcclim--elisp-and-mcclim--screwlisp--answers.vtt
+:SPEAKERS: screwlisp
+:SERIES: EmacsConf 2024
+:END:
 * Re-imagining the Emacs user experience with Casual Suite  :emacsconf:emacsconf2024:keybinding:menu:ui:
 :PROPERTIES:
 :DATE: 2024-12-07
@@ -163,6 +285,17 @@
 :SPEAKERS: Charles Choi
 :SERIES: EmacsConf 2024
 :END:
+* Q&A: Re-imagining the Emacs user experience with Casual Suite  :answers:emacsconf:emacsconf2024:
+:PROPERTIES:
+:DATE: 2024-12-07
+:URL: https://emacsconf.org/2024/talks/casual
+:MEDIA_URL: https://media.emacsconf.org/2024/emacsconf-2024-casual--reimagining-the-emacs-user-experience-with-casual-suite--charles-choi--answers.webm
+:YOUTUBE_URL: https://www.youtube.com/watch?v=x9wPkqNlwrc
+:TOOBNIX_URL: https://toobnix.org/w/bNSTtnXSKU3neu6Cpts6YZ
+:TRANSCRIPT_URL: https://media.emacsconf.org/2024/emacsconf-2024-casual--reimagining-the-emacs-user-experience-with-casual-suite--charles-choi--answers.vtt
+:SPEAKERS: Charles Choi
+:SERIES: EmacsConf 2024
+:END:
 * New in hyperdrive.el: quick install, peer graph, transclusion!  :emacsconf:emacsconf2024:hyperdrive:
 :PROPERTIES:
 :DATE: 2024-12-07
@@ -171,6 +304,17 @@
 :YOUTUBE_URL: https://youtu.be/zG9qFogCY2A
 :TOOBNIX_URL: https://toobnix.org/w/pea2Nfx82eZhBAN2zatdix
 :TRANSCRIPT_URL: https://media.emacsconf.org/2024/emacsconf-2024-hyperdrive--new-in-hyperdriveel-quick-install-peer-graph-transclusion--joseph-turner--main.vtt
+:SPEAKERS: Joseph Turner
+:SERIES: EmacsConf 2024
+:END:
+* Q&A: New in hyperdrive.el: quick install, peer graph, transclusion!  :answers:emacsconf:emacsconf2024:
+:PROPERTIES:
+:DATE: 2024-12-07
+:URL: https://emacsconf.org/2024/talks/hyperdrive
+:MEDIA_URL: https://media.emacsconf.org/2024/emacsconf-2024-hyperdrive--new-in-hyperdriveel-quick-install-peer-graph-transclusion--joseph-turner--answers.webm
+:YOUTUBE_URL: https://www.youtube.com/watch?v=Cibcdy1AceM
+:TOOBNIX_URL: https://toobnix.org/w/m5WTxCLDF37J2qgdge8gua
+:TRANSCRIPT_URL: https://media.emacsconf.org/2024/emacsconf-2024-hyperdrive--new-in-hyperdriveel-quick-install-peer-graph-transclusion--joseph-turner--answers.vtt
 :SPEAKERS: Joseph Turner
 :SERIES: EmacsConf 2024
 :END:
@@ -204,6 +348,17 @@
 :YOUTUBE_URL: https://youtu.be/xZJhMAMI7A0
 :TOOBNIX_URL: https://toobnix.org/w/fxFD5JMMkmj1bazUw4zErx
 :TRANSCRIPT_URL: https://media.emacsconf.org/2024/emacsconf-2024-emacs30--emacs-30-highlights--philip-kaludercic--main.vtt
+:SPEAKERS: Philip Kaludercic
+:SERIES: EmacsConf 2024
+:END:
+* Q&A: Emacs 30 Highlights  :answers:emacsconf:emacsconf2024:
+:PROPERTIES:
+:DATE: 2024-12-07
+:URL: https://emacsconf.org/2024/talks/emacs30
+:MEDIA_URL: https://media.emacsconf.org/2024/emacsconf-2024-emacs30--emacs-30-highlights--philip-kaludercic--answers.webm
+:YOUTUBE_URL: https://www.youtube.com/watch?v=xFPpk_lE9Ss
+:TOOBNIX_URL: https://toobnix.org/w/fxFD5JMMkmj1bazUw4zErx
+:TRANSCRIPT_URL: https://media.emacsconf.org/2024/emacsconf-2024-emacs30--emacs-30-highlights--philip-kaludercic--answers.vtt
 :SPEAKERS: Philip Kaludercic
 :SERIES: EmacsConf 2024
 :END:
@@ -251,6 +406,17 @@
 :SPEAKERS: Bala Ramadurai
 :SERIES: EmacsConf 2024
 :END:
+* Q&A: Survival of the skillest: Thriving in the learning jungle  :answers:emacsconf:emacsconf2024:
+:PROPERTIES:
+:DATE: 2024-12-08
+:URL: https://emacsconf.org/2024/talks/learning
+:MEDIA_URL: https://media.emacsconf.org/2024/emacsconf-2024-learning--survival-of-the-skillest-thriving-in-the-learning-jungle--bala-ramadurai--answers.webm
+:YOUTUBE_URL: https://www.youtube.com/watch?v=IbI37PTJWQw
+:TOOBNIX_URL: https://toobnix.org/w/rnG2fEoHDDeNRSQYRRTrwR
+:TRANSCRIPT_URL: https://media.emacsconf.org/2024/emacsconf-2024-learning--survival-of-the-skillest-thriving-in-the-learning-jungle--bala-ramadurai--answers.vtt
+:SPEAKERS: Bala Ramadurai
+:SERIES: EmacsConf 2024
+:END:
 * About Blee: enveloping our own autonomy directed digital ecosystem with Emacs  :emacsconf:emacsconf2024:StarterKit:config:
 :PROPERTIES:
 :DATE: 2024-12-08
@@ -262,6 +428,17 @@
 :SPEAKERS: Mohsen BANAN
 :SERIES: EmacsConf 2024
 :END:
+* Q&A: About Blee: enveloping our own autonomy directed digital ecosystem with Emacs  :answers:emacsconf:emacsconf2024:
+:PROPERTIES:
+:DATE: 2024-12-08
+:URL: https://emacsconf.org/2024/talks/blee
+:MEDIA_URL: https://media.emacsconf.org/2024/emacsconf-2024-blee--about-blee-towards-an-integrated-emacs-environment-for-enveloping-our-own-autonomy-directed-digital-ecosystem--mohsen-banan--answers.webm
+:YOUTUBE_URL: https://www.youtube.com/watch?v=dtTwQfMGGeg
+:TOOBNIX_URL: https://toobnix.org/w/1kJVXirsko1Q6eUNXGQkwQ
+:TRANSCRIPT_URL: https://media.emacsconf.org/2024/emacsconf-2024-blee--about-blee-towards-an-integrated-emacs-environment-for-enveloping-our-own-autonomy-directed-digital-ecosystem--mohsen-banan--answers.vtt
+:SPEAKERS: Mohsen BANAN
+:SERIES: EmacsConf 2024
+:END:
 * Fun things with GNU Hyperbole  :emacsconf:emacsconf2024:hyperbole:
 :PROPERTIES:
 :DATE: 2024-12-08
@@ -270,6 +447,17 @@
 :YOUTUBE_URL: https://youtu.be/cFdgpb0TeQo
 :TOOBNIX_URL: https://toobnix.org/w/jrZezGxN7xhH9gjfEC3Ux6
 :TRANSCRIPT_URL: https://media.emacsconf.org/2024/emacsconf-2024-hyperbole--fun-things-with-gnu-hyperbole--mats-lidell--main.vtt
+:SPEAKERS: Mats Lidell
+:SERIES: EmacsConf 2024
+:END:
+* Q&A: Fun things with GNU Hyperbole  :answers:emacsconf:emacsconf2024:
+:PROPERTIES:
+:DATE: 2024-12-08
+:URL: https://emacsconf.org/2024/talks/hyperbole
+:MEDIA_URL: https://media.emacsconf.org/2024/emacsconf-2024-hyperbole--fun-things-with-gnu-hyperbole--mats-lidell--answers.webm
+:YOUTUBE_URL: https://www.youtube.com/watch?v=95rtYf2DISo
+:TOOBNIX_URL: https://toobnix.org/w/jrZezGxN7xhH9gjfEC3Ux6
+:TRANSCRIPT_URL: https://media.emacsconf.org/2024/emacsconf-2024-hyperbole--fun-things-with-gnu-hyperbole--mats-lidell--answers.vtt
 :SPEAKERS: Mats Lidell
 :SERIES: EmacsConf 2024
 :END:
@@ -295,6 +483,17 @@
 :SPEAKERS: Eric Marsden
 :SERIES: EmacsConf 2024
 :END:
+* Q&A: PGmacs: browsing and editing PostgreSQL databases from Emacs  :answers:emacsconf:emacsconf2024:
+:PROPERTIES:
+:DATE: 2024-12-08
+:URL: https://emacsconf.org/2024/talks/pgmacs
+:MEDIA_URL: https://media.emacsconf.org/2024/emacsconf-2024-pgmacs--pgmacs-browsing-and-editing-postgresql-databases-from-emacs--eric-marsden--answers.webm
+:YOUTUBE_URL: https://www.youtube.com/watch?v=RBS-A-2EboQ
+:TOOBNIX_URL: https://toobnix.org/w/6nLCiZDJECF1uP9fc54gJQ
+:TRANSCRIPT_URL: https://media.emacsconf.org/2024/emacsconf-2024-pgmacs--pgmacs-browsing-and-editing-postgresql-databases-from-emacs--eric-marsden--answers.vtt
+:SPEAKERS: Eric Marsden
+:SERIES: EmacsConf 2024
+:END:
 * Literate programming for the 21st Century  :emacsconf:emacsconf2024:org:OrgBabel:literate:
 :PROPERTIES:
 :DATE: 2024-12-08
@@ -317,6 +516,17 @@
 :SPEAKERS: Daniel Pinkston
 :SERIES: EmacsConf 2024
 :END:
+* Q&A: An example of a cohesive student workflow in Emacs  :answers:emacsconf:emacsconf2024:
+:PROPERTIES:
+:DATE: 2024-12-08
+:URL: https://emacsconf.org/2024/talks/students
+:MEDIA_URL: https://media.emacsconf.org/2024/emacsconf-2024-students--an-example-of-a-cohesive-student-workflow-in-emacs--daniel-pinkston--answers.webm
+:YOUTUBE_URL: https://www.youtube.com/watch?v=1enIJIW2P_w
+:TOOBNIX_URL: https://toobnix.org/w/tL6A2r56AJ89K2yuxqQNXe
+:TRANSCRIPT_URL: https://media.emacsconf.org/2024/emacsconf-2024-students--an-example-of-a-cohesive-student-workflow-in-emacs--daniel-pinkston--answers.vtt
+:SPEAKERS: Daniel Pinkston
+:SERIES: EmacsConf 2024
+:END:
 * So you want to be an Emacs-fluencer?  :emacsconf:emacsconf2024:video:sharing:
 :PROPERTIES:
 :DATE: 2024-12-08
@@ -336,6 +546,17 @@
 :YOUTUBE_URL: https://youtu.be/0FTBMyLkPFw
 :TOOBNIX_URL:
 :TRANSCRIPT_URL: https://media.emacsconf.org/2024/emacsconf-2024-transducers--transducers-finally-ergonomic-data-processing-for-emacs--colin-woodbury--main.vtt
+:SPEAKERS: Colin Woodbury
+:SERIES: EmacsConf 2024
+:END:
+* Q&A: Transducers: finally, ergonomic data processing for Emacs!  :answers:emacsconf:emacsconf2024:
+:PROPERTIES:
+:DATE: 2024-12-08
+:URL: https://emacsconf.org/2024/talks/transducers
+:MEDIA_URL: https://media.emacsconf.org/2024/emacsconf-2024-transducers--transducers-finally-ergonomic-data-processing-for-emacs--colin-woodbury--answers.webm
+:YOUTUBE_URL: https://www.youtube.com/watch?v=eiYXvm7pPuc
+:TOOBNIX_URL: https://toobnix.org/w/24KYPBvSmvYmsCUC9vAW7A
+:TRANSCRIPT_URL: https://media.emacsconf.org/2024/emacsconf-2024-transducers--transducers-finally-ergonomic-data-processing-for-emacs--colin-woodbury--answers.vtt
 :SPEAKERS: Colin Woodbury
 :SERIES: EmacsConf 2024
 :END:
@@ -393,6 +614,17 @@
 :TRANSCRIPT_URL: https://media.emacsconf.org/2023/emacsconf-2023-teaching--teaching-computer-and-data-science-with-literate-programming-tools--marcus-birkenkrahe--main.vtt
 :SPEAKERS: Marcus Birkenkrahe
 :SERIES: EmacsConf 2023
+:END:
+* Q&A: Literate programming for the 21st Century  :answers:emacsconf:emacsconf2024:
+:PROPERTIES:
+:DATE: 2024-12-08
+:URL: https://emacsconf.org/2024/talks/literate
+:MEDIA_URL: https://media.emacsconf.org/2024/emacsconf-2024-literate--literate-programming-for-the-21st-century--howard-abrams--answers.webm
+:YOUTUBE_URL: https://www.youtube.com/watch?v=18POj8u06xc
+:TOOBNIX_URL: https://toobnix.org/w/24cX5V5z399Ym6QJua8Xbn
+:TRANSCRIPT_URL: https://media.emacsconf.org/2024/emacsconf-2024-literate--literate-programming-for-the-21st-century--howard-abrams--answers.vtt
+:SPEAKERS: Howard Abrams
+:SERIES: EmacsConf 2024
 :END:
 * Enhancing productivity with voice computing  :emacsconf:emacsconf2023:voice:
 :PROPERTIES:
