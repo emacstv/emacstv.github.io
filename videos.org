@@ -2164,6 +2164,67 @@ count-words-region
   ekg can be found at:
   https://github.com/ahyatt/ekg
 
+* 5 Custom Org Agenda Views for Productivity
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=-9rpQA6O3aM&list=PLEoMzSkcN8oM8vAS2dcoeLHtD2DTqKTVY&index=1&pp=iAQB
+:DATE:     2024-08-08T04:57:25-07:00
+:SPEAKERS: System Crafters
+:DURATION: 33:40
+:END:
+  In this video, I'll show you 5 useful custom agenda views for Org Mode in Emacs that can help you design your own productivity workflow using the information you attach to your TODO items.
+
+  #emacs #orgmode #productivity
+
+  SUPPORT THE CHANNEL:
+
+  👍 Support My Work: https://systemcrafters.net/how-to-help/#support-my-work
+  📰 Subscribe to the Newsletter: https://systemcrafters.net/newsletter/
+  👕 https://store.systemcrafters.net
+  📘 Get Your Copy of Mastering Emacs: https://www.masteringemacs.org/r/systemcrafters?utm_source=yt&utm_medium=desc&utm_campaign=scme
+
+  SHOW NOTES:
+
+  https://systemcrafters.net/org-mode-productivity/custom-org-agenda-views/
+
+  CHAPTERS:
+
+  - 00:00 Intro
+  - 01:01 TODOs With Specific Tags
+  - 05:56 Finding Untagged Tasks
+  - 08:36 Combining Agenda Views
+  - 13:21 Tasks From Specific Files
+  - 19:14 Daily Agenda
+  - 26:02 Weekly Review
+
+  JOIN THE COMMUNITY:
+
+  https://systemcrafters.net/community/
+  https://fosstodon.org/@daviwil
+
+  MY CONFIGURATION:
+
+  https://config.daviwil.com
+  https://config.daviwil.com/emacs
+  https://config.daviwil.com/systems (Guix)
+
+  OTHER SERIES:
+
+  - Emacs Essentials: https://www.youtube.com/watch?v=48JlgiBpw_I&list=PLEoMzSkcN8oPZvSdewHG8uApD7THlLLCV
+  - Emacs From Scratch (2020 Version): https://www.youtube.com/watch?v=74zOY-vgkyw&list=PLEoMzSkcN8oPH1au7H6B7bBJ4ZO7BXjSZ
+  - Emacs Tips: https://www.youtube.com/watch?v=wKTKmE1wLyw&list=PLEoMzSkcN8oMHJ6Xil1YdnYtlWd5hHZql
+  - Emacs Desktop Environment: https://www.youtube.com/watch?v=f7xB2fFk1tQ&list=PLEoMzSkcN8oNPbEMYEtswOVTvq7CVddCS
+  - Emacs IDE: https://www.youtube.com/watch?v=E-NAM9U5JYE&list=PLEoMzSkcN8oNvsrtk_iZSb94krGRofFjN
+  - Emacs Mail: https://www.youtube.com/watch?v=yZRyEhi4y44&list=PLEoMzSkcN8oM-kA19xOQc8s0gr0PpFGJQ
+  - Learning Emacs Lisp: https://www.youtube.com/watch?v=RQK_DaaX34Q&list=PLEoMzSkcN8oPQtn7FQEF3D7sroZbXuPZ7
+  - Craft Your System with GNU Guix: https://www.youtube.com/watch?v=iBaqOK75cho&list=PLEoMzSkcN8oNxnj7jm5V2ZcGc52002pQU
+
+  CREDITS:
+
+  Coriolis Effect by logos feat. stefsax, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/mseq/26296
+  reNovation by airtone, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/airtone/60674
+  ukeSounds by airtone, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/airtone/32655
+  Between Worlds (Instrumental) by Aussens@iter, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/tobias_weber/56664
+
 * Emacs: exclude directories in Denote's Org dynamic blocks
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=RvKK5vLQiuQ
@@ -2176,6 +2237,64 @@ count-words-region
   * * *
 
   Find all my publications on my website (Emacs, philosophy, mechanical keyboards, etc.): https://protesilaos.com
+
+* Never Miss a Task Again - Tagging Org Mode TODOs by Context
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=GP8uOU6SSyk&list=PLEoMzSkcN8oM8vAS2dcoeLHtD2DTqKTVY&index=2&pp=iAQB
+:DATE:     2024-07-23T06:29:47-07:00
+:SPEAKERS: System Crafters
+:DURATION: 20:37
+:END:
+  In this video, I'll show you how I design tags for my Org Mode TODO items that ensure that I don't miss any of them by organizing the tasks via related contexts.  If you have TODO items spread across multiple Org files and can't keep track of them all, this video is for you!
+
+  SUPPORT THE CHANNEL:
+
+  👍 Support My Work: https://systemcrafters.net/how-to-help/#support-my-work
+  📰 Subscribe to the Newsletter: https://systemcrafters.net/newsletter/
+  👕 https://store.systemcrafters.net
+  📘 Get Your Copy of Mastering Emacs: https://www.masteringemacs.org/r/systemcrafters?utm_source=yt&utm_medium=desc&utm_campaign=scme
+
+  SHOW NOTES:
+
+  https://systemcrafters.net/org-mode-productivity/effective-task-tags-by-context/
+
+  CHAPTERS:
+
+  - 00:00 The Problem
+  - 01:08 The Solution
+  - 02:53 Designing Context Tags
+  - 10:29 Filtering the Org Agenda
+  - 16:06 Efficiently Tagging TODOs
+  - 19:24 Conclusion
+
+  JOIN THE COMMUNITY:
+
+  https://systemcrafters.net/community/
+  https://fosstodon.org/@daviwil
+
+  MY CONFIGURATION:
+
+  https://config.daviwil.com
+  https://config.daviwil.com/emacs
+  https://config.daviwil.com/systems (Guix)
+
+  OTHER SERIES:
+
+  - Emacs Essentials: https://www.youtube.com/watch?v=48JlgiBpw_I&list=PLEoMzSkcN8oPZvSdewHG8uApD7THlLLCV
+  - Emacs From Scratch (2020 Version): https://www.youtube.com/watch?v=74zOY-vgkyw&list=PLEoMzSkcN8oPH1au7H6B7bBJ4ZO7BXjSZ
+  - Emacs Tips: https://www.youtube.com/watch?v=wKTKmE1wLyw&list=PLEoMzSkcN8oMHJ6Xil1YdnYtlWd5hHZql
+  - Emacs Desktop Environment: https://www.youtube.com/watch?v=f7xB2fFk1tQ&list=PLEoMzSkcN8oNPbEMYEtswOVTvq7CVddCS
+  - Emacs IDE: https://www.youtube.com/watch?v=E-NAM9U5JYE&list=PLEoMzSkcN8oNvsrtk_iZSb94krGRofFjN
+  - Emacs Mail: https://www.youtube.com/watch?v=yZRyEhi4y44&list=PLEoMzSkcN8oM-kA19xOQc8s0gr0PpFGJQ
+  - Learning Emacs Lisp: https://www.youtube.com/watch?v=RQK_DaaX34Q&list=PLEoMzSkcN8oPQtn7FQEF3D7sroZbXuPZ7
+  - Craft Your System with GNU Guix: https://www.youtube.com/watch?v=iBaqOK75cho&list=PLEoMzSkcN8oNxnj7jm5V2ZcGc52002pQU
+
+  CREDITS:
+
+  Coriolis Effect by logos feat. stefsax, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/mseq/26296
+  reNovation by airtone, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/airtone/60674
+  ukeSounds by airtone, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/airtone/32655
+  Between Worlds (Instrumental) by Aussens@iter, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/tobias_weber/56664
 
 * Emacs: use-package essentials
 :PROPERTIES:
@@ -25252,6 +25371,62 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
   MUSIC
   Day Like These
   https://www.youtube.com/watch?v=RTGEoh-vPIc
+
+* Creating Custom Minor Modes - Learning Emacs Lisp #7
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=JJqchO3fnds&list=PLEoMzSkcN8oPQtn7FQEF3D7sroZbXuPZ7&index=7&pp=iAQB
+:DATE:     2021-04-14T09:13:25-07:00
+:SPEAKERS: System Crafters
+:DURATION: 50:19
+:END:
+  In this video, we'll learn how to create custom minor modes and hooks in Emacs Lisp!  We'll also continue with our dotcrafter.el project by creating a minor mode that will cause our Org Mode configuration files to be automatically tangled when saved.
+
+  Check out the show notes here: https://systemcrafters.cc/learning-emacs-lisp/creating-minor-modes
+
+  The code for dotcrafter.el can be found here: https://github.com/daviwil/dotcrafter.el
+
+  We cover the following topics:
+
+  - 0:00 Intro
+  - 0:34 What will we learn?
+  - 1:53 What is a "mode"?
+  - 6:46 Writing a basic minor mode
+  - 12:44 Example: Creating a simple minor mode from scratch
+  - 22:26 Creating a Hook
+  - 25:55 Using the define-minor-mode macro
+  - 34:09 Example: Writing real behavior for dotcrafter-mode
+  - 47:39 What's next?
+
+  My Emacs configuration: https://config.daviwil.com/emacs
+  My system configurations: https://config.daviwil.com/systems
+
+  If you enjoy this series, please consider becoming a sponsor on GitHub or Patreon:
+
+  - https://github.com/sponsors/daviwil
+  - https://patreon.com/SystemCrafters
+
+  You can also leave a tip via PayPal: https://paypal.me/daviwil
+
+  Follow me on Twitter for more GNU Emacs and GNU Guix content!
+  https://twitter.com/SystemCrafters
+
+  Chat with the System Crafters community on Discord: https://discord.gg/yVD8Gx6
+
+  Check out my other video series!
+
+  - Emacs From Scratch: https://www.youtube.com/watch?v=74zOY-vgkyw&list=PLEoMzSkcN8oPH1au7H6B7bBJ4ZO7BXjSZ
+  - Emacs Tips: https://www.youtube.com/watch?v=wKTKmE1wLyw&list=PLEoMzSkcN8oMHJ6Xil1YdnYtlWd5hHZql
+  - Emacs Desktop Environment: https://www.youtube.com/watch?v=f7xB2fFk1tQ&list=PLEoMzSkcN8oNPbEMYEtswOVTvq7CVddCS
+  - Emacs IDE: https://www.youtube.com/watch?v=E-NAM9U5JYE&list=PLEoMzSkcN8oNvsrtk_iZSb94krGRofFjN
+  - Emacs Mail: https://www.youtube.com/watch?v=yZRyEhi4y44&list=PLEoMzSkcN8oM-kA19xOQc8s0gr0PpFGJQ
+  - Learning Emacs Lisp: https://www.youtube.com/watch?v=RQK_DaaX34Q&list=PLEoMzSkcN8oPQtn7FQEF3D7sroZbXuPZ7
+
+  Music credits:
+
+  Coriolis Effect by logos feat. stefsax, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/mseq/26296
+  reNovation by airtone, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/airtone/60674
+  ukeSounds by airtone, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/airtone/32655
+  Between Worlds (Instrumental) by Aussens@iter, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/tobias_weber/56664
 
 * Emacs: Diary and Calendar
 :PROPERTIES:
