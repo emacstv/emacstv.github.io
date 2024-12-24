@@ -134,17 +134,11 @@
     </item>
     <item>
       <title>Emacs: custom Org clock report for my coaching</title>
-      <link>https://www.youtube.com/watch?v=FMutOCOoFSQ&amp;list=PL8Bwba5vnQK14z96Gil86pLMDO2GnOhQ6&amp;index=1&amp;pp=iAQB</link>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=FMutOCOoFSQ&list=PL8Bwba5vnQK14z96Gil86pLMDO2GnOhQ6&index=1&pp=iAQB">youtube</a><br><br>In this video, I demonstrate the custom code I have to generate Org clock reports for my coaching sessions. The idea is to use the `DEADLINE` and `CLOSED` timestamps of each task to calculate their elapsed time. This way, I do not need to manually clock in to the task and then clock out of it. It is easier to not have that overhead and not to duplicate the data that is already embedded in the aforementioned timestamps.
+      <link>https://protesilaos.com/codelog/2024-12-15-emacs-org-coaching-clock/</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=FMutOCOoFSQ">youtube</a><br><br>In this video, I demonstrate the custom code I have to generate Org clock reports for my coaching sessions. The idea is to use the `DEADLINE` and `CLOSED` timestamps of each task to calculate their elapsed time. This way, I do not need to manually clock in to the task and then clock out of it. It is easier to not have that overhead and not to duplicate the data that is already embedded in the aforementioned timestamps.
 
   The code for this is available on my website here: https://protesilaos.com/codelog/2024-12-15-emacs-org-coaching-clock</div>]]></description>
       <pubDate>Sun, 15 Dec 2024 16:02:56 +0100</pubDate>
-    </item>
-    <item>
-      <title>Get Started with Clojure Programming with Cider</title>
-      <link>https://www.youtube.com/watch?v=evmRpr_DEBQ</link>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=evmRpr_DEBQ">youtube</a><br><br></div>]]></description>
-      <pubDate>Sun, 15 Dec 2024 00:00:00 +0100</pubDate>
     </item>
     <item>
       <title>Get Started with Clojure Programming with Cider</title>
@@ -2541,6 +2535,26 @@ DAP mode is a powerful tool for debugging your code within Emacs. By leveraging 
 
   Your support is very much appreciated. Thanks, guys!</div>]]></description>
       <pubDate>Tue, 05 Sep 2023 15:00:06 +0200</pubDate>
+    </item>
+    <item>
+      <title>Simple, Non-Commercial, Open Source Notes</title>
+      <link>https://www.youtube.com/watch?v=XRpHIa-2XCE</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=XRpHIa-2XCE">youtube</a><br><br>A 30 minute video about opening up a text box and typing something into it for later, made for people who watch videos about doing that rather than just getting work done.
+
+00:29 Requirements
+4:10 Zettlr, VNote, and nb
+5:48 Zim
+7:50 QOwnNotes
+12:31 The end of pretending this is about productivity
+14:48 Emacs
+21:18 Neovim
+25:59 It never ends
+27:12 Kakoune, Helix, Vis, Neatvi (I don't use these)
+
+Please look at silverbullet.md, a browser based, MIT licensed markdown notes editor that seems very in line with my personal tastes. It would be up there in the A tier.
+
+I’ve messed with Kakoune a bit and think I’ll make a follow up about taking notes in kak (and Helix) since there were some challenges and considerations. Emacs is the best all around for notes but can be slow, Neovim is the fastest and best supported, Kakoune has interesting consistent bindings and minimalist philosophy, and Helix is snappy and kak-ish but wordier and not extensible. I could just pick one and stick with it but why not overanalyze all of them more??</div>]]></description>
+      <pubDate>Tue, 22 Aug 2023 06:03:00 +0200</pubDate>
     </item>
     <item>
       <title>Cleaning Up My Emacs Config - Configuring Emacs 06</title>
@@ -7031,74 +7045,6 @@ DAP mode is a powerful tool for debugging your code within Emacs. By leveraging 
       <pubDate>Sun, 04 Dec 2022 00:00:00 +0100</pubDate>
     </item>
     <item>
-      <title>Trying Out Emacs 29, Part 2 - System Crafters Live!</title>
-      <link>https://www.youtube.com/watch?v=E2KGCbLDcp8</link>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=E2KGCbLDcp8">youtube</a><br><br></div>]]></description>
-      <pubDate>Sat, 03 Dec 2022 07:05:20 +0100</pubDate>
-    </item>
-    <item>
-      <title>Trying Out Emacs 29, Part 2 - System Crafters Live!</title>
-      <link>https://www.youtube.com/watch?v=E2KGCbLDcp8</link>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=E2KGCbLDcp8">youtube</a><br><br>Powered by Restream https://restream.io</div>]]></description>
-      <pubDate>Sat, 03 Dec 2022 07:05:20 +0100</pubDate>
-    </item>
-    <item>
-      <title>Trying New Emacs 29 Features - System Crafters Live!</title>
-      <link>https://www.youtube.com/watch?v=9zwNH2Orw8s</link>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=9zwNH2Orw8s">youtube</a><br><br>Turn your videos into live streams with Restream https://restre.am/ANIm
-
-  In today's stream, we'll try out a few of the amazing new features that are coming in Emacs 29.  This will be one of the most impactful releases in years!
-
-  SUPPORT THE CHANNEL:
-
-  👕 https://store.systemcrafters.net
-  👍 https://systemcrafters.net/support-the-channel
-  📘 Get Your Copy of Mastering Emacs: https://www.masteringemacs.org/r/systemcrafters?utm_source=yt&utm_medium=desc&utm_campaign=scme
-  🌐 Buy a domain with Namecheap: https://namecheap.pxf.io/NK0yXK
-
-
-  SHOW NOTES:
-
-  https://systemcrafters.net/live-streams/december-2-2022/
-
-  MY CONFIGURATION:
-
-  https://config.daviwil.com
-  https://config.daviwil.com/emacs
-  https://config.daviwil.com/systems (Guix)
-
-  JOIN THE COMMUNITY:
-
-  http://systemcrafters.chat (IRC and Discord)
-  https://twitter.com/SystemCrafters
-
-  OTHER SERIES:
-
-  - Emacs Essentials: https://www.youtube.com/watch?v=48JlgiBpw_I&list=PLEoMzSkcN8oPZvSdewHG8uApD7THlLLCV
-  - Emacs From Scratch: https://www.youtube.com/watch?v=74zOY-vgkyw&list=PLEoMzSkcN8oPH1au7H6B7bBJ4ZO7BXjSZ
-  - Emacs Tips: https://www.youtube.com/watch?v=wKTKmE1wLyw&list=PLEoMzSkcN8oMHJ6Xil1YdnYtlWd5hHZql
-  - Emacs Desktop Environment: https://www.youtube.com/watch?v=f7xB2fFk1tQ&list=PLEoMzSkcN8oNPbEMYEtswOVTvq7CVddCS
-  - Emacs IDE: https://www.youtube.com/watch?v=E-NAM9U5JYE&list=PLEoMzSkcN8oNvsrtk_iZSb94krGRofFjN
-  - Emacs Mail: https://www.youtube.com/watch?v=yZRyEhi4y44&list=PLEoMzSkcN8oM-kA19xOQc8s0gr0PpFGJQ
-  - Learning Emacs Lisp: https://www.youtube.com/watch?v=RQK_DaaX34Q&list=PLEoMzSkcN8oPQtn7FQEF3D7sroZbXuPZ7
-  - Craft Your System with GNU Guix: https://www.youtube.com/watch?v=iBaqOK75cho&list=PLEoMzSkcN8oNxnj7jm5V2ZcGc52002pQU
-
-  MY SECOND CHANNEL:
-
-  On the Flux Harmonic channel I do live coding twice a week using many of the tools we talk about on System Crafters!
-
-  - https://youtube.com/FluxHarmonicLive
-  - https://fluxharmonic.com
-
-  CREDITS:
-
-  Coriolis Effect by logos feat. stefsax, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/mseq/26296
-  reNovation by airtone, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/airtone/60674
-  ukeSounds by airtone, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/airtone/32655
-  Between Worlds (Instrumental) by Aussens@iter, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/tobias_weber/56664</div>]]></description>
-      <pubDate>Sat, 03 Dec 2022 06:42:28 +0100</pubDate>
-    </item>
-    <item>
       <title>Emacs journalism (or everything&apos;s a nail if you hit it with Emacs)</title>
       <link>https://emacsconf.org/2022/talks/journalism</link>
       <description><![CDATA[<div id="content"><a href="https://media.emacsconf.org/2022/emacsconf-2022-journalism--emacs-journalism-or-everythings-a-nail-if-you-hit-it-with-emacs--alfred-zanini--main.vtt">transcript</a>&nbsp;·&nbsp;<a href="https://toobnix.org/w/nqaGcHbHSY2dGxVpzvc3WX">toobnix</a>&nbsp;·&nbsp;<a href="https://youtu.be/E1GSKjx4S3Q">youtube</a>&nbsp;·&nbsp;<a href="https://media.emacsconf.org/2022/emacsconf-2022-journalism--emacs-journalism-or-everythings-a-nail-if-you-hit-it-with-emacs--alfred-zanini--main.webm">media</a><br><br></div>]]></description>
@@ -7217,6 +7163,74 @@ DAP mode is a powerful tool for debugging your code within Emacs. By leveraging 
       <link>https://emacsconf.org/2022/talks/sat-close</link>
       <description><![CDATA[<div id="content"><a href="https://media.emacsconf.org/2022/emacsconf-2022-sat-close--saturday-closing-remarks--main.vtt">transcript</a>&nbsp;·&nbsp;<a href="">toobnix</a>&nbsp;·&nbsp;<a href="">youtube</a>&nbsp;·&nbsp;<a href="https://media.emacsconf.org/2022/emacsconf-2022-sat-close--saturday-closing-remarks--main.webm">media</a><br><br></div>]]></description>
       <pubDate>Sat, 03 Dec 2022 00:00:00 +0100</pubDate>
+    </item>
+    <item>
+      <title>Trying Out Emacs 29, Part 2 - System Crafters Live!</title>
+      <link>https://www.youtube.com/watch?v=E2KGCbLDcp8</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=E2KGCbLDcp8">youtube</a><br><br></div>]]></description>
+      <pubDate>Sat, 03 Dec 2022 07:05:20 +0100</pubDate>
+    </item>
+    <item>
+      <title>Trying Out Emacs 29, Part 2 - System Crafters Live!</title>
+      <link>https://www.youtube.com/watch?v=E2KGCbLDcp8</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=E2KGCbLDcp8">youtube</a><br><br>Powered by Restream https://restream.io</div>]]></description>
+      <pubDate>Sat, 03 Dec 2022 07:05:20 +0100</pubDate>
+    </item>
+    <item>
+      <title>Trying New Emacs 29 Features - System Crafters Live!</title>
+      <link>https://www.youtube.com/watch?v=9zwNH2Orw8s</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=9zwNH2Orw8s">youtube</a><br><br>Turn your videos into live streams with Restream https://restre.am/ANIm
+
+  In today's stream, we'll try out a few of the amazing new features that are coming in Emacs 29.  This will be one of the most impactful releases in years!
+
+  SUPPORT THE CHANNEL:
+
+  👕 https://store.systemcrafters.net
+  👍 https://systemcrafters.net/support-the-channel
+  📘 Get Your Copy of Mastering Emacs: https://www.masteringemacs.org/r/systemcrafters?utm_source=yt&utm_medium=desc&utm_campaign=scme
+  🌐 Buy a domain with Namecheap: https://namecheap.pxf.io/NK0yXK
+
+
+  SHOW NOTES:
+
+  https://systemcrafters.net/live-streams/december-2-2022/
+
+  MY CONFIGURATION:
+
+  https://config.daviwil.com
+  https://config.daviwil.com/emacs
+  https://config.daviwil.com/systems (Guix)
+
+  JOIN THE COMMUNITY:
+
+  http://systemcrafters.chat (IRC and Discord)
+  https://twitter.com/SystemCrafters
+
+  OTHER SERIES:
+
+  - Emacs Essentials: https://www.youtube.com/watch?v=48JlgiBpw_I&list=PLEoMzSkcN8oPZvSdewHG8uApD7THlLLCV
+  - Emacs From Scratch: https://www.youtube.com/watch?v=74zOY-vgkyw&list=PLEoMzSkcN8oPH1au7H6B7bBJ4ZO7BXjSZ
+  - Emacs Tips: https://www.youtube.com/watch?v=wKTKmE1wLyw&list=PLEoMzSkcN8oMHJ6Xil1YdnYtlWd5hHZql
+  - Emacs Desktop Environment: https://www.youtube.com/watch?v=f7xB2fFk1tQ&list=PLEoMzSkcN8oNPbEMYEtswOVTvq7CVddCS
+  - Emacs IDE: https://www.youtube.com/watch?v=E-NAM9U5JYE&list=PLEoMzSkcN8oNvsrtk_iZSb94krGRofFjN
+  - Emacs Mail: https://www.youtube.com/watch?v=yZRyEhi4y44&list=PLEoMzSkcN8oM-kA19xOQc8s0gr0PpFGJQ
+  - Learning Emacs Lisp: https://www.youtube.com/watch?v=RQK_DaaX34Q&list=PLEoMzSkcN8oPQtn7FQEF3D7sroZbXuPZ7
+  - Craft Your System with GNU Guix: https://www.youtube.com/watch?v=iBaqOK75cho&list=PLEoMzSkcN8oNxnj7jm5V2ZcGc52002pQU
+
+  MY SECOND CHANNEL:
+
+  On the Flux Harmonic channel I do live coding twice a week using many of the tools we talk about on System Crafters!
+
+  - https://youtube.com/FluxHarmonicLive
+  - https://fluxharmonic.com
+
+  CREDITS:
+
+  Coriolis Effect by logos feat. stefsax, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/mseq/26296
+  reNovation by airtone, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/airtone/60674
+  ukeSounds by airtone, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/airtone/32655
+  Between Worlds (Instrumental) by Aussens@iter, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/tobias_weber/56664</div>]]></description>
+      <pubDate>Sat, 03 Dec 2022 06:42:28 +0100</pubDate>
     </item>
     <item>
       <title>Emacs For Writers | How To Wrap Text</title>
@@ -16350,60 +16364,6 @@ DAP mode is a powerful tool for debugging your code within Emacs. By leveraging 
       <pubDate>Sat, 27 Nov 2021 14:57:43 +0100</pubDate>
     </item>
     <item>
-      <title>System Crafters Live - I&apos;m Rewriting My Configuration... Again</title>
-      <link>https://www.youtube.com/watch?v=2VpHr6sfLy0</link>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=2VpHr6sfLy0">youtube</a><br><br></div>]]></description>
-      <pubDate>Sat, 27 Nov 2021 07:14:09 +0100</pubDate>
-    </item>
-    <item>
-      <title>System Crafters Live - I&apos;m Rewriting My Configuration... Again</title>
-      <link>https://www.youtube.com/watch?v=2VpHr6sfLy0</link>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=2VpHr6sfLy0">youtube</a><br><br>In this stream, we'll talk about the plans I have for next year and the specific improvements I'll make to my configuration to enable them.  It's time for a rewrite!
-
-  SUPPORT THE CHANNEL:
-
-  👕 https://store.systemcrafters.net
-  👍 https://systemcrafters.net/support-the-channel
-  🌐 Buy a domain with Namecheap: https://namecheap.pxf.io/NK0yXK
-
-  SHOW NOTES:
-
-  https://systemcrafters.net/live-streams/november-26-2021/
-
-  MY CONFIGURATION:
-
-  https://config.daviwil.com
-  https://config.daviwil.com/emacs
-  https://config.daviwil.com/systems (Guix)
-
-  JOIN THE COMMUNITY:
-
-  http://systemcrafters.chat (IRC and Discord)
-  https://twitter.com/SystemCrafters
-
-  OTHER SERIES:
-
-  - Emacs Essentials: https://www.youtube.com/watch?v=48JlgiBpw_I&list=PLEoMzSkcN8oPZvSdewHG8uApD7THlLLCV
-  - Emacs From Scratch: https://www.youtube.com/watch?v=74zOY-vgkyw&list=PLEoMzSkcN8oPH1au7H6B7bBJ4ZO7BXjSZ
-  - Emacs Tips: https://www.youtube.com/watch?v=wKTKmE1wLyw&list=PLEoMzSkcN8oMHJ6Xil1YdnYtlWd5hHZql
-  - Emacs Desktop Environment: https://www.youtube.com/watch?v=f7xB2fFk1tQ&list=PLEoMzSkcN8oNPbEMYEtswOVTvq7CVddCS
-  - Emacs IDE: https://www.youtube.com/watch?v=E-NAM9U5JYE&list=PLEoMzSkcN8oNvsrtk_iZSb94krGRofFjN
-  - Emacs Mail: https://www.youtube.com/watch?v=yZRyEhi4y44&list=PLEoMzSkcN8oM-kA19xOQc8s0gr0PpFGJQ
-  - Learning Emacs Lisp: https://www.youtube.com/watch?v=RQK_DaaX34Q&list=PLEoMzSkcN8oPQtn7FQEF3D7sroZbXuPZ7
-  - Craft Your System with GNU Guix: https://www.youtube.com/watch?v=iBaqOK75cho&list=PLEoMzSkcN8oNxnj7jm5V2ZcGc52002pQU
-
-  CREDITS:
-
-  Coriolis Effect by logos feat. stefsax, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/mseq/26296
-  reNovation by airtone, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/airtone/60674
-  ukeSounds by airtone, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/airtone/32655
-  Between Worlds (Instrumental) by Aussens@iter, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/tobias_weber/56664
-
-
-  Powered by Restream https://restream.io/</div>]]></description>
-      <pubDate>Sat, 27 Nov 2021 07:14:09 +0100</pubDate>
-    </item>
-    <item>
       <title>The True Frownies are the Friends We Made Along the Way: An Anecdote of Emacs&apos;s Malleability</title>
       <link>https://emacsconf.org/2021/talks/frownies</link>
       <description><![CDATA[<div id="content"><a href="https://media.emacsconf.org/2021/emacsconf-2021-frownies--the-true-frownies-are-the-friends-we-made-along-the-way-an-anecdote-of-emacs-s-malleability--case-duckworth--main.vtt">transcript</a>&nbsp;·&nbsp;<a href="https://toobnix.org/w/5s64FqtX3pqq4uYDwtTvrA">toobnix</a>&nbsp;·&nbsp;<a href="https://youtu.be/CZn_H93wc5A">youtube</a>&nbsp;·&nbsp;<a href="https://media.emacsconf.org/2021/emacsconf-2021-frownies--the-true-frownies-are-the-friends-we-made-along-the-way-an-anecdote-of-emacs-s-malleability--case-duckworth--main.webm">media</a><br><br></div>]]></description>
@@ -16576,6 +16536,60 @@ DAP mode is a powerful tool for debugging your code within Emacs. By leveraging 
       <link>https://emacsconf.org/2021/talks/day1-close</link>
       <description><![CDATA[<div id="content"><a href="https://media.emacsconf.org/2021/nil--main.vtt">transcript</a>&nbsp;·&nbsp;<a href="">toobnix</a>&nbsp;·&nbsp;<a href="">youtube</a>&nbsp;·&nbsp;<a href="https://media.emacsconf.org/2021/nil--main.webm">media</a><br><br></div>]]></description>
       <pubDate>Sat, 27 Nov 2021 00:00:00 +0100</pubDate>
+    </item>
+    <item>
+      <title>System Crafters Live - I&apos;m Rewriting My Configuration... Again</title>
+      <link>https://www.youtube.com/watch?v=2VpHr6sfLy0</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=2VpHr6sfLy0">youtube</a><br><br></div>]]></description>
+      <pubDate>Sat, 27 Nov 2021 07:14:09 +0100</pubDate>
+    </item>
+    <item>
+      <title>System Crafters Live - I&apos;m Rewriting My Configuration... Again</title>
+      <link>https://www.youtube.com/watch?v=2VpHr6sfLy0</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=2VpHr6sfLy0">youtube</a><br><br>In this stream, we'll talk about the plans I have for next year and the specific improvements I'll make to my configuration to enable them.  It's time for a rewrite!
+
+  SUPPORT THE CHANNEL:
+
+  👕 https://store.systemcrafters.net
+  👍 https://systemcrafters.net/support-the-channel
+  🌐 Buy a domain with Namecheap: https://namecheap.pxf.io/NK0yXK
+
+  SHOW NOTES:
+
+  https://systemcrafters.net/live-streams/november-26-2021/
+
+  MY CONFIGURATION:
+
+  https://config.daviwil.com
+  https://config.daviwil.com/emacs
+  https://config.daviwil.com/systems (Guix)
+
+  JOIN THE COMMUNITY:
+
+  http://systemcrafters.chat (IRC and Discord)
+  https://twitter.com/SystemCrafters
+
+  OTHER SERIES:
+
+  - Emacs Essentials: https://www.youtube.com/watch?v=48JlgiBpw_I&list=PLEoMzSkcN8oPZvSdewHG8uApD7THlLLCV
+  - Emacs From Scratch: https://www.youtube.com/watch?v=74zOY-vgkyw&list=PLEoMzSkcN8oPH1au7H6B7bBJ4ZO7BXjSZ
+  - Emacs Tips: https://www.youtube.com/watch?v=wKTKmE1wLyw&list=PLEoMzSkcN8oMHJ6Xil1YdnYtlWd5hHZql
+  - Emacs Desktop Environment: https://www.youtube.com/watch?v=f7xB2fFk1tQ&list=PLEoMzSkcN8oNPbEMYEtswOVTvq7CVddCS
+  - Emacs IDE: https://www.youtube.com/watch?v=E-NAM9U5JYE&list=PLEoMzSkcN8oNvsrtk_iZSb94krGRofFjN
+  - Emacs Mail: https://www.youtube.com/watch?v=yZRyEhi4y44&list=PLEoMzSkcN8oM-kA19xOQc8s0gr0PpFGJQ
+  - Learning Emacs Lisp: https://www.youtube.com/watch?v=RQK_DaaX34Q&list=PLEoMzSkcN8oPQtn7FQEF3D7sroZbXuPZ7
+  - Craft Your System with GNU Guix: https://www.youtube.com/watch?v=iBaqOK75cho&list=PLEoMzSkcN8oNxnj7jm5V2ZcGc52002pQU
+
+  CREDITS:
+
+  Coriolis Effect by logos feat. stefsax, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/mseq/26296
+  reNovation by airtone, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/airtone/60674
+  ukeSounds by airtone, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/airtone/32655
+  Between Worlds (Instrumental) by Aussens@iter, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/tobias_weber/56664
+
+
+  Powered by Restream https://restream.io/</div>]]></description>
+      <pubDate>Sat, 27 Nov 2021 07:14:09 +0100</pubDate>
     </item>
     <item>
       <title>Emacs Hacking: creating graphviz trees from Org lists [Livestream Archive]</title>
