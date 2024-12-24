@@ -67,24 +67,19 @@ Returns nil if not found."
 (defun emacstv-export-rss ()
   (interactive)
   (with-current-buffer (find-file-noselect emacstv-index-org)
-    ;; TODO: Consider sorting video.org so we don't have to elsewhere.
-    (let ((data (sort (org-map-entries
-                       (lambda ()
-                         (let* ((end (save-excursion
-                                       (org-end-of-subtree)))
-                                (start (progn
-                                         (org-end-of-meta-data t)
-                                         (point)))
-                                (body (if (< start end)
-                                          (string-trim (buffer-substring start end))
-                                        "")))
-                           (append (org-entry-properties)
-                                   `(("BODY" . ,body)))))
-                       "LEVEL=1")
-                      (lambda (a b)
-                        (time-less-p
-                         (date-to-time (or (map-elt b "DATE") ""))
-                         (date-to-time (or (map-elt a "DATE") "")))))))
+    (let ((data (org-map-entries
+                 (lambda ()
+                   (let* ((end (save-excursion
+                                 (org-end-of-subtree)))
+                          (start (progn
+                                   (org-end-of-meta-data t)
+                                   (point)))
+                          (body (if (< start end)
+                                    (string-trim (buffer-substring start end))
+                                  "")))
+                     (append (org-entry-properties)
+                             `(("BODY" . ,body)))))
+                 "LEVEL=1")))
       (with-temp-file (expand-file-name "videos.rss"
                                         (file-name-directory emacstv-index-org))
         (insert (format "
