@@ -110,8 +110,8 @@ Returns nil if not found."
       <description><![CDATA[<div id=\"content\">%s</div>]]></description>
       <pubDate>%s</pubDate>
     </item>"
-                            title
-                            url
+                            (xml-escape-string title)
+                            (xml-escape-string url)
                             (if-let ((links (concat
                                              (mapconcat
                                               (lambda (url)
