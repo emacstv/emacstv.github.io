@@ -147,9 +147,10 @@
 :DATE: 2024-12-16
 :END:
 This video shows how litdb is integrated into Emacs. You can use it to insert text about articles you want to review, search your litdb with semantic and fulltext queries, make links to entries in your database, interface with a GPT, and export your notes to PDF.
-* Emacs: custom Org clock report for my coaching
+* Emacs: custom Org clock report for my coaching :org:clock:
 :PROPERTIES:
-:YOUTUBE_URL: https://www.youtube.com/watch?v=FMutOCOoFSQ&list=PL8Bwba5vnQK14z96Gil86pLMDO2GnOhQ6&index=1&pp=iAQB
+:YOUTUBE_URL: https://www.youtube.com/watch?v=FMutOCOoFSQ
+:URL:      https://protesilaos.com/codelog/2024-12-15-emacs-org-coaching-clock/
 :DATE:     2024-12-15T07:02:56-08:00
 :SPEAKERS: Protesilaos Stavrou
 :DURATION: 13:08
@@ -158,14 +159,6 @@ This video shows how litdb is integrated into Emacs. You can use it to insert te
 
   The code for this is available on my website here: https://protesilaos.com/codelog/2024-12-15-emacs-org-coaching-clock
 
-* Custom Org clock report for my coaching                         :org:clock:
-:PROPERTIES:
-:YOUTUBE_URL: https://www.youtube.com/watch?v=FMutOCOoFSQ
-:URL:      https://protesilaos.com/codelog/2024-12-15-emacs-org-coaching-clock/
-:SPEAKERS: Protesilaos Stavrou
-:DURATION: 13:08
-:DATE: 2024-12-15
-:END:
 * Get Started with Clojure Programming with Cider :cider:clojure:coding:dev:repl:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=evmRpr_DEBQ
