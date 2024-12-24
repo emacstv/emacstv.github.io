@@ -60,6 +60,74 @@ Returns nil if not found."
 			(with-temp-file (expand-file-name "videos.json" (file-name-directory emacstv-index-org))
 				(insert (json-encode data))))))
 
+(defun emacstv-export-rss ()
+  (interactive)
+  (with-current-buffer (find-file-noselect emacstv-index-org)
+    ;; TODO: Consider sorting video.org so we don't have to elsewhere.
+    (let ((data (sort (org-map-entries
+                       (lambda ()
+                         (let* ((end (save-excursion
+                                       (org-end-of-subtree)))
+                                (start (progn
+                                         (org-end-of-meta-data t)
+                                         (point)))
+                                (body (if (< start end)
+                                          (string-trim (buffer-substring start end))
+                                        "")))
+                           (append (org-entry-properties)
+                                   `(("BODY" . ,body)))))
+                       "LEVEL=1")
+                      (lambda (a b)
+                        (time-less-p
+                         (date-to-time (or (map-elt b "DATE") ""))
+                         (date-to-time (or (map-elt a "DATE") "")))))))
+      (with-temp-file (expand-file-name "videos.rss"
+                                        (file-name-directory emacstv-index-org))
+        (insert (format "
+<rss version=\"2.0\" xmlns:atom=\"http://www.w3.org/2005/Atom\">
+  <channel>
+    <title>Emacs TV</title>
+    <link>https://emacs.tv</link>
+    <description>Emacs videos</description>"))
+        (dolist (entry data)
+          (let ((title (or (map-elt entry "ITEM") ""))
+                (url (or (map-elt entry "URL")
+                         (map-elt entry "MEDIA_URL")
+                         (map-elt entry "TOOBNIX_URL")
+                         (map-elt entry "YOUTUBE_URL")
+                         (map-elt entry "TRANSCRIPT_URL")
+                         ""))
+                (urls (seq-filter
+                       (lambda (item) (string-suffix-p "_URL" (car item)))
+                       entry))
+                (timestamp (format-time-string "%a, %d %b %Y %H:%M:%S %z"
+                                               (date-to-time (or (map-elt entry "DATE") ""))))
+                (body (or (map-elt entry "BODY") "")))
+            (insert (format "
+    <item>
+      <title>%s</title>
+      <link>%s</link>
+      <description>%s</description>
+      <pubDate>%s</pubDate>
+    </item>"
+                            title
+                            url
+                            (if-let ((links (concat
+                                             (mapconcat
+                                              (lambda (url)
+                                                (format "<a href=\"%s\">%s</a>"
+                                                        (cdr url)
+                                                        (downcase (substring (car url) 0 -4))))
+                                              urls
+                                              "&nbsp;·&nbsp;"))))
+                                (concat links "<br><br>"
+                                        body)
+                              body)
+                            (xml-escape-string timestamp)))))
+        (insert "
+  </channel>
+</rss>")))))
+
 (defun emacstv-add-from-youtube (url)
 	"Add an entry for URL."
 	(interactive (list (read-string "YouTube URL: "
