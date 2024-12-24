@@ -313,11 +313,6 @@ export class StateStore {
 
       const text = await response.text();
       const orgDocument = OrgParser.parse(text);
-      orgDocument.headings = orgDocument.headings.sort((a, b) => {
-        const dateA = new Date(a.drawer?.DATE || 0);
-        const dateB = new Date(b.drawer?.DATE || 0);
-        return dateB.getTime() - dateA.getTime() || (!a.drawer?.DATE ? 1 : 0);
-      });
 
       this.state.mutate(state => {
         state.orgDocument = orgDocument;
