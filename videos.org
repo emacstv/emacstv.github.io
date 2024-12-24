@@ -10,7 +10,7 @@
 :SERIES: EmacsConf 2024
 :END:
 
-* Q&A: Writing academic papers in Org-Roam  :answers:emacsconf:emacsconf2024:
+* Q&A: Writing academic papers in Org-Roam  :answers:emacsconf:emacsconf2024:org:OrgRoam:academic:research:writing:
 :PROPERTIES:
 :DATE: 2024-12-07
 :URL: https://emacsconf.org/2024/talks/papers
@@ -21,7 +21,7 @@
 :SPEAKERS: Vincent Conus
 :SERIES: EmacsConf 2024
 :END:
-* Managing writing project metadata with org-mode  :emacsconf:emacsconf2024:org:writing:
+* Managing writing project metadata with org-mode  :emacsconf:emacsconf2024:org:writing:project:
 :PROPERTIES:
 :DATE: 2024-12-07
 :URL: https://emacsconf.org/2024/talks/project
@@ -32,7 +32,7 @@
 :SPEAKERS: Blaine Mooers
 :SERIES: EmacsConf 2024
 :END:
-* Q&A: Managing writing project metadata with org-mode  :answers:emacsconf:emacsconf2024:
+* Q&A: Managing writing project metadata with org-mode  :answers:emacsconf:emacsconf2024:org:writing:project:
 :PROPERTIES:
 :DATE: 2024-12-07
 :URL: https://emacsconf.org/2024/talks/project
@@ -54,7 +54,7 @@
 :SPEAKERS: Ramin Honary
 :SERIES: EmacsConf 2024
 :END:
-* Q&A: Gypsum: my clone of Emacs and ELisp written in Scheme  :answers:emacsconf:emacsconf2024:
+* Q&A: Gypsum: my clone of Emacs and ELisp written in Scheme  :answers:emacsconf:emacsconf2024:scheme:
 :PROPERTIES:
 :DATE: 2024-12-07
 :URL: https://emacsconf.org/2024/talks/gypsum
@@ -76,7 +76,7 @@
 :SPEAKERS: Ihor Radchenko
 :SERIES: EmacsConf 2024
 :END:
-* Q&A: The Future of Org  :answers:emacsconf:emacsconf2024:
+* Q&A: The Future of Org  :answers:emacsconf:emacsconf2024:org:
 :PROPERTIES:
 :DATE: 2024-12-07
 :URL: https://emacsconf.org/2024/talks/org-update
@@ -98,7 +98,7 @@
 :SPEAKERS: Troy Hinckley
 :SERIES: EmacsConf 2024
 :END:
-* Q&A: An experimental Emacs core in Rust  :answers:emacsconf:emacsconf2024:
+* Q&A: An experimental Emacs core in Rust  :answers:emacsconf:emacsconf2024:rust:
 :PROPERTIES:
 :DATE: 2024-12-07
 :URL: https://emacsconf.org/2024/talks/rust
@@ -120,7 +120,7 @@
 :SPEAKERS: Ryota Sawada
 :SERIES: EmacsConf 2024
 :END:
-* Q&A: Colour your Emacs with ease  :answers:emacsconf:emacsconf2024:
+* Q&A: Colour your Emacs with ease  :answers:emacsconf:emacsconf2024:theming:color:
 :PROPERTIES:
 :DATE: 2024-12-07
 :URL: https://emacsconf.org/2024/talks/color
@@ -142,7 +142,7 @@
 :SPEAKERS: Zac Romero
 :SERIES: EmacsConf 2024
 :END:
-* Q&A: p-search: a local search engine in Emacs  :answers:emacsconf:emacsconf2024:
+* Q&A: p-search: a local search engine in Emacs  :answers:emacsconf:emacsconf2024:search:
 :PROPERTIES:
 :DATE: 2024-12-07
 :URL: https://emacsconf.org/2024/talks/p-search
@@ -164,7 +164,7 @@
 :SPEAKERS: Gabriele Bozzola
 :SERIES: EmacsConf 2024
 :END:
-* Q&A: Exploring shared philosophies in Julia and Emacs  :answers:emacsconf:emacsconf2024:
+* Q&A: Exploring shared philosophies in Julia and Emacs  :answers:emacsconf:emacsconf2024:julia:
 :PROPERTIES:
 :DATE: 2024-12-07
 :URL: https://emacsconf.org/2024/talks/julia
@@ -186,7 +186,7 @@
 :SPEAKERS: MetroWind
 :SERIES: EmacsConf 2024
 :END:
-* Q&A: My journey of finding and creating the “perfect” Emacs theme  :answers:emacsconf:emacsconf2024:
+* Q&A: My journey of finding and creating the “perfect” Emacs theme  :answers:emacsconf:emacsconf2024:theming:
 :PROPERTIES:
 :DATE: 2024-12-07
 :URL: https://emacsconf.org/2024/talks/theme
@@ -208,7 +208,7 @@
 :SPEAKERS: Robin Templeton
 :SERIES: EmacsConf 2024
 :END:
-* Q&A: Beguiling Emacs: Guile-Emacs relaunched!  :answers:emacsconf:emacsconf2024:
+* Q&A: Beguiling Emacs: Guile-Emacs relaunched!  :answers:emacsconf:emacsconf2024:guile:
 :PROPERTIES:
 :DATE: 2024-12-07
 :URL: https://emacsconf.org/2024/talks/guile
@@ -263,7 +263,7 @@
 :SPEAKERS: screwlisp
 :SERIES: EmacsConf 2024
 :END:
-* Q&A: Elisp and McCLIM  :answers:emacsconf:emacsconf2024:
+* Q&A: Elisp and McCLIM  :answers:emacsconf:emacsconf2024:CommonLisp:elisp:
 :PROPERTIES:
 :DATE: 2024-12-07
 :URL: https://emacsconf.org/2024/talks/mcclim
@@ -274,7 +274,7 @@
 :SPEAKERS: screwlisp
 :SERIES: EmacsConf 2024
 :END:
-* Re-imagining the Emacs user experience with Casual Suite  :emacsconf:emacsconf2024:keybinding:menu:ui:
+* Re-imagining the Emacs user experience with Casual Suite  :emacsconf:emacsconf2024:keybinding:menu:ui:casual:
 :PROPERTIES:
 :DATE: 2024-12-07
 :URL: https://emacsconf.org/2024/talks/casual
@@ -285,7 +285,7 @@
 :SPEAKERS: Charles Choi
 :SERIES: EmacsConf 2024
 :END:
-* Q&A: Re-imagining the Emacs user experience with Casual Suite  :answers:emacsconf:emacsconf2024:
+* Q&A: Re-imagining the Emacs user experience with Casual Suite  :answers:emacsconf:emacsconf2024:menu:ui:casual:
 :PROPERTIES:
 :DATE: 2024-12-07
 :URL: https://emacsconf.org/2024/talks/casual
@@ -307,7 +307,7 @@
 :SPEAKERS: Joseph Turner
 :SERIES: EmacsConf 2024
 :END:
-* Q&A: New in hyperdrive.el: quick install, peer graph, transclusion!  :answers:emacsconf:emacsconf2024:
+* Q&A: New in hyperdrive.el: quick install, peer graph, transclusion!  :answers:emacsconf:emacsconf2024:hyperdrive:
 :PROPERTIES:
 :DATE: 2024-12-07
 :URL: https://emacsconf.org/2024/talks/hyperdrive
@@ -351,7 +351,7 @@
 :SPEAKERS: Philip Kaludercic
 :SERIES: EmacsConf 2024
 :END:
-* Q&A: Emacs 30 Highlights  :answers:emacsconf:emacsconf2024:
+* Q&A: Emacs 30 Highlights  :answers:emacsconf:emacsconf2024:EmacsDevel:update:
 :PROPERTIES:
 :DATE: 2024-12-07
 :URL: https://emacsconf.org/2024/talks/emacs30
@@ -406,7 +406,7 @@
 :SPEAKERS: Bala Ramadurai
 :SERIES: EmacsConf 2024
 :END:
-* Q&A: Survival of the skillest: Thriving in the learning jungle  :answers:emacsconf:emacsconf2024:
+* Q&A: Survival of the skillest: Thriving in the learning jungle  :answers:emacsconf:emacsconf2024:learning:planning:org:gtd:
 :PROPERTIES:
 :DATE: 2024-12-08
 :URL: https://emacsconf.org/2024/talks/learning
@@ -10953,7 +10953,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
   notes at http://xahlee.info/talk_show/xah_talk_show_2022-09-29.html
   the keyboard is X-Bows Knight Keyboard http://xahlee.info/kbd/xbows_knight_keyboard.html
 
-* How to Install Emacs Text Editor on Ubuntu 22.04 LTS
+* How to Install Emacs Text Editor on Ubuntu 22.04 LTS   :install:ubuntu:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=LMNVAMnDBiQ
 :DATE:     2022-09-21T09:11:16-07:00
@@ -10980,7 +10980,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
   emacs vs. sublime
   I also talk about my setup for editing clojure in emacs
 
-* Cómo configurar Emacs. Introducción.
+* Cómo configurar Emacs. Introducción.  :configuration:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=4lvtHnWx27M
 :DATE:     2022-09-20T07:00:02-07:00
