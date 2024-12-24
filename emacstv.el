@@ -132,6 +132,12 @@ Returns nil if not found."
   </channel>
 </rss>")))))
 
+(defun emacstv-build ()
+	(interactive)
+	(emacstv-sort-by-newest-first)
+	(emacstv-export-rss)
+	(emacstv-export-json))
+
 (defun emacstv-add-from-youtube (url)
 	"Add an entry for URL."
 	(interactive (list (read-string "YouTube URL: "
@@ -163,6 +169,8 @@ Returns nil if not found."
 ;; [...document.querySelectorAll('a.ytd-rich-grid-media#video-title-link')].map((o) => `- [[${o.href}][${o.getAttribute('title')}]]\n`).join('')
 ;; from playlist:
 ;; [...document.querySelectorAll('a.ytd-playlist-panel-video-renderer#wc-endpoint')].map((o) => `- [[${o.href}][${o.querySelector('#video-title').getAttribute('title')}]]\n`).join('')
+;; other playlist view:
+;; [...document.querySelectorAll('a.ytd-playlist-video-renderer#video-title')].map((o) => `- [[${o.href}][${o.getAttribute('title')}]]\n`).join('')
 (defun emacstv-add-from-org (&optional beg end)
 	"Add the link at point.
 If a region is active, add all the YouTube links in that region."
@@ -188,10 +196,15 @@ If a region is active, add all the YouTube links in that region."
 						(emacstv-add-from-youtube link)
 						(display-buffer (current-buffer))))))))
 
+(defun emacstv-insert-org-list-from-spookfox ()
+	(interactive)
+	(insert (spookfox-js-injection-eval-in-active-tab "[...document.querySelectorAll('a.ytd-playlist-video-renderer#video-title')].map((o) => `- [[${o.href}][${o.getAttribute('title')}]]\n`).join('')" t)))
+
 (defun emacstv-sort-by-newest-first ()
 	(interactive)
-	(goto-char (point-min))
-	(org-sort-entries nil ?R nil nil "DATE"))
+	(with-current-buffer (find-file-noselect emacstv-index-org)
+		(goto-char (point-min))
+		(org-sort-entries nil ?R nil nil "DATE")))
 
 (defun emacstv-count-entries ()
 	(interactive)
