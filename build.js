@@ -81,9 +81,14 @@ const htmlContent = `
       color: #777;
       font-size: 0.8em;
     }
-    .speakers {
+    .by {
       color: #777;
       font-size: 0.8em;
+    }
+    .speaker {
+      color: #777;
+      font-size: 0.8em;
+      cursor: pointer;
     }
     a, a:visited {
       text-decoration: none;

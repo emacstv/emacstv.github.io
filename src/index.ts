@@ -16,27 +16,40 @@
 interface State {
   error?: string;
   filterByTags: string[];
+  filterBySpeakers: string[];
   orgDocument: OrgDocument;
 }
 
 export function render(state: State, store: StateStore): RenderResult {
   let handlers: Array<{ nodeId: string, listenerName: string, handler: Function }> = [];
   const filteredHeadings = state.orgDocument.headings.filter(heading =>
-    state.filterByTags.length === 0 || state.filterByTags.every(filterTag =>
-      heading.tags?.map(tag => tag.toLowerCase()).includes(filterTag)
-    )
-  );
+    (state.filterByTags.length === 0 || state.filterByTags.every(filterTag =>
+      heading.tags?.map(tag => tag.toLowerCase()).includes(filterTag))) &&
+    (state.filterBySpeakers.length === 0 || state.filterBySpeakers.every(filterSpeaker =>
+      heading.drawer?.SPEAKERS.split(',').map(speaker => speaker.trim().toLowerCase()).includes(filterSpeaker.toLowerCase()))));
 
-  const randomPick = new RandomPickRenderer(store).render(filteredHeadings);
+  const randomPick = new RandomPickRenderer(store)
+    .render(filteredHeadings);
   handlers = handlers.concat(randomPick.handlers);
 
-  const tagPicker = new TagsPickerRenderer(store).render(state.orgDocument.headings);
+  const tagPicker = new TagsPickerRenderer(store)
+    .render(state.orgDocument.headings);
   handlers = handlers.concat(tagPicker.handlers);
 
-  const filterByTags = new FilterByTagsRenderer(store).render(state.filterByTags);
+  const speakersPicker = new SpeakersRenderer(store)
+    .render(state.orgDocument.headings);
+  handlers = handlers.concat(speakersPicker.handlers);
+
+  const filterByTags = new FilterByTagRenderer(store)
+    .render(state.filterByTags);
   handlers = handlers.concat(filterByTags.handlers);
 
-  const videoList = new VideoListRenderer(store).render(filteredHeadings);
+  const filterBySpeakers = new FilterBySpeakerRenderer(store)
+    .render(state.filterBySpeakers);
+  handlers = handlers.concat(filterBySpeakers.handlers);
+
+  const videoList = new VideoListRenderer(store)
+    .render(filteredHeadings);
   handlers = handlers.concat(videoList.handlers);
 
   if (state.orgDocument.headings.length === 0) {
@@ -59,7 +72,8 @@ export function render(state: State, store: StateStore): RenderResult {
 ${state.orgDocument.headings.length != 0 ?
 `
 <h2>Videos (${filteredHeadings.length})</h2>
-filter by ${tagPicker.html} ${filterByTags.html}
+${speakersPicker.html} ${filterBySpeakers.html}<br>
+${tagPicker.html} ${filterByTags.html}
 <br>
 <br>` : ''
 }
@@ -174,13 +188,44 @@ class TagsPickerRenderer {
       handlers: handlers,
       html: `
 <select id="filter" name="options" onchange="store.addFilterTag(this.value)">
-  <option value="">tag</option>
+  <option value="">tagged...</option>
     ${Array.from(new Set(headings.flatMap(heading => heading.tags.map((tag) => tag.toLowerCase()) ?? [])))
        .sort()
        .map(tag => `<option value="${tag}">${tag}</option>`)
        .join('')}
 </select>`
     }
+  }
+}
+
+class SpeakersRenderer {
+  private store: StateStore;
+
+  constructor(store: StateStore) {
+    this.store = store;
+  }
+
+  render(headings: OrgHeading[]): RenderResult {
+    const handlers: Array<{ nodeId: string, listenerName: string, handler: Function }> = [];
+    if (headings.length === 0) {
+      return { handlers: [], html: '' };
+    }
+
+    return {
+      handlers: handlers,
+      html: `
+<select id="filter-speakers" name="speakers" onchange="store.addFilterSpeaker(this.value)">
+  <option value="">by...</option>
+  ${Array.from(
+    new Set(
+      headings
+        .flatMap((heading) => heading.drawer?.SPEAKERS?.split(',').map((s) => s.trim()) ?? [])
+        .filter((s) => s.length > 0)))
+    .sort()
+    .map((speaker) => `<option value="${speaker}">${speaker}</option>`)
+    .join('')}
+</select>`
+    };
   }
 }
 
@@ -228,6 +273,23 @@ class VideoRenderer {
     const result = { html: '', handlers: [] };
     const date = DateRenderer.render(heading.drawer.DATE);
     const title = heading.title || 'Untitled';
+    const speakers = Array.from(
+      new Set(
+        heading.drawer?.SPEAKERS?.split(',')
+          .map((s) => s.trim())
+          .filter((s) => s.length > 0) ?? []
+      ))
+      .sort()
+      .map((speaker) => {
+        const speakerId = `speaker-${speaker.replace(/[^a-zA-Z0-9-_]/g, '')}-${randomUUID()}`;
+        result.handlers.push({
+          nodeId: speakerId,
+          listenerName: 'click',
+          handler: () => this.store.addFilterSpeaker(speaker)
+        });
+        return `<span id="${speakerId}">${speaker}</span>`
+      })
+      .join(',&nbsp;')
     const tags = heading.tags?.sort()?.map(tag => {
       tag = tag.toLowerCase();
       const tagId = `tag-${tag}-${randomUUID()}`;
@@ -246,8 +308,7 @@ class VideoRenderer {
       })
       .join("&nbsp;·&nbsp;");
 
-		const duration = heading.drawer?.DURATION ? ` (${heading.drawer?.DURATION})` : '';
-		const speakers = heading.drawer?.SPEAKERS;
+    const duration = heading.drawer?.DURATION ? ` (${heading.drawer?.DURATION})` : '';
 
     result.html += `
       <div class="item">
@@ -255,7 +316,7 @@ class VideoRenderer {
         <p><strong>${title}</strong> ${duration}</p>
         <p>${tags}</p>
 ${speakers ?
-       `<p class="speakers">By ${speakers}</p>` : ''
+        `<span class="by">by </span><span class="speaker">${speakers}</span>` : ''
 }
         <p>${links}</p>
       </div><br>`;
@@ -264,7 +325,32 @@ ${speakers ?
   }
 }
 
-class FilterByTagsRenderer {
+class FilterBySpeakerRenderer {
+  private store: StateStore;
+
+  constructor(store: StateStore) {
+    this.store = store;
+  }
+
+  render(speakers: string[]): RenderResult {
+    let handlers: Array<{ nodeId: string, listenerName: string, handler: Function }> = [];
+    let html = speakers
+      .map((speaker) => {
+        const speakerFilterId = `filter-${speaker.replace(/[^a-zA-Z0-9-_]/g, '')}-${randomUUID()}`;
+        handlers.push({
+          nodeId: speakerFilterId,
+          listenerName: 'click',
+          handler: () => this.store.removeFilterSpeaker(speaker)
+        });
+        return `<span id="${speakerFilterId}" class="dismissible"><span class="tag">${speaker.trim()}</span>&nbsp;<span class="x">x</span></span> `;
+      })
+   .join(' ');
+
+    return { handlers, html };
+  }
+}
+
+class FilterByTagRenderer {
   private store: StateStore;
 
   constructor(store: StateStore) {
@@ -273,9 +359,8 @@ class FilterByTagsRenderer {
 
   render(tags: string[]): RenderResult {
     let handlers: Array<{ nodeId: string, listenerName: string, handler: Function }> = [];
-    return {
-      handlers: handlers,
-      html: tags.map(tag => {
+    let html = tags
+      .map((tag) => {
         const tagId = `filter-${tag}-${randomUUID()}`;
         handlers.push({
           nodeId: tagId,
@@ -283,8 +368,9 @@ class FilterByTagsRenderer {
           handler: () => this.store.removeFilterTag(tag)
         });
         return `<span id="${tagId}" class="dismissible"><span class="tag">#${tag}</span>&nbsp;<span class="x">x</span></span>`;
-      }).join(' ') || ''
-    }
+      })
+      .join(' ');
+    return { handlers, html };
   }
 }
 
@@ -294,6 +380,7 @@ export class StateStore {
   constructor() {
     this.state = new ValueStream({
       filterByTags: [],
+      filterBySpeakers: [],
       orgDocument: new OrgDocument([])
     });
   }
@@ -351,9 +438,26 @@ export class StateStore {
     });
   }
 
+  public addFilterSpeaker(speaker: string) {
+    this.state.mutate(state => {
+      if (state.filterBySpeakers.includes(speaker.trim())) {
+        return state;
+      }
+      state.filterBySpeakers.push(speaker.trim());
+      return state;
+    });
+  }
+
   public removeFilterTag(tag: string) {
     this.state.mutate(state => {
       state.filterByTags = state.filterByTags.filter(filterTag => filterTag !== tag )
+      return state;
+    });
+  }
+
+  public removeFilterSpeaker(speaker: string) {
+    this.state.mutate(state => {
+      state.filterBySpeakers = state.filterBySpeakers.filter(filterSpeaker => filterSpeaker !== speaker )
       return state;
     });
   }
@@ -525,6 +629,7 @@ export function makeStore(): StateStore {
 export function makeState(): State {
   return {
     filterByTags: [],
+    filterBySpeakers: [],
     orgDocument: new OrgDocument([])
   };
 }
