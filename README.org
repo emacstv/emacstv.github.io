@@ -8,7 +8,7 @@ This project was born out of a [[https://social.sachachua.com/@sacha/statuses/01
 
 Help keep =emacs.tv= fresh and interesting by submitting new videos.
 
-You can e-mail mailto:sacha@sachachua.com with a link to the video, or you can add videos by following these steps:
+You can e-mail [[mailto:sacha@sachachua.com][sacha@sachachua.com]] with a link to the video, or you can add videos by following these steps:
 
 - [[https://github.com/emacstv/emacstv.github.io/fork][Fork]] this repository.
 - Add a new entry to [[https://raw.githubusercontent.com/emacstv/emacstv.github.io/refs/heads/main/videos.org][videos.org]]. Be sure to add as many of the fields provided as possible and _please include tags_. You can either follow the example below or use =M-x emacstv-add-from-youtube= helper from [[https://github.com/emacstv/emacstv.github.io/blob/main/emacstv.el][emacstv.el]].
