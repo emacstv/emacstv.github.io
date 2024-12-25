@@ -6632,7 +6632,7 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
 :END:
   In this video, I'll show you how you can get dynamically numbered headings in your org mode documents.  Just wait and see all you can do now. Try it yourself today.
 
-* Control Emacs with ChatGPT
+* Control Emacs with ChatGPT                                         :gpt:ai:
 :PROPERTIES:
 :YOUTUBE_URL: https://youtu.be/DYeh7_FdmDg
 :DATE:     2023-04-17T07:00:08-07:00
@@ -6761,7 +6761,7 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
   5. Youtube: https://youtube.com/ravisagar1
   ####
 
-* Boost your Emacs productivity with ChatGPT and Copilot
+* Boost your Emacs productivity with ChatGPT and Copilot             :gpt:ai:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=H8jvhz0CGzU
 :DATE:     2023-04-13T12:20:54-07:00
@@ -6953,7 +6953,7 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
   5. Youtube: https://youtube.com/ravisagar1
   ####
 
-* Crafting the Future: AI Assistants in Emacs - System Crafters Live!
+* Crafting the Future: AI Assistants in Emacs - System Crafters Live! :gpt:ai:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=JImYEdqVQR8
 :DATE:     2023-03-31T22:16:45-07:00
@@ -7241,7 +7241,7 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
   🐘 https://emacs.ch/@skybert
   📫 torstein@skybert.net
 
-* Python in Emacs 0079 - How to use ChatGPT in Python / Emacs code development? :python:
+* Python in Emacs 0079 - How to use ChatGPT in Python / Emacs code development? :python:gpt:ai:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=fXaJ3IcimOc
 :DATE:     2023-03-18T00:59:16-07:00
@@ -7574,7 +7574,7 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
 :END:
   This is a demo of an alpha version of Captee, a macOS app to share links and content to Emacs via the Share menu.
 
-* ChatGPT inside Emacs
+* ChatGPT inside Emacs                                               :gpt:ai:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=SL-nNOjqoxg
 :DATE:     2023-03-06T07:22:58-08:00
@@ -7902,7 +7902,7 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
 
   https://kitchingroup.cheme.cmu.edu/blog/2023/02/25/MS-Word-comments-from-org-mode/
 
-* emacs + whisper + chatgpt rewrite text
+* emacs + whisper + chatgpt rewrite text                             :gpt:ai:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=4Jyhs6SfFl0
 :DATE:     2023-02-25T06:27:49-08:00
@@ -7911,7 +7911,7 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
 :END:
 
 
-* emacs + whisper + chatgpt - refactor code
+* emacs + whisper + chatgpt - refactor code                          :gpt:ai:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=uWJ8-JU0aXY
 :DATE:     2023-02-25T04:34:36-08:00
@@ -9079,7 +9079,7 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
 :END:
 
 
-* I Made a ChatGPT Like Client For Emacs - AND SO CAN YOU!!
+* I Made a ChatGPT Like Client For Emacs - AND SO CAN YOU!!          :gpt:ai:
 :PROPERTIES:
 :YOUTUBE_URL: https://youtu.be/EgVfurJUdFo
 :DATE:     2022-12-28T09:00:08-08:00
@@ -18140,7 +18140,7 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
 
   The video thumbnail is a tweak of the Levitating, Meditating, Flute-playing Gnu under the terms of the GNU General Public License: https://www.gnu.org/graphics/meditate.html
 
-* DoomConf February 2022 (Doom Emacs)
+* DoomConf February 2022 (Doom Emacs)                                  :exwm:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=MZ52Rm0Hc2U
 :DATE:     2022-02-19T11:10:36-08:00
@@ -18267,7 +18267,7 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
   Page URL:
   https://commons.wikimedia.org/wiki/File:Emacs_512.png
 
-* ep1. Emacs EXWM Showcase by thecashew | #4BugsWriter
+* ep1. Emacs EXWM Showcase by thecashew | #4BugsWriter                 :exwm:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=CLX7oGjYhBU
 :DATE:     2022-02-16T09:03:01-08:00
@@ -19404,7 +19404,7 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
 
   Grupo para discussões no discord https://discord.gg/4pujgVkzak
 
-* Flat buffer-based web browsing with EXWM and Firefox
+* Flat buffer-based web browsing with EXWM and Firefox                 :exwm:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=oc1EpDoLQAo
 :DATE:     2022-01-30T09:29:50-08:00
@@ -23322,7 +23322,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
   23:26 - Get lsp-mode working
   31:56 - Outro
 
-* EXWM - Emacs X Window Manager On GNU/Emacs With  Dmenu
+* EXWM - Emacs X Window Manager On GNU/Emacs With  Dmenu               :exwm:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=O3nOnrc2WIs
 :DATE:     2021-10-23T16:01:47-07:00
@@ -24726,7 +24726,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
   referenced a previous EmacsNYC talk Evan Misshula gave about
   reproducible research: https://www.youtube.com/watch?v=CGnt_PWoM5Y
 
-* Improving EXWM #2 // Hack Sessions
+* Improving EXWM #2 // Hack Sessions                                   :exwm:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=1y3MxU1YXdY
 :DATE:     2021-09-08T10:11:50-07:00
@@ -25109,7 +25109,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
   6. Apple Podcast: https://go.ravi.pro/apple
   7. Youtube: https://youtube.com/ravisagar1
 
-* Improving EXWM #1 // Hack Sessions
+* Improving EXWM #1 // Hack Sessions                                   :exwm:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=mTJ54yNFgZI
 :DATE:     2021-09-01T10:16:21-07:00
@@ -31376,7 +31376,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
   6. Apple Podcast: https://go.ravi.pro/apple
   7. Youtube: https://youtube.com/ravisagar1
 
-* Using Multiple Monitors in EXWM - Emacs Desktop Environment #4
+* Using Multiple Monitors in EXWM - Emacs Desktop Environment #4       :exwm:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=eF5NfVN411Q
 :DATE:     2020-12-11T22:09:59-08:00
@@ -31464,7 +31464,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 :END:
 
 
-* Optimizing Window Placement in EXWM - Emacs Desktop Environment #3
+* Optimizing Window Placement in EXWM - Emacs Desktop Environment #3   :exwm:
 :PROPERTIES:
 :YOUTUBE_URL: https://youtu.be/HGGU5Zvljj8
 :DATE:     2020-12-04T22:13:22-08:00
@@ -31611,7 +31611,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
   👉 https://github.com/tonyaldon/inside-emacs
   👉 Music: https://soundcloud.com/ghostnotes92/different-roles
 
-* Emacs Desktop Environment #2 - Improving the EXWM Experience
+* Emacs Desktop Environment #2 - Improving the EXWM Experience         :exwm:
 :PROPERTIES:
 :YOUTUBE_URL: https://youtu.be/9gfKrrTtyOk
 :DATE:     2020-11-20T22:11:29-08:00
@@ -31677,7 +31677,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
   https://www.youtube.com/playlist?list=PLhXZp00uXBk4np17N39WvB80zgxlZfVwj
   https://www.youtube.com/watch?v=34zODp_lhqg
 
-* Doom Emacs And EXWM Are My New Window Manager
+* Doom Emacs And EXWM Are My New Window Manager                        :exwm:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=GJjjflU67tE
 :DATE:     2020-11-19T16:04:55-08:00
@@ -31768,7 +31768,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
   Other videos related to Org-transclusion:
   How to install video: https://youtu.be/c1aelYM3m9U
 
-* Emacs Desktop Environment #1 - Getting Started with EXWM
+* Emacs Desktop Environment #1 - Getting Started with EXWM             :exwm:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=f7xB2fFk1tQ
 :DATE:     2020-11-13T22:28:08-08:00
@@ -34610,7 +34610,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 
   #emacs #magit #git
 
-* Turn Emacs Into A Window Manager With EXWM
+* Turn Emacs Into A Window Manager With EXWM                           :exwm:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=MquoGuU8sHM&list=PL5--8gKSku15uYCnmxWPO17Dq6hVabAB4&index=46&pp=iAQB
 :DATE:     2020-06-27T15:38:34-07:00
@@ -36326,7 +36326,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
           (require 'company)
           (global-company-mode)
 
-* EXWM is love! (Emacs)
+* EXWM is love! (Emacs)                                                :exwm:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=bHSGDn1Nulo&feature=youtu.be
 :DATE:     2020-02-13T14:32:49-08:00
@@ -41074,7 +41074,7 @@ Full code on github:
   We get around to talking about cutting and yanking, finally.
   We also replace the default yank-pop functionality with a nice popup menu.
 
-* Emacs Tutorial 14 - EXWM aka managing X windows with emacs.
+* Emacs Tutorial 14 - EXWM aka managing X windows with emacs.          :exwm:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=Gk9-q8tXbMs
 :DATE:     2018-01-10T15:24:16-08:00
