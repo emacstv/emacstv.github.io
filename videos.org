@@ -412,7 +412,7 @@ This video is available under the terms of the Creative Commons Attribution-Shar
 :SPEAKERS: Bala Ramadurai
 :SERIES: EmacsConf 2024
 :END:
-* About Blee: enveloping our own autonomy directed digital ecosystem with Emacs  :emacsconf:emacsconf2024:StarterKit:config:
+* About Blee: enveloping our own autonomy directed digital ecosystem with Emacs  :emacsconf:emacsconf2024:StarterKit:configuration:
 :PROPERTIES:
 :DATE: 2024-12-08
 :URL: https://emacsconf.org/2024/talks/blee
@@ -2303,7 +2303,7 @@ count-words-region
   Please contact me if anything is amiss. I hope you have a wonderful day.
 
   Related to: #emacs, #installemacs, #emacsmacos, #emacstutorial, #beginnersguide, #step-by-stepemacs, #macosprogramming, #texteditor, #emacsinstallation, #emacssetup, #codingonmacos, #emacsforbeginners, #programmingtools, #opensourcetexteditor, #emacstips, #macosdevelopment, #emacsconfiguration, #learnemacs, #emacsfeatures, #productivitytools
-* restclient fork with graphql builder
+* restclient fork with graphql builder  :restclient:
 :PROPERTIES:
 :YOUTUBE_URL: https://youtu.be/TiHo10h_hQg
 :DATE:     2024-10-23T17:50:56-07:00
@@ -2552,7 +2552,7 @@ count-words-region
 
   Your support is very much appreciated. Thanks, guys!
 
-* Emacs 16, 17, 18, 19, 20
+* Emacs 16, 17, 18, 19, 20  :history:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=LRBjVGtaFLc
 :DATE:     2024-10-04T07:36:30-07:00
@@ -2603,7 +2603,7 @@ count-words-region
 
   A comunidade debxp apoia os valores e ideais do Software Livre!
 
-* ¿Se sigue utilizando y desarrollando GNU Emacs en 2024? Una "Breve" Intro de solo 2 horas
+* ¿Se sigue utilizando y desarrollando GNU Emacs en 2024? Una "Breve" Intro de solo 2 horas  :beginner:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=F6cMVdil85E
 :DATE:     2024-10-02T03:27:29-07:00
@@ -2660,7 +2660,7 @@ count-words-region
 :END:
 
 
-* Wizbango Episode 3 [Emacs Basics]
+* Wizbango Episode 3 [Emacs Basics]  :beginner:install:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=0jVLFouaxVo
 :DATE:     2024-09-30T13:00:00-07:00
@@ -2802,7 +2802,7 @@ count-words-region
 
   In this emacs distro, I've grouped functionality into hydra panels, which gives emacs an easy to use UI.
 
-* LLM Function Calling for Emacs: Name Generation
+* LLM Function Calling for Emacs: Name Generation  :ai:llm:fun:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=e7gBY6wCdxQ
 :DATE:     2024-09-21T14:50:54-07:00
@@ -2814,7 +2814,7 @@ count-words-region
   The LLM package: https://github.com/ahyatt/llm
   The code shown: https://gist.github.com/ahyatt/9b1a8d8fff4580259fce489b706c80af
 
-* Frame Size | Emacs Appearance Panel | Video 9
+* Frame Size | Emacs Appearance Panel | Video 9  :appearance:frames:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=hmAyEuxIMGg
 :DATE:     2024-09-21T14:50:48-07:00
@@ -2885,7 +2885,7 @@ count-words-region
   see you in the next one,
   This was the (bit-mage).
 
-* Ep586, Emacs Lisp, Rename All Link of HTML Files
+* Ep586, Emacs Lisp, Rename All Link of HTML Files  :elisp:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=aKnhoMhA2zw
 :DATE:     2024-09-18T01:46:24-07:00
@@ -2901,7 +2901,7 @@ count-words-region
   (lambda (x) (not (string-match-p "/\\." x)))
   because the function is passed a subdirectory full path, not just name.
 
-* Understanding Emacs modes
+* Understanding Emacs modes  :modes:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=42PYq9rjNr0
 :DATE:     2024-09-17T13:20:14-07:00
@@ -2937,6 +2937,7 @@ count-words-region
 :DATE:     2024-09-16T00:59:42-07:00
 :SPEAKERS: Anand Tamariya
 :DURATION: 02:06
+:URL:      https://lifeofpenguin.blogspot.com/2024/09/the-oval-editor-emacs.html
 :END:
   Enhanced font support https://lifeofpenguin.blogspot.com/2024/09/the-oval-editor-emacs.html
 
@@ -2962,7 +2963,7 @@ count-words-region
   Firefox Config for Hiding URL/Tool Bar:
   https://github.com/MrOtherGuy/firefox-csshacks/tree/master/chrome/autohide_toolbox.css
 
-* Ep585, Emacs Lisp, Find and Replace in a Dir, and Undo All
+* Ep585, Emacs Lisp, Find and Replace in a Dir, and Undo All  :elisp:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=uvj3ckVXY4w
 :DATE:     2024-09-13T03:37:05-07:00
@@ -2978,7 +2979,7 @@ count-words-region
   (lambda (x) (not (string-match-p "/\\." x)))
   because the function is passed a subdirectory full path, not just name.
 
-* Trying Emacs as a Neovim User // Just Chatting
+* Trying Emacs as a Neovim User // Just Chatting  :experience:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=6rnimWgIREo
 :DATE:     2024-09-12T22:55:52-07:00
@@ -3070,7 +3071,7 @@ count-words-region
 :END:
   Charles Choi (kickingvegas) shows us how he tests his Casual suite of Transient menus for different popular (but complex) Emacs packages
 
-* Lightning Talk: Latest from GNU Emacs
+* Lightning Talk: Latest from GNU Emacs  :updates:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=QWIq-bKsJk8
 :DATE:     2024-09-04T12:45:09-07:00
@@ -3156,7 +3157,7 @@ count-words-region
   ukeSounds by airtone, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/airtone/32655
   Between Worlds (Instrumental) by Aussens@iter, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/tobias_weber/56664
 
-* Emacs: exclude directories in Denote's Org dynamic blocks
+* Emacs: exclude directories in Denote's Org dynamic blocks  :org:denote:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=RvKK5vLQiuQ
 :DATE:     2024-07-30T01:42:18-07:00
@@ -3169,12 +3170,13 @@ count-words-region
 
   Find all my publications on my website (Emacs, philosophy, mechanical keyboards, etc.): https://protesilaos.com
 
-* Preview Font Features (Emacs)
+* Preview Font Features (Emacs)  :appearance:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=qstFmJw_u-M&list=PLW9poAEUvGDC1g1A3hBdZa0Atr0RL8yZt&index=10&pp=iAQB
 :DATE:     2024-07-25T02:27:57-07:00
 :SPEAKERS: Anand Tamariya
 :DURATION: 00:16
+:URL:      https://lifeofpenguin.blogspot.com/2024/06/text-along-path-gnu-emacs.html#font-features
 :END:
   Preview Opentype Font Features in Emacs https://lifeofpenguin.blogspot.com/2024/06/text-along-path-gnu-emacs.html#font-features
 
@@ -3236,7 +3238,7 @@ count-words-region
   ukeSounds by airtone, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/airtone/32655
   Between Worlds (Instrumental) by Aussens@iter, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/tobias_weber/56664
 
-* Emacs: use-package essentials
+* Emacs: use-package essentials   :configuration:UsePackage:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=RaqtzemHFDU
 :DATE:     2024-07-23T03:54:59-07:00
@@ -3283,16 +3285,17 @@ count-words-region
 
   #Emacs #IDE #Programming #SoftwareDevelopment #GNU #GNUEmacs
 
-* Context Menu is Personal (GNU Emacs)
+* Context Menu is Personal (GNU Emacs)    :menu:ContextMenu:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=DC_KhawqVyQ&list=PLW9poAEUvGDC1g1A3hBdZa0Atr0RL8yZt&index=9&pp=iAQB
 :DATE:     2024-06-17T03:26:23-07:00
 :SPEAKERS: Anand Tamariya
 :DURATION: 01:30
+:URL:      https://lifeofpenguin.blogspot.com/2024/06/context-menu-is-personal-gnu-emacs.html
 :END:
   https://lifeofpenguin.blogspot.com/2024/06/context-menu-is-personal-gnu-emacs.html
 
-* Emacs Micro Lesson  #10 | Open line (because it's good)
+* Emacs Micro Lesson  #10 | Open line (because it's good)  :editing:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=ZVRnfpUEigA&list=PLKpFPBl1UnIpUPd0kfMCObsi4rb9LQlD-&index=10&pp=iAQB
 :DATE:     2024-06-08T10:40:58-07:00
@@ -3301,57 +3304,63 @@ count-words-region
 :END:
   That's right. It's another Emacs micro lesson coming at you. Today, we're going to take a look at inserting new lines with Ctrl-o, that's right C-o. This will run the wonderful "open-line" function to create a new line in your document without changing your position. So you can keep working more quickly and more efficiently. All the time.
 
-* Git Log Goes Spiral (GNU Emacs)
+* Git Log Goes Spiral (GNU Emacs)  :visualization:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=iXuwyAxRhrg&list=PLW9poAEUvGDCtcnrDdiQWRAX_3RC6XcNU&index=9&pp=iAQB
 :DATE:     2024-05-19T21:24:47-07:00
 :SPEAKERS: Anand Tamariya
 :DURATION: 01:27
+:URL:      https://lifeofpenguin.blogspot.com/2024/05/alternatives-in-gnu-emacs-wheel-of-time.html
 :END:
   Details: https://lifeofpenguin.blogspot.com/2024/05/alternatives-in-gnu-emacs-wheel-of-time.html
 
-* Alternatives in GNU Emacs - Wheel of time
+* Alternatives in GNU Emacs - Wheel of time  :visualization:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=npjRR5HYLHI&list=PLW9poAEUvGDCtcnrDdiQWRAX_3RC6XcNU&index=8&pp=iAQB
 :DATE:     2024-05-15T08:40:29-07:00
 :SPEAKERS: Anand Tamariya
 :DURATION: 00:34
+:URL:      https://lifeofpenguin.blogspot.com/2024/05/alternatives-in-gnu-emacs-wheel-of-time.html
 :END:
   Details: https://lifeofpenguin.blogspot.com/2024/05/alternatives-in-gnu-emacs-wheel-of-time.html
 
-* Analyzing 3 Body Problem in GNU Emacs
+* Analyzing 3 Body Problem in GNU Emacs  :visualization:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=dQv4KwMkrxA&list=PLW9poAEUvGDCtcnrDdiQWRAX_3RC6XcNU&index=7&pp=iAQB
 :DATE:     2024-05-09T22:21:06-07:00
 :SPEAKERS: Anand Tamariya
 :DURATION: 04:32
+:URL:      https://lifeofpenguin.blogspot.com/2024/04/analyzing-3-body-problem-in-gnu-emacs.html
 :END:
   Details: https://lifeofpenguin.blogspot.com/2024/04/analyzing-3-body-problem-in-gnu-emacs.html
 
-* Alternatives in GNU Emacs - Tag Explorer
+* Alternatives in GNU Emacs - Tag Explorer  :firefox:visualization:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=a9mPkillTFE&list=PLW9poAEUvGDCtcnrDdiQWRAX_3RC6XcNU&index=6&pp=iAQB
 :DATE:     2024-05-06T02:33:36-07:00
 :SPEAKERS: Anand Tamariya
 :DURATION: 00:33
+:URL:      https://lifeofpenguin.blogspot.com/2024/05/alternatives-in-gnu-emacs-tag-explorer.html
 :END:
   Details: https://lifeofpenguin.blogspot.com/2024/05/alternatives-in-gnu-emacs-tag-explorer.html
 
-* Alternatives in GNU Emacs - File Explorer
+* Alternatives in GNU Emacs - File Explorer  :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=eaG7INZ2Kys&list=PLW9poAEUvGDDxCZX-3xIQ3Wb1HOVcg7N_&index=15&pp=iAQB
 :DATE:     2024-04-30T02:39:08-07:00
 :SPEAKERS: Anand Tamariya
 :DURATION: 00:26
+:URL:      https://lifeofpenguin.blogspot.com/2024/04/alternatives-in-gnu-emacs-file-explorer.html
 :END:
   Details: https://lifeofpenguin.blogspot.com/2024/04/alternatives-in-gnu-emacs-file-explorer.html
 
-* Double Your Productivity With Emacs Org-Mode
+* Double Your Productivity With Emacs Org-Mode  :org:OrgAgenda:OrgCapture:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=aiBt8CieE7U&list=PLknodeJt-I5GJmcd7ENakYf_M0x9q50d1&index=16&pp=iAQB
 :DATE:     2024-04-26T09:00:01-07:00
 :SPEAKERS: Gavin Freeborn
 :DURATION: 24:14
+:URL:      https://gist.github.com/Gavinok/50f804ea5a2856ee52dee1ba02e97cb9
 :END:
   To try everything Brilliant has to offer—free—for a full 30 days, visit https://brilliant.org/GavinFreeborn . You’ll also get 20% off an annual premium subscription.
 
@@ -3395,26 +3404,28 @@ count-words-region
   22:20 Searching
   23:18 Conclusion
 
-* Stock Heatmap in GNU Emacs
+* Stock Heatmap in GNU Emacs  :visualization:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=4ljvsHPBD5g&list=PLW9poAEUvGDCtcnrDdiQWRAX_3RC6XcNU&index=5&pp=iAQB
 :DATE:     2024-04-25T02:27:43-07:00
 :SPEAKERS: Anand Tamariya
 :DURATION: 00:14
+:URL:      https://lifeofpenguin.blogspot.com/2024/04/alternatives-in-gnu-emacs.html
 :END:
   Stock Heatmap (index and sector) in GNU Emacs
   Details: https://lifeofpenguin.blogspot.com/2024/04/alternatives-in-gnu-emacs.html
 
-* SVG Animation in GNU Emacs
+* SVG Animation in GNU Emacs   :visualization:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=uYp08wHgJVQ&list=PLW9poAEUvGDC1g1A3hBdZa0Atr0RL8yZt&index=4&pp=iAQB
 :DATE:     2024-04-14T00:40:28-07:00
 :SPEAKERS: Anand Tamariya
 :DURATION: 00:22
+:URL:      https://lifeofpenguin.blogspot.com/2024/04/svg-animation-in-gnu-emacs.html
 :END:
   Details: https://lifeofpenguin.blogspot.com/2024/04/svg-animation-in-gnu-emacs.html
 
-* Circle Packing Animation in GNU Emacs
+* Circle Packing Animation in GNU Emacs  :visualization:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=qPNVMQF9zK4&list=PLW9poAEUvGDCtcnrDdiQWRAX_3RC6XcNU&index=4&pp=iAQB
 :DATE:     2024-04-11T02:31:31-07:00
@@ -3425,7 +3436,7 @@ count-words-region
 
   Details: https://lifeofpenguin.blogspot.com/2024/04/circle-packing-animation-in-gnu-emacs.html
 
-* Org Tables - From Zero to Hero
+* Org Tables - From Zero to Hero  :org:OrgTable:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=g43XNwKY1YA&list=PLknodeJt-I5GJmcd7ENakYf_M0x9q50d1&index=15&pp=iAQB
 :DATE:     2024-03-29T09:00:29-07:00
@@ -3474,7 +3485,7 @@ count-words-region
   12:07 Using Tables For Org Babel
   18:22 Conclusion
 
-* Org Tables Changed My Life
+* Org Tables Changed My Life  :org:OrgTable:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=o74kz7diOsQ&list=PLknodeJt-I5GJmcd7ENakYf_M0x9q50d1&index=14&pp=iAQB
 :DATE:     2024-03-24T13:29:26-07:00
@@ -3483,32 +3494,35 @@ count-words-region
 :END:
 
 
-* Data Visualization with GNU Emacs: Live Preview
+* Data Visualization with GNU Emacs: Live Preview  :visualization:gnuplot:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=kz6t60OB-jE&list=PLW9poAEUvGDCtcnrDdiQWRAX_3RC6XcNU&index=1&pp=iAQB
 :DATE:     2024-03-22T21:28:01-07:00
 :SPEAKERS: Anand Tamariya
 :DURATION: 00:32
+:URL:      https://lifeofpenguin.blogspot.com/2024/03/data-visualization-with-gnu-emacs.html
 :END:
   Quick Data Visualization with GNU Emacs and Gnuplot
   https://lifeofpenguin.blogspot.com/2024/03/data-visualization-with-gnu-emacs.html
 
-* Data Visualization with GNU Emacs - Time series
+* Data Visualization with GNU Emacs - Time series  :visualization:gnuplot:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=A6OhjYjdrqY&list=PLW9poAEUvGDCtcnrDdiQWRAX_3RC6XcNU&index=2&pp=iAQB
 :DATE:     2024-03-19T00:13:02-07:00
 :SPEAKERS: Anand Tamariya
 :DURATION: 00:35
+:URL:      https://lifeofpenguin.blogspot.com/2024/03/data-visualization-with-gnu-emacs.html
 :END:
   Quick Data Visualization with GNU Emacs and Gnuplot
   https://lifeofpenguin.blogspot.com/2024/03/data-visualization-with-gnu-emacs.html
 
-* Data Visualization with GNU Emacs
+* Data Visualization with GNU Emacs  :visualization:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=XdXlIV2Hvk4&list=PLW9poAEUvGDCtcnrDdiQWRAX_3RC6XcNU&index=3&pp=iAQB
 :DATE:     2024-03-13T08:25:36-07:00
 :SPEAKERS: Anand Tamariya
 :DURATION: 00:50
+:URL:      https://lifeofpenguin.blogspot.com/2024/03/data-visualization-with-gnu-emacs.html
 :END:
   Quick Data Visualization with GNU Emacs and Gnuplot
   https://lifeofpenguin.blogspot.com/2024/03/data-visualization-with-gnu-emacs.html
@@ -3523,7 +3537,7 @@ count-words-region
   Other SFU Research Computing training events: https://training.westdri.ca/blog
   Training Inquiries: training@westdri.ca
 
-* Learn Emacs Lisp in 30 Minutes
+* Learn Emacs Lisp in 30 Minutes  :elisp:beginner:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=1y__2IK-aLM&list=PLknodeJt-I5GJmcd7ENakYf_M0x9q50d1&index=13&pp=iAQB
 :DATE:     2024-02-29T09:00:02-08:00
@@ -3592,7 +3606,7 @@ count-words-region
   27:58 Other videos you should check out
   29:22 Conclusion
 
-* Live: Emacs package maintenance ('fontaine', 'spacious-padding', 'ef-themes', 'denote', ...)
+* Live: Emacs package maintenance ('fontaine', 'spacious-padding', 'ef-themes', 'denote', ...)  :live:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=4Gg9PThHYZI&list=PL8Bwba5vnQK14z96Gil86pLMDO2GnOhQ6&index=5&pp=iAQB
 :DATE:     2024-02-22T18:39:28-08:00
@@ -3607,7 +3621,7 @@ count-words-region
 
   All my Emacs-related work: https://protesilaos.com/emacs.
 
-* Emacs: modern minibuffer packages (Vertico, Consult, etc.)
+* Emacs: modern minibuffer packages (Vertico, Consult, etc.)  :completion:vertico:marginalia:consult:orderless:embark:wgrep:savehist:recentf:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=d3aaxOqwHhI
 :DATE:     2024-02-17T07:11:36-08:00
@@ -3626,7 +3640,7 @@ count-words-region
 
   Find all my publications on my website (Emacs, philosophy, etc.): https://protesilaos.com
 
-* Why No One Can Answer The "Vim Versus Emacs" Question
+* Why No One Can Answer The "Vim Versus Emacs" Question  :comparison:community:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=scBBjZcy6fc&list=PL5--8gKSku15uYCnmxWPO17Dq6hVabAB4&index=1&pp=iAQB
 :DATE:     2024-02-17T06:00:41-08:00
@@ -3658,7 +3672,7 @@ count-words-region
 
   Your support is very much appreciated. Thanks, guys!
 
-* Using Emacs episode 82 - conda and direnv
+* Using Emacs episode 82 - conda and direnv  :coding:python:conda:envrc:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=UrJoBaJv5kA&list=PL9KxKa8NpFxIcNQa9js7dQQIHc81b0-Xg&index=83&pp=iAQB
 :DATE:     2024-02-13T07:08:39-08:00
@@ -3672,7 +3686,7 @@ count-words-region
   Envrc takes care of direnv support - a way to automatically set up your environment when you change into a directory.
 
   Matching blog post (which includes configuration file info): https://cestlaz.github.io/posts/using-emacs-82-conda-direnv
-* Emacs: control where buffers are displayed (the 'display-buffer-alist')  :buffers:
+* Emacs: control where buffers are displayed (the 'display-buffer-alist')  :buffers:configuration:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?si=o55awR-etgHGz4jr&v=1-UIzYPn38s&feature=youtu.be
 :DATE:     2024-02-08T04:35:17-08:00
@@ -3682,17 +3696,18 @@ count-words-region
   In this ~30 minute video I show how to tell Emacs where to place specific buffers. The idea is to have a set of rules that specify how you want Emacs to make use of the available space in the frame and which windows to use.
   You can find actual code and further links on my website. Check the publication that corresponds to this video: https://protesilaos.com/codelog/2024-02-08-emacs-window-rules-display-buffer-alist
 
-* GNU Emacs as a Comic Book Reader
+* GNU Emacs as a Comic Book Reader  :fun:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=lrZX_a4Y5Ps&list=PLW9poAEUvGDC1g1A3hBdZa0Atr0RL8yZt&index=1&pp=iAQB
 :DATE:     2024-02-05T01:17:06-08:00
 :SPEAKERS: Anand Tamariya
 :DURATION: 01:11
+:URL:      https://lifeofpenguin.blogspot.com/2024/01/gnu-emacs-as-comic-book-reader.html
 :END:
   Details:
   https://lifeofpenguin.blogspot.com/2024/01/gnu-emacs-as-comic-book-reader.html
 
-* Emacs: abbreviations with abbrev-mode (quick text expansion)
+* Emacs: abbreviations with abbrev-mode (quick text expansion)  :abbrev:completion:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=ruPpRlh2re4
 :DATE:     2024-02-03T06:34:24-08:00
@@ -3703,19 +3718,20 @@ count-words-region
 
   The code I had in my scratch buffer is on my website: https://protesilaos.com/codelog/2024-02-03-emacs-abbrev-mode
 
-* GNU Emacs: Magnifier Tool
+* GNU Emacs: Magnifier Tool  :fun:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=xpIvFiFlhJE&list=PLW9poAEUvGDC1g1A3hBdZa0Atr0RL8yZt&index=2&pp=iAQB
 :DATE:     2024-02-02T22:51:02-08:00
 :SPEAKERS: Anand Tamariya
 :DURATION: 00:24
+:URL:      https://lifeofpenguin.blogspot.com/2024/01/gnu-emacs-as-comic-book-reader.html
 :END:
   Details:
   https://lifeofpenguin.blogspot.com/2024/01/gnu-emacs-as-comic-book-reader.html
 
   (comics--zoom-on)
 
-* Emacs Goodies - #37 Pulse Mode
+* Emacs Goodies - #37 Pulse Mode  :appearance:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=xJ8-V-JWGYE&list=PL3kg5TcOuFloKaZ3TSmOL0Zh6xb8xyvpX&index=37&pp=iAQB
 :DATE:     2024-02-01T08:00:42-08:00
@@ -3746,7 +3762,7 @@ count-words-region
 
   #Emacs #IDE #Programming #SoftwareDevelopment #GNU #GNUEmacs
 
-* Emacs: define  prefix/leader key (nested key maps)
+* Emacs: define  prefix/leader key (nested key maps)  :configuration:keymaps:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=gojOZ3k1mmk
 :DATE:     2024-01-29T02:19:07-08:00
@@ -3759,7 +3775,7 @@ count-words-region
 
   Find all my publications on my website (Emacs, philsophy, Linux, etc.): https://protesilaos.com
 
-* M-x Compile: A Deep Dive into Compiling Code with Emacs
+* M-x Compile: A Deep Dive into Compiling Code with Emacs  :coding:compile:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=6oeE52bIFyE&list=PLknodeJt-I5GJmcd7ENakYf_M0x9q50d1&index=12&pp=iAQB
 :DATE:     2024-01-26T07:29:40-08:00
@@ -3797,7 +3813,7 @@ count-words-region
   13:11 Finding Errors In Shell-mode and VTerm
   14:42 Conclusion
 
-* Emacs Goodies - #36 Windmove Mode
+* Emacs Goodies - #36 Windmove Mode  :navigation:windmove:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=ICOfYE6BjT8&list=PL3kg5TcOuFloKaZ3TSmOL0Zh6xb8xyvpX&index=36&pp=iAQB
 :DATE:     2024-01-25T08:00:15-08:00
@@ -3829,18 +3845,19 @@ count-words-region
 
   #Emacs #IDE #Programming #SoftwareDevelopment #GNU #GNUEmacs
 
-* Learning Elisp 17 - A Thesaurus mode
+* Learning Elisp 17 - A Thesaurus mode  :writing:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=ZBN4Kphv-ac&list=PL9KxKa8NpFxKGctwh4-BqjQvdSRhh4NV-&index=19&pp=iAQB
 :DATE:     2024-01-25T05:48:39-08:00
 :SPEAKERS: Mike Zamansky
 :DURATION: 16:36
+:URL:      https://cestlaz.github.io/post/learning-elisp-17
 :END:
   Matching  blog post:
 
   https://cestlaz.github.io/post/learning-elisp-17
 
-* Emacs: Denote links to Org headings
+* Emacs: Denote links to Org headings  :denote:org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=FlTnPL27VwU
 :DATE:     2024-01-20T05:49:16-08:00
@@ -3855,7 +3872,7 @@ count-words-region
 
   Find all my publications on my website (Emacs, philosophy, etc.): https://protesilaos.com
 
-* Emacs Goodies - #35 Winner Mode
+* Emacs Goodies - #35 Winner Mode  :winner:navigation:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=Ofe2uiCV4m4&list=PL3kg5TcOuFloKaZ3TSmOL0Zh6xb8xyvpX&index=35&pp=iAQB
 :DATE:     2024-01-18T08:00:14-08:00
@@ -3887,18 +3904,19 @@ count-words-region
 
   #Emacs #IDE #Programming #SoftwareDevelopment #GNU #GNUEmacs
 
-* Learning Elisp 16 - using a web API
+* Learning Elisp 16 - using a web API  :elisp:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=tGZNhJmZ_2M&list=PL9KxKa8NpFxKGctwh4-BqjQvdSRhh4NV-&index=18&pp=iAQB
 :DATE:     2024-01-16T08:12:26-08:00
 :SPEAKERS: Mike Zamansky
 :DURATION: 21:16
+:URL:      https://cestlaz.github.io/post/learning-elisp-16
 :END:
   Matching  blog post:
 
   https://cestlaz.github.io/post/learning-elisp-16
 
-* Emacs: customize fonts (generic method and 'fontaine' package)
+* Emacs: customize fonts (generic method and 'fontaine' package)  :appearance:fonts:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=qR8JRYr4BKE
 :DATE:     2024-01-16T04:09:39-08:00
@@ -3911,7 +3929,7 @@ count-words-region
 
   Find all my Emacs-related work on my website (links to my packages, advanced Emacs configuration, and more): https://protesilaos.com/emacs
 
-* Emacs: customize mode line colors
+* Emacs: customize mode line colors  :appearance:theming:ModeLine:color:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=rVbfzvTfsoY
 :DATE:     2024-01-13T04:14:35-08:00
@@ -3926,7 +3944,7 @@ count-words-region
 
   Find all my publications on my website: https://protesilaos.com
 
-* Emacs Goodies - #34 SQL Shell Mode
+* Emacs Goodies - #34 SQL Shell Mode  :sql:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=4-f8QZ0Pb3o&list=PL3kg5TcOuFloKaZ3TSmOL0Zh6xb8xyvpX&index=34&pp=iAQB
 :DATE:     2024-01-04T08:00:01-08:00
@@ -3958,7 +3976,7 @@ count-words-region
 
   #Emacs #IDE #Programming #SoftwareDevelopment #GNU #GNUEmacs #sql #sqlite #postgres
 
-* Emacs Goodies - #33 SQLite Mode
+* Emacs Goodies - #33 SQLite Mode  :sqlite:sql:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=64Nz8g8jL6g&list=PL3kg5TcOuFloKaZ3TSmOL0Zh6xb8xyvpX&index=33&pp=iAQB
 :DATE:     2024-01-02T08:00:05-08:00
@@ -4002,7 +4020,7 @@ count-words-region
 :END:
   I've been experimenting with using speech recognition, Emacs, and Org Mode to lightly structure audio braindumps. Details:
   https://sachachua.com/blog/2023/12/audio-braindump-workflow-tweaks-adding-org-mode-hyperlinks-to-recordings-based-on-keywords/
-* Emacs: advanced Org literate configuration
+* Emacs: advanced Org literate configuration  :org:literate:configuration:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=ycyxytk1NAQ
 :DATE:     2023-12-18T04:07:51-08:00
@@ -4019,7 +4037,7 @@ count-words-region
   + Mailing list: https://lists.sr.ht/~protesilaos/dotfiles
   + Backronym: Do Observe, Transpose, Examine, or Mirror All Configurations, Stranger (dotemacs); Dotfiles Operate Transparently For the Included Linux and Emacs Setups (dotfiles).
 
-* Emacs Does Everything, Including Viewing PDFs and Diffs
+* Emacs Does Everything, Including Viewing PDFs and Diffs  :ediff:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=v2-m7_X3uy8&list=PL5--8gKSku15uYCnmxWPO17Dq6hVabAB4&index=2&pp=iAQB
 :DATE:     2023-12-13T06:00:45-08:00
@@ -4051,7 +4069,7 @@ count-words-region
 
   Your support is very much appreciated. Thanks, guys!
 
-* Emacs: multilingual editing (Greek, French, Chinese, etc.)
+* Emacs: multilingual editing (Greek, French, Chinese, etc.)  :writing:input:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=nFzdPjeSN8E
 :DATE:     2023-12-12T06:35:39-08:00
@@ -4064,7 +4082,7 @@ count-words-region
 
   Find all my publications on my website (Emacs, philosophy, Linux, etc.): https://protesilaos.com
 
-* Emacs Goodies - #32 Which Function Mode
+* Emacs Goodies - #32 Which Function Mode  :coding:elisp:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=-g3O8X24wb0&list=PL3kg5TcOuFloKaZ3TSmOL0Zh6xb8xyvpX&index=32&pp=iAQB
 :DATE:     2023-12-08T08:00:00-08:00
@@ -4095,7 +4113,7 @@ count-words-region
 
   #Emacs #IDE #Programming #SoftwareDevelopment
 
-* Emacs Goodies - #31 Executable
+* Emacs Goodies - #31 Executable   :coding:shell:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=bxZOZcXBe10&list=PL3kg5TcOuFloKaZ3TSmOL0Zh6xb8xyvpX&index=31&pp=iAQB
 :DATE:     2023-12-05T08:00:31-08:00
@@ -4127,7 +4145,7 @@ count-words-region
 
   #Emacs #IDE #Programming #SoftwareDevelopment
 
-* Emacs: the new Denote sort mechanism (Dired, Org dynamic blocks)
+* Emacs: the new Denote sort mechanism (Dired, Org dynamic blocks)  :denote:org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=gMq-703ZVZQ
 :DATE:     2023-12-04T05:53:38-08:00
@@ -4613,18 +4631,19 @@ count-words-region
 :SPEAKERS:
 :SERIES: EmacsConf 2023
 :END:
-* Learning Elisp 15 - cleaning up our emoji mode
+* Learning Elisp 15 - cleaning up our emoji mode  :elisp:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=Y9TPHo33Y1Y&list=PL9KxKa8NpFxKGctwh4-BqjQvdSRhh4NV-&index=17&pp=iAQB
 :DATE:     2023-11-29T08:59:56-08:00
 :SPEAKERS: Mike Zamansky
 :DURATION: 12:00
+:URL:      https://cestlaz.github.io/post/learning-elisp-15
 :END:
   Matching  blog post:
 
   https://cestlaz.github.io/post/learning-elisp-15
 
-* Emacs Goodies - #30 Whitespace Mode
+* Emacs Goodies - #30 Whitespace Mode  :appearance:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=AOkNTFquWtc&list=PL3kg5TcOuFloKaZ3TSmOL0Zh6xb8xyvpX&index=30&pp=iAQB
 :DATE:     2023-11-28T08:00:08-08:00
@@ -4656,7 +4675,7 @@ count-words-region
 
   #Emacs #IDE #Programming #SoftwareDevelopment
 
-* Emacs: Denote Org dynamic blocks
+* Emacs: Denote Org dynamic blocks  :org:denote:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=zzXcav0yb50
 :DATE:     2023-11-25T00:32:35-08:00
@@ -4669,12 +4688,13 @@ count-words-region
 
   Find all my publications on my website (Emacs, philosophy, Linux, etc.): https://protesilaos.com
 
-* Learning Elisp 14 - a minor mode
+* Learning Elisp 14 - a minor mode  :elisp:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=YBV9czwq-nw&list=PL9KxKa8NpFxKGctwh4-BqjQvdSRhh4NV-&index=16&pp=iAQB
 :DATE:     2023-11-21T12:00:19-08:00
 :SPEAKERS: Mike Zamansky
 :DURATION: 08:33
+:URL:      https://cestlaz.github.io/post/learning-elisp-14
 :END:
   Matching  blog post:
 
@@ -4691,7 +4711,7 @@ count-words-region
 
   Talk by Aidan H.
 
-* Emacs: ediff basics
+* Emacs: ediff basics  :ediff:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=pSvsAutseO0
 :DATE:     2023-11-17T06:46:59-08:00
@@ -4704,7 +4724,7 @@ count-words-region
 
   Find all my publications on my website (Emacs, philosophy, etc.): https://protesilaos.com
 
-* Debug multi threaded Python apps with Emacs
+* Debug multi threaded Python apps with Emacs  :dape:eglot:debugging:coding:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=YKkyfz4cU8g&list=PLebcndvR-wlP0iyv46tqtOxS5wKEn9E-K&index=2&pp=iAQB
 :DATE:     2023-11-16T12:40:38-08:00
@@ -4728,7 +4748,7 @@ count-words-region
   🐘 https://emacs.ch/@skybert
   📫 torstein@skybert.net
 
-* Emacs Goodies - #29 Dictionary
+* Emacs Goodies - #29 Dictionary  :dictionary:writing:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=qMjqGhucsZ8&list=PL3kg5TcOuFloKaZ3TSmOL0Zh6xb8xyvpX&index=29&pp=iAQB
 :DATE:     2023-11-13T08:00:29-08:00
@@ -4759,7 +4779,7 @@ count-words-region
 
   #Emacs #IDE #Programming #SoftwareDevelopment #GNU #GNUEmacs
 
-* Emacs Goodies - #28 Webjump
+* Emacs Goodies - #28 Webjump  :navigation:web:search:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=UKAQXK_qlfY&list=PL3kg5TcOuFloKaZ3TSmOL0Zh6xb8xyvpX&index=28&pp=iAQB
 :DATE:     2023-11-09T07:00:24-08:00
@@ -4791,12 +4811,13 @@ count-words-region
 
   #Emacs #IDE #Programming #SoftwareDevelopment #GNU #GNUEmacs
 
-* Learning elisp 13 - emoji replace part 3 - text properties
+* Learning elisp 13 - emoji replace part 3 - text properties  :elisp:TextProperties:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=x9eFxYS-hzw&list=PL9KxKa8NpFxKGctwh4-BqjQvdSRhh4NV-&index=15&pp=iAQB
 :DATE:     2023-11-08T08:27:03-08:00
 :SPEAKERS: Mike Zamansky
 :DURATION: 09:13
+:URL:      https://cestlaz.github.io/post/learning-elisp-13
 :END:
   Matching  blog post:
 
@@ -4838,7 +4859,7 @@ count-words-region
   🗒️ Doom Emacs: https://github.com/hlissner/doom-emacs
 
   Your support is very much appreciated. Thanks, guys!
-* Emacs Goodies - #27 Emacs Lock Mode
+* Emacs Goodies - #27 Emacs Lock Mode  :lock:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=8blUZbb6kbA&list=PL3kg5TcOuFloKaZ3TSmOL0Zh6xb8xyvpX&index=27&pp=iAQB
 :DATE:     2023-11-06T08:00:06-08:00
@@ -4870,7 +4891,7 @@ count-words-region
 
   #Emacs #IDE #Programming #SoftwareDevelopment #GNU #GNUEmacs
 
-* Emacs Goodies - #26 Auto Insert Mode
+* Emacs Goodies - #26 Auto Insert Mode   :editing:template:AutoInsert:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=FjmHnuV87tM&list=PL3kg5TcOuFloKaZ3TSmOL0Zh6xb8xyvpX&index=26&pp=iAQB
 :DATE:     2023-11-02T07:00:17-07:00
@@ -4901,7 +4922,7 @@ count-words-region
 
   #Emacs #IDE #Programming #SoftwareDevelopment #GNU #GNUEmacs
 
-* Learning elisp 12 - emoji replace part 2 - hooks
+* Learning elisp 12 - emoji replace part 2 - hooks  :hooks:elisp:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=6h4KngDdsbo&list=PL9KxKa8NpFxKGctwh4-BqjQvdSRhh4NV-&index=14&pp=iAQB
 :DATE:     2023-10-30T10:44:36-07:00
@@ -4912,7 +4933,7 @@ count-words-region
 
   https://cestlaz.github.io/post/learning-elisp-12/
 
-* Emacs Goodies - #25 Mouse Wheel Mode
+* Emacs Goodies - #25 Mouse Wheel Mode  :mouse:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=XKwZu4Gcn28&list=PL3kg5TcOuFloKaZ3TSmOL0Zh6xb8xyvpX&index=25&pp=iAQB
 :DATE:     2023-10-30T08:00:33-07:00
@@ -4943,7 +4964,7 @@ count-words-region
 
   #Emacs #IDE #Programming #SoftwareDevelopment #GNU #GNUEmacs
 
-* Listen To Internet Radio With Emacs And Eradio
+* Listen To Internet Radio With Emacs And Eradio  :multimedia:eradio:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=P8p3zXSzY4c&list=PL5--8gKSku15uYCnmxWPO17Dq6hVabAB4&index=4&pp=iAQB
 :DATE:     2023-10-27T06:00:31-07:00
@@ -4979,7 +5000,7 @@ count-words-region
 
   Your support is very much appreciated. Thanks, guys!
 
-* Emacs Goodies - #24 Json Pretty
+* Emacs Goodies - #24 Json Pretty  :json:coding:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=9mQee2tVVqo&list=PL3kg5TcOuFloKaZ3TSmOL0Zh6xb8xyvpX&index=24&pp=iAQB
 :DATE:     2023-10-26T07:00:09-07:00
@@ -5010,7 +5031,7 @@ count-words-region
 
   #Emacs #IDE #Programming #SoftwareDevelopment #GNU #GNUEmacs
 
-* Emacs Micro Lesson #9 | Start Process
+* Emacs Micro Lesson #9 | Start Process   :elisp:processes:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=TggT9_RxPqY&list=PLKpFPBl1UnIpUPd0kfMCObsi4rb9LQlD-&index=9&pp=iAQB
 :DATE:     2023-10-23T11:28:10-07:00
@@ -5029,7 +5050,7 @@ count-words-region
 
   #emacs #shellscripting
 
-* Emacs Goodies - #23 String Edit
+* Emacs Goodies - #23 String Edit   :elisp:editing:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=lUGSbeGzUl8&list=PL3kg5TcOuFloKaZ3TSmOL0Zh6xb8xyvpX&index=23&pp=iAQB
 :DATE:     2023-10-23T08:00:39-07:00
@@ -5060,7 +5081,7 @@ count-words-region
 
   #Emacs #IDE #Programming #SoftwareDevelopment #GNU #GNUEmacs
 
-* Emacs Goodies - #22 Repeat Mode
+* Emacs Goodies - #22 Repeat Mode                                   :keymaps:configuration:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=5AzSahLmDQk&list=PL3kg5TcOuFloKaZ3TSmOL0Zh6xb8xyvpX&index=22&pp=iAQB
 :DATE:     2023-10-19T07:00:05-07:00
@@ -5091,18 +5112,19 @@ count-words-region
 
   #Emacs #IDE #Programming #SoftwareDevelopment #GNU #GNUEmacs
 
-* Learning elisp 11 - Emoji Replace part 1
+* Learning elisp 11 - Emoji Replace part 1  :elisp:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=DvFjCVHpoyk&list=PL9KxKa8NpFxKGctwh4-BqjQvdSRhh4NV-&index=13&pp=iAQB
 :DATE:     2023-10-18T14:18:37-07:00
 :SPEAKERS: Mike Zamansky
 :DURATION: 15:33
+:URL:      https://cestlaz.github.io/post/learning-elisp-11/
 :END:
   Matching blog post:
 
   https://cestlaz.github.io/post/learning-elisp-11/
 
-* Emacs Goodies - #21 Bug Reference
+* Emacs Goodies - #21 Bug Reference  :coding:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=x3esg40dBbU&list=PL3kg5TcOuFloKaZ3TSmOL0Zh6xb8xyvpX&index=21&pp=iAQB
 :DATE:     2023-10-16T08:00:54-07:00
@@ -5169,7 +5191,7 @@ count-words-region
   Discord:
       https://discord.gg/JJk5KKU
 
-* Emacs: new Denote developments (version 2.1.0-dev)
+* Emacs: new Denote developments (version 2.1.0-dev)  :denote:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=RK4P5oIIEnk&list=PL8Bwba5vnQK14z96Gil86pLMDO2GnOhQ6&index=17&pp=iAQB
 :DATE:     2023-10-13T02:12:09-07:00
@@ -5178,7 +5200,7 @@ count-words-region
 :END:
   Read all the notes and find more links on my website: https://protesilaos.com/codelog/2023-10-13-denote-new-developments-video/
 
-* Emacs Goodies - #20 IELM Mode
+* Emacs Goodies - #20 IELM Mode  :elisp:ielm:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=vsrPfMoaI8k&list=PL3kg5TcOuFloKaZ3TSmOL0Zh6xb8xyvpX&index=20&pp=iAQB
 :DATE:     2023-10-12T07:00:42-07:00
@@ -5209,7 +5231,7 @@ count-words-region
 
   #Emacs #IDE #Programming #SoftwareDevelopment #GNU #GNUEmacs
 
-* Emacs Goodies - #19 Scroll All Mode
+* Emacs Goodies - #19 Scroll All Mode  :scroll:navigation:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=ht4PZWEbE_A&list=PL3kg5TcOuFloKaZ3TSmOL0Zh6xb8xyvpX&index=19&pp=iAQB
 :DATE:     2023-10-09T08:00:39-07:00
@@ -5249,7 +5271,7 @@ count-words-region
 :END:
   It's been a minute!
   I give a brief life update and talk about my book - and how I've been writing it in emacs. The various tools and shortcuts I used to write my book.
-* Emacs Goodies - #18 Follow Mode
+* Emacs Goodies - #18 Follow Mode  :scroll:navigation:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=KmrZq5FF2Xs&list=PL3kg5TcOuFloKaZ3TSmOL0Zh6xb8xyvpX&index=18&pp=iAQB
 :DATE:     2023-10-05T07:00:14-07:00
@@ -5280,7 +5302,7 @@ count-words-region
 
   #Emacs #IDE #Programming #SoftwareDevelopment #GNU #GNUEmacs
 
-* Emacs Goodies - #17 Master Mode
+* Emacs Goodies - #17 Master Mode   :navigation:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=iuIQwRCJkyI&list=PL3kg5TcOuFloKaZ3TSmOL0Zh6xb8xyvpX&index=17&pp=iAQB
 :DATE:     2023-10-02T08:00:34-07:00
@@ -5311,7 +5333,7 @@ count-words-region
 
   #Emacs #IDE #Programming #SoftwareDevelopment #GNU #GNUEmacs
 
-* Emacs Goodies -#16 Network Utils
+* Emacs Goodies -#16 Network Utils   :network:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=nNqUw3nFES4&list=PL3kg5TcOuFloKaZ3TSmOL0Zh6xb8xyvpX&index=16&pp=iAQB
 :DATE:     2023-09-28T07:00:35-07:00
@@ -5375,7 +5397,7 @@ count-words-region
 
   Your support is very much appreciated. Thanks, guys!
 
-* Live: Emacs package maintenance (mostly about 'denote')
+* Live: Emacs package maintenance (mostly about 'denote')  :live:denote:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=6k0pZXQrQSs&list=PL8Bwba5vnQK14z96Gil86pLMDO2GnOhQ6&index=18&pp=iAQB
 :DATE:     2023-09-25T19:07:30-07:00
@@ -5403,7 +5425,7 @@ count-words-region
   - Video demo: https://protesilaos.com/codelog/2022-06-18-denote-demo/
   - Backronyms: Denote Everything Neatly; Omit The Excesses.  Don't Ever Note Only The Epiphenomenal.
 
-* Emacs Goodies - #15 No Littering
+* Emacs Goodies - #15 No Littering   :configuration:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=8nueOSlqaSA&list=PL3kg5TcOuFloKaZ3TSmOL0Zh6xb8xyvpX&index=15&pp=iAQB
 :DATE:     2023-09-25T08:00:12-07:00
@@ -5437,7 +5459,7 @@ count-words-region
 
   #Emacs #IDE #Programming #SoftwareDevelopment #GNU #GNUEmacs
 
-* Emacs Goodies - #14 Time Stamp Mode
+* Emacs Goodies - #14 Time Stamp Mode  :time:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=PDab1bdIh-I&list=PL3kg5TcOuFloKaZ3TSmOL0Zh6xb8xyvpX&index=14&pp=iAQB
 :DATE:     2023-09-21T07:00:27-07:00
@@ -5468,7 +5490,7 @@ count-words-region
 
   #Emacs #IDE #Programming #SoftwareDevelopment #GNU #GNUEmacs
 
-* Learning elisp 10 -built in data structures
+* Learning elisp 10 -built in data structures  :elisp:data:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=oszVyBvxmzg&list=PL9KxKa8NpFxKGctwh4-BqjQvdSRhh4NV-&index=12&pp=iAQB
 :DATE:     2023-09-18T16:36:29-07:00
@@ -5478,7 +5500,7 @@ count-words-region
   Matching blog post:
   https://cestlaz.github.io/post/learning-elisp-10
 
-* Emacs Goodies - #13 Save History Mode
+* Emacs Goodies - #13 Save History Mode   :history:navigation:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=yQWU_6ychsM&list=PL3kg5TcOuFloKaZ3TSmOL0Zh6xb8xyvpX&index=13&pp=iAQB
 :DATE:     2023-09-18T08:00:50-07:00
@@ -5509,7 +5531,7 @@ count-words-region
 
   #Emacs #IDE #Programming #SoftwareDevelopment #GNU #GNUEmacs
 
-* An Emacs "Killer Feature" Is Bulk Renaming
+* An Emacs "Killer Feature" Is Bulk Renaming   :dired:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=Fm1K1crWKn8&list=PL5--8gKSku15uYCnmxWPO17Dq6hVabAB4&index=6&pp=iAQB
 :DATE:     2023-09-15T06:00:12-07:00
@@ -5542,7 +5564,7 @@ count-words-region
 
   Your support is very much appreciated. Thanks, guys!
 
-* Emacs Goodies - #12 Save Place Mode
+* Emacs Goodies - #12 Save Place Mode  :navigation:SavePlace:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=CIkZz1X-9e8&list=PL3kg5TcOuFloKaZ3TSmOL0Zh6xb8xyvpX&index=12&pp=iAQB
 :DATE:     2023-09-14T07:00:15-07:00
@@ -5573,7 +5595,7 @@ count-words-region
 
   #Emacs #IDE #Programming #SoftwareDevelopment #GNU #GNUEmacs
 
-* The argument for emacs in just a few minutes (vlog) | IT and DevOps Career Secrets
+* The argument for emacs in just a few minutes (vlog) | IT and DevOps Career Secrets  :why:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=Kr7BmHa7hyU
 :DATE:     2023-09-12T12:57:06-07:00
@@ -5587,7 +5609,7 @@ count-words-region
   videos on lbry.io: https://open.lbry.io/@nicktrains:b/
   Mastadon.social: @nickbernstein@mastodon.social
 
-* Emacs Goodies - #11 Dunnet
+* Emacs Goodies - #11 Dunnet  :fun:game:dunnet:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=sdRHDLg7Xeg&list=PL3kg5TcOuFloKaZ3TSmOL0Zh6xb8xyvpX&index=11&pp=iAQB
 :DATE:     2023-09-11T08:00:43-07:00
@@ -5618,7 +5640,7 @@ count-words-region
 
   #Emacs #IDE #Programming #SoftwareDevelopment #GNU #GNUEmacs
 
-* Emacs Goodies - #10 Morse Code + Nato Alphabet
+* Emacs Goodies - #10 Morse Code + Nato Alphabet  :fun:morse:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=L5-eei1Ouqw&list=PL3kg5TcOuFloKaZ3TSmOL0Zh6xb8xyvpX&index=10&pp=iAQB
 :DATE:     2023-09-07T07:00:20-07:00
@@ -5649,7 +5671,7 @@ count-words-region
 
   #Emacs #IDE #Programming #SoftwareDevelopment #GNU #GNUEmacs
 
-* Putting The Final Touches On Emacs - Configuring Emacs 07
+* Putting The Final Touches On Emacs - Configuring Emacs 07  :configuration:magit:coding:perspective:rainbow:tldr:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=Be041087PVI&list=PL5--8gKSku15e8lXf7aLICFmAHQVo0KXX&index=7&pp=iAQB
 :DATE:     2023-09-05T06:00:06-07:00
@@ -5685,7 +5707,7 @@ count-words-region
 
   Your support is very much appreciated. Thanks, guys!
 
-* Emacs Goodies - #9 Strokes Mode
+* Emacs Goodies - #9 Strokes Mode  :mouse:strokes:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=oAGfDSFndIk&list=PL3kg5TcOuFloKaZ3TSmOL0Zh6xb8xyvpX&index=9&pp=iAQB
 :DATE:     2023-09-04T09:00:39-07:00
@@ -5716,7 +5738,7 @@ count-words-region
 
   #Emacs #IDE #Programming #SoftwareDevelopment #GNU #GNUEmacs
 
-* Emacs Goodies - #8 Ruler Mode
+* Emacs Goodies - #8 Ruler Mode  :ruler:writing:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=d_jvFuAm2AA&list=PL3kg5TcOuFloKaZ3TSmOL0Zh6xb8xyvpX&index=8&pp=iAQB
 :DATE:     2023-08-31T07:00:33-07:00
@@ -5747,7 +5769,7 @@ count-words-region
 
   #Emacs #IDE #Programming #SoftwareDevelopment #GNU #GNUEmacs
 
-* Learning elisp part 9 - regex conclusion
+* Learning elisp part 9 - regex conclusion                      :elisp:regex:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=DqHuCePi2FA&list=PL9KxKa8NpFxKGctwh4-BqjQvdSRhh4NV-&index=11&pp=iAQB
 :DATE:     2023-08-30T03:51:55-07:00
@@ -5758,7 +5780,7 @@ count-words-region
 
   https://cestlaz.github.io/post/learning-elisp-9
 
-* Emacs Goodies - #7 Proced Mode
+* Emacs Goodies - #7 Proced Mode   :processes:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=gRGYM8GuUUo&list=PL3kg5TcOuFloKaZ3TSmOL0Zh6xb8xyvpX&index=7&pp=iAQB
 :DATE:     2023-08-28T08:00:37-07:00
@@ -5789,7 +5811,7 @@ count-words-region
 
   #Emacs #IDE #Programming #SoftwareDevelopment #GNU #GNUEmacs
 
-* Emacs Goodies - #6 Battery-Mode
+* Emacs Goodies - #6 Battery-Mode   :stats:battery:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=VPcfsYPSu2Q&list=PL3kg5TcOuFloKaZ3TSmOL0Zh6xb8xyvpX&index=6&pp=iAQB
 :DATE:     2023-08-24T07:00:28-07:00
@@ -5820,7 +5842,7 @@ count-words-region
 
   #Emacs #IDE #Programming #SoftwareDevelopment #GNU #GNUEmacs
 
-* Learning elisp 8 - regex part 2
+* Learning elisp 8 - regex part 2                               :regex:elisp:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=2hbX4h4ZdAc&list=PL9KxKa8NpFxKGctwh4-BqjQvdSRhh4NV-&index=10&pp=iAQB
 :DATE:     2023-08-23T04:25:29-07:00
@@ -5853,7 +5875,7 @@ Please look at silverbullet.md, a browser based, MIT licensed markdown notes edi
 
 I’ve messed with Kakoune a bit and think I’ll make a follow up about taking notes in kak (and Helix) since there were some challenges and considerations. Emacs is the best all around for notes but can be slow, Neovim is the fastest and best supported, Kakoune has interesting consistent bindings and minimalist philosophy, and Helix is snappy and kak-ish but wordier and not extensible. I could just pick one and stick with it but why not overanalyze all of them more??
 
-* Emacs Goodies - #5 Display Time/World Clock
+* Emacs Goodies - #5 Display Time/World Clock                          :time:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=azD4ESuApYw&list=PL3kg5TcOuFloKaZ3TSmOL0Zh6xb8xyvpX&index=5&pp=iAQB
 :DATE:     2023-08-21T08:00:05-07:00
@@ -5884,7 +5906,7 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
 
   #Emacs #IDE #Programming #SoftwareDevelopment #GNU #GNUEmacs
 
-* Cleaning Up My Emacs Config - Configuring Emacs 06
+* Cleaning Up My Emacs Config - Configuring Emacs 06          :configuration:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=tT1foT5Ccdo&list=PL5--8gKSku15e8lXf7aLICFmAHQVo0KXX&index=6&pp=iAQB
 :DATE:     2023-08-18T06:00:43-07:00
@@ -11326,7 +11348,7 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
 :SPEAKERS: Ramin Honary
 :SERIES: EmacsConf 2022
 :END:
-* rde Emacs introduction  :emacsconf:emacsconf2022:config:StarterKit:
+* rde Emacs introduction  :emacsconf:emacsconf2022:configuration:StarterKit:
 :PROPERTIES:
 :DATE: 2022-12-04
 :URL: https://emacsconf.org/2022/talks/rde
@@ -23998,7 +24020,7 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
 :SPEAKERS: Philip Kaludercic
 :SERIES: EmacsConf 2021
 :END:
-* Manual Package Management in The Era of Repositories - Why and How  :emacsconf:emacsconf2021:package:config:
+* Manual Package Management in The Era of Repositories - Why and How  :emacsconf:emacsconf2021:package:configuration:
 :PROPERTIES:
 :DATE: 2021-11-27
 :URL: https://emacsconf.org/2021/talks/borg
@@ -24240,7 +24262,7 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
 :SPEAKERS:
 :SERIES: EmacsConf 2021
 :END:
-* System Crafters Live - I'm Rewriting My Configuration... Again
+* System Crafters Live - I'm Rewriting My Configuration... Again :configuration:live:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=2VpHr6sfLy0
 :DATE:     2021-11-26T22:14:09-08:00
@@ -37923,6 +37945,26 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
   Follow on LBRY: https://lbry.tv/@lukewh:3
   Join LBRY: https://lbry.tv/$/invite/@lukewh:3 (I get 20LBC if you do this)
 
+* Emacs - 17 - Flycheck | Syntax checking  :coding:flycheck:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=EGR9CwM1ksQ&list=PLNJWazvift25KnHDwYlhwrrgr60wtpQOB&index=20&pp=iAQB
+:DATE:     2020-03-17T02:00:10-07:00
+:SPEAKERS: Lukewh
+:DURATION: 08:49
+:END:
+  Use well known, and used, 3rd party tools to check your syntax.
+
+  Flycheck: https://www.flycheck.org/en/latest/
+  ESLint: https://eslint.org/ (For JavaScript)
+
+  Thanks for watching :). If you liked this video consider liking and/or subscribing, it's most appreciated.
+
+  Join the Discord: https://discord.gg/DNjUacV
+
+  Listen to my podcast: https://teapod.club
+
+  Follow on LBRY: https://lbry.tv/@lukewh:3
+  Join LBRY: https://lbry.tv/$/invite/@lukewh:3 (I get 20LBC if you do this)
 * Using Emacs 68 - Tramp and org-publish
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=tlCOsigPjk8&list=PL9KxKa8NpFxIcNQa9js7dQQIHc81b0-Xg&index=69&pp=iAQB
@@ -38163,6 +38205,26 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
   when sending region (setq ess-eval-visibly-p nil), C-x C-e to evaluate
   emacs lisp code.
 
+* Emacs  - 15 - Centaur tabs   :tabs:navigation:centaur:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=rZkTBrLgzq4&list=PLNJWazvift25KnHDwYlhwrrgr60wtpQOB&index=16&pp=iAQB
+:DATE:     2020-03-05T10:00:07-08:00
+:SPEAKERS: Lukewh
+:DURATION: 11:12
+:END:
+  Who doesn't want tabs in their editor? Emacs can have tabs too - hooray!
+
+  centaur-tabs: https://github.com/ema2159/centaur-tabs
+
+  Thanks for watching :). If you liked this video consider liking and/or subscribing, it's most appreciated.
+
+  Join the Discord: https://discord.gg/DNjUacV
+
+  Listen to my podcast: https://teapod.club
+
+  Follow on LBRY: https://lbry.tv/@lukewh:3
+  Join LBRY: https://lbry.tv/$/invite/@lukewh:3 (I get 20LBC if you do this)
+
 * Starting R and getting R help inside of emacs, basic key command for movement and code execution
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=aMpniVa45qk&list=PLwc48KSH3D1Onsed66FPLywMSIQmAhUYJ&index=5&pp=iAQB
@@ -38259,6 +38321,26 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
   Summary: how to install GNU/Emacs modified by Vincent Goulet for
   R/ESS on Windows/MacOS, check emacs version with C-h v emacs-version.
 
+* Emacs - 14 - Org-bullets and support-shift-select  :org:OrgBullets:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=zd4NbwEJ4rA&list=PLNJWazvift25KnHDwYlhwrrgr60wtpQOB&index=15&pp=iAQB
+:DATE:     2020-03-03T10:00:08-08:00
+:SPEAKERS: Lukewh
+:DURATION: 04:39
+:END:
+  Improving org-mode a little at a time. This time looking at the org-bullets package and enabling shift select.
+
+  org-bullets: https://github.com/sabof/org-bullets
+
+  Thanks for watching :). If you liked this video consider liking and/or subscribing, it's most appreciated.
+
+  Join the Discord: https://discord.gg/DNjUacV
+
+  Listen to my podcast: https://teapod.club
+
+  Follow on LBRY: https://lbry.tv/@lukewh:3
+  Join LBRY: https://lbry.tv/$/invite/@lukewh:3 (I get 20LBC if you do this)
+
 * 2020-01-29: org-mode and restclient - Mackenzie Bligh      :org:restclient:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=qz9tSMsMDII&feature=share
@@ -38267,6 +38349,26 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 :DURATION: 54:25
 :END:
   Mack takes us through literate REST development via org-mode, and shares some of his Emacs tips.
+
+* Emacs bites -  Named term  :shell:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=wRmK7PMnrJg&list=PLNJWazvift25KnHDwYlhwrrgr60wtpQOB&index=14&pp=iAQB
+:DATE:     2020-02-28T10:00:13-08:00
+:SPEAKERS: Lukewh
+:DURATION: 05:11
+:END:
+  I open terminals within emacs throughout the day - I like to name them. M-x term [ret] C-x C-k M-x rename-buffer [ret] name [ret] C-x C-j is too much for me.
+  So I wrote a little "named-term" script:
+  https://gist.github.com/Lukewh/6e7d9ffb61fafde7808c74007b025fe7
+
+  Thanks for watching :). If you liked this video consider liking and/or subscribing, it's most appreciated.
+
+  Join the Discord: https://discord.gg/DNjUacV
+
+  Listen to my podcast: https://teapod.club
+
+  Follow on LBRY: https://lbry.tv/@lukewh:3
+  Join LBRY: https://lbry.tv/$/invite/@lukewh:3 (I get 20LBC if you do this)
 
 * Emacs GDScript Mode: Code your Godot projects in Emacs!
 :PROPERTIES:
@@ -38297,6 +38399,26 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 :END:
   In this video, Finn Grimwood, a senior Software Engineer at Undo, shows you how he uses GDB inside the Emacs editor. He explains how you can optimize your GDB/ Emacs setup and various techniques that almost certainly will improve your debugging experience. Full tutorial on: https://undo.io/resources/gdb-watchpoint/using-gdb-emacs/
 
+* Emacs - 13 - Expand region   :ExpandRegion:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=mO47ibOic0E&list=PLNJWazvift25KnHDwYlhwrrgr60wtpQOB&index=13&pp=iAQB
+:DATE:     2020-02-26T10:00:11-08:00
+:SPEAKERS: Lukewh
+:DURATION: 10:53
+:END:
+  aleph0x suggested I do a video on expand-region. I wasn't aware of expand-region so I tried it, liked it and now here's a video about it!
+
+  https://github.com/magnars/expand-region.el
+
+  Thanks for watching :). If you liked this video consider liking and/or subscribing, it's most appreciated.
+
+  Join the Discord: https://discord.gg/DNjUacV
+
+  Listen to my podcast: https://teapod.club
+
+  Follow on LBRY: https://lbry.tv/@lukewh:3
+  Join LBRY: https://lbry.tv/$/invite/@lukewh:3 (I get 20LBC if you do this)
+
 * Emacs: ICOMPLETE demo
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=vtwYIKUZwEM
@@ -38321,6 +38443,25 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
   Check out more of our talks, courses, and conferences in the following links:
   https://ndcconferences.com/
   https://ndc-london.com/
+
+* Emacs - 12 - Bookmarks   :bookmarks:navigation:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=ajiEBK2swKo&list=PLNJWazvift25KnHDwYlhwrrgr60wtpQOB&index=12&pp=iAQB
+:DATE:     2020-02-24T10:00:00-08:00
+:SPEAKERS: Lukewh
+:DURATION: 12:05
+:END:
+  I recently discovered bookmarks and wanted to share what I'd learnt. They're a fantastic way to jump to important files and content.
+     https://www.gnu.org/software/emacs/manual/html_node/emacs/Bookmarks.html
+
+  Thanks for watching :). If you liked this video consider liking and/or subscribing, it's most appreciated.
+
+  Join the Discord: https://discord.gg/DNjUacV
+
+  Listen to my podcast: https://teapod.club
+
+  Follow on LBRY: https://lbry.tv/@lukewh:3
+  Join LBRY: https://lbry.tv/$/invite/@lukewh:3 (I get 20LBC if you do this)
 
 * Org Mode Basics In Doom Emacs  :org:DoomEmacs:
 :PROPERTIES:
@@ -38455,6 +38596,25 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
           (require 'company)
           (global-company-mode)
 
+* Emacs - 09 - Dashboard   :dashboard:configuration:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=SfyJtenKd2A&list=PLNJWazvift25KnHDwYlhwrrgr60wtpQOB&index=9&pp=iAQB
+:DATE:     2020-02-14T06:04:19-08:00
+:SPEAKERS: Lukewh
+:DURATION: 10:52
+:END:
+  Setting up emacs-dashboard and change some configuration.
+  https://github.com/emacs-dashboard/emacs-dashboard
+
+  Thanks for watching :). If you liked this video consider liking and/or subscribing, it's most appreciated.
+
+  Join the Discord: https://discord.gg/DNjUacV
+
+  Listen to my podcast: https://teapod.club
+
+  Follow on LBRY: https://lbry.tv/@lukewh:3
+  Join LBRY: https://lbry.tv/$/invite/@lukewh:3 (I get 20LBC if you do this)
+
 * EXWM is love! (Emacs)                                                :exwm:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=bHSGDn1Nulo&feature=youtu.be
@@ -38481,6 +38641,27 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 
   Projectile: https://github.com/bbatsov/projectile
   Helm Projectile: https://github.com/bbatsov/helm-projectile
+
+  Thanks for watching :). If you liked this video consider liking and/or subscribing, it's most appreciated.
+
+  Join the Discord: https://discord.gg/DNjUacV
+
+  Listen to my podcast: https://teapod.club
+
+  Follow on LBRY: https://lbry.tv/@lukewh:3
+  Join LBRY: https://lbry.tv/$/invite/@lukewh:3 (I get 20LBC if you do this)
+
+* Emacs - 07 - ido and helm   :ido:helm:completion:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=32IHE8wsqPY&list=PLNJWazvift25KnHDwYlhwrrgr60wtpQOB&index=7&pp=iAQB
+:DATE:     2020-02-10T12:00:00-08:00
+:SPEAKERS: Lukewh
+:DURATION: 05:35
+:END:
+  A quick look at ido and helm.
+
+  ido: https://www.emacswiki.org/emacs/InteractivelyDoThings
+  helm: https://github.com/emacs-helm/helm
 
   Thanks for watching :). If you liked this video consider liking and/or subscribing, it's most appreciated.
 
@@ -38567,6 +38748,52 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 
   Your support is very much appreciated. Thanks, guys!
 
+* Emacs - 06 - Toolbar, menubar, scrollbar and other settings  :appearance:configuration:toolbar:menubar:scrollbar:LineNumbers:hl:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=8wMk2nxoeK4&list=PLNJWazvift25KnHDwYlhwrrgr60wtpQOB&index=6&pp=iAQB
+:DATE:     2020-02-07T05:57:27-08:00
+:SPEAKERS: Lukewh
+:DURATION: 10:44
+:END:
+  In this video we look at some vanilla emacs settings to customize emacs.
+       - No startup message
+       - Hide toolbar
+       - Hide menubar
+       - Hide scrollbar
+       - Show line numbers (in prog-mode)
+       - Highlight current line
+       - Delete selection
+       - Highlight matching parenthesis
+       - Save backup files to a central place
+
+  Thanks for watching :)!
+
+  Join the Discord: https://discord.gg/DNjUacV
+
+  Listen to my podcast: https://teapod.club
+
+  Follow on LBRY: https://lbry.tv/@lukewh:3
+  Join LBRY: https://lbry.tv/$/invite/@lukewh:3 (I get 20LBC if you do this)
+
+* Emacs bites - Startup config selector   :configuration:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=eMKXo7E06OY&list=PLNJWazvift25KnHDwYlhwrrgr60wtpQOB&index=5&pp=iAQB
+:DATE:     2020-02-06T09:03:01-08:00
+:SPEAKERS: Lukewh
+:DURATION: 05:01
+:END:
+  In Emacs - 05 - Themes there was a glimpse of my Emacs startup process.
+  I thought I'd show the little script I have that let's me select which config I want to load on startup.
+
+  Thanks for watching :)
+
+  Join the Discord: https://discord.gg/DNjUacV
+
+  Listen to my podcast: https://teapod.club
+
+  Follow on LBRY: https://lbry.tv/@lukewh:3
+  Join LBRY: https://lbry.tv/$/invite/@lukewh:3 (I get 20LBC if you do this)
+
 * Emacs - 05 - Themes                           :theming:DoomEmacs:spacemacs:
 :PROPERTIES:
 :YOUTUBE_URL: https://youtu.be/B2rjBrnXc_E
@@ -38612,6 +38839,22 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
   - Add which-key
 
   Thanks for watching
+
+  Join the Discord: https://discord.gg/DNjUacV
+
+  Listen to my podcast: https://teapod.club
+
+  Follow on LBRY: https://lbry.tv/@lukewh:3
+  Join LBRY: https://lbry.tv/$/invite/@lukewh:3 (I get 20LBC if you do this)
+
+* Emacs - 03 - Modes  :modes:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=QZD_a0T-3dk&list=PLNJWazvift25KnHDwYlhwrrgr60wtpQOB&index=19&pp=iAQB
+:DATE:     2020-02-03T04:41:05-08:00
+:SPEAKERS: Lukewh
+:DURATION: 05:45
+:END:
+  In the third installment I'll discuss major and minor modes in emacs.
 
   Join the Discord: https://discord.gg/DNjUacV
 
