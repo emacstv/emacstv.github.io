@@ -5219,7 +5219,7 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
 
   https://cestlaz.github.io/post/learning-elisp-5
 
-* Dired, Neotree and True Transparency - Configuring Emacs 05
+* Dired, Neotree and True Transparency - Configuring Emacs 05         :dired:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=uj-GBVWdxcA&list=PL5--8gKSku15e8lXf7aLICFmAHQVo0KXX&index=5&pp=iAQB
 :DATE:     2023-08-01T06:00:42-07:00
@@ -5419,7 +5419,7 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
 
   https://cestlaz.github.io'/post/using-emacs-81-elfeed-webkit
 
-* Emacs: file and Dired basics
+* Emacs: file and Dired basics                                        :dired:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=L_4pLN0gXGI&list=PL8Bwba5vnQK14z96Gil86pLMDO2GnOhQ6&index=22&pp=iAQB
 :DATE:     2023-06-26T05:17:08-07:00
@@ -6026,7 +6026,7 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
 
   #emacs
 
-* Exploring the Depths of Dired - System Crafters Live!  :dired:
+* Exploring the Depths of Dired - System Crafters Live!               :dired:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=h6ZssDbEt4A
 :DATE:     2023-05-19T22:08:48-07:00
@@ -8650,7 +8650,7 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
 :END:
   Leverage emacs for working with API testing. It's a great productivity hack for developer.
 
-* Delete files with emacs dired
+* Delete files with emacs dired                                       :dired:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=j2x43E-MVS4
 :DATE:     2023-01-28T03:17:20-08:00
@@ -8659,7 +8659,7 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
 :END:
   Emacs is cool. With dired, you can utilise as a full-fledged file manager.
 
-* Get file size in Emacs Dired
+* Get file size in Emacs Dired                                        :dired:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=XCAFbo_f7TQ
 :DATE:     2023-01-28T03:03:01-08:00
@@ -11602,7 +11602,7 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
 :END:
 
 
-* GNU Emacs: Create directory in dired-mode
+* GNU Emacs: Create directory in dired-mode                           :dired:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=rVWZbapDvQA
 :DATE:     2022-11-11T16:30:24-08:00
@@ -13389,7 +13389,7 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
 
   #emacs
 
-* Learn the Basics of the Dired File Manager (Doom Emacs)
+* Learn the Basics of the Dired File Manager (Doom Emacs)             :dired:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=eQ_3L702n7w
 :DATE:     2022-09-05T05:56:39-07:00
@@ -18294,7 +18294,7 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
   notes
   http://xahlee.info/talk_show/xah_talk_show_2022-03-04.html
 
-* Emacs:Dired Basic Files Manipulation 2022_03_05_11:49:37
+* Emacs:Dired Basic Files Manipulation 2022_03_05_11:49:37            :dired:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=2G7ILcm5WXA
 :DATE:     2022-03-04T22:51:29-08:00
@@ -18714,7 +18714,7 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
   5. Youtube: https://youtube.com/ravisagar1
   ####
 
-* Emacs File Manager
+* Emacs File Manager                                                  :dired:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=YIGUxiiwz2U
 :DATE:     2022-02-23T10:30:36-08:00
@@ -19950,7 +19950,7 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
 
   Available here: https://github.com/localauthor/zk-luhmann
 
-* Emacs Dired file manager
+* Emacs Dired file manager                                            :dired:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=NcRxKgEYkDU&list=PLwgb17bzeNyiuQtvKtcZ_pvSSoO9ShXv8&index=5&pp=iAQB
 :DATE:     2022-01-31T06:07:09-08:00
@@ -20991,7 +20991,7 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
   emacs init.el
   https://github.com/NapoleonWils0n/ubuntu-dotfiles/blob/master/.config/emacs/init.el#L119
 
-* emacs improving dired, reducing start up time and other tips
+* emacs improving dired, reducing start up time and other tips        :dired:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=6smCl06QfYc
 :DATE:     2022-01-18T10:24:32-08:00
@@ -22121,7 +22121,7 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
   This is a republication of my presentation at EmacsConf 2021.  I am
   posting it on my  channel for archiving purposes. /// The text of the presentation is available on my website: https://protesilaos.com/codelog/2021-12-21-emacsconf2021-freedom/
 
-* Emacs shorts #01: Tramp, Dired, Undo
+* Emacs shorts #01: Tramp, Dired, Undo                                :dired:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=iVnp4Nw9cqU
 :DATE:     2021-12-20T02:41:36-08:00
@@ -27460,7 +27460,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
   9:49 - Getting started with Emacs
   12:46 - Emacs joke!
 
-* Emacs: custom Dired extras
+* Emacs: custom Dired extras                                          :dired:
 :PROPERTIES:
 :YOUTUBE_URL: https://youtu.be/gRQ05rq03j4
 :DATE:     2021-07-21T03:12:49-07:00
@@ -33022,7 +33022,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
   Intro music: Coriolis Effect by logos feat. stefsax, licensed CC-BY
   http://ccmixter.org/files/mseq/26296
 
-* Emacs From Scratch #10 - Effortless File Management with Dired
+* Emacs From Scratch #10 - Effortless File Management with Dired      :dired:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=PMWwM8QJAtU&feature=youtu.be
 :DATE:     2020-11-06T22:18:00-08:00
@@ -38175,7 +38175,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 
   https://summit.blockstack.org/
 
-* Emacs: Seach+Replace in multiple files (Ivy, ibuffer, Dired…)
+* Emacs: Seach+Replace in multiple files (Ivy, ibuffer, Dired…)       :dired:
 :PROPERTIES:
 :YOUTUBE_URL: https://youtu.be/rLF9oTmVFsc
 :DATE:     2019-12-08T03:11:11-08:00
@@ -38403,7 +38403,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
   Read The Docs: https://sphinx-rtd-theme.readthedocs.io/en/latest/installing.html
   Git from the Bits Up: https://www.youtube.com/watch?v=MYP56QJpDr4
 
-* Emacs: change multi-file permissions in Dired
+* Emacs: change multi-file permissions in Dired                       :dired:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=pQWa43YvQ2A&list=PL8Bwba5vnQK14z96Gil86pLMDO2GnOhQ6&index=99&pp=iAQB
 :DATE:     2019-11-16T09:16:00-08:00
@@ -38425,7 +38425,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 
   Emacs config: https://github.com/zamansky/dot-emacs
 
-* Emacs music management with Bongo and Dired
+* Emacs music management with Bongo and Dired                         :dired:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=zm85Q6m3JDU&list=PL8Bwba5vnQK14z96Gil86pLMDO2GnOhQ6&index=100&pp=iAQB
 :DATE:     2019-11-13T02:43:03-08:00
@@ -38904,7 +38904,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 
   #emacs #emacsdoom #magit
 
-* Emacs: Dired subtree has a toggle!
+* Emacs: Dired subtree has a toggle!                                  :dired:
 :PROPERTIES:
 :YOUTUBE_URL: https://youtu.be/vm-FvNdYFcc
 :DATE:     2019-09-27T03:02:15-07:00
@@ -38922,7 +38922,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 :END:
   Demo of some small optimisations and micro-motions that I rely on. I generally re-configure Emacs when I do not like the defaults. Here is the link to my configs: https://protesilaos.com/dotemacs
 
-* Emacs: techniques to narrow Dired
+* Emacs: techniques to narrow Dired                                   :dired:
 :PROPERTIES:
 :YOUTUBE_URL: https://youtu.be/g6YA4tiW1eQ
 :DATE:     2019-09-19T06:11:50-07:00
@@ -39044,7 +39044,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 
   Do you or your company need visualizations like that? Get in touch: https://robert.kra.hn
 
-* Emacs: DIRED and keyboard macros (quick demo)
+* Emacs: DIRED and keyboard macros (quick demo)                       :dired:
 :PROPERTIES:
 :YOUTUBE_URL: https://youtu.be/5NShmv_3rYk
 :DATE:     2019-09-03T02:21:57-07:00
@@ -39255,7 +39255,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 
   Do you or your company need visualizations like that? Get in touch: https://robert.kra.hn
 
-* Emacs DIRED tweaks and improvements
+* Emacs DIRED tweaks and improvements                                 :dired:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=_2NAbPp_0zY&list=PL8Bwba5vnQK14z96Gil86pLMDO2GnOhQ6&index=120&pp=iAQB
 :DATE:     2019-08-12T03:51:53-07:00
@@ -39512,7 +39512,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 
   #emacs #emacsdoom #orgmode
 
-* Emacs DIRED: list sub-directories, search results, images, diffs
+* Emacs DIRED: list sub-directories, search results, images, diffs    :dired:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=2lF3z7H8oaI&list=PL8Bwba5vnQK14z96Gil86pLMDO2GnOhQ6&index=126&pp=iAQB
 :DATE:     2019-07-23T00:58:12-07:00
@@ -40259,7 +40259,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 :END:
   I have to make some clarifications on last weeks video ;-)
 
-* Using Emacs Episode 57 - dired-narrow
+* Using Emacs Episode 57 - dired-narrow                               :dired:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=pZzDayi5lRo&list=PL9KxKa8NpFxIcNQa9js7dQQIHc81b0-Xg&index=58&pp=iAQB
 :DATE:     2019-04-07T09:20:17-07:00
@@ -42526,7 +42526,7 @@ Full code on github:
 :END:
   Like many experienced programmers, I use Emacs as my text editor (even on Windows)... any I occasionally have to explain why.  Then, I saw a discussion on Adafruit's Discus  server about favorite editors, and had a real need for one of Emacs' more obscure (and very powerful) features so I decided to screencast it :-)
 
-* Using Emacs 38 - Dired
+* Using Emacs 38 - Dired                                              :dired:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=Fg7HmmRYWy8&list=PL9KxKa8NpFxIcNQa9js7dQQIHc81b0-Xg&index=39&pp=iAQB
 :DATE:     2017-11-24T07:02:52-08:00
@@ -42636,7 +42636,7 @@ Full code on github:
 
   Series page: http://cestlaz.github.io/stories/emacs
 
-* Emacs Rocks! Episode 16: Dired
+* Emacs Rocks! Episode 16: Dired                                      :dired:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=8l4YVttibiI&list=PLVfFIUHWy-aNaF08m34sO81dsVr4L7uI-&index=9&pp=iAQB
 :DATE:     2017-09-16T13:53:34-07:00
@@ -45268,7 +45268,7 @@ Using restclient within emacs...
   Follow along on GitHub at https://github.com/jekor/.emacs
   Notices and updates on Twitter at @jekor https://twitter.com/jekor
 
-* .Emacs #4 - Exploring the Filesystem with Dired
+* .Emacs #4 - Exploring the Filesystem with Dired                     :dired:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=7jZdul2fC94&list=PLxj9UAX4Em-IiOfvF2Qs742LxEK4owSkr&index=4&pp=iAQB
 :DATE:     2013-07-26T10:00:25-07:00
