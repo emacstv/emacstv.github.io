@@ -12088,6 +12088,34 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
       <pubDate>Wed, 27 Jul 2022 12:00:23 -0400</pubDate>
     </item>
     <item>
+      <title>Emacs Theme Settings 2022_07_27_06:55:49</title>
+      <link>https://www.youtube.com/watch?v=rN0sRHCvlVs&amp;list=PLXbUyQOf06CfnGE46zsPiDF0zTtkzdDsX&amp;index=1&amp;pp=iAQB</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=rN0sRHCvlVs&list=PLXbUyQOf06CfnGE46zsPiDF0zTtkzdDsX&index=1&pp=iAQB">youtube</a><br><br>In this video, you will see, how you can set and install themes in Emacs.
+
+  #linux #emacs #theme #linuxadmin #sysadmin #opensource #Gentoo #Debian #Slackware #research
+  #linuxkernel #kernel #gnu #Linux #GNU
+
+  Buy Me A Coffee: https://www.buymeacoffee.com/unixbhaskar
+  Patreon: https://www.patreon.com/unixbhaskar
+
+  You can also find me :
+
+  GITHUB: https://github.com/unixbhaskar
+
+  Reddit: https://www.reddit.com/user/unixbhaskar
+
+  Blogs: https://unixbhaskar.wordpress.com
+
+  Twitter: https://twitter.com/unixbhaskar
+
+  LinkedIN: https://linkedin.com/in/unixbhaskar
+
+  Vimeo: https://vimeo.com/unixbhaskar
+
+  Goodreads: https://goodreads.com/unixbhaskar</div>]]></description>
+      <pubDate>Tue, 26 Jul 2022 21:57:57 -0400</pubDate>
+    </item>
+    <item>
       <title>Don&apos;t like how it works? You can change Emacs.</title>
       <link>https://www.youtube.com/watch?v=UP2dFk5_ytY</link>
       <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=UP2dFk5_ytY">youtube</a><br><br>In which the pursuit of a tiny change in Emacs' behavior leads us deep into the belly of the beast.
@@ -12179,6 +12207,34 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
       <pubDate>Wed, 20 Jul 2022 13:29:13 -0400</pubDate>
     </item>
     <item>
+      <title>Multiple Files Open At Once With EmacsClient In TTY Mode 2022_07_20_15:53:02</title>
+      <link>https://www.youtube.com/watch?v=2834MBkiIOI&amp;list=PLXbUyQOf06CfnGE46zsPiDF0zTtkzdDsX&amp;index=2&amp;pp=iAQB</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=2834MBkiIOI&list=PLXbUyQOf06CfnGE46zsPiDF0zTtkzdDsX&index=2&pp=iAQB">youtube</a><br><br>In this video, you will see, that how to open multiple files with Emacsclient on terminal mode.
+
+  #linux #emacs #emacsclient #linuxadmin #sysadmin #opensource #Gentoo #Debian #Slackware #research
+  #linuxkernel #kernel #gnu #Linux #GNU
+
+  Buy Me A Coffee: https://www.buymeacoffee.com/unixbhaskar
+  Patreon: https://www.patreon.com/unixbhaskar
+
+  You can also find me :
+
+  GITHUB: https://github.com/unixbhaskar
+
+  Reddit: https://www.reddit.com/user/unixbhaskar
+
+  Blogs: https://unixbhaskar.wordpress.com
+
+  Twitter: https://twitter.com/unixbhaskar
+
+  LinkedIN: https://linkedin.com/in/unixbhaskar
+
+  Vimeo: https://vimeo.com/unixbhaskar
+
+  Goodreads: https://goodreads.com/unixbhaskar</div>]]></description>
+      <pubDate>Wed, 20 Jul 2022 06:52:40 -0400</pubDate>
+    </item>
+    <item>
       <title>Emacs Completion Explained</title>
       <link>https://www.youtube.com/watch?v=fnE0lXoe7Y0</link>
       <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=fnE0lXoe7Y0">youtube</a><br><br>Minibuffer completion, in-buffer completion aka completion at point (CAPF), completion styles and all the things you would like to know about completion.
@@ -12219,6 +12275,66 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
   Other tags:
   #linux, #corfu, #vertico</div>]]></description>
       <pubDate>Tue, 19 Jul 2022 22:37:25 -0400</pubDate>
+    </item>
+    <item>
+      <title>Emacs Bash Script To Show System Utilities 2022_07_20_03:17:15</title>
+      <link>https://www.youtube.com/watch?v=LUfWY3_88zs&amp;list=PLXbUyQOf06CfnGE46zsPiDF0zTtkzdDsX&amp;index=3&amp;pp=iAQB</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=LUfWY3_88zs&list=PLXbUyQOf06CfnGE46zsPiDF0zTtkzdDsX&index=3&pp=iAQB">youtube</a><br><br>In this video, you will see, a simple bash script to house several other scripts for the system-related operation in an easy and concise manner.
+
+  You can get the script from here:  https://github.com/unixbhaskar/AdminScripts/blob/master/system_operation
+
+  #linux #bash #script #linuxadmin #sysadmin #opensource #Gentoo #Debian #Slackware #research
+  #linuxkernel #kernel #gnu #Linux #GNU
+
+  Buy Me A Coffee: https://www.buymeacoffee.com/unixbhaskar
+  Patreon: https://www.patreon.com/unixbhaskar
+
+  You can also find me :
+
+  GITHUB: https://github.com/unixbhaskar
+
+  Reddit: https://www.reddit.com/user/unixbhaskar
+
+  Blogs: https://unixbhaskar.wordpress.com
+
+  Twitter: https://twitter.com/unixbhaskar
+
+  LinkedIN: https://linkedin.com/in/unixbhaskar
+
+  Vimeo: https://vimeo.com/unixbhaskar
+
+  Goodreads: https://goodreads.com/unixbhaskar</div>]]></description>
+      <pubDate>Tue, 19 Jul 2022 18:18:04 -0400</pubDate>
+    </item>
+    <item>
+      <title>Emacs Deft Is A Nifty Utility About NoteTaking 2022_07_19_14:22:47</title>
+      <link>https://www.youtube.com/watch?v=SbBnGgZ7lXk&amp;list=PLXbUyQOf06CfnGE46zsPiDF0zTtkzdDsX&amp;index=4&amp;pp=iAQB</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=SbBnGgZ7lXk&list=PLXbUyQOf06CfnGE46zsPiDF0zTtkzdDsX&index=4&pp=iAQB">youtube</a><br><br>In this video, you will see, how you can easily manipulate note-taking files with a utility called Deft.
+
+  You Should Read This Page: https://jblevins.org/projects/deft/
+
+  #linux #emacs #deft  #linuxadmin #sysadmin #opensource #Gentoo #Debian #Slackware #research
+  #linuxkernel #kernel #gnu #Linux #GNU
+
+  Buy Me A Coffee: https://www.buymeacoffee.com/unixbhaskar
+  Patreon: https://www.patreon.com/unixbhaskar
+
+  You can also find me :
+
+  GITHUB: https://github.com/unixbhaskar
+
+  Reddit: https://www.reddit.com/user/unixbhaskar
+
+  Blogs: https://unixbhaskar.wordpress.com
+
+  Twitter: https://twitter.com/unixbhaskar
+
+  LinkedIN: https://linkedin.com/in/unixbhaskar
+
+  Vimeo: https://vimeo.com/unixbhaskar
+
+  Goodreads: https://goodreads.com/unixbhaskar</div>]]></description>
+      <pubDate>Tue, 19 Jul 2022 05:43:20 -0400</pubDate>
     </item>
     <item>
       <title>DOOM Emacs VS Neovim/Vim | Trying out Doom Emacs - Thoughts on Doom Emacs.</title>
@@ -12331,6 +12447,34 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
 
   Powered by Restream https://restre.am/yt</div>]]></description>
       <pubDate>Fri, 15 Jul 2022 13:12:20 -0400</pubDate>
+    </item>
+    <item>
+      <title>Emacs Find Out What Are The Components Baked Into It 2022_07_15_16:02:20</title>
+      <link>https://www.youtube.com/watch?v=JaWrTBa_FF8&amp;list=PLXbUyQOf06CfnGE46zsPiDF0zTtkzdDsX&amp;index=6&amp;pp=iAQB</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=JaWrTBa_FF8&list=PLXbUyQOf06CfnGE46zsPiDF0zTtkzdDsX&index=6&pp=iAQB">youtube</a><br><br>In this video, you will see, how easily you can reveal the components baked into Emacs while building it.
+
+  #linux #emacs #linuxadmin #sysadmin #opensource #Gentoo #Debian #Slackware #research
+  #linuxkernel #kernel #gnu #Linux #GNU
+
+  Buy Me A Coffee: https://www.buymeacoffee.com/unixbhaskar
+  Patreon: https://www.patreon.com/unixbhaskar
+
+  You can also find me :
+
+  GITHUB: https://github.com/unixbhaskar
+
+  Reddit: https://www.reddit.com/user/unixbhaskar
+
+  Blogs: https://unixbhaskar.wordpress.com
+
+  Twitter: https://twitter.com/unixbhaskar
+
+  LinkedIN: https://linkedin.com/in/unixbhaskar
+
+  Vimeo: https://vimeo.com/unixbhaskar
+
+  Goodreads: https://goodreads.com/unixbhaskar</div>]]></description>
+      <pubDate>Fri, 15 Jul 2022 07:01:54 -0400</pubDate>
     </item>
     <item>
       <title>Swipe for Text Input in GNU Emacs</title>
@@ -12570,6 +12714,36 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
   🐦 @torsteinkrause
   📫 torstein@skybert.net</div>]]></description>
       <pubDate>Tue, 05 Jul 2022 13:49:52 -0400</pubDate>
+    </item>
+    <item>
+      <title>Emacs Send Mail From CommandLine 2022_07_05_19:05:45</title>
+      <link>https://www.youtube.com/watch?v=fXkgsnJOXVg&amp;list=PLXbUyQOf06CfnGE46zsPiDF0zTtkzdDsX&amp;index=9&amp;pp=iAQB</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=fXkgsnJOXVg&list=PLXbUyQOf06CfnGE46zsPiDF0zTtkzdDsX&index=9&pp=iAQB">youtube</a><br><br>In this video, you will see, that a simple script can send mail from the command line by emacs.
+
+  You can get the script from here: https://github.com/unixbhaskar/AdminScripts/blob/91bf8cb6cf8661f5d1a9238b08ced9aa7dcafd0e/mail_compose_send_by_emacs.sh
+
+  #linux #emacs #mail  #linuxadmin #sysadmin #opensource #Gentoo #Debian #Slackware #research
+  #linuxkernel #kernel #gnu #Linux #GNU
+
+  Buy Me A Coffee: https://www.buymeacoffee.com/unixbhaskar
+  Patreon: https://www.patreon.com/unixbhaskar
+
+  You can also find me :
+
+  GITHUB: https://github.com/unixbhaskar
+
+  Reddit: https://www.reddit.com/user/unixbhaskar
+
+  Blogs: https://unixbhaskar.wordpress.com
+
+  Twitter: https://twitter.com/unixbhaskar
+
+  LinkedIN: https://linkedin.com/in/unixbhaskar
+
+  Vimeo: https://vimeo.com/unixbhaskar
+
+  Goodreads: https://goodreads.com/unixbhaskar</div>]]></description>
+      <pubDate>Tue, 05 Jul 2022 10:31:59 -0400</pubDate>
     </item>
     <item>
       <title>Screen mirroring in GNU Emacs</title>
@@ -12882,6 +13056,34 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
       <pubDate>Sun, 26 Jun 2022 22:19:51 -0400</pubDate>
     </item>
     <item>
+      <title>Emacs And Overall My Workflow 2022_06_27_06:23:55</title>
+      <link>https://www.youtube.com/watch?v=flDpJdifLi8&amp;list=PLXbUyQOf06CfnGE46zsPiDF0zTtkzdDsX&amp;index=12&amp;pp=iAQB</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=flDpJdifLi8&list=PLXbUyQOf06CfnGE46zsPiDF0zTtkzdDsX&index=12&pp=iAQB">youtube</a><br><br>In this video, you will see, how I operate, when I am sitting in front of my computer, day to day basis.
+
+  #linux  #emacs  #linuxadmin #sysadmin #opensource #Gentoo #Debian #Slackware #research
+  #linuxkernel #kernel #gnu #Linux #GNU
+
+  Buy Me A Coffee: https://www.buymeacoffee.com/unixbhaskar
+  Patreon: https://www.patreon.com/unixbhaskar
+
+  You can also find me :
+
+  GITHUB: https://github.com/unixbhaskar
+
+  Reddit: https://www.reddit.com/user/unixbhaskar
+
+  Blogs: https://unixbhaskar.wordpress.com
+
+  Twitter: https://twitter.com/unixbhaskar
+
+  LinkedIN: https://linkedin.com/in/unixbhaskar
+
+  Vimeo: https://vimeo.com/unixbhaskar
+
+  Goodreads: https://goodreads.com/unixbhaskar</div>]]></description>
+      <pubDate>Sun, 26 Jun 2022 21:59:14 -0400</pubDate>
+    </item>
+    <item>
       <title>Introducción a Emacs Lisp (español de argentina)</title>
       <link>https://www.youtube.com/watch?v=mCJJVJJNlAU</link>
       <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=mCJJVJJNlAU">youtube</a><br><br>Recién empezás con Emacs. Aprender Emacs Lisp es una grandiosa forma de entender a Emacs y de extenderlo. Este breve repaso es más práctico que otra cosa. No es una recorrida del manual sino un manos a la obra.</div>]]></description>
@@ -13127,6 +13329,34 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
   12:08 - Special Characters C,M,S
   14:00 - Key Bindings</div>]]></description>
       <pubDate>Thu, 16 Jun 2022 11:14:19 -0400</pubDate>
+    </item>
+    <item>
+      <title>Emacs Spawn EmacsClient Different Ways 2022_06_16_03:52:40</title>
+      <link>https://www.youtube.com/watch?v=IeKqx-gjNXc&amp;list=PLXbUyQOf06CfnGE46zsPiDF0zTtkzdDsX&amp;index=13&amp;pp=iAQB</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=IeKqx-gjNXc&list=PLXbUyQOf06CfnGE46zsPiDF0zTtkzdDsX&index=13&pp=iAQB">youtube</a><br><br>In this video, you will see, invoke emacs client different ways, that means, CLI version and GUI version. The emacs daemon should be running in the background to make it work.
+
+  #emacs #linux #linuxadmin #sysadmin #opensource #Gentoo #Debian #Slackware #research
+  #linuxkernel #kernel #gnu #Linux #GNU
+
+  Buy Me A Coffee: https://www.buymeacoffee.com/unixbhaskar
+  Patreon: https://www.patreon.com/unixbhaskar
+
+  You can also find me :
+
+  GITHUB: https://github.com/unixbhaskar
+
+  Reddit: https://www.reddit.com/user/unixbhaskar
+
+  Blogs: https://unixbhaskar.wordpress.com
+
+  Twitter: https://twitter.com/unixbhaskar
+
+  LinkedIN: https://linkedin.com/in/unixbhaskar
+
+  Vimeo: https://vimeo.com/unixbhaskar
+
+  Goodreads: https://goodreads.com/unixbhaskar</div>]]></description>
+      <pubDate>Wed, 15 Jun 2022 19:03:54 -0400</pubDate>
     </item>
     <item>
       <title>NixOS 9: Configure Emacs and More Declaratively Configure Zsh W/ Home-Manager</title>
@@ -13704,6 +13934,64 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
       <pubDate>Tue, 17 May 2022 07:56:33 -0400</pubDate>
     </item>
     <item>
+      <title>Emacs ArchLinux Custom Kernel Bash Script 2022_05_17_15:33:09</title>
+      <link>https://www.youtube.com/watch?v=78v6J9x_G80&amp;list=PLXbUyQOf06CfnGE46zsPiDF0zTtkzdDsX&amp;index=18&amp;pp=iAQB</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=78v6J9x_G80&list=PLXbUyQOf06CfnGE46zsPiDF0zTtkzdDsX&index=18&pp=iAQB">youtube</a><br><br>In this video, you will see, how you can build a custom kernel on Arch Linux by a simple bash script.
+
+  Here is the script link: https://github.com/unixbhaskar/AdminScripts/blob/master/ArchLinux_custom_kernel_build.sh
+
+  #ArchLinux #CustomKernel #linux #linuxadmin #sysadmin #opensource #Gentoo #Debian #Slackware #research
+  #linuxkernel #kernel #gnu #Linux #GNU
+
+  Buy Me A Coffee: https://www.buymeacoffee.com/unixbhaskar
+  Patreon: https://www.patreon.com/unixbhaskar
+
+  You can also find me :
+
+  GITHUB: https://github.com/unixbhaskar
+
+  Reddit: https://www.reddit.com/user/unixbhaskar
+
+  Blogs: https://unixbhaskar.wordpress.com
+
+  Twitter: https://twitter.com/unixbhaskar
+
+  LinkedIN: https://linkedin.com/in/unixbhaskar
+
+  Vimeo: https://vimeo.com/unixbhaskar
+
+  Goodreads: https://goodreads.com/unixbhaskar</div>]]></description>
+      <pubDate>Tue, 17 May 2022 07:47:51 -0400</pubDate>
+    </item>
+    <item>
+      <title>Emacs Slackware Custom Kernel Bash Script 2022 _05_16_06:36:18</title>
+      <link>https://www.youtube.com/watch?v=R3O8ewAXBHA&amp;list=PLXbUyQOf06CfnGE46zsPiDF0zTtkzdDsX&amp;index=19&amp;pp=iAQB</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=R3O8ewAXBHA&list=PLXbUyQOf06CfnGE46zsPiDF0zTtkzdDsX&index=19&pp=iAQB">youtube</a><br><br>In this video, you will see, customize kernel compilation script written in bash on Slackware.
+  Here is the script URL:  https://github.com/unixbhaskar/AdminScripts/blob/master/custome_kernel_build_on_slackware.sh
+
+  #emacs #Slackware #bash #linux #kernel #linuxadmin  #sysadmin #opensource #Gentoo #Debian #research #linuxkernel #kernel #gnu #Linux #GNU
+
+  Buy Me A Coffee: https://www.buymeacoffee.com/unixbhaskar
+  Patreon: https://www.patreon.com/unixbhaskar
+
+  You can also find me :
+
+  GITHUB: https://github.com/unixbhaskar
+
+  Reddit: https://www.reddit.com/user/unixbhaskar
+
+  Blogs: https://unixbhaskar.wordpress.com
+
+  Twitter: https://twitter.com/unixbhaskar
+
+  LinkedIN: https://linkedin.com/in/unixbhaskar
+
+  Vimeo: https://vimeo.com/unixbhaskar
+
+  Goodreads: https://goodreads.com/unixbhaskar</div>]]></description>
+      <pubDate>Sun, 15 May 2022 22:22:32 -0400</pubDate>
+    </item>
+    <item>
       <title>From vanilla Emacs to Java IDE in 5 minutes</title>
       <link>https://www.youtube.com/watch?si=tiMPa2-PSbFcMhS7&amp;v=Yah69AfYP34&amp;feature=youtu.be</link>
       <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?si=tiMPa2-PSbFcMhS7&v=Yah69AfYP34&feature=youtu.be">youtube</a><br><br>In this video I show you have you can take a vanilla Emacs with no configuration and turn it into a fully fledged Java IDE in 5 minutes:
@@ -13870,6 +14158,32 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
   flite http://festvox.org/flite/
   emacs https://www.gnu.org/software/emacs/</div>]]></description>
       <pubDate>Tue, 03 May 2022 22:30:24 -0400</pubDate>
+    </item>
+    <item>
+      <title>Emacs Indents Uppercase Lowercase Paragraph 2022_05_03_16:01:50</title>
+      <link>https://www.youtube.com/watch?v=vCQKWkfPxpI&amp;list=PLXbUyQOf06CfnGE46zsPiDF0zTtkzdDsX&amp;index=21&amp;pp=iAQB</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=vCQKWkfPxpI&list=PLXbUyQOf06CfnGE46zsPiDF0zTtkzdDsX&index=21&pp=iAQB">youtube</a><br><br>In this video, you will see, how you can do indent, uppercase, lowercase, and align paragraphs of specifically selected text. Plus, revert back easily to the previous action you take.
+
+
+  Buy Me A Coffee: https://www.buymeacoffee.com/unixbhaskar
+  Patreon: https://www.patreon.com/unixbhaskar
+
+  You can also find me :
+
+  GITHUB: https://github.com/unixbhaskar
+
+  Reddit: https://www.reddit.com/user/unixbhaskar
+
+  Blogs: https://unixbhaskar.wordpress.com
+
+  Twitter: https://twitter.com/unixbhaskar
+
+  LinkedIN: https://linkedin.com/in/unixbhaskar
+
+  Vimeo: https://vimeo.com/unixbhaskar
+
+  Goodreads: https://goodreads.com/unixbhaskar</div>]]></description>
+      <pubDate>Tue, 03 May 2022 07:04:35 -0400</pubDate>
     </item>
     <item>
       <title>Configuração sem mágica: um experimento com o eev (versão em Português - parte 1)</title>
@@ -14274,6 +14588,32 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
       <pubDate>Fri, 22 Apr 2022 04:06:54 -0400</pubDate>
     </item>
     <item>
+      <title>Emacs Linux Kernel Binary Disassembled 2022_04_20_15:50:03</title>
+      <link>https://www.youtube.com/watch?v=zVQU-GN2yu8&amp;list=PLXbUyQOf06CfnGE46zsPiDF0zTtkzdDsX&amp;index=25&amp;pp=iAQB</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=zVQU-GN2yu8&list=PLXbUyQOf06CfnGE46zsPiDF0zTtkzdDsX&index=25&pp=iAQB">youtube</a><br><br>In this video, you will see, how you could easily look into the config options which involved building the Linux kernel binary. And also, look into the Linux kernel binary to find out the details of assembly.
+
+
+  Buy Me A Coffee : https://www.buymeacoffee.com/unixbhaskar
+  Patreon : https://www.patreon.com/unixbhaskar
+
+  You can also find me :
+
+  GITHUB: https://github.com/unixbhaskar
+
+  Reddit: https://www.reddit.com/user/unixbhaskar
+
+  Blogs: https://unixbhaskar.wordpress.com
+
+  Twitter: https://twitter.com/unixbhaskar
+
+  LinkedIN: https://linkedin.com/in/unixbhaskar
+
+  Vimeo: https://vimeo.com/unixbhaskar
+
+  Goodreads: https://goodreads.com/unixbhaskar</div>]]></description>
+      <pubDate>Wed, 20 Apr 2022 07:29:23 -0400</pubDate>
+    </item>
+    <item>
       <title>Org-mode - Field formatters in table calculations</title>
       <link>https://www.youtube.com/watch?v=S2V3lApGy-g</link>
       <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=S2V3lApGy-g">youtube</a><br><br>Become my channel member: https://www.sparxsys.com/join
@@ -14443,6 +14783,33 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
       <pubDate>Sat, 16 Apr 2022 09:32:26 -0400</pubDate>
     </item>
     <item>
+      <title>Emacs Bash Advance Tips Tricks 2022_04_16_15:02:31</title>
+      <link>https://www.youtube.com/watch?v=CvaqG1u9RUY&amp;list=PLXbUyQOf06CfnGE46zsPiDF0zTtkzdDsX&amp;index=26&amp;pp=iAQB</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=CvaqG1u9RUY&list=PLXbUyQOf06CfnGE46zsPiDF0zTtkzdDsX&index=26&pp=iAQB">youtube</a><br><br>In this video, you will see, some of the advance and useful stuff about bash programming to help you more.
+
+  #linux #emacs #bash
+
+  Buy Me A Coffee : https://www.buymeacoffee.com/unixbhaskar
+  Patreon : https://www.patreon.com/unixbhaskar
+
+  You can also find me :
+
+  GITHUB: https://github.com/unixbhaskar
+
+  Reddit: https://www.reddit.com/user/unixbhaskar
+
+  Blogs: https://unixbhaskar.wordpress.com
+
+  Twitter: https://twitter.com/unixbhaskar
+
+  LinkedIN: https://linkedin.com/in/unixbhaskar
+
+  Vimeo: https://vimeo.com/unixbhaskar
+
+  Goodreads: https://goodreads.com/unixbhaskar</div>]]></description>
+      <pubDate>Sat, 16 Apr 2022 07:37:43 -0400</pubDate>
+    </item>
+    <item>
       <title>Installing Packages Manually in Emacs</title>
       <link>https://www.youtube.com/watch?v=at_fACZ_o9Q</link>
       <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=at_fACZ_o9Q">youtube</a><br><br>In this video I show you how to install packages manually in Emacs without the help of Elpa, Melpa or Non GNU Elpa.
@@ -14517,6 +14884,34 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
       <pubDate>Wed, 13 Apr 2022 10:23:46 -0400</pubDate>
     </item>
     <item>
+      <title>Emacs Markdown Mode 2022_04_13_06:05:11</title>
+      <link>https://www.youtube.com/watch?v=b1ASu-gYVVg&amp;list=PLXbUyQOf06CfnGE46zsPiDF0zTtkzdDsX&amp;index=27&amp;pp=iAQB</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=b1ASu-gYVVg&list=PLXbUyQOf06CfnGE46zsPiDF0zTtkzdDsX&index=27&pp=iAQB">youtube</a><br><br>In this video, you will see, how you can easily use markdown mode to write files and preview with external and internal browsers in Emacs. Plus, you can also use all the markdown facilities to sit inside Emacs.
+
+  #linux #emacs #markdown
+
+
+  Buy Me A Coffee: https://www.buymeacoffee.com/unixbhaskar
+  Patreon: https://www.patreon.com/unixbhaskar
+
+  You can also find me :
+
+  GITHUB: https://github.com/unixbhaskar
+
+  Reddit: https://www.reddit.com/user/unixbhaskar
+
+  Blogs: https://unixbhaskar.wordpress.com
+
+  Twitter: https://twitter.com/unixbhaskar
+
+  LinkedIN: https://linkedin.com/in/unixbhaskar
+
+  Vimeo: https://vimeo.com/unixbhaskar
+
+  Goodreads: https://goodreads.com/unixbhaskar</div>]]></description>
+      <pubDate>Tue, 12 Apr 2022 21:19:32 -0400</pubDate>
+    </item>
+    <item>
       <title>Org-mode - Copy paste screenshots</title>
       <link>https://www.youtube.com/watch?v=mlahmIoBguY</link>
       <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=mlahmIoBguY">youtube</a><br><br>Become my channel member: https://www.sparxsys.com/join
@@ -14558,6 +14953,33 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
   There is an accopnying blog post with more details: https://bitspook.in/blog/using-elisp-as-an/
   You can find more complete examples of using Elisp as an HTML templating engine in this repo: https://github.com/bitspook/press.el, which I am using for publishing my blog</div>]]></description>
       <pubDate>Sat, 09 Apr 2022 04:22:33 -0400</pubDate>
+    </item>
+    <item>
+      <title>Emacs Quick Accessible Stuff 2022_04_09_04:36:20</title>
+      <link>https://www.youtube.com/watch?v=iXitA-p9yIk&amp;list=PLXbUyQOf06CfnGE46zsPiDF0zTtkzdDsX&amp;index=28&amp;pp=iAQB</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=iXitA-p9yIk&list=PLXbUyQOf06CfnGE46zsPiDF0zTtkzdDsX&index=28&pp=iAQB">youtube</a><br><br>In this video, you will see, how easily you can bind the underlying function for a specific function with a key combination for quick access.
+
+  #linux #emacs #access
+
+  Buy Me A Coffee: https://www.buymeacoffee.com/unixbhaskar
+  Patreon: https://www.patreon.com/unixbhaskar
+
+  You can also find me :
+
+  GITHUB: https://github.com/unixbhaskar
+
+  Reddit: https://www.reddit.com/user/unixbhaskar
+
+  Blogs: https://unixbhaskar.wordpress.com
+
+  Twitter: https://twitter.com/unixbhaskar
+
+  LinkedIN: https://linkedin.com/in/unixbhaskar
+
+  Vimeo: https://vimeo.com/unixbhaskar
+
+  Goodreads: https://goodreads.com/unixbhaskar</div>]]></description>
+      <pubDate>Fri, 08 Apr 2022 19:30:26 -0400</pubDate>
     </item>
     <item>
       <title>Meeting 04 – Stop jumping between note-taking tools: use org-roam</title>
@@ -14773,6 +15195,25 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
       <pubDate>Thu, 24 Mar 2022 14:47:26 -0400</pubDate>
     </item>
     <item>
+      <title>Emacs Narrow And Widen Facility 2022_03_24_16:17:48</title>
+      <link>https://www.youtube.com/watch?v=yrsczR2HSh4&amp;list=PLXbUyQOf06CfnGE46zsPiDF0zTtkzdDsX&amp;index=29&amp;pp=iAQB</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=yrsczR2HSh4&list=PLXbUyQOf06CfnGE46zsPiDF0zTtkzdDsX&index=29&pp=iAQB">youtube</a><br><br>In this video, you will see, how you can easily show only the selected section of the file. This facility in Emacs is called narrowing down. Also, you can get back all the content by Widen up.
+
+  #linux #emacs #facility
+  Buy Me A Coffee : https://www.buymeacoffee.com/unixbhaskar</div>]]></description>
+      <pubDate>Thu, 24 Mar 2022 07:09:03 -0400</pubDate>
+    </item>
+    <item>
+      <title>Emacs Essential Keystrokes 2022_03_23_06:31:58</title>
+      <link>https://www.youtube.com/watch?v=xxNtWEW8sLw&amp;list=PLXbUyQOf06CfnGE46zsPiDF0zTtkzdDsX&amp;index=30&amp;pp=iAQB</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=xxNtWEW8sLw&list=PLXbUyQOf06CfnGE46zsPiDF0zTtkzdDsX&index=30&pp=iAQB">youtube</a><br><br>In this video, you will see, how easily you can master the important keystrokes inside Emacs to boost your productivity.
+
+  #linux #emacs #keystrokes
+
+  Buy Me A Coffee : https://www.buymeacoffee.com/unixbhaskar</div>]]></description>
+      <pubDate>Tue, 22 Mar 2022 22:46:02 -0400</pubDate>
+    </item>
+    <item>
       <title>LibrePlanet 2022: Living in freedom with GNU Emacs</title>
       <link>https://www.youtube.com/watch?v=CQM-GWKdHsU</link>
       <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=CQM-GWKdHsU">youtube</a><br><br>My presentation at the Free Software Foundation's LibrePlanet conference about software freedom.  The text of my talk is available on my website: https://protesilaos.com/codelog/2022-03-22-libreplanet-emacs-living-freedom/
@@ -14951,6 +15392,14 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
       <pubDate>Tue, 08 Mar 2022 23:34:19 -0500</pubDate>
     </item>
     <item>
+      <title>Emacs Orgmode PGP Encryption Decryption 2022_03_08_14:03:51</title>
+      <link>https://www.youtube.com/watch?v=y9zCkdyny4U&amp;list=PLXbUyQOf06CfnGE46zsPiDF0zTtkzdDsX&amp;index=33&amp;pp=iAQB</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=y9zCkdyny4U&list=PLXbUyQOf06CfnGE46zsPiDF0zTtkzdDsX&index=33&pp=iAQB">youtube</a><br><br>In this video, you will see, how easily you can encrypt and decrypt org file content with your gpg key.
+
+  #linux #emacs #orgmode</div>]]></description>
+      <pubDate>Tue, 08 Mar 2022 04:09:21 -0500</pubDate>
+    </item>
+    <item>
       <title>Emacs Tramp Mode and Blogging</title>
       <link>https://www.youtube.com/watch?v=ZYsD9GbHQIU</link>
       <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=ZYsD9GbHQIU">youtube</a><br><br>In this Emacs tutorial I show you how you can use Tramp Mode to access a remote server and create and save files and directories on that server. I also show you how you can create a base template for your blogging needs on that remote server using Emacs.
@@ -15064,6 +15513,14 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
 
   Your support is very much appreciated. Thanks, guys!</div>]]></description>
       <pubDate>Tue, 01 Mar 2022 17:58:45 -0500</pubDate>
+    </item>
+    <item>
+      <title>Emacs:Commenting Various Source Files 2022_03_01_17:56:59</title>
+      <link>https://www.youtube.com/watch?v=nrT6PtEYK20&amp;list=PLXbUyQOf06CfnGE46zsPiDF0zTtkzdDsX&amp;index=35&amp;pp=iAQB</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=nrT6PtEYK20&list=PLXbUyQOf06CfnGE46zsPiDF0zTtkzdDsX&index=35&pp=iAQB">youtube</a><br><br>In this video, you will see, how you can comment out in various source code files with the help of a single key combination i.e C-x C-;
+
+  #linux #emacs #commenting</div>]]></description>
+      <pubDate>Tue, 01 Mar 2022 07:49:00 -0500</pubDate>
     </item>
     <item>
       <title>Emacs and VIM Indenting Code</title>
@@ -15317,6 +15774,14 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
       <pubDate>Fri, 25 Feb 2022 12:00:13 -0500</pubDate>
     </item>
     <item>
+      <title>Emacs:Keyboard Macro 2022_02_25_04:04:32</title>
+      <link>https://www.youtube.com/watch?v=AFkXLmega8E&amp;list=PLXbUyQOf06CfnGE46zsPiDF0zTtkzdDsX&amp;index=37&amp;pp=iAQB</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=AFkXLmega8E&list=PLXbUyQOf06CfnGE46zsPiDF0zTtkzdDsX&index=37&pp=iAQB">youtube</a><br><br>In this video, you will see, how you can take advantage of some facilities provided by your beloved editor. In this case, it is called "Keyboard macro" , which is nothing but a recorded keystroke shortcut to reach far-reaching stuff inside the editor.
+
+  #linux #emacs #macro</div>]]></description>
+      <pubDate>Thu, 24 Feb 2022 18:03:30 -0500</pubDate>
+    </item>
+    <item>
       <title>Org-mode - Package cl is deprecated</title>
       <link>https://www.youtube.com/watch?v=RVUxjGymcY0&amp;list=PLlHHtPGox8K6bcuruX10Evf4AYGzYQKiz&amp;index=98&amp;pp=iAQB</link>
       <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=RVUxjGymcY0&list=PLlHHtPGox8K6bcuruX10Evf4AYGzYQKiz&index=98&pp=iAQB">youtube</a><br><br>If you receive a similar error while starting your emacs then you can easily find out other packages using cl using simple piece of code. Let us learn how to do it today.
@@ -15476,6 +15941,14 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
       <pubDate>Tue, 22 Feb 2022 08:28:35 -0500</pubDate>
     </item>
     <item>
+      <title>Emacs:CRUX File Accessibility 2022_02_22_16:49:18</title>
+      <link>https://www.youtube.com/watch?v=aVjlgScaZq4&amp;list=PLXbUyQOf06CfnGE46zsPiDF0zTtkzdDsX&amp;index=38&amp;pp=iAQB</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=aVjlgScaZq4&list=PLXbUyQOf06CfnGE46zsPiDF0zTtkzdDsX&index=38&pp=iAQB">youtube</a><br><br>In this video, you will see, how you can easily access a specific set of shell related files and access  superuser privilege file with the help of package CRUX , which can be found here:  https://github.com/bbatsov/crux
+
+  #linux #emacs #file</div>]]></description>
+      <pubDate>Tue, 22 Feb 2022 07:33:48 -0500</pubDate>
+    </item>
+    <item>
       <title>Demo: Capturing current FF tab in org-roam-dailies</title>
       <link>https://www.youtube.com/watch?v=Dp2vviuCga8</link>
       <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=Dp2vviuCga8">youtube</a><br><br>Just a quick demo of me capturing a tab in Firefox in org-roam-dailies' today buffer for taking quick notes.</div>]]></description>
@@ -15590,6 +16063,16 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
   Page URL:
   https://commons.wikimedia.org/wiki/File:Emacs_512.png</div>]]></description>
       <pubDate>Sat, 19 Feb 2022 11:30:00 -0500</pubDate>
+    </item>
+    <item>
+      <title>Emacs:Source Code Evaluation Inside Org File 2022 02 19 08:01:12</title>
+      <link>https://www.youtube.com/watch?v=OxUbFIb_n8M&amp;list=PLXbUyQOf06CfnGE46zsPiDF0zTtkzdDsX&amp;index=40&amp;pp=iAQB</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=OxUbFIb_n8M&list=PLXbUyQOf06CfnGE46zsPiDF0zTtkzdDsX&index=40&pp=iAQB">youtube</a><br><br>In this video, you will see, how you can evaluate code blocks inside Emacs Org-mode files.
+
+  For more information, please see: https://orgmode.org/manual/Working-with-Source-Code.html
+
+  #inux #emacs #sourcecode</div>]]></description>
+      <pubDate>Fri, 18 Feb 2022 22:03:03 -0500</pubDate>
     </item>
     <item>
       <title>Emacs Search and Replace</title>
@@ -16943,6 +17426,16 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
       <pubDate>Mon, 24 Jan 2022 23:00:18 -0500</pubDate>
     </item>
     <item>
+      <title>Elfeed An RSS Feeds Reader On Emacs 2022_01_25_06:26:40</title>
+      <link>https://www.youtube.com/watch?v=jCSe3YQaykw&amp;list=PLXbUyQOf06CfnGE46zsPiDF0zTtkzdDsX&amp;index=44&amp;pp=iAQB</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=jCSe3YQaykw&list=PLXbUyQOf06CfnGE46zsPiDF0zTtkzdDsX&index=44&pp=iAQB">youtube</a><br><br>In this video, you will see, Elfeed , an RSS feed reader inside Emacs.
+
+  You can get it from here: https://github.com/skeeto/elfeed
+
+  #linux #emacs #elfeed</div>]]></description>
+      <pubDate>Mon, 24 Jan 2022 21:34:56 -0500</pubDate>
+    </item>
+    <item>
       <title>Building Emacs with Native Compilation and libgccjit from the AUR</title>
       <link>https://www.youtube.com/watch?v=CzY-D8jjbX0</link>
       <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=CzY-D8jjbX0">youtube</a><br><br>After finally trying out the native compilation feature of Emacs 28, I wanted to make a quick video showing how to reconfigure and rebuild Emacs with this functionality enabled. This is also our first foray into the AUR, where we needed to get the libgccjit package. As a result, I spend some time discussing how to use the PKGBUILD files you get from the AUR and debugging an issue with a missing GPG key.
@@ -17207,6 +17700,14 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
   5. Youtube: https://youtube.com/ravisagar1
   ####</div>]]></description>
       <pubDate>Thu, 20 Jan 2022 23:00:03 -0500</pubDate>
+    </item>
+    <item>
+      <title>Emacs Reload And Restart Quickway 2022_01_20_18:29:11</title>
+      <link>https://www.youtube.com/watch?v=W6-KkOrkQaQ&amp;list=PLXbUyQOf06CfnGE46zsPiDF0zTtkzdDsX&amp;index=46&amp;pp=iAQB</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=W6-KkOrkQaQ&list=PLXbUyQOf06CfnGE46zsPiDF0zTtkzdDsX&index=46&pp=iAQB">youtube</a><br><br>In this video, I will show you, that you can bind some keys to get Emacs to evaluate initialization file i.e .emacs or init.el, and Restart Emacs quick way.
+
+  #linux #emacs #automation</div>]]></description>
+      <pubDate>Thu, 20 Jan 2022 08:21:08 -0500</pubDate>
     </item>
     <item>
       <title>Org-mode - No need to restart Emacs</title>
@@ -17874,6 +18375,14 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
       <pubDate>Wed, 05 Jan 2022 03:00:02 -0500</pubDate>
     </item>
     <item>
+      <title>Emacs Vim Find Help Better Ways 2022_01_05_06:48:49</title>
+      <link>https://www.youtube.com/watch?v=ez6Xf1deKBo&amp;list=PLXbUyQOf06CfnGE46zsPiDF0zTtkzdDsX&amp;index=51&amp;pp=iAQB</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=ez6Xf1deKBo&list=PLXbUyQOf06CfnGE46zsPiDF0zTtkzdDsX&index=51&pp=iAQB">youtube</a><br><br>In this video, you will see, how to find helps in an efficient and better way with minimum effort. I have covered VIm and Emacs.
+
+  #linux #emacs #vim</div>]]></description>
+      <pubDate>Tue, 04 Jan 2022 21:45:30 -0500</pubDate>
+    </item>
+    <item>
       <title>Learning Emacs guide and tips</title>
       <link>https://www.youtube.com/watch?v=6QOK66zha8o</link>
       <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=6QOK66zha8o">youtube</a><br><br>I struggled with some things while learning emacs.
@@ -18090,6 +18599,14 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
       <pubDate>Thu, 30 Dec 2021 13:16:36 -0500</pubDate>
     </item>
     <item>
+      <title>Emacs OrgMode Shortcuts 2021_12_30_18:34:55</title>
+      <link>https://www.youtube.com/watch?v=p2YQbgGWck0&amp;list=PLXbUyQOf06CfnGE46zsPiDF0zTtkzdDsX&amp;index=52&amp;pp=iAQB</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=p2YQbgGWck0&list=PLXbUyQOf06CfnGE46zsPiDF0zTtkzdDsX&index=52&pp=iAQB">youtube</a><br><br>In this video, you will see how you can use the shortcut to manipulate the emacs org-mode file for speed.
+
+  #linux #emacs #orgmode</div>]]></description>
+      <pubDate>Thu, 30 Dec 2021 08:28:53 -0500</pubDate>
+    </item>
+    <item>
       <title>Finally Vi in GNU Emacs!!!</title>
       <link>https://www.youtube.com/watch?v=87QzhmhHwLU&amp;list=PLW9poAEUvGDDxCZX-3xIQ3Wb1HOVcg7N_&amp;index=5&amp;pp=iAQB</link>
       <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=87QzhmhHwLU&list=PLW9poAEUvGDDxCZX-3xIQ3Wb1HOVcg7N_&index=5&pp=iAQB">youtube</a><br><br>Details https://lifeofpenguin.blogspot.com/2021/12/embedding-applications-via-xembed.html</div>]]></description>
@@ -18222,6 +18739,16 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
   03:38 The plan
   05:57 FG42 and a bit of history</div>]]></description>
       <pubDate>Wed, 22 Dec 2021 07:26:54 -0500</pubDate>
+    </item>
+    <item>
+      <title>Emacs Archive Facility In Org 2021_12_22_16:20:36</title>
+      <link>https://www.youtube.com/watch?v=vjX47mjyAWA&amp;list=PLXbUyQOf06CfnGE46zsPiDF0zTtkzdDsX&amp;index=53&amp;pp=iAQB</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=vjX47mjyAWA&list=PLXbUyQOf06CfnGE46zsPiDF0zTtkzdDsX&index=53&pp=iAQB">youtube</a><br><br>In this video, you can see, how to achieve on Org-mode in Emacs.
+
+  For more info:  https://orgmode.org/guide/Archiving.html
+
+  #linux #emacs #orgmode</div>]]></description>
+      <pubDate>Wed, 22 Dec 2021 06:18:11 -0500</pubDate>
     </item>
     <item>
       <title>Edit Remote Files with Emacs</title>
@@ -19245,6 +19772,16 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
       <pubDate>Mon, 22 Nov 2021 09:07:34 -0500</pubDate>
     </item>
     <item>
+      <title>Emacs Package Management Part II 2021_11_22_15:36:03</title>
+      <link>https://www.youtube.com/watch?v=aay6wzH6v2w&amp;list=PLXbUyQOf06CfnGE46zsPiDF0zTtkzdDsX&amp;index=60&amp;pp=iAQB</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=aay6wzH6v2w&list=PLXbUyQOf06CfnGE46zsPiDF0zTtkzdDsX&index=60&pp=iAQB">youtube</a><br><br>The final part of the emacs package management saga ....Oh btw, I lost the sound in the last couple of minutes...never mind ...
+
+  Here is the Part I, link:  https://www.youtube.com/watch?v=8T6MnQ0gwF8
+
+  #linux #emacs #packagemanagement</div>]]></description>
+      <pubDate>Mon, 22 Nov 2021 06:45:49 -0500</pubDate>
+    </item>
+    <item>
       <title>Emacs Package Management Part I 2021_11_22_12:52:39</title>
       <link>https://www.youtube.com/watch?v=8T6MnQ0gwF8&amp;feature=youtu.be</link>
       <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=8T6MnQ0gwF8&feature=youtu.be">youtube</a><br><br>This is part 1 of the Emacs package management procedure. Have patience.
@@ -19578,6 +20115,32 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
       <pubDate>Fri, 12 Nov 2021 20:00:06 -0500</pubDate>
     </item>
     <item>
+      <title>Emacs Buffer As Scratchpad 2021_11_12 _15:45:18</title>
+      <link>https://www.youtube.com/watch?v=HmOd6zWlhjk&amp;list=PLXbUyQOf06CfnGE46zsPiDF0zTtkzdDsX&amp;index=66&amp;pp=iAQB</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=HmOd6zWlhjk&list=PLXbUyQOf06CfnGE46zsPiDF0zTtkzdDsX&index=66&pp=iAQB">youtube</a><br><br>Emacs scratch buffer pops up anywhere in the system as you invoke it or call it when needed.
+
+  #linux #emacs #scratchpad</div>]]></description>
+      <pubDate>Fri, 12 Nov 2021 05:44:20 -0500</pubDate>
+    </item>
+    <item>
+      <title>Emacs Help 2021_11_12 _14:45:48</title>
+      <link>https://www.youtube.com/watch?v=ubaCgwIDE7E&amp;list=PLXbUyQOf06CfnGE46zsPiDF0zTtkzdDsX&amp;index=67&amp;pp=iAQB</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=ubaCgwIDE7E&list=PLXbUyQOf06CfnGE46zsPiDF0zTtkzdDsX&index=67&pp=iAQB">youtube</a><br><br>To describe Emacs internal help system with some familiar keystrokes.
+
+  #linux #emacs #help</div>]]></description>
+      <pubDate>Fri, 12 Nov 2021 04:38:21 -0500</pubDate>
+    </item>
+    <item>
+      <title>Emacs Vim Config Cross Edit 2021_11_12 _09:01:48</title>
+      <link>https://www.youtube.com/watch?v=fndsXHgcvM0&amp;list=PLXbUyQOf06CfnGE46zsPiDF0zTtkzdDsX&amp;index=68&amp;pp=iAQB</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=fndsXHgcvM0&list=PLXbUyQOf06CfnGE46zsPiDF0zTtkzdDsX&index=68&pp=iAQB">youtube</a><br><br>Emacs and Vim config editing on cross editor, means, you can config Vim config on Emacs and vice versa.
+
+  Have Fun!
+
+  #linux #vim #emacs</div>]]></description>
+      <pubDate>Thu, 11 Nov 2021 22:41:54 -0500</pubDate>
+    </item>
+    <item>
       <title>Talking about Emacs and Other Things</title>
       <link>https://www.youtube.com/watch?v=zyOko8Qrj78</link>
       <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=zyOko8Qrj78">youtube</a><br><br>Any other new business?  No tutorial this time, just talkin about Emacs and some plans for upcoming videos.  Do you like using plain text?  What are the alternatives?  Did you want to trick out your emacs with fancy graphics and wallpaper, maybe check out this video:
@@ -19586,6 +20149,14 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
 
   Do you want to see a video about setting up your own Git server.  It's fun.</div>]]></description>
       <pubDate>Thu, 11 Nov 2021 17:58:56 -0500</pubDate>
+    </item>
+    <item>
+      <title>EMMS Music Player On Emacs 2021_11_11_04:50:54</title>
+      <link>https://www.youtube.com/watch?v=UL2ICoKXF7s&amp;list=PLXbUyQOf06CfnGE46zsPiDF0zTtkzdDsX&amp;index=69&amp;pp=iAQB</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=UL2ICoKXF7s&list=PLXbUyQOf06CfnGE46zsPiDF0zTtkzdDsX&index=69&pp=iAQB">youtube</a><br><br>EMMS is an Emacs MultiMedia System. Which is nicely integrated with Emacs. It is the simplest way of playing music inside Emacs.
+
+  #linux #emacs #emms</div>]]></description>
+      <pubDate>Wed, 10 Nov 2021 19:47:20 -0500</pubDate>
     </item>
     <item>
       <title>Using emacs and org-mode to teach programming</title>
@@ -19764,6 +20335,14 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
       <pubDate>Fri, 05 Nov 2021 17:19:29 -0400</pubDate>
     </item>
     <item>
+      <title>Open Two Files Side By Side In Editors 2021_11_04_03:57:02</title>
+      <link>https://www.youtube.com/watch?v=qHMmXkawVpQ&amp;list=PLXbUyQOf06CfnGE46zsPiDF0zTtkzdDsX&amp;index=71&amp;pp=iAQB</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=qHMmXkawVpQ&list=PLXbUyQOf06CfnGE46zsPiDF0zTtkzdDsX&index=71&pp=iAQB">youtube</a><br><br>This is a convenient way to deal with more than one file on your choice of editors, in this case, I choose to use my daily editor i.e Vim and Emacs to open files side by side with single keystrokes or type a single command.
+
+  #linux #vim #emacs</div>]]></description>
+      <pubDate>Wed, 03 Nov 2021 18:46:02 -0400</pubDate>
+    </item>
+    <item>
       <title>scimax - Getting help in #emacs</title>
       <link>https://www.youtube.com/watch?v=SsUmF-IMR5k</link>
       <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=SsUmF-IMR5k">youtube</a><br><br>Emacs is often called a self-documenting editor.  There are a ton of commands to get help in different ways.  Scimax uses a hydra to organize these commands to help make it easy to access them.</div>]]></description>
@@ -19892,6 +20471,20 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
 
   The video thumbnail is a tweak of the Levitating, Meditating, Flute-playing Gnu under the terms of the GNU General Public License: https://www.gnu.org/graphics/meditate.html</div>]]></description>
       <pubDate>Sat, 30 Oct 2021 20:40:17 -0400</pubDate>
+    </item>
+    <item>
+      <title>Emacs_Build_From_Source_2021_10_30 _18:42:54</title>
+      <link>https://www.youtube.com/watch?v=xhVCca83C7M&amp;list=PLXbUyQOf06CfnGE46zsPiDF0zTtkzdDsX&amp;index=73&amp;pp=iAQB</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=xhVCca83C7M&list=PLXbUyQOf06CfnGE46zsPiDF0zTtkzdDsX&index=73&pp=iAQB">youtube</a><br><br>This is an automated process to build Emacs from the git repo. The script can be found here: https://github.com/unixbhaskar/dotfiles/blob/9271d5cedfd04bf240a732e315f9cab03ff463e1/emacs_build_from_source.sh
+
+  #linux #emacs #sourcebuild
+
+
+  PS: The annoying sound in the background coming from a high-speed ceiling fan running atop my head. I am sorry about that.
+
+
+  PS2: I will make sure, next time I can record stuff in a noise-free environment.</div>]]></description>
+      <pubDate>Sat, 30 Oct 2021 11:54:30 -0400</pubDate>
     </item>
     <item>
       <title>My Emacs Tutorial</title>
@@ -37304,14 +37897,14 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
     <item>
       <title>Emacs Chat: Karl Voit</title>
       <link>https://www.youtube.com/watch?v=SaKPr4J0K2I&amp;list=PL4th0AZixyRF8o3fdx68HGUrYKF2Pfvrp&amp;index=17&amp;pp=iAQB</link>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=SaKPr4J0K2I&list=PL4th0AZixyRF8o3fdx68HGUrYKF2Pfvrp&index=17&pp=iAQB">youtube</a><br><br>Org Mode, Memacs, lazyblorg, .emacs, Yasnippet, tags . http://karl-voit.at , http://twitter.com/n0v0id , http://github.com/novoid . Transcript at http://emacslife.com/emacs-chats/chat-karl-voit.html</div>]]></description>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=SaKPr4J0K2I&list=PL4th0AZixyRF8o3fdx68HGUrYKF2Pfvrp&index=17&pp=iAQB">youtube</a><br><br></div>]]></description>
       <pubDate>Wed, 03 Dec 2014 14:08:13 -0500</pubDate>
     </item>
     <item>
-      <title>Edit LISP structurally with Emacs package lispy</title>
-      <link>https://youtu.be/BverGxP41cE</link>
-      <description><![CDATA[<div id="content"><a href="https://youtu.be/BverGxP41cE">youtube</a><br><br></div>]]></description>
-      <pubDate>Sat, 22 Nov 2014 18:05:05 -0500</pubDate>
+      <title>Emacs Chat: Karl Voit</title>
+      <link>https://www.youtube.com/watch?v=SaKPr4J0K2I&amp;list=PL4th0AZixyRF8o3fdx68HGUrYKF2Pfvrp&amp;index=17&amp;pp=iAQB</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=SaKPr4J0K2I&list=PL4th0AZixyRF8o3fdx68HGUrYKF2Pfvrp&index=17&pp=iAQB">youtube</a><br><br>Org Mode, Memacs, lazyblorg, .emacs, Yasnippet, tags . http://karl-voit.at , http://twitter.com/n0v0id , http://github.com/novoid . Transcript at http://emacslife.com/emacs-chats/chat-karl-voit.html</div>]]></description>
+      <pubDate>Wed, 03 Dec 2014 14:08:13 -0500</pubDate>
     </item>
     <item>
       <title>Edit LISP structurally with Emacs package lispy</title>
@@ -37358,14 +37951,14 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
     <item>
       <title>2014-08-10 Emacs Chat - Mickey Petersen</title>
       <link>https://www.youtube.com/watch?v=JA4dqmDFt5Y&amp;list=PL4th0AZixyRF8o3fdx68HGUrYKF2Pfvrp&amp;index=16&amp;pp=iAQB</link>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=JA4dqmDFt5Y&list=PL4th0AZixyRF8o3fdx68HGUrYKF2Pfvrp&index=16&pp=iAQB">youtube</a><br><br>Mickey Petersen chats about Mastering Emacs, learning advanced topics, navigating by expressions, and making the most of dired and shell. You can find him at masteringemacs.org or twitter.com/mickeynp . Transcript and notes: http://emacslife.com/emacs-chats/chat-mickey-petersen.html</div>]]></description>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=JA4dqmDFt5Y&list=PL4th0AZixyRF8o3fdx68HGUrYKF2Pfvrp&index=16&pp=iAQB">youtube</a><br><br></div>]]></description>
       <pubDate>Mon, 01 Sep 2014 12:15:30 -0400</pubDate>
     </item>
     <item>
-      <title>The Editor of a Lifetime</title>
-      <link>https://www.youtube.com/watch?v=VADudzQGvU8&amp;feature=youtu.be</link>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=VADudzQGvU8&feature=youtu.be">youtube</a><br><br></div>]]></description>
-      <pubDate>Wed, 20 Aug 2014 12:41:55 -0400</pubDate>
+      <title>2014-08-10 Emacs Chat - Mickey Petersen</title>
+      <link>https://www.youtube.com/watch?v=JA4dqmDFt5Y&amp;list=PL4th0AZixyRF8o3fdx68HGUrYKF2Pfvrp&amp;index=16&amp;pp=iAQB</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=JA4dqmDFt5Y&list=PL4th0AZixyRF8o3fdx68HGUrYKF2Pfvrp&index=16&pp=iAQB">youtube</a><br><br>Mickey Petersen chats about Mastering Emacs, learning advanced topics, navigating by expressions, and making the most of dired and shell. You can find him at masteringemacs.org or twitter.com/mickeynp . Transcript and notes: http://emacslife.com/emacs-chats/chat-mickey-petersen.html</div>]]></description>
+      <pubDate>Mon, 01 Sep 2014 12:15:30 -0400</pubDate>
     </item>
     <item>
       <title>The Editor of a Lifetime</title>
@@ -37509,12 +38102,6 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
     <item>
       <title>Emacs Chat - Phil Hagelberg (technomancy)</title>
       <link>https://www.youtube.com/watch?v=Rfg-6jGY8dU&amp;list=PL4th0AZixyRF8o3fdx68HGUrYKF2Pfvrp&amp;index=12&amp;pp=iAQB</link>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=Rfg-6jGY8dU&list=PL4th0AZixyRF8o3fdx68HGUrYKF2Pfvrp&index=12&pp=iAQB">youtube</a><br><br></div>]]></description>
-      <pubDate>Sat, 10 May 2014 00:09:50 -0400</pubDate>
-    </item>
-    <item>
-      <title>Emacs Chat - Phil Hagelberg (technomancy)</title>
-      <link>https://www.youtube.com/watch?v=Rfg-6jGY8dU&amp;list=PL4th0AZixyRF8o3fdx68HGUrYKF2Pfvrp&amp;index=12&amp;pp=iAQB</link>
       <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=Rfg-6jGY8dU&list=PL4th0AZixyRF8o3fdx68HGUrYKF2Pfvrp&index=12&pp=iAQB">youtube</a><br><br>Emacs Chat - Phil Hagelberg (technomancy)</div>]]></description>
       <pubDate>Sat, 10 May 2014 00:09:50 -0400</pubDate>
     </item>
@@ -37526,6 +38113,12 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
   Learn more from the developers at thoughtbot ⌨️
   Head over to http://tbot.io/dev-blog to read more great articles on our blog.</div>]]></description>
       <pubDate>Fri, 09 May 2014 11:19:18 -0400</pubDate>
+    </item>
+    <item>
+      <title>Emacs Chat: Thomas Kjeldahl Nilsson</title>
+      <link>https://www.youtube.com/watch?v=7vYo4zt6-FQ&amp;list=PL4th0AZixyRF8o3fdx68HGUrYKF2Pfvrp&amp;index=10&amp;pp=iAQB</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=7vYo4zt6-FQ&list=PL4th0AZixyRF8o3fdx68HGUrYKF2Pfvrp&index=10&pp=iAQB">youtube</a><br><br></div>]]></description>
+      <pubDate>Sun, 27 Apr 2014 16:39:12 -0400</pubDate>
     </item>
     <item>
       <title>Emacs Chat: Thomas Kjeldahl Nilsson</title>

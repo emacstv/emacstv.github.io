@@ -14451,6 +14451,37 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
   🐦 @torsteinkrause
   📫 torstein@skybert.net
 
+* Emacs Theme Settings 2022_07_27_06:55:49
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=rN0sRHCvlVs&list=PLXbUyQOf06CfnGE46zsPiDF0zTtkzdDsX&index=1&pp=iAQB
+:DATE:     2022-07-26T18:57:57-07:00
+:SPEAKERS: Bhaskar Chowdhury  ...Musing with GNU_Linux!!
+:DURATION: 11:51
+:END:
+  In this video, you will see, how you can set and install themes in Emacs.
+
+  #linux #emacs #theme #linuxadmin #sysadmin #opensource #Gentoo #Debian #Slackware #research
+  #linuxkernel #kernel #gnu #Linux #GNU
+
+  Buy Me A Coffee: https://www.buymeacoffee.com/unixbhaskar
+  Patreon: https://www.patreon.com/unixbhaskar
+
+  You can also find me :
+
+  GITHUB: https://github.com/unixbhaskar
+
+  Reddit: https://www.reddit.com/user/unixbhaskar
+
+  Blogs: https://unixbhaskar.wordpress.com
+
+  Twitter: https://twitter.com/unixbhaskar
+
+  LinkedIN: https://linkedin.com/in/unixbhaskar
+
+  Vimeo: https://vimeo.com/unixbhaskar
+
+  Goodreads: https://goodreads.com/unixbhaskar
+
 * Don't like how it works? You can change Emacs.
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=UP2dFk5_ytY
@@ -14557,6 +14588,37 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
   🐦 @torsteinkrause
   📫 torstein@skybert.net
 
+* Multiple Files Open At Once With EmacsClient In TTY Mode 2022_07_20_15:53:02
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=2834MBkiIOI&list=PLXbUyQOf06CfnGE46zsPiDF0zTtkzdDsX&index=2&pp=iAQB
+:DATE:     2022-07-20T03:52:40-07:00
+:SPEAKERS: Bhaskar Chowdhury  ...Musing with GNU_Linux!!
+:DURATION: 04:16
+:END:
+  In this video, you will see, that how to open multiple files with Emacsclient on terminal mode.
+
+  #linux #emacs #emacsclient #linuxadmin #sysadmin #opensource #Gentoo #Debian #Slackware #research
+  #linuxkernel #kernel #gnu #Linux #GNU
+
+  Buy Me A Coffee: https://www.buymeacoffee.com/unixbhaskar
+  Patreon: https://www.patreon.com/unixbhaskar
+
+  You can also find me :
+
+  GITHUB: https://github.com/unixbhaskar
+
+  Reddit: https://www.reddit.com/user/unixbhaskar
+
+  Blogs: https://unixbhaskar.wordpress.com
+
+  Twitter: https://twitter.com/unixbhaskar
+
+  LinkedIN: https://linkedin.com/in/unixbhaskar
+
+  Vimeo: https://vimeo.com/unixbhaskar
+
+  Goodreads: https://goodreads.com/unixbhaskar
+
 * Emacs Completion Explained
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=fnE0lXoe7Y0
@@ -14601,6 +14663,72 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
 
   Other tags:
   #linux, #corfu, #vertico
+
+* Emacs Bash Script To Show System Utilities 2022_07_20_03:17:15
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=LUfWY3_88zs&list=PLXbUyQOf06CfnGE46zsPiDF0zTtkzdDsX&index=3&pp=iAQB
+:DATE:     2022-07-19T15:18:04-07:00
+:SPEAKERS: Bhaskar Chowdhury  ...Musing with GNU_Linux!!
+:DURATION: 10:27
+:END:
+  In this video, you will see, a simple bash script to house several other scripts for the system-related operation in an easy and concise manner.
+
+  You can get the script from here:  https://github.com/unixbhaskar/AdminScripts/blob/master/system_operation
+
+  #linux #bash #script #linuxadmin #sysadmin #opensource #Gentoo #Debian #Slackware #research
+  #linuxkernel #kernel #gnu #Linux #GNU
+
+  Buy Me A Coffee: https://www.buymeacoffee.com/unixbhaskar
+  Patreon: https://www.patreon.com/unixbhaskar
+
+  You can also find me :
+
+  GITHUB: https://github.com/unixbhaskar
+
+  Reddit: https://www.reddit.com/user/unixbhaskar
+
+  Blogs: https://unixbhaskar.wordpress.com
+
+  Twitter: https://twitter.com/unixbhaskar
+
+  LinkedIN: https://linkedin.com/in/unixbhaskar
+
+  Vimeo: https://vimeo.com/unixbhaskar
+
+  Goodreads: https://goodreads.com/unixbhaskar
+
+* Emacs Deft Is A Nifty Utility About NoteTaking 2022_07_19_14:22:47
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=SbBnGgZ7lXk&list=PLXbUyQOf06CfnGE46zsPiDF0zTtkzdDsX&index=4&pp=iAQB
+:DATE:     2022-07-19T02:43:20-07:00
+:SPEAKERS: Bhaskar Chowdhury  ...Musing with GNU_Linux!!
+:DURATION: 15:29
+:END:
+  In this video, you will see, how you can easily manipulate note-taking files with a utility called Deft.
+
+  You Should Read This Page: https://jblevins.org/projects/deft/
+
+  #linux #emacs #deft  #linuxadmin #sysadmin #opensource #Gentoo #Debian #Slackware #research
+  #linuxkernel #kernel #gnu #Linux #GNU
+
+  Buy Me A Coffee: https://www.buymeacoffee.com/unixbhaskar
+  Patreon: https://www.patreon.com/unixbhaskar
+
+  You can also find me :
+
+  GITHUB: https://github.com/unixbhaskar
+
+  Reddit: https://www.reddit.com/user/unixbhaskar
+
+  Blogs: https://unixbhaskar.wordpress.com
+
+  Twitter: https://twitter.com/unixbhaskar
+
+  LinkedIN: https://linkedin.com/in/unixbhaskar
+
+  Vimeo: https://vimeo.com/unixbhaskar
+
+  Goodreads: https://goodreads.com/unixbhaskar
 
 * DOOM Emacs VS Neovim/Vim | Trying out Doom Emacs - Thoughts on Doom Emacs.
 :PROPERTIES:
@@ -14728,6 +14856,37 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
 
 
   Powered by Restream https://restre.am/yt
+
+* Emacs Find Out What Are The Components Baked Into It 2022_07_15_16:02:20
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=JaWrTBa_FF8&list=PLXbUyQOf06CfnGE46zsPiDF0zTtkzdDsX&index=6&pp=iAQB
+:DATE:     2022-07-15T04:01:54-07:00
+:SPEAKERS: Bhaskar Chowdhury  ...Musing with GNU_Linux!!
+:DURATION: 04:50
+:END:
+  In this video, you will see, how easily you can reveal the components baked into Emacs while building it.
+
+  #linux #emacs #linuxadmin #sysadmin #opensource #Gentoo #Debian #Slackware #research
+  #linuxkernel #kernel #gnu #Linux #GNU
+
+  Buy Me A Coffee: https://www.buymeacoffee.com/unixbhaskar
+  Patreon: https://www.patreon.com/unixbhaskar
+
+  You can also find me :
+
+  GITHUB: https://github.com/unixbhaskar
+
+  Reddit: https://www.reddit.com/user/unixbhaskar
+
+  Blogs: https://unixbhaskar.wordpress.com
+
+  Twitter: https://twitter.com/unixbhaskar
+
+  LinkedIN: https://linkedin.com/in/unixbhaskar
+
+  Vimeo: https://vimeo.com/unixbhaskar
+
+  Goodreads: https://goodreads.com/unixbhaskar
 
 * Swipe for Text Input in GNU Emacs
 :PROPERTIES:
@@ -14994,6 +15153,39 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
   🕸️ skybert.net
   🐦 @torsteinkrause
   📫 torstein@skybert.net
+
+* Emacs Send Mail From CommandLine 2022_07_05_19:05:45
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=fXkgsnJOXVg&list=PLXbUyQOf06CfnGE46zsPiDF0zTtkzdDsX&index=9&pp=iAQB
+:DATE:     2022-07-05T07:31:59-07:00
+:SPEAKERS: Bhaskar Chowdhury  ...Musing with GNU_Linux!!
+:DURATION: 08:48
+:END:
+  In this video, you will see, that a simple script can send mail from the command line by emacs.
+
+  You can get the script from here: https://github.com/unixbhaskar/AdminScripts/blob/91bf8cb6cf8661f5d1a9238b08ced9aa7dcafd0e/mail_compose_send_by_emacs.sh
+
+  #linux #emacs #mail  #linuxadmin #sysadmin #opensource #Gentoo #Debian #Slackware #research
+  #linuxkernel #kernel #gnu #Linux #GNU
+
+  Buy Me A Coffee: https://www.buymeacoffee.com/unixbhaskar
+  Patreon: https://www.patreon.com/unixbhaskar
+
+  You can also find me :
+
+  GITHUB: https://github.com/unixbhaskar
+
+  Reddit: https://www.reddit.com/user/unixbhaskar
+
+  Blogs: https://unixbhaskar.wordpress.com
+
+  Twitter: https://twitter.com/unixbhaskar
+
+  LinkedIN: https://linkedin.com/in/unixbhaskar
+
+  Vimeo: https://vimeo.com/unixbhaskar
+
+  Goodreads: https://goodreads.com/unixbhaskar
 
 * Screen mirroring in GNU Emacs
 :PROPERTIES:
@@ -15341,6 +15533,37 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
   you can get this package at
   https://github.com/lim6112j/custom-teletype-lisp
 
+* Emacs And Overall My Workflow 2022_06_27_06:23:55
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=flDpJdifLi8&list=PLXbUyQOf06CfnGE46zsPiDF0zTtkzdDsX&index=12&pp=iAQB
+:DATE:     2022-06-26T18:59:14-07:00
+:SPEAKERS: Bhaskar Chowdhury  ...Musing with GNU_Linux!!
+:DURATION: 19:10
+:END:
+  In this video, you will see, how I operate, when I am sitting in front of my computer, day to day basis.
+
+  #linux  #emacs  #linuxadmin #sysadmin #opensource #Gentoo #Debian #Slackware #research
+  #linuxkernel #kernel #gnu #Linux #GNU
+
+  Buy Me A Coffee: https://www.buymeacoffee.com/unixbhaskar
+  Patreon: https://www.patreon.com/unixbhaskar
+
+  You can also find me :
+
+  GITHUB: https://github.com/unixbhaskar
+
+  Reddit: https://www.reddit.com/user/unixbhaskar
+
+  Blogs: https://unixbhaskar.wordpress.com
+
+  Twitter: https://twitter.com/unixbhaskar
+
+  LinkedIN: https://linkedin.com/in/unixbhaskar
+
+  Vimeo: https://vimeo.com/unixbhaskar
+
+  Goodreads: https://goodreads.com/unixbhaskar
+
 * Introducción a Emacs Lisp (español de argentina)
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=mCJJVJJNlAU
@@ -15629,6 +15852,37 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
   5:17 - Example of Emacs use cases
   12:08 - Special Characters C,M,S
   14:00 - Key Bindings
+
+* Emacs Spawn EmacsClient Different Ways 2022_06_16_03:52:40
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=IeKqx-gjNXc&list=PLXbUyQOf06CfnGE46zsPiDF0zTtkzdDsX&index=13&pp=iAQB
+:DATE:     2022-06-15T16:03:54-07:00
+:SPEAKERS: Bhaskar Chowdhury  ...Musing with GNU_Linux!!
+:DURATION: 14:24
+:END:
+  In this video, you will see, invoke emacs client different ways, that means, CLI version and GUI version. The emacs daemon should be running in the background to make it work.
+
+  #emacs #linux #linuxadmin #sysadmin #opensource #Gentoo #Debian #Slackware #research
+  #linuxkernel #kernel #gnu #Linux #GNU
+
+  Buy Me A Coffee: https://www.buymeacoffee.com/unixbhaskar
+  Patreon: https://www.patreon.com/unixbhaskar
+
+  You can also find me :
+
+  GITHUB: https://github.com/unixbhaskar
+
+  Reddit: https://www.reddit.com/user/unixbhaskar
+
+  Blogs: https://unixbhaskar.wordpress.com
+
+  Twitter: https://twitter.com/unixbhaskar
+
+  LinkedIN: https://linkedin.com/in/unixbhaskar
+
+  Vimeo: https://vimeo.com/unixbhaskar
+
+  Goodreads: https://goodreads.com/unixbhaskar
 
 * NixOS 9: Configure Emacs and More Declaratively Configure Zsh W/ Home-Manager
 :PROPERTIES:
@@ -16289,6 +16543,70 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
   - wing flaps: https://freesound.org/people/TRP/sounds/616623/
   - typewriter: https://www.freesoundslibrary.com/typewriter-sound/
 
+* Emacs ArchLinux Custom Kernel Bash Script 2022_05_17_15:33:09
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=78v6J9x_G80&list=PLXbUyQOf06CfnGE46zsPiDF0zTtkzdDsX&index=18&pp=iAQB
+:DATE:     2022-05-17T04:47:51-07:00
+:SPEAKERS: Bhaskar Chowdhury  ...Musing with GNU_Linux!!
+:DURATION: 37:41
+:END:
+  In this video, you will see, how you can build a custom kernel on Arch Linux by a simple bash script.
+
+  Here is the script link: https://github.com/unixbhaskar/AdminScripts/blob/master/ArchLinux_custom_kernel_build.sh
+
+  #ArchLinux #CustomKernel #linux #linuxadmin #sysadmin #opensource #Gentoo #Debian #Slackware #research
+  #linuxkernel #kernel #gnu #Linux #GNU
+
+  Buy Me A Coffee: https://www.buymeacoffee.com/unixbhaskar
+  Patreon: https://www.patreon.com/unixbhaskar
+
+  You can also find me :
+
+  GITHUB: https://github.com/unixbhaskar
+
+  Reddit: https://www.reddit.com/user/unixbhaskar
+
+  Blogs: https://unixbhaskar.wordpress.com
+
+  Twitter: https://twitter.com/unixbhaskar
+
+  LinkedIN: https://linkedin.com/in/unixbhaskar
+
+  Vimeo: https://vimeo.com/unixbhaskar
+
+  Goodreads: https://goodreads.com/unixbhaskar
+
+* Emacs Slackware Custom Kernel Bash Script 2022 _05_16_06:36:18
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=R3O8ewAXBHA&list=PLXbUyQOf06CfnGE46zsPiDF0zTtkzdDsX&index=19&pp=iAQB
+:DATE:     2022-05-15T19:22:32-07:00
+:SPEAKERS: Bhaskar Chowdhury  ...Musing with GNU_Linux!!
+:DURATION: 26:20
+:END:
+  In this video, you will see, customize kernel compilation script written in bash on Slackware.
+  Here is the script URL:  https://github.com/unixbhaskar/AdminScripts/blob/master/custome_kernel_build_on_slackware.sh
+
+  #emacs #Slackware #bash #linux #kernel #linuxadmin  #sysadmin #opensource #Gentoo #Debian #research #linuxkernel #kernel #gnu #Linux #GNU
+
+  Buy Me A Coffee: https://www.buymeacoffee.com/unixbhaskar
+  Patreon: https://www.patreon.com/unixbhaskar
+
+  You can also find me :
+
+  GITHUB: https://github.com/unixbhaskar
+
+  Reddit: https://www.reddit.com/user/unixbhaskar
+
+  Blogs: https://unixbhaskar.wordpress.com
+
+  Twitter: https://twitter.com/unixbhaskar
+
+  LinkedIN: https://linkedin.com/in/unixbhaskar
+
+  Vimeo: https://vimeo.com/unixbhaskar
+
+  Goodreads: https://goodreads.com/unixbhaskar
+
 * From vanilla Emacs to Java IDE in 5 minutes                   :coding:java:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?si=tiMPa2-PSbFcMhS7&v=Yah69AfYP34&feature=youtu.be
@@ -16495,6 +16813,35 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
   flite-mode https://github.com/Atreyagaurav/flite-minor-mode
   flite http://festvox.org/flite/
   emacs https://www.gnu.org/software/emacs/
+
+* Emacs Indents Uppercase Lowercase Paragraph 2022_05_03_16:01:50
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=vCQKWkfPxpI&list=PLXbUyQOf06CfnGE46zsPiDF0zTtkzdDsX&index=21&pp=iAQB
+:DATE:     2022-05-03T04:04:35-07:00
+:SPEAKERS: Bhaskar Chowdhury  ...Musing with GNU_Linux!!
+:DURATION: 11:28
+:END:
+  In this video, you will see, how you can do indent, uppercase, lowercase, and align paragraphs of specifically selected text. Plus, revert back easily to the previous action you take.
+
+
+  Buy Me A Coffee: https://www.buymeacoffee.com/unixbhaskar
+  Patreon: https://www.patreon.com/unixbhaskar
+
+  You can also find me :
+
+  GITHUB: https://github.com/unixbhaskar
+
+  Reddit: https://www.reddit.com/user/unixbhaskar
+
+  Blogs: https://unixbhaskar.wordpress.com
+
+  Twitter: https://twitter.com/unixbhaskar
+
+  LinkedIN: https://linkedin.com/in/unixbhaskar
+
+  Vimeo: https://vimeo.com/unixbhaskar
+
+  Goodreads: https://goodreads.com/unixbhaskar
 
 * Configuração sem mágica: um experimento com o eev (versão em Português - parte 1)
 :PROPERTIES:
@@ -16954,6 +17301,35 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
 :END:
   In this talk I would like to introduce the usage of TeX and templates along with generating ad-hoc class and style files for working with orgmode. In particular, I will highlight also the process by which literate programming practices can be implemented with babel. This allows for a more native and flexible alternative to vendor locked in systems like Jupyterlab which rely on JS based inelegant approaches towards TeX typesetting. Finally, I would like to go into how to leverage CI methods for TeX workflows augmented with git.
 
+* Emacs Linux Kernel Binary Disassembled 2022_04_20_15:50:03
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=zVQU-GN2yu8&list=PLXbUyQOf06CfnGE46zsPiDF0zTtkzdDsX&index=25&pp=iAQB
+:DATE:     2022-04-20T04:29:23-07:00
+:SPEAKERS: Bhaskar Chowdhury  ...Musing with GNU_Linux!!
+:DURATION: 17:07
+:END:
+  In this video, you will see, how you could easily look into the config options which involved building the Linux kernel binary. And also, look into the Linux kernel binary to find out the details of assembly.
+
+
+  Buy Me A Coffee : https://www.buymeacoffee.com/unixbhaskar
+  Patreon : https://www.patreon.com/unixbhaskar
+
+  You can also find me :
+
+  GITHUB: https://github.com/unixbhaskar
+
+  Reddit: https://www.reddit.com/user/unixbhaskar
+
+  Blogs: https://unixbhaskar.wordpress.com
+
+  Twitter: https://twitter.com/unixbhaskar
+
+  LinkedIN: https://linkedin.com/in/unixbhaskar
+
+  Vimeo: https://vimeo.com/unixbhaskar
+
+  Goodreads: https://goodreads.com/unixbhaskar
+
 * Org-mode - Field formatters in table calculations                     :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=S2V3lApGy-g
@@ -17138,6 +17514,36 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
 :END:
   If you're new to emacs, you've got to learn how to move around first. You will refine your strategies for moving around large documents with time and practice. In this video, I go through some of my favorite movements, and show you how to get going quickly.
 
+* Emacs Bash Advance Tips Tricks 2022_04_16_15:02:31
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=CvaqG1u9RUY&list=PLXbUyQOf06CfnGE46zsPiDF0zTtkzdDsX&index=26&pp=iAQB
+:DATE:     2022-04-16T04:37:43-07:00
+:SPEAKERS: Bhaskar Chowdhury  ...Musing with GNU_Linux!!
+:DURATION: 51:56
+:END:
+  In this video, you will see, some of the advance and useful stuff about bash programming to help you more.
+
+  #linux #emacs #bash
+
+  Buy Me A Coffee : https://www.buymeacoffee.com/unixbhaskar
+  Patreon : https://www.patreon.com/unixbhaskar
+
+  You can also find me :
+
+  GITHUB: https://github.com/unixbhaskar
+
+  Reddit: https://www.reddit.com/user/unixbhaskar
+
+  Blogs: https://unixbhaskar.wordpress.com
+
+  Twitter: https://twitter.com/unixbhaskar
+
+  LinkedIN: https://linkedin.com/in/unixbhaskar
+
+  Vimeo: https://vimeo.com/unixbhaskar
+
+  Goodreads: https://goodreads.com/unixbhaskar
+
 * Installing Packages Manually in Emacs
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=at_fACZ_o9Q
@@ -17224,6 +17630,37 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
   01:32 Cons cells
   11:13 Some useful functions
 
+* Emacs Markdown Mode 2022_04_13_06:05:11
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=b1ASu-gYVVg&list=PLXbUyQOf06CfnGE46zsPiDF0zTtkzdDsX&index=27&pp=iAQB
+:DATE:     2022-04-12T18:19:32-07:00
+:SPEAKERS: Bhaskar Chowdhury  ...Musing with GNU_Linux!!
+:DURATION: 17:07
+:END:
+  In this video, you will see, how you can easily use markdown mode to write files and preview with external and internal browsers in Emacs. Plus, you can also use all the markdown facilities to sit inside Emacs.
+
+  #linux #emacs #markdown
+
+
+  Buy Me A Coffee: https://www.buymeacoffee.com/unixbhaskar
+  Patreon: https://www.patreon.com/unixbhaskar
+
+  You can also find me :
+
+  GITHUB: https://github.com/unixbhaskar
+
+  Reddit: https://www.reddit.com/user/unixbhaskar
+
+  Blogs: https://unixbhaskar.wordpress.com
+
+  Twitter: https://twitter.com/unixbhaskar
+
+  LinkedIN: https://linkedin.com/in/unixbhaskar
+
+  Vimeo: https://vimeo.com/unixbhaskar
+
+  Goodreads: https://goodreads.com/unixbhaskar
+
 * Org-mode - Copy paste screenshots                                     :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=mlahmIoBguY
@@ -17275,6 +17712,36 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
 
   There is an accopnying blog post with more details: https://bitspook.in/blog/using-elisp-as-an/
   You can find more complete examples of using Elisp as an HTML templating engine in this repo: https://github.com/bitspook/press.el, which I am using for publishing my blog
+
+* Emacs Quick Accessible Stuff 2022_04_09_04:36:20
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=iXitA-p9yIk&list=PLXbUyQOf06CfnGE46zsPiDF0zTtkzdDsX&index=28&pp=iAQB
+:DATE:     2022-04-08T16:30:26-07:00
+:SPEAKERS: Bhaskar Chowdhury  ...Musing with GNU_Linux!!
+:DURATION: 07:16
+:END:
+  In this video, you will see, how easily you can bind the underlying function for a specific function with a key combination for quick access.
+
+  #linux #emacs #access
+
+  Buy Me A Coffee: https://www.buymeacoffee.com/unixbhaskar
+  Patreon: https://www.patreon.com/unixbhaskar
+
+  You can also find me :
+
+  GITHUB: https://github.com/unixbhaskar
+
+  Reddit: https://www.reddit.com/user/unixbhaskar
+
+  Blogs: https://unixbhaskar.wordpress.com
+
+  Twitter: https://twitter.com/unixbhaskar
+
+  LinkedIN: https://linkedin.com/in/unixbhaskar
+
+  Vimeo: https://vimeo.com/unixbhaskar
+
+  Goodreads: https://goodreads.com/unixbhaskar
 
 * Meeting 04 – Stop jumping between note-taking tools: use org-roam     :org:
 :PROPERTIES:
@@ -17525,6 +17992,31 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
 :END:
   I go over my most advanced emacs customization.
 
+* Emacs Narrow And Widen Facility 2022_03_24_16:17:48
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=yrsczR2HSh4&list=PLXbUyQOf06CfnGE46zsPiDF0zTtkzdDsX&index=29&pp=iAQB
+:DATE:     2022-03-24T04:09:03-07:00
+:SPEAKERS: Bhaskar Chowdhury  ...Musing with GNU_Linux!!
+:DURATION: 06:52
+:END:
+  In this video, you will see, how you can easily show only the selected section of the file. This facility in Emacs is called narrowing down. Also, you can get back all the content by Widen up.
+
+  #linux #emacs #facility
+  Buy Me A Coffee : https://www.buymeacoffee.com/unixbhaskar
+
+* Emacs Essential Keystrokes 2022_03_23_06:31:58
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=xxNtWEW8sLw&list=PLXbUyQOf06CfnGE46zsPiDF0zTtkzdDsX&index=30&pp=iAQB
+:DATE:     2022-03-22T19:46:02-07:00
+:SPEAKERS: Bhaskar Chowdhury  ...Musing with GNU_Linux!!
+:DURATION: 41:58
+:END:
+  In this video, you will see, how easily you can master the important keystrokes inside Emacs to boost your productivity.
+
+  #linux #emacs #keystrokes
+
+  Buy Me A Coffee : https://www.buymeacoffee.com/unixbhaskar
+
 * LibrePlanet 2022: Living in freedom with GNU Emacs
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=CQM-GWKdHsU
@@ -17751,6 +18243,17 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
 
   #linux #emacs #gdb
 
+* Emacs Orgmode PGP Encryption Decryption 2022_03_08_14:03:51
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=y9zCkdyny4U&list=PLXbUyQOf06CfnGE46zsPiDF0zTtkzdDsX&index=33&pp=iAQB
+:DATE:     2022-03-08T01:09:21-08:00
+:SPEAKERS: Bhaskar Chowdhury  ...Musing with GNU_Linux!!
+:DURATION: 04:18
+:END:
+  In this video, you will see, how easily you can encrypt and decrypt org file content with your gpg key.
+
+  #linux #emacs #orgmode
+
 * Emacs Tramp Mode and Blogging
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=ZYsD9GbHQIU
@@ -17886,6 +18389,17 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
   🗒️ Doom Emacs: https://github.com/hlissner/doom-emacs
 
   Your support is very much appreciated. Thanks, guys!
+
+* Emacs:Commenting Various Source Files 2022_03_01_17:56:59
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=nrT6PtEYK20&list=PLXbUyQOf06CfnGE46zsPiDF0zTtkzdDsX&index=35&pp=iAQB
+:DATE:     2022-03-01T04:49:00-08:00
+:SPEAKERS: Bhaskar Chowdhury  ...Musing with GNU_Linux!!
+:DURATION: 06:42
+:END:
+  In this video, you will see, how you can comment out in various source code files with the help of a single key combination i.e C-x C-;
+
+  #linux #emacs #commenting
 
 * Emacs and VIM Indenting Code
 :PROPERTIES:
@@ -18162,6 +18676,17 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
   5. Youtube: https://youtube.com/ravisagar1
   ####
 
+* Emacs:Keyboard Macro 2022_02_25_04:04:32
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=AFkXLmega8E&list=PLXbUyQOf06CfnGE46zsPiDF0zTtkzdDsX&index=37&pp=iAQB
+:DATE:     2022-02-24T15:03:30-08:00
+:SPEAKERS: Bhaskar Chowdhury  ...Musing with GNU_Linux!!
+:DURATION: 09:22
+:END:
+  In this video, you will see, how you can take advantage of some facilities provided by your beloved editor. In this case, it is called "Keyboard macro" , which is nothing but a recorded keystroke shortcut to reach far-reaching stuff inside the editor.
+
+  #linux #emacs #macro
+
 * Org-mode - Package cl is deprecated
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=RVUxjGymcY0&list=PLlHHtPGox8K6bcuruX10Evf4AYGzYQKiz&index=98&pp=iAQB
@@ -18336,6 +18861,17 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
   ukeSounds by airtone, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/airtone/32655
   Between Worlds (Instrumental) by Aussens@iter, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/tobias_weber/56664
 
+* Emacs:CRUX File Accessibility 2022_02_22_16:49:18
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=aVjlgScaZq4&list=PLXbUyQOf06CfnGE46zsPiDF0zTtkzdDsX&index=38&pp=iAQB
+:DATE:     2022-02-22T04:33:48-08:00
+:SPEAKERS: Bhaskar Chowdhury  ...Musing with GNU_Linux!!
+:DURATION: 24:58
+:END:
+  In this video, you will see, how you can easily access a specific set of shell related files and access  superuser privilege file with the help of package CRUX , which can be found here:  https://github.com/bbatsov/crux
+
+  #linux #emacs #file
+
 * Demo: Capturing current FF tab in org-roam-dailies
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=Dp2vviuCga8
@@ -18475,6 +19011,19 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
 
   Page URL:
   https://commons.wikimedia.org/wiki/File:Emacs_512.png
+
+* Emacs:Source Code Evaluation Inside Org File 2022 02 19 08:01:12
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=OxUbFIb_n8M&list=PLXbUyQOf06CfnGE46zsPiDF0zTtkzdDsX&index=40&pp=iAQB
+:DATE:     2022-02-18T19:03:03-08:00
+:SPEAKERS: Bhaskar Chowdhury  ...Musing with GNU_Linux!!
+:DURATION: 07:56
+:END:
+  In this video, you will see, how you can evaluate code blocks inside Emacs Org-mode files.
+
+  For more information, please see: https://orgmode.org/manual/Working-with-Source-Code.html
+
+  #inux #emacs #sourcecode
 
 * Emacs Search and Replace
 :PROPERTIES:
@@ -20033,6 +20582,19 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
   5. Youtube: https://youtube.com/ravisagar1
   ####
 
+* Elfeed An RSS Feeds Reader On Emacs 2022_01_25_06:26:40
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=jCSe3YQaykw&list=PLXbUyQOf06CfnGE46zsPiDF0zTtkzdDsX&index=44&pp=iAQB
+:DATE:     2022-01-24T18:34:56-08:00
+:SPEAKERS: Bhaskar Chowdhury  ...Musing with GNU_Linux!!
+:DURATION: 24:04
+:END:
+  In this video, you will see, Elfeed , an RSS feed reader inside Emacs.
+
+  You can get it from here: https://github.com/skeeto/elfeed
+
+  #linux #emacs #elfeed
+
 * Building Emacs with Native Compilation and libgccjit from the AUR
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=CzY-D8jjbX0
@@ -20346,6 +20908,17 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
   4. Podcast: https://www.ravisagar.in/podcast
   5. Youtube: https://youtube.com/ravisagar1
   ####
+
+* Emacs Reload And Restart Quickway 2022_01_20_18:29:11
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=W6-KkOrkQaQ&list=PLXbUyQOf06CfnGE46zsPiDF0zTtkzdDsX&index=46&pp=iAQB
+:DATE:     2022-01-20T05:21:08-08:00
+:SPEAKERS: Bhaskar Chowdhury  ...Musing with GNU_Linux!!
+:DURATION: 06:29
+:END:
+  In this video, I will show you, that you can bind some keys to get Emacs to evaluate initialization file i.e .emacs or init.el, and Restart Emacs quick way.
+
+  #linux #emacs #automation
 
 * Org-mode - No need to restart Emacs
 :PROPERTIES:
@@ -21108,6 +21681,17 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
 
   https://willvaughn.org/articles/vp-of-emacs-a-personal-wiki-in-plain-text/
 
+* Emacs Vim Find Help Better Ways 2022_01_05_06:48:49
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=ez6Xf1deKBo&list=PLXbUyQOf06CfnGE46zsPiDF0zTtkzdDsX&index=51&pp=iAQB
+:DATE:     2022-01-04T18:45:30-08:00
+:SPEAKERS: Bhaskar Chowdhury  ...Musing with GNU_Linux!!
+:DURATION: 28:25
+:END:
+  In this video, you will see, how to find helps in an efficient and better way with minimum effort. I have covered VIm and Emacs.
+
+  #linux #emacs #vim
+
 * Learning Emacs guide and tips
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=6QOK66zha8o
@@ -21342,6 +21926,17 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
   C Page URL:
   https://commons.wikimedia.org/wiki/File:C_Programming_Language.svg
 
+* Emacs OrgMode Shortcuts 2021_12_30_18:34:55
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=p2YQbgGWck0&list=PLXbUyQOf06CfnGE46zsPiDF0zTtkzdDsX&index=52&pp=iAQB
+:DATE:     2021-12-30T05:28:53-08:00
+:SPEAKERS: Bhaskar Chowdhury  ...Musing with GNU_Linux!!
+:DURATION: 06:16
+:END:
+  In this video, you will see how you can use the shortcut to manipulate the emacs org-mode file for speed.
+
+  #linux #emacs #orgmode
+
 * Finally Vi in GNU Emacs!!!
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=87QzhmhHwLU&list=PLW9poAEUvGDDxCZX-3xIQ3Wb1HOVcg7N_&index=5&pp=iAQB
@@ -21493,6 +22088,19 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
   00:00 What isit all about?
   03:38 The plan
   05:57 FG42 and a bit of history
+
+* Emacs Archive Facility In Org 2021_12_22_16:20:36
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=vjX47mjyAWA&list=PLXbUyQOf06CfnGE46zsPiDF0zTtkzdDsX&index=53&pp=iAQB
+:DATE:     2021-12-22T03:18:11-08:00
+:SPEAKERS: Bhaskar Chowdhury  ...Musing with GNU_Linux!!
+:DURATION: 07:32
+:END:
+  In this video, you can see, how to achieve on Org-mode in Emacs.
+
+  For more info:  https://orgmode.org/guide/Archiving.html
+
+  #linux #emacs #orgmode
 
 * Edit Remote Files with Emacs
 :PROPERTIES:
@@ -22876,6 +23484,19 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
 :END:
   http://xahlee.info/talk_show/xah_talk_show_2021-11-21.html
 
+* Emacs Package Management Part II 2021_11_22_15:36:03
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=aay6wzH6v2w&list=PLXbUyQOf06CfnGE46zsPiDF0zTtkzdDsX&index=60&pp=iAQB
+:DATE:     2021-11-22T03:45:49-08:00
+:SPEAKERS: Bhaskar Chowdhury  ...Musing with GNU_Linux!!
+:DURATION: 40:39
+:END:
+  The final part of the emacs package management saga ....Oh btw, I lost the sound in the last couple of minutes...never mind ...
+
+  Here is the Part I, link:  https://www.youtube.com/watch?v=8T6MnQ0gwF8
+
+  #linux #emacs #packagemanagement
+
 * Emacs Package Management Part I 2021_11_22_12:52:39
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=8T6MnQ0gwF8&feature=youtu.be
@@ -23254,6 +23875,41 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
   - Reddit: https://reddit.com/r/lexfridman
   - Support on Patreon: https://www.patreon.com/lexfridman
 
+* Emacs Buffer As Scratchpad 2021_11_12 _15:45:18
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=HmOd6zWlhjk&list=PLXbUyQOf06CfnGE46zsPiDF0zTtkzdDsX&index=66&pp=iAQB
+:DATE:     2021-11-12T02:44:20-08:00
+:SPEAKERS: Bhaskar Chowdhury  ...Musing with GNU_Linux!!
+:DURATION: 05:29
+:END:
+  Emacs scratch buffer pops up anywhere in the system as you invoke it or call it when needed.
+
+  #linux #emacs #scratchpad
+
+* Emacs Help 2021_11_12 _14:45:48
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=ubaCgwIDE7E&list=PLXbUyQOf06CfnGE46zsPiDF0zTtkzdDsX&index=67&pp=iAQB
+:DATE:     2021-11-12T01:38:21-08:00
+:SPEAKERS: Bhaskar Chowdhury  ...Musing with GNU_Linux!!
+:DURATION: 07:12
+:END:
+  To describe Emacs internal help system with some familiar keystrokes.
+
+  #linux #emacs #help
+
+* Emacs Vim Config Cross Edit 2021_11_12 _09:01:48
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=fndsXHgcvM0&list=PLXbUyQOf06CfnGE46zsPiDF0zTtkzdDsX&index=68&pp=iAQB
+:DATE:     2021-11-11T19:41:54-08:00
+:SPEAKERS: Bhaskar Chowdhury  ...Musing with GNU_Linux!!
+:DURATION: 02:28
+:END:
+  Emacs and Vim config editing on cross editor, means, you can config Vim config on Emacs and vice versa.
+
+  Have Fun!
+
+  #linux #vim #emacs
+
 * Talking about Emacs and Other Things
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=zyOko8Qrj78
@@ -23266,6 +23922,17 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
   https://youtu.be/IspAZtNTslY
 
   Do you want to see a video about setting up your own Git server.  It's fun.
+
+* EMMS Music Player On Emacs 2021_11_11_04:50:54
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=UL2ICoKXF7s&list=PLXbUyQOf06CfnGE46zsPiDF0zTtkzdDsX&index=69&pp=iAQB
+:DATE:     2021-11-10T16:47:20-08:00
+:SPEAKERS: Bhaskar Chowdhury  ...Musing with GNU_Linux!!
+:DURATION: 08:23
+:END:
+  EMMS is an Emacs MultiMedia System. Which is nicely integrated with Emacs. It is the simplest way of playing music inside Emacs.
+
+  #linux #emacs #emms
 
 * Using emacs and org-mode to teach programming
 :PROPERTIES:
@@ -23472,6 +24139,17 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
   🗒️ Doom Emacs: https://github.com/hlissner/doom-emacs
 
   Your support is very much appreciated. Thanks, guys!
+* Open Two Files Side By Side In Editors 2021_11_04_03:57:02
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=qHMmXkawVpQ&list=PLXbUyQOf06CfnGE46zsPiDF0zTtkzdDsX&index=71&pp=iAQB
+:DATE:     2021-11-03T15:46:02-07:00
+:SPEAKERS: Bhaskar Chowdhury  ...Musing with GNU_Linux!!
+:DURATION: 06:47
+:END:
+  This is a convenient way to deal with more than one file on your choice of editors, in this case, I choose to use my daily editor i.e Vim and Emacs to open files side by side with single keystrokes or type a single command.
+
+  #linux #vim #emacs
+
 * scimax - Getting help in #emacs
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=SsUmF-IMR5k
@@ -23628,6 +24306,23 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
   * * *
 
   The video thumbnail is a tweak of the Levitating, Meditating, Flute-playing Gnu under the terms of the GNU General Public License: https://www.gnu.org/graphics/meditate.html
+
+* Emacs_Build_From_Source_2021_10_30 _18:42:54
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=xhVCca83C7M&list=PLXbUyQOf06CfnGE46zsPiDF0zTtkzdDsX&index=73&pp=iAQB
+:DATE:     2021-10-30T08:54:30-07:00
+:SPEAKERS: Bhaskar Chowdhury  ...Musing with GNU_Linux!!
+:DURATION: 01:15:09
+:END:
+  This is an automated process to build Emacs from the git repo. The script can be found here: https://github.com/unixbhaskar/dotfiles/blob/9271d5cedfd04bf240a732e315f9cab03ff463e1/emacs_build_from_source.sh
+
+  #linux #emacs #sourcebuild
+
+
+  PS: The annoying sound in the background coming from a high-speed ceiling fan running atop my head. I am sorry about that.
+
+
+  PS2: I will make sure, next time I can record stuff in a noise-free environment.
 
 * My Emacs Tutorial
 :PROPERTIES:
@@ -44069,6 +44764,16 @@ Using restclient within emacs...
   Learn more from the developers at thoughtbot ⌨️
   Head over to http://tbot.io/dev-blog to read more great articles on our blog.
 
+* 2015-01-21 Emacs Chat - Steve Purcell
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=Gq0hG_om9xY&list=PL4th0AZixyRF8o3fdx68HGUrYKF2Pfvrp&index=18&pp=iAQB
+:DATE:     2015-01-21T08:07:28-08:00
+:SPEAKERS: Sacha Chua
+:DURATION: 01:01:05
+:END:
+  In this Emacs Chat, Steve Purcell shares how he got started with Emacs by using a Vim emulation mode, what it's like to give hundreds of package authors feedback on Emacs Lisp style, and how he's eventually replacing himself with Emacs Lisp (flycheck-package). He also highlights useful packages for managing buffers of version-controlled files (ibuffer-vc), working with lines if the region isn't active (whole-line-or-region), or maximizing certain buffers (full-frame).
+
+  Blog post: http://sachachua.com/blog/?p=27870&shareadraft=baba27870_54bfd5841a433
 * A Pretty Good Introduction to Pretty Good Privacy
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=Lq-yKJFHJpk&list=PL8tzorAO7s0he-pp7Y_JDl7-Kz2Qlr_Pj&index=13&pp=iAQB
@@ -44089,6 +44794,15 @@ Using restclient within emacs...
 :DURATION: 03:18
 :END:
 
+
+* Emacs Chat: Karl Voit
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=SaKPr4J0K2I&list=PL4th0AZixyRF8o3fdx68HGUrYKF2Pfvrp&index=17&pp=iAQB
+:DATE:     2014-12-03T11:08:13-08:00
+:SPEAKERS: Sacha Chua
+:DURATION: 59:21
+:END:
+  Org Mode, Memacs, lazyblorg, .emacs, Yasnippet, tags . http://karl-voit.at , http://twitter.com/n0v0id , http://github.com/novoid . Transcript at http://emacslife.com/emacs-chats/chat-karl-voit.html
 
 * Edit LISP structurally with Emacs package lispy  :lispy:
 :PROPERTIES:
@@ -44156,6 +44870,15 @@ Using restclient within emacs...
 :END:
 
 
+* 2014-08-10 Emacs Chat - Mickey Petersen
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=JA4dqmDFt5Y&list=PL4th0AZixyRF8o3fdx68HGUrYKF2Pfvrp&index=16&pp=iAQB
+:DATE:     2014-09-01T09:15:30-07:00
+:SPEAKERS: Sacha Chua
+:DURATION: 53:36
+:END:
+  Mickey Petersen chats about Mastering Emacs, learning advanced topics, navigating by expressions, and making the most of dired and shell. You can find him at masteringemacs.org or twitter.com/mickeynp . Transcript and notes: http://emacslife.com/emacs-chats/chat-mickey-petersen.html
+
 * The Editor of a Lifetime
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=VADudzQGvU8&feature=youtu.be
@@ -44183,6 +44906,17 @@ Using restclient within emacs...
 
   Show Notes:
   http://www.ilearnthings.com/2014/08/18/episode-13-taking-notes-in-emacs-org-mode/
+
+* Emacs Chat: Harry R. Schwartz / Sacha Chua
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=I2wOxZOcyD8&list=PL4th0AZixyRF8o3fdx68HGUrYKF2Pfvrp&index=15&pp=iAQB
+:DATE:     2014-07-23T18:27:49-07:00
+:SPEAKERS: Sacha Chua
+:DURATION: 53:11
+:END:
+  Emacs Chat: Harry R. Schwartz / Sacha Chua
+
+  We talk about Emacs NYC, organizing your configuration, and more.
 
 * Turtle Graphics with Emacs Lisp
 :PROPERTIES:
@@ -44252,6 +44986,26 @@ Using restclient within emacs...
   Learn more from the developers at thoughtbot ⌨️
   Head over to http://tbot.io/dev-blog to read more great articles on our blog.
 
+* Emacs Chat: Christopher Wellons (FFI, Emacs internals)
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=Hr06UDD4mCs&list=PL4th0AZixyRF8o3fdx68HGUrYKF2Pfvrp&index=14&pp=iAQB
+:DATE:     2014-05-30T17:06:08-07:00
+:SPEAKERS: Sacha Chua
+:DURATION: 56:39
+:END:
+  Christopher recently put together a package for using foreign function interfaces from Emacs, which means you can call out to native C code and other things like that. Neat! Also, he has probably forgotten more about Emacs internals than I can understand. Join us as I chat with him about how he got into Emacs, what he does with it, and how one can get started understanding deep Emacs geekery.
+
+  The video recording (and eventually transcript etc.) is in the public domain. Yay Christopher!
+
+* Emacs Chat: Bozhidar Batsov (bbatsov)
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=-8DO0_pqLNA&list=PL4th0AZixyRF8o3fdx68HGUrYKF2Pfvrp&index=13&pp=iAQB
+:DATE:     2014-05-19T10:14:53-07:00
+:SPEAKERS: Sacha Chua
+:DURATION: 53:11
+:END:
+  Emacs Chat: Bozhidar Batsov (bbatsov)
+
 * .Emacs #7 - The Command Line
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=U2Rl23-_ePw&list=PLxj9UAX4Em-IiOfvF2Qs742LxEK4owSkr&index=7&pp=iAQB
@@ -44302,6 +45056,15 @@ Using restclient within emacs...
   Learn more from the developers at thoughtbot ⌨️
   Head over to http://tbot.io/dev-blog to read more great articles on our blog.
 
+* Emacs Chat - Phil Hagelberg (technomancy)
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=Rfg-6jGY8dU&list=PL4th0AZixyRF8o3fdx68HGUrYKF2Pfvrp&index=12&pp=iAQB
+:DATE:     2014-05-09T21:09:50-07:00
+:SPEAKERS: Sacha Chua
+:DURATION: 01:00:29
+:END:
+  Emacs Chat - Phil Hagelberg (technomancy)
+
 * Upgrading IPython with Emacs
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=dgcBKz03lK8&list=PL8tzorAO7s0he-pp7Y_JDl7-Kz2Qlr_Pj&index=21&pp=iAQB
@@ -44313,6 +45076,35 @@ Using restclient within emacs...
 
   Learn more from the developers at thoughtbot ⌨️
   Head over to http://tbot.io/dev-blog to read more great articles on our blog.
+
+* 2014 05 02 Emacs Chat   Xah Lee
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=rKPKWqvTImA&list=PL4th0AZixyRF8o3fdx68HGUrYKF2Pfvrp&index=11&pp=iAQB
+:DATE:     2014-05-03T11:50:05-07:00
+:SPEAKERS: Sacha Chua
+:DURATION: 57:30
+:END:
+
+
+* Emacs Chat: Thomas Kjeldahl Nilsson
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=7vYo4zt6-FQ&list=PL4th0AZixyRF8o3fdx68HGUrYKF2Pfvrp&index=10&pp=iAQB
+:DATE:     2014-04-27T13:39:12-07:00
+:SPEAKERS: Sacha Chua
+:DURATION: 55:23
+:END:
+  March 22, 2013
+  (Copied over from Vimeo)
+
+* Emacs Chat: Jānis Mancēvičs
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=HOy4h0a_0TI&list=PL4th0AZixyRF8o3fdx68HGUrYKF2Pfvrp&index=9&pp=iAQB
+:DATE:     2014-04-19T14:19:55-07:00
+:SPEAKERS: Sacha Chua
+:DURATION: 01:02:00
+:END:
+  Emacs Chat: Jānis Mancēvičs
+  Transcript and notes: http://sachachua.com/blog/2014/04/emacs-chat-janis-mancevics/
 
 * An Introduction to Emacs Lisp
 :PROPERTIES:
@@ -44337,6 +45129,15 @@ Using restclient within emacs...
 :END:
   Internet Relay Chat (IRC) has been a popular P2P messaging system since 1988. Since it uses a text-based interface, it's a perfect fit for Emacs! We'll be looking at ERC, the built-in Emacs IRC client and the solution to all our social needs. ERC easily fits into anyone's workflow and has tons of libraries to make it even more seamless.
 
+* Emacs Chat: Tom Marble
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=-6bpx-6zyOI&list=PL4th0AZixyRF8o3fdx68HGUrYKF2Pfvrp&index=8&pp=iAQB
+:DATE:     2014-04-09T17:28:09-07:00
+:SPEAKERS: Sacha Chua
+:DURATION: 57:31
+:END:
+  Emacs Chat: Tom Marble - Invoicing with Org and LaTeX; Clojure
+
 * Mockup Monday #9: Emacs on the iPhone  :mobile:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=-2NBTOZnEy8&feature=youtu.be
@@ -44345,6 +45146,15 @@ Using restclient within emacs...
 :DURATION: 04:55
 :END:
   And now for something completely different: How your favorite text editor might work on the iPhone, if I ever finish it. Special thanks to Chris Miles for the unistroke gesture recognizer library and Fabrice Bellard for QEmacs.
+
+* Emacs Chat: Iannis Zannos
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=0F8aCbC9z3A&list=PL4th0AZixyRF8o3fdx68HGUrYKF2Pfvrp&index=7&pp=iAQB
+:DATE:     2014-04-07T08:24:06-07:00
+:SPEAKERS: Sacha Chua
+:DURATION: 01:00:34
+:END:
+  Emacs Chat: Iannis Zannos
 
 * Emacs as a C/C++ Editor/IDE (Part I): auto-complete, yasnippet, and auto-complete-c-headers :coding:completion:c:cpp:yasnippet:autocomplete:
 :PROPERTIES:
@@ -44360,6 +45170,26 @@ Using restclient within emacs...
 
   or you can pull/clone it from github:
   https://github.com/byuksel/Emacs-as-a-C-Cplusplus-Editor-IDE-settings
+* Emacs Chat: John Wiegley (June 26, 2012)
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=ytNsHmRLZGM&list=PL4th0AZixyRF8o3fdx68HGUrYKF2Pfvrp&index=5&pp=iAQB
+:DATE:     2013-11-03T13:32:19-08:00
+:SPEAKERS: Sacha Chua
+:DURATION: 43:48
+:END:
+  In which John Wiegley and I chat about cool things he does with Emacs, learning, and other geeky things. More context for John Wiegley's thoughts: newartisans.com/2011/04/letter-to-the-fsf/
+
+  Fixed version of http://www.youtube.com/watch?v=MyOnK9xbmX4
+
+* Emacs Chat: Magnar Sveen (@emacsrocks)
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=87tjF_mYvpE&list=PL4th0AZixyRF8o3fdx68HGUrYKF2Pfvrp&index=6&pp=iAQB
+:DATE:     2013-11-03T12:03:09-08:00
+:SPEAKERS: Sacha Chua
+:DURATION: 57:23
+:END:
+  In which Magnar tells us how he got started with Emacs by hanging out with other Emacs geeks, and other good stories. Notes at http://sachachua.com/blog/2013/11/emacs-chat-magnar-sveen-emacs-rocks/
+
 * Writing A Spotify Client in 16 Minutes  :coding:helm:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=XjKtkEMUYGc&feature=youtu.be
@@ -44521,6 +45351,27 @@ Using restclient within emacs...
   Track: Reproducible Science
 
   We will discuss the use of emacs + org-mode + python in enabling reproducible research. This combination of software enables researchers to intertwine narrative and mathematical text with figures and code that is executable within a document, with capture of the output. Portions of the document can be selectively exported to LaTeX, HTML, pdf and other other formats. We have used this method to produce technical manuscripts submitted for peer review in scientific journals, in the preparation of two e-books (about 300 pages each) on using python in scientific and engineering applications (http://jkitchin.github.com/pycse), and in using python in the modeling of the properties of materials with density functional theory (http://jkitchin.github.com/dft-book), as well as a python-powered blog at http://jkitchin.github.com. Our experience suggests all three components are critical for enabling reproducible research in practice: an extensible editor, a markup language that separates text, math, data and code, and an effective language such as python. We will show examples of the pros and cons of this particular implementation of editor/markup/code combination.
+
+* Bastien Guerry interviewing me (Sacha Chua)
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=_Ro7VpzQNO4&list=PL4th0AZixyRF8o3fdx68HGUrYKF2Pfvrp&index=4&pp=iAQB
+:DATE:     2013-06-24T14:22:55-07:00
+:SPEAKERS: Sacha Chua
+:DURATION: 44:27
+:END:
+  In which we chat about Emacs and the community.
+  Just want the audio? http://archive.org/details/EmacsChatSachaChuawithBastienGuerry
+  Transcript: http://sachachua.com/blog/2013/07/emacs-chat-sacha-chua-with-bastien-guerry/
+  More Emacs chats: http://sachachua.com/emacs-chat
+
+* Emacs Chat - Carsten Dominik
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=uUtFIbKEpJQ&list=PL4th0AZixyRF8o3fdx68HGUrYKF2Pfvrp&index=3&pp=iAQB
+:DATE:     2013-05-20T19:37:04-07:00
+:SPEAKERS: Sacha Chua
+:DURATION: 52:02
+:END:
+  (Reuploaded from Vimeo)
 
 * Emacs Chat - Avdi Grimm
 :PROPERTIES:
@@ -44793,159 +45644,3 @@ Using restclient within emacs...
 :DURATION: 00:26
 :END:
   Emacs for Artists
-* Emacs Chat - Carsten Dominik
-:PROPERTIES:
-:YOUTUBE_URL: https://www.youtube.com/watch?v=uUtFIbKEpJQ&list=PL4th0AZixyRF8o3fdx68HGUrYKF2Pfvrp&index=3&pp=iAQB
-:DATE:     2013-05-20T19:37:04-07:00
-:SPEAKERS: Sacha Chua
-:DURATION: 52:02
-:END:
-  (Reuploaded from Vimeo)
-
-* Bastien Guerry interviewing me (Sacha Chua)
-:PROPERTIES:
-:YOUTUBE_URL: https://www.youtube.com/watch?v=_Ro7VpzQNO4&list=PL4th0AZixyRF8o3fdx68HGUrYKF2Pfvrp&index=4&pp=iAQB
-:DATE:     2013-06-24T14:22:55-07:00
-:SPEAKERS: Sacha Chua
-:DURATION: 44:27
-:END:
-  In which we chat about Emacs and the community.
-  Just want the audio? http://archive.org/details/EmacsChatSachaChuawithBastienGuerry
-  Transcript: http://sachachua.com/blog/2013/07/emacs-chat-sacha-chua-with-bastien-guerry/
-  More Emacs chats: http://sachachua.com/emacs-chat
-
-* Emacs Chat: John Wiegley (June 26, 2012)
-:PROPERTIES:
-:YOUTUBE_URL: https://www.youtube.com/watch?v=ytNsHmRLZGM&list=PL4th0AZixyRF8o3fdx68HGUrYKF2Pfvrp&index=5&pp=iAQB
-:DATE:     2013-11-03T13:32:19-08:00
-:SPEAKERS: Sacha Chua
-:DURATION: 43:48
-:END:
-  In which John Wiegley and I chat about cool things he does with Emacs, learning, and other geeky things. More context for John Wiegley's thoughts: newartisans.com/2011/04/letter-to-the-fsf/
-
-  Fixed version of http://www.youtube.com/watch?v=MyOnK9xbmX4
-
-* Emacs Chat: Magnar Sveen (@emacsrocks)
-:PROPERTIES:
-:YOUTUBE_URL: https://www.youtube.com/watch?v=87tjF_mYvpE&list=PL4th0AZixyRF8o3fdx68HGUrYKF2Pfvrp&index=6&pp=iAQB
-:DATE:     2013-11-03T12:03:09-08:00
-:SPEAKERS: Sacha Chua
-:DURATION: 57:23
-:END:
-  In which Magnar tells us how he got started with Emacs by hanging out with other Emacs geeks, and other good stories. Notes at http://sachachua.com/blog/2013/11/emacs-chat-magnar-sveen-emacs-rocks/
-
-* Emacs Chat: Iannis Zannos
-:PROPERTIES:
-:YOUTUBE_URL: https://www.youtube.com/watch?v=0F8aCbC9z3A&list=PL4th0AZixyRF8o3fdx68HGUrYKF2Pfvrp&index=7&pp=iAQB
-:DATE:     2014-04-07T08:24:06-07:00
-:SPEAKERS: Sacha Chua
-:DURATION: 01:00:34
-:END:
-  Emacs Chat: Iannis Zannos
-
-* Emacs Chat: Tom Marble
-:PROPERTIES:
-:YOUTUBE_URL: https://www.youtube.com/watch?v=-6bpx-6zyOI&list=PL4th0AZixyRF8o3fdx68HGUrYKF2Pfvrp&index=8&pp=iAQB
-:DATE:     2014-04-09T17:28:09-07:00
-:SPEAKERS: Sacha Chua
-:DURATION: 57:31
-:END:
-  Emacs Chat: Tom Marble - Invoicing with Org and LaTeX; Clojure
-
-* Emacs Chat: Jānis Mancēvičs
-:PROPERTIES:
-:YOUTUBE_URL: https://www.youtube.com/watch?v=HOy4h0a_0TI&list=PL4th0AZixyRF8o3fdx68HGUrYKF2Pfvrp&index=9&pp=iAQB
-:DATE:     2014-04-19T14:19:55-07:00
-:SPEAKERS: Sacha Chua
-:DURATION: 01:02:00
-:END:
-  Emacs Chat: Jānis Mancēvičs
-  Transcript and notes: http://sachachua.com/blog/2014/04/emacs-chat-janis-mancevics/
-
-* Emacs Chat: Thomas Kjeldahl Nilsson
-:PROPERTIES:
-:YOUTUBE_URL: https://www.youtube.com/watch?v=7vYo4zt6-FQ&list=PL4th0AZixyRF8o3fdx68HGUrYKF2Pfvrp&index=10&pp=iAQB
-:DATE:     2014-04-27T13:39:12-07:00
-:SPEAKERS: Sacha Chua
-:DURATION: 55:23
-:END:
-  March 22, 2013
-  (Copied over from Vimeo)
-
-* 2014 05 02 Emacs Chat   Xah Lee
-:PROPERTIES:
-:YOUTUBE_URL: https://www.youtube.com/watch?v=rKPKWqvTImA&list=PL4th0AZixyRF8o3fdx68HGUrYKF2Pfvrp&index=11&pp=iAQB
-:DATE:     2014-05-03T11:50:05-07:00
-:SPEAKERS: Sacha Chua
-:DURATION: 57:30
-:END:
-
-
-* Emacs Chat - Phil Hagelberg (technomancy)
-:PROPERTIES:
-:YOUTUBE_URL: https://www.youtube.com/watch?v=Rfg-6jGY8dU&list=PL4th0AZixyRF8o3fdx68HGUrYKF2Pfvrp&index=12&pp=iAQB
-:DATE:     2014-05-09T21:09:50-07:00
-:SPEAKERS: Sacha Chua
-:DURATION: 01:00:29
-:END:
-  Emacs Chat - Phil Hagelberg (technomancy)
-
-* Emacs Chat: Bozhidar Batsov (bbatsov)
-:PROPERTIES:
-:YOUTUBE_URL: https://www.youtube.com/watch?v=-8DO0_pqLNA&list=PL4th0AZixyRF8o3fdx68HGUrYKF2Pfvrp&index=13&pp=iAQB
-:DATE:     2014-05-19T10:14:53-07:00
-:SPEAKERS: Sacha Chua
-:DURATION: 53:11
-:END:
-  Emacs Chat: Bozhidar Batsov (bbatsov)
-
-* Emacs Chat: Christopher Wellons (FFI, Emacs internals)
-:PROPERTIES:
-:YOUTUBE_URL: https://www.youtube.com/watch?v=Hr06UDD4mCs&list=PL4th0AZixyRF8o3fdx68HGUrYKF2Pfvrp&index=14&pp=iAQB
-:DATE:     2014-05-30T17:06:08-07:00
-:SPEAKERS: Sacha Chua
-:DURATION: 56:39
-:END:
-  Christopher recently put together a package for using foreign function interfaces from Emacs, which means you can call out to native C code and other things like that. Neat! Also, he has probably forgotten more about Emacs internals than I can understand. Join us as I chat with him about how he got into Emacs, what he does with it, and how one can get started understanding deep Emacs geekery.
-
-  The video recording (and eventually transcript etc.) is in the public domain. Yay Christopher!
-
-* Emacs Chat: Harry R. Schwartz / Sacha Chua
-:PROPERTIES:
-:YOUTUBE_URL: https://www.youtube.com/watch?v=I2wOxZOcyD8&list=PL4th0AZixyRF8o3fdx68HGUrYKF2Pfvrp&index=15&pp=iAQB
-:DATE:     2014-07-23T18:27:49-07:00
-:SPEAKERS: Sacha Chua
-:DURATION: 53:11
-:END:
-  Emacs Chat: Harry R. Schwartz / Sacha Chua
-
-  We talk about Emacs NYC, organizing your configuration, and more.
-
-* 2014-08-10 Emacs Chat - Mickey Petersen
-:PROPERTIES:
-:YOUTUBE_URL: https://www.youtube.com/watch?v=JA4dqmDFt5Y&list=PL4th0AZixyRF8o3fdx68HGUrYKF2Pfvrp&index=16&pp=iAQB
-:DATE:     2014-09-01T09:15:30-07:00
-:SPEAKERS: Sacha Chua
-:DURATION: 53:36
-:END:
-  Mickey Petersen chats about Mastering Emacs, learning advanced topics, navigating by expressions, and making the most of dired and shell. You can find him at masteringemacs.org or twitter.com/mickeynp . Transcript and notes: http://emacslife.com/emacs-chats/chat-mickey-petersen.html
-
-* Emacs Chat: Karl Voit
-:PROPERTIES:
-:YOUTUBE_URL: https://www.youtube.com/watch?v=SaKPr4J0K2I&list=PL4th0AZixyRF8o3fdx68HGUrYKF2Pfvrp&index=17&pp=iAQB
-:DATE:     2014-12-03T11:08:13-08:00
-:SPEAKERS: Sacha Chua
-:DURATION: 59:21
-:END:
-  Org Mode, Memacs, lazyblorg, .emacs, Yasnippet, tags . http://karl-voit.at , http://twitter.com/n0v0id , http://github.com/novoid . Transcript at http://emacslife.com/emacs-chats/chat-karl-voit.html
-
-* 2015-01-21 Emacs Chat - Steve Purcell
-:PROPERTIES:
-:YOUTUBE_URL: https://www.youtube.com/watch?v=Gq0hG_om9xY&list=PL4th0AZixyRF8o3fdx68HGUrYKF2Pfvrp&index=18&pp=iAQB
-:DATE:     2015-01-21T08:07:28-08:00
-:SPEAKERS: Sacha Chua
-:DURATION: 01:01:05
-:END:
-  In this Emacs Chat, Steve Purcell shares how he got started with Emacs by using a Vim emulation mode, what it's like to give hundreds of package authors feedback on Emacs Lisp style, and how he's eventually replacing himself with Emacs Lisp (flycheck-package). He also highlights useful packages for managing buffers of version-controlled files (ibuffer-vc), working with lines if the region isn't active (whole-line-or-region), or maximizing certain buffers (full-frame).
-
-  Blog post: http://sachachua.com/blog/?p=27870&shareadraft=baba27870_54bfd5841a433
