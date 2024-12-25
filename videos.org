@@ -403,14 +403,15 @@ This video is available under the terms of the Creative Commons Attribution-Shar
 
 * Q&A: Survival of the skillest: Thriving in the learning jungle  :answers:emacsconf:emacsconf2024:learning:planning:org:gtd:
 :PROPERTIES:
-:DATE: 2024-12-08
+:DATE:     2024-12-23T17:41:14-08:00
 :URL: https://emacsconf.org/2024/talks/learning
 :MEDIA_URL: https://media.emacsconf.org/2024/emacsconf-2024-learning--survival-of-the-skillest-thriving-in-the-learning-jungle--bala-ramadurai--answers.webm
 :YOUTUBE_URL: https://www.youtube.com/watch?v=IbI37PTJWQw
 :TOOBNIX_URL: https://toobnix.org/w/rnG2fEoHDDeNRSQYRRTrwR
 :TRANSCRIPT_URL: https://media.emacsconf.org/2024/emacsconf-2024-learning--survival-of-the-skillest-thriving-in-the-learning-jungle--bala-ramadurai--answers.vtt
-:SPEAKERS: Bala Ramadurai
+:SPEAKERS: EmacsConf and Emacs hangouts
 :SERIES: EmacsConf 2024
+:DURATION: 24:41
 :END:
 * About Blee: enveloping our own autonomy directed digital ecosystem with Emacs  :emacsconf:emacsconf2024:StarterKit:configuration:
 :PROPERTIES:
@@ -1150,14 +1151,15 @@ This video is available under the terms of the Creative Commons Attribution-Shar
 
 * Q&A: An experimental Emacs core in Rust  :answers:emacsconf:emacsconf2024:rust:
 :PROPERTIES:
-:DATE: 2024-12-07
+:DATE:     2024-12-23T17:36:17-08:00
 :URL: https://emacsconf.org/2024/talks/rust
 :MEDIA_URL: https://media.emacsconf.org/2024/emacsconf-2024-rust--an-experimental-emacs-core-in-rust--troy-hinckley--answers.webm
 :YOUTUBE_URL: https://www.youtube.com/watch?v=sBpTP0kJV-g
 :TOOBNIX_URL: https://toobnix.org/w/8n3SZoZGuon4C2tyHhAd2H
 :TRANSCRIPT_URL: https://media.emacsconf.org/2024/emacsconf-2024-rust--an-experimental-emacs-core-in-rust--troy-hinckley--answers.vtt
-:SPEAKERS: Troy Hinckley
+:SPEAKERS: EmacsConf and Emacs hangouts
 :SERIES: EmacsConf 2024
+:DURATION: 19:15
 :END:
 
 Troy Hinckley
@@ -1715,7 +1717,7 @@ https://emacsconf.org/2024/talks/maxima
 You can view this and other resources using free/libre software at https://emacsconf.org/2024/talks/maxima .
 This video is available under the terms of the Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license.
 
-* Emacs Writing Studio  :emacsconf:emacsconf2024:writing:StarterKit:
+* Emacs Writing Studio    :emacsconf:emacsconf2024:writing:StarterKit:denote:org:
 :PROPERTIES:
 :DATE: 2024-12-07
 :URL: https://emacsconf.org/2024/talks/writing
@@ -1806,14 +1808,15 @@ This video is available under the terms of the Creative Commons Attribution-Shar
 
 * Saturday closing remarks  :emacsconf:emacsconf2024:closing:
 :PROPERTIES:
-:DATE: 2024-12-07
+:DATE:     2024-12-07T14:36:28-08:00
 :URL: https://emacsconf.org/2024/talks/sat-close
 :MEDIA_URL: https://media.emacsconf.org/2024/emacsconf-2024-sat-close--saturday-closing-remarks--main.webm
 :YOUTUBE_URL: https://www.youtube.com/live/QwD9F6O9DqE?si=4E2kAKuecw1lFhnD&t=15431
 :TOOBNIX_URL:
 :TRANSCRIPT_URL: https://media.emacsconf.org/2024/emacsconf-2024-sat-close--saturday-closing-remarks--main.vtt
-:SPEAKERS: Phillip Kaludercic, Leo Vivier, Corwin Brust, FlowyCoder
+:SPEAKERS: EmacsConf and Emacs hangouts
 :SERIES: EmacsConf 2024
+:DURATION: 04:46:55
 :END:
 
 * windows emacs picture pathname capture and display hack  :windows:images:
@@ -4160,29 +4163,31 @@ count-words-region
 
 * Top 10 ways Hyperbole amps up Emacs  :emacsconf:emacsconf2023:hyperbole:
 :PROPERTIES:
-:DATE: 2023-12-03
+:DATE:     2023-12-09T09:36:59-08:00
 :URL: https://emacsconf.org/2023/talks/hyperamp
 :MEDIA_URL: https://media.emacsconf.org/2023/emacsconf-2023-hyperamp--top-10-ways-hyperbole-amps-up-emacs--robert-weiner--main.webm
 :YOUTUBE_URL: https://www.youtube.com/watch?v=BysjfL25Nlc
 :TOOBNIX_URL: https://toobnix.org/w/4Cpb89zHKgQjob3gHUs73C
 :TRANSCRIPT_URL: https://media.emacsconf.org/2023/emacsconf-2023-hyperamp--top-10-ways-hyperbole-amps-up-emacs--robert-weiner--main.vtt
-:SPEAKERS: Robert Weiner
+:SPEAKERS: EmacsConf and Emacs hangouts
 :SERIES: EmacsConf 2023
+:DURATION: 01:05:16
 :END:
 * Using Koutline for stream of thought journaling  :emacsconf:emacsconf2023:journaling:
 :PROPERTIES:
-:DATE: 2023-12-03
+:DATE:     2023-12-09T09:31:31-08:00
 :URL: https://emacsconf.org/2023/talks/koutline
 :MEDIA_URL: https://media.emacsconf.org/2023/emacsconf-2023-koutline--using-koutline-for-stream-of-thought-journaling--matthew-jorgensen-plasmastrike--main.webm
 :YOUTUBE_URL: https://www.youtube.com/watch?v=dO-gv898Vmg
 :TOOBNIX_URL: https://toobnix.org/w/vV7qtK176DVE6RLXrZ18Ee
 :TRANSCRIPT_URL: https://media.emacsconf.org/2023/emacsconf-2023-koutline--using-koutline-for-stream-of-thought-journaling--matthew-jorgensen-plasmastrike--main.vtt
-:SPEAKERS: Matthew Jorgensen (PlasmaStrike)
+:SPEAKERS: EmacsConf and Emacs hangouts
 :SERIES: EmacsConf 2023
+:DURATION: 06:44
 :END:
 * Bringing joy to Scheme programming  :emacsconf:emacsconf2023:scheme:coding:
 :PROPERTIES:
-:DATE: 2023-12-03
+:DATE:     2023-12-06T03:45:14-08:00
 :URL: https://emacsconf.org/2023/talks/scheme
 :MEDIA_URL: https://media.emacsconf.org/2023/emacsconf-2023-scheme--bringing-joy-to-scheme-programming--andrew-tropin--main.webm
 :YOUTUBE_URL: https://www.youtube.com/watch?v=F-H3YQywr-4
@@ -4190,120 +4195,131 @@ count-words-region
 :TRANSCRIPT_URL: https://media.emacsconf.org/2023/emacsconf-2023-scheme--bringing-joy-to-scheme-programming--andrew-tropin--main.vtt
 :SPEAKERS: Andrew Tropin
 :SERIES: EmacsConf 2023
+:DURATION: 21:01
 :END:
 * Parallel text replacement  :emacsconf:emacsconf2023:editing:
 :PROPERTIES:
-:DATE: 2023-12-03
+:DATE:     2023-12-09T09:30:28-08:00
 :URL: https://emacsconf.org/2023/talks/parallel
 :MEDIA_URL: https://media.emacsconf.org/2023/emacsconf-2023-parallel--parallel-text-replacement--lovro-valentino-picotti--main.webm
 :YOUTUBE_URL: https://www.youtube.com/watch?v=fUbBIWOJFh4
 :TOOBNIX_URL: https://toobnix.org/w/t3G5zo35epS6HvVot9MdZv
 :TRANSCRIPT_URL: https://media.emacsconf.org/2023/emacsconf-2023-parallel--parallel-text-replacement--lovro-valentino-picotti--main.vtt
-:SPEAKERS: Lovro, Valentino Picotti
+:SPEAKERS: EmacsConf and Emacs hangouts
 :SERIES: EmacsConf 2023
+:DURATION: 14:46
 :END:
 * Eat and Eat powered Eshell, fast featureful terminal inside Emacs  :emacsconf:emacsconf2023:shell:
 :PROPERTIES:
-:DATE: 2023-12-03
+:DATE:     2023-12-09T09:37:29-08:00
 :URL: https://emacsconf.org/2023/talks/eat
 :MEDIA_URL: https://media.emacsconf.org/2023/emacsconf-2023-eat--eat-and-eat-powered-eshell-fast-featureful-terminal-inside-emacs--akib-azmain-turja--main.webm
 :YOUTUBE_URL: https://www.youtube.com/watch?v=KQ5Jt-63G9U
 :TOOBNIX_URL: https://toobnix.org/w/t4pPDtbXiZdHHEyWJVUtNs
 :TRANSCRIPT_URL: https://media.emacsconf.org/2023/emacsconf-2023-eat--eat-and-eat-powered-eshell-fast-featureful-terminal-inside-emacs--akib-azmain-turja--main.vtt
-:SPEAKERS: Akib Azmain Turja
+:SPEAKERS: EmacsConf and Emacs hangouts
 :SERIES: EmacsConf 2023
+:DURATION: 08:13
 :END:
 * GNU Emacs: A World of Possibilities  :emacsconf:emacsconf2023:
 :PROPERTIES:
-:DATE: 2023-12-03
+:DATE:     2023-12-09T09:42:10-08:00
 :URL: https://emacsconf.org/2023/talks/world
 :MEDIA_URL: https://media.emacsconf.org/2023/emacsconf-2023-world--gnu-emacs-a-world-of-possibilities--anand-tamariya--main.webm
 :YOUTUBE_URL: https://www.youtube.com/watch?v=T5yZZK18w5w
 :TOOBNIX_URL: https://toobnix.org/w/jFaSuNYt2FqibtcAvmVdbF
 :TRANSCRIPT_URL: https://media.emacsconf.org/2023/emacsconf-2023-world--gnu-emacs-a-world-of-possibilities--anand-tamariya--main.vtt
-:SPEAKERS: Anand Tamariya
+:SPEAKERS: EmacsConf and Emacs hangouts
 :SERIES: EmacsConf 2023
+:DURATION: 20:31
 :END:
 * The browser in a buffer  :emacsconf:emacsconf2023:morning:web:
 :PROPERTIES:
-:DATE: 2023-12-03
+:DATE:     2023-12-09T09:29:51-08:00
 :URL: https://emacsconf.org/2023/talks/poltys
 :MEDIA_URL: https://media.emacsconf.org/2023/emacsconf-2023-poltys--the-browser-in-a-buffer--michael-bauer--main.webm
 :YOUTUBE_URL: https://www.youtube.com/watch?v=mp6gaVjmKIU
 :TOOBNIX_URL: https://toobnix.org/w/1quXfJqC9bh9VxkA9UC21x
 :TRANSCRIPT_URL: https://media.emacsconf.org/2023/emacsconf-2023-poltys--the-browser-in-a-buffer--michael-bauer--main.vtt
-:SPEAKERS: Michael Bauer
+:SPEAKERS: EmacsConf and Emacs hangouts
 :SERIES: EmacsConf 2023
+:DURATION: 34:30
 :END:
 * A modern Emacs look-and-feel without pain  :emacsconf:emacsconf2023:live:theming:
 :PROPERTIES:
-:DATE: 2023-12-03
+:DATE:     2023-12-09T12:24:58-08:00
 :URL: https://emacsconf.org/2023/talks/flat
 :MEDIA_URL: https://media.emacsconf.org/2023/emacsconf-2023-flat--a-modern-emacs-lookandfeel-without-pain--pedro-a-aranda--main.webm
 :YOUTUBE_URL: https://www.youtube.com/watch?v=E1u6DcHis9M
 :TOOBNIX_URL: https://toobnix.org/w/1DRDY8vZK3SW5M8zAPJQSp
 :TRANSCRIPT_URL: https://media.emacsconf.org/2023/emacsconf-2023-flat--a-modern-emacs-lookandfeel-without-pain--pedro-a-aranda--main.vtt
-:SPEAKERS: Pedro A. Aranda
+:SPEAKERS: EmacsConf and Emacs hangouts
 :SERIES: EmacsConf 2023
+:DURATION: 22:20
 :END:
 * Speedcubing in Emacs  :emacsconf:emacsconf2023:fun:
 :PROPERTIES:
-:DATE: 2023-12-03
+:DATE:     2023-12-09T09:38:04-08:00
 :URL: https://emacsconf.org/2023/talks/cubing
 :MEDIA_URL: https://media.emacsconf.org/2023/emacsconf-2023-cubing--speedcubing-in-emacs--vasilij-wasamasa-schneidermann--main.webm
 :YOUTUBE_URL: https://www.youtube.com/watch?v=Q5HPmyaiu4g
 :TOOBNIX_URL: https://toobnix.org/w/2DYX2o8kB1Rv8Mqaj7H1Dx
 :TRANSCRIPT_URL: https://media.emacsconf.org/2023/emacsconf-2023-cubing--speedcubing-in-emacs--vasilij-wasamasa-schneidermann--main.vtt
-:SPEAKERS: wasamasa
+:SPEAKERS: EmacsConf and Emacs hangouts
 :SERIES: EmacsConf 2023
+:DURATION: 13:35
 :END:
 * The Emacsen family, the design of an Emacs and the importance of Lisp  :emacsconf:emacsconf2023:elisp:
 :PROPERTIES:
-:DATE: 2023-12-03
+:DATE:     2023-12-09T10:15:45-08:00
 :URL: https://emacsconf.org/2023/talks/emacsen
 :MEDIA_URL: https://media.emacsconf.org/2023/emacsconf-2023-emacsen--the-emacsen-family-the-design-of-an-emacs-and-the-importance-of-lisp--fermin--main.webm
 :YOUTUBE_URL: https://www.youtube.com/watch?v=7SGcLpjC5CE
 :TOOBNIX_URL: https://toobnix.org/w/qgJ84RLV2FZYyeSusDskwU
 :TRANSCRIPT_URL: https://media.emacsconf.org/2023/emacsconf-2023-emacsen--the-emacsen-family-the-design-of-an-emacs-and-the-importance-of-lisp--fermin--main.vtt
-:SPEAKERS: Fermin
+:SPEAKERS: EmacsConf and Emacs hangouts
 :SERIES: EmacsConf 2023
+:DURATION: 18:28
 :END:
 * Emacs MultiMedia System (EMMS)  :emacsconf:emacsconf2023:multimedia:
 :PROPERTIES:
-:DATE: 2023-12-03
+:DATE:     2023-12-09T10:09:04-08:00
 :URL: https://emacsconf.org/2023/talks/emms
 :MEDIA_URL: https://media.emacsconf.org/2023/emacsconf-2023-emms--emacs-multimedia-system-emms--yoni-rabkin--main.webm
 :YOUTUBE_URL: https://www.youtube.com/watch?v=kII413hkyis
 :TOOBNIX_URL: https://toobnix.org/w/ppdF62LysvxpXgZVaeF9wk
 :TRANSCRIPT_URL: https://media.emacsconf.org/2023/emacsconf-2023-emms--emacs-multimedia-system-emms--yoni-rabkin--main.vtt
-:SPEAKERS: Yoni Rabkin
+:SPEAKERS: EmacsConf and Emacs hangouts
 :SERIES: EmacsConf 2023
+:DURATION: 38:38
 :END:
 * emacs-gc-stats: Does garbage collection actually slow down Emacs?  :emacsconf:emacsconf2023:dev:EmacsDevel:
 :PROPERTIES:
-:DATE: 2023-12-03
+:DATE:     2023-12-09T10:12:19-08:00
 :URL: https://emacsconf.org/2023/talks/gc
 :MEDIA_URL: https://media.emacsconf.org/2023/emacsconf-2023-gc--emacsgcstats-does-garbage-collection-actually-slow-down-emacs--ihor-radchenko--main.webm
 :YOUTUBE_URL: https://www.youtube.com/watch?v=YA1RJxH4xfQ
 :TOOBNIX_URL: https://toobnix.org/w/ngenUPBLDDkZGmsxK8vimJ
 :TRANSCRIPT_URL: https://media.emacsconf.org/2023/emacsconf-2023-gc--emacsgcstats-does-garbage-collection-actually-slow-down-emacs--ihor-radchenko--main.vtt
-:SPEAKERS: Ihor Radchenko
+:SPEAKERS: EmacsConf and Emacs hangouts
 :SERIES: EmacsConf 2023
+:DURATION: 33:22
 :END:
 * hyperdrive.el: Peer-to-peer filesystem in Emacs  :emacsconf:emacsconf2023:hyperdrive:
 :PROPERTIES:
-:DATE: 2023-12-03
+:DATE:     2023-12-23T05:35:54-08:00
 :URL: https://emacsconf.org/2023/talks/hyperdrive
 :MEDIA_URL: https://media.emacsconf.org/2023/emacsconf-2023-hyperdrive--hyperdriveel-peertopeer-filesystem-in-emacs--joseph-turner--main.webm
 :YOUTUBE_URL: https://www.youtube.com/watch?v=OOA9rs5qteU
 :TOOBNIX_URL: https://toobnix.org/w/9wLA55XACiGnS3nNBNwsV5
 :TRANSCRIPT_URL: https://media.emacsconf.org/2023/emacsconf-2023-hyperdrive--hyperdriveel-peertopeer-filesystem-in-emacs--joseph-turner--main.vtt
-:SPEAKERS: Joseph Turner and Protesilaos Stavrou
+:SPEAKERS: Protesilaos Stavrou
 :SERIES: EmacsConf 2023
+:DURATION: 40:01
 :END:
 * Programming with steno  :emacsconf:emacsconf2023:input:
 :PROPERTIES:
-:DATE: 2023-12-03
+:DATE:     2023-12-03T15:41:19-08:00
 :URL: https://emacsconf.org/2023/talks/steno
 :MEDIA_URL: https://media.emacsconf.org/2023/emacsconf-2023-steno--programming-with-steno--daniel-alejandro-tapia--main.webm
 :YOUTUBE_URL: https://www.youtube.com/watch?v=McHurKmk-rQ
@@ -4311,164 +4327,179 @@ count-words-region
 :TRANSCRIPT_URL: https://media.emacsconf.org/2023/emacsconf-2023-steno--programming-with-steno--daniel-alejandro-tapia--main.vtt
 :SPEAKERS: Daniel Alejandro Tapia
 :SERIES: EmacsConf 2023
+:DURATION: 24:21
 :END:
 * Mentoring VS-Coders as an Emacsian (or How to show not tell people about the wonders of Emacs)  :emacsconf:emacsconf2023:mentoring:community:
 :PROPERTIES:
-:DATE: 2023-12-03
+:DATE:     2023-12-09T10:14:25-08:00
 :URL: https://emacsconf.org/2023/talks/mentor
 :MEDIA_URL: https://media.emacsconf.org/2023/emacsconf-2023-mentor--mentoring-vscoders-as-an-emacsian-or-how-to-show-not-tell-people-about-the-wonders-of-emacs--jeremy-friesen--main.webm
 :YOUTUBE_URL: https://www.youtube.com/watch?v=44rt1f1llhQ
 :TOOBNIX_URL: https://toobnix.org/w/sV9eKtGiPYZi5urxjoqerv
 :TRANSCRIPT_URL: https://media.emacsconf.org/2023/emacsconf-2023-mentor--mentoring-vscoders-as-an-emacsian-or-how-to-show-not-tell-people-about-the-wonders-of-emacs--jeremy-friesen--main.vtt
-:SPEAKERS: Jeremy Friesen
+:SPEAKERS: EmacsConf and Emacs hangouts
 :SERIES: EmacsConf 2023
+:DURATION: 10:44
 :END:
 * Writing a language server in OCaml for Emacs, fun, and profit  :emacsconf:emacsconf2023:dev:ocaml:
 :PROPERTIES:
-:DATE: 2023-12-03
+:DATE:     2023-12-09T10:13:38-08:00
 :URL: https://emacsconf.org/2023/talks/lspocaml
 :MEDIA_URL: https://media.emacsconf.org/2023/emacsconf-2023-lspocaml--writing-a-language-server-in-ocaml-for-emacs-fun-and-profit--austin-theriault--main.webm
 :YOUTUBE_URL: https://www.youtube.com/watch?v=VhUIS55UbQs
 :TOOBNIX_URL: https://toobnix.org/w/jgMzmGyx4H1YDwc5n1eRZu
 :TRANSCRIPT_URL: https://media.emacsconf.org/2023/emacsconf-2023-lspocaml--writing-a-language-server-in-ocaml-for-emacs-fun-and-profit--austin-theriault--main.vtt
-:SPEAKERS: Austin Theriault
+:SPEAKERS: EmacsConf and Emacs hangouts
 :SERIES: EmacsConf 2023
+:DURATION: 16:04
 :END:
 * Emacs saves the Web (maybe)  :emacsconf:emacsconf2023:web:
 :PROPERTIES:
-:DATE: 2023-12-03
+:DATE:     2023-12-09T09:47:00-08:00
 :URL: https://emacsconf.org/2023/talks/web
 :MEDIA_URL: https://media.emacsconf.org/2023/emacsconf-2023-web--emacs-saves-the-web-maybe--yuchen-pei--main.webm
 :YOUTUBE_URL: https://www.youtube.com/watch?v=kqOZwsylo48
 :TOOBNIX_URL: https://toobnix.org/w/fvzGU4cQQ2meZVKNGEHMht
 :TRANSCRIPT_URL: https://media.emacsconf.org/2023/emacsconf-2023-web--emacs-saves-the-web-maybe--yuchen-pei--main.vtt
-:SPEAKERS: Yuchen Pei
+:SPEAKERS: EmacsConf and Emacs hangouts
 :SERIES: EmacsConf 2023
+:DURATION: 31:33
 :END:
 * What I learned by writing test cases for GNU Hyperbole  :emacsconf:emacsconf2023:hyperbole:
 :PROPERTIES:
-:DATE: 2023-12-03
+:DATE:     2023-12-09T09:45:20-08:00
 :URL: https://emacsconf.org/2023/talks/test
 :MEDIA_URL: https://media.emacsconf.org/2023/emacsconf-2023-test--what-i-learned-by-writing-test-cases-for-gnu-hyperbole--mats-lidell--main.webm
 :YOUTUBE_URL: https://www.youtube.com/watch?v=maNQSKxXIzI
 :TOOBNIX_URL: https://toobnix.org/w/4XmcGSe3TQrJJNUqQXqK2B
 :TRANSCRIPT_URL: https://media.emacsconf.org/2023/emacsconf-2023-test--what-i-learned-by-writing-test-cases-for-gnu-hyperbole--mats-lidell--main.vtt
-:SPEAKERS: Mats Lidell
+:SPEAKERS: EmacsConf and Emacs hangouts
 :SERIES: EmacsConf 2023
+:DURATION: 26:55
 :END:
 * Sharing Emacs is Caring Emacs: Emacs education and why I embraced video  :emacsconf:emacsconf2023:sharing:
 :PROPERTIES:
-:DATE: 2023-12-03
+:DATE:     2023-12-20T20:41:50-08:00
 :URL: https://emacsconf.org/2023/talks/sharing
 :MEDIA_URL: https://media.emacsconf.org/2023/emacsconf-2023-sharing--sharing-emacs-is-caring-emacs-emacs-education-and-why-i-embraced-video--jacob-boxerman--main.webm
 :YOUTUBE_URL: https://youtu.be/L897BU3BT6g
 :TOOBNIX_URL: https://toobnix.org/w/3b5XfkceUaRjJuN5Pumgee
 :TRANSCRIPT_URL: https://media.emacsconf.org/2023/emacsconf-2023-sharing--sharing-emacs-is-caring-emacs-emacs-education-and-why-i-embraced-video--jacob-boxerman--main.vtt
-:SPEAKERS: Jacob Boxerman
+:SPEAKERS: Jake B
 :SERIES: EmacsConf 2023
+:DURATION: 41:56
 :END:
 * EmacsConf.org: How we use Org Mode and TRAMP to organize and run a multi-track conference :emacsconf:emacsconf2023:org:tramp:
 :PROPERTIES:
-:DATE: 2023-12-03
+:DATE:     2023-12-09T09:17:47-08:00
 :URL: https://emacsconf.org/2023/talks/emacsconf
 :MEDIA_URL: https://media.emacsconf.org/2023/emacsconf-2023-emacsconf--emacsconforg-how-we-use-org-mode-and-tramp-to-organize-and-run-a-multitrack-conference--sacha-chua--main.webm
 :YOUTUBE_URL: https://www.youtube.com/watch?v=uTregv3rNl0
 :TOOBNIX_URL: https://toobnix.org/w/eX2dXG3xMtUHuuBz4fssGT
 :TRANSCRIPT_URL: https://media.emacsconf.org/2023/emacsconf-2023-emacsconf--emacsconforg-how-we-use-org-mode-and-tramp-to-organize-and-run-a-multitrack-conference--sacha-chua--main.vtt
-:SPEAKERS: Sacha Chua
+:SPEAKERS: EmacsConf and Emacs hangouts
 :SERIES: EmacsConf 2023
+:DURATION: 15:05
 :END:
 * EmacsConf 2023 Sunday closing remarks             :emacsconf:emacsconf2023:
 :PROPERTIES:
-:DATE: 2023-12-03
+:DATE:     2023-12-09T10:08:46-08:00
 :URL: https://emacsconf.org/2023/talks/sun-close
 :MEDIA_URL: https://media.emacsconf.org/2023/emacsconf-2023-sun-close--sunday-closing-remarks--main.webm
 :YOUTUBE_URL: https://www.youtube.com/watch?v=qqvelKB5v0c
 :TOOBNIX_URL: https://toobnix.org/w/p/nMXCCJ25wxKUtbuQiwkakA
 :TRANSCRIPT_URL: https://media.emacsconf.org/2023/emacsconf-2023-sun-close--sunday-closing-remarks--main.vtt
-:SPEAKERS:
+:SPEAKERS: EmacsConf and Emacs hangouts
 :SERIES: EmacsConf 2023
+:DURATION: 02:00:43
 :END:
 * An Org-Mode based text adventure game for learning the basics of Emacs, inside Emacs, written in Emacs Lisp  :emacsconf:emacsconf2023:fun:learning:org:
 :PROPERTIES:
-:DATE: 2023-12-02
+:DATE:     2023-12-09T12:27:49-08:00
 :URL: https://emacsconf.org/2023/talks/adventure
 :MEDIA_URL: https://media.emacsconf.org/2023/emacsconf-2023-adventure--an-orgmode-based-text-adventure-game-for-learning-the-basics-of-emacs-inside-emacs-written-in-emacs-lisp--chunghong-chan--main.webm
 :YOUTUBE_URL: https://youtu.be/7R0yA0R1jsk
 :TOOBNIX_URL: https://toobnix.org/w/2oqbPJB8Wm3QSo4HCKAyVn
 :TRANSCRIPT_URL: https://media.emacsconf.org/2023/emacsconf-2023-adventure--an-orgmode-based-text-adventure-game-for-learning-the-basics-of-emacs-inside-emacs-written-in-emacs-lisp--chunghong-chan--main.vtt
-:SPEAKERS: Chung-hong Chan
+:SPEAKERS: EmacsConf and Emacs hangouts
 :SERIES: EmacsConf 2023
+:DURATION: 05:58
 :END:
 * Authoring and presenting university courses with Emacs and a full libre software stack  :emacsconf:emacsconf2023:teaching:org:latex:beamer:
 :PROPERTIES:
-:DATE: 2023-12-02
+:DATE:     2023-12-09T09:40:28-08:00
 :URL: https://emacsconf.org/2023/talks/uni
 :MEDIA_URL: https://media.emacsconf.org/2023/emacsconf-2023-uni--authoring-and-presenting-university-courses-with-emacs-and-a-full-libre-software-stack--james-howell--main.webm
 :YOUTUBE_URL: https://www.youtube.com/watch?v=cklJ58i-HUY
 :TOOBNIX_URL: https://toobnix.org/w/mAnNW7jnPq5qhUPH2dzVQf
 :TRANSCRIPT_URL: https://media.emacsconf.org/2023/emacsconf-2023-uni--authoring-and-presenting-university-courses-with-emacs-and-a-full-libre-software-stack--james-howell--main.vtt
-:SPEAKERS: James Howell
+:SPEAKERS: EmacsConf and Emacs hangouts
 :SERIES: EmacsConf 2023
+:DURATION: 20:53
 :END:
 * MatplotLLM, iterative natural language data visualization in org-babel  :emacsconf:emacsconf2023:math:ai:org:OrgBabel:
 :PROPERTIES:
-:DATE: 2023-12-02
+:DATE:     2023-12-09T09:16:19-08:00
 :URL: https://emacsconf.org/2023/talks/matplotllm
 :MEDIA_URL: https://media.emacsconf.org/2023/emacsconf-2023-matplotllm--matplotllm-iterative-natural-language-data-visualization-in-orgbabel--abhinav-tushar--main.webm
 :YOUTUBE_URL: https://youtu.be/LhhFA5i_Os4
 :TOOBNIX_URL: https://toobnix.org/w/7bwq1vAqYzY24iEMYAdcB1
 :TRANSCRIPT_URL: https://media.emacsconf.org/2023/emacsconf-2023-matplotllm--matplotllm-iterative-natural-language-data-visualization-in-orgbabel--abhinav-tushar--main.vtt
-:SPEAKERS: Abhinav Tushar
+:SPEAKERS: EmacsConf and Emacs hangouts
 :SERIES: EmacsConf 2023
+:DURATION: 09:34
 :END:
 * Teaching computer and data science with literate programming tools  :emacsconf:emacsconf2023:org:teaching:literate:
 :PROPERTIES:
-:DATE: 2023-12-02
+:DATE:     2023-12-09T09:16:19-08:00
 :URL: https://emacsconf.org/2023/talks/teaching
 :MEDIA_URL: https://media.emacsconf.org/2023/emacsconf-2023-teaching--teaching-computer-and-data-science-with-literate-programming-tools--marcus-birkenkrahe--main.webm
 :YOUTUBE_URL: https://youtu.be/U15zUNBz2CU
 :TOOBNIX_URL: https://toobnix.org/w/b4eLjcLo9vcewVTzrv95L8
 :TRANSCRIPT_URL: https://media.emacsconf.org/2023/emacsconf-2023-teaching--teaching-computer-and-data-science-with-literate-programming-tools--marcus-birkenkrahe--main.vtt
-:SPEAKERS: Marcus Birkenkrahe
+:SPEAKERS: EmacsConf and Emacs hangouts
 :SERIES: EmacsConf 2023
+:DURATION: 19:27
 :END:
 * Enhancing productivity with voice computing  :emacsconf:emacsconf2023:voice:
 :PROPERTIES:
-:DATE: 2023-12-02
+:DATE:     2023-12-09T09:20:30-08:00
 :URL: https://emacsconf.org/2023/talks/voice
 :MEDIA_URL: https://media.emacsconf.org/2023/emacsconf-2023-voice--enhancing-productivity-with-voice-computing--blaine-mooers--main.webm
 :YOUTUBE_URL: https://www.youtube.com/watch?v=Z7l1ImjXOWM
 :TOOBNIX_URL: https://toobnix.org/w/vYHj7iSYhUbTxDv93NvzzY
 :TRANSCRIPT_URL: https://media.emacsconf.org/2023/emacsconf-2023-voice--enhancing-productivity-with-voice-computing--blaine-mooers--main.vtt
-:SPEAKERS: Blaine Mooers
+:SPEAKERS: EmacsConf and Emacs hangouts
 :SERIES: EmacsConf 2023
+:DURATION: 18:49
 :END:
 * Who needs Excel? Managing your students qualifications with org-table  :emacsconf:emacsconf2023:teaching:org:tables:
 :PROPERTIES:
-:DATE: 2023-12-02
+:DATE:     2023-12-09T18:13:49-08:00
 :URL: https://emacsconf.org/2023/talks/table
 :MEDIA_URL: https://media.emacsconf.org/2023/emacsconf-2023-table--who-needs-excel-managing-your-students-qualifications-with-orgtable--daniel-molina--main.webm
 :YOUTUBE_URL: https://www.youtube.com/watch?v=UzDqOrFGWbw
 :TOOBNIX_URL: https://toobnix.org/w/p8K8mtayv2HYtw1gK3zUwR
 :TRANSCRIPT_URL: https://media.emacsconf.org/2023/emacsconf-2023-table--who-needs-excel-managing-your-students-qualifications-with-orgtable--daniel-molina--main.vtt
-:SPEAKERS: Daniel Molina
+:SPEAKERS: EmacsConf and Emacs hangouts
 :SERIES: EmacsConf 2023
+:DURATION: 15:51
 :END:
 * LLM clients in Emacs, functionality and standardization  :emacsconf:emacsconf2023:ai:
 :PROPERTIES:
-:DATE: 2023-12-02
+:DATE:     2023-12-09T10:12:58-08:00
 :URL: https://emacsconf.org/2023/talks/llm
 :MEDIA_URL: https://media.emacsconf.org/2023/emacsconf-2023-llm--llm-clients-in-emacs-functionality-and-standardization--andrew-hyatt--main.webm
 :YOUTUBE_URL: https://www.youtube.com/watch?v=HN3Y75D4tEs
 :TOOBNIX_URL: https://toobnix.org/w/ck1LWXvRiAGNLWFA8s4Ymi
 :TRANSCRIPT_URL: https://media.emacsconf.org/2023/emacsconf-2023-llm--llm-clients-in-emacs-functionality-and-standardization--andrew-hyatt--main.vtt
-:SPEAKERS: Andrew Hyatt
+:SPEAKERS: EmacsConf and Emacs hangouts
 :SERIES: EmacsConf 2023
+:DURATION: 20:26
 :END:
 * one.el: the static site generator for Emacs Lisp Programmers  :emacsconf:emacsconf2023:org:sharing:
 :PROPERTIES:
-:DATE: 2023-12-02
+:DATE:     2023-12-05T06:14:11-08:00
 :URL: https://emacsconf.org/2023/talks/one
 :MEDIA_URL: https://media.emacsconf.org/2023/emacsconf-2023-one--oneel-the-static-site-generator-for-emacs-lisp-programmers--tony-aldon--main.webm
 :YOUTUBE_URL: https://www.youtube.com/watch?v=GGP2mxZn4mY
@@ -4476,76 +4507,83 @@ count-words-region
 :TRANSCRIPT_URL: https://media.emacsconf.org/2023/emacsconf-2023-one--oneel-the-static-site-generator-for-emacs-lisp-programmers--tony-aldon--main.vtt
 :SPEAKERS: Tony Aldon
 :SERIES: EmacsConf 2023
+:DURATION: 22:18
 :END:
 * Emacs turbo-charges my writing  :emacsconf:emacsconf2023:writing:
 :PROPERTIES:
-:DATE: 2023-12-02
+:DATE:     2023-12-09T10:02:54-08:00
 :URL: https://emacsconf.org/2023/talks/writing
 :MEDIA_URL: https://media.emacsconf.org/2023/emacsconf-2023-writing--emacs-turbocharges-my-writing--jeremy-friesen--main.webm
 :YOUTUBE_URL: https://www.youtube.com/watch?v=HxlEK6W7RyA
 :TOOBNIX_URL: https://toobnix.org/w/ke3UCJaJSLyQr7Emv8VxST
 :TRANSCRIPT_URL: https://media.emacsconf.org/2023/emacsconf-2023-writing--emacs-turbocharges-my-writing--jeremy-friesen--main.vtt
-:SPEAKERS: Jeremy Friesen
+:SPEAKERS: EmacsConf and Emacs hangouts
 :SERIES: EmacsConf 2023
+:DURATION: 08:53
 :END:
 * Improving compiler diagnostics with overlays  :emacsconf:emacsconf2023:coding:appearance:elisp:
 :PROPERTIES:
-:DATE: 2023-12-02
+:DATE:     2023-12-09T10:15:35-08:00
 :URL: https://emacsconf.org/2023/talks/overlay
 :MEDIA_URL: https://media.emacsconf.org/2023/emacsconf-2023-overlay--improving-compiler-diagnostics-with-overlays--jeff-trull--main.webm
 :YOUTUBE_URL: https://www.youtube.com/watch?v=g7mwN5QtcmA
 :TOOBNIX_URL: https://toobnix.org/w/5fJkawU4R9b1dJq5BcDykx
 :TRANSCRIPT_URL: https://media.emacsconf.org/2023/emacsconf-2023-overlay--improving-compiler-diagnostics-with-overlays--jeff-trull--main.vtt
-:SPEAKERS: Jeff Trull
+:SPEAKERS: EmacsConf and Emacs hangouts
 :SERIES: EmacsConf 2023
+:DURATION: 20:57
 :END:
 * Why Nabokov would use Org-Mode if he were writing today  :emacsconf:emacsconf2023:writing:org:
 :PROPERTIES:
-:DATE: 2023-12-02
+:DATE:     2023-12-09T10:15:10-08:00
 :URL: https://emacsconf.org/2023/talks/nabokov
 :MEDIA_URL: https://media.emacsconf.org/2023/emacsconf-2023-nabokov--why-nabokov-would-use-orgmode-if-he-were-writing-today--edmund-jorgensen--main.webm
 :YOUTUBE_URL: https://www.youtube.com/watch?v=-E_uNxwL2_I
 :TOOBNIX_URL: https://toobnix.org/w/bDou9TDETryMt18KcdB56A
 :TRANSCRIPT_URL: https://media.emacsconf.org/2023/emacsconf-2023-nabokov--why-nabokov-would-use-orgmode-if-he-were-writing-today--edmund-jorgensen--main.vtt
-:SPEAKERS: Edmund Jorgensen
+:SPEAKERS: EmacsConf and Emacs hangouts
 :SERIES: EmacsConf 2023
+:DURATION: 09:51
 :END:
 * Editor Integrated REPL Driven Development for all languages  :emacsconf:emacsconf2023:coding:repl:
 :PROPERTIES:
-:DATE: 2023-12-02
+:DATE:     2023-12-09T10:09:52-08:00
 :URL: https://emacsconf.org/2023/talks/eval
 :MEDIA_URL: https://media.emacsconf.org/2023/emacsconf-2023-eval--editor-integrated-repl-driven-development-for-all-languages--musa-alhassy--main.webm
 :YOUTUBE_URL: https://www.youtube.com/watch?v=1bk0pqpMCfQ
 :TOOBNIX_URL: https://toobnix.org/w/74srjNx1cgMr5MsJ9NWNNi
 :TRANSCRIPT_URL: https://media.emacsconf.org/2023/emacsconf-2023-eval--editor-integrated-repl-driven-development-for-all-languages--musa-alhassy--main.vtt
-:SPEAKERS: Musa Al-hassy
+:SPEAKERS: EmacsConf and Emacs hangouts
 :SERIES: EmacsConf 2023
+:DURATION: 09:35
 :END:
 * Collaborative data processing and documenting using org-babel  :emacsconf:emacsconf2023:org:OrgBabel:collaboration:literate:
 :PROPERTIES:
-:DATE: 2023-12-02
+:DATE:     2023-12-09T10:15:55-08:00
 :URL: https://emacsconf.org/2023/talks/collab
 :MEDIA_URL: https://media.emacsconf.org/2023/emacsconf-2023-collab--collaborative-data-processing-and-documenting-using-orgbabel--jonathan-hartman-lukas-c-bossert--main.webm
 :YOUTUBE_URL: https://www.youtube.com/watch?v=fz7-Kd83IjM
 :TOOBNIX_URL: https://toobnix.org/w/7AAwoawr5MXNSrqiHJQoak
 :TRANSCRIPT_URL: https://media.emacsconf.org/2023/emacsconf-2023-collab--collaborative-data-processing-and-documenting-using-orgbabel--jonathan-hartman-lukas-c-bossert--main.vtt
-:SPEAKERS: Jonathan Hartman, Lukas C. Bossert
+:SPEAKERS: EmacsConf and Emacs hangouts
 :SERIES: EmacsConf 2023
+:DURATION: 19:16
 :END:
 * REPLs in strange places: Lua, LaTeX, LPeg, LPegRex, TikZ  :emacsconf:emacsconf2023:repl:coding:
 :PROPERTIES:
-:DATE: 2023-12-02
+:DATE:     2023-12-09T09:19:56-08:00
 :URL: https://emacsconf.org/2023/talks/repl
 :MEDIA_URL: https://media.emacsconf.org/2023/emacsconf-2023-repl--repls-in-strange-places-lua-latex-lpeg-lpegrex-tikz--eduardo-ochs--main.webm
 :YOUTUBE_URL: https://www.youtube.com/watch?v=lGjfzfC1CH0
 :TOOBNIX_URL: https://toobnix.org/w/oAjqkLNfo9B63EE1G6cJJV
 :TRANSCRIPT_URL: https://media.emacsconf.org/2023/emacsconf-2023-repl--repls-in-strange-places-lua-latex-lpeg-lpegrex-tikz--eduardo-ochs--main.vtt
-:SPEAKERS: Eduardo Ochs
+:SPEAKERS: EmacsConf and Emacs hangouts
 :SERIES: EmacsConf 2023
+:DURATION: 59:11
 :END:
 * How I play TTRPGs in Emacs  :emacsconf:emacsconf2023:fun:org:games:rpg:
 :PROPERTIES:
-:DATE: 2023-12-02
+:DATE:     2023-12-02T12:07:47-08:00
 :URL: https://emacsconf.org/2023/talks/solo
 :MEDIA_URL: https://media.emacsconf.org/2023/emacsconf-2023-solo--how-i-play-ttrpgs-in-emacs--howard-abrams--main.webm
 :YOUTUBE_URL: https://www.youtube.com/watch?v=KUMkj9HWiEY
@@ -4553,71 +4591,77 @@ count-words-region
 :TRANSCRIPT_URL: https://media.emacsconf.org/2023/emacsconf-2023-solo--how-i-play-ttrpgs-in-emacs--howard-abrams--main.vtt
 :SPEAKERS: Howard Abrams
 :SERIES: EmacsConf 2023
+:DURATION: 14:36
 :END:
 * Org-Mode workflow: informal reference tracking  :emacsconf:emacsconf2023:org:workflow:research:
 :PROPERTIES:
-:DATE: 2023-12-02
+:DATE:     2023-12-09T09:40:08-08:00
 :URL: https://emacsconf.org/2023/talks/ref
 :MEDIA_URL: https://media.emacsconf.org/2023/emacsconf-2023-ref--orgmode-workflow-informal-reference-tracking--christopher-howard--main.webm
 :YOUTUBE_URL: https://www.youtube.com/watch?v=qx1yeJ1Exrw
 :TOOBNIX_URL: https://toobnix.org/w/cYpEatASFWXLzDfKH4Fhec
 :TRANSCRIPT_URL: https://media.emacsconf.org/2023/emacsconf-2023-ref--orgmode-workflow-informal-reference-tracking--christopher-howard--main.vtt
-:SPEAKERS: Christopher Howard
+:SPEAKERS: EmacsConf and Emacs hangouts
 :SERIES: EmacsConf 2023
+:DURATION: 15:04
 :END:
 * Literate Documentation with Emacs and Org Mode :emacsconf:emacsconf2023:literate:org:
 :PROPERTIES:
-:DATE: 2023-12-02
+:DATE:     2023-12-10T17:33:27-08:00
 :URL: https://emacsconf.org/2023/talks/doc
 :MEDIA_URL: https://media.emacsconf.org/2023/emacsconf-2023-doc--literate-documentation-with-emacs-and-org-mode--mike-hamrick--main.webm
 :YOUTUBE_URL: https://www.youtube.com/watch?v=BAFZ-vTnfSo
 :TOOBNIX_URL: https://toobnix.org/w/8ak16Qy1tjeFEqmcnan6MQ
 :TRANSCRIPT_URL: https://media.emacsconf.org/2023/emacsconf-2023-doc--literate-documentation-with-emacs-and-org-mode--mike-hamrick--main.vtt
-:SPEAKERS: Mike Hamrick
+:SPEAKERS: spudlyo
 :SERIES: EmacsConf 2023
+:DURATION: 42:45
 :END:
 * (Un)entangling projects and repos  :emacsconf:emacsconf2023:org:projectile:OrgRoam:
 :PROPERTIES:
-:DATE: 2023-12-02
+:DATE:     2023-12-09T09:38:52-08:00
 :URL: https://emacsconf.org/2023/talks/unentangling
 :MEDIA_URL: https://media.emacsconf.org/2023/emacsconf-2023-unentangling--unentangling-projects-and-repos--alexey-bochkarev--main.webm
 :YOUTUBE_URL: https://www.youtube.com/watch?v=o9j4IwJsvPI
 :TOOBNIX_URL: https://toobnix.org/w/wLxyZBoFAad575Lp4PGyoF
 :TRANSCRIPT_URL: https://media.emacsconf.org/2023/emacsconf-2023-unentangling--unentangling-projects-and-repos--alexey-bochkarev--main.vtt
-:SPEAKERS: Alexey Bochkarev
+:SPEAKERS: EmacsConf and Emacs hangouts
 :SERIES: EmacsConf 2023
+:DURATION: 12:39
 :END:
 * Emacs development updates  :emacsconf:emacsconf2023:EmacsDevel:
 :PROPERTIES:
-:DATE: 2023-12-02
+:DATE:     2023-12-09T09:39:53-08:00
 :URL: https://emacsconf.org/2023/talks/devel
 :MEDIA_URL: https://media.emacsconf.org/2023/emacsconf-2023-devel--emacs-development-updates--john-wiegley--main.webm
 :YOUTUBE_URL: https://www.youtube.com/watch?v=SPSoRZVJUf8
 :TOOBNIX_URL: https://toobnix.org/w/57HSebb9a9JZynh2B3ehze
 :TRANSCRIPT_URL: https://media.emacsconf.org/2023/emacsconf-2023-devel--emacs-development-updates--john-wiegley--main.vtt
-:SPEAKERS: John Wiegley
+:SPEAKERS: EmacsConf and Emacs hangouts
 :SERIES: EmacsConf 2023
+:DURATION: 23:12
 :END:
 * Windows into Freedom  :emacsconf:emacsconf2023:windows:
 :PROPERTIES:
-:DATE: 2023-12-02
+:DATE:     2023-12-09T09:19:38-08:00
 :URL: https://emacsconf.org/2023/talks/windows
 :MEDIA_URL: https://media.emacsconf.org/2023/emacsconf-2023-windows--windows-into-freedom--corwin-brust--main.webm
 :YOUTUBE_URL: https://www.youtube.com/watch?v=7aVgVd2_HTs
 :TOOBNIX_URL: https://toobnix.org/w/4DeRkvJyKFdCBLWnHtsZW2
 :TRANSCRIPT_URL: https://media.emacsconf.org/2023/emacsconf-2023-windows--windows-into-freedom--corwin-brust--main.vtt
-:SPEAKERS: Corwin Brust
+:SPEAKERS: EmacsConf and Emacs hangouts
 :SERIES: EmacsConf 2023
+:DURATION: 57:48
 :END:
 * Emacs core development: how it works  :emacsconf:emacsconf2023:EmacsDevel:core:
 :PROPERTIES:
-:DATE: 2023-12-02
+:DATE:
 :URL: https://emacsconf.org/2023/talks/core
 :MEDIA_URL: https://media.emacsconf.org/2023/emacsconf-2023-core--emacs-core-development-how-it-works--stefan-kangas--main.webm
 :YOUTUBE_URL: https://www.youtube.com/watch?v=2izQJiuL0vA
 :TOOBNIX_URL: https://toobnix.org/w/m4XmrmE9Geat54AKT1RQaH
 :TRANSCRIPT_URL: https://media.emacsconf.org/2023/emacsconf-2023-core--emacs-core-development-how-it-works--stefan-kangas--main.vtt
-:SPEAKERS: Stefan Kangas
+:SPEAKERS:
 :SERIES: EmacsConf 2023
 :END:
 * EmacsConf 2023 Saturday closing remarks           :emacsconf:emacsconf2023:
@@ -6826,7 +6870,7 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
 :END:
   So it's time to examine if Emacs (and org mode) are really worth the trouble of learning? They're really not so difficult when you really get down to it.  But, why bother, if you can do what you need in other programs.  In this video, I'm taking a look at some things org mode can do that (as far as I've seen) you can't do anywhere else.
 
-* Joe Burnett -- My command-line work process (mosh, tmux, emacs, org-mode and gopls)
+* Joe Burnett -- My command-line work process (mosh, tmux, emacs, org-mode and gopls) :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=Nv7XwNoxVqc
 :DATE:     2023-05-25T10:51:49-07:00
@@ -6892,7 +6936,7 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
 
   Your support is very much appreciated. Thanks, guys!
 
-* Live: Emacs DENOTE unit testing
+* Live: Emacs DENOTE unit testing                                    :denote:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=44_eLHxSMmo&list=PL8Bwba5vnQK14z96Gil86pLMDO2GnOhQ6&index=25&pp=iAQB
 :DATE:     2023-05-22T18:17:37-07:00
@@ -7797,7 +7841,7 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
 :END:
   Crea diagramas de flujo, graficos de gantt diagramas de secuencia , de clase, UML, todo lo que necesitas para diagramas con plantuml, sin la necesidad de salirte de tu editor de codigo.
 
-* Emacs | Dynamic Numbered Headings In Org Mode Documents (WHAT!?)
+* Emacs | Dynamic Numbered Headings In Org Mode Documents (WHAT!?)      :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=JfMl0rgoQz4
 :DATE:     2023-04-18T08:00:04-07:00
@@ -10244,7 +10288,7 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
   05:11 Closing windows with C-x 0
   05:30 Conclusion
 
-* Don't forget re-builder
+* Don't forget re-builder                                             :regex:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=tZh6ueo9pKk
 :DATE:     2022-12-29T01:13:38-08:00
@@ -11274,7 +11318,7 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
   06:41 Load Path
   13:33 Features
 
-* EmacsConf2022 - lsp-bridge: a smooth-as-butter asynchronous LSP client
+* EmacsConf2022 - lsp-bridge: a smooth-as-butter asynchronous LSP client :lsp:
 :PROPERTIES:
 :YOUTUBE_URL: https://youtube.com/watch?v=vLdqcYafY8w&feature=share
 :DATE:     2022-12-05T12:14:22-08:00
@@ -11861,7 +11905,7 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
 :END:
   A quick demo of using a package that gives you a nice workflow in one language to parody that workflow in another language and learn some elisp.
 
-* Learn how to write a command that limits searches to org-mode headlines
+* Learn how to write a command that limits searches to org-mode headlines :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=bTq11L5zLmE
 :DATE:     2022-11-30T13:25:23-08:00
@@ -13078,7 +13122,7 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
   03:40 Hotkey help
   03:59 Outro
 
-* Org-mode - How I take meeting notes?
+* Org-mode - How I take meeting notes?                                  :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=eJHFwll13OQ
 :DATE:     2022-10-21T19:00:09-07:00
@@ -13892,7 +13936,7 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
 
   #Linux #emacs #history #opensource #gnu #gimp #kdenlive #firefox #microsoftedge #gimp #pfsense
 
-* Ejecutar querys de sql con org-mode | Emacs | Espanol
+* Ejecutar querys de sql con org-mode | Emacs | Espanol                 :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=wcE8JDhcTc4
 :DATE:     2022-09-25T13:06:41-07:00
@@ -13901,7 +13945,7 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
 :END:
   Que onda vergas en este video el karthus mas verga de lan les contara como podemos ejecucar querys de sql con org mode, diran para que verga me va a servir esto bueno para nada solo para hacerle al vergas, sobres si hay algun pedo con el video que se vea zarra y asi dejen un comentario con respeto por que putos inrespetuosos no les hago caso sobres ahora si. fuera de mame alguna duda con el tema del video dejenlo en los comentarios.
 
-* An overview of how I add nodes to emacs org-roam.
+* An overview of how I add nodes to emacs org-roam.                     :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=HXa5fZjbioA
 :DATE:     2022-09-25T10:46:28-07:00
@@ -14087,7 +14131,7 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
 
   Goodreads: https://goodreads.com/unixbhaskar
 
-* Building My Second Brain with Emacs and Org-Roam (An Overview)
+* Building My Second Brain with Emacs and Org-Roam (An Overview)        :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=3H38Yglw1dU
 :DATE:     2022-09-11T12:10:09-07:00
@@ -14096,7 +14140,7 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
 :END:
 
 
-* Generating a Blog Site from Denote Entries - System Crafters Live!
+* Generating a Blog Site from Denote Entries - System Crafters Live! :denote:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=5R7ad5xz5wo
 :DATE:     2022-09-09T22:10:10-07:00
@@ -14304,7 +14348,7 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
   - Website: https://leonardotamiano.xyz
   - LinkedIn: https://www.linkedin.com/in/leonardo-tamiano-707591236
 
-* Previsualizar párrafos con LaTeX en Org Mode (test)
+* Previsualizar párrafos con LaTeX en Org Mode (test)                   :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=Wndg10Fb-Ns
 :DATE:     2022-09-06T05:35:31-07:00
@@ -15690,7 +15734,7 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
 :END:
   Details: https://lifeofpenguin.blogspot.com/2022/07/interactive-xpath-builder-in-gnu-emacs.html
 
-* Emacs | Install Org Contrib Packages The RIGHT Way! Extend Your Org Mode With Extra Packages
+* Emacs | Install Org Contrib Packages The RIGHT Way! Extend Your Org Mode With Extra Packages :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=FW8CkvZtNgY
 :DATE:     2022-07-17T10:31:22-07:00
@@ -15736,7 +15780,7 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
 
   Goodreads: https://goodreads.com/unixbhaskar
 
-* Trying Out Prot's Denote, an Org Roam Alternative?
+* Trying Out Prot's Denote, an Org Roam Alternative?                 :denote:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=QcRY_rsX0yY
 :DATE:     2022-07-15T10:12:20-07:00
@@ -16732,7 +16776,7 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
 :END:
   try not to give up in 1 hour challenge
 
-* Emacs: introduction to Denote (simple note-taking)
+* Emacs: introduction to Denote (simple note-taking)                 :denote:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=mLzFJcLpDFI
 :DATE:     2022-06-18T11:10:42-07:00
@@ -17060,7 +17104,7 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
   Slides: https://epubs.stfc.ac.uk/work/52319880
   Slides source code: https://github.com/jjensenral/functional
 
-* 21天学会Emacs 2022Edition 第十天：org-mode进阶
+* 21天学会Emacs 2022Edition 第十天：org-mode进阶                        :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=nocgop6CHRI
 :DATE:     2022-06-04T06:45:32-07:00
@@ -17164,7 +17208,7 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
 
   Code for zk specific feature is located in 'zk-link-hint.el', available here: https://github.com/localauthor/zk
 
-* org-hyperscheduler screencast
+* org-hyperscheduler screencast                                         :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=8vhhIYIS0zY
 :DATE:     2022-05-31T10:48:41-07:00
@@ -17670,7 +17714,7 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
 :END:
   notes http://xahlee.info/talk_show/xah_talk_show_2022-05-07.html
 
-* Org mode - Insert timestamp in proposals
+* Org mode - Insert timestamp in proposals                              :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=9kVG_KudkWw
 :DATE:     2022-05-06T06:01:45-07:00
@@ -17856,7 +17900,7 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
 
   #livestream #emacs #thelinuxcast
 
-* Using PowerShell, twarc and Emacs Org mode to archive and display large twitter threads
+* Using PowerShell, twarc and Emacs Org mode to archive and display large twitter threads :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://youtu.be/0FoLPJzcG3w
 :DATE:     2022-05-01T15:18:35-07:00
@@ -18035,7 +18079,7 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
   00:11:35 The Inspector
   00:14:00 Outro
 
-* real reason emacs is superior (sagemath+latex+org)
+* real reason emacs is superior (sagemath+latex+org)                    :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=cd4_O3TqArs
 :DATE:     2022-04-30T07:58:19-07:00
@@ -18229,7 +18273,7 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
   Part 3 (Debugging): https://youtu.be/U2L0iLZI_cE
   Part 4 (Getter/Setter): https://youtu.be/HJxGiTOHXjo
 
-* TUG 2021 — Rohit Goswami — Continuous Integration and TeX with Org-Mode
+* TUG 2021 — Rohit Goswami — Continuous Integration and TeX with Org-Mode :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=EnrvU6kFp8Q
 :DATE:     2022-04-22T01:06:54-07:00
@@ -18891,7 +18935,7 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
 
   Website: https://bwestbro.com
 
-* Org-mode - How I switch buffers?
+* Org-mode - How I switch buffers?                                      :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=vBQuxE-BNrY
 :DATE:     2022-03-25T10:30:11-07:00
@@ -19180,7 +19224,7 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
 
   #linux #emacs #gdb
 
-* Emacs Orgmode PGP Encryption Decryption 2022_03_08_14:03:51
+* Emacs Orgmode PGP Encryption Decryption 2022_03_08_14:03:51           :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=y9zCkdyny4U&list=PLXbUyQOf06CfnGE46zsPiDF0zTtkzdDsX&index=33&pp=iAQB
 :DATE:     2022-03-08T01:09:21-08:00
@@ -19210,7 +19254,7 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
   https://numguess.com
   https://lttracy.com
 
-* Recorrido por un documento de Emacs Org-Mode
+* Recorrido por un documento de Emacs Org-Mode                          :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=uxMDAztg_II
 :DATE:     2022-03-05T05:53:57-08:00
@@ -19624,7 +19668,7 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
 
   #linux #emacs #macro
 
-* Org-mode - Package cl is deprecated
+* Org-mode - Package cl is deprecated                                   :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=RVUxjGymcY0&list=PLlHHtPGox8K6bcuruX10Evf4AYGzYQKiz&index=98&pp=iAQB
 :DATE:     2022-02-23T19:00:07-08:00
@@ -19949,7 +19993,7 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
   Page URL:
   https://commons.wikimedia.org/wiki/File:Emacs_512.png
 
-* Emacs:Source Code Evaluation Inside Org File 2022 02 19 08:01:12
+* Emacs:Source Code Evaluation Inside Org File 2022 02 19 08:01:12      :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=OxUbFIb_n8M&list=PLXbUyQOf06CfnGE46zsPiDF0zTtkzdDsX&index=40&pp=iAQB
 :DATE:     2022-02-18T19:03:03-08:00
@@ -20066,7 +20110,7 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
   I enjoy making Tech videos.
   Please subscribe to my channel.
 
-* Org-mode - Move tasks efficiently
+* Org-mode - Move tasks efficiently                                     :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=oax9Hs8_Fhc&list=PLlHHtPGox8K6bcuruX10Evf4AYGzYQKiz&index=95&pp=iAQB
 :DATE:     2022-02-15T19:00:17-08:00
@@ -20472,7 +20516,7 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
 :END:
   This video provides a tutorial on how to access, navigate, and search the Emacs Info Manuals. The Info Manuals contain a wealth of good information. The target audience is anybody that uses Emacs but doesn’t currently make good use of the Info Manuals.
 
-* Org-mode - Create beautiful presentations with org-reveal
+* Org-mode - Create beautiful presentations with org-reveal             :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=-ZfjObpv5EI&list=PLlHHtPGox8K6bcuruX10Evf4AYGzYQKiz&index=92&pp=iAQB
 :DATE:     2022-02-09T19:00:00-08:00
@@ -20759,7 +20803,7 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
   5. Youtube: https://youtube.com/ravisagar1
   ####
 
-* Using org-mode as an SQL playground
+* Using org-mode as an SQL playground                                   :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=DY7t4T4TmUU
 :DATE:     2022-02-03T00:06:07-08:00
@@ -20781,7 +20825,7 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
 
   #linux #emacs #annotation
 
-* Org-mode - Recursively include org files from a directory in your agenda
+* Org-mode - Recursively include org files from a directory in your agenda :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=DPaPBhBwl24
 :DATE:     2022-02-01T19:00:04-08:00
@@ -20970,7 +21014,7 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
   - Test installation: restart emacs - you should see no menu or tool bar at the top (the init file that you just installed contains commands to switch them off).
   Author: Marcus Bi
 
-* Run a C program inside an Org-mode file
+* Run a C program inside an Org-mode file                               :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=6xy-3ZI-4AE&list=PLwgb17bzeNyiuQtvKtcZ_pvSSoO9ShXv8&index=9&pp=iAQB
 :DATE:     2022-01-31T06:06:01-08:00
@@ -21013,7 +21057,7 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
   - Execute the file hello.exe by entering hello
   - Open Dired (C-x d) and look at the file hello.c
 
-* Run R code inside an Emacs Org-mode file
+* Run R code inside an Emacs Org-mode file                              :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=M9jNksn3pNM
 :DATE:     2022-01-31T06:05:52-08:00
@@ -21074,7 +21118,7 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
   - Next, create a file hello.sh which has in its first line the code #![path to bash.exe]. Get the [path to bash.exe] from the shell with which bash.
   - Save the file and run it in the eshell with ./hello.sh.
 
-* Inserting an inline image in an Org-mode file (and other link examples)
+* Inserting an inline image in an Org-mode file (and other link examples) :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=7pCU7rgIFa0&list=PLwgb17bzeNyiuQtvKtcZ_pvSSoO9ShXv8&index=13&pp=iAQB
 :DATE:     2022-01-31T06:05:41-08:00
@@ -21083,7 +21127,7 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
 :END:
   In the video, you see how Emacs handles links. You can link to any named object - be it a code chunk, a reference, a file, a URL or an image. Not shown: links to files and URLs - same syntax though.
 
-* Weaving different document formats from Org-mode files
+* Weaving different document formats from Org-mode files                :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=OTH3aBX1ags&list=PLwgb17bzeNyiuQtvKtcZ_pvSSoO9ShXv8&index=14&pp=iAQB
 :DATE:     2022-01-31T06:05:38-08:00
@@ -21326,7 +21370,7 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
 
   #HelloFresh #NewEmployee #Future
 
-* How to Setup a Chromebook (with Emacs) for Python, C, and C++
+* How to Setup a Chromebook (with Emacs) for Python, C, and C++      :python:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=LvwozmJjDD0
 :DATE:     2022-01-28T06:30:05-08:00
@@ -21467,7 +21511,7 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
 
   https://web-mode.org/
 
-* Org-mode - Set local file variables
+* Org-mode - Set local file variables                                   :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=6jrrObn2tyI&list=PLlHHtPGox8K6bcuruX10Evf4AYGzYQKiz&index=80&pp=iAQB
 :DATE:     2022-01-25T19:00:04-08:00
@@ -21493,7 +21537,7 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
   5. Youtube: https://youtube.com/ravisagar1
   ####
 
-* Org-mode - Hide lines and toggle header
+* Org-mode - Hide lines and toggle header                               :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=dXY9Rhidke8&list=PLlHHtPGox8K6bcuruX10Evf4AYGzYQKiz&index=79&pp=iAQB
 :DATE:     2022-01-24T20:00:18-08:00
@@ -21679,7 +21723,7 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
 
   https://github.com/dajva/rg.el
 
-* Eglot for better programming experience in Emacs (Python demo)
+* Eglot for better programming experience in Emacs (Python demo)     :python:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=NQJBvp77WCo
 :DATE:     2022-01-22T00:11:31-08:00
@@ -21820,7 +21864,7 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
 :END:
   notes at http://xahlee.info/talk_show/xah_talk_show_2022-01-20.html
 
-* Org-mode - Show inline images per file
+* Org-mode - Show inline images per file                                :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=8arxx-E9V7k&list=PLlHHtPGox8K6bcuruX10Evf4AYGzYQKiz&index=75&pp=iAQB
 :DATE:     2022-01-20T20:00:03-08:00
@@ -21857,7 +21901,7 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
 
   #linux #emacs #automation
 
-* Org-mode - No need to restart Emacs
+* Org-mode - No need to restart Emacs                                   :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=H8ddD3a4x_U&list=PLlHHtPGox8K6bcuruX10Evf4AYGzYQKiz&index=74&pp=iAQB
 :DATE:     2022-01-19T20:00:02-08:00
@@ -21966,7 +22010,7 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
   Protesilaos Stavrou youtube
   https://www.youtube.com/c/ProtesilaosStavrou/videos
 
-* Org-mode - custom set faces change background colour
+* Org-mode - custom set faces change background colour                  :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=wyEZIFMKWEI&list=PLlHHtPGox8K6bcuruX10Evf4AYGzYQKiz&index=72&pp=iAQB
 :DATE:     2022-01-17T20:00:11-08:00
@@ -22568,7 +22612,7 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
 :END:
 
 
-* Org-mode - Are you using org-bullets-mode
+* Org-mode - Are you using org-bullets-mode                             :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=ie8VFEPVjBM&list=PLlHHtPGox8K6bcuruX10Evf4AYGzYQKiz&index=68&pp=iAQB
 :DATE:     2022-01-05T21:00:30-08:00
@@ -22598,7 +22642,7 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
   5. Youtube: https://youtube.com/ravisagar1
   ####
 
-* Emacs: custom Org emphasis faces (org-emphasis-alist)
+* Emacs: custom Org emphasis faces (org-emphasis-alist)                 :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=ld1kAq_DswY&list=PL8Bwba5vnQK14z96Gil86pLMDO2GnOhQ6&index=43&pp=iAQB
 :DATE:     2022-01-05T04:57:14-08:00
@@ -22676,7 +22720,7 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
 
   #emacs #magit #git #productivity
 
-* Org-mode - Repeat tasks multiple times a day
+* Org-mode - Repeat tasks multiple times a day                          :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=A96fIRKV1e0
 :DATE:     2021-12-31T23:54:11-08:00
@@ -22863,7 +22907,7 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
   C Page URL:
   https://commons.wikimedia.org/wiki/File:C_Programming_Language.svg
 
-* Emacs OrgMode Shortcuts 2021_12_30_18:34:55
+* Emacs OrgMode Shortcuts 2021_12_30_18:34:55                           :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=p2YQbgGWck0&list=PLXbUyQOf06CfnGE46zsPiDF0zTtkzdDsX&index=52&pp=iAQB
 :DATE:     2021-12-30T05:28:53-08:00
@@ -23026,7 +23070,7 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
   03:38 The plan
   05:57 FG42 and a bit of history
 
-* Emacs Archive Facility In Org 2021_12_22_16:20:36
+* Emacs Archive Facility In Org 2021_12_22_16:20:36                     :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=vjX47mjyAWA&list=PLXbUyQOf06CfnGE46zsPiDF0zTtkzdDsX&index=53&pp=iAQB
 :DATE:     2021-12-22T03:18:11-08:00
@@ -23213,7 +23257,7 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
   - Blog: https://leonardotamiano.xyz
   - Personal Archive: https://leonardotamiano.xyz/ppa
 
-* Org-mode - emacsclient vs emacs
+* Org-mode - emacsclient vs emacs                                       :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=kAu1R_fZi5I&list=PLlHHtPGox8K6bcuruX10Evf4AYGzYQKiz&index=66&pp=iAQB
 :DATE:     2021-12-15T09:00:38-08:00
@@ -23413,7 +23457,7 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
 
   https://www.gnu.org/s/emacs/
 
-* Emacs: custom Org agenda
+* Emacs: custom Org agenda                                              :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=UqtBXrzXPgQ&list=PL8Bwba5vnQK14z96Gil86pLMDO2GnOhQ6&index=45&pp=iAQB
 :DATE:     2021-12-09T04:37:20-08:00
@@ -23747,7 +23791,7 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
 :SPEAKERS: Dmitry Gutov
 :SERIES: EmacsConf 2021
 :END:
-* Tree-edit: Structural editing for Java, Python, C, and beyond!  :emacsconf:emacsconf2021:dev:
+* Tree-edit: Structural editing for Java, Python, C, and beyond! :emacsconf:emacsconf2021:dev:python:
 :PROPERTIES:
 :DATE: 2021-11-28
 :URL: https://emacsconf.org/2021/talks/structural
@@ -24313,7 +24357,7 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
 
   Powered by Restream https://restream.io/
 
-* Emacs Hacking: creating graphviz trees from Org lists [Livestream Archive]
+* Emacs Hacking: creating graphviz trees from Org lists [Livestream Archive] :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=RULnMEedyNY
 :DATE:     2021-11-25T21:41:05-08:00
@@ -24871,7 +24915,7 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
 
   #linux #emacs #emms
 
-* Using emacs and org-mode to teach programming
+* Using emacs and org-mode to teach programming                         :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=tSYL-ricWLg
 :DATE:     2021-11-09T13:45:32-08:00
@@ -24890,7 +24934,7 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
 :END:
   https://lifeofpenguin.blogspot.com/2021/11/spice-simulation-in-gnu-emacs-from.html
 
-* Emacs Org Capture 2021_11_08_08:12:46
+* Emacs Org Capture 2021_11_08_08:12:46                                 :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://youtube.com/watch?v=2Wi-QhQa-xw&feature=share
 :DATE:     2021-11-07T18:56:17-08:00
@@ -25027,7 +25071,7 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
 
   Powered by Restream https://restream.io/
 
-* Jupyter + org-mode in scimax
+* Jupyter + org-mode in scimax                                          :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=RD0o2pkJBaI
 :DATE:     2021-11-05T20:44:38-07:00
@@ -25409,7 +25453,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
   Org Mode Playlist von Rainer König:
   https://youtu.be/sQS06Qjnkcc
 
-* org-ref version-3 overview
+* org-ref version-3 overview                                            :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=3u6eTSzHT6s
 :DATE:     2021-10-20T02:02:36-07:00
@@ -26403,7 +26447,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
   pexels photo:
   https://www.pexels.com/photo/man-holding-barbell-1431282/
 
-* Org-mode - Sharing my publishing configurations once again
+* Org-mode - Sharing my publishing configurations once again            :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=lMCWyfb8S6o&list=PLlHHtPGox8K6bcuruX10Evf4AYGzYQKiz&index=64&pp=iAQB
 :DATE:     2021-09-18T22:00:12-07:00
@@ -26963,7 +27007,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
   日本一地味な実況が今始まる・・・
   テキストツールemacsに内蔵されているテキストアドベンチャーゲームdunnetの実況動画になります。vim派も必見！
 
-* System Crafters Live! - Exploring the Org Roam DB API
+* System Crafters Live! - Exploring the Org Roam DB API                 :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=fWmZoaTvA8k
 :DATE:     2021-09-03T23:12:25-07:00
@@ -27459,7 +27503,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 
   Powered by Restream https://restream.io/
 
-* Org-mode - Generate beautiful html files
+* Org-mode - Generate beautiful html files                              :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=dW5G_jiu69U&list=PLlHHtPGox8K6bcuruX10Evf4AYGzYQKiz&index=59&pp=iAQB
 :DATE:     2021-08-16T03:25:38-07:00
@@ -27824,7 +27868,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
   6. Apple Podcast: https://go.ravi.pro/apple
   7. Youtube: https://youtube.com/ravisagar1
 
-* Org-mode - Make editable presentations in Emacs
+* Org-mode - Make editable presentations in Emacs                       :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=C-p51zpat4I&list=PLlHHtPGox8K6bcuruX10Evf4AYGzYQKiz&index=56&pp=iAQB
 :DATE:     2021-08-03T22:00:04-07:00
@@ -27908,7 +27952,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 
   nightWalk by airtone, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/airtone/56520
 
-* Org-transclusion (alpha v0.2.1) Demo #9
+* Org-transclusion (alpha v0.2.1) Demo #9                               :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://youtube.com/watch?v=ueaPiA622wA
 :DATE:     2021-08-01T09:23:12-07:00
@@ -27927,7 +27971,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
   New Syntax and Live-Sync Edit
   https://youtu.be/idlFzWeygwA
 
-* Org-mode - How I organise my org files
+* Org-mode - How I organise my org files                                :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=8mLd85nD7dE&list=PLlHHtPGox8K6bcuruX10Evf4AYGzYQKiz&index=55&pp=iAQB
 :DATE:     2021-07-30T22:00:02-07:00
@@ -27970,7 +28014,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
   6. Apple Podcast: https://go.ravi.pro/apple
   7. Youtube: https://youtube.com/ravisagar1
 
-* Org-mode - Organise your headers quickly
+* Org-mode - Organise your headers quickly                              :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=Ndkik8GpCO8&list=PLlHHtPGox8K6bcuruX10Evf4AYGzYQKiz&index=54&pp=iAQB
 :DATE:     2021-07-29T22:00:14-07:00
@@ -28055,7 +28099,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
   Instagram: https://www.instagram.com/andrei_j_w/
   Website: https://www.andreijw.com/
 
-* How I wrote many books? #OrgMode #Jira #Linux
+* How I wrote many books? #OrgMode #Jira #Linux                         :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=ZiXhaiKujW8&list=PLlHHtPGox8K6bcuruX10Evf4AYGzYQKiz&index=53&pp=iAQB
 :DATE:     2021-07-27T22:00:09-07:00
@@ -28248,7 +28292,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
   👉 Music: https://soundcloud.com/moutardemusic/praia
   👉 Music: https://soundcloud.com/moutardemusic/rolls
 
-* Org-mode - Reschedule tasks from agenda
+* Org-mode - Reschedule tasks from agenda                               :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=epLgdY-4jpk&list=PLlHHtPGox8K6bcuruX10Evf4AYGzYQKiz&index=52&pp=iAQB
 :DATE:     2021-07-22T22:00:26-07:00
@@ -28312,7 +28356,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 
   https://betterprogramming.pub/15-reasons-why-i-use-emacs-with-gifs-5b03c6608b61
 
-* Org-mode - Power of templates
+* Org-mode - Power of templates                                         :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=5uWTiAw2uoo&list=PLlHHtPGox8K6bcuruX10Evf4AYGzYQKiz&index=51&pp=iAQB
 :DATE:     2021-07-21T22:00:05-07:00
@@ -28686,7 +28730,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
   ukeSounds by airtone, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/airtone/32655
   Between Worlds (Instrumental) by Aussens@iter, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/tobias_weber/56664
 
-* Org-mode - Quickly clock time from agenda view
+* Org-mode - Quickly clock time from agenda view                        :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=BgyKJtdQ9XY&list=PLlHHtPGox8K6bcuruX10Evf4AYGzYQKiz&index=49&pp=iAQB
 :DATE:     2021-07-08T22:00:03-07:00
@@ -28730,7 +28774,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
   6. Apple Podcast: https://go.ravi.pro/apple
   7. Youtube: https://youtube.com/ravisagar1
 
-* Org-mode - Quickly view agenda of next 20 days
+* Org-mode - Quickly view agenda of next 20 days                        :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=Nd34DF6N5z4&list=PLlHHtPGox8K6bcuruX10Evf4AYGzYQKiz&index=48&pp=iAQB
 :DATE:     2021-07-07T22:00:10-07:00
@@ -28810,7 +28854,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
   Day Like These
   https://www.youtube.com/watch?v=RTGEoh-vPIc
 
-* Field substitution in Emacs Lisp Formulas | org-table | Inside Emacs #6 (part 10)
+* Field substitution in Emacs Lisp Formulas | org-table | Inside Emacs #6 (part 10) :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://youtu.be/w3V8-_qjYgI
 :DATE:     2021-07-07T10:15:35-07:00
@@ -28821,7 +28865,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
   👉 https://github.com/tonyaldon/inside-emacs
   👉 Music: https://soundcloud.com/hugo-kant/hauschka-ping-hugo-kant-remix-live-damedecanton
 
-* org-roam - My experience of 3 weeks
+* org-roam - My experience of 3 weeks                                   :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=s-VgTBztP3c&list=PLlHHtPGox8K6bcuruX10Evf4AYGzYQKiz&index=47&pp=iAQB
 :DATE:     2021-07-06T22:00:12-07:00
@@ -28895,7 +28939,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
   Day Like These
   https://www.youtube.com/watch?v=RTGEoh-vPIc
 
-* Org-roam - Graphing and org-roam-protocol
+* Org-roam - Graphing and org-roam-protocol                             :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=pWY67gg_UYM&list=PLlHHtPGox8K6bcuruX10Evf4AYGzYQKiz&index=46&pp=iAQB
 :DATE:     2021-07-05T22:00:10-07:00
@@ -28963,7 +29007,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 
   Enjoy!
 
-* Org-mode - Clone subtree with time shift, repeating tasks
+* Org-mode - Clone subtree with time shift, repeating tasks             :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=1AoAr5pvfIQ&list=PLlHHtPGox8K6bcuruX10Evf4AYGzYQKiz&index=45&pp=iAQB
 :DATE:     2021-07-04T10:04:04-07:00
@@ -29403,7 +29447,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 
   Your support is very much appreciated. Thanks, guys!
 
-* Org-roam - Create and link notes
+* Org-roam - Create and link notes                                      :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=nP5K3ch97us&list=PLlHHtPGox8K6bcuruX10Evf4AYGzYQKiz&index=43&pp=iAQB
 :DATE:     2021-06-20T00:47:34-07:00
@@ -29530,7 +29574,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
   👉 https://github.com/tonyaldon/inside-emacs
   👉 Music: https://soundcloud.com/vinkate/in-your-mind
 
-* Org-roam - Installation
+* Org-roam - Installation                                               :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=WDupGY4ATXI&list=PLlHHtPGox8K6bcuruX10Evf4AYGzYQKiz&index=42&pp=iAQB
 :DATE:     2021-06-15T10:00:55-07:00
@@ -31137,7 +31181,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
   https://github.com/vedang/emacs-up
   https://github.com/vedang/org-mode-crate
 
-* Emacs Meet up Session I: Org Capture - Suvrat
+* Emacs Meet up Session I: Org Capture - Suvrat                         :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=tFt6plDQm58
 :DATE:     2021-03-30T04:35:50-07:00
@@ -31844,7 +31888,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
   Intro music: Coriolis Effect by logos feat. stefsax, licensed CC-BY
   http://ccmixter.org/files/mseq/26296
 
-* org-gamedb demo  - A game API client for Emacs org-mode
+* org-gamedb demo  - A game API client for Emacs org-mode               :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://youtu.be/KctY8FCXgi8
 :DATE:     2021-02-28T08:06:33-08:00
@@ -33699,7 +33743,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
   Intro music: Coriolis Effect by logos feat. stefsax, licensed CC-BY
   http://ccmixter.org/files/mseq/26296
 
-* Aliases in Org Roam Emacs Doom · Emacs Doomcasts 26
+* Aliases in Org Roam Emacs Doom · Emacs Doomcasts 26                   :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=83JoRBjTXog&list=PLhXZp00uXBk4np17N39WvB80zgxlZfVwj&index=25&pp=iAQB
 :DATE:     2020-11-20T12:45:34-08:00
@@ -33817,7 +33861,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 :END:
   This is a video talking about the Rmail package built-into Emacs.
 
-* Org-transclusion (alpha v0.0.5) Demo #5
+* Org-transclusion (alpha v0.0.5) Demo #5                               :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=hz92vaO8IgQ&feature=share
 :DATE:     2020-11-15T02:27:27-08:00
@@ -33880,7 +33924,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
   Intro music: Coriolis Effect by logos feat. stefsax, licensed CC-BY
   http://ccmixter.org/files/mseq/26296
 
-* Literate Programming - Org Babel Executing code on a remote computer
+* Literate Programming - Org Babel Executing code on a remote computer  :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=rHV_5kz8Z2E&list=PLlHHtPGox8K6bcuruX10Evf4AYGzYQKiz&index=33&pp=iAQB
 :DATE:     2020-11-12T22:00:08-08:00
@@ -34046,7 +34090,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 
   notebook for the course: https://github.com/janboone/msc_datascience/blob/master/Statistical_Hacking.ipynb
 
-* Org-transclusion (alpha v0.0.4) Demo #4
+* Org-transclusion (alpha v0.0.4) Demo #4                               :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=nO_JEXUeGkI&feature=share
 :DATE:     2020-11-01T04:27:54-08:00
@@ -34369,7 +34413,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 
   Your support is very much appreciated. Thanks, guys!
 
-* Journaling with org-journal · Emacs Doomcasts 24
+* Journaling with org-journal · Emacs Doomcasts 24                      :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=i-nGmSQ5fh0&list=PLhXZp00uXBk4np17N39WvB80zgxlZfVwj&index=23&pp=iAQB
 :DATE:     2020-10-15T09:03:29-07:00
@@ -35403,7 +35447,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
   A few tips and tricks for enhancing our standard emacs configuration.
   A survey of the broad capabilities in the bash shell that COS 217 students might find useful.
 
-* Package and deploy Python apps faster with Poetry and Nix
+* Package and deploy Python apps faster with Poetry and Nix          :python:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=TbIHRHy7_JM
 :DATE:     2020-09-01T02:00:34-07:00
@@ -35484,7 +35528,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 
   My post on creating a Helm source: https://occasionallycogent.com/emacs_custom_helm_source/index.html
 
-* Trying out Org Roam
+* Trying out Org Roam                                                   :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=wz-e1zd3fLs&list=PLlHHtPGox8K6bcuruX10Evf4AYGzYQKiz&index=20&pp=iAQB
 :DATE:     2020-08-29T12:54:23-07:00
@@ -36209,7 +36253,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 
   Your support is very much appreciated. Thanks, guys!
 
-* Basic Task Management with Org |  Checklists, TODOs, and Org-Agenda | Switching to Emacs #5.3
+* Basic Task Management with Org |  Checklists, TODOs, and Org-Agenda | Switching to Emacs #5.3 :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=EgOBBiomfGo&list=PLGP2UnPoZ7HzLGU2cyK1MXSZwXy5niFkk&index=7&pp=iAQB
 :DATE:     2020-08-03T06:41:44-07:00
@@ -36287,7 +36331,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 
   Get my Emacs configuration from github: https://github.com/matman26/emacs-config
 
-* Goodbye Markdown! | Org-Mode Tutorial | Switching to Emacs #5.1
+* Goodbye Markdown! | Org-Mode Tutorial | Switching to Emacs #5.1       :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=8Qjd3tnlNnU
 :DATE:     2020-07-31T15:25:49-07:00
@@ -36886,7 +36930,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 
   Emacs config: https://github.com/zamansky/dot-emacs
 
-* Org-Roam v1.2.0: Headlines & Unlinked References
+* Org-Roam v1.2.0: Headlines & Unlinked References                      :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=oyEMlIxIHXs&feature=youtu.be
 :DATE:     2020-06-12T08:34:29-07:00
@@ -37104,7 +37148,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
   6. Apple Podcast: https://go.ravi.pro/apple
   7. Youtube: https://youtube.com/ravisagar1
 
-* A Tour of Org Roam
+* A Tour of Org Roam                                                    :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=gDAbpz98ooU
 :DATE:     2020-05-13T13:30:46-07:00
@@ -37309,7 +37353,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 :END:
   the best way to managing your dotfiles on linux and unix
 
-* Literate Programming - Org Babel Tangle export your code to a file
+* Literate Programming - Org Babel Tangle export your code to a file    :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=Ltd1AChndCo&list=PLlHHtPGox8K6bcuruX10Evf4AYGzYQKiz&index=6&pp=iAQB
 :DATE:     2020-04-23T10:46:59-07:00
@@ -37965,7 +38009,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 
   Follow on LBRY: https://lbry.tv/@lukewh:3
   Join LBRY: https://lbry.tv/$/invite/@lukewh:3 (I get 20LBC if you do this)
-* Using Emacs 68 - Tramp and org-publish
+* Using Emacs 68 - Tramp and org-publish                                :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=tlCOsigPjk8&list=PL9KxKa8NpFxIcNQa9js7dQQIHc81b0-Xg&index=69&pp=iAQB
 :DATE:     2020-03-15T13:53:25-07:00
@@ -39570,7 +39614,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 :END:
   In this demo I show how to use the built-in file manager of Emacs (Dired) to change the file permissions of multiple items at once. I also offer a primer on the numbers you must pass to the `chmod' command (I know this works on Linux, not sure about other operating systems). /// And here is my dotemacs, if you are interested: https://protesilaos.com/dotemacs
 
-* Using Emacs Episode 61 - org-msg
+* Using Emacs Episode 61 - org-msg                                      :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=cPZe0AGOUJU&list=PL9KxKa8NpFxIcNQa9js7dQQIHc81b0-Xg&index=62&pp=iAQB
 :DATE:     2019-11-16T05:12:38-08:00
@@ -39653,7 +39697,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 :END:
   Demo of using diff-at-point to navigate between edits: https://gitlab.com/ideasman42/emacs-diff-at-point
 
-* Emacs Magit with Forge for Issuing Pull Requests - Emacs Doomcasts 20
+* Emacs Magit with Forge for Issuing Pull Requests - Emacs Doomcasts 20 :magit:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=fFuf3hExF5w&list=PLhXZp00uXBk4np17N39WvB80zgxlZfVwj&index=20&pp=iAQB
 :DATE:     2019-11-09T10:56:07-08:00
@@ -40290,7 +40334,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 
   You can attribute it to "GDQuest and contributors - https://www.gdquest.com/"
 
-* Guile scheme lisp, is python a lisp?, JetBrain vs Emacs editor, why clojure java. 2019-08-25
+* Guile scheme lisp, is python a lisp?, JetBrain vs Emacs editor, why clojure java. 2019-08-25 :python:
 :PROPERTIES:
 :YOUTUBE_URL: https://youtu.be/mSQEhF1ACQQ
 :DATE:     2019-08-25T14:59:56-07:00
@@ -41785,7 +41829,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 :END:
   yt-description
 
-* Emacs Is Great - Ep 33, auto-complte yassniptes in orgmode
+* Emacs Is Great - Ep 33, auto-complte yassniptes in orgmode  :yasnippet:org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=BQ0IUApJH2E&list=PLrFss89N5XNw8JMVSWJOwailCu8PC-ZZ_&index=42&pp=iAQB
 :DATE:     2019-02-20T06:42:50-08:00
@@ -41863,7 +41907,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 :END:
   https://emacsair.me/2019/02/14/transient-0.1/
 
-* Emacs Is Great - Ep 27, Org TODO List 4 Noobs
+* Emacs Is Great - Ep 27, Org TODO List 4 Noobs                         :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=jgO5MfjipQY&list=PLrFss89N5XNw8JMVSWJOwailCu8PC-ZZ_&index=35&pp=iAQB
 :DATE:     2019-02-12T05:57:05-08:00
@@ -42195,7 +42239,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 :END:
   https://gitlab.com/yisraeldov/emacs-d/commit/a5409abc2af40deca4091cbfe367e024c77660a3#4e0b411206a54e9f83f60d1864f872a187018700_127_127
 
-* Emacs Is Great - EP 12, org-mode noweb links
+* Emacs Is Great - EP 12, org-mode noweb links                          :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=u47xJVqCD9o
 :DATE:     2019-01-06T06:36:42-08:00
@@ -42204,7 +42248,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 :END:
 
 
-* Emacs Is Great - EP 11, org-mode detangle
+* Emacs Is Great - EP 11, org-mode detangle                             :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=BLomb52wjvE
 :DATE:     2019-01-06T06:10:20-08:00
@@ -42253,7 +42297,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 :END:
   I use both Emacs and Vim in my workflow.  This is in response to some who have been asking for a use case scenario for Emacs.  Feel free to check out my dotfiles.  You might be surprised that both these editors aren't that dissimilar.  https://gitlab.com/bridgesense/dotfiles
 
-* ASCII snow in the terminal with Python and curses.
+* ASCII snow in the terminal with Python and curses.                 :python:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=oJYPSLHc-zI
 :DATE:     2019-01-03T05:44:41-08:00
@@ -42330,7 +42374,7 @@ Full code on github:
 :END:
 
 
-* Emacs is great - Ep 9, upgrading org-mode and fancy code blocks
+* Emacs is great - Ep 9, upgrading org-mode and fancy code blocks       :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=1EqWfVf2oGE
 :DATE:     2018-12-30T06:47:50-08:00
@@ -42655,7 +42699,7 @@ Full code on github:
   GNU Emacs for all
   Having using GNU Emacs for more that 6 years now and doing Python development for equal amount of time I’d like to share my experience with this great GNU software which has been for 30 years. I’d like to go through how I use Emacs for almost all my tasks like note taking, agenda, LaTeX, reveal.js presentations, IDE, and IRC. In this talk I’ll demonstrate how Emacs can be configured to do all such thing without a need to a dedicated application for each specific task. I’ll also talk about how to maintain Emacs configurations using org-mode and literate programming.
 
-* Using Emacs episode 53 - emailing org-agenda
+* Using Emacs episode 53 - emailing org-agenda                          :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=wus8R1TWYZ4&list=PL9KxKa8NpFxIcNQa9js7dQQIHc81b0-Xg&index=54&pp=iAQB
 :DATE:     2018-11-03T06:24:49-07:00
@@ -42722,7 +42766,7 @@ Full code on github:
   The github repository :
   https://github.com/analyzeninvest/.emacs.d
 
-* Using Emacs Episode 51 - day to day with org-mode
+* Using Emacs Episode 51 - day to day with org-mode                     :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=C6nbjqn5Uxw&list=PL9KxKa8NpFxIcNQa9js7dQQIHc81b0-Xg&index=52&pp=iAQB
 :DATE:     2018-10-24T14:40:12-07:00
@@ -42749,7 +42793,7 @@ Full code on github:
   The Github repo for this video is:
   https://github.com/analyzeninvest/.emacs.d
 
-* emacs :set up config 04 (themes & org-bullets)
+* emacs :set up config 04 (themes & org-bullets)                        :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=Y9BM_mIRHJk
 :DATE:     2018-10-21T13:26:04-07:00
@@ -42855,7 +42899,7 @@ Full code on github:
 
   #emacs #programming #editor #vim #tutorial
 
-* DevFestMN 2016 | John Henderson - Org-Mode for Science, Reproducible Research, and Organization
+* DevFestMN 2016 | John Henderson - Org-Mode for Science, Reproducible Research, and Organization :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=kK7L2Ulagnw&feature=youtu.be
 :DATE:     2018-09-24T19:48:28-07:00
@@ -42951,7 +42995,7 @@ Full code on github:
   You can use multiple cursors in Emacs.
   Download 'multiple-cursors' library from MELPA repository.
 
-* Plan Your Day: Daily Time Management With Emacs, Org-Mode, and Google Calendar
+* Plan Your Day: Daily Time Management With Emacs, Org-Mode, and Google Calendar :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=LQwjSd3X9xE&feature=youtu.be
 :DATE:     2018-07-19T20:08:58-07:00
@@ -43556,7 +43600,7 @@ Full code on github:
 :END:
   We finally have a look at one of my favorite packages, ido-vertical!
 
-* Emacs Tutorial 6 - Introducing: org-mode
+* Emacs Tutorial 6 - Introducing: org-mode                              :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=a_y0Tf906Ec&feature=youtu.be
 :DATE:     2018-01-09T07:32:11-08:00
@@ -43636,7 +43680,7 @@ Full code on github:
 
   Series page: http://cestlaz.github.io/stories/emacs
 
-* OrgMode E07S05: Goal setting & Goal Tracking
+* OrgMode E07S05: Goal setting & Goal Tracking                          :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=APhhHCBI8xc&index=35&list=PLVtKhBrRV_ZkPnBtt_TD1Cs9PJlU0IIdE
 :DATE:     2017-12-23T11:02:33-08:00
@@ -44417,7 +44461,7 @@ Full code on github:
   Github: https://github.com/kskkwn/.emacs.d
   (Japanese blog post): http://ksknw.hatenablog.com/entry/2017/01/08/205854
 
-* Using emacs 26 - Google Calendar and Org Agenda (good version)
+* Using emacs 26 - Google Calendar and Org Agenda (good version)        :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=vO_RF2dK7M0&list=PL9KxKa8NpFxIcNQa9js7dQQIHc81b0-Xg&index=27&pp=iAQB
 :DATE:     2017-01-05T12:09:38-08:00
@@ -44428,7 +44472,7 @@ Full code on github:
 
   Series page: http://cestlaz.github.io/stories/emacs
 
-* Bad quality version - Using emacs - 26 - Google Calendar sync and Org Agenda
+* Bad quality version - Using emacs - 26 - Google Calendar sync and Org Agenda :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=RyNBtfu9AJ4&list=PL9KxKa8NpFxIcNQa9js7dQQIHc81b0-Xg&index=26&pp=iAQB
 :DATE:     2017-01-05T08:35:51-08:00
@@ -44903,7 +44947,7 @@ Full code on github:
   Series page: http://cestlaz.github.io/stories/emacs
   Blog post: http://cestlaz.github.io/posts/using-emacs-15-macros
 
-* OrgMode E06S05: Tracking habits
+* OrgMode E06S05: Tracking habits                                       :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=acj3NhXlnnk&feature=youtu.be
 :DATE:     2016-08-30T09:32:15-07:00
@@ -45039,7 +45083,7 @@ Full code on github:
 :END:
   Eloud is a lightweight, interactive screen reader for the Emacs text editor. Visit the GitHub repository for installation instructions: https://github.com/smythp/eloud
 
-* Using Emacs - 12 - flycheck and Jedi for Python
+* Using Emacs - 12 - flycheck and Jedi for Python                    :python:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=wbj_Wjm1Tuw&list=PL9KxKa8NpFxIcNQa9js7dQQIHc81b0-Xg&index=12&pp=iAQB
 :DATE:     2016-07-27T16:02:20-07:00
@@ -45064,7 +45108,7 @@ Full code on github:
   Learn more from the developers at thoughtbot ⌨️
   Head over to http://tbot.io/dev-blog to read more great articles on our blog.
 
-* Using emacs - 11 - reveal.js and org-mode
+* Using emacs - 11 - reveal.js and org-mode                             :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=psDpCpcIVYs&list=PL9KxKa8NpFxIcNQa9js7dQQIHc81b0-Xg&index=11&pp=iAQB
 :DATE:     2016-07-19T09:13:24-07:00
@@ -45256,7 +45300,7 @@ Full code on github:
 
   Series page: http://cestlaz.github.io/stories/emacs/
 
-* Using Emacs 2 - org
+* Using Emacs 2 - org                                                   :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=x5KiYDd9s8k&list=PL9KxKa8NpFxIcNQa9js7dQQIHc81b0-Xg&index=2&pp=iAQB
 :DATE:     2016-05-23T13:06:33-07:00
@@ -45633,7 +45677,7 @@ Using restclient within emacs...
 :END:
   Преобразование серии if/else в switch
 
-* Tracking time on tasks in Emacs org-mode
+* Tracking time on tasks in Emacs org-mode                              :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=0YyYljtnMwM
 :DATE:     2016-01-24T14:06:13-08:00
@@ -45691,7 +45735,7 @@ Using restclient within emacs...
 
   https://github.com/jcollard/elm-mode
 
-* Introduction to org-ref
+* Introduction to org-ref                                               :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=2t925KRBbFc&feature=youtu.be
 :DATE:     2015-12-22T07:54:24-08:00
@@ -46202,7 +46246,7 @@ Using restclient within emacs...
 
   See also http://www.dreamsongs.com/Cadillac.html
 
-* Emacs as a Python IDE
+* Emacs as a Python IDE                                              :python:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=6BlTGPsjGJk&list=PL8tzorAO7s0he-pp7Y_JDl7-Kz2Qlr_Pj&index=20&pp=iAQB
 :DATE:     2014-05-14T08:30:53-07:00
@@ -46223,7 +46267,7 @@ Using restclient within emacs...
 :END:
   Emacs Chat - Phil Hagelberg (technomancy)
 
-* Upgrading IPython with Emacs
+* Upgrading IPython with Emacs                                       :python:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=dgcBKz03lK8&list=PL8tzorAO7s0he-pp7Y_JDl7-Kz2Qlr_Pj&index=21&pp=iAQB
 :DATE:     2014-05-09T08:19:18-07:00
@@ -46497,7 +46541,7 @@ Using restclient within emacs...
 
   Notices and updates on Twitter at @jekor https://twitter.com/jekor
 
-* Emacs + org-mode + python in reproducible research; SciPy 2013 Presentation :python:
+* Emacs + org-mode + python in reproducible research; SciPy 2013 Presentation :python:org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=1-dUkyn_fZA
 :DATE:     2013-07-02T10:57:08-07:00

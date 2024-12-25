@@ -259,14 +259,22 @@ If a region is active, add all the YouTube links in that region."
 
 (defun emacstv-format-for-completion (o)
 	(concat
-	 (assoc-default "ITEM" o 'string=)
-	 (if (not (string= (assoc-default "SPEAKERS" o 'string= "") ""))
+	 (or (assoc-default "ITEM" o 'string=)
+			 (assoc-default 'ITEM o))
+	 (if (not (string=
+						 (or
+							(assoc-default "SPEAKERS" o 'string=)
+							(assoc-default 'SPEAKERS o)) ""))
 			 (format " - %s"
-							 (assoc-default "SPEAKERS" o 'string=))
+							 (or
+								(assoc-default "SPEAKERS" o 'string=)
+								(assoc-default 'SPEAKERS o)))
 		 "")
-	 (if (assoc-default "DURATION" o 'string=)
+	 (if (or (assoc-default "DURATION" o 'string=)
+					 (assoc-default 'DURATION o))
 			 (format " (%s)"
-							 (assoc-default "DURATION" o 'string=))
+							 (or (assoc-default "DURATION" o 'string=)
+									 (assoc-default 'DURATION o)))
 		 "")))
 
 ;; (memoize-restore #'emacstv-videos)
@@ -281,7 +289,8 @@ If a region is active, add all the YouTube links in that region."
 				(display-sort-function . identity))
 		(complete-with-action
 		 action
-
+		 (mapcar (lambda (o) (cons (emacstv-format-for-completion o) o))
+								 (emacstv-videos))
 		 string predicate)))
 
 (defun emacstv-complete-video (&optional prompt)
@@ -290,7 +299,7 @@ If a region is active, add all the YouTube links in that region."
 								 (emacstv-videos))))
 		(assoc-default
 		 (completing-read (or prompt "Video: ")
-											collection nil t)
+											#'emacstv-video-completion-collection nil t)
 		 collection #'string=)))
 
 (defun emacstv-video-url (video)
