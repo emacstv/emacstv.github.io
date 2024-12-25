@@ -224,14 +224,17 @@ If a region is active, add all the YouTube links in that region."
 
 ;; ex. search: (and (heading "python") (not (tags "python")))
 (defun emacstv-org-ql-search (query)
-	(interactive (list (read-string "Query: "
-																	(when org-ql-view-query
-                                    (format "%S" org-ql-view-query)))))
+	(interactive (list (progn
+											 (read-string "Query: "
+																		(when (and (boundp 'org-ql-view-query) org-ql-view-query)
+																			(format "%S" org-ql-view-query))))))
+	(require 'org-ql)
 	(org-ql-search (list emacstv-index-org) query)
 	(when (featurep 'hl-line)
 		(hl-line-mode 1)))
 
 (defun emacstv-play-at-point ()
+	(interactive)
 	(when (derived-mode-p 'org-agenda-mode)
 		(org-agenda-switch-to))
 	(when (derived-mode-p 'org-mode)
