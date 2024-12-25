@@ -249,7 +249,7 @@ Artist: http://incompetech.com/
 * The Definitive Emacs + Go setup  :golang:coding:dev:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=9dMYSrstrLk
-:DURATION: 1:07:18
+:DURATION: 01:07:18
 :SPEAKERS: (Bit-Mage)
 :DATE:     2024-12-12
 :END:
@@ -326,8 +326,24 @@ DAP mode is a powerful tool for debugging your code within Emacs. By leveraging 
 :TOOBNIX_URL: https://toobnix.org/w/qUW7dHGcHqXW5ZVKtwXspy
 :TRANSCRIPT_URL: https://media.emacsconf.org/2024/emacsconf-2024-links--unlocking-linked-data-replacing-specialized-apps-with-an-orgbased-semantic-wiki--abhinav-tushar--main.vtt
 :SPEAKERS: Abhinav Tushar
+:DURATION: 11:20
 :SERIES: EmacsConf 2024
 :END:
+
+EmacsConf 2024: Unlocking linked data: replacing specialized apps with an Org-based semantic wiki - Abhinav Tushar (he/him)
+https://emacsconf.org/2024/talks/links
+
+00:00.000 Specialized Apps and Linked Data
+01:30.000 Discovering Org Roam and Linked Notes
+02:53.000 Enhanced Org Roam Buffer: Rich Links and Similar Nodes
+06:35.000 Semantic Search on Link Contexts
+08:26.000 Exposing notes outside Emacs
+10:38.000 Future Directions and Potential Improvements
+
+You can view this and other resources using free/libre software at https://emacsconf.org/2024/talks/links . During the conference, you can ask questions via the Etherpad or through IRC (https://chat.emacsconf.org/?join=emacsconf , or emacsconf on irc.libera.chat). Afterwards, check the talk page at https://emacsconf.org/2024/talks/links for notes and contact information.
+
+This video is available under the terms of the Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license.
+
 * Emacs regex compilation and future directions for expressive pattern matching  :emacsconf:emacsconf2024:regex:
 :PROPERTIES:
 :DATE: 2024-12-08
@@ -337,8 +353,17 @@ DAP mode is a powerful tool for debugging your code within Emacs. By leveraging 
 :TOOBNIX_URL: https://toobnix.org/w/q6Mhn7TPtDi7acd6y3KtRf
 :TRANSCRIPT_URL: https://media.emacsconf.org/2024/emacsconf-2024-regex--emacs-regex-compilation-and-future-directions-for-expressive-pattern-matching--danny-mcclanahan--main.vtt
 :SPEAKERS: Danny McClanahan
+:DURATION: 24:56
 :SERIES: EmacsConf 2024
 :END:
+
+Danny McClanahan (they/them)
+
+https://emacsconf.org/2024/talks/regex
+
+You can view this and other resources using free/libre software at https://emacsconf.org/2024/talks/regex .
+This video is available under the terms of the Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license.
+
 * Survival of the skillest: Thriving in the learning jungle  :emacsconf:emacsconf2024:learning:planning:org:gtd:
 :PROPERTIES:
 :DATE: 2024-12-08
@@ -348,8 +373,34 @@ DAP mode is a powerful tool for debugging your code within Emacs. By leveraging 
 :TOOBNIX_URL: https://toobnix.org/w/2FSZbvb7v5eZMRFL1f2DXP
 :TRANSCRIPT_URL: https://media.emacsconf.org/2024/emacsconf-2024-learning--survival-of-the-skillest-thriving-in-the-learning-jungle--bala-ramadurai--main.vtt
 :SPEAKERS: Bala Ramadurai
+:DURATION: 19:39
 :SERIES: EmacsConf 2024
 :END:
+
+EmacsConf 2024: Survival of the skillest: Thriving in the learning jungle - Bala Ramadurai (his/him)
+https://emacsconf.org/2024/talks/lear...
+
+00:00 Introduction
+01:35 What is a skill?
+01:47 Why should you learn a new skill?
+02:11 What skills should you learn?
+02:35 What stops you from learning new skills?
+03:16 Empty your teacup
+04:40 Getting Things Done
+06:33 Archive
+07:33 Multiple steps
+10:02 Multiple projects
+10:37 What if the project stops before completion?
+11:20 What if you successfully complete the project?
+12:18 What if the project is ongoing and doesn't really end?
+12:54 What if you forget to visit the TODO files?
+16:02 Planning for the future
+18:36 Summary
+19:03 References
+
+You can view this and other resources using free/libre software at https://emacsconf.org/2024/talks/learning
+This video is available under the terms of the Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license.
+
 * Q&A: Survival of the skillest: Thriving in the learning jungle  :answers:emacsconf:emacsconf2024:learning:planning:org:gtd:
 :PROPERTIES:
 :DATE: 2024-12-08
@@ -370,8 +421,33 @@ DAP mode is a powerful tool for debugging your code within Emacs. By leveraging 
 :TOOBNIX_URL: https://toobnix.org/w/4VywQEXSoLARtG1JZf9hoo
 :TRANSCRIPT_URL: https://media.emacsconf.org/2024/emacsconf-2024-blee--about-blee-towards-an-integrated-emacs-environment-for-enveloping-our-own-autonomy-directed-digital-ecosystem--mohsen-banan--main.vtt
 :SPEAKERS: Mohsen BANAN
+:DURATION: 45:30
 :SERIES: EmacsConf 2024
 :END:
+
+Mohsen BANAN (he/him)
+
+https://emacsconf.org/2024/talks/blee
+
+00:00 Introduction
+05:17 Blee: A Bigger and Different Vision for Emacs
+08:02 The ``Nature of Polyexistentials'' Book
+15:49 Governance of Polyexistentials
+20:04 Proper Governance of Manner-of-Existence of Software
+26:00 Blee Overview
+26:25 Bootstrapping: From Fresh Debian to Raw-BISOS and Raw-Blee
+33:27 Some Blee Concepts
+35:14 Blee Org Dynamic Blocks --- Everywhere
+35:59 COMEEGA -- Collaborative Org-Mode Enhanced Emacs Generalized Authorship
+37:51 Blee Panels: Active Org-Mode Universal Self-Documentation
+38:12 Some BISOS and Blee Capability Bundles
+41:04 Next Steps (2024)
+42:54 Economics and Business Dimmensions of ByStar Digital Ecosystem
+43:38 Pointers for Digging Deeper
+
+You can view this and other resources using free/libre software at https://emacsconf.org/2024/talks/blee .
+This video is available under the terms of the Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license.
+
 * Q&A: About Blee: enveloping our own autonomy directed digital ecosystem with Emacs  :answers:emacsconf:emacsconf2024:
 :PROPERTIES:
 :DATE: 2024-12-08
@@ -381,8 +457,23 @@ DAP mode is a powerful tool for debugging your code within Emacs. By leveraging 
 :TOOBNIX_URL: https://toobnix.org/w/1kJVXirsko1Q6eUNXGQkwQ
 :TRANSCRIPT_URL: https://media.emacsconf.org/2024/emacsconf-2024-blee--about-blee-towards-an-integrated-emacs-environment-for-enveloping-our-own-autonomy-directed-digital-ecosystem--mohsen-banan--answers.vtt
 :SPEAKERS: Mohsen BANAN
+:DURATION: 16:43
 :SERIES: EmacsConf 2024
 :END:
+
+Mohsen BANAN (he/him)
+
+This is the Q&A for the talk at https://www.youtube.com/watch?v=wa6tjBXZiTU&t=0s .
+
+05:33 Q: I'm from Brazil, which edition would you recommend?
+07:07 Q: Thank you for this talk! How does your perspective interface with works such as Yanis Varoufakis' Technofeudalism?
+08:21 Q: To what extent do you agree that the introduction of proprietary systems in education creates an environment for exploitation while at the same time diluting the learning value of the curriculum?
+09:40 Q: As a specific example of how "ownership is not clean" ...
+15:05 Q: Do you have any recommended reading materials designed for such an audience?
+
+You can view this and other resources using free/libre software at https://emacsconf.org/2024/talks/blee .
+This video is available under the terms of the Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license.
+
 * Fun things with GNU Hyperbole  :emacsconf:emacsconf2024:hyperbole:
 :PROPERTIES:
 :DATE: 2024-12-08
@@ -392,8 +483,25 @@ DAP mode is a powerful tool for debugging your code within Emacs. By leveraging 
 :TOOBNIX_URL: https://toobnix.org/w/jrZezGxN7xhH9gjfEC3Ux6
 :TRANSCRIPT_URL: https://media.emacsconf.org/2024/emacsconf-2024-hyperbole--fun-things-with-gnu-hyperbole--mats-lidell--main.vtt
 :SPEAKERS: Mats Lidell
+:DURATION: 14:09
 :SERIES: EmacsConf 2024
 :END:
+
+EmacsConf 2024: Fun things with GNU Hyperbole - Mats Lidell (he/him)
+https://emacsconf.org/2024/talks/hyperbole
+
+00:00.000 Introduction
+00:41.299 The action key and the assist key
+02:22.840 Composing an e-mail
+03:44.600 Inserting implicit links
+06:03.411 Window grid
+11:19.720 Select a thing
+12:33.818 Web search
+
+You can view this and other resources using free/libre software at https://emacsconf.org/2024/talks/hyperbole. During the conference, you can ask questions via the Etherpad or through IRC (https://chat.emacsconf.org/?join=emacsconf , or emacsconf on irc.libera.chat). Afterwards, check the talk page at https://emacsconf.org/2024/talks/hyperbole for notes and contact information.
+
+This video is available under the terms of the Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license.
+
 * Q&A: Fun things with GNU Hyperbole  :answers:emacsconf:emacsconf2024:
 :PROPERTIES:
 :DATE: 2024-12-08
@@ -403,8 +511,22 @@ DAP mode is a powerful tool for debugging your code within Emacs. By leveraging 
 :TOOBNIX_URL: https://toobnix.org/w/jrZezGxN7xhH9gjfEC3Ux6
 :TRANSCRIPT_URL: https://media.emacsconf.org/2024/emacsconf-2024-hyperbole--fun-things-with-gnu-hyperbole--mats-lidell--answers.vtt
 :SPEAKERS: Mats Lidell
+:DURATION: 15:03
 :SERIES: EmacsConf 2024
 :END:
+
+Mats Lidell (he/him)
+
+This is the Q&A for the talk at https://www.youtube.com/watch?v=cFdgpb0TeQo&t=0s .
+
+04:51 Q: How is the log buffer generated?
+05:21 Q: So, the "select a thing" C-c RET is similar to expand-region? How does it behave in codes (functions, class, ...)
+07:09 Q: What is a recent tool that you find exciting to think about using in combination with Hyperbole, or would like to suggest using in combination with it?
+10:00 On Ihor as the new maintainer for Org Mode
+
+You can view this and other resources using free/libre software at https://emacsconf.org/2024/talks/hyperbole .
+This video is available under the terms of the Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license.
+
 * Open mic/pad for quick updates etc.  :emacsconf:emacsconf2024:community:
 :PROPERTIES:
 :DATE: 2024-12-08
@@ -425,8 +547,29 @@ DAP mode is a powerful tool for debugging your code within Emacs. By leveraging 
 :TOOBNIX_URL:
 :TRANSCRIPT_URL: https://media.emacsconf.org/2024/emacsconf-2024-pgmacs--pgmacs-browsing-and-editing-postgresql-databases-from-emacs--eric-marsden--main.vtt
 :SPEAKERS: Eric Marsden
+:DURATION: 13:17
 :SERIES: EmacsConf 2024
 :END:
+
+EmacsConf 2024: PGmacs: browsing and editing PostgreSQL databases from Emacs - Eric Marsden (he/him)
+https://emacsconf.org/2024/talks/pgmacs
+
+00:01.260 Introduction
+01:26.710 Demo
+03:53.960 Deletion
+05:12.880 Export
+05:42.250 HStore
+06:11.510 Connecting to a different database
+06:31.110 SchemaSpy
+07:32.620 Convenience queries
+08:18.850 Emacs as an application development platform
+09:36.250 Extending pgmacs
+11:49.400 Conclusion
+
+You can view this and other resources using free/libre software at https://emacsconf.org/2024/talks/pgmacs . During the conference, you can ask questions via the Etherpad or through IRC (https://chat.emacsconf.org/?join=emacsconf , or emacsconf on irc.libera.chat). Afterwards, check the talk page at https://emacsconf.org/2024/talks/pgmacs for notes and contact information.
+
+This video is available under the terms of the Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license.
+
 * Q&A: PGmacs: browsing and editing PostgreSQL databases from Emacs  :answers:emacsconf:emacsconf2024:
 :PROPERTIES:
 :DATE: 2024-12-08
@@ -436,8 +579,25 @@ DAP mode is a powerful tool for debugging your code within Emacs. By leveraging 
 :TOOBNIX_URL: https://toobnix.org/w/6nLCiZDJECF1uP9fc54gJQ
 :TRANSCRIPT_URL: https://media.emacsconf.org/2024/emacsconf-2024-pgmacs--pgmacs-browsing-and-editing-postgresql-databases-from-emacs--eric-marsden--answers.vtt
 :SPEAKERS: Eric Marsden
+:DURATION: 20:01
 :SERIES: EmacsConf 2024
 :END:
+
+Eric Marsden (he/him)
+
+This is the Q&A for the talk at https://www.youtube.com/watch?v=BLs9gc_MLh0&t=0s .
+
+02:37 Q: Do you know if PGmacs works with TRAMP?
+04:38 Q: How did you come up with this brilliant idea?
+09:26 TRAMP continued
+13:22 Q: Is sqlite-mode also capable of all of this functionality (table relations, etc)? If not, will it be possible to abstract out this functionality from pgmacs somehow?
+15:06 Q: Would it be possible to move it into Emacs tree? Are the maintainers interested in it?
+16:53 Q: What do you use for the in-buffer tables? Vtable?
+18:16 Integrating with Emacs 30?
+
+You can view this and other resources using free/libre software at https://emacsconf.org/2024/talks/pgmacs .
+This video is available under the terms of the Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license.
+
 * Literate programming for the 21st Century  :emacsconf:emacsconf2024:org:OrgBabel:literate:
 :PROPERTIES:
 :DATE: 2024-12-08
@@ -447,8 +607,33 @@ DAP mode is a powerful tool for debugging your code within Emacs. By leveraging 
 :TOOBNIX_URL: https://toobnix.org/w/mNDvUTsr99KV59dkTsZEbb
 :TRANSCRIPT_URL: https://media.emacsconf.org/2024/emacsconf-2024-literate--literate-programming-for-the-21st-century--howard-abrams--main.vtt
 :SPEAKERS: Howard Abrams
+:DURATION: 15:51
 :SERIES: EmacsConf 2024
 :END:
+
+EmacsConf 2024: Literate programming for the 21st Century - Howard Abrams (he/him)
+https://emacsconf.org/2024/talks/literate
+
+00:00.000 Introduction
+01:35.253 Do I still literate?
+03:06.332 Advantages
+04:28.720 Disadvantages
+05:24.133 Ease of typing
+06:24.720 Keep tangled code sync'd
+07:22.501 Code evaluation
+08:19.960 Has that block been eval'd?
+09:05.239 Evaluating code in a subtree
+09:26.872 Evaluating code from a distance
+10:26.020 Navigating by headers
+11:26.794 Navigating by function names
+13:40.480 Why literate programming?
+14:23.166 LP prose isn't comments
+14:55.800 Summary
+
+You can view this and other resources using free/libre software at https://emacsconf.org/2024/talks/literate . During the conference, you can ask questions via the Etherpad or through IRC (https://chat.emacsconf.org/?join=emacsconf , or emacsconf on irc.libera.chat). Afterwards, check the talk page at https://emacsconf.org/2024/talks/literate for notes and contact information.
+
+This video is available under the terms of the Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license.
+
 * An example of a cohesive student workflow in Emacs  :emacsconf:emacsconf2024:workflow:student:org:
 :PROPERTIES:
 :DATE: 2024-12-08
@@ -458,8 +643,17 @@ DAP mode is a powerful tool for debugging your code within Emacs. By leveraging 
 :TOOBNIX_URL: https://toobnix.org/w/kBVhYEDpS6mvUPWLeQHGn1
 :TRANSCRIPT_URL: https://media.emacsconf.org/2024/emacsconf-2024-students--an-example-of-a-cohesive-student-workflow-in-emacs--daniel-pinkston--main.vtt
 :SPEAKERS: Daniel Pinkston
+:DURATION: 08:26
 :SERIES: EmacsConf 2024
 :END:
+
+Daniel Pinkston (he/him)
+
+https://emacsconf.org/2024/talks/students
+
+You can view this and other resources using free/libre software at https://emacsconf.org/2024/talks/students .
+This video is available under the terms of the Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license.
+
 * Q&A: An example of a cohesive student workflow in Emacs  :answers:emacsconf:emacsconf2024:
 :PROPERTIES:
 :DATE: 2024-12-08
@@ -469,8 +663,28 @@ DAP mode is a powerful tool for debugging your code within Emacs. By leveraging 
 :TOOBNIX_URL: https://toobnix.org/w/tL6A2r56AJ89K2yuxqQNXe
 :TRANSCRIPT_URL: https://media.emacsconf.org/2024/emacsconf-2024-students--an-example-of-a-cohesive-student-workflow-in-emacs--daniel-pinkston--answers.vtt
 :SPEAKERS: Daniel Pinkston
+:DURATION: 19:18
 :SERIES: EmacsConf 2024
 :END:
+
+Daniel Pinkston (he/him)
+
+This is the Q&A for the talk at https://www.youtube.com/watch?v=7WTIKv5g6mw&t=0s .
+
+00:38 Q: Do you have any thoughts about the process of recording something for a conference?
+02:23 Q: I use org-roam for notes and find it very useful - have you considered it?
+03:40 Q: Do you use the Getting Things Done methodology as part of your Org workflow?
+05:58 Q: org-fc and org-drill are emacs org mode centric flash card solutions, have you looked into them?
+07:27 Q: What do other students think about your approach - and what are they doing instead (if anything)? And your teachers - what do they think?
+11:25 Q: What was your biggest source of frustration/friction/confusion when getting started with Emacs?
+11:48 Q: How did you come across Emacs? What got you into it?
+13:53 Q: What the situation with respect to "mobile" use (if ever that's applicable)? (yes, Orgzly...using that?)
+15:21 Q: Has using emacs led to expanded interest in programming/computer science?
+16:40 Q: How does interaction with others work in technical terms?
+
+You can view this and other resources using free/libre software at https://emacsconf.org/2024/talks/students .
+This video is available under the terms of the Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license.
+
 * So you want to be an Emacs-fluencer?  :emacsconf:emacsconf2024:video:sharing:
 :PROPERTIES:
 :DATE: 2024-12-08
@@ -480,8 +694,36 @@ DAP mode is a powerful tool for debugging your code within Emacs. By leveraging 
 :TOOBNIX_URL: https://toobnix.org/w/a8CwD5Svj5AeX3rdzLxyP7
 :TRANSCRIPT_URL: https://media.emacsconf.org/2024/emacsconf-2024-sharing--so-you-want-to-be-an-emacsfluencer--gopar--main.vtt
 :SPEAKERS: Gopar
+:DURATION: 21:40
 :SERIES: EmacsConf 2024
 :END:
+
+EmacsConf 2024: So you want to be an Emacs-fluencer? - Gopar
+https://emacsconf.org/2024/talks/sharing
+
+00:00 Introduction
+00:12 Knowledge grows when it is shared
+00:36 When's the last time you shared something?
+01:07 Sharing Emacs
+02:41 My background
+03:06 Why you should make Emacs videos (or other formats)
+03:44 Beginners
+05:22 Intermediate
+05:56 Advanced
+06:22 Impostor syndrome
+07:28 Process for recording
+08:46 Details: recording
+09:36 Tips: Recording
+13:33 Details: Editing
+14:38 Tips: Editing
+15:44 Details: Uploading
+16:06 Tips: Uploading
+18:06 Your secret sauce
+19:04 Cons of YouTube
+
+You can view this and other resources using free/libre software at https://emacsconf.org/2024/talks/sharing .
+This video is available under the terms of the Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license.
+
 * Transducers: finally, ergonomic data processing for Emacs!  :emacsconf:emacsconf2024:elisp:data:
 :PROPERTIES:
 :DATE: 2024-12-08
@@ -491,8 +733,29 @@ DAP mode is a powerful tool for debugging your code within Emacs. By leveraging 
 :TOOBNIX_URL:
 :TRANSCRIPT_URL: https://media.emacsconf.org/2024/emacsconf-2024-transducers--transducers-finally-ergonomic-data-processing-for-emacs--colin-woodbury--main.vtt
 :SPEAKERS: Colin Woodbury
+:DURATION: 26:41
 :SERIES: EmacsConf 2024
 :END:
+
+EmacsConf 2024: Transducers: finally, ergonomic data processing for Emacs! - Colin Woodbury (he)
+https://emacsconf.org/2024/talks/transducers
+
+00:00 Intro
+00:41 What are transducers?
+03:27 Common issues
+05:47 Transducers
+07:35 Using transducers
+09:52 A more involved example with comp
+11:49 In Emacs
+14:29 Hash tables
+14:58 Clarity
+15:55 How do transducers work?
+20:00 Transducers in the wild - CSV
+26:03 Issues and next steps
+
+You can view this and other resources using free/libre software at https://emacsconf.org/2024/talks/transducers .
+This video is available under the terms of the Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license.
+
 * Q&A: Transducers: finally, ergonomic data processing for Emacs!  :answers:emacsconf:emacsconf2024:
 :PROPERTIES:
 :DATE: 2024-12-08
@@ -502,19 +765,42 @@ DAP mode is a powerful tool for debugging your code within Emacs. By leveraging 
 :TOOBNIX_URL: https://toobnix.org/w/24KYPBvSmvYmsCUC9vAW7A
 :TRANSCRIPT_URL: https://media.emacsconf.org/2024/emacsconf-2024-transducers--transducers-finally-ergonomic-data-processing-for-emacs--colin-woodbury--answers.vtt
 :SPEAKERS: Colin Woodbury
+:DURATION: 25:23
 :SERIES: EmacsConf 2024
 :END:
+
+Colin Woodbury (he)
+
+This is the Q&A for the talk at https://www.youtube.com/watch?v=0FTBMyLkPFw&t=0s .
+
+01:09 Q: When I tried comparing transducers.el to cl-lib and dash (benchmark-compiled), I got the following results
+05:40 Q: Do you know of any theoretical texts on transducers?
+07:04 Q: Did you think about [compiler features, macros] viz your cl, fennel, elisp, porting of your transducers?
+08:16 Q: Does t-buffer-read provide a lazy stream that's linewise, or charwise, or do something else entirely?
+09:09 Q: Can the Elisp library be combined with the stream.el API or seq in general?
+11:47 Q: How does one debug a t-comp expression? Can you single step and see intermediate results of the different statements you declare?
+14:42 Q: Is there a path for transducers to enable elisp processing of otherwise overly large datasets as if just normal Emacs \"buffers\" (i.e. just pulling one thing at a time so essentially stream-like under the hood but buffer-like in interface), with none of the usual perf issues with a traditional buffer structure?
+16:51 Q: Is there an option to read a csv/json and produce an alist or plist instead of a hash table for an entry?
+17:50 Q: Is the common lisp version ready for 'production' use? Is it complete enough and the API stable enough?
+18:17 Q: Do we need a pre-written \"t-\" version for every already existing reducing function like + or is there a function to construct them from already defined reducer 2-arg functions?
+20:26 Q: Is the compelling argument for transducers is that it's a better abstraction?
+
+You can view this and other resources using free/libre software at https://emacsconf.org/2024/talks/transducers .
+This video is available under the terms of the Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license.
+
 * Sunday closing remarks  :emacsconf:emacsconf2024:
 :PROPERTIES:
 :DATE: 2024-12-08
 :URL: https://emacsconf.org/2024/talks/sun-close
 :MEDIA_URL: https://media.emacsconf.org/2024/emacsconf-2024-sun-close--sunday-closing-remarks--main.webm
-:YOUTUBE_URL:
+:YOUTUBE_URL: https://www.youtube.com/live/eqVb1x9BhDU?si=pPmGiY1_0Ufq3snq&t=14726
 :TOOBNIX_URL:
 :TRANSCRIPT_URL: https://media.emacsconf.org/2024/emacsconf-2024-sun-close--sunday-closing-remarks--main.vtt
-:SPEAKERS:
+:SPEAKERS: Leo Vivier, Sacha Chua, Corwin Brust, FlowyCoder
+:DURATION: 01:59
 :SERIES: EmacsConf 2024
 :END:
+
 * Q&A: Literate programming for the 21st Century  :answers:emacsconf:emacsconf2024:
 :PROPERTIES:
 :DATE: 2024-12-08
@@ -524,8 +810,34 @@ DAP mode is a powerful tool for debugging your code within Emacs. By leveraging 
 :TOOBNIX_URL: https://toobnix.org/w/24cX5V5z399Ym6QJua8Xbn
 :TRANSCRIPT_URL: https://media.emacsconf.org/2024/emacsconf-2024-literate--literate-programming-for-the-21st-century--howard-abrams--answers.vtt
 :SPEAKERS: Howard Abrams
+:DURATION: 22:43
 :SERIES: EmacsConf 2024
 :END:
+
+Howard Abrams (he/him)
+
+This is the Q&A for the talk at https://www.youtube.com/watch?v=9eEtPnTknhQ&t=0s .
+
+02:07 Q: What's the largest code base you've ever tackled with the literate approach (esp. Emacs + Org-mode)?
+03:58 Q: Have you ever used org-transclusion?
+04:08 Q: What is your usage of dynamic blocks in such workflows?
+04:48 Q: Is the minibuffer being deliberately hidden in this video?
+05:17 Q: What's your take on Emacs+Org vs. Jupyter notebooks (for interactive programming)?
+07:07 Q: Do you think any programming language is more suited to literate programming than another?
+08:21 Q: Do you use inline org function calls and org babel library and such?
+09:36 Q: How do you handle the cases where org markup may sometimes interfere with some of the code?
+11:06 Q: You said at the start that literate didn't catch on in corporate DevOps - why not?
+11:29 Q: Why not that full stack on Markdown?
+12:22 Corwin's aside on orgvm
+14:49 Org and Markdown fragmentation
+16:17 Q: How does your management of "TODOs" (projects/tasks) interact with this literate mindset, any insightful things you do on that front?
+17:30 Q: Do you LP also on larger projects?
+18:38 Q: Have you used Cucumber/Gherkin/BDD and do you think it has a strong overlap to what you talked about here?
+19:54 Q: What granularity are you looking for re your org files and contents, with respect to a codebase that it tangles to, or in non-coding contexts?
+
+You can view this and other resources using free/libre software at https://emacsconf.org/2024/talks/literate .
+This video is available under the terms of the Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license.
+
 * Writing academic papers in Org-Roam  :emacsconf:emacsconf2024:org:OrgRoam:academic:research:writing:
 :PROPERTIES:
 :DATE: 2024-12-07
@@ -535,8 +847,27 @@ DAP mode is a powerful tool for debugging your code within Emacs. By leveraging 
 :TOOBNIX_URL: https://toobnix.org/w/9LYtH8MWCMZ7N4DNteys17
 :TRANSCRIPT_URL: https://media.emacsconf.org/2024/emacsconf-2024-papers--writing-academic-papers-in-orgroam--vincent-conus--main.vtt
 :SPEAKERS: Vincent Conus
+:DURATION: 10:07
 :SERIES: EmacsConf 2024
 :END:
+
+https://emacsconf.org/2024/talks/papers
+
+00:00 Introduction
+00:20 What?
+01:21 Why?
+02:16 Challenges
+03:35 Basic Org to PDF
+04:08 How to LaTeX properly, though?
+04:32 LaTeX-specific headers
+04:54 Using a formatting class file
+05:31 Using a different LaTeX command
+06:13 References links for bibliography
+07:09 Examples
+07:41 Tags
+
+You can view this and other resources using free/libre software at https://emacsconf.org/2024/talks/papers .
+This video is available under the terms of the Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license.
 
 * Q&A: Writing academic papers in Org-Roam  :answers:emacsconf:emacsconf2024:org:OrgRoam:academic:research:writing:
 :PROPERTIES:
@@ -547,8 +878,26 @@ DAP mode is a powerful tool for debugging your code within Emacs. By leveraging 
 :TOOBNIX_URL: https://toobnix.org/w/tC5hnamhUC8PJrrMdXsLXJ
 :TRANSCRIPT_URL: https://media.emacsconf.org/2024/emacsconf-2024-papers--writing-academic-papers-in-orgroam--vincent-conus--answers.vtt
 :SPEAKERS: Vincent Conus
+:DURATION: 19:00
 :SERIES: EmacsConf 2024
 :END:
+
+Vincent Conus (he/him)
+
+This is the Q&A for the talk at https://www.youtube.com/watch?v=BKQcgpZS2GM&t=0s .
+
+01:23 Q: I'd be interested how to start this journey of writing academic papers in Org-Roam when not having used Emacs Org-Mode yet? Thanks!
+02:35 Q: How about connecting Emacs Org-Roam to Zotero? Is that something you have experience with?
+02:55 Q: Out of curiosity, how do you manage your bibliography? Do you do it from inside Emacs, or using a separate program like Zotero?
+06:22 Q: How do you start a new document?
+07:41 Q: What do you think of using citar with org-roam-bibtex?
+09:26 Q: Most academic journals insist that papers are formatted in their own custom LaTeX documentclass.  Does org-roam make it easy to do that?
+14:21 Q: Are you using zotra or org-ref?
+14:45 Q: How much of this is tied to org-roam specifically?
+
+You can view this and other resources using free/libre software at https://emacsconf.org/2024/talks/papers .
+This video is available under the terms of the Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license.
+
 * Managing writing project metadata with org-mode  :emacsconf:emacsconf2024:org:writing:project:
 :PROPERTIES:
 :DATE: 2024-12-07
@@ -558,8 +907,36 @@ DAP mode is a powerful tool for debugging your code within Emacs. By leveraging 
 :TOOBNIX_URL: https://toobnix.org/w/dEiXtAr3p16hD3atJk78Ex
 :TRANSCRIPT_URL: https://media.emacsconf.org/2024/emacsconf-2024-project--managing-writing-project-metadata-with-orgmode--blaine-mooers--main.vtt
 :SPEAKERS: Blaine Mooers
+:DURATION: 21:37
 :SERIES: EmacsConf 2024
 :END:
+
+EmacsConf 2024: Managing writing project metadata with org-mode - Blaine Mooers (he/him)
+https://emacsconf.org/2024/talks/project
+
+00:00 Introduction
+02:20 Starting a new writing project
+04:05 The writing log
+04:36 Starting the research paper
+05:25 Outline
+06:11 Another kind of writing log - accountability
+07:17 Reducing switching costs
+07:46 Motivation
+09:31 Overview of the writing log
+10:17 LaTeX preamble in opened drawer
+10:42 Informative header
+12:21 Four workflows
+13:28 Project initiation workflow
+14:56 Daily workflow
+17:05 Metadata and metacognition
+17:48 Periodic assessment workflow
+18:56 Project closeout workflow
+19:49 Conclusions
+20:34 Acknowledgements
+
+You can view this and other resources using free/libre software at https://emacsconf.org/2024/talks/project .
+This video is available under the terms of the Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license.
+
 * Q&A: Managing writing project metadata with org-mode  :answers:emacsconf:emacsconf2024:org:writing:project:
 :PROPERTIES:
 :DATE: 2024-12-07
@@ -569,8 +946,29 @@ DAP mode is a powerful tool for debugging your code within Emacs. By leveraging 
 :TOOBNIX_URL: https://toobnix.org/w/oNdkFWvoxz8mXXtBTCiruv
 :TRANSCRIPT_URL: https://media.emacsconf.org/2024/emacsconf-2024-project--managing-writing-project-metadata-with-orgmode--blaine-mooers--answers.vtt
 :SPEAKERS: Blaine Mooers
+:DURATION: 01:02:40
 :SERIES: EmacsConf 2024
 :END:
+
+Blaine Mooers (he/him)
+
+This is the Q&A for the talk at https://www.youtube.com/watch?v=Wn38JmqyTbk&t=0s .
+
+01:38 Q: what does 0573 means in your init. file name?
+03:09 Q: What does Zettelkasten mean?
+05:41 Q: How many papers are you writing at the same time?
+10:42 Q: How you capture those ideas when when you are away from Emacs?
+14:50 Q: What if an ideas does not belong to any current working manuscript?
+16:28 Q: If there were one habit from your process (referencing your extensive flow chart) that you want active learners/professional researchers to adopt, which would it be and why?
+18:16 Off-stream Q&A
+33:01 Time Power
+48:32 Do you use a lot of TeX inside Org Mode?
+52:48 Org Mode versus Markdown
+56:28 Raku
+
+You can view this and other resources using free/libre software at https://emacsconf.org/2024/talks/project .
+This video is available under the terms of the Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license.
+
 * Gypsum: my clone of Emacs and ELisp written in Scheme  :emacsconf:emacsconf2024:scheme:
 :PROPERTIES:
 :DATE: 2024-12-07
@@ -580,8 +978,17 @@ DAP mode is a powerful tool for debugging your code within Emacs. By leveraging 
 :TOOBNIX_URL: https://toobnix.org/w/8yqjkevWPH7RSRzPpHb5JB
 :TRANSCRIPT_URL: https://media.emacsconf.org/2024/emacsconf-2024-gypsum--gypsum-my-clone-of-emacs-and-elisp-written-in-scheme--ramin-honary--main.vtt
 :SPEAKERS: Ramin Honary
+:DURATION: 24:35
 :SERIES: EmacsConf 2024
 :END:
+
+EmacsConf 2024: Gypsum: my clone of Emacs and ELisp written in Scheme - Ramin Honary (he/him)
+https://emacsconf.org/2024/talks/gypsum
+
+You can view this and other resources using free/libre software at https://emacsconf.org/2024/talks/gypsum . During the conference, you can ask questions via the Etherpad or through IRC (https://chat.emacsconf.org/?join=emacsconf , or emacsconf on irc.libera.chat). Afterwards, check the talk page at https://emacsconf.org/2024/talks/gypsum for notes and contact information.
+
+This video is available under the terms of the Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license.
+
 * Q&A: Gypsum: my clone of Emacs and ELisp written in Scheme  :answers:emacsconf:emacsconf2024:scheme:
 :PROPERTIES:
 :DATE: 2024-12-07
@@ -591,8 +998,26 @@ DAP mode is a powerful tool for debugging your code within Emacs. By leveraging 
 :TOOBNIX_URL: https://toobnix.org/w/2c8K6cXhofT9dRgwcSrugm
 :TRANSCRIPT_URL: https://media.emacsconf.org/2024/emacsconf-2024-gypsum--gypsum-my-clone-of-emacs-and-elisp-written-in-scheme--ramin-honary--answers.vtt
 :SPEAKERS: Ramin Honary
+:DURATION: 23:37
 :SERIES: EmacsConf 2024
 :END:
+
+Ramin Honary (he/him)
+
+This is the Q&A for the talk at https://www.youtube.com/watch?v=gLEFuDolR6Y&t=0s .
+
+03:09 Q: I'm curious to know how the hell guile-emacs deals with all of the dynamically scoped modules out there. Is there any effort to automatically modularize and namespace stuff?
+05:23 Q: Would it be possible to support a GUI toolkit other than GTK?
+06:45 Q: Do you plan to provide improvements to Elisp as a language, or is the focus on a compatibility layer to facilitate doing all new extensions, etc. in Scheme?
+08:29 Q: Can we consider a translator like utility to convert elisp to scheme, once guile-emacs becomes a reality?
+10:54 Q: Why is being able to interpret all of \`init.el\` an useful goal?
+12:08 Q: What is the plan to handle elisp packages that depend on 3rd party/external libraries? (libgit/magit or rg/ripgrep)?
+15:21 Q: Not really a question, but how about Schemacs as a name?
+16:45 Q: Why is it not feasible for the Emacs layer that interprets Emacs Lisp (the core in C) ot have a Scheme interpreter, instead of using Guile?
+
+You can view this and other resources using free/libre software at https://emacsconf.org/2024/talks/gypsum .
+This video is available under the terms of the Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license.
+
 * The Future of Org  :emacsconf:emacsconf2024:org:
 :PROPERTIES:
 :DATE: 2024-12-07
@@ -602,8 +1027,45 @@ DAP mode is a powerful tool for debugging your code within Emacs. By leveraging 
 :TOOBNIX_URL: https://toobnix.org/w/2DAHY6wCAXnpeSqwUHaidv
 :TRANSCRIPT_URL: https://media.emacsconf.org/2024/emacsconf-2024-org-update--the-future-of-org--ihor-radchenko--main.vtt
 :SPEAKERS: Ihor Radchenko
+:DURATION: 39:34
 :SERIES: EmacsConf 2024
 :END:
+
+EmacsConf 2024: The Future of Org - Ihor Radchenko
+https://emacsconf.org/2024/talks/org-update
+
+00:00 Introduction
+01:14 Message from Bastien Guerry
+03:15 My step-by-step journey to Org maintenance
+05:09 Priorities for Org maintenance
+08:11 Modular Org
+08:41 Slim down large Org libraries
+10:00 Upstream generic Org libraries
+11:25 Use modern Emacs APIs and libraries
+13:13 Improve Org parser APIs
+14:45 Improve Org babel APIs
+15:57 Beyond Org code and Emacs: third-party packages, apps, parsers
+16:31 org-contrib
+17:37 Org orphanage
+18:25 Mobile apps and parsers
+20:23 Long-standing syntax problems
+21:56 New syntax features
+23:30 New features I hope to see in Org
+25:54 Org community
+26:01 Org community forums - Org mailing list
+27:17 Org mailing list - world
+30:05 Contribute ideas!
+31:01 How much can a single person do?
+31:35 Contribute code!
+33:02 Why contribute?
+35:40 Benefits for code contributors
+37:41 Contributing as non-programmer
+38:30 Got no free time, but still want to help?
+39:12 Thank you
+
+You can view this and other resources using free/libre software at https://emacsconf.org/2024/talks/org-update .
+This video is available under the terms of the Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license.
+
 * Q&A: The Future of Org  :answers:emacsconf:emacsconf2024:org:
 :PROPERTIES:
 :DATE: 2024-12-07
@@ -613,8 +1075,27 @@ DAP mode is a powerful tool for debugging your code within Emacs. By leveraging 
 :TOOBNIX_URL: https://toobnix.org/w/jXXgJdCBjM6C1MFqrmqFtQ
 :TRANSCRIPT_URL: https://media.emacsconf.org/2024/emacsconf-2024-org-update--the-future-of-org--ihor-radchenko--answers.vtt
 :SPEAKERS: Ihor Radchenko
+:DURATION: 30:39
 :SERIES: EmacsConf 2024
 :END:
+
+Ihor Radchenko
+
+This is the Q&A for the talk at https://www.youtube.com/watch?v=2RJYcqJsldY&t=0s .
+
+01:42 Q: Is the track-changes item about the org-element parser?
+02:52 Q: Could you please keep IRC alive? I prefer it to Matrix
+04:07 Q: Is there any plan for adding support for other modalities of notes like handwritten,  audio, etc.?
+08:11 Q: WRT IETF standardization, have you looked at Karl Voit's OrgDown?
+09:18 Q: About a year ago we discussed switching GNU documentation from texinfo to org. Do you still consider this?
+12:26 Community
+25:28 Off-stream Q&A
+26:08 microemacs
+29:31 Q: Is there/could there be a resource with which to recommend particularly well written codebases for review by others?
+
+You can view this and other resources using free/libre software at https://emacsconf.org/2024/talks/org-update .
+This video is available under the terms of the Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license.
+
 * An experimental Emacs core in Rust  :emacsconf:emacsconf2024:rust:
 :PROPERTIES:
 :DATE: 2024-12-07
@@ -624,8 +1105,49 @@ DAP mode is a powerful tool for debugging your code within Emacs. By leveraging 
 :TOOBNIX_URL: https://toobnix.org/w/wYBo5m5jsiu1JUfcHzdhhu
 :TRANSCRIPT_URL: https://media.emacsconf.org/2024/emacsconf-2024-rust--an-experimental-emacs-core-in-rust--troy-hinckley--main.vtt
 :SPEAKERS: Troy Hinckley
+:DURATION: 20:06
 :SERIES: EmacsConf 2024
 :END:
+
+Troy Hinckley
+
+https://emacsconf.org/2024/talks/rust
+
+00:00.000 Rune
+00:17.082 The Emacs core
+00:57.168 Why create this?
+01:55.865 How does this compare to other projects?
+03:01.315 Multi-threading
+03:32.441 Multi-threading elisp
+03:47.648 No-GIL method
+04:32.638 Actors
+04:51.252 Multi-threading elisp (functions)
+05:34.680 Caveats
+05:57.090 Multi-threading elisp (data)
+06:38.249 Copy values to other threads on demands
+06:57.884 Multi-threading elisp (buffers)
+08:11.903 Would this actually be useful?
+08:46.919 Precise garbage collection
+09:16.537 How Emacs used to deal with roots
+10:38.713 Conservative stack scanning
+11:00.157 Movable objects
+12:38.829 How Rust makes precise GC easy
+14:13.227 Other Rust niceties: proc macro
+15:14.560 sum types
+16:01.041 Regex
+16:16.052 Parsers
+16:27.210 Other changes: GUI first, terminal second
+16:58.919 Off-screen cursor
+17:16.305 Image flow
+17:24.440 Testing
+18:36.345 Status
+19:07.247 Next directions
+19:22.739 How to get involved
+
+You can view this and other resources using free/libre software at https://emacsconf.org/2024/talks/rust . During the conference, you can ask questions via the Etherpad or through IRC (https://chat.emacsconf.org/?join=emacsconf , or emacsconf-dev on irc.libera.chat). Afterwards, check the talk page at https://emacsconf.org/2024/talks/rust for notes and contact information.
+
+This video is available under the terms of the Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license.
+
 * Q&A: An experimental Emacs core in Rust  :answers:emacsconf:emacsconf2024:rust:
 :PROPERTIES:
 :DATE: 2024-12-07
@@ -637,6 +1159,29 @@ DAP mode is a powerful tool for debugging your code within Emacs. By leveraging 
 :SPEAKERS: Troy Hinckley
 :SERIES: EmacsConf 2024
 :END:
+
+Troy Hinckley
+
+This is the Q&A for the talk at https://www.youtube.com/watch?v=629ct-cBwSI&t=0s .
+
+00:08 Q: Have you considered using CRDTs to share buffers between threads and merge any concurrent edits automatically?
+01:05 Q: Why hosted on GitHub? GitHub is nonfree. Is it possible to report bugs/send patches without using GitHub?
+01:22 Q: Do you think it's possible to achieve 100% compatibility with current Emacs code?
+02:11 Q: so you're re-implementing elisp in rust? have you considered using a more modern lisp, such as scheme? [11:03]
+04:01 Q: Do you have specific features from the Rust compiler that are missing (or are nightly-only) that you would take advantage of?
+05:26 Q: Can remacs be reused?
+07:23 Q: What are you thoughts on the GUI layer. Any plans on how to reimplement it?
+08:21 Q: If money could fix the problem, how much would it cost to ship this with feature parity before 2026?
+09:28 GObject implementation
+09:56 Q: elisp is implemented in c, so if you're not implementing elisp in rust, are you using/keeping the c implementation of elisp?
+10:42 Clarifying rewriting Elisp in Rust
+12:57 Q: Will your Rust implementation also be able to run Emacs bytecode? Or are you implementing it at the Lisp level?
+14:20 Q: Is it possible to bootstrap with just the bytecode interpreter?
+17:03 What would it take to bootstrap Guile in Rune?
+
+You can view this and other resources using free/libre software at https://emacsconf.org/2024/talks/rust .
+This video is available under the terms of the Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license.
+
 * Colour your Emacs with ease  :emacsconf:emacsconf2024:theming:color:
 :PROPERTIES:
 :DATE: 2024-12-07
@@ -646,8 +1191,23 @@ DAP mode is a powerful tool for debugging your code within Emacs. By leveraging 
 :TOOBNIX_URL: https://toobnix.org/w/oAGLWntah15B4XHLX19Uqc
 :TRANSCRIPT_URL: https://media.emacsconf.org/2024/emacsconf-2024-color--colour-your-emacs-with-ease--ryota--main.vtt
 :SPEAKERS: Ryota Sawada
+:DURATION: 11:48
 :SERIES: EmacsConf 2024
 :END:
+
+EmacsConf 2024: Colour your Emacs with ease - Ryota Sawada (he/him)
+https://emacsconf.org/2024/talks/color
+
+00:00 Introduction
+00:58 What colour do you like?
+03:42 Colour spaces: HSL, LCH , and more
+06:25 color.el and ct.el
+08:08 Hasliberg theme
+11:06 Wrap up
+
+You can view this and other resources using free/libre software at https://emacsconf.org/2024/talks/color .
+This video is available under the terms of the Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license.
+
 * Q&A: Colour your Emacs with ease  :answers:emacsconf:emacsconf2024:theming:color:
 :PROPERTIES:
 :DATE: 2024-12-07
@@ -657,8 +1217,22 @@ DAP mode is a powerful tool for debugging your code within Emacs. By leveraging 
 :TOOBNIX_URL: https://toobnix.org/w/6JccKrjCLLxcpRuhqScfn2
 :TRANSCRIPT_URL: https://media.emacsconf.org/2024/emacsconf-2024-color--colour-your-emacs-with-ease--ryota--answers.vtt
 :SPEAKERS: Ryota Sawada
+:DURATION: 14:31
 :SERIES: EmacsConf 2024
 :END:
+
+Ryota Sawada (he/him)
+
+This is the Q&A for the talk at https://www.youtube.com/watch?v=w1Khu7G0MFg&t=0s .
+
+01:23 Why colour?
+03:04 What motivated you to learn Elisp and get into the Emacs core?
+06:35 Q: Is there any intention to create a library for working with more experimental color spaces? Pulling code out of Hasliberg for this purpose, perhaps?
+10:51 Q: Can we have a dark as well as light theme variations made from your theme?
+
+You can view this and other resources using free/libre software at https://emacsconf.org/2024/talks/color .
+This video is available under the terms of the Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license.
+
 * p-search: a local search engine in Emacs  :emacsconf:emacsconf2024:search:
 :PROPERTIES:
 :DATE: 2024-12-07
@@ -668,8 +1242,30 @@ DAP mode is a powerful tool for debugging your code within Emacs. By leveraging 
 :TOOBNIX_URL: https://toobnix.org/w/5dxttHedexYoCLxpT4VyMT
 :TRANSCRIPT_URL: https://media.emacsconf.org/2024/emacsconf-2024-p-search--psearch-a-local-search-engine-in-emacs--zac-romero--main.vtt
 :SPEAKERS: Zac Romero
+:DURATION: 22:42
 :SERIES: EmacsConf 2024
 :END:
+
+EmacsConf 2024: p-search: a local search engine in Emacs - Zac Romero
+https://emacsconf.org/2024/talks/p-search
+
+00:00.000 Search in daily workflows
+01:24.200 Problems with editor search tools
+03:58.233 Information retrieval
+04:34.296 Search engine in Emacs: the index
+06:21.757 Search engine in Emacs: Ranking
+06:43.553 tf-idf: term-frequency x inverse-document-frequency
+07:41.160 BM25
+08:41.200 Searching with p-search
+10:41.457 Flight AF 447
+16:06.771 Modifying priors
+20:40.405 Importance
+21:38.560 Complement or inverse
+
+You can view this and other resources using free/libre software at https://emacsconf.org/2024/talks/p-search . During the conference, you can ask questions via the Etherpad or through IRC (https://chat.emacsconf.org/?join=emacsconf , or emacsconf on irc.libera.chat). Afterwards, check the talk page at https://emacsconf.org/2024/talks/p-search for notes and contact information.
+
+This video is available under the terms of the Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license.
+
 * Q&A: p-search: a local search engine in Emacs  :answers:emacsconf:emacsconf2024:search:
 :PROPERTIES:
 :DATE: 2024-12-07
@@ -679,8 +1275,42 @@ DAP mode is a powerful tool for debugging your code within Emacs. By leveraging 
 :TOOBNIX_URL: https://toobnix.org/w/sh5Qns9GeqHwFwbTEMhckh
 :TRANSCRIPT_URL: https://media.emacsconf.org/2024/emacsconf-2024-p-search--psearch-a-local-search-engine-in-emacs--zac-romero--answers.vtt
 :SPEAKERS: Zac Romero
+:DURATION: 46:21
 :SERIES: EmacsConf 2024
 :END:
+
+Zac Romero
+
+This is the Q&A for the talk at https://www.youtube.com/watch?v=WwgqbT2rnHI&t=0s .
+
+00:22 Q: Do you think a reduced version of this functionality could be integrated into isearch?
+02:45 Q: Any idea how this would work with personal information like Zettlekastens?
+04:22 Q: How good does the search work for synonyms especially if you use different languages?
+05:15 Plurals
+05:33 Different languages
+06:40 Q: When searching by author I know authors may setup a new machine and not put the exact same information. Is this doing anything to combine those into one author?
+08:50 Q: Have you thought about integrating results from using cosine similarity with a deep-learning based vector embedding?
+10:01 Q: Is it possible to save/bookmark searches or search templates so they can be used again and again?
+12:02 Q: You mentioned about candidate generators. Could you explain about to what the score is assigned to?
+16:32 Q: easy filtering with orderless - did this or something like this help or infulce the design of psearch?
+17:56 Q: Notmuch with the p-search UI
+19:13 Info
+22:14 project.el integration
+22:56 Q: How happy are you with the interface?
+25:50 gptel
+28:01 Saving a search
+28:41 Workflows
+31:27 Transient and configuration
+32:25 Problem space
+33:39 consult-omni
+33:52 orderless
+35:46 User interface
+40:04 Q: Do you think the Emacs being kinda slow will get in the way of being able to run a lot of scoring algorithms?
+43:08 Boundary conditions
+
+You can view this and other resources using free/libre software at https://emacsconf.org/2024/talks/p-search .
+This video is available under the terms of the Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license.
+
 * Exploring shared philosophies in Julia and Emacs  :emacsconf:emacsconf2024:julia:
 :PROPERTIES:
 :DATE: 2024-12-07
@@ -690,8 +1320,17 @@ DAP mode is a powerful tool for debugging your code within Emacs. By leveraging 
 :TOOBNIX_URL: https://toobnix.org/w/eftuibSfVSWF4okoG5ChfC
 :TRANSCRIPT_URL: https://media.emacsconf.org/2024/emacsconf-2024-julia--exploring-shared-philosophies-in-julia-and-emacs--gabriele-bozzola--main.vtt
 :SPEAKERS: Gabriele Bozzola
+:DURATION: 09:16
 :SERIES: EmacsConf 2024
 :END:
+
+EmacsConf 2024: Exploring shared philosophies in Julia and Emacs - Gabriele Bozzola (he/him/his)
+https://emacsconf.org/2024/talks/julia
+
+You can view this and other resources using free/libre software at https://emacsconf.org/2024/talks/julia . During the conference, you can ask questions via the Etherpad or through IRC (https://chat.emacsconf.org/?join=emacsconf , or emacsconf on irc.libera.chat). Afterwards, check the talk page at https://emacsconf.org/2024/talks/julia for notes and contact information.
+
+This video is available under the terms of the Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license.
+
 * Q&A: Exploring shared philosophies in Julia and Emacs  :answers:emacsconf:emacsconf2024:julia:
 :PROPERTIES:
 :DATE: 2024-12-07
@@ -701,8 +1340,24 @@ DAP mode is a powerful tool for debugging your code within Emacs. By leveraging 
 :TOOBNIX_URL: https://toobnix.org/w/8j563gDQLnQ624TLeF1PYA
 :TRANSCRIPT_URL: https://media.emacsconf.org/2024/emacsconf-2024-julia--exploring-shared-philosophies-in-julia-and-emacs--gabriele-bozzola--answers.vtt
 :SPEAKERS: Gabriele Bozzola
+:DURATION: 08:42
 :SERIES: EmacsConf 2024
 :END:
+
+Gabriele Bozzola (he/him/his)
+
+This is the Q&A for the talk at https://www.youtube.com/watch?v=RTVXaDR697k&t=0s .
+
+00:00 Q: Do you have any suggestions for interactive debugging of Julia code in Emacs?
+01:15 Q: Can you call out something that Julia has that Emacs does not, and which could benefit Emacs?
+02:38 Q: Is there a way to use lisp syntax with Julia, like hy for python or lisp flavoured erlang?
+03:51 Q: Have you tried the Julia Snail package for Emacs? It tries to be like SLY/SLIME for Common Lisp.
+04:26 Q: Is there a data inspector for a Julia REPL available that you can use in Emacs?
+05:24 Q: Have you tried literate programming Julia (using Org babel or some other means) in Emacs?
+
+You can view this and other resources using free/libre software at https://emacsconf.org/2024/talks/julia .
+This video is available under the terms of the Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license.
+
 * My journey of finding and creating the “perfect” Emacs theme  :emacsconf:emacsconf2024:theming:
 :PROPERTIES:
 :DATE: 2024-12-07
@@ -712,8 +1367,27 @@ DAP mode is a powerful tool for debugging your code within Emacs. By leveraging 
 :TOOBNIX_URL: https://toobnix.org/w/i1zSnandCQWd8688pyxhKr
 :TRANSCRIPT_URL: https://media.emacsconf.org/2024/emacsconf-2024-theme--my-journey-of-finding-and-creating-the-perfect-emacs-theme--metrowind--main.vtt
 :SPEAKERS: MetroWind
+:DURATION: 11:27
 :SERIES: EmacsConf 2024
 :END:
+
+EmacsConf 2024: My journey of finding and creating the “perfect” Emacs theme - MetroWind (he/him)
+https://emacsconf.org/2024/talks/theme
+
+00:02.140 Introduction
+00:48.820 Deviant
+01:15.640 FlucUI
+02:51.910 Lab
+05:25.090 NotInk: grayscale
+06:13.930 Random theme
+06:50.020 Monte Carlo
+07:19.780 How to pick a random color palette
+08:12.070 XYZ
+
+You can view this and other resources using free/libre software at https://emacsconf.org/2024/talks/theme . During the conference, you can ask questions via the Etherpad or through IRC (https://chat.emacsconf.org/?join=emacsconf , or emacsconf-gen on irc.libera.chat). Afterwards, check the talk page at https://emacsconf.org/2024/talks/theme for notes and contact information.
+
+This video is available under the terms of the Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license.
+
 * Q&A: My journey of finding and creating the “perfect” Emacs theme  :answers:emacsconf:emacsconf2024:theming:
 :PROPERTIES:
 :DATE: 2024-12-07
@@ -723,8 +1397,22 @@ DAP mode is a powerful tool for debugging your code within Emacs. By leveraging 
 :TOOBNIX_URL: https://toobnix.org/w/sqEJFjcC2KjnPZRmifpqLC
 :TRANSCRIPT_URL: https://media.emacsconf.org/2024/emacsconf-2024-theme--my-journey-of-finding-and-creating-the-perfect-emacs-theme--metrowind--answers.vtt
 :SPEAKERS: MetroWind
+:DURATION: 09:51
 :SERIES: EmacsConf 2024
 :END:
+
+MetroWind (he/him)
+
+This is the Q&A for the talk at https://www.youtube.com/watch?v=GMzQs-pbueU&t=0s .
+
+00:33 Q: When you choose colors based on the same lightness, does it not hurt readability since the eye sees lightness most?
+01:52 Q: For monte-carlo, are all the "random" colors picked using a colorwheel/hue rotation?
+02:43 Q: One area I see emacs able to do themes that is "underused?" is changing the font
+08:53 Q: Have you ever kept any of the random themes that were thrown up?
+
+You can view this and other resources using free/libre software at https://emacsconf.org/2024/talks/theme .
+This video is available under the terms of the Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license.
+
 * Beguiling Emacs: Guile-Emacs relaunched!  :emacsconf:emacsconf2024:guile:
 :PROPERTIES:
 :DATE: 2024-12-07
@@ -734,8 +1422,16 @@ DAP mode is a powerful tool for debugging your code within Emacs. By leveraging 
 :TOOBNIX_URL: https://toobnix.org/w/iizGyFwoAetXBw3Uy67vwj
 :TRANSCRIPT_URL: https://media.emacsconf.org/2024/emacsconf-2024-guile--beguiling-emacs-guileemacs-relaunched--robin-templeton--main.vtt
 :SPEAKERS: Robin Templeton
+:DURATION: 15:57
 :SERIES: EmacsConf 2024
 :END:
+
+EmacsConf 2024: Beguiling Emacs: Guile-Emacs relaunched! - Robin Templeton (they/them)
+https://emacsconf.org/2024/talks/guile
+
+You can view this and other resources using free/libre software at https://emacsconf.org/2024/talks/guile .
+This video is available under the terms of the Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license.
+
 * Q&A: Beguiling Emacs: Guile-Emacs relaunched!  :answers:emacsconf:emacsconf2024:guile:
 :PROPERTIES:
 :DATE: 2024-12-07
@@ -745,8 +1441,25 @@ DAP mode is a powerful tool for debugging your code within Emacs. By leveraging 
 :TOOBNIX_URL: https://toobnix.org/w/9o8V4CJ29rK3Fk4CznSPQ4
 :TRANSCRIPT_URL: https://media.emacsconf.org/2024/emacsconf-2024-guile--beguiling-emacs-guileemacs-relaunched--robin-templeton--answers.vtt
 :SPEAKERS: Robin Templeton
+:DURATION: 20:10
 :SERIES: EmacsConf 2024
 :END:
+
+Robin Templeton (they/them)
+
+This is the Q&A for the talk at https://www.youtube.com/watch?v=yjC162DnsKI&t=0s .
+
+03:01 Q: About fibers: My understanding is that the problem with making Elisp concurrent is that none of the data structures (buffer, cons, vector, window etc) are concurrency-safe.  How do fibers help with this?
+04:28 Q: Do you have a rough idea of how much of Guile is written in C?
+06:19 Q: A Common Lisp implementation for Guile sounds really cool! Is there already work on this underway?
+08:34 Q: Did switching from guile 2 to 3 give any performance benefits?
+10:46 Q: Do you know if the Emacs maintainers are interested in switching to Guile as the engine for Emacs Lisp?
+12:30 Q: Do you think guile-emacs will be able to use or (collaborate with) some of the other awesome projects around Emacs Lisp?
+15:04 Q: SBCL, ...You mentioned Robert Strandh's SICL along with SBCL---does that work help with the implementation of CL in Guile?
+
+You can view this and other resources using free/libre software at https://emacsconf.org/2024/talks/guile .
+This video is available under the terms of the Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license.
+
 * Watering my (digital) plant with Emacs timers  :emacsconf:emacsconf2024:timers:
 :PROPERTIES:
 :DATE: 2024-12-07
@@ -756,8 +1469,25 @@ DAP mode is a powerful tool for debugging your code within Emacs. By leveraging 
 :TOOBNIX_URL: https://toobnix.org/w/kbwz39PxBuNKWcJfr5bGvW
 :TRANSCRIPT_URL: https://media.emacsconf.org/2024/emacsconf-2024-water--watering-my-digital-plant-with-emacs-timers--christopher-howard--main.vtt
 :SPEAKERS: Christopher Howard
+:DURATION: 13:50
 :SERIES: EmacsConf 2024
 :END:
+
+EmacsConf 2024: Watering my (digital) plant with Emacs timers - Christopher Howard (he/him)
+https://emacsconf.org/2024/talks/water
+
+00:02 Introduction
+00:28 What is Astrobotany?
+00:48 What is Gemini?
+01:25 How do you play Astrobotany?
+03:37 Timers
+06:37 The code
+09:05 Managing the plant
+13:09 Conclusion
+
+You can view this and other resources using free/libre software at https://emacsconf.org/2024/talks/water .
+This video is available under the terms of the Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license.
+
 * Committing secrets with git using sops-mode  :emacsconf:emacsconf2024:vc:git:
 :PROPERTIES:
 :DATE: 2024-12-07
@@ -778,8 +1508,31 @@ DAP mode is a powerful tool for debugging your code within Emacs. By leveraging 
 :TOOBNIX_URL: https://toobnix.org/w/hJ11FBLcpEF4cMxMpJi3FE
 :TRANSCRIPT_URL: https://media.emacsconf.org/2024/emacsconf-2024-shell--emacs-as-a-shell--christopher-howard--main.vtt
 :SPEAKERS: Christopher Howard
+:DURATION: 37:13
 :SERIES: EmacsConf 2024
 :END:
+
+EmacsConf 2024: Emacs as a shell - Christopher Howard (he/him)
+https://emacsconf.org/2024/talks/shell
+
+00:02 Introduction
+00:37 What do I mean by shell?
+01:38 What I do not mean
+04:50 What is a shell?
+09:26 Launching external processes
+11:57 Environment variables
+14:54 Processes
+17:00 Redirecting and pipelining input and output
+20:09 Scripts
+21:11 File system management
+23:43 Networking
+24:30 A brief tour of Eshell
+34:21 Login shell
+36:36 Resources
+
+You can view this and other resources using free/libre software at https://emacsconf.org/2024/talks/shell .
+This video is available under the terms of the Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license.
+
 * Elisp and McCLIM  :emacsconf:emacsconf2024:CommonLisp:elisp:
 :PROPERTIES:
 :DATE: 2024-12-07
@@ -789,8 +1542,21 @@ DAP mode is a powerful tool for debugging your code within Emacs. By leveraging 
 :TOOBNIX_URL: https://toobnix.org/w/pfYUAuMPmkTRfBZSgXFtbT
 :TRANSCRIPT_URL: https://media.emacsconf.org/2024/emacsconf-2024-mcclim--elisp-and-mcclim--screwlisp--main.vtt
 :SPEAKERS: screwlisp
+:DURATION: 34:29
 :SERIES: EmacsConf 2024
 :END:
+
+EmacsConf 2024: Elisp and McCLIM - screwlisp - he or e/em/eir (Spivak, male and neuter pronouns are fine)
+https://emacsconf.org/2024/talks/mcclim
+
+00:01 Introduction
+03:21 Calendar
+19:12 Inferior Lisp and McCLIM
+29:10 Putting things together
+
+You can view this and other resources using free/libre software at https://emacsconf.org/2024/talks/mcclim .
+This video is available under the terms of the Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license.
+
 * Q&A: Elisp and McCLIM  :answers:emacsconf:emacsconf2024:CommonLisp:elisp:
 :PROPERTIES:
 :DATE: 2024-12-07
@@ -800,8 +1566,24 @@ DAP mode is a powerful tool for debugging your code within Emacs. By leveraging 
 :TOOBNIX_URL: https://toobnix.org/w/pfYUAuMPmkTRfBZSgXFtbT
 :TRANSCRIPT_URL: https://media.emacsconf.org/2024/emacsconf-2024-mcclim--elisp-and-mcclim--screwlisp--answers.vtt
 :SPEAKERS: screwlisp
+:DURATION: 13:54
 :SERIES: EmacsConf 2024
 :END:
+
+screwlisp - he or e/em/eir (Spivak, male and neuter pronouns are fine)
+
+This is the Q&A for the talk at https://www.youtube.com/watch?v=cuJ3qih7408&t=0s .
+
+00:00 I would love to see the GUI interacting with the scheduling stuff
+00:57 Q: Or any other GUI stuff you've worked on in the past that you'd be comfortable showing?
+03:07 Lispy Gopher Show
+06:21 Lisp already did it
+10:43 IELM
+12:32 Q: Are we going to get a McCLIM LambdaMOO client?
+
+You can view this and other resources using free/libre software at https://emacsconf.org/2024/talks/mcclim .
+This video is available under the terms of the Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license.
+
 * Re-imagining the Emacs user experience with Casual Suite  :emacsconf:emacsconf2024:keybinding:menu:ui:casual:
 :PROPERTIES:
 :DATE: 2024-12-07
@@ -811,8 +1593,36 @@ DAP mode is a powerful tool for debugging your code within Emacs. By leveraging 
 :TOOBNIX_URL: https://toobnix.org/w/5vCCqXFtWJ3EK7W3HKPRUD
 :TRANSCRIPT_URL: https://media.emacsconf.org/2024/emacsconf-2024-casual--reimagining-the-emacs-user-experience-with-casual-suite--charles-choi--main.vtt
 :SPEAKERS: Charles Choi
+:DURATION: 18:23
 :SERIES: EmacsConf 2024
 :END:
+
+EmacsConf 2024: Re-imagining the Emacs user experience with Casual Suite - Charles Choi (he/him)
+https://emacsconf.org/2024/talks/casual
+
+00:00.000 introduction
+00:43.800 Recall vs recognition
+02:34.800 Emacs with keyboard-driven menus
+03:43.400 Transient
+04:08.200 A Transient menu can be pinned
+04:29.303 Modes are apps, really
+04:59.527 Transient all the modes!
+05:28.040 Casual design principles
+06:17.960 Casual design conventions
+07:04.366 Casual Dired
+09:06.640 Casual EditKit
+10:36.200 EditKit demo
+11:31.997 Marking and moving
+12:53.140 Rectangles
+14:04.976 Numbering
+14:36.600 Sorting
+17:02.640 Casual has transformed my user experience with Emacs
+17:34.451 Thanks and acknowledgements
+
+You can view this and other resources using free/libre software at https://emacsconf.org/2024/talks/casual . During the conference, you can ask questions via the Etherpad or through IRC (https://chat.emacsconf.org/?join=emacsconf , or emacsconf-gen on irc.libera.chat). Afterwards, check the talk page at https://emacsconf.org/2024/talks/casual for notes and contact information.
+
+This video is available under the terms of the Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license.
+
 * Q&A: Re-imagining the Emacs user experience with Casual Suite  :answers:emacsconf:emacsconf2024:menu:ui:casual:
 :PROPERTIES:
 :DATE: 2024-12-07
@@ -822,8 +1632,25 @@ DAP mode is a powerful tool for debugging your code within Emacs. By leveraging 
 :TOOBNIX_URL: https://toobnix.org/w/bNSTtnXSKU3neu6Cpts6YZ
 :TRANSCRIPT_URL: https://media.emacsconf.org/2024/emacsconf-2024-casual--reimagining-the-emacs-user-experience-with-casual-suite--charles-choi--answers.vtt
 :SPEAKERS: Charles Choi
+:DURATION: 22:12
 :SERIES: EmacsConf 2024
 :END:
+
+Charles Choi (he/him)
+
+This is the Q&A for the talk at https://www.youtube.com/watch?v=-eMmmAKcFR4&t=0s .
+
+00:00 Opening
+03:13 Q: I wonder whether casual can only be used with the packages you
+07:10 Q: Are there any patterns emerging, such that it would seem possible to 1) systematize 2) automate(?) the mapping of mode commands to keyboard-driven menus? Possibly even have an auto casual wrapper for an uncovered mode?
+09:19 Q: Does Casual have a log where you can see what commands were invoked?
+12:00 Q: Is there a setting to close menu after executing command?
+14:40 Q: What modes are you working on at the moment for casual / are excited to explore?
+18:14 Getting older
+
+You can view this and other resources using free/libre software at https://emacsconf.org/2024/talks/casual .
+This video is available under the terms of the Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license.
+
 * New in hyperdrive.el: quick install, peer graph, transclusion!  :emacsconf:emacsconf2024:hyperdrive:
 :PROPERTIES:
 :DATE: 2024-12-07
@@ -833,8 +1660,16 @@ DAP mode is a powerful tool for debugging your code within Emacs. By leveraging 
 :TOOBNIX_URL: https://toobnix.org/w/pea2Nfx82eZhBAN2zatdix
 :TRANSCRIPT_URL: https://media.emacsconf.org/2024/emacsconf-2024-hyperdrive--new-in-hyperdriveel-quick-install-peer-graph-transclusion--joseph-turner--main.vtt
 :SPEAKERS: Joseph Turner
+:DURATION: 20:25
 :SERIES: EmacsConf 2024
 :END:
+
+EmacsConf 2024: New in hyperdrive.el: quick install, peer graph, transclusion! - Joseph Turner
+https://emacsconf.org/2024/talks/hyperdrive
+
+You can view this and other resources using free/libre software at https://emacsconf.org/2024/talks/hyperdrive .
+This video is available under the terms of the Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license.
+
 * Q&A: New in hyperdrive.el: quick install, peer graph, transclusion!  :answers:emacsconf:emacsconf2024:hyperdrive:
 :PROPERTIES:
 :DATE: 2024-12-07
@@ -844,8 +1679,22 @@ DAP mode is a powerful tool for debugging your code within Emacs. By leveraging 
 :TOOBNIX_URL: https://toobnix.org/w/m5WTxCLDF37J2qgdge8gua
 :TRANSCRIPT_URL: https://media.emacsconf.org/2024/emacsconf-2024-hyperdrive--new-in-hyperdriveel-quick-install-peer-graph-transclusion--joseph-turner--answers.vtt
 :SPEAKERS: Joseph Turner
+:DURATION: 14:26
 :SERIES: EmacsConf 2024
 :END:
+
+Joseph Turner
+
+This is the Q&A for the talk at https://www.youtube.com/watch?v=zG9qFogCY2A&t=0s .
+
+00:00 New version of hyperdrive.el
+01:06 Q: Network effects are tricky - do you know of any public shares people can join to try this tool out properly?
+07:31 Q: blocklist or whitelist so I can make them containing useful information for only me while also being useful with in a public sense
+11:41 Q: Could you comment on the "visualization" thing, (org visualization), and your experience with this type of content in buffers and the various possibilities (svg, etc.)?
+
+You can view this and other resources using free/libre software at https://emacsconf.org/2024/talks/hyperdrive .
+This video is available under the terms of the Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license.
+
 * Emacs, eev, and Maxima - now!  :emacsconf:emacsconf2024:eev:
 :PROPERTIES:
 :DATE: 2024-12-07
@@ -855,8 +1704,17 @@ DAP mode is a powerful tool for debugging your code within Emacs. By leveraging 
 :TOOBNIX_URL: https://toobnix.org/w/6odX1p46GQ3XnnRPedgWRr
 :TRANSCRIPT_URL: https://media.emacsconf.org/2024/emacsconf-2024-maxima--emacs-eev-and-maxima-now--eduardo-ochs--main.vtt
 :SPEAKERS: Eduardo Ochs
+:DURATION: 30:33
 :SERIES: EmacsConf 2024
 :END:
+
+Eduardo Ochs
+
+https://emacsconf.org/2024/talks/maxima
+
+You can view this and other resources using free/libre software at https://emacsconf.org/2024/talks/maxima .
+This video is available under the terms of the Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license.
+
 * Emacs Writing Studio  :emacsconf:emacsconf2024:writing:StarterKit:
 :PROPERTIES:
 :DATE: 2024-12-07
@@ -866,8 +1724,28 @@ DAP mode is a powerful tool for debugging your code within Emacs. By leveraging 
 :TOOBNIX_URL: https://toobnix.org/w/5iSx9Hu5JvZE7j4UF82t4H
 :TRANSCRIPT_URL: https://media.emacsconf.org/2024/emacsconf-2024-writing--emacs-writing-studio--peter-prevos--main.vtt
 :SPEAKERS: Peter Prevos
+:DURATION: 13:30
 :SERIES: EmacsConf 2024
 :END:
+
+EmacsConf 2024: Emacs Writing Studio - Peter Prevos (he)
+https://emacsconf.org/2024/talks/writing
+
+00:00 Introduction
+00:57 Why?
+02:02 EWS configuration
+02:50 How did I develop EWS?
+03:21 Overall workflow
+04:29 Inspiration
+05:54 Ideation
+07:39 denote-explore
+08:54 Writing with Org
+10:05 The project file
+12:18 Conclusions
+
+You can view this and other resources using free/libre software at https://emacsconf.org/2024/talks/writing .
+This video is available under the terms of the Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license.
+
 * Emacs 30 Highlights  :emacsconf:emacsconf2024:highlights:update:EmacsDevel:
 :PROPERTIES:
 :DATE: 2024-12-07
@@ -877,8 +1755,27 @@ DAP mode is a powerful tool for debugging your code within Emacs. By leveraging 
 :TOOBNIX_URL: https://toobnix.org/w/fxFD5JMMkmj1bazUw4zErx
 :TRANSCRIPT_URL: https://media.emacsconf.org/2024/emacsconf-2024-emacs30--emacs-30-highlights--philip-kaludercic--main.vtt
 :SPEAKERS: Philip Kaludercic
+:DURATION: 24:55
 :SERIES: EmacsConf 2024
 :END:
+
+https://emacsconf.org/2024/talks/emacs30
+
+00:00 Introduction
+01:41 Android
+07:45 EditorConfig
+09:27 use-package integration with package-vc
+13:11 JSON
+15:56 Native compilation
+17:29 Tree-sitter
+18:16 Completion preview mode
+19:34 package-isolate
+21:16 Reindenting
+23:17 Wrapping up
+
+You can view this and other resources using free/libre software at https://emacsconf.org/2024/talks/emacs30 .
+This video is available under the terms of the Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license.
+
 * Q&A: Emacs 30 Highlights  :answers:emacsconf:emacsconf2024:EmacsDevel:update:
 :PROPERTIES:
 :DATE: 2024-12-07
@@ -888,19 +1785,37 @@ DAP mode is a powerful tool for debugging your code within Emacs. By leveraging 
 :TOOBNIX_URL: https://toobnix.org/w/fxFD5JMMkmj1bazUw4zErx
 :TRANSCRIPT_URL: https://media.emacsconf.org/2024/emacsconf-2024-emacs30--emacs-30-highlights--philip-kaludercic--answers.vtt
 :SPEAKERS: Philip Kaludercic
+:DURATION: 20:02
 :SERIES: EmacsConf 2024
 :END:
+
+Philip Kaludercic
+
+This is the Q&A for the talk at https://www.youtube.com/watch?v=xZJhMAMI7A0&t=0s .
+
+00:16 Q: which-key was a third-party package for a long time. Is there work to bring any other popular packages into core Emacs for Emacs 31+? (magit, counsel, etc)
+04:06 Q: Any way to get the goodness of Emacs for android with this other stuff?
+05:15 Q: Does package-vc download a tarball from the specified git repository or clone the repository itself?
+06:37 How is the new behavior of M-q in prog-mode (prog-fill-reindent-defun or something like that) different from the behavior of C-M-q (indent-pp-sexp) in older Emacs versions?
+08:33 Q: Any plans for Emacs running in iOS?
+09:08 Q: I am worried about the situation on non-free systems. There was talk about the Windows and the macOS versions being as good as unmaintained. Where do we go from here?
+11:35 Q: Is there a best practice on what Org to use when following emacs-latest?
+
+You can view this and other resources using free/libre software at https://emacsconf.org/2024/talks/emacs30 .
+This video is available under the terms of the Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license.
+
 * Saturday closing remarks  :emacsconf:emacsconf2024:closing:
 :PROPERTIES:
 :DATE: 2024-12-07
 :URL: https://emacsconf.org/2024/talks/sat-close
 :MEDIA_URL: https://media.emacsconf.org/2024/emacsconf-2024-sat-close--saturday-closing-remarks--main.webm
-:YOUTUBE_URL:
+:YOUTUBE_URL: https://www.youtube.com/live/QwD9F6O9DqE?si=4E2kAKuecw1lFhnD&t=15431
 :TOOBNIX_URL:
 :TRANSCRIPT_URL: https://media.emacsconf.org/2024/emacsconf-2024-sat-close--saturday-closing-remarks--main.vtt
-:SPEAKERS:
+:SPEAKERS: Phillip Kaludercic, Leo Vivier, Corwin Brust, FlowyCoder
 :SERIES: EmacsConf 2024
 :END:
+
 * windows emacs picture pathname capture and display hack  :windows:images:
 :PROPERTIES:
 :SPEAKERS: Kalman Reti
