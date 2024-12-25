@@ -131,7 +131,8 @@ Returns nil if not found."
 	(interactive)
 	(emacstv-sort-by-newest-first)
 	(emacstv-export-rss)
-	(emacstv-export-json))
+	(emacstv-export-json)
+	(emacstv-count-entries))
 
 (defun emacstv-add-from-youtube (url)
 	"Add an entry for URL."
