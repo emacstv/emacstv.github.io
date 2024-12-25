@@ -44522,6 +44522,26 @@ Using restclient within emacs...
 
   We will discuss the use of emacs + org-mode + python in enabling reproducible research. This combination of software enables researchers to intertwine narrative and mathematical text with figures and code that is executable within a document, with capture of the output. Portions of the document can be selectively exported to LaTeX, HTML, pdf and other other formats. We have used this method to produce technical manuscripts submitted for peer review in scientific journals, in the preparation of two e-books (about 300 pages each) on using python in scientific and engineering applications (http://jkitchin.github.com/pycse), and in using python in the modeling of the properties of materials with density functional theory (http://jkitchin.github.com/dft-book), as well as a python-powered blog at http://jkitchin.github.com. Our experience suggests all three components are critical for enabling reproducible research in practice: an extensible editor, a markup language that separates text, math, data and code, and an effective language such as python. We will show examples of the pros and cons of this particular implementation of editor/markup/code combination.
 
+* Emacs Chat - Avdi Grimm
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=l91IuT-VQ4I&list=PL4th0AZixyRF8o3fdx68HGUrYKF2Pfvrp&index=2&pp=iAQB
+:DATE:     2013-05-20T15:30:40-07:00
+:SPEAKERS: Sacha Chua
+:DURATION: 44:19
+:END:
+  (Reuploaded from Vimeo)
+
+* Emacs Chat: Bastien Guerry
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=fnk0TJC7iJI&list=PL4th0AZixyRF8o3fdx68HGUrYKF2Pfvrp&index=1&pp=iAQB
+:DATE:     2013-05-20T09:55:48-07:00
+:SPEAKERS: Sacha Chua
+:DURATION: 52:19
+:END:
+  Lifehacking, Emacs + philosophy, and other stories.
+  Notes: http://sachachua.com/blog/2013/05/emacs-chat-bastien-guerry/
+  Want just the audio? https://archive.org/details/EmacsChatBastienGuerryAndSachaChua
+
 * On-the-fly evaluation of forms/code in Emacs! Update 2
 :PROPERTIES:
 :YOUTUBE_URL: https://youtu.be/mNO-vgq3Avg
@@ -44773,3 +44793,159 @@ Using restclient within emacs...
 :DURATION: 00:26
 :END:
   Emacs for Artists
+* Emacs Chat - Carsten Dominik
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=uUtFIbKEpJQ&list=PL4th0AZixyRF8o3fdx68HGUrYKF2Pfvrp&index=3&pp=iAQB
+:DATE:     2013-05-20T19:37:04-07:00
+:SPEAKERS: Sacha Chua
+:DURATION: 52:02
+:END:
+  (Reuploaded from Vimeo)
+
+* Bastien Guerry interviewing me (Sacha Chua)
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=_Ro7VpzQNO4&list=PL4th0AZixyRF8o3fdx68HGUrYKF2Pfvrp&index=4&pp=iAQB
+:DATE:     2013-06-24T14:22:55-07:00
+:SPEAKERS: Sacha Chua
+:DURATION: 44:27
+:END:
+  In which we chat about Emacs and the community.
+  Just want the audio? http://archive.org/details/EmacsChatSachaChuawithBastienGuerry
+  Transcript: http://sachachua.com/blog/2013/07/emacs-chat-sacha-chua-with-bastien-guerry/
+  More Emacs chats: http://sachachua.com/emacs-chat
+
+* Emacs Chat: John Wiegley (June 26, 2012)
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=ytNsHmRLZGM&list=PL4th0AZixyRF8o3fdx68HGUrYKF2Pfvrp&index=5&pp=iAQB
+:DATE:     2013-11-03T13:32:19-08:00
+:SPEAKERS: Sacha Chua
+:DURATION: 43:48
+:END:
+  In which John Wiegley and I chat about cool things he does with Emacs, learning, and other geeky things. More context for John Wiegley's thoughts: newartisans.com/2011/04/letter-to-the-fsf/
+
+  Fixed version of http://www.youtube.com/watch?v=MyOnK9xbmX4
+
+* Emacs Chat: Magnar Sveen (@emacsrocks)
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=87tjF_mYvpE&list=PL4th0AZixyRF8o3fdx68HGUrYKF2Pfvrp&index=6&pp=iAQB
+:DATE:     2013-11-03T12:03:09-08:00
+:SPEAKERS: Sacha Chua
+:DURATION: 57:23
+:END:
+  In which Magnar tells us how he got started with Emacs by hanging out with other Emacs geeks, and other good stories. Notes at http://sachachua.com/blog/2013/11/emacs-chat-magnar-sveen-emacs-rocks/
+
+* Emacs Chat: Iannis Zannos
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=0F8aCbC9z3A&list=PL4th0AZixyRF8o3fdx68HGUrYKF2Pfvrp&index=7&pp=iAQB
+:DATE:     2014-04-07T08:24:06-07:00
+:SPEAKERS: Sacha Chua
+:DURATION: 01:00:34
+:END:
+  Emacs Chat: Iannis Zannos
+
+* Emacs Chat: Tom Marble
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=-6bpx-6zyOI&list=PL4th0AZixyRF8o3fdx68HGUrYKF2Pfvrp&index=8&pp=iAQB
+:DATE:     2014-04-09T17:28:09-07:00
+:SPEAKERS: Sacha Chua
+:DURATION: 57:31
+:END:
+  Emacs Chat: Tom Marble - Invoicing with Org and LaTeX; Clojure
+
+* Emacs Chat: Jānis Mancēvičs
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=HOy4h0a_0TI&list=PL4th0AZixyRF8o3fdx68HGUrYKF2Pfvrp&index=9&pp=iAQB
+:DATE:     2014-04-19T14:19:55-07:00
+:SPEAKERS: Sacha Chua
+:DURATION: 01:02:00
+:END:
+  Emacs Chat: Jānis Mancēvičs
+  Transcript and notes: http://sachachua.com/blog/2014/04/emacs-chat-janis-mancevics/
+
+* Emacs Chat: Thomas Kjeldahl Nilsson
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=7vYo4zt6-FQ&list=PL4th0AZixyRF8o3fdx68HGUrYKF2Pfvrp&index=10&pp=iAQB
+:DATE:     2014-04-27T13:39:12-07:00
+:SPEAKERS: Sacha Chua
+:DURATION: 55:23
+:END:
+  March 22, 2013
+  (Copied over from Vimeo)
+
+* 2014 05 02 Emacs Chat   Xah Lee
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=rKPKWqvTImA&list=PL4th0AZixyRF8o3fdx68HGUrYKF2Pfvrp&index=11&pp=iAQB
+:DATE:     2014-05-03T11:50:05-07:00
+:SPEAKERS: Sacha Chua
+:DURATION: 57:30
+:END:
+
+
+* Emacs Chat - Phil Hagelberg (technomancy)
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=Rfg-6jGY8dU&list=PL4th0AZixyRF8o3fdx68HGUrYKF2Pfvrp&index=12&pp=iAQB
+:DATE:     2014-05-09T21:09:50-07:00
+:SPEAKERS: Sacha Chua
+:DURATION: 01:00:29
+:END:
+  Emacs Chat - Phil Hagelberg (technomancy)
+
+* Emacs Chat: Bozhidar Batsov (bbatsov)
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=-8DO0_pqLNA&list=PL4th0AZixyRF8o3fdx68HGUrYKF2Pfvrp&index=13&pp=iAQB
+:DATE:     2014-05-19T10:14:53-07:00
+:SPEAKERS: Sacha Chua
+:DURATION: 53:11
+:END:
+  Emacs Chat: Bozhidar Batsov (bbatsov)
+
+* Emacs Chat: Christopher Wellons (FFI, Emacs internals)
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=Hr06UDD4mCs&list=PL4th0AZixyRF8o3fdx68HGUrYKF2Pfvrp&index=14&pp=iAQB
+:DATE:     2014-05-30T17:06:08-07:00
+:SPEAKERS: Sacha Chua
+:DURATION: 56:39
+:END:
+  Christopher recently put together a package for using foreign function interfaces from Emacs, which means you can call out to native C code and other things like that. Neat! Also, he has probably forgotten more about Emacs internals than I can understand. Join us as I chat with him about how he got into Emacs, what he does with it, and how one can get started understanding deep Emacs geekery.
+
+  The video recording (and eventually transcript etc.) is in the public domain. Yay Christopher!
+
+* Emacs Chat: Harry R. Schwartz / Sacha Chua
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=I2wOxZOcyD8&list=PL4th0AZixyRF8o3fdx68HGUrYKF2Pfvrp&index=15&pp=iAQB
+:DATE:     2014-07-23T18:27:49-07:00
+:SPEAKERS: Sacha Chua
+:DURATION: 53:11
+:END:
+  Emacs Chat: Harry R. Schwartz / Sacha Chua
+
+  We talk about Emacs NYC, organizing your configuration, and more.
+
+* 2014-08-10 Emacs Chat - Mickey Petersen
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=JA4dqmDFt5Y&list=PL4th0AZixyRF8o3fdx68HGUrYKF2Pfvrp&index=16&pp=iAQB
+:DATE:     2014-09-01T09:15:30-07:00
+:SPEAKERS: Sacha Chua
+:DURATION: 53:36
+:END:
+  Mickey Petersen chats about Mastering Emacs, learning advanced topics, navigating by expressions, and making the most of dired and shell. You can find him at masteringemacs.org or twitter.com/mickeynp . Transcript and notes: http://emacslife.com/emacs-chats/chat-mickey-petersen.html
+
+* Emacs Chat: Karl Voit
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=SaKPr4J0K2I&list=PL4th0AZixyRF8o3fdx68HGUrYKF2Pfvrp&index=17&pp=iAQB
+:DATE:     2014-12-03T11:08:13-08:00
+:SPEAKERS: Sacha Chua
+:DURATION: 59:21
+:END:
+  Org Mode, Memacs, lazyblorg, .emacs, Yasnippet, tags . http://karl-voit.at , http://twitter.com/n0v0id , http://github.com/novoid . Transcript at http://emacslife.com/emacs-chats/chat-karl-voit.html
+
+* 2015-01-21 Emacs Chat - Steve Purcell
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=Gq0hG_om9xY&list=PL4th0AZixyRF8o3fdx68HGUrYKF2Pfvrp&index=18&pp=iAQB
+:DATE:     2015-01-21T08:07:28-08:00
+:SPEAKERS: Sacha Chua
+:DURATION: 01:01:05
+:END:
+  In this Emacs Chat, Steve Purcell shares how he got started with Emacs by using a Vim emulation mode, what it's like to give hundreds of package authors feedback on Emacs Lisp style, and how he's eventually replacing himself with Emacs Lisp (flycheck-package). He also highlights useful packages for managing buffers of version-controlled files (ibuffer-vc), working with lines if the region isn't active (whole-line-or-region), or maximizing certain buffers (full-frame).
+
+  Blog post: http://sachachua.com/blog/?p=27870&shareadraft=baba27870_54bfd5841a433

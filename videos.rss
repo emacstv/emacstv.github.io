@@ -3230,7 +3230,7 @@ DAP mode is a powerful tool for debugging your code within Emacs. By leveraging 
   https://chrismaiorana.com/emacs-micro-lesson-9-start-process/
 
   Try out SiteGround hosting here:
-  https://www.siteground.com/index.htm?afcode=463202b27d3c0095660775fc7df0a197 
+  https://www.siteground.com/index.htm?afcode=463202b27d3c0095660775fc7df0a197
 
   #emacs #shellscripting</div>]]></description>
       <pubDate>Mon, 23 Oct 2023 14:28:10 -0400</pubDate>
@@ -4068,11 +4068,11 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
   https://lifeofpenguin.blogspot.com/2021/04/gnu-emacs-as-lightweight-ide.html
 
 
-  Emacs config 
+  Emacs config
 
   (global-ede-mode 1)
-  (semantic-mode 1) 
-  (srecode-minor-mode 1) 
+  (semantic-mode 1)
+  (srecode-minor-mode 1)
   (ede-enable-generic-projects)</div>]]></description>
       <pubDate>Thu, 17 Aug 2023 09:31:37 -0400</pubDate>
     </item>
@@ -4558,7 +4558,7 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
     <item>
       <title>Emacs Micro Lesson 8: Command L To Center Screen (Move Blinky Thing)</title>
       <link>https://www.youtube.com/watch?v=aAQeEpigzJU&amp;list=PLKpFPBl1UnIpUPd0kfMCObsi4rb9LQlD-&amp;index=8&amp;pp=iAQB</link>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=aAQeEpigzJU&list=PLKpFPBl1UnIpUPd0kfMCObsi4rb9LQlD-&index=8&pp=iAQB">youtube</a><br><br>Command L is a great way to center your screen to give yourself a little breathing room while typing, or to simply center the screen while reading through long documents.  
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=aAQeEpigzJU&list=PLKpFPBl1UnIpUPd0kfMCObsi4rb9LQlD-&index=8&pp=iAQB">youtube</a><br><br>Command L is a great way to center your screen to give yourself a little breathing room while typing, or to simply center the screen while reading through long documents.
 
   ✍Check out my substack for deep thoughts (in text form):
   https://chrismaiorana.substack.com/
@@ -5438,7 +5438,7 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
     <item>
       <title>Emacs Micro Lesson 6:  Org Macro Replacement</title>
       <link>https://www.youtube.com/watch?v=CYKHGHB6OG0&amp;list=PLKpFPBl1UnIpUPd0kfMCObsi4rb9LQlD-&amp;index=6&amp;pp=iAQB</link>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=CYKHGHB6OG0&list=PLKpFPBl1UnIpUPd0kfMCObsi4rb9LQlD-&index=6&pp=iAQB">youtube</a><br><br>That's right.  You too can enter the wild world of org mode macro expansion. In this micro lesson we're going to see how to create macros and replace them live.  Stay tuned. 
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=CYKHGHB6OG0&list=PLKpFPBl1UnIpUPd0kfMCObsi4rb9LQlD-&index=6&pp=iAQB">youtube</a><br><br>That's right.  You too can enter the wild world of org mode macro expansion. In this micro lesson we're going to see how to create macros and replace them live.  Stay tuned.
 
   #emacs #linux</div>]]></description>
       <pubDate>Wed, 26 Apr 2023 12:39:51 -0400</pubDate>
@@ -13646,11 +13646,11 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
   https://lifeofpenguin.blogspot.com/2021/04/gnu-emacs-as-lightweight-ide.html
 
 
-  Emacs config 
+  Emacs config
 
   (global-ede-mode 1)
-  (semantic-mode 1) 
-  (srecode-minor-mode 1) 
+  (semantic-mode 1)
+  (srecode-minor-mode 1)
   (ede-enable-generic-projects)</div>]]></description>
       <pubDate>Wed, 18 May 2022 03:41:14 -0400</pubDate>
     </item>
@@ -13792,7 +13792,7 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
       <link>https://www.youtube.com/watch?v=q7tHoFumERQ&amp;list=PLKpFPBl1UnIpUPd0kfMCObsi4rb9LQlD-&amp;index=1&amp;pp=iAQB</link>
       <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=q7tHoFumERQ&list=PLKpFPBl1UnIpUPd0kfMCObsi4rb9LQlD-&index=1&pp=iAQB">youtube</a><br><br>Yes, a micro lesson on quick deletions. Get around your keyboard more quickly with these power backspaces and forward delete functions.
 
-  See the extra material for this lesson here: 
+  See the extra material for this lesson here:
   https://github.com/cryptstopher/tubevids2022/blob/master/caps.org</div>]]></description>
       <pubDate>Wed, 11 May 2022 00:00:30 -0400</pubDate>
     </item>
@@ -20468,7 +20468,7 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
     <item>
       <title>Schematics using GNU Emacs</title>
       <link>https://www.youtube.com/watch?v=cWylaLAodng&amp;list=PLW9poAEUvGDDxCZX-3xIQ3Wb1HOVcg7N_&amp;index=2&amp;pp=iAQB</link>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=cWylaLAodng&list=PLW9poAEUvGDDxCZX-3xIQ3Wb1HOVcg7N_&index=2&pp=iAQB">youtube</a><br><br>Draw quick schematics using GNU Emacs 
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=cWylaLAodng&list=PLW9poAEUvGDDxCZX-3xIQ3Wb1HOVcg7N_&index=2&pp=iAQB">youtube</a><br><br>Draw quick schematics using GNU Emacs
 
   https://lifeofpenguin.blogspot.com/2021/08/scribble-notes-in-gnu-emacs.html</div>]]></description>
       <pubDate>Thu, 30 Sep 2021 06:04:39 -0400</pubDate>
@@ -26254,7 +26254,7 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
   Emacs config
           (global-ede-mode 1)
           (semantic-mode 1)
-          (srecode-minor-mode 1) 
+          (srecode-minor-mode 1)
           (ede-enable-generic-projects)
   ;; Install company for inline completion with dropdown
           (require 'company)
@@ -26344,7 +26344,7 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
   Emacs config
           (global-ede-mode 1)
           (semantic-mode 1)
-          (srecode-minor-mode 1) 
+          (srecode-minor-mode 1)
           (ede-enable-generic-projects)
   ;; Install company for inline completion with dropdown
           (require 'company)
@@ -30514,7 +30514,7 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
   Emacs config
           (global-ede-mode 1)
           (semantic-mode 1)
-          (srecode-minor-mode 1) 
+          (srecode-minor-mode 1)
           (ede-enable-generic-projects)
   ;; Install company for inline completion with dropdown
           (require 'company)
@@ -31004,7 +31004,7 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
   Emacs config
           (global-ede-mode 1)
           (semantic-mode 1)
-          (srecode-minor-mode 1) 
+          (srecode-minor-mode 1)
           (ede-enable-generic-projects)
   ;; Install company for inline completion with dropdown
           (require 'company)
@@ -31095,7 +31095,7 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
   Emacs config
           (global-ede-mode 1)
           (semantic-mode 1)
-          (srecode-minor-mode 1) 
+          (srecode-minor-mode 1)
 
   ;; Install company for inline completion with dropdown
           (require 'company)
@@ -31195,7 +31195,7 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
   Emacs config
           (global-ede-mode 1)
           (semantic-mode 1)
-          (srecode-minor-mode 1) 
+          (srecode-minor-mode 1)
 
   ;; Install company for inline completion with dropdown
           (require 'company)
@@ -37285,6 +37285,14 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
       <pubDate>Tue, 10 Mar 2015 11:30:00 -0400</pubDate>
     </item>
     <item>
+      <title>2015-01-21 Emacs Chat - Steve Purcell</title>
+      <link>https://www.youtube.com/watch?v=Gq0hG_om9xY&amp;list=PL4th0AZixyRF8o3fdx68HGUrYKF2Pfvrp&amp;index=18&amp;pp=iAQB</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=Gq0hG_om9xY&list=PL4th0AZixyRF8o3fdx68HGUrYKF2Pfvrp&index=18&pp=iAQB">youtube</a><br><br>In this Emacs Chat, Steve Purcell shares how he got started with Emacs by using a Vim emulation mode, what it's like to give hundreds of package authors feedback on Emacs Lisp style, and how he's eventually replacing himself with Emacs Lisp (flycheck-package). He also highlights useful packages for managing buffers of version-controlled files (ibuffer-vc), working with lines if the region isn't active (whole-line-or-region), or maximizing certain buffers (full-frame).
+
+  Blog post: http://sachachua.com/blog/?p=27870&shareadraft=baba27870_54bfd5841a433</div>]]></description>
+      <pubDate>Wed, 21 Jan 2015 11:07:28 -0500</pubDate>
+    </item>
+    <item>
       <title>A Pretty Good Introduction to Pretty Good Privacy</title>
       <link>https://www.youtube.com/watch?v=Lq-yKJFHJpk&amp;list=PL8tzorAO7s0he-pp7Y_JDl7-Kz2Qlr_Pj&amp;index=13&amp;pp=iAQB</link>
       <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=Lq-yKJFHJpk&list=PL8tzorAO7s0he-pp7Y_JDl7-Kz2Qlr_Pj&index=13&pp=iAQB">youtube</a><br><br>What's PGP, and what can we do with it? George walks us through creating and uploading a key, encrypting and signing emails, git commits, and files, and introduces the web of trust.
@@ -37292,6 +37300,12 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
   Learn more from the developers at thoughtbot ⌨️
   Head over to http://tbot.io/dev-blog to read more great articles on our blog.</div>]]></description>
       <pubDate>Wed, 31 Dec 2014 15:17:27 -0500</pubDate>
+    </item>
+    <item>
+      <title>Emacs Chat: Karl Voit</title>
+      <link>https://www.youtube.com/watch?v=SaKPr4J0K2I&amp;list=PL4th0AZixyRF8o3fdx68HGUrYKF2Pfvrp&amp;index=17&amp;pp=iAQB</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=SaKPr4J0K2I&list=PL4th0AZixyRF8o3fdx68HGUrYKF2Pfvrp&index=17&pp=iAQB">youtube</a><br><br>Org Mode, Memacs, lazyblorg, .emacs, Yasnippet, tags . http://karl-voit.at , http://twitter.com/n0v0id , http://github.com/novoid . Transcript at http://emacslife.com/emacs-chats/chat-karl-voit.html</div>]]></description>
+      <pubDate>Wed, 03 Dec 2014 14:08:13 -0500</pubDate>
     </item>
     <item>
       <title>Edit LISP structurally with Emacs package lispy</title>
@@ -37342,6 +37356,12 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
       <pubDate>Tue, 14 Oct 2014 11:30:00 -0400</pubDate>
     </item>
     <item>
+      <title>2014-08-10 Emacs Chat - Mickey Petersen</title>
+      <link>https://www.youtube.com/watch?v=JA4dqmDFt5Y&amp;list=PL4th0AZixyRF8o3fdx68HGUrYKF2Pfvrp&amp;index=16&amp;pp=iAQB</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=JA4dqmDFt5Y&list=PL4th0AZixyRF8o3fdx68HGUrYKF2Pfvrp&index=16&pp=iAQB">youtube</a><br><br>Mickey Petersen chats about Mastering Emacs, learning advanced topics, navigating by expressions, and making the most of dired and shell. You can find him at masteringemacs.org or twitter.com/mickeynp . Transcript and notes: http://emacslife.com/emacs-chats/chat-mickey-petersen.html</div>]]></description>
+      <pubDate>Mon, 01 Sep 2014 12:15:30 -0400</pubDate>
+    </item>
+    <item>
       <title>The Editor of a Lifetime</title>
       <link>https://www.youtube.com/watch?v=VADudzQGvU8&amp;feature=youtu.be</link>
       <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=VADudzQGvU8&feature=youtu.be">youtube</a><br><br></div>]]></description>
@@ -37368,6 +37388,14 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
   Show Notes:
   http://www.ilearnthings.com/2014/08/18/episode-13-taking-notes-in-emacs-org-mode/</div>]]></description>
       <pubDate>Tue, 19 Aug 2014 02:12:36 -0400</pubDate>
+    </item>
+    <item>
+      <title>Emacs Chat: Harry R. Schwartz / Sacha Chua</title>
+      <link>https://www.youtube.com/watch?v=I2wOxZOcyD8&amp;list=PL4th0AZixyRF8o3fdx68HGUrYKF2Pfvrp&amp;index=15&amp;pp=iAQB</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=I2wOxZOcyD8&list=PL4th0AZixyRF8o3fdx68HGUrYKF2Pfvrp&index=15&pp=iAQB">youtube</a><br><br>Emacs Chat: Harry R. Schwartz / Sacha Chua
+
+  We talk about Emacs NYC, organizing your configuration, and more.</div>]]></description>
+      <pubDate>Wed, 23 Jul 2014 21:27:49 -0400</pubDate>
     </item>
     <item>
       <title>Turtle Graphics with Emacs Lisp</title>
@@ -37424,6 +37452,20 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
       <pubDate>Thu, 12 Jun 2014 15:11:18 -0400</pubDate>
     </item>
     <item>
+      <title>Emacs Chat: Christopher Wellons (FFI, Emacs internals)</title>
+      <link>https://www.youtube.com/watch?v=Hr06UDD4mCs&amp;list=PL4th0AZixyRF8o3fdx68HGUrYKF2Pfvrp&amp;index=14&amp;pp=iAQB</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=Hr06UDD4mCs&list=PL4th0AZixyRF8o3fdx68HGUrYKF2Pfvrp&index=14&pp=iAQB">youtube</a><br><br>Christopher recently put together a package for using foreign function interfaces from Emacs, which means you can call out to native C code and other things like that. Neat! Also, he has probably forgotten more about Emacs internals than I can understand. Join us as I chat with him about how he got into Emacs, what he does with it, and how one can get started understanding deep Emacs geekery.
+
+  The video recording (and eventually transcript etc.) is in the public domain. Yay Christopher!</div>]]></description>
+      <pubDate>Fri, 30 May 2014 20:06:08 -0400</pubDate>
+    </item>
+    <item>
+      <title>Emacs Chat: Bozhidar Batsov (bbatsov)</title>
+      <link>https://www.youtube.com/watch?v=-8DO0_pqLNA&amp;list=PL4th0AZixyRF8o3fdx68HGUrYKF2Pfvrp&amp;index=13&amp;pp=iAQB</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=-8DO0_pqLNA&list=PL4th0AZixyRF8o3fdx68HGUrYKF2Pfvrp&index=13&pp=iAQB">youtube</a><br><br>Emacs Chat: Bozhidar Batsov (bbatsov)</div>]]></description>
+      <pubDate>Mon, 19 May 2014 13:14:53 -0400</pubDate>
+    </item>
+    <item>
       <title>.Emacs #7 - The Command Line</title>
       <link>https://www.youtube.com/watch?v=U2Rl23-_ePw&amp;list=PLxj9UAX4Em-IiOfvF2Qs742LxEK4owSkr&amp;index=7&amp;pp=iAQB</link>
       <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=U2Rl23-_ePw&list=PLxj9UAX4Em-IiOfvF2Qs742LxEK4owSkr&index=7&pp=iAQB">youtube</a><br><br>Use Emacs from a terminal and use a terminal from Emacs. We'll play with nesting one or the other inside of each other, and then we'll look at using a shell written in Emacs Lisp.
@@ -37465,6 +37507,18 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
       <pubDate>Wed, 14 May 2014 11:30:53 -0400</pubDate>
     </item>
     <item>
+      <title>Emacs Chat - Phil Hagelberg (technomancy)</title>
+      <link>https://www.youtube.com/watch?v=Rfg-6jGY8dU&amp;list=PL4th0AZixyRF8o3fdx68HGUrYKF2Pfvrp&amp;index=12&amp;pp=iAQB</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=Rfg-6jGY8dU&list=PL4th0AZixyRF8o3fdx68HGUrYKF2Pfvrp&index=12&pp=iAQB">youtube</a><br><br></div>]]></description>
+      <pubDate>Sat, 10 May 2014 00:09:50 -0400</pubDate>
+    </item>
+    <item>
+      <title>Emacs Chat - Phil Hagelberg (technomancy)</title>
+      <link>https://www.youtube.com/watch?v=Rfg-6jGY8dU&amp;list=PL4th0AZixyRF8o3fdx68HGUrYKF2Pfvrp&amp;index=12&amp;pp=iAQB</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=Rfg-6jGY8dU&list=PL4th0AZixyRF8o3fdx68HGUrYKF2Pfvrp&index=12&pp=iAQB">youtube</a><br><br>Emacs Chat - Phil Hagelberg (technomancy)</div>]]></description>
+      <pubDate>Sat, 10 May 2014 00:09:50 -0400</pubDate>
+    </item>
+    <item>
       <title>Upgrading IPython with Emacs</title>
       <link>https://www.youtube.com/watch?v=dgcBKz03lK8&amp;list=PL8tzorAO7s0he-pp7Y_JDl7-Kz2Qlr_Pj&amp;index=21&amp;pp=iAQB</link>
       <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=dgcBKz03lK8&list=PL8tzorAO7s0he-pp7Y_JDl7-Kz2Qlr_Pj&index=21&pp=iAQB">youtube</a><br><br>Evan Misshula provides an introduction to incremental analysis through IPython moderated by the editing features of Emacs. He gives a brief introduction to integrating with Org-mode; and advantages over the R console and Bash shell are also discussed.
@@ -37472,6 +37526,20 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
   Learn more from the developers at thoughtbot ⌨️
   Head over to http://tbot.io/dev-blog to read more great articles on our blog.</div>]]></description>
       <pubDate>Fri, 09 May 2014 11:19:18 -0400</pubDate>
+    </item>
+    <item>
+      <title>Emacs Chat: Thomas Kjeldahl Nilsson</title>
+      <link>https://www.youtube.com/watch?v=7vYo4zt6-FQ&amp;list=PL4th0AZixyRF8o3fdx68HGUrYKF2Pfvrp&amp;index=10&amp;pp=iAQB</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=7vYo4zt6-FQ&list=PL4th0AZixyRF8o3fdx68HGUrYKF2Pfvrp&index=10&pp=iAQB">youtube</a><br><br>March 22, 2013
+  (Copied over from Vimeo)</div>]]></description>
+      <pubDate>Sun, 27 Apr 2014 16:39:12 -0400</pubDate>
+    </item>
+    <item>
+      <title>Emacs Chat: Jānis Mancēvičs</title>
+      <link>https://www.youtube.com/watch?v=HOy4h0a_0TI&amp;list=PL4th0AZixyRF8o3fdx68HGUrYKF2Pfvrp&amp;index=9&amp;pp=iAQB</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=HOy4h0a_0TI&list=PL4th0AZixyRF8o3fdx68HGUrYKF2Pfvrp&index=9&pp=iAQB">youtube</a><br><br>Emacs Chat: Jānis Mancēvičs
+  Transcript and notes: http://sachachua.com/blog/2014/04/emacs-chat-janis-mancevics/</div>]]></description>
+      <pubDate>Sat, 19 Apr 2014 17:19:55 -0400</pubDate>
     </item>
     <item>
       <title>An Introduction to Emacs Lisp</title>
@@ -37491,10 +37559,22 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
       <pubDate>Fri, 11 Apr 2014 16:10:11 -0400</pubDate>
     </item>
     <item>
+      <title>Emacs Chat: Tom Marble</title>
+      <link>https://www.youtube.com/watch?v=-6bpx-6zyOI&amp;list=PL4th0AZixyRF8o3fdx68HGUrYKF2Pfvrp&amp;index=8&amp;pp=iAQB</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=-6bpx-6zyOI&list=PL4th0AZixyRF8o3fdx68HGUrYKF2Pfvrp&index=8&pp=iAQB">youtube</a><br><br>Emacs Chat: Tom Marble - Invoicing with Org and LaTeX; Clojure</div>]]></description>
+      <pubDate>Wed, 09 Apr 2014 20:28:09 -0400</pubDate>
+    </item>
+    <item>
       <title>Mockup Monday #9: Emacs on the iPhone</title>
       <link>https://www.youtube.com/watch?v=-2NBTOZnEy8&amp;feature=youtu.be</link>
       <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=-2NBTOZnEy8&feature=youtu.be">youtube</a><br><br>And now for something completely different: How your favorite text editor might work on the iPhone, if I ever finish it. Special thanks to Chris Miles for the unistroke gesture recognizer library and Fabrice Bellard for QEmacs.</div>]]></description>
       <pubDate>Mon, 07 Apr 2014 13:36:45 -0400</pubDate>
+    </item>
+    <item>
+      <title>Emacs Chat: Iannis Zannos</title>
+      <link>https://www.youtube.com/watch?v=0F8aCbC9z3A&amp;list=PL4th0AZixyRF8o3fdx68HGUrYKF2Pfvrp&amp;index=7&amp;pp=iAQB</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=0F8aCbC9z3A&list=PL4th0AZixyRF8o3fdx68HGUrYKF2Pfvrp&index=7&pp=iAQB">youtube</a><br><br>Emacs Chat: Iannis Zannos</div>]]></description>
+      <pubDate>Mon, 07 Apr 2014 11:24:06 -0400</pubDate>
     </item>
     <item>
       <title>Emacs as a C/C++ Editor/IDE (Part I): auto-complete, yasnippet, and auto-complete-c-headers</title>
@@ -37507,6 +37587,20 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
   or you can pull/clone it from github:
   https://github.com/byuksel/Emacs-as-a-C-Cplusplus-Editor-IDE-settings</div>]]></description>
       <pubDate>Wed, 12 Mar 2014 04:50:02 -0400</pubDate>
+    </item>
+    <item>
+      <title>Emacs Chat: John Wiegley (June 26, 2012)</title>
+      <link>https://www.youtube.com/watch?v=ytNsHmRLZGM&amp;list=PL4th0AZixyRF8o3fdx68HGUrYKF2Pfvrp&amp;index=5&amp;pp=iAQB</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=ytNsHmRLZGM&list=PL4th0AZixyRF8o3fdx68HGUrYKF2Pfvrp&index=5&pp=iAQB">youtube</a><br><br>In which John Wiegley and I chat about cool things he does with Emacs, learning, and other geeky things. More context for John Wiegley's thoughts: newartisans.com/2011/04/letter-to-the-fsf/
+
+  Fixed version of http://www.youtube.com/watch?v=MyOnK9xbmX4</div>]]></description>
+      <pubDate>Sun, 03 Nov 2013 16:32:19 -0500</pubDate>
+    </item>
+    <item>
+      <title>Emacs Chat: Magnar Sveen (@emacsrocks)</title>
+      <link>https://www.youtube.com/watch?v=87tjF_mYvpE&amp;list=PL4th0AZixyRF8o3fdx68HGUrYKF2Pfvrp&amp;index=6&amp;pp=iAQB</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=87tjF_mYvpE&list=PL4th0AZixyRF8o3fdx68HGUrYKF2Pfvrp&index=6&pp=iAQB">youtube</a><br><br>In which Magnar tells us how he got started with Emacs by hanging out with other Emacs geeks, and other good stories. Notes at http://sachachua.com/blog/2013/11/emacs-chat-magnar-sveen-emacs-rocks/</div>]]></description>
+      <pubDate>Sun, 03 Nov 2013 15:03:09 -0500</pubDate>
     </item>
     <item>
       <title>Writing A Spotify Client in 16 Minutes</title>
@@ -37645,6 +37739,35 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
 
   We will discuss the use of emacs + org-mode + python in enabling reproducible research. This combination of software enables researchers to intertwine narrative and mathematical text with figures and code that is executable within a document, with capture of the output. Portions of the document can be selectively exported to LaTeX, HTML, pdf and other other formats. We have used this method to produce technical manuscripts submitted for peer review in scientific journals, in the preparation of two e-books (about 300 pages each) on using python in scientific and engineering applications (http://jkitchin.github.com/pycse), and in using python in the modeling of the properties of materials with density functional theory (http://jkitchin.github.com/dft-book), as well as a python-powered blog at http://jkitchin.github.com. Our experience suggests all three components are critical for enabling reproducible research in practice: an extensible editor, a markup language that separates text, math, data and code, and an effective language such as python. We will show examples of the pros and cons of this particular implementation of editor/markup/code combination.</div>]]></description>
       <pubDate>Tue, 02 Jul 2013 13:57:08 -0400</pubDate>
+    </item>
+    <item>
+      <title>Bastien Guerry interviewing me (Sacha Chua)</title>
+      <link>https://www.youtube.com/watch?v=_Ro7VpzQNO4&amp;list=PL4th0AZixyRF8o3fdx68HGUrYKF2Pfvrp&amp;index=4&amp;pp=iAQB</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=_Ro7VpzQNO4&list=PL4th0AZixyRF8o3fdx68HGUrYKF2Pfvrp&index=4&pp=iAQB">youtube</a><br><br>In which we chat about Emacs and the community.
+  Just want the audio? http://archive.org/details/EmacsChatSachaChuawithBastienGuerry
+  Transcript: http://sachachua.com/blog/2013/07/emacs-chat-sacha-chua-with-bastien-guerry/
+  More Emacs chats: http://sachachua.com/emacs-chat</div>]]></description>
+      <pubDate>Mon, 24 Jun 2013 17:22:55 -0400</pubDate>
+    </item>
+    <item>
+      <title>Emacs Chat - Carsten Dominik</title>
+      <link>https://www.youtube.com/watch?v=uUtFIbKEpJQ&amp;list=PL4th0AZixyRF8o3fdx68HGUrYKF2Pfvrp&amp;index=3&amp;pp=iAQB</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=uUtFIbKEpJQ&list=PL4th0AZixyRF8o3fdx68HGUrYKF2Pfvrp&index=3&pp=iAQB">youtube</a><br><br>(Reuploaded from Vimeo)</div>]]></description>
+      <pubDate>Mon, 20 May 2013 22:37:04 -0400</pubDate>
+    </item>
+    <item>
+      <title>Emacs Chat - Avdi Grimm</title>
+      <link>https://www.youtube.com/watch?v=l91IuT-VQ4I&amp;list=PL4th0AZixyRF8o3fdx68HGUrYKF2Pfvrp&amp;index=2&amp;pp=iAQB</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=l91IuT-VQ4I&list=PL4th0AZixyRF8o3fdx68HGUrYKF2Pfvrp&index=2&pp=iAQB">youtube</a><br><br>(Reuploaded from Vimeo)</div>]]></description>
+      <pubDate>Mon, 20 May 2013 18:30:40 -0400</pubDate>
+    </item>
+    <item>
+      <title>Emacs Chat: Bastien Guerry</title>
+      <link>https://www.youtube.com/watch?v=fnk0TJC7iJI&amp;list=PL4th0AZixyRF8o3fdx68HGUrYKF2Pfvrp&amp;index=1&amp;pp=iAQB</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=fnk0TJC7iJI&list=PL4th0AZixyRF8o3fdx68HGUrYKF2Pfvrp&index=1&pp=iAQB">youtube</a><br><br>Lifehacking, Emacs + philosophy, and other stories.
+  Notes: http://sachachua.com/blog/2013/05/emacs-chat-bastien-guerry/
+  Want just the audio? https://archive.org/details/EmacsChatBastienGuerryAndSachaChua</div>]]></description>
+      <pubDate>Mon, 20 May 2013 12:55:48 -0400</pubDate>
     </item>
     <item>
       <title>On-the-fly evaluation of forms/code in Emacs! Update 2</title>
