@@ -2254,6 +2254,15 @@ count-words-region
 
   Find all my publications on my website (Emacs, philosophy, mechanical keyboards, etc.): https://protesilaos.com
 
+* Preview Font Features (Emacs)
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=qstFmJw_u-M&list=PLW9poAEUvGDC1g1A3hBdZa0Atr0RL8yZt&index=10&pp=iAQB
+:DATE:     2024-07-25T02:27:57-07:00
+:SPEAKERS: Anand Tamariya
+:DURATION: 00:16
+:END:
+  Preview Opentype Font Features in Emacs https://lifeofpenguin.blogspot.com/2024/06/text-along-path-gnu-emacs.html#font-features
+
 * Never Miss a Task Again - Tagging Org Mode TODOs by Context           :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=GP8uOU6SSyk&list=PLEoMzSkcN8oM8vAS2dcoeLHtD2DTqKTVY&index=2&pp=iAQB
@@ -2359,6 +2368,69 @@ count-words-region
 
   #Emacs #IDE #Programming #SoftwareDevelopment #GNU #GNUEmacs
 
+* Context Menu is Personal (GNU Emacs)
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=DC_KhawqVyQ&list=PLW9poAEUvGDC1g1A3hBdZa0Atr0RL8yZt&index=9&pp=iAQB
+:DATE:     2024-06-17T03:26:23-07:00
+:SPEAKERS: Anand Tamariya
+:DURATION: 01:30
+:END:
+  https://lifeofpenguin.blogspot.com/2024/06/context-menu-is-personal-gnu-emacs.html
+
+* Emacs Micro Lesson  #10 | Open line (because it's good)
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=ZVRnfpUEigA&list=PLKpFPBl1UnIpUPd0kfMCObsi4rb9LQlD-&index=10&pp=iAQB
+:DATE:     2024-06-08T10:40:58-07:00
+:SPEAKERS: Chris Maiorana
+:DURATION: 04:17
+:END:
+  That's right. It's another Emacs micro lesson coming at you. Today, we're going to take a look at inserting new lines with Ctrl-o, that's right C-o. This will run the wonderful "open-line" function to create a new line in your document without changing your position. So you can keep working more quickly and more efficiently. All the time.
+
+* Git Log Goes Spiral (GNU Emacs)
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=iXuwyAxRhrg&list=PLW9poAEUvGDCtcnrDdiQWRAX_3RC6XcNU&index=9&pp=iAQB
+:DATE:     2024-05-19T21:24:47-07:00
+:SPEAKERS: Anand Tamariya
+:DURATION: 01:27
+:END:
+  Details: https://lifeofpenguin.blogspot.com/2024/05/alternatives-in-gnu-emacs-wheel-of-time.html
+
+* Alternatives in GNU Emacs - Wheel of time
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=npjRR5HYLHI&list=PLW9poAEUvGDCtcnrDdiQWRAX_3RC6XcNU&index=8&pp=iAQB
+:DATE:     2024-05-15T08:40:29-07:00
+:SPEAKERS: Anand Tamariya
+:DURATION: 00:34
+:END:
+  Details: https://lifeofpenguin.blogspot.com/2024/05/alternatives-in-gnu-emacs-wheel-of-time.html
+
+* Analyzing 3 Body Problem in GNU Emacs
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=dQv4KwMkrxA&list=PLW9poAEUvGDCtcnrDdiQWRAX_3RC6XcNU&index=7&pp=iAQB
+:DATE:     2024-05-09T22:21:06-07:00
+:SPEAKERS: Anand Tamariya
+:DURATION: 04:32
+:END:
+  Details: https://lifeofpenguin.blogspot.com/2024/04/analyzing-3-body-problem-in-gnu-emacs.html
+
+* Alternatives in GNU Emacs - Tag Explorer
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=a9mPkillTFE&list=PLW9poAEUvGDCtcnrDdiQWRAX_3RC6XcNU&index=6&pp=iAQB
+:DATE:     2024-05-06T02:33:36-07:00
+:SPEAKERS: Anand Tamariya
+:DURATION: 00:33
+:END:
+  Details: https://lifeofpenguin.blogspot.com/2024/05/alternatives-in-gnu-emacs-tag-explorer.html
+
+* Alternatives in GNU Emacs - File Explorer
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=eaG7INZ2Kys&list=PLW9poAEUvGDDxCZX-3xIQ3Wb1HOVcg7N_&index=15&pp=iAQB
+:DATE:     2024-04-30T02:39:08-07:00
+:SPEAKERS: Anand Tamariya
+:DURATION: 00:26
+:END:
+  Details: https://lifeofpenguin.blogspot.com/2024/04/alternatives-in-gnu-emacs-file-explorer.html
+
 * Double Your Productivity With Emacs Org-Mode
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=aiBt8CieE7U&list=PLknodeJt-I5GJmcd7ENakYf_M0x9q50d1&index=16&pp=iAQB
@@ -2407,6 +2479,36 @@ count-words-region
   21:55 Handling Conflicts
   22:20 Searching
   23:18 Conclusion
+
+* Stock Heatmap in GNU Emacs
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=4ljvsHPBD5g&list=PLW9poAEUvGDCtcnrDdiQWRAX_3RC6XcNU&index=5&pp=iAQB
+:DATE:     2024-04-25T02:27:43-07:00
+:SPEAKERS: Anand Tamariya
+:DURATION: 00:14
+:END:
+  Stock Heatmap (index and sector) in GNU Emacs
+  Details: https://lifeofpenguin.blogspot.com/2024/04/alternatives-in-gnu-emacs.html
+
+* SVG Animation in GNU Emacs
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=uYp08wHgJVQ&list=PLW9poAEUvGDC1g1A3hBdZa0Atr0RL8yZt&index=4&pp=iAQB
+:DATE:     2024-04-14T00:40:28-07:00
+:SPEAKERS: Anand Tamariya
+:DURATION: 00:22
+:END:
+  Details: https://lifeofpenguin.blogspot.com/2024/04/svg-animation-in-gnu-emacs.html
+
+* Circle Packing Animation in GNU Emacs
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=qPNVMQF9zK4&list=PLW9poAEUvGDCtcnrDdiQWRAX_3RC6XcNU&index=4&pp=iAQB
+:DATE:     2024-04-11T02:31:31-07:00
+:SPEAKERS: Anand Tamariya
+:DURATION: 00:32
+:END:
+  Implementation of circle packing algorithm by Wang et el https://t.ly/E9Ene
+
+  Details: https://lifeofpenguin.blogspot.com/2024/04/circle-packing-animation-in-gnu-emacs.html
 
 * Org Tables - From Zero to Hero
 :PROPERTIES:
@@ -2465,6 +2567,36 @@ count-words-region
 :DURATION: 19:10
 :END:
 
+
+* Data Visualization with GNU Emacs: Live Preview
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=kz6t60OB-jE&list=PLW9poAEUvGDCtcnrDdiQWRAX_3RC6XcNU&index=1&pp=iAQB
+:DATE:     2024-03-22T21:28:01-07:00
+:SPEAKERS: Anand Tamariya
+:DURATION: 00:32
+:END:
+  Quick Data Visualization with GNU Emacs and Gnuplot
+  https://lifeofpenguin.blogspot.com/2024/03/data-visualization-with-gnu-emacs.html
+
+* Data Visualization with GNU Emacs - Time series
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=A6OhjYjdrqY&list=PLW9poAEUvGDCtcnrDdiQWRAX_3RC6XcNU&index=2&pp=iAQB
+:DATE:     2024-03-19T00:13:02-07:00
+:SPEAKERS: Anand Tamariya
+:DURATION: 00:35
+:END:
+  Quick Data Visualization with GNU Emacs and Gnuplot
+  https://lifeofpenguin.blogspot.com/2024/03/data-visualization-with-gnu-emacs.html
+
+* Data Visualization with GNU Emacs
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=XdXlIV2Hvk4&list=PLW9poAEUvGDCtcnrDdiQWRAX_3RC6XcNU&index=3&pp=iAQB
+:DATE:     2024-03-13T08:25:36-07:00
+:SPEAKERS: Anand Tamariya
+:DURATION: 00:50
+:END:
+  Quick Data Visualization with GNU Emacs and Gnuplot
+  https://lifeofpenguin.blogspot.com/2024/03/data-visualization-with-gnu-emacs.html
 
 * Modern Emacs: all those new tools that make Emacs better and faster
 :PROPERTIES:
@@ -2635,6 +2767,16 @@ count-words-region
   In this ~30 minute video I show how to tell Emacs where to place specific buffers. The idea is to have a set of rules that specify how you want Emacs to make use of the available space in the frame and which windows to use.
   You can find actual code and further links on my website. Check the publication that corresponds to this video: https://protesilaos.com/codelog/2024-02-08-emacs-window-rules-display-buffer-alist
 
+* GNU Emacs as a Comic Book Reader
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=lrZX_a4Y5Ps&list=PLW9poAEUvGDC1g1A3hBdZa0Atr0RL8yZt&index=1&pp=iAQB
+:DATE:     2024-02-05T01:17:06-08:00
+:SPEAKERS: Anand Tamariya
+:DURATION: 01:11
+:END:
+  Details:
+  https://lifeofpenguin.blogspot.com/2024/01/gnu-emacs-as-comic-book-reader.html
+
 * Emacs: abbreviations with abbrev-mode (quick text expansion)
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=ruPpRlh2re4
@@ -2645,6 +2787,18 @@ count-words-region
   In this ~27 minute video, I explain how to use the built-in `abbrev-mode` to define "abbreviations" for quick-yet-powerful text expansion. I cover the most simple scenario and then go into more technical implementations: (i) to use a function instead of a predetermined text, and (ii) to expand what counts as an abbreviation so as to use characters that are not word constituents.
 
   The code I had in my scratch buffer is on my website: https://protesilaos.com/codelog/2024-02-03-emacs-abbrev-mode
+
+* GNU Emacs: Magnifier Tool
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=xpIvFiFlhJE&list=PLW9poAEUvGDC1g1A3hBdZa0Atr0RL8yZt&index=2&pp=iAQB
+:DATE:     2024-02-02T22:51:02-08:00
+:SPEAKERS: Anand Tamariya
+:DURATION: 00:24
+:END:
+  Details:
+  https://lifeofpenguin.blogspot.com/2024/01/gnu-emacs-as-comic-book-reader.html
+
+  (comics--zoom-on)
 
 * Emacs Goodies - #37 Pulse Mode
 :PROPERTIES:
@@ -3941,6 +4095,25 @@ count-words-region
 
   #Emacs #IDE #Programming #SoftwareDevelopment #GNU #GNUEmacs
 
+* Emacs Micro Lesson #9 | Start Process
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=TggT9_RxPqY&list=PLKpFPBl1UnIpUPd0kfMCObsi4rb9LQlD-&index=9&pp=iAQB
+:DATE:     2023-10-23T11:28:10-07:00
+:SPEAKERS: Chris Maiorana
+:DURATION: 05:06
+:END:
+  That’s right. Let’s take a common scenario. You’re doing some work in Emacs. Maybe you’re programming. Maybe you’re writing a novel. It doesn’t matter what you’re doing. You want to start playing some music or run a backup of your files in the background. You can open up a different app or your terminal emulator and run a command.
+
+  What if you could run that background process from Emacs with a simple function? One and done. That’s how we like to do things in the Emacs world. The best way to get this done is to use a function called (you guessed it already), start-process.
+
+  Get code here:
+  https://chrismaiorana.com/emacs-micro-lesson-9-start-process/
+
+  Try out SiteGround hosting here:
+  https://www.siteground.com/index.htm?afcode=463202b27d3c0095660775fc7df0a197
+
+  #emacs #shellscripting
+
 * Emacs Goodies - #23 String Edit
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=lUGSbeGzUl8&list=PL3kg5TcOuFloKaZ3TSmOL0Zh6xb8xyvpX&index=23&pp=iAQB
@@ -4868,6 +5041,24 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
 
   #Emacs #IDE #Programming #SoftwareDevelopment #GNU #GNUEmacs
 
+* GNU Emacs as a lightweight IDE (Generate C header)
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=d-FSwwZJV0M&list=PLW9poAEUvGDAMYvvznljaNtvooaJZxsFQ&index=2&pp=iAQB
+:DATE:     2023-08-17T06:31:37-07:00
+:SPEAKERS: Anand Tamariya
+:DURATION: 00:45
+:END:
+  Details:
+  https://lifeofpenguin.blogspot.com/2021/04/gnu-emacs-as-lightweight-ide.html
+
+
+  Emacs config
+
+  (global-ede-mode 1)
+  (semantic-mode 1)
+  (srecode-minor-mode 1)
+  (ede-enable-generic-projects)
+
 * Learning Elisp Part 7 - Regular Expressions
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=-kyJLcsiH_4&list=PL9KxKa8NpFxKGctwh4-BqjQvdSRhh4NV-&index=9&pp=iAQB
@@ -5094,6 +5285,17 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
   00:00 -  Start
   09:28  - Start of internethistory and rot13 rant
   18:27 -  Post Rant
+
+* Tinylisp and Multi-threaded Emacs
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=TZfmpWu0mec&list=PLW9poAEUvGDAMYvvznljaNtvooaJZxsFQ&index=3&pp=iAQB
+:DATE:     2023-07-24T19:59:42-07:00
+:SPEAKERS: Anand Tamariya
+:DURATION: 00:21
+:END:
+  A glimpse of a possible multi-threaded future of Emacs using tinylisp.
+
+  Details: https://lifeofpenguin.blogspot.com/2023/07/tinylisp-and-multi-threaded-emacs.html
 
 * Learning Elisp 3 - Functions
 :PROPERTIES:
@@ -5419,6 +5621,21 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
   Overview of the powerful tools Emacs has to search files, create a dynamic index of matches, search and replace, use grep and make editable grep buffers, match strings or regular expressions, etc.
 
   The code I suggested is on my website: https://protesilaos.com/codelog/2023-06-10-emacs-search-replace-basics/
+
+* Emacs Micro Lesson 8: Command L To Center Screen (Move Blinky Thing)
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=aAQeEpigzJU&list=PLKpFPBl1UnIpUPd0kfMCObsi4rb9LQlD-&index=8&pp=iAQB
+:DATE:     2023-06-07T12:11:31-07:00
+:SPEAKERS: Chris Maiorana
+:DURATION: 03:12
+:END:
+  Command L is a great way to center your screen to give yourself a little breathing room while typing, or to simply center the screen while reading through long documents.
+
+  ✍Check out my substack for deep thoughts (in text form):
+  https://chrismaiorana.substack.com/
+
+  🌊My website is hosted at Digital Ocean, click this link to get $200 toward your own project:
+  https://m.do.co/c/7f5e62376da9
 
 * Org Mode Archive File | Clean Up Your Logbook                         :org:
 :PROPERTIES:
@@ -6397,6 +6614,17 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
 :END:
 
 
+* Emacs Micro Lesson 6:  Org Macro Replacement
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=CYKHGHB6OG0&list=PLKpFPBl1UnIpUPd0kfMCObsi4rb9LQlD-&index=6&pp=iAQB
+:DATE:     2023-04-26T09:39:51-07:00
+:SPEAKERS: Chris Maiorana
+:DURATION: 03:43
+:END:
+  That's right.  You too can enter the wild world of org mode macro expansion. In this micro lesson we're going to see how to create macros and replace them live.  Stay tuned.
+
+  #emacs #linux
+
 * From vanilla Emacs to Python IDE                                   :python:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=JmmTUIahB1U
@@ -6424,6 +6652,15 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
 :END:
   Yes, you too can write beautiful HTML documents with org mode to impress your friends.  Structure thoughts in the hypertext language of the web, publish a website, have some fun.  Stay tuned.
   #emacs #linux
+
+* Emacs Micro Lesson 5: Visiting Files in Read Only Modes
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=3C2GfdYsrBE&list=PLKpFPBl1UnIpUPd0kfMCObsi4rb9LQlD-&index=5&pp=iAQB
+:DATE:     2023-04-24T12:00:03-07:00
+:SPEAKERS: Chris Maiorana
+:DURATION: 05:35
+:END:
+  Emacs has so many modes it's practically modal. And in this video we're going to be talking about how you can use a few convenient "read only" modes for safely visiting files you DON'T want to edit. Stay tuned.
 
 * emacs lispy meow clojure programming screencast
 :PROPERTIES:
@@ -15871,6 +16108,18 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
 
   Goodreads: https://goodreads.com/unixbhaskar
 
+* Emacs Micro Lesson #3 - Installing Packages
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=rRlMyOciMF8&list=PLKpFPBl1UnIpUPd0kfMCObsi4rb9LQlD-&index=3&pp=iAQB
+:DATE:     2022-05-23T21:00:18-07:00
+:SPEAKERS: Chris Maiorana
+:DURATION: 04:17
+:END:
+  Learn how to install packages in Emacs the easy way. Packages are kind of like plugins that you can add to your Emacs functionality for certain purposes.
+
+  Below you will find the file attachment for this demo:
+  https://github.com/cryptstopher/emacs-micro-lessons2022/blob/master/3-packages.org
+
 * Emacs Version Control Facility AKA VC 2022_05_23_03:07:50
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=A93_RBDxbSE
@@ -15964,6 +16213,24 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
 
   Head over to www.savannatechie.com, to subscribe and get notification when the website is launched, share a topic or ask a question you want I cover in my next video.
 
+* GNU Emacs as a lightweight IDE (Rename symbol)
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=vVyHIiwfS9c&list=PLW9poAEUvGDAMYvvznljaNtvooaJZxsFQ&index=8&pp=iAQB
+:DATE:     2022-05-18T00:41:14-07:00
+:SPEAKERS: Anand Tamariya
+:DURATION: 00:56
+:END:
+  Details:
+  https://lifeofpenguin.blogspot.com/2021/04/gnu-emacs-as-lightweight-ide.html
+
+
+  Emacs config
+
+  (global-ede-mode 1)
+  (semantic-mode 1)
+  (srecode-minor-mode 1)
+  (ede-enable-generic-projects)
+
 * Eev-wconfig.el: a way without "magic" to configure eev on M$ Windows
 :PROPERTIES:
 :YOUTUBE_URL: http://www.youtube.com/watch?v=Rm29XSdGCXw
@@ -15976,6 +16243,17 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
 
   You can read its subtitles here:
   http://anggtwu.net/2022-eev-wconfig.html
+
+* Emacs Micro Lesson #2: Why So Case Sensitive?
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=31PJeBy8zY8&list=PLKpFPBl1UnIpUPd0kfMCObsi4rb9LQlD-&index=2&pp=iAQB
+:DATE:     2022-05-17T21:00:00-07:00
+:SPEAKERS: Chris Maiorana
+:DURATION: 03:19
+:END:
+  Up casing and down casing words, making words into capital words, it's all pretty easy in Emacs with some key bindings all built-in for you.  Just watch this video and you will know what I mean.
+
+  If you need to quickly upper case or lowercase a bunch of words or regions in your Emacs buffer, you need to know this, because they will save you some time.
 
 * Lisp tutorial: how to call a REST API in Common Lisp: HTTP requests, JSON parsing, up to a CLI app
 :PROPERTIES:
@@ -16115,6 +16393,18 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
   Multiple cursors: https://github.com/magnars/multiple-cursors.el
   My Emacs conf: https://gitlab.com/skybert/my-little-friends/-/tree/master/emacs
   Shortcut viewer: https://github.com/michael-heerdegen/interaction-log.el
+
+* Emacs Micro Lesson #1: Quick Delete
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=q7tHoFumERQ&list=PLKpFPBl1UnIpUPd0kfMCObsi4rb9LQlD-&index=1&pp=iAQB
+:DATE:     2022-05-10T21:00:30-07:00
+:SPEAKERS: Chris Maiorana
+:DURATION: 03:41
+:END:
+  Yes, a micro lesson on quick deletions. Get around your keyboard more quickly with these power backspaces and forward delete functions.
+
+  See the extra material for this lesson here:
+  https://github.com/cryptstopher/tubevids2022/blob/master/caps.org
 
 * xah talk show 2022-05-07 look into emacs lisp string functions
 :PROPERTIES:
@@ -19632,6 +19922,18 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
 
   If you are new to BrainTool the other videos in this playlist give a short introduction.
 
+* GNU Emacs: A multimedia editor
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=F6HSf5D6TtA&list=PLW9poAEUvGDAMYvvznljaNtvooaJZxsFQ&index=10&pp=iAQB
+:DATE:     2022-01-27T04:07:02-08:00
+:SPEAKERS: Anand Tamariya
+:DURATION: 02:44
+:END:
+  Use GNU Emacs for simple multimedia editing tasks.
+
+
+  Details: https://lifeofpenguin.blogspot.com/2022/01/gnu-emacs-multimedia-editor.html
+
 * Org-mode - Let us start using LaTex                                   :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=FE1erKgmEMg
@@ -20587,6 +20889,33 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
   Discord:
       https://discord.gg/JJk5KKU
 
+* GNU Emacs: A configurable browser
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=y1k_lA2VUYg&list=PLW9poAEUvGDDxCZX-3xIQ3Wb1HOVcg7N_&index=7&pp=iAQB
+:DATE:     2022-01-11T07:41:51-08:00
+:SPEAKERS: Anand Tamariya
+:DURATION: 07:05
+:END:
+  Now you can use GNU Emacs as a full featured browser.
+  Details: https://lifeofpenguin.blogspot.com/2022/01/gnu-emacs-configurable-browser.html
+
+
+  Features:
+  - Adblock
+  - Inline videos à la Youtube
+  - Hit-a-Hint
+  - Keyboard based navigation: left/right character for left/right scroll, prev/next line, prev/next page, beginning/end of buffer for top/end of page, +/-/z for zoom in/out/reset
+  - Multi-input modes: single key interactive mode, line input mode via minibuffer and textarea input mode via new buffer
+  - Password auto-fill and management via authinfo
+  - Configurable Home page and search URL
+  - Bookmarks
+  - Download unsupported mime types
+  - User script à la Tampermonkey / Greasemonkey
+  - User styles
+  - Developer tools / Web Inspector
+
+  Finally you can have a browser as you want.
+
 * GNU/Emacs - Snails ,Shell-Pop,Golden-Ratio,Volatile-Highlights,Multiple-Cursors
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=0KhQILr0MEQ
@@ -21013,6 +21342,15 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
   C Page URL:
   https://commons.wikimedia.org/wiki/File:C_Programming_Language.svg
 
+* Finally Vi in GNU Emacs!!!
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=87QzhmhHwLU&list=PLW9poAEUvGDDxCZX-3xIQ3Wb1HOVcg7N_&index=5&pp=iAQB
+:DATE:     2021-12-27T03:24:22-08:00
+:SPEAKERS: Anand Tamariya
+:DURATION: 00:40
+:END:
+  Details https://lifeofpenguin.blogspot.com/2021/12/embedding-applications-via-xembed.html
+
 * A Tour of my Emacs Configuration — Straightforward Emacs: Unleashed
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=Gi7yBMYZylU
@@ -21297,6 +21635,15 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
 
 
   Powered by Restream https://restream.io/
+
+* Video widget in GNU Emacs
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=kSkZwI78t6g&list=PLW9poAEUvGDDxCZX-3xIQ3Wb1HOVcg7N_&index=6&pp=iAQB
+:DATE:     2021-12-17T03:39:29-08:00
+:SPEAKERS: Anand Tamariya
+:DURATION: 01:43
+:END:
+  Embed video (GTK widgets in general) in GNU Emacs https://lifeofpenguin.blogspot.com/2021/12/embedding-applications-via-xembed.html
 
 * ELISP hacking: selezione IP interattiva
 :PROPERTIES:
@@ -22791,6 +23138,15 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
 
   #linux #emacs #frame
 
+* Formula Editor in GNU Emacs
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=1343m3LY4mo&list=PLW9poAEUvGDDxCZX-3xIQ3Wb1HOVcg7N_&index=4&pp=iAQB
+:DATE:     2021-11-17T01:58:39-08:00
+:SPEAKERS: Anand Tamariya
+:DURATION: 00:34
+:END:
+  Details: https://lifeofpenguin.blogspot.com/2021/11/formula-editor-in-gnu-emacs.html
+
 * DoomConf November 2021 (Doom Emacs)
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=fo8omgxB1Qc
@@ -22920,6 +23276,15 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
 :END:
   How to use emacs and org-mode to teach programming. For details, visit its github repo:
   https://github.com/dmgerman/teachingProgOrg
+
+* SPICE simulation in GNU Emacs (From schematics)
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=enZS9BLqVsk&list=PLW9poAEUvGDC7ZWO69qrwRMqdW2xYLsGt&index=1&pp=iAQB
+:DATE:     2021-11-08T01:31:16-08:00
+:SPEAKERS: Anand Tamariya
+:DURATION: 04:33
+:END:
+  https://lifeofpenguin.blogspot.com/2021/11/spice-simulation-in-gnu-emacs-from.html
 
 * Emacs Org Capture 2021_11_08_08:12:46
 :PROPERTIES:
@@ -23115,6 +23480,18 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 :DURATION: 10:50
 :END:
   Emacs is often called a self-documenting editor.  There are a ton of commands to get help in different ways.  Scimax uses a hydra to organize these commands to help make it easy to access them.
+
+* Schematics using GNU Emacs (Symbols Library)
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=X8-q0SJZQdk&list=PLW9poAEUvGDDxCZX-3xIQ3Wb1HOVcg7N_&index=1&pp=iAQB
+:DATE:     2021-11-02T01:11:22-07:00
+:SPEAKERS: Anand Tamariya
+:DURATION: 01:33
+:END:
+  Draw quick schematics using GNU Emacs
+
+  https://lifeofpenguin.blogspot.com/2021/08/scribble-notes-in-gnu-emacs.html
+  https://lifeofpenguin.blogspot.com/2021/10/svg-widget-in-gnu-emacs.html
 
 * Compile C Program Inside Emacs 2021_11_02_02:17:12
 :PROPERTIES:
@@ -23923,6 +24300,17 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
   We review some common data structures in emacs-lisp, and ways to access data in them.
 
   Find scimax at https://github.com/jkitchin/scimax.
+
+* Schematics using GNU Emacs
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=cWylaLAodng&list=PLW9poAEUvGDDxCZX-3xIQ3Wb1HOVcg7N_&index=2&pp=iAQB
+:DATE:     2021-09-30T03:04:39-07:00
+:SPEAKERS: Anand Tamariya
+:DURATION: 01:10
+:END:
+  Draw quick schematics using GNU Emacs
+
+  https://lifeofpenguin.blogspot.com/2021/08/scribble-notes-in-gnu-emacs.html
 
 * "Inverse Literate" Emacs Configurations (Part 2) - Hack Sessions      :org:
 :PROPERTIES:
@@ -30352,6 +30740,27 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
   Intro music: Coriolis Effect by logos feat. stefsax, licensed CC-BY
   http://ccmixter.org/files/mseq/26296
 
+* GNU Emacs as a lightweight C IDE - 2 (Auto-suggest data structure)
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=dUEHo5nrnc8&list=PLW9poAEUvGDAMYvvznljaNtvooaJZxsFQ&index=12&pp=iAQB
+:DATE:     2021-01-29T01:16:54-08:00
+:SPEAKERS: Anand Tamariya
+:DURATION: 01:41
+:END:
+  Setup
+  OS               : Debian 10 XFCE
+  Emacs customization (https://gitlab.com/atamariya/emacs/tree/dev)
+
+  Emacs config
+          (global-ede-mode 1)
+          (semantic-mode 1)
+          (srecode-minor-mode 1)
+          (ede-enable-generic-projects)
+  ;; Install company for inline completion with dropdown
+          (require 'company)
+
+          (global-company-mode)
+
 * Enhance Your Email with Org Mode - Emacs Mail #4                      :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://youtu.be/aml36yZ-ANc
@@ -30432,6 +30841,27 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 :DURATION: 21:05
 :END:
   Demonstration of my custom commands for the built-in Version Control framework of Emacs (VC and vc-git). /// My dotemacs: https://protesilaos.com/dotemacs
+
+* GNU Emacs as a lightweight C IDE (Auto-suggest)
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=04HUN52M8Sc&list=PLW9poAEUvGDAMYvvznljaNtvooaJZxsFQ&index=13&t=1s&pp=iAQB
+:DATE:     2021-01-21T02:53:25-08:00
+:SPEAKERS: Anand Tamariya
+:DURATION: 03:12
+:END:
+  Setup
+  OS               : Debian 10 XFCE
+  Emacs customization (https://gitlab.com/atamariya/emacs/tree/dev)
+
+  Emacs config
+          (global-ede-mode 1)
+          (semantic-mode 1)
+          (srecode-minor-mode 1)
+          (ede-enable-generic-projects)
+  ;; Install company for inline completion with dropdown
+          (require 'company)
+
+          (global-company-mode)
 
 * Use Exclude tags to stop a sub tree from exporting EXCLUDE TAGS       :org:
 :PROPERTIES:
@@ -35139,6 +35569,30 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
           (global-company-mode)
           (setq-mode-local latex-mode semantic-dependency-system-include-path '("/usr/share/texlive/texmf-dist/tex/"))
 
+* GNU Emacs as a lightweight LaTex IDE (Mobile incompatible audio)
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=CrYbG3c35TI&list=PLW9poAEUvGDAMYvvznljaNtvooaJZxsFQ&index=15&pp=iAQB
+:DATE:     2020-05-05T00:42:19-07:00
+:SPEAKERS: Anand Tamariya
+:DURATION: 04:26
+:END:
+  If you're having audio issues, see https://youtu.be/KL0KNa6Nh4M
+
+  Setup
+  OS               : Debian 10 XFCE
+  Emacs customization (https://gitlab.com/atamariya/emacs/tree/dev)
+
+  Emacs config
+          (global-ede-mode 1)
+          (semantic-mode 1)
+          (srecode-minor-mode 1)
+          (ede-enable-generic-projects)
+  ;; Install company for inline completion with dropdown
+          (require 'company)
+
+          (global-company-mode)
+          (setq-mode-local latex-mode semantic-dependency-system-include-path '("/usr/share/texlive/texmf-dist/tex/"))
+
 * Just a beginner's guide for Doom Emacs | 그냥 기본적인 편집 가이드
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=E_NP40OsxZk&feature=youtu.be
@@ -35675,6 +36129,30 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 :END:
   Demo of the main features of VC, the version control framework that is built into Emacs. /// My dotemacs: https://protesilaos.com/dotemacs
 
+* GNU Emacs as a lightweight SQL IDE (Online)
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=dUbqdY0KU0U&list=PLW9poAEUvGDAMYvvznljaNtvooaJZxsFQ&index=16&pp=iAQB
+:DATE:     2020-03-28T00:10:04-07:00
+:SPEAKERS: Anand Tamariya
+:DURATION: 04:51
+:END:
+  Setup
+  OS               : Debian 10 XFCE
+  Emacs customization (https://gitlab.com/atamariya/emacs/tree/dev)
+
+  H2  customization (https://github.com/atamariya/h2database/tree/atamariya-patch-1)
+
+
+
+  Emacs config
+          (global-ede-mode 1)
+          (semantic-mode 1)
+          (srecode-minor-mode 1)
+          (ede-enable-generic-projects)
+  ;; Install company for inline completion with dropdown
+          (require 'company)
+          (global-company-mode)
+
 * Using Emacs Episode 70
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=FYKcVKg0OCU&list=PL9KxKa8NpFxIcNQa9js7dQQIHc81b0-Xg&index=71&pp=iAQB
@@ -35763,6 +36241,26 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
   Be sure to sign up to my monthly newsletter at https://technovangelist.com/newsletter
 
   And if interested in supporting me, sign up for my patreon at https://patreon.com/technovangelist
+
+* GNU Emacs as a lightweight SQL IDE (Offline)
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=yJ55cQez5Tc&list=PLW9poAEUvGDAMYvvznljaNtvooaJZxsFQ&index=17&pp=iAQB
+:DATE:     2020-03-22T02:57:35-07:00
+:SPEAKERS: Anand Tamariya
+:DURATION: 03:14
+:END:
+  Setup
+  OS               : Debian 10 XFCE
+  Emacs customization (https://gitlab.com/atamariya/emacs/tree/dev)
+
+  Emacs config
+          (global-ede-mode 1)
+          (semantic-mode 1)
+          (srecode-minor-mode 1)
+
+  ;; Install company for inline completion with dropdown
+          (require 'company)
+          (global-company-mode)
 
 * Using Emacs 69 - Floobits
 :PROPERTIES:
@@ -35866,6 +36364,27 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 :DURATION: 11:45
 :END:
   My highly-accessible themes for Emacs are now part of the official package archive. Here I explain what this means in practice and what my plans are for the immediate future. /// Link to the GitLab repo: https://gitlab.com/protesilaos/modus-themes
+
+* GNU Emacs as a lightweight Web IDE (HTML + JS + CSS) - 2
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=FkOYUPjdID8&list=PLW9poAEUvGDAMYvvznljaNtvooaJZxsFQ&index=18&pp=iAQB
+:DATE:     2020-03-09T23:40:01-07:00
+:SPEAKERS: Anand Tamariya
+:DURATION: 02:59
+:END:
+  Setup
+  OS               : Debian 10 XFCE
+  Java project: Universal Media Server (https://github.com/UniversalMediaServer/UniversalMediaServer)
+  Emacs customization (https://gitlab.com/atamariya/emacs/tree/dev)
+
+  Emacs config
+          (global-ede-mode 1)
+          (semantic-mode 1)
+          (srecode-minor-mode 1)
+
+  ;; Install company for inline completion with dropdown
+          (require 'company)
+          (global-company-mode)
 
 * Emacs: introduction to REGISTERS
 :PROPERTIES:
@@ -36562,6 +37081,43 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 
   Follow on LBRY: https://lbry.tv/@lukewh:3
   Join LBRY: https://lbry.tv/$/invite/@lukewh:3 (I get 20LBC if you do this)
+
+* Semantic font-lock for Java in Emacs
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=4UcPIdTJLOM&list=PLW9poAEUvGDAMYvvznljaNtvooaJZxsFQ&index=20&pp=iAQB
+:DATE:     2020-01-28T07:41:44-08:00
+:SPEAKERS: Anand Tamariya
+:DURATION: 01:16
+:END:
+  Noticeable features:
+
+      Static variables and functions are highlighted differently.
+      Constant variables are highlighted differently.
+      Not only the declaration, but the usages are highlighted also.
+      Package is highlighted correctly.
+
+  It uses following face definitions for highlighting.
+
+  (defvar semantic-format-face-alist
+    `( (function . font-lock-function-name-face)
+       (variable . font-lock-variable-name-face)
+       (type . font-lock-type-face)
+       ;; These are different between Emacsen.
+       (include . ,'font-lock-constant-face)
+       (package . , 'font-lock-constant-face)
+       ;; Not a tag, but instead a feature of output
+       (label . font-lock-string-face)
+       (comment . font-lock-comment-face)
+       (keyword . font-lock-keyword-face)
+       (annotation . font-lock-builtin-face)
+       (constant . bold)
+       ;;(member . font-lock-member-face)
+       (abstract . italic)
+       (static . italic)
+       (documentation . font-lock-doc-face)
+       )
+
+  Code: Emacs customization (https://gitlab.com/atamariya/emacs/tree/dev)
 
 * Bookmarks, Buffers and Windows in Doom Emacs
 :PROPERTIES:
