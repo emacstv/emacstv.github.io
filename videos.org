@@ -2180,7 +2180,7 @@ count-words-region
   ekg can be found at:
   https://github.com/ahyatt/ekg
 
-* 5 Custom Org Agenda Views for Productivity
+* 5 Custom Org Agenda Views for Productivity                            :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=-9rpQA6O3aM&list=PLEoMzSkcN8oM8vAS2dcoeLHtD2DTqKTVY&index=1&pp=iAQB
 :DATE:     2024-08-08T04:57:25-07:00
@@ -2254,7 +2254,7 @@ count-words-region
 
   Find all my publications on my website (Emacs, philosophy, mechanical keyboards, etc.): https://protesilaos.com
 
-* Never Miss a Task Again - Tagging Org Mode TODOs by Context
+* Never Miss a Task Again - Tagging Org Mode TODOs by Context           :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=GP8uOU6SSyk&list=PLEoMzSkcN8oM8vAS2dcoeLHtD2DTqKTVY&index=2&pp=iAQB
 :DATE:     2024-07-23T06:29:47-07:00
@@ -2924,7 +2924,7 @@ count-words-region
 
   #Emacs #IDE #Programming #SoftwareDevelopment #GNU #GNUEmacs
 
-* Audio braindump workflow tweaks: Adding Org Mode hyperlinks to recordings based on keywords  :org:
+* Audio braindump workflow tweaks: Adding Org Mode hyperlinks to recordings based on keywords :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://youtu.be/z_ESh0itp94
 :DATE:     2023-12-24T11:30:12-08:00
@@ -3280,7 +3280,7 @@ count-words-region
 :SPEAKERS: Jacob Boxerman
 :SERIES: EmacsConf 2023
 :END:
-* EmacsConf.org: How we use Org Mode and TRAMP to organize and run a multi-track conference  :emacsconf:emacsconf2023:org:tramp:
+* EmacsConf.org: How we use Org Mode and TRAMP to organize and run a multi-track conference :emacsconf:emacsconf2023:org:tramp:
 :PROPERTIES:
 :DATE: 2023-12-03
 :URL: https://emacsconf.org/2023/talks/emacsconf
@@ -3478,7 +3478,7 @@ count-words-region
 :SPEAKERS: Christopher Howard
 :SERIES: EmacsConf 2023
 :END:
-* Literate Documentation with Emacs and Org Mode  :emacsconf:emacsconf2023:literate:org:
+* Literate Documentation with Emacs and Org Mode :emacsconf:emacsconf2023:literate:org:
 :PROPERTIES:
 :DATE: 2023-12-02
 :URL: https://emacsconf.org/2023/talks/doc
@@ -4045,7 +4045,7 @@ count-words-region
 
   #Emacs #IDE #Programming #SoftwareDevelopment #GNU #GNUEmacs
 
-* 5 Reasons I Love Emacs Orgmode
+* 5 Reasons I Love Emacs Orgmode                                        :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=DEeStDz_imQ&list=PLknodeJt-I5GJmcd7ENakYf_M0x9q50d1&index=11&pp=iAQB
 :DATE:     2023-10-13T08:00:10-07:00
@@ -5420,7 +5420,7 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
 
   The code I suggested is on my website: https://protesilaos.com/codelog/2023-06-10-emacs-search-replace-basics/
 
-* Org Mode Archive File | Clean Up Your Logbook  :org:
+* Org Mode Archive File | Clean Up Your Logbook                         :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=_34OVueqYNU
 :DATE:     2023-06-04T12:37:10-07:00
@@ -5685,7 +5685,7 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
 
   Notes for this video: https://github.com/josephburnett/personal-config/blob/master/my-work-process.pdf
 
-* Emacs: Org mode basics
+* Emacs: Org mode basics                                                :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=e9Ucb1JHUfQ&list=PL8Bwba5vnQK14z96Gil86pLMDO2GnOhQ6&index=24&pp=iAQB
 :DATE:     2023-05-23T06:03:06-07:00
@@ -5898,7 +5898,7 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
   5. Youtube: https://youtube.com/ravisagar1
   ####
 
-* Emacs Micro Lesson 7: Modular Emacs Configuration in Org Mode File  :org:configuration:
+* Emacs Micro Lesson 7: Modular Emacs Configuration in Org Mode File :org:configuration:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=R__DMpgmh28
 :DATE:     2023-05-18T11:17:42-07:00
@@ -7446,7 +7446,7 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
   To support my work, you can buy me a coffee:
   https://www.buymeacoffee.com/vernon.grant
 
-* Org Mode Citation and Footnote Features — Straightforward Emacs
+* Org Mode Citation and Footnote Features — Straightforward Emacs       :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=48fIhQ9ozH4
 :DATE:     2023-03-14T21:33:07-07:00
@@ -7482,7 +7482,7 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
 :END:
   A status update on my "coaching" business endeavour and what my plan is to resolve my housing situation.  My coaching services: https://protesilaos.com/coach
 
-* Fast, Async LaTeX Previews in Org Mode
+* Fast, Async LaTeX Previews in Org Mode                                :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=n-AfvuV-bYo
 :DATE:     2023-03-12T04:32:49-07:00
@@ -8431,7 +8431,7 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
 :END:
   Emacs is Cool. Leverage Emacs as file manager and do things efficiently. A cool trick to know the file size in dired.
 
-* Beautifying Org Plot with YASnippet and Context Menus           :yasnippet:
+* Beautifying Org Plot with YASnippet and Context Menus       :yasnippet:org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=KrQmiSToo7o
 :DATE:     2023-01-27T22:50:08-08:00
@@ -17326,7 +17326,7 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
   Page URL:
   https://commons.wikimedia.org/wiki/File:Emacs_512.png
 
-* Org-mode - My wishlist for development
+* Org-mode - My wishlist for development                                :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=fOa2HryrRPs
 :DATE:     2022-03-17T20:00:28-07:00
@@ -17804,7 +17804,7 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
 
   Powered by Restream https://restream.io/
 
-* 20,000 Page Static Website Written In Org Mode
+* 20,000 Page Static Website Written In Org Mode                        :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=xH8rieN7aRI
 :DATE:     2022-02-25T14:24:37-08:00
@@ -18213,7 +18213,7 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
   Page URL:
   https://commons.wikimedia.org/wiki/File:Emacs_512.png
 
-* Org-mode - Fix problems with publishing
+* Org-mode - Fix problems with publishing                               :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=SOpfVh1QQM4
 :DATE:     2022-02-17T19:00:20-08:00
@@ -18363,7 +18363,7 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
   hydra:
   https://github.com/abo-abo/hydra
 
-* Org-mode - simple contact management
+* Org-mode - simple contact management                                  :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=LpHWVYs81y8&list=PLlHHtPGox8K6bcuruX10Evf4AYGzYQKiz&index=94&pp=iAQB
 :DATE:     2022-02-14T19:00:06-08:00
@@ -18446,7 +18446,7 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
   16:20 Variables
   32:29 Functions
 
-* Data Analysis with Emacs Org Mode: Tables and AWK Source Blocks
+* Data Analysis with Emacs Org Mode: Tables and AWK Source Blocks       :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=km5nXENXEQE
 :DATE:     2022-02-13T16:06:03-08:00
@@ -18601,7 +18601,7 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
 
   Powered by Restream https://restream.io/
 
-* Org-mode - Exclude entire file from publishing
+* Org-mode - Exclude entire file from publishing                        :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=WagK3JlS7c4&list=PLlHHtPGox8K6bcuruX10Evf4AYGzYQKiz&index=93&pp=iAQB
 :DATE:     2022-02-11T19:00:21-08:00
@@ -19611,7 +19611,7 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
 
   Website: https://bwestbro.com/
 
-* Browser-based Productivity and PKM with emacs, org-mode, LogSeq and BrainTool
+* Browser-based Productivity and PKM with emacs, org-mode, LogSeq and BrainTool :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=U9kg9yVMMAM
 :DATE:     2022-01-27T15:31:44-08:00
@@ -21530,7 +21530,7 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
 :END:
   A demonstration of how to define our own so-called "block agenda" view to improve our workflow with the Org agenda facilities. /// My website includes the code I am using right now, as well as a link to my Emacs config (the "dotemacs"): https://protesilaos.com/codelog/2021-12-09-emacs-org-block-agenda/
 
-* Org-mode - Fancy a house in south of France?
+* Org-mode - Fancy a house in south of France?                          :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=o3iAdbrc4KA&list=PLlHHtPGox8K6bcuruX10Evf4AYGzYQKiz&index=65&pp=iAQB
 :DATE:     2021-12-08T09:21:06-08:00
@@ -22238,7 +22238,7 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
 :SPEAKERS: Tom Gillespie
 :SERIES: EmacsConf 2021
 :END:
-* The use of Org mode syntax outside of GNU/Emacs  :emacsconf:emacsconf2021:org:
+* The use of Org mode syntax outside of GNU/Emacs :emacsconf:emacsconf2021:org:
 :PROPERTIES:
 :DATE: 2021-11-27
 :URL: https://emacsconf.org/2021/talks/org-outside
@@ -22304,7 +22304,7 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
 :SPEAKERS: Bala Ramadurai
 :SERIES: EmacsConf 2021
 :END:
-* Budgeting, Project Monitoring and Invoicing with Org Mode  :emacsconf:emacsconf2021:gen:org:project:
+* Budgeting, Project Monitoring and Invoicing with Org Mode :emacsconf:emacsconf2021:gen:org:project:
 :PROPERTIES:
 :DATE: 2021-11-27
 :URL: https://emacsconf.org/2021/talks/project
@@ -22952,7 +22952,7 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
 
   Support These projects in their respective pages if possible :)
 
-* 2021 emacs conference - Invoice Generation
+* 2021 emacs conference - Invoice Generation                            :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=P3EMosDPobs
 :DATE:     2021-11-07T03:56:59-08:00
@@ -23261,7 +23261,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 :END:
   A unique look at Emacs, my favorite text editor.
 
-* Emacs Bookmarks Save Your Place
+* Emacs Bookmarks Save Your Place                                       :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=p2N6JHSuxJg
 :DATE:     2021-10-29T05:23:15-07:00
@@ -23376,7 +23376,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 
   notebook for the course with references to materials used: https://github.com/janboone/msc_datascience/blob/master/hacking_part_2.ipynb
 
-* Emacs Screencast #5: Mein Org Mode Workflow + Anpassungen
+* Emacs Screencast #5: Mein Org Mode Workflow + Anpassungen             :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=QpreUiyJ41Q
 :DATE:     2021-10-20T05:05:07-07:00
@@ -23847,7 +23847,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 :END:
   The demo is held by Lars Brinkhoff - ITS Restoration guy
 
-* GNU/Emacs - More Org Stuff :org:
+* GNU/Emacs - More Org Stuff                                            :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=DNR3pgnurfc
 :DATE:     2021-10-06T11:58:02-07:00
@@ -23856,7 +23856,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 :END:
   A Short video on some more org mode stuff on GNU/Emacs
 
-* Emacs Screencast #1: Mein ganzes (wissenschaftliches) Leben in Reintextform.
+* Emacs Screencast #1: Mein ganzes (wissenschaftliches) Leben in Reintextform. :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=a4uE36Lb2_I&feature=youtu.be
 :DATE:     2021-10-03T10:11:03-07:00
@@ -23924,7 +23924,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 
   Find scimax at https://github.com/jkitchin/scimax.
 
-* "Inverse Literate" Emacs Configurations (Part 2) - Hack Sessions
+* "Inverse Literate" Emacs Configurations (Part 2) - Hack Sessions      :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=nXu32MHBDqA
 :DATE:     2021-09-29T22:03:28-07:00
@@ -23973,7 +23973,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 
   Powered by Restream https://restream.io/
 
-* "Inverse Literate" Emacs Configurations - Hack Sessions
+* "Inverse Literate" Emacs Configurations - Hack Sessions               :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=50Vsh4qw-E4
 :DATE:     2021-09-29T21:18:38-07:00
@@ -24040,7 +24040,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 :END:
   Basic demonstration of lsp-mode/Emacs/gitpod integration
 
-* Build Your Website with Org Mode                                      :org:publishing:sharing:
+* Build Your Website with Org Mode                   :org:publishing:sharing:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=AfkrzFodoNw
 :DATE:     2021-09-27T07:00:49-07:00
@@ -24855,7 +24855,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
   ukeSounds by airtone, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/airtone/32655
   Between Worlds (Instrumental) by Aussens@iter, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/tobias_weber/56664
 
-* Org-mode - I love clocking work time
+* Org-mode - I love clocking work time                                  :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=3V6IFIrT2IU&list=PLlHHtPGox8K6bcuruX10Evf4AYGzYQKiz&index=63&pp=iAQB
 :DATE:     2021-09-06T22:00:01-07:00
@@ -25042,7 +25042,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
   6. Apple Podcast: https://go.ravi.pro/apple
   7. Youtube: https://youtube.com/ravisagar1
 
-* Classy Slideshows From Emacs Org Mode + org-reveal – Straightforward Emacs
+* Classy Slideshows From Emacs Org Mode + org-reveal – Straightforward Emacs :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://youtu.be/avtiR0AUVlo
 :DATE:     2021-09-02T19:18:05-07:00
@@ -25068,7 +25068,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
   7:24 - Speaker notes
   8:22 - Conclusion If you appreciate what I do and are interested in showing your support, I invite you to 'buy me a coffee': https://buymeacoffee.com/jakebox
 
-* Org-mode - Learning Grafana properly or a new technology
+* Org-mode - Learning Grafana properly or a new technology              :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=Vpq9ol68Kug&list=PLlHHtPGox8K6bcuruX10Evf4AYGzYQKiz&index=61&pp=iAQB
 :DATE:     2021-09-01T10:30:01-07:00
@@ -25357,7 +25357,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
   reNovation by airtone, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/airtone/60674
   ukeSounds by airtone, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/airtone/32655
   Between Worlds (Instrumental) by Aussens@iter, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/tobias_weber/56664
-* Org-mode - Best quick start guide
+* Org-mode - Best quick start guide                                     :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=wAanDYqkjHY&list=PLlHHtPGox8K6bcuruX10Evf4AYGzYQKiz&index=60&pp=iAQB
 :DATE:     2021-08-23T09:45:00-07:00
@@ -26078,7 +26078,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
   6. Apple Podcast: https://go.ravi.pro/apple
   7. Youtube: https://youtube.com/ravisagar1
 
-* Getting Started with Org Roam - Build a Second Brain in Emacs  :org:OrgRoam:
+* Getting Started with Org Roam - Build a Second Brain in Emacs :org:OrgRoam:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=AyhPmypHDEw&pp=ygUFZW1hY3M%3D
 :DATE:     2021-07-26T06:39:33-07:00
@@ -27680,7 +27680,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
   🗒️ Doom Emacs: https://github.com/hlissner/doom-emacs
 
   Your support is very much appreciated. Thanks, guys!
-* DEMO - Taking notes with orgzly
+* DEMO - Taking notes with orgzly                                       :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=GYhIMHjGzjQ&feature=youtu.be
 :DATE:     2021-06-09T11:46:36-07:00
@@ -28846,7 +28846,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
   Day Like These
   https://www.youtube.com/watch?v=RTGEoh-vPIc
 
-* Creating Custom Minor Modes - Learning Emacs Lisp #7
+* Creating Custom Minor Modes - Learning Emacs Lisp #7                  :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=JJqchO3fnds&list=PLEoMzSkcN8oPQtn7FQEF3D7sroZbXuPZ7&index=7&pp=iAQB
 :DATE:     2021-04-14T09:13:25-07:00
@@ -29628,7 +29628,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
   Day Like These
   https://www.youtube.com/watch?v=RTGEoh-vPIc
 
-* Perfect Emacs Org Mode Exports to LaTeX – Straightforward Emacs
+* Perfect Emacs Org Mode Exports to LaTeX – Straightforward Emacs       :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=0qHloGTT8XE
 :DATE:     2021-03-07T07:25:33-08:00
@@ -30207,7 +30207,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
   Intro music: Coriolis Effect by logos feat. stefsax, licensed CC-BY
   http://ccmixter.org/files/mseq/26296
 
-* Use Org Mode Drawer to store information within your documents
+* Use Org Mode Drawer to store information within your documents        :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=P5HmbdvQtl0&list=PLlHHtPGox8K6bcuruX10Evf4AYGzYQKiz&index=41&pp=iAQB
 :DATE:     2021-02-01T22:00:10-08:00
@@ -30433,7 +30433,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 :END:
   Demonstration of my custom commands for the built-in Version Control framework of Emacs (VC and vc-git). /// My dotemacs: https://protesilaos.com/dotemacs
 
-* Use Exclude tags to stop a sub tree from exporting EXCLUDE TAGS
+* Use Exclude tags to stop a sub tree from exporting EXCLUDE TAGS       :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=lddzxcq7FjI&list=PLlHHtPGox8K6bcuruX10Evf4AYGzYQKiz&index=40&pp=iAQB
 :DATE:     2021-01-20T02:42:32-08:00
@@ -30658,7 +30658,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
   Intro music: Coriolis Effect by logos feat. stefsax, licensed CC-BY
   http://ccmixter.org/files/mseq/26296
 
-* Basic calculations in Org Mode tables - Date difference
+* Basic calculations in Org Mode tables - Date difference               :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=dErlcj6fPs0&list=PLlHHtPGox8K6bcuruX10Evf4AYGzYQKiz&index=39&pp=iAQB
 :DATE:     2021-01-07T04:28:01-08:00
@@ -30738,7 +30738,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
   Intro music: Coriolis Effect by logos feat. stefsax, licensed CC-BY
   http://ccmixter.org/files/mseq/26296
 
-* 5 Reasons to Learn Emacs in 2021
+* 5 Reasons to Learn Emacs in 2021                                      :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=bEfYm8sAaQg
 :DATE:     2021-01-04T06:00:11-08:00
@@ -30994,7 +30994,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
   Intro music: Coriolis Effect by logos feat. stefsax, licensed CC-BY
   http://ccmixter.org/files/mseq/26296
 
-* Show presentation using Org Mode
+* Show presentation using Org Mode                                      :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=uSwJQIGMyPk&list=PLlHHtPGox8K6bcuruX10Evf4AYGzYQKiz&index=38&pp=iAQB
 :DATE:     2020-12-20T03:29:00-08:00
@@ -31247,7 +31247,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
   - https://tlestang.github.io/
   - https://www.rse.ox.ac.uk/
 
-* Org Mode Narrowing and widening
+* Org Mode Narrowing and widening                                       :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=QdDzUgAwyJk&list=PLlHHtPGox8K6bcuruX10Evf4AYGzYQKiz&index=37&pp=iAQB
 :DATE:     2020-12-13T22:00:04-08:00
@@ -31290,7 +31290,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
   6. Apple Podcast: https://go.ravi.pro/apple
   7. Youtube: https://youtube.com/ravisagar1
 
-* Don't get overwhelmed with Org Mode
+* Don't get overwhelmed with Org Mode                                   :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=uP9UIZ0vmNM&list=PLlHHtPGox8K6bcuruX10Evf4AYGzYQKiz&index=36&pp=iAQB
 :DATE:     2020-12-13T02:51:12-08:00
@@ -31333,7 +31333,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
   6. Apple Podcast: https://go.ravi.pro/apple
   7. Youtube: https://youtube.com/ravisagar1
 
-* What can you do with Org Mode?
+* What can you do with Org Mode?                                        :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=TOqcwJs7vgU&list=PLlHHtPGox8K6bcuruX10Evf4AYGzYQKiz&index=35&pp=iAQB
 :DATE:     2020-12-12T04:23:53-08:00
@@ -31720,7 +31720,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 
   Your support is very much appreciated. Thanks, guys!
 
-* Emacs Tips - How to Give Presentations with Org Mode
+* Emacs Tips - How to Give Presentations with Org Mode                  :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=vz9aLmxYJB0
 :DATE:     2020-11-18T21:49:53-08:00
@@ -32073,7 +32073,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
   Intro music: Coriolis Effect by logos feat. stefsax, licensed CC-BY
   http://ccmixter.org/files/mseq/26296
 
-* Org Roam Setup · Emacs Doomcasts 25
+* Org Roam Setup · Emacs Doomcasts 25                                   :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=rH3ZH95zjKM&list=PLhXZp00uXBk4np17N39WvB80zgxlZfVwj&index=24&pp=iAQB
 :DATE:     2020-10-28T12:58:45-07:00
@@ -32204,7 +32204,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
   Demo #2: https://youtu.be/HQ0rUa7gVXA
   Demo #1: https://youtu.be/Wjk-otO2xrI
 
-* Emacs Tips - How to Show Reminders for Org Mode Tasks
+* Emacs Tips - How to Show Reminders for Org Mode Tasks                 :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=wKTKmE1wLyw
 :DATE:     2020-10-21T22:10:12-07:00
@@ -32331,7 +32331,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 
   #emacs #emacsdoom #orgmode
 
-* I didn't use Org Mode for a week
+* I didn't use Org Mode for a week                                      :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=9Rz8RpKeyDk&list=PLlHHtPGox8K6bcuruX10Evf4AYGzYQKiz&index=31&pp=iAQB
 :DATE:     2020-10-12T10:27:38-07:00
@@ -32419,7 +32419,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 
   #emacs #emacsdoom #orgmode
 
-* Transclusion / Block Reference with Emacs (Org Mode) - Prototype
+* Transclusion / Block Reference with Emacs (Org Mode) - Prototype      :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://youtu.be/Wjk-otO2xrI
 :DATE:     2020-10-06T12:23:12-07:00
@@ -32445,7 +32445,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
   There is also a blog post on how I did this course:
   https://koenig-haunstetten.de/2020/10/03/org-mode-course-approved/
 
-* Emacs From Scratch #5 - Org Mode Basics
+* Emacs From Scratch #5 - Org Mode Basics                               :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=VcgjTEa0kU4&feature=youtu.be
 :DATE:     2020-10-02T22:08:54-07:00
@@ -32468,7 +32468,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
   Intro music: Coriolis Effect by logos feat. stefsax, licensed CC-BY
   http://ccmixter.org/files/mseq/26296
 
-* Org Mode - Archive a task
+* Org Mode - Archive a task                                             :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=kimOYnOhZD4&list=PLlHHtPGox8K6bcuruX10Evf4AYGzYQKiz&index=30&pp=iAQB
 :DATE:     2020-10-02T22:00:05-07:00
@@ -32554,7 +32554,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
   6. Apple Podcast: https://go.ravi.pro/apple
   7. Youtube: https://youtube.com/ravisagar1
 
-* Display your Org Mode agenda on a calendar
+* Display your Org Mode agenda on a calendar                            :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=Ap9nlw9751c&list=PLlHHtPGox8K6bcuruX10Evf4AYGzYQKiz&index=28&pp=iAQB
 :DATE:     2020-09-30T22:00:01-07:00
@@ -32721,7 +32721,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
   Intro music: Coriolis Effect by logos feat. stefsax, licensed CC-BY
   http://ccmixter.org/files/mseq/26296
 
-* Org Mode - Let us start using tables
+* Org Mode - Let us start using tables                                  :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=OUfOYpL_-kA&list=PLlHHtPGox8K6bcuruX10Evf4AYGzYQKiz&index=26&pp=iAQB
 :DATE:     2020-09-25T22:00:04-07:00
@@ -32764,7 +32764,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
   6. Apple Podcast: https://go.ravi.pro/apple
   7. Youtube: https://youtube.com/ravisagar1
 
-* Boost Productivity With Emacs, Org Mode and Org Agenda  :org:OrgAgenda:
+* Boost Productivity With Emacs, Org Mode and Org Agenda      :org:OrgAgenda:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=Ea_-TaEGa7Y
 :DATE:     2020-09-25T14:54:16-07:00
@@ -32897,7 +32897,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
   - Medium: https://medium.com/@lexfridman
   - Support on Patreon: https://www.patreon.com/lexfridman
 
-* Emacs - One or multiple agenda files in Org Mode
+* Emacs - One or multiple agenda files in Org Mode                      :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=a5AvBGYD4Ho&list=PLlHHtPGox8K6bcuruX10Evf4AYGzYQKiz&index=24&pp=iAQB
 :DATE:     2020-09-23T08:05:09-07:00
@@ -33350,7 +33350,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 :END:
   See how some of the tools we've been working on at Tweag can help you with your Python development and deployment workflows. Steve Purcell shows you how to use Poetry to manage the dependencies of a Python program, and then easily add in some Nix tools that make builds and deployment easy. Read our recent blog post on the topic: https://www.tweag.io/blog/2020-08-12-poetry2nix/
 
-* Track your habits with Org Mode
+* Track your habits with Org Mode                                       :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=9-SOUohZYg4&list=PLlHHtPGox8K6bcuruX10Evf4AYGzYQKiz&index=21&pp=iAQB
 :DATE:     2020-08-31T12:05:58-07:00
@@ -33464,7 +33464,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
   6. Apple Podcast: https://go.ravi.pro/apple
   7. Youtube: https://youtube.com/ravisagar1
 
-* Emacs - Using Org Mode on multiple computers and Orgzly
+* Emacs - Using Org Mode on multiple computers and Orgzly               :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://youtu.be/Q-V_ys9iEf0
 :DATE:     2020-08-28T09:20:23-07:00
@@ -33816,7 +33816,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
   👉 Music Intro: https://soundcloud.com/c-lancethemonstah/c-lance-i-got-a-story
   👉 Music: https://soundcloud.com/freehiphopbeatsforyou/free-the-passion-hifi-so-glad-i-found-you-boom-bap-beat-instrumental
 
-* Emacs Org Mode - Visual Line Mode and Org Indent Mode
+* Emacs Org Mode - Visual Line Mode and Org Indent Mode                 :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=e23gp44JKw4&list=PLlHHtPGox8K6bcuruX10Evf4AYGzYQKiz&index=13&pp=iAQB
 :DATE:     2020-08-13T11:18:42-07:00
@@ -34005,7 +34005,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
   Follow me on LBRY:
   https://lbry.tv/$/invite/@marco:55
 
-* Structure Template in Emacs Org Mode
+* Structure Template in Emacs Org Mode                                  :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=8RUoZuJLW2Y&list=PLlHHtPGox8K6bcuruX10Evf4AYGzYQKiz&index=12&pp=iAQB
 :DATE:     2020-08-09T12:06:35-07:00
@@ -34255,7 +34255,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
   👉 Music Intro:  https://soundcloud.com/c-lancethemonstah/c-lance-i-got-a-story
   👉 Music: https://soundcloud.com/freehiphopbeatsforyou/the-passion-hifi-spanish-winter-boom-bap-beat-instrumental
 
-* Moving LinuxIndya.com to Org Mode (Emacs) and publish using GitLab
+* Moving LinuxIndya.com to Org Mode (Emacs) and publish using GitLab    :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=kdCbqeqLfcM
 :DATE:     2020-07-28T12:48:50-07:00
@@ -34379,7 +34379,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 :END:
   This video continues the series on editing with GNU Emacs from the Linux command line.   In this video we demonstrate how to delete lines or regions of text and restore those lines.   We also show how to turn on the feature that displays the column number of the cursor on the mode line.
 
-* Want To Rewrite Your Configs In Org-Mode? It's Easy!
+* Want To Rewrite Your Configs In Org-Mode? It's Easy!                  :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=pQe1ul51RM0&list=PL5--8gKSku15uYCnmxWPO17Dq6hVabAB4&index=44&pp=iAQB
 :DATE:     2020-07-17T15:26:11-07:00
@@ -34448,7 +34448,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
   Get my Emacs config:
   https://github.com/matman26/emacs-config
 
-* Emacs: mixed fonts for Org mode
+* Emacs: mixed fonts for Org mode                                       :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=Oiu3LFK_rX8&feature=youtu.be
 :DATE:     2020-07-17T05:20:13-07:00
@@ -34902,7 +34902,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
   6. Apple Podcast: https://go.ravi.pro/apple
   7. Youtube: https://youtube.com/ravisagar1
 
-* Literate Programming - Quickly insert code blocks in Emacs Org Babel
+* Literate Programming - Quickly insert code blocks in Emacs Org Babel  :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=vc8CvM_WolM&list=PLlHHtPGox8K6bcuruX10Evf4AYGzYQKiz&index=8&pp=iAQB
 :DATE:     2020-05-28T14:05:55-07:00
@@ -35273,7 +35273,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 :END:
   Supplementary post: https://beepb00p.xyz/myinfra-roam.html#orger ; github repository: https://github.com/karlicoss/orger#readme
 
-* What is Org Mode? #Emacs
+* What is Org Mode? #Emacs                                              :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=1FCYQIHurEY&list=PLlHHtPGox8K6bcuruX10Evf4AYGzYQKiz&index=5&pp=iAQB
 :DATE:     2020-04-20T11:47:22-07:00
@@ -35334,7 +35334,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
   Follow me on LBRY:
   https://lbry.tv/$/invite/@marco:55
 
-* Org Mode - Insert link, footnote and make text fit your window with visual-line-mode
+* Org Mode - Insert link, footnote and make text fit your window with visual-line-mode :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=GbjGQbHXJqE&list=PLlHHtPGox8K6bcuruX10Evf4AYGzYQKiz&index=4&pp=iAQB
 :DATE:     2020-04-17T09:43:22-07:00
@@ -37079,7 +37079,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 
   My videos are automatically edited with help of: https://github.com/jappeace/cut-the-crap
 
-* Emacs quick demo: git commit fixup with Magit
+* Emacs quick demo: git commit fixup with Magit                       :magit:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=ZGoImgzWUs8&list=PL8Bwba5vnQK14z96Gil86pLMDO2GnOhQ6&index=96&pp=iAQB
 :DATE:     2019-11-27T06:04:59-08:00
@@ -37088,7 +37088,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 :END:
   How to use Magit, the git front-end for Emacs, to fixup staged changes into a local commit. Also check my previous video for how to interactively rebase local commits: https://youtu.be/7qEoSr9Mii4
 
-* Emacs: interactively rebase git commits with Magit
+* Emacs: interactively rebase git commits with Magit                  :magit:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=7qEoSr9Mii4&list=PL8Bwba5vnQK14z96Gil86pLMDO2GnOhQ6&index=97&pp=iAQB
 :DATE:     2019-11-27T01:20:52-08:00
@@ -37106,7 +37106,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 :END:
   better-defaults. Exactly what the package does. If you don't have time to watch this video, check out the README at https://github.com/technomancy/better-defaults
 
-* Using Emacs 62 - Magit Forge
+* Using Emacs 62 - Magit Forge                                        :magit:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=wgI8r3Nx_BI&list=PL9KxKa8NpFxIcNQa9js7dQQIHc81b0-Xg&index=63&pp=iAQB
 :DATE:     2019-11-19T09:39:58-08:00
@@ -38050,7 +38050,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
   * Modus themes: https://gitlab.com/protesilaos/modus-themes
   * My Emacs init (Org file): https://gitlab.com/protesilaos/dotemacs
 
-* Learning emacs (part 2) – "Org mode is like plaintext on steroids"
+* Learning emacs (part 2) – "Org mode is like plaintext on steroids"    :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://youtu.be/JtmXKqNOvAc
 :DATE:     2019-08-07T01:37:32-07:00
@@ -38333,7 +38333,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 
   #emacs #emacsdoom #orgmode
 
-* Emacs Doom E09: Org Mode, Basic Outlines
+* Emacs Doom E09: Org Mode, Basic Outlines                              :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=CV2IFpSW2sE&list=PLhXZp00uXBk4np17N39WvB80zgxlZfVwj&index=9&pp=iAQB
 :DATE:     2019-07-07T08:42:14-07:00
@@ -38477,7 +38477,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 
   Support My Work: https://www.patreon.com/tsoding
 
-* Emacs Is Great - Ep 43, Magit Forge
+* Emacs Is Great - Ep 43, Magit Forge                                 :magit:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=9mVF5sNdR7M&list=PLrFss89N5XNw8JMVSWJOwailCu8PC-ZZ_&index=52&pp=iAQB
 :DATE:     2019-06-04T04:00:16-07:00
@@ -39445,7 +39445,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 
   https://gitlab.com/yisraeldov/emacs-d/tree/ep28-mastodon.el
 
-* Live Emacs/Coding Trying magit transient
+* Live Emacs/Coding Trying magit transient                            :magit:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=P8Mw1SEJ418&list=PLrFss89N5XNw8JMVSWJOwailCu8PC-ZZ_&index=36&pp=iAQB
 :DATE:     2019-02-17T01:46:03-08:00
@@ -40007,7 +40007,7 @@ Full code on github:
 :END:
 
 
-* emacs is great - Ep 3, Magit intro
+* emacs is great - Ep 3, Magit intro                                  :magit:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=p9tEoloe_2w&list=PLrFss89N5XNw8JMVSWJOwailCu8PC-ZZ_&index=6&pp=iAQB
 :DATE:     2018-12-13T09:13:14-08:00
@@ -40798,7 +40798,7 @@ Full code on github:
 :END:
 
 
-* Using Emacs Episode 47 - Magit
+* Using Emacs Episode 47 - Magit                                      :magit:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=1IYsiHXR620&list=PL9KxKa8NpFxIcNQa9js7dQQIHc81b0-Xg&index=48&pp=iAQB
 :DATE:     2018-04-07T11:09:09-07:00
@@ -40880,7 +40880,7 @@ Full code on github:
   Github page: https://github.com/Kungsgeten/org-brain
   The Brain: https://thebrain.com/
 
-* Using Emacs 44 - An Org mode and PDF-tools workflow
+* Using Emacs 44 - An Org mode and PDF-tools workflow                   :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=LFO2UbzbZhA&list=PL9KxKa8NpFxIcNQa9js7dQQIHc81b0-Xg&index=45&pp=iAQB
 :DATE:     2018-03-03T06:11:06-08:00
@@ -41363,7 +41363,7 @@ Full code on github:
 
   - 7:30: No! They called "green threads", not "cooperating threads". Sorry about the confusion.
 
-* Emacs Rocks! Episode 17: Magit
+* Emacs Rocks! Episode 17: Magit                                      :magit:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=rzQEIRRJ2T0&list=PLVfFIUHWy-aNaF08m34sO81dsVr4L7uI-&index=17&pp=iAQB
 :DATE:     2017-09-28T10:14:31-07:00
@@ -41805,7 +41805,7 @@ Full code on github:
 
   More information about this video here: https://vincent.bernat.im/en/blog/2017-netops-org-mode
 
-* Network cookbook using Emacs and Org mode
+* Network cookbook using Emacs and Org mode                             :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=L0G72g7R-xY
 :DATE:     2017-03-04T11:06:33-08:00
@@ -42941,7 +42941,7 @@ Full code on github:
   Learn more from the developers at thoughtbot ⌨️
   Head over to http://tbot.io/dev-blog to read more great articles on our blog.
 
-* Getting Started With Org Mode
+* Getting Started With Org Mode                                         :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=SzA2YODtgK4&list=PL8tzorAO7s0he-pp7Y_JDl7-Kz2Qlr_Pj&index=7&pp=iAQB
 :DATE:     2016-04-27T13:40:24-07:00

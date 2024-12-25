@@ -207,10 +207,17 @@ If a region is active, add all the YouTube links in that region."
 
 (defun emacstv-count-entries ()
 	(interactive)
-	(let ((count 0))
-		(org-map-entries
-		 (lambda () (cl-incf count))
-		 "LEVEL=1")
-		(message "%d videos" count)))
+	(with-current-buffer (find-file-noselect emacstv-index-org)
+		(let ((count 0))
+			(org-map-entries
+			 (lambda () (cl-incf count))
+			 "LEVEL=1")
+			(message "%d videos" count))))
+
+(defun emacstv-agenda-search ()
+	(interactive)
+	(let ((org-agenda-files (list emacstv-index-org)))
+		(org-search-view)))
+
 (provide 'emacstv)
 ;;; emacstv.el ends here
