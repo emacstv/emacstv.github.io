@@ -31,9 +31,10 @@
 	"Return the video ID for URL."
 	(cond
 	 ((string-match "youtu.be/\\(.*\\)" url) (match-string 1 url))
+	 ((string-match "youtube.com/live/\\(.*?\\)\\(\\?.+\\|$\\)" url) (match-string 1 url))
 	 ((string-match "www.youtube.com/watch\\?\\(.*\\)" url)
 		(car (assoc-default "v" (url-parse-query-string (match-string 1 url)) #'string=)))
-	 (t (error "Unknown URL pattern"))))
+	 (t (error "Unknown URL pattern %s" url))))
 
 (defun emacstv-find-by-youtube-url (url)
 	"Move point to the entry for URL.
@@ -217,7 +218,100 @@ If a region is active, add all the YouTube links in that region."
 (defun emacstv-agenda-search ()
 	(interactive)
 	(let ((org-agenda-files (list emacstv-index-org)))
-		(org-search-view)))
+		(org-search-view)
+		(when (featurep 'hl-line)
+			(hl-line-mode 1))))
+
+;; ex. search: (and (heading "python") (not (tags "python")))
+(defun emacstv-org-ql-search (query)
+	(interactive (list (read-string "Query: "
+																	(when org-ql-view-query
+                                    (format "%S" org-ql-view-query)))))
+	(org-ql-search (list emacstv-index-org) query)
+	(when (featurep 'hl-line)
+		(hl-line-mode 1)))
+
+(defun emacstv-play-at-point ()
+	(when (derived-mode-p 'org-agenda-mode)
+		(org-agenda-switch-to))
+	(when (derived-mode-p 'org-mode)
+		(let ((url (or (org-entry-get (point) "MEDIA_URL")
+									 (org-entry-get (point) "TOOBNIX_URL")
+									 (org-entry-get (point) "YOUTUBE_URL"))))
+			(if url
+					(mpv-play-url url)
+				(error "Could not find URL for %s" (org-entry-get (point) "ITEM"))))))
+
+(defun emacstv-videos ()
+	(let ((json-object-type 'alist)
+				(json-list-type 'list))
+		(json-read-file (concat (file-name-sans-extension emacstv-index-org) ".json")))
+	;; (with-current-buffer (find-file-noselect emacstv-index-org)
+	;; 	(org-map-entries
+	;; 	 (lambda ()
+	;; 		 (let* ((end (save-excursion (org-end-of-subtree)))
+	;; 						(beg (progn (org-end-of-meta-data t) (point)))
+	;; 						(desc (if (< beg end) (string-trim (buffer-substring beg end)) "")))
+	;; 			 (append (org-entry-properties)
+	;; 							 `(("DESCRIPTION" . ,desc)))))
+	;; 	 "LEVEL=1"))
+	)
+
+(defun emacstv-format-for-completion (o)
+	(concat
+	 (assoc-default "ITEM" o 'string=)
+	 (if (not (string= (assoc-default "SPEAKERS" o 'string= "") ""))
+			 (format " - %s"
+							 (assoc-default "SPEAKERS" o 'string=))
+		 "")
+	 (if (assoc-default "DURATION" o 'string=)
+			 (format " (%s)"
+							 (assoc-default "DURATION" o 'string=))
+		 "")))
+
+;; (memoize-restore #'emacstv-videos)
+(when (functionp 'memoize)
+	(memoize #'emacstv-videos "60"))
+
+(defun emacstv-video-completion-collection (string predicate action)
+	"Return a collection for completion."
+	(if (eq action 'metadata)
+			'(metadata
+				(cycle-sort-function . identity)
+				(display-sort-function . identity))
+		(complete-with-action
+		 action
+
+		 string predicate)))
+
+(defun emacstv-complete-video (&optional prompt)
+	(let ((collection
+				 (mapcar (lambda (o) (cons (emacstv-format-for-completion o) o))
+								 (emacstv-videos))))
+		(assoc-default
+		 (completing-read (or prompt "Video: ")
+											collection nil t)
+		 collection #'string=)))
+
+(defun emacstv-video-url (video)
+	(or (assoc-default "MEDIA_URL" video #'string=)
+			(assoc-default "YOUTUBE_URL" video #'string=)
+			(assoc-default "TOOBNIX_URL" video #'string=)
+			(assoc-default 'MEDIA_URL video #'string=)
+			(assoc-default 'YOUTUBE_URL video #'string=)
+			(assoc-default 'TOOBNIX_URL video #'string=)))
+
+(defun emacstv-play (video)
+	(interactive (list (emacstv-complete-video)))
+	(mpv-play-url (emacstv-video-url video)))
+
+(defun emacstv-random-video ()
+	(let ((videos (emacstv-videos)))
+		(elt videos (random (length videos)))))
+
+(defun emacstv-play-random ()
+	(interactive)
+	(mpv-play-url (emacstv-video-url (emacstv-random-video))))
 
 (provide 'emacstv)
 ;;; emacstv.el ends here
