@@ -246,12 +246,13 @@ class VideoRenderer {
       })
       .join("&nbsp;·&nbsp;");
 
-    const speakers = heading.drawer?.SPEAKERS;
+		const duration = heading.drawer?.DURATION ? ` (${heading.drawer?.DURATION})` : '';
+		const speakers = heading.drawer?.SPEAKERS;
 
     result.html += `
       <div class="item">
         <p>${date}</p>
-        <p><strong>${title}</strong></p>
+        <p><strong>${title}</strong> ${duration}</p>
         <p>${tags}</p>
 ${speakers ?
        `<p class="speakers">By ${speakers}</p>` : ''

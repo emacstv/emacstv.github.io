@@ -351,11 +351,12 @@ ${videoList.html}`;
       const links = Object.keys(heading.drawer ?? {}).filter((key) => key.endsWith("_URL") && heading.drawer[key]?.trim()).map((key) => {
         return `<a href="${heading.drawer[key]}" target="_blank">${key.slice(0, -4).toLowerCase()}</a>`;
       }).join("&nbsp;\xB7&nbsp;");
+      const duration = heading.drawer?.DURATION ? ` (${heading.drawer?.DURATION})` : "";
       const speakers = heading.drawer?.SPEAKERS;
       result.html += `
       <div class="item">
         <p>${date}</p>
-        <p><strong>${title}</strong></p>
+        <p><strong>${title}</strong> ${duration}</p>
         <p>${tags}</p>
 ${speakers ? `<p class="speakers">By ${speakers}</p>` : ""}
         <p>${links}</p>
