@@ -1815,7 +1815,7 @@ This video is available under the terms of the Creative Commons Attribution-Shar
 :SPEAKERS: Jonathan Otsuka
 :SERIES: EmacsConf 2024
 :END:
-* Saturday closing remarks  :emacsconf:emacsconf2024:closing:
+* EmacsConf 2024 Saturday closing remarks   :emacsconf:emacsconf2024:closing:
 :PROPERTIES:
 :DATE:     2024-12-07T05:00:00+0000
 :URL: https://emacsconf.org/2024/talks/sat-close
@@ -2193,6 +2193,15 @@ count-words-region
 
   Reference:
   - https://orgmode.org/
+* Spl Emacs Unicode
+:PROPERTIES:
+:DATE:     2024-11-01T22:00:34+00:00
+:DURATION: 0:57
+:VIMEO_URL: https://vimeo.com/1025583979
+:SPEAKERS: rd
+:END:
+  Spl Emacs mode.  Prettify symbols. MacOS.
+
 * shadow-css for personal use - Emacs, Browser, Clojure, REPL Screencast  :dev:clojure:coding:repl:web:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=8TwLHQrqG4w
@@ -3437,6 +3446,13 @@ count-words-region
 :END:
   Details: https://lifeofpenguin.blogspot.com/2024/04/svg-animation-in-gnu-emacs.html
 
+* install-emacs-in-ubuntu  :install:
+:PROPERTIES:
+:DATE:     2024-04-12T12:36:07+00:00
+:DURATION: 6:30
+:VIMEO_URL: https://vimeo.com/933692252
+:SPEAKERS: Britt Anderson
+:END:
 * Circle Packing Animation in GNU Emacs  :visualization:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=qPNVMQF9zK4&list=PLW9poAEUvGDCtcnrDdiQWRAX_3RC6XcNU&index=4&pp=iAQB
@@ -3617,6 +3633,17 @@ count-words-region
   26:51 let and temp vars
   27:58 Other videos you should check out
   29:22 Conclusion
+
+* ELISA  :ai:ellama:llm:
+:PROPERTIES:
+:DATE:     2024-02-23T16:16:44+00:00
+:DURATION: 1:13
+:VIMEO_URL: https://vimeo.com/916011595
+:SPEAKERS: Sergey Kostyaev
+:END:
+  ELISA (Emacs Lisp Information System Assistant) is a project designed to help Emacs users quickly find answers to their questions related to Emacs and Emacs Lisp. Utilizing the powerful Ellama package, ELISA provides accurate and relevant responses to user queries, enhancing productivity and efficiency in the Emacs environment. By integrating links to the Emacs info manual after answering a question, ELISA ensures that users have easy access to additional information on the topic, making it an essential tool for both beginners and advanced Emacs users.
+
+  https://github.com/s-kostyaev/elisa
 
 * Live: Emacs package maintenance ('fontaine', 'spacious-padding', 'ef-themes', 'denote', ...)  :live:
 :PROPERTIES:
@@ -3869,6 +3896,19 @@ count-words-region
 
   https://cestlaz.github.io/post/learning-elisp-17
 
+* ellama  :ai:llm:ellama:
+:PROPERTIES:
+:DATE:     2024-01-21T15:33:39+00:00
+:DURATION: 2:15
+:VIMEO_URL: https://vimeo.com/904932293
+:SPEAKERS: Sergey Kostyaev
+:END:
+  Ellama (https://github.com/s-kostyaev/ellama) is a tool for interacting with large language models from Emacs. It allows you to ask questions and receive responses from the LLMs. Ellama can perform various tasks such as translation, code review, summarization, enhancing grammar/spelling or wording and more through the Emacs interface. Ellama natively supports streaming output, making it effortless to use with your preferred text editor.
+
+  In new version:
+  - Added session management. Users can save and load sessions, switch between active sessions.
+  - Switched to org-mode by default.
+
 * Emacs: Denote links to Org headings  :denote:org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=FlTnPL27VwU
@@ -4032,6 +4072,30 @@ count-words-region
 :END:
   I've been experimenting with using speech recognition, Emacs, and Org Mode to lightly structure audio braindumps. Details:
   https://sachachua.com/blog/2023/12/audio-braindump-workflow-tweaks-adding-org-mode-hyperlinks-to-recordings-based-on-keywords/
+* 20230930D Инженерный способ делать менеджмент
+:PROPERTIES:
+:DATE:     2023-12-19T17:44:52+00:00
+:DURATION: 16:54
+:VIMEO_URL: https://vimeo.com/896269332
+:SPEAKERS: Stanislav Fomin
+:END:
+  http://0x1.tv/20230930D
+
+  Инженерный способ делать менеджмент (Александр Аксельрод, OSSDEVCONF-2023)
+  * Александр Аксельрод
+
+  -------------
+
+  Для управления разработкой традиционно используют Jira, Mantis, Redmine.
+
+  Для хранения знаний используют Confluence.
+  Для управления личной эффективностью популярным инструментом является Notion.
+
+  Доклад посвящён возможности замены всех этих инструментов Emacs’ом при условии инвестирования времени инженерной команды
+  в освоение этого инструмента.
+
+  md5:5924b539380b124193a8ae08a6c4dacd
+
 * Emacs: advanced Org literate configuration  :org:literate:configuration:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=ycyxytk1NAQ
@@ -7403,6 +7467,18 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
 
   #emacs
 
+* GB31401_システムプログラム_2023-0026-emacs-2
+:PROPERTIES:
+:DATE:     2023-05-15T02:39:51+00:00
+:DURATION: 13:56
+:VIMEO_URL: https://vimeo.com/826751838
+:SPEAKERS: Yasushi Shinjo
+:END:
+  筑波大学情報科学類「システムプログラム」2023年度
+  第0回 端末(2)
+  第6部：Emacs(2)
+  https://www.coins.tsukuba.ac.jp/~syspro/2023/2023-05-17/
+
 * Emacs | Org id will change how you see things                         :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=LgMlNQf61gM
@@ -7890,6 +7966,18 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
 :DURATION: 00:52
 :END:
 
+
+* GB31401_システムプログラム_2023-0014-emacs
+:PROPERTIES:
+:DATE:     2023-04-27T03:04:49+00:00
+:DURATION: 23:41
+:VIMEO_URL: https://vimeo.com/821510847
+:SPEAKERS: Yasushi Shinjo
+:END:
+  筑波大学情報科学類「システムプログラム」2023年度
+  第-1回 端末(1)
+  第1部：端末、シェル、リモートデスクトップ、SSH
+  https://www.coins.tsukuba.ac.jp/~syspro/2023/2023-05-10/
 
 * Emacs Micro Lesson 6:  Org Macro Replacement
 :PROPERTIES:
@@ -8755,6 +8843,33 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
   🐘 https://emacs.ch/@skybert
   📫 torstein@skybert.net
 
+* Installing Emacs on Ubuntu 2023
+:PROPERTIES:
+:DATE:     2023-03-22T17:08:26+00:00
+:DURATION: 5:10
+:VIMEO_URL: https://vimeo.com/810618916
+:SPEAKERS: Britt Anderson
+:END:
+  A short demo of installing emacs on a Ubuntu virtual machine (running on an M2 Mac Air)
+
+* Emacs Packagement 2 - using use-package
+:PROPERTIES:
+:DATE:     2023-03-22T17:07:53+00:00
+:DURATION: 4:30
+:VIMEO_URL: https://vimeo.com/810618692
+:SPEAKERS: Britt Anderson
+:END:
+  A demo of use-package for packages and configuration in Emacs
+
+* Emacs Package Management 1
+:PROPERTIES:
+:DATE:     2023-03-22T17:07:11+00:00
+:DURATION: 5:45
+:VIMEO_URL: https://vimeo.com/810618444
+:SPEAKERS: Britt Anderson
+:END:
+  An short overview of what file you need to access to establish your packages for Emacs
+
 * Python in Emacs 0079 - How to use ChatGPT in Python / Emacs code development? :python:gpt:ai:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=fXaJ3IcimOc
@@ -8986,6 +9101,55 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
   7:30 - Combining footnotes and citations
   7:49 - Footnote operations
   10:05 - Conclusion If you appreciate what I do and are interested in showing your support, I invite you to 'buy me a coffee': https://buymeacoffee.com/jakebox
+
+* Interoperability between R and other Languages • John D. Cook • GOTO 2016   :org:OrgBabel:r:
+:PROPERTIES:
+:DATE:     2023-03-14T17:08:41+00:00
+:DURATION: 43:03
+:VIMEO_URL: https://vimeo.com/808011315
+:SPEAKERS: John D. Cook
+:END:
+  This presentation was recorded at GOTO Copenhagen 2016
+  http://gotocph.com
+
+  John D. Cook - PhD in applied math at University of Texas and a postdoc at Vanderbilt
+
+  ABSTRACT
+   R is an unusual language with a huge treasure trove of useful statistical libraries. Many developers want to take advantage of R's libraries for part of a project but want to develop the rest of the project in other languages.  [...]
+
+  TIMECODES
+  0:00 Introduction
+  2:31 Why mix languages
+  4:12 How to optimize R
+  5:42 A few R quirks
+  9:49 C package interface
+  12:08 Simple Rcpp example
+  14:37 SQL Server 2016
+  16:50 Haskell
+  19:27 Emacs org-mode
+  22:42 org-babel languages
+  23:54 Structure of an org-mode file goto
+  25:36 Language interop
+  27:07 Jupyter notebooks
+  28:55 Some languages with Jupyter kernels
+  31:03 Beaker example
+  32:45 Languages supported in Beaker notebooks
+  34:54 R Markdown example
+  35:32 Languages supported in R Markdown
+  35:56 Summary
+  38:20 Contact
+
+  Download slides and read the full abstract here:
+  https://gotocon.com/cph-2016/presentations/show_talk.jsp?oid=7749
+
+  https://twitter.com/GOTOcon
+  https://www.linkedin.com/company/goto-
+  https://www.facebook.com/GOTOConferences
+  #Rlanguage #Rlang #Programming
+
+  Looking for a unique learning experience?
+  Attend the next GOTO conference near you! Get your ticket at https://gotopia.tech
+  Sign up for updates and specials at https://gotopia.tech/newsletter
 
 * Status update on Emacs  coaching and housing situation
 :PROPERTIES:
@@ -9469,6 +9633,13 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
   To support my work, you can buy me a coffee:
   https://www.buymeacoffee.com/vernon.grant
 
+* Slow emacs WR frame creation
+:PROPERTIES:
+:DATE:     2023-02-21T01:57:19+00:00
+:DURATION: 1:43
+:VIMEO_URL: https://vimeo.com/800713490
+:SPEAKERS: declanqian
+:END:
 * Emacs Magit Way Of Creating Rudimentary Patch 2023_02_21_03:53:35   :magit:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=Cn3YovbsH18&feature=youtu.be
@@ -9967,6 +10138,13 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
 :END:
   And I thought it was difficult learning how to cut and paste in Emacs, then I tried explaining it.
 
+* section on Emacs vim and vi.mp4
+:PROPERTIES:
+:DATE:     2023-01-26T19:45:46+00:00
+:DURATION: 1:24:14
+:VIMEO_URL: https://vimeo.com/793107692
+:SPEAKERS: Ezekiel Odutola (MoshTeach)
+:END:
 * How I Use My Linux Computer - DT LIVE!
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=7JKzC63JAn4
@@ -11315,6 +11493,38 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
   5. Youtube: https://youtube.com/ravisagar1
   ####
 
+* Power of Programming Tools • Trisha, Gee, Ola Bini,
+:PROPERTIES:
+:DATE:     2022-12-12T22:17:19+00:00
+:DURATION: 47:24
+:VIMEO_URL: https://vimeo.com/780535405
+:SPEAKERS: GOTO Conference
+:END:
+  This presentation was recorded at GOTO Aarhus 2013
+  http://gotocon.com
+
+  Ola Bini - Language Geek
+  Trisha Gee - MongoDB Inc
+  Roy Osherove - Senior consultant at ITVerket AS
+
+  ABSTRACT
+  TALK 1: Emacs for the Win
+  If there is one tool that makes me more powerful in my day-to-day life, it is Emacs. In this presentation I will show a few examples of why it's an excellent environment for programmers, and why it's crucial to understand.
+
+  TALK 2: Top Ten IntelliJ Tips
+  In this talk, Trisha shares with you the top tips shamelessly stolen from everyone she's ever pair-programmed with. Learn keyboard shortcuts you never knew you needed, and dramatically increase the speed of your coding.
+
+  TALK 3: Vim for Victory
+  If there is one tool that makes me more powerful in my day-to-day life, it is Emacs. In this presentation I will show a few examples of why it's an excellent environment for programmers, and why it's crucial to understand.
+
+  https://twitter.com/gotocon
+  https://www.facebook.com/GOTOConference
+  http://gotocon.com
+
+  Looking for a unique learning experience?
+  Attend the next GOTO conference near you! Get your ticket at https://gotopia.tech
+  Sign up for updates and specials at https://gotopia.tech/newsletter
+
 * You can be faster at renaming file and changing file permissions in dired buffers
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=x4s0KKSVuN0
@@ -12032,7 +12242,7 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
 :SPEAKERS: Timothy
 :SERIES: EmacsConf 2022
 :END:
-* Sunday opening remarks  :emacsconf:emacsconf2022:
+* EmacsConf 2022: Sunday opening remarks            :emacsconf:emacsconf2022:
 :PROPERTIES:
 :DATE:     2022-12-04T14:00:00+0000
 :URL: https://emacsconf.org/2022/talks/sun-open
@@ -12063,18 +12273,6 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
 :YOUTUBE_URL:
 :TOOBNIX_URL:
 :TRANSCRIPT_URL: https://media.emacsconf.org/2022/emacsconf-2022-sun-close--sunday-closing-remarks--main.vtt
-:SPEAKERS:
-:SERIES: EmacsConf 2022
-:END:
-* Saturday closing remarks  :emacsconf:emacsconf2022:
-:PROPERTIES:
-:DATE:     2022-12-03T21:50:00+0000
-:URL: https://emacsconf.org/2022/talks/sat-close
-:DURATION: ${duration}
-:MEDIA_URL: https://media.emacsconf.org/2022/emacsconf-2022-sat-close--saturday-closing-remarks--main.webm
-:YOUTUBE_URL:
-:TOOBNIX_URL:
-:TRANSCRIPT_URL: https://media.emacsconf.org/2022/emacsconf-2022-sat-close--saturday-closing-remarks--main.vtt
 :SPEAKERS:
 :SERIES: EmacsConf 2022
 :END:
@@ -12443,7 +12641,7 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
 :SPEAKERS: Alfred Zanini
 :SERIES: EmacsConf 2022
 :END:
-* Saturday opening remarks  :emacsconf:emacsconf2022:
+* EmacsConf 2022 Saturday opening remarks           :emacsconf:emacsconf2022:
 :PROPERTIES:
 :DATE:     2022-12-03T14:00:00+0000
 :URL: https://emacsconf.org/2022/talks/sat-open
@@ -15596,6 +15794,15 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
   3:04 creating Anki cards
   7:30 incremental reading
 
+* #ALX Emacs Explanation
+:PROPERTIES:
+:DATE:     2022-08-19T01:44:33+00:00
+:DURATION: 15:46
+:VIMEO_URL: https://vimeo.com/740959330
+:SPEAKERS: Ajose Tosin
+:END:
+  A tutorial and guide on how to use emacs.
+
 * Understanding emacs navigation and commands
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=JYEXGUf_cp4
@@ -15623,6 +15830,13 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
 :END:
   Commands on Emacs and how to navigate in linux terminal
 
+* Stefan van der Walt on Emacs (edited)
+:PROPERTIES:
+:DATE:     2022-08-16T16:55:51+00:00
+:DURATION: 15:43
+:VIMEO_URL: https://vimeo.com/740066780
+:SPEAKERS: Matthew Brett
+:END:
 * Emacs | Introduction to Writing In Org Mode                           :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=wQ7zAKKGCfc
@@ -15906,6 +16120,13 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
 
   Esperamos verte pronto de nuevo por el canal y, sobre todo, que disfrutes y aprendas con nuestro contenido. ¡ Hasta la próxima !
 
+* 2enabling-emacs
+:PROPERTIES:
+:DATE:     2022-08-02T08:56:37+00:00
+:DURATION: 0:50
+:VIMEO_URL: https://vimeo.com/735718419
+:SPEAKERS: Safcsp
+:END:
 * Emacs From Scratch, An Emacs Tutorial for Beginners- 09 Introduction to macros
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=4ch5VaVsgqo
@@ -16762,6 +16983,23 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
 
   Powered by Restream https://restre.am/yt
 
+* Ron Minnich - How to get super small linuxboot images and still have everything you need with the 'cpu' command
+:PROPERTIES:
+:DATE:     2022-07-07T09:28:33+00:00
+:DURATION: 11:59
+:VIMEO_URL: https://vimeo.com/727696297
+:SPEAKERS: Open Source Firmware Conference
+:END:
+  Do you want to have all the tools on your linuxboot system that you have on your desktop, but you can't get them to fit in your tiny flash part? Do you want all your desktop files visible on your linuxboot system, but just remembered there's no disk on your linuxboot system? Are you tired of using scp or wget to move files around? Do you want to run emacs or vim on the linuxboot machine, but know they can't ever fit? What about zsh? How about being able to run commands on your linuxboot machine and have the output appear on your home file system? You say you'd like to make this all work without having to ask your Sysadmin From Hell to Do Magic to your desktop?
+
+  Your search is over: cpu is here to answer all your usability needs.
+
+  CPU is a go implementation of Plan 9's cpu command. It uses the go ssh package, so all your communications are as secure as ssh. It can be started from /sbin/init or even replace /sbin/init, so you have teeny tiny flash footprint. You can see the code at github.com:u-root/cpu. It's also small: less than 20 files, including tests.
+
+  CPU runs as both a client (on your desktop) and an ssh server (on your linuxboot machine). On your desktop, it needs no special privilege. On the linuxboot system, it needs only fusermount. On the remote machine, it mounts a FUSE server into a process private name space at important places like /home/$USER, /bin, and so on. It implements remote file access by relaying FUSE requests via gorpc to a server embedded in the cpu command. The desktop command services those requests; you don't need to run a special external server.
+
+  CPU will change your life. You can forget about moving files via scp: once you 'cpu in', the /home directory on your linuxboot node is your home directory. You can cd ~ and see all your files. You can pick any shell you want, since the shell binary comes from your desktop, not flash. You don't have to worry about fitting zsh into flash ever again!
+
 * I keep getting stuck in Emacs. Shoot my troubles.
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=RlfFHTPq62A
@@ -17423,6 +17661,13 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
 :END:
   https://github.com/commercial-emacs
 
+* Integrando Diogenes en Gnu Emacs dentro de Android vía Termux (demo)
+:PROPERTIES:
+:DATE:     2022-06-19T13:51:09+00:00
+:DURATION: 3:20
+:VIMEO_URL: https://vimeo.com/721910702
+:SPEAKERS: Juan Manuel Macías Chaín
+:END:
 * Emacs org mode library in C++                                         :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=Hg-oljbwf40
@@ -18767,6 +19012,18 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
   bash xdotool script:
   https://github.com/DiamondBond/bin/blob/master/stqap.sh
 
+* GB31401_システムプログラム_2022-0006-emacs-2
+:PROPERTIES:
+:DATE:     2022-04-29T05:50:50+00:00
+:DURATION: 19:17
+:VIMEO_URL: https://vimeo.com/704423530
+:SPEAKERS: Yasushi Shinjo
+:END:
+  筑波大学情報科学類「システムプログラム」2022年度
+  第0回 端末(2)
+  第6部：Emacs(2)
+  https://www.coins.tsukuba.ac.jp/~syspro/2022/2022-05-18/
+
 * Live: My Emacs packages and other publications
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=tcvOd_yvBdI
@@ -18842,6 +19099,13 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
 
   Goodreads: https://goodreads.com/unixbhaskar
 
+* stefan_emacs.mp4
+:PROPERTIES:
+:DATE:     2022-04-23T18:17:53+00:00
+:DURATION: 24:33
+:VIMEO_URL: https://vimeo.com/702404210
+:SPEAKERS: Matthew Brett
+:END:
 * LEM - What If Emacs Was Multithreaded
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=Ph8M8ThBgPc&list=PLknodeJt-I5GJmcd7ENakYf_M0x9q50d1&index=4&pp=iAQB
@@ -19083,6 +19347,18 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
   08:05  if you are interested in test blocks
   08:08  please test this,
   08:10  and send feedback. That's it! bye =)
+
+* GB31401_システムプログラム_2022--106-emacs-r10
+:PROPERTIES:
+:DATE:     2022-04-19T14:27:15+00:00
+:DURATION: 35:07
+:VIMEO_URL: https://vimeo.com/700855961
+:SPEAKERS: Yasushi Shinjo
+:END:
+  筑波大学情報科学類「システムプログラム」2022年度
+  第-1回 端末(1)
+  第6部：Emacs(1)
+  https://www.coins.tsukuba.ac.jp/~syspro/2022/2022-05-11/
 
 * Org-mode - Insert horizontal line in footer                           :org:
 :PROPERTIES:
@@ -27193,6 +27469,15 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 
   https://github.com/ema2159/centaur-tabs
 
+* ISLisp-mode
+:PROPERTIES:
+:DATE:     2021-09-25T14:58:05+00:00
+:DURATION: 4:40
+:VIMEO_URL: https://vimeo.com/614514131
+:SPEAKERS: Fermin
+:END:
+  ISLIsp Emacs major mode example usage
+
 * Emacs Macros
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=b3Ja6N0edwo
@@ -28558,6 +28843,13 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 
   Powered by Restream https://restream.io/
 
+* Integrando Emacs y Org Mode con diogenes, primer test  :org:
+:PROPERTIES:
+:DATE:     2021-08-12T12:19:52+00:00
+:DURATION: 1:57
+:VIMEO_URL: https://vimeo.com/586273161
+:SPEAKERS: Juan Manuel Macías Chaín
+:END:
 * The Modern Emacs
 :PROPERTIES:
 :YOUTUBE_URL: https://youtu.be/ZbxUJz6a9Io
@@ -30486,6 +30778,15 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 
   ###
 
+* The emacs-ottr-toolkit for building template libraries
+:PROPERTIES:
+:DATE:     2021-06-19T07:06:17+00:00
+:DURATION: 16:42
+:VIMEO_URL: https://vimeo.com/564927698
+:SPEAKERS: Martin G. Skjæveland
+:END:
+  Presentation by Johan W. Klüwer, DNV. A new tool has been put together to simplify the work of creating templates, as a package of emacs functions and (textual) templates. With the emacs-ottr-toolkit, you can efficiently create and edit templates, including docTTR annotations, and test templates with example data. The tool also simplifies the use of Lutra to check for errors and generate documentation, reducing the effort needed to get template libraries published. A short walk-through of how the tool is used will demonstrate how this works. See https://gitlab.com/ottr/pub/emacs-ottr-toolkit.
+
 * Powerful Text Snippets – Emacs YASnippet – Straightforward Emacs :yasnippet:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=W-bRZlseNm0
@@ -30834,6 +31135,13 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
   ukeSounds by airtone, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/airtone/32655
   Between Worlds (Instrumental) by Aussens@iter, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/tobias_weber/56664
 
+* yabai+emacs-demo
+:PROPERTIES:
+:DATE:     2021-05-31T13:04:53+00:00
+:DURATION: 0:06
+:VIMEO_URL: https://vimeo.com/557173975
+:SPEAKERS: Ethan L.
+:END:
 * Exploring Emacs: What's new in emacs 27? Built in tab bar mode
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=-AbYSiHZAPg
@@ -31105,6 +31413,13 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
   ukeSounds by airtone, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/airtone/32655
   Between Worlds (Instrumental) by Aussens@iter, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/tobias_weber/56664
 
+* Emacs workspace per screen
+:PROPERTIES:
+:DATE:     2021-05-19T16:48:12+00:00
+:DURATION: 0:42
+:VIMEO_URL: https://vimeo.com/552491163
+:SPEAKERS: Speedhog
+:END:
 * Emacs: Modus themes status update (2021-05-19)
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=e-ApnxQeeTY&list=PL8Bwba5vnQK14z96Gil86pLMDO2GnOhQ6&index=55&pp=iAQB
@@ -31351,6 +31666,15 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 :DURATION: 19:04
 :END:
   Infrastructure and lightweight markup language for OER: The case of emacs-reveal, Jens Lechtenbörger
+
+* Reasonable Ontology Templates (OTTR): Incrementally building a template library
+:PROPERTIES:
+:DATE:     2021-05-09T15:08:12+00:00
+:DURATION: 23:59
+:VIMEO_URL: https://vimeo.com/547161487
+:SPEAKERS: Martin G. Skjæveland
+:END:
+  The video shows live coding demo session of a top-down approach for building a template library for a example use case. The chapter assumes the reader is familiar with the basics of OTTR. The coding session is using in emacs and a major mode for emacs that defines syntax highlighting for the stOTTR syntax and basic functionality from the standard Lutra CLI (the reference implementation of the OTTR project). The coding session is done by Daniel Lupp.
 
 * Let's write some Emacs Lisp - Using URL and authinfo to get a list of PRs from Github
 :PROPERTIES:
@@ -32203,6 +32527,20 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
   Intro music: Coriolis Effect by logos feat. stefsax, licensed CC-BY
   http://ccmixter.org/files/mseq/26296
 
+* IDE para el lenguaje de programación Go con el editor de texto emacs. �
+:PROPERTIES:
+:DATE:     2021-03-29T00:52:07+00:00
+:DURATION: 1:41
+:VIMEO_URL: https://vimeo.com/530123543
+:SPEAKERS: emmanuel palacio
+:END:
+* Descargango paquetes dede emacs
+:PROPERTIES:
+:DATE:     2021-03-28T23:48:20+00:00
+:DURATION: 1:15
+:VIMEO_URL: https://vimeo.com/530110733
+:SPEAKERS: emmanuel palacio
+:END:
 * GNU Hyperbole - Overview and Demo  :hyperbole:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=WKwZHSbHmPg
@@ -32236,6 +32574,22 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
   Hyperbole History: 50:59
   Acknowledgements & Resources: 53:29
   The Big Picture: 54:25
+
+* Unir Emacs con MELPA
+:PROPERTIES:
+:DATE:     2021-03-28T22:53:02+00:00
+:DURATION: 0:18
+:VIMEO_URL: https://vimeo.com/530099098
+:SPEAKERS: emmanuel palacio
+:END:
+* vokoscreen-2021-03-28-15-03-43_X1689fY5_VJjq.mkv
+:PROPERTIES:
+:DATE:     2021-03-28T20:12:05+00:00
+:DURATION: 0:15
+:VIMEO_URL: https://vimeo.com/530062837
+:SPEAKERS: emmanuel palacio
+:END:
+  Como unir MELPA con emacs
 
 * Xah Talk Show 2021-03-27 Emacs Undo Drama, Emacs Lore, Lisp Warr, rms, and Who's Who in Gnu Emacs
 :PROPERTIES:
@@ -32275,6 +32629,13 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 :END:
   In this demo I showcase the built-in "Emacs Web Wowser" and the extensions I have written for it. /// My dotemacs: https://protesilaos.com/dotemacs
 
+* emacs-helm-for-files.mp4  :helm:
+:PROPERTIES:
+:DATE:     2021-03-23T21:06:25+00:00
+:DURATION: 2:49
+:VIMEO_URL: https://vimeo.com/528018911
+:SPEAKERS: Fabrice Niessen
+:END:
 * Managing Files and Directories in Practice - Learning Emacs Lisp #6
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=nq-gqNGmayI
@@ -33197,6 +33558,13 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 :END:
   Overview of the built-in Version Control (VC) framework of Emacs and how I use it for all my Git projects. This demo also includes lots of custom code that I have written. Everything is part of my dotemacs: https://protesilaos.com/dotemacs
 
+* Emacs Everywhere Error Report   :bug:
+:PROPERTIES:
+:DATE:     2021-02-08T08:49:21+00:00
+:DURATION: 0:54
+:VIMEO_URL: https://vimeo.com/509692865
+:SPEAKERS: Ting Zhou
+:END:
 * System Crafters Live! - Emacs Startup Speed, Emacs News, Q&A
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=bF84mQMmfa8
@@ -34223,6 +34591,15 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
   Intro music: Coriolis Effect by logos feat. stefsax, licensed CC-BY
   http://ccmixter.org/files/mseq/26296
 
+* emacsartistmodecantscrolldownbgm   :artist:
+:PROPERTIES:
+:DATE:     2020-12-15T13:53:12+00:00
+:DURATION: 1:46
+:VIMEO_URL: https://vimeo.com/491189784
+:SPEAKERS: yassine chaouche
+:END:
+  How to draw rectangles in artist-mode with the keybaord
+
 * Looking At My Doom Emacs Config - DT LIVE
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=hG4Zuqrx7J0
@@ -34395,6 +34772,13 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
   6. Apple Podcast: https://go.ravi.pro/apple
   7. Youtube: https://youtube.com/ravisagar1
 
+* Emacs EAF Interference with M-x  :bug:
+:PROPERTIES:
+:DATE:     2020-12-12T14:20:07+00:00
+:DURATION: 0:41
+:VIMEO_URL: https://vimeo.com/490160893
+:SPEAKERS: Shiroi Akuma
+:END:
 * What can you do with Org Mode?                                        :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=TOqcwJs7vgU&list=PLlHHtPGox8K6bcuruX10Evf4AYGzYQKiz&index=35&pp=iAQB
@@ -35083,6 +35467,39 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
   If you would like to watch this video using only free software, you can check out the corresponding page at https://emacsconf.org/2020/talks/
   Questions, notes, and links are there as well. Enjoy!
 
+* UDB debugger - command line in Emacs  :debugging:udb:dev:coding:
+:PROPERTIES:
+:DATE:     2020-12-08T13:42:29+00:00
+:DURATION: 1:58
+:VIMEO_URL: https://vimeo.com/488527603
+:SPEAKERS: Undo
+:END:
+  A quick look at UDB used command line in Emacs. UDB redefines debugging by delivering an entirely different workflow which accelerates finding and fixing bugs.
+
+  Don’t step forward through code, simply time travel backward to find the answers. Debug Different.
+
+  ▪️ Reverse debugging
+  ▪️ Single step forward or backward
+  ▪️ Run forward or backward
+  ▪️ Hit breakpoints, conditional breakpoints & watchpoints - running forward or backward
+  ▪️ Jump to a bookmark in your program’s execution history
+  ▪️ Jump to specific a moment in time in your program’s execution
+  ▪️ Full inspection of global and local variable values
+  ▪️ Full compatibility with GDB commands
+  ▪️ IDE support or use directly from the command line
+
+  For more information on UDB visit: https://undo.io/udb
+  UDB Technical documentation: https://undo.io/udb-technical-docs
+
+* Karat reflow text problem
+:PROPERTIES:
+:DATE:     2020-12-07T17:27:27+00:00
+:DURATION: 0:55
+:VIMEO_URL: https://vimeo.com/488175391
+:SPEAKERS: Nathan Isom
+:END:
+  Just wanted to show emacs and stuff
+
 * Org-transclusion (alpha v0.0.6) Demo #6                               :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=nXQXLz-rsDk&feature=share
@@ -35252,6 +35669,26 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
   👉 https://twitter.com/tonyaldon
   👉 https://github.com/tonyaldon/inside-emacs
   👉 Music: https://soundcloud.com/ghostnotes92/different-roles
+
+* Reproducir contenido dlna en Emacs mediante un enlace personalizado de Org Mode (test)  :org:
+:PROPERTIES:
+:DATE:     2020-11-24T07:08:42+00:00
+:DURATION: 0:43
+:VIMEO_URL: https://vimeo.com/482952114
+:SPEAKERS: Juan Manuel Macías Chaín
+:END:
+  Para más info: https://gnutas.juanmanuelmacias.com/dlna_org.html
+
+* Cómo insertar rápidamente una imagen en un documento de Org Mode  :org:
+:PROPERTIES:
+:DATE:     2020-11-22T09:14:47+00:00
+:DURATION: 12:15
+:VIMEO_URL: https://vimeo.com/482232487
+:SPEAKERS: Juan Manuel Macías Chaín
+:END:
+  En este vídeo comentamos una forma rápida y sencilla de insertar imágenes en nuestros documentos de Org, arrastrando con el ratón desde un navegador externo o un gestor de archivos, mediante el paquete org-download.
+
+  En el vídeo uso el gestor de ventanas Emacs X Window Manager sobre el escritorio Mate.
 
 * Emacs Desktop Environment #2 - Improving the EXWM Experience         :exwm:
 :PROPERTIES:
@@ -35538,6 +35975,23 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 
   Intro music: Coriolis Effect by logos feat. stefsax, licensed CC-BY
   http://ccmixter.org/files/mseq/26296
+
+* Cómo instalar EXWM en Fedora (en el spin de LXDE)  :exwm:
+:PROPERTIES:
+:DATE:     2020-11-11T06:15:13+00:00
+:DURATION: 23:34
+:VIMEO_URL: https://vimeo.com/477901950
+:SPEAKERS: Juan Manuel Macías Chaín
+:END:
+  Lo mínimo que hay que tener en nuestro init de Emacs para poder arrancar EXWM:
+
+  (require 'exwm)
+  (require 'exwm-config)
+  (exwm-config-default)
+
+  Más info, con algunos consejos de configuración extendida:
+
+  https://gnutas.juanmanuelmacias.com/exwm.html
 
 * Emacs From Scratch #10 - Effortless File Management with Dired      :dired:
 :PROPERTIES:
@@ -36074,6 +36528,33 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 
   Some more detail and discussion on Org-roam's Discourse forum: https://org-roam.discourse.group/t/prototype-transclusion-block-reference-with-emacs-org-mode/830
 
+* Ka : Introducing Reproducible Reports (i2c4p)
+:PROPERTIES:
+:DATE:     2020-10-06T14:38:02+00:00
+:DURATION: 1:15
+:VIMEO_URL: https://vimeo.com/465412304
+:SPEAKERS: Britt Anderson
+:END:
+  Introducing the tools we will need for reproducible report generation in Emacs with Babel
+
+* Kd : PdfTools (i2c4p)
+:PROPERTIES:
+:DATE:     2020-10-06T14:37:06+00:00
+:DURATION: 13:45
+:VIMEO_URL: https://vimeo.com/465411974
+:SPEAKERS: Britt Anderson
+:END:
+  How to view and annotate pdfs in Emacs. The PdfTools package installed.
+
+* Ke : Report Generation Demo 1: Basics (i2c4p)  :org:
+:PROPERTIES:
+:DATE:     2020-10-06T14:37:06+00:00
+:DURATION: 12:19
+:VIMEO_URL: https://vimeo.com/465411965
+:SPEAKERS: Britt Anderson
+:END:
+  The basics of report generation in emacs, org, and babel. The compilation steps and stages for going through LaTeX to a pdf.
+
 * My course is online on Udemy                                          :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=EFKdMctqELk
@@ -36289,6 +36770,15 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
   🗒️ Doom Emacs: https://github.com/hlissner/doom-emacs
 
   Your support is very much appreciated. Thanks, guys!
+
+* Ec : Installing the Elpy package (i2c4p)  :elpy:python:coding:dev:
+:PROPERTIES:
+:DATE:     2020-09-28T16:32:12+00:00
+:DURATION: 4:41
+:VIMEO_URL: https://vimeo.com/462706049
+:SPEAKERS: Britt Anderson
+:END:
+  Installing the elpy package. A bit about installing packages in emacs generally, and a specific package to help with python code formatting and syntax.
 
 * Why I don't use Emacs for all programming languages?
 :PROPERTIES:
@@ -36625,6 +37115,15 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
   Repository with configs:
   https://github.com/abcdw/rde
 
+* Hb : Installing R on Linux (Xubuntu; i2c4p)
+:PROPERTIES:
+:DATE:     2020-09-21T17:43:50+00:00
+:DURATION: 13:33
+:VIMEO_URL: https://vimeo.com/460262566
+:SPEAKERS: Britt Anderson
+:END:
+  Demonstrating the R installation process on Xubuntu and some early versions of how to test out if your installation is functioning and if it is talking to Emacs.
+
 * Emacs - How to install Packages
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=_zvmNH6X9S0&t=43s
@@ -36781,6 +37280,22 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
   5. Spotify Podcast: https://go.ravi.pro/spotify
   6. Apple Podcast: https://go.ravi.pro/apple
   7. Youtube: https://youtube.com/ravisagar1
+
+* emacs-vterm-eol.mov
+:PROPERTIES:
+:DATE:     2020-09-18T16:28:45+00:00
+:DURATION: 1:01
+:VIMEO_URL: https://vimeo.com/459441092
+:SPEAKERS: Justin Schell
+:END:
+* Gc : An Introduction to Org Babel (i2c4p)  :org:OrgBabel:
+:PROPERTIES:
+:DATE:     2020-09-15T19:45:10+00:00
+:DURATION: 20:58
+:VIMEO_URL: https://vimeo.com/458285882
+:SPEAKERS: Britt Anderson
+:END:
+  A somewhat longer demonstration of getting emacs set-up to use org and babel, and some simple demonstrations in python (and a few mistakes explained too).
 
 * Emacs From Scratch #2 - Adding Helpful UI Improvements
 :PROPERTIES:
@@ -36973,6 +37488,24 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
   Github R code and Data Repo:
   https://github.com/davidjayjackson/Emacs-ESS.git
 
+* Ea : Emacs Show and Tell
+:PROPERTIES:
+:DATE:     2020-09-08T00:27:16+00:00
+:DURATION: 11:20
+:VIMEO_URL: https://vimeo.com/455641662
+:SPEAKERS: Britt Anderson
+:END:
+  A quick introduction to some of the potential of emacs.
+
+* Eb : Beginning With Emacs
+:PROPERTIES:
+:DATE:     2020-09-07T23:09:23+00:00
+:DURATION: 25:14
+:VIMEO_URL: https://vimeo.com/455628993
+:SPEAKERS: Britt Anderson
+:END:
+  Watch this after watching Emacs Show and Tell. That video gives you a glimpse of Emacs' potential. This video helps you begin to tap into that power by setting up the package system and creating an init file.
+
 * COS 217 Fall 2020 Lecture 2 - emacs and bash
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=z0My6q-cGR4
@@ -37034,6 +37567,17 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
   6. Apple Podcast: https://go.ravi.pro/apple
   7. Youtube: https://youtube.com/ravisagar1
 
+* Un «salvapantallas» con transparencia para Emacs y EXWM
+:PROPERTIES:
+:DATE:     2020-08-31T18:54:36+00:00
+:DURATION: 1:38
+:VIMEO_URL: https://vimeo.com/453395043
+:SPEAKERS: Juan Manuel Macías Chaín
+:END:
+  Se muestra con un tema oscuro y uno claro.
+  Para mostrar el reloj analógico requiere tener instalado el paquete svg-clock.
+  Más info: https://gitlab.com/-/snippets/2010358
+
 * Using Emacs 74 - Eglot
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=ROnceqt3kpE&list=PL9KxKa8NpFxIcNQa9js7dQQIHc81b0-Xg&index=75&pp=iAQB
@@ -37047,6 +37591,15 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 
 
   Emacs config: https://github.com/zamansky/dot-emacs
+
+* Cbhc : Installing Your First Package - Emacs (i2c4p)
+:PROPERTIES:
+:DATE:     2020-08-31T13:43:56+00:00
+:DURATION: 8:01
+:VIMEO_URL: https://vimeo.com/453295879
+:SPEAKERS: Britt Anderson
+:END:
+  Now that we have a functioning Linux installation let's install a first package. Emacs: the world's best operating system masquerading as a text editor.
 
 * Intermediate Emacs: Extending & Creating Helm Sources
 :PROPERTIES:
@@ -37333,6 +37886,13 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
   6. Apple Podcast: https://go.ravi.pro/apple
   7. Youtube: https://youtube.com/ravisagar1
 
+* Probando browse-at-remote en GNU Emacs
+:PROPERTIES:
+:DATE:     2020-08-20T10:11:46+00:00
+:DURATION: 0:54
+:VIMEO_URL: https://vimeo.com/449618983
+:SPEAKERS: Juan Manuel Macías Chaín
+:END:
 * Emacs - Spell check to make no mistakes
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=F-QkJ7IybPI&list=PLlHHtPGox8K6bcuruX10Evf4AYGzYQKiz&index=15&pp=iAQB
@@ -38503,6 +39063,13 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 
   #org_roam #md_roam #zettelkasten #emacs #org_mode
 
+* Una lista interactiva de las fuentes del sistema en Emacs con Helm
+:PROPERTIES:
+:DATE:     2020-05-30T20:58:28+00:00
+:DURATION: 1:22
+:VIMEO_URL: https://vimeo.com/424387030
+:SPEAKERS: Juan Manuel Macías Chaín
+:END:
 * Do not compare Emacs with Vim
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=oWGCRCnoMqk&list=PLlHHtPGox8K6bcuruX10Evf4AYGzYQKiz&index=32&pp=iAQB
@@ -38879,6 +39446,15 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
   https://www.youtube.com/c/seorenn
   https://seorenn.github.io
   https://twitter.com/seorenn
+
+* lua-latex-edit-mode
+:PROPERTIES:
+:DATE:     2020-04-26T13:52:47+00:00
+:DURATION: 1:52
+:VIMEO_URL: https://vimeo.com/412016151
+:SPEAKERS: Juan Manuel Macías Chaín
+:END:
+  Editando código Lua en LaTeX con Emacs
 
 * the best way to managing your dotfiles on linux and unix
 :PROPERTIES:
@@ -39415,6 +39991,24 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 
   Your support is very much appreciated. Thanks, guys!
 
+* Convert if-else statement to ternary form in Python with Emacs
+:PROPERTIES:
+:DATE:     2020-03-26T10:32:16+00:00
+:DURATION: 0:46
+:VIMEO_URL: https://vimeo.com/400910483
+:SPEAKERS: Piotr Kaznowski
+:END:
+  https://pkaznowski.gitlab.io/blog/post/convert-if-else-ternary/
+
+* Sort words in region with Emacs
+:PROPERTIES:
+:DATE:     2020-03-25T13:57:02+00:00
+:DURATION: 0:36
+:VIMEO_URL: https://vimeo.com/400595482
+:SPEAKERS: Piotr Kaznowski
+:END:
+  https://pkaznowski.gitlab.io/blog/post/sort-words-in-region/
+
 * Emacs: ripgrep with rg.el                    :ripgrep:rg:navigation:search:
 :PROPERTIES:
 :YOUTUBE_URL: https://youtu.be/4qLD4oHOrlc
@@ -39440,6 +40034,15 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 
 
   Code snippet at:https://gist.github.com/ivan-krukov/63a586f2121519ca51b201c634402a84
+
+* Making test classes template for untested Python code in Emacs
+:PROPERTIES:
+:DATE:     2020-03-24T21:43:51+00:00
+:DURATION: 0:43
+:VIMEO_URL: https://vimeo.com/400401603
+:SPEAKERS: Piotr Kaznowski
+:END:
+  https://pkaznowski.gitlab.io/blog/post/unittests-template-for-python/
 
 * Making Connections in your Notes
 :PROPERTIES:
@@ -42083,6 +42686,15 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 
   http://cestlaz.github.io/post/github-issues
 
+* emacs dap-mode debug issue
+:PROPERTIES:
+:DATE:     2019-11-17T09:28:31+00:00
+:DURATION: 0:36
+:VIMEO_URL: https://vimeo.com/373705649
+:SPEAKERS: Ting Zhou
+:END:
+  server log buffer disappear
+
 * Consistent Technical Documents Using Emacs and Org Mode               :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=0g9BcZvQbXU&feature=youtu.be
@@ -42166,6 +42778,15 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
   * https://www.twitch.tv/rocknightstudios
   * https://twitter.com/RocknightGames
   * https://www.instagram.com/rocknight_community/
+
+* Introduction To Emacs
+:PROPERTIES:
+:DATE:     2019-11-11T19:10:23+00:00
+:DURATION: 4:16
+:VIMEO_URL: https://vimeo.com/372448731
+:SPEAKERS: Las Vegas Developers
+:END:
+  A presentation by Wayne Wallace at Demo Day, November 9th, 2019. See Las Vegas Developers for more: http://developers.vegas
 
 * emacs lisp live coding + tutorial, open-buffer-in-firefox, open-link-in-firefox. typing speed test.
 :PROPERTIES:
@@ -42323,6 +42944,13 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 :END:
 
 
+* Abrir y reproducir con emms enlaces multimedia dentro de Emacs
+:PROPERTIES:
+:DATE:     2019-10-29T15:25:05+00:00
+:DURATION: 0:29
+:VIMEO_URL: https://vimeo.com/369592924
+:SPEAKERS: Juan Manuel Macías Chaín
+:END:
 * Using Emacs Episode 60 - Restclient
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=L7Jcoe3oHTs&list=PL9KxKa8NpFxIcNQa9js7dQQIHc81b0-Xg&index=61&pp=iAQB
@@ -42635,6 +43263,13 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 
   Hi! I find programming to be a form of caaaaalming relaaaaxation, and watching people code does the same thing for me. This is my slow, gentle livestream where I mess around with interesting new technologies, chat about geek culture,  the EFF (where I work) and other intriguing, but unhectic, topics. You can join me in chat at https://twitch.tv/codetherapy or IRC at irc.oftc.net #codetherapy (see http://webchat.oftc.net/?channels=codetherapy )
 
+* Aplicando overlays a un documento LaTeX en Emacs
+:PROPERTIES:
+:DATE:     2019-09-17T16:54:05+00:00
+:DURATION: 0:22
+:VIMEO_URL: https://vimeo.com/360592081
+:SPEAKERS: Juan Manuel Macías Chaín
+:END:
 * Emacs Org Mode - Using Checkboxes - Emacs Doom 17                     :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=SYgsS8Be1ZY&feature=youtu.be
@@ -42868,6 +43503,13 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 
   What I did here requires no packages or customisations whatsoever. But if you want to check my configs, here is the link to their dedicated page on my website: https://protesilaos.com/dotemacs.
 
+* Buscando en la web de Logeion desde Emacs con Helm-Surfraw
+:PROPERTIES:
+:DATE:     2019-08-21T20:28:09+00:00
+:DURATION: 1:10
+:VIMEO_URL: https://vimeo.com/355186492
+:SPEAKERS: Juan Manuel Macías Chaín
+:END:
 * Emacs Doom E15: Org Mode, Priorities for Tasks                        :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=WSF4EgQqa3Q&feature=youtu.be
@@ -42957,6 +43599,13 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 :END:
   Demo of some of the customisations I have made to Emacs' built-in directory editor (file manager). My configs are here: https://gitlab.com/protesilaos/dotemacs
 
+* Hacer un test rápido de una fuente en Dired (Emacs) con LuaTeX  :dired:
+:PROPERTIES:
+:DATE:     2019-08-10T12:59:17+00:00
+:DURATION: 0:34
+:VIMEO_URL: https://vimeo.com/353097233
+:SPEAKERS: Juan Manuel Macías Chaín
+:END:
 * Vlog: Emacs mindset and Unix philosophy
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=qTncc2lI6OI&feature=youtu.be
@@ -42980,6 +43629,13 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
   https://github.com/fuxialexander/org-pdftools
   https://github.com/weirdNox/org-noter/pull/75
 
+* Buscar un término griego en Perseus-Hopper desde GNU Emacs
+:PROPERTIES:
+:DATE:     2019-08-08T12:00:20+00:00
+:DURATION: 1:36
+:VIMEO_URL: https://vimeo.com/352690828
+:SPEAKERS: Juan Manuel Macías Chaín
+:END:
 * My accessible Emacs themes
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=gz8yifu6pGo&list=PL8Bwba5vnQK14z96Gil86pLMDO2GnOhQ6&index=122&pp=iAQB
@@ -43108,6 +43764,13 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
   https://seorenn.tistory.com
   https://seorenn.blogspot.com
 
+* gdbWatchPoint: GDB & Emacs
+:PROPERTIES:
+:DATE:     2019-08-04T19:31:24+00:00
+:DURATION: 6:58
+:VIMEO_URL: https://vimeo.com/351921116
+:SPEAKERS: Undo
+:END:
 * Emacs: use "occur" in practice
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=zxS3zXwV0PU&feature=youtu.be
@@ -43827,6 +44490,17 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 
   Hope you enjoy this video and it makes understanding the planning process easier.
 
+* Emacs package: go importer
+:PROPERTIES:
+:DATE:     2019-04-23T00:46:53+00:00
+:DURATION: 1:04
+:VIMEO_URL: https://vimeo.com/331893368
+:SPEAKERS: Piotr Kaznowski
+:END:
+  Emacs package supporting go-mode: takes care of import declaration on fly.
+
+  https://gitlab.com/caseneuve/go-importer
+
 * Emacs Org-mode: Organizing a Scientist's Life and Work by Prof. Carsten Dominik
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=WgyRdnjRI4o
@@ -43967,6 +44641,13 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 
   Emacs config: https://github.com/zamansky/using-emacs
 
+* Funciones para trabajar en Emacs con el entorno verse de LaTeX (demostración)
+:PROPERTIES:
+:DATE:     2019-04-04T14:03:30+00:00
+:DURATION: 0:25
+:VIMEO_URL: https://vimeo.com/328427875
+:SPEAKERS: Juan Manuel Macías Chaín
+:END:
 * Orgmode TV - News about the future plans
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=NqPhz8aqk2U&feature=youtu.be
@@ -44242,6 +44923,24 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
    :ensure t
    )
       #+end_src
+
+* Buscar términos griegos en Emacs con el Liddell-Scott del Perseus
+:PROPERTIES:
+:DATE:     2019-03-04T02:50:35+00:00
+:DURATION: 1:17
+:VIMEO_URL: https://vimeo.com/321146066
+:SPEAKERS: Juan Manuel Macías Chaín
+:END:
+* Piezoelectric Resonator   :music:
+:PROPERTIES:
+:DATE:     2019-03-03T20:43:10+00:00
+:DURATION: 19:39
+:VIMEO_URL: https://vimeo.com/321104184
+:SPEAKERS: Repl Electric
+:END:
+  A Live musical and visual performance controlled through writing programming code. Created with SonicPi, Ruby,Emacs, Ableton Live & Unity3D.
+  Nothing pre-recorded, all performed live in one take.
+  Based on a live performance given in the US, LA at The Millennium Biltmore.
 
 * Emacs Is Great - Ep 36, Web Browsing in emacs
 :PROPERTIES:
@@ -44748,6 +45447,18 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 :END:
   https://yisraeldov.gitlab.io/emacs-d
 
+* Critical Keys Sample   :latex:auctex:
+:PROPERTIES:
+:DATE:     2019-01-05T19:16:18+00:00
+:DURATION: 1:20
+:VIMEO_URL: https://vimeo.com/309654544
+:SPEAKERS: Juan Manuel Macías Chaín
+:END:
+  A simple minor mode for Emacs / AUCTeX, that provides a series (extendable) of shortcuts
+  to work with the excellent LaTeX package reledmac (https://github.com/maieul/ledmac).
+
+  GitLab page: https://gitlab.com/maciaschain/critical-keys
+
 * emacs talk show. workflow. command log mode, working with raw html
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=JFdQtbEcwzE
@@ -45205,6 +45916,15 @@ Full code on github:
 
   Emacs config: https://github.com/zamansky/using-emacs
 
+* Automatizar en Emacs la apertura de dos archivos en doble ventana
+:PROPERTIES:
+:DATE:     2018-11-02T16:30:07+00:00
+:DURATION: 1:40
+:VIMEO_URL: https://vimeo.com/298620524
+:SPEAKERS: Juan Manuel Macías Chaín
+:END:
+  Un ejemplo con mi traducción en curso de la Odisea.
+
 * Using Emacs Episode 52 - eyebrowse
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=s6IXj0bS7L8&list=PL9KxKa8NpFxIcNQa9js7dQQIHc81b0-Xg&index=53&pp=iAQB
@@ -45438,6 +46158,15 @@ Full code on github:
 :END:
   Rust-analyzer power syntax aware extend selection for Emacs
 
+* Emacs Long Line Rendering Slowdown
+:PROPERTIES:
+:DATE:     2018-08-28T16:13:15+00:00
+:DURATION: 0:24
+:VIMEO_URL: https://vimeo.com/287096983
+:SPEAKERS: BiGeekFan
+:END:
+  Demonstration of long-line rendering slowdown in vanilla emacs. Emacs attempts to render a line consisting of 10,000 consecutive integers. Emacs 26.1 on OS X, python interpreter mode, run using no configuration file. Process co
+
 * Use Xwidget Webkit to browse the Web, right within your Emacs
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=He83coKoq7o&feature=youtu.be
@@ -45508,6 +46237,15 @@ Full code on github:
 
   You can do pretty the same using the Melpa library 'quickrun'.
 
+* Live reload on a phone  :termux:emacs:android:blogging:hugo:
+:PROPERTIES:
+:DATE:     2018-07-04T12:04:33+00:00
+:DURATION: 0:10
+:VIMEO_URL: https://vimeo.com/278310665
+:SPEAKERS: Small Technology Foundation
+:END:
+  Short video of my Web+ blogging setup on my Nexus 5 running LineageOS. I’m running Emacs under Termux on the left and the DuckDuckGo browser on the right. Hugo is automatically building the changes to my static site on every save and local live reload displays them on the right-hand pane.
+
 * Using Emacs - Episode 50 - presentations
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=bRoSpJ23Kzk&feature=youtu.be
@@ -45570,6 +46308,14 @@ Full code on github:
 
   Emacs config: https://github.com/zamansky/using-emacs
 
+* How to configure an Emacs Rust IDE  :rust:dev:coding:
+:PROPERTIES:
+:DATE:     2018-06-16T15:46:56+00:00
+:DURATION: 3:22
+:VIMEO_URL: https://vimeo.com/275407067
+:SPEAKERS: Bill Ward
+:END:
+  In this video I show you how to configure an Emacs Rust IDE.  For complete instructions checkout my blog post: http://www.admintome.com/blog/my-emacs-rust-ide/
 * Ditch your word processor: Write prose like code in a text editor :writing:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=TVUDpWKI-EM&feature=youtu.be
@@ -45610,6 +46356,13 @@ Full code on github:
 :END:
   Some more (slow) live coding
 
+* Emacs as an Instrument
+:PROPERTIES:
+:DATE:     2018-05-16T14:06:53+00:00
+:DURATION: 4:10
+:VIMEO_URL: https://vimeo.com/270101496
+:SPEAKERS: Joseph Wilk
+:END:
 * Using Emacs for JavaScript development!                             :magit:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=5hJBMwwGhlo
@@ -45712,6 +46465,35 @@ Full code on github:
   Series page: http://cestlaz.github.io/stories/emacs
 
   Emacs config: https://github.com/zamansky/using-emacs
+
+* Repl Electric - You fall into your screen   :music:
+:PROPERTIES:
+:DATE:     2018-04-20T16:09:55+00:00
+:DURATION: 22:54
+:VIMEO_URL: https://vimeo.com/265785040
+:SPEAKERS: Repl Electric
+:END:
+  Live coded performance using Ruby, Emacs, SonicPi and Unity3D.
+  No post production or pre-rendering. Visuals are all live and controlled via emacs.
+  Based on a live performance given in the UK at Exeter University.
+
+* Scratching Samples with Emacs  :music:multimedia:
+:PROPERTIES:
+:DATE:     2018-04-17T13:39:53+00:00
+:DURATION: 0:29
+:VIMEO_URL: https://vimeo.com/265189088
+:SPEAKERS: Joseph Wilk
+:END:
+  Controlling head playback position via the cursor position in Emacs.
+
+* Controlling Synths live in Emacs
+:PROPERTIES:
+:DATE:     2018-04-17T13:35:27+00:00
+:DURATION: 1:40
+:VIMEO_URL: https://vimeo.com/265188142
+:SPEAKERS: Joseph Wilk
+:END:
+  Sending midi control data to a live running synth through Emacs. Emacs has a OSC port open which is sending messages to the synth.
 
 * el-fly-indent-mode demo: Indent Emacs Lisp on the fly
 :PROPERTIES:
@@ -45959,6 +46741,15 @@ Full code on github:
 :END:
 
 
+* editing in Emacs
+:PROPERTIES:
+:DATE:     2018-02-04T10:50:14+00:00
+:DURATION: 1:22
+:VIMEO_URL: https://vimeo.com/254175651
+:SPEAKERS: Wanderson Ferreira
+:END:
+  How my workflow for editing file in Terminal Apps and on Emacs GUI works.
+
 * Using Emacs 40 - atomic-chrome
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=wyPZws66Sic&list=PL9KxKa8NpFxIcNQa9js7dQQIHc81b0-Xg&index=41&pp=iAQB
@@ -46008,6 +46799,13 @@ Full code on github:
   We finally get around to discussing macros!
   We are also discussing how you can save them and retrieve them at a later date.
 
+* emacs spotify
+:PROPERTIES:
+:DATE:     2018-01-13T00:00:23+00:00
+:DURATION: 1:09
+:VIMEO_URL: https://vimeo.com/250912101
+:SPEAKERS: Rui Figueiredo
+:END:
 * Emacs Tutorial 15 - Kill-ring and a popup menu to replace it!
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=LFXA089Tx38&list=PLX2044Ew-UVVv31a0-Qn3dA6Sd_-NyA1n&index=15&pp=iAQB
@@ -46146,6 +46944,15 @@ Full code on github:
 :END:
   A short venture  into the land of emacs, we downloaded and installed emacs and spoke about its heritage briefly.
 
+* helm-spotify-plus  :emacs:helm:spotify:multimedia:music:
+:PROPERTIES:
+:DATE:     2018-01-07T15:05:35+00:00
+:DURATION: 0:19
+:VIMEO_URL: https://vimeo.com/250005357
+:SPEAKERS: Wanderson Ferreira
+:END:
+  Searching for a song and manipulating Spotify from Emacs
+
 * OrgMode - A third approach to goal setting & tracking                 :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=odOKnNDKSIs&feature=youtu.be
@@ -46269,6 +47076,26 @@ Full code on github:
 
   To copy the code, see this transcription of this talk: http://howardism.org/Technical/Emacs/eshell-present.html
 
+* emacs_cursor
+:PROPERTIES:
+:DATE:     2017-10-25T03:50:20+00:00
+:DURATION: 0:07
+:VIMEO_URL: https://vimeo.com/239759690
+:SPEAKERS: Nicki Vance
+:END:
+  The cursor of the Emacs text editor.
+
+* Interactive session with Emacs, Git and Haskell   :haskell:git:
+:PROPERTIES:
+:DATE:     2017-10-20T07:27:24+00:00
+:DURATION: 45:56
+:VIMEO_URL: https://vimeo.com/239066936
+:SPEAKERS: Piyush P Kurur
+:END:
+  This video is the recorded desktop of an interactive session with emacs, git and Haskell. I gave this to first year students to
+  introduce them to the idea of programming as a mathematical activity. You can hear me speak but the audio quality is
+  poor; it is essentially what has been picked up my the internal mic of my laptop.
+
 * Emacs - a very quick and easy introduction
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=4jQmS0gS-lU
@@ -46329,6 +47156,15 @@ Full code on github:
 
   Series page: http://cestlaz.github.io/stories/emacs
 
+* Emacs Clientside Exploit
+:PROPERTIES:
+:DATE:     2017-09-22T20:38:36+00:00
+:DURATION: 1:39
+:VIMEO_URL: https://vimeo.com/235069949
+:SPEAKERS: Immunity Videos
+:END:
+  Emacs clientside exploit and managed code rootkit
+
 * Emacs Rocks! Episode 16: Dired                                      :dired:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=8l4YVttibiI&list=PLVfFIUHWy-aNaF08m34sO81dsVr4L7uI-&index=9&pp=iAQB
@@ -46356,6 +47192,15 @@ Full code on github:
   2:04 - Visual line mode
   3:32 - Customising visual line mode
   4:25 - Line truncation
+
+* Multiterm with iex open
+:PROPERTIES:
+:DATE:     2017-09-12T06:03:13+00:00
+:DURATION: 0:33
+:VIMEO_URL: https://vimeo.com/233436823
+:SPEAKERS: Dave Thomas
+:END:
+  Use the iex open command to interact smartly with emacs multiterm
 
 * An Ivy, Swiper, & Counsel tutorial for Emacs Noobs
 :PROPERTIES:
@@ -46579,6 +47424,13 @@ Full code on github:
 
   Series page: http://cestlaz.github.io/stories/emacs
 
+* Weird Emacs display thing
+:PROPERTIES:
+:DATE:     2017-05-18T13:47:39+00:00
+:DURATION: 0:29
+:VIMEO_URL: https://vimeo.com/218001105
+:SPEAKERS: mightbethrownaway
+:END:
 * froscon12 lisp  open emacs workshop
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=bSMnOtv2zS4
@@ -46804,6 +47656,13 @@ Full code on github:
 
   Gracias a las personas que se han tomado el tiempo de regalarme un me gusta y/o comentario, se aprecia:)
 
+* emacs24
+:PROPERTIES:
+:DATE:     2017-02-13T16:43:38+00:00
+:DURATION: 0:26
+:VIMEO_URL: https://vimeo.com/203850146
+:SPEAKERS: Alex Keyes
+:END:
 * Using emacs 28 - rectangles
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=pcA5NeEudgU&list=PL9KxKa8NpFxIcNQa9js7dQQIHc81b0-Xg&index=29&pp=iAQB
@@ -46912,6 +47771,15 @@ Full code on github:
   (setq frame-title-format
         (list (format "%s %%S: %%j " (system-name))
        '(buffer-file-name "%f" (dired-directory dired-directory "%b"))))
+
+* VNC from a PC running LINUX and typing the Hello World program in C++ :cpp:
+:PROPERTIES:
+:DATE:     2017-01-16T05:47:48+00:00
+:DURATION: 9:26
+:VIMEO_URL: https://vimeo.com/199617152
+:SPEAKERS: bob sompolski
+:END:
+  Invocation of ssh and vncserver accompanied by vncviewer.  Example of Emacs to edit, compile and execute a simple C++ program
 
 * How to install emacs in ubuntu using Proxy  :install:ubuntu:
 :PROPERTIES:
@@ -47051,6 +47919,15 @@ Full code on github:
   Blog post:http://cestlaz.github.io/posts/using-emacs-24-capture-2
 
   Series page: http://cestlaz.github.io/stories/emacs
+
+* Frank Spencer - EMACS
+:PROPERTIES:
+:DATE:     2016-11-30T15:17:43+00:00
+:DURATION: 4:32
+:VIMEO_URL: https://vimeo.com/193719483
+:SPEAKERS: TFSX
+:END:
+  A short clip where Frank Spencer talks about the Blurred Reality pattern at EMACS.
 
 * Using Emacs 23 - capture
 :PROPERTIES:
@@ -47380,6 +48257,15 @@ Full code on github:
 
   - My emacs-config: https://gitlab.com/buildfunthings/emacs-config
 
+* s01 - live coding with Scheme  :scheme:
+:PROPERTIES:
+:DATE:     2016-09-27T15:20:36+00:00
+:DURATION: 11:01
+:VIMEO_URL: https://vimeo.com/184540211
+:SPEAKERS: 8c6794b6
+:END:
+  Live coding done with Emacs, Scheme, and SuperCollider.
+
 * Edit and author Markdown and PDF files from Emacs
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=Pd0JwOqh-gI&feature=youtu.be
@@ -47401,6 +48287,15 @@ Full code on github:
   Repo: https://github.com/SL-RU/stm32-emacs
   e-mail: s.lyra@ya.ru
 
+* Using curl with org mode  :org:
+:PROPERTIES:
+:DATE:     2016-09-18T14:06:01+00:00
+:DURATION: 2:15
+:VIMEO_URL: https://vimeo.com/183193217
+:SPEAKERS: angelo basile
+:END:
+  A screencast of how to use curl from org mode.
+
 * Plot in Emacs ESS
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=WRUBPE55Cpo
@@ -47409,6 +48304,17 @@ Full code on github:
 :DURATION: 01:04
 :END:
   Have trouble finding your plot when using ESS? View it by toggling the transparency of your emacs frame. TODO:  version 2 with a transparent window (bottom-right) instead of whole frame.
+
+* Less is Code: An Audio-Visual Live Coding Performance  :music:multimedia:
+:PROPERTIES:
+:DATE:     2016-09-11T11:38:21+00:00
+:DURATION: 6:40
+:VIMEO_URL: https://vimeo.com/182279635
+:SPEAKERS: Joan Sandoval
+:END:
+  A minimalist-based audio-visual live coding performance which explores cross modal perceptual analogies.
+
+  by Joan Sandoval
 
 * Rolf Langsdorf: Emacs as Perl IDE‎ - YAPC::Europe 2016
 :PROPERTIES:
@@ -48026,6 +48932,21 @@ Full code on github:
 :END:
 Using restclient within emacs...
 
+* STARTX-BUFFER DEMO
+:PROPERTIES:
+:DATE:     2016-02-24T04:27:08+00:00
+:DURATION: 7:11
+:VIMEO_URL: https://vimeo.com/156511089
+:SPEAKERS: BACQ
+:END:
+  STARTX-BUFFER IS A EMACS MINOR MODE,
+
+  * A EXPERIMENTAL PHYSIKAL REMOTE BUFFER
+  * REAL TIME KEYINPUT HIJACKER FROM EMACS TO THE STARTX
+
+  INFO y SRC,
+  https://github.com/dvnmk/startx-buffer
+
 * Conquering Your Finances with Emacs and Ledger
 :PROPERTIES:
 :YOUTUBE_URL: https://youtu.be/cjoCNRpLanY
@@ -48226,6 +49147,24 @@ Using restclient within emacs...
 
   https://github.com/jcollard/elm-mode
 
+* org-index-intro  :rgo:
+:PROPERTIES:
+:DATE:     2015-12-30T19:29:35+00:00
+:DURATION: 4:53
+:VIMEO_URL: https://vimeo.com/150364184
+:SPEAKERS: Marc Ihm
+:END:
+  Introduction to org-index. The link mentioned in the screencast is http://orgmode.org/w/?p=org-mode.git;a=blob_plain;f=contrib/lisp/org-index.el
+
+* tmwchat setup on windows  :install:windows:
+:PROPERTIES:
+:DATE:     2015-12-29T03:41:50+00:00
+:DURATION: 1:17:20
+:VIMEO_URL: https://vimeo.com/150223340
+:SPEAKERS: Ivan Man
+:END:
+  video tutorial of installing emacs, snarl and tmwchat on windows xp. The end is a bit sloppy.
+
 * Introduction to org-ref                                               :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=2t925KRBbFc&feature=youtu.be
@@ -48256,6 +49195,15 @@ Using restclient within emacs...
 :DURATION: 01:31:39
 :END:
   Notes: http://sachachua.com/blog/2015/11/2015-11-18-emacs-hangout/
+
+* SyncTeX in emacs with pdf-view-mode and AucTeX (on a Mac)  :synctex:PdfView:auctex:
+:PROPERTIES:
+:DATE:     2015-11-02T22:03:46+00:00
+:DURATION: 0:37
+:VIMEO_URL: https://vimeo.com/144418644
+:SPEAKERS: Ruben Berenguel
+:END:
+  Showing off SyncTeX source specials with pdf-view-mode (from pdf-tools) in emacs
 
 * Magit Introduction and Demonstration                                :magit:
 :PROPERTIES:
@@ -48348,6 +49296,33 @@ Using restclient within emacs...
 
   Learn more from the developers at thoughtbot ⌨️
   Head over to http://tbot.io/dev-blog to read more great articles on our blog.
+
+* Simple Example of an Emacs Animation
+:PROPERTIES:
+:DATE:     2015-10-04T09:47:50+00:00
+:DURATION: 0:58
+:VIMEO_URL: https://vimeo.com/141312958
+:SPEAKERS: Joseph Wilk
+:END:
+  Very simple example for writing a emacs animation. Used as part of writeup in blog: http://blog.josephwilk.net/art/emacs-animation.html
+
+* Emacs Animation Demos
+:PROPERTIES:
+:DATE:     2015-10-04T08:36:29+00:00
+:DURATION: 2:33
+:VIMEO_URL: https://vimeo.com/141310772
+:SPEAKERS: Joseph Wilk
+:END:
+  Demoing animations I wrote in Emacs for my performances as Repl Electric
+
+* Viewing Sound data as ASCII animations in Emacs
+:PROPERTIES:
+:DATE:     2015-10-02T10:59:54+00:00
+:DURATION: 1:38
+:VIMEO_URL: https://vimeo.com/141159277
+:SPEAKERS: Joseph Wilk
+:END:
+  Supercollider is sending peak/power signals from a running synth as OSC messages to emacs. Emacs in turn is listening for these messages and rendering the data as a simple ASCII representation.
 
 * EmacsConf 2015 Lightning Talk - Engine-mode
 :PROPERTIES:
@@ -48539,6 +49514,15 @@ Using restclient within emacs...
 :END:
 
 
+* Emacs auto-adjusting font coloring
+:PROPERTIES:
+:DATE:     2015-09-21T18:16:56+00:00
+:DURATION: 0:32
+:VIMEO_URL: https://vimeo.com/139967912
+:SPEAKERS: Walter GR
+:END:
+  Emacs with a transparent background auto-adjusting font coloring upon changes to background color of Terminal.app window.
+
 * .Emacs #9 - Keyboard Macros
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=JfZ9fCHzkJw&list=PLxj9UAX4Em-IiOfvF2Qs742LxEK4owSkr&index=9&pp=iAQB
@@ -48565,6 +49549,15 @@ Using restclient within emacs...
 
   Follow along on GitHub at https://github.com/jekor/.emacs
   Notices and updates on Twitter at @jekor https://twitter.com/jekor
+
+* Blazing through magit in Emacs  :magit:
+:PROPERTIES:
+:DATE:     2015-09-11T21:52:24+00:00
+:DURATION: 0:16
+:VIMEO_URL: https://vimeo.com/139027991
+:SPEAKERS: Chris S
+:END:
+  Reviewing a small change, committing it and pushing it.
 
 * .Emacs #8 - Beyond ASCII
 :PROPERTIES:
@@ -48604,6 +49597,33 @@ Using restclient within emacs...
   * Github that contains the demonstration code and results Sprint Page: https://github.com/howardabrams/literate-devops-demo
   * Emacs code used to make this demonstration: http://github.com/howardabrams/demo-it
   * My Emacs configuration files: http://github.com/howardabrams/dot-files
+* Live coding Haskell and Emacs
+:PROPERTIES:
+:DATE:     2015-08-22T11:05:06+00:00
+:DURATION: 1:26
+:VIMEO_URL: https://vimeo.com/137000846
+:SPEAKERS: Owain Lewis
+:END:
+  A demo of my Haskell and Emacs workflow
+
+* Haskell Emacs 2
+:PROPERTIES:
+:DATE:     2015-08-22T10:38:56+00:00
+:DURATION: 1:43
+:VIMEO_URL: https://vimeo.com/137000134
+:SPEAKERS: Owain Lewis
+:END:
+  A demo of my Haskell and Emacs workflow.
+
+* Haskell Emacs workflow
+:PROPERTIES:
+:DATE:     2015-08-22T10:15:51+00:00
+:DURATION: 1:23
+:VIMEO_URL: https://vimeo.com/136999505
+:SPEAKERS: Owain Lewis
+:END:
+  Quick demo of my Haskell and Emacs workflow.
+
 * 2015-08-13 Emacs Hangout European Edition
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=kN3Kgel3w6M&list=PLomc4HLgvuCWZD3pWBpDfJiJRkz0zkY1b&index=3&pp=gAQBiAQB
@@ -48613,6 +49633,309 @@ Using restclient within emacs...
 :END:
   The hangout without a plan. We sit around the virtual campfire and talk about whatever comes up in order to defeat the evil silence.
   Notes: http://sachachua.com/blog/2015/08/august-2015-emacs-hangout/
+
+* GNU EMACS SEMAINE 4 VIDEO 5
+:PROPERTIES:
+:DATE:     2015-07-31T15:28:20+00:00
+:DURATION: 1:38
+:VIMEO_URL: https://vimeo.com/135058877
+:SPEAKERS: Freeman Emacs
+:END:
+  résumé : programmation du jeu du morpion en Emacs Lisp
+
+* GNU EMACS SEMAINE 4 VIDEO 4
+:PROPERTIES:
+:DATE:     2015-07-30T12:17:32+00:00
+:DURATION: 9:16
+:VIMEO_URL: https://vimeo.com/134938793
+:SPEAKERS: Freeman Emacs
+:END:
+  résumé : introduction à emacs lisp
+
+  tutoriel en français : http://people.via.ecp.fr/~flo/writings/emacs-tut/ch-sec-elisp-intro.html
+
+* GNU EMACS SEMAINE 4 VIDEO 3
+:PROPERTIES:
+:DATE:     2015-07-29T16:42:24+00:00
+:DURATION: 14:44
+:VIMEO_URL: https://vimeo.com/134858717
+:SPEAKERS: Freeman Emacs
+:END:
+  résumé : introduction à Emacs Lisp, création de fonctions mathématiques élémentaires, tri rapide …
+
+* GNU EMACS SEMAINE 4 VIDEO 2  :elisp:
+:PROPERTIES:
+:DATE:     2015-07-28T13:04:00+00:00
+:DURATION: 14:18
+:VIMEO_URL: https://vimeo.com/134725424
+:SPEAKERS: Freeman Emacs
+:END:
+  résumé : introduction à Emacs Lisp
+
+  liens utiles :
+
+  wiki John McCarthy : https://fr.wikipedia.org/wiki/John_McCarthy
+  wiki Lisp :https://fr.wikipedia.org/wiki/Lisp
+
+* GNU EMACS SEMAINE 4 VIDEO 1
+:PROPERTIES:
+:DATE:     2015-07-27T12:16:56+00:00
+:DURATION: 9:13
+:VIMEO_URL: https://vimeo.com/134608551
+:SPEAKERS: Freeman Emacs
+:END:
+  résumé : introduction à la programmation Emacs Lisp
+
+* Life moves live.  :fun:
+:PROPERTIES:
+:DATE:     2015-07-24T21:07:18+00:00
+:DURATION: 1:19
+:VIMEO_URL: https://vimeo.com/134450482
+:SPEAKERS: twax
+:END:
+  Simple things are usually great. Life is not simple, perhaps because it is not perfect. This is a tribute to the beauty of life, when just born; When life it is still simple and wonderful.
+
+  An homage to Conway, Stallman's Emacs editor, the piano and the nice austerity of the GNU/Linux terminal.
+
+  A tribute to life, the game of life.
+
+* GNU EMACS SEMAINE 3 VIDEO 5
+:PROPERTIES:
+:DATE:     2015-07-24T15:48:17+00:00
+:DURATION: 11:41
+:VIMEO_URL: https://vimeo.com/134421873
+:SPEAKERS: Freeman Emacs
+:END:
+  résumé : introduction à la ligne de commande (suite et fin)
+
+  Vidéos intéressantes :
+  1) https://youtu.be/QVBRC9MmZJk
+  2) https://youtu.be/mqUInAOfBWI
+
+* GNU EMACS SEMAINE 3 VIDEO 4
+:PROPERTIES:
+:DATE:     2015-07-23T12:44:21+00:00
+:DURATION: 11:32
+:VIMEO_URL: https://vimeo.com/134300194
+:SPEAKERS: Freeman Emacs
+:END:
+  résumé : présentation du shell et de 10 commandes de base
+
+  Liens utiles :
+  1) Tuteurs ens (fr) : http://www.tuteurs.ens.fr/unix/editeurs/emacs.html
+  2) Cygwin (wiki fr) : https://fr.wikipedia.org/wiki/Cygwin
+  3) Cygwin (en) : http://www.cygwin.com/
+  4) Tuto install Cygwin (en) : https://vimeo.com/35330335
+  5) RMS (fr) : https://vimeo.com/122632552
+
+* GNU EMACS SEMAINE 3 VIDEO 3
+:PROPERTIES:
+:DATE:     2015-07-22T13:46:35+00:00
+:DURATION: 4:09
+:VIMEO_URL: https://vimeo.com/134202094
+:SPEAKERS: Freeman Emacs
+:END:
+  résumé : fonctions d'aide, raccourcis clavier, documentation...
+
+  Vidéos intéressantes :
+  1) http://www.april.org/campagne/
+  2) https://www.canal-u.tv/video/centre_d_enseignement_multimedia_universitaire_c_e_m_u/culture_numerique_06_les_logiciels_libres.8397
+
+* GNU EMACS SEMAINE 3 VIDEO 2
+:PROPERTIES:
+:DATE:     2015-07-21T14:53:44+00:00
+:DURATION: 4:08
+:VIMEO_URL: https://vimeo.com/134102787
+:SPEAKERS: Freeman Emacs
+:END:
+  résumé : présentation du menu d’aide partie 2 mode info
+
+  Vidéos intéressantes :
+  1) RMS : https://vimeo.com/66229963
+  2) GNU/Linux Trisquel : https://vimeo.com/92129121
+
+* GNU EMACS SEMAINE 3 VIDEO 1
+:PROPERTIES:
+:DATE:     2015-07-20T15:26:58+00:00
+:DURATION: 3:54
+:VIMEO_URL: https://vimeo.com/133995342
+:SPEAKERS: Freeman Emacs
+:END:
+  résumé : présentation du menu d’aide partie 1
+
+  Vidéos intéressantes :
+  1) Souriez vous êtes cyber-surveillés : https://vimeo.com/123568186
+  2) Tor : https://vimeo.com/122508262
+
+* GNU EMACS SEMAINE 2 VIDEO 7 : BILAN
+:PROPERTIES:
+:DATE:     2015-07-19T17:42:50+00:00
+:DURATION: 7:16
+:VIMEO_URL: https://vimeo.com/133905792
+:SPEAKERS: Freeman Emacs
+:END:
+  résumé : bilan de la semaine 2
+  Vidéo 1/7 : https://vimeo.com/133382564
+  Vidéo 2/7 : https://vimeo.com/133485212
+  Vidéo 3/7 : https://vimeo.com/133579210
+  Vidéo 4/7 : https://vimeo.com/133701740
+  Vidéo 5/7 : https://vimeo.com/133763567
+  Vidéo 6/7 : https://vimeo.com/133835076
+
+* GNU Emacs Semaine 2 Vidéo 6
+:PROPERTIES:
+:DATE:     2015-07-18T13:40:20+00:00
+:DURATION: 3:37
+:VIMEO_URL: https://vimeo.com/133835076
+:SPEAKERS: Freeman Emacs
+:END:
+  résumé : positionnement du curseur
+
+  vidéo intéressante : https://vimeo.com/110114678
+
+* GNU Emacs Semaine 2 Vidéo 5
+:PROPERTIES:
+:DATE:     2015-07-17T15:16:22+00:00
+:DURATION: 7:30
+:VIMEO_URL: https://vimeo.com/133763567
+:SPEAKERS: Freeman Emacs
+:END:
+  résumé : récapitulatif des commandes de déplacement du curseur
+  vidéo de RMS : https://vimeo.com/8382770
+  vidéo sur RMS : https://vimeo.com/92630460
+
+* GNU Emacs Semaine 2 Vidéo 4
+:PROPERTIES:
+:DATE:     2015-07-16T21:21:08+00:00
+:DURATION: 6:17
+:VIMEO_URL: https://vimeo.com/133701740
+:SPEAKERS: Freeman Emacs
+:END:
+  résumé : remplacement inconditionnel
+  Vidéos intéressantes : https://linuxfr.org/news/transcriptions-de-conferences-par-l-april-en-mai-juin-et-juillet-2015
+
+* GNU Emacs Semaine 2 Vidéo 3
+:PROPERTIES:
+:DATE:     2015-07-15T17:37:58+00:00
+:DURATION: 5:25
+:VIMEO_URL: https://vimeo.com/133579210
+:SPEAKERS: Freeman Emacs
+:END:
+  résumé : remplacement conditionnel
+
+* GNU Emacs Semaine 2 Vidéo 2
+:PROPERTIES:
+:DATE:     2015-07-14T19:28:50+00:00
+:DURATION: 16:49
+:VIMEO_URL: https://vimeo.com/133485212
+:SPEAKERS: Freeman Emacs
+:END:
+  pré-requis : S2V1 https://vimeo.com/133382564
+  résumé : petite introduction aux expressions régulières (regexp)
+
+* GNU Emacs Semaine 2 Vidéo 1
+:PROPERTIES:
+:DATE:     2015-07-13T20:09:49+00:00
+:DURATION: 6:36
+:VIMEO_URL: https://vimeo.com/133382564
+:SPEAKERS: Freeman Emacs
+:END:
+  pré-requis : Semaine 1 : https://vimeo.com/channels/942198
+  résumé : Recherche incrémentale
+
+* GNU Semaine 1 Vidéo 8
+:PROPERTIES:
+:DATE:     2015-07-11T12:29:07+00:00
+:DURATION: 10:33
+:VIMEO_URL: https://vimeo.com/133217856
+:SPEAKERS: Freeman Emacs
+:END:
+  Récapitulatif de la semaine 1.
+  20 commandes sont abordées.
+
+* GNU Emacs Semaine 1 Vidéo 7
+:PROPERTIES:
+:DATE:     2015-07-09T13:49:17+00:00
+:DURATION: 5:01
+:VIMEO_URL: https://vimeo.com/133038938
+:SPEAKERS: Freeman Emacs
+:END:
+  Placer et utiliser une marque dans un ou plusieurs tampons (buffers).
+  Undo.
+  Numérotation des lignes.
+
+* GNU Emacs Semaine 1 Vidéo 6
+:PROPERTIES:
+:DATE:     2015-07-09T13:38:06+00:00
+:DURATION: 5:13
+:VIMEO_URL: https://vimeo.com/133037859
+:SPEAKERS: Freeman Emacs
+:END:
+  copier, couper et coller avec GNU Emacs
+
+* GNU Emacs Semaine 1 Vidéo 5
+:PROPERTIES:
+:DATE:     2015-07-09T13:12:56+00:00
+:DURATION: 5:38
+:VIMEO_URL: https://vimeo.com/133035664
+:SPEAKERS: Freeman Emacs
+:END:
+  Conversions de casse (majuscule/minuscule)
+
+* GNU Emacs Semaine 1 Vidéo 4
+:PROPERTIES:
+:DATE:     2015-07-07T13:22:25+00:00
+:DURATION: 2:17
+:VIMEO_URL: https://vimeo.com/132820972
+:SPEAKERS: Freeman Emacs
+:END:
+  Commandes d’inversions avec GNU Emacs
+  1) Inversion de caractères
+  2) Inversion de mots
+  3) Inversion de lignes
+
+* GNU Emacs Semaine 1 Vidéo 3
+:PROPERTIES:
+:DATE:     2015-07-01T21:15:35+00:00
+:DURATION: 2:53
+:VIMEO_URL: https://vimeo.com/132375975
+:SPEAKERS: Freeman Emacs
+:END:
+  Pré-requis :
+  Résumé : présentation des différents moyens d’obtenir de la documentation sur GNU Emacs.
+  GNU officiel (en) : https://www.gnu.org/software/emacs/manual/emacs.html
+  Emacs wikilivres (fr) : https://fr.wikibooks.org/wiki/Emacs
+  Début de traduction en français : http://www.linux-france.org/article/appli/emacs/manuel/html/index.html
+  Wiki (en) http://www.emacswiki.org/emacs/
+  Tuteur ENS (fr) : http://www.tuteurs.ens.fr/unix/editeurs/emacs.html
+  Ubuntu (fr) : http://doc.ubuntu-fr.org/emacs
+
+* GNU Emacs Semaine 1 Vidéo 2
+:PROPERTIES:
+:DATE:     2015-06-30T14:21:44+00:00
+:DURATION: 5:40
+:VIMEO_URL: https://vimeo.com/132216444
+:SPEAKERS: Freeman Emacs
+:END:
+  Pré-requis : avoir vu https://vimeo.com/132211052
+  Résumé : Présentation rapide du tutoriel Emacs ainsi que quelques manuels.
+  Manuel au format pdf : https://www.gnu.org/software/emacs/manual/emacs.html
+
+* GNU Emacs Semaine 1 Vidéo 1
+:PROPERTIES:
+:DATE:     2015-06-30T13:32:13+00:00
+:DURATION: 9:56
+:VIMEO_URL: https://vimeo.com/132211052
+:SPEAKERS: Freeman Emacs
+:END:
+  Introduction au logiciel libre GNU Emacs :
+  0) Richard Stallman fondateur de la FSF et créateur de GNU Emacs : https://www.youtube.com/watch?v=AB_4MLY6kjo
+  1) Télécharger et installer GNU Emacs sur Windows et Mac OS X : http://vgoulet.act.ulaval.ca/emacs/mac/
+  2) Télécharger et installer GNU Emacs sur n'importe quel système : https://www.gnu.org/software/emacs/history.html
+  3) Manips pour Mac OS X : http://emacsformacosx.com/tips
+  4) Benjamin Bayart comprendre les enjeux de l'internet : https://www.youtube.com/watch?v=yBmz29_5ffA
+  5) Jérémie Zimmermann à l'ENS : https://www.youtube.com/watch?v=YgnAHcX2WM8
+  6) Arte surveillance de masse : http://future.arte.tv/fr/cybersurveillance
 
 * Evil Mode: Or, How I Learned to Stop Worrying and Love Emacs  :EvilMode:
 :PROPERTIES:
@@ -48626,6 +49949,24 @@ Using restclient within emacs...
   Learn more from the developers at thoughtbot â¨ï¸
   Head over to http://tbot.io/dev-blog to read more great articles on our blog.
 
+* Emacs Windows C++ Basic start #2    :emacs:cpp:
+:PROPERTIES:
+:DATE:     2015-06-01T12:35:01+00:00
+:DURATION: 10:32
+:VIMEO_URL: https://vimeo.com/129430022
+:SPEAKERS: DimiG
+:END:
+  This tutorial continue to show how to use Emacs on Windows to compile the C++ code by Visual Studio CL.
+
+* Emacs Windows C++ Basic start #1
+:PROPERTIES:
+:DATE:     2015-05-21T07:11:08+00:00
+:DURATION: 11:39
+:VIMEO_URL: https://vimeo.com/128457174
+:SPEAKERS: DimiG
+:END:
+  This tutorial shows how to use Emacs on Windows to compile the C++ code by Visual Studio CL.
+
 * 2015-04-30 Emacs Hangout (now with more Europeans)
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=F3MKmC4PCmg&list=PLomc4HLgvuCWZD3pWBpDfJiJRkz0zkY1b&index=2&pp=gAQBiAQB
@@ -48635,6 +49976,30 @@ Using restclient within emacs...
 :END:
   We chatted about programming C# with OmniSharp, helm/ido, how to better utilize Emacs for writing text, yasnippet, lispy-mnemonic, configuration frameworks and brilliant Git tools.
   Show notes: http://sachachua.com/blog/2015/04/2015-04-30-emacs-hangout-hosted-by-philip-stark/
+
+* John Sturdy talks about his various productivity tracking systems  :org:gtd:
+:PROPERTIES:
+:DATE:     2015-04-27T09:45:13+00:00
+:DURATION: 7:16
+:VIMEO_URL: https://vimeo.com/126110058
+:SPEAKERS: Rasmus Petersen
+:END:
+  Emacs' org-mode (many hacks added, mobile-org), Planning (Getting Things Done), Executing plans > Pomodoro, Finances > Financisto, Weight > Weight Tracker, Click counters, Daily grid.
+
+  (Only first half of talk - sorry John, my iPhone ran out of storage)
+
+  Slides on www.cambridgeqs.com
+
+* How Emacs + org mode replaced a few apps in my workflow  :org:
+:PROPERTIES:
+:DATE:     2015-04-23T02:48:23+00:00
+:DURATION: 15:39
+:VIMEO_URL: https://vimeo.com/125758240
+:SPEAKERS: Chennaipy
+:END:
+  This talk was done at the Chennaipy March 2015 Meetup. The talk description is provided below.
+
+  In this talk, I'll present a short demo about using org-mode in Emacs and how it has replaced the functionality of a few apps in my workflow.
 
 * swiper screencast  :swiper:
 :PROPERTIES:
@@ -48655,6 +50020,13 @@ Using restclient within emacs...
   We chatted about packages, packaging, databases, and the upcoming Emacs conference.
   Show notes: http://sachachua.com/blog/2015/04/emacs-hangout-2015-04-15-show-notes/
 
+* ShaderTone + Emacs Live - study 2  :music:
+:PROPERTIES:
+:DATE:     2015-04-14T17:59:50+00:00
+:DURATION: 1:49
+:VIMEO_URL: https://vimeo.com/124960245
+:SPEAKERS: Atsushi Tadokoro
+:END:
 * Emacs configuration in 24 minutes  :configuration:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=FRu8SRWuUko&feature=youtu.be
@@ -48831,6 +50203,26 @@ Using restclient within emacs...
   Learn more from the developers at thoughtbot ⌨️
   Head over to http://tbot.io/dev-blog to read more great articles on our blog.
 
+* Debconf2010-emacs-pydbgr  :python:debugging:
+:PROPERTIES:
+:DATE:     2015-02-08T01:58:30+00:00
+:DURATION: 6:07
+:VIMEO_URL: https://vimeo.com/119023438
+:SPEAKERS: Rocky Bernstein
+:END:
+* Repl Electric - End of buffer  :music:
+:PROPERTIES:
+:DATE:     2015-01-22T19:31:00+00:00
+:DURATION: 9:28
+:VIMEO_URL: https://vimeo.com/117516352
+:SPEAKERS: Repl Electric
+:END:
+  A live coded performance based on a performance given in New York City.
+
+  Live coded using Clojure, Emacs, Overtone, Dirt (Part of Tidal) & Shadertone. No post-production.
+
+  All the performance source is open for the world to see and play with: https://github.com/repl-electric/cassiopeia
+
 * 2015-01-21 Emacs Chat - Steve Purcell
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=Gq0hG_om9xY&list=PL4th0AZixyRF8o3fdx68HGUrYKF2Pfvrp&index=18&pp=iAQB
@@ -48841,6 +50233,15 @@ Using restclient within emacs...
   In this Emacs Chat, Steve Purcell shares how he got started with Emacs by using a Vim emulation mode, what it's like to give hundreds of package authors feedback on Emacs Lisp style, and how he's eventually replacing himself with Emacs Lisp (flycheck-package). He also highlights useful packages for managing buffers of version-controlled files (ibuffer-vc), working with lines if the region isn't active (whole-line-or-region), or maximizing certain buffers (full-frame).
 
   Blog post: http://sachachua.com/blog/?p=27870&shareadraft=baba27870_54bfd5841a433
+* Lenticular Text for Emacs Source
+:PROPERTIES:
+:DATE:     2015-01-06T17:20:02+00:00
+:DURATION: 3:44
+:VIMEO_URL: https://vimeo.com/116078853
+:SPEAKERS: Phillip Lord
+:END:
+  This is a screen cast demonstrating the use of lenticular text, in this case for the source code for lentic.el, the emacs package.
+
 * A Pretty Good Introduction to Pretty Good Privacy
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=Lq-yKJFHJpk&list=PL8tzorAO7s0he-pp7Y_JDl7-Kz2Qlr_Pj&index=13&pp=iAQB
@@ -48917,6 +50318,28 @@ Using restclient within emacs...
   Learn more from the developers at thoughtbot ⌨️
   Head over to http://tbot.io/dev-blog to read more great articles on our blog.
 
+* Emacs4Developers - The demo  :dev:
+:PROPERTIES:
+:DATE:     2014-10-29T12:48:39+00:00
+:DURATION: 7:03
+:VIMEO_URL: https://vimeo.com/110356656
+:SPEAKERS: Pierre Lecocq
+:END:
+  The demo related to the emacs4developers tutorial : https://github.com/pierre-lecocq/emacs4developers
+
+* Richard Stallman - Free Software and Your Freedom in DIEEI   :philosophy:community:
+:PROPERTIES:
+:DATE:     2014-10-27T06:47:21+00:00
+:DURATION: 3:53:16
+:VIMEO_URL: https://vimeo.com/110114678
+:SPEAKERS: nicky didos
+:END:
+  Richard Stallman will speak about the goals and philosophy of the Free Software Movement, and the status and history of the GNU operating system, which in combination with the kernel Linux is now used by tens of millions of users world-wide.
+
+  I corsi di laurea in Ingegneria Informatica (L8 e LM32), nell'ambito delle attività di supporto alla didattica, hanno organizzato un incontro con R. Stallman, una delle figure di maggiore rilievo sia tecnicno che storico dell'informatica moderna. Richard Matthew Stallman è il principale esponente del movimento del software libero. Nel settembre del 1983 diede avvio al progetto GNU con l'intento di creare un sistema operativo simile a Unix ma composto interamente da software libero[: da ciò prese vita il movimento del software libero. Nell'ottobre del 1985 fondò la Free Software Foundation (FSF). Fu il pioniere del concetto di copyleft ed è il principale autore di molte licenze copyleft compresa la GNU General Public License (GPL), la licenza per software libero attualmente più diffusa. Stallman ha anche sviluppato molti software ampiamente usati: Emacs, la GNU Compiler Collection E' richiesta la registrazione al seguente link www.tiny.cc/stallman-ct
+
+  fonte: https://www.dieei.unict.it/Members/michele.malgeri-40dieei.unict.it/eventi-1/stallman
+
 * Keyboard Macro Workshop
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=67dE1lfDs9k&list=PL8tzorAO7s0he-pp7Y_JDl7-Kz2Qlr_Pj&index=15&pp=iAQB
@@ -48937,6 +50360,30 @@ Using restclient within emacs...
 :END:
 
 
+* ZombieCLJ: Live parprogrammering - Magnar Sveen, Christian Johansen  :clojure:
+:PROPERTIES:
+:DATE:     2014-09-10T16:39:38+00:00
+:DURATION: 46:51
+:VIMEO_URL: https://vimeo.com/105777538
+:SPEAKERS: JavaZone
+:END:
+  Se Christian og Magnar parprogrammere på nettspill med Clojure og ClojureScript.
+
+  Så du ZombieTDD for et par år siden? Magnar og Christian er tilbake med ZombieCLJ - en norsk videoserie med Clojure og ClojureScript. De setter seg ned med emacsen og parprogrammerer en ny episode foran publikum. Det blir utvikling av en ny feature, så du kan henge med selv om du ikke har sett alle episodene. Se hvordan to typer som digger funksjonell programmering angriper problemer og skriver tester.
+
+
+  Magnar Sveen
+
+  Jeg heter Magnar og er en glad framsieutvikler. Jeg er deleier i Kodemaker, jobber til daglig som konsulent, og om kvelden utvikler jeg blant annet eventyrspillet Adventur Delux, pomodoro-verktøyet mytomatoes.com og en screencast om at emacs rocker. Jeg har også en blogg med screencasts om testdrevet javascript, zombier og mafia på zombietdd.com. Og en til med Clojure og ClojureScript på www.zombieclj.no
+
+  Christian Johansen
+
+  Christian is a passionate programmer at Kodemaker.
+
+  He is the author of Test-Driven JavaScript Development, and he maintains several open source projects, including the recently released test-framework Buster.JS and the popular mocking framework Sinon.JS.
+
+  After dark you may find him tinkering with his Emacs setup, coding Lisp and slowly being devoured by the world of functional programming.
+
 * 2014-08-10 Emacs Chat - Mickey Petersen
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=JA4dqmDFt5Y&list=PL4th0AZixyRF8o3fdx68HGUrYKF2Pfvrp&index=16&pp=iAQB
@@ -48945,6 +50392,24 @@ Using restclient within emacs...
 :DURATION: 53:36
 :END:
   Mickey Petersen chats about Mastering Emacs, learning advanced topics, navigating by expressions, and making the most of dired and shell. You can find him at masteringemacs.org or twitter.com/mickeynp . Transcript and notes: http://emacslife.com/emacs-chats/chat-mickey-petersen.html
+
+* GLM4-2: Bayesian Model Comparison  :latex:
+:PROPERTIES:
+:DATE:     2014-08-31T18:46:08+00:00
+:DURATION: 15:04
+:VIMEO_URL: https://vimeo.com/104865025
+:SPEAKERS: David Cross
+:END:
+  This is the second tutorial for chapter 4 in our text (Kruschke, 20110, and in it I reproduce Figures 4.2 and 4.3 using knitr and LaTeX.  The main focus is on the minor changes that need to be made to the command file (BayesUpdate.R) provided by Kruschke, in order for it to run in knitr.  I will interpret the output in the next tutorial, GLM4-3.
+
+* GLM4-1: Reproducing the figures in Chapter 4  :ess:
+:PROPERTIES:
+:DATE:     2014-08-30T22:56:48+00:00
+:DURATION: 13:46
+:VIMEO_URL: https://vimeo.com/104819315
+:SPEAKERS: David Cross
+:END:
+  This tutorial follows the text in a straightforward way, dealing with a couple of the trickier aspects of reproducing the example: locating and uploading the R graphics utility written by the author, and changing variable values within the R code provided by the author.  The example is run in Emacs using ESS, and creates graphics files stored for later use.
 
 * The Editor of a Lifetime
 :PROPERTIES:
@@ -48974,6 +50439,15 @@ Using restclient within emacs...
   Show Notes:
   http://www.ilearnthings.com/2014/08/18/episode-13-taking-notes-in-emacs-org-mode/
 
+* GLM3-1: Simulating a long-run relative frequency (Kruschke, 2011, Figure 3.1)  :ess:
+:PROPERTIES:
+:DATE:     2014-07-26T14:52:25+00:00
+:DURATION: 13:45
+:VIMEO_URL: https://vimeo.com/101796419
+:SPEAKERS: David Cross
+:END:
+  This is a tutorial for my Generalized Linear Models class at TCU.  In this tutorial I demonstrate how to reproduce (with some minor variations) Figure 3.1 in our textbook (Kruschke, 2011), using Emacs, ESS, knitr, and R.  There is also a discussion of the instructional significance of the example, which builds on the text.  This tutorial focuses on work flow and interpretation of the example, the next tutorial (GLM3-2) focuses on the particulars of using the software.  Let me know if there are any problems or questions.  Cheers
+
 * Emacs Chat: Harry R. Schwartz / Sacha Chua
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=I2wOxZOcyD8&list=PL4th0AZixyRF8o3fdx68HGUrYKF2Pfvrp&index=15&pp=iAQB
@@ -48984,6 +50458,15 @@ Using restclient within emacs...
   Emacs Chat: Harry R. Schwartz / Sacha Chua
 
   We talk about Emacs NYC, organizing your configuration, and more.
+
+* GLM2-2: Managing Input Using Emacs and ESS  :ess:
+:PROPERTIES:
+:DATE:     2014-07-17T21:30:52+00:00
+:DURATION: 12:58
+:VIMEO_URL: https://vimeo.com/101034770
+:SPEAKERS: David Cross
+:END:
+  This is the second tutorial for Generalized Linear Models (w/ Bayesian Inference).  The topic is managing input files and output files using GNU Emacs and ESS (Emacs Speaks Statistics).  In this tutorial we do the same simple regression analysis as in the first tutorial (GLM2-1), but using Emacs/ESS.
 
 * Turtle Graphics with Emacs Lisp
 :PROPERTIES:
@@ -48996,6 +50479,13 @@ Using restclient within emacs...
 
   Turtle graphics are a way of drawing pictures in which one provides a series of directions such as "move forward" or "turn left" to steer the pen. (The name comes from the fact that the original implementation involved a robotic turtle as an output device controlled by the computer.) In addition to providing a useful and entertaining program, this talk also discusses techniques of pbm graphics and the use of a buffer for drawing which are of general use when doing graphics in emacs.
 
+* Demonstrating in-buffer evaluation of Clojure code with Emacs  :clojure:dev:
+:PROPERTIES:
+:DATE:     2014-07-05T13:13:05+00:00
+:DURATION: 0:25
+:VIMEO_URL: https://vimeo.com/99980843
+:SPEAKERS: John Jacobsen
+:END:
 * org mode is awesome                                                   :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=fgizHHd7nOo
@@ -49029,6 +50519,15 @@ Using restclient within emacs...
   * https://github.com/magnars/expand-region.el
   * https://github.com/magnars/multiple-cursors.el
   * https://github.com/smihica/emmet-mode for quickly writing HTML
+* Emacs Org-mode Bibtex Screencast
+:PROPERTIES:
+:DATE:     2014-06-25T18:12:23+00:00
+:DURATION: 8:33
+:VIMEO_URL: https://vimeo.com/99167082
+:SPEAKERS: Eric Schulte
+:END:
+  Demonstrating the bibtex functionality built into Org-mode.  Sorry no sound.
+
 * Writing Games with Emacs
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=gk39mp8Vy4M&list=PL8tzorAO7s0he-pp7Y_JDl7-Kz2Qlr_Pj&index=18&pp=iAQB
@@ -49053,6 +50552,24 @@ Using restclient within emacs...
   Learn more from the developers at thoughtbot ⌨️
   Head over to http://tbot.io/dev-blog to read more great articles on our blog.
 
+* Org Converge: Literate reproducible runs with Org mode and Ruby   :org:ruby:OrgBabel:
+:PROPERTIES:
+:DATE:     2014-06-08T05:59:16+00:00
+:DURATION: 17:52
+:VIMEO_URL: https://vimeo.com/97635132
+:SPEAKERS: Waldemar Quevedo
+:END:
+  Within the Org mode ecosystem there exists a literate development tool named Org Babel which supports practicing reproducible research by making it possible to eval within the same Emacs buffer the contents of the code blocks.
+
+  Building upon the idea of reproducible runs enabled by Org mode markup and Org babel, as well as in the maturity of the Ruby ecosystem, here I am exploring the potential of following a literate programming approach for domains such as Continuous integration, Configuration management and Infrastructure setup.
+
+* helm-clojure.el  :helm:clojure:completion:
+:PROPERTIES:
+:DATE:     2014-06-01T11:30:44+00:00
+:DURATION: 0:48
+:VIMEO_URL: https://vimeo.com/97036449
+:SPEAKERS: Andrew Rudenko
+:END:
 * Emacs Chat: Christopher Wellons (FFI, Emacs internals)
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=Hr06UDD4mCs&list=PL4th0AZixyRF8o3fdx68HGUrYKF2Pfvrp&index=14&pp=iAQB
@@ -49122,6 +50639,23 @@ Using restclient within emacs...
 
   Learn more from the developers at thoughtbot ⌨️
   Head over to http://tbot.io/dev-blog to read more great articles on our blog.
+
+* Integration of Rebar, EUnit and Emacs Workflows - Zachary Kessin  :coding:erlang:
+:PROPERTIES:
+:DATE:     2014-05-13T15:59:13+00:00
+:DURATION: 28:01
+:VIMEO_URL: https://vimeo.com/95161313
+:SPEAKERS: Erlang Solutions
+:END:
+  Many developers have gotten used to powerful tools such as IDE's on other platforms. For Erlang developers emacs can have as much or more power by combining emacs lisp and distel with native Erlang code. I will use the integration of Rebar, eunit to show how to build powerful tools in Emacs to make Erlang development more productive and more fun.
+
+  TDD is part of a modern work flow, and using +eunit+ with +rebar+ and +emacs+ can greatly enhance the developer's day to day experience. I will show how to have emacs run rebar eunit tests Automatically when the user saves a file.
+
+  In addition with some elisp emacs can be used to show code coverage in the editor so you can now where your tests are covering and not covering code.
+
+  Talk objectives: This talk will aim to empower users to build custom tools to integrate emacs and Erlang development. While the examples will focus around TDD it will really be about how to build cool tools in Emacs.
+
+  Target audience: I expect this talk will appeal to mid level programmers. Some knowledge of Erlang is expected. In addition the audience should be familiar with emacs and TDD as well as Erlang.
 
 * Emacs Chat - Phil Hagelberg (technomancy)
 :PROPERTIES:
@@ -49223,6 +50757,59 @@ Using restclient within emacs...
 :END:
   Emacs Chat: Iannis Zannos
 
+* 2014-03-24 Emacs Basics - Customizing Emacs
+:PROPERTIES:
+:DATE:     2014-03-24T17:43:34+00:00
+:DURATION: 4:42
+:VIMEO_URL: https://vimeo.com/89937355
+:SPEAKERS: Sacha Chua
+:END:
+  This week, we're going to focus on learning how to tweak Emacs with M-x customize and by editing ~/.emacs.d/init.el .
+
+  http://sachachua.com/blog/?p=27098&shareadraft=baba27098_53306da9c8ff1
+
+* Repl Electric - Tsih  :music:
+:PROPERTIES:
+:DATE:     2014-03-21T19:45:52+00:00
+:DURATION: 7:04
+:VIMEO_URL: https://vimeo.com/89741187
+:SPEAKERS: Repl Electric
+:END:
+  Live Music coding with Overtone, Clojure, Emacs Live and Shadertone.
+  All source code: http://github.com/repl-electric
+
+* Emacs Basics - Calling commands by name with M-x  :tutorial:
+:PROPERTIES:
+:DATE:     2014-03-19T21:04:14+00:00
+:DURATION: 3:17
+:VIMEO_URL: https://vimeo.com/89551530
+:SPEAKERS: Sacha Chua
+:END:
+* 2014-03-19 Emacs Basics - Using the Mouse v2  :tutorial:mouse:
+:PROPERTIES:
+:DATE:     2014-03-19T21:04:13+00:00
+:DURATION: 3:03
+:VIMEO_URL: https://vimeo.com/89551529
+:SPEAKERS: Sacha Chua
+:END:
+* Venture into Emacs: Learning Emacs
+:PROPERTIES:
+:DATE:     2014-03-13T04:16:44+00:00
+:DURATION: 3:07
+:VIMEO_URL: https://vimeo.com/88965072
+:SPEAKERS: Tuts+
+:END:
+  Lesson 2 of 19, a Tuts+ course on Venture into Emacs taught by Rem Zolotykh. The full course is available at: https://tutsplus.com/course/venture-into-emacs/ Become a Tuts+ member to get access to hundreds of new courses and eBooks!
+
+* Venture into Emacs: Intro
+:PROPERTIES:
+:DATE:     2014-03-13T04:16:44+00:00
+:DURATION: 1:14
+:VIMEO_URL: https://vimeo.com/88965071
+:SPEAKERS: Tuts+
+:END:
+  Lesson 2 of 19, a Tuts+ course on Venture into Emacs taught by Rem Zolotykh. The full course is available at: https://tutsplus.com/course/venture-into-emacs/ Become a Tuts+ member to get access to hundreds of new courses and eBooks!
+
 * Emacs as a C/C++ Editor/IDE (Part I): auto-complete, yasnippet, and auto-complete-c-headers :coding:completion:c:cpp:yasnippet:autocomplete:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=HTUE03LnaXA
@@ -49237,6 +50824,252 @@ Using restclient within emacs...
 
   or you can pull/clone it from github:
   https://github.com/byuksel/Emacs-as-a-C-Cplusplus-Editor-IDE-settings
+* lispy.el: "xi"= cond-to-ifs, "xc" = ifs-to-cond  :lispy:elisp:
+:PROPERTIES:
+:DATE:     2014-03-07T10:47:45+00:00
+:DURATION: 0:46
+:VIMEO_URL: https://vimeo.com/88431967
+:SPEAKERS: Oleh
+:END:
+  This screencast shows the cond-to-ifs and ifs-to-cond features
+  of github.com/abo-abo/lispy.
+
+  The package is available from MELPA.
+
+  Documentation for lispy is available at abo-abo.github.io/lispy/.
+
+* lispy.el with multiple cursors screencast  :MultipleCursors:lispy:navigation:
+:PROPERTIES:
+:DATE:     2014-02-28T09:34:19+00:00
+:DURATION: 0:32
+:VIMEO_URL: https://vimeo.com/87847268
+:SPEAKERS: Oleh
+:END:
+  This screencast shows using https://github.com/abo-abo/lispy
+  together with https://github.com/magnars/multiple-cursors.el.
+
+  Both packages are available from MELPA.
+
+  Documentation for lispy is available at http://abo-abo.github.io/lispy/.
+
+* emacs-rebuildfm
+:PROPERTIES:
+:DATE:     2014-02-18T13:49:31+00:00
+:DURATION: 0:40
+:VIMEO_URL: https://vimeo.com/86989985
+:SPEAKERS: gongo
+:END:
+  https://github.com/gongo/emacs-rebuildfm
+
+* Navigating org-mode code base with lispy.el   :navigation:coding:lispy:
+:PROPERTIES:
+:DATE:     2014-02-17T13:32:04+00:00
+:DURATION: 2:10
+:VIMEO_URL: https://vimeo.com/86894158
+:SPEAKERS: Oleh
+:END:
+  This demo shows how `lispy-goto` can navigate the base directory of org-mode package.
+
+  Lispy is a GNU Emacs package available at github.com/abo-abo/lispy and
+  as "lispy" in MELPA.
+
+  I also demonstrate how to quickly customize `lispy-goto` to show more info for `eval-after-load` tag.
+
+* Navigating a directory of Common Lisp code with lispy.el  :navigation:cl:lispy:
+:PROPERTIES:
+:DATE:     2014-02-16T15:03:12+00:00
+:DURATION: 0:24
+:VIMEO_URL: https://vimeo.com/86825511
+:SPEAKERS: Oleh
+:END:
+  This demo shows how `lispy-goto` can navigate the Common Lisp code bundled with SLIME.
+
+  Lispy is a GNU Emacs package available at github.com/abo-abo/lispy and
+  as "lispy" in MELPA.
+
+* Navigating a directory of Elisp code with lispy.el   :navigation:elisp:lispy:
+:PROPERTIES:
+:DATE:     2014-02-15T12:09:17+00:00
+:DURATION: 0:56
+:VIMEO_URL: https://vimeo.com/86768594
+:SPEAKERS: Oleh
+:END:
+  This demo shows how `lispy-goto` can navigate the default Emacs lisp directory.
+
+  Lispy is a GNU Emacs package available at github.com/abo-abo/lispy and
+  as "lispy" in MELPA.
+
+* Navigating a directory of Clojure code with lispy.el  :navigation:clojure:lispy:
+:PROPERTIES:
+:DATE:     2014-02-14T19:10:11+00:00
+:DURATION: 0:59
+:VIMEO_URL: https://vimeo.com/86727658
+:SPEAKERS: Oleh
+:END:
+  This demo shows how `lispy-goto` can navigate a directory
+  of popular Clojure statistical package Incanter (https://github.com/liebke/incanter).
+
+  Lispy is a GNU Emacs package available at https://github.com/abo-abo/lispy and
+  as "lispy" in MELPA. The second method is recommended for new users as it automatically
+  installs (almost) all dependencies and updates.
+
+  Only dependency that can't be installed from MELPA and has to be installed
+  manually is clojure-semantic (https://github.com/kototama/clojure-semantic).
+  It enables CEDET to parse Clojure code.
+
+  Similar navigation is already in-place for Emacs Lisp, Scheme and Common Lisp.
+
+* TRUG#15 Emacs Michał Kwiatkowski
+:PROPERTIES:
+:DATE:     2014-02-12T13:31:13+00:00
+:DURATION: 51:28
+:VIMEO_URL: https://vimeo.com/86509377
+:SPEAKERS: Michał Kwiatkowski
+:END:
+* ViveCodigo 01x09 - GNU Emacs con Alcides FLores (@alcidesfp) - Continuación
+:PROPERTIES:
+:DATE:     2014-02-10T22:48:51+00:00
+:DURATION: 36:20
+:VIMEO_URL: https://vimeo.com/86362811
+:SPEAKERS: MakingDevs
+:END:
+  Alcides Flores programador con ya varios años de experiencia en el desarrollo de software, esta ocasión nos hablo sobre un herramienta en exceso interesante GNU Emacs.
+  Emacs es un manipulador de texto pero mas que un simple manipulador de texto, posee un gran cantidad de funciones que para un desarrollador de software puede y sera de gran utilidad
+
+* ViveCodigo 01x09 - GNU Emacs con Alcides FLores (@alcidesfp)
+:PROPERTIES:
+:DATE:     2014-02-10T18:09:12+00:00
+:DURATION: 51:11
+:VIMEO_URL: https://vimeo.com/86336678
+:SPEAKERS: MakingDevs
+:END:
+  Alcides Flores programador con ya varios años de experiencia en el desarrollo de software, esta ocasión  nos hablo sobre un herramienta en exceso interesante GNU Emacs.
+  Emacs es un manipulador de texto pero mas que un simple manipulador de texto, posee un gran cantidad de funciones que para un desarrollador de software puede y sera de gran utilidad
+
+* lispy-goto screencast  :elisp:navigation:lispy:
+:PROPERTIES:
+:DATE:     2014-02-07T15:14:36+00:00
+:DURATION: 0:21
+:VIMEO_URL: https://vimeo.com/86116635
+:SPEAKERS: Oleh
+:END:
+  Navigate your ~/.emacs with great speed.
+  Package available at https://github.com/abo-abo/lispy or as "lispy" in MELPA.
+
+* Sam Aaron - The Programming Language as a Musical Instrument  :music:
+:PROPERTIES:
+:DATE:     2014-02-05T15:26:16+00:00
+:DURATION: 52:28
+:VIMEO_URL: https://vimeo.com/85930562
+:SPEAKERS: Erlang Solutions
+:END:
+  Code Mesh London is the best place in Europe for non-mainstream tech and programming languages. On 4-5 December 2013 over 50 inventors and originators of the most innovative languages and technologies of the moment shared their experience with 200 attendees. Topics included Scala, Haskell, Clojure, Erlang, Elixir, Julia and much more. See you at Code Mesh 2014! codemesh.io/
+
+  About the talk:
+  The term "programming language" is often used to describe the medium we use to build software. However, to what extent can we also consider programming languages as interfaces in their own right? Are they sufficiently expressive, interactive and dynamic to, say, control a musical instrument? What if the programming language was the musical instrument? How might that challenge our perception of programming language and tools in general. For example, what happens when we consider the act of programming as a performance? What might a music programming environment which has sufficient liveness, rapid feedback and tolerance of failure look like? What benefits would such a style of programming offer business? Could live coding be beneficial for rapid prototyping, exploring big data sets, and even communicating formal business ideas?
+  Weaving Immutable Data Structures into Ephemeral Sounds - Conference Party
+
+  Armed with laptops, monomes and number of simple MIDI Kontrollers, we harness the full power of the SuperCollider synthesis engine through the incredible Overtone platform. We don't just use our laptops to tweak GUI sliders and pots, we write raw Clojure code into Emacs live in our performances. We also generate real-time visualisations perfectly synchronised to the sound with Quil and Shadertone. All the code for our sets is open source and available for you to play with: Meta-eX Ignite.
+
+  Live Hacking allows us to generate music on-the-fly enabling us to change the direction of the sound and respond to our environment at a whim. Our sounds aren't pre-recorded and tweaked on-stage, they're coded and generated live in real time. We produce a real raw noise rather than manufactured industry-polished pseudo-perfection. Our sound isn't hardcore, breakcore or speedcore - it's multi-core and fully hyper-threaded.
+
+* Emacs and coder integration  :coding:
+:PROPERTIES:
+:DATE:     2014-01-13T23:30:48+00:00
+:DURATION: 1:06
+:VIMEO_URL: https://vimeo.com/84084318
+:SPEAKERS: Ethan
+:END:
+* Symbolics Document Examiner and Concordia   :history:
+:PROPERTIES:
+:DATE:     2014-01-10T21:49:25+00:00
+:DURATION: 21:20
+:VIMEO_URL: https://vimeo.com/83886950
+:SPEAKERS: Rainer Joswig
+:END:
+  In this video I demonstrate the user interfaces of the Symbolics Document Examiner and of Symbolics Concordia. Concordia is a hypertext documentation authoring system, based on an extended Emacs (here Zmacs). Concordia can also be used to output the hypertext as traditional books and manuals.The Document Examiner then provides the tool to view, query and browse the documentation. Besides Document Examiner, the documentation is also available in many other places: the editor, the Listener, ...
+
+* Rectangular selection in Emacs   :rectangle:
+:PROPERTIES:
+:DATE:     2014-01-08T10:52:42+00:00
+:DURATION: 0:08
+:VIMEO_URL: https://vimeo.com/83666648
+:SPEAKERS: katspaugh
+:END:
+  You can see how a thin line appears at the side of the rectangular selection and lines shift to the right.
+
+* Extempore inside Nao's brain!   :fun:robot:
+:PROPERTIES:
+:DATE:     2013-12-29T02:18:32+00:00
+:DURATION: 1:08
+:VIMEO_URL: https://vimeo.com/82861090
+:SPEAKERS: Andrew Sorensen
+:END:
+  The first words spoken by an Extempore powered Nao!
+
+  1) Nao sitting patiently on the floor.
+  2) Extempore running inside Nao's brain!  (ssh shell into Nao's Extempore brain on laptop screen - left)
+  3) Emacs running on Laptop remotely connected to Nao's Extempore brain
+  4) All audio coming from Nao's "ears" - you'll need to listen carefully.
+
+  Unfortunately we only had time to get Nao to speak and generate an audio signal (white noise in this brief video), but everything is now in place to do some really interesting things with Extempore on the Nao. Extempore is running natively on Nao's Atom processor with full on-the-fly native code compilation, so really the sky is the limit.
+
+  Big thanks to Quinton Anderson for providing the Nao!  I'm sure that Quinton will post some (hopefully in focus) videos of his Extempore powered Nao doing much cooler things when he gets the chance.
+
+* emacs_pbcopy
+:PROPERTIES:
+:DATE:     2013-12-12T14:31:49+00:00
+:DURATION: 0:33
+:VIMEO_URL: https://vimeo.com/81716908
+:SPEAKERS: umeyuki
+:END:
+  how to use emacs pbcopy.el
+
+* [Clojure] Slamhound screencast  :clojure:
+:PROPERTIES:
+:DATE:     2013-11-30T01:58:09+00:00
+:DURATION: 9:39
+:VIMEO_URL: https://vimeo.com/80650659
+:SPEAKERS: guns
+:END:
+  This is a short screencast covering installation, usage, and tips for using Slamhound, the awesome Clojure ns rewriting tool from Phil Hagelberg.
+
+  Never write an ns form by hand again! We have the technology.
+
+      https://github.com/technomancy/slamhound
+
+  Emacs plugin:
+
+      http://marmalade-repo.org/packages/slamhound
+
+  Vim plugin:
+
+      https://github.com/guns/vim-slamhound
+
+* Hugo Firth - Clojure from the Trenches - BFPG - 2013-11-26  :clojure:
+:PROPERTIES:
+:DATE:     2013-11-28T21:19:04+00:00
+:DURATION: 41:55
+:VIMEO_URL: https://vimeo.com/80576311
+:SPEAKERS: Rob Manthey
+:END:
+  Clojure from the Trenches by Hugo Firth
+
+  http://www.meetup.com/Brisbane-Functional-Programming-Group/events/104664312/
+
+  Hugo has had some recent experience working on an enterprise Clojure project as a junior developer with no prior exposure to FP.
+
+  His talk will share his team's experience and discuss some of the pain points that they encountered. This includes:- learning clojure, leiningen and emacs as quickly as possible- unit tests vs repl- managing configurations- unit testing code with side effects
+
+* Driving Protege with Tawny-OWL and Emacs
+:PROPERTIES:
+:DATE:     2013-11-11T21:06:25+00:00
+:DURATION: 3:38
+:VIMEO_URL: https://vimeo.com/79136990
+:SPEAKERS: Phillip Lord
+:END:
+  In this video, I show how we can connect to Protege, and then use Tawny-OWL to modify its data structures. In this way, we have a fully programmatic ontology development environment with the richness of Protege for visualisation.
+
 * Emacs Chat: John Wiegley (June 26, 2012)
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=ytNsHmRLZGM&list=PL4th0AZixyRF8o3fdx68HGUrYKF2Pfvrp&index=5&pp=iAQB
@@ -49256,6 +51089,43 @@ Using restclient within emacs...
 :DURATION: 57:23
 :END:
   In which Magnar tells us how he got started with Emacs by hanging out with other Emacs geeks, and other good stories. Notes at http://sachachua.com/blog/2013/11/emacs-chat-magnar-sveen-emacs-rocks/
+
+* EDTS Tool Suite - Making Your Life Easier - Thomas Järvstrand   :erlang:
+:PROPERTIES:
+:DATE:     2013-10-21T10:08:22+00:00
+:DURATION: 27:39
+:VIMEO_URL: https://vimeo.com/77392610
+:SPEAKERS: Erlang Solutions
+:END:
+  Erlang User Conference 2013
+  More info and slides on the website: http://www.erlang-factory.com/conference/ErlangUserConference2013/talks
+
+  The Erlang Development Tool Suite (EDTS) is an open-source package of useful development tools for working with the Erlang programming language in Emacs. It bundles a number of useful external packages, together with specialized Erlang plugins for them, and its own features to create a complete and efficient development environment that is easy to set up.
+
+* emacs nrepl austin async brepl   :async:nrepl:
+:PROPERTIES:
+:DATE:     2013-10-17T11:00:35+00:00
+:DURATION: 4:20
+:VIMEO_URL: https://vimeo.com/77124644
+:SPEAKERS: juan antonio ruz
+:END:
+* Sam Aaron 2nd live performance with Overtone at EuroClojure 2013  :music:
+:PROPERTIES:
+:DATE:     2013-10-16T09:15:50+00:00
+:DURATION: 5:51
+:VIMEO_URL: https://vimeo.com/77030184
+:SPEAKERS: Jérémie Grodziski
+:END:
+* Debugging CL-HTTP, using Clozure Common Lisp, GNU Emacs and SLIME
+:PROPERTIES:
+:DATE:     2013-10-15T23:21:08+00:00
+:DURATION: 15:11
+:VIMEO_URL: https://vimeo.com/77004324
+:SPEAKERS: Rainer Joswig
+:END:
+  CL-HTTP is a relatively complex CLOS-based web server for Common Lisp. I found a bug, which happens during start-up. How can we locate and fix the bug using our tools?
+
+  SLIME provides us with a Read-Eval-Print-Loop (short REPL), a backtrace, an inspector, source code navigation and more. Let's use these tools.
 
 * Writing A Spotify Client in 16 Minutes  :coding:helm:
 :PROPERTIES:
@@ -49301,6 +51171,31 @@ Using restclient within emacs...
 
   Follow along on GitHub at https://github.com/jekor/.emacs
   Notices and updates on Twitter at @jekor https://twitter.com/jekor
+
+* C Programming - Setting up your development environs.
+:PROPERTIES:
+:DATE:     2013-09-28T20:20:49+00:00
+:DURATION: 5:44
+:VIMEO_URL: https://vimeo.com/75662531
+:SPEAKERS: Gallefray O'leary
+:END:
+  This is the first of many :D
+  Sorry for the crappy sound, my mouth was really dry, and this was the second take.
+  Also sorry for repeating myself :P
+
+  HERE ARE THE LINKS! :D
+  Sublime Text 3:
+  http://www.sublimetext.com/3
+
+  Emacs:
+  http://www.gnu.org/software/emacs/
+  http://emacsformacosx.com/
+
+  MinGW:
+  http://www.mingw.org/
+
+  GCC for mac:
+  http://www.mkyong.com/mac/how-to-install-gcc-compiler-on-mac-os-x/
 
 * .Emacs #5 - Managing and Finding Buffers
 :PROPERTIES:
@@ -49431,6 +51326,48 @@ Using restclient within emacs...
   Transcript: http://sachachua.com/blog/2013/07/emacs-chat-sacha-chua-with-bastien-guerry/
   More Emacs chats: http://sachachua.com/emacs-chat
 
+* Emacs
+:PROPERTIES:
+:DATE:     2013-06-23T20:08:38+00:00
+:DURATION: 0:15
+:VIMEO_URL: https://vimeo.com/68962635
+:SPEAKERS: Minzhao Liu
+:END:
+* Emacs ctags demo
+:PROPERTIES:
+:DATE:     2013-06-20T08:03:27+00:00
+:DURATION: 0:43
+:VIMEO_URL: https://vimeo.com/68756938
+:SPEAKERS: sciamp
+:END:
+* Crab hint following  :chrome:web:
+:PROPERTIES:
+:DATE:     2013-06-09T17:00:00+00:00
+:DURATION: 0:32
+:VIMEO_URL: https://vimeo.com/67994234
+:SPEAKERS: Brian McKenna
+:END:
+* Early Crab demo  :chrome:web:
+:PROPERTIES:
+:DATE:     2013-06-08T15:36:43+00:00
+:DURATION: 1:03
+:VIMEO_URL: https://vimeo.com/67948909
+:SPEAKERS: Brian McKenna
+:END:
+  Crab is a WebSocket protocol for controlling a web browser. Here I have an Emacs Crab server and Chrome as a client.
+
+  https://github.com/puffnfresh/crab-emacs
+
+  https://github.com/puffnfresh/crab-chrome
+* SkewerCoffee   :coffeescript:skewer:coding:web:
+:PROPERTIES:
+:DATE:     2013-06-01T17:11:19+00:00
+:DURATION: 0:38
+:VIMEO_URL: https://vimeo.com/67465309
+:SPEAKERS: Jack Rusher
+:END:
+  Emacs skewer-mode slightly modified to support coffeescript.
+
 * Emacs Chat - Carsten Dominik
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=uUtFIbKEpJQ&list=PL4th0AZixyRF8o3fdx68HGUrYKF2Pfvrp&index=3&pp=iAQB
@@ -49459,6 +51396,15 @@ Using restclient within emacs...
   Lifehacking, Emacs + philosophy, and other stories.
   Notes: http://sachachua.com/blog/2013/05/emacs-chat-bastien-guerry/
   Want just the audio? https://archive.org/details/EmacsChatBastienGuerryAndSachaChua
+
+* Better Web Based HTML Editing  :web:html:coding:
+:PROPERTIES:
+:DATE:     2013-05-09T11:13:20+00:00
+:DURATION: 0:27
+:VIMEO_URL: https://vimeo.com/65810941
+:SPEAKERS: Duncan Bayne
+:END:
+  Using It's All Text, Markdown, Markdownify and Emacs for better web based HTML editing.  See https://github.com/duncan-bayne/duncan-bayne.github.com/wiki/Better-Web-Based-HTML-Editing for detils.
 
 * On-the-fly evaluation of forms/code in Emacs! Update 2
 :PROPERTIES:
@@ -49495,6 +51441,185 @@ Using restclient within emacs...
 
   In a fast-paced live demo, I will create a small system using Python, plus a few other languages for good measure, and deploy it without touching the keyboard. The demo gods will make a scheduled appearance. I hope to convince you that voice recognition is no longer a crutch for the disabled or limited to plain prose. It's now a highly effective tool that could benefit all programmers.
 
+* Emacs Live Clojure Setup   :clojure:
+:PROPERTIES:
+:DATE:     2013-03-18T13:45:45+00:00
+:DURATION: 8:39
+:VIMEO_URL: https://vimeo.com/62072521
+:SPEAKERS: Chris White
+:END:
+  This is a quick video demonstrating how to get emacs-live setup for easy Clojure development. Assumed requirements are emacs 24+ and clojure.
+
+  Emacs-Live: https://github.com/overtone/emacs-live
+  Leiningen: https://github.com/technomancy/leiningen
+
+* Emacs on Mac OS X
+:PROPERTIES:
+:DATE:     2013-03-18T03:23:17+00:00
+:DURATION: 0:26
+:VIMEO_URL: https://vimeo.com/62043881
+:SPEAKERS: Hiroyuki Iwatsuki
+:END:
+  引数を付けてEmacsを起動するとウィンドウが2つ開く様子。
+
+* RSS in Emacs  :rss:gnus:
+:PROPERTIES:
+:DATE:     2013-03-16T14:29:24+00:00
+:DURATION: 5:45
+:VIMEO_URL: https://vimeo.com/61957180
+:SPEAKERS: Adam Sjøgren
+:END:
+  A little introduction to reading RSS in Emacs, using Gnus and gwene.org.
+
+* Thomas Kjeldahl Nilsson - Emacs chat
+:PROPERTIES:
+:DATE:     2013-03-15T18:55:07+00:00
+:DURATION: 55:23
+:VIMEO_URL: https://vimeo.com/61912848
+:SPEAKERS: Sacha Chua
+:END:
+* Sam Aaron, Live @ Arnolfini 2012   :music:
+:PROPERTIES:
+:DATE:     2013-03-05T14:25:04+00:00
+:DURATION: 17:11
+:VIMEO_URL: https://vimeo.com/61097922
+:SPEAKERS: Sam Aaron
+:END:
+  A live set performed by Sam Aaron at the Arnolfini art gallery in Bristol. Sound is designed and manipulated with Overtone (github.com/overtone/overtone), graphics with Quil (github.com/quil/quil) and is controlled via Emacs with the Emacs Live config (overtone.github.com/emacs-live/). Additionally a Korg NanoKontrol 2 was used to control some values in Emacs and the Satie part was performed with a monome (monome.org). All the code for this performance is Open Source and available on github: github.com/samaaron/arnold
+
+  For a pure screencast version of the same performance see: https://vimeo.com/46867490
+
+* Emacs Chat with Avdi Grimm   :community:
+:PROPERTIES:
+:DATE:     2013-03-01T17:50:21+00:00
+:DURATION: 44:19
+:VIMEO_URL: https://vimeo.com/60848459
+:SPEAKERS: Sacha Chua
+:END:
+  Avdi Grimm (http://dev.avdi.org) records the RubyTapas screencasts and does other cool stuff. I chatted with him about Org mode, literate programming, technical authoring, and other things you can do with Emacs.
+
+* requirejs-mode.el in action
+:PROPERTIES:
+:DATE:     2013-02-16T00:58:10+00:00
+:DURATION: 2:53
+:VIMEO_URL: https://vimeo.com/59774974
+:SPEAKERS: Marc-Olivier Ricard
+:END:
+  requireJs mode for emacs in action
+
+* Bastien Guerry "How to become a hacker(in the XXI century)?" 2/2
+:PROPERTIES:
+:DATE:     2013-01-27T17:44:40+00:00
+:DURATION: 43:46
+:VIMEO_URL: https://vimeo.com/58305252
+:SPEAKERS: Bastien Guerry
+:END:
+  Conferencia de Bastien Guerry en la asignatura de Ética, Legislación, Profesión de la Facultad de Informática en Universidad Complutense de Madrid
+
+* airplay.el (alpha ver)
+:PROPERTIES:
+:DATE:     2013-01-23T14:56:16+00:00
+:DURATION: 0:37
+:VIMEO_URL: https://vimeo.com/58021392
+:SPEAKERS: gongo
+:END:
+  mada ugokanai yet.
+
+  https://github.com/gongo/airplay-el
+
+* Charla Bastien Guerry parte 2/2
+:PROPERTIES:
+:DATE:     2013-01-21T17:30:09+00:00
+:DURATION: 43:46
+:VIMEO_URL: https://vimeo.com/57865990
+:SPEAKERS: Bastien Guerry
+:END:
+  Charla "How to become a hacker (in the XXI century)?" ofrecida por Bastien Guerry en la Facultad de Informática de la Universidad Complutense de Madrid el día 18/01/2013
+
+* Bastien Guerry  "How to become a hacker(in the XXI century)?" 1/2
+:PROPERTIES:
+:DATE:     2013-01-20T19:33:44+00:00
+:DURATION: 1:00:00
+:VIMEO_URL: https://vimeo.com/57801438
+:SPEAKERS: Bastien Guerry
+:END:
+  Conferencia de Bastien Guerry  en la asignatura de Ética, Legislación,  Profesión de la Facultad de Informática en Universidad Complutense de Madrid
+
+
+  18 Enero 2013
+
+* Emacs + gimpmode + gimp
+:PROPERTIES:
+:DATE:     2013-01-03T02:48:18+00:00
+:DURATION: 6:25
+:VIMEO_URL: https://vimeo.com/56668986
+:SPEAKERS: guaracy monteiro
+:END:
+  Exemplo de criação de script-fu utilizando o Emacs com gimpmode e o GIMP.
+
+* Clojure, EMACS Live installation tutorial for Windows
+:PROPERTIES:
+:DATE:     2012-12-26T11:07:15+00:00
+:DURATION: 15:56
+:VIMEO_URL: https://vimeo.com/56318159
+:SPEAKERS: Mike Aldred
+:END:
+  Simple tutorial for installing Clojure (via Leiningen), EMACS, and EMACS Live for Clojure development on Windows.
+
+  Leiningen: https://github.com/technomancy/leiningen
+  Console2: http://sourceforge.net/projects/console/
+  EMACS: http://ftp.gnu.org/gnu/emacs/windows/
+  EMACS Live: https://github.com/overtone/emacs-live
+
+  (Sorry about the Adium log-on and log-off noises I was capturing computer audio and completely missed it)
+
+* Yas Snippets and Emacs Issue  :yasnippet:
+:PROPERTIES:
+:DATE:     2012-12-23T03:52:08+00:00
+:DURATION: 0:23
+:VIMEO_URL: https://vimeo.com/56181239
+:SPEAKERS: Shiv Deepak
+:END:
+* emacs-realtime-markdown-viewer test
+:PROPERTIES:
+:DATE:     2012-11-15T21:37:30+00:00
+:DURATION: 2:02
+:VIMEO_URL: https://vimeo.com/53631510
+:SPEAKERS: gongo
+:END:
+* CSE891 SS12 Virtual Machines, Linux Commandline, Emacs and Avida
+:PROPERTIES:
+:DATE:     2012-11-14T13:50:44+00:00
+:DURATION: 30:14
+:VIMEO_URL: https://vimeo.com/53504166
+:SPEAKERS: Art Covert
+:END:
+  Tutorial for the SS12 BEACON course
+
+* Demo of org-protocol-github-lines emacs plugin  :org:
+:PROPERTIES:
+:DATE:     2012-10-13T21:17:21+00:00
+:DURATION: 2:28
+:VIMEO_URL: https://vimeo.com/51362143
+:SPEAKERS: Raimon Grau
+:END:
+  I created an addon for emacs + org-protocol that helps me fixing code reviews that people send on github.
+
+  When you're looking at a comment in the github interface, you have to change to your editor, and remember a file (possibly with its path), and the relevant line to go and fix your stuff.
+
+  With this mode, your browser will tell emacs the information so you'll just have to hack away.
+
+  The project is in: https://github.com/kidd/org-protocol-github-lines
+
+* Getting Started with Haskell
+:PROPERTIES:
+:DATE:     2012-10-02T19:55:41+00:00
+:DURATION: 14:59
+:VIMEO_URL: https://vimeo.com/50637752
+:SPEAKERS: Adrian Patino
+:END:
+  Quick tour of Haskell using Gtk and the web
+
 * Emacs Rocks! Episode 13: multiple-cursors  :navigation:MultipleCursors:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=jNa3axo40qM
@@ -49516,6 +51641,97 @@ Using restclient within emacs...
 
   Follow me on twitter: @emacsrocks
 
+* Pure JavaScript
+:PROPERTIES:
+:DATE:     2012-09-13T14:03:38+00:00
+:DURATION: 48:48
+:VIMEO_URL: https://vimeo.com/49384334
+:SPEAKERS: JavaZone
+:END:
+  Are you comfortable passing functions around, returning them from other functions, and generally enjoy the pleasures of higher-order functions? Join in on an hour implementing ideas from functional programming in JavaScript. I will show you how you can significantly up your game by leaving loops behind and embracing functions as the primary unit of abstraction.
+
+  Christian Johansen
+
+  Christian is a passionate programmer currently working at gitorious.org where he does everything from JavaScript to Ruby to Unix systems tuning. He is the author of "Test-Driven JavaScript Development", and he maintains several open source projects, including the recently released test-framework Buster.JS and the popular mocking framework Sinon.JS. After dark you may find him tinkering with his Emacs setup, coding Lisp and slowly being devoured by the world of functional programming.
+
+* Blogging from Emacs + Org-Mode
+:PROPERTIES:
+:DATE:     2012-08-24T19:33:41+00:00
+:DURATION: 4:08
+:VIMEO_URL: https://vimeo.com/48163827
+:SPEAKERS: Thomas Nilsson
+:END:
+  I liberated myself from Wordpress to a simple setup using Emacs, Orgmode, some custom Ruby and elisp to generate my blog/website as static html. Makes blogging more enjoyable and low-threshold.
+
+  My emacs setup (also org-mode based!) can be found at https://github.com/thomanil/dot-emacs . The actual conversion is done by org-publish (https://github.com/thomanil/kjeldahlnilsson.net/blob/master/html-export.el), which I run in batch-mode from a small Rakefile (https://github.com/thomanil/kjeldahlnilsson.net/blob/master/Rakefile) - so I can regen my blog from the command line. My blog-{new,generate,deploy} elisp commands simply shell out to that Rake script. Automatic browser reload is done with the Firefox Auto Reload plugin. Finally, note that each regen of the blog takes a while since everything is recreated every time - will fix when I have time and inclination.
+
+  A bit rough and hacky, but it works. :)
+
+* Distel - 10 Years of (e)maxing out Erlang: Mats Cronqvist  :erlang:
+:PROPERTIES:
+:DATE:     2012-08-24T13:28:22+00:00
+:DURATION: 31:49
+:VIMEO_URL: https://vimeo.com/48141596
+:SPEAKERS: Erlang Solutions
+:END:
+  Erlang User Conference 2012
+
+  erlang-solutions.com
+  erlang-factory.com
+
+  "Emacs has traditionally been the editor with the best Erlang support. Distel, created by Luke Gorrie et al in 2002, provides an implementation of the Erlang distribution protocol in emacs lisp.  Enabling communication between an Erlang emulator and emacs enables all kinds of cool tricks.
+  Since this is the 10-year anniversary of Distel, I (the current maintainer) thought it fitting to present the current state of Distel. Which, in my unbiased opinion, is still the state of the art of Erlang editing. "
+
+  Follow us on Twitter @Erlangfactory twitter.com/#!/erlangfactory
+  Join our group on Linkedin Erlang Factory linkedin.com/groups/Erlang-Factory-2003110?trk=myg_ugrp_ovr
+
+* Live Hacking Overtone - Internal Sequencer   :music:
+:PROPERTIES:
+:DATE:     2012-08-15T10:05:04+00:00
+:DURATION: 10:55
+:VIMEO_URL: https://vimeo.com/47578617
+:SPEAKERS: Sam Aaron
+:END:
+  A quick run-through and then live jam with the internal sequencer example available in the latest development version of Overtone: http://bit.ly/MwdRJX
+
+  No fancy graphics this time - just raw text in Emacs, noise from Overtone and programming in Clojure.
+
+  Any questions will be happily answered in the Overtone mailing list: http://groups.google.com/group/overtone/
+
+* Sam Aaron - Hacking Overtone - Live @ Arnolfini   :music:
+:PROPERTIES:
+:DATE:     2012-08-03T08:30:58+00:00
+:DURATION: 17:08
+:VIMEO_URL: https://vimeo.com/46867490
+:SPEAKERS: Sam Aaron
+:END:
+  A live set performed by Sam Aaron at the Arnolfini art gallery in Bristol. Sound is designed and manipulated with Overtone (http://github.com/overtone/overtone), graphics with Quil (http://github.com/quil/quil) and is controlled via Emacs with the Emacs Live config (http://overtone.github.com/emacs-live/). Additionally a Korg NanoKontrol 2 was used to control some values in Emacs and the Satie part was performed with a monome (http://monome.org). All the code for this performance is Open Source and available on github: http://github.com/samaaron/arnold
+
+  * For a stage capture of the same performance see: https://vimeo.com/61097922
+
+  * For a short 4 minute introduction to Overtone head here: https://vimeo.com/22798433
+
+  * Check out Meta-eX the Overtone-powered band: http://meta-ex.com
+
+* GUI Bug in Emacs NS port   :bug:
+:PROPERTIES:
+:DATE:     2012-07-24T18:09:18+00:00
+:DURATION: 0:20
+:VIMEO_URL: https://vimeo.com/46309150
+:SPEAKERS: Pavlo Martynenko
+:END:
+  On the top is Mac Port. Below is NS port. It does'n redraw all area after closing buffer, leaving black (depends on color theme) thin square.
+
+* Emacs NS Port vs. Mac Port
+:PROPERTIES:
+:DATE:     2012-07-19T12:49:06+00:00
+:DURATION: 0:36
+:VIMEO_URL: https://vimeo.com/46028049
+:SPEAKERS: Pavlo Martynenko
+:END:
+  Emacs + GUI animation. Emacs Mac Port created by Yamamoto Mitsuharu.
+  Nice scrolling and buffer switching with two finger gesture.
+
 * Emacs Rocks! Episode 11: swank-js
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=qwtVtcQQfqc&list=PLVfFIUHWy-aNaF08m34sO81dsVr4L7uI-&index=14&pp=iAQB
@@ -49527,6 +51743,26 @@ Using restclient within emacs...
 
   Follow me on twitter: @emacsrocks
 
+* John Wiegley - June 26, 2012  :community:
+:PROPERTIES:
+:DATE:     2012-06-27T02:54:50+00:00
+:DURATION: 43:48
+:VIMEO_URL: https://vimeo.com/44778543
+:SPEAKERS: John Wiegley, Sacha Chua
+:END:
+  In which John Wiegley and I chat about cool things he does with Emacs, learning, and other geeky things. More context for John Wiegley's thoughts: http://newartisans.com/2011/04/letter-to-the-fsf/
+
+* gtk-application-prefer-dark-theme for Emacs
+:PROPERTIES:
+:DATE:     2012-05-30T00:26:24+00:00
+:DURATION: 0:33
+:VIMEO_URL: https://vimeo.com/43078091
+:SPEAKERS: Ant Vas
+:END:
+  Quick and dirty elisp function for setting gtk-application-prefer-dark-theme
+
+  http://developer.gnome.org/gtk3/3.2/GtkSettings.html#GtkSettings--gtk-application-prefer-dark-theme
+
 * Emacs Rocks! Live at WebRebels  :music:fun:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=p3Te_a-AGqM
@@ -49535,6 +51771,33 @@ Using restclient within emacs...
 :DURATION: 18:18
 :END:
   Crappy sound. Swearing. A noisy bar. Can you handle it? Then here's the 18 minute emacsrocks live show from Web Rebels in Oslo 2012. See more at http://emacsrocks.com
+
+* Emacs Warp - Realtime HTML Preview
+:PROPERTIES:
+:DATE:     2012-05-24T15:58:24+00:00
+:DURATION: 3:44
+:VIMEO_URL: https://vimeo.com/42777122
+:SPEAKERS: yukihr
+:END:
+  Introducing Emacs Warp
+
+* Ma perché non emacs - a caccia di feature che sicuramente esistono già
+:PROPERTIES:
+:DATE:     2012-05-05T01:37:40+00:00
+:DURATION: 31:50
+:VIMEO_URL: https://vimeo.com/41595912
+:SPEAKERS: Alessio Caiazza
+:END:
+  Ruby Social Club Firenze. http://firenze.ruby-it.org
+
+* Japanese Input using Google Suggest + Auto Complete Mode for Emacs  :input:
+:PROPERTIES:
+:DATE:     2012-04-28T17:01:16+00:00
+:DURATION: 0:33
+:VIMEO_URL: https://vimeo.com/41203773
+:SPEAKERS: youpy
+:END:
+  https://gist.github.com/2426196
 
 * Emacs Rocks! Episode 10: Jumping around
 :PROPERTIES:
@@ -49547,6 +51810,17 @@ Using restclient within emacs...
 
   Follow me on twitter: @emacsrocks
 
+* Talks[2]: Brian Fox - GNU Software & Entrepreneurship   :community:
+:PROPERTIES:
+:DATE:     2012-03-16T20:45:50+00:00
+:DURATION: 1:28:41
+:VIMEO_URL: https://vimeo.com/38660245
+:SPEAKERS: Array of Talks
+:END:
+  How can releasing free software and making money go hand in hand? Brian Fox will discuss the advantages and disadvantages of leveraging free software using his extensive experience in the free software movement and the start-up world.
+
+  Brian has over 30 years of technology and business experience. In 2004, Brian founded The Okori Group, a consulting firm specializing in helping companies go from product concept to product realization. Prior to the Okori Group, Brian co-founded and led the technology team in a number of successful startup companies, In his career as a consultant he has completed a variety of high profile projects, including the world's first Internet banking system for Wells Fargo in 1995. In 1985 Fox was the first employee of the Free Software Foundation (Project GNU) where he worked with Richard Stallman. During his tenure at the FSF, Fox authored the BASH shell, widely used in all modern version of *NIX, GNU Makeinfo, GNU Info, GNU Finger, and the readline and history libraries, as well as contributing significantly to GDB and Emacs.
+
 * Emacs Rocks! Episode 09: expand-region
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=_RvHz3vJ3kA&list=PLVfFIUHWy-aNaF08m34sO81dsVr4L7uI-&index=16&pp=iAQB
@@ -49557,6 +51831,70 @@ Using restclient within emacs...
   http://emacsrocks.com - Rocking emacs tricks and tips screencast.
 
   Follow me on twitter: @emacsrocks
+
+* Anything-rake.el   :anything:coding:
+:PROPERTIES:
+:DATE:     2011-12-26T14:50:36+00:00
+:DURATION: 0:45
+:VIMEO_URL: https://vimeo.com/34218683
+:SPEAKERS: jpablobr
+:END:
+  Emacs Anything Rake
+  Quick listing and execution of rake tasks in #emacs.
+
+  Source code:
+  https://github.com/jpablobr/anything-rake
+
+* Emacs git-show
+:PROPERTIES:
+:DATE:     2011-12-19T19:35:49+00:00
+:DURATION: 1:14
+:VIMEO_URL: https://vimeo.com/33925715
+:SPEAKERS: jpablobr
+:END:
+  git-show(1) + Emacs
+
+  FAST and descriptive file search throughout your git(1) repo's history.
+
+  This mode exists to allow Emacs execute git-show(1) processes dumping the results into a buffer attempting to use its same mode. For example; if it's a shell script, it will open the new buffer using sh-mode.
+
+  Source code:
+  https://github.com/jpablobr/git-show
+* EMACS: универсальный комбайн
+:PROPERTIES:
+:DATE:     2011-12-11T13:12:31+00:00
+:DURATION: 8:47
+:VIMEO_URL: https://vimeo.com/33480611
+:SPEAKERS: Vasil Remeniuk
+:END:
+  Выступление Алекса Отта (@alexott) на 7-ой встрече scala.by
+
+* VimGolf in Emacs 023: Before there was Farmville…
+:PROPERTIES:
+:DATE:     2011-12-06T03:53:41+00:00
+:DURATION: 13:54
+:VIMEO_URL: https://vimeo.com/33199507
+:SPEAKERS: Tim Visher
+:END:
+  http://blog.twonegatives.com
+
+* Roman Numerals Kata   :coding:
+:PROPERTIES:
+:DATE:     2011-11-29T16:14:25+00:00
+:DURATION: 25:16
+:VIMEO_URL: https://vimeo.com/32852871
+:SPEAKERS: Pedro Fraca
+:END:
+  This classic kata in emacs using python
+
+* hahhah.el
+:PROPERTIES:
+:DATE:     2011-11-24T17:14:04+00:00
+:DURATION: 0:33
+:VIMEO_URL: https://vimeo.com/32634229
+:SPEAKERS: Peccu
+:END:
+  hahhah mode-line for emacs
 
 * Emacs Rocks! Episode 08: mark-multiple
 :PROPERTIES:
@@ -49569,6 +51907,24 @@ Using restclient within emacs...
 
   Follow me on twitter: @emacsrocks
 
+* VimGolf in Emacs 022: Assignment Allignment
+:PROPERTIES:
+:DATE:     2011-11-21T13:41:38+00:00
+:DURATION: 2:45
+:VIMEO_URL: https://vimeo.com/32446843
+:SPEAKERS: Tim Visher
+:END:
+  http://blog.twonegatives.com
+
+* VimGolf in Emacs 021: Promote that perl 'one-liner'…
+:PROPERTIES:
+:DATE:     2011-11-21T13:21:56+00:00
+:DURATION: 4:55
+:VIMEO_URL: https://vimeo.com/32445984
+:SPEAKERS: Tim Visher
+:END:
+  http://blog.twonegatives.com/post/13113293948/vimgolf021
+
 * Emacs Rocks! Episode 07: Mind. Exploded.
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=NXTf8_Arl1w&list=PLVfFIUHWy-aNaF08m34sO81dsVr4L7uI-&index=2&pp=iAQB
@@ -49579,6 +51935,24 @@ Using restclient within emacs...
   http://emacsrocks.com - Rocking emacs tricks and tips screencast.
 
   Follow me on twitter: @emacsrocks
+
+* VimGolf in Emacs 020: Overall Vimgolf Rank
+:PROPERTIES:
+:DATE:     2011-11-04T21:01:38+00:00
+:DURATION: 7:39
+:VIMEO_URL: https://vimeo.com/31623637
+:SPEAKERS: Tim Visher
+:END:
+  http://blog.twonegatives.com
+
+* VimGolf in Emacs 019: Rotating Philosophers Problem
+:PROPERTIES:
+:DATE:     2011-11-04T20:59:36+00:00
+:DURATION: 11:50
+:VIMEO_URL: https://vimeo.com/31623538
+:SPEAKERS: Tim Visher
+:END:
+  http://blog.twonegatives.com
 
 * Emacs Rocks! Episode 06: Yeah! Snippets!
 :PROPERTIES:
@@ -49624,6 +51998,24 @@ Using restclient within emacs...
 
   Follow me on twitter: @emacsrocks
 
+* VimGolf in Emacs 018 - categorize the shopping list
+:PROPERTIES:
+:DATE:     2011-10-21T22:27:36+00:00
+:DURATION: 13:11
+:VIMEO_URL: https://vimeo.com/30930290
+:SPEAKERS: Tim Visher
+:END:
+  http://blog.twonegatives.com/post/12161238736/vimgolf018
+
+* VimGolf in Emacs 017 - HTML to HAML
+:PROPERTIES:
+:DATE:     2011-10-21T21:40:02+00:00
+:DURATION: 7:19
+:VIMEO_URL: https://vimeo.com/30928555
+:SPEAKERS: Tim Visher
+:END:
+  http://blog.twonegatives.com/post/11863962543/vimgolf017
+
 * Emacs Rocks! Episode 02: A vimgolf eagle
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=dE2haYu0co8&list=PLVfFIUHWy-aNaF08m34sO81dsVr4L7uI-&index=7&pp=iAQB
@@ -49646,6 +52038,426 @@ Using restclient within emacs...
 
   Follow me on twitter: @emacsrocks
 
+* VimGolf in Emacs 016: expand a list comprehension (python)
+:PROPERTIES:
+:DATE:     2011-10-06T20:05:00+00:00
+:DURATION: 7:42
+:VIMEO_URL: https://vimeo.com/30153839
+:SPEAKERS: Tim Visher
+:END:
+  http://blog.twonegatives.com/post/11570469956/vimgolf016
+
+* VimGolf in Emacs 015: imports alignment (python)
+:PROPERTIES:
+:DATE:     2011-10-06T19:58:55+00:00
+:DURATION: 4:04
+:VIMEO_URL: https://vimeo.com/30153536
+:SPEAKERS: Tim Visher
+:END:
+  http://blog.twonegatives.com/post/11272798244/vimgolf015
+
+* VimGolf in Emacs 014: Remove Duplicate Items
+:PROPERTIES:
+:DATE:     2011-10-03T11:28:23+00:00
+:DURATION: 9:10
+:VIMEO_URL: https://vimeo.com/29952789
+:SPEAKERS: Tim Visher
+:END:
+  http://blog.twonegatives.com/post/10979752535/vimgolf014
+
+* VimGolf in Emacs 013: CSS to SASS
+:PROPERTIES:
+:DATE:     2011-09-26T12:01:14+00:00
+:DURATION: 12:53
+:VIMEO_URL: https://vimeo.com/29601412
+:SPEAKERS: Tim Visher
+:END:
+  http://blog.twonegatives.com/post/10686623575/vimgolf013
+
+* VimGolf in Emacs 012: Java Array2List
+:PROPERTIES:
+:DATE:     2011-09-19T12:51:10+00:00
+:DURATION: 12:12
+:VIMEO_URL: https://vimeo.com/29259191
+:SPEAKERS: Tim Visher
+:END:
+  http://blog.twonegatives.com/post/10402506364/vimgolf012
+
+* VimGolf in Emacs 011: Numbering a List
+:PROPERTIES:
+:DATE:     2011-09-05T20:54:27+00:00
+:DURATION: 2:25
+:VIMEO_URL: https://vimeo.com/28633026
+:SPEAKERS: Tim Visher
+:END:
+  http://blog.twonegatives.com/post/10125236038/vimgolf011
+
+* VimGolf in Emacs 010: Make a PHP Template from a static HTML file
+:PROPERTIES:
+:DATE:     2011-09-05T20:46:03+00:00
+:DURATION: 21:01
+:VIMEO_URL: https://vimeo.com/28632656
+:SPEAKERS: Tim Visher
+:END:
+  http://blog.twonegatives.com/post/9876965272/vimgolf010
+
+* Learn You A Keyboard Macros For Great Good: A VimGolf in Emacs Supplemental
+:PROPERTIES:
+:DATE:     2011-08-23T02:09:35+00:00
+:DURATION: 10:06
+:VIMEO_URL: https://vimeo.com/28038874
+:SPEAKERS: Tim Visher
+:END:
+  http://blog.twonegatives.com/post/9545166283/learnyouakbmacros
+
+* VimGolf in Emacs 009: Sort the Cardinal Numbers
+:PROPERTIES:
+:DATE:     2011-08-22T02:22:44+00:00
+:DURATION: 5:17
+:VIMEO_URL: https://vimeo.com/27991934
+:SPEAKERS: Tim Visher
+:END:
+  ## Features Shown
+
+  1. [reverse-region](http://www.opensource.apple.com/source/emacs/emacs-39/emacs/lisp/sort.el)
+
+* A short intro to Emacs+ESS  :ess:
+:PROPERTIES:
+:DATE:     2011-08-02T14:03:45+00:00
+:DURATION: 19:29
+:VIMEO_URL: https://vimeo.com/27197852
+:SPEAKERS: Christophe Lalanne
+:END:
+  This is a companion tutorial to a blog post about R, Emacs and ESS currently hosted on CrossValidated.com blog.
+
+* VimGolf in Emacs e008: Case preserving word replacement
+:PROPERTIES:
+:DATE:     2011-07-26T22:08:20+00:00
+:DURATION: 6:13
+:VIMEO_URL: https://vimeo.com/26936814
+:SPEAKERS: Tim Visher
+:END:
+  I do the VimGolf Case preserving word replacement challenge in Emacs!
+
+  Features Shown:
+
+  1: query-replace
+
+* VimGolf in Emacs e006: Interweave two blocks of text
+:PROPERTIES:
+:DATE:     2011-07-26T20:29:50+00:00
+:DURATION: 18:11
+:VIMEO_URL: https://vimeo.com/26932576
+:SPEAKERS: Tim Visher
+:END:
+  I do the VimGolf Interweave two blocks of text challenge in Emacs.
+
+  Features shown:
+
+  1. Rectangle editing
+  2. delete-blank-lines
+  3. whitespace-cleanup
+  4. browse-url
+  5. isearch movement
+  6. command abbreviation
+
+* VimGolf in Emacs e005: complete the hex data array part ii
+:PROPERTIES:
+:DATE:     2011-07-25T18:43:30+00:00
+:DURATION: 19:05
+:VIMEO_URL: https://vimeo.com/26880425
+:SPEAKERS: Tim Visher
+:END:
+  I do the VimGolf Challenge complete the hex data array part ii in Emacs.
+
+  Features shown are:
+
+  1. bookmarks
+  2. The Keyboard Macro Counter
+  3. The format function
+  4. The eval-and-replace function
+  5. fill-column and fill-paragraph
+  6. narrowing
+
+* VimGolf in Emacs e004: Line Zipper
+:PROPERTIES:
+:DATE:     2011-07-13T19:23:33+00:00
+:DURATION: 11:08
+:VIMEO_URL: https://vimeo.com/26392132
+:SPEAKERS: Tim Visher
+:END:
+  I do the VimGolf Line Zipper challenge in Emacs in about 16 keystrokes. I cover isearch features, window configuration registers, and keyboard macros.
+
+  Enjoy!
+
+* VimGolf in Emacs e003: Multiplication Table
+:PROPERTIES:
+:DATE:     2011-07-11T13:32:18+00:00
+:DURATION: 7:04
+:VIMEO_URL: https://vimeo.com/26269615
+:SPEAKERS: Tim Visher
+:END:
+  I do the Multiplication Table VimGolf in Emacs.
+
+  j.mp/vimgolf003
+
+* elisp & query-replace-regexp   :editing:
+:PROPERTIES:
+:DATE:     2011-07-08T19:10:17+00:00
+:DURATION: 4:20
+:VIMEO_URL: https://vimeo.com/26173560
+:SPEAKERS: Tim Visher
+:END:
+  I'd demonstrate how to use elisp in a query-replace-regexp command to align a column of numbers based on the position of the '.'.
+
+* VimGolf in Emacs e002: formatted text to mardown
+:PROPERTIES:
+:DATE:     2011-07-08T18:13:00+00:00
+:DURATION: 11:23
+:VIMEO_URL: https://vimeo.com/26171237
+:SPEAKERS: Tim Visher
+:END:
+  I do VimGolf formatted text to markdown in Emacs and trip the life fantastic.
+
+  It's big! It's gold! It's fancy! I like it!
+
+  Fancy pants!
+
+* VimGolf in Emacs E001: Recursively Palindrome
+:PROPERTIES:
+:DATE:     2011-07-05T14:37:44+00:00
+:DURATION: 3:50
+:VIMEO_URL: https://vimeo.com/26011936
+:SPEAKERS: Tim Visher
+:END:
+  I do Recursively Palindrome in 26 keystrokes using keyboard macros and recursive editing.
+
+* How to Hack Overtone with Emacs
+:PROPERTIES:
+:DATE:     2011-06-16T15:03:10+00:00
+:DURATION: 22:01
+:VIMEO_URL: https://vimeo.com/25190186
+:SPEAKERS: Sam Aaron
+:END:
+  Please note - this process is now outdated. Read the Overtone wiki documentation for the latest install process: http://github.com/overtone/overtone/wiki/
+
+  This screencast will walk you through the process of installing all the various parts necessary to allow you to hack on Overtone from Emacs.
+
+  It covers the following topics:
+
+  * Installing Emacs
+  * Installing Slime
+  * Installing Cake
+  * Installing Swank Server
+  * Creating a new Overtone Project
+  * Hacking in Emacs
+
+  By the end of this screencast, you'll have your own Emacs-powered Overtone environment to play in.
+
+  For those interested, the initial slides were presented with Apple's Keynote, and the terminal interface was a combination of the excellent iTerm2 (http://www.iterm2) and dvtm (http://www.brain-dump.org/projects/dvtm/). The specific version of dvtm used in this screencast is available here: github.com/samaaron/dvtm
+
+* Live Coding Practice #4 - Monome Grumbles  :live:music:
+:PROPERTIES:
+:DATE:     2011-05-24T17:11:55+00:00
+:DURATION: 5:38
+:VIMEO_URL: https://vimeo.com/24178077
+:SPEAKERS: Sam Aaron
+:END:
+  A simple example of additive synthesis. The synth initially consists of 5 randomly panned sine waves each at multiples of 100 hz with a decaying volume which is randomly modulated.
+
+  This is controlled via a custom monome app which allows for the representation of the "speed" value within defined upper and lower bounds in addition to volume and a number of predefined pitches.
+
+  The top row of the monome is a binary representation of the seed value: 1 -> 256. This seed value is then mapped onto the range defined by the upper and lower bounds.
+
+  The 3rd row (again 1 -> 256) multipled by the 4th row which represents a power of 10: -3 -> 4 represents the upper bound. The 6th and 7th rows similarly define the lower bound.
+
+  The 2nd row defines a number of predefined pitch triggers, the 5th row updates the running synths with new speed values and the 8th row defines the volume of the next triggered synth.
+
+  This is an ongoing series of simple experiments using Overtone to produce sound and maybe one day music.
+
+  Overtone: http://github.com/overtone/overtone
+  Live Coding Emacs: http://github.com/overtone/live-coding-emacs
+
+* anything-rdefs demo    :navigation:completion:
+:PROPERTIES:
+:DATE:     2011-05-20T11:05:16+00:00
+:DURATION: 0:19
+:VIMEO_URL: https://vimeo.com/24003890
+:SPEAKERS: kmori
+:END:
+  demo
+
+* Live Coding Practice #3 - Discordant Bells   :music:
+:PROPERTIES:
+:DATE:     2011-05-18T21:44:27+00:00
+:DURATION: 5:17
+:VIMEO_URL: https://vimeo.com/23932967
+:SPEAKERS: Sam Aaron
+:END:
+  Another example adapted from chapter 1 of the new SuperCollider book using phase modulation - a sine wave modulating the phase of another sine wave.
+
+  This is an ongoing series of simple experiments using Overtone to produce sound and maybe one day music.
+
+  Overtone: http://github.com/overtone/overtone
+  Live Coding Emacs: http://github.com/overtone/live-coding-emacs
+
+* A Clojure debugger for SLIME!  :slime:clojure:swank:debugging:
+:PROPERTIES:
+:DATE:     2011-05-18T21:43:20+00:00
+:DURATION: 6:08
+:VIMEO_URL: https://vimeo.com/23932914
+:SPEAKERS: Hugo Duncan
+:END:
+  If you have ever used the SLIME debugger in CL or scheme, you know what you have been missing when developing in Clojure.
+
+  This video shows how to use swank-clj to get a similar experience when debugging clojure code.
+
+  It shows breakpoints, trapping of exceptions, the SLIME inspector and disassembly.
+
+  Try it out https://github.com/​hugoduncan/​swank-clj
+
+* Live Coding Practice #2 - Wobbles  :music:live:
+:PROPERTIES:
+:DATE:     2011-05-17T16:18:13+00:00
+:DURATION: 5:18
+:VIMEO_URL: https://vimeo.com/23865300
+:SPEAKERS: Sam Aaron
+:END:
+  A simple combination of linearly interpolated random noise modified by a simple saw wave passed through a comb filter. I'm still amazed that you can generate such a wide variety of sounds from such a simple combination of unit generators.
+
+  This is an ongoing series of simple experiments using Overtone to produce sound and maybe one day music.
+
+  Overtone: http://github.com/overtone/overtone
+  Live Coding Emacs: http://github.com/overtone/live-coding-emacs
+
+* Live Coding Practice #1 - Grumbles   :music:live:
+:PROPERTIES:
+:DATE:     2011-05-16T16:04:59+00:00
+:DURATION: 5:50
+:VIMEO_URL: https://vimeo.com/23804756
+:SPEAKERS: Sam Aaron
+:END:
+  A simple example of additive synthesis. The synth initially consists of 5 randomly panned sine waves each at multiples of 100 hz with a decaying volume which is randomly modulated.
+
+  This is an ongoing series of simple experiments using Overtone to produce sound and maybe one day music.
+
+  Overtone: http://github.com/overtone/overtone
+  Live Coding Emacs: http://github.com/overtone/live-coding-emacs
+
+* Quick Intro to Live Programming with Overtone  :overtone:music:
+:PROPERTIES:
+:DATE:     2011-04-24T11:13:42+00:00
+:DURATION: 4:04
+:VIMEO_URL: https://vimeo.com/22798433
+:SPEAKERS: Sam Aaron
+:END:
+  In this video Sam Aaron gives a fast-paced introduction to a number of key live programming techniques such as triggering instruments, scheduling future events and synth design. Finally, the viewer is shown how a simple musical sequence may be composed and then converted into an intricate Reich phase. The main body of the video was recorded in one take and features an Emacs buffer (using Emacs Live http://overtone.github.io/emacs-live/) for editing text and communicating with Overtone (http://overtone.github.io/), an expressive Clojure front-end to SuperCollider. Clojure is a state-of-the-art functional lisp emphasising immutability and concurrency (http://clojure.org).
+
+  Check out Meta-eX the Overtone-powered live coding band: http://meta-ex.com
+  For the easiest way to get started live coding check out Sonic Pi: http://sonic-pi.net
+
+* Charla Richard Stallman en Walqa (Huesca)
+:PROPERTIES:
+:DATE:     2011-03-17T19:48:15+00:00
+:DURATION: 2:01:57
+:VIMEO_URL: https://vimeo.com/21169137
+:SPEAKERS: julio
+:END:
+  Charla Richard Stallman en Walqa (Huesca)
+
+  Frogtek invito a Richard Stallman al parque tecnológico de Walqa en Huesca, para dar una charla sobre Software libre y el sistema operativo GNU/Linux.
+
+* An Extempore Technical Introduction   :music:
+:PROPERTIES:
+:DATE:     2011-03-01T05:30:23+00:00
+:DURATION: 34:57
+:VIMEO_URL: https://vimeo.com/20502359
+:SPEAKERS: Andrew Sorensen
+:END:
+  This is not a "performance" or a general introduction.  Instead it is a somewhat congested, and probably confusing, introduction to some of the more technical aspects of Extempore.  In particular concurrency, the compiler, audio signal processing, and runtime binding to dynamic libraries.
+
+  It's almost certainly premature to be making screencasts with Extempore, however, I've thrown this together because, as they say, a screencast is worth a thousand words.
+
+  The audio is slightly out of sink but this shouldn't cause to much trouble for this introductory video.
+
+  In this screencast Extempore is running in Emacs under Ubuntu Linux.
+
+  Extempore:
+  https://github.com/digego/extempore
+  http://groups.google.com/group/extemporelang
+
+* Untitled (sclang)                                                  :sclang:
+:PROPERTIES:
+:DATE:     2011-02-24T16:55:02+00:00
+:DURATION: 1:41
+:VIMEO_URL: https://vimeo.com/20334992
+:SPEAKERS: feadi
+:END:
+* sclang snippets  :yasnippet:sclang:
+:PROPERTIES:
+:DATE:     2010-12-16T18:10:12+00:00
+:DURATION: 0:20
+:VIMEO_URL: https://vimeo.com/17891151
+:SPEAKERS: {yv}
+:END:
+  using yasnippets with sclang
+
+  the snippets I use can be found here:
+  https://github.com/gusano/sclang-mode
+
+* Using Org-Mode Capture with a Hot Key  :org:
+:PROPERTIES:
+:DATE:     2010-12-13T18:25:09+00:00
+:DURATION: 0:52
+:VIMEO_URL: https://vimeo.com/17772120
+:SPEAKERS: Phil Windley
+:END:
+  With a simple keypress I'm able to fire up an Emacs window in capture mode from whatever application I'm then using, make my notes, and save the results.  Uses Emacs, Org-mode, and Quicksilver.
+
+* Using Emacs + ESS to write Rd
+:PROPERTIES:
+:DATE:     2010-11-08T15:12:29+00:00
+:DURATION: 0:56
+:VIMEO_URL: https://vimeo.com/16619180
+:SPEAKERS: Yihui Xie
+:END:
+  Write your function; press C-c C-o to generate roxygen documentation; C-c C-e C-r to generate Rd. That's it!
+
+  If you add a new argument to your function, you can update the roxygen documentation in a second: C-c C-o again!
+
+* Setting up Emacs Org-mode for Windows
+:PROPERTIES:
+:DATE:     2010-11-05T13:35:22+00:00
+:DURATION: 31:20
+:VIMEO_URL: https://vimeo.com/16533939
+:SPEAKERS: Russell Adams
+:END:
+  An introductory tutorial to installing and configuring the freely available Org-mode package for Emacs within Windows.
+
+  This screencast covers downloading Emacs and Org-mode, customization, setting up the agenda with capture, popup reminders, and one touch timestamps.
+
+  Snippets in ML post at: http://article.gmane.org/gmane.emacs.orgmode/33234
+
+* unipoint-mode for Emacs
+:PROPERTIES:
+:DATE:     2010-11-03T11:46:51+00:00
+:DURATION: 2:32
+:VIMEO_URL: https://vimeo.com/16461894
+:SPEAKERS: Andrew Gwozdziewycz
+:END:
+  This is a simple unicode entry minor-mode for Emacs for entering common mathematical symbols. It's intended for use in programming, but it's not limited by any means to it.
+
+  http://github.com/apgwoz/unipoint
+
+* BMac's Emacs Screencast
+:PROPERTIES:
+:DATE:     2010-10-26T00:58:40+00:00
+:DURATION: 10:55
+:VIMEO_URL: https://vimeo.com/16192131
+:SPEAKERS: B Mac
+:END:
+  A screencast on the emacs text editor presented to the ACM at WPI
+
 * Land of Lisp- The Music Video!  :music:fun:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=HM1Zb3xmvMc&feature=youtu.be
@@ -49655,6 +52467,344 @@ Using restclient within emacs...
 :END:
   Land of Lisp...the music video!
   If you like this video, you'll love "Land of Lisp" the book: http://nostarch.com/lisp.htm
+
+* Using the Clojure Debugging Toolkit with Emacs
+:PROPERTIES:
+:DATE:     2010-10-01T17:07:44+00:00
+:DURATION: 10:59
+:VIMEO_URL: https://vimeo.com/15462015
+:SPEAKERS: george jahad
+:END:
+  Shows an old version of the emacs CDT front end which is now deprecated in favor of swank-cdt:  http://georgejahad.com/clojure/swank-cdt.html
+
+  I haven't yet produced a video of the new functionality but it looks similar to what is shown in this video, in that you can set breakpoints, catch exceptions, traverse the stack examining locals, eval arbitrary clojure forms in the lexical scope of a suspended, stack frame.
+
+* Org-mode Screencasts - Episode 1 - The Basics  :org:
+:PROPERTIES:
+:DATE:     2010-09-25T01:27:41+00:00
+:DURATION: 3:48
+:VIMEO_URL: https://vimeo.com/15269391
+:SPEAKERS: Richard Moreland
+:END:
+  In this episode, I describe the very basics of Emacs Org-mode, a powerful note-taking, todo-tracking and project management tool.
+
+* Emacs-Calc: The Poor Man's Mathematica  :calc:
+:PROPERTIES:
+:DATE:     2010-09-06T17:00:01+00:00
+:DURATION: 48:41
+:VIMEO_URL: https://vimeo.com/14742598
+:SPEAKERS: Karthik C
+:END:
+  Few people know and use the GNU Emacs-Calculator for beyond routine arithmetic. Calc is an extremely flexible and powerful mathematical tool, capable of everything from symbolic differentiation to matrix algebra to  modulo arithmetic.
+
+  This is a Screencast showing a tiny few of its advanced features that I've been using for a couple of years now. This also doubles as a gentle (but incomplete) introduction to Calc for Emacs users. (It goes a bit slow so you can follow along in Emacs.)
+
+* Sunday Coding  :live:coding:
+:PROPERTIES:
+:DATE:     2010-08-29T20:40:17+00:00
+:DURATION: 0:58
+:VIMEO_URL: https://vimeo.com/14528705
+:SPEAKERS: Rob Searles
+:END:
+  4 Hours of Sunday coding time-lapsed into 1 minute. Sorry for the bad quality video, this is my first upload. Coding in Emacs for LiveUnsigned.com.
+
+  Music is BY DJ Frank - more info here: http://www.jamendo.com/en/artist/Dj_Frank_(2)
+
+* RVM in Emacs
+:PROPERTIES:
+:DATE:     2010-08-01T12:35:24+00:00
+:DURATION: 0:48
+:VIMEO_URL: https://vimeo.com/13799494
+:SPEAKERS: Bryan Liles
+:END:
+  Quick demo of RVM integration in Emacs
+
+* Emacs - IDEverything
+:PROPERTIES:
+:DATE:     2010-07-07T18:48:29+00:00
+:DURATION: 16:34
+:VIMEO_URL: https://vimeo.com/13158054
+:SPEAKERS: Lau Jensen
+:END:
+  Please see: http://bestinclass.dk/index.clj/2010/07/trail-blazing-innovators.html
+
+  Screencast which demonstrates several useful aspects of Emacs for a typical developers workday/week.
+
+* code rocks  :music:
+:PROPERTIES:
+:DATE:     2010-06-21T16:00:35+00:00
+:DURATION: 19:27
+:VIMEO_URL: https://vimeo.com/12739443
+:SPEAKERS: {yv}
+:END:
+  SuperCollider livecoding performance @ 'Code Rocks' event, Berlin NK - 20100618
+
+* Introduction to Test-Driven Development in C++ using Boost Test Library   :boost:cpp:dev:coding:
+:PROPERTIES:
+:DATE:     2010-05-01T02:01:44+00:00
+:DURATION: 20:05
+:VIMEO_URL: https://vimeo.com/11370903
+:SPEAKERS: Praveen Kumar
+:END:
+  I have put down this screencast to demonstrate the use of Boost Test Library to develop C++ software. This was created using Emacs 23.1.1, gcc 4.4.3 and Boost 1.40 and ffmpeg 0.5.1.
+
+* Atajos de Emacs en Cocoa
+:PROPERTIES:
+:DATE:     2010-03-15T04:07:58+00:00
+:DURATION: 0:41
+:VIMEO_URL: https://vimeo.com/10168815
+:SPEAKERS: varodonaire
+:END:
+* GuateOnRails - Charla Pablo Castellanos Emacs
+:PROPERTIES:
+:DATE:     2010-02-15T16:42:21+00:00
+:DURATION: 1:15:55
+:VIMEO_URL: https://vimeo.com/9469246
+:SPEAKERS: Javier Alvarez
+:END:
+  Mi historia de Amor con Emacs.
+  http://guateonrails.com
+
+* String Calculator Kata   :clojure:slime:
+:PROPERTIES:
+:DATE:     2010-02-10T15:24:28+00:00
+:DURATION: 9:31
+:VIMEO_URL: https://vimeo.com/9350864
+:SPEAKERS: Tom Crayford
+:END:
+  This is the string calculator kata in Clojure using Emacs with slime and clojure-test-mode. The refactoring tool (which is very alpha) can be found at github here: http://github.com/tcrayford/clojure-refactoring
+
+  Please download the video, the resolution on vimeo is terrible for some reason.
+
+* Wisp Point-free Programming  :wisp:
+:PROPERTIES:
+:DATE:     2010-02-05T05:45:41+00:00
+:DURATION: 2:42
+:VIMEO_URL: https://vimeo.com/9223542
+:SPEAKERS: skeeto
+:END:
+  Wisp is a lisp dialect: http://wisp.nullprogram.com
+
+* Wisp Memoization   :wisp:
+:PROPERTIES:
+:DATE:     2010-02-05T05:45:02+00:00
+:DURATION: 1:32
+:VIMEO_URL: https://vimeo.com/9223529
+:SPEAKERS: skeeto
+:END:
+  Wisp is a lisp dialect: http://wisp.nullprogram.com
+
+* Wisp Detachments    :wisp:
+:PROPERTIES:
+:DATE:     2010-02-05T05:44:32+00:00
+:DURATION: 2:03
+:VIMEO_URL: https://vimeo.com/9223524
+:SPEAKERS: skeeto
+:END:
+  Wisp is a lisp dialect: http://wisp.nullprogram.com
+
+* Emacs and Enlive enhance Clojure-mode
+:PROPERTIES:
+:DATE:     2009-12-29T18:36:35+00:00
+:DURATION: 4:54
+:VIMEO_URL: https://vimeo.com/8441635
+:SPEAKERS: Lau Jensen
+:END:
+  Quick screencast showing how to add more functions to Clojure-modes source highlighting
+
+* Clojure 101 - Slime installation   :slime:
+:PROPERTIES:
+:DATE:     2009-12-26T20:27:12+00:00
+:DURATION: 11:51
+:VIMEO_URL: https://vimeo.com/8398020
+:SPEAKERS: Lau Jensen
+:END:
+  Small video tutorial showing how to get started with Emacs/SLIME for some fast paced Clojure development.
+
+* Compojure/Emacs Intro
+:PROPERTIES:
+:DATE:     2009-12-23T20:12:38+00:00
+:DURATION: 12:27
+:VIMEO_URL: https://vimeo.com/8356990
+:SPEAKERS: Lau Jensen
+:END:
+  Small tutorial-like video which shows off the Emacs IDEverything, which I use for dynamic webdevelopment.
+
+* Fortran Debugging with GDB in Emacs  :debugging:gdb:fortran:
+:PROPERTIES:
+:DATE:     2009-12-11T00:25:29+00:00
+:DURATION: 1:56
+:VIMEO_URL: https://vimeo.com/8109291
+:SPEAKERS: Jason Marcell
+:END:
+* smartchr.el
+:PROPERTIES:
+:DATE:     2009-11-26T08:23:08+00:00
+:DURATION: 1:30
+:VIMEO_URL: https://vimeo.com/7832017
+:SPEAKERS: imakado
+:END:
+  smartchr.el DEMO.
+
+* sclang on emacs (osx)
+:PROPERTIES:
+:DATE:     2009-10-19T13:22:28+00:00
+:DURATION: 3:20
+:VIMEO_URL: https://vimeo.com/7143138
+:SPEAKERS: {yv}
+:END:
+  wooooo !
+  I finally managed to get sclang running from emacs on osx =)
+
+  I prefer to run emacs from terminal but I still have some graphic glitches (text is sometimes being messed up).
+
+  Now I have the same SuperCollider setup on both my osx and debian machines =)))
+
+* How fast is an Intel SSD? This fast!
+:PROPERTIES:
+:DATE:     2009-10-14T04:21:51+00:00
+:DURATION: 0:26
+:VIMEO_URL: https://vimeo.com/7057850
+:SPEAKERS: Dave Fayram
+:END:
+  I recently got an Intel X25-M SSD, and I was shocked to learn exactly how fast it was. I had heard "Apps launch fast" but I hadn't really understood *how* fast.
+
+  Ironically, emacs still takes 3 bounces to launch :D.
+
+* Emacs-like yanking in IntelliJ IDEA implemented with ABCL
+:PROPERTIES:
+:DATE:     2009-08-22T12:50:56+00:00
+:DURATION: 0:45
+:VIMEO_URL: https://vimeo.com/6220976
+:SPEAKERS: Anton Vodonosov
+:END:
+* poj-mode.el demo
+:PROPERTIES:
+:DATE:     2009-07-19T18:48:40+00:00
+:DURATION: 0:37
+:VIMEO_URL: https://vimeo.com/5667184
+:SPEAKERS: smly
+:END:
+  poj-mode.el demo
+
+* poj-mode.el demonstration
+:PROPERTIES:
+:DATE:     2009-07-19T02:19:48+00:00
+:DURATION: 0:31
+:VIMEO_URL: https://vimeo.com/5659556
+:SPEAKERS: smly
+:END:
+* perl-completion.el  :perl:
+:PROPERTIES:
+:DATE:     2009-05-20T02:49:26+00:00
+:DURATION: 6:24
+:VIMEO_URL: https://vimeo.com/4739908
+:SPEAKERS: imakado
+:END:
+  minor mode provides useful features for editing perl codes
+
+  EmacsWiki:
+  http://www.emacswiki.org/emacs/PerlCompletion
+
+* Slub@Slade Livecoding
+:PROPERTIES:
+:DATE:     2009-05-08T09:36:29+00:00
+:DURATION: 1:19
+:VIMEO_URL: https://vimeo.com/4543289
+:SPEAKERS: Tim Cowlishaw
+:END:
+  Slub (Alex McLean, Dave Griffiths and Adrian Ward) make music by programming (in Perl, what looks like some sort of GUI environment made with LISP, and something else that I can't make out, but it's being edited in emacs) live. Here's a short clip of their performance at the Slade Technology Fayre in May 2009.
+
+  http://slub.org/
+  http://www.ucl.ac.uk/slade/scemfa/slade-technology-fayre
+
+* CakePHP Minor Mode Screencast (CakePHP on Emacs)
+:PROPERTIES:
+:DATE:     2009-04-23T11:39:19+00:00
+:DURATION: 10:07
+:VIMEO_URL: https://vimeo.com/4292642
+:SPEAKERS: k1LoW
+:END:
+  This package is minor-mode for editing CakePHP code in Emacs.
+
+  http://trac.codecheck.in/share/wiki/CakeOnEmacs
+
+* php-completion.el DEMO  :php:coding:completion:
+:PROPERTIES:
+:DATE:     2009-03-12T07:24:32+00:00
+:DURATION: 4:38
+:VIMEO_URL: https://vimeo.com/3592717
+:SPEAKERS: imakado
+:END:
+  php-completion.el -- complete everything PHP with Anything.el
+
+* Meet Magit  :magit:
+:PROPERTIES:
+:DATE:     2009-01-18T17:34:33+00:00
+:DURATION: 20:48
+:VIMEO_URL: https://vimeo.com/2871241
+:SPEAKERS: Alex Vollmer
+:END:
+  This screencast highlights some of the features of magit, a git mode for Emacs.
+
+* Rinari Screencast (Ruby on Rails development with Emacs)  :dev:rinari:ruby:rails:coding:
+:PROPERTIES:
+:DATE:     2009-01-16T23:17:54+00:00
+:DURATION: 7:55
+:VIMEO_URL: https://vimeo.com/2854412
+:SPEAKERS: Eric Schulte
+:END:
+  A short screencast demonstrating the use of Rinari (an Emacs minor-mode for rails development).  This video was produced using the emacs-starter-kit available at
+
+  http://github.com/technomancy/emacs-starter-kit/tree/master
+
+  and rinari available at
+
+  http://rinari.rubyforge.org/
+
+  (sorry there is no soundtrack)
+  (this entire video is produced using open-source and free [as in speech] software)
+
+* Design Timelapse
+:PROPERTIES:
+:DATE:     2009-01-10T00:41:44+00:00
+:DURATION: 2:52
+:VIMEO_URL: https://vimeo.com/2776578
+:SPEAKERS: Hans Engel
+:END:
+  This is a time lapse of me designing my new website at http://engel.uk.to.
+
+  Tools used (in video, not post):
+    Firefox / Firebug: browsing / debugging
+    Carbon Emacs: text editing
+    Terminal: uploading to server
+
+  Stages of creation:
+    0:06 - Design
+    1:40 - Conversion to WordPress theme
+    2:38 - Installation
+
+  Actual time spent: 1 hour and 45 minutes
+
+* Emacs Capture for GTD
+:PROPERTIES:
+:DATE:     2008-12-30T19:51:02+00:00
+:DURATION: 0:39
+:VIMEO_URL: https://vimeo.com/2672740
+:SPEAKERS: Jack
+:END:
+  Demoing my Emacs capture hacks.
+
+* Emacs Wonder: Text Transformation Control Sequences.
+:PROPERTIES:
+:DATE:     2008-11-25T02:36:26+00:00
+:DURATION: 1:13
+:VIMEO_URL: https://vimeo.com/2338685
+:SPEAKERS: Tim Visher
+:END:
+  Hurray for the wonder that is Emacs.  This video is nothing more than a demonstration of a little tip I put together for BurningOnes about Emacs's text transformation control sequences M-u, M-l, and M-c.
+
+  Awesome.
 
 * Emacs Power: Can your editor do THIS!  :org:
 :PROPERTIES:
@@ -49674,6 +52824,15 @@ Using restclient within emacs...
   What makes org (and orgtbl) mode even more powerful is the spreadsheet capabilities.  You can define formula which will be used to calculate values of given cell or a group of cells (ie. a column).  And because the underlying evaluation mechanism is Emacs' calc mode you can calculate almost anything! That includes integrals, differentials and Taylor's functions!
 
   What else has been shown on the video is the spell checker and auto completion.
+
+* Erlang/OTP gen_server demo
+:PROPERTIES:
+:DATE:     2008-08-10T21:49:01+00:00
+:DURATION: 3:11
+:VIMEO_URL: https://vimeo.com/1504988
+:SPEAKERS: Matt Williamson (daws)
+:END:
+  This is a quick demo of how to create a generic server in Erlang, using emacs.
 
 * Emacs Org-mode - a system for note-taking and project planning  :org:
 :PROPERTIES:
@@ -49703,6 +52862,28 @@ Using restclient within emacs...
 
 
   Speaker: Carsten Dominik
+* Emacs Column Editing
+:PROPERTIES:
+:DATE:     2008-06-14T01:20:52+00:00
+:DURATION: 3:17
+:VIMEO_URL: https://vimeo.com/1168225
+:SPEAKERS: Mark Mansour
+:END:
+  How to edit column in Emacs
+
+* How to make a 3D button
+:PROPERTIES:
+:DATE:     2008-05-27T05:19:38+00:00
+:DURATION: 3:11
+:VIMEO_URL: https://vimeo.com/1072303
+:SPEAKERS: Reed Law
+:END:
+  Tools used:
+  Ubuntu
+  Xara Xtreme
+  The GIMP
+  Emacs
+
 * Emacs artist-mode  :fun:artist:drawing:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=LDbi56U5qRw&feature=youtu.be
@@ -49711,3 +52892,33 @@ Using restclient within emacs...
 :DURATION: 00:26
 :END:
   Emacs for Artists
+* What You Can Learn From ido.el  :completion:
+:PROPERTIES:
+:DATE:     2008-05-14T05:05:39+00:00
+:DURATION: 24:42
+:VIMEO_URL: https://vimeo.com/1013263
+:SPEAKERS: Stuart Halloway
+:END:
+  Rich, composable systems are the way to go--in programming languages, libraries, and interface metaphors. This short screencast looks at the latter, comparing TextMate and Emacs.
+
+* using a shell and emacs with wep2py
+:PROPERTIES:
+:DATE:     2008-04-09T18:21:14+00:00
+:DURATION: 3:19
+:VIMEO_URL: https://vimeo.com/879939
+:SPEAKERS: mdipierro
+:END:
+  This is a follow up to the "Shootout" tutorial that shows you how to use a shell and a commands line editor instead of the web based administrative interface. Works even if you run the binary distribution. -h for all command line options.
+
+* sketchbook.rb  :coding:ruby:dev:
+:PROPERTIES:
+:DATE:     2008-02-05T10:09:29+00:00
+:DURATION: 0:48
+:VIMEO_URL: https://vimeo.com/665846
+:SPEAKERS: koyachi
+:END:
+  jruby with processing demo.
+  sketchbook.rb observe your_sketch.rb to compile when file updates are detected.
+  in this demo foo.rb is edited in emacs(in coLinux) and run sketchbook.rb in windows command line.
+
+  http://d.hatena.ne.jp/koyachi/20080206/1202225831

@@ -34,22 +34,37 @@
 	 ((string-match "youtube.com/live/\\(.*?\\)\\(\\?.+\\|$\\)" url) (match-string 1 url))
 	 ((string-match "www.youtube.com/watch\\?\\(.*\\)" url)
 		(car (assoc-default "v" (url-parse-query-string (match-string 1 url)) #'string=)))
-	 (t (error "Unknown URL pattern %s" url))))
+	 (t nil)))
+
+(defun emacstv-vimeo-id (url)
+	"Return the video ID for URL."
+	(cond
+	 ((string-match "vimeo\\.com/\\([0-9]+\\)" url) (match-string 1 url))
+	 (t nil)))
+
+(defun emacstv-find-by-generic-url (field id-func url)
+	(when-let*
+			((id (funcall id-func url))
+			 (id-re (regexp-quote id))
+			 (pos
+				(catch 'found
+					(org-map-entries
+					 (lambda ()
+						 (when (string-match id-re (org-entry-get (point) field))
+							 (throw 'found (point))))
+					 (concat field "={.}"))
+					nil)))
+		(goto-char pos)))
 
 (defun emacstv-find-by-youtube-url (url)
 	"Move point to the entry for URL.
 Returns nil if not found."
-	(let* ((id-re (regexp-quote (emacstv-youtube-id url)))
-				 (pos
-					(catch 'found
-						(org-map-entries
-						 (lambda ()
-							 (when (string-match id-re (org-entry-get (point) "YOUTUBE_URL"))
-								 (throw 'found (point))))
-						 "YOUTUBE_URL={.}")
-						nil)))
-		(when pos
-			(goto-char pos))))
+	(emacstv-find-by-generic-url "YOUTUBE_URL" #'emacstv-youtube-id url))
+
+(defun emacstv-find-by-vimeo-url (url)
+	"Move point to the entry for URL.
+Returns nil if not found."
+	(emacstv-find-by-generic-url "VIMEO_URL" #'emacstv-vimeo-id url))
 
 (defun emacstv-export-json ()
 	(interactive)
@@ -136,6 +151,37 @@ Returns nil if not found."
 	(emacstv-export-json)
 	(emacstv-count-entries))
 
+(defun emacstv-find-by-url (url)
+	(or (emacstv-find-by-youtube-url url)
+			(emacstv-find-by-vimeo-url url)))
+
+(defun emacstv-add-video-object (video)
+	"VIDEO should be an alist."
+	(with-current-buffer (find-file-noselect emacstv-index-org)
+		(unless (emacstv-find-by-url (emacstv-video-url video))
+			(unless (or (assoc-default "ITEM" video #'string=)
+									(assoc-default 'ITEM video))
+				(error "Could not get video details for %s" video))
+			(goto-char (point-max))
+			(unless (bolp) (insert "\n"))
+			(insert "* " (or (assoc-default "ITEM" video #'string=)
+											 (assoc-default 'ITEM video)) "\n")
+			(when (or (assoc-default "DESCRIPTION" video #'string=)
+								(assoc-default 'DESCRIPTION video))
+				(insert (org-ascii--indent-string
+								 (or (assoc-default "DESCRIPTION" video #'string=)
+										 (assoc-default 'DESCRIPTION video)) 2)
+								"\n\n")))
+			;; set the properties if specified
+			(dolist (prop '("DATE" "DURATION" "YOUTUBE_URL" "TOOBNIX_URL" "VIMEO_URL" "SPEAKERS" "URL"))
+				(when (and (or (assoc-default prop video #'string=)
+											 (assoc-default (intern prop) video))
+									 (not (org-entry-get (point) prop)))
+					(org-entry-put
+					 (point) prop
+					 (or (assoc-default prop video #'string=)
+							 (assoc-default (intern prop) video)))))))
+
 (defun emacstv-add-from-youtube (url)
 	"Add an entry for URL."
 	(interactive (list (read-string "YouTube URL: "
@@ -161,7 +207,7 @@ Returns nil if not found."
 				(insert (org-ascii--indent-string .shortDescription 2) "\n\n"))
 			(org-entry-put (point) "DATE" (let-alist data .microformat.playerMicroformatRenderer.publishDate))
 			(org-entry-put (point) "SPEAKERS" .author)
-			(org-entry-put (point) "DURATION" (format-seconds "%02h:%z%02m:%02s" (string-to-number .lengthSeconds))))))
+			(org-entry-put (point) "DURATION" (emacstv-format-seconds (string-to-number .lengthSeconds))))))
 
 ;; useful for extracting from YouTube:
 ;; from channel page:
@@ -200,6 +246,7 @@ If a region is active, add all the YouTube links in that region."
 (defun emacstv-insert-org-list-from-spookfox ()
 	(interactive)
 	(insert (spookfox-js-injection-eval-in-active-tab "[...document.querySelectorAll('a.ytd-playlist-video-renderer#video-title')].map((o) => `- [[${o.href}][${o.getAttribute('title')}]]\n`).join('') || [...document.querySelectorAll('#primary a.ytd-playlist-panel-video-renderer#wc-endpoint, #items a.ytd-playlist-panel-video-renderer#wc-endpoint')].map((o) => `- [[${o.href}][${o.querySelector('#video-title').getAttribute('title')}]]\n`).join('') || [...document.querySelectorAll('a.ytd-rich-grid-media#video-title-link')].map((o) => `- [[${o.href}][${o.getAttribute('title')}]]\n`).join('')" t)))
+
 
 (defun emacstv-sort-by-newest-first ()
 	(interactive)
@@ -308,11 +355,13 @@ If a region is active, add all the YouTube links in that region."
 
 (defun emacstv-video-url (video)
 	(or (assoc-default "MEDIA_URL" video #'string=)
-			(assoc-default "YOUTUBE_URL" video #'string=)
 			(assoc-default "TOOBNIX_URL" video #'string=)
+			(assoc-default "VIMEO_URL" video #'string=)
+			(assoc-default "YOUTUBE_URL" video #'string=)
 			(assoc-default 'MEDIA_URL video #'string=)
-			(assoc-default 'YOUTUBE_URL video #'string=)
-			(assoc-default 'TOOBNIX_URL video #'string=)))
+			(assoc-default 'TOOBNIX_URL video #'string=)
+			(assoc-default 'VIMEO_URL video #'string=)
+			(assoc-default 'YOUTUBE_URL video #'string=)))
 
 (defun emacstv-play (video)
 	(interactive (list (emacstv-complete-video)))
@@ -325,6 +374,11 @@ If a region is active, add all the YouTube links in that region."
 (defun emacstv-play-random ()
 	(interactive)
 	(mpv-play-url (emacstv-video-url (emacstv-random-video))))
+
+(defun emacstv-format-seconds (seconds)
+	(replace-regexp-in-string
+	 "^0" ""
+	 (concat (format-seconds "%.2h:%z%.2m:%.2s" (floor seconds)))))
 
 (define-minor-mode emacstv-background-mode
 	"Play random Emacs videos in the background."
