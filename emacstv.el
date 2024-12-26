@@ -326,5 +326,14 @@ If a region is active, add all the YouTube links in that region."
 	(interactive)
 	(mpv-play-url (emacstv-video-url (emacstv-random-video))))
 
+(define-minor-mode emacstv-background-mode
+	"Play random Emacs videos in the background."
+	:global t
+	(if emacstv-background-mode
+			(progn
+				(add-hook 'mpv-on-exit-hook #'emacstv-play-random)
+				(emacstv-play-random))
+		(remove-hook 'mpv-on-exit-hook #'emacstv-play-random)))
+
 (provide 'emacstv)
 ;;; emacstv.el ends here
