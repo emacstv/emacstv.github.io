@@ -21,6 +21,11 @@ Then use:
 - ~M-x emacstv-background-mode~: play one video after another until you disable it by calling ~M-x emacstv-background-mode~ again.
 - ~M-x emacstv-play~: select a video by typing in part of its title or speakers
 
+Toggle playing with ~M-x mpv-pause~.
+
+You can search for videos with ~M-x emacstv-agenda-search~. If you have [[https://github.com/alphapapa/org-ql][org-ql]], you can use ~M-x emacstv-org-ql-search~.
+You can play the video at the current line with ~M-x emacstv-play-at-point~.
+
 * Add videos
 
 Help keep =emacs.tv= fresh and interesting by submitting new videos.
@@ -51,3 +56,14 @@ For example:
 * Improve tags/metadata
 
 Many videos could really do with more tags and additional metadata. Please help us by submitting pull requests with metadata improvements.
+
+You can search for videos with ~M-x emacstv-agenda-search~.
+
+If you have [[https://github.com/alphapapa/org-ql][org-ql]], you can use ~M-x
+emacstv-org-ql-search~. For example, you can
+search for ~(and (heading "python") (not (tags
+"python")))~ to find videos that have "python" in
+the heading but not the tags.
+
+Mark items with ~m~, unmark them with ~u~, and add or remove tags from marked items with ~B +~ and ~B -~.
+You can play the video at the current line with ~M-x emacstv-play-at-point~.

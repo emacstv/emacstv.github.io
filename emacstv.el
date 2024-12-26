@@ -263,52 +263,32 @@ If a region is active, add all the YouTube links in that region."
 			 "LEVEL=1")
 			(message "%d videos" count))))
 
-(defun emacstv-agenda-search ()
-	(interactive)
-	(let ((org-agenda-files (list emacstv-index-org)))
-		(org-search-view)
-		(when (featurep 'hl-line)
-			(hl-line-mode 1))))
-
-;; ex. search: (and (heading "python") (not (tags "python")))
-(defun emacstv-org-ql-search (query)
-	(interactive (list (progn
-											 (read-string "Query: "
-																		(when (and (boundp 'org-ql-view-query) org-ql-view-query)
-																			(format "%S" org-ql-view-query))))))
-	(require 'org-ql)
-	(org-ql-search (list emacstv-index-org) query)
-	(when (featurep 'hl-line)
-		(hl-line-mode 1)))
-
-(defun emacstv-play-at-point ()
-	(interactive)
-	(when (derived-mode-p 'org-agenda-mode)
-		(org-agenda-switch-to))
-	(when (derived-mode-p 'org-mode)
-		(let ((url (or (org-entry-get (point) "MEDIA_URL")
-									 (org-entry-get (point) "TOOBNIX_URL")
-									 (org-entry-get (point) "YOUTUBE_URL"))))
-			(if url
-					(mpv-play-url url)
-				(error "Could not find URL for %s" (org-entry-get (point) "ITEM"))))))
+(defvar emacstv-load-videos-from 'org "org or json")
 
 (defun emacstv-videos ()
-	(let ((json-object-type 'alist)
-				(json-list-type 'list))
-		(json-read-file (concat (file-name-sans-extension emacstv-index-org) ".json")))
-	;; (with-current-buffer (find-file-noselect emacstv-index-org)
-	;; 	(org-map-entries
-	;; 	 (lambda ()
-	;; 		 (let* ((end (save-excursion (org-end-of-subtree)))
-	;; 						(beg (progn (org-end-of-meta-data t) (point)))
-	;; 						(desc (if (< beg end) (string-trim (buffer-substring beg end)) "")))
-	;; 			 (append (org-entry-properties)
-	;; 							 `(("DESCRIPTION" . ,desc)))))
-	;; 	 "LEVEL=1"))
-	)
+	"Return a list of videos."
+	;; Hmm... Parsing the JSON is probably faster,
+	;; but parsing the Org file gets more up-to-date
+	;; info in case things have been changed.
+	(pcase emacstv-load-videos-from
+		('org
+		 (with-current-buffer (find-file-noselect emacstv-index-org)
+			 (org-map-entries
+				(lambda ()
+					(let* ((end (save-excursion (org-end-of-subtree)))
+								 (beg (progn (org-end-of-meta-data t) (point)))
+								 (desc (if (< beg end) (string-trim (buffer-substring beg end)) "")))
+						(append (org-entry-properties)
+										`(("DESCRIPTION" . ,desc)))))
+				"LEVEL=1")))
+		('json
+		 (let ((json-object-type 'alist)
+					 (json-list-type 'list))
+			 (json-read-file (concat (file-name-sans-extension emacstv-index-org) ".json"))))
+		(_ (error "Set `emacstv-load-videos-from' to org or json"))))
 
 (defun emacstv-format-for-completion (o)
+	"Format O for completion."
 	(concat
 	 (or (assoc-default "ITEM" o 'string=)
 			 (assoc-default 'ITEM o))
@@ -334,6 +314,7 @@ If a region is active, add all the YouTube links in that region."
 
 (defun emacstv-video-completion-collection (string predicate action)
 	"Return a collection for completion."
+	;; TODO: There's probably a more efficient way to do this
 	(if (eq action 'metadata)
 			'(metadata
 				(cycle-sort-function . identity)
@@ -341,7 +322,7 @@ If a region is active, add all the YouTube links in that region."
 		(complete-with-action
 		 action
 		 (mapcar (lambda (o) (cons (emacstv-format-for-completion o) o))
-								 (emacstv-videos))
+						 (emacstv-videos))
 		 string predicate)))
 
 (defun emacstv-complete-video (&optional prompt)
@@ -354,6 +335,7 @@ If a region is active, add all the YouTube links in that region."
 		 collection #'string=)))
 
 (defun emacstv-video-url (video)
+	"Return the URL for playing VIDEO."
 	(or (assoc-default "MEDIA_URL" video #'string=)
 			(assoc-default "TOOBNIX_URL" video #'string=)
 			(assoc-default "VIMEO_URL" video #'string=)
@@ -363,11 +345,20 @@ If a region is active, add all the YouTube links in that region."
 			(assoc-default 'VIMEO_URL video #'string=)
 			(assoc-default 'YOUTUBE_URL video #'string=)))
 
+(defun emacstv-format-seconds (seconds)
+	"Format SECONDS as hh:mm:ss. Omit hh or mm if not needed."
+	(replace-regexp-in-string
+	 "^0" ""
+	 (concat (format-seconds "%.2h:%z%.2m:%.2s" (floor seconds)))))
+
+(defvar emacstv-current-url nil "Current video URL.")
+
 ;;;###autoload
 (defun emacstv-play (video)
 	(interactive (list (emacstv-complete-video)))
 	(require 'mpv)
-	(mpv-play-url (emacstv-video-url video)))
+	(setq emacstv-current-url (emacstv-video-url video))
+	(mpv-play-url emacstv-current-url))
 
 (defun emacstv-random-video ()
 	(let ((videos (emacstv-videos)))
@@ -375,14 +366,10 @@ If a region is active, add all the YouTube links in that region."
 
 ;;;###autoload
 (defun emacstv-play-random ()
+	"Play a random Emacs video."
 	(interactive)
 	(require 'mpv)
-	(mpv-play-url (emacstv-video-url (emacstv-random-video))))
-
-(defun emacstv-format-seconds (seconds)
-	(replace-regexp-in-string
-	 "^0" ""
-	 (concat (format-seconds "%.2h:%z%.2m:%.2s" (floor seconds)))))
+	(emacstv-play (emacstv-random-video)))
 
 ;;;###autoload
 (define-minor-mode emacstv-background-mode
@@ -392,7 +379,44 @@ If a region is active, add all the YouTube links in that region."
 			(progn
 				(add-hook 'mpv-on-exit-hook #'emacstv-play-random)
 				(emacstv-play-random))
-		(remove-hook 'mpv-on-exit-hook #'emacstv-play-random)))
+		(remove-hook 'mpv-on-exit-hook #'emacstv-play-random)
+		(mpv-quit)))
+
+;;;###autoload
+(defun emacstv-play-at-point ()
+	"Play a video from the agenda or org file."
+	(interactive)
+	(when (derived-mode-p 'org-agenda-mode)
+		(org-agenda-switch-to))
+	(when (derived-mode-p 'org-mode)
+		(let ((url (or (org-entry-get (point) "MEDIA_URL")
+									 (org-entry-get (point) "TOOBNIX_URL")
+									 (org-entry-get (point) "YOUTUBE_URL"))))
+			(if url
+					(mpv-play-url url)
+				(error "Could not find URL for %s" (org-entry-get (point) "ITEM"))))))
+
+;;;###autoload
+(defun emacstv-agenda-search ()
+	(interactive)
+	(require 'org-agenda)
+	(let ((org-agenda-files (list emacstv-index-org)))
+		(org-search-view)
+		(when (featurep 'hl-line)
+			(hl-line-mode 1))))
+
+;; ex. search: (and (heading "python") (not (tags "python")))
+;;;###autoload
+(defun emacstv-org-ql-search (query)
+	(interactive (list (progn
+											 (read-string "Query: "
+																		(when (and (boundp 'org-ql-view-query) org-ql-view-query)
+																			(format "%S" org-ql-view-query))))))
+	(require 'org-ql)
+	(org-ql-search (list emacstv-index-org) query)
+	(when (featurep 'hl-line)
+		(hl-line-mode 1)))
+
 
 (provide 'emacstv)
 ;;; emacstv.el ends here
