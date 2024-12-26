@@ -380,7 +380,7 @@ If a region is active, add all the YouTube links in that region."
 				(add-hook 'mpv-on-exit-hook #'emacstv-play-random)
 				(emacstv-play-random))
 		(remove-hook 'mpv-on-exit-hook #'emacstv-play-random)
-		(mpv-quit)))
+		(mpv-quit nil)))
 
 ;;;###autoload
 (defun emacstv-play-at-point ()
