@@ -11557,30 +11557,6 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
 :END:
   notes at http://xahlee.info/talk_show/xah_talk_show_2022-12-06.html
 
-* EmacsConf 2022: What I'd like to see in Emacs - Richard M. Stallman
-:PROPERTIES:
-:YOUTUBE_URL: https://www.youtube.com/watch?v=vEpk2ZTqJu4
-:DATE:     2022-12-06T08:29:46-08:00
-:SPEAKERS: EmacsConf and Emacs hangouts
-:DURATION: 17:01
-:END:
-  https://emacsconf.org/2022/talks/rms
-
-  00:00:00.000 GNU Emacs and its purpose
-  02:33.640 Lisp as the extension language
-  03:46.280 JavaScript versus freedom
-  06:14.640 Updating "An Introduction to Emacs Lisp Programming"
-  07:23.407 More memorable package names
-  08:31.807 Simplifying the command interface
-  10:23.620 Modularity
-  11:22.220 Editing formatted text
-  12:55.460 Not the equivalent of a modern web browser
-  15:31.300 Getting involved
-
-  You can view this and other resources using free/libre software at https://emacsconf.org/2022/talks/rms . During the conference, you can ask questions via the Etherpad or through IRC (https://chat.emacsconf.org/?join=emacsconf,emacsconf-dev , or emacsconf-dev on irc.libera.chat). Afterwards, check the talk page at https://emacsconf.org/2022/talks/rms for notes and contact information.
-
-  This video is available under the terms of the Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license.
-
 * Emacs From Scratch, An Emacs tutorial for beginners - 12 Features & load path
 :PROPERTIES:
 :YOUTUBE_URL: https://youtube.com/watch?v=r6nwe0C5DGw&feature=share
@@ -11646,64 +11622,320 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
 :END:
   That's right. It's time to go from org mode to standard manuscript format open office document, then to PDF, MS Word, RTF, whatever you want.  You can do it.
 
-* Results of the 2022 Emacs Survey  :emacsconf:emacsconf2022:community:
+* Sunday closing remarks  :emacsconf:emacsconf2022:
 :PROPERTIES:
-:DATE: 2022-12-04
-:URL: https://emacsconf.org/2022/talks/survey
-:MEDIA_URL: https://media.emacsconf.org/2022/emacsconf-2022-survey--results-of-the-2022-emacs-survey--timothy--main.webm
-:YOUTUBE_URL: https://youtu.be/7jetbJ_wiSg
-:TOOBNIX_URL: https://toobnix.org/w/gYfDLkR2DTkd1ZW54hXATW
-:TRANSCRIPT_URL: https://media.emacsconf.org/2022/emacsconf-2022-survey--results-of-the-2022-emacs-survey--timothy--main.vtt
-:SPEAKERS: Timothy
+:DATE: 2022-12-04T21:50:00+0000
+:URL: https://emacsconf.org/2022/talks/sun-close
+:DURATION: ${duration}
+:MEDIA_URL: https://media.emacsconf.org/2022/emacsconf-2022-sun-close--sunday-closing-remarks--main.webm
+:YOUTUBE_URL: 
+:TOOBNIX_URL: 
+:TRANSCRIPT_URL: https://media.emacsconf.org/2022/emacsconf-2022-sun-close--sunday-closing-remarks--main.vtt
+:SPEAKERS: 
 :SERIES: EmacsConf 2022
 :END:
-* This Year in Org  :emacsconf:emacsconf2022:org:summary:
+* Short hyperlinks to Python docs  :emacsconf:emacsconf2022:coding:python:
 :PROPERTIES:
-:DATE: 2022-12-04
-:URL: https://emacsconf.org/2022/talks/orgyear
-:MEDIA_URL: https://media.emacsconf.org/2022/emacsconf-2022-orgyear--this-year-in-org--timothy--main.webm
-:YOUTUBE_URL: https://youtu.be/QCj-h3LPFRU
-:TOOBNIX_URL: https://toobnix.org/w/qed3SGg4ZMo8fLuzwXoeNP
-:TRANSCRIPT_URL: https://media.emacsconf.org/2022/emacsconf-2022-orgyear--this-year-in-org--timothy--main.vtt
-:SPEAKERS: Timothy
+:DATE:     2022-12-04T21:30:00+0000
+:URL: https://emacsconf.org/2022/talks/python
+:MEDIA_URL: https://media.emacsconf.org/2022/emacsconf-2022-python--short-hyperlinks-to-python-docs--eduardo-ochs--main.webm
+:YOUTUBE_URL: https://youtu.be/wkod13CNWMY
+:TOOBNIX_URL: https://toobnix.org/w/rK5n3EhFisCJPQsCueZdmn
+:TRANSCRIPT_URL: https://media.emacsconf.org/2022/emacsconf-2022-python--short-hyperlinks-to-python-docs--eduardo-ochs--main.vtt
+:SPEAKERS: Eduardo Ochs
 :SERIES: EmacsConf 2022
 :END:
-* Build a Zettelkasten with the Hyperbole Rolodex  :emacsconf:emacsconf2022:hyperbole:
+* Q&A: Fanfare for the Common Emacs User  :answers:emacsconf:emacsconf2022:
 :PROPERTIES:
-:DATE: 2022-12-04
-:URL: https://emacsconf.org/2022/talks/rolodex
-:MEDIA_URL: https://media.emacsconf.org/2022/emacsconf-2022-rolodex--build-a-zettelkasten-with-the-hyperbole-rolodex--ramin-honary--main.webm
-:YOUTUBE_URL: https://youtu.be/HdlCK9w-LyQ
-:TOOBNIX_URL: https://toobnix.org/w/n6kPHmyb7bwombvnc48BE6
-:TRANSCRIPT_URL: https://media.emacsconf.org/2022/emacsconf-2022-rolodex--build-a-zettelkasten-with-the-hyperbole-rolodex--ramin-honary--main.vtt
-:SPEAKERS: Ramin Honary
+:DATE: 2022-12-04T21:25:00+0000
+:URL: https://emacsconf.org/2022/talks/fanfare
+:DURATION: 3:06:09
+:MEDIA_URL: https://media.emacsconf.org/2022/emacsconf-2022-fanfare--fanfare-for-the-common-emacs-user--john-cummings--answers.webm
+:YOUTUBE_URL: https://youtu.be/utu7fasKiuI
+:TOOBNIX_URL: https://toobnix.org/w/tVMhSW32W9Gk3Fi7qZUJuy
+:TRANSCRIPT_URL: https://media.emacsconf.org/2022/emacsconf-2022-fanfare--fanfare-for-the-common-emacs-user--john-cummings--answers.vtt
+:SPEAKERS: John Cummings
 :SERIES: EmacsConf 2022
 :END:
-* rde Emacs introduction  :emacsconf:emacsconf2022:configuration:StarterKit:
+* Fanfare for the Common Emacs User  :emacsconf:emacsconf2022:community:
 :PROPERTIES:
-:DATE: 2022-12-04
-:URL: https://emacsconf.org/2022/talks/rde
-:MEDIA_URL: https://media.emacsconf.org/2022/emacsconf-2022-rde--rde-emacs-introduction--andrew-tropin--main.webm
-:YOUTUBE_URL: https://youtu.be/etMbtPB25ik
-:TOOBNIX_URL: https://toobnix.org/w/iPos3hVhMrPsnyJskzSkY9
-:TRANSCRIPT_URL: https://media.emacsconf.org/2022/emacsconf-2022-rde--rde-emacs-introduction--andrew-tropin--main.vtt
-:SPEAKERS: Andrew Tropin
+:DATE:     2022-12-04T21:25:00+0000
+:URL: https://emacsconf.org/2022/talks/fanfare
+:MEDIA_URL: https://media.emacsconf.org/2022/emacsconf-2022-fanfare--fanfare-for-the-common-emacs-user--john-cummings--main.webm
+:YOUTUBE_URL: https://youtu.be/tsc7IQ_qxKY
+:TOOBNIX_URL: https://toobnix.org/w/3ikPgKEnX1jVUqnxZrMuHs
+:TRANSCRIPT_URL: https://media.emacsconf.org/2022/emacsconf-2022-fanfare--fanfare-for-the-common-emacs-user--john-cummings--main.vtt
+:SPEAKERS: John Cummings
 :SERIES: EmacsConf 2022
 :END:
-* Linking headings with org-super-links (poor-man's Zettelkasten)  :emacsconf:emacsconf2022:org:
+* EmacsConf 2022 Emacs development updates :emacsconf:emacsconf2022:EmacsDevel:summary:
 :PROPERTIES:
-:DATE: 2022-12-04
-:URL: https://emacsconf.org/2022/talks/orgsuperlinks
-:MEDIA_URL: https://media.emacsconf.org/2022/emacsconf-2022-orgsuperlinks--linking-headings-with-orgsuperlinks-poormans-zettelkasten--karl-voit--main.webm
-:YOUTUBE_URL: https://youtu.be/hRmswFHNbnk
-:TOOBNIX_URL: https://toobnix.org/w/ff1YxBEgR9LxJ51trJwyYk
-:TRANSCRIPT_URL: https://media.emacsconf.org/2022/emacsconf-2022-orgsuperlinks--linking-headings-with-orgsuperlinks-poormans-zettelkasten--karl-voit--main.vtt
-:SPEAKERS: Karl Voit
+:DATE:     2022-12-04T21:05:00+0000
+:URL: https://emacsconf.org/2022/talks/devel
+:MEDIA_URL: https://media.emacsconf.org/2022/emacsconf-2022-devel--emacs-development-updates--john-wiegley--main.webm
+:YOUTUBE_URL: https://youtu.be/Jy5hGMTiQnw
+:TOOBNIX_URL: https://toobnix.org/w/o8S5uKpPTCD717zwHPd5cD
+:TRANSCRIPT_URL: https://media.emacsconf.org/2022/emacsconf-2022-devel--emacs-development-updates--john-wiegley--main.vtt
+:SPEAKERS: John Wiegley
+:SERIES: EmacsConf 2022
+:END:
+* Q&A: Pre-localizing Emacs  :answers:emacsconf:emacsconf2022:
+:PROPERTIES:
+:DATE: 2022-12-04T21:00:00+0000
+:URL: https://emacsconf.org/2022/talks/localizing
+:DURATION: 17:42
+:MEDIA_URL: https://media.emacsconf.org/2022/emacsconf-2022-localizing--prelocalizing-emacs--jeanchristophe-helary--answers.webm
+:YOUTUBE_URL: https://youtu.be/YKhUJDzTs_8
+:TOOBNIX_URL: https://toobnix.org/w/4sFQHbevnfY6MyYFwNKco6
+:TRANSCRIPT_URL: https://media.emacsconf.org/2022/emacsconf-2022-localizing--prelocalizing-emacs--jeanchristophe-helary--answers.vtt
+:SPEAKERS: Jean-Christophe Helary
+:SERIES: EmacsConf 2022
+:END:
+* Pre-localizing Emacs  :emacsconf:emacsconf2022:writing:i18n:
+:PROPERTIES:
+:DATE:     2022-12-04T21:00:00+0000
+:URL: https://emacsconf.org/2022/talks/localizing
+:MEDIA_URL: https://media.emacsconf.org/2022/emacsconf-2022-localizing--prelocalizing-emacs--jeanchristophe-helary--main.webm
+:YOUTUBE_URL: https://youtu.be/xdTNFLUzmlM
+:TOOBNIX_URL: https://toobnix.org/w/7E7zo6E6KvrWamsQUxfRuR
+:TRANSCRIPT_URL: https://media.emacsconf.org/2022/emacsconf-2022-localizing--prelocalizing-emacs--jeanchristophe-helary--main.vtt
+:SPEAKERS: Jean-Christophe Helary
+:SERIES: EmacsConf 2022
+:END:
+* Q&A: Putting Org Mode on the Indieweb  :answers:emacsconf:emacsconf2022:
+:PROPERTIES:
+:DATE: 2022-12-04T20:25:00+0000
+:URL: https://emacsconf.org/2022/talks/indieweb
+:DURATION: 20:43
+:MEDIA_URL: https://media.emacsconf.org/2022/emacsconf-2022-indieweb--putting-org-mode-on-the-indieweb--michael-herstine--answers.webm
+:YOUTUBE_URL: https://youtu.be/Wui5MjoSLwo
+:TOOBNIX_URL: https://toobnix.org/w/w8ezk1C7TrhssQVMZMFqSb
+:TRANSCRIPT_URL: https://media.emacsconf.org/2022/emacsconf-2022-indieweb--putting-org-mode-on-the-indieweb--michael-herstine--answers.vtt
+:SPEAKERS: Michael Herstine
+:SERIES: EmacsConf 2022
+:END:
+* Putting Org Mode on the Indieweb  :emacsconf:emacsconf2022:org:IndieWeb:
+:PROPERTIES:
+:DATE:     2022-12-04T20:25:00+0000
+:URL: https://emacsconf.org/2022/talks/indieweb
+:MEDIA_URL: https://media.emacsconf.org/2022/emacsconf-2022-indieweb--putting-org-mode-on-the-indieweb--michael-herstine--main.webm
+:YOUTUBE_URL: https://youtu.be/48RoqMbhftg
+:TOOBNIX_URL: https://toobnix.org/w/bTV1JohHSkRvnHYQKZ39hm
+:TRANSCRIPT_URL: https://media.emacsconf.org/2022/emacsconf-2022-indieweb--putting-org-mode-on-the-indieweb--michael-herstine--main.vtt
+:SPEAKERS: Michael Herstine
+:SERIES: EmacsConf 2022
+:END:
+* Q&A: The Wheels on D-Bus  :answers:emacsconf:emacsconf2022:
+:PROPERTIES:
+:DATE: 2022-12-04T20:15:00+0000
+:URL: https://emacsconf.org/2022/talks/dbus
+:DURATION: 28:54
+:MEDIA_URL: https://media.emacsconf.org/2022/emacsconf-2022-dbus--the-wheels-on-dbus--ian-eure--answers.webm
+:YOUTUBE_URL: https://youtu.be/a1zuX2jEUuQ
+:TOOBNIX_URL: https://toobnix.org/w/3aXTvNb9RtSobfuCNZLGvx
+:TRANSCRIPT_URL: https://media.emacsconf.org/2022/emacsconf-2022-dbus--the-wheels-on-dbus--ian-eure--answers.vtt
+:SPEAKERS: Ian Eure
+:SERIES: EmacsConf 2022
+:END:
+* The Wheels on D-Bus  :emacsconf:emacsconf2022:elisp:dev:
+:PROPERTIES:
+:DATE:     2022-12-04T20:15:00+0000
+:URL: https://emacsconf.org/2022/talks/dbus
+:MEDIA_URL: https://media.emacsconf.org/2022/emacsconf-2022-dbus--the-wheels-on-dbus--ian-eure--main.webm
+:YOUTUBE_URL: https://youtu.be/YBCDamLfuWw
+:TOOBNIX_URL: https://toobnix.org/w/uwgjHJvZF9cv5KcYFZmdNz
+:TRANSCRIPT_URL: https://media.emacsconf.org/2022/emacsconf-2022-dbus--the-wheels-on-dbus--ian-eure--main.vtt
+:SPEAKERS: Ian Eure
+:SERIES: EmacsConf 2022
+:END:
+* Q&A: GRAIL---A Generalized Representation and Aggregation of Information Layers  :answers:emacsconf:emacsconf2022:
+:PROPERTIES:
+:DATE: 2022-12-04T19:35:00+0000
+:URL: https://emacsconf.org/2022/talks/grail
+:DURATION: 48:30
+:MEDIA_URL: https://media.emacsconf.org/2022/emacsconf-2022-grail--graila-generalized-representation-and-aggregation-of-information-layers--sameer-pradhan--answers.webm
+:YOUTUBE_URL: https://youtu.be/sD6PqZfBV7g
+:TOOBNIX_URL: https://toobnix.org/w/91yQap5zEwPDgcPxWhiWYU
+:TRANSCRIPT_URL: https://media.emacsconf.org/2022/emacsconf-2022-grail--graila-generalized-representation-and-aggregation-of-information-layers--sameer-pradhan--answers.vtt
+:SPEAKERS: Sameer Pradhan
+:SERIES: EmacsConf 2022
+:END:
+* GRAIL---A Generalized Representation and Aggregation of Information Layers  :emacsconf:emacsconf2022:
+:PROPERTIES:
+:DATE:     2022-12-04T19:35:00+0000
+:URL: https://emacsconf.org/2022/talks/grail
+:MEDIA_URL: https://media.emacsconf.org/2022/emacsconf-2022-grail--graila-generalized-representation-and-aggregation-of-information-layers--sameer-pradhan--main.webm
+:YOUTUBE_URL: https://youtu.be/q2b3mSOUZcY
+:TOOBNIX_URL: https://toobnix.org/w/iepyHuSZMww6K4yfkntTpA
+:TRANSCRIPT_URL: https://media.emacsconf.org/2022/emacsconf-2022-grail--graila-generalized-representation-and-aggregation-of-information-layers--sameer-pradhan--main.vtt
+:SPEAKERS: Sameer Pradhan
+:SERIES: EmacsConf 2022
+:END:
+* Q&A: Emacs was async before async was cool  :answers:emacsconf:emacsconf2022:
+:PROPERTIES:
+:DATE: 2022-12-04T19:20:00+0000
+:URL: https://emacsconf.org/2022/talks/async
+:DURATION: 32:47
+:MEDIA_URL: https://media.emacsconf.org/2022/emacsconf-2022-async--emacs-was-async-before-async-was-cool--michael-herstine--answers.webm
+:YOUTUBE_URL: https://www.youtube.com/watch?v=eoiD6SZABn4
+:TOOBNIX_URL: https://toobnix.org/w/uxYqTEQ2ZUFyDVM4V9EYnW
+:TRANSCRIPT_URL: https://media.emacsconf.org/2022/emacsconf-2022-async--emacs-was-async-before-async-was-cool--michael-herstine--answers.vtt
+:SPEAKERS: Michael Herstine
+:SERIES: EmacsConf 2022
+:END:
+* Emacs was async before async was cool  :emacsconf:emacsconf2022:dev:async:
+:PROPERTIES:
+:DATE:     2022-12-04T19:20:00+0000
+:URL: https://emacsconf.org/2022/talks/async
+:MEDIA_URL: https://media.emacsconf.org/2022/emacsconf-2022-async--emacs-was-async-before-async-was-cool--michael-herstine--main.webm
+:YOUTUBE_URL: https://youtu.be/PxJDsq2apyo
+:TOOBNIX_URL: https://toobnix.org/w/6mKNBvuubwoWFA9SFsgUQS
+:TRANSCRIPT_URL: https://media.emacsconf.org/2022/emacsconf-2022-async--emacs-was-async-before-async-was-cool--michael-herstine--main.vtt
+:SPEAKERS: Michael Herstine
+:SERIES: EmacsConf 2022
+:END:
+* Q&A: Org workflows for developers  :answers:emacsconf:emacsconf2022:
+:PROPERTIES:
+:DATE: 2022-12-04T18:50:00+0000
+:URL: https://emacsconf.org/2022/talks/workflows
+:DURATION: 13:56
+:MEDIA_URL: https://media.emacsconf.org/2022/emacsconf-2022-workflows--org-workflows-for-developers--george-mauer--answers.webm
+:YOUTUBE_URL: https://youtu.be/iW-SY92H7ek
+:TOOBNIX_URL: https://toobnix.org/w/k8DfEcbPGHUhc6G4tLqEsc
+:TRANSCRIPT_URL: https://media.emacsconf.org/2022/emacsconf-2022-workflows--org-workflows-for-developers--george-mauer--answers.vtt
+:SPEAKERS: George Mauer
+:SERIES: EmacsConf 2022
+:END:
+* Org workflows for developers  :emacsconf:emacsconf2022:org:
+:PROPERTIES:
+:DATE:     2022-12-04T18:50:00+0000
+:URL: https://emacsconf.org/2022/talks/workflows
+:MEDIA_URL: https://media.emacsconf.org/2022/emacsconf-2022-workflows--org-workflows-for-developers--george-mauer--main.webm
+:YOUTUBE_URL: https://youtu.be/x9RS79X3P3M
+:TOOBNIX_URL: https://toobnix.org/w/bRD59ZVoJk1zpNnchaygk4
+:TRANSCRIPT_URL: https://media.emacsconf.org/2022/emacsconf-2022-workflows--org-workflows-for-developers--george-mauer--main.vtt
+:SPEAKERS: George Mauer
+:SERIES: EmacsConf 2022
+:END:
+* Q&A: Top 10 reasons why you should be using Eshell  :answers:emacsconf:emacsconf2022:
+:PROPERTIES:
+:DATE: 2022-12-04T18:40:00+0000
+:URL: https://emacsconf.org/2022/talks/eshell
+:DURATION: 24:56
+:MEDIA_URL: https://media.emacsconf.org/2022/emacsconf-2022-eshell--top-10-reasons-why-you-should-be-using-eshell--howard-abrams--answers.webm
+:YOUTUBE_URL: https://youtu.be/NLeo6XMDGy4
+:TOOBNIX_URL: https://toobnix.org/w/5GYLcBhsmrykumRkq98FYD
+:TRANSCRIPT_URL: https://media.emacsconf.org/2022/emacsconf-2022-eshell--top-10-reasons-why-you-should-be-using-eshell--howard-abrams--answers.vtt
+:SPEAKERS: Howard Abrams
+:SERIES: EmacsConf 2022
+:END:
+* Top 10 reasons why you should be using Eshell  :emacsconf:emacsconf2022:shell:eshell:
+:PROPERTIES:
+:DATE:     2022-12-04T18:40:00+0000
+:URL: https://emacsconf.org/2022/talks/eshell
+:MEDIA_URL: https://media.emacsconf.org/2022/emacsconf-2022-eshell--top-10-reasons-why-you-should-be-using-eshell--howard-abrams--main.webm
+:YOUTUBE_URL: https://youtu.be/9xLeqwl_7n0
+:TOOBNIX_URL: https://toobnix.org/w/ndrA731VbY2U6SP8onw3yw
+:TRANSCRIPT_URL: https://media.emacsconf.org/2022/emacsconf-2022-eshell--top-10-reasons-why-you-should-be-using-eshell--howard-abrams--main.vtt
+:SPEAKERS: Howard Abrams
+:SERIES: EmacsConf 2022
+:END:
+* Q&A: Getting detached from Emacs  :answers:emacsconf:emacsconf2022:
+:PROPERTIES:
+:DATE: 2022-12-04T18:01:00+0000
+:URL: https://emacsconf.org/2022/talks/detached
+:DURATION: 26:45
+:MEDIA_URL: https://media.emacsconf.org/2022/emacsconf-2022-detached--getting-detached-from-emacs--niklas-eklund--answers.webm
+:YOUTUBE_URL: https://youtu.be/LQAoj0iK6kI
+:TOOBNIX_URL: https://toobnix.org/w/uqNTBf3LdV95Xgu5kxYx2a
+:TRANSCRIPT_URL: https://media.emacsconf.org/2022/emacsconf-2022-detached--getting-detached-from-emacs--niklas-eklund--answers.vtt
+:SPEAKERS: Niklas Eklund
+:SERIES: EmacsConf 2022
+:END:
+* Getting detached from Emacs  :emacsconf:emacsconf2022:processes:
+:PROPERTIES:
+:DATE:     2022-12-04T18:01:00+0000
+:URL: https://emacsconf.org/2022/talks/detached
+:MEDIA_URL: https://media.emacsconf.org/2022/emacsconf-2022-detached--getting-detached-from-emacs--niklas-eklund--main.webm
+:YOUTUBE_URL: https://youtu.be/sV3SeASp30U
+:TOOBNIX_URL: https://toobnix.org/w/5g6W1vPuWeHognYnvnnbNk
+:TRANSCRIPT_URL: https://media.emacsconf.org/2022/emacsconf-2022-detached--getting-detached-from-emacs--niklas-eklund--main.vtt
+:SPEAKERS: Niklas Eklund
+:SERIES: EmacsConf 2022
+:END:
+* Q&A: Powerful productivity with Hyperbole and Org Mode  :answers:emacsconf:emacsconf2022:
+:PROPERTIES:
+:DATE: 2022-12-04T18:00:00+0000
+:URL: https://emacsconf.org/2022/talks/hyperorg
+:DURATION: 47:05
+:MEDIA_URL: https://media.emacsconf.org/2022/emacsconf-2022-hyperorg--powerful-productivity-with-hyperbole-and-org-mode--robert-weiner--answers.webm
+:YOUTUBE_URL: https://youtu.be/DK9xJnFY9Vo
+:TOOBNIX_URL: https://toobnix.org/w/67c6pRsJMjBgw9CizmTdj1
+:TRANSCRIPT_URL: https://media.emacsconf.org/2022/emacsconf-2022-hyperorg--powerful-productivity-with-hyperbole-and-org-mode--robert-weiner--answers.vtt
+:SPEAKERS: Robert Weiner
+:SERIES: EmacsConf 2022
+:END:
+* Powerful productivity with Hyperbole and Org Mode  :emacsconf:emacsconf2022:hyperbole:org:
+:PROPERTIES:
+:DATE:     2022-12-04T18:00:00+0000
+:URL: https://emacsconf.org/2022/talks/hyperorg
+:MEDIA_URL: https://media.emacsconf.org/2022/emacsconf-2022-hyperorg--powerful-productivity-with-hyperbole-and-org-mode--robert-weiner--main.webm
+:YOUTUBE_URL: https://youtu.be/BrTpTNEXMyY
+:TOOBNIX_URL: https://toobnix.org/w/uz8zLQWbjGC49LSx3Y1Vx7
+:TRANSCRIPT_URL: https://media.emacsconf.org/2022/emacsconf-2022-hyperorg--powerful-productivity-with-hyperbole-and-org-mode--robert-weiner--main.vtt
+:SPEAKERS: Robert Weiner
+:SERIES: EmacsConf 2022
+:END:
+* EmacsConf 2022: What I'd like to see in Emacs - Richard M. Stallman
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=vEpk2ZTqJu4
+:DATE:     2022-12-04T16:15:00+0000
+:SPEAKERS: EmacsConf and Emacs hangouts
+:DURATION: 17:01
+:END:
+  https://emacsconf.org/2022/talks/rms
+
+  00:00:00.000 GNU Emacs and its purpose
+  02:33.640 Lisp as the extension language
+  03:46.280 JavaScript versus freedom
+  06:14.640 Updating "An Introduction to Emacs Lisp Programming"
+  07:23.407 More memorable package names
+  08:31.807 Simplifying the command interface
+  10:23.620 Modularity
+  11:22.220 Editing formatted text
+  12:55.460 Not the equivalent of a modern web browser
+  15:31.300 Getting involved
+
+  You can view this and other resources using free/libre software at https://emacsconf.org/2022/talks/rms . During the conference, you can ask questions via the Etherpad or through IRC (https://chat.emacsconf.org/?join=emacsconf,emacsconf-dev , or emacsconf-dev on irc.libera.chat). Afterwards, check the talk page at https://emacsconf.org/2022/talks/rms for notes and contact information.
+
+  This video is available under the terms of the Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license.
+
+* Q&A: What I'd like to see in Emacs  :answers:emacsconf:emacsconf2022:
+:PROPERTIES:
+:DATE: 2022-12-04T16:15:00+0000
+:URL: https://emacsconf.org/2022/talks/rms
+:DURATION: 59:50
+:MEDIA_URL: https://media.emacsconf.org/2022/emacsconf-2022-rms--what-id-like-to-see-in-emacs--answers.webm
+:YOUTUBE_URL: https://youtu.be/_ou5di4V0JY
+:TOOBNIX_URL: https://toobnix.org/w/mHf8R49L7GX1ocbr5ipnRx
+:TRANSCRIPT_URL: https://media.emacsconf.org/2022/emacsconf-2022-rms--what-id-like-to-see-in-emacs--answers.vtt
+:SPEAKERS: Richard M. Stallman
+:SERIES: EmacsConf 2022
+:END:
+* orgvm: a simple HTTP server for org  :emacsconf:emacsconf2022:org:
+:PROPERTIES:
+:DATE:     2022-12-04T16:10:00+0000
+:URL: https://emacsconf.org/2022/talks/orgvm
+:MEDIA_URL: https://media.emacsconf.org/2022/emacsconf-2022-orgvm--orgvm-a-simple-http-server-for-org--corwin-brust--main.webm
+:YOUTUBE_URL: https://youtu.be/XR3b3egKkL8
+:TOOBNIX_URL: https://toobnix.org/w/9Ybxov8eVA763kRvHuM6zY
+:TRANSCRIPT_URL: https://media.emacsconf.org/2022/emacsconf-2022-orgvm--orgvm-a-simple-http-server-for-org--corwin-brust--main.vtt
+:SPEAKERS: Corwin Brust
 :SERIES: EmacsConf 2022
 :END:
 * justl: Driving recipes within Emacs  :emacsconf:emacsconf2022:coding:
 :PROPERTIES:
-:DATE: 2022-12-04
+:DATE:     2022-12-04T15:50:00+0000
 :URL: https://emacsconf.org/2022/talks/justl
 :MEDIA_URL: https://media.emacsconf.org/2022/emacsconf-2022-justl--justl-driving-recipes-within-emacs--sibi-prabakaran--main.webm
 :YOUTUBE_URL: https://youtu.be/bFYzzJ-OlV4
@@ -11712,15 +11944,95 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
 :SPEAKERS: Sibi Prabakaran
 :SERIES: EmacsConf 2022
 :END:
-* orgvm: a simple HTTP server for org  :emacsconf:emacsconf2022:org:
+* Q&A: Linking headings with org-super-links (poor-man's Zettelkasten)  :answers:emacsconf:emacsconf2022:
 :PROPERTIES:
-:DATE: 2022-12-04
-:URL: https://emacsconf.org/2022/talks/orgvm
-:MEDIA_URL: https://media.emacsconf.org/2022/emacsconf-2022-orgvm--orgvm-a-simple-http-server-for-org--corwin-brust--main.webm
-:YOUTUBE_URL: https://youtu.be/XR3b3egKkL8
-:TOOBNIX_URL: https://toobnix.org/w/9Ybxov8eVA763kRvHuM6zY
-:TRANSCRIPT_URL: https://media.emacsconf.org/2022/emacsconf-2022-orgvm--orgvm-a-simple-http-server-for-org--corwin-brust--main.vtt
-:SPEAKERS: Corwin Brust
+:DATE: 2022-12-04T15:40:00+0000
+:URL: https://emacsconf.org/2022/talks/orgsuperlinks
+:DURATION: 20:06
+:MEDIA_URL: https://media.emacsconf.org/2022/emacsconf-2022-orgsuperlinks--linking-headings-with-orgsuperlinks-poormans-zettelkasten--karl-voit--answers.webm
+:YOUTUBE_URL: https://youtu.be/gwfvOijv-Q8
+:TOOBNIX_URL: https://toobnix.org/w/b7JfTdsX5WjjFahFkpRd1Y
+:TRANSCRIPT_URL: https://media.emacsconf.org/2022/emacsconf-2022-orgsuperlinks--linking-headings-with-orgsuperlinks-poormans-zettelkasten--karl-voit--answers.vtt
+:SPEAKERS: Karl Voit
+:SERIES: EmacsConf 2022
+:END:
+* Linking headings with org-super-links (poor-man's Zettelkasten)  :emacsconf:emacsconf2022:org:
+:PROPERTIES:
+:DATE:     2022-12-04T15:40:00+0000
+:URL: https://emacsconf.org/2022/talks/orgsuperlinks
+:MEDIA_URL: https://media.emacsconf.org/2022/emacsconf-2022-orgsuperlinks--linking-headings-with-orgsuperlinks-poormans-zettelkasten--karl-voit--main.webm
+:YOUTUBE_URL: https://youtu.be/hRmswFHNbnk
+:TOOBNIX_URL: https://toobnix.org/w/ff1YxBEgR9LxJ51trJwyYk
+:TRANSCRIPT_URL: https://media.emacsconf.org/2022/emacsconf-2022-orgsuperlinks--linking-headings-with-orgsuperlinks-poormans-zettelkasten--karl-voit--main.vtt
+:SPEAKERS: Karl Voit
+:SERIES: EmacsConf 2022
+:END:
+* Q&A: rde Emacs introduction  :answers:emacsconf:emacsconf2022:
+:PROPERTIES:
+:DATE: 2022-12-04T15:00:00+0000
+:URL: https://emacsconf.org/2022/talks/rde
+:DURATION: 24:31
+:MEDIA_URL: https://media.emacsconf.org/2022/emacsconf-2022-rde--rde-emacs-introduction--andrew-tropin--answers.webm
+:YOUTUBE_URL: https://www.youtube.com/watch?v=7y6cv1oOHeg
+:TOOBNIX_URL: https://toobnix.org/w/mLts2k5dA6XCv7ULrvFyAq
+:TRANSCRIPT_URL: https://media.emacsconf.org/2022/emacsconf-2022-rde--rde-emacs-introduction--andrew-tropin--answers.vtt
+:SPEAKERS: Andrew Tropin
+:SERIES: EmacsConf 2022
+:END:
+* rde Emacs introduction  :emacsconf:emacsconf2022:configuration:StarterKit:
+:PROPERTIES:
+:DATE:     2022-12-04T15:00:00+0000
+:URL: https://emacsconf.org/2022/talks/rde
+:MEDIA_URL: https://media.emacsconf.org/2022/emacsconf-2022-rde--rde-emacs-introduction--andrew-tropin--main.webm
+:YOUTUBE_URL: https://youtu.be/etMbtPB25ik
+:TOOBNIX_URL: https://toobnix.org/w/iPos3hVhMrPsnyJskzSkY9
+:TRANSCRIPT_URL: https://media.emacsconf.org/2022/emacsconf-2022-rde--rde-emacs-introduction--andrew-tropin--main.vtt
+:SPEAKERS: Andrew Tropin
+:SERIES: EmacsConf 2022
+:END:
+* Build a Zettelkasten with the Hyperbole Rolodex  :emacsconf:emacsconf2022:hyperbole:
+:PROPERTIES:
+:DATE:     2022-12-04T14:57:00+0000
+:URL: https://emacsconf.org/2022/talks/rolodex
+:MEDIA_URL: https://media.emacsconf.org/2022/emacsconf-2022-rolodex--build-a-zettelkasten-with-the-hyperbole-rolodex--ramin-honary--main.webm
+:YOUTUBE_URL: https://youtu.be/HdlCK9w-LyQ
+:TOOBNIX_URL: https://toobnix.org/w/n6kPHmyb7bwombvnc48BE6
+:TRANSCRIPT_URL: https://media.emacsconf.org/2022/emacsconf-2022-rolodex--build-a-zettelkasten-with-the-hyperbole-rolodex--ramin-honary--main.vtt
+:SPEAKERS: Ramin Honary
+:SERIES: EmacsConf 2022
+:END:
+* This Year in Org  :emacsconf:emacsconf2022:org:summary:
+:PROPERTIES:
+:DATE:     2022-12-04T14:35:00+0000
+:URL: https://emacsconf.org/2022/talks/orgyear
+:MEDIA_URL: https://media.emacsconf.org/2022/emacsconf-2022-orgyear--this-year-in-org--timothy--main.webm
+:YOUTUBE_URL: https://youtu.be/QCj-h3LPFRU
+:TOOBNIX_URL: https://toobnix.org/w/qed3SGg4ZMo8fLuzwXoeNP
+:TRANSCRIPT_URL: https://media.emacsconf.org/2022/emacsconf-2022-orgyear--this-year-in-org--timothy--main.vtt
+:SPEAKERS: Timothy
+:SERIES: EmacsConf 2022
+:END:
+* Results of the 2022 Emacs Survey  :emacsconf:emacsconf2022:community:
+:PROPERTIES:
+:DATE:     2022-12-04T14:06:00+0000
+:URL: https://emacsconf.org/2022/talks/survey
+:MEDIA_URL: https://media.emacsconf.org/2022/emacsconf-2022-survey--results-of-the-2022-emacs-survey--timothy--main.webm
+:YOUTUBE_URL: https://youtu.be/7jetbJ_wiSg
+:TOOBNIX_URL: https://toobnix.org/w/gYfDLkR2DTkd1ZW54hXATW
+:TRANSCRIPT_URL: https://media.emacsconf.org/2022/emacsconf-2022-survey--results-of-the-2022-emacs-survey--timothy--main.vtt
+:SPEAKERS: Timothy
+:SERIES: EmacsConf 2022
+:END:
+* Sunday opening remarks  :emacsconf:emacsconf2022:
+:PROPERTIES:
+:DATE: 2022-12-04T14:00:00+0000
+:URL: https://emacsconf.org/2022/talks/sun-open
+:DURATION: ${duration}
+:MEDIA_URL: https://media.emacsconf.org/2022/emacsconf-2022-sun-open--sunday-opening-remarks--main.webm
+:YOUTUBE_URL: 
+:TOOBNIX_URL: 
+:TRANSCRIPT_URL: https://media.emacsconf.org/2022/emacsconf-2022-sun-open--sunday-opening-remarks--main.vtt
+:SPEAKERS: 
 :SERIES: EmacsConf 2022
 :END:
 * What I'd like to see in Emacs  :emacsconf:emacsconf2022:community:
@@ -11734,138 +12046,6 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
 :SPEAKERS: Richard M. Stallman
 :SERIES: EmacsConf 2022
 :END:
-* Powerful productivity with Hyperbole and Org Mode  :emacsconf:emacsconf2022:hyperbole:org:
-:PROPERTIES:
-:DATE: 2022-12-04
-:URL: https://emacsconf.org/2022/talks/hyperorg
-:MEDIA_URL: https://media.emacsconf.org/2022/emacsconf-2022-hyperorg--powerful-productivity-with-hyperbole-and-org-mode--robert-weiner--main.webm
-:YOUTUBE_URL: https://youtu.be/BrTpTNEXMyY
-:TOOBNIX_URL: https://toobnix.org/w/uz8zLQWbjGC49LSx3Y1Vx7
-:TRANSCRIPT_URL: https://media.emacsconf.org/2022/emacsconf-2022-hyperorg--powerful-productivity-with-hyperbole-and-org-mode--robert-weiner--main.vtt
-:SPEAKERS: Robert Weiner
-:SERIES: EmacsConf 2022
-:END:
-* Getting detached from Emacs  :emacsconf:emacsconf2022:processes:
-:PROPERTIES:
-:DATE: 2022-12-04
-:URL: https://emacsconf.org/2022/talks/detached
-:MEDIA_URL: https://media.emacsconf.org/2022/emacsconf-2022-detached--getting-detached-from-emacs--niklas-eklund--main.webm
-:YOUTUBE_URL: https://youtu.be/sV3SeASp30U
-:TOOBNIX_URL: https://toobnix.org/w/5g6W1vPuWeHognYnvnnbNk
-:TRANSCRIPT_URL: https://media.emacsconf.org/2022/emacsconf-2022-detached--getting-detached-from-emacs--niklas-eklund--main.vtt
-:SPEAKERS: Niklas Eklund
-:SERIES: EmacsConf 2022
-:END:
-* Top 10 reasons why you should be using Eshell  :emacsconf:emacsconf2022:shell:eshell:
-:PROPERTIES:
-:DATE: 2022-12-04
-:URL: https://emacsconf.org/2022/talks/eshell
-:MEDIA_URL: https://media.emacsconf.org/2022/emacsconf-2022-eshell--top-10-reasons-why-you-should-be-using-eshell--howard-abrams--main.webm
-:YOUTUBE_URL: https://youtu.be/9xLeqwl_7n0
-:TOOBNIX_URL: https://toobnix.org/w/ndrA731VbY2U6SP8onw3yw
-:TRANSCRIPT_URL: https://media.emacsconf.org/2022/emacsconf-2022-eshell--top-10-reasons-why-you-should-be-using-eshell--howard-abrams--main.vtt
-:SPEAKERS: Howard Abrams
-:SERIES: EmacsConf 2022
-:END:
-* Org workflows for developers  :emacsconf:emacsconf2022:org:
-:PROPERTIES:
-:DATE: 2022-12-04
-:URL: https://emacsconf.org/2022/talks/workflows
-:MEDIA_URL: https://media.emacsconf.org/2022/emacsconf-2022-workflows--org-workflows-for-developers--george-mauer--main.webm
-:YOUTUBE_URL: https://youtu.be/x9RS79X3P3M
-:TOOBNIX_URL: https://toobnix.org/w/bRD59ZVoJk1zpNnchaygk4
-:TRANSCRIPT_URL: https://media.emacsconf.org/2022/emacsconf-2022-workflows--org-workflows-for-developers--george-mauer--main.vtt
-:SPEAKERS: George Mauer
-:SERIES: EmacsConf 2022
-:END:
-* Emacs was async before async was cool  :emacsconf:emacsconf2022:dev:async:
-:PROPERTIES:
-:DATE: 2022-12-04
-:URL: https://emacsconf.org/2022/talks/async
-:MEDIA_URL: https://media.emacsconf.org/2022/emacsconf-2022-async--emacs-was-async-before-async-was-cool--michael-herstine--main.webm
-:YOUTUBE_URL: https://youtu.be/PxJDsq2apyo
-:TOOBNIX_URL: https://toobnix.org/w/6mKNBvuubwoWFA9SFsgUQS
-:TRANSCRIPT_URL: https://media.emacsconf.org/2022/emacsconf-2022-async--emacs-was-async-before-async-was-cool--michael-herstine--main.vtt
-:SPEAKERS: Michael Herstine
-:SERIES: EmacsConf 2022
-:END:
-* GRAIL---A Generalized Representation and Aggregation of Information Layers  :emacsconf:emacsconf2022:
-:PROPERTIES:
-:DATE: 2022-12-04
-:URL: https://emacsconf.org/2022/talks/grail
-:MEDIA_URL: https://media.emacsconf.org/2022/emacsconf-2022-grail--graila-generalized-representation-and-aggregation-of-information-layers--sameer-pradhan--main.webm
-:YOUTUBE_URL: https://youtu.be/q2b3mSOUZcY
-:TOOBNIX_URL: https://toobnix.org/w/iepyHuSZMww6K4yfkntTpA
-:TRANSCRIPT_URL: https://media.emacsconf.org/2022/emacsconf-2022-grail--graila-generalized-representation-and-aggregation-of-information-layers--sameer-pradhan--main.vtt
-:SPEAKERS: Sameer Pradhan
-:SERIES: EmacsConf 2022
-:END:
-* The Wheels on D-Bus  :emacsconf:emacsconf2022:elisp:dev:
-:PROPERTIES:
-:DATE: 2022-12-04
-:URL: https://emacsconf.org/2022/talks/dbus
-:MEDIA_URL: https://media.emacsconf.org/2022/emacsconf-2022-dbus--the-wheels-on-dbus--ian-eure--main.webm
-:YOUTUBE_URL: https://youtu.be/YBCDamLfuWw
-:TOOBNIX_URL: https://toobnix.org/w/uwgjHJvZF9cv5KcYFZmdNz
-:TRANSCRIPT_URL: https://media.emacsconf.org/2022/emacsconf-2022-dbus--the-wheels-on-dbus--ian-eure--main.vtt
-:SPEAKERS: Ian Eure
-:SERIES: EmacsConf 2022
-:END:
-* Putting Org Mode on the Indieweb  :emacsconf:emacsconf2022:org:IndieWeb:
-:PROPERTIES:
-:DATE: 2022-12-04
-:URL: https://emacsconf.org/2022/talks/indieweb
-:MEDIA_URL: https://media.emacsconf.org/2022/emacsconf-2022-indieweb--putting-org-mode-on-the-indieweb--michael-herstine--main.webm
-:YOUTUBE_URL: https://youtu.be/48RoqMbhftg
-:TOOBNIX_URL: https://toobnix.org/w/bTV1JohHSkRvnHYQKZ39hm
-:TRANSCRIPT_URL: https://media.emacsconf.org/2022/emacsconf-2022-indieweb--putting-org-mode-on-the-indieweb--michael-herstine--main.vtt
-:SPEAKERS: Michael Herstine
-:SERIES: EmacsConf 2022
-:END:
-* Pre-localizing Emacs  :emacsconf:emacsconf2022:writing:i18n:
-:PROPERTIES:
-:DATE: 2022-12-04
-:URL: https://emacsconf.org/2022/talks/localizing
-:MEDIA_URL: https://media.emacsconf.org/2022/emacsconf-2022-localizing--prelocalizing-emacs--jeanchristophe-helary--main.webm
-:YOUTUBE_URL: https://youtu.be/xdTNFLUzmlM
-:TOOBNIX_URL: https://toobnix.org/w/7E7zo6E6KvrWamsQUxfRuR
-:TRANSCRIPT_URL: https://media.emacsconf.org/2022/emacsconf-2022-localizing--prelocalizing-emacs--jeanchristophe-helary--main.vtt
-:SPEAKERS: Jean-Christophe Helary
-:SERIES: EmacsConf 2022
-:END:
-* EmacsConf 2022 Emacs development updates :emacsconf:emacsconf2022:EmacsDevel:summary:
-:PROPERTIES:
-:DATE: 2022-12-04
-:URL: https://emacsconf.org/2022/talks/devel
-:MEDIA_URL: https://media.emacsconf.org/2022/emacsconf-2022-devel--emacs-development-updates--john-wiegley--main.webm
-:YOUTUBE_URL: https://youtu.be/Jy5hGMTiQnw
-:TOOBNIX_URL: https://toobnix.org/w/o8S5uKpPTCD717zwHPd5cD
-:TRANSCRIPT_URL: https://media.emacsconf.org/2022/emacsconf-2022-devel--emacs-development-updates--john-wiegley--main.vtt
-:SPEAKERS: John Wiegley
-:SERIES: EmacsConf 2022
-:END:
-* Fanfare for the Common Emacs User  :emacsconf:emacsconf2022:community:
-:PROPERTIES:
-:DATE: 2022-12-04
-:URL: https://emacsconf.org/2022/talks/fanfare
-:MEDIA_URL: https://media.emacsconf.org/2022/emacsconf-2022-fanfare--fanfare-for-the-common-emacs-user--john-cummings--main.webm
-:YOUTUBE_URL: https://youtu.be/tsc7IQ_qxKY
-:TOOBNIX_URL: https://toobnix.org/w/3ikPgKEnX1jVUqnxZrMuHs
-:TRANSCRIPT_URL: https://media.emacsconf.org/2022/emacsconf-2022-fanfare--fanfare-for-the-common-emacs-user--john-cummings--main.vtt
-:SPEAKERS: John Cummings
-:SERIES: EmacsConf 2022
-:END:
-* Short hyperlinks to Python docs  :emacsconf:emacsconf2022:coding:python:
-:PROPERTIES:
-:DATE: 2022-12-04
-:URL: https://emacsconf.org/2022/talks/python
-:MEDIA_URL: https://media.emacsconf.org/2022/emacsconf-2022-python--short-hyperlinks-to-python-docs--eduardo-ochs--main.webm
-:YOUTUBE_URL: https://youtu.be/wkod13CNWMY
-:TOOBNIX_URL: https://toobnix.org/w/rK5n3EhFisCJPQsCueZdmn
-:TRANSCRIPT_URL: https://media.emacsconf.org/2022/emacsconf-2022-python--short-hyperlinks-to-python-docs--eduardo-ochs--main.vtt
-:SPEAKERS: Eduardo Ochs
-:SERIES: EmacsConf 2022
-:END:
 * EmacsConf 2022 Sunday closing remarks             :emacsconf:emacsconf2022:
 :PROPERTIES:
 :DATE: 2022-12-04
@@ -11877,108 +12057,205 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
 :SPEAKERS:
 :SERIES: EmacsConf 2022
 :END:
-* Emacs journalism (or everything's a nail if you hit it with Emacs)  :emacsconf:emacsconf2022:org:pandoc:
+* Saturday closing remarks  :emacsconf:emacsconf2022:
 :PROPERTIES:
-:DATE: 2022-12-03
-:URL: https://emacsconf.org/2022/talks/journalism
-:MEDIA_URL: https://media.emacsconf.org/2022/emacsconf-2022-journalism--emacs-journalism-or-everythings-a-nail-if-you-hit-it-with-emacs--alfred-zanini--main.webm
-:YOUTUBE_URL: https://youtu.be/E1GSKjx4S3Q
-:TOOBNIX_URL: https://toobnix.org/w/nqaGcHbHSY2dGxVpzvc3WX
-:TRANSCRIPT_URL: https://media.emacsconf.org/2022/emacsconf-2022-journalism--emacs-journalism-or-everythings-a-nail-if-you-hit-it-with-emacs--alfred-zanini--main.vtt
-:SPEAKERS: Alfred Zanini
+:DATE: 2022-12-03T21:50:00+0000
+:URL: https://emacsconf.org/2022/talks/sat-close
+:DURATION: ${duration}
+:MEDIA_URL: https://media.emacsconf.org/2022/emacsconf-2022-sat-close--saturday-closing-remarks--main.webm
+:YOUTUBE_URL: 
+:TOOBNIX_URL: 
+:TRANSCRIPT_URL: https://media.emacsconf.org/2022/emacsconf-2022-sat-close--saturday-closing-remarks--main.vtt
+:SPEAKERS: 
 :SERIES: EmacsConf 2022
 :END:
-* Back to school with Emacs  :emacsconf:emacsconf2022:student:org:
+* Q&A: Haskell code exploration with Emacs  :answers:emacsconf:emacsconf2022:
 :PROPERTIES:
-:DATE: 2022-12-03
-:URL: https://emacsconf.org/2022/talks/school
-:MEDIA_URL: https://media.emacsconf.org/2022/emacsconf-2022-school--back-to-school-with-emacs--daniel-rosel--main.webm
-:YOUTUBE_URL: https://youtu.be/hvwHGwIabLM
-:TOOBNIX_URL: https://toobnix.org/w/tM8H4Dj2hZ69CwWMFStZqX
-:TRANSCRIPT_URL: https://media.emacsconf.org/2022/emacsconf-2022-school--back-to-school-with-emacs--daniel-rosel--main.vtt
-:SPEAKERS: Daniel Rösel
+:DATE: 2022-12-03T21:05:00+0000
+:URL: https://emacsconf.org/2022/talks/haskell
+:DURATION: 16:51
+:MEDIA_URL: https://media.emacsconf.org/2022/emacsconf-2022-haskell--haskell-code-exploration-with-emacs--yuchen-pei--answers.webm
+:YOUTUBE_URL: https://youtu.be/UZ_NzBz62AI
+:TOOBNIX_URL: https://toobnix.org/w/gBZGdkBAYzeWEZgqDJMUzk
+:TRANSCRIPT_URL: https://media.emacsconf.org/2022/emacsconf-2022-haskell--haskell-code-exploration-with-emacs--yuchen-pei--answers.vtt
+:SPEAKERS: Yuchen Pei
 :SERIES: EmacsConf 2022
 :END:
-* Tree-sitter beyond syntax highlighting  :emacsconf:emacsconf2022:dev:treesitter:
+* Haskell code exploration with Emacs  :emacsconf:emacsconf2022:coding:haskell:
 :PROPERTIES:
-:DATE: 2022-12-03
-:URL: https://emacsconf.org/2022/talks/treesitter
-:MEDIA_URL: https://media.emacsconf.org/2022/emacsconf-2022-treesitter--treesitter-beyond-syntax-highlighting--abin-simon--main.webm
-:YOUTUBE_URL: https://youtu.be/MZPR_SC9LzE
-:TOOBNIX_URL: https://toobnix.org/w/4AKhgQA71ewnyhDUsBnfKt
-:TRANSCRIPT_URL: https://media.emacsconf.org/2022/emacsconf-2022-treesitter--treesitter-beyond-syntax-highlighting--abin-simon--main.vtt
-:SPEAKERS: Abin Simon
+:DATE:     2022-12-03T21:05:00+0000
+:URL: https://emacsconf.org/2022/talks/haskell
+:MEDIA_URL: https://media.emacsconf.org/2022/emacsconf-2022-haskell--haskell-code-exploration-with-emacs--yuchen-pei--main.webm
+:YOUTUBE_URL: https://youtu.be/_HlirFYS3Iw
+:TOOBNIX_URL: https://toobnix.org/w/6u6Pd9P8zcbwfFVXNHYzUz
+:TRANSCRIPT_URL: https://media.emacsconf.org/2022/emacsconf-2022-haskell--haskell-code-exploration-with-emacs--yuchen-pei--main.vtt
+:SPEAKERS: Yuchen Pei
 :SERIES: EmacsConf 2022
 :END:
-* How to incorporate handwritten notes into Emacs Orgmode  :emacsconf:emacsconf2022:org:images:
+* Q&A: Edit live Jupyter notebook cells with Emacs  :answers:emacsconf:emacsconf2022:org:
 :PROPERTIES:
-:DATE: 2022-12-03
-:URL: https://emacsconf.org/2022/talks/handwritten
-:MEDIA_URL: https://media.emacsconf.org/2022/emacsconf-2022-handwritten--how-to-incorporate-handwritten-notes-into-emacs-orgmode--bala-ramadurai--main.webm
-:YOUTUBE_URL: https://youtu.be/PYFJsk4Yub8
-:TOOBNIX_URL: https://toobnix.org/w/kr86uvn8KHey8cGULY71Aw
-:TRANSCRIPT_URL: https://media.emacsconf.org/2022/emacsconf-2022-handwritten--how-to-incorporate-handwritten-notes-into-emacs-orgmode--bala-ramadurai--main.vtt
-:SPEAKERS: Bala Ramadurai
+:DATE: 2022-12-03T20:45:00+0000
+:URL: https://emacsconf.org/2022/talks/jupyter
+:DURATION: 14:40
+:MEDIA_URL: https://media.emacsconf.org/2022/emacsconf-2022-jupyter--edit-live-jupyter-notebook-cells-with-emacs--blaine-mooers--answers.webm
+:YOUTUBE_URL: https://youtu.be/Q453L_whGEc
+:TOOBNIX_URL: https://toobnix.org/w/16wHFkjKPU6u1zQZNaRiWz
+:TRANSCRIPT_URL: https://media.emacsconf.org/2022/emacsconf-2022-jupyter--edit-live-jupyter-notebook-cells-with-emacs--blaine-mooers--answers.vtt
+:SPEAKERS: Blaine Mooers
 :SERIES: EmacsConf 2022
 :END:
-* lsp-bridge: a smooth-as-butter asynchronous LSP client  :emacsconf:emacsconf2022:coding:dev:async:
+* Edit live Jupyter notebook cells with Emacs  :emacsconf:emacsconf2022:org:literate:jupyter:
 :PROPERTIES:
-:DATE: 2022-12-03
-:URL: https://emacsconf.org/2022/talks/lspbridge
-:MEDIA_URL: https://media.emacsconf.org/2022/emacsconf-2022-lspbridge--lspbridge-a-smooth-as-butter-asynchronous-lsp-client--andy-stewart-matthew-zeng--main.webm
-:YOUTUBE_URL: https://youtu.be/ooCyJ30XeTo
-:TOOBNIX_URL: https://toobnix.org/w/oWZ7s5B5pw6vayDKPJQVBG
-:TRANSCRIPT_URL: https://media.emacsconf.org/2022/emacsconf-2022-lspbridge--lspbridge-a-smooth-as-butter-asynchronous-lsp-client--andy-stewart-matthew-zeng--main.vtt
-:SPEAKERS: Andy Stewart, Matthew Zeng
+:DATE:     2022-12-03T20:45:00+0000
+:URL: https://emacsconf.org/2022/talks/jupyter
+:MEDIA_URL: https://media.emacsconf.org/2022/emacsconf-2022-jupyter--edit-live-jupyter-notebook-cells-with-emacs--blaine-mooers--main.webm
+:YOUTUBE_URL: https://youtu.be/2NPUDYAOgW0
+:TOOBNIX_URL: https://toobnix.org/w/3umjDWcUmHoypvBnzw7dTQ
+:TRANSCRIPT_URL: https://media.emacsconf.org/2022/emacsconf-2022-jupyter--edit-live-jupyter-notebook-cells-with-emacs--blaine-mooers--main.vtt
+:SPEAKERS: Blaine Mooers
 :SERIES: EmacsConf 2022
 :END:
-* Writing and organizing literature notes for scientific writing  :emacsconf:emacsconf2022:writing:research:
+* Bidirectional links with eev  :emacsconf:emacsconf2022:eev:
 :PROPERTIES:
-:DATE: 2022-12-03
-:URL: https://emacsconf.org/2022/talks/science
-:MEDIA_URL: https://media.emacsconf.org/2022/emacsconf-2022-science--writing-and-organizing-literature-notes-for-scientific-writing--vidianos--main.webm
-:YOUTUBE_URL: https://youtu.be/dJ859kiFRLg
-:TOOBNIX_URL: https://toobnix.org/w/v8ypuDbDai4WJYu5CbVRYc
-:TRANSCRIPT_URL: https://media.emacsconf.org/2022/emacsconf-2022-science--writing-and-organizing-literature-notes-for-scientific-writing--vidianos--main.vtt
-:SPEAKERS: Vidianos Giannitsis
+:DATE:     2022-12-03T20:35:00+0000
+:URL: https://emacsconf.org/2022/talks/eev
+:MEDIA_URL: https://media.emacsconf.org/2022/emacsconf-2022-eev--bidirectional-links-with-eev--eduardo-ochs--main.webm
+:YOUTUBE_URL: https://youtu.be/ds8LNPnNY-M
+:TOOBNIX_URL: https://toobnix.org/w/hQUQSeECqpb3AMSqiViksa
+:TRANSCRIPT_URL: https://media.emacsconf.org/2022/emacsconf-2022-eev--bidirectional-links-with-eev--eduardo-ochs--main.vtt
+:SPEAKERS: Eduardo Ochs
 :SERIES: EmacsConf 2022
 :END:
-* asm-blox: a game based on WebAssembly that no one asked for  :emacsconf:emacsconf2022:fun:
+* Q&A: Health data journaling and visualization with Org Mode and gnuplot  :answers:emacsconf:emacsconf2022:org:
 :PROPERTIES:
-:DATE: 2022-12-03
-:URL: https://emacsconf.org/2022/talks/asmblox
-:MEDIA_URL: https://media.emacsconf.org/2022/emacsconf-2022-asmblox--asmblox-a-game-based-on-webassembly-that-no-one-asked-for--zachary-romero--main.webm
-:YOUTUBE_URL: https://youtu.be/M-WEUbGSPUo
-:TOOBNIX_URL: https://toobnix.org/w/rfZ2V1DZNgpMh18gKrsXmY
-:TRANSCRIPT_URL: https://media.emacsconf.org/2022/emacsconf-2022-asmblox--asmblox-a-game-based-on-webassembly-that-no-one-asked-for--zachary-romero--main.vtt
-:SPEAKERS: Zachary Romero
+:DATE: 2022-12-03T20:00:00+0000
+:URL: https://emacsconf.org/2022/talks/health
+:DURATION: 20:16
+:MEDIA_URL: https://media.emacsconf.org/2022/emacsconf-2022-health--health-data-journaling-and-visualization-with-org-mode-and-gnuplot--david-otoole--answers.webm
+:YOUTUBE_URL: https://youtu.be/XTDpzx9QHSI
+:TOOBNIX_URL: https://toobnix.org/w/kW6tM44NZZ7hVpojJnn9Pn
+:TRANSCRIPT_URL: https://media.emacsconf.org/2022/emacsconf-2022-health--health-data-journaling-and-visualization-with-org-mode-and-gnuplot--david-otoole--answers.vtt
+:SPEAKERS: David O'Toole
 :SERIES: EmacsConf 2022
 :END:
-* The Emacs Buddy initiative  :emacsconf:emacsconf2022:community:mentoring:
+* Health data journaling and visualization with Org Mode and gnuplot  :emacsconf:emacsconf2022:org:OrgBabel:visualization:
 :PROPERTIES:
-:DATE: 2022-12-03
-:URL: https://emacsconf.org/2022/talks/buddy
-:MEDIA_URL: https://media.emacsconf.org/2022/emacsconf-2022-buddy--the-emacs-buddy-initiative--andrea--main.webm
-:YOUTUBE_URL: https://youtu.be/UlZXd4VqbI8
-:TOOBNIX_URL: https://toobnix.org/w/rGaAhFjM5GCvNHBhs39JA3
-:TRANSCRIPT_URL: https://media.emacsconf.org/2022/emacsconf-2022-buddy--the-emacs-buddy-initiative--andrea--main.vtt
-:SPEAKERS: Andrea
+:DATE:     2022-12-03T20:00:00+0000
+:URL: https://emacsconf.org/2022/talks/health
+:MEDIA_URL: https://media.emacsconf.org/2022/emacsconf-2022-health--health-data-journaling-and-visualization-with-org-mode-and-gnuplot--david-otoole--main.webm
+:YOUTUBE_URL: https://youtu.be/YmQ1CYMz-OY
+:TOOBNIX_URL: https://toobnix.org/w/j4M57ijUYE4DMVwT9X3CYB
+:TRANSCRIPT_URL: https://media.emacsconf.org/2022/emacsconf-2022-health--health-data-journaling-and-visualization-with-org-mode-and-gnuplot--david-otoole--main.vtt
+:SPEAKERS: David O'Toole
 :SERIES: EmacsConf 2022
 :END:
-* Emacs should become a Wayland compositor  :emacsconf:emacsconf2022:dev:
+* Q&A: Maintaining the Maintainers: Attribution as an Economic Model for Open Source  :answers:emacsconf:emacsconf2022:
 :PROPERTIES:
-:DATE: 2022-12-03
-:URL: https://emacsconf.org/2022/talks/wayland
-:MEDIA_URL: https://media.emacsconf.org/2022/emacsconf-2022-wayland--emacs-should-become-a-wayland-compositor--michael-bauer--main.webm
-:YOUTUBE_URL: https://youtu.be/igLhj3hsuME
-:TOOBNIX_URL: https://toobnix.org/w/enc6bnYbm2gHpwrBa6bVjR
-:TRANSCRIPT_URL: https://media.emacsconf.org/2022/emacsconf-2022-wayland--emacs-should-become-a-wayland-compositor--michael-bauer--main.vtt
-:SPEAKERS: Michael Bauer
+:DATE: 2022-12-03T19:50:00+0000
+:URL: https://emacsconf.org/2022/talks/maint
+:DURATION: 25:11
+:MEDIA_URL: https://media.emacsconf.org/2022/emacsconf-2022-maint--maintaining-the-maintainers-attribution-as-an-economic-model-for-open-source--sid-kasivajhula--answers.webm
+:YOUTUBE_URL: https://youtu.be/Py0cGYXHt-8
+:TOOBNIX_URL: https://toobnix.org/w/saXMKttz159pnWtkTHWQcW
+:TRANSCRIPT_URL: https://media.emacsconf.org/2022/emacsconf-2022-maint--maintaining-the-maintainers-attribution-as-an-economic-model-for-open-source--sid-kasivajhula--answers.vtt
+:SPEAKERS: Sid Kasivajhula
+:SERIES: EmacsConf 2022
+:END:
+* Maintaining the Maintainers: Attribution as an Economic Model for Open Source  :emacsconf:emacsconf2022:maintenance:community:philosophy:
+:PROPERTIES:
+:DATE:     2022-12-03T19:50:00+0000
+:URL: https://emacsconf.org/2022/talks/maint
+:MEDIA_URL: https://media.emacsconf.org/2022/emacsconf-2022-maint--maintaining-the-maintainers-attribution-as-an-economic-model-for-open-source--sid-kasivajhula--main.webm
+:YOUTUBE_URL: https://youtu.be/1WIulCmIHZ4
+:TOOBNIX_URL: https://toobnix.org/w/6vrCBs7r9RELh2byQ4CMsj
+:TRANSCRIPT_URL: https://media.emacsconf.org/2022/emacsconf-2022-maint--maintaining-the-maintainers-attribution-as-an-economic-model-for-open-source--sid-kasivajhula--main.vtt
+:SPEAKERS: Sid Kasivajhula
+:SERIES: EmacsConf 2022
+:END:
+* Real estate and Org table formulas  :emacsconf:emacsconf2022:org:tables:
+:PROPERTIES:
+:DATE:     2022-12-03T19:15:00+0000
+:URL: https://emacsconf.org/2022/talks/realestate
+:MEDIA_URL: https://media.emacsconf.org/2022/emacsconf-2022-realestate--real-estate-and-org-table-formulas--daniel-gopar--main.webm
+:YOUTUBE_URL: https://youtu.be/yoyoBMPD53o
+:TOOBNIX_URL: https://toobnix.org/w/wNqs2ukhcQwCzUkar2bq55
+:TRANSCRIPT_URL: https://media.emacsconf.org/2022/emacsconf-2022-realestate--real-estate-and-org-table-formulas--daniel-gopar--main.vtt
+:SPEAKERS: Daniel Gopar
+:SERIES: EmacsConf 2022
+:END:
+* Q&A: Revisiting the anatomy of Emacs mail user agents  :answers:emacsconf:emacsconf2022:
+:PROPERTIES:
+:DATE: 2022-12-03T18:50:00+0000
+:URL: https://emacsconf.org/2022/talks/mail
+:DURATION: 36:57
+:MEDIA_URL: https://media.emacsconf.org/2022/emacsconf-2022-mail--revisiting-the-anatomy-of-emacs-mail-user-agents--mohsen-banan--answers.webm
+:YOUTUBE_URL: https://youtu.be/qDNhbJpvwo8
+:TOOBNIX_URL: https://toobnix.org/w/soFSSZYnbmfm1WE3WhUMpL
+:TRANSCRIPT_URL: https://media.emacsconf.org/2022/emacsconf-2022-mail--revisiting-the-anatomy-of-emacs-mail-user-agents--mohsen-banan--answers.vtt
+:SPEAKERS: Mohsen BANAN
+:SERIES: EmacsConf 2022
+:END:
+* Revisiting the anatomy of Emacs mail user agents  :emacsconf:emacsconf2022:mail:
+:PROPERTIES:
+:DATE:     2022-12-03T18:50:00+0000
+:URL: https://emacsconf.org/2022/talks/mail
+:MEDIA_URL: https://media.emacsconf.org/2022/emacsconf-2022-mail--revisiting-the-anatomy-of-emacs-mail-user-agents--mohsen-banan--main.webm
+:YOUTUBE_URL: https://youtu.be/dJXBUlbxU3E
+:TOOBNIX_URL: https://toobnix.org/w/dAg6eAtVYa2oVuSBcMZE9q
+:TRANSCRIPT_URL: https://media.emacsconf.org/2022/emacsconf-2022-mail--revisiting-the-anatomy-of-emacs-mail-user-agents--mohsen-banan--main.vtt
+:SPEAKERS: Mohsen BANAN
+:SERIES: EmacsConf 2022
+:END:
+* Q&A: Linking personal info with Hyperbole implicit buttons  :answers:emacsconf:emacsconf2022:
+:PROPERTIES:
+:DATE: 2022-12-03T18:40:00+0000
+:URL: https://emacsconf.org/2022/talks/buttons
+:DURATION: 22:54
+:MEDIA_URL: https://media.emacsconf.org/2022/emacsconf-2022-buttons--linking-personal-info-with-hyperbole-implicit-buttons--mats-lidell--answers.webm
+:YOUTUBE_URL: https://youtu.be/R3G-bLHz_S0
+:TOOBNIX_URL: https://toobnix.org/w/9DNMesmvexjDyJxait12gp
+:TRANSCRIPT_URL: https://media.emacsconf.org/2022/emacsconf-2022-buttons--linking-personal-info-with-hyperbole-implicit-buttons--mats-lidell--answers.vtt
+:SPEAKERS: Mats Lidell
+:SERIES: EmacsConf 2022
+:END:
+* Linking personal info with Hyperbole implicit buttons  :emacsconf:emacsconf2022:hyperbole:
+:PROPERTIES:
+:DATE:     2022-12-03T18:40:00+0000
+:URL: https://emacsconf.org/2022/talks/buttons
+:MEDIA_URL: https://media.emacsconf.org/2022/emacsconf-2022-buttons--linking-personal-info-with-hyperbole-implicit-buttons--mats-lidell--main.webm
+:YOUTUBE_URL: https://youtu.be/TQ_fG7b1iHI
+:TOOBNIX_URL: https://toobnix.org/w/uLx9KkUP8SbH2KZfynEtLR
+:TRANSCRIPT_URL: https://media.emacsconf.org/2022/emacsconf-2022-buttons--linking-personal-info-with-hyperbole-implicit-buttons--mats-lidell--main.vtt
+:SPEAKERS: Mats Lidell
+:SERIES: EmacsConf 2022
+:END:
+* Q&A: Attending and organizing Emacs meetups  :answers:emacsconf:emacsconf2022:
+:PROPERTIES:
+:DATE: 2022-12-03T18:00:00+0000
+:URL: https://emacsconf.org/2022/talks/meetups
+:DURATION: 17:58
+:MEDIA_URL: https://media.emacsconf.org/2022/emacsconf-2022-meetups--attending-and-organizing-emacs-meetups--bhavin-gandhi--answers.webm
+:YOUTUBE_URL: https://youtu.be/QwoJ7Twto40
+:TOOBNIX_URL: https://toobnix.org/w/68KMrYcPue17Th83HxGUmB
+:TRANSCRIPT_URL: https://media.emacsconf.org/2022/emacsconf-2022-meetups--attending-and-organizing-emacs-meetups--bhavin-gandhi--answers.vtt
+:SPEAKERS: Bhavin Gandhi
+:SERIES: EmacsConf 2022
+:END:
+* Q&A: Using SQLite as a data source: a framework and an example  :answers:emacsconf:emacsconf2022:
+:PROPERTIES:
+:DATE: 2022-12-03T18:00:00+0000
+:URL: https://emacsconf.org/2022/talks/sqlite
+:DURATION: 25:20
+:MEDIA_URL: https://media.emacsconf.org/2022/emacsconf-2022-sqlite--using-sqlite-as-a-data-source-a-framework-and-an-example--andrew-hyatt--answers.webm
+:YOUTUBE_URL: https://www.youtube.com/watch?v=YtDKhfs6VxU
+:TOOBNIX_URL: https://toobnix.org/w/bGmq7khgfk9fXiwpWzZbTe
+:TRANSCRIPT_URL: https://media.emacsconf.org/2022/emacsconf-2022-sqlite--using-sqlite-as-a-data-source-a-framework-and-an-example--andrew-hyatt--answers.vtt
+:SPEAKERS: Andrew Hyatt
 :SERIES: EmacsConf 2022
 :END:
 * Attending and organizing Emacs meetups  :emacsconf:emacsconf2022:community:
 :PROPERTIES:
-:DATE: 2022-12-03
+:DATE:     2022-12-03T18:00:00+0000
 :URL: https://emacsconf.org/2022/talks/meetups
 :MEDIA_URL: https://media.emacsconf.org/2022/emacsconf-2022-meetups--attending-and-organizing-emacs-meetups--bhavin-gandhi--main.webm
 :YOUTUBE_URL: https://youtu.be/kRhm0W3dCX8
@@ -11989,7 +12266,7 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
 :END:
 * Using SQLite as a data source: a framework and an example  :emacsconf:emacsconf2022:db:
 :PROPERTIES:
-:DATE: 2022-12-03
+:DATE:     2022-12-03T18:00:00+0000
 :URL: https://emacsconf.org/2022/talks/sqlite
 :MEDIA_URL: https://media.emacsconf.org/2022/emacsconf-2022-sqlite--using-sqlite-as-a-data-source-a-framework-and-an-example--andrew-hyatt--main.webm
 :YOUTUBE_URL: https://youtu.be/mQGhm79f8TY
@@ -11998,92 +12275,175 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
 :SPEAKERS: Andrew Hyatt
 :SERIES: EmacsConf 2022
 :END:
-* Linking personal info with Hyperbole implicit buttons  :emacsconf:emacsconf2022:hyperbole:
+* Q&A: Emacs should become a Wayland compositor  :answers:emacsconf:emacsconf2022:
 :PROPERTIES:
-:DATE: 2022-12-03
-:URL: https://emacsconf.org/2022/talks/buttons
-:MEDIA_URL: https://media.emacsconf.org/2022/emacsconf-2022-buttons--linking-personal-info-with-hyperbole-implicit-buttons--mats-lidell--main.webm
-:YOUTUBE_URL: https://youtu.be/TQ_fG7b1iHI
-:TOOBNIX_URL: https://toobnix.org/w/uLx9KkUP8SbH2KZfynEtLR
-:TRANSCRIPT_URL: https://media.emacsconf.org/2022/emacsconf-2022-buttons--linking-personal-info-with-hyperbole-implicit-buttons--mats-lidell--main.vtt
-:SPEAKERS: Mats Lidell
+:DATE: 2022-12-03T16:25:00+0000
+:URL: https://emacsconf.org/2022/talks/wayland
+:DURATION: 42:47
+:MEDIA_URL: https://media.emacsconf.org/2022/emacsconf-2022-wayland--emacs-should-become-a-wayland-compositor--michael-bauer--answers.webm
+:YOUTUBE_URL: https://www.youtube.com/watch?v=yZg0K1aqzEU
+:TOOBNIX_URL: https://toobnix.org/w/fFxcKTHupE4FHvjfvBdice
+:TRANSCRIPT_URL: https://media.emacsconf.org/2022/emacsconf-2022-wayland--emacs-should-become-a-wayland-compositor--michael-bauer--answers.vtt
+:SPEAKERS: Michael Bauer
 :SERIES: EmacsConf 2022
 :END:
-* Revisiting the anatomy of Emacs mail user agents  :emacsconf:emacsconf2022:mail:
+* The Emacs Buddy initiative  :emacsconf:emacsconf2022:community:mentoring:
 :PROPERTIES:
-:DATE: 2022-12-03
-:URL: https://emacsconf.org/2022/talks/mail
-:MEDIA_URL: https://media.emacsconf.org/2022/emacsconf-2022-mail--revisiting-the-anatomy-of-emacs-mail-user-agents--mohsen-banan--main.webm
-:YOUTUBE_URL: https://youtu.be/dJXBUlbxU3E
-:TOOBNIX_URL: https://toobnix.org/w/dAg6eAtVYa2oVuSBcMZE9q
-:TRANSCRIPT_URL: https://media.emacsconf.org/2022/emacsconf-2022-mail--revisiting-the-anatomy-of-emacs-mail-user-agents--mohsen-banan--main.vtt
-:SPEAKERS: Mohsen BANAN
+:DATE:     2022-12-03T16:25:00+0000
+:URL: https://emacsconf.org/2022/talks/buddy
+:MEDIA_URL: https://media.emacsconf.org/2022/emacsconf-2022-buddy--the-emacs-buddy-initiative--andrea--main.webm
+:YOUTUBE_URL: https://youtu.be/UlZXd4VqbI8
+:TOOBNIX_URL: https://toobnix.org/w/rGaAhFjM5GCvNHBhs39JA3
+:TRANSCRIPT_URL: https://media.emacsconf.org/2022/emacsconf-2022-buddy--the-emacs-buddy-initiative--andrea--main.vtt
+:SPEAKERS: Andrea
 :SERIES: EmacsConf 2022
 :END:
-* Real estate and Org table formulas  :emacsconf:emacsconf2022:org:tables:
+* Emacs should become a Wayland compositor  :emacsconf:emacsconf2022:dev:
 :PROPERTIES:
-:DATE: 2022-12-03
-:URL: https://emacsconf.org/2022/talks/realestate
-:MEDIA_URL: https://media.emacsconf.org/2022/emacsconf-2022-realestate--real-estate-and-org-table-formulas--daniel-gopar--main.webm
-:YOUTUBE_URL: https://youtu.be/yoyoBMPD53o
-:TOOBNIX_URL: https://toobnix.org/w/wNqs2ukhcQwCzUkar2bq55
-:TRANSCRIPT_URL: https://media.emacsconf.org/2022/emacsconf-2022-realestate--real-estate-and-org-table-formulas--daniel-gopar--main.vtt
-:SPEAKERS: Daniel Gopar
+:DATE:     2022-12-03T16:25:00+0000
+:URL: https://emacsconf.org/2022/talks/wayland
+:MEDIA_URL: https://media.emacsconf.org/2022/emacsconf-2022-wayland--emacs-should-become-a-wayland-compositor--michael-bauer--main.webm
+:YOUTUBE_URL: https://youtu.be/igLhj3hsuME
+:TOOBNIX_URL: https://toobnix.org/w/enc6bnYbm2gHpwrBa6bVjR
+:TRANSCRIPT_URL: https://media.emacsconf.org/2022/emacsconf-2022-wayland--emacs-should-become-a-wayland-compositor--michael-bauer--main.vtt
+:SPEAKERS: Michael Bauer
 :SERIES: EmacsConf 2022
 :END:
-* Maintaining the Maintainers: Attribution as an Economic Model for Open Source  :emacsconf:emacsconf2022:maintenance:community:philosophy:
+* Q&A: asm-blox: a game based on WebAssembly that no one asked for  :answers:emacsconf:emacsconf2022:
 :PROPERTIES:
-:DATE: 2022-12-03
-:URL: https://emacsconf.org/2022/talks/maint
-:MEDIA_URL: https://media.emacsconf.org/2022/emacsconf-2022-maint--maintaining-the-maintainers-attribution-as-an-economic-model-for-open-source--sid-kasivajhula--main.webm
-:YOUTUBE_URL: https://youtu.be/1WIulCmIHZ4
-:TOOBNIX_URL: https://toobnix.org/w/6vrCBs7r9RELh2byQ4CMsj
-:TRANSCRIPT_URL: https://media.emacsconf.org/2022/emacsconf-2022-maint--maintaining-the-maintainers-attribution-as-an-economic-model-for-open-source--sid-kasivajhula--main.vtt
-:SPEAKERS: Sid Kasivajhula
+:DATE: 2022-12-03T15:55:00+0000
+:URL: https://emacsconf.org/2022/talks/asmblox
+:DURATION: 14:19
+:MEDIA_URL: https://media.emacsconf.org/2022/emacsconf-2022-asmblox--asmblox-a-game-based-on-webassembly-that-no-one-asked-for--zachary-romero--answers.webm
+:YOUTUBE_URL: https://youtu.be/Gye4nOnmUXE
+:TOOBNIX_URL: https://toobnix.org/w/kKwTbaJxWugMeMSa32yw5w
+:TRANSCRIPT_URL: https://media.emacsconf.org/2022/emacsconf-2022-asmblox--asmblox-a-game-based-on-webassembly-that-no-one-asked-for--zachary-romero--answers.vtt
+:SPEAKERS: Zachary Romero
 :SERIES: EmacsConf 2022
 :END:
-* Health data journaling and visualization with Org Mode and gnuplot  :emacsconf:emacsconf2022:org:OrgBabel:visualization:
+* asm-blox: a game based on WebAssembly that no one asked for  :emacsconf:emacsconf2022:fun:
 :PROPERTIES:
-:DATE: 2022-12-03
-:URL: https://emacsconf.org/2022/talks/health
-:MEDIA_URL: https://media.emacsconf.org/2022/emacsconf-2022-health--health-data-journaling-and-visualization-with-org-mode-and-gnuplot--david-otoole--main.webm
-:YOUTUBE_URL: https://youtu.be/YmQ1CYMz-OY
-:TOOBNIX_URL: https://toobnix.org/w/j4M57ijUYE4DMVwT9X3CYB
-:TRANSCRIPT_URL: https://media.emacsconf.org/2022/emacsconf-2022-health--health-data-journaling-and-visualization-with-org-mode-and-gnuplot--david-otoole--main.vtt
-:SPEAKERS: David O'Toole
+:DATE:     2022-12-03T15:55:00+0000
+:URL: https://emacsconf.org/2022/talks/asmblox
+:MEDIA_URL: https://media.emacsconf.org/2022/emacsconf-2022-asmblox--asmblox-a-game-based-on-webassembly-that-no-one-asked-for--zachary-romero--main.webm
+:YOUTUBE_URL: https://youtu.be/M-WEUbGSPUo
+:TOOBNIX_URL: https://toobnix.org/w/rfZ2V1DZNgpMh18gKrsXmY
+:TRANSCRIPT_URL: https://media.emacsconf.org/2022/emacsconf-2022-asmblox--asmblox-a-game-based-on-webassembly-that-no-one-asked-for--zachary-romero--main.vtt
+:SPEAKERS: Zachary Romero
 :SERIES: EmacsConf 2022
 :END:
-* Bidirectional links with eev  :emacsconf:emacsconf2022:eev:
+* Q&A: Writing and organizing literature notes for scientific writing  :answers:emacsconf:emacsconf2022:
 :PROPERTIES:
-:DATE: 2022-12-03
-:URL: https://emacsconf.org/2022/talks/eev
-:MEDIA_URL: https://media.emacsconf.org/2022/emacsconf-2022-eev--bidirectional-links-with-eev--eduardo-ochs--main.webm
-:YOUTUBE_URL: https://youtu.be/ds8LNPnNY-M
-:TOOBNIX_URL: https://toobnix.org/w/hQUQSeECqpb3AMSqiViksa
-:TRANSCRIPT_URL: https://media.emacsconf.org/2022/emacsconf-2022-eev--bidirectional-links-with-eev--eduardo-ochs--main.vtt
-:SPEAKERS: Eduardo Ochs
+:DATE: 2022-12-03T15:45:00+0000
+:URL: https://emacsconf.org/2022/talks/science
+:DURATION: 22:01
+:MEDIA_URL: https://media.emacsconf.org/2022/emacsconf-2022-science--writing-and-organizing-literature-notes-for-scientific-writing--vidianos--answers.webm
+:YOUTUBE_URL: https://www.youtube.com/watch?v=Y77Wn4unEQ8
+:TOOBNIX_URL: https://toobnix.org/w/bJBbhhPs5ka5sYHQMiKGX6
+:TRANSCRIPT_URL: https://media.emacsconf.org/2022/emacsconf-2022-science--writing-and-organizing-literature-notes-for-scientific-writing--vidianos--answers.vtt
+:SPEAKERS: Vidianos Giannitsis
 :SERIES: EmacsConf 2022
 :END:
-* Edit live Jupyter notebook cells with Emacs  :emacsconf:emacsconf2022:org:literate:jupyter:
+* Writing and organizing literature notes for scientific writing  :emacsconf:emacsconf2022:writing:research:
 :PROPERTIES:
-:DATE: 2022-12-03
-:URL: https://emacsconf.org/2022/talks/jupyter
-:MEDIA_URL: https://media.emacsconf.org/2022/emacsconf-2022-jupyter--edit-live-jupyter-notebook-cells-with-emacs--blaine-mooers--main.webm
-:YOUTUBE_URL: https://youtu.be/2NPUDYAOgW0
-:TOOBNIX_URL: https://toobnix.org/w/3umjDWcUmHoypvBnzw7dTQ
-:TRANSCRIPT_URL: https://media.emacsconf.org/2022/emacsconf-2022-jupyter--edit-live-jupyter-notebook-cells-with-emacs--blaine-mooers--main.vtt
-:SPEAKERS: Blaine Mooers
+:DATE:     2022-12-03T15:45:00+0000
+:URL: https://emacsconf.org/2022/talks/science
+:MEDIA_URL: https://media.emacsconf.org/2022/emacsconf-2022-science--writing-and-organizing-literature-notes-for-scientific-writing--vidianos--main.webm
+:YOUTUBE_URL: https://youtu.be/dJ859kiFRLg
+:TOOBNIX_URL: https://toobnix.org/w/v8ypuDbDai4WJYu5CbVRYc
+:TRANSCRIPT_URL: https://media.emacsconf.org/2022/emacsconf-2022-science--writing-and-organizing-literature-notes-for-scientific-writing--vidianos--main.vtt
+:SPEAKERS: Vidianos Giannitsis
 :SERIES: EmacsConf 2022
 :END:
-* Haskell code exploration with Emacs  :emacsconf:emacsconf2022:coding:haskell:
+* lsp-bridge: a smooth-as-butter asynchronous LSP client  :emacsconf:emacsconf2022:coding:dev:async:
 :PROPERTIES:
-:DATE: 2022-12-03
-:URL: https://emacsconf.org/2022/talks/haskell
-:MEDIA_URL: https://media.emacsconf.org/2022/emacsconf-2022-haskell--haskell-code-exploration-with-emacs--yuchen-pei--main.webm
-:YOUTUBE_URL: https://youtu.be/_HlirFYS3Iw
-:TOOBNIX_URL: https://toobnix.org/w/6u6Pd9P8zcbwfFVXNHYzUz
-:TRANSCRIPT_URL: https://media.emacsconf.org/2022/emacsconf-2022-haskell--haskell-code-exploration-with-emacs--yuchen-pei--main.vtt
-:SPEAKERS: Yuchen Pei
+:DATE:     2022-12-03T15:25:00+0000
+:URL: https://emacsconf.org/2022/talks/lspbridge
+:MEDIA_URL: https://media.emacsconf.org/2022/emacsconf-2022-lspbridge--lspbridge-a-smooth-as-butter-asynchronous-lsp-client--andy-stewart-matthew-zeng--main.webm
+:YOUTUBE_URL: https://youtu.be/ooCyJ30XeTo
+:TOOBNIX_URL: https://toobnix.org/w/oWZ7s5B5pw6vayDKPJQVBG
+:TRANSCRIPT_URL: https://media.emacsconf.org/2022/emacsconf-2022-lspbridge--lspbridge-a-smooth-as-butter-asynchronous-lsp-client--andy-stewart-matthew-zeng--main.vtt
+:SPEAKERS: Andy Stewart, Matthew Zeng
+:SERIES: EmacsConf 2022
+:END:
+* Q&A: How to incorporate handwritten notes into Emacs Orgmode  :answers:emacsconf:emacsconf2022:org:
+:PROPERTIES:
+:DATE: 2022-12-03T15:05:00+0000
+:URL: https://emacsconf.org/2022/talks/handwritten
+:DURATION: 28:36
+:MEDIA_URL: https://media.emacsconf.org/2022/emacsconf-2022-handwritten--how-to-incorporate-handwritten-notes-into-emacs-orgmode--bala-ramadurai--answers.webm
+:YOUTUBE_URL: https://www.youtube.com/watch?v=ctlAFcGkNNc
+:TOOBNIX_URL: https://toobnix.org/w/nJpQ6M32vkr8ZT46Qu879H
+:TRANSCRIPT_URL: https://media.emacsconf.org/2022/emacsconf-2022-handwritten--how-to-incorporate-handwritten-notes-into-emacs-orgmode--bala-ramadurai--answers.vtt
+:SPEAKERS: Bala Ramadurai
+:SERIES: EmacsConf 2022
+:END:
+* How to incorporate handwritten notes into Emacs Orgmode  :emacsconf:emacsconf2022:org:images:
+:PROPERTIES:
+:DATE:     2022-12-03T15:05:00+0000
+:URL: https://emacsconf.org/2022/talks/handwritten
+:MEDIA_URL: https://media.emacsconf.org/2022/emacsconf-2022-handwritten--how-to-incorporate-handwritten-notes-into-emacs-orgmode--bala-ramadurai--main.webm
+:YOUTUBE_URL: https://youtu.be/PYFJsk4Yub8
+:TOOBNIX_URL: https://toobnix.org/w/kr86uvn8KHey8cGULY71Aw
+:TRANSCRIPT_URL: https://media.emacsconf.org/2022/emacsconf-2022-handwritten--how-to-incorporate-handwritten-notes-into-emacs-orgmode--bala-ramadurai--main.vtt
+:SPEAKERS: Bala Ramadurai
+:SERIES: EmacsConf 2022
+:END:
+* Tree-sitter beyond syntax highlighting  :emacsconf:emacsconf2022:dev:treesitter:
+:PROPERTIES:
+:DATE:     2022-12-03T15:00:00+0000
+:URL: https://emacsconf.org/2022/talks/treesitter
+:MEDIA_URL: https://media.emacsconf.org/2022/emacsconf-2022-treesitter--treesitter-beyond-syntax-highlighting--abin-simon--main.webm
+:YOUTUBE_URL: https://youtu.be/MZPR_SC9LzE
+:TOOBNIX_URL: https://toobnix.org/w/4AKhgQA71ewnyhDUsBnfKt
+:TRANSCRIPT_URL: https://media.emacsconf.org/2022/emacsconf-2022-treesitter--treesitter-beyond-syntax-highlighting--abin-simon--main.vtt
+:SPEAKERS: Abin Simon
+:SERIES: EmacsConf 2022
+:END:
+* Back to school with Emacs  :emacsconf:emacsconf2022:student:org:
+:PROPERTIES:
+:DATE:     2022-12-03T14:45:00+0000
+:URL: https://emacsconf.org/2022/talks/school
+:MEDIA_URL: https://media.emacsconf.org/2022/emacsconf-2022-school--back-to-school-with-emacs--daniel-rosel--main.webm
+:YOUTUBE_URL: https://youtu.be/hvwHGwIabLM
+:TOOBNIX_URL: https://toobnix.org/w/tM8H4Dj2hZ69CwWMFStZqX
+:TRANSCRIPT_URL: https://media.emacsconf.org/2022/emacsconf-2022-school--back-to-school-with-emacs--daniel-rosel--main.vtt
+:SPEAKERS: Daniel Rösel
+:SERIES: EmacsConf 2022
+:END:
+* Q&A: Emacs journalism (or everything's a nail if you hit it with Emacs)  :answers:emacsconf:emacsconf2022:
+:PROPERTIES:
+:DATE: 2022-12-03T14:05:00+0000
+:URL: https://emacsconf.org/2022/talks/journalism
+:DURATION: 26:24
+:MEDIA_URL: https://media.emacsconf.org/2022/emacsconf-2022-journalism--emacs-journalism-or-everythings-a-nail-if-you-hit-it-with-emacs--alfred-zanini--answers.webm
+:YOUTUBE_URL: https://www.youtube.com/watch?v=aePiLHgv42M
+:TOOBNIX_URL: https://toobnix.org/w/8epq1APUfickhwTK8Kc6bQ
+:TRANSCRIPT_URL: https://media.emacsconf.org/2022/emacsconf-2022-journalism--emacs-journalism-or-everythings-a-nail-if-you-hit-it-with-emacs--alfred-zanini--answers.vtt
+:SPEAKERS: Alfred Zanini
+:SERIES: EmacsConf 2022
+:END:
+* Emacs journalism (or everything's a nail if you hit it with Emacs)  :emacsconf:emacsconf2022:org:pandoc:
+:PROPERTIES:
+:DATE:     2022-12-03T14:05:00+0000
+:URL: https://emacsconf.org/2022/talks/journalism
+:MEDIA_URL: https://media.emacsconf.org/2022/emacsconf-2022-journalism--emacs-journalism-or-everythings-a-nail-if-you-hit-it-with-emacs--alfred-zanini--main.webm
+:YOUTUBE_URL: https://youtu.be/E1GSKjx4S3Q
+:TOOBNIX_URL: https://toobnix.org/w/nqaGcHbHSY2dGxVpzvc3WX
+:TRANSCRIPT_URL: https://media.emacsconf.org/2022/emacsconf-2022-journalism--emacs-journalism-or-everythings-a-nail-if-you-hit-it-with-emacs--alfred-zanini--main.vtt
+:SPEAKERS: Alfred Zanini
+:SERIES: EmacsConf 2022
+:END:
+* Saturday opening remarks  :emacsconf:emacsconf2022:
+:PROPERTIES:
+:DATE: 2022-12-03T14:00:00+0000
+:URL: https://emacsconf.org/2022/talks/sat-open
+:DURATION: 3:20
+:MEDIA_URL: https://media.emacsconf.org/2022/emacsconf-2022-sat-open--opening-remarks--main.webm
+:YOUTUBE_URL: https://youtu.be/SVF0SY0TGRc
+:TOOBNIX_URL: https://toobnix.org/w/xp2YZmteZe5qgSvwQxfCUS
+:TRANSCRIPT_URL: https://media.emacsconf.org/2022/emacsconf-2022-sat-open--opening-remarks--main.vtt
+:SPEAKERS: Sacha Chua
 :SERIES: EmacsConf 2022
 :END:
 * EmacsConf 2022 Saturday closing remarks           :emacsconf:emacsconf2022:
