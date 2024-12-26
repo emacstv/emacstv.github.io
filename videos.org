@@ -1,3 +1,11 @@
+* Emacs: tone down Org citations on demand
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=X3fEO1_QDHA
+:DATE:     2024-12-26T06:28:40-08:00
+:SPEAKERS: Protesilaos Stavrou
+:DURATION: 04:44
+:END:
+  This is a short video demonstration of how I tone down Org citations using some custom code I wrote. I share the code and its annotated version on my website: https://protesilaos.com/codelog/2024-12-26-emacs-org-hide-citations-mode
 
 * Demo of New Elisp Package: Master of Ceremonies  :sharing:
 :PROPERTIES:
