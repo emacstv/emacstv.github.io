@@ -366,9 +366,9 @@ If a region is active, add all the YouTube links in that region."
 ;;;###autoload
 (defun emacstv-play (video)
 	(interactive (list (emacstv-complete-video)))
+	(require 'mpv)
 	(mpv-play-url (emacstv-video-url video)))
 
-;;;###autoload
 (defun emacstv-random-video ()
 	(let ((videos (emacstv-videos)))
 		(elt videos (random (length videos)))))
@@ -376,6 +376,7 @@ If a region is active, add all the YouTube links in that region."
 ;;;###autoload
 (defun emacstv-play-random ()
 	(interactive)
+	(require 'mpv)
 	(mpv-play-url (emacstv-video-url (emacstv-random-video))))
 
 (defun emacstv-format-seconds (seconds)
