@@ -363,14 +363,17 @@ If a region is active, add all the YouTube links in that region."
 			(assoc-default 'VIMEO_URL video #'string=)
 			(assoc-default 'YOUTUBE_URL video #'string=)))
 
+;;;###autoload
 (defun emacstv-play (video)
 	(interactive (list (emacstv-complete-video)))
 	(mpv-play-url (emacstv-video-url video)))
 
+;;;###autoload
 (defun emacstv-random-video ()
 	(let ((videos (emacstv-videos)))
 		(elt videos (random (length videos)))))
 
+;;;###autoload
 (defun emacstv-play-random ()
 	(interactive)
 	(mpv-play-url (emacstv-video-url (emacstv-random-video))))
@@ -380,6 +383,7 @@ If a region is active, add all the YouTube links in that region."
 	 "^0" ""
 	 (concat (format-seconds "%.2h:%z%.2m:%.2s" (floor seconds)))))
 
+;;;###autoload
 (define-minor-mode emacstv-background-mode
 	"Play random Emacs videos in the background."
 	:global t
