@@ -23,6 +23,17 @@
       color: #2A9D8F;
       cursor: pointer;
     }
+    #search-box {
+      width: 200px;
+      margin-bottom: 10px;
+      padding-top: 4px;
+      padding-bottom: 4px;
+    }
+    #search-button {
+      margin-left: 5px;
+      padding-top: 4px;
+      padding-bottom: 4px;
+    }
     #filter-speakers {
       width: 150px;
       margin-bottom: 10px;
@@ -182,9 +193,11 @@
   });
   function render(state, store) {
     let handlers = [];
-    const filteredHeadings = state.orgDocument.headings.filter((heading) => (state.filterByTags.length === 0 || state.filterByTags.every((filterTag) => heading.tags?.map((tag) => tag.toLowerCase()).includes(filterTag))) && (state.filterBySpeakers.length === 0 || state.filterBySpeakers.every((filterSpeaker) => heading.drawer?.SPEAKERS.split(",").map((speaker) => speaker.trim().toLowerCase()).includes(filterSpeaker.toLowerCase()))));
+    const filteredHeadings = state.orgDocument.headings.filter((heading) => (state.filterByTags.length === 0 || state.filterByTags.every((filterTag) => heading.tags?.map((tag) => tag.toLowerCase()).includes(filterTag))) && (state.filterBySpeakers.length === 0 || state.filterBySpeakers.every((filterSpeaker) => heading.drawer?.SPEAKERS.split(",").map((speaker) => speaker.trim().toLowerCase()).includes(filterSpeaker.toLowerCase()))) && (state.filterByTitle.length === 0 || state.filterByTitle.split(" ").every((filterTitle) => heading.title.toLowerCase().includes(filterTitle.trim().toLowerCase()))));
     const randomPick = new RandomPickRenderer(store).render(filteredHeadings);
     handlers = handlers.concat(randomPick.handlers);
+    const searchBox = new TextSearchRenderer(store).render(state.filterByTitle);
+    handlers = handlers.concat(searchBox.handlers);
     const tagPicker = new TagsPickerRenderer(store).render(state.orgDocument.headings);
     handlers = handlers.concat(tagPicker.handlers);
     const speakersPicker = new SpeakersRenderer(store).render(state.orgDocument.headings);
@@ -213,6 +226,7 @@
   ${randomPick.html}
 ${state.orgDocument.headings.length != 0 ? `
 <h2>Videos (${filteredHeadings.length})</h2>
+${searchBox.html}<br>
 ${speakersPicker.html} ${filterBySpeakers.html}<br>
 ${tagPicker.html} ${filterByTags.html}
 <br>
@@ -453,9 +467,57 @@ ${speakers ? `<span class="by">by </span><span class="speaker">${speakers}</span
       return { handlers, html };
     }
   };
+  var TextSearchRenderer = class {
+    constructor(store) {
+      this.store = store;
+      this.debounce = (fn, delay) => {
+        let timeout = null;
+        return (...args) => {
+          if (timeout) {
+            clearTimeout(timeout);
+          }
+          timeout = window.setTimeout(() => fn(...args), delay);
+        };
+      };
+    }
+    render(searchText) {
+      return {
+        handlers: [
+          {
+            nodeId: "search-button",
+            listenerName: "click",
+            handler: () => {
+              const inputElement = document.getElementById("search-box");
+              const searchValue = inputElement?.value.trim() || "";
+              this.store.state.mutate((state) => {
+                state.filterByTitle = searchValue;
+                return state;
+              });
+            }
+          },
+          {
+            nodeId: "search-box",
+            listenerName: "keydown",
+            handler: (event) => {
+              if (event.key === "Enter") {
+                const inputElement = event.currentTarget;
+                const searchValue = inputElement.value.trim() || "";
+                this.store.state.mutate((state) => {
+                  state.filterByTitle = searchValue;
+                  return state;
+                });
+              }
+            }
+          }
+        ],
+        html: `<input type="text" id="search-box" value="${searchText}" placeholder="Titled..."><button id="search-button">search</button>`
+      };
+    }
+  };
   var StateStore = class {
     constructor() {
       this.state = new ValueStream({
+        filterByTitle: "",
         filterByTags: [],
         filterBySpeakers: [],
         orgDocument: new OrgDocument([])
@@ -652,6 +714,7 @@ ${speakers ? `<span class="by">by </span><span class="speaker">${speakers}</span
   }
   function makeState() {
     return {
+      filterByTitle: "",
       filterByTags: [],
       filterBySpeakers: [],
       orgDocument: new OrgDocument([])

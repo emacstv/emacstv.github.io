@@ -15,6 +15,7 @@
 
 interface State {
   error?: string;
+  filterByTitle: string;
   filterByTags: string[];
   filterBySpeakers: string[];
   orgDocument: OrgDocument;
@@ -26,11 +27,17 @@ export function render(state: State, store: StateStore): RenderResult {
     (state.filterByTags.length === 0 || state.filterByTags.every(filterTag =>
       heading.tags?.map(tag => tag.toLowerCase()).includes(filterTag))) &&
     (state.filterBySpeakers.length === 0 || state.filterBySpeakers.every(filterSpeaker =>
-      heading.drawer?.SPEAKERS.split(',').map(speaker => speaker.trim().toLowerCase()).includes(filterSpeaker.toLowerCase()))));
+      heading.drawer?.SPEAKERS.split(',').map(speaker => speaker.trim().toLowerCase()).includes(filterSpeaker.toLowerCase()))) &&
+    (state.filterByTitle.length === 0 || state.filterByTitle.split(' ').every(filterTitle =>
+        heading.title.toLowerCase().includes(filterTitle.trim().toLowerCase()))));
 
   const randomPick = new RandomPickRenderer(store)
     .render(filteredHeadings);
   handlers = handlers.concat(randomPick.handlers);
+
+  const searchBox = new TextSearchRenderer(store)
+    .render(state.filterByTitle);
+  handlers = handlers.concat(searchBox.handlers);
 
   const tagPicker = new TagsPickerRenderer(store)
     .render(state.orgDocument.headings);
@@ -72,6 +79,7 @@ export function render(state: State, store: StateStore): RenderResult {
 ${state.orgDocument.headings.length != 0 ?
 `
 <h2>Videos (${filteredHeadings.length})</h2>
+${searchBox.html}<br>
 ${speakersPicker.html} ${filterBySpeakers.html}<br>
 ${tagPicker.html} ${filterByTags.html}
 <br>
@@ -374,11 +382,64 @@ class FilterByTagRenderer {
   }
 }
 
+class TextSearchRenderer {
+  private store: StateStore;
+  private debounce: (fn: (...args: any[]) => void, delay: number) => (...args: any[]) => void;
+
+  constructor(store: StateStore) {
+    this.store = store;
+    this.debounce = (fn, delay) => {
+      let timeout: number | null = null;
+      return (...args: any[]) => {
+        if (timeout) {
+          clearTimeout(timeout);
+        }
+        timeout = window.setTimeout(() => fn(...args), delay);
+      };
+    };
+  }
+
+  render(searchText: string): RenderResult {
+    return {
+      handlers: [
+        {
+          nodeId: 'search-button',
+          listenerName: 'click',
+          handler: () => {
+            const inputElement = document.getElementById('search-box') as HTMLInputElement;
+            const searchValue = inputElement?.value.trim() || '';
+            this.store.state.mutate(state => {
+              state.filterByTitle = searchValue;
+              return state;
+            });
+          }
+        },
+        {
+          nodeId: 'search-box',
+          listenerName: 'keydown',
+          handler: (event: KeyboardEvent) => {
+            if (event.key === 'Enter') {
+              const inputElement = event.currentTarget as HTMLInputElement;
+              const searchValue = inputElement.value.trim() || '';
+              this.store.state.mutate(state => {
+                state.filterByTitle = searchValue;
+                return state;
+              });
+            }
+          }
+        }
+      ],
+      html: `<input type="text" id="search-box" value="${searchText}" placeholder="Titled..."><button id="search-button">search</button>`
+    };
+  }
+}
+
 export class StateStore {
   public state: ValueStream<State>;
 
   constructor() {
     this.state = new ValueStream({
+      filterByTitle: "",
       filterByTags: [],
       filterBySpeakers: [],
       orgDocument: new OrgDocument([])
@@ -628,6 +689,7 @@ export function makeStore(): StateStore {
 
 export function makeState(): State {
   return {
+    filterByTitle: "",
     filterByTags: [],
     filterBySpeakers: [],
     orgDocument: new OrgDocument([])

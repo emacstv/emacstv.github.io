@@ -42,6 +42,17 @@ const htmlContent = `
       color: #2A9D8F;
       cursor: pointer;
     }
+    #search-box {
+      width: 200px;
+      margin-bottom: 10px;
+      padding-top: 4px;
+      padding-bottom: 4px;
+    }
+    #search-button {
+      margin-left: 5px;
+      padding-top: 4px;
+      padding-bottom: 4px;
+    }
     #filter-speakers {
       width: 150px;
       margin-bottom: 10px;
