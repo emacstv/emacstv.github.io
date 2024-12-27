@@ -391,7 +391,9 @@ Return nil if TIME-STRING doesn't match the pattern."
 	(interactive (list (emacstv-complete-video)))
 	(require 'mpv)
 	(setq emacstv-current-url (emacstv-video-url video))
-	(mpv-play-url emacstv-current-url))
+	(if (mpv-live-p)
+			(mpv-run-command "loadfile" emacstv-current-url)
+		(mpv-play-url emacstv-current-url)))
 
 (defun emacstv-random-video ()
 	(let ((videos (emacstv-videos)))
@@ -450,6 +452,27 @@ Return nil if TIME-STRING doesn't match the pattern."
 																			(format "%S" org-ql-view-query))))))
 	(require 'org-ql)
 	(org-ql-search (list emacstv-index-org) query)
+	(when (featurep 'hl-line)
+		(hl-line-mode 1)))
+
+(defun emacstv-org-ql-search-matching-untagged (query)
+	"Search for headings matching QUERY that don't have that as a tag."
+	(interactive (list (progn
+											 (read-string "Query: "
+																		(when (and (boundp 'org-ql-view-query) org-ql-view-query)
+																			(format "%S" org-ql-view-query))))))
+	(require 'org-ql)
+	(org-ql-search (list emacstv-index-org)
+		`(and (heading ,query) (not (tags ,query))))
+	(when (featurep 'hl-line)
+		(hl-line-mode 1)))
+
+(defun emacstv-org-ql-search-untagged ()
+	"Search for untagged items."
+	(interactive)
+	(require 'org-ql)
+	(org-ql-search (list emacstv-index-org)
+		`(and (not (tags-regexp "."))))
 	(when (featurep 'hl-line)
 		(hl-line-mode 1)))
 

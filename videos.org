@@ -1,5 +1,5 @@
 
-* Emacs: tone down Org citations on demand
+* Emacs: tone down Org citations on demand                              :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=X3fEO1_QDHA
 :DATE:     2024-12-26T14:28:40+0000
@@ -4234,7 +4234,7 @@ count-words-region
 
   Find all my publications on my website: https://protesilaos.com
 
-* Q&A: EmacsConf.org: How we use Org Mode and TRAMP to organize and run a multi-track conference  :answers:emacsconf:emacsconf2023:
+* Q&A: EmacsConf.org: How we use Org Mode and TRAMP to organize and run a multi-track conference :answers:emacsconf:emacsconf2023:org:
 :PROPERTIES:
 :DATE:     2023-12-03T21:00:00+0000
 :URL: https://emacsconf.org/2023/talks/emacsconf
@@ -4700,7 +4700,7 @@ count-words-region
 :SERIES: EmacsConf 2023
 :DURATION: 12:39
 :END:
-* Q&A: Literate Documentation with Emacs and Org Mode  :answers:emacsconf:emacsconf2023:
+* Q&A: Literate Documentation with Emacs and Org Mode :answers:emacsconf:emacsconf2023:org:
 :PROPERTIES:
 :DATE:     2023-12-02T20:10:00+0000
 :URL: https://emacsconf.org/2023/talks/doc
@@ -4796,7 +4796,7 @@ count-words-region
 :SERIES: EmacsConf 2023
 :DURATION: 09:35
 :END:
-* Q&A: Why Nabokov would use Org-Mode if he were writing today  :answers:emacsconf:emacsconf2023:
+* Q&A: Why Nabokov would use Org-Mode if he were writing today :answers:emacsconf:emacsconf2023:org:
 :PROPERTIES:
 :DATE:     2023-12-02T18:25:00+0000
 :URL: https://emacsconf.org/2023/talks/nabokov
@@ -6475,7 +6475,7 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
 
   #Emacs #IDE #Programming #SoftwareDevelopment #GNU #GNUEmacs
 
-* Learning Elisp part 6 - rot13 5 - rotating the region
+* Learning Elisp part 6 - rot13 5 - rotating the region               :elisp:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=YzQ8iG3nZQ8&list=PL9KxKa8NpFxKGctwh4-BqjQvdSRhh4NV-&index=8&pp=iAQB
 :DATE:     2023-08-07T16:54:30+0000
@@ -6486,7 +6486,7 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
 
   https://cestlaz.github.io/post/learning-elisp-5
 
-* Learning Elisp 6 - rot13 part 4 - Prefix Arguments
+* Learning Elisp 6 - rot13 part 4 - Prefix Arguments                  :elisp:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=5oHpxh0JsBE&list=PL9KxKa8NpFxKGctwh4-BqjQvdSRhh4NV-&index=7&pp=iAQB
 :DATE:     2023-08-07T16:54:23+0000
@@ -6538,7 +6538,7 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
 :END:
   Steps to follow if you want to contribute to emacs.git (core GNU Emacs project).  Find all my Emacs packages on my website: https://protesilaos.com/emacs
 
-* Learning Elisp 5 - Rot13 part 3 - interactive functions
+* Learning Elisp 5 - Rot13 part 3 - interactive functions             :elisp:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=WvPXnsNC8JU&list=PL9KxKa8NpFxKGctwh4-BqjQvdSRhh4NV-&index=6&pp=iAQB
 :DATE:     2023-08-01T15:03:40+0000
@@ -6549,7 +6549,7 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
 
   https://cestlaz.github.io/post/learning-elisp-5
 
-* Learning Elisp 5 - rot13 part 2 - conditionals
+* Learning Elisp 5 - rot13 part 2 - conditionals                      :elisp:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=gT8RBdtZtfk&list=PL9KxKa8NpFxKGctwh4-BqjQvdSRhh4NV-&index=5&pp=iAQB
 :DATE:     2023-08-01T15:03:36+0000
@@ -6610,7 +6610,7 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
 :END:
   In this video I show how to customise the Emacs mode line (the `mode-line-format`) to make it more useful and pretty.  The code I used, as well as links to my actual code, are on my website: https://protesilaos.com/codelog/2023-07-29-emacs-custom-modeline-tutorial/
 
-* Learning Elisp  4 - Rot13 part 1
+* Learning Elisp  4 - Rot13 part 1                                    :elisp:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=_3OvTrkSqEE&list=PL9KxKa8NpFxKGctwh4-BqjQvdSRhh4NV-&index=4&pp=iAQB
 :DATE:     2023-07-25T20:07:31+0000
@@ -6638,7 +6638,7 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
 
   Details: https://lifeofpenguin.blogspot.com/2023/07/tinylisp-and-multi-threaded-emacs.html
 
-* Learning Elisp 3 - Functions
+* Learning Elisp 3 - Functions                                        :elisp:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=v3wdkJa87No&list=PL9KxKa8NpFxKGctwh4-BqjQvdSRhh4NV-&index=3&pp=iAQB
 :DATE:     2023-07-14T15:46:24+0000
@@ -6649,7 +6649,7 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
 
   https://cestlaz.github.io/post/learning-elisp-3
 
-* Learning Elisp -2 - Variables
+* Learning Elisp -2 - Variables                                       :elisp:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=eQNqIsyw1mo&list=PL9KxKa8NpFxKGctwh4-BqjQvdSRhh4NV-&index=2&pp=iAQB
 :DATE:     2023-07-13T16:01:01+0000
@@ -6704,7 +6704,7 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
 
   Your support is very much appreciated. Thanks, guys!
 
-* Learning Elisp - 1 - intro
+* Learning Elisp - 1 - intro                                          :elisp:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=x9Qws7ZOksc&list=PL9KxKa8NpFxKGctwh4-BqjQvdSRhh4NV-&index=1&pp=iAQB
 :DATE:     2023-07-06T14:27:45+0000
@@ -7979,7 +7979,7 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
   第1部：端末、シェル、リモートデスクトップ、SSH
   https://www.coins.tsukuba.ac.jp/~syspro/2023/2023-05-10/
 
-* Emacs Micro Lesson 6:  Org Macro Replacement
+* Emacs Micro Lesson 6:  Org Macro Replacement                          :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=CYKHGHB6OG0&list=PLKpFPBl1UnIpUPd0kfMCObsi4rb9LQlD-&index=6&pp=iAQB
 :DATE:     2023-04-26T16:39:51+0000
@@ -8406,7 +8406,7 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
 
   💻 Il mio Github: https://github.com/clarintux
 
-* iPhone tricks 175 - Running Emacs and org file on iPhone!
+* iPhone tricks 175 - Running Emacs and org file on iPhone!             :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=A-VqsY6-vLY
 :DATE:     2023-04-10T08:34:05+0000
@@ -8687,7 +8687,7 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
   - https://www.youtube.com/c/ProtesilaosStavrou :: Canal de Protesilaos.
   - https://www.youtube.com/watch?v=0qHloGTT8XE&pp=ugMICgJlcxABGAE%3D :: Video de Jake B con el setupfile señalado.
 
-* Turn Emacs into your personal AI assistant with org-ai                 :ai:
+* Turn Emacs into your personal AI assistant with org-ai             :ai:org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=fvBDxiFPG6I&feature=youtu.be
 :DATE:     2023-03-30T14:33:33+0000
@@ -11921,7 +11921,7 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
 :SPEAKERS: Jean-Christophe Helary
 :SERIES: EmacsConf 2022
 :END:
-* Q&A: Putting Org Mode on the Indieweb  :answers:emacsconf:emacsconf2022:
+* Q&A: Putting Org Mode on the Indieweb :answers:emacsconf:emacsconf2022:org:
 :PROPERTIES:
 :DATE:     2022-12-04T20:25:00+0000
 :URL: https://emacsconf.org/2022/talks/indieweb
@@ -12013,7 +12013,7 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
 :SPEAKERS: Michael Herstine
 :SERIES: EmacsConf 2022
 :END:
-* Q&A: Org workflows for developers  :answers:emacsconf:emacsconf2022:
+* Q&A: Org workflows for developers     :answers:emacsconf:emacsconf2022:org:
 :PROPERTIES:
 :DATE:     2022-12-04T18:50:00+0000
 :URL: https://emacsconf.org/2022/talks/workflows
@@ -12082,7 +12082,7 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
 :SPEAKERS: Niklas Eklund
 :SERIES: EmacsConf 2022
 :END:
-* Q&A: Powerful productivity with Hyperbole and Org Mode  :answers:emacsconf:emacsconf2022:
+* Q&A: Powerful productivity with Hyperbole and Org Mode :answers:emacsconf:emacsconf2022:org:
 :PROPERTIES:
 :DATE:     2022-12-04T18:00:00+0000
 :URL: https://emacsconf.org/2022/talks/hyperorg
@@ -12163,7 +12163,7 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
 :SPEAKERS: Sibi Prabakaran
 :SERIES: EmacsConf 2022
 :END:
-* Q&A: Linking headings with org-super-links (poor-man's Zettelkasten)  :answers:emacsconf:emacsconf2022:
+* Q&A: Linking headings with org-super-links (poor-man's Zettelkasten) :answers:emacsconf:emacsconf2022:org:
 :PROPERTIES:
 :DATE:     2022-12-04T15:40:00+0000
 :URL: https://emacsconf.org/2022/talks/orgsuperlinks
@@ -25189,7 +25189,7 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
 :SPEAKERS: Daniel German
 :SERIES: EmacsConf 2021
 :END:
-* Q&A: The use of Org mode syntax outside of GNU/Emacs  :answers:emacsconf:emacsconf2021:
+* Q&A: The use of Org mode syntax outside of GNU/Emacs :answers:emacsconf:emacsconf2021:org:
 :PROPERTIES:
 :DATE:     2021-11-27T19:46:00+0000
 :URL: https://emacsconf.org/2021/talks/org-outside
@@ -35227,7 +35227,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
   If you would like to watch this video using only free software, you can check out the corresponding page at https://emacsconf.org/2020/talks/
   Questions, notes, and links are there as well. Enjoy!
 
-* EmacsConf 2020 - 19 - Sharing blogs (and more) with org-webring - Brett Gilio
+* EmacsConf 2020 - 19 - Sharing blogs (and more) with org-webring - Brett Gilio :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=9EidGHSIHhs
 :DATE:     2020-12-08T19:17:35+0000
@@ -35237,7 +35237,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
   If you would like to watch this video using only free software, you can check out the corresponding page at https://emacsconf.org/2020/talks/
   Questions, notes, and links are there as well. Enjoy!
 
-* EmacsConf 2020 - 18 - Org-roam: Technical Presentation - Leo Vivier
+* EmacsConf 2020 - 18 - Org-roam: Technical Presentation - Leo Vivier   :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=94boRglS1C0
 :DATE:     2020-12-08T19:16:52+0000
@@ -35247,7 +35247,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
   If you would like to watch this video using only free software, you can check out the corresponding page at https://emacsconf.org/2020/talks/
   Questions, notes, and links are there as well. Enjoy!
 
-* EmacsConf 2020 - 17 - Org-mode and Org-Roam for Scholars and Researchers - Noorah Alhasan
+* EmacsConf 2020 - 17 - Org-mode and Org-Roam for Scholars and Researchers - Noorah Alhasan :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=bTbiC6SamT4
 :DATE:     2020-12-08T19:16:34+0000
@@ -35257,7 +35257,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
   If you would like to watch this video using only free software, you can check out the corresponding page at https://emacsconf.org/2020/talks/
   Questions, notes, and links are there as well. Enjoy!
 
-* EmacsConf 2020 - 16 - Org-roam: Presentation, Demonstration, and What's on the Horizon - Leo Vivier
+* EmacsConf 2020 - 16 - Org-roam: Presentation, Demonstration, and What's on the Horizon - Leo Vivier :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=t1TM-iZFm6A
 :DATE:     2020-12-08T19:15:39+0000
@@ -35267,7 +35267,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
   If you would like to watch this video using only free software, you can check out the corresponding page at https://emacsconf.org/2020/talks/
   Questions, notes, and links are there as well. Enjoy!
 
-* EmacsConf 2020 - 15 - Moving from Jekyll to OrgMode, an experience report - Adolfo Villafiorita
+* EmacsConf 2020 - 15 - Moving from Jekyll to OrgMode, an experience report - Adolfo Villafiorita :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=CcQ0V1NrxGo
 :DATE:     2020-12-08T19:14:35+0000
@@ -35297,7 +35297,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
   If you would like to watch this video using only free software, you can check out the corresponding page at https://emacsconf.org/2020/talks/
   Questions, notes, and links are there as well. Enjoy!
 
-* EmacsConf 2020 - 12 - One Big-ass Org File or multiple tiny ones? - Leo Vivier
+* EmacsConf 2020 - 12 - One Big-ass Org File or multiple tiny ones? - Leo Vivier :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=1o1qwAjleGk
 :DATE:     2020-12-08T19:13:19+0000
@@ -35307,7 +35307,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
   If you would like to watch this video using only free software, you can check out the corresponding page at https://emacsconf.org/2020/talks/
   Questions, notes, and links are there as well. Enjoy!
 
-* EmacsConf 2020 - 11 - the org-gtd package: opinions about Getting Things Done - Aldric
+* EmacsConf 2020 - 11 - the org-gtd package: opinions about Getting Things Done - Aldric :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=sWWXdearxDw
 :DATE:     2020-12-08T19:12:24+0000
@@ -35317,7 +35317,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
   If you would like to watch this video using only free software, you can check out the corresponding page at https://emacsconf.org/2020/talks/
   Questions, notes, and links are there as well. Enjoy!
 
-* EmacsConf 2020 - 10 - Lead your future with Org - Andrea
+* EmacsConf 2020 - 10 - Lead your future with Org - Andrea              :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=cc-mksFv0Ew
 :DATE:     2020-12-08T19:12:04+0000
@@ -35327,7 +35327,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
   If you would like to watch this video using only free software, you can check out the corresponding page at https://emacsconf.org/2020/talks/
   Questions, notes, and links are there as well. Enjoy!
 
-* EmacsConf 2020 - 09 - Orgmode - your life in plain text - Rainer König
+* EmacsConf 2020 - 09 - Orgmode - your life in plain text - Rainer König :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=Bm7YKRz1nz0
 :DATE:     2020-12-08T19:11:13+0000
@@ -35337,7 +35337,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
   If you would like to watch this video using only free software, you can check out the corresponding page at https://emacsconf.org/2020/talks/
   Questions, notes, and links are there as well. Enjoy!
 
-* EmacsConf 2020 - 09 - Orgmode: Your life in plain text - Questions - Rainer König
+* EmacsConf 2020 - 09 - Orgmode: Your life in plain text - Questions - Rainer König :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=YiMLZr9Pn8c
 :DATE:     2020-12-08T19:10:51+0000
@@ -39805,7 +39805,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
   Github: https://github.com/ilugd
   Twitter: https://twitter.com/ilugdelhi
 
-* Org-Roam Demo | Roam Research in Emacs (Zetteldeft Comparison) | #biblenotes | :OrgRoam:
+* Org-Roam Demo | Roam Research in Emacs (Zetteldeft Comparison) | #biblenotes | :OrgRoam:org:
 :PROPERTIES:
 :YOUTUBE_URL: https://youtu.be/QGRCDm1H4IQ
 :DATE:     2020-04-10T22:00:59+0000
@@ -41851,7 +41851,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
     • IRC comment: A note about saving yasnippet files: it doesn't enforce a file extension, you could save it as just 'app' and it works. As long as you save the snippet in the directories scanned by Yasnippet
     • Manage snippets within an Org mode file: https://github.com/Kungsgeten/yankpad
 
-* EmacsConf 2019 - 29 - Restclient and org-mode for API Documentation and Testing - Mackenzie Bligh
+* EmacsConf 2019 - 29 - Restclient and org-mode for API Documentation and Testing - Mackenzie Bligh :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=T0pM2G78K8Q
 :DATE:     2019-11-25T03:09:08+0000
@@ -42105,7 +42105,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
     • https://github.com/takaxp/org-tree-slide
     • https://emacsconf.org/2019/debemacs
 
-* EmacsConf 2019 - 21 - Porting org-shiftup/down as a separate module - MetroWind
+* EmacsConf 2019 - 21 - Porting org-shiftup/down as a separate module - MetroWind :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=Zipw-1izlSo
 :DATE:     2019-11-25T02:38:55+0000
@@ -42432,7 +42432,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
       • I think the ability to create links from mails and even from mail queries is a killer feature. I e that in mu4e. I guess this is also possible in emacs notmuch?
         • Yes. Look for "org-notmuch.el" in https://orgmode.org/worg/org-contrib/.
 
-* EmacsConf 2019 - 09 - Managing your life with org-mode and other tools - Marcin Swieczkowski
+* EmacsConf 2019 - 09 - Managing your life with org-mode and other tools - Marcin Swieczkowski :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=ero55tkBYYk
 :DATE:     2019-11-25T02:03:37+0000
@@ -42526,7 +42526,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
     related:
     • https://www.nctm.org/Publications/Teaching-Children-Mathematics/Blog/Current-Research-on-Gender-Differences-in-Math/
 
-* EmacsConf 2019 - 06 - Org-mode and FoilTeX - Tom Faulkenberry
+* EmacsConf 2019 - 06 - Org-mode and FoilTeX - Tom Faulkenberry         :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=C3YNvq-MxTc
 :DATE:     2019-11-25T01:55:11+0000
@@ -42548,7 +42548,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
     • https://karl-voit.at/2019/10/12/org-reveal-handout/
     • mentioned on IRC: https://opensource.com/article/18/4/how-create-latex-documents-emacs
 
-* EmacsConf 2019 - 05 - Use Org mode when away from the desktop - Zen Monk Alain M. Lafon
+* EmacsConf 2019 - 05 - Use Org mode when away from the desktop - Zen Monk Alain M. Lafon :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=jEJC-9iUXY8
 :DATE:     2019-11-25T01:54:18+0000
@@ -49369,7 +49369,7 @@ Using restclient within emacs...
 :END:
   Emacs regression tests - automated testing
 
-* EmacsConf 2015 Questions - Org mode, logbooks, utilities, GIFs
+* EmacsConf 2015 Questions - Org mode, logbooks, utilities, GIFs        :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=_EWASHVUdns&list=PLomc4HLgvuCUoPVpUJSkpsje4333Guxeo&index=4&pp=gAQBiAQB
 :DATE:     2015-09-25T19:38:03+0000
@@ -49405,7 +49405,7 @@ Using restclient within emacs...
 :END:
 
 
-* EmacsConf 2015 Questions - Org mode tables
+* EmacsConf 2015 Questions - Org mode tables                            :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=-A9s7TcG0eY&list=PLomc4HLgvuCUoPVpUJSkpsje4333Guxeo&index=5&pp=gAQBiAQB
 :DATE:     2015-09-25T19:38:02+0000
@@ -49487,7 +49487,7 @@ Using restclient within emacs...
 :END:
 
 
-* EmacsConf 2015 Creating a Custom Exporter for Org Mode - Marcin Borkowski
+* EmacsConf 2015 Creating a Custom Exporter for Org Mode - Marcin Borkowski :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=u_gXtEXeGIY&list=PLomc4HLgvuCUoPVpUJSkpsje4333Guxeo&index=3&pp=gAQBiAQB
 :DATE:     2015-09-25T19:38:00+0000
@@ -50223,11 +50223,11 @@ Using restclient within emacs...
 
   All the performance source is open for the world to see and play with: https://github.com/repl-electric/cassiopeia
 
-* 2015-01-21 Emacs Chat - Steve Purcell
+* 2015-01-21 Emacs Chat - Steve Purcell  :community:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=Gq0hG_om9xY&list=PL4th0AZixyRF8o3fdx68HGUrYKF2Pfvrp&index=18&pp=iAQB
 :DATE:     2015-01-21T16:07:28+0000
-:SPEAKERS: Sacha Chua
+:SPEAKERS: Steve Purcell, Sacha Chua
 :DURATION: 01:01:05
 :END:
   In this Emacs Chat, Steve Purcell shares how he got started with Emacs by using a Vim emulation mode, what it's like to give hundreds of package authors feedback on Emacs Lisp style, and how he's eventually replacing himself with Emacs Lisp (flycheck-package). He also highlights useful packages for managing buffers of version-controlled files (ibuffer-vc), working with lines if the region isn't active (whole-line-or-region), or maximizing certain buffers (full-frame).
@@ -50267,7 +50267,7 @@ Using restclient within emacs...
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=SaKPr4J0K2I&list=PL4th0AZixyRF8o3fdx68HGUrYKF2Pfvrp&index=17&pp=iAQB
 :DATE:     2014-12-03T19:08:13+0000
-:SPEAKERS: Sacha Chua
+:SPEAKERS: Karl Voit, Sacha Chua
 :DURATION: 59:21
 :END:
   Org Mode, Memacs, lazyblorg, .emacs, Yasnippet, tags . http://karl-voit.at , http://twitter.com/n0v0id , http://github.com/novoid . Transcript at http://emacslife.com/emacs-chats/chat-karl-voit.html
@@ -50384,11 +50384,11 @@ Using restclient within emacs...
 
   After dark you may find him tinkering with his Emacs setup, coding Lisp and slowly being devoured by the world of functional programming.
 
-* 2014-08-10 Emacs Chat - Mickey Petersen
+* 2014-08-10 Emacs Chat - Mickey Petersen  :community:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=JA4dqmDFt5Y&list=PL4th0AZixyRF8o3fdx68HGUrYKF2Pfvrp&index=16&pp=iAQB
 :DATE:     2014-09-01T16:15:30+0000
-:SPEAKERS: Sacha Chua
+:SPEAKERS: Mickey Petersen, Sacha Chua
 :DURATION: 53:36
 :END:
   Mickey Petersen chats about Mastering Emacs, learning advanced topics, navigating by expressions, and making the most of dired and shell. You can find him at masteringemacs.org or twitter.com/mickeynp . Transcript and notes: http://emacslife.com/emacs-chats/chat-mickey-petersen.html
@@ -50448,11 +50448,11 @@ Using restclient within emacs...
 :END:
   This is a tutorial for my Generalized Linear Models class at TCU.  In this tutorial I demonstrate how to reproduce (with some minor variations) Figure 3.1 in our textbook (Kruschke, 2011), using Emacs, ESS, knitr, and R.  There is also a discussion of the instructional significance of the example, which builds on the text.  This tutorial focuses on work flow and interpretation of the example, the next tutorial (GLM3-2) focuses on the particulars of using the software.  Let me know if there are any problems or questions.  Cheers
 
-* Emacs Chat: Harry R. Schwartz / Sacha Chua
+* Emacs Chat: Harry R. Schwartz / Sacha Chua  :emacs:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=I2wOxZOcyD8&list=PL4th0AZixyRF8o3fdx68HGUrYKF2Pfvrp&index=15&pp=iAQB
 :DATE:     2014-07-24T01:27:49+0000
-:SPEAKERS: Sacha Chua
+:SPEAKERS: Harry R. Schwartz, Sacha Chua
 :DURATION: 53:11
 :END:
   Emacs Chat: Harry R. Schwartz / Sacha Chua
@@ -50519,7 +50519,7 @@ Using restclient within emacs...
   * https://github.com/magnars/expand-region.el
   * https://github.com/magnars/multiple-cursors.el
   * https://github.com/smihica/emmet-mode for quickly writing HTML
-* Emacs Org-mode Bibtex Screencast
+* Emacs Org-mode Bibtex Screencast                                      :org:
 :PROPERTIES:
 :DATE:     2014-06-25T18:12:23+00:00
 :DURATION: 8:33
@@ -50570,22 +50570,22 @@ Using restclient within emacs...
 :VIMEO_URL: https://vimeo.com/97036449
 :SPEAKERS: Andrew Rudenko
 :END:
-* Emacs Chat: Christopher Wellons (FFI, Emacs internals)
+* Emacs Chat: Christopher Wellons (FFI, Emacs internals)  :community:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=Hr06UDD4mCs&list=PL4th0AZixyRF8o3fdx68HGUrYKF2Pfvrp&index=14&pp=iAQB
 :DATE:     2014-05-31T00:06:08+0000
-:SPEAKERS: Sacha Chua
+:SPEAKERS: Christopher Wellons, Sacha Chua
 :DURATION: 56:39
 :END:
   Christopher recently put together a package for using foreign function interfaces from Emacs, which means you can call out to native C code and other things like that. Neat! Also, he has probably forgotten more about Emacs internals than I can understand. Join us as I chat with him about how he got into Emacs, what he does with it, and how one can get started understanding deep Emacs geekery.
 
   The video recording (and eventually transcript etc.) is in the public domain. Yay Christopher!
 
-* Emacs Chat: Bozhidar Batsov (bbatsov)
+* Emacs Chat: Bozhidar Batsov (bbatsov)  :community:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=-8DO0_pqLNA&list=PL4th0AZixyRF8o3fdx68HGUrYKF2Pfvrp&index=13&pp=iAQB
 :DATE:     2014-05-19T17:14:53+0000
-:SPEAKERS: Sacha Chua
+:SPEAKERS: Bozhidar Batsov, Sacha Chua
 :DURATION: 53:11
 :END:
   Emacs Chat: Bozhidar Batsov (bbatsov)
@@ -50657,11 +50657,11 @@ Using restclient within emacs...
 
   Target audience: I expect this talk will appeal to mid level programmers. Some knowledge of Erlang is expected. In addition the audience should be familiar with emacs and TDD as well as Erlang.
 
-* Emacs Chat - Phil Hagelberg (technomancy)
+* Emacs Chat - Phil Hagelberg (technomancy)  :community:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=Rfg-6jGY8dU&list=PL4th0AZixyRF8o3fdx68HGUrYKF2Pfvrp&index=12&pp=iAQB
 :DATE:     2014-05-10T04:09:50+0000
-:SPEAKERS: Sacha Chua
+:SPEAKERS: Phil Hagelberg (technomancy), Sacha Chua
 :DURATION: 01:00:29
 :END:
   Emacs Chat - Phil Hagelberg (technomancy)
@@ -50678,36 +50678,26 @@ Using restclient within emacs...
   Learn more from the developers at thoughtbot ⌨️
   Head over to http://tbot.io/dev-blog to read more great articles on our blog.
 
-* 2014 05 02 Emacs Chat   Xah Lee
+* 2014 05 02 Emacs Chat   Xah Lee  :community:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=rKPKWqvTImA&list=PL4th0AZixyRF8o3fdx68HGUrYKF2Pfvrp&index=11&pp=iAQB
 :DATE:     2014-05-03T18:50:05+0000
-:SPEAKERS: Sacha Chua
+:SPEAKERS: Xah Lee, Sacha Chua
 :DURATION: 57:30
 :END:
 
 
-* Emacs Chat: Thomas Kjeldahl Nilsson
-:PROPERTIES:
-:YOUTUBE_URL: https://www.youtube.com/watch?v=7vYo4zt6-FQ&list=PL4th0AZixyRF8o3fdx68HGUrYKF2Pfvrp&index=10&pp=iAQB
-:DATE:     2014-04-27T20:39:12+0000
-:SPEAKERS: Sacha Chua
-:DURATION: 55:23
-:END:
-  March 22, 2013
-  (Copied over from Vimeo)
-
-* Emacs Chat: Jānis Mancēvičs
+* Emacs Chat: Jānis Mancēvičs  :community:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=HOy4h0a_0TI&list=PL4th0AZixyRF8o3fdx68HGUrYKF2Pfvrp&index=9&pp=iAQB
 :DATE:     2014-04-19T21:19:55+0000
-:SPEAKERS: Sacha Chua
+:SPEAKERS: Jānis Mancēvičs, Sacha Chua
 :DURATION: 01:02:00
 :END:
   Emacs Chat: Jānis Mancēvičs
   Transcript and notes: http://sachachua.com/blog/2014/04/emacs-chat-janis-mancevics/
 
-* An Introduction to Emacs Lisp
+* An Introduction to Emacs Lisp   :elisp:tutorial:beginner:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=2z-YBsd5snY&list=PL8tzorAO7s0he-pp7Y_JDl7-Kz2Qlr_Pj&index=22&pp=iAQB
 :DATE:     2014-04-11T23:37:53+0000
@@ -50721,7 +50711,7 @@ Using restclient within emacs...
   Learn more from the developers at thoughtbot ⌨️
   Head over to http://tbot.io/dev-blog to read more great articles on our blog.
 
-* IRC With ERC
+* IRC With ERC  :irc:erc:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=l5u-907zUB0&list=PL8tzorAO7s0he-pp7Y_JDl7-Kz2Qlr_Pj&index=23&pp=iAQB
 :DATE:     2014-04-11T20:10:11+0000
@@ -50730,11 +50720,11 @@ Using restclient within emacs...
 :END:
   Internet Relay Chat (IRC) has been a popular P2P messaging system since 1988. Since it uses a text-based interface, it's a perfect fit for Emacs! We'll be looking at ERC, the built-in Emacs IRC client and the solution to all our social needs. ERC easily fits into anyone's workflow and has tons of libraries to make it even more seamless.
 
-* Emacs Chat: Tom Marble
+* Emacs Chat: Tom Marble - Invoicing with Org and LaTeX; Clojure :community:org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=-6bpx-6zyOI&list=PL4th0AZixyRF8o3fdx68HGUrYKF2Pfvrp&index=8&pp=iAQB
 :DATE:     2014-04-10T00:28:09+0000
-:SPEAKERS: Sacha Chua
+:SPEAKERS: Tom Marble, Sacha Chua
 :DURATION: 57:31
 :END:
   Emacs Chat: Tom Marble - Invoicing with Org and LaTeX; Clojure
@@ -50752,7 +50742,7 @@ Using restclient within emacs...
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=0F8aCbC9z3A&list=PL4th0AZixyRF8o3fdx68HGUrYKF2Pfvrp&index=7&pp=iAQB
 :DATE:     2014-04-07T15:24:06+0000
-:SPEAKERS: Sacha Chua
+:SPEAKERS: Iannis Zannos, Sacha Chua
 :DURATION: 01:00:34
 :END:
   Emacs Chat: Iannis Zannos
@@ -51070,22 +51060,11 @@ Using restclient within emacs...
 :END:
   In this video, I show how we can connect to Protege, and then use Tawny-OWL to modify its data structures. In this way, we have a fully programmatic ontology development environment with the richness of Protege for visualisation.
 
-* Emacs Chat: John Wiegley (June 26, 2012)
-:PROPERTIES:
-:YOUTUBE_URL: https://www.youtube.com/watch?v=ytNsHmRLZGM&list=PL4th0AZixyRF8o3fdx68HGUrYKF2Pfvrp&index=5&pp=iAQB
-:DATE:     2013-11-03T21:32:19+0000
-:SPEAKERS: Sacha Chua
-:DURATION: 43:48
-:END:
-  In which John Wiegley and I chat about cool things he does with Emacs, learning, and other geeky things. More context for John Wiegley's thoughts: newartisans.com/2011/04/letter-to-the-fsf/
-
-  Fixed version of http://www.youtube.com/watch?v=MyOnK9xbmX4
-
-* Emacs Chat: Magnar Sveen (@emacsrocks)
+* Emacs Chat: Magnar Sveen (@emacsrocks)  :community:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=87tjF_mYvpE&list=PL4th0AZixyRF8o3fdx68HGUrYKF2Pfvrp&index=6&pp=iAQB
 :DATE:     2013-11-03T20:03:09+0000
-:SPEAKERS: Sacha Chua
+:SPEAKERS: Magnar Sveen (@emacsrocks), Sacha Chua
 :DURATION: 57:23
 :END:
   In which Magnar tells us how he got started with Emacs by hanging out with other Emacs geeks, and other good stories. Notes at http://sachachua.com/blog/2013/11/emacs-chat-magnar-sveen-emacs-rocks/
@@ -51314,11 +51293,11 @@ Using restclient within emacs...
 
   We will discuss the use of emacs + org-mode + python in enabling reproducible research. This combination of software enables researchers to intertwine narrative and mathematical text with figures and code that is executable within a document, with capture of the output. Portions of the document can be selectively exported to LaTeX, HTML, pdf and other other formats. We have used this method to produce technical manuscripts submitted for peer review in scientific journals, in the preparation of two e-books (about 300 pages each) on using python in scientific and engineering applications (http://jkitchin.github.com/pycse), and in using python in the modeling of the properties of materials with density functional theory (http://jkitchin.github.com/dft-book), as well as a python-powered blog at http://jkitchin.github.com. Our experience suggests all three components are critical for enabling reproducible research in practice: an extensible editor, a markup language that separates text, math, data and code, and an effective language such as python. We will show examples of the pros and cons of this particular implementation of editor/markup/code combination.
 
-* Bastien Guerry interviewing me (Sacha Chua)
+* Bastien Guerry interviewing me (Sacha Chua)  :community:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=_Ro7VpzQNO4&list=PL4th0AZixyRF8o3fdx68HGUrYKF2Pfvrp&index=4&pp=iAQB
 :DATE:     2013-06-24T21:22:55+0000
-:SPEAKERS: Sacha Chua
+:SPEAKERS: Sacha Chua, Bastien Guerry
 :DURATION: 44:27
 :END:
   In which we chat about Emacs and the community.
@@ -51372,25 +51351,25 @@ Using restclient within emacs...
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=uUtFIbKEpJQ&list=PL4th0AZixyRF8o3fdx68HGUrYKF2Pfvrp&index=3&pp=iAQB
 :DATE:     2013-05-21T02:37:04+0000
-:SPEAKERS: Sacha Chua
+:SPEAKERS: Carsten Dominik, Sacha Chua
 :DURATION: 52:02
 :END:
   (Reuploaded from Vimeo)
 
-* Emacs Chat - Avdi Grimm
+* Emacs Chat - Avdi Grimm  :community:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=l91IuT-VQ4I&list=PL4th0AZixyRF8o3fdx68HGUrYKF2Pfvrp&index=2&pp=iAQB
 :DATE:     2013-05-20T22:30:40+0000
-:SPEAKERS: Sacha Chua
+:SPEAKERS: Avdi Grimm, Sacha Chua
 :DURATION: 44:19
 :END:
   (Reuploaded from Vimeo)
 
-* Emacs Chat: Bastien Guerry
+* Emacs Chat: Bastien Guerry  :community:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=fnk0TJC7iJI&list=PL4th0AZixyRF8o3fdx68HGUrYKF2Pfvrp&index=1&pp=iAQB
 :DATE:     2013-05-20T16:55:48+0000
-:SPEAKERS: Sacha Chua
+:SPEAKERS: Bastien Guerry, Sacha Chua
 :DURATION: 52:19
 :END:
   Lifehacking, Emacs + philosophy, and other stories.
@@ -51471,13 +51450,17 @@ Using restclient within emacs...
 :END:
   A little introduction to reading RSS in Emacs, using Gnus and gwene.org.
 
-* Thomas Kjeldahl Nilsson - Emacs chat
+* Emacs Chat: Thomas Kjeldahl Nilsson  :community:
 :PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=7vYo4zt6-FQ&list=PL4th0AZixyRF8o3fdx68HGUrYKF2Pfvrp&index=10&pp=iAQB
 :DATE:     2013-03-15T18:55:07+00:00
-:DURATION: 55:23
 :VIMEO_URL: https://vimeo.com/61912848
-:SPEAKERS: Sacha Chua
+:SPEAKERS: Thomas Kjeldahl Nilsson, Sacha Chua
+:DURATION: 55:23
 :END:
+  March 22, 2013
+  (Copied over from Vimeo)
+
 * Sam Aaron, Live @ Arnolfini 2012   :music:
 :PROPERTIES:
 :DATE:     2013-03-05T14:25:04+00:00
@@ -51494,7 +51477,7 @@ Using restclient within emacs...
 :DATE:     2013-03-01T17:50:21+00:00
 :DURATION: 44:19
 :VIMEO_URL: https://vimeo.com/60848459
-:SPEAKERS: Sacha Chua
+:SPEAKERS: Avdi Grimm
 :END:
   Avdi Grimm (http://dev.avdi.org) records the RubyTapas screencasts and does other cool stuff. I chatted with him about Org mode, literate programming, technical authoring, and other things you can do with Emacs.
 
@@ -51654,7 +51637,7 @@ Using restclient within emacs...
 
   Christian is a passionate programmer currently working at gitorious.org where he does everything from JavaScript to Ruby to Unix systems tuning. He is the author of "Test-Driven JavaScript Development", and he maintains several open source projects, including the recently released test-framework Buster.JS and the popular mocking framework Sinon.JS. After dark you may find him tinkering with his Emacs setup, coding Lisp and slowly being devoured by the world of functional programming.
 
-* Blogging from Emacs + Org-Mode
+* Blogging from Emacs + Org-Mode                                        :org:
 :PROPERTIES:
 :DATE:     2012-08-24T19:33:41+00:00
 :DURATION: 4:08
@@ -51751,6 +51734,17 @@ Using restclient within emacs...
 :SPEAKERS: John Wiegley, Sacha Chua
 :END:
   In which John Wiegley and I chat about cool things he does with Emacs, learning, and other geeky things. More context for John Wiegley's thoughts: http://newartisans.com/2011/04/letter-to-the-fsf/
+
+* Emacs Chat: John Wiegley (June 26, 2012)  :community:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=ytNsHmRLZGM&list=PL4th0AZixyRF8o3fdx68HGUrYKF2Pfvrp&index=5&pp=iAQB
+:DATE:     2012-06-26
+:SPEAKERS: John Wiegley, Sacha Chua
+:DURATION: 43:48
+:END:
+  In which John Wiegley and I chat about cool things he does with Emacs, learning, and other geeky things. More context for John Wiegley's thoughts: newartisans.com/2011/04/letter-to-the-fsf/
+
+  Fixed version of http://www.youtube.com/watch?v=MyOnK9xbmX4
 
 * gtk-application-prefer-dark-theme for Emacs
 :PROPERTIES:
@@ -52425,7 +52419,7 @@ Using restclient within emacs...
 
   If you add a new argument to your function, you can update the roxygen documentation in a second: C-c C-o again!
 
-* Setting up Emacs Org-mode for Windows
+* Setting up Emacs Org-mode for Windows                                 :org:
 :PROPERTIES:
 :DATE:     2010-11-05T13:35:22+00:00
 :DURATION: 31:20
