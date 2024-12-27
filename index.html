@@ -141,11 +141,51 @@
   <script>
     document.addEventListener('DOMContentLoaded', async function () {
       store = app.makeStore();
+
+      const url = new URL(window.location.href);
+      store.state.mutate(state => {
+        state.filterByTitle = url.searchParams.get('title') || '';
+        const tagsParam = url.searchParams.get('tags');
+        state.filterByTags = tagsParam ? tagsParam.split(',') : [];
+        const speakersParam = url.searchParams.get('speakers');
+        state.filterBySpeakers = speakersParam ? speakersParam.split(',') : [];
+        return state;
+      });
+
       store.state.subscribe((state) => {
         const root = document.getElementById("root");
         if (!root) {
           return;
         }
+
+        const url = new URL(window.location.href);
+        if (state.filterByTitle){
+          url.searchParams.set('title', state.filterByTitle);
+        } else {
+          url.searchParams.delete('title');
+        }
+
+        if (state.filterByTags.length > 0) {
+          url.searchParams.set('tags', state.filterByTags.join(','));
+        } else {
+          url.searchParams.delete('tags');
+        }
+
+        history.replaceState(null, '', url.toString());
+
+        if (state.filterByTitle){
+          url.searchParams.set('title', state.filterByTitle);
+        } else {
+          url.searchParams.delete('title');
+        }
+
+        if (state.filterBySpeakers && state.filterBySpeakers.length > 0) {
+          url.searchParams.set('speakers', state.filterBySpeakers.join(','));
+        } else {
+          url.searchParams.delete('speakers');
+        }
+
+        history.replaceState(null, '', url.toString());
 
         const { html, handlers } = app.render(state, store);
         root.innerHTML = html;
