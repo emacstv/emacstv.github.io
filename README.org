@@ -26,6 +26,16 @@ Toggle playing with ~M-x mpv-pause~.
 You can search for videos with ~M-x emacstv-agenda-search~. If you have [[https://github.com/alphapapa/org-ql][org-ql]], you can use ~M-x emacstv-org-ql-search~.
 You can play the video at the current line with ~M-x emacstv-play-at-point~.
 
+To watch YouTube videos with subtitles, you may want to add something like this to your mpv.conf (~~/.config/mpv/mpv.conf~ on my system):
+
+#+begin_example
+ytdl-raw-options='ignore-config=,sub-langs="en,en-US",write-subs=,write-auto-subs='
+sub-auto=fuzzy
+slang=en,eng,enUS,en-US
+#+end_example
+
+You may want to set up keybindings for ~mpv-volume-decrease~ and ~mpv-volume-increase~ to handle the volume differences between each video.
+
 * Add videos
 
 Help keep =emacs.tv= fresh and interesting by submitting new videos.
