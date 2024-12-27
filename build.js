@@ -42,6 +42,18 @@ const htmlContent = `
       color: #2A9D8F;
       cursor: pointer;
     }
+    #filter-speakers {
+      width: 150px;
+      margin-bottom: 10px;
+      padding-top: 4px;
+      padding-bottom: 4px;
+    }
+    #filter {
+      width: 150px;
+      margin-bottom: 10px;
+      padding-top: 4px;
+      padding-bottom: 4px;
+    }
     #random-pick-heading {
       display: flex;
       justify-content: space-between;
