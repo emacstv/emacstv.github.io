@@ -254,14 +254,40 @@ If a region is active, add all the YouTube links in that region."
 		(goto-char (point-min))
 		(org-sort-entries nil ?R nil nil "DATE")))
 
+(defun emacstv-timestamp-to-seconds (time-string)
+  "Find HH:MM:SS.MS pattern in TIME-STRING and convert it to milliseconds.
+Return nil if TIME-STRING doesn't match the pattern."
+  (save-match-data
+    (when (and time-string
+							 (string-match "\\(\\([0-9]+\\):\\)?\\([0-9]+\\):\\([0-9]+\\)\\(?:\\.\\([0-9]+\\)\\)?"
+														 time-string))
+      (let ((hours (string-to-number (or (match-string 2 time-string) "0")))
+            (mins  (string-to-number (or (match-string 3 time-string) "0")))
+            (secs  (string-to-number (or (match-string 4 time-string) "0")))
+            (msecs (string-to-number (string-pad
+                                      (or (match-string 5 time-string) "0")
+                                      3 ?0))))
+        (/ (+ (* (truncate hours) 3600000)
+							(* (truncate mins) 60000)
+							(* (truncate secs) 1000)
+							(truncate msecs))
+					 1000.0)))))
+
 (defun emacstv-count-entries ()
 	(interactive)
 	(with-current-buffer (find-file-noselect emacstv-index-org)
-		(let ((count 0))
+		(let ((count 0)
+					(seconds 0))
 			(org-map-entries
-			 (lambda () (cl-incf count))
+			 (lambda ()
+				 (setq seconds (+ seconds (or (emacstv-timestamp-to-seconds
+																			 (org-entry-get (point) "DURATION"))
+																			0)))
+				 (cl-incf count))
 			 "LEVEL=1")
-			(message "%d videos" count))))
+			(message "%d videos %s"
+							 count
+							 (emacstv-format-seconds (floor seconds))))))
 
 (defvar emacstv-load-videos-from 'org "org or json")
 
@@ -347,9 +373,16 @@ If a region is active, add all the YouTube links in that region."
 
 (defun emacstv-format-seconds (seconds)
 	"Format SECONDS as hh:mm:ss. Omit hh or mm if not needed."
-	(replace-regexp-in-string
-	 "^0" ""
-	 (concat (format-seconds "%.2h:%z%.2m:%.2s" (floor seconds)))))
+	;; work around because %z can't be in format-seconds multiple times
+	(let ((seconds-in-day (* 60 60 24)))
+		(replace-regexp-in-string
+		 "^0" ""
+		 (concat
+			(if (< seconds seconds-in-day)
+					""
+				(prog1 (format "%d:" (floor (/ seconds seconds-in-day)))
+					(setq seconds (mod seconds seconds-in-day))))
+			(concat (format-seconds "%.2h:%z%.2m:%.2s" (floor seconds)))))))
 
 (defvar emacstv-current-url nil "Current video URL.")
 
