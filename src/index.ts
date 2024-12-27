@@ -103,8 +103,8 @@ class RandomPickRenderer {
   render(headings: OrgHeading[]): RenderResult {
     let handlers: Array<{ nodeId: string, listenerName: string, handler: Function }> = [];
     const renderableHeadings = headings.filter(heading =>
-      heading.drawer?.MEDIA_URL || heading.drawer?.TOOBNIX_URL || heading.drawer?.YOUTUBE_URL
-                                              );
+      heading.drawer?.MEDIA_URL || heading.drawer?.TOOBNIX_URL || heading.drawer?.YOUTUBE_URL || heading.drawer?.VIMEO_URL
+    );
     if (renderableHeadings.length === 0) {
       return {
         handlers: handlers,
@@ -148,9 +148,18 @@ class RandomPickRenderer {
   <iframe src="https://www.youtube.com/embed/${youtubeId}"
           title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write;
           encrypted-media; gyroscope; picture-in-picture; web-share"
-           referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+          referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
   </iframe>
 </div>`;
+  } else if (randomHeading.drawer['VIMEO_URL']) {
+    const vimeoId = this.extractVimeoId(randomHeading.drawer['VIMEO_URL']);
+    player = `
+<div class="video-container">
+ <iframe src="https://player.vimeo.com/video/${vimeoId}?badge=0&autopause=0&player_id=0&app_id=58479"
+         frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write">
+ </iframe>
+</div>
+<script src="https://player.vimeo.com/api/player.js"></script>`;
   }
     return {
       handlers: handlers,
@@ -173,6 +182,11 @@ class RandomPickRenderer {
 
   private extractToobnixId(url: string): string {
     const match = url.match(/toobnix\.org\/w\/([^/?]+)/);
+    return match ? match[1] : '';
+  }
+
+  private extractVimeoId(url: string): string {
+    const match = url.match(/vimeo\.com\/(?:video\/)?([0-9]+)/);
     return match ? match[1] : '';
   }
 }
