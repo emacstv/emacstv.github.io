@@ -51901,7 +51901,7 @@ Using restclient within emacs...
 
   Follow me on twitter: @emacsrocks
 
-* VimGolf in Emacs 022: Assignment Allignment
+* VimGolf in Emacs 022: Assignment Allignment                       :vimgolf:
 :PROPERTIES:
 :DATE:     2011-11-21T13:41:38+00:00
 :DURATION: 2:45
@@ -51910,7 +51910,7 @@ Using restclient within emacs...
 :END:
   http://blog.twonegatives.com
 
-* VimGolf in Emacs 021: Promote that perl 'one-liner'…
+* VimGolf in Emacs 021: Promote that perl 'one-liner'…              :vimgolf:
 :PROPERTIES:
 :DATE:     2011-11-21T13:21:56+00:00
 :DURATION: 4:55
@@ -51930,7 +51930,7 @@ Using restclient within emacs...
 
   Follow me on twitter: @emacsrocks
 
-* VimGolf in Emacs 020: Overall Vimgolf Rank
+* VimGolf in Emacs 020: Overall Vimgolf Rank                        :vimgolf:
 :PROPERTIES:
 :DATE:     2011-11-04T21:01:38+00:00
 :DURATION: 7:39
@@ -51939,7 +51939,7 @@ Using restclient within emacs...
 :END:
   http://blog.twonegatives.com
 
-* VimGolf in Emacs 019: Rotating Philosophers Problem
+* VimGolf in Emacs 019: Rotating Philosophers Problem               :vimgolf:
 :PROPERTIES:
 :DATE:     2011-11-04T20:59:36+00:00
 :DURATION: 11:50
@@ -51992,7 +51992,7 @@ Using restclient within emacs...
 
   Follow me on twitter: @emacsrocks
 
-* VimGolf in Emacs 018 - categorize the shopping list
+* VimGolf in Emacs 018 - categorize the shopping list               :vimgolf:
 :PROPERTIES:
 :DATE:     2011-10-21T22:27:36+00:00
 :DURATION: 13:11
@@ -52001,7 +52001,7 @@ Using restclient within emacs...
 :END:
   http://blog.twonegatives.com/post/12161238736/vimgolf018
 
-* VimGolf in Emacs 017 - HTML to HAML
+* VimGolf in Emacs 017 - HTML to HAML                               :vimgolf:
 :PROPERTIES:
 :DATE:     2011-10-21T21:40:02+00:00
 :DURATION: 7:19
@@ -52032,7 +52032,7 @@ Using restclient within emacs...
 
   Follow me on twitter: @emacsrocks
 
-* VimGolf in Emacs 016: expand a list comprehension (python)
+* VimGolf in Emacs 016: expand a list comprehension (python)        :vimgolf:
 :PROPERTIES:
 :DATE:     2011-10-06T20:05:00+00:00
 :DURATION: 7:42
@@ -52041,7 +52041,7 @@ Using restclient within emacs...
 :END:
   http://blog.twonegatives.com/post/11570469956/vimgolf016
 
-* VimGolf in Emacs 015: imports alignment (python)
+* VimGolf in Emacs 015: imports alignment (python)                  :vimgolf:
 :PROPERTIES:
 :DATE:     2011-10-06T19:58:55+00:00
 :DURATION: 4:04
@@ -52050,7 +52050,7 @@ Using restclient within emacs...
 :END:
   http://blog.twonegatives.com/post/11272798244/vimgolf015
 
-* VimGolf in Emacs 014: Remove Duplicate Items
+* VimGolf in Emacs 014: Remove Duplicate Items                      :vimgolf:
 :PROPERTIES:
 :DATE:     2011-10-03T11:28:23+00:00
 :DURATION: 9:10
@@ -52059,7 +52059,7 @@ Using restclient within emacs...
 :END:
   http://blog.twonegatives.com/post/10979752535/vimgolf014
 
-* VimGolf in Emacs 013: CSS to SASS
+* VimGolf in Emacs 013: CSS to SASS                                 :vimgolf:
 :PROPERTIES:
 :DATE:     2011-09-26T12:01:14+00:00
 :DURATION: 12:53
@@ -52068,7 +52068,7 @@ Using restclient within emacs...
 :END:
   http://blog.twonegatives.com/post/10686623575/vimgolf013
 
-* VimGolf in Emacs 012: Java Array2List
+* VimGolf in Emacs 012: Java Array2List                             :vimgolf:
 :PROPERTIES:
 :DATE:     2011-09-19T12:51:10+00:00
 :DURATION: 12:12
@@ -52077,7 +52077,7 @@ Using restclient within emacs...
 :END:
   http://blog.twonegatives.com/post/10402506364/vimgolf012
 
-* VimGolf in Emacs 011: Numbering a List
+* VimGolf in Emacs 011: Numbering a List                            :vimgolf:
 :PROPERTIES:
 :DATE:     2011-09-05T20:54:27+00:00
 :DURATION: 2:25
@@ -52086,7 +52086,7 @@ Using restclient within emacs...
 :END:
   http://blog.twonegatives.com/post/10125236038/vimgolf011
 
-* VimGolf in Emacs 010: Make a PHP Template from a static HTML file
+* VimGolf in Emacs 010: Make a PHP Template from a static HTML file :vimgolf:
 :PROPERTIES:
 :DATE:     2011-09-05T20:46:03+00:00
 :DURATION: 21:01
@@ -52104,7 +52104,7 @@ Using restclient within emacs...
 :END:
   http://blog.twonegatives.com/post/9545166283/learnyouakbmacros
 
-* VimGolf in Emacs 009: Sort the Cardinal Numbers
+* VimGolf in Emacs 009: Sort the Cardinal Numbers                   :vimgolf:
 :PROPERTIES:
 :DATE:     2011-08-22T02:22:44+00:00
 :DURATION: 5:17
@@ -52124,7 +52124,7 @@ Using restclient within emacs...
 :END:
   This is a companion tutorial to a blog post about R, Emacs and ESS currently hosted on CrossValidated.com blog.
 
-* VimGolf in Emacs e008: Case preserving word replacement
+* VimGolf in Emacs e008: Case preserving word replacement           :vimgolf:
 :PROPERTIES:
 :DATE:     2011-07-26T22:08:20+00:00
 :DURATION: 6:13
@@ -52137,7 +52137,7 @@ Using restclient within emacs...
 
   1: query-replace
 
-* VimGolf in Emacs e006: Interweave two blocks of text
+* VimGolf in Emacs e006: Interweave two blocks of text              :vimgolf:
 :PROPERTIES:
 :DATE:     2011-07-26T20:29:50+00:00
 :DURATION: 18:11
@@ -52155,7 +52155,7 @@ Using restclient within emacs...
   5. isearch movement
   6. command abbreviation
 
-* VimGolf in Emacs e005: complete the hex data array part ii
+* VimGolf in Emacs e005: complete the hex data array part ii        :vimgolf:
 :PROPERTIES:
 :DATE:     2011-07-25T18:43:30+00:00
 :DURATION: 19:05
@@ -52173,7 +52173,7 @@ Using restclient within emacs...
   5. fill-column and fill-paragraph
   6. narrowing
 
-* VimGolf in Emacs e004: Line Zipper
+* VimGolf in Emacs e004: Line Zipper                                :vimgolf:
 :PROPERTIES:
 :DATE:     2011-07-13T19:23:33+00:00
 :DURATION: 11:08
@@ -52184,7 +52184,7 @@ Using restclient within emacs...
 
   Enjoy!
 
-* VimGolf in Emacs e003: Multiplication Table
+* VimGolf in Emacs e003: Multiplication Table                       :vimgolf:
 :PROPERTIES:
 :DATE:     2011-07-11T13:32:18+00:00
 :DURATION: 7:04
@@ -52204,7 +52204,7 @@ Using restclient within emacs...
 :END:
   I'd demonstrate how to use elisp in a query-replace-regexp command to align a column of numbers based on the position of the '.'.
 
-* VimGolf in Emacs e002: formatted text to mardown
+* VimGolf in Emacs e002: formatted text to mardown                  :vimgolf:
 :PROPERTIES:
 :DATE:     2011-07-08T18:13:00+00:00
 :DURATION: 11:23
@@ -52217,7 +52217,7 @@ Using restclient within emacs...
 
   Fancy pants!
 
-* VimGolf in Emacs E001: Recursively Palindrome
+* VimGolf in Emacs E001: Recursively Palindrome                     :vimgolf:
 :PROPERTIES:
 :DATE:     2011-07-05T14:37:44+00:00
 :DURATION: 3:50
