@@ -18,7 +18,7 @@ If you have the [[https://mpv.io][MPV media player]] and the [[https://github.co
 Then use:
 
 - ~M-x emacstv-play-random~: play a random video
-- ~M-x emacstv-background-mode~: play one video after another until you disable it by calling ~M-x emacstv-background-mode~ again.
+- ~M-x emacstv-background-mode~: play one video after another until you disable it by calling ~M-x emacstv-background-mode~ again. You can use ~>~ to go to the next video in the shuffled playlist or ~<~ in the MPV window to go to the previous one, or use the commands ~mpv-playlist-next~ and ~mpv-playlist-prev~ in Emacs.
 - ~M-x emacstv-play~: select a video by typing in part of its title or speakers
 
 Toggle playing with ~M-x mpv-pause~.
