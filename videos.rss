@@ -154,6 +154,30 @@
       <pubDate>Tue, 17 Dec 2024 10:29:19 +0000</pubDate>
     </item>
     <item>
+      <title>Build Emacs 30 on Ubuntu 24.10 and some emacs tips</title>
+      <link>https://www.youtube.com/watch?v=cdYgcbSzE5Y&amp;list=PL7hhhG5qUoXk266pUiPhm-gqBgM5P8vBV&amp;index=52&amp;pp=iAQB</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=cdYgcbSzE5Y&list=PL7hhhG5qUoXk266pUiPhm-gqBgM5P8vBV&index=52&pp=iAQB">youtube</a><br><br>Build Emacs 30 on Ubuntu 24.10 as pure wayland application
+
+  also how to  remap keys on wayland using xkb and gnome tweaks
+  and getting them to work in emacs as well with some extra code
+
+  how to stop gnome notifications and use emacs ednc instead,
+  and tips for dired, eww and org mode
+
+  emacs build on ubuntu 24.10
+  https://github.com/NapoleonWils0n/cerberus/blob/master/emacs/emacs-build-ubuntu.org
+
+  ubuntu dotfiles
+  https://github.com/NapoleonWils0n/ubuntu-dotfiles
+
+  ubuntu bin
+  https://github.com/NapoleonWils0n/ubuntu-bin
+
+  nognome_notifications
+  https://github.com/NapoleonWils0n/ubuntu-root/blob/master/usr/local/bin/nognome_notifications</div>]]></description>
+      <pubDate>Tue, 17 Dec 2024 16:08:11 +0000</pubDate>
+    </item>
+    <item>
       <title>litdb and Emacs</title>
       <link>https://github.com/jkitchin/litdb</link>
       <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=ZkKKuvVUWkE">youtube</a><br><br>This video shows how litdb is integrated into Emacs. You can use it to insert text about articles you want to review, search your litdb with semantic and fulltext queries, make links to entries in your database, interface with a GPT, and export your notes to PDF.</div>]]></description>
@@ -2637,6 +2661,25 @@ This video is available under the terms of the Creative Commons Attribution-Shar
       <pubDate>Sat, 08 Jun 2024 17:40:58 +0000</pubDate>
     </item>
     <item>
+      <title>emacs - doom modeline now playing</title>
+      <link>https://www.youtube.com/watch?v=BegYuQ_qndk&amp;list=PL7hhhG5qUoXk266pUiPhm-gqBgM5P8vBV&amp;index=51&amp;pp=iAQB</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=BegYuQ_qndk&list=PL7hhhG5qUoXk266pUiPhm-gqBgM5P8vBV&index=51&pp=iAQB">youtube</a><br><br>doom modeline now playing is an emacs package that displays information about the currently playing audio or video in the modeline
+
+  it works by using playerctl to display information from audio, video and browser that have mpris support
+
+  you can customize the information displayed in the modeline using the playerctl metadata formatted commands, change the icons using nerd fonts and the position of the modeline segment in the modeline as well
+
+  doom modeline now playing
+  https://github.com/elken/doom-modeline-now-playing
+
+  my emacs init.el
+  https://github.com/NapoleonWils0n/freebsd-dotfiles-xps/blob/master/.config/emacs/init.el
+
+  nerd fonts cheat sheet
+  https://www.nerdfonts.com/cheat-sheet</div>]]></description>
+      <pubDate>Mon, 27 May 2024 19:05:26 +0000</pubDate>
+    </item>
+    <item>
       <title>Git Log Goes Spiral (GNU Emacs)</title>
       <link>https://lifeofpenguin.blogspot.com/2024/05/alternatives-in-gnu-emacs-wheel-of-time.html</link>
       <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=iXuwyAxRhrg&list=PLW9poAEUvGDCtcnrDdiQWRAX_3RC6XcNU&index=9&pp=iAQB">youtube</a><br><br>Details: https://lifeofpenguin.blogspot.com/2024/05/alternatives-in-gnu-emacs-wheel-of-time.html</div>]]></description>
@@ -2985,6 +3028,30 @@ This video is available under the terms of the Creative Commons Attribution-Shar
       <pubDate>Sat, 03 Feb 2024 14:34:24 +0000</pubDate>
     </item>
     <item>
+      <title>emacs mpv playlist with urls from the clipboard using a hotkey</title>
+      <link>https://www.youtube.com/watch?v=MXBJVi2-Dic&amp;list=PL7hhhG5qUoXk266pUiPhm-gqBgM5P8vBV&amp;index=50&amp;pp=iAQB</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=MXBJVi2-Dic&list=PL7hhhG5qUoXk266pUiPhm-gqBgM5P8vBV&index=50&pp=iAQB">youtube</a><br><br>creating a mpv video playlist from urls on the clipboard using wlr-which-key to run emacsclient and execute an emacs function that gets a video url from the clipboard and starts playing the video with mpv and adds additional urls to a playlist
+
+  using the emacs mpv.el package you can control mpv from within emacs using a keyboard hydra and jump to different items in the playlist
+
+  in this video i also cover using wlr-which-key keyboard to create keyboard shortcuts to create a queue of videos to be played using taskspooler and mpv, sending audio from youtube videos to mpd and creating a queue of videos to be downloaded
+
+  i also look at using emacsclient to run an emacs function from your init.el on the command line or with a hot key and how to sync emacs clipboard with the system clipboard on wayland using wl-clipboard
+
+  emacs init.el
+  https://github.com/NapoleonWils0n/freebsd-dotfiles-xps/blob/master/.config/emacs/init.el
+
+  wlr-which-key config
+  https://github.com/NapoleonWils0n/freebsd-dotfiles-xps/blob/master/.config/wlr-which-key/config.yaml
+
+  dwl config only modified files
+  https://github.com/NapoleonWils0n/cerberus/tree/master/dwl/dwl-freebsd-config
+
+  pinch
+  https://github.com/NapoleonWils0n/freebsd-bin/blob/master/pinch</div>]]></description>
+      <pubDate>Sat, 03 Feb 2024 20:41:25 +0000</pubDate>
+    </item>
+    <item>
       <title>GNU Emacs: Magnifier Tool</title>
       <link>https://lifeofpenguin.blogspot.com/2024/01/gnu-emacs-as-comic-book-reader.html</link>
       <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=xpIvFiFlhJE&list=PLW9poAEUvGDC1g1A3hBdZa0Atr0RL8yZt&index=2&pp=iAQB">youtube</a><br><br>Details:
@@ -3020,6 +3087,17 @@ This video is available under the terms of the Creative Commons Attribution-Shar
 
   #Emacs #IDE #Programming #SoftwareDevelopment #GNU #GNUEmacs</div>]]></description>
       <pubDate>Thu, 01 Feb 2024 16:00:42 +0000</pubDate>
+    </item>
+    <item>
+      <title>org mode video link capture with description created with yt-dlp</title>
+      <link>https://www.youtube.com/watch?v=6ImpWan1cuY&amp;list=PL7hhhG5qUoXk266pUiPhm-gqBgM5P8vBV&amp;index=49&amp;pp=iAQB</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=6ImpWan1cuY&list=PL7hhhG5qUoXk266pUiPhm-gqBgM5P8vBV&index=49&pp=iAQB">youtube</a><br><br>emacs org mode creating a video link handler for org mode to open video links with mpv
+
+  and a capture template for the links with the description created from the url on the clipboard using yt-dlp to grab the title
+
+  emacs init.el
+  https://github.com/NapoleonWils0n/freebsd-dotfiles-xps/blob/master/.config/emacs/init.el</div>]]></description>
+      <pubDate>Wed, 31 Jan 2024 00:02:27 +0000</pubDate>
     </item>
     <item>
       <title>Emacs: define  prefix/leader key (nested key maps)</title>
@@ -3153,6 +3231,28 @@ This video is available under the terms of the Creative Commons Attribution-Shar
 
   #Emacs #IDE #Programming #SoftwareDevelopment #GNU #GNUEmacs</div>]]></description>
       <pubDate>Thu, 18 Jan 2024 16:00:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>emacs org mode video link handler to open videos with mpv</title>
+      <link>https://www.youtube.com/watch?v=FakEmpQWoSE&amp;list=PL7hhhG5qUoXk266pUiPhm-gqBgM5P8vBV&amp;index=48&amp;pp=iAQB</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=FakEmpQWoSE&list=PL7hhhG5qUoXk266pUiPhm-gqBgM5P8vBV&index=48&pp=iAQB">youtube</a><br><br>creating a video link handler for org mode to open video links with mpv using the mpv.el package
+
+  in this video i cover manually creating a video link, use org-insert-link,
+  and also creating a org mode capture template for video link
+
+  pressing ctrl c - ctrl o on the links will open them with mpv player and opening another link will add it to the mpv playlist to be played after the current video
+
+  org mode video link handler
+  https://github.com/NapoleonWils0n/cerberus/blob/master/emacs/org-mode-video-links.org
+
+  emacs init.el
+  https://github.com/NapoleonWils0n/freebsd-dotfiles/blob/master/.config/emacs/init.el
+
+  mpv.el
+  https://github.com/kljohann/mpv.el
+
+  note: sorry about the audio pops havent quite figured out some audio issues on freebsd</div>]]></description>
+      <pubDate>Wed, 17 Jan 2024 20:02:46 +0000</pubDate>
     </item>
     <item>
       <title>Learning Elisp 16 - using a web API</title>
@@ -4551,6 +4651,21 @@ This video is available under the terms of the Creative Commons Attribution-Shar
       <pubDate>Thu, 21 Sep 2023 14:00:27 +0000</pubDate>
     </item>
     <item>
+      <title>emacs tramp doas zsh fix</title>
+      <link>https://www.youtube.com/watch?v=CDFxHTzrFVQ&amp;list=PL7hhhG5qUoXk266pUiPhm-gqBgM5P8vBV&amp;index=47&amp;pp=iAQB</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=CDFxHTzrFVQ&list=PL7hhhG5qUoXk266pUiPhm-gqBgM5P8vBV&index=47&pp=iAQB">youtube</a><br><br>fix for zsh not working with emacs tramp and doas
+
+  emacs init.el
+  https://github.com/NapoleonWils0n/fedora-dotfiles/blob/master/.config/emacs/init.el
+
+  zshrc
+  https://github.com/NapoleonWils0n/fedora-dotfiles/blob/master/.zshrc
+
+  doas.conf
+  https://github.com/NapoleonWils0n/fedora-root/blob/master/etc/doas.conf</div>]]></description>
+      <pubDate>Thu, 21 Sep 2023 15:25:27 +0000</pubDate>
+    </item>
+    <item>
       <title>Learning elisp 10 -built in data structures</title>
       <link>https://www.youtube.com/watch?v=oszVyBvxmzg&amp;list=PL9KxKa8NpFxKGctwh4-BqjQvdSRhh4NV-&amp;index=12&amp;pp=iAQB</link>
       <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=oszVyBvxmzg&list=PL9KxKa8NpFxKGctwh4-BqjQvdSRhh4NV-&index=12&pp=iAQB">youtube</a><br><br>Matching blog post:
@@ -4655,6 +4770,38 @@ This video is available under the terms of the Creative Commons Attribution-Shar
       <pubDate>Tue, 12 Sep 2023 19:57:06 +0000</pubDate>
     </item>
     <item>
+      <title>Emacs 29 package-vc-install install packages from github</title>
+      <link>https://www.youtube.com/watch?v=uaXgvQCcEl0&amp;list=PL7hhhG5qUoXk266pUiPhm-gqBgM5P8vBV&amp;index=46&amp;pp=iAQB</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=uaXgvQCcEl0&list=PL7hhhG5qUoXk266pUiPhm-gqBgM5P8vBV&index=46&pp=iAQB">youtube</a><br><br>Emacs 29 new option package-vc-install lets you install packages from a version control sources such as github rather than having to use another package manager like straight or quelpa
+
+  package-vc-selected-packages is a list of package installed with package-vc-install.
+
+  package-selected-package then includes the names of package installed with package-vs-install so when you run package-upgrade-all the package installed from github are also upgraded
+
+  I also take a look at some of Sacha Chua's emacs packages you can install from github using package-vc-install
+
+  sacha chua's blog
+  https://sachachua.com/blog/
+
+  sacha chua's packages:
+
+  waveform-el
+  https://github.com/sachac/waveform-el
+
+  subed
+  https://github.com/sachac/subed
+
+  compile-media
+  https://github.com/sachac/compile-media
+
+  subed-waveform
+  https://github.com/sachac/subed-waveform
+
+  tony zorman
+  https://tony-zorman.com/posts/package-vc-install.html</div>]]></description>
+      <pubDate>Tue, 12 Sep 2023 15:26:30 +0000</pubDate>
+    </item>
+    <item>
       <title>Emacs Goodies - #11 Dunnet</title>
       <link>https://www.youtube.com/watch?v=sdRHDLg7Xeg&amp;list=PL3kg5TcOuFloKaZ3TSmOL0Zh6xb8xyvpX&amp;index=11&amp;pp=iAQB</link>
       <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=sdRHDLg7Xeg&list=PL3kg5TcOuFloKaZ3TSmOL0Zh6xb8xyvpX&index=11&pp=iAQB">youtube</a><br><br>▶️ Playlist: https://www.youtube.com/playlist?list=PL3kg5TcOuFloKaZ3TSmOL0Zh6xb8xyvpX
@@ -4681,6 +4828,18 @@ This video is available under the terms of the Creative Commons Attribution-Shar
 
   #Emacs #IDE #Programming #SoftwareDevelopment #GNU #GNUEmacs</div>]]></description>
       <pubDate>Mon, 11 Sep 2023 15:00:43 +0000</pubDate>
+    </item>
+    <item>
+      <title>Emacs side windows for tree sitter, ednc and dict</title>
+      <link>https://www.youtube.com/watch?v=GXJbzvDaDBo&amp;list=PL7hhhG5qUoXk266pUiPhm-gqBgM5P8vBV&amp;index=45&amp;pp=iAQB</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=GXJbzvDaDBo&list=PL7hhhG5qUoXk266pUiPhm-gqBgM5P8vBV&index=45&pp=iAQB">youtube</a><br><br>Using Emacs side windows with tree sitter, dictionary look up and ednc the emacs desktop notification center
+
+  emacs init.el
+  https://github.com/NapoleonWils0n/fedora-dotfiles/blob/master/.config/emacs/init.el
+
+  mastering emacs side windows
+  https://www.masteringemacs.org/article/demystifying-emacs-window-manager</div>]]></description>
+      <pubDate>Fri, 08 Sep 2023 20:16:36 +0000</pubDate>
     </item>
     <item>
       <title>Emacs Goodies - #10 Morse Code + Nato Alphabet</title>
@@ -4772,6 +4931,19 @@ This video is available under the terms of the Creative Commons Attribution-Shar
       <pubDate>Mon, 04 Sep 2023 16:00:39 +0000</pubDate>
     </item>
     <item>
+      <title>Emacs dired play marked files with mpv</title>
+      <link>https://www.youtube.com/watch?v=U-N7y23X69E&amp;list=PL7hhhG5qUoXk266pUiPhm-gqBgM5P8vBV&amp;index=44&amp;pp=iAQB</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=U-N7y23X69E&list=PL7hhhG5qUoXk266pUiPhm-gqBgM5P8vBV&index=44&pp=iAQB">youtube</a><br><br>Emacs dired play marked file with mpv, you can mark files individually by pressing m on the keyboard or mark files by extension with *.
+
+  Then press your embark keyboard shortcut in my case c, and then press l on the keyboard to play all of the marked files with mpv
+
+  the files will all be added to the mpv playlist and play sequentially one after another
+
+  emacs init.el
+  https://github.com/NapoleonWils0n/fedora-dotfiles/blob/master/.config/emacs/init.el#L884</div>]]></description>
+      <pubDate>Sun, 03 Sep 2023 13:57:41 +0000</pubDate>
+    </item>
+    <item>
       <title>Emacs Goodies - #8 Ruler Mode</title>
       <link>https://www.youtube.com/watch?v=d_jvFuAm2AA&amp;list=PL3kg5TcOuFloKaZ3TSmOL0Zh6xb8xyvpX&amp;index=8&amp;pp=iAQB</link>
       <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=d_jvFuAm2AA&list=PL3kg5TcOuFloKaZ3TSmOL0Zh6xb8xyvpX&index=8&pp=iAQB">youtube</a><br><br>▶️ Playlist: https://www.youtube.com/playlist?list=PL3kg5TcOuFloKaZ3TSmOL0Zh6xb8xyvpX
@@ -4808,6 +4980,57 @@ This video is available under the terms of the Creative Commons Attribution-Shar
       <pubDate>Wed, 30 Aug 2023 10:51:55 +0000</pubDate>
     </item>
     <item>
+      <title>OBS Media source play youtube videos or clips from a youtube video</title>
+      <link>https://www.youtube.com/watch?v=mHtwlhwC0ag&amp;list=PL7hhhG5qUoXk266pUiPhm-gqBgM5P8vBV&amp;index=43&amp;pp=iAQB</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=mHtwlhwC0ag&list=PL7hhhG5qUoXk266pUiPhm-gqBgM5P8vBV&index=43&pp=iAQB">youtube</a><br><br>The Obs Studio media source doesn't support playing youtube urls, until now i have invented a brand new method using ffmpeg named pipes that allows you to play youtube videos using the obs media source
+
+  The new technique use a script called relay that also allows you to specify a start and end point of a youtube video to play using the sexagesimal time format.
+
+  For example you can start playing a youtube video at 5 minutes for 30 seconds with this command
+
+  tsp relay -i 'url' -s 00:05:00 -t 00:00:30
+
+  the stream doesnt start until you switch to the media scene and automatically closes when you change to another scene
+
+  You can also create a queue of youtube videos or clips from youtube videos to play, there is a version of the script called relay-local that works with local videos
+
+  Only one scene and media source is required for this technique so instead of using 20 scenes for 20 video clips you can just use one scene
+
+  replay script features:
+
+  Play a whole youtube video
+  Play a clip of a youtube video with a start and end time
+  The stream doesnt start playing until you switch to the media scene
+  The stream stops when you switch to another scene
+  Create a queue a youtube videos or clips from a youtube video
+  Play a local file or a clips of a local file
+  Create a queue of local files of clips of local files
+  Only uses one scene and one media source
+  Works on the command line or using emacs
+
+
+  relay script
+  https://raw.githubusercontent.com/NapoleonWils0n/fedora-bin/master/relay
+
+  relay-local script
+  https://raw.githubusercontent.com/NapoleonWils0n/fedora-bin/master/relay-local
+
+  sexagesimal-time
+  https://raw.githubusercontent.com/NapoleonWils0n/fedora-bin/master/sexagesimal-time
+
+  emacs obs relay notes
+  https://github.com/NapoleonWils0n/cerberus/blob/master/emacs/obs-cmd-noweb.org?plain=1
+
+  obs media source
+  https://obsproject.com/kb/media-sources
+
+  Note:
+  This technique doesnt work in Window because windows doesnt support
+  named pipes, the flatpak version of obs also doesnt work because flatpak
+  cant work with the system resources and use the named pipe. So you need to install the non-flatpak version of obs from your distros repo</div>]]></description>
+      <pubDate>Tue, 29 Aug 2023 23:11:59 +0000</pubDate>
+    </item>
+    <item>
       <title>Emacs Goodies - #7 Proced Mode</title>
       <link>https://www.youtube.com/watch?v=gRGYM8GuUUo&amp;list=PL3kg5TcOuFloKaZ3TSmOL0Zh6xb8xyvpX&amp;index=7&amp;pp=iAQB</link>
       <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=gRGYM8GuUUo&list=PL3kg5TcOuFloKaZ3TSmOL0Zh6xb8xyvpX&index=7&pp=iAQB">youtube</a><br><br>▶️ Playlist: https://www.youtube.com/playlist?list=PL3kg5TcOuFloKaZ3TSmOL0Zh6xb8xyvpX
@@ -4834,6 +5057,43 @@ This video is available under the terms of the Creative Commons Attribution-Shar
 
   #Emacs #IDE #Programming #SoftwareDevelopment #GNU #GNUEmacs</div>]]></description>
       <pubDate>Mon, 28 Aug 2023 15:00:37 +0000</pubDate>
+    </item>
+    <item>
+      <title>Control OBS Studio with an Emacs org file and noweb syntax</title>
+      <link>https://www.youtube.com/watch?v=83UIeSXFTfU&amp;list=PL7hhhG5qUoXk266pUiPhm-gqBgM5P8vBV&amp;index=42&amp;pp=iAQB</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=83UIeSXFTfU&list=PL7hhhG5qUoXk266pUiPhm-gqBgM5P8vBV&index=42&pp=iAQB">youtube</a><br><br>obs-cmd is a OBS cli for obs-websocket v5 the current obs-studio implementation. It works on Linux, Mac and Windows
+
+  In this video we use an Emacs org file with org babel source code blocks with the noweb syntax to run the obs-cmd command to switch obs scenes
+
+  obs-cmd org file and noweb
+  https://github.com/NapoleonWils0n/cerberus/blob/master/emacs/obs-cmd-noweb.org?plain=1
+
+  obs-cmd
+  https://github.com/grigio/obs-cmd
+
+  noweb
+  https://orgmode.org/manual/Noweb-Reference-Syntax.html</div>]]></description>
+      <pubDate>Sun, 27 Aug 2023 19:38:12 +0000</pubDate>
+    </item>
+    <item>
+      <title>Emacs control OBS Studio with obs-cmd</title>
+      <link>https://www.youtube.com/watch?v=ViVs2zd3-fI&amp;list=PL7hhhG5qUoXk266pUiPhm-gqBgM5P8vBV&amp;index=41&amp;pp=iAQB</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=ViVs2zd3-fI&list=PL7hhhG5qUoXk266pUiPhm-gqBgM5P8vBV&index=41&pp=iAQB">youtube</a><br><br>obs-cmd is a OBS cli for obs-websocket v5 the current obs-studio
+  implementation. It works on Linux, Mac and Windows and also supports
+  authentication.
+
+  In this video i show you how to install obs-cmd on linux and set up the
+  obs studio websocket server with authentication and how to create the
+  obs-cmd.toml config file with the obs password
+
+  Then i show you how to create an org document with source code block you can execute with C-c C-c to run the obs-cmd script to toggle recording, switch scene turn on the camera, start live streaming etc
+
+  obs-cmd
+  https://github.com/grigio/obs-cmd
+
+  emacs init.el
+  https://github.com/NapoleonWils0n/fedora-dotfiles/blob/master/.config/emacs/init.el</div>]]></description>
+      <pubDate>Sun, 27 Aug 2023 15:17:42 +0000</pubDate>
     </item>
     <item>
       <title>Emacs Goodies - #6 Battery-Mode</title>
@@ -4869,6 +5129,36 @@ This video is available under the terms of the Creative Commons Attribution-Shar
       <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=2hbX4h4ZdAc&list=PL9KxKa8NpFxKGctwh4-BqjQvdSRhh4NV-&index=10&pp=iAQB">youtube</a><br><br>Matching blog post:
   https://cestlaz.github.io/post/learning-elisp-8</div>]]></description>
       <pubDate>Wed, 23 Aug 2023 11:25:29 +0000</pubDate>
+    </item>
+    <item>
+      <title>Emacs eww create a queue of files to download with task spooler and aria2c</title>
+      <link>https://www.youtube.com/watch?v=cHPcAcCG9nY&amp;list=PL7hhhG5qUoXk266pUiPhm-gqBgM5P8vBV&amp;index=40&amp;pp=iAQB</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=cHPcAcCG9nY&list=PL7hhhG5qUoXk266pUiPhm-gqBgM5P8vBV&index=40&pp=iAQB">youtube</a><br><br>Emacs eww use task spooler to create a queue of files to be downloaded with  aria2c
+
+  emacs initl.el
+  https://github.com/NapoleonWils0n/fedora-dotfiles/blob/master/.config/emacs/init.el#L958C2-L958C2
+
+  yt-dlp config
+  https://raw.githubusercontent.com/NapoleonWils0n/fedora-dotfiles/master/.config/yt-dlp/config
+
+  aria2c config
+  https://raw.githubusercontent.com/NapoleonWils0n/fedora-dotfiles/master/.config/aria2/aria2.conf
+
+  task-spooler
+  https://github.com/justanhduc/task-spooler</div>]]></description>
+      <pubDate>Tue, 22 Aug 2023 21:46:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>Emacs insert a file or buffer into another file</title>
+      <link>https://www.youtube.com/watch?v=oT0dMBlFXzY&amp;list=PL7hhhG5qUoXk266pUiPhm-gqBgM5P8vBV&amp;index=39&amp;pp=iAQB</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=oT0dMBlFXzY&list=PL7hhhG5qUoXk266pUiPhm-gqBgM5P8vBV&index=39&pp=iAQB">youtube</a><br><br>Emacs insert a file or the contents of a buffer into another file
+
+  insert file into another file
+  C-x i
+
+  insert contents of a buffer into a file
+  C-x x i</div>]]></description>
+      <pubDate>Tue, 22 Aug 2023 14:27:30 +0000</pubDate>
     </item>
     <item>
       <title>Simple, Non-Commercial, Open Source Notes</title>
@@ -4917,6 +5207,38 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
 
   #Emacs #IDE #Programming #SoftwareDevelopment #GNU #GNUEmacs</div>]]></description>
       <pubDate>Mon, 21 Aug 2023 15:00:05 +0000</pubDate>
+    </item>
+    <item>
+      <title>Emacs eww send youtube invidious links to mpd with pinch</title>
+      <link>https://www.youtube.com/watch?v=8X_sNY--Iek&amp;list=PL7hhhG5qUoXk266pUiPhm-gqBgM5P8vBV&amp;index=38&amp;pp=iAQB</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=8X_sNY--Iek&list=PL7hhhG5qUoXk266pUiPhm-gqBgM5P8vBV&index=38&pp=iAQB">youtube</a><br><br>Send youtube links from invidious to mpd with emacs eww and pinch
+
+  In this video i cover knocking up some elsip code to run an external shell script called pinch that grabs the audio link from a video url from eww and sends it mpd
+
+  pinch
+  https://raw.githubusercontent.com/NapoleonWils0n/fedora-bin/master/pinch
+
+  emacs config
+  https://github.com/NapoleonWils0n/fedora-dotfiles/tree/master/.config/emacs
+
+  mpd config
+  https://github.com/NapoleonWils0n/fedora-dotfiles/tree/master/.config/mpd
+
+  ncmpc
+  https://github.com/NapoleonWils0n/fedora-dotfiles/tree/master/.config/ncmpc
+
+  zshenv
+  https://github.com/NapoleonWils0n/fedora-dotfiles/blob/master/.zshenv
+
+  mpd notes
+  https://github.com/NapoleonWils0n/cerberus/tree/master/mpd
+
+  mpd systemd
+  https://github.com/NapoleonWils0n/fedora-dotfiles/blob/master/.config/systemd/user/mpd.service
+
+  arch wiki mpd
+  https://wiki.archlinux.org/title/Music_Player_Daemon</div>]]></description>
+      <pubDate>Sat, 19 Aug 2023 17:18:18 +0000</pubDate>
     </item>
     <item>
       <title>Cleaning Up My Emacs Config - Configuring Emacs 06</title>
@@ -5036,6 +5358,52 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
       <pubDate>Mon, 14 Aug 2023 16:00:57 +0000</pubDate>
     </item>
     <item>
+      <title>mpv and ffmpeg screenshots with the timecode in the filename and emacs tips</title>
+      <link>https://www.youtube.com/watch?v=T2As4p3LzlI&amp;list=PL7hhhG5qUoXk266pUiPhm-gqBgM5P8vBV&amp;index=37&amp;pp=iAQB</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=T2As4p3LzlI&list=PL7hhhG5qUoXk266pUiPhm-gqBgM5P8vBV&index=37&pp=iAQB">youtube</a><br><br>mpv can take screenshots of the current playhead position in the video with the s keyboard shortcut, by default the file name of the screenshot will be mpv-shot0001.jpg
+
+  the screenshot-template option for mpv lets you customize the screen shot file name so that it contains the video file name and the timecode with hours , minutes, seconds and milliseconds
+  Big-Buck-Bunny-[00:05:30.977]v1.jpg
+
+  this lets you see which  file the screenshot is from and the exact position in the video
+
+  i also cover extracting a frame from a video with ffmpeg using my extract-frame script which i have updated to show the timecode in the output filename
+
+  on the emacs side of things i look at a fix for the ob-async package error in senitel process, running org src blocks to execute ffmpeg
+
+  extracting a frame from a video and insert the link to the image into a org file and then toggling image display on and off to view the image in emacs
+
+  as well as other emacs and mpv settings
+
+  mpv config
+  https://github.com/NapoleonWils0n/fedora-dotfiles/tree/master/.config/mpv
+
+  emacs init.el
+  https://github.com/NapoleonWils0n/fedora-dotfiles/blob/master/.config/emacs/init.el
+
+  emacs mpv.el
+  https://github.com/kljohann/mpv.el
+
+  emacs ob-aync.el
+  https://github.com/astahlman/ob-async
+
+  arch wiki mpv
+  https://wiki.archlinux.org/title/mpv
+
+  ffmpeg scripts
+  https://github.com/NapoleonWils0n/ffmpeg-scripts
+
+  extract frame
+  https://raw.githubusercontent.com/NapoleonWils0n/ffmpeg-scripts/master/extract-frame
+
+  ffmpeg Skripte
+  https://github.com/NapoleonWils0n/ffmpeg-Skripte
+
+  rahmen-extrahieren
+  https://raw.githubusercontent.com/NapoleonWils0n/ffmpeg-Skripte/master/rahmen-extrahieren</div>]]></description>
+      <pubDate>Sun, 13 Aug 2023 19:59:10 +0000</pubDate>
+    </item>
+    <item>
       <title>Emacs Goodies - #2 Midnight Mode</title>
       <link>https://www.youtube.com/watch?v=YS66xerSWeA&amp;list=PL3kg5TcOuFloKaZ3TSmOL0Zh6xb8xyvpX&amp;index=2&amp;pp=iAQB</link>
       <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=YS66xerSWeA&list=PL3kg5TcOuFloKaZ3TSmOL0Zh6xb8xyvpX&index=2&pp=iAQB">youtube</a><br><br>▶️ Playlist:https://www.youtube.com/playlist?list=PL3kg5TcOuFloKaZ3TSmOL0Zh6xb8xyvpX
@@ -5064,6 +5432,36 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
 
   #Emacs #IDE #Programming #SoftwareDevelopment #GNU #GNUEmacs</div>]]></description>
       <pubDate>Thu, 10 Aug 2023 16:00:23 +0000</pubDate>
+    </item>
+    <item>
+      <title>Emacs eww create video playlists for mpv with a keyboard shortcut</title>
+      <link>https://www.youtube.com/watch?v=Xnc1wLuJxO8&amp;list=PL7hhhG5qUoXk266pUiPhm-gqBgM5P8vBV&amp;index=36&amp;pp=iAQB</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=Xnc1wLuJxO8&list=PL7hhhG5qUoXk266pUiPhm-gqBgM5P8vBV&index=36&pp=iAQB">youtube</a><br><br>The emacs mpv.el package has functions to play a url and append a url to a playlist which we can use with the eww browser
+
+  however it requires a lot of keyboard short cuts to copy the url under the cursor, run the mpv function and paste in the url
+
+  in this video i create a new function and keyboard shortcut to automate the whole process so we can just press the l key when the cursor is over a video link and play the video with mpv and queue up additional videos as well
+
+  emacs init.el
+  https://github.com/NapoleonWils0n/fedora-dotfiles/blob/master/.config/emacs/init.el#L896</div>]]></description>
+      <pubDate>Tue, 08 Aug 2023 20:47:02 +0000</pubDate>
+    </item>
+    <item>
+      <title>Emacs dired create audio and video playlists with mpv.el</title>
+      <link>https://www.youtube.com/watch?v=LOvS90sTotI&amp;list=PL7hhhG5qUoXk266pUiPhm-gqBgM5P8vBV&amp;index=35&amp;pp=iAQB</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=LOvS90sTotI&list=PL7hhhG5qUoXk266pUiPhm-gqBgM5P8vBV&index=35&pp=iAQB">youtube</a><br><br>Create video playlists with Emacs dired using mpv.el with a single keyboard shortcut.
+
+  In this video we create some functions that check the mime type of a file and if its an video or audio file open it with mpv.el but if its not we open it with emacs
+
+  We then bind the new function to the l key so we can easily add videos or audio to a mpv playlist and control mpv from within emacs using a hydra
+
+  the advantage over using the openwith package which use file extension and then opens them with a specific application is that if you create a text file called test.mp4 with an mp4 extension openwith would try and open it with mpv
+
+  whereas this code checks the mime type of the file and would see the test.mp4 file its a text file and not a video, and open it with emacs and not mpv
+
+  emacs init.el
+  https://github.com/NapoleonWils0n/fedora-dotfiles/blob/master/.config/emacs/init.el</div>]]></description>
+      <pubDate>Tue, 08 Aug 2023 16:39:25 +0000</pubDate>
     </item>
     <item>
       <title>Learning Elisp part 6 - rot13 5 - rotating the region</title>
@@ -5115,6 +5513,39 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
       <link>https://www.youtube.com/watch?v=xvBJv1ea-i4&amp;list=PL8Bwba5vnQK14z96Gil86pLMDO2GnOhQ6&amp;index=19&amp;pp=iAQB</link>
       <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=xvBJv1ea-i4&list=PL8Bwba5vnQK14z96Gil86pLMDO2GnOhQ6&index=19&pp=iAQB">youtube</a><br><br>Steps to follow if you want to contribute to emacs.git (core GNU Emacs project).  Find all my Emacs packages on my website: https://protesilaos.com/emacs</div>]]></description>
       <pubDate>Thu, 03 Aug 2023 18:06:39 +0000</pubDate>
+    </item>
+    <item>
+      <title>mpv create playlists of videos from Invidious with emacs</title>
+      <link>https://www.youtube.com/watch?v=cbllDUYMPGo&amp;list=PL7hhhG5qUoXk266pUiPhm-gqBgM5P8vBV&amp;index=34&amp;pp=iAQB</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=cbllDUYMPGo&list=PL7hhhG5qUoXk266pUiPhm-gqBgM5P8vBV&index=34&pp=iAQB">youtube</a><br><br>The emacs mpv.el package allows you to create a playlist of urls to be played by mpv, the trick is you have to run M-x mpv-play-url and the url for the first video and then M-x mpv-playlist-append-url url for the subsequent links
+
+  In this video we will use the emacs eww web browser to view Invidious an open source front end to Youtube running in a Docker container and use the mpv video player to create a playlist of videos to play
+
+  This doesnt create a playlist file but sends url over the mpv json rpc interface to the mpv player to play the url
+
+  Pressing f8 in mpv will list the items in the playlist and the current position in the playlist. the greater than keyboard shortcut moves to the next playlist item and the less than keyboard shortcut moves to the previous item in the playlist
+
+  the emacs mpv package lets you append urls to a playlist, jump to next and previous entry in the playlist, jump to a specific entry and also remove an entry from the playlist, however it only lists the urls and not the video title
+
+  Note: I have added playlist next, playlist previous, jump to playlist entry and remove playlist entry to my hydra for controlling mpv from within Emacs
+
+  i also cover setting up Emacs exec-path and PATH environment variable to match that used by the user's shell. This will enable auto completion for all the binaries in you shell path when you run emacs Aync Shell Command function
+
+  these are a list of some of the commands we will be using
+
+  shr-copy-url
+  eww-copy-page-url
+  mpv-play-url
+  mpv-playlist-append-url
+
+  it should be possible to create a function using the above commands so you can just press a single keyboard shortcut to copy the url and play it with mpv
+
+  emacs init.el
+  https://github.com/NapoleonWils0n/fedora-dotfiles/blob/master/.config/emacs/init.el
+
+  mpv.el
+  https://github.com/kljohann/mpv.el</div>]]></description>
+      <pubDate>Tue, 01 Aug 2023 23:38:39 +0000</pubDate>
     </item>
     <item>
       <title>Learning Elisp 5 - Rot13 part 3 - interactive functions</title>
@@ -5604,6 +6035,50 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
       <pubDate>Thu, 01 Jun 2023 20:06:23 +0000</pubDate>
     </item>
     <item>
+      <title>emacs copy images from the clipboard into a org file, almost working</title>
+      <link>https://www.youtube.com/watch?v=kQnZTz9Qnbw&amp;list=PL7hhhG5qUoXk266pUiPhm-gqBgM5P8vBV&amp;index=32&amp;pp=iAQB</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=kQnZTz9Qnbw&list=PL7hhhG5qUoXk266pUiPhm-gqBgM5P8vBV&index=32&pp=iAQB">youtube</a><br><br>Emacs 29 has a new command called yank-media that supports yanking non-plain-text media like images and HTML from other applications into Emacs.
+
+  It is only supported in modes that have registered support for it, and only on capable platforms.
+
+  yank-media allows you to copy an image from the clipboard and insert it into a buffer in a supported mode, the only mode currently support are message and html modes
+
+  i have managed to get yank-media working with org files see the video below
+
+  emacs copy images from the clipboard into a org file with yank-media
+  https://www.youtube.com/watch?v=OOL6hGLejFE
+
+  yank-media org mode code
+  https://github.com/NapoleonWils0n/cerberus/blob/master/emacs/yank-media.org
+
+  emacs init.el
+  https://github.com/NapoleonWils0n/fedora-dotfiles/blob/master/.config/emacs/init.el
+
+
+  html mode file with yank media code
+  sgml-mode.el.gz
+
+  describe variable
+  ctrl-h v
+
+  yank-media--registed-handlers
+
+  yank-media--registered-handlers is a variable defined in ‘yank-media.el’.
+
+  copying-media-to-emacs
+  https://lars.ingebrigtsen.no/2021/11/08/copying-media-to-emacs/
+
+  emacs init.el
+  https://github.com/NapoleonWils0n/fedora-dotfiles/blob/master/.config/emacs/init.el#L663
+
+  emacs yank-media thread
+  https://lists.gnu.org/archive/html/emacs-devel/2021-11/threads.html#00654
+
+  emacs 29 news
+  https://github.com/emacs-mirror/emacs/blob/master/etc/NEWS.29</div>]]></description>
+      <pubDate>Tue, 30 May 2023 23:33:30 +0000</pubDate>
+    </item>
+    <item>
       <title>Shall we start an Emacs and Org-Mode meetup?</title>
       <link>https://www.youtube.com/watch?v=v0U_uC8molg</link>
       <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=v0U_uC8molg">youtube</a><br><br>Become my channel member: https://www.sparxsys.com/join
@@ -5928,6 +6403,34 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
       <pubDate>Thu, 18 May 2023 18:17:42 +0000</pubDate>
     </item>
     <item>
+      <title>emacs application launcher like rofi but works on wayland</title>
+      <link>https://www.youtube.com/watch?v=PfA3_EoUMv8&amp;list=PL7hhhG5qUoXk266pUiPhm-gqBgM5P8vBV&amp;index=31&amp;pp=iAQB</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=PfA3_EoUMv8&list=PL7hhhG5qUoXk266pUiPhm-gqBgM5P8vBV&index=31&pp=iAQB">youtube</a><br><br>The emacs app-launcher package can open application using their desktop files either from within emacs or as a floating frame we can activate with a hotkey on wayland
+
+  Gnomes application launcher opens a full screen grid and also zooms out your second display which is really annoying if you watching a video, so we want something a bit more minimal
+
+  I also cover the using gnome tweaks to center new windows and change the focus mode for windows and use dconf to set keyboard shortcuts for switching workspaces.
+
+  We also take a look at other application launchers like albert and ulauncher and the problems they have on wayland and using the wmctrl command to switch desktops on wayland and using looking glass to get the list of windows
+
+  emacs app-launcher
+  https://github.com/SebastienWae/app-launcher
+
+  emacs config
+  https://github.com/NapoleonWils0n/fedora-dotfiles/blob/92113d35bc298837ef6ed31a082b7f19a54d6a72/.config/emacs/init.el#L1097
+
+
+  Note you can change workspace names
+  gsettings set org.gnome.desktop.wm.preferences workspace-names "['terminal', 'emacs', 'firefox', 'scratch']"
+
+  reddit post
+  https://www.reddit.com/r/unixporn/comments/s7p7pr/so_which_run_launcher_do_you_use_rofi_or_dmenu/
+
+  workspace demo script
+  https://raw.githubusercontent.com/NapoleonWils0n/cerberus/master/wmctrl/workspace</div>]]></description>
+      <pubDate>Wed, 17 May 2023 15:46:58 +0000</pubDate>
+    </item>
+    <item>
       <title>GB31401_システムプログラム_2023-0026-emacs-2</title>
       <link></link>
       <description><![CDATA[<div id="content"><a href="https://vimeo.com/826751838">vimeo</a><br><br>筑波大学情報科学類「システムプログラム」2023年度
@@ -6011,6 +6514,54 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
       <pubDate>Fri, 12 May 2023 13:00:08 +0000</pubDate>
     </item>
     <item>
+      <title>elfeed-tube the best youtube rss reader</title>
+      <link>https://www.youtube.com/watch?v=f6xWPiFvw4Y&amp;list=PL7hhhG5qUoXk266pUiPhm-gqBgM5P8vBV&amp;index=30&amp;pp=iAQB</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=f6xWPiFvw4Y&list=PL7hhhG5qUoXk266pUiPhm-gqBgM5P8vBV&index=30&pp=iAQB">youtube</a><br><br>elfeed tube is an emacs package that extends the functionality of the elfeed rss reader to provide extra features for youtube rss feeds for channels and playlists
+
+  List of elfeed-tube features:
+
+  Plays video using mpv
+  Show image from the youtube post
+  Show the video duration
+  Show the video description
+  Sponsor block support
+
+  Live Transcript  - a transcript of the video that scrolls in sync as you watch the video with mpv that you can click on and jump to that position in the video
+
+  Set the language of the transcript that is displayed
+
+  Customize the mpv command to display videos full screen on your second display
+
+  elfeed-tube use the mpv.el package and will work with hydras for mpv as well
+
+  Back-fill add all historical entries for Youtube feeds to Elfeed instead of just the last 15 entries, this allows you to pull in all the videos for a channel or playlist
+
+  Customize which elements are displayed on the page, so you can disable the description, transcript image etc
+
+  You can call elfeed-tube-fetch outside of Elfeed to read an abritrary Youtube video URL (not just feed entries) and produce an Elfeed-like entry buffer for it with description, other metadata and live transcripts etc.
+
+  elfeed-tube
+  https://github.com/karthink/elfeed-tube
+
+  emacs config
+  https://github.com/NapoleonWils0n/fedora-dotfiles/tree/master/.config/emacs
+
+  feeds
+  https://github.com/NapoleonWils0n/feeds/blob/master/feeds.org
+
+  elfeed
+  https://github.com/skeeto/elfeed
+
+  elfeed-org
+  https://github.com/remyhonig/elfeed-org
+
+  prot dotfiles
+  https://protesilaos.com/emacs/dotemacs#h:0cd8ddab-55d1-40df-b3db-1234850792ba
+
+  https://git.sr.ht/~protesilaos/dotfiles</div>]]></description>
+      <pubDate>Fri, 12 May 2023 17:02:06 +0000</pubDate>
+    </item>
+    <item>
       <title>Emacs Quick Way To Find About Specific Package Infomation 2023_05_12 04:39:18</title>
       <link>https://www.youtube.com/watch?v=wdS3JoO6hww&amp;feature=youtu.be</link>
       <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=wdS3JoO6hww&feature=youtu.be">youtube</a><br><br>In this video, you will see, package-describe can help you to find information about emacs packages in a quick way.
@@ -6059,6 +6610,17 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
   emacs config
   https://github.com/NapoleonWils0n/fedora-dotfiles/tree/master/.config/emacs</div>]]></description>
       <pubDate>Wed, 10 May 2023 15:35:34 +0000</pubDate>
+    </item>
+    <item>
+      <title>emacs doom-modeline icons broken after update, heres the fix</title>
+      <link>https://www.youtube.com/watch?v=_wgeEvKkgGQ&amp;list=PL7hhhG5qUoXk266pUiPhm-gqBgM5P8vBV&amp;index=29&amp;pp=iAQB</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=_wgeEvKkgGQ&list=PL7hhhG5qUoXk266pUiPhm-gqBgM5P8vBV&index=29&pp=iAQB">youtube</a><br><br>Have you updated doom-modeline in emacs and found all the icons in the modeline are now missing and replaced with a square with a broken font in them.
+
+  emacs doom-modeline has switched from using all-the-icons to nerd-icons to display icons in the modeline so you need to install the nerd-icons package and run M-x nerd-icons-install-fonts to install the necessary fonts.
+
+  doom-modeline
+  https://github.com/seagle0128/doom-modeline</div>]]></description>
+      <pubDate>Wed, 10 May 2023 18:37:20 +0000</pubDate>
     </item>
     <item>
       <title>Emacs Company Mode Is Bloody Good 2023_05_10_03:44:57</title>
@@ -6244,6 +6806,27 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
   5. Youtube: https://youtube.com/ravisagar1
   ####</div>]]></description>
       <pubDate>Thu, 04 May 2023 02:00:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>Building Emacs 30 pgtk for wayland with native compilation on linux</title>
+      <link>https://www.youtube.com/watch?v=d5JXM7tUTQI&amp;list=PL7hhhG5qUoXk266pUiPhm-gqBgM5P8vBV&amp;index=27&amp;pp=iAQB</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=d5JXM7tUTQI&list=PL7hhhG5qUoXk266pUiPhm-gqBgM5P8vBV&index=27&pp=iAQB">youtube</a><br><br>Building Emacs 30 from the master branch as a pure gtk application for wayland with native compilation which adds support for compiling EmacsLisp to native code using libgccjit.
+
+  In this video i cover building Emacs 30 pgtk on Fedora 38 and Ubuntu,
+  the process is surprising quick downloading the emacs git repo takes 7 or 8 minutes and building and installing Emacs took just over 5 minutes on a Dell xps 15 with 16 gig of ram
+
+  emacs 30 pgtk build on fedora
+  https://github.com/NapoleonWils0n/cerberus/blob/master/fedora/emacs-build-fedora.org
+
+  ubuntu building emacs with pgtk
+  https://batsov.com/articles/2021/12/19/building-emacs-from-source-with-pgtk/
+
+  another ubuntu guide for building emacs
+  https://practical.li/blog/posts/build-emacs-28-on-ubuntu/
+
+  my emacs config
+  https://github.com/NapoleonWils0n/fedora-dotfiles/tree/master/.config/emacs</div>]]></description>
+      <pubDate>Mon, 01 May 2023 21:56:31 +0000</pubDate>
     </item>
     <item>
       <title>سری ویدیو های Emacs | نصب و راه اندازی doom emacs</title>
@@ -9148,6 +9731,50 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
       <pubDate>Tue, 20 Dec 2022 19:22:12 +0000</pubDate>
     </item>
     <item>
+      <title>emacs app-launcher launch gui application by opening their desktop entries</title>
+      <link>https://www.youtube.com/watch?v=qQgwx59fmCQ&amp;list=PL7hhhG5qUoXk266pUiPhm-gqBgM5P8vBV&amp;index=24&amp;pp=iAQB</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=qQgwx59fmCQ&list=PL7hhhG5qUoXk266pUiPhm-gqBgM5P8vBV&index=24&pp=iAQB">youtube</a><br><br>Emacs app-launcher is a package that will launch gui application by opening their desktop entries.
+
+  It use the xdg specification and will open application installed with the system package manager like apt, snap, flatpak and nixpkgs
+
+  the app-launcher opens in the minibuffer and displays a list of the applications on your system with desktop entries, it doesnt display any icons next to the application but there is a open github issue request icon support from a year ago
+
+  After you select an application to launch the app-launcher window in the mini buffer automatically hides, the app-launcher use code from the Counsel package and one of the contributors is David Wilson from @SystemCrafters
+
+  app-launcher isnt in the melpa repo but can be installed with straight.el, use-package or by manually downloading the app-launcher.el into your ~/.config/emacs/lisp directory
+
+  to enable the app-launcher package add the following code to your emacs init.el file
+
+  (require 'app-launcher)
+
+  ;; app-launcher
+  (keymap-set global-map "C-c d" 'app-launcher-run-app)
+
+  to run the app-launcher package run the following command in the minibuffer
+
+  M-x app-launcher-run-app
+
+  you can also bind app-launcher-run-app to a keyboard shortcut
+
+  emacs app-laucher:
+  https://github.com/SebastienWae/app-launcher
+
+  emacs early-init.el
+  https://github.com/NapoleonWils0n/ubuntu-dotfiles/blob/master/.config/emacs/early-init.el
+
+  emacs init.el
+  https://github.com/NapoleonWils0n/ubuntu-dotfiles/blob/master/.config/emacs/init.el
+
+  it should also be possible to create an emacs frame that opens the app-launcher in the style of spotlight or alfred on the mac
+
+  emacs frames
+  https://github.com/NapoleonWils0n/cerberus/blob/master/emacs/emacs-frames.org
+
+  location of desktop entries for apt, snap, flatpak and nixpkgs
+  https://github.com/NapoleonWils0n/cerberus/blob/master/ubuntu/desktop-entries.org</div>]]></description>
+      <pubDate>Tue, 20 Dec 2022 20:33:31 +0000</pubDate>
+    </item>
+    <item>
       <title>Spacemacs: Combining the best of Emacs and Vim</title>
       <link>https://www.youtube.com/watch?v=6Cv0Pj_GS6A</link>
       <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=6Cv0Pj_GS6A">youtube</a><br><br>From the "635: The Perils of Manually Labeling Data for Machine Learning Models" in which @JonKrohnLearns speaks with Shayan Mohanty about the pitfalls of data analysis when bias comes into the equation (spoiler alert: it always does), the importance of the Chomsky hierarchy in data management, and the importance of simulation engines for returning real-time results to users.
@@ -10761,6 +11388,34 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
       <pubDate>Mon, 14 Nov 2022 14:00:11 +0000</pubDate>
     </item>
     <item>
+      <title>emacs side windows pinching prots code</title>
+      <link>https://www.youtube.com/watch?v=o_k1NERXzLY&amp;list=PL7hhhG5qUoXk266pUiPhm-gqBgM5P8vBV&amp;index=20&amp;pp=iAQB</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=o_k1NERXzLY&list=PL7hhhG5qUoXk266pUiPhm-gqBgM5P8vBV&index=20&pp=iAQB">youtube</a><br><br>Creating a emacs side window for dired that we can toggle open and closed with a keyboard shortcut.
+
+  I pinched this code from prot and modified it a bit so we can switch to the sidebar with C-x o, i also cover hiding the free space text in dired and hiding the modeline in the side window
+
+  Files in the dired side window can be open in the main window by pressing shift return
+
+  emacs init.el
+  https://github.com/NapoleonWils0n/ubuntu-dotfiles/blob/master/.config/emacs/init.el
+
+  emacs manual side windows:
+  https://www.gnu.org/software/emacs/manual/html_node/elisp/Side-Windows.html
+
+  prot dotfiles:
+  https://protesilaos.com/emacs/dotemacs
+
+  prot video
+  https://www.youtube.com/watch?v=rjOhJMbA-q0
+
+  system crafters video:
+  https://www.youtube.com/watch?v=-H2nU0rsUMY
+
+  omar polo:
+  https://www.omarpolo.com/post/emacs-side-window.html</div>]]></description>
+      <pubDate>Mon, 14 Nov 2022 16:29:41 +0000</pubDate>
+    </item>
+    <item>
       <title>4 Hours of Emacs</title>
       <link>https://www.youtube.com/watch?v=TlD8kJ4kXe4</link>
       <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=TlD8kJ4kXe4">youtube</a><br><br>4 Hours of Emacs with sound (for at least 3 hours ... probably)! Oh joy! #emacs #sound #programming #tutorial</div>]]></description>
@@ -11245,6 +11900,25 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
   - Email: leo95.yt@gmail.com
   - LinkedIn: https://www.linkedin.com/in/leonardo-tamiano-707591236</div>]]></description>
       <pubDate>Wed, 26 Oct 2022 08:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Transparency in emacs 29, alacritty and background image in Firefox</title>
+      <link>https://www.youtube.com/watch?v=n22KE0JeeRo&amp;list=PL7hhhG5qUoXk266pUiPhm-gqBgM5P8vBV&amp;index=16&amp;pp=iAQB</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=n22KE0JeeRo&list=PL7hhhG5qUoXk266pUiPhm-gqBgM5P8vBV&index=16&pp=iAQB">youtube</a><br><br>How to set transparency in Emacs 29, Alacritty and add a background image to Firefox new tabs, blank page and private windows
+
+  Update:
+  After updating my drivers alacritty wouldnt open even after rebuilding it,
+  so ive switched back to good old urxvt
+
+  Firefox css:
+  https://github.com/NapoleonWils0n/firefox-css
+
+  True Emacs Transparency
+  https://kristofferbalintona.me/posts/202206071000/
+
+  How To Set a Custom Homepage Background Image in Firefox:
+  https://www.youtube.com/watch?v=K3iSxljSo8Q</div>]]></description>
+      <pubDate>Mon, 24 Oct 2022 14:01:33 +0000</pubDate>
     </item>
     <item>
       <title>Emacs: How to get help with  Info Mode</title>
@@ -12451,6 +13125,22 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
 
   #emacs #writing #writingtools</div>]]></description>
       <pubDate>Sat, 03 Sep 2022 18:29:46 +0000</pubDate>
+    </item>
+    <item>
+      <title>fix emacs client not using ssh keys with magit and tramp</title>
+      <link>https://www.youtube.com/watch?v=HXDU3Zmmb_k&amp;list=PL7hhhG5qUoXk266pUiPhm-gqBgM5P8vBV&amp;index=13&amp;pp=iAQB</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=HXDU3Zmmb_k&list=PL7hhhG5qUoXk266pUiPhm-gqBgM5P8vBV&index=13&pp=iAQB">youtube</a><br><br>emacs client not working with your ssh keys with programs like magit and tramp even though you have added your ssh keys and its working with emacs
+
+  The problem may be how you have started using emacs --daemon in your window manager  or systemd
+
+  The issue is the emacsclient needs to be able access the SSH_AUTH_SOCK variable from the parent process that contains the path to the ssh-agent socket that is created when you use ssh-add
+
+  The fix to get emacsclient to use your ssh keys is to start emacs using the emacsclient in your desktop application launcher like rofi, this starts the emacs daemon and allows the emacsclient to access the ssh variable for the ssh keys
+
+  Dont start emacs using systemd because it doesnt use variables set in your shell config files, and starting emacs with emacs --daemon in your window manger sets the parent process to your window manager
+
+  So the short answer is starting emacs with emacsclient using your desktop launcher fixes the issue of emacsclient not using your ssh keys</div>]]></description>
+      <pubDate>Fri, 02 Sep 2022 14:22:09 +0000</pubDate>
     </item>
     <item>
       <title>Start Emacs And Vim In Vanilla Mode 2022_09_02_08:12:30</title>
@@ -17381,6 +18071,52 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
       <pubDate>Fri, 18 Feb 2022 20:00:06 +0000</pubDate>
     </item>
     <item>
+      <title>Trim a video into multiple clips to the millisecond with ffmpeg, mpv and emacs</title>
+      <link>https://www.youtube.com/watch?v=3YgIX7Sdd0w&amp;list=PL7hhhG5qUoXk266pUiPhm-gqBgM5P8vBV&amp;index=12&amp;pp=iAQB</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=3YgIX7Sdd0w&list=PL7hhhG5qUoXk266pUiPhm-gqBgM5P8vBV&index=12&pp=iAQB">youtube</a><br><br>Using emacs to capture timestamps from mpv using the mpv.el package,
+  converting the timestamps into start time and duration with awk and then
+  creating the video clips with ffmpeg
+
+  You can use the mpv.el emacs package to control mpv and inset the playheads currernt position as a timestamp into an org file
+
+  you can then export the timestamp and convert them into start time and duration with the clip-time script and use the output of that script with the scene-cut script to trim the video clips to the milliseconds with ffmpeg
+
+  or run capture the timestamps with the mpv.el package store them in an org document and run some source code blocks and run ffmpeg from within the org file and trim all the clips without leaving emacs or using the terminal
+
+  I forgot to mention you need enable org babel support with the following code in your emacs config
+
+  https://github.com/NapoleonWils0n/ubuntu-dotfiles/blob/master/.config/emacs/init.el#L323
+
+  ; org-babel shell script
+  (org-babel-do-load-languages
+  'org-babel-load-languages
+  '((shell . t)))
+
+  ;; org babel supress do you want to execute code message
+  (setq org-confirm-babel-evaluate nil
+        org-src-fontify-natively t
+        org-src-tab-acts-natively t)
+
+  emacs mpv and hydra install:
+  https://github.com/NapoleonWils0n/cerberus/blob/master/emacs/mpv-timer.org
+
+  edit videos with ffmpeg, mpv and emacs
+  https://github.com/NapoleonWils0n/cerberus/blob/master/emacs/edit-videos-with-ffmpeg-mpv-emacs.org
+
+  clip-time script
+  https://raw.githubusercontent.com/NapoleonWils0n/ffmpeg-scripts/master/clip-time
+
+  scene-cut script:
+  https://raw.githubusercontent.com/NapoleonWils0n/ffmpeg-scripts/master/scene-cut
+
+  ffmpeg scripts:
+  https://github.com/NapoleonWils0n/ffmpeg-scripts
+
+  my emacs config:
+  https://github.com/NapoleonWils0n/ubuntu-dotfiles/blob/master/.config/emacs/init.el</div>]]></description>
+      <pubDate>Fri, 18 Feb 2022 15:19:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Org-mode - Fix problems with publishing</title>
       <link>https://www.youtube.com/watch?v=SOpfVh1QQM4</link>
       <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=SOpfVh1QQM4">youtube</a><br><br>If you are facing problems with publishing a website using org mode then try deleting cache files from your .org-timestamps directory from your emacs home.
@@ -17555,6 +18291,39 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
       <pubDate>Mon, 14 Feb 2022 17:15:01 +0000</pubDate>
     </item>
     <item>
+      <title>demo of the mpv.el emacs package to control mpv</title>
+      <link>https://www.youtube.com/watch?v=NYTD8jO01uI&amp;list=PL7hhhG5qUoXk266pUiPhm-gqBgM5P8vBV&amp;index=10&amp;pp=iAQB</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=NYTD8jO01uI&list=PL7hhhG5qUoXk266pUiPhm-gqBgM5P8vBV&index=10&pp=iAQB">youtube</a><br><br>mpv.el is a emacs package that allows you to control mpv using the JSON-based IPC protocol.
+
+  control mpv with emacs set up
+  https://www.youtube.com/watch?v=6g0Wl37T8OQ
+
+  to enable milliseconds in mpv on screen display edit your ~/.config/mpv/mpv.conf file and add the following code
+
+  osd-fractions
+
+  You can then capital O in the mpv player to show the onscreen display with milliseconds
+
+  Correction:
+  the mpv-play command doesnt have to be used in an org document to open a video with mpv, the mpv-play command also works in the mini buffer and subtitle files
+
+  Note:
+  Youtube says there is a copyright claim for some of the audio from Night of the Living Dead (which is the public domain)  when i was rewinding the video and playing they are coming to get you Barbara
+
+  What they are saying is me rewinding the video and playing the audio is actually copying someone song, what are the odds of me exactly recreating a bit of audio that someone has in a song that they have copyright over from a movie thats in the public domain and doesnt have a copyright, how does that work ?
+
+  so it forced me to trim 10 seconds out of the video, so there will be a point in the video about the 14 minute mark where the video suddenly jumps
+
+  i also cover the different syntax used by srt and vtt subtitles files
+
+  mpv manual
+  https://mpv.io/manual/stable/#json-ipc
+
+  mpv.el:
+  https://github.com/kljohann/mpv.el</div>]]></description>
+      <pubDate>Mon, 14 Feb 2022 23:28:18 +0000</pubDate>
+    </item>
+    <item>
       <title>What Is Doom Emacs and How to Install It</title>
       <link>https://www.youtube.com/watch?v=1ZWm8B5t8B4</link>
       <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=1ZWm8B5t8B4">youtube</a><br><br>"Doom Emacs simplifies Emacs setup, giving you a do-it-all text editor and IDE you need to try to believe. Let's look at what it is and how you can start using it.
@@ -17565,6 +18334,67 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
 
   Or visit our website at: https://www.maketecheasier.com/"</div>]]></description>
       <pubDate>Mon, 14 Feb 2022 12:00:03 +0000</pubDate>
+    </item>
+    <item>
+      <title>Control mpv with emacs and seek to the millisecond in videos with timestamps</title>
+      <link>https://www.youtube.com/watch?v=6g0Wl37T8OQ&amp;list=PL7hhhG5qUoXk266pUiPhm-gqBgM5P8vBV&amp;index=9&amp;pp=iAQB</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=6g0Wl37T8OQ&list=PL7hhhG5qUoXk266pUiPhm-gqBgM5P8vBV&index=9&pp=iAQB">youtube</a><br><br>mpv can be controlled by external programs using the JSON-based IPC protocol
+
+  emacs has a package called mpv that allows you to control mpv using emacs  and jump to a position in the video when your cursor is on a timestamp in an org document
+
+  The main purpose of the mpv.el package is to jump to timestamp in a subtitles file so you can fix any errors in the subtitles
+
+  org-timers and the mpv package dont support seeking to the milliseconds
+  in videos so i have overridden the mpv and org-timers functions to add millisecond support so you can seek more accurately
+
+  You can also insert the current playhead position into an org document in with the ffmpeg format for timestamp hh:mm:ss:ms 00:00:00.000,
+  so you can mark sections of video and use the timestamps with ffmpeg to trim the video into sections
+
+  Using the emacs hydra package you can create an mpv mode which sends your keystrokes to mpv over the json interface allowing you to use keys like hjkl to seek back and forth in the video.
+
+  You can also insert the playheads current position into the org document with milliseconds and use the timestamp with ffmpeg, pause and quit the video as well
+
+  Subtitles notes
+  vtt subtitle files timestamps will seek to the millisecond because they use a decimal point for milliseconds, but uses a comma and not a decimal point so they only seek to the second
+
+  the format in vtt subtitles file includes a decimal point for milliseconds
+  00:00:05.080
+
+  But the srt subtitle format uses a comma and not a decimal point
+  00:00:05,080
+
+  to do:
+  enable seeking by a single frame backwards and forwards using the comma and period keys, the mpv commands are called frame-back-step and frame-step, which should work with the mpv-run-command from mpv.el
+
+  i got it working once then it stopped working not sure why
+
+  ("," mpv-run-command frame-back-step)
+  ("." mpv-run-command frame-step)
+
+  mpv.el set up
+  https://github.com/NapoleonWils0n/cerberus/blob/master/emacs/mpv-timer.org
+
+  my emacs config:
+  https://github.com/NapoleonWils0n/ubuntu-dotfiles/blob/master/.config/emacs/init.el
+
+  mpv.el:
+  https://github.com/kljohann/mpv.el
+
+  mpv.el install:
+  M-x package-install mpv
+
+  emacs hydra
+  https://github.com/abo-abo/hydra
+
+  emacs hydra install
+  M-x package-install hydra
+
+  @SachaChua youtube:
+  https://www.youtube.com/c/SachaChua
+
+  SachaChua emacs config:
+  https://sachachua.com/dotemacs/</div>]]></description>
+      <pubDate>Mon, 14 Feb 2022 19:49:37 +0000</pubDate>
     </item>
     <item>
       <title>Emacs From Scratch, An Emacs Tutorial for Beginners - 03 Lisp basics</title>
@@ -19657,6 +20487,23 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
       <pubDate>Wed, 05 Jan 2022 08:00:02 +0000</pubDate>
     </item>
     <item>
+      <title>emacs edit and tangle files over ssh with ssh keys</title>
+      <link>https://www.youtube.com/watch?v=88hNCgU9VmA&amp;list=PL7hhhG5qUoXk266pUiPhm-gqBgM5P8vBV&amp;index=6&amp;pp=iAQB</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=88hNCgU9VmA&list=PL7hhhG5qUoXk266pUiPhm-gqBgM5P8vBV&index=6&pp=iAQB">youtube</a><br><br>Set up emacs to use your ssh keys so you can edit or tangle files over ssh without being prompted for your ssh password every time.
+
+  You can create an org document and tangle all the code blocks set the file permissions and deploy them to multiple machines at once with a keyboard shortcut.
+
+  emacs and ssh keys:
+  https://github.com/NapoleonWils0n/cerberus/blob/master/emacs/tangle-ssh.org
+
+  emacs init.el:
+  https://github.com/NapoleonWils0n/ubuntu-dotfiles/blob/master/.config/emacs/init.el
+
+  zshrc:
+  https://github.com/NapoleonWils0n/ubuntu-dotfiles/blob/master/.zshrc</div>]]></description>
+      <pubDate>Wed, 05 Jan 2022 15:56:31 +0000</pubDate>
+    </item>
+    <item>
       <title>Emacs Vim Find Help Better Ways 2022_01_05_06:48:49</title>
       <link>https://www.youtube.com/watch?v=ez6Xf1deKBo&amp;list=PLXbUyQOf06CfnGE46zsPiDF0zTtkzdDsX&amp;index=51&amp;pp=iAQB</link>
       <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=ez6Xf1deKBo&list=PLXbUyQOf06CfnGE46zsPiDF0zTtkzdDsX&index=51&pp=iAQB">youtube</a><br><br>In this video, you will see, how to find helps in an efficient and better way with minimum effort. I have covered VIm and Emacs.
@@ -19680,6 +20527,23 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
   I enjoy making Tech videos.
   Please subscribe to my channel.</div>]]></description>
       <pubDate>Tue, 04 Jan 2022 20:09:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>Be lazy like the British and deploy your root config files in seconds</title>
+      <link>https://www.youtube.com/watch?v=T5v690n30QQ&amp;list=PL7hhhG5qUoXk266pUiPhm-gqBgM5P8vBV&amp;index=5&amp;pp=iAQB</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=T5v690n30QQ&list=PL7hhhG5qUoXk266pUiPhm-gqBgM5P8vBV&index=5&pp=iAQB">youtube</a><br><br>How to deploy your root config files in seconds from a single text file,
+  create any needed directories and set the file permissions
+  with a keyboard shortcut
+
+  The UK government says that British workers are the laziest in the world,
+  if theres a way to do less work and have more time for drinking tea and eating biscuits then us Brits will find it
+
+  ubuntu-root.org file:
+  https://github.com/NapoleonWils0n/ubuntu-root/blob/master/ubuntu-root.org
+
+  ubuntu root dotfiles:
+  https://github.com/NapoleonWils0n/ubuntu-root</div>]]></description>
+      <pubDate>Tue, 04 Jan 2022 18:26:53 +0000</pubDate>
     </item>
     <item>
       <title>Magit: Boot Your Git Productivity in Emacs</title>
@@ -19938,6 +20802,25 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
       <link>https://www.youtube.com/watch?v=wbG-a8DIIuY</link>
       <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=wbG-a8DIIuY">youtube</a><br><br>Quick demo on how I manage detached processes launched from Eshell using compilation buffers.</div>]]></description>
       <pubDate>Sat, 25 Dec 2021 14:54:01 +0000</pubDate>
+    </item>
+    <item>
+      <title>emacs install selected packages fix</title>
+      <link>https://www.youtube.com/watch?v=GWiEGRkFHzs&amp;list=PL7hhhG5qUoXk266pUiPhm-gqBgM5P8vBV&amp;index=4&amp;pp=iAQB</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=GWiEGRkFHzs&list=PL7hhhG5qUoXk266pUiPhm-gqBgM5P8vBV&index=4&pp=iAQB">youtube</a><br><br>Every time you install a package with emacs it adds the name of that package to a variable called package-selected-packages
+
+  You can then copy your .emacs file to another machine and run install-selected-packages and it should then install all of the packages in your config
+
+  But i could never get it to work until i figured out you need to move the package-selected-packages code block above package-initialize
+
+  and after package-initialize add the following code
+
+  (unless package-archive-contents
+    (package-refresh-contents))
+  (package-install-selected-packages)
+
+  my emacs config
+  https://github.com/NapoleonWils0n/ubuntu-dotfiles/blob/master/.config/emacs/init.el</div>]]></description>
+      <pubDate>Sat, 25 Dec 2021 16:01:16 +0000</pubDate>
     </item>
     <item>
       <title>A Review of Emacs Markdown Mode</title>
@@ -21673,6 +22556,18 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
 
   Join the Matrix chat room (#habib-khan:matrix.org): https://matrix.to/#/#hk1:matrix.org</div>]]></description>
       <pubDate>Sat, 06 Nov 2021 19:06:49 +0000</pubDate>
+    </item>
+    <item>
+      <title>emacs copy a url from a org mode link</title>
+      <link>https://www.youtube.com/watch?v=qad7M4D7km0&amp;list=PL7hhhG5qUoXk266pUiPhm-gqBgM5P8vBV&amp;index=3&amp;pp=iAQB</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=qad7M4D7km0&list=PL7hhhG5qUoXk266pUiPhm-gqBgM5P8vBV&index=3&pp=iAQB">youtube</a><br><br>emacs copy a url from a org mode link without the asterix and brackets
+
+  emacs config:
+  https://github.com/NapoleonWils0n/ubuntu-dotfiles/blob/master/.emacs#L257
+
+  Eric S Fraga - original code:
+  https://lists.gnu.org/archive/html/emacs-orgmode/2011-06/msg00712.html</div>]]></description>
+      <pubDate>Sat, 06 Nov 2021 16:01:01 +0000</pubDate>
     </item>
     <item>
       <title>System Crafters Live! - Catching Up With Emacs</title>
@@ -27033,6 +27928,24 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
   Github project containing config and templates:
   (WILL UPDATE SOON WITH LINK)</div>]]></description>
       <pubDate>Tue, 13 Apr 2021 19:44:21 +0000</pubDate>
+    </item>
+    <item>
+      <title>emacs dired hide permission and toggle hidden dotfiles</title>
+      <link>https://www.youtube.com/watch?v=AkgyQo1aYIg&amp;list=PL7hhhG5qUoXk266pUiPhm-gqBgM5P8vBV&amp;index=2&amp;pp=iAQB</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=AkgyQo1aYIg&list=PL7hhhG5qUoXk266pUiPhm-gqBgM5P8vBV&index=2&pp=iAQB">youtube</a><br><br>How to hide permission and dotfiles in emacs dired by default and toggle them back on and off
+
+  I also cover copy, renaming and creating directories in dired,
+  and using regular expression to search and replace text and use a custom separator instead of the forward slash
+
+  emacs config:
+  https://github.com/NapoleonWils0n/ubuntu-dotfiles/blob/master/.emacs
+
+  egroemacs site:
+  http://ergoemacs.org/emacs/emacs_dired_tips.html
+
+  ommiting files in dired:
+  https://www.gnu.org/software/emacs/manual/html_node/dired-x/Omitting-Files-in-Dired.html</div>]]></description>
+      <pubDate>Tue, 13 Apr 2021 14:52:20 +0000</pubDate>
     </item>
     <item>
       <title>Create Beautiful Websites Using Emacs Org Mode</title>
@@ -32988,6 +33901,28 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
   6. Apple Podcast: https://go.ravi.pro/apple
   7. Youtube: https://youtube.com/ravisagar1</div>]]></description>
       <pubDate>Thu, 28 May 2020 21:05:55 +0000</pubDate>
+    </item>
+    <item>
+      <title>xmonad - emacs scratch pad</title>
+      <link>https://www.youtube.com/watch?v=lQ5NQy_cUdw&amp;list=PL7hhhG5qUoXk266pUiPhm-gqBgM5P8vBV&amp;index=1&amp;pp=iAQB</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=lQ5NQy_cUdw&list=PL7hhhG5qUoXk266pUiPhm-gqBgM5P8vBV&index=1&pp=iAQB">youtube</a><br><br>How to create an emacs scratch pad on xmonad
+
+  chapters:
+
+  00:00 - emacs scratchpad demo
+  01:28 - import NamedScratchpad
+  02:02 - myManageHook and namedScratchpadManageHook
+  02:40 - emacs scratchpad config
+  04:21 - keybinding for emacs scratchpad
+  06:42 - scratchpad and buffers
+  08:49 - close the emacs scratchpad buffer
+  09:06 - guake style emacs scratchpad
+  11:20 - tramp mode edit files owned by root
+  12:50 - recap
+
+  xmonad.hs
+  https://github.com/NapoleonWils0n/freebsd-dotfiles/blob/master/.config/xmonad/xmonad.hs</div>]]></description>
+      <pubDate>Wed, 27 May 2020 15:27:18 +0000</pubDate>
     </item>
     <item>
       <title>How Emacs Makes my Daily Life Easier!</title>
