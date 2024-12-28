@@ -335,7 +335,8 @@ Return nil if TIME-STRING doesn't match the pattern."
 		 "")))
 
 ;; (memoize-restore #'emacstv-videos)
-(when (functionp 'memoize)
+(when (and (functionp 'memoize)
+					 (not (get #'emacstv-videos :memoize-original-function)))
 	(memoize #'emacstv-videos "60"))
 
 (defun emacstv-video-completion-collection (string predicate action)
@@ -406,15 +407,34 @@ Return nil if TIME-STRING doesn't match the pattern."
 	(require 'mpv)
 	(emacstv-play (emacstv-random-video)))
 
+(defun emacstv-shuffle-list (list)
+  "Shuffle LIST using Fisher-Yates algorithm."
+  (let ((shuffled (copy-sequence list)))
+    (dotimes (i (1- (length shuffled)))
+      (let* ((j (+ i (random (- (length shuffled) i))))
+             (temp (nth i shuffled)))
+        (setf (nth i shuffled) (nth j shuffled))
+        (setf (nth j shuffled) temp)))
+    shuffled))
+
+(defvar emacstv-shuffled nil)
+(defun emacstv-queue-random ()
+	"Queue up lots of Emacs videos."
+	(interactive)
+	(setq emacstv-shuffled (emacstv-shuffle-list (mapcar #'emacstv-video-url (emacstv-videos))))
+	(if (mpv-live-p)
+			(dolist (url emacstv-shuffled)
+				(mpv-run-command "loadfile" url "append-play"))
+		(mpv-play-url (car emacstv-shuffled))
+		(dolist (url (cdr emacstv-shuffled))
+			(mpv-run-command "loadfile" url "append-play"))))
+
 ;;;###autoload
 (define-minor-mode emacstv-background-mode
 	"Play random Emacs videos in the background."
 	:global t
 	(if emacstv-background-mode
-			(progn
-				(add-hook 'mpv-on-exit-hook #'emacstv-play-random)
-				(emacstv-play-random))
-		(remove-hook 'mpv-on-exit-hook #'emacstv-play-random)
+			(emacstv-queue-random)
 		;; no worries if it has already quit
 		(condition-case nil
 				(mpv-quit nil)
