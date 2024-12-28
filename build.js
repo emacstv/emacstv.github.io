@@ -148,12 +148,12 @@ const htmlContent = `
         color: #9DDFFA;
       }
       select {
-        background-color: transparent;
         color: #E0E0E0;
+        background-color: #121212;
         border: 1px solid #555;
       }
       option {
-        background-color: transparent;
+        background-color: #121212;
         color: #E0E0E0;
       }
     }
