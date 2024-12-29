@@ -1,3 +1,38 @@
+* Putting the D(slide) in E(D)itor Macros  :org:sharing:presentation:dslide:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=MQXMA2OQ0uY
+:DATE:     2024-12-28T21:34:15-08:00
+:SPEAKERS: Positron's Emacs Channel
+:DURATION: 15:23
+:END:
+  Dslide 0.6.1 has keyboard macros and greatly invigorated babel integration.  Never use any other program for anything ever again, including slide shows.  Tech demos, dominating the social internet for programming tools, and ejecting the software illiterate from positions of power has never been easier!  DSLIDE.
+
+  DSL IDE, the only package you ever wanted:
+  https://github.com/positron-solutions/dslide
+
+  Positron's Github Sponsors Page:
+  https://github.com/sponsors/positron-solutions
+
+  PrizeForge, which will replace our Github Sponsors
+  https://prizeforge.com
+
+  Sign up on Github sponsors to get the PrizeForge launch email!
+
+  You can support Bandai by buying lots of fancy plastic model kits.  Gundam Unicorn is a product of pure genius and the beast of possibility is free for all.  The series is occasionally available on the Gundam Info YouTube channel:  https://www.youtube.com/watch?v=rRHtYwbnw5A&list=PLJV1h9xQ7Hx8lS_L1EoAOBtdjiAvCJUZO
+
+  #emacs #programming #presentation #slideshow
+
+  TIMESTAMPS
+  00:00 The Making of Dslide 0.6.1
+  01:03 Keyboard Freaking Macros
+  02:11 Recording
+  05:28 Babel is Better
+  06:09 Kmacro Pitfalls & Recommendations
+  07:11 Prepping Terminal for Dslide
+  07:57 Terminal Slide Integration
+  09:15 Version 1.0 Plans
+  11:00 Timers & Kmacro Playback
+  12:30 Beast of Possibility
 
 * Emacs: tone down Org citations on demand                              :org:
 :PROPERTIES:
