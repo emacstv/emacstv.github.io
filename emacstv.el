@@ -398,7 +398,7 @@ Return nil if TIME-STRING doesn't match the pattern."
 (defun emacstv-play (video)
 	(interactive (list (emacstv-complete-video)))
 	(require 'mpv)
-	(let ((url (emacstv-video-url video)))
+	(let ((url (if (stringp video) video (emacstv-video-url video))))
 		(setq emacstv-playlist (list url))
 		(if (mpv-live-p)
 				(progn
@@ -428,19 +428,23 @@ Return nil if TIME-STRING doesn't match the pattern."
 
 (defvar emacstv-playlist nil)
 
+(defun emacstv-clear-playlist ()
+	(interactive)
+	(mpv-run-command "playlist-clear")
+	(setq emacstv-playlist nil))
+
 (defun emacstv-queue-random ()
 	"Queue up lots of Emacs videos."
 	(interactive)
 	(require 'mpv)
-	(mpv-run-command "playlist-clear")
+	(emacstv-clear-playlist)
 	(setq emacstv-playlist (emacstv-shuffle-list (mapcar #'emacstv-video-url (emacstv-videos))))
-	(setq emacstv-playlist-index 0)
 	(if (mpv-live-p)
 			(dolist (url emacstv-playlist)
-				(mpv-run-command "loadfile" url "append-play"))
+				(mpv-playlist-append-url url))
 		(mpv-play-url (car emacstv-playlist))
 		(dolist (url (cdr emacstv-playlist))
-			(mpv-run-command "loadfile" url "append-play"))))
+			(mpv-playlist-append-url url))))
 
 
 ;;;###autoload
@@ -465,10 +469,29 @@ Return nil if TIME-STRING doesn't match the pattern."
 	(when (derived-mode-p 'org-mode)
 		(let ((url (or (org-entry-get (point) "MEDIA_URL")
 									 (org-entry-get (point) "TOOBNIX_URL")
-									 (org-entry-get (point) "YOUTUBE_URL"))))
+									 (org-entry-get (point) "YOUTUBE_URL")
+									 (org-entry-get (point) "VIMEO_URL"))))
 			(if url
-					(mpv-play-url url)
+					(emacstv-play url)
 				(error "Could not find URL for %s" (org-entry-get (point) "ITEM"))))))
+
+(defun emacstv-add-to-playlist-at-point ()
+	"Queue a video from the agenda or org file."
+	(interactive)
+	(when (derived-mode-p 'org-agenda-mode)
+		(org-agenda-switch-to))
+	(when (derived-mode-p 'org-mode)
+		(let ((url (or (org-entry-get (point) "MEDIA_URL")
+									 (org-entry-get (point) "TOOBNIX_URL")
+									 (org-entry-get (point) "YOUTUBE_URL")
+									 (org-entry-get (point) "VIMEO_URL"))))
+			(if url
+					(if (mpv-live-p)
+							(progn
+								(setq emacstv-playlist (append emacstv-playlist (list url)))
+								(mpv-playlist-append-url url))
+						(emacstv-play-at-point))
+				(error "Could not find URL")))))
 
 ;;;###autoload
 (defun emacstv-agenda-search ()
