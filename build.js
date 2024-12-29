@@ -170,7 +170,7 @@ const htmlContent = `
 
     /* Spinner */
     svg {
-      --s: 3vmin;
+      --s: 8vmin;
 
       position: absolute;
       left: calc(50vw - var(--s) / 2);
