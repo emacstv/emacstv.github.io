@@ -180,6 +180,7 @@ const htmlContent = `
     }
 
     circle {
+      stroke: #777;
       --r: 47px;
       --1deg: calc(2 * pi * var(--r) / 360);
 
