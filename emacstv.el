@@ -399,9 +399,9 @@ Return nil if TIME-STRING doesn't match the pattern."
 	(interactive (list (emacstv-complete-video)))
 	(require 'mpv)
 	(let ((url (emacstv-video-url video)))
+		(setq emacstv-playlist (list url))
 		(if (mpv-live-p)
 				(progn
-					(mpv-run-command "playlist-clear")
 					(mpv-run-command "loadfile" url))
 			(mpv-play-url url))))
 
@@ -504,13 +504,13 @@ Return nil if TIME-STRING doesn't match the pattern."
 	(require 'mpv)
 	(unless (mpv-live-p)
 		(error "No active MPV process."))
-	(if-let ((playlist-index (and emacstv-playlist
-																(mpv-get-property "playlist-playing-pos"))))
-			(emacstv-find-by-url (elt emacstv-playlist playlist-index))
-		(if-let ((url (mpv-get-property "stream-open-filename")))
-				(unless (emacstv-find-by-url url)
-					(error "Could not find %s" url))
-			(error "Not sure what the current URL is"))))
+	(let ((url (mpv-get-property "stream-open-filename"))
+				(playlist-index (and emacstv-playlist
+														 (mpv-get-property "playlist-playing-pos"))))
+		(or (emacstv-find-by-url url)
+				(emacstv-find-by-url (elt emacstv-playlist playlist-index))
+				(and url (error "Could not find %s" url))
+				(error "Not sure what the current URL is"))))
 
 (defun emacstv-org-ql-search-matching-untagged (query)
 	"Search for headings matching QUERY that don't have that as a tag."
