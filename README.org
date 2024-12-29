@@ -47,7 +47,7 @@ geometry=50%x50%-0-0
 * Add videos
 
 Help keep =emacs.tv= fresh and interesting by submitting new videos.
-
+** Adding videos one by one
 You can e-mail [[mailto:sacha@sachachua.com][sacha@sachachua.com]] with a link to the video, or you can add videos by following these steps:
 
 - [[https://github.com/emacstv/emacstv.github.io/fork][Fork]] this repository.
@@ -70,6 +70,23 @@ For example:
 #+end_src
 
 - Submit a pull request.
+** Adding videos from a playlist
+
+Right now my workflow for adding videos from a
+YouTube playlist or from Vimeo search results use
+[[https://github.com/bitspook/spookfox][Spookfox]], since that lets me work with pages that
+require Javascript. Once Spookfox has connected to
+Firefox and I'm looking at the right page in the
+current tab, I use
+~emacstv-insert-org-list-from-spookfox~ to make an
+Org list for quick review/deletion. Then I select
+a region and use ~emacstv-add-from-org~ to add the
+videos from that list, add tags if I have time,
+and then ~emacstv-build~ to sort the entries and
+build the data feeds.
+
+- [[https://www.youtube.com/results?search_query=emacs&sp=CAI%253D][Youtube: Emacs]]
+- [[https://vimeo.com/search?q=emacs&sort=latest_desc][Vimeo]]
 
 * Improve tags/metadata
 

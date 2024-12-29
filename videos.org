@@ -1,3 +1,4 @@
+
 * Putting the D(slide) in E(D)itor Macros  :org:sharing:presentation:dslide:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=MQXMA2OQ0uY
@@ -42,6 +43,55 @@
 :DURATION: 04:44
 :END:
   This is a short video demonstration of how I tone down Org citations using some custom code I wrote. I share the code and its annotated version on my website: https://protesilaos.com/codelog/2024-12-26-emacs-org-hide-citations-mode
+
+* Emacs for Students of Life🖊📖  :org:emacstv:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=KsRCiL8ebmE
+:DATE:     2024-12-25T21:03:01-08:00
+:SPEAKERS: (Bit-Mage)
+:DURATION: 29:11
+:END:
+  Chapters:
+  0:00 The Mandatory Introductory Ramble
+  2:00 Preamble
+  3:40 Everything is an Abstraction
+  4:00 Text is powerful
+  4:20 Org Mode
+  4:40 Trees and Logs
+  5:50 Avoid proprietary black boxes
+  6:50 Your Life in Plain Text
+  7:30 Awesome emacs
+  8:10 Think in Outlines
+  10:20 Interop with org-export
+  16:00 Emacs TV
+  17:27 Braindumps
+  18:20 org roam
+  20:10 Emacs as your Intellectual HQ
+  21:04 Emacs is the tool..
+  22:08 Polyglotism
+  22:50 Lisp
+  24:50 The Mandatory Outroductory Ramble
+
+
+  Epistemological Incentives to get into Emacs.
+
+  links:
+  - org mode: https://orgmode.org/
+  - awesome emacs: https://github.com/emacs-tw/awesome-emacs
+  - Emacs TV: https://emacs.tv
+  - Emacs TV org file: https://github.com/emacstv/emacstv.github.io/blobmain/videos.org
+  - orgroam: https://www.orgroam.com/
+  - Emacs as your intellectual HQ: https://www.youtube.com/watch?v=zQ3BsRvMnpI- lisp machine: https://en.wikipedia.org/wiki/Lisp_machine
+  - Beating the Averages: https://www.paulgraham.com/avg.html
+  - How to be a hacker: https://www.catb.org/~esr/faqs/hacker-howto.html
+
+  Contacts:
+  blog: https://thebitmage.com
+  twitter: https://x.com/rajpatil152k
+  github: https://github.com/rajp152k
+
+  Thanks for tuning in,
+  See you in the next one.
 
 * Demo of New Elisp Package: Master of Ceremonies  :sharing:
 :PROPERTIES:

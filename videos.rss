@@ -44,6 +44,52 @@
       <pubDate>Thu, 26 Dec 2024 14:28:40 +0000</pubDate>
     </item>
     <item>
+      <title>Emacs for Students of Life🖊📖</title>
+      <link>https://www.youtube.com/watch?v=KsRCiL8ebmE</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=KsRCiL8ebmE">youtube</a><br><br>Chapters:
+  0:00 The Mandatory Introductory Ramble
+  2:00 Preamble
+  3:40 Everything is an Abstraction
+  4:00 Text is powerful
+  4:20 Org Mode
+  4:40 Trees and Logs
+  5:50 Avoid proprietary black boxes
+  6:50 Your Life in Plain Text
+  7:30 Awesome emacs
+  8:10 Think in Outlines
+  10:20 Interop with org-export
+  16:00 Emacs TV
+  17:27 Braindumps
+  18:20 org roam
+  20:10 Emacs as your Intellectual HQ
+  21:04 Emacs is the tool..
+  22:08 Polyglotism
+  22:50 Lisp
+  24:50 The Mandatory Outroductory Ramble
+
+
+  Epistemological Incentives to get into Emacs.
+
+  links:
+  - org mode: https://orgmode.org/
+  - awesome emacs: https://github.com/emacs-tw/awesome-emacs
+  - Emacs TV: https://emacs.tv
+  - Emacs TV org file: https://github.com/emacstv/emacstv.github.io/blobmain/videos.org
+  - orgroam: https://www.orgroam.com/
+  - Emacs as your intellectual HQ: https://www.youtube.com/watch?v=zQ3BsRvMnpI- lisp machine: https://en.wikipedia.org/wiki/Lisp_machine
+  - Beating the Averages: https://www.paulgraham.com/avg.html
+  - How to be a hacker: https://www.catb.org/~esr/faqs/hacker-howto.html
+
+  Contacts:
+  blog: https://thebitmage.com
+  twitter: https://x.com/rajpatil152k
+  github: https://github.com/rajp152k
+
+  Thanks for tuning in, 
+  See you in the next one.</div>]]></description>
+      <pubDate>Thu, 26 Dec 2024 05:03:01 +0000</pubDate>
+    </item>
+    <item>
       <title>Demo of New Elisp Package: Master of Ceremonies</title>
       <link>https://www.youtube.com/watch?v=1IQtgfNEE5Q&amp;pp=ygUOZW1hY3MgZWxlbWVudHM%3D</link>
       <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=1IQtgfNEE5Q&pp=ygUOZW1hY3MgZWxlbWVudHM%3D">youtube</a><br><br>Just added this one to MELPA.
@@ -14492,7 +14538,7 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
       <pubDate>Mon, 11 Jul 2022 12:56:38 +0000</pubDate>
     </item>
     <item>
-      <title>LEARN EMACS LISP - Mostly The Strange Parts</title>
+      <title>EMACS LISP - Mostly The Strange Parts</title>
       <link>https://youtu.be/NocDm4zzToo</link>
       <description><![CDATA[<div id="content"><a href="https://youtu.be/NocDm4zzToo">youtube</a><br><br>This tutorial is focused on the strange parts of Emacs Lisp. Hope it helps some of you better grasp the language and write some better code I can later grab for my own config ;).
 
@@ -43961,7 +44007,7 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
       <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=ytNsHmRLZGM&list=PL4th0AZixyRF8o3fdx68HGUrYKF2Pfvrp&index=5&pp=iAQB">youtube</a><br><br>In which John Wiegley and I chat about cool things he does with Emacs, learning, and other geeky things. More context for John Wiegley's thoughts: newartisans.com/2011/04/letter-to-the-fsf/
 
   Fixed version of http://www.youtube.com/watch?v=MyOnK9xbmX4</div>]]></description>
-      <pubDate>Mon, 25 Jun 2012 22:00:00 +0000</pubDate>
+      <pubDate>Tue, 26 Jun 2012 04:00:00 +0000</pubDate>
     </item>
     <item>
       <title>gtk-application-prefer-dark-theme for Emacs</title>
