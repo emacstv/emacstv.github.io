@@ -36,7 +36,6 @@ const htmlContent = `
       width: 100%;
     }
     body {
-      overflow: hidden;
       padding: 5px;
       font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
       background-color: #ffffff;
