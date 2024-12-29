@@ -5,6 +5,39 @@
     <link>https://emacs.tv</link>
     <description>Emacs videos</description>
     <item>
+      <title>Putting the D(slide) in E(D)itor Macros</title>
+      <link>https://www.youtube.com/watch?v=MQXMA2OQ0uY</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=MQXMA2OQ0uY">youtube</a><br><br>Dslide 0.6.1 has keyboard macros and greatly invigorated babel integration.  Never use any other program for anything ever again, including slide shows.  Tech demos, dominating the social internet for programming tools, and ejecting the software illiterate from positions of power has never been easier!  DSLIDE.
+
+  DSL IDE, the only package you ever wanted:
+  https://github.com/positron-solutions/dslide
+
+  Positron's Github Sponsors Page:
+  https://github.com/sponsors/positron-solutions
+
+  PrizeForge, which will replace our Github Sponsors
+  https://prizeforge.com
+
+  Sign up on Github sponsors to get the PrizeForge launch email!
+
+  You can support Bandai by buying lots of fancy plastic model kits.  Gundam Unicorn is a product of pure genius and the beast of possibility is free for all.  The series is occasionally available on the Gundam Info YouTube channel:  https://www.youtube.com/watch?v=rRHtYwbnw5A&list=PLJV1h9xQ7Hx8lS_L1EoAOBtdjiAvCJUZO
+
+  #emacs #programming #presentation #slideshow
+
+  TIMESTAMPS
+  00:00 The Making of Dslide 0.6.1
+  01:03 Keyboard Freaking Macros
+  02:11 Recording
+  05:28 Babel is Better
+  06:09 Kmacro Pitfalls & Recommendations
+  07:11 Prepping Terminal for Dslide
+  07:57 Terminal Slide Integration
+  09:15 Version 1.0 Plans
+  11:00 Timers & Kmacro Playback
+  12:30 Beast of Possibility</div>]]></description>
+      <pubDate>Sun, 29 Dec 2024 05:34:15 +0000</pubDate>
+    </item>
+    <item>
       <title>Emacs: tone down Org citations on demand</title>
       <link>https://www.youtube.com/watch?v=X3fEO1_QDHA</link>
       <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=X3fEO1_QDHA">youtube</a><br><br>This is a short video demonstration of how I tone down Org citations using some custom code I wrote. I share the code and its annotated version on my website: https://protesilaos.com/codelog/2024-12-26-emacs-org-hide-citations-mode</div>]]></description>
@@ -14459,7 +14492,7 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
       <pubDate>Mon, 11 Jul 2022 12:56:38 +0000</pubDate>
     </item>
     <item>
-      <title>EMACS LISP - Mostly The Strange Parts</title>
+      <title>LEARN EMACS LISP - Mostly The Strange Parts</title>
       <link>https://youtu.be/NocDm4zzToo</link>
       <description><![CDATA[<div id="content"><a href="https://youtu.be/NocDm4zzToo">youtube</a><br><br>This tutorial is focused on the strange parts of Emacs Lisp. Hope it helps some of you better grasp the language and write some better code I can later grab for my own config ;).
 
@@ -43928,7 +43961,7 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
       <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=ytNsHmRLZGM&list=PL4th0AZixyRF8o3fdx68HGUrYKF2Pfvrp&index=5&pp=iAQB">youtube</a><br><br>In which John Wiegley and I chat about cool things he does with Emacs, learning, and other geeky things. More context for John Wiegley's thoughts: newartisans.com/2011/04/letter-to-the-fsf/
 
   Fixed version of http://www.youtube.com/watch?v=MyOnK9xbmX4</div>]]></description>
-      <pubDate>Tue, 26 Jun 2012 04:00:00 +0000</pubDate>
+      <pubDate>Mon, 25 Jun 2012 22:00:00 +0000</pubDate>
     </item>
     <item>
       <title>gtk-application-prefer-dark-theme for Emacs</title>
