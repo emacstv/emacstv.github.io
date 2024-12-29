@@ -30,16 +30,16 @@
 (defun emacstv-youtube-id (url)
 	"Return the video ID for URL."
 	(cond
-	 ((string-match "youtu.be/\\(.*\\)" url) (match-string 1 url))
-	 ((string-match "youtube.com/live/\\(.*?\\)\\(\\?.+\\|$\\)" url) (match-string 1 url))
-	 ((string-match "www.youtube.com/watch\\?\\(.*\\)" url)
+	 ((string-match "\\`https://youtu.be/\\(.*\\)" url) (match-string 1 url))
+	 ((string-match "\\`https://\\(?:www\\.\\)?youtube.com/live/\\(.*?\\)\\(\\?.+\\|$\\)" url) (match-string 1 url))
+	 ((string-match "\\`https://\\(?:www\\.\\)?youtube.com/watch\\?\\(.*\\)" url)
 		(car (assoc-default "v" (url-parse-query-string (match-string 1 url)) #'string=)))
 	 (t nil)))
 
 (defun emacstv-vimeo-id (url)
 	"Return the video ID for URL."
 	(cond
-	 ((string-match "vimeo\\.com/\\([0-9]+\\)" url) (match-string 1 url))
+	 ((string-match "\\`https://\\(?:www\\.\\)?vimeo\\.com/\\([0-9]+\\)" url) (match-string 1 url))
 	 (t nil)))
 
 (defun emacstv-find-by-generic-url (field id-func url)
@@ -522,6 +522,7 @@ Return nil if TIME-STRING doesn't match the pattern."
 ;;;###autoload
 (defun emacstv-jump-to-current-video ()
 	"Jump to the entry for the current video."
+	;; TODO: Fix this, doesn't seem to always work
 	(interactive)
 	(emacstv-find-org)
 	(require 'mpv)
