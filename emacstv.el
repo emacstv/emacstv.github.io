@@ -441,10 +441,10 @@ Return nil if TIME-STRING doesn't match the pattern."
 	(setq emacstv-playlist (emacstv-shuffle-list (mapcar #'emacstv-video-url (emacstv-videos))))
 	(if (mpv-live-p)
 			(dolist (url emacstv-playlist)
-				(mpv-playlist-append-url url))
+				(mpv-run-command "loadfile" url "append-play"))
 		(mpv-play-url (car emacstv-playlist))
 		(dolist (url (cdr emacstv-playlist))
-			(mpv-playlist-append-url url))))
+			(mpv-run-command "loadfile" url "append-play"))))
 
 
 ;;;###autoload
