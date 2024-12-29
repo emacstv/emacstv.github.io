@@ -56,6 +56,11 @@
 					nil)))
 		(goto-char pos)))
 
+(defun emacstv-find-by-media-url (url)
+	"Move point to the entry for URL.
+Returns nil if not found."
+	(emacstv-find-by-generic-url "MEDIA_URL" #'identity url))
+
 (defun emacstv-find-by-youtube-url (url)
 	"Move point to the entry for URL.
 Returns nil if not found."
@@ -152,8 +157,12 @@ Returns nil if not found."
 	(emacstv-count-entries))
 
 (defun emacstv-find-by-url (url)
-	(or (emacstv-find-by-youtube-url url)
-			(emacstv-find-by-vimeo-url url)))
+	"Go to the entry that for URL."
+	;; TODO: This could be more efficient someday.
+	(or
+	 (emacstv-find-by-youtube-url url)
+	 (emacstv-find-by-vimeo-url url)
+	 (emacstv-find-by-media-url url)))
 
 (defun emacstv-add-video-object (video)
 	"VIDEO should be an alist."
@@ -385,16 +394,16 @@ Return nil if TIME-STRING doesn't match the pattern."
 					(setq seconds (mod seconds seconds-in-day))))
 			(concat (format-seconds "%.2h:%z%.2m:%.2s" (floor seconds)))))))
 
-(defvar emacstv-current-url nil "Current video URL.")
-
 ;;;###autoload
 (defun emacstv-play (video)
 	(interactive (list (emacstv-complete-video)))
 	(require 'mpv)
-	(setq emacstv-current-url (emacstv-video-url video))
-	(if (mpv-live-p)
-			(mpv-run-command "loadfile" emacstv-current-url)
-		(mpv-play-url emacstv-current-url)))
+	(let ((url (emacstv-video-url video)))
+		(if (mpv-live-p)
+				(progn
+					(mpv-run-command "playlist-clear")
+					(mpv-run-command "loadfile" url))
+			(mpv-play-url url))))
 
 (defun emacstv-random-video ()
 	(let ((videos (emacstv-videos)))
@@ -417,24 +426,31 @@ Return nil if TIME-STRING doesn't match the pattern."
         (setf (nth j shuffled) temp)))
     shuffled))
 
-(defvar emacstv-shuffled nil)
+(defvar emacstv-playlist nil)
+
 (defun emacstv-queue-random ()
 	"Queue up lots of Emacs videos."
 	(interactive)
-	(setq emacstv-shuffled (emacstv-shuffle-list (mapcar #'emacstv-video-url (emacstv-videos))))
+	(require 'mpv)
+	(mpv-run-command "playlist-clear")
+	(setq emacstv-playlist (emacstv-shuffle-list (mapcar #'emacstv-video-url (emacstv-videos))))
+	(setq emacstv-playlist-index 0)
 	(if (mpv-live-p)
-			(dolist (url emacstv-shuffled)
+			(dolist (url emacstv-playlist)
 				(mpv-run-command "loadfile" url "append-play"))
-		(mpv-play-url (car emacstv-shuffled))
-		(dolist (url (cdr emacstv-shuffled))
+		(mpv-play-url (car emacstv-playlist))
+		(dolist (url (cdr emacstv-playlist))
 			(mpv-run-command "loadfile" url "append-play"))))
+
 
 ;;;###autoload
 (define-minor-mode emacstv-background-mode
 	"Play random Emacs videos in the background."
 	:global t
 	(if emacstv-background-mode
-			(emacstv-queue-random)
+			(progn
+				(require 'mpv)
+				(emacstv-queue-random))
 		;; no worries if it has already quit
 		(condition-case nil
 				(mpv-quit nil)
@@ -474,6 +490,27 @@ Return nil if TIME-STRING doesn't match the pattern."
 	(org-ql-search (list emacstv-index-org) query)
 	(when (featurep 'hl-line)
 		(hl-line-mode 1)))
+
+;;;###autoload
+(defun emacstv-find-org ()
+	(interactive)
+	(find-file emacstv-index-org))
+
+;;;###autoload
+(defun emacstv-jump-to-current-video ()
+	"Jump to the entry for the current video."
+	(interactive)
+	(emacstv-find-org)
+	(require 'mpv)
+	(unless (mpv-live-p)
+		(error "No active MPV process."))
+	(if-let ((playlist-index (and emacstv-playlist
+																(mpv-get-property "playlist-playing-pos"))))
+			(emacstv-find-by-url (elt emacstv-playlist playlist-index))
+		(if-let ((url (mpv-get-property "stream-open-filename")))
+				(unless (emacstv-find-by-url url)
+					(error "Could not find %s" url))
+			(error "Not sure what the current URL is"))))
 
 (defun emacstv-org-ql-search-matching-untagged (query)
 	"Search for headings matching QUERY that don't have that as a tag."
