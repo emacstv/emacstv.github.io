@@ -28,7 +28,15 @@ const htmlContent = `
   <meta property="og:description" content="An index of Emacs-related videos">
   <meta property="og:url" content="https://emacs.tv">
   <style>
+    .loading {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      width: 100%;
+    }
     body {
+      overflow: hidden;
       padding: 5px;
       font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
       background-color: #ffffff;
@@ -159,6 +167,58 @@ const htmlContent = `
         color: #E0E0E0;
       }
     }
+
+    /* Spinner */
+    svg {
+      --s: 3vmin;
+
+      position: absolute;
+      left: calc(50vw - var(--s) / 2);
+      top: calc(50vh - var(--s) / 2);
+      width: var(--s);
+      height: var(--s);
+    }
+
+    circle {
+      --r: 47px;
+      --1deg: calc(2 * pi * var(--r) / 360);
+
+      stroke-width: calc((50% - var(--r)) * 2);
+
+      animation: dash-anim 1400ms ease-in-out infinite,
+                 full-rotation-anim 2000ms linear infinite;
+      transform-origin: 50% 50%;
+    }
+
+    @keyframes dash-anim {
+      0% {
+        stroke-dasharray: 0
+          0
+          calc(2 * var(--1deg))
+          calc(358 * var(--1deg));
+      }
+      50% {
+        stroke-dasharray: 0
+          calc(35 * var(--1deg))
+          calc(290 * var(--1deg))
+          calc(35 * var(--1deg));
+      }
+      100% {
+        stroke-dasharray: 0
+          calc(358 * var(--1deg))
+          calc(2 * var(--1deg));
+      }
+    }
+
+    @keyframes full-rotation-anim {
+      0% {
+        transform: rotate(0deg);
+      }
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+
   </style>
 </head>
 <body>
@@ -212,7 +272,14 @@ const htmlContent = `
 
         history.replaceState(null, '', url.toString());
 
-        const { html, handlers } = app.render(state, store);
+        const { loading, html, handlers } = app.render(state, store);
+
+        if (state.loading) {
+          root.classList.add("loading");
+        } else {
+          root.classList.remove("loading");
+        }
+
         root.innerHTML = html;
 
         handlers.forEach(({ nodeId, listenerName, handler }) => {

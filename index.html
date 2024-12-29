@@ -9,7 +9,15 @@
   <meta property="og:description" content="An index of Emacs-related videos">
   <meta property="og:url" content="https://emacs.tv">
   <style>
+    .loading {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      width: 100%;
+    }
     body {
+      overflow: hidden;
       padding: 5px;
       font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
       background-color: #ffffff;
@@ -140,6 +148,58 @@
         color: #E0E0E0;
       }
     }
+
+    /* Spinner */
+    svg {
+      --s: 3vmin;
+
+      position: absolute;
+      left: calc(50vw - var(--s) / 2);
+      top: calc(50vh - var(--s) / 2);
+      width: var(--s);
+      height: var(--s);
+    }
+
+    circle {
+      --r: 47px;
+      --1deg: calc(2 * pi * var(--r) / 360);
+
+      stroke-width: calc((50% - var(--r)) * 2);
+
+      animation: dash-anim 1400ms ease-in-out infinite,
+                 full-rotation-anim 2000ms linear infinite;
+      transform-origin: 50% 50%;
+    }
+
+    @keyframes dash-anim {
+      0% {
+        stroke-dasharray: 0
+          0
+          calc(2 * var(--1deg))
+          calc(358 * var(--1deg));
+      }
+      50% {
+        stroke-dasharray: 0
+          calc(35 * var(--1deg))
+          calc(290 * var(--1deg))
+          calc(35 * var(--1deg));
+      }
+      100% {
+        stroke-dasharray: 0
+          calc(358 * var(--1deg))
+          calc(2 * var(--1deg));
+      }
+    }
+
+    @keyframes full-rotation-anim {
+      0% {
+        transform: rotate(0deg);
+      }
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+
   </style>
 </head>
 <body>
@@ -193,7 +253,14 @@
 
         history.replaceState(null, '', url.toString());
 
-        const { html, handlers } = app.render(state, store);
+        const { loading, html, handlers } = app.render(state, store);
+
+        if (state.loading) {
+          root.classList.add("loading");
+        } else {
+          root.classList.remove("loading");
+        }
+
         root.innerHTML = html;
 
         handlers.forEach(({ nodeId, listenerName, handler }) => {
@@ -238,6 +305,15 @@
     render: () => render
   });
   function render(state, store) {
+    if (state.loading === true) {
+      return {
+        html: `
+<svg viewBox='0 0 100 100' xmlns="http://www.w3.org/2000/svg">
+  <circle cx='50' cy='50' r='47' stroke="#333" fill='none'/>
+</svg>`,
+        handlers: []
+      };
+    }
     let handlers = [];
     const filteredHeadings = state.orgDocument.headings.filter((heading) => (state.filterByTags.length === 0 || state.filterByTags.every((filterTag) => heading.tags?.map((tag) => tag.toLowerCase()).includes(filterTag))) && (state.filterBySpeakers.length === 0 || state.filterBySpeakers.every((filterSpeaker) => heading.drawer?.SPEAKERS.split(",").map((speaker) => speaker.trim().toLowerCase()).includes(filterSpeaker.toLowerCase()))) && (state.filterByTitle.length === 0 || state.filterByTitle.split(" ").every((filterTitle) => heading.title.toLowerCase().includes(filterTitle.trim().toLowerCase()))));
     const randomPick = new RandomPickRenderer(store).render(filteredHeadings);
@@ -401,7 +477,10 @@ ${videoList.html}`;
     render(headings) {
       const handlers = [];
       if (headings.length === 0) {
-        return { handlers: [], html: "" };
+        return {
+          handlers: [],
+          html: ""
+        };
       }
       return {
         handlers,
@@ -440,7 +519,11 @@ ${videoList.html}`;
         acc.html += video.html;
         acc.handlers.push(...video.handlers);
         return acc;
-      }, { html: "", handlers: [] });
+      }, {
+        loading: false,
+        html: "",
+        handlers: []
+      });
       return result;
     }
   };
@@ -529,15 +612,6 @@ ${speakers ? `<span class="by">by </span><span class="speaker">${speakers}</span
   var TextSearchRenderer = class {
     constructor(store) {
       this.store = store;
-      this.debounce = (fn, delay) => {
-        let timeout = null;
-        return (...args) => {
-          if (timeout) {
-            clearTimeout(timeout);
-          }
-          timeout = window.setTimeout(() => fn(...args), delay);
-        };
-      };
     }
     render(searchText) {
       return {
@@ -576,6 +650,7 @@ ${speakers ? `<span class="by">by </span><span class="speaker">${speakers}</span
   var StateStore = class {
     constructor() {
       this.state = new ValueStream({
+        loading: true,
         filterByTitle: "",
         filterByTags: [],
         filterBySpeakers: [],
@@ -590,6 +665,7 @@ ${speakers ? `<span class="by">by </span><span class="speaker">${speakers}</span
         if (!response.ok) {
           console.error("Could not fetch org feed");
           this.state.mutate((state) => {
+            state.loading = false;
             state.orgDocument = new OrgDocument([]);
             return state;
           });
@@ -598,12 +674,14 @@ ${speakers ? `<span class="by">by </span><span class="speaker">${speakers}</span
         const text = await response.text();
         const orgDocument = OrgParser.parse(text);
         this.state.mutate((state) => {
+          state.loading = false;
           state.orgDocument = orgDocument;
           return state;
         });
       } catch (error) {
         console.error(error);
         this.state.mutate((state) => {
+          state.loading = false;
           state.error = error instanceof Error ? error.message : "Unknown error occurred";
           return state;
         });
@@ -773,6 +851,7 @@ ${speakers ? `<span class="by">by </span><span class="speaker">${speakers}</span
   }
   function makeState() {
     return {
+      loading: true,
       filterByTitle: "",
       filterByTags: [],
       filterBySpeakers: [],

@@ -14,6 +14,7 @@
 // along with this program. If not, see <https://www.gnu.org/licenses/>.
 
 interface State {
+  loading: boolean;
   error?: string;
   filterByTitle: string;
   filterByTags: string[];
@@ -22,6 +23,15 @@ interface State {
 }
 
 export function render(state: State, store: StateStore): RenderResult {
+  if (state.loading === true) {
+    return {
+      html: `
+<svg viewBox='0 0 100 100' xmlns="http://www.w3.org/2000/svg">
+  <circle cx='50' cy='50' r='47' stroke="#333" fill='none'/>
+</svg>`,
+      handlers: []
+    }
+  }
   let handlers: Array<{ nodeId: string, listenerName: string, handler: Function }> = [];
   const filteredHeadings = state.orgDocument.headings.filter(heading =>
     (state.filterByTags.length === 0 || state.filterByTags.every(filterTag =>
@@ -230,7 +240,10 @@ class SpeakersRenderer {
   render(headings: OrgHeading[]): RenderResult {
     const handlers: Array<{ nodeId: string, listenerName: string, handler: Function }> = [];
     if (headings.length === 0) {
-      return { handlers: [], html: '' };
+      return {
+        handlers: [],
+        html: ''
+      };
     }
 
     return {
@@ -278,7 +291,11 @@ class VideoListRenderer {
       acc.html += video.html;
       acc.handlers.push(...video.handlers);
       return acc;
-    }, { html: '', handlers: [] });
+    }, {
+      loading: false,
+      html: '',
+      handlers: []
+    });
 
     return result;
   }
@@ -398,19 +415,9 @@ class FilterByTagRenderer {
 
 class TextSearchRenderer {
   private store: StateStore;
-  private debounce: (fn: (...args: any[]) => void, delay: number) => (...args: any[]) => void;
 
   constructor(store: StateStore) {
     this.store = store;
-    this.debounce = (fn, delay) => {
-      let timeout: number | null = null;
-      return (...args: any[]) => {
-        if (timeout) {
-          clearTimeout(timeout);
-        }
-        timeout = window.setTimeout(() => fn(...args), delay);
-      };
-    };
   }
 
   render(searchText: string): RenderResult {
@@ -453,6 +460,7 @@ export class StateStore {
 
   constructor() {
     this.state = new ValueStream({
+      loading: true,
       filterByTitle: "",
       filterByTags: [],
       filterBySpeakers: [],
@@ -468,6 +476,7 @@ export class StateStore {
       if (!response.ok) {
         console.error('Could not fetch org feed');
         this.state.mutate(state => {
+          state.loading = false;
           state.orgDocument = new OrgDocument([]);
           return state;
         });
@@ -478,12 +487,14 @@ export class StateStore {
       const orgDocument = OrgParser.parse(text);
 
       this.state.mutate(state => {
+        state.loading = false;
         state.orgDocument = orgDocument;
         return state;
       });
     } catch (error) {
       console.error(error);
       this.state.mutate(state => {
+        state.loading = false;
         state.error = error instanceof Error ? error.message : 'Unknown error occurred';
         return state;
       });
@@ -703,6 +714,7 @@ export function makeStore(): StateStore {
 
 export function makeState(): State {
   return {
+    loading: true,
     filterByTitle: "",
     filterByTags: [],
     filterBySpeakers: [],
