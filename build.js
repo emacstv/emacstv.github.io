@@ -47,23 +47,25 @@ const htmlContent = `
       cursor: pointer;
     }
     #search-box {
+      font-size: 1em;
       width: 200px;
       margin-bottom: 10px;
       padding-top: 4px;
       padding-bottom: 4px;
     }
     #search-button {
-      margin-left: 5px;
-      padding-top: 4px;
-      padding-bottom: 4px;
+      font-size: 1em;
+      margin-left: 10px;
     }
     #filter-speakers {
+      font-size: 1em;
       width: 150px;
       margin-bottom: 10px;
       padding-top: 4px;
       padding-bottom: 4px;
     }
     #filter {
+      font-size: 1em;
       width: 150px;
       margin-bottom: 10px;
       padding-top: 4px;
