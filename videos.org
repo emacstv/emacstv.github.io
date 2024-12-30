@@ -1230,7 +1230,7 @@ This is the Q&A for the talk at https://www.youtube.com/watch?v=cuJ3qih7408&t=0s
 You can view this and other resources using free/libre software at https://emacsconf.org/2024/talks/mcclim .
 This video is available under the terms of the Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license.
 
-* Emacs as a shell  :emacsconf:emacsconf2024:shell:
+* Emacs as a shell                     :emacsconf:emacsconf2024:shell:eshell:
 :PROPERTIES:
 :DATE:     2024-12-07T18:55:00+0000
 :URL: https://emacsconf.org/2024/talks/shell
@@ -2649,7 +2649,7 @@ count-words-region
 
   Embark: https://github.com/oantolin/embark
 
-* Customizing Emacs And Eshell - DT LIVE  :eshell:configuration:
+* Customizing Emacs And Eshell - DT LIVE               :eshell:configuration:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=fcwOtRRObqk
 :DATE:     2024-10-06T04:20:16+0000
@@ -4746,7 +4746,7 @@ count-words-region
 :SERIES: EmacsConf 2023
 :DURATION: 20:31
 :END:
-* Eat and Eat powered Eshell, fast featureful terminal inside Emacs  :emacsconf:emacsconf2023:shell:
+* Eat and Eat powered Eshell, fast featureful terminal inside Emacs :emacsconf:emacsconf2023:shell:eshell:
 :PROPERTIES:
 :DATE:     2023-12-03T15:35:00+0000
 :URL: https://emacsconf.org/2023/talks/eat
@@ -5115,7 +5115,7 @@ count-words-region
 :SERIES: EmacsConf 2023
 :DURATION: 20:26
 :END:
-* Who needs Excel? Managing your students qualifications with org-table  :emacsconf:emacsconf2023:teaching:org:tables:
+* Who needs Excel? Managing your students qualifications with org-table : emacsconf:emacsconf2023:teaching:org:OrgTables:grading:
 :PROPERTIES:
 :DATE:     2023-12-02T15:40:00+0000
 :URL: https://emacsconf.org/2023/talks/table
@@ -7345,7 +7345,7 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
 
   [ You can find all my work on my website. ]
 
-* Ivy, Shells and Custom Theming - Configuring Emacs 03
+* Ivy, Shells and Custom Theming - Configuring Emacs 03              :eshell:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=A4UothfExBM&list=PL5--8gKSku15e8lXf7aLICFmAHQVo0KXX&index=3&pp=iAQB
 :DATE:     2023-06-22T13:00:06+0000
@@ -12822,7 +12822,7 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
 :SPEAKERS: George Mauer
 :SERIES: EmacsConf 2022
 :END:
-* Q&A: Top 10 reasons why you should be using Eshell  :answers:emacsconf:emacsconf2022:
+* Q&A: Top 10 reasons why you should be using Eshell :answers:emacsconf:emacsconf2022:eshell:
 :PROPERTIES:
 :DATE:     2022-12-04T18:40:00+0000
 :URL: https://emacsconf.org/2022/talks/eshell
@@ -12834,7 +12834,7 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
 :SPEAKERS: Howard Abrams
 :SERIES: EmacsConf 2022
 :END:
-* Top 10 reasons why you should be using Eshell  :emacsconf:emacsconf2022:shell:eshell:
+* Top 10 reasons why you should be using Eshell :emacsconf:emacsconf2022:shell:eshell:
 :PROPERTIES:
 :DATE:     2022-12-04T18:40:00+0000
 :URL: https://emacsconf.org/2022/talks/eshell
@@ -22978,7 +22978,7 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
   - To mark a region, use C-SPC
   - To go to a link, use C-c C-o
 
-* Tangle C code, compile and run it in an Emacs shell
+* Tangle C code, compile and run it in an Emacs shell                :eshell:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=mTG8dvui8z0&list=PLwgb17bzeNyiuQtvKtcZ_pvSSoO9ShXv8&index=8&pp=iAQB
 :DATE:     2022-01-31T14:05:56+0000
@@ -23021,7 +23021,7 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
   - To mark a region, use C-SPC
   - To follow a link, use C-c C-o
 
-* Tangle R code and run it in an Emacs shell
+* Tangle R code and run it in an Emacs shell                         :eshell:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=QQ53hgJDwog&list=PLwgb17bzeNyiuQtvKtcZ_pvSSoO9ShXv8&index=11&pp=iAQB
 :DATE:     2022-01-31T14:05:48+0000
@@ -23037,7 +23037,7 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
   - Run the program with Rscript mtcars.R
   - Open Dired (C-x d) and look at the file mtcars.R
 
-* Create and run shell scripts in GNU Emacs
+* Create and run shell scripts in GNU Emacs                          :eshell:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=N3wnKKHBLQE&list=PLwgb17bzeNyiuQtvKtcZ_pvSSoO9ShXv8&index=12&pp=iAQB
 :DATE:     2022-01-31T14:05:45+0000
@@ -24088,7 +24088,7 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
 
   电子书地址： https://book.emacs-china.org/
 
-* System Crafters Live! - Building the World's WORST Emacs Configuration (Part 2)
+* System Crafters Live! - Building the World's WORST Emacs Configuration (Part 2)  :fun:configuration:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=IDFm4y6KLks
 :DATE:     2022-01-15T06:05:30+0000
@@ -24948,7 +24948,7 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
   ➤ Misc Packages - 29:02
   ➤ Conclusion - 31:48 If you appreciate what I do and are interested in showing your support, I invite you to 'buy me a coffee': https://buymeacoffee.com/jakebox
 
-* Background processes in Eshell
+* Background processes in Eshell                                     :eshell:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=wbG-a8DIIuY
 :DATE:     2021-12-25T14:54:01+0000
@@ -34013,7 +34013,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
   ce soit pour rédiger une thèse, développer du code, prendre des notes,
   lire ou écrire des emails, ou même surfer sur le Web !
 
-* The Absolute Beginner's Guide to Emacs                           :beginner:
+* The Absolute Beginner's Guide to Emacs                    :beginner:eshell:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=48JlgiBpw_I
 :DATE:     2021-03-08T14:53:32+0000
@@ -37216,7 +37216,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
   Follow me on LBRY:
   https://lbry.tv/$/invite/@marco:55
 
-* Emacs From Scratch #9 - Learn to Love the Terminal Modes
+* Emacs From Scratch #9 - Learn to Love the Terminal Modes           :eshell:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=wa_wZIuT9Vw&feature=youtu.be
 :DATE:     2020-10-31T05:30:07+0000
@@ -40427,7 +40427,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
   4:06 EPUB Workflow
   5:38 PDF Workflow
 
-* Emacs: ESHELL demo
+* Emacs: ESHELL demo                                                 :eshell:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=L1f2tulD9N8
 :DATE:     2020-05-08T11:34:24+0000
@@ -42006,7 +42006,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
   Org-Mode google talk: https://www.youtube.com/watch?v=oJTwQvgfgMM
   Mastering The Vim Language: https://www.youtube.com/watch?v=wlR5gYd6um0
 
-* Using Emacs Episode 66 - Switching Eshell buffers in Elisp
+* Using Emacs Episode 66 - Switching Eshell buffers in Elisp         :eshell:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=-dIjFZBDt64&list=PL9KxKa8NpFxIcNQa9js7dQQIHc81b0-Xg&index=67&pp=iAQB
 :DATE:     2020-02-08T13:21:25+0000
@@ -42633,7 +42633,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
   Part 2 (Refactoring): https://youtu.be/zmRac_BNbv0
   Part 3 (Debugging): https://youtu.be/zmRac_BNbv0
 
-* Fireside Chat with Naval Ravikant and Neal Stephenson | Blockstack Summit 2019
+* Fireside Chat with Naval Ravikant and Neal Stephenson | Blockstack Summit 2019  :community:
 :PROPERTIES:
 :YOUTUBE_URL: https://youtu.be/0JDFd_BoN1k?t=2572
 :DATE:     2019-12-09T18:30:10+0000
@@ -45389,7 +45389,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 
   Should be back to finish later this evening
 
-* Emacs Doom E02 - Projects with Projectile, File Explorer with Treemacs & EShell
+* Emacs Doom E02 - Projects with Projectile, File Explorer with Treemacs & EShell :eshell:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=Rx3wRl5d-J0&feature=youtu.be
 :DATE:     2019-05-12T09:20:23+0000
@@ -46488,7 +46488,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 :END:
 
 
-* Using Emacs episode 54 - Org Tables                                   :org:
+* Using Emacs episode 54 - Org Tables                                   :org:grading:OrgTables:teaching:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=5vGGgfs0q3k&feature=youtu.be
 :DATE:     2019-01-14T16:42:41+0000
@@ -48195,7 +48195,7 @@ Full code on github:
 :END:
   Scott talks with Evelina Gabasova about F# in Emacs and Star Wars visualizations! She parses the screenplay from Star Wars and creates a social graph! Amazing!
 
-* Introduction to EShell
+* Introduction to EShell                                             :eshell:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=RhYNu6i_uY4&feature=youtu.be
 :DATE:     2017-10-26T20:10:25+0000
@@ -48804,7 +48804,7 @@ Full code on github:
 
   Series page: http://cestlaz.github.io/stories/emacs
 
-* Using emacs 27 - shell and eshell
+* Using emacs 27 - shell and eshell                                  :eshell:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=pjhRFMUxBB4&list=PL9KxKa8NpFxIcNQa9js7dQQIHc81b0-Xg&index=28&pp=iAQB
 :DATE:     2017-01-27T13:24:31+0000
@@ -51720,7 +51720,7 @@ Using restclient within emacs...
 :END:
   Emacs Chat: Bozhidar Batsov (bbatsov)
 
-* .Emacs #7 - The Command Line
+* .Emacs #7 - The Command Line                                       :eshell:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=U2Rl23-_ePw&list=PLxj9UAX4Em-IiOfvF2Qs742LxEK4owSkr&index=7&pp=iAQB
 :DATE:     2014-05-19T13:00:06+0000
