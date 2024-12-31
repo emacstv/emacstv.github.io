@@ -14550,7 +14550,7 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
       <pubDate>Mon, 11 Jul 2022 12:56:38 +0000</pubDate>
     </item>
     <item>
-      <title>EMACS LISP - Mostly The Strange Parts</title>
+      <title>LEARN EMACS LISP - Mostly The Strange Parts</title>
       <link>https://youtu.be/NocDm4zzToo</link>
       <description><![CDATA[<div id="content"><a href="https://youtu.be/NocDm4zzToo">youtube</a><br><br>This tutorial is focused on the strange parts of Emacs Lisp. Hope it helps some of you better grasp the language and write some better code I can later grab for my own config ;).
 
@@ -35454,6 +35454,20 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
       <pubDate>Mon, 10 Feb 2020 20:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Improve project workflow with Ivy, Counsel, and Swiper! (Emacs)</title>
+      <link>https://youtu.be/dUEquA02eJk?si=alfnv4Myf5R_4rJP</link>
+      <description><![CDATA[<div id="content"><a href="https://youtu.be/dUEquA02eJk?si=alfnv4Myf5R_4rJP">youtube</a><br><br>Hey, short video/demo on how I use Ivy, Counsel, and Swiper for improving project navigation. Thanks for watching!
+
+  counsel-linux-app uses the *.desktop files located in /usr/share/applications
+
+  Ivy:
+  https://github.com/abo-abo/swiper
+
+  Follow me on LBRY:
+  https://lbry.tv/$/invite/@marco:55</div>]]></description>
+      <pubDate>Sun, 09 Feb 2020 23:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Emacs vs Vim: Can&apos;t we all just get along?</title>
       <link>https://youtu.be/8Q9YjXgK38I</link>
       <description><![CDATA[<div id="content"><a href="https://youtu.be/8Q9YjXgK38I">youtube</a><br><br>If this video help or entertained, show me some love! Buy me a coffee! https://ko-fi.com/troyfletcher
@@ -35543,6 +35557,15 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
   Follow on LBRY: https://lbry.tv/@lukewh:3
   Join LBRY: https://lbry.tv/$/invite/@lukewh:3 (I get 20LBC if you do this)</div>]]></description>
       <pubDate>Fri, 07 Feb 2020 13:57:27 +0000</pubDate>
+    </item>
+    <item>
+      <title>Easy buffer navigation with avy! (Emacs)</title>
+      <link>https://youtu.be/VsNthJNkt30?si=_bv_A74y9vpKnmmw</link>
+      <description><![CDATA[<div id="content"><a href="https://youtu.be/VsNthJNkt30?si=_bv_A74y9vpKnmmw">youtube</a><br><br>Short demo on a really neat package for buffer navigation. Thanks for watching!
+
+  Follow me on LBRY:
+  https://lbry.tv/$/invite/@marco:55</div>]]></description>
+      <pubDate>Thu, 06 Feb 2020 23:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Emacs bites - Startup config selector</title>
@@ -44019,7 +44042,7 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
       <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=ytNsHmRLZGM&list=PL4th0AZixyRF8o3fdx68HGUrYKF2Pfvrp&index=5&pp=iAQB">youtube</a><br><br>In which John Wiegley and I chat about cool things he does with Emacs, learning, and other geeky things. More context for John Wiegley's thoughts: newartisans.com/2011/04/letter-to-the-fsf/
 
   Fixed version of http://www.youtube.com/watch?v=MyOnK9xbmX4</div>]]></description>
-      <pubDate>Tue, 26 Jun 2012 04:00:00 +0000</pubDate>
+      <pubDate>Mon, 25 Jun 2012 22:00:00 +0000</pubDate>
     </item>
     <item>
       <title>gtk-application-prefer-dark-theme for Emacs</title>
