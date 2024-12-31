@@ -1,3 +1,31 @@
+* Easy buffer navigation with avy! (Emacs)
+:PROPERTIES:
+:YOUTUBE_URL: https://youtu.be/VsNthJNkt30?si=_bv_A74y9vpKnmmw
+:DATE:     2020-02-07
+:SPEAKERS: Marco Avelar
+:DURATION: 4:55
+:END:
+  Short demo on a really neat package for buffer navigation. Thanks for watching!
+  
+  Follow me on LBRY:
+  https://lbry.tv/$/invite/@marco:55
+
+* Improve project workflow with Ivy, Counsel, and Swiper! (Emacs)
+:PROPERTIES:
+:YOUTUBE_URL: https://youtu.be/dUEquA02eJk?si=alfnv4Myf5R_4rJP
+:DATE:     2020-02-10
+:SPEAKERS: Marco Avelar
+:DURATION: 8:17
+:END:
+  Hey, short video/demo on how I use Ivy, Counsel, and Swiper for improving project navigation. Thanks for watching!
+  
+  counsel-linux-app uses the *.desktop files located in /usr/share/applications
+  
+  Ivy:
+  https://github.com/abo-abo/swiper
+  
+  Follow me on LBRY:
+  https://lbry.tv/$/invite/@marco:55
 
 * Putting the D(slide) in E(D)itor Macros  :org:sharing:presentation:dslide:
 :PROPERTIES:
@@ -54063,3 +54091,4 @@ Using restclient within emacs...
   in this demo foo.rb is edited in emacs(in coLinux) and run sketchbook.rb in windows command line.
 
   http://d.hatena.ne.jp/koyachi/20080206/1202225831
+
