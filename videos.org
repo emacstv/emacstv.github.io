@@ -35,6 +35,14 @@
   11:00 Timers & Kmacro Playback
   12:30 Beast of Possibility
 
+* lets make a midi controller with qmk   :music:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/live/AZ4nwS9A1qM
+:DATE:     2024-12-27T19:26:35-08:00
+:SPEAKERS: pulusound
+:DURATION: 3:09:45
+:END:
+  setting up midi on the winry315 "macro keypad"
 * Emacs: tone down Org citations on demand                              :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=X3fEO1_QDHA
@@ -2086,6 +2094,15 @@ I needed to quickly go through a large set of images to select out a subset from
   - SHIFT+TAB cycles through the folding state of the entire document regardless of the cursor's position.
 
   In this screencap, I show several operations, each with a different starting cursor position and/or starting folding state, where I hit the TAB or SHIFT+TAB keys, showing how elements get folded or unfolded recursively. I do it twice for each operation.
+* Adding macOS tags to my Org-Roam File Organization Workflow  :org:OrgRoam:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=r_4xV7tn1rQ
+:DATE:     2024-11-18T10:28:10-08:00
+:SPEAKERS: Mark Olson
+:DURATION: 6:50
+:END:
+
+
 * Yay Emacs 7: using word timing in caption editing with subed-word-data  :subed:
 :PROPERTIES:
 :YOUTUBE_URL: https://youtube.com/shorts/JeBg7-cF4Zk

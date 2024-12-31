@@ -38,6 +38,12 @@
       <pubDate>Sun, 29 Dec 2024 05:34:15 +0000</pubDate>
     </item>
     <item>
+      <title>lets make a midi controller with qmk</title>
+      <link>https://www.youtube.com/live/AZ4nwS9A1qM</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/live/AZ4nwS9A1qM">youtube</a><br><br>setting up midi on the winry315 "macro keypad"</div>]]></description>
+      <pubDate>Sat, 28 Dec 2024 03:26:35 +0000</pubDate>
+    </item>
+    <item>
       <title>Emacs: tone down Org citations on demand</title>
       <link>https://www.youtube.com/watch?v=X3fEO1_QDHA</link>
       <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=X3fEO1_QDHA">youtube</a><br><br>This is a short video demonstration of how I tone down Org citations using some custom code I wrote. I share the code and its annotated version on my website: https://protesilaos.com/codelog/2024-12-26-emacs-org-hide-citations-mode</div>]]></description>
@@ -1564,6 +1570,12 @@ This video is available under the terms of the Creative Commons Attribution-Shar
 
   In this screencap, I show several operations, each with a different starting cursor position and/or starting folding state, where I hit the TAB or SHIFT+TAB keys, showing how elements get folded or unfolded recursively. I do it twice for each operation.</div>]]></description>
       <pubDate>Sun, 24 Nov 2024 18:29:16 +0000</pubDate>
+    </item>
+    <item>
+      <title>Yay Emacs 7: using word timing in caption editing with subed-word-data</title>
+      <link>https://youtube.com/shorts/JeBg7-cF4Zk</link>
+      <description><![CDATA[<div id="content"><a href="https://youtube.com/shorts/JeBg7-cF4Zk">youtube</a><br><br></div>]]></description>
+      <pubDate>Sat, 16 Nov 2024 14:02:32 +0000</pubDate>
     </item>
     <item>
       <title>Yay Emacs 7: using word timing in caption editing with subed-word-data</title>
