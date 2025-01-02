@@ -151,7 +151,9 @@ Returns nil if not found."
 
 (defun emacstv-build ()
 	(interactive)
-	(emacstv-sort-by-newest-first)
+	(with-current-buffer (find-file-noselect emacstv-index-org)
+		(goto-char (point-min))
+		(emacstv-sort-by-newest-first))
 	(emacstv-export-rss)
 	(emacstv-export-json)
 	(emacstv-count-entries))
