@@ -5,6 +5,14 @@
     <link>https://emacs.tv</link>
     <description>Emacs videos</description>
     <item>
+      <title>Piano roll macros</title>
+      <link>https://www.youtube.com/watch?v=8vhynSPXJos</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=8vhynSPXJos">youtube</a><br><br>See:
+  http://anggtwu.net/2024-piano-roll-macros.html
+  (in a few hours!)</div>]]></description>
+      <pubDate>Tue, 31 Dec 2024 15:34:29 +0000</pubDate>
+    </item>
+    <item>
       <title>Demonstration of using Large Language Model (LLM) within GNU Emacs</title>
       <link>https://www.youtube.com/watch?v=bhrPyMvKJfw</link>
       <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=bhrPyMvKJfw">youtube</a><br><br>## Demonstration of using Large Language Model (LLM) within GNU Emacs
@@ -1723,6 +1731,20 @@ This video is available under the terms of the Creative Commons Attribution-Shar
       <pubDate>Sun, 01 Dec 2024 21:17:18 +0000</pubDate>
     </item>
     <item>
+      <title>An example of a bash script with test blocks (2024)</title>
+      <link>https://www.youtube.com/watch?v=hok5wH4XBYg</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=hok5wH4XBYg">youtube</a><br><br>See:
+  http://anggtwu.net/2024-bash-test-blocks.html</div>]]></description>
+      <pubDate>Mon, 02 Dec 2024 02:56:43 +0000</pubDate>
+    </item>
+    <item>
+      <title>Trying eev with a sexp (2024)</title>
+      <link>https://www.youtube.com/watch?v=BzovupjRhQM</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=BzovupjRhQM">youtube</a><br><br>See:
+  http://anggtwu.net/2024-find-tryit-links.html</div>]]></description>
+      <pubDate>Sun, 01 Dec 2024 07:20:04 +0000</pubDate>
+    </item>
+    <item>
       <title>Emacs + Python</title>
       <link>https://www.youtube.com/watch?v=YBX2Ki1ZoGg</link>
       <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=YBX2Ki1ZoGg">youtube</a><br><br>We begin with a series of specific workflow adaptations in emacs.
@@ -2981,6 +3003,18 @@ This video is available under the terms of the Creative Commons Attribution-Shar
       <pubDate>Tue, 23 Jul 2024 10:54:59 +0000</pubDate>
     </item>
     <item>
+      <title>Algumas perguntas pros estudantes de C2 que estão aprendendo Emacs, eev e Maxima</title>
+      <link>https://www.youtube.com/watch?v=FjhyhTxN_-o</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=FjhyhTxN_-o">youtube</a><br><br>Veja:
+  http://anggtwu.net/eev-intros/find-windows-beginner-intro.html
+
+  Legendas:
+  http://anggtwu.net/2024-algumas-perguntas.html
+
+  O título do vídeo é "Algumas perguntas..." porque eu ia perguntar umas coisas como: "Vocês já aprenderam a fazer a coisa tal?", "Vocês entenderam a seção tal do tutorial?" e "Me avisa quando você tiver 10 minutos livres?", mas eu acabei organizando o vídeo de outro jeito...</div>]]></description>
+      <pubDate>Sun, 14 Jul 2024 02:33:15 +0000</pubDate>
+    </item>
+    <item>
       <title>Making Killing Nicer in Emacs</title>
       <link>https://www.youtube.com/watch?v=oQ9JE9kRwG8</link>
       <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=oQ9JE9kRwG8">youtube</a><br><br>▶️ Playlist: https://www.youtube.com/playlist?list=PL3kg5TcOuFlqE1_ZTkC7RO2VEC3DFxcg5
@@ -3634,6 +3668,12 @@ This video is available under the terms of the Creative Commons Attribution-Shar
       <pubDate>Tue, 16 Jan 2024 12:09:39 +0000</pubDate>
     </item>
     <item>
+      <title>Two ways of creating &quot;.so&quot;s for Lua, one very fast, both using Emacs and eev</title>
+      <link>https://www.youtube.com/watch?v=zUW-6atPvUQ</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=zUW-6atPvUQ">youtube</a><br><br>See: http://anggtwu.net/find-luaso-links.html</div>]]></description>
+      <pubDate>Tue, 16 Jan 2024 09:14:12 +0000</pubDate>
+    </item>
+    <item>
       <title>Emacs: customize mode line colors</title>
       <link>https://www.youtube.com/watch?v=rVbfzvTfsoY</link>
       <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=rVbfzvTfsoY">youtube</a><br><br>In this video I provide an overview of how to customize the Emacs mode line colors. I show the `set-face-attribute` and `custom-set-faces` functions and explain what the difference between them is in terms of effect. I also discuss how to get a list of faces and supported colors, as well as some parts that are specific to my themes (the `modus-themes` in this case, though my `ef-themes` and `standard-themes` have a similar design).
@@ -3644,6 +3684,18 @@ This video is available under the terms of the Creative Commons Attribution-Shar
 
   Find all my publications on my website: https://protesilaos.com</div>]]></description>
       <pubDate>Sat, 13 Jan 2024 12:14:35 +0000</pubDate>
+    </item>
+    <item>
+      <title>Learning git with &quot;try it!&quot;s (and eev)</title>
+      <link>https://www.youtube.com/watch?v=lsVvokjqMY0</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=lsVvokjqMY0">youtube</a><br><br>See: http://anggtwu.net/2023-eev-git.html
+  and: http://anggtwu.net/eev-intros/find-git-intro.html
+
+  00:00 Introduction
+  01:30 The animation
+  06:57 Try it! (With no prerequisites)
+  10:02 (find-git-intro)</div>]]></description>
+      <pubDate>Sat, 06 Jan 2024 16:41:55 +0000</pubDate>
     </item>
     <item>
       <title>Emacs Goodies - #34 SQL Shell Mode</title>
@@ -3705,6 +3757,12 @@ This video is available under the terms of the Creative Commons Attribution-Shar
 
   #Emacs #IDE #Programming #SoftwareDevelopment #GNU #GNUEmacs</div>]]></description>
       <pubDate>Tue, 02 Jan 2024 16:00:05 +0000</pubDate>
+    </item>
+    <item>
+      <title>REPLs in strange places: updates, a demo, and how to try it</title>
+      <link>https://www.youtube.com/watch?v=s3enXsuXyNg</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=s3enXsuXyNg">youtube</a><br><br>See http://anggtwu.net/emacsconf2023.html</div>]]></description>
+      <pubDate>Mon, 25 Dec 2023 14:19:31 +0000</pubDate>
     </item>
     <item>
       <title>Audio braindump workflow tweaks: Adding Org Mode hyperlinks to recordings based on keywords</title>
@@ -16212,6 +16270,12 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
       <pubDate>Wed, 18 May 2022 04:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>eev-wconfig - PART 1 - INCOMPLETE</title>
+      <link>https://www.youtube.com/watch?v=JaSA7z1fUKU</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=JaSA7z1fUKU">youtube</a><br><br>See http://angg.twu.net/eev-wconfig.html</div>]]></description>
+      <pubDate>Tue, 17 May 2022 20:27:03 +0000</pubDate>
+    </item>
+    <item>
       <title>Lisp tutorial: how to call a REST API in Common Lisp: HTTP requests, JSON parsing, up to a CLI app</title>
       <link>https://www.youtube.com/watch?v=TAtwcBh1QLg</link>
       <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=TAtwcBh1QLg">youtube</a><br><br>Let's create a new project and explore the Lisp ecosystem to make API calls. We develop in Emacs and SLIME and in the end we get a Lisp library AND an application for the command line. We leverage what we study in my Common Lisp course, if you want to learn Lisp effectively you should check it out: https://www.udemy.com/course/common-lisp-programming/?referralCode=2F3D698BBC4326F94358
@@ -16493,6 +16557,17 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
 
   Goodreads: https://goodreads.com/unixbhaskar</div>]]></description>
       <pubDate>Tue, 03 May 2022 11:04:35 +0000</pubDate>
+    </item>
+    <item>
+      <title>Configuração sem mágica: um experimento com o eev (versão em Português - parte 2)</title>
+      <link>https://www.youtube.com/watch?v=ZAAxrJX-Am8</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=ZAAxrJX-Am8">youtube</a><br><br>Coming soon:
+  1) version in English
+  2) page with lots of info: http://angg.twu.net/eev-wconfig.html
+
+  The source code of eev-wconfig.el is here:
+  http://angg.twu.net/eev-current/eev-wconfig.el.html</div>]]></description>
+      <pubDate>Tue, 03 May 2022 16:47:56 +0000</pubDate>
     </item>
     <item>
       <title>Configuração sem mágica: um experimento com o eev (versão em Português - parte 1)</title>
@@ -19956,6 +20031,13 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
       <pubDate>Mon, 24 Jan 2022 02:23:39 +0000</pubDate>
     </item>
     <item>
+      <title>Why eev has a weird elisp tutorial and how to use it</title>
+      <link>https://www.youtube.com/watch?v=WowDSciGs1A</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=WowDSciGs1A">youtube</a><br><br>See: http://anggtwu.net/find-elisp-intro.html
+  for more info and a full transcript revised by human(s).</div>]]></description>
+      <pubDate>Mon, 24 Jan 2022 06:56:57 +0000</pubDate>
+    </item>
+    <item>
       <title>Org-mode - org hide emphasis markers</title>
       <link>https://www.youtube.com/watch?v=zI0BvRSbcM8</link>
       <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=zI0BvRSbcM8">youtube</a><br><br>While working in org mode if you want bold to appear as bold without emphasis markers then you can hide them. Let me show you how.
@@ -20377,6 +20459,12 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
   5. Youtube: https://youtube.com/ravisagar1
   ####</div>]]></description>
       <pubDate>Sun, 16 Jan 2022 04:00:20 +0000</pubDate>
+    </item>
+    <item>
+      <title>Running executable notes from http://angg.twu.net/ with find-angg and find-wget</title>
+      <link>https://www.youtube.com/watch?v=FoAzpGzFCSE</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=FoAzpGzFCSE">youtube</a><br><br>See: http://anggtwu.net/eev-find-angg.html</div>]]></description>
+      <pubDate>Sun, 16 Jan 2022 04:49:03 +0000</pubDate>
     </item>
     <item>
       <title>21天学会Emacs  2022 Edition（第二天：记事本）</title>
@@ -20890,6 +20978,12 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
       <pubDate>Tue, 04 Jan 2022 20:09:15 +0000</pubDate>
     </item>
     <item>
+      <title>Using eev to test make(files) (2022)</title>
+      <link>https://www.youtube.com/watch?v=Iql5C-yQk5c</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=Iql5C-yQk5c">youtube</a><br><br>See: http://anggtwu.net/eev-make.html</div>]]></description>
+      <pubDate>Wed, 05 Jan 2022 04:02:15 +0000</pubDate>
+    </item>
+    <item>
       <title>Be lazy like the British and deploy your root config files in seconds</title>
       <link>https://www.youtube.com/watch?v=T5v690n30QQ&amp;list=PL7hhhG5qUoXk266pUiPhm-gqBgM5P8vBV&amp;index=5&amp;pp=iAQB</link>
       <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=T5v690n30QQ&list=PL7hhhG5qUoXk266pUiPhm-gqBgM5P8vBV&index=5&pp=iAQB">youtube</a><br><br>How to deploy your root config files in seconds from a single text file,
@@ -21114,6 +21208,12 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
       <pubDate>Thu, 30 Dec 2021 13:28:53 +0000</pubDate>
     </item>
     <item>
+      <title>On find-agdatype and find-agdatype2 - PRELIMINARY VERSION!</title>
+      <link>https://www.youtube.com/watch?v=mqW_rmQPZ_w</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=mqW_rmQPZ_w">youtube</a><br><br>Ideally the functions find-agdatype and find-agdatype2 would work as hyperlinks that show the types of Agda expressions. In this video I present how they work now, why they don't work well yet, how they can be modified, and why I believe that they should be easy to fix.</div>]]></description>
+      <pubDate>Wed, 29 Dec 2021 05:28:05 +0000</pubDate>
+    </item>
+    <item>
       <title>Finally Vi in GNU Emacs!!!</title>
       <link>https://www.youtube.com/watch?v=87QzhmhHwLU&amp;list=PLW9poAEUvGDDxCZX-3xIQ3Wb1HOVcg7N_&amp;index=5&amp;pp=iAQB</link>
       <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=87QzhmhHwLU&list=PLW9poAEUvGDDxCZX-3xIQ3Wb1HOVcg7N_&index=5&pp=iAQB">youtube</a><br><br>Details https://lifeofpenguin.blogspot.com/2021/12/embedding-applications-via-xembed.html</div>]]></description>
@@ -21157,6 +21257,13 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
   ➤ Misc Packages - 29:02
   ➤ Conclusion - 31:48 If you appreciate what I do and are interested in showing your support, I invite you to 'buy me a coffee': https://buymeacoffee.com/jakebox</div>]]></description>
       <pubDate>Sun, 26 Dec 2021 16:41:50 +0000</pubDate>
+    </item>
+    <item>
+      <title>How I write 5-minute hacks in eev using `M-x find-find-links-links-new&apos; - DO try this at home!</title>
+      <link>https://www.youtube.com/watch?v=h1CEL2fmkyc</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=h1CEL2fmkyc">youtube</a><br><br>How I write 5-minute hacks in eev using `M-x find-find-links-links-new' - DO try this at home!
+  See: http://anggtwu.net/2021-ffll.html</div>]]></description>
+      <pubDate>Sun, 26 Dec 2021 07:02:44 +0000</pubDate>
     </item>
     <item>
       <title>Background processes in Eshell</title>
@@ -21583,6 +21690,12 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
       <pubDate>Sat, 11 Dec 2021 02:50:11 +0000</pubDate>
     </item>
     <item>
+      <title>Org for Non-Users (2021)</title>
+      <link>https://www.youtube.com/watch?v=Eh5Wz9Vh_XM</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=Eh5Wz9Vh_XM">youtube</a><br><br>See: http://angg.twu.net/2021-org-for-non-users.html</div>]]></description>
+      <pubDate>Sat, 11 Dec 2021 07:06:03 +0000</pubDate>
+    </item>
+    <item>
       <title>Magit on GNU/Emacs</title>
       <link>https://www.youtube.com/watch?v=xLQmcvYbms4</link>
       <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=xLQmcvYbms4">youtube</a><br><br>A short demo on Magit on Gnu Emacs
@@ -21816,6 +21929,42 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
       <pubDate>Sat, 04 Dec 2021 10:20:06 +0000</pubDate>
     </item>
     <item>
+      <title>find-extra-file-links (workshop 2021-dec-04)</title>
+      <link>https://www.youtube.com/watch?v=-gi15-liGaU</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=-gi15-liGaU">youtube</a><br><br>See: http://angg.twu.net/2021-workshop.html</div>]]></description>
+      <pubDate>Sat, 04 Dec 2021 09:08:29 +0000</pubDate>
+    </item>
+    <item>
+      <title>Copying from left to right (workshop 2021-dec-04)</title>
+      <link>https://www.youtube.com/watch?v=VzRsterVSXs</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=VzRsterVSXs">youtube</a><br><br>See: http://angg.twu.net/2021-workshop.html</div>]]></description>
+      <pubDate>Sat, 04 Dec 2021 08:43:37 +0000</pubDate>
+    </item>
+    <item>
+      <title>Invisible text (workshop 2021-dec-04)</title>
+      <link>https://www.youtube.com/watch?v=lhpHHjBUxv8</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=lhpHHjBUxv8">youtube</a><br><br>See: http://angg.twu.net/2021-workshop.html</div>]]></description>
+      <pubDate>Sat, 04 Dec 2021 07:54:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>Material on `M-3 M-e&apos; (workshop 2021-dec-04)</title>
+      <link>https://www.youtube.com/watch?v=r83inf9s8zo</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=r83inf9s8zo">youtube</a><br><br>See: http://angg.twu.net/2021-workshop.html</div>]]></description>
+      <pubDate>Fri, 03 Dec 2021 05:54:25 +0000</pubDate>
+    </item>
+    <item>
+      <title>Creating a link to a file using a 2-window setting (workshop 2021-dec-04)</title>
+      <link>https://www.youtube.com/watch?v=hqqIlZBXNhk</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=hqqIlZBXNhk">youtube</a><br><br>See: http://angg.twu.net/2021-workshop.html</div>]]></description>
+      <pubDate>Thu, 02 Dec 2021 08:20:44 +0000</pubDate>
+    </item>
+    <item>
+      <title>The base cases 1 and 2 (for the workshop)</title>
+      <link>https://www.youtube.com/watch?v=HuqJFPD871E</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=HuqJFPD871E">youtube</a><br><br>See: http://angg.twu.net/2021-workshop.html</div>]]></description>
+      <pubDate>Wed, 01 Dec 2021 06:34:56 +0000</pubDate>
+    </item>
+    <item>
       <title>Emacs Abbreviation Creation 2021_11_30_06:43:29</title>
       <link>https://youtube.com/watch?v=DLPuRmSNOWQ&amp;feature=share</link>
       <description><![CDATA[<div id="content"><a href="https://youtube.com/watch?v=DLPuRmSNOWQ&feature=share">youtube</a><br><br>This video will show you, how you can create abbreviations inside emacs to enhance your productivity.
@@ -22028,10 +22177,26 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
       <pubDate>Sun, 28 Nov 2021 14:07:00 +0000</pubDate>
     </item>
     <item>
-      <title>Closing remarks day 2</title>
-      <link>https://emacsconf.org/2021/talks/day2-close</link>
-      <description><![CDATA[<div id="content"><a href="https://media.emacsconf.org/2021/nil--main.vtt">transcript</a>&nbsp;·&nbsp;<a href="">toobnix</a>&nbsp;·&nbsp;<a href="">youtube</a>&nbsp;·&nbsp;<a href="https://media.emacsconf.org/2021/nil--main.webm">media</a><br><br></div>]]></description>
-      <pubDate>Sun, 28 Nov 2021 05:00:00 +0000</pubDate>
+      <title>Test blocks: eev @ EmacsConf 2021</title>
+      <link>https://www.youtube.com/watch?v=qM0Luz78qGw</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=qM0Luz78qGw">youtube</a><br><br></div>]]></description>
+      <pubDate>Sun, 28 Nov 2021 18:08:56 +0000</pubDate>
+    </item>
+    <item>
+      <title>Test blocks: eev @ EmacsConf 2021</title>
+      <link>https://www.youtube.com/watch?v=qM0Luz78qGw</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=qM0Luz78qGw">youtube</a><br><br>See:
+  http://anggtwu.net/emacsconf2021.html
+  http://anggtwu.net/eepitch.html
+
+  This video is also hosted at several other places, but this one always has the latest version of its (revised) subtitles.</div>]]></description>
+      <pubDate>Sun, 28 Nov 2021 18:08:56 +0000</pubDate>
+    </item>
+    <item>
+      <title>Test blocks in Dednat6</title>
+      <link>https://www.youtube.com/watch?v=QUMo7vgkHJI</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=QUMo7vgkHJI">youtube</a><br><br>See: http://angg.twu.net/emacsconf2021.html</div>]]></description>
+      <pubDate>Sun, 28 Nov 2021 17:04:51 +0000</pubDate>
     </item>
     <item>
       <title>Q&amp;A: On the design of text editors</title>
@@ -22842,6 +23007,13 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
       <pubDate>Tue, 09 Nov 2021 21:45:32 +0000</pubDate>
     </item>
     <item>
+      <title>Exercícios de criar e guardar links (1)</title>
+      <link>https://www.youtube.com/watch?v=XbuDnkfizYs</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=XbuDnkfizYs">youtube</a><br><br>Mais informações sobre a oficina aqui:
+  http://angg.twu.net/2021-oficina.html</div>]]></description>
+      <pubDate>Tue, 09 Nov 2021 08:22:03 +0000</pubDate>
+    </item>
+    <item>
       <title>SPICE simulation in GNU Emacs (From schematics)</title>
       <link>https://www.youtube.com/watch?v=enZS9BLqVsk&amp;list=PLW9poAEUvGDC7ZWO69qrwRMqdW2xYLsGt&amp;index=1&amp;pp=iAQB</link>
       <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=enZS9BLqVsk&list=PLW9poAEUvGDC7ZWO69qrwRMqdW2xYLsGt&index=1&pp=iAQB">youtube</a><br><br>https://lifeofpenguin.blogspot.com/2021/11/spice-simulation-in-gnu-emacs-from.html</div>]]></description>
@@ -23193,6 +23365,15 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
 
   This enhancements can be found at https://github.com/jkitchin/scimax/blob/master/scimax-ivy.el</div>]]></description>
       <pubDate>Thu, 28 Oct 2021 08:43:44 +0000</pubDate>
+    </item>
+    <item>
+      <title>2021 eev on windows 1</title>
+      <link>https://www.youtube.com/watch?v=2Hvk0aJunYI</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=2Hvk0aJunYI">youtube</a><br><br>Esse é um dos vídeos que eu vou usar na oficina de Software Livre pra usuários de Windows que vai acontecer no sábado, 30/outubro/2021. Ele é sobre o arquivo eev-on-windows.el.
+
+  Para mais informações veja:
+  http://angg.twu.net/2021-oficina.html</div>]]></description>
+      <pubDate>Wed, 27 Oct 2021 09:19:53 +0000</pubDate>
     </item>
     <item>
       <title>Using Emacs Episode 80 - Vertico, Marginalia, Consult, and Embark</title>
@@ -24657,6 +24838,15 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
   Discord:
       https://discord.gg/JJk5KKU</div>]]></description>
       <pubDate>Mon, 06 Sep 2021 03:07:16 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introdução ao Software Livre: Python, shell, Lua, Emacs, eev</title>
+      <link>https://www.youtube.com/watch?v=OW6WRnSQwc0</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=OW6WRnSQwc0">youtube</a><br><br>Introdução ao Software Livre: Python, shell, Lua, Emacs, eev
+
+  Mais informações em:
+  http://angg.twu.net/2021.1-projeto.html</div>]]></description>
+      <pubDate>Sun, 05 Sep 2021 09:20:13 +0000</pubDate>
     </item>
     <item>
       <title>【ゲーム実況】emacs内蔵ゲームdunnetをやってみた</title>
@@ -27752,6 +27942,56 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
       <pubDate>Thu, 13 May 2021 15:50:26 +0000</pubDate>
     </item>
     <item>
+      <title>How to use the &quot;[Video links:]&quot; blocks in the &quot;intro&quot;s of eev</title>
+      <link>https://www.youtube.com/watch?v=xQqWufQgzVY</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=xQqWufQgzVY">youtube</a><br><br>See: http://angg.twu.net/2021-video-links.html
+
+   0:00
+   0:42 pandemic: shorter attention spans
+   1:07 Let's start the technical part
+   2:10 If we open this tutorial in a browser
+   2:33   each line has two hyperlinks
+   2:38   the second one goes to the video
+   3:41   the first links go to help
+   3:59   let's try to go to help
+   4:18   it ends with this mysterious paragraph
+   5:05 Here we have a copy of these blocks
+   5:11   if I execute this `find-eevnavvideo'
+   5:26   the second line plays the local copy
+   6:00   the last line says `Local file found'
+   6:09   if I execute this `find-eevtestblsvideo'
+   6:15   the last line says `Local file NOT found'
+   6:57 We need to run this eepitch block
+   7:14   If you need help: (find-psne-intro)
+   7:35   (eepitch-shell) creates a target buffer
+   8:05 Now that I have a local copy
+   8:08   this `find-eevvideo' sexp is going to work
+   8:20   the last line says `Local file found'
+   8:35 To follow a `find-eev*video' sexp in Emacs
+   8:44   if we already have the local copy
+   8:44   the sexp in the second line plays it
+   8:53   if we don't have the local copy
+   8:58   message at the end of the buffer
+   9:21 Sections 1, 2, 3
+   9:37 Something that I forgot to explain
+   9:58   middle of the temporary buffer
+  10:04   URL of the .mp4 file
+  10:15   the directory with local copies
+  10:28   youtube URL
+  10:44   youtube URL: follow with M-x brg
+  11:17 Advanced features
+  11:42   source code of `find-eev2020video'
+  12:02   (find-efunction 'find-eev2020video)
+  13:15   I changed my mind, let me show
+  13:30   M-e, down, M-e
+  13:44   M-e, down, M-e
+  13:52   to play the video straight away
+  14:07   redefine: section in the tutorial
+  14:25   this sexp redefines
+  14:31   instead of creating a temp buffer</div>]]></description>
+      <pubDate>Wed, 12 May 2021 08:36:36 +0000</pubDate>
+    </item>
+    <item>
       <title>Reasonable Ontology Templates (OTTR): Incrementally building a template library</title>
       <link></link>
       <description><![CDATA[<div id="content"><a href="https://vimeo.com/547161487">vimeo</a><br><br>The video shows live coding demo session of a top-down approach for building a template library for a example use case. The chapter assumes the reader is familiar with the basics of OTTR. The coding session is using in emacs and a major mode for emacs that defines syntax highlighting for the stOTTR syntax and basic functionality from the standard Lutra CLI (the reference implementation of the OTTR project). The coding session is done by Daniel Lupp.</div>]]></description>
@@ -29662,6 +29902,14 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
       <pubDate>Mon, 25 Jan 2021 14:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Using test blocks in eev</title>
+      <link>https://www.youtube.com/watch?v=fpsF_M55W4o</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=fpsF_M55W4o">youtube</a><br><br>This video is about how I've been documenting complex functions and data structures by putting chunks of executable code in comments (in "test blocks"), and how I execute these chunks line by line with eepitch. The "line by line" trick lets me follow what each line does without having to add any comments.
+
+  For more information: http://angg.twu.net/2021-test-blocks.html</div>]]></description>
+      <pubDate>Sun, 24 Jan 2021 05:15:52 +0000</pubDate>
+    </item>
+    <item>
       <title>Defining Functions and Commands - Learning Emacs Lisp #3</title>
       <link>https://youtu.be/EqgkAUHw0Yc</link>
       <description><![CDATA[<div id="content"><a href="https://youtu.be/EqgkAUHw0Yc">youtube</a><br><br>In this stream, we'll continue learning the fundamentals of Emacs Lisp by showing how to define functions and commands:
@@ -29871,6 +30119,25 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
   Intro music: Coriolis Effect by logos feat. stefsax, licensed CC-BY
   http://ccmixter.org/files/mseq/26296</div>]]></description>
       <pubDate>Mon, 11 Jan 2021 13:48:52 +0000</pubDate>
+    </item>
+    <item>
+      <title>Short videos about workflows - and how to upload them</title>
+      <link>https://www.youtube.com/watch?v=_0_NLXTVhBk</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=_0_NLXTVhBk">youtube</a><br><br>This is a short video about how I upload videos to my home page using eev.
+
+  It will only make _total_ sense to people who understood the ideas that I showed in my presentation at the EmacsConf 2020 ("On why most of the best features in eev look like 5-minute hacks") and in its follow-up video, called "Some template-based functions of eev that are not five-minute hacks"... but I recorded it to send it to the org-mode mailing list, to ask how the people there would do something similar using org-mode.
+
+  Links:
+
+  "On why most of the best features in eev look like 5-minute hacks":
+  http://angg.twu.net/emacsconf2020.html
+
+  "Some template-based functions of eev that are not five-minute hacks":
+  http://angg.twu.net/2020-some-template-based.html
+
+  "Short videos about workflows - and how to upload them":
+  http://angg.twu.net/2021-ssr.html</div>]]></description>
+      <pubDate>Mon, 11 Jan 2021 10:52:18 +0000</pubDate>
     </item>
     <item>
       <title>Emacs xref-rst package demo</title>
@@ -30084,6 +30351,60 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
       <pubDate>Thu, 31 Dec 2020 07:58:28 +0000</pubDate>
     </item>
     <item>
+      <title>How to create hyperlinks to &quot;here&quot; with `find-here-links&apos; (2020)</title>
+      <link>https://www.youtube.com/watch?v=8jtiBlaDor4</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=8jtiBlaDor4">youtube</a><br><br>This video is a tutorial on how to create an elisp hyperlink to "here" - where "here" is the current Emacs buffer, on a position on the current Emacs buffer - and how to copy it to our notes, all this with few keystrokes.
+
+  More info at: http://anggtwu.net/2020-find-here-links.html
+
+   0:00 Title page
+   0:30 create a hyperlink to that
+   0:54 1. The tutorials
+   2:07  we are going to start with the beginner's way
+   2:23  remember that `M-h M-k'
+   3:05  demo of `M-h M-2' in the tutorial
+   4:00  you can use it with the cursor at any point
+   4:40 2. The beginner's way
+   4:40 2.1. The 3-window setting - and going back from it
+   5:00  I sometimes teach Emacs to people who
+   5:04  I minicourse on LaTeX
+   6:25  trick mainly meant for people
+   6:47  `M-h M-3': three windows; `M-h M-1' goes back
+   7:29  the original configuration can be anything
+   8:55  let me explain how I teach this to beginners
+   8:56 2.2. Copying one link
+  10:10  when people know a few more keys ... C-w and M-w
+  10:21  that correspond to Cut, Copy, and Paste
+  10:30 2.3. Duplicating and refining
+  10:53  as a string at the end of the sexp
+  11:12  an example without so much clutter on the screen
+  11:56  let me demonstrate this
+  12:35 3. Using a single window
+  13:19  go back usually by using
+  14:00 4. Advanced usage: anchors
+  14:18 4.1. Creating anchors
+  15:22  an index at the beginning of the file
+  15:47  the tutorial also explains ... `M-A'
+  16:19  use `M-B' to create something like this block here
+  17:02 4.2. The option :anchor for `code-c-d'
+  17:21  here I have one of the source files
+  17:30  here we have an index
+  17:47  this sexp is equivalent to
+  18:12  not all functions created by code-c-d behave in that way
+  18:36  let me give the short explanation
+  18:57  is a button that defines new functions
+  19:04  and this sexp here shows the code
+  19:24  this defun that defines find-eev
+  20:04 4.3. Shrinking hyperlinks
+  20:25  it has a demo here
+  21:07 4.4. The preceding tag
+  21:35  a variant of `M-h M-w'
+  22:06  it also explains in the echo area what it does
+  22:43  in this example the refined hyperlink is not useful
+  22:48  but here is a demo that makes more sense</div>]]></description>
+      <pubDate>Thu, 31 Dec 2020 03:30:37 +0000</pubDate>
+    </item>
+    <item>
       <title>Teach Emacs to Keep Your Folders Clean</title>
       <link>https://youtu.be/XZjyJG-sFZI</link>
       <description><![CDATA[<div id="content"><a href="https://youtu.be/XZjyJG-sFZI">youtube</a><br><br>In this video, we'll learn how to keep Emacs from cluttering up folders with temporary files it creates for backups, auto save information, and the configuration stored by other packages like Projectile and lsp-mode.  First we'll learn the necessary variables you will want to set to do this yourself and then we'll try a community package called no-littering that will do a lot of the work for you!
@@ -30170,6 +30491,78 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
   👉 https://github.com/tonyaldon/inside-emacs
   👉 Music: https://soundcloud.com/c-lancethemonstah/c-lance-the-disease</div>]]></description>
       <pubDate>Sat, 26 Dec 2020 21:07:37 +0000</pubDate>
+    </item>
+    <item>
+      <title>Some template-based functions of eev that are not five-minute hacks</title>
+      <link>https://www.youtube.com/watch?v=91-9YfRPsuk</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=91-9YfRPsuk">youtube</a><br><br>My presentation at the EmacsConf 2020 was titled "On why most of the best features in eev look like 5-minute hacks"; this is a complement to it.
+
+  In most cases when I record "executable notes" on how to perform tasks (see my talk at the EmacsConf 2019!) I record them as plain text, but in a few cases I prefer to use functions that generate text from templates. This video is about some non-trivial cases of functions that use templates to generate "executable notes" that can then be executed in several different ways.
+
+  For more on eev see http://anggtwu.net/#eev .
+
+   0:00 Title
+   0:17   the reason for this title
+   0:18 1. `find-find-links-links-new'
+   1:29   generated again with these values
+   1:50   the implementation is very simple
+   2:00   in five minutes because ... generates skeletons
+   5:03 2. `M-x brep'
+   5:43   a way to download local copies
+   7:11   The new way: `M-x brep'
+   8:15   by typing `M-x brep'
+   8:50   and then we get this buffer here
+   9:17 3. The function that defines brep
+   9:38   `code-brurl' is a variant of `code-c-d'
+  10:07   find-code-url shows the code instead of executing it
+  11:26   this is explained in the main tutorial
+  12:12   accept extra arguments
+  12:34   if we run just this
+  12:40   one of the reasons for using text: comments
+  13:03   if we run just this with extra arguments
+  14:10   code-brurl executes this code here
+  14:20 4. `find-esetkey-links'
+  15:20   a big header with lots of help
+  16:28   I have these keybindings, for toggling
+  17:06   I realized that I use `M-x wrap' very often
+  18:18   in the emacs-devel mailing list
+  18:32   users should not be forced to see lisp
+  19:23 5. `find-youtubedl-links'
+  19:43   if we twist the notion user enough
+  20:02   user-friendly to me
+  20:05   The documentation is in this tutorial:
+  21:36   its code is here
+  21:55   Let me show a demo
+  22:15   I never type these rm -Rv/mkdir/cd by hand
+  22:48   let me show how to download ... the hash is here
+  23:25   they regenerate this buffer in slightly different ways
+  24:03   a video with this hash. If I visit the directory
+  24:32   my magic functions have to
+  24:50   if I run this sexp here with nil
+  25:00   it tries to guess the title
+  25:28   and if I change this {stem} here I get short links
+  26:14   has very long lines, but if I type super-w
+  26:28   I get a buffer that shows the code for find-preadingvideo
+  26:50   if I execute this I play the video
+  27:15   make a copy of this that points to the right position
+  27:53   summary: this is how I download videos from youtube
+  28:12 6. `find-here-links' and `find-extra-file-links'
+  28:20   it deserves another presentation just to itself
+  28:32   the central idea of eev
+  29:17   it is bound to `M-h M-h'
+  29:25   generates a temporary buffer with hyperlinks to here
+  29:30   help and a link to the tutorial in which I was
+  29:45   not very well documented yet
+  30:05   it is explained in this section of the tutorial
+  30:18   if we type `M-h M-e' this runs `find-extra-file-links'
+  30:42   here is an example in Lisp
+  31:06   and I can change this {c}
+  31:22   Let me show a more realistic example of how to use it
+  31:28   let's go to the directory with the video file
+  31:45   this file is a video file
+  32:00   (a glitch)
+  33:03   these were the things that I wanted to show</div>]]></description>
+      <pubDate>Fri, 25 Dec 2020 18:42:40 +0000</pubDate>
     </item>
     <item>
       <title>Give Emacs Psychic Completion Powers with prescient.el</title>
@@ -31973,6 +32366,47 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
       <link></link>
       <description><![CDATA[<div id="content"><a href="https://vimeo.com/465411965">vimeo</a><br><br>The basics of report generation in emacs, org, and babel. The compilation steps and stages for going through LaTeX to a pdf.</div>]]></description>
       <pubDate>Tue, 06 Oct 2020 14:37:06 +0000</pubDate>
+    </item>
+    <item>
+      <title>How to install eev with M-x list-packages and how to navigate its tutorials</title>
+      <link>https://www.youtube.com/watch?v=kxBjiUo88_U</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=kxBjiUo88_U">youtube</a><br><br>The easiest way to install eev in Emacs is with `M-x list-packages'.
+  This video shows how to do that and how to navigate its tutorials with the keys `M-e', `M-j', and `M-k'.
+
+  For more on eev, see:
+  http://anggtwu.net/#eev
+
+  0:00 Hi!
+  0:19 Let me load my notes...
+  0:44 run M-x list-packages and wait a bit
+  1:26 click on eev, click on install
+  1:42 just installs eev but doesn't change any defaults
+  2:25 installed but not active by default
+  2:30 to active eev and to enter the tutorial: M-x eev-beginner
+  3:06 a section about how Emacs deals with elisp expressions
+  3:17 elisp expressions that can be used as hyperlinks
+  3:41 you just need to remember two keys
+  3:48 for the beginners: quitting and restarting
+  4:06 the part of the sequence of keys
+  4:21 go to the file menu, click quit
+  4:46 enter emacs again, type M-x eev-beginner
+  5:17 here are the main keys
+  5:35 M-e goes to the end of the line and...
+  6:28 you can forget practically evertything
+  6:41 if you type just M-j
+  6:48 has a header that is beginner-friendly and
+  7:20 if I execute this ... (find-emacs-keys-intro)
+  7:30 a copy of the instructions that I showed before
+  8:06 in the other sections: Emacs concepts, other Emacs keys
+  8:19 hyperlink to the section about quitting in the manual
+  8:48 most of the entries have hyperlinks to the manual
+  9:48 these lines explain ... M-j with numeric prefixes
+  10:17 section 6: eepitch - how to control shells
+  10:36 if I type [f8] six times here
+  10:50 we have a shell running inside Emacs
+  11:22 oops, I forgot to explain M-k!
+  11:40 ee-kill-this-buffer</div>]]></description>
+      <pubDate>Sun, 04 Oct 2020 08:09:58 +0000</pubDate>
     </item>
     <item>
       <title>My course is online on Udemy</title>
@@ -37579,6 +38013,46 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
       <pubDate>Fri, 25 Oct 2019 13:07:49 +0000</pubDate>
     </item>
     <item>
+      <title>How to record executable notes with eev - and how to play them back (short version)</title>
+      <link>https://www.youtube.com/watch?v=86yiRG8YJD0</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=86yiRG8YJD0">youtube</a><br><br>My short presentation at the EmacsConf 2019. For more information and lots of links visit: http://angg.twu.net/emacsconf2019.html
+
+  Index of the video:
+  0:00 Title page
+  0:15 Prehistory 1: eev appeared by accident
+  1:08 Prehistory 2: my notes started to have lots of elisp hyperlinks
+  2:35 Prehistory 3: M-x eev
+  3:04 Prehistory 4: several other kinds of elisp kyperlinks
+  4:05 Prehistory 5: these elisp hyperlinks could be put in comments
+  5:34 Prehistory 6: variants of M-x eev
+  5:41 Prehistory 7: several megabytes of scripts and notes
+  6:41 Prehistory 8: I was sure that everybody was using Emacs like that
+  7:52 Prehistory 9: users should not be forced to see Lisp
+  9:22 Eev as an ELPA package
+  10:47 Eev as an ELPA package 2: tutorials, beginner setup
+  11:19 M-j
+  12:54 A demo
+  13:10 Demo: patching xpdf
+  14:01 Demo: the `find-man' links
+  14:45 Demo: the `find-apt-get-source-links'
+  15:11 Demo: the eepitch block (in red star lines)
+  15:48 Demo: eepitch on non-red star lines
+  15:56 Demo: eepitch in action (two windows, smaller font)
+  16:40 Demo: I will not run the apt-get source --build
+  16:47 Demo: the `find-fline's to the source directory
+  17:07 Demo: `code-c-d'
+  17:22 Demo: `find-xpdffile'
+  17:32 Demo: `find-xpdfsh'
+  17:44 Demo: `find-xpdfgrep'
+  18:29 Demo: (back to the big font)
+  18:32 Demo: the second `find-xpdfgrep'
+  18:46 Demo: the relevant occurrence / direct link to it
+  19:18 Links
+
+  License: CC BY-SA 4.0.</div>]]></description>
+      <pubDate>Fri, 25 Oct 2019 17:40:48 +0000</pubDate>
+    </item>
+    <item>
       <title>Channel update: BSPWM + Emacs</title>
       <link>https://www.youtube.com/watch?v=JMqP0gFqkwg&amp;list=PL8Bwba5vnQK14z96Gil86pLMDO2GnOhQ6&amp;index=102&amp;pp=iAQB</link>
       <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=JMqP0gFqkwg&list=PL8Bwba5vnQK14z96Gil86pLMDO2GnOhQ6&index=102&pp=iAQB">youtube</a><br><br>I am back to using BSPWM and have been able to integrate it with my custom Emacs setup. Here are the links to the items I address in this update:
@@ -38050,6 +38524,12 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
     <item>
       <title>Org Analyzer - an app that visualizes org-mode time tracking data</title>
       <link>https://www.youtube.com/watch?v=qBgvGDOxmUw&amp;feature=youtu.be</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=qBgvGDOxmUw&feature=youtu.be">youtube</a><br><br></div>]]></description>
+      <pubDate>Mon, 12 Aug 2019 21:00:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>Org Analyzer - an app that visualizes org-mode time tracking data</title>
+      <link>https://www.youtube.com/watch?v=qBgvGDOxmUw&amp;feature=youtu.be</link>
       <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=qBgvGDOxmUw&feature=youtu.be">youtube</a><br><br>For more information see: https://github.com/rksm/clj-org-analyzer
   You can download the app from: https://github.com/rksm/clj-org-analyzer/releases/latest
 
@@ -38063,10 +38543,16 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
       <pubDate>Mon, 12 Aug 2019 10:51:53 +0000</pubDate>
     </item>
     <item>
-      <title>Vlog: Emacs mindset and Unix philosophy</title>
-      <link>https://www.youtube.com/watch?v=qTncc2lI6OI&amp;feature=youtu.be</link>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=qTncc2lI6OI&feature=youtu.be">youtube</a><br><br></div>]]></description>
-      <pubDate>Fri, 09 Aug 2019 11:01:12 +0000</pubDate>
+      <title>The three main keys of eev (2019aug09, in portuguese)</title>
+      <link>https://www.youtube.com/watch?v=GUuCpmLItTs</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=GUuCpmLItTs">youtube</a><br><br></div>]]></description>
+      <pubDate>Sat, 10 Aug 2019 00:11:30 +0000</pubDate>
+    </item>
+    <item>
+      <title>The three main keys of eev (2019aug09, in portuguese)</title>
+      <link>https://www.youtube.com/watch?v=GUuCpmLItTs</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=GUuCpmLItTs">youtube</a><br><br>See http://angg.twu.net/#eev</div>]]></description>
+      <pubDate>Sat, 10 Aug 2019 00:11:30 +0000</pubDate>
     </item>
     <item>
       <title>Vlog: Emacs mindset and Unix philosophy</title>
@@ -44152,6 +44638,52 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
       <pubDate>Sun, 20 Jan 2013 19:33:44 +0000</pubDate>
     </item>
     <item>
+      <title>eepitch: a way to control shell-like programs from Emacs (2013)</title>
+      <link>https://www.youtube.com/watch?v=Lj_zKC5BR64</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=Lj_zKC5BR64">youtube</a><br><br>The documentation about eepitch is at:
+  http://anggtwu.net/eepitch.html
+
+  This video is very old - it's from 2013. Please see the link above instead!
+
+  A high-res version of this video can be found at:
+  http://anggtwu.net/eev-videos/video4-eepitch.mp4
+
+  For more about eev - including links to other videos - go to:
+  http://anggtwu.net/#eev
+
+   0:16 the eepitch-to-shell-and-python example, very quickly
+   1:18 executing eepitch scripts with `f8's; f8 on red star lines and normal lines
+   2:33 the eepitch-to-shell-and-python example - what each line does
+   3:15 the first three lines use advanced features
+   3:52 eepitch scripts are made to be executed interactively
+   5:25 the eepitch-to-shell-and-python example again, more slowly
+
+   5:58 what happens when the eepitch target is being shown
+   7:13 the default is to use two windows
+   7:33 what happens when the target does not exist
+   8:25 how to send commands to a new shell
+   8:54 how an eepitch block (like eepitch-shell/kill/shell) works
+
+   9:38 an example with shell comments (which eev uses as hyperlinks)
+  12:35 refining hyperlinks
+  12:35 converting shell commands into hyperlinks (by wrapping - by hand)
+  13:04 wrapping commands - bound to meta-uppercase-letters
+  13:53 M-M wraps the current line into a hyperlink to a manpage
+  14:12 demonstrating M-M, M-S and M-T with eek sexps
+  14:40 M-T wraps the current linto an eepitch-xxx/kill/xxx triple
+  15:47 introduction to the sandboxed tutorials and to M-j (eejump)
+  16:17 the default numeric arguments for eejump
+  16:35 M-5 M-j jumps to the index for the documentation for eev
+  17:15 temporary buffers in eev usually start with a sexp that regenerate the buffer
+  18:23 where the eepitch-to-shell-and-python example is in the documentation
+
+  18:58 Other examples
+  19:07 pdf-like documents
+  20:43 a tutorial for Lua based on eepitch
+  22:26 that's it - last comments, where to find more info, how to get in touch</div>]]></description>
+      <pubDate>Sun, 06 Jan 2013 18:39:44 +0000</pubDate>
+    </item>
+    <item>
       <title>Emacs + gimpmode + gimp</title>
       <link></link>
       <description><![CDATA[<div id="content"><a href="https://vimeo.com/56668986">vimeo</a><br><br>Exemplo de criação de script-fu utilizando o Emacs com gimpmode e o GIMP.</div>]]></description>
@@ -44177,16 +44709,63 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
       <pubDate>Thu, 15 Nov 2012 21:37:30 +0000</pubDate>
     </item>
     <item>
-      <title>CSE891 SS12 Virtual Machines, Linux Commandline, Emacs and Avida</title>
-      <link></link>
-      <description><![CDATA[<div id="content"><a href="https://vimeo.com/53504166">vimeo</a><br><br></div>]]></description>
-      <pubDate>Wed, 14 Nov 2012 13:50:44 +0000</pubDate>
+      <title>Uma introducao ao eev2 (2012nov15)</title>
+      <link>https://www.youtube.com/watch?v=yztYD9Y7Iz4</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=yztYD9Y7Iz4">youtube</a><br><br></div>]]></description>
+      <pubDate>Fri, 16 Nov 2012 01:21:29 +0000</pubDate>
+    </item>
+    <item>
+      <title>Uma introducao ao eev2 (2012nov15)</title>
+      <link>https://www.youtube.com/watch?v=yztYD9Y7Iz4</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=yztYD9Y7Iz4">youtube</a><br><br>A quick introduction to eev2 (in low-res - blame YouTube!).
+  For the high-res version and lots of info see:
+  http://angg.twu.net/eev-videos/README.html
+  For the demo about controlling external programs, skip to 34:10.
+
+  Important links:
+  http://angg.twu.net/eev-current/eev-readme.el.html
+  http://angg.twu.net/eev-intros/find-eev-intro.html
+  http://angg.twu.net/#eev
+
+  The notes that I followed during the presentation are here:
+  http://angg.twu.net/eev-videos/2.el.html</div>]]></description>
+      <pubDate>Fri, 16 Nov 2012 01:21:29 +0000</pubDate>
     </item>
     <item>
       <title>CSE891 SS12 Virtual Machines, Linux Commandline, Emacs and Avida</title>
       <link></link>
       <description><![CDATA[<div id="content"><a href="https://vimeo.com/53504166">vimeo</a><br><br>Tutorial for the SS12 BEACON course</div>]]></description>
       <pubDate>Wed, 14 Nov 2012 13:50:44 +0000</pubDate>
+    </item>
+    <item>
+      <title>An introduction to eev2 (2012nov11)</title>
+      <link>https://www.youtube.com/watch?v=doeyn5MOaB8</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=doeyn5MOaB8">youtube</a><br><br>A quick introduction to eev2 (in low-res - blame YouTube!).
+  For the high-res version and lots of info see:
+  http://angg.twu.net/eev-videos/README.html
+  For the demo about controlling external programs, skip to 34:10.
+
+  Important links:
+  http://angg.twu.net/eev-current/eev-readme.el.html
+  http://angg.twu.net/eev-intros/find-eev-intro.html
+  http://angg.twu.net/#eev
+
+  The notes that I followed during the presentation are here:
+  http://angg.twu.net/eev-videos/2.el.html</div>]]></description>
+      <pubDate>Sun, 11 Nov 2012 20:22:29 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducao ao eev2 (preliminar, 2012oct28)</title>
+      <link>https://www.youtube.com/watch?v=1XtbM0D6leM</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=1XtbM0D6leM">youtube</a><br><br>http://angg.twu.net/eev-current/eev-readme.el.html
+  http://angg.twu.net/eev-intros/find-eev-intro.html
+
+  Note the a versao anterior do eev era centrada em outros modos de controlar programas externos - por exemplo este aqui:
+
+  http://angg.twu.net/eev-current/anim/channels.anim.html
+
+  O nome "eev2" e' informal e temporario - o nome oficial desta versao provavelmente vai ser eev-0.96.</div>]]></description>
+      <pubDate>Mon, 29 Oct 2012 17:36:57 +0000</pubDate>
     </item>
     <item>
       <title>Demo of org-protocol-github-lines emacs plugin</title>
