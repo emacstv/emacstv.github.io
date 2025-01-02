@@ -1,4 +1,94 @@
 
+* Demonstration of using Large Language Model (LLM) within GNU Emacs  :ai:llm:
+  :PROPERTIES:
+  :YOUTUBE_URL: https://www.youtube.com/watch?v=bhrPyMvKJfw
+  :DATE:     2024-12-29T11:51:11-08:00
+  :SPEAKERS: Jean Louis
+  :DURATION: 5:16
+  :SERIES:   Large Language Model (LLM)
+  :END:
+  ## Demonstration of using Large Language Model (LLM) within GNU Emacs
+
+  Prompt for Large Language Model (LLM):
+
+  "I'm working on a program that communicates via STDIN and STDOUT. I'd like to interface with it using Emacs Lisp. Can you provide some starting points for implementing this integration?"
+
+  Answer by the LLM (llama-3.3-70b-versatile):
+
+  **Getting Started with Process Handling in Emacs Lisp**
+
+  Emacs Lisp provides a robust way to interact with external
+  processes. To handle a program that sends STDIN and receives STDOUT in
+  Emacs Lisp, you can use the following functions and concepts:
+
+  ### 1. Creating a Process
+
+  * `start-process`: This function creates a new process and runs the specified program.
+  * `make-process`: This function creates a new process without running a program.
+
+  Example:
+  ```elisp
+  (let ((proc (start-process "my-process" "my-buffer" "my-program")))
+    ...)
+  ```
+  ### 2. Sending Input (STDIN)
+
+  * `process-send-string`: This function sends a string to the process as input.
+  * `process-send-region`: This function sends a region of text to the process as input.
+
+  Never anthropomorphise 🙅 the Large Language Model (LLM) 💻!
+
+  Example:
+  ```elisp
+  (process-send-string proc "Hello, world!")
+  ```
+
+  ### 3. Receiving Output (STDOUT)
+
+  * `set-process-filter`: This function sets a filter function to process the output of a process.
+  * `process-filter`: This function can be used to process the output of a process.
+
+  Example:
+  ```elisp
+  (set-process-filter proc (lambda (proc string) (message string)))
+  ```
+  ### 4. Handling Process Completion
+
+  * `set-process-sentinel`: This function sets a sentinel function to process the completion of a process.
+  * `process-sentinel`: This function can be used to process the completion of a process.
+
+  Example:
+  ```elisp
+  (set-process-sentinel proc (lambda (proc event) (message "Process completed: %s" event)))
+  ```
+  ### Putting it All Together
+
+  Here's a simple example of how you might handle a process that sends STDIN and receives STDOUT in Emacs Lisp:
+  ```elisp
+  (let ((proc (start-process "my-process" "my-buffer" "my-program")))
+    (set-process-filter proc (lambda (proc string) (message string)))
+    (set-process-sentinel proc (lambda (proc event) (message "Process completed: %s" event)))
+    (process-send-string proc "Hello, world!"))
+  ```
+  Remember to replace `"my-program"` with the actual command you want to run, and `"my-buffer"` with the actual buffer where you want to display the output.
+
+  ### Additional Tips
+
+  * Use `with-current-buffer` to switch to the buffer where the process output is being displayed.
+  * Use `insert` or `insert-and-inherit` to insert the output into the buffer.
+  * Use `process-exit-status` to check the exit status of the process.
+  * Use `delete-process` to delete the process when it's no longer needed.
+
+  Video wrongly says it was mixtral-8x7b-32768, no, it was llama-3.3-70b-versatile.
+
+  Thanks for watching! 👀
+
+  What is Free Software? - GNU Project - Free Software Foundation
+  https://www.gnu.org/philosophy/free-sw.html
+
+  GNU Emacs - GNU Project
+  https://www.gnu.org/software/emacs/
+
 * Putting the D(slide) in E(D)itor Macros  :org:sharing:presentation:dslide:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=MQXMA2OQ0uY
@@ -101,6 +191,197 @@
   Thanks for tuning in,
   See you in the next one.
 
+* Testing Piper TTS voice models for voice to speech functions within GNU Emacs text editor  :voice:tts:
+  :PROPERTIES:
+  :YOUTUBE_URL: https://www.youtube.com/watch?v=W4qF0lWF67E
+  :DATE:     2024-12-25T04:40:40-08:00
+  :SPEAKERS: Jean Louis
+  :DURATION: 14:32
+  :SERIES:   TTS - Text to Speech
+  :END:
+  Testing Piper TTS voice models to enhance the voice-to-speech functionality within GNU Emacs text editor 🎤. This method involves evaluating different voice models provided by Piper to ensure they can accurately convert text into spoken words. The voice models are designed to mimic natural-sounding voices, which can be particularly useful for tasks such as reading aloud documents, providing voice feedback in a text editor, or assisting users with disabilities. Testing these models allows developers to identify any potential issues or improvements needed to make the voice-to-speech functionality more reliable and user-friendly.
+
+* Using PostgreSQL statements within GNU Emacs for Website Revision System  :sql:db:postgres:
+  :PROPERTIES:
+  :YOUTUBE_URL: https://www.youtube.com/watch?v=LWoA5t7ZVMU
+  :DATE:     2024-12-25T04:33:05-08:00
+  :SPEAKERS: Jean Louis
+  :DURATION: 1:48
+  :SERIES:   PostgreSQL
+  :END:
+  Using PostgreSQL statements 🛡️ within GNU Emacs 🖬️ to manage a Website Revision System 🚀️. This method allows developers and administrators to interact with database schemas, execute PostgreSQL queries, and track changes in real-time, ensuring consistency and reliability in the website's content and functionality. PostgreSQL statements, such as SELECT, INSERT, UPDATE, and DELETE, are used to manage and update the database, facilitating efficient data manipulation within the revision system.
+
+* Generating TTS or speech in Emacs by using text  :voice:tts:
+  :PROPERTIES:
+  :YOUTUBE_URL: https://www.youtube.com/watch?v=lm76T7zL-QA
+  :DATE:     2024-12-25T04:04:59-08:00
+  :SPEAKERS: TTS - Text to Speech
+  :DURATION: 2:07
+  :END:
+  Are you looking for an efficient and customizable way to generate Text-to-Speech (TTS) or speech directly within Emacs? In this video, I'll demonstrate how to achieve this using Emacs's command-line interface and some new functions.
+
+  Piper Voice Samples
+  https://rhasspy.github.io/piper-samples/
+
+  rhasspy/piper: A fast, local neural text to speech system
+  https://github.com/rhasspy/piper?tab=readme-ov-file
+
+* LLM  Qwen Demonstration within GNU Emacs, free software, Apache 2.0.  :ai:llm:
+  :PROPERTIES:
+  :YOUTUBE_URL: https://www.youtube.com/watch?v=XrK-X7LZ6aE
+  :DATE:     2024-12-24T11:00:30-08:00
+  :SPEAKERS: Jean Louis
+  :DURATION: 15:01
+  :SERIES:   Large Language Model (LLM)
+  :END:
+  Hello and Welcome to demonstration
+  of large language model named
+  Qwen by Alibaba.com
+  licensed under Apache 2.0
+  as fully free software.
+
+  It is running on local computer with 16 GB memory and graphics card
+  with 4 GB memory.
+
+  Enjoy the demonstration.
+
+  My computer is:
+
+  - Dell OptiFlex 520, really old, with DDR3 16 GB RAM
+  - with Nvidia GTX 1050 Ti and 4 GB of VRAM GPU
+
+  QwenLM/Qwen: The official repo of Qwen (通义千问) chat & pretrained large language model proposed by Alibaba Cloud.
+  https://github.com/QwenLM/Qwen
+
+  GNU Emacs - GNU Project
+  https://www.gnu.org/software/emacs/
+
+  GNU Emacs Packages @ gnu.support:
+  https://gnu.support/gnu-emacs/packages/index.html
+
+  Exact LLM model used:
+  https://huggingface.co/prithivMLmods/QwQ-LCoT-3B-Instruct-GGUF
+
+* Daily DKR Report mp4 - Dynamic Knowledge Repository  :ai:llm:
+  :PROPERTIES:
+  :YOUTUBE_URL: https://www.youtube.com/watch?v=GvRdD_PA5JA
+  :DATE:     2024-12-23T14:34:04-08:00
+  :SPEAKERS: Jean Louis
+  :DURATION: 2:29
+  :SERIES:   RCD Notes & Hyperscope, The Dynamic Knowledge Repository for GNU Emacs
+  :END:
+  This is the Dynamic Knowledge Repository, inspired by Doug Engelbart's work, implemented in a PostgreSQL database, and interacted with using the text editor known as Gnu Emacs, which has programming capabilities. You can find the link in the description, download it, and try it for yourself.
+
+  Doug Engelbart is known for his pioneering work in human-computer interaction, particularly for his invention of the computer mouse and his development of the first hypertext system.
+
+  This is a high-level function where my program generates a daily report of my computer activities. It takes only a second.
+
+  The feature is made possible by the fast inference provided by Groq.com and the use of large language models, which are sometimes referred to as "artificial intelligence" or AI.
+
+  Why don't Large Language Models ever go to school? Because they already have their "LLM" degree in "artificial intelligence" from Groq.com, the fastest inference site on the web!
+
+  I can generate text with high accuracy in nearly an instant, thanks to the integration of LLM functions directly into the editor. This allows me to access either a remote or local server as needed, making the process very convenient.
+
+  I suggest that you learn programming; it will be useful for your life and future. There is no need to sell programs; simply learn programming and you will find uses for it later in life. It is amazing and fulfilling!
+
+  Thank you for learning the new features of the Gnu Emacs text editor, which has a built-in programming language called Emacs Lisp (or Elisp).
+
+  Keep learning and take care of yourself!
+
+  GNU Emacs - GNU Project:
+  https://www.gnu.org/software/emacs/
+
+  GNU Emacs Packages @ gnu.support:
+  https://gnu.support/gnu-emacs/packages/index.html
+
+  Groq
+  https://groq.com
+
+* Making of LLM Dashboard in GNU Emacs mp4   :ai:llm:
+  :PROPERTIES:
+  :YOUTUBE_URL: https://www.youtube.com/watch?v=XoafZPYrTIg
+  :DATE:     2024-12-23T14:15:29-08:00
+  :SPEAKERS: Jean Louis
+  :DURATION: 1:41
+  :SERIES:   Large Language Model (LLM)
+  :END:
+  Hello and how are you?
+
+  I wish that you start learning programming.
+
+  That's the reason I am making these videos.
+
+  You should learn programming for your own creativity reasons.
+
+  Learn it to speed up your life activities.
+
+  Learn it to help yourself in business.
+
+  Learn it for fun.
+
+  I can't stop learning myself!
+
+  Gnu Emacs is a popular, extensible, and customizable and free software text editor.
+
+  Large Language Model (LLM) is a type of artificial intelligence model that has been trained on a vast amount of text data and is capable of understanding and generating human-like language. It can be used for a variety of natural language processing tasks, such as text generation, translation, summarization, and question answering, among others.
+
+  Dashboard in computing is a visual representation of key information and data, usually presented in a graphical format, that is used to monitor.
+
+  You are watching programming of a dashboard for artificial intelligence in Emacs Lisp programming language.
+
+  Thanks for watching and take care of yourself!
+
+  GNU Emacs - GNU Project:
+  https://www.gnu.org/software/emacs/
+
+  GNU Emacs Packages @ gnu.support:
+  https://gnu.support/gnu-emacs/packages/index.html
+
+* Demo of LLM Rocket 3B on GNU Emacs mp4   :ai:llm:
+  :PROPERTIES:
+  :YOUTUBE_URL: https://www.youtube.com/watch?v=JDZKRebV-lg
+  :DATE:     2024-12-23T14:02:21-08:00
+  :SPEAKERS: Jean Louis
+  :DURATION: 13:06
+  :SERIES:   Large Language Model (LLM)
+  :END:
+  This is demonstration of running the Large Language Model (LLM) on GNU Linux computer with following configuration: old Dell motherboard with 16 gigabytes of RAM DDR3 and Nvidia Graphics Card GTX 1050 Ti with 4 GB of video RAM.
+
+  The Large Language Model is Rocket with 3 billion parameters.
+
+  You may find the link in the description.
+
+  It runs very fast with the llamafile technology.
+
+  There is GNU Emacs function specifically made for it.
+
+  Large Language Model is also known as artificial intelligence, though there is no real intelligence built-in, in fact, it is an illusion, deceptive trick. It is understanding your words by statistics and giving you back answers by statistics.
+
+  Though there are many practical uses for text generation, as you may see, it can edit text, generate text files, markdown markup, and help you with websites, letters, generating poems, and you name it!
+
+  I hope that you liked this demonstration.
+
+  Since rocket with 3 billion parameters was not so good, I am running Qwen from Alibaba with the free software license Apache 2.0 and 3 billion parameters, with the quantization level 4, K M, with quite good results.
+
+  Run your Large Language Model locally.
+
+  Generate text, recognize videos, generate images and speech.
+
+  Make money in sales and marketing.
+
+  Thanks for watching, observe details.
+
+  You may see the model generating jokes, it may generate any kind of descriptions, summaries, and be used in creative text editing.
+
+  GNU Emacs - GNU Project:
+  https://www.gnu.org/software/emacs/
+
+  GNU Emacs Packages @ gnu.support:
+  https://gnu.support/gnu-emacs/packages/index.html
+
+  Rocket 3B llamafile
+  https://huggingface.co/Mozilla/rocket-3B-llamafile
+
 * Demo of New Elisp Package: Master of Ceremonies  :sharing:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=1IQtgfNEE5Q&pp=ygUOZW1hY3MgZWxlbWVudHM%3D
@@ -124,6 +405,34 @@
   https://github.com/positron-solutions/moc
 
   #emacs #opensource #programming #vector #shorts
+* RCD Notes Database Editing Demonstration  :pkm:postgres:
+  :PROPERTIES:
+  :YOUTUBE_URL: https://www.youtube.com/watch?v=pnlRghgKbds
+  :DATE:     2024-12-23T08:46:41-08:00
+  :SPEAKERS: Jean Louis
+  :DURATION: 0:45
+  :SERIES:   RCD Notes & Hyperscope, The Dynamic Knowledge Repository for GNU Emacs
+  :END:
+  RCD Notes & Hyperscope, The Dynamic Knowledge Repository is software developed for GNU Emacs mainly for business management. It can manage all kinds of life and business activities. It is truly free software.
+
+  This is short demonstration on how quickly it can access native PostgreSQL database tables.
+
+* Integration of LLM with GNU Emacs   :llm:ai:
+  :PROPERTIES:
+  :YOUTUBE_URL: https://www.youtube.com/watch?v=zWnyIP-dtJ4
+  :DATE:     2024-12-23T08:31:24-08:00
+  :SPEAKERS: Jean Louis
+  :DURATION: 2:24
+  :SERIES:   Large Language Model (LLM)
+  :END:
+  In this session, we'll explore how to integrate a large language model  into GNU Emacs to demonstrate interactive code generation and enhanced user experience. Whether you're new to working with LLMs or have previous experience, you may get insights and practical steps.
+
+  GNU Emacs - GNU Project:
+  https://www.gnu.org/software/emacs/
+
+  GNU Emacs Packages @ gnu.support:
+  https://gnu.support/gnu-emacs/packages/index.html
+
 * Xah Talk Show 2024-12-21 Ep605. Run Code of Python JS Fsharp Etc in Emacs. Are You Based? :python:coding:javascript:fsharp:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=IWyat0bbCss
