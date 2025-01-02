@@ -34813,7 +34813,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 
   Buried under the suggestions of new key-bindings, better user on-boarding and new languages that should replace lisp this time were discussions for features desperately needed to drag Emacs forward.
 
-  One such feature is the porting of Emacs to the Wayland display Protocol using GTK3. While seemingly simple at first glance, the history of the Emacs display engine would prove to make this a much more difficult task.  
+  One such feature is the porting of Emacs to the Wayland display Protocol using GTK3. While seemingly simple at first glance, the history of the Emacs display engine would prove to make this a much more difficult task.
 
   In this talk I will cover the motivations and significant challenges of porting Emacs to use wayland, shed some skeletons from the code base, show the current state of the system before considering, what should be next for an editor that keeps on going.
 
@@ -54092,4 +54092,3 @@ Using restclient within emacs...
   in this demo foo.rb is edited in emacs(in coLinux) and run sketchbook.rb in windows command line.
 
   http://d.hatena.ne.jp/koyachi/20080206/1202225831
-
