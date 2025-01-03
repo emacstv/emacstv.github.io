@@ -129,6 +129,40 @@ describe('OrgParser', () => {
     expect(document).toEqual(expectedDocument);
   });
 
+  it('should parse drawers with leading whitespace', () => {
+    const orgContent = `
+* EmacsConf2021 - Emacs Application Framework: A 2021 Update
+  :PROPERTIES:
+  :YOUTUBE_URL: https://www.youtube.com/watch?v=bh37zbefZk4
+  :DATE:     2021-11-28T12:33:02-08:00
+  :SPEAKERS: Matthew Zeng
+  :DURATION: 09:14
+  :END:
+  Emacs Application Framework (EAF) is a customizable and extensible GUI application framework that extends Emacs graphical capabilities using PyQt5. There are many new but important updates since EmacsConf2020 last year, this talk will briefly go over them.
+
+  EmacsConf2021 page: https://emacsconf.org/2021/talks/eaf/
+  Last year's talk:
+  - https://www.youtube.com/watch?v=HK_f8KTuR0s
+  - EmacsConf2020 page with Q&A: https://emacsconf.org/2020/talks/34/
+  EAF repo: https://github.com/emacs-eaf/emacs-application-framework
+`;
+    const expectedDocument = new OrgDocument([
+      new OrgHeading(
+        'EmacsConf2021 - Emacs Application Framework: A 2021 Update',
+        [], // No tags
+        {
+          YOUTUBE_URL: 'https://www.youtube.com/watch?v=bh37zbefZk4',
+          DATE: '2021-11-28T12:33:02-08:00',
+          SPEAKERS: 'Matthew Zeng',
+          DURATION: '09:14',
+        }
+      ),
+    ]);
+
+    const document = OrgParser.parse(orgContent);
+    expect(document).toEqual(expectedDocument);
+  });
+
 
   it('should parse org content with tags and complex properties (SQLite example)', () => {
     const orgContent = `

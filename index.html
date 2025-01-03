@@ -768,11 +768,11 @@ ${speakers ? `<span class="by">by </span><span class="speaker">${speakers}</span
           currentHeading = new OrgHeading(title, tags, {});
           continue;
         }
-        if (line.startsWith(":") && currentHeading) {
+        if (line.trimStart().startsWith(":") && currentHeading) {
           if (line.trim() === ":PROPERTIES:" || line.trim() === ":END:") {
             continue;
           }
-          const propertyMatch = line.match(/^:([^:]+):\s*(.*)$/);
+          const propertyMatch = line.trimStart().match(/^:([^:]+):\s*(.*)$/);
           if (propertyMatch) {
             const [, key, value] = propertyMatch;
             currentHeading.drawer[key.trim()] = value.trim();

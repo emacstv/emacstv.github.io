@@ -604,11 +604,11 @@ export class OrgParser {
       }
 
       // Detect properties inside ':PROPERTIES:' block
-      if (line.startsWith(':') && currentHeading) {
+      if (line.trimStart().startsWith(':') && currentHeading) {
         if (line.trim() === ':PROPERTIES:' || line.trim() === ':END:') {
           continue; // Skip property block markers
         }
-        const propertyMatch = line.match(/^:([^:]+):\s*(.*)$/);
+        const propertyMatch = line.trimStart().match(/^:([^:]+):\s*(.*)$/);
         if (propertyMatch) {
           const [, key, value] = propertyMatch;
           currentHeading.drawer[key.trim()] = value.trim();
