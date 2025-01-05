@@ -133,7 +133,7 @@ Returns nil if not found."
     </item>"
                             (xml-escape-string title)
                             (xml-escape-string url)
-                            (if-let ((links (concat
+                            (if-let* ((links (concat
                                              (mapconcat
                                               (lambda (url)
                                                 (format "<a href=\"%s\">%s</a>"
