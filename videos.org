@@ -1291,11 +1291,11 @@ This video is available under the terms of the Creative Commons Attribution-Shar
 :DATE:     2024-12-07T21:25:00+0000
 :URL: https://emacsconf.org/2024/talks/emacs30
 :MEDIA_URL: https://media.emacsconf.org/2024/emacsconf-2024-emacs30--emacs-30-highlights--philip-kaludercic--main.webm
-:YOUTUBE_URL: https://youtu.be/xZJhMAMI7A0
-:TOOBNIX_URL: https://toobnix.org/w/fxFD5JMMkmj1bazUw4zErx
+:YOUTUBE_URL: https://youtu.be/V1mnDK_tuAs
+:TOOBNIX_URL: https://toobnix.org/w/bPze1S1o61QaYXTJuEQFHK
 :TRANSCRIPT_URL: https://media.emacsconf.org/2024/emacsconf-2024-emacs30--emacs-30-highlights--philip-kaludercic--main.vtt
 :SPEAKERS: Philip Kaludercic
-:DURATION: 24:55
+:DURATION: 24:44
 :SERIES: EmacsConf 2024
 :END:
 
