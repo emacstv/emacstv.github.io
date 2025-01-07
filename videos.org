@@ -1,3 +1,188 @@
+
+* #YayEmacs 8: which-key-replacement-alist  :WhichKey:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=mdwM3e2zsmw&list=PL4th0AZixyRHyXaHbE0GSyu-ui1e2UKTw&index=1&pp=gAQBiAQB
+:DATE:     2025-01-06T07:00:22-08:00
+:SPEAKERS: Sacha Chua
+:DURATION: 1:00
+:END:
+  https://sachachua.com/blog/2025/01/yay-emacs-8-which-key-replacement-alist/
+
+  I wish I could memorize all these keyboard shortcuts in Emacs, but I just don't use some commands often enough to build the muscle memory for them, especially since I have so many context-sensitive shortcuts thanks to Embark. That's why which-key is great. It used to be a separate package, but it's now part of Emacs 30. You just have to turn on which-key mode, and then, if you hesitate in the middle of a keyboard shortcut, Emacs will show you what you can do. It turns out that you can customize this menu,so here are some tweaks I'm trying. First, I want to change ~which-key-sort-order~ to the one that sorts by description. This groups similar functions together. Then I want to change the labels using ~which-key-replacement-alist~. Let's try it without the dashes between words. Now let's turn on multiple replacements and make things even simpler. I can even use Unicode to make it easier to spot certain commands. And of course there's an Elisp way to customize all of this. I want to see if these little tweaks can help me use Emacs better. If you use which-key, maybe you'll also want to customize your menu. Let me know what you figure out!
+
+  #emacs
+* 【2025年最初のテーマはEmacs！？】エンジニアの楽園 vim-jp ラジオ #25
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=kPw1zl0WObQ
+:DATE:     2025-01-05T19:17:11-08:00
+:SPEAKERS: TOKYO FM Podcasts | AuDee by TOKYO FM
+:DURATION: 33:24
+:END:
+  エンジニアコミュニティ「vim-jp」のラジオ版としてスタートした「エンジニアの楽園 vim-jp ラジオ」。
+
+
+
+
+  今回は、tadsanさんとたけてぃさんをお迎えします！
+
+  今回のテーマは「Vimの強敵(とも)Emacs」
+  php-modeほか色々なelispをメンテナンスしているtadsanさん。
+  そして、最近の東京Emacs勉強会を主催しているたけてぃさん。
+
+ 
+  新年最初の「vim-jp ラジオ」はEmacs回をお届けします！
+
+
+
+  ～～～
+
+  エンジニアが集まるインターネット上のコミュニティvim-jpから生まれた初の音声プログラム。
+  「tomoya」と「ありすえ」がパーソナリティを担当！
+
+  vim-jpはプログラミングから子育てに至るまで無数のチャンネルを抱えたコミュニティです。
+  そんなコミュニティの面白さを生かして、各分野の様々なゲストを交えながら楽しく雑談していきます。
+
+  vim-jpのSlackへのご参加はこちら (https://vim-jp.org/docs/chat.html) から！
+
+  メッセージはSlackの #vim-jp-radio-message チャンネルに投稿してください。
+
+
+  vim-jpラジオ・オリジナルグッズはこちら (https://suzuri.jp/vim-jp-radio) から！
+
+
+
+
+
+
+  OP・ EDテーマ制作：田中潤（ゲントウキ） (http://www.gentouki.jp)
+
+* This Time Is Going to Be Different. I Hope. - Emacs Long Term Review
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=JYqJx9GQutE
+:DATE:     2025-01-05T18:36:46-08:00
+:SPEAKERS: The Linux Cast
+:DURATION: 7:50
+:END:
+  Today I talk about the start of my next long term review, emacs.
+  👇 PULL IT DOWN FOR THE GOOD STUFF 👇
+
+  Patreon - https://patreon.com/thelinuxcast
+  Paypal - https://paypal.me/thelinuxcast
+  Youtube - https://www.youtube.com/channel/UCylGUf9BvQooEFjgdNudoQg/join
+  Ko-fi - https://ko-fi.com/thelinuxcast
+
+  ===== Follow us 🐧🐧 ======
+  MERCH - https://shop.thelinuxcast.org
+  Discord - https://discord.gg/62RPDBMH8W
+  Odysee - https://odysee.com/$/invite/@thelinuxcast:4
+  TILvids(Peertube) - https://tilvids.com/c/thelinuxcast_channel/videos
+  Mastodon- https://fosstodon.org/@thelinuxcast
+  Bluesky - https://bsky.app/profile/thelinuxcast.bsky.social
+  https://gitlab.com/thelinuxcast
+  Matrix - https://matrix.to/#/#the-linux-cast:matrix.org
+  The Website http://thelinuxcast.org
+  Contact us email@thelinuxcast.org
+  Amazon Wishlist - https://www.amazon.com/hz/wishlist/ls/1J3W9HF4O2M7T?ref_=wl_share
+  Logo Courtesy of - pedropaulo.net
+  Intro Courtesy of - https://www.fragcgi.com/?i=1
+
+  Get a free month of Proton Mail! https://pr.tn/ref/F4PKCVB43XP0
+  Get $2 off your first domain name purchase at Hover - https://hover.com/w4vkVZkt
+
+  ==== Special Thanks to Our Patrons! ====
+  https://thelinuxcast.org/patrons/
+
+  ==== Referenced ====
+  https://www.youtube.com/watch?v=zfhAGTrfQ5I
+
+  #emacs  #linux #thelinuxcast
+
+* Clojure visual-tools meeting 27 - Workflow Demos 1: Emacs, CIDER, VSCode Calva, Zulip
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=u_UchyyRzOE
+:DATE:     2025-01-05T15:17:33-08:00
+:SPEAKERS: Sci Cloj
+:DURATION: 1:36:48
+:END:
+  This 2025-01-03 meeting was the first on a series of meetings where people would demonstrate their Clojure workflows with different tools.
+
+  Adham Omran presented Emacs and CIDER.
+  Jarret Atkinson presented VSCode Calva and additional setup.
+  Daniel Slutsky presented the Clojurians Zulip chat.
+
+  summary:
+  https://clojureverse.org/t/visual-tools-meeting-27-workflow-demos-1-emacs-cider-vscode-calva-zulip-summary-recording/
+
+* GitHub - yibie/org-supertag: Enhance org-mode tag system, borrow idea from tana.
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=IUb2y7cnsW0
+:DATE:     2025-01-03T17:01:57-08:00
+:SPEAKERS: GitHub Daily Trend
+:DURATION: 4:08
+:END:
+  https://github.com/yibie/org-supertag
+
+  Enhance org-mode tag system, borrow idea from tana. - yibie/org-supertag
+
+  Powered by VoiceFeed.
+
+  https://voicefeed.web.app/lp/podcast?utm_source=youtube_githubtrenddaily&utm_medium=podcast
+
+  Developer:https://twitter.com/_horotter
+
+* Emacs: sequence notes with Denote (denote-sequence.el)
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=27krzVtflQY
+:DATE:     2025-01-03T09:08:03-08:00
+:SPEAKERS: Protesilaos Stavrou
+:DURATION: 24:18
+:END:
+  In this ~21-minute video I demonstrate the new optional extension for Denote that I am developing. The 'denote-sequence.el' is part of the 'denote' package. Its purpose is to streamline the creation of "sequence notes", i.e. files that have an inherent relationship between them. The sequence is represented as a number.
+
+  Note that the code is in-development and will be released as part of Denote version 3.2.0. I still plan to make some refinements, though the core functionality is already done.
+
+  * * *
+
+  Find all my publications on my website (Emacs, philosophy, etc.): https://protesilaos.com
+
+* 01: Getting Emacs & Native Dependencies
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=nEmRr1j8LR0
+:DATE:     2024-12-31T23:51:49-08:00
+:SPEAKERS: Positron's Emacs Channel
+:DURATION: 6:05
+:END:
+  While apt-get and homebrew are okay to get off the ground, Emacs is increasingly uses external programs, binary native modules, and binaries for tools like tree sitter.  That situation is only going in the direction of more dependencies, not less.  When using Emacs, dependency management is just one of the tools you will command from within Emacs.  You should use tools that will give you sustainable command of all of these dependencies and access to the greatest or latest Emacs, of which there are many frequent branches with features critical to some.
+
+  Positron's Github Sponsors Page (soon to point to prizeforge.com)https://github.com/sponsors/positron-solutions
+  System Crafters Getting Started With Guix Home
+  https://www.youtube.com/watch?v=XRL3J6rfb3w
+
+  System Crafters Guix Home First Look https://www.youtube.com/watch?v=R5cdtSfTpE0
+
+  Flakes aren't real and cannot hurt you: a guide to using Nix flakes the non-flake way
+  https://jade.fyi/blog/flakes-arent-real/
+
+  Determinate Systems Nix Installer
+  https://github.com/DeterminateSystems/nix-installer
+
+  Home Manager
+  https://github.com/nix-community/home-manager
+
+  Emacs Nix Overlay
+  https://github.com/nix-community/emacs-overlay
+
+  #emacs #opensource #programming #nix #home-manager
+
+  TIMESTAMPS
+  00:00 Emacs depends on other programs
+  00:24 You Want Nix or Guix
+  01:31 From Nix to Emacs
+  02:35 What to Avoid
+  03:24 Getting Pre-Release With Tree Sitter
+  03:47 Maintaining
+  04:15 Ways You Need to Start Emacs
+  05:50 Buy Me a Beer
 * Piano roll macros
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=8vhynSPXJos

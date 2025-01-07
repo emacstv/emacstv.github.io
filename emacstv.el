@@ -32,6 +32,7 @@
 	(cond
 	 ((string-match "\\`https://youtu.be/\\(.*\\)" url) (match-string 1 url))
 	 ((string-match "\\`https://\\(?:www\\.\\)?youtube.com/live/\\(.*?\\)\\(\\?.+\\|$\\)" url) (match-string 1 url))
+	 ((string-match "\\`https://\\(?:www\\.\\)?youtube.com/shorts/\\(.*?\\)\\(\\?.+\\|$\\)" url) (match-string 1 url))
 	 ((string-match "\\`https://\\(?:www\\.\\)?youtube.com/watch\\?\\(.*\\)" url)
 		(car (assoc-default "v" (url-parse-query-string (match-string 1 url)) #'string=)))
 	 (t nil)))
@@ -153,6 +154,8 @@ Returns nil if not found."
 	(interactive)
 	(with-current-buffer (find-file-noselect emacstv-index-org)
 		(goto-char (point-min))
+		(when (looking-at "^\\*")
+			(save-excursion (insert "\n")))
 		(emacstv-sort-by-newest-first))
 	(emacstv-export-rss)
 	(emacstv-export-json)
