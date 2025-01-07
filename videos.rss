@@ -28,7 +28,7 @@
   php-modeほか色々なelispをメンテナンスしているtadsanさん。
   そして、最近の東京Emacs勉強会を主催しているたけてぃさん。
 
- 
+
   新年最初の「vim-jp ラジオ」はEmacs回をお届けします！
 
 
@@ -134,6 +134,12 @@
       <pubDate>Fri, 03 Jan 2025 17:08:03 +0000</pubDate>
     </item>
     <item>
+      <title>VOD Emacs - Python Project From Scratch - Fighting Type Hinting</title>
+      <link>https://www.youtube.com/watch?v=mXG-Vm1KiPs</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=mXG-Vm1KiPs">youtube</a><br><br>Making a Python project from scratch in Emacs, type hinting mad moves and checking out the eat terminal emulator.</div>]]></description>
+      <pubDate>Wed, 01 Jan 2025 21:07:01 +0000</pubDate>
+    </item>
+    <item>
       <title>01: Getting Emacs &amp; Native Dependencies</title>
       <link>https://www.youtube.com/watch?v=nEmRr1j8LR0</link>
       <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=nEmRr1j8LR0">youtube</a><br><br>While apt-get and homebrew are okay to get off the ground, Emacs is increasingly uses external programs, binary native modules, and binaries for tools like tree sitter.  That situation is only going in the direction of more dependencies, not less.  When using Emacs, dependency management is just one of the tools you will command from within Emacs.  You should use tools that will give you sustainable command of all of these dependencies and access to the greatest or latest Emacs, of which there are many frequent branches with features critical to some.
@@ -168,6 +174,12 @@
   04:15 Ways You Need to Start Emacs
   05:50 Buy Me a Beer</div>]]></description>
       <pubDate>Wed, 01 Jan 2025 07:51:49 +0000</pubDate>
+    </item>
+    <item>
+      <title>Python Emacs UV Mode programming session</title>
+      <link>https://www.youtube.com/watch?v=59uSyZ4Wejo</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=59uSyZ4Wejo">youtube</a><br><br>Working on the UV mode package in Elisp. UV mode is a package manager for python.</div>]]></description>
+      <pubDate>Tue, 31 Dec 2024 21:07:01 +0000</pubDate>
     </item>
     <item>
       <title>Piano roll macros</title>
@@ -15043,7 +15055,7 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
       <pubDate>Mon, 11 Jul 2022 12:56:38 +0000</pubDate>
     </item>
     <item>
-      <title>EMACS LISP - Mostly The Strange Parts</title>
+      <title>LEARN EMACS LISP - Mostly The Strange Parts</title>
       <link>https://youtu.be/NocDm4zzToo</link>
       <description><![CDATA[<div id="content"><a href="https://youtu.be/NocDm4zzToo">youtube</a><br><br>This tutorial is focused on the strange parts of Emacs Lisp. Hope it helps some of you better grasp the language and write some better code I can later grab for my own config ;).
 
@@ -36334,7 +36346,7 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
 
   Follow me on LBRY:
   https://lbry.tv/$/invite/@marco:55</div>]]></description>
-      <pubDate>Mon, 10 Feb 2020 05:00:00 +0000</pubDate>
+      <pubDate>Mon, 10 Feb 2020 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Emacs vs Vim: Can&apos;t we all just get along?</title>
@@ -36434,7 +36446,7 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
 
   Follow me on LBRY:
   https://lbry.tv/$/invite/@marco:55</div>]]></description>
-      <pubDate>Fri, 07 Feb 2020 05:00:00 +0000</pubDate>
+      <pubDate>Fri, 07 Feb 2020 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Emacs bites - Startup config selector</title>
@@ -45056,7 +45068,7 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
       <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=ytNsHmRLZGM&list=PL4th0AZixyRF8o3fdx68HGUrYKF2Pfvrp&index=5&pp=iAQB">youtube</a><br><br>In which John Wiegley and I chat about cool things he does with Emacs, learning, and other geeky things. More context for John Wiegley's thoughts: newartisans.com/2011/04/letter-to-the-fsf/
 
   Fixed version of http://www.youtube.com/watch?v=MyOnK9xbmX4</div>]]></description>
-      <pubDate>Tue, 26 Jun 2012 04:00:00 +0000</pubDate>
+      <pubDate>Mon, 25 Jun 2012 23:00:00 +0000</pubDate>
     </item>
     <item>
       <title>gtk-application-prefer-dark-theme for Emacs</title>
