@@ -86,6 +86,8 @@ export function render(state: State, store: StateStore): RenderResult {
     <a href="https://github.com/emacstv/emacstv.github.io#-emacstv">about</a>
  |
     <a href="https://github.com/emacstv/emacstv.github.io#add-videos">submit</a>
+ |
+    <a href="https://github.com/emacstv/emacstv.github.io?tab=readme-ov-file#watch-videos">emacstv.el</a>
   </span>
 </h1>
   ${randomPick.html}
@@ -453,7 +455,7 @@ class TextSearchRenderer {
           }
         }
       ],
-      html: `<input type="text" id="search-box" value="${searchText}" placeholder="Search titles/tags/speakers"><button id="search-button">search</button>`
+      html: `<input type="text" id="search-box" value="${searchText}" placeholder="Titles speakers or tags"><button id="search-button">search</button>`
     };
   }
 }
