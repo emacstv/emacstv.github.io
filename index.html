@@ -304,6 +304,9 @@
     makeStore: () => makeStore,
     render: () => render
   });
+  function headingMatchesSearch(heading, s) {
+    return heading.title.toLowerCase().includes(s) || heading.tags?.join(" ")?.toLowerCase()?.includes(s) || heading.drawer?.SPEAKERS?.toLowerCase().includes(s);
+  }
   function render(state, store) {
     if (state.loading === true) {
       return {
@@ -315,7 +318,7 @@
       };
     }
     let handlers = [];
-    const filteredHeadings = state.orgDocument.headings.filter((heading) => (state.filterByTags.length === 0 || state.filterByTags.every((filterTag) => heading.tags?.map((tag) => tag.toLowerCase()).includes(filterTag))) && (state.filterBySpeakers.length === 0 || state.filterBySpeakers.every((filterSpeaker) => heading.drawer?.SPEAKERS.split(",").map((speaker) => speaker.trim().toLowerCase()).includes(filterSpeaker.toLowerCase()))) && (state.filterByTitle.length === 0 || state.filterByTitle.split(" ").every((filterTitle) => heading.title.toLowerCase().includes(filterTitle.trim().toLowerCase()))));
+    const filteredHeadings = state.orgDocument.headings.filter((heading) => (state.filterByTags.length === 0 || state.filterByTags.every((filterTag) => heading.tags?.map((tag) => tag.toLowerCase()).includes(filterTag))) && (state.filterBySpeakers.length === 0 || state.filterBySpeakers.every((filterSpeaker) => heading.drawer?.SPEAKERS.split(",").map((speaker) => speaker.trim().toLowerCase()).includes(filterSpeaker.toLowerCase()))) && (state.filterByTitle.length === 0 || state.filterByTitle.split(" ").every((filterTitle) => headingMatchesSearch(heading, filterTitle.trim().toLowerCase()))));
     const randomPick = new RandomPickRenderer(store).render(filteredHeadings);
     handlers = handlers.concat(randomPick.handlers);
     const searchBox = new TextSearchRenderer(store).render(state.filterByTitle);
@@ -643,7 +646,7 @@ ${speakers ? `<span class="by">by </span><span class="speaker">${speakers}</span
             }
           }
         ],
-        html: `<input type="text" id="search-box" value="${searchText}" placeholder="Titled..."><button id="search-button">search</button>`
+        html: `<input type="text" id="search-box" value="${searchText}" placeholder="Search titles/tags/speakers"><button id="search-button">search</button>`
       };
     }
   };

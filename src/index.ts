@@ -22,6 +22,10 @@ interface State {
   orgDocument: OrgDocument;
 }
 
+function headingMatchesSearch(heading: OrgHeading, s: string) {
+		return heading.title.toLowerCase().includes(s) || heading.tags?.join(' ')?.toLowerCase()?.includes(s) || heading.drawer?.SPEAKERS?.toLowerCase().includes(s);
+}
+
 export function render(state: State, store: StateStore): RenderResult {
   if (state.loading === true) {
     return {
@@ -38,8 +42,7 @@ export function render(state: State, store: StateStore): RenderResult {
       heading.tags?.map(tag => tag.toLowerCase()).includes(filterTag))) &&
     (state.filterBySpeakers.length === 0 || state.filterBySpeakers.every(filterSpeaker =>
       heading.drawer?.SPEAKERS.split(',').map(speaker => speaker.trim().toLowerCase()).includes(filterSpeaker.toLowerCase()))) &&
-    (state.filterByTitle.length === 0 || state.filterByTitle.split(' ').every(filterTitle =>
-        heading.title.toLowerCase().includes(filterTitle.trim().toLowerCase()))));
+			(state.filterByTitle.length === 0 || state.filterByTitle.split(' ').every(filterTitle => headingMatchesSearch(heading, filterTitle.trim().toLowerCase()))));
 
   const randomPick = new RandomPickRenderer(store)
     .render(filteredHeadings);
@@ -439,7 +442,7 @@ class TextSearchRenderer {
           nodeId: 'search-box',
           listenerName: 'keydown',
           handler: (event: KeyboardEvent) => {
-            if (event.key === 'Enter') {
+						if (event.key === 'Enter') {
               const inputElement = event.currentTarget as HTMLInputElement;
               const searchValue = inputElement.value.trim() || '';
               this.store.state.mutate(state => {
@@ -450,7 +453,7 @@ class TextSearchRenderer {
           }
         }
       ],
-      html: `<input type="text" id="search-box" value="${searchText}" placeholder="Titled..."><button id="search-button">search</button>`
+      html: `<input type="text" id="search-box" value="${searchText}" placeholder="Search titles/tags/speakers"><button id="search-button">search</button>`
     };
   }
 }
