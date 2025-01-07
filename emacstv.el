@@ -122,7 +122,8 @@ Returns nil if not found."
                        (lambda (item) (string-suffix-p "_URL" (car item)))
                        entry))
                 (timestamp (format-time-string "%a, %d %b %Y %H:%M:%S %z"
-                                               (date-to-time (or (map-elt entry "DATE") ""))
+                                               (date-to-time (or (map-elt entry "DATE")
+                                                                 (error "No date for: %s" entry)))
                                                "UTC"))
                 (body (or (map-elt entry "BODY") "")))
             (insert (format "
