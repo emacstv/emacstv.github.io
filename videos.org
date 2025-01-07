@@ -97,7 +97,7 @@
 
   #emacs  #linux #thelinuxcast
 
-* Clojure visual-tools meeting 27 - Workflow Demos 1: Emacs, CIDER, VSCode Calva, Zulip
+* Clojure visual-tools meeting 27 - Workflow Demos 1: Emacs, CIDER, VSCode Calva, Zulip  :clojure:cider:coding:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=u_UchyyRzOE
 :DATE:     2025-01-05T15:17:33-08:00
@@ -113,7 +113,7 @@
   summary:
   https://clojureverse.org/t/visual-tools-meeting-27-workflow-demos-1-emacs-cider-vscode-calva-zulip-summary-recording/
 
-* GitHub - yibie/org-supertag: Enhance org-mode tag system, borrow idea from tana.
+* GitHub - yibie/org-supertag: Enhance org-mode tag system, borrow idea from tana.  :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=IUb2y7cnsW0
 :DATE:     2025-01-03T17:01:57-08:00
@@ -130,7 +130,7 @@
 
   Developer:https://twitter.com/_horotter
 
-* Emacs: sequence notes with Denote (denote-sequence.el)
+* Emacs: sequence notes with Denote (denote-sequence.el)  :denote:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=27krzVtflQY
 :DATE:     2025-01-03T09:08:03-08:00
@@ -145,7 +145,7 @@
 
   Find all my publications on my website (Emacs, philosophy, etc.): https://protesilaos.com
 
-* 01: Getting Emacs & Native Dependencies
+* 01: Getting Emacs & Native Dependencies  :install:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=nEmRr1j8LR0
 :DATE:     2024-12-31T23:51:49-08:00
@@ -13198,7 +13198,7 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
 :END:
 
 
-* Emacs: introduction to Clojure (CIDER and clojure-mode)
+* Emacs: introduction to Clojure (CIDER and clojure-mode)  :cider:clojure:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=KMWLIgG986I&list=PL8Bwba5vnQK14z96Gil86pLMDO2GnOhQ6&index=31&pp=iAQB
 :DATE:     2022-12-05T15:03:03+0000
@@ -16299,7 +16299,7 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
   En esta introducción a cómo configurar Emacs explicaré cómo escribir lo básico en Emacs Lisp para poder ejecutar funciones y asignar variables, así como configurar de manera básica los modos y atajos de teclado Links:
   - Mi canal: http://bit.ly/1LnR0MC
 
-* How a Professional Sets Up Emacs (Ex-Googler)
+* How a Professional Sets Up Emacs (Ex-Googler)  :cider:coding:GodMode:comparison:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=KU3POHoVKls
 :DATE:     2022-09-19T19:24:03+0000
@@ -24114,7 +24114,7 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
   5. Youtube: https://youtube.com/ravisagar1
   ####
 
-* Elfeed An RSS Feeds Reader On Emacs 2022_01_25_06:26:40
+* Elfeed An RSS Feeds Reader On Emacs 2022_01_25_06:26:40            :elfeed:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=jCSe3YQaykw&list=PLXbUyQOf06CfnGE46zsPiDF0zTtkzdDsX&index=44&pp=iAQB
 :DATE:     2022-01-25T02:34:56+0000
@@ -33137,7 +33137,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
   10:14 Review
   11:18 Conclusion If you appreciate what I do and are interested in showing your support, I invite you to 'buy me a coffee': https://buymeacoffee.com/jakebox
 
-* Clojure Emacs: Basic Comprehensive Clojure testing setup on a project 2021.004.29
+* Clojure Emacs: Basic Comprehensive Clojure testing setup on a project 2021.004.29  :clojure:cider:coding:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=O6YWL7R2mVk
 :DATE:     2021-05-26T21:13:41+0000
@@ -39511,7 +39511,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
   👉 Music Intro: https://soundcloud.com/c-lancethemonstah/c-lance-i-got-a-story
   👉 Music: https://soundcloud.com/freehiphopbeatsforyou/free-the-passion-hifi-keep-fallin-boom-bap-beat-instrumental
 
-* Emacs: podcast manager with Elfeed+Bongo
+* Emacs: podcast manager with Elfeed+Bongo                           :elfeed:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=EWApxQd1sYI&feature=youtu.be
 :DATE:     2020-09-11T08:19:07+0000
@@ -40092,7 +40092,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
   + testing for different data types
   + switch-case logic ( cond )
 
-* Live coding the ESP32 with ClojureScript in Emacs
+* Live coding the ESP32 with ClojureScript in Emacs  :cider:clojure:coding:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=WYSL-fD_ogA
 :DATE:     2020-08-14T21:19:46+0000
@@ -41186,7 +41186,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
   Link to our Discourse:
   https://org-roam.discourse.group
 
-* Emacs: ELFEED demo
+* Emacs: ELFEED demo                                                 :elfeed:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=oHfAht9uTx8
 :DATE:     2020-06-09T10:17:02+0000
@@ -41331,7 +41331,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 :END:
   Emacs being Emacs.
 
-* Using Emacs 72 - customizing elfeed
+* Using Emacs 72 - customizing elfeed                                :elfeed:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=G1NGNR40lB4&list=PL9KxKa8NpFxIcNQa9js7dQQIHc81b0-Xg&index=73&pp=iAQB
 :DATE:     2020-05-21T20:49:42+0000
@@ -43438,7 +43438,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 
   Emacs config: https://github.com/zamansky/dot-emacs
 
-* Clojurescript with Shadow-cljs, Reagent, and Emacs (CIDER) , and Tailwind - reusable components.
+* Clojurescript with Shadow-cljs, Reagent, and Emacs (CIDER) , and Tailwind - reusable components.  :clojure:cider:coding:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=_CTTbC6owS0
 :DATE:     2020-01-12T17:27:31+0000
@@ -49872,7 +49872,7 @@ Full code on github:
 
   More info on this video here: https://vincent.bernat.im/en/blog/2017-netops-org-mode
 
-* Using emacs 31 -elfeed and macros
+* Using emacs 31 -elfeed and macros                                  :elfeed:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=5zuSUbAHH8c&list=PL9KxKa8NpFxIcNQa9js7dQQIHc81b0-Xg&index=32&pp=iAQB
 :DATE:     2017-03-01T15:24:04+0000
@@ -49883,7 +49883,7 @@ Full code on github:
 
   Series page: http://cestlaz.github.io/stories/emacs
 
-* Using emas 30 - elfeed and hydras
+* Using emas 30 - elfeed and hydras                                  :elfeed:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=tjnK1rkO7RU&list=PL9KxKa8NpFxIcNQa9js7dQQIHc81b0-Xg&index=31&pp=iAQB
 :DATE:     2017-02-25T22:44:50+0000
@@ -49894,7 +49894,7 @@ Full code on github:
 
   Series page: http://cestlaz.github.io/stories/emacs
 
-* Using emacs 29 - elfeed part 1
+* Using emacs 29 - elfeed part 1                                     :elfeed:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=pOFqzK1Ymr4&list=PL9KxKa8NpFxIcNQa9js7dQQIHc81b0-Xg&index=30&pp=iAQB
 :DATE:     2017-02-22T19:50:31+0000
@@ -50151,7 +50151,7 @@ Full code on github:
   "Das Bild hängt schief!"
   Kurz vor den Vorträgen ist uns der Beamer kaputt gegangen, das kurzfristig beschaffte Ersatzgerät hatte leider weniger umfangreiche Einstellmöglichkeiten. Nächstes Mal wird alles besser.
 
-* F(by) 2016 - Bozhidar Batsov - Speech 2 - Deep Dive into CIDER
+* F(by) 2016 - Bozhidar Batsov - Speech 2 - Deep Dive into CIDER  :cider:clojure:coding:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=aYA4AAjLfT0
 :DATE:     2016-12-16T14:42:46+0000
@@ -50362,7 +50362,7 @@ Full code on github:
 
   Emacs configuration: https://gitlab.com/buildfunthings/emacs-config/blob/master/loader.org
 
-* Web Development in Emacs, Common Lisp and Clojurescript - Emacs SG
+* Web Development in Emacs, Common Lisp and Clojurescript - Emacs SG  :cider:clojure:coding:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=bl8jQ2wRh6k
 :DATE:     2016-11-01T13:32:19+0000
@@ -50484,7 +50484,7 @@ Full code on github:
 
   Thanks for watching this video! :)
 
-* Emacs - RSS Feeds using elfeed
+* Emacs - RSS Feeds using elfeed  :elfeed:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=hoWdFB4Zt6s
 :DATE:     2016-09-29T06:55:58+0000
@@ -50504,7 +50504,7 @@ Full code on github:
 
   Hint: it needs some work from the community. I will turn this video into a blog post as well with a getting started guide.
 
-* My GNU Emacs configuration for programming
+* My GNU Emacs configuration for programming  :cider:counsel:swiper:paredit:clojure:coding:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=I28jFkpN5Zk
 :DATE:     2016-09-28T09:19:04+0000
