@@ -1,4 +1,26 @@
 
+*  Python Emacs UV Mode programming session       :emacs:uvmode:python:elisp:
+
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=59uSyZ4Wejo
+:DATE:     2024-12-31T21:07:01+0000
+:SPEAKERS: PizzaTorque
+:DURATION: 01:31:36
+:END:
+  Working on the UV mode package in Elisp. UV mode is a package manager for python.
+
+
+*  VOD Emacs - Python Project From Scratch - Fighting Type Hinting  :emacs31:pyconf:python:eat:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=mXG-Vm1KiPs
+:DATE:     2025-01-01T21:07:01+0000
+:SPEAKERS: PizzaTorque
+:DURATION: 01:07:11
+:END:
+  Making a Python project from scratch in Emacs, type hinting mad moves and checking out the eat terminal emulator.
+
+
+
 * #YayEmacs 8: which-key-replacement-alist  :WhichKey:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=mdwM3e2zsmw&list=PL4th0AZixyRHyXaHbE0GSyu-ui1e2UKTw&index=1&pp=gAQBiAQB
