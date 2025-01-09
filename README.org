@@ -4,9 +4,9 @@
 
 This project was born out of a [[https://social.sachachua.com/@sacha/statuses/01JF94JQQNNRXMTKN3Y1774TFP][collaboration]] between [[https://sachachua.com/blog/][Sacha Chua]] and [[https://lmno.lol/alvaro][Alvaro Ramirez]].
 
-* Watch videos on web (https:///emacs.tv)
+* Watch videos on web ([[https://emacs.tv][emacs.tv]])
 
-https://emacs.tv enables browsing, searching, and viewing random videos online (requires Javascript)
+[[https://emacs.tv][emacs.tv]] enables browsing, searching, and viewing random videos online (requires Javascript)
 
 * Watch videos on Emacs (emacstv.el)
 
