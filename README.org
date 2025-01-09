@@ -4,11 +4,13 @@
 
 This project was born out of a [[https://social.sachachua.com/@sacha/statuses/01JF94JQQNNRXMTKN3Y1774TFP][collaboration]] between [[https://sachachua.com/blog/][Sacha Chua]] and [[https://lmno.lol/alvaro][Alvaro Ramirez]].
 
-* Watch videos
+* Watch videos on web (https:///emacs.tv)
 
-You can use the random feature at https://emacs.tv (requires Javascript), search for text in the page, or filter by tag/speaker.
+https://emacs.tv enables browsing, searching, and viewing random videos online (requires Javascript)
 
-If you have the [[https://mpv.io][MPV media player]] and the [[https://github.com/kljohann/mpv.el/tree/master][mpv.el]] package (available on MELPA and NonGNU ELPA), you can install emacstv.el from this repo:
+* Watch videos on Emacs (emacstv.el)
+
+If you have the [[https://mpv.io][MPV media player]] and the [[https://github.com/kljohann/mpv.el/tree/master][mpv.el]] package (available on MELPA and NonGNU ELPA), you can install =emacstv.el= from this repo:
 
 #+begin_src emacs-lisp
 (use-package emacstv
@@ -23,7 +25,6 @@ If you use Elpaca, try this one:
 ;; Turn off warning about following a symbolic link to a git-controlled file
 (setq vc-follow-symlinks t)
 #+end_src
-
 
 Then use:
 
