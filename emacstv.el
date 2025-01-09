@@ -124,7 +124,7 @@ Returns nil if not found."
                 (timestamp (format-time-string "%a, %d %b %Y %H:%M:%S %z"
                                                (date-to-time (or (map-elt entry "DATE")
                                                                  (error "No date for: %s" entry)))
-                                               "UTC"))
+                                               t))
                 (body (or (map-elt entry "BODY") "")))
             (insert (format "
     <item>

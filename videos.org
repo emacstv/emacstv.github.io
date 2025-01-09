@@ -1,3 +1,6 @@
+#+TODO: KEYWORD_THAT_WONT_BE_USED
+#+STARTUP: nolatexpreview
+
 * #YayEmacs 8: which-key-replacement-alist  :WhichKey:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=mdwM3e2zsmw&list=PL4th0AZixyRHyXaHbE0GSyu-ui1e2UKTw&index=1&pp=gAQBiAQB
@@ -43027,9 +43030,9 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 * Improve project workflow with Ivy, Counsel, and Swiper! (Emacs)
 :PROPERTIES:
 :YOUTUBE_URL: https://youtu.be/dUEquA02eJk?si=alfnv4Myf5R_4rJP
-:DATE:     2020-02-10
+:DATE:     2020-02-10T09:58:15-08:00
 :SPEAKERS: Marco Avelar
-:DURATION: 8:17
+:DURATION: 8:18
 :END:
   Hey, short video/demo on how I use Ivy, Counsel, and Swiper for improving project navigation. Thanks for watching!
 
@@ -43147,9 +43150,9 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 * Easy buffer navigation with avy! (Emacs)
 :PROPERTIES:
 :YOUTUBE_URL: https://youtu.be/VsNthJNkt30?si=_bv_A74y9vpKnmmw
-:DATE:     2020-02-07
 :SPEAKERS: Marco Avelar
 :DURATION: 4:55
+:DATE:     2020-02-07T13:00:40-08:00
 :END:
   Short demo on a really neat package for buffer navigation. Thanks for watching!
 
@@ -54094,19 +54097,11 @@ Using restclient within emacs...
 :PROPERTIES:
 :DATE:     2012-06-27T02:54:50+00:00
 :DURATION: 43:48
+:YOUTUBE_URL: https://www.youtube.com/watch?v=ytNsHmRLZGM&list=PL4th0AZixyRF8o3fdx68HGUrYKF2Pfvrp&index=5&pp=iAQB
 :VIMEO_URL: https://vimeo.com/44778543
 :SPEAKERS: John Wiegley, Sacha Chua
 :END:
   In which John Wiegley and I chat about cool things he does with Emacs, learning, and other geeky things. More context for John Wiegley's thoughts: http://newartisans.com/2011/04/letter-to-the-fsf/
-
-* Emacs Chat: John Wiegley (June 26, 2012)  :community:
-:PROPERTIES:
-:YOUTUBE_URL: https://www.youtube.com/watch?v=ytNsHmRLZGM&list=PL4th0AZixyRF8o3fdx68HGUrYKF2Pfvrp&index=5&pp=iAQB
-:DATE:     2012-06-26
-:SPEAKERS: John Wiegley, Sacha Chua
-:DURATION: 43:48
-:END:
-  In which John Wiegley and I chat about cool things he does with Emacs, learning, and other geeky things. More context for John Wiegley's thoughts: newartisans.com/2011/04/letter-to-the-fsf/
 
   Fixed version of http://www.youtube.com/watch?v=MyOnK9xbmX4
 

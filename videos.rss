@@ -36332,7 +36332,7 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
 
   Follow me on LBRY:
   https://lbry.tv/$/invite/@marco:55</div>]]></description>
-      <pubDate>Mon, 10 Feb 2020 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 10 Feb 2020 17:58:15 +0000</pubDate>
     </item>
     <item>
       <title>Emacs vs Vim: Can&apos;t we all just get along?</title>
@@ -36432,7 +36432,7 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
 
   Follow me on LBRY:
   https://lbry.tv/$/invite/@marco:55</div>]]></description>
-      <pubDate>Fri, 07 Feb 2020 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 07 Feb 2020 21:00:40 +0000</pubDate>
     </item>
     <item>
       <title>Emacs bites - Startup config selector</title>
@@ -45044,17 +45044,11 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
     </item>
     <item>
       <title>John Wiegley - June 26, 2012</title>
-      <link></link>
-      <description><![CDATA[<div id="content"><a href="https://vimeo.com/44778543">vimeo</a><br><br>In which John Wiegley and I chat about cool things he does with Emacs, learning, and other geeky things. More context for John Wiegley's thoughts: http://newartisans.com/2011/04/letter-to-the-fsf/</div>]]></description>
-      <pubDate>Wed, 27 Jun 2012 02:54:50 +0000</pubDate>
-    </item>
-    <item>
-      <title>Emacs Chat: John Wiegley (June 26, 2012)</title>
       <link>https://www.youtube.com/watch?v=ytNsHmRLZGM&amp;list=PL4th0AZixyRF8o3fdx68HGUrYKF2Pfvrp&amp;index=5&amp;pp=iAQB</link>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=ytNsHmRLZGM&list=PL4th0AZixyRF8o3fdx68HGUrYKF2Pfvrp&index=5&pp=iAQB">youtube</a><br><br>In which John Wiegley and I chat about cool things he does with Emacs, learning, and other geeky things. More context for John Wiegley's thoughts: newartisans.com/2011/04/letter-to-the-fsf/
+      <description><![CDATA[<div id="content"><a href="https://vimeo.com/44778543">vimeo</a>&nbsp;·&nbsp;<a href="https://www.youtube.com/watch?v=ytNsHmRLZGM&list=PL4th0AZixyRF8o3fdx68HGUrYKF2Pfvrp&index=5&pp=iAQB">youtube</a><br><br>In which John Wiegley and I chat about cool things he does with Emacs, learning, and other geeky things. More context for John Wiegley's thoughts: http://newartisans.com/2011/04/letter-to-the-fsf/
 
   Fixed version of http://www.youtube.com/watch?v=MyOnK9xbmX4</div>]]></description>
-      <pubDate>Mon, 25 Jun 2012 23:00:00 +0000</pubDate>
+      <pubDate>Wed, 27 Jun 2012 02:54:50 +0000</pubDate>
     </item>
     <item>
       <title>gtk-application-prefer-dark-theme for Emacs</title>
