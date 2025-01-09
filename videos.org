@@ -112,23 +112,6 @@
   summary:
   https://clojureverse.org/t/visual-tools-meeting-27-workflow-demos-1-emacs-cider-vscode-calva-zulip-summary-recording/
 
-* GitHub - yibie/org-supertag: Enhance org-mode tag system, borrow idea from tana.  :org:
-:PROPERTIES:
-:YOUTUBE_URL: https://www.youtube.com/watch?v=IUb2y7cnsW0
-:DATE:     2025-01-03T17:01:57-08:00
-:SPEAKERS: GitHub Daily Trend
-:DURATION: 4:08
-:END:
-  https://github.com/yibie/org-supertag
-
-  Enhance org-mode tag system, borrow idea from tana. - yibie/org-supertag
-
-  Powered by VoiceFeed.
-
-  https://voicefeed.web.app/lp/podcast?utm_source=youtube_githubtrenddaily&utm_medium=podcast
-
-  Developer:https://twitter.com/_horotter
-
 * Emacs: sequence notes with Denote (denote-sequence.el)  :denote:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=27krzVtflQY

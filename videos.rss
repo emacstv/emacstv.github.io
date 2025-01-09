@@ -108,20 +108,6 @@
       <pubDate>Sun, 05 Jan 2025 23:17:33 +0000</pubDate>
     </item>
     <item>
-      <title>GitHub - yibie/org-supertag: Enhance org-mode tag system, borrow idea from tana.</title>
-      <link>https://www.youtube.com/watch?v=IUb2y7cnsW0</link>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=IUb2y7cnsW0">youtube</a><br><br>https://github.com/yibie/org-supertag
-
-  Enhance org-mode tag system, borrow idea from tana. - yibie/org-supertag
-
-  Powered by VoiceFeed.
-
-  https://voicefeed.web.app/lp/podcast?utm_source=youtube_githubtrenddaily&utm_medium=podcast
-
-  Developer:https://twitter.com/_horotter</div>]]></description>
-      <pubDate>Sat, 04 Jan 2025 01:01:57 +0000</pubDate>
-    </item>
-    <item>
       <title>Emacs: sequence notes with Denote (denote-sequence.el)</title>
       <link>https://www.youtube.com/watch?v=27krzVtflQY</link>
       <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=27krzVtflQY">youtube</a><br><br>In this ~21-minute video I demonstrate the new optional extension for Denote that I am developing. The 'denote-sequence.el' is part of the 'denote' package. Its purpose is to streamline the creation of "sequence notes", i.e. files that have an inherent relationship between them. The sequence is represented as a number.
