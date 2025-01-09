@@ -87,7 +87,7 @@ export function render(state: State, store: StateStore): RenderResult {
  |
     <a href="https://github.com/emacstv/emacstv.github.io#add-videos">add video</a>
  |
-    <a href="https://github.com/emacstv/emacstv.github.io?tab=readme-ov-file#watch-videos">emacstv.el</a>
+    <a href="https://github.com/emacstv/emacstv.github.io?tab=readme-ov-file#watch-videos-on-emacs-emacstvel">emacstv.el</a>
   </span>
 </h1>
   ${randomPick.html}
