@@ -10,7 +10,7 @@ This project was born out of a [[https://social.sachachua.com/@sacha/statuses/01
 
 [[https://emacs.tv][emacs.tv]] enables browsing, searching, and viewing random videos from your browser (requires JavaScript).
 
-* Watch videos on Emacs (emacstv.el)
+* Watch videos on Emacs ([[https://github.com/emacstv/emacstv.github.io/blob/main/emacstv.el][emacstv.el]])
 
 Alternatively, you can access video content directly from Emacs itself. If you have the [[https://mpv.io][MPV media player]] and the [[https://github.com/kljohann/mpv.el/tree/master][mpv.el]] package (available on MELPA and NonGNU ELPA), you can install =emacstv.el= from this repo:
 
