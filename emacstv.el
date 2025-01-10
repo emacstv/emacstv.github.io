@@ -439,19 +439,65 @@ Return nil if TIME-STRING doesn't match the pattern."
 	(mpv-run-command "playlist-clear")
 	(setq emacstv-playlist nil))
 
+(defun emacstv-queue-list (list)
+	"Add LIST to the playlist."
+	(setq emacstv-playlist (append emacstv-playlist list))
+	(if (mpv-live-p)
+			(dolist (url list)
+				(mpv-run-command "loadfile" url "append-play"))
+		(mpv-play-url (car list))
+		(dolist (url (cdr list))
+			(mpv-run-command "loadfile" url "append-play"))))
+
+(defun emacstv-queue-url (url)
+	"Add LIST to the playlist."
+	(setq emacstv-playlist (append emacstv-playlist (list url)))
+	(if (mpv-live-p)
+			(mpv-run-command "loadfile" url "append-play")
+		(mpv-play-url url)))
+
+;;;###autoload
 (defun emacstv-queue-random ()
 	"Queue up lots of Emacs videos."
 	(interactive)
 	(require 'mpv)
 	(emacstv-clear-playlist)
-	(setq emacstv-playlist (emacstv-shuffle-list (mapcar #'emacstv-video-url (emacstv-videos))))
-	(if (mpv-live-p)
-			(dolist (url emacstv-playlist)
-				(mpv-run-command "loadfile" url "append-play"))
-		(mpv-play-url (car emacstv-playlist))
-		(dolist (url (cdr emacstv-playlist))
-			(mpv-run-command "loadfile" url "append-play"))))
+	(emacstv-queue (emacstv-shuffle-list (mapcar #'emacstv-video-url (emacstv-videos)))))
 
+(defun emacstv-queue-from-org-agenda ()
+	"Queue marked entries."
+	(interactive)
+	(require 'mpv)
+	(if (and (org-region-active-p) (called-interactively-p 'any) (derived-mode-p 'org-agenda-mode))
+			(let* (line-beg
+						 line-end
+						 m
+						 (beg (region-beginning)) (end (region-end)))
+				(goto-char beg)
+				(setq line-beg (org-current-line))
+				(goto-char end)
+				(setq line-end (1- (org-current-line)))
+				(cl-loop
+				 for line from line-beg to line-end
+				 do
+				 (org-goto-line line)
+				 (setq m (get-text-property (point) 'org-hd-marker))
+				 (with-current-buffer (marker-buffer m)
+					 (widen)
+					 (goto-char (marker-position m))
+					 (emacstv-queue-at-point))))
+		;; nothing marked, act on the entry at point
+		(if (not org-agenda-bulk-marked-entries)
+				(save-excursion (org-agenda-bulk-mark)))
+		;; queue marked entries
+		(dolist (hdmarker org-agenda-bulk-marked-entries)
+			(let* ((buffer (marker-buffer hdmarker))
+						 (pos (marker-position hdmarker))
+						 (inhibit-read-only t))
+				(with-current-buffer buffer
+					(widen)
+					(goto-char pos)
+					(emacstv-queue-at-point))))))
 
 ;;;###autoload
 (define-minor-mode emacstv-background-mode
@@ -479,6 +525,20 @@ Return nil if TIME-STRING doesn't match the pattern."
 									 (org-entry-get (point) "VIMEO_URL"))))
 			(if url
 					(emacstv-play url)
+				(error "Could not find URL for %s" (org-entry-get (point) "ITEM"))))))
+
+;;;###autoload
+(defun emacstv-queue-at-point ()
+	"Queue a video from the agenda or org file."
+	(when (derived-mode-p 'org-agenda-mode)
+		(org-agenda-switch-to))
+	(when (derived-mode-p 'org-mode)
+		(let ((url (or (org-entry-get (point) "MEDIA_URL")
+									 (org-entry-get (point) "TOOBNIX_URL")
+									 (org-entry-get (point) "YOUTUBE_URL")
+									 (org-entry-get (point) "VIMEO_URL"))))
+			(if url
+					(emacstv-queue-url url)
 				(error "Could not find URL for %s" (org-entry-get (point) "ITEM"))))))
 
 (defun emacstv-add-to-playlist-at-point ()
