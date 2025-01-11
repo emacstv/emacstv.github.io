@@ -5,6 +5,26 @@
     <link>https://emacs.tv</link>
     <description>Emacs videos</description>
     <item>
+      <title>Recursive project search in Emacs</title>
+      <link>https://lukeplant.me.uk/blog/posts/recursive-project-search-in-emacs/</link>
+      <description><![CDATA[<div id="content"><a href="https://youtu.be/1jBbVUnNbDU">youtube</a><br><br>When you do a search for something in your software project, and that leads to another, and another - how do you manage it all? I'll show you how to do this in Emacs.
+
+  Also check out the blog post at https://lukeplant.me.uk/blog/posts/recursive-project-search-in-emacs/ which has the Elisp code and other tips.
+
+  If you're interested in my Emacs setup, these are some of the main packages that I use which influence what you've seen above:
+
+  - Vertico - https://github.com/minad/vertico
+  - prescient - https://github.com/radian-software/prescient.el
+  - vertico-prescient
+  - marginalia - https://github.com/minad/marginalia
+  - which-key - https://github.com/justbur/emacs-which-key
+  - projectile - https://github.com/bbatsov/projectile
+  - lsp-mode - https://emacs-lsp.github.io/lsp-mode/
+  - lsp-pyright - https://github.com/emacs-lsp/lsp-pyright
+  - rg-mode - https://github.com/dajva/rg.el</div>]]></description>
+      <pubDate>Sat, 11 Jan 2025 10:00:02 +0000</pubDate>
+    </item>
+    <item>
       <title>#YayEmacs 8: which-key-replacement-alist</title>
       <link>https://www.youtube.com/watch?v=mdwM3e2zsmw&amp;list=PL4th0AZixyRHyXaHbE0GSyu-ui1e2UKTw&amp;index=1&amp;pp=gAQBiAQB</link>
       <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=mdwM3e2zsmw&list=PL4th0AZixyRHyXaHbE0GSyu-ui1e2UKTw&index=1&pp=gAQBiAQB">youtube</a><br><br>https://sachachua.com/blog/2025/01/yay-emacs-8-which-key-replacement-alist/
