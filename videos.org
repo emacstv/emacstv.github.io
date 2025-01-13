@@ -3951,6 +3951,38 @@ count-words-region
 
   Find all my publications on my website (Emacs, philosophy, mechanical keyboards, etc.): https://protesilaos.com
 
+* How tables in org-mode support an ELN  :org:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=qZfpz1Pp0UI&list=PL0sMmOaE_gs1Ox-wIIbHPLZ9O5uLJ_rQW&index=22&pp=iAQB
+:DATE:     2024-07-18T19:07:43-07:00
+:SPEAKERS: John Kitchin
+:DURATION: 33:43
+:END:
+  Tables are an essential component of an ELN. #orgmode provides extensive support for creating, manipulating and exporting tables. It also provides a way to use tables as data sources in code blocks. This video covers a lot of the features of tables in org-mode and how you can use them in an ELN.
+
+  Repo: https://github.com/jkitchin/scimax-eln
+
+  - Video 1 - https://www.youtube.com/watch?v=KodhYAo4xn0&t=0s
+  - Video 2 - joblib https://www.youtube.com/watch?v=sHiMOQkNFKQ
+  - Video 3 - hashcache https://youtube.com/live/d3zcfdylKOc
+  - Video 4 - SqlCache https://youtube.com/live/aWnYGOWWIqY
+  - Video 5 - molecular simulation https://youtube.com/live/eQcTubl-7kw
+  - Video 6 - writing reports in the notebook https://youtube.com/live/c9saatJ2o7A
+  - Video 7 - Interoperability and extendability https://youtube.com/live/RumU94MxqN4
+  - Video 8 - Searching your notebook https://youtube.com/live/C02FFd520MI
+  - Video 9 - Running Arduino devices https://youtube.com/live/Fn7sq8uRsGQ
+  - Video 10 - Electronic lab notebook with scimax - ELNs in the literature https://youtube.com/live/icPlZCF6LEw
+  - Video 11 - Publishing your ELN to GitHUB Pages https://youtube.com/live/zIgSOiMFBWU
+  - Video 12 - Tracking reagents in an ELN with scimax, completion and QR codes https://youtube.com/live/bLyhOCXn-Hg
+  - Video 13 - Controlling a remote instrument from an ELN - the SDL-light https://youtube.com/live/qbqxSKJ1F60
+  - Video 14 - SDL-Light with a design of experiment approach https://youtube.com/live/g1DEVScu6NE
+  - Video 15 - Reproducibility, significant differences and interactions in the SDL-Light https://youtube.com/live/BlUzXcyyYc0
+  - Video 16 - ANOVA + DOE with the SDL-Light https://youtube.com/live/pGuolCOZ8HQ
+  - Video 17 - Active learning and surrogates - take 1 https://youtube.com/live/mgxSuNgQmNQ
+  - Video 18 - Active learning and surrogates - take 2 https://youtube.com/live/-cH4mXnulwk
+  - Video 19 - An sklearn-doe package with application to the SDL-Light https://youtube.com/live/Sfbmk4zTFCw
+  - Video 20 - An sklearn-doe package for Latin square designs https://youtube.com/live/VH8ooOeN4RI
+  - Video 21 - update on sklearn-doe package https://youtube.com/live/uxLCNEj1FbY
 * Algumas perguntas pros estudantes de C2 que estão aprendendo Emacs, eev e Maxima :eev:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=FjhyhTxN_-o
@@ -3998,6 +4030,192 @@ count-words-region
 
   #Emacs #IDE #Programming #SoftwareDevelopment #GNU #GNUEmacs
 
+* Controlling a remote instrument from an ELN - the SDL-light #13       :org:science:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=qbqxSKJ1F60&list=PL0sMmOaE_gs1Ox-wIIbHPLZ9O5uLJ_rQW&index=13&pp=iAQB
+:DATE:     2024-07-02T19:23:44-07:00
+:SPEAKERS: John Kitchin
+:DURATION: 22:28
+:END:
+  Controlling remote instruments from your ELN is a necessary feature. In this paper by Baird, S. G., & Sparks, T. D. (@TaylorSparks) (2022). What is a minimal working example for a   self-driving laboratory? Matter, 5(12), 4170–4178.  http://dx.doi.org/10.1016/j.matt.2022.11.007 they describe a simple instrument that is remotely accessible and provide a Colab notebook to run it. In this video we control the instrument from #emacs and #orgmode and run some experiments to find conditions that come close to a desired output.
+
+  Repo: https://github.com/jkitchin/scimax-eln
+
+  - Video 1 - https://www.youtube.com/watch?v=KodhYAo4xn0&t=0s
+  - Video 2 - joblib https://www.youtube.com/watch?v=sHiMOQkNFKQ
+  - Video 3 - hashcache https://youtube.com/live/d3zcfdylKOc
+  - Video 4 - SqlCache https://youtube.com/live/aWnYGOWWIqY
+  - Video 5 - molecular simulation https://youtube.com/live/eQcTubl-7kw
+  - Video 6 - writing reports in the notebook https://youtube.com/live/c9saatJ2o7A
+  - Video 7 - Interoperability and extendability https://youtube.com/live/RumU94MxqN4
+  - Video 8 - Searching your notebook https://youtube.com/live/C02FFd520MI
+  - Video 9 - Running Arduino devices https://youtube.com/live/Fn7sq8uRsGQ
+  - Video 10 - Electronic lab notebook with scimax - ELNs in the literature https://youtube.com/live/icPlZCF6LEw
+  - Video 11 - Publishing your ELN to GitHUB Pages https://youtube.com/live/zIgSOiMFBWU
+  - Video 12 - Tracking reagents in an ELN with scimax, completion and QR codes https://youtube.com/live/bLyhOCXn-Hg
+
+* Tracking reagents in an ELN with scimax, completion and QR codes #12  :org:science:qr:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=bLyhOCXn-Hg&list=PL0sMmOaE_gs1Ox-wIIbHPLZ9O5uLJ_rQW&index=12&pp=iAQB
+:DATE:     2024-07-01T07:44:01-07:00
+:SPEAKERS: John Kitchin
+:DURATION: 14:48
+:END:
+  In this video I show how we can use scimax with an inventory of reagents to insert them into your notebook, e.g. for an experiment. You can do this with completion, or with a QR code and a camera!
+
+  Repo: https://github.com/jkitchin/scimax-eln
+
+  - Video 1 - https://www.youtube.com/watch?v=KodhYAo4xn0&t=0s
+  - Video 2 - joblib https://www.youtube.com/watch?v=sHiMOQkNFKQ
+  - Video 3 - hashcache https://youtube.com/live/d3zcfdylKOc
+  - Video 4 - SqlCache https://youtube.com/live/aWnYGOWWIqY
+  - Video 5 - molecular simulation https://youtube.com/live/eQcTubl-7kw
+  - Video 6 - writing reports in the notebook https://youtube.com/live/c9saatJ2o7A
+  - Video 7 - Interoperability and extendability https://youtube.com/live/RumU94MxqN4
+  - Video 8 - Searching your notebook https://youtube.com/live/C02FFd520MI
+  - Video 9 - Running Arduino devices https://youtube.com/live/Fn7sq8uRsGQ
+  - Video 10 - Electronic lab notebook with scimax - ELNs in the literature https://youtube.com/live/icPlZCF6LEw
+  - Video 11 - Publishing your ELN to GitHUB Pages https://youtube.com/live/zIgSOiMFBWU
+
+* Publishing your ELN to GitHUB Pages - #11                             :org:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=zIgSOiMFBWU&list=PL0sMmOaE_gs1Ox-wIIbHPLZ9O5uLJ_rQW&index=11&pp=iAQB
+:DATE:     2024-06-29T06:37:15-07:00
+:SPEAKERS: John Kitchin
+:DURATION: 18:07
+:END:
+  Emacs is a fantastic UI to create notebook content, and consume (read) it. The notebook pages are in plain text though, and although GitHUB has some ability to render it in a nicer way, it isn't as nice as what is in Emacs IMO. We can convert our notebook pages to html, and host them on a remote server to make it easier for others (even including ourselves) to view the pages in a browser.  We use GitHUB pages in this example.
+
+  Repo: https://github.com/jkitchin/scimax-eln
+
+  - Video 1 - https://www.youtube.com/watch?v=KodhYAo4xn0&t=0s
+  - Video 2 - joblib https://www.youtube.com/watch?v=sHiMOQkNFKQ
+  - Video 3 - hashcache https://youtube.com/live/d3zcfdylKOc
+  - Video 4 - SqlCache https://youtube.com/live/aWnYGOWWIqY
+  - Video 5 - molecular simulation https://youtube.com/live/eQcTubl-7kw
+  - Video 6 - writing reports in the notebook https://youtube.com/live/c9saatJ2o7A
+  - Video 7 - Interoperability and extendability https://youtube.com/live/RumU94MxqN4
+  - Video 8 - Searching your notebook https://youtube.com/live/C02FFd520MI
+  - Video 9 - Running Arduino devices https://youtube.com/live/Fn7sq8uRsGQ
+  - Video 10 - Electronic lab notebook with scimax - ELNs in the literature https://youtube.com/live/icPlZCF6LEw
+
+* Electronic lab notebook with scimax - ELNs in the literature #10      :org:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=icPlZCF6LEw&list=PL0sMmOaE_gs1Ox-wIIbHPLZ9O5uLJ_rQW&index=10&pp=iAQB
+:DATE:     2024-06-28T00:03:33-07:00
+:SPEAKERS: John Kitchin
+:DURATION: 23:49
+:END:
+  This is a meta video about researching ELNs in my #scimax ELN. I review a paper I found on considerations for ELNs, and use that paper to find related articles on ELNs. I document those papers in an entry in my ELN.
+
+  #emacs #orgmode
+
+  Repo: https://github.com/jkitchin/scimax-eln
+
+  - Video 1 - https://www.youtube.com/watch?v=KodhYAo4xn0&t=0s
+  - Video 2 - joblib https://www.youtube.com/watch?v=sHiMOQkNFKQ
+  - Video 3 - hashcache https://youtube.com/live/d3zcfdylKOc
+  - Video 4 - SqlCache https://youtube.com/live/aWnYGOWWIqY
+  - Video 5 - molecular simulation https://youtube.com/live/eQcTubl-7kw
+  - Video 6 - writing reports in the notebook https://youtube.com/live/c9saatJ2o7A
+  - Video 7 - Interoperability and extendability https://youtube.com/live/RumU94MxqN4
+  - Video 8 - Searching your notebook https://youtube.com/live/C02FFd520MI
+  - Video 9 - Running Arduino devices https://youtube.com/live/Fn7sq8uRsGQ
+
+* Electronic Lab Notebook for Arduino devices with scimax               :org:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=Fn7sq8uRsGQ&list=PL0sMmOaE_gs1Ox-wIIbHPLZ9O5uLJ_rQW&index=9&pp=iAQB
+:DATE:     2024-06-26T05:07:42-07:00
+:SPEAKERS: John Kitchin
+:DURATION: 29:16
+:END:
+  In this video I show how to create a new src-block to load code onto an Arduino device. We explore a few ways to capture data from the device including screenshots, audio clips and video clips. We also get numeric data from a serial port on the device.
+
+  Repo: https://github.com/jkitchin/scimax-eln
+
+  - Video 1 - https://www.youtube.com/watch?v=KodhYAo4xn0&t=0s
+  - Video 2 - joblib https://www.youtube.com/watch?v=sHiMOQkNFKQ
+  - Video 3 - hashcache https://youtube.com/live/d3zcfdylKOc
+  - Video 4 - SqlCache https://youtube.com/live/aWnYGOWWIqY
+  - Video 5 - molecular simulation https://youtube.com/live/eQcTubl-7kw
+  - Video 6 - writing reports in the notebook https://youtube.com/live/c9saatJ2o7A
+  - Video 7 - Interoperability and extendability https://youtube.com/live/RumU94MxqN4
+  - Video 8 - Searching your notebook https://youtube.com/live/C02FFd520MI
+
+* Is your electronic notebook searchable the way you want?              :org:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=C02FFd520MI&list=PL0sMmOaE_gs1Ox-wIIbHPLZ9O5uLJ_rQW&index=8&pp=iAQB
+:DATE:     2024-06-24T10:55:08-07:00
+:SPEAKERS: John Kitchin
+:DURATION: 17:46
+:END:
+  Your notebook needs to be searchable in a lot of different ways; you might need to find a file, or some text, or an image, and that should be 1) possible, and 2) not that difficult. scimax comes close to this. It provides a variety of ways to search for files and in files using tools from projectile. It also provides org-db which has full-text search, image search and other org-element searches, e.g. in src-blocks.
+
+  Repo: https://github.com/jkitchin/scimax-eln
+
+  - Video 1 - https://www.youtube.com/watch?v=KodhYAo4xn0&t=0s
+  - Video 2 - joblib https://www.youtube.com/watch?v=sHiMOQkNFKQ
+  - Video 3 - hashcache https://youtube.com/live/d3zcfdylKOc
+  - Video 4 - SqlCache https://youtube.com/live/aWnYGOWWIqY
+  - Video 5 - molecular simulation https://youtube.com/live/eQcTubl-7kw
+  - Video 6 - writing reports in the notebook https://youtube.com/live/c9saatJ2o7A
+  - Video 7 - Interoperability and extendability https://youtube.com/live/RumU94MxqN4
+
+* Electronic lab notebook with scimax #7 - Interoperability and extendability :org:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=RumU94MxqN4&list=PL0sMmOaE_gs1Ox-wIIbHPLZ9O5uLJ_rQW&index=7&pp=iAQB
+:DATE:     2024-06-23T20:37:05-07:00
+:SPEAKERS: John Kitchin
+:DURATION: 19:48
+:END:
+  In this video we explore how to interact with other software for image, audio and video capture in the electronic notebook using an Adafruit Circuit playground as a proxy instrument. We leverage screenshots, audio recording, and video capture with literate programming to control it and capture data from the device.
+
+  #emacs #orgmode #scimax
+
+  Repo: https://github.com/jkitchin/scimax-eln
+
+  - Video 1 - https://www.youtube.com/watch?v=KodhYAo4xn0&t=0s
+  - Video 2 - joblib https://www.youtube.com/watch?v=sHiMOQkNFKQ
+  - Video 3 - hashcache https://youtube.com/live/d3zcfdylKOc
+  - Video 4 - SqlCache https://youtube.com/live/aWnYGOWWIqY
+  - Video 5 - molecular simulation https://youtube.com/live/eQcTubl-7kw
+  - Video 6 - writing reports in the notebook https://youtube.com/live/c9saatJ2o7A
+
+* Writing reports in an electronic lab notebook with scimax #6          :org:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=c9saatJ2o7A&list=PL0sMmOaE_gs1Ox-wIIbHPLZ9O5uLJ_rQW&index=6&t=7s&pp=iAQB
+:DATE:     2024-06-22T19:16:52-07:00
+:SPEAKERS: John Kitchin
+:DURATION: 35:21
+:END:
+  You should be able to use an electronic notebook to write reports using the data from your notebook. In this video we explore writing a small report from the molecular simulation work we did in the last video. We show how to reuse data from your notebook, and a limitation of the cache system we used last time. With #scimax you can write reports and then export them to other formats like pdf using #orgmode.
+
+* Electronic lab notebook with scimax for molecular simulation tasks    :org:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=eQcTubl-7kw&list=PL0sMmOaE_gs1Ox-wIIbHPLZ9O5uLJ_rQW&index=5&pp=iAQB
+:DATE:     2024-06-19T19:48:43-07:00
+:SPEAKERS: John Kitchin
+:DURATION: 56:47
+:END:
+  In this video I explore using SqlCache and HashCache to save intermediate results in a molecular simulation task of computing the lattice constants of some fcc metals.
+
+  Repo: https://github.com/jkitchin/scimax-eln
+
+  #emacs #orgmode #scimax
+
+* ELN with scimax - SqlCache for saving FAIRish data                    :org:sqlite:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=aWnYGOWWIqY&list=PL0sMmOaE_gs1Ox-wIIbHPLZ9O5uLJ_rQW&index=4&pp=iAQB
+:DATE:     2024-06-19T05:51:09-07:00
+:SPEAKERS: John Kitchin
+:DURATION: 26:05
+:END:
+  In this 4th video I explore using sqlite and orjson for serializing data in a cache. This gives us better findability, interoperability and reproducibility. The cache is "lossy" though, and some data types get converted to new types, e.g. arrays to lists, data classes to dictionaries.
+
+  Repo: https://github.com/jkitchin/scimax-eln
+
+  #emacs, #orgmode, #scimax
+
 * Context Menu is Personal (GNU Emacs)    :menu:ContextMenu:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=DC_KhawqVyQ&list=PLW9poAEUvGDC1g1A3hBdZa0Atr0RL8yZt&index=9&pp=iAQB
@@ -4007,6 +4225,47 @@ count-words-region
 :URL:      https://lifeofpenguin.blogspot.com/2024/06/context-menu-is-personal-gnu-emacs.html
 :END:
   https://lifeofpenguin.blogspot.com/2024/06/context-menu-is-personal-gnu-emacs.html
+
+* Using hashcache in an electronic lab notebook #eln #3                 :org:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=d3zcfdylKOc&list=PL0sMmOaE_gs1Ox-wIIbHPLZ9O5uLJ_rQW&index=3&pp=iAQB
+:DATE:     2024-06-16T18:56:20-07:00
+:SPEAKERS: John Kitchin
+:DURATION: 43:38
+:END:
+  In the last video we explored joblib for data persistence and found some limitations that make it not suitable for a lot of #eln work. In this video we explore pycse.hashcache as an alternative. It solves some issues with joblib, but is still only a step forward in getting FAIR data into an eln.
+
+  #scimax #orgmode #emacs
+
+  Repo: https://github.com/jkitchin/scimax-eln
+
+* joblib and electronic lab notebooks - scimax-eln #2                   :org:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=sHiMOQkNFKQ&list=PL0sMmOaE_gs1Ox-wIIbHPLZ9O5uLJ_rQW&index=2&pp=iAQB
+:DATE:     2024-06-15T17:14:57-07:00
+:SPEAKERS: John Kitchin
+:DURATION: 46:44
+:END:
+  In this video I look at using joblib to cache results in the notebook so we can reuse them later. This is a step forward in reusabilty, but it turns out at the expense of interoperability. We also uncover some potentially surprising features that are undesirable. Still, it is helpful to work through these so we can move towards a more complete solution later.
+
+  video #1: https://www.youtube.com/watch?v=KodhYAo4xn0
+
+  https://github.com/jkitchin/scimax-eln
+
+* Electronic Lab Notebooks with scimax                                  :org:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=KodhYAo4xn0&list=PL0sMmOaE_gs1Ox-wIIbHPLZ9O5uLJ_rQW&index=1&pp=iAQB
+:DATE:     2024-06-13T18:34:54-07:00
+:SPEAKERS: John Kitchin
+:DURATION: 33:19
+:END:
+  I have used org-mode for over a decade now in a broad range of applications from writing papers and proposals, in research projects, task management and more. I have basically used it myself as an electronic lab notebook (ELN) of sorts. Some things about scimax make it very well-suited for this, but there are some things it is not ideal for.This video is the start of what will hopefully be a series of videos on using scimax as an ELN where I more systematically explore what it is good for, where improvements might be desired, and limitations of scimax for this purpose.
+
+  In this first video we explore limitations of using scipy to solve a simple engineering problem.
+
+  There is a github repo for this project at  https://github.com/jkitchin/scimax-eln
+
+  #eln #orgmode #emacs
 
 * Emacs Micro Lesson  #10 | Open line (because it's good)  :editing:
 :PROPERTIES:
@@ -4149,6 +4408,15 @@ count-words-region
 :END:
   Stock Heatmap (index and sector) in GNU Emacs
   Details: https://lifeofpenguin.blogspot.com/2024/04/alternatives-in-gnu-emacs.html
+
+* Literature Alerts - OpenAlex + GitHUB Actions + Emacs and Zotero   :research:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=cMKn2BgVics&list=PL0sMmOaE_gs3E0OjExoI7vlCAVygj6S4I&index=7&pp=iAQB
+:DATE:     2024-04-20T13:03:37-07:00
+:SPEAKERS: John Kitchin
+:DURATION: 10:03
+:END:
+  OpenAlex is a great resource for the scientific literature. In this video we explore how to setup a system for getting new literature using OpenAlex, GitHUB actions, Emacs and Zotero.
 
 * SVG Animation in GNU Emacs   :visualization:
 :PROPERTIES:
@@ -4926,6 +5194,17 @@ count-words-region
   + Mailing list: https://lists.sr.ht/~protesilaos/dotfiles
   + Backronym: Do Observe, Transpose, Examine, or Mirror All Configurations, Stranger (dotemacs); Dotfiles Operate Transparently For the Included Linux and Emacs Setups (dotfiles).
 
+* Semantic completing read in #Emacs   :completion:llm:ai:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=bB7rywlahSc&list=PL0sMmOaE_gs3E0OjExoI7vlCAVygj6S4I&index=8&pp=iAQB
+:DATE:     2023-12-16T06:19:19-08:00
+:SPEAKERS: John Kitchin
+:DURATION: 17:24
+:END:
+  Completing-read is a staple feature of Emacs where you can iteratively downselect a list of candidates by typing part of them. The matching can be literal or fuzzy, e.g. by regular expression, but it is limited to this. There is not any way to match by "meaning".
+
+  In https://youtube.com/live/8YXc1s5-TdM I showed an example of using LLM technology to search bibtex entries by semantic similarity. Here we expand the idea, and shows some additional applications that might be interesting.
+
 * Emacs Does Everything, Including Viewing PDFs and Diffs  :ediff:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=v2-m7_X3uy8&list=PL5--8gKSku15uYCnmxWPO17Dq6hVabAB4&index=2&pp=iAQB
@@ -4970,6 +5249,15 @@ count-words-region
   * * *
 
   Find all my publications on my website (Emacs, philosophy, Linux, etc.): https://protesilaos.com
+
+* LLMs and searching bibtex entries  :llm:ai:search:bibtex:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=8YXc1s5-TdM&list=PL0sMmOaE_gs3E0OjExoI7vlCAVygj6S4I&index=9&pp=iAQB
+:DATE:     2023-12-12T12:44:43-08:00
+:SPEAKERS: John Kitchin
+:DURATION: 10:28
+:END:
+  About six years ago, I wrote about [[https://kitchingroup.cheme.cmu.edu/blog/2017/09/16/Finding-similar-bibtex-entries/][finding similar bibtex entries]] using NLP with TFIDF vectors. The world has moved on and today we have LLMs and transformers that can generate embeddings for documents. In this post I provide an update on this idea, and for fun integrate it with Emacs.
 
 * Emacs Goodies - #32 Which Function Mode  :coding:elisp:
 :PROPERTIES:
@@ -10903,6 +11191,17 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
   access to the list of buffers visited therein.  In the interest of
   brevity, we call buffers that belong to frames "beframed".
 
+* Literate programming in org-mode and scimax   :literate:navigation:flycheck:scimax:org:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=v3CeZ9TaAWo&list=PL0sMmOaE_gs3E0OjExoI7vlCAVygj6S4I&index=10&pp=iAQB
+:DATE:     2023-02-27T17:40:43-08:00
+:SPEAKERS: John Kitchin
+:DURATION: 9:11
+:END:
+  In this video I introduce some ideas on improving literate prorgramming in Emacs and org-mode. Some aspects of literate programming are already supported in org-mode, but two features are missing: flycheck and code navigation. I will show two ways I have addressed this in scimax. They are both proofs of concept, but I think it is worth talking about them to see if there are better ideas out there for this.
+
+  You can find the code at https://github.com/jkitchin/scimax.
+
 * GNU Calc embedded in your Emacs Buffer for a LaTeX productivity boost.
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=_zWJP_MK1Dk
@@ -11498,6 +11797,15 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
 :VIMEO_URL: https://vimeo.com/793107692
 :SPEAKERS: Ezekiel Odutola (MoshTeach)
 :END:
+* OpenAlex in Emacs
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=cX6HkdAcC8A&list=PL0sMmOaE_gs3E0OjExoI7vlCAVygj6S4I&index=12&pp=iAQB
+:DATE:     2023-01-26T16:32:46-08:00
+:SPEAKERS: John Kitchin
+:DURATION: 4:55
+:END:
+  Brief demo of OpenAlex integration in Emacs
+
 * How I Use My Linux Computer - DT LIVE!
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=7JKzC63JAn4
@@ -19355,6 +19663,19 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
   Vimeo: https://vimeo.com/unixbhaskar
 
   Goodreads: https://goodreads.com/unixbhaskar
+
+* Scimax in the cloud  :cloud:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=ZrEthbq0SkI&list=PL0sMmOaE_gs3E0OjExoI7vlCAVygj6S4I&index=14&pp=iAQB
+:DATE:     2022-06-11T06:36:29-07:00
+:SPEAKERS: John Kitchin
+:DURATION: 9:12
+:END:
+  Scimax is a highly customized Emacs configuration for scientists and engineers.  So far, using scimax has required you to install Emacs, the scimax code, a working LaTeX, Python, and a host of utility programs.  It is a task.  In this video, I will show you that it is now possible to run almost all of scimax in a browser using GitHUB Codespaces!
+
+  With Codespaces we can pre-configure a container that has all of those programs already installed in them so you don't have to do it yourself, you just have to launch the Codespace and get started.
+
+  You can find the repo for this at https://github.com/kitchingroup-codespaces/cs-scimax. You probably cannot start the codespace yourself, but you should be able to clone it to your own GitHUB organization where you can launch it.
 
 * Modular Emacs Configuration Strategies - System Crafters Live!
 :PROPERTIES:
@@ -28441,6 +28762,19 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
   Para mais informações veja:
   http://angg.twu.net/2021-oficina.html
 
+* org-ref - doi and bibtex utilities  :OrgRef:org:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=_1WzhNJByMQ&list=PL0sMmOaE_gs3E0OjExoI7vlCAVygj6S4I&index=19&pp=iAQB
+:DATE:     2021-10-26T21:47:44-07:00
+:SPEAKERS: John Kitchin
+:DURATION: 22:12
+:END:
+  So far I have focused on how org-ref supports inserting citations, cross-references, etc. and how it provides hyperfunctional links that give access to a variety of functions to act on those links, including export to different formats.
+
+  This is only part of the story though; the other part is the database of bibliographic entries. org-ref exclusively supports bibtex as the database format, and org-ref provides support for adding new entries, maintaining and editing those entries, and navigating them. This video shows some of those capabilities.
+
+  https://github.com/jkitchin/org-ref
+
 * Using Emacs Episode 80 - Vertico, Marginalia, Consult, and Embark
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=5ffb2at2d7w&list=PL9KxKa8NpFxIcNQa9js7dQQIHc81b0-Xg&index=81&pp=iAQB
@@ -28482,6 +28816,17 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
   23:26 - Get lsp-mode working
   31:56 - Outro
 
+* org-ref: acronyms, glossaries and an index  :org:OrgRef:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=sebs2vSIEk4&list=PL0sMmOaE_gs3E0OjExoI7vlCAVygj6S4I&index=22&pp=iAQB
+:DATE:     2021-10-25T07:31:02-07:00
+:SPEAKERS: John Kitchin
+:DURATION: 15:16
+:END:
+  In technical writing it is common to use acronyms, to have technical terms that need defining, and to use an index to help readers navigate the document. org-refprovides these features through a set of hyperfunctional links that can be exported to different formats.
+
+  https://github.com/jkitchin/org-ref
+
 * EXWM - Emacs X Window Manager On GNU/Emacs With  Dmenu               :exwm:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=O3nOnrc2WIs
@@ -28512,6 +28857,19 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
   Credit:
   Sound from Zapsplat.com
 
+* org-ref: the natbib/bbl citation processor                   :org:OrgRef:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=lq3LspE-rAs&list=PL0sMmOaE_gs3E0OjExoI7vlCAVygj6S4I&index=23&pp=iAQB
+:DATE:     2021-10-23T08:43:25-07:00
+:SPEAKERS: John Kitchin
+:DURATION: 15:14
+:END:
+  org-ref has several options for handling citations in exports. LaTeX is the gold standard, but is not always what you need especially for export to HTML or other formats. CSL may do what you want if you can find the right style.
+
+  org-ref has a third, new option that leverages LaTeX's citation processor with natbib and bibtex for other formats. This video will illustrate how it works.
+
+  https://github.com/jkitchin/org-ref
+
 * Emacs: Demo of Minibuffer and Completions in Tandem (mct.el)
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=roSD50L2z-A
@@ -28520,6 +28878,30 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 :DURATION: 24:58
 :END:
   Minibuffer and Completions in Tandem (mct.el) is my new Emacs package which enhances the default minibuffer experience. /// Source code: https://gitlab.com/protesilaos/mct .  Online documentation: https://protesilaos.com/emacs/mct/
+
+* org-ref: natmove and refproc (take 2)  :org:OrgRef:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=gHQO7dKgfm4&list=PL0sMmOaE_gs3E0OjExoI7vlCAVygj6S4I&index=21&pp=iAQB
+:DATE:     2021-10-22T07:51:13-07:00
+:SPEAKERS: John Kitchin
+:DURATION: 16:02
+:END:
+  A small hill I might die on is that citations belong in the sentence they are used in, and not outside them. However, in some citations styles, especially superscripted numbers, I agree it looks nicer for the superscripted number to be on the right-hand side of punctuation.  The achemso package in LaTeX provides natmove, which lets you put citations where they belong while writing, but that moves them when the final document is build.
+
+  org-ref provides a natmove preprocessor for this same purpose, so you can put citations in the sentences where they belong, but move them during export to the right place if you want to. This video illustrates that.
+
+  https://github.com/jkitchin/org-ref
+
+* org-ref - Exporting nicely formatted cross-references to non-LaTeX from #orgmode  :org:OrgRef:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=rRR-5NSpKyE&list=PL0sMmOaE_gs3E0OjExoI7vlCAVygj6S4I&index=20&pp=iAQB
+:DATE:     2021-10-21T10:50:13-07:00
+:SPEAKERS: John Kitchin
+:DURATION: 13:05
+:END:
+  org-ref was originally designed for writing scientific papers that would be converted to a PDF via LaTeX, where LaTeX would do all the cross-reference processing. That is not helpful though if you want to export to HTML or ODT, or any other non-LaTeX format! This video introduces org-ref-refproc, which provides similar functionality as cleveref in LateX to non-LaTeX exports. For example, you can get clever prefixes that automatically add Figure/Table etc in HTML, with reasonable numbering, etc.
+
+  org-ref: https://github.com/jkitchin/org-ref
 
 * getting covid data from John Hopkins University with python, covid19pandas  and emacs :python:
 :PROPERTIES:
@@ -28535,6 +28917,17 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
   screencast page of the course: https://janboone.github.io/msc_datascience/pagescreencasts.html
 
   notebook for the course with references to materials used: https://github.com/janboone/msc_datascience/blob/master/hacking_part_2.ipynb
+
+* org-ref - Exporting nicely formatted citations to non-LaTeX with CSL from #orgmode  :org:OrgRef:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=Xs59PGTfDC0&list=PL0sMmOaE_gs3E0OjExoI7vlCAVygj6S4I&index=24&pp=iAQB
+:DATE:     2021-10-20T20:28:12-07:00
+:SPEAKERS: John Kitchin
+:DURATION: 26:35
+:END:
+  org-ref was originally designed for writing scientific papers that would be converted to a PDF via LaTeX, where LaTeX would do all the citation processing via bib(la)tex. That is not helpful though if you want to export to HTML or ODT, or any other non-LaTeX format! Luckily, there are other citation processors available, and notably there is now a Citation Syntax Language processor package (citeproc) you can install in Emacs. org-ref uses this package to provide formatted citations and bibliographies in non-LaTeX exports. This video will illustrate how that is done,  and provide some examples of the outputs.
+
+  org-ref: https://github.com/jkitchin/org-ref
 
 * Emacs Screencast #5: Mein Org Mode Workflow + Anpassungen             :org:
 :PROPERTIES:
@@ -28803,6 +29196,19 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 
   You can find the library at https://github.com/jkitchin/scimax/blob/master/scimax-notebook.org.
 
+* scimax - Journaling  :scimax:journal:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=P65Zd4EPpTo&list=PL0sMmOaE_gs3E0OjExoI7vlCAVygj6S4I&index=29&pp=iAQB
+:DATE:     2021-10-12T20:54:17-07:00
+:SPEAKERS: John Kitchin
+:DURATION: 23:08
+:END:
+  I write a lot in #Emacs with org-mode.  I use it as a journal to capture ideas, try out code snippets, store information, etc. In this video I will go through scimax-journal which is a library I develop to make it easy to make new journal entries, search the entries, and jump to places in the entries.
+
+  You can find scimax-journal at https://github.com/jkitchin/scimax/blob/master/scimax-journal.el
+
+  Find scimax at https://github.com/jkitchin/scimax
+
 * "Type-Driven API Design in Rust" by Will Crichton  :coding:rust:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=bnnacleqg6k
@@ -28967,6 +29373,17 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
   * Chave PIX: e26a05db-d200-4261-aa65-c6ac3dc2dd0f
   * Apoia.se (apoio regular mensal): https://apoia.se/debxpcursos
 
+* scimax - screenshot, tesseract, pngpaste and ox-clip   :org:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=rGGAr1AWkTc&list=PL0sMmOaE_gs3E0OjExoI7vlCAVygj6S4I&index=30&t=3s&pp=iAQB
+:DATE:     2021-10-11T08:53:08-07:00
+:SPEAKERS: John Kitchin
+:DURATION: 11:07
+:END:
+  When taking notes with #Emacs and #orgmode I often need to capture images from my screen or iPad in them. I show how I do that in scimax with three functions called screenshot, tesseract and pngpaste in this video. I also sometimes need to copy from org-mode to other applications, and for that I use ox-clip.
+
+  Find scimax at https://github.com/jkitchin/scimax.
+
 * Using Emacs Episode 78 - a grading workflow
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=7HLVcQi8GGk&list=PL9KxKa8NpFxIcNQa9js7dQQIHc81b0-Xg&index=79&pp=iAQB
@@ -28975,6 +29392,30 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 :DURATION: 18:40
 :END:
 
+
+* scimax - Auto-formatting, abbreviations and snippets   :yasnippet:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=q0KFusAaqu4&list=PL0sMmOaE_gs3E0OjExoI7vlCAVygj6S4I&index=31&pp=iAQB
+:DATE:     2021-10-10T12:56:44-07:00
+:SPEAKERS: John Kitchin
+:DURATION: 19:57
+:END:
+  When writing it is often convenient to use some auto-formatting,  auto-correcting, and templates to help you. In this video I show how we use abbreviations, yasnippets and other template functions for these purposes.
+
+  Find scimax at https://github.com/jkitchin/scimax.
+
+* scimax - words  :writing:speech:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=-9LpYK-nA4w&list=PL0sMmOaE_gs3E0OjExoI7vlCAVygj6S4I&index=32&pp=iAQB
+:DATE:     2021-10-09T07:05:25-07:00
+:SPEAKERS: John Kitchin
+:DURATION: 15:12
+:END:
+  In writing we use words all the time. Sometimes we need help understanding the words, finding better words, etc. In scimax, =words.el= provides a lot of tools for this. This video shows how scimax integrates tools like a dictionary, thesaurus, even text to speech and translation engines to work with words in #Emacs.
+
+  See the notes at https://github.com/jkitchin/scimax-channel/blob/main/readme.org#words
+
+  Find scimax at https://github.com/jkitchin/scimax.
 
 * Spell-checking in scimax  :writing:spelling:
 :PROPERTIES:
@@ -29015,6 +29456,17 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 :DURATION: 11:51
 :END:
   A Short video on some more org mode stuff on GNU/Emacs
+
+* scimax - let it be  :elisp:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=KQnVi7Pks4c&list=PL0sMmOaE_gs3E0OjExoI7vlCAVygj6S4I&index=35&pp=iAQB
+:DATE:     2021-10-04T14:37:42-07:00
+:SPEAKERS: John Kitchin
+:DURATION: 12:13
+:END:
+  let is a powerful construct in Emacs-lisp for temporarily defining and redefining variables.  In this video I explore some of the let variants, and show some examples of how I use them.
+
+  Find scimax at https://github.com/jkitchin/scimax.
 
 * Emacs Screencast #1: Mein ganzes (wissenschaftliches) Leben in Reintextform. :org:
 :PROPERTIES:
@@ -29344,6 +29796,19 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 
   https://github.com/ema2159/centaur-tabs
 
+* scimax - editmarks   :writing:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=qBmvBkpzixs&list=PL0sMmOaE_gs3E0OjExoI7vlCAVygj6S4I&index=37&pp=iAQB
+:DATE:     2021-09-25T18:46:28-07:00
+:SPEAKERS: John Kitchin
+:DURATION: 52:54
+:END:
+  In this video I will introduce the scimax-editmarks package for Emacs. This package provides some lightweight markup for adding comments, highlighting text, as well as audio recordings, and some other things. The editmarks are persistent, and can be exported to different formats like html and pdf.
+
+  You can find the org-file I used at https://github.com/jkitchin/scimax/blob/master/scimax-channel/editmarks.org
+
+  The scimax-editmarks code is at https://github.com/jkitchin/scimax/blob/master/scimax-editmarks.org
+
 * ISLisp-mode
 :PROPERTIES:
 :DATE:     2021-09-25T14:58:05+00:00
@@ -29450,7 +29915,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
   Search within files use case - https://youtu.be/-KrMaLq8Bms?t=1111
   File Notes use case - https://youtu.be/-KrMaLq8Bms?t=1181
 
-* Managing Email in Emacs with mu4e
+* Managing Email in Emacs with mu4e  :mail:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=Qq6s3PwSwjo
 :DATE:     2021-09-21T02:58:59+0000
@@ -29471,7 +29936,15 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
   - Attachments
   - Signing/Encrypting email using PGP
 
-* scimax - formatting strings in elisp
+* scimax - iteration in emacs-lisp  :elisp:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=yUnEjAPxW5A&list=PL0sMmOaE_gs3E0OjExoI7vlCAVygj6S4I&index=39&pp=iAQB
+:DATE:     2021-09-21T02:08:49-07:00
+:SPEAKERS: John Kitchin
+:DURATION: 23:55
+:END:
+  Summary of looping in emacs-lisp with similarities to Python
+* scimax - formatting strings in elisp  :elisp:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=kk2W9krvNVg
 :DATE:     2021-09-20T05:34:31+0000
@@ -32502,6 +32975,17 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
   A demo of a B-tree library for Emacs with which you can play around with B-trees. I found it useful while studying them for doing experiments, as online visualizers were too cumbersome for creating large trees, which I wanted to create to gain better intuition. Sorry for the bad sound!
 
   Github: https://github.com/alexgiorev/emacs-btree
+
+* Overview of Org-cite                                                  :org:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=4ta4J20kpmM&list=PL0sMmOaE_gs3GbuZV_sNjwMREw9rfElTV&index=49&pp=iAQB
+:DATE:     2021-06-25T08:32:55-07:00
+:SPEAKERS: John Kitchin
+:DURATION: 14:18
+:END:
+  Overview of org-cite - This is a WIP, and likely to change in the future.
+
+  The current code is at https://github.com/jkitchin/scimax/tree/master/org-ref3
 
 * Registers for File Shortcuts – A Better Bookmark – Straightforward Emacs
 :PROPERTIES:
@@ -47216,16 +47700,6 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 :VIMEO_URL: https://vimeo.com/321146066
 :SPEAKERS: Juan Manuel Macías Chaín
 :END:
-* Piezoelectric Resonator   :music:
-:PROPERTIES:
-:DATE:     2019-03-03T20:43:10+00:00
-:DURATION: 19:39
-:VIMEO_URL: https://vimeo.com/321104184
-:SPEAKERS: Repl Electric
-:END:
-  A Live musical and visual performance controlled through writing programming code. Created with SonicPi, Ruby,Emacs, Ableton Live & Unity3D.
-  Nothing pre-recorded, all performed live in one take.
-  Based on a live performance given in the US, LA at The Millennium Biltmore.
 
 * Emacs Is Great - Ep 36, Web Browsing in emacs
 :PROPERTIES:
@@ -48641,6 +49115,15 @@ Full code on github:
 :END:
   Some more (slow) live coding
 
+* org-mode and noweb for Python doctests  :org:python:noweb:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=u8CWbedVV9Y
+:DATE:     2018-05-18T15:07:47-07:00
+:SPEAKERS: John Kitchin
+:DURATION: 4:44
+:END:
+  An example of using org-mode and noweb to create Python functions with tested doctests.
+
 * Emacs as an Instrument
 :PROPERTIES:
 :DATE:     2018-05-16T14:06:53+00:00
@@ -48751,16 +49234,6 @@ Full code on github:
 
   Emacs config: https://github.com/zamansky/using-emacs
 
-* Repl Electric - You fall into your screen   :music:
-:PROPERTIES:
-:DATE:     2018-04-20T16:09:55+00:00
-:DURATION: 22:54
-:VIMEO_URL: https://vimeo.com/265785040
-:SPEAKERS: Repl Electric
-:END:
-  Live coded performance using Ruby, Emacs, SonicPi and Unity3D.
-  No post production or pre-rendering. Visuals are all live and controlled via emacs.
-  Based on a live performance given in the UK at Exeter University.
 
 * Scratching Samples with Emacs  :music:multimedia:
 :PROPERTIES:
@@ -48771,7 +49244,7 @@ Full code on github:
 :END:
   Controlling head playback position via the cursor position in Emacs.
 
-* Controlling Synths live in Emacs
+* Controlling Synths live in Emacs  :music:
 :PROPERTIES:
 :DATE:     2018-04-17T13:35:27+00:00
 :DURATION: 1:40
@@ -49709,6 +50182,24 @@ Full code on github:
 
   Series page: http://cestlaz.github.io/stories/emacs
 
+* Adding keymaps to org-mode src blocks :org:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=a2jHqB1qWiY
+:DATE:     2017-06-10T12:25:46-07:00
+:SPEAKERS: John Kitchin
+:DURATION: 4:54
+:END:
+  This shows how to add custom keymaps to src blocks in org-mode. See the blog post and code here: http://kitchingroup.cheme.cmu.edu/blog/2017/06/10/Adding-keymaps-to-src-blocks-via-org-font-lock-hook/
+
+* Scimax enhancements to ipython in org-mode  :org:python:scimax:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=dMira3QsUdg
+:DATE:     2017-05-26T13:51:21-07:00
+:SPEAKERS: John Kitchin
+:DURATION: 6:29
+:END:
+  Here are a couple of examples of new features in scimax that make running ipython src blocks better
+
 * Weird Emacs display thing
 :PROPERTIES:
 :DATE:     2017-05-18T13:47:39+00:00
@@ -50329,6 +50820,24 @@ Full code on github:
 
   Series page: http://cestlaz.github.io/stories/emacs
 
+* Persistent highlights in Emacs  :org:overlay:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=syeRq_LBFns
+:DATE:     2016-11-10T06:19:18-08:00
+:SPEAKERS: John Kitchin
+:DURATION: 5:59
+:END:
+  This video shows how we use overlays to get persistent text highlights and annotations in Emacs. See the blog post at http://kitchingroup.cheme.cmu.edu/blog/2016/11/10/Persistent-highlighting-in-Emacs/
+
+* Better asynchronous python blocks in org-mode  :org:python:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=m4vCXM7_p_o
+:DATE:     2016-11-09T08:01:29-08:00
+:SPEAKERS: John Kitchin
+:DURATION: 6:45
+:END:
+  This video shows some improvements we have made to running Python src blocks in org-mode, including autopep8 reformatting and pylint. See the blogpost here: http://kitchingroup.cheme.cmu.edu/blog/2016/11/09/New-and-improved-asynchronous-org-babel-python-blocks/
+
 * Writing Thesis with Emacs + AUCTeX +Yasnippet
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=UjprbZl_m6Y
@@ -50364,6 +50873,33 @@ Full code on github:
   Tmux config files:
   - https://github.com/wx672/dotfile/tree/master/dot.tmux
   - https://github.com/wx672/dotfile/blob/master/dot.tmux.conf
+
+* Continuous numbering of org-mode equations  :org:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=pcMuJlUvKCw
+:DATE:     2016-11-07T04:03:31-08:00
+:SPEAKERS: John Kitchin
+:DURATION: 2:44
+:END:
+  This video shows how to get continuous numbering in org-mode equations.
+
+* Justifying orgmode LaTeX fragment overlays  :org:latex:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=nA9YzooqpWY
+:DATE:     2016-11-06T17:41:40-08:00
+:SPEAKERS: John Kitchin
+:DURATION: 3:14
+:END:
+  This video shows how to modify the justification of org latex fragment images in org-buffers. Find the source here: http://kitchingroup.cheme.cmu.edu/blog/2016/11/06/Justifying-LaTeX-preview-fragments-in-org-mode/
+
+* New link features in org-mode v9.0   :org:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=5haX95nk02E
+:DATE:     2016-11-03T20:57:12-07:00
+:SPEAKERS: John Kitchin
+:DURATION: 10:01
+:END:
+  Demonstration of new link features in org-mode. See the code at http://kitchingroup.cheme.cmu.edu/blog/2016/11/04/New-link-features-in-org-9/
 
 * Using Emacs 18 - iedit, narrowing, and widening
 :PROPERTIES:
@@ -50590,16 +51126,6 @@ Full code on github:
 :END:
   Have trouble finding your plot when using ESS? View it by toggling the transparency of your emacs frame. TODO:  version 2 with a transparent window (bottom-right) instead of whole frame.
 
-* Less is Code: An Audio-Visual Live Coding Performance  :music:multimedia:
-:PROPERTIES:
-:DATE:     2016-09-11T11:38:21+00:00
-:DURATION: 6:40
-:VIMEO_URL: https://vimeo.com/182279635
-:SPEAKERS: Joan Sandoval
-:END:
-  A minimalist-based audio-visual live coding performance which explores cross modal perceptual analogies.
-
-  by Joan Sandoval
 
 * Rolf Langsdorf: Emacs as Perl IDE‎ - YAPC::Europe 2016
 :PROPERTIES:
@@ -50899,6 +51425,15 @@ Full code on github:
 
   Link to series home page: http://cestlaz.github.io/stories/emacs
 
+* Copy formatted text from org-mode to applications  :org:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=irkmQnggVpE
+:DATE:     2016-06-16T08:44:23-07:00
+:SPEAKERS: John Kitchin
+:DURATION: 3:47
+:END:
+  How to copy org-mode text with formatting to other applications
+
 * Using Emacs 5 - Windows
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=D6OUMVbPKSA&list=PL9KxKa8NpFxIcNQa9js7dQQIHc81b0-Xg&index=5&pp=iAQB
@@ -50923,6 +51458,24 @@ Full code on github:
   Function: Agenda view (advanced)
 
   Read more about orgmode and some "show notes" in the OrgMode section of my blog at http://koenig-haunstetten.de/tag/orgmode/
+
+* Prefix args with ivy  :ivy:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=Y8HHLAE_-yA
+:DATE:     2016-06-14T08:02:11-07:00
+:SPEAKERS: John Kitchin
+:DURATION: 4:05
+:END:
+  Illustrates the new prefix arg feature of ivy
+
+* Dynamic sorting in ivy  :ivy:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=nFKfM3MOAd0
+:DATE:     2016-06-13T11:58:10-07:00
+:SPEAKERS: John Kitchin
+:DURATION: 6:13
+:END:
+  How to dynamically sort candidates with ivy.
 
 * OrgMode E01S01: Headlines & outline mode                              :org:
 :PROPERTIES:
@@ -51128,6 +51681,15 @@ Full code on github:
   Enlace a github: https://github.com/jwiegley/use-package
   Enlace a linkd: https://www.emacswiki.org/emacs/download/linkd.el
 
+* eldoc/lispy integration in hy-mode  :eldoc:lispy:coding:hy:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=m62oiB6Feeo
+:DATE:     2016-04-06T13:40:02-07:00
+:SPEAKERS: John Kitchin
+:DURATION: 5:11
+:END:
+  Demonstration of integrating eldoc and lispy into hy-mode for the hy language in Emacs
+
 * GNU Emacs #3: Archivo .emacs
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=LE5cLc98KEY
@@ -51165,6 +51727,15 @@ Full code on github:
 :DURATION: 04:54
 :END:
   Shows how to use font-lock to provide image tooltips in Emacs for image files
+
+* Teleport org-mode headlines  :org:ivy:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=Vv-2888rpyc
+:DATE:     2016-03-17T09:49:40-07:00
+:SPEAKERS: John Kitchin
+:DURATION: 3:42
+:END:
+  Use ivy to move headlines around in your org-buffer. See http://kitchingroup.cheme.cmu.edu/blog/2016/03/18/Org-teleport-headlines/ for the code.
 
 * Graphical tooltips in Emacs  :tooltip:appearance:
 :PROPERTIES:
@@ -51472,6 +52043,51 @@ Using restclient within emacs...
 :END:
 
 
+* Helm + LDAP in emacs  :helm:ldap:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=N7AaKHRd9uw
+:DATE:     2015-11-25T06:30:12-08:00
+:SPEAKERS: John Kitchin
+:DURATION: 7:56
+:END:
+  We show how to use Helm to select entries from an LDAP query
+
+* Contextual help in org-mode   :org:help:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=99uxJWqZGzA
+:DATE:     2015-11-24T06:19:19-08:00
+:SPEAKERS: John Kitchin
+:DURATION: 11:33
+:END:
+  We describe an approach to get help on what you can do in org-mode with the element at point.
+
+* Improving org-ref cite links with tooltips  :org:OrgRef:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=ifSmlId2rk0
+:DATE:     2015-11-23T04:02:28-08:00
+:SPEAKERS: John Kitchin
+:DURATION: 2:14
+:END:
+  Shows how to add a dynamic tooltip to an org-ref cite link.
+
+* Tooltips on Emacs commands and variables in org-mode   :org:tooltip:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=VLUMW0sR4Vk
+:DATE:     2015-11-22T06:51:16-08:00
+:SPEAKERS: John Kitchin
+:DURATION: 7:05
+:END:
+  Describes how to add tooltips and functionality to Emacs documentation markup in org-mode.
+
+* Asynchronous python in org-mode src-blocks   :org:python:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=VDyoN8yipSE
+:DATE:     2015-11-20T07:43:21-08:00
+:SPEAKERS: John Kitchin
+:DURATION: 8:54
+:END:
+  We illustrate some approaches to run Python code asynchronously in Emacs and see the output as it goes.
+
 * 2015-11-18 Emacs Hangout
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=A4uunJOltj8&list=PLomc4HLgvuCWZD3pWBpDfJiJRkz0zkY1b&index=5&pp=gAQBiAQB
@@ -51555,6 +52171,15 @@ Using restclient within emacs...
 :END:
   Notes: http://sachachua.com/blog/2015/10/2015-10-14-emacs-hangout/
 
+* Line numbers in org-mode code blocks  :org:OrgBabel:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=kinWijGzXms
+:DATE:     2015-10-13T05:55:36-07:00
+:SPEAKERS: John Kitchin
+:DURATION: 6:17
+:END:
+  This video shows how to get temporary line numbers in an org-mode code block.
+
 * Python + Org-mode for fluent output generation of scientific research :org:python:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=Bvse62CR-w0&feature=youtu.be
@@ -51569,6 +52194,15 @@ Using restclient within emacs...
   Each of these steps has a cognitive overhead (non-fluency), which hampers your productivity, especially if it has been a while since you looked at them. Using IPython Notebook facilitates some of the procedures but it does not solve everything.
 
   In this talk, I introduce org-mode and some of its functionalities for all three steps. org-mode is ideal for managing these tasks because it can minimize the non-fluency. It has a convenient and flexible markup syntax for hierarchical documents. It uses tree-like headlines, which make it very easy to organize code and text. It provides a convenient way to collapse or expand headline blocks and navigate through them. In addition, one can execute a code block or export the results (or the source code itself) conveniently inside org-mode. Theoretically, one can have the entire contents and code for a paper and a presentation inside one org file. I show examples of how one can leverage these functionalities to maintain outputs.
+
+* Using the cursor to toggle LaTeX overlays in org-mode  :org:latex:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=E0s3PDBqsEc
+:DATE:     2015-10-09T08:51:40-07:00
+:SPEAKERS: John Kitchin
+:DURATION: 3:53
+:END:
+  We explore using the cursor to toggle the image overlays on LaTeX equations in org-mode.
 
 * Emacs For Writers  :writing:
 :PROPERTIES:
@@ -51962,6 +52596,15 @@ Using restclient within emacs...
   wiki John McCarthy : https://fr.wikipedia.org/wiki/John_McCarthy
   wiki Lisp :https://fr.wikipedia.org/wiki/Lisp
 
+* Highlighting text in Emacs  :appearance:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=Cvz2tiT12-I
+:DATE:     2015-07-28T07:51:31-07:00
+:SPEAKERS: John Kitchin
+:DURATION: 11:01
+:END:
+  We show how to highlight text in Emacs and discuss some limitations of the approach
+
 * GNU EMACS SEMAINE 4 VIDEO 1
 :PROPERTIES:
 :DATE:     2015-07-27T12:16:56+00:00
@@ -52138,6 +52781,15 @@ Using restclient within emacs...
   Récapitulatif de la semaine 1.
   20 commandes sont abordées.
 
+* Changing Emacs drag-n-drop behavior   :DragAndDrop:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=ahqKXbBVjpQ
+:DATE:     2015-07-10T12:00:10-07:00
+:SPEAKERS: John Kitchin
+:DURATION: 4:36
+:END:
+
+
 * GNU Emacs Semaine 1 Vidéo 7
 :PROPERTIES:
 :DATE:     2015-07-09T13:49:17+00:00
@@ -52167,6 +52819,15 @@ Using restclient within emacs...
 :END:
   Conversions de casse (majuscule/minuscule)
 
+* Acronym mode for Emacs   :tooltip:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=2G2isMO6E2c
+:DATE:     2015-07-09T04:22:17-07:00
+:SPEAKERS: John Kitchin
+:DURATION: 3:36
+:END:
+  A demonstration of a minor mode for Emacs to put tooltip definitions on acronyms based on definitions in the buffer.
+
 * GNU Emacs Semaine 1 Vidéo 4
 :PROPERTIES:
 :DATE:     2015-07-07T13:22:25+00:00
@@ -52179,6 +52840,23 @@ Using restclient within emacs...
   2) Inversion de mots
   3) Inversion de lignes
 
+* Getting location information from swish-e searches  :search:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=bTwXtEb5Ng8
+:DATE:     2015-07-06T08:01:46-07:00
+:SPEAKERS: John Kitchin
+:DURATION: 5:29
+:END:
+
+
+* Functional chemical formulas in Emacs   :chemistry:science:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=sjxS9m8QCoo
+:DATE:     2015-07-02T09:33:24-07:00
+:SPEAKERS: John Kitchin
+:DURATION: 5:13
+:END:
+  Using pyparsing to make chemical formulas functional and clickable in Emacs
 * GNU Emacs Semaine 1 Vidéo 3
 :PROPERTIES:
 :DATE:     2015-07-01T21:15:35+00:00
@@ -52194,6 +52872,15 @@ Using restclient within emacs...
   Wiki (en) http://www.emacswiki.org/emacs/
   Tuteur ENS (fr) : http://www.tuteurs.ens.fr/unix/editeurs/emacs.html
   Ubuntu (fr) : http://doc.ubuntu-fr.org/emacs
+
+* Spoken translations in Emacs   :speech:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=8CBKnahE0ak
+:DATE:     2015-07-01T08:27:52-07:00
+:SPEAKERS: John Kitchin
+:DURATION: 2:42
+:END:
+  Use Emacs to translate text to other languages and then speak the translated text.
 
 * GNU Emacs Semaine 1 Vidéo 2
 :PROPERTIES:
@@ -52221,6 +52908,33 @@ Using restclient within emacs...
   4) Benjamin Bayart comprendre les enjeux de l'internet : https://www.youtube.com/watch?v=yBmz29_5ffA
   5) Jérémie Zimmermann à l'ENS : https://www.youtube.com/watch?v=YgnAHcX2WM8
   6) Arte surveillance de masse : http://future.arte.tv/fr/cybersurveillance
+
+* Spoken definitions in Emacs  :speech:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=m529gXMrXZA
+:DATE:     2015-06-30T08:17:44-07:00
+:SPEAKERS: John Kitchin
+:DURATION: 3:05
+:END:
+  Use Emacs to look up the word at point in the Merriam dictionary, and then read the definition back to you.
+
+* Getting Emacs to read to me   :speech:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=8bgS8yDSkXw
+:DATE:     2015-06-29T10:57:54-07:00
+:SPEAKERS: John Kitchin
+:DURATION: 1:48
+:END:
+  Using the builtin voices in Mac OSX to read text in Emacs
+
+* Clickable text in Emacs  :tooltip:navigation:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=Ogavyl_QXiU
+:DATE:     2015-06-26T08:35:14-07:00
+:SPEAKERS: John Kitchin
+:DURATION: 3:40
+:END:
+  How to add clickable text in emacs with dynamic tooltips
 
 * Evil Mode: Or, How I Learned to Stop Worrying and Love Emacs  :EvilMode:
 :PROPERTIES:
@@ -52495,18 +53209,15 @@ Using restclient within emacs...
 :VIMEO_URL: https://vimeo.com/119023438
 :SPEAKERS: Rocky Bernstein
 :END:
-* Repl Electric - End of buffer  :music:
+* org-ref+helm  :org:OrgRef:helm:
 :PROPERTIES:
-:DATE:     2015-01-22T19:31:00+00:00
-:DURATION: 9:28
-:VIMEO_URL: https://vimeo.com/117516352
-:SPEAKERS: Repl Electric
+:YOUTUBE_URL: https://www.youtube.com/watch?v=8cEb6F9AEu0
+:DATE:     2015-01-27T09:49:51-08:00
+:SPEAKERS: John Kitchin
+:DURATION: 7:12
 :END:
-  A live coded performance based on a performance given in New York City.
+  New features in org-ref with helm integration
 
-  Live coded using Clojure, Emacs, Overtone, Dirt (Part of Tidal) & Shadertone. No post-production.
-
-  All the performance source is open for the world to see and play with: https://github.com/repl-electric/cassiopeia
 
 * 2015-01-21 Emacs Chat - Steve Purcell  :community:
 :PROPERTIES:
@@ -52539,12 +53250,30 @@ Using restclient within emacs...
   Learn more from the developers at thoughtbot ⌨️
   Head over to http://tbot.io/dev-blog to read more great articles on our blog.
 
+* pydoc in Emacs   :python:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=G_r7wTcVK54
+:DATE:     2014-12-22T06:30:04-08:00
+:SPEAKERS: John Kitchin
+:DURATION: 4:05
+:END:
+  Demonstration of a new pydoc module for Emacs.
+
 * org-ref in action                                                     :org:OrgRef:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=Zya8SfmCtFA&feature=youtu.be
 :DATE:     2014-12-19T20:11:32+0000
 :SPEAKERS: John Kitchin
 :DURATION: 03:18
+:END:
+
+
+* Teaching with Emacs+org-mode  :org:teaching:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=cRUCiF2MwP4
+:DATE:     2014-12-19T08:25:07-08:00
+:SPEAKERS: John Kitchin
+:DURATION: 6:35
 :END:
 
 
@@ -52565,6 +53294,15 @@ Using restclient within emacs...
 :DURATION: 33:18
 :END:
   This is an overview screencast of https://github.com/abo-abo/lispy.
+
+* helm-ps interface   :helm:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=3FImB6OwHI0
+:DATE:     2014-11-22T11:58:47-08:00
+:SPEAKERS: John Kitchin
+:DURATION: 6:15
+:END:
+  example of using helm to create an interactive interface to ps with actions for a selection.
 
 * Emacs Rocks! Episode 15: restclient-mode
 :PROPERTIES:
@@ -52635,6 +53373,15 @@ Using restclient within emacs...
   Presented by Jacob O'Donnell (http://www.jacobodonnell.com/)
 
   Keyboard macros are a powerful Emacs feature! A keyboard macro is simply a recording of a sequence of key sequences that can be played back and repeated. In this meetup we go over the different keyboard macro commands Emacs has to offer; and in the second half we solve a couple repetitive text manipulation tasks using them.
+
+* Edit in Canopy from Emacs  :external:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=-noKrT1dfFE
+:DATE:     2014-09-28T11:13:49-07:00
+:SPEAKERS: John Kitchin
+:DURATION: 4:05
+:END:
+  Illustrates using an external editor from Emacs
 
 * An Emacs Calc-Mode Epiphany                                          :calc:
 :PROPERTIES:
@@ -52753,6 +53500,15 @@ Using restclient within emacs...
 :END:
   This is the second tutorial for Generalized Linear Models (w/ Bayesian Inference).  The topic is managing input files and output files using GNU Emacs and ESS (Emacs Speaks Statistics).  In this tutorial we do the same simple regression analysis as in the first tutorial (GLM2-1), but using Emacs/ESS.
 
+* A Success Story in Using Python in a Graduate Chemical Engineering Course| SciPy 2014 | John Kitchin  :teaching:python:org:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=IsSMs-4GlT8&list=PL0sMmOaE_gs3GbuZV_sNjwMREw9rfElTV&index=5&pp=iAQB
+:DATE:     2014-07-13T09:48:18-07:00
+:SPEAKERS: Enthought
+:DURATION: 25:20
+:END:
+
+
 * Turtle Graphics with Emacs Lisp
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=zzbEjmlIET0&list=PL8tzorAO7s0he-pp7Y_JDl7-Kz2Qlr_Pj&index=17&t=13s&pp=iAQB
@@ -52804,6 +53560,15 @@ Using restclient within emacs...
   * https://github.com/magnars/expand-region.el
   * https://github.com/magnars/multiple-cursors.el
   * https://github.com/smihica/emmet-mode for quickly writing HTML
+* org show show  :org:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=JZ8RK-R9O_g
+:DATE:     2014-06-27T10:28:30-07:00
+:SPEAKERS: John Kitchin
+:DURATION: 6:32
+:END:
+  A show about using org-show
+
 * Emacs Org-mode Bibtex Screencast                                      :org:
 :PROPERTIES:
 :DATE:     2014-06-25T18:12:23+00:00
@@ -52813,6 +53578,14 @@ Using restclient within emacs...
 :END:
   Demonstrating the bibtex functionality built into Org-mode.  Sorry no sound.
 
+* org ref show   :org:OrgRef:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=JyvpSVl4_dg
+:DATE:     2014-06-24T11:34:14-07:00
+:SPEAKERS: John Kitchin
+:DURATION: 11:20
+:END:
+  Demonstration of org-ref features.
 * Writing Games with Emacs
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=gk39mp8Vy4M&list=PL8tzorAO7s0he-pp7Y_JDl7-Kz2Qlr_Pj&index=18&pp=iAQB
@@ -53043,15 +53816,6 @@ Using restclient within emacs...
 
   http://sachachua.com/blog/?p=27098&shareadraft=baba27098_53306da9c8ff1
 
-* Repl Electric - Tsih  :music:
-:PROPERTIES:
-:DATE:     2014-03-21T19:45:52+00:00
-:DURATION: 7:04
-:VIMEO_URL: https://vimeo.com/89741187
-:SPEAKERS: Repl Electric
-:END:
-  Live Music coding with Overtone, Clojure, Emacs Live and Shadertone.
-  All source code: http://github.com/repl-electric
 
 * Emacs Basics - Calling commands by name with M-x  :tutorial:
 :PROPERTIES:
@@ -53372,13 +54136,6 @@ Using restclient within emacs...
 :DURATION: 4:20
 :VIMEO_URL: https://vimeo.com/77124644
 :SPEAKERS: juan antonio ruz
-:END:
-* Sam Aaron 2nd live performance with Overtone at EuroClojure 2013  :music:
-:PROPERTIES:
-:DATE:     2013-10-16T09:15:50+00:00
-:DURATION: 5:51
-:VIMEO_URL: https://vimeo.com/77030184
-:SPEAKERS: Jérémie Grodziski
 :END:
 * Debugging CL-HTTP, using Clozure Common Lisp, GNU Emacs and SLIME
 :PROPERTIES:
@@ -53746,17 +54503,6 @@ Using restclient within emacs...
   March 22, 2013
   (Copied over from Vimeo)
 
-* Sam Aaron, Live @ Arnolfini 2012   :music:
-:PROPERTIES:
-:DATE:     2013-03-05T14:25:04+00:00
-:DURATION: 17:11
-:VIMEO_URL: https://vimeo.com/61097922
-:SPEAKERS: Sam Aaron
-:END:
-  A live set performed by Sam Aaron at the Arnolfini art gallery in Bristol. Sound is designed and manipulated with Overtone (github.com/overtone/overtone), graphics with Quil (github.com/quil/quil) and is controlled via Emacs with the Emacs Live config (overtone.github.com/emacs-live/). Additionally a Korg NanoKontrol 2 was used to control some values in Emacs and the Satie part was performed with a monome (monome.org). All the code for this performance is Open Source and available on github: github.com/samaaron/arnold
-
-  For a pure screencast version of the same performance see: https://vimeo.com/46867490
-
 * Emacs Chat with Avdi Grimm   :community:
 :PROPERTIES:
 :DATE:     2013-03-01T17:50:21+00:00
@@ -54058,33 +54804,7 @@ Using restclient within emacs...
   Follow us on Twitter @Erlangfactory twitter.com/#!/erlangfactory
   Join our group on Linkedin Erlang Factory linkedin.com/groups/Erlang-Factory-2003110?trk=myg_ugrp_ovr
 
-* Live Hacking Overtone - Internal Sequencer   :music:
-:PROPERTIES:
-:DATE:     2012-08-15T10:05:04+00:00
-:DURATION: 10:55
-:VIMEO_URL: https://vimeo.com/47578617
-:SPEAKERS: Sam Aaron
-:END:
-  A quick run-through and then live jam with the internal sequencer example available in the latest development version of Overtone: http://bit.ly/MwdRJX
 
-  No fancy graphics this time - just raw text in Emacs, noise from Overtone and programming in Clojure.
-
-  Any questions will be happily answered in the Overtone mailing list: http://groups.google.com/group/overtone/
-
-* Sam Aaron - Hacking Overtone - Live @ Arnolfini   :music:
-:PROPERTIES:
-:DATE:     2012-08-03T08:30:58+00:00
-:DURATION: 17:08
-:VIMEO_URL: https://vimeo.com/46867490
-:SPEAKERS: Sam Aaron
-:END:
-  A live set performed by Sam Aaron at the Arnolfini art gallery in Bristol. Sound is designed and manipulated with Overtone (http://github.com/overtone/overtone), graphics with Quil (http://github.com/quil/quil) and is controlled via Emacs with the Emacs Live config (http://overtone.github.com/emacs-live/). Additionally a Korg NanoKontrol 2 was used to control some values in Emacs and the Satie part was performed with a monome (http://monome.org). All the code for this performance is Open Source and available on github: http://github.com/samaaron/arnold
-
-  * For a stage capture of the same performance see: https://vimeo.com/61097922
-
-  * For a short 4 minute introduction to Overtone head here: https://vimeo.com/22798433
-
-  * Check out Meta-eX the Overtone-powered band: http://meta-ex.com
 
 * GUI Bug in Emacs NS port   :bug:
 :PROPERTIES:

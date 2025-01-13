@@ -3186,6 +3186,36 @@ This video is available under the terms of the Creative Commons Attribution-Shar
       <pubDate>Tue, 23 Jul 2024 10:54:59 +0000</pubDate>
     </item>
     <item>
+      <title>How tables in org-mode support an ELN</title>
+      <link>https://www.youtube.com/watch?v=qZfpz1Pp0UI&amp;list=PL0sMmOaE_gs1Ox-wIIbHPLZ9O5uLJ_rQW&amp;index=22&amp;pp=iAQB</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=qZfpz1Pp0UI&list=PL0sMmOaE_gs1Ox-wIIbHPLZ9O5uLJ_rQW&index=22&pp=iAQB">youtube</a><br><br>Tables are an essential component of an ELN. #orgmode provides extensive support for creating, manipulating and exporting tables. It also provides a way to use tables as data sources in code blocks. This video covers a lot of the features of tables in org-mode and how you can use them in an ELN.
+
+  Repo: https://github.com/jkitchin/scimax-eln
+
+  - Video 1 - https://www.youtube.com/watch?v=KodhYAo4xn0&t=0s
+  - Video 2 - joblib https://www.youtube.com/watch?v=sHiMOQkNFKQ
+  - Video 3 - hashcache https://youtube.com/live/d3zcfdylKOc
+  - Video 4 - SqlCache https://youtube.com/live/aWnYGOWWIqY
+  - Video 5 - molecular simulation https://youtube.com/live/eQcTubl-7kw
+  - Video 6 - writing reports in the notebook https://youtube.com/live/c9saatJ2o7A
+  - Video 7 - Interoperability and extendability https://youtube.com/live/RumU94MxqN4
+  - Video 8 - Searching your notebook https://youtube.com/live/C02FFd520MI
+  - Video 9 - Running Arduino devices https://youtube.com/live/Fn7sq8uRsGQ
+  - Video 10 - Electronic lab notebook with scimax - ELNs in the literature https://youtube.com/live/icPlZCF6LEw
+  - Video 11 - Publishing your ELN to GitHUB Pages https://youtube.com/live/zIgSOiMFBWU
+  - Video 12 - Tracking reagents in an ELN with scimax, completion and QR codes https://youtube.com/live/bLyhOCXn-Hg
+  - Video 13 - Controlling a remote instrument from an ELN - the SDL-light https://youtube.com/live/qbqxSKJ1F60
+  - Video 14 - SDL-Light with a design of experiment approach https://youtube.com/live/g1DEVScu6NE
+  - Video 15 - Reproducibility, significant differences and interactions in the SDL-Light https://youtube.com/live/BlUzXcyyYc0
+  - Video 16 - ANOVA + DOE with the SDL-Light https://youtube.com/live/pGuolCOZ8HQ
+  - Video 17 - Active learning and surrogates - take 1 https://youtube.com/live/mgxSuNgQmNQ
+  - Video 18 - Active learning and surrogates - take 2 https://youtube.com/live/-cH4mXnulwk
+  - Video 19 - An sklearn-doe package with application to the SDL-Light https://youtube.com/live/Sfbmk4zTFCw
+  - Video 20 - An sklearn-doe package for Latin square designs https://youtube.com/live/VH8ooOeN4RI
+  - Video 21 - update on sklearn-doe package https://youtube.com/live/uxLCNEj1FbY</div>]]></description>
+      <pubDate>Fri, 19 Jul 2024 02:07:43 +0000</pubDate>
+    </item>
+    <item>
       <title>Algumas perguntas pros estudantes de C2 que estão aprendendo Emacs, eev e Maxima</title>
       <link>https://www.youtube.com/watch?v=FjhyhTxN_-o</link>
       <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=FjhyhTxN_-o">youtube</a><br><br>Veja:
@@ -3227,10 +3257,198 @@ This video is available under the terms of the Creative Commons Attribution-Shar
       <pubDate>Tue, 09 Jul 2024 16:15:01 +0000</pubDate>
     </item>
     <item>
+      <title>Controlling a remote instrument from an ELN - the SDL-light #13</title>
+      <link>https://www.youtube.com/watch?v=qbqxSKJ1F60&amp;list=PL0sMmOaE_gs1Ox-wIIbHPLZ9O5uLJ_rQW&amp;index=13&amp;pp=iAQB</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=qbqxSKJ1F60&list=PL0sMmOaE_gs1Ox-wIIbHPLZ9O5uLJ_rQW&index=13&pp=iAQB">youtube</a><br><br>Controlling remote instruments from your ELN is a necessary feature. In this paper by Baird, S. G., & Sparks, T. D. (@TaylorSparks) (2022). What is a minimal working example for a   self-driving laboratory? Matter, 5(12), 4170–4178.  http://dx.doi.org/10.1016/j.matt.2022.11.007 they describe a simple instrument that is remotely accessible and provide a Colab notebook to run it. In this video we control the instrument from #emacs and #orgmode and run some experiments to find conditions that come close to a desired output.
+
+  Repo: https://github.com/jkitchin/scimax-eln
+
+  - Video 1 - https://www.youtube.com/watch?v=KodhYAo4xn0&t=0s
+  - Video 2 - joblib https://www.youtube.com/watch?v=sHiMOQkNFKQ
+  - Video 3 - hashcache https://youtube.com/live/d3zcfdylKOc
+  - Video 4 - SqlCache https://youtube.com/live/aWnYGOWWIqY
+  - Video 5 - molecular simulation https://youtube.com/live/eQcTubl-7kw
+  - Video 6 - writing reports in the notebook https://youtube.com/live/c9saatJ2o7A
+  - Video 7 - Interoperability and extendability https://youtube.com/live/RumU94MxqN4
+  - Video 8 - Searching your notebook https://youtube.com/live/C02FFd520MI
+  - Video 9 - Running Arduino devices https://youtube.com/live/Fn7sq8uRsGQ
+  - Video 10 - Electronic lab notebook with scimax - ELNs in the literature https://youtube.com/live/icPlZCF6LEw
+  - Video 11 - Publishing your ELN to GitHUB Pages https://youtube.com/live/zIgSOiMFBWU
+  - Video 12 - Tracking reagents in an ELN with scimax, completion and QR codes https://youtube.com/live/bLyhOCXn-Hg</div>]]></description>
+      <pubDate>Wed, 03 Jul 2024 02:23:44 +0000</pubDate>
+    </item>
+    <item>
+      <title>Tracking reagents in an ELN with scimax, completion and QR codes #12</title>
+      <link>https://www.youtube.com/watch?v=bLyhOCXn-Hg&amp;list=PL0sMmOaE_gs1Ox-wIIbHPLZ9O5uLJ_rQW&amp;index=12&amp;pp=iAQB</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=bLyhOCXn-Hg&list=PL0sMmOaE_gs1Ox-wIIbHPLZ9O5uLJ_rQW&index=12&pp=iAQB">youtube</a><br><br>In this video I show how we can use scimax with an inventory of reagents to insert them into your notebook, e.g. for an experiment. You can do this with completion, or with a QR code and a camera!
+
+  Repo: https://github.com/jkitchin/scimax-eln
+
+  - Video 1 - https://www.youtube.com/watch?v=KodhYAo4xn0&t=0s
+  - Video 2 - joblib https://www.youtube.com/watch?v=sHiMOQkNFKQ
+  - Video 3 - hashcache https://youtube.com/live/d3zcfdylKOc
+  - Video 4 - SqlCache https://youtube.com/live/aWnYGOWWIqY
+  - Video 5 - molecular simulation https://youtube.com/live/eQcTubl-7kw
+  - Video 6 - writing reports in the notebook https://youtube.com/live/c9saatJ2o7A
+  - Video 7 - Interoperability and extendability https://youtube.com/live/RumU94MxqN4
+  - Video 8 - Searching your notebook https://youtube.com/live/C02FFd520MI
+  - Video 9 - Running Arduino devices https://youtube.com/live/Fn7sq8uRsGQ
+  - Video 10 - Electronic lab notebook with scimax - ELNs in the literature https://youtube.com/live/icPlZCF6LEw
+  - Video 11 - Publishing your ELN to GitHUB Pages https://youtube.com/live/zIgSOiMFBWU</div>]]></description>
+      <pubDate>Mon, 01 Jul 2024 14:44:01 +0000</pubDate>
+    </item>
+    <item>
+      <title>Publishing your ELN to GitHUB Pages - #11</title>
+      <link>https://www.youtube.com/watch?v=zIgSOiMFBWU&amp;list=PL0sMmOaE_gs1Ox-wIIbHPLZ9O5uLJ_rQW&amp;index=11&amp;pp=iAQB</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=zIgSOiMFBWU&list=PL0sMmOaE_gs1Ox-wIIbHPLZ9O5uLJ_rQW&index=11&pp=iAQB">youtube</a><br><br>Emacs is a fantastic UI to create notebook content, and consume (read) it. The notebook pages are in plain text though, and although GitHUB has some ability to render it in a nicer way, it isn't as nice as what is in Emacs IMO. We can convert our notebook pages to html, and host them on a remote server to make it easier for others (even including ourselves) to view the pages in a browser.  We use GitHUB pages in this example.
+
+  Repo: https://github.com/jkitchin/scimax-eln
+
+  - Video 1 - https://www.youtube.com/watch?v=KodhYAo4xn0&t=0s
+  - Video 2 - joblib https://www.youtube.com/watch?v=sHiMOQkNFKQ
+  - Video 3 - hashcache https://youtube.com/live/d3zcfdylKOc
+  - Video 4 - SqlCache https://youtube.com/live/aWnYGOWWIqY
+  - Video 5 - molecular simulation https://youtube.com/live/eQcTubl-7kw
+  - Video 6 - writing reports in the notebook https://youtube.com/live/c9saatJ2o7A
+  - Video 7 - Interoperability and extendability https://youtube.com/live/RumU94MxqN4
+  - Video 8 - Searching your notebook https://youtube.com/live/C02FFd520MI
+  - Video 9 - Running Arduino devices https://youtube.com/live/Fn7sq8uRsGQ
+  - Video 10 - Electronic lab notebook with scimax - ELNs in the literature https://youtube.com/live/icPlZCF6LEw</div>]]></description>
+      <pubDate>Sat, 29 Jun 2024 13:37:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>Electronic lab notebook with scimax - ELNs in the literature #10</title>
+      <link>https://www.youtube.com/watch?v=icPlZCF6LEw&amp;list=PL0sMmOaE_gs1Ox-wIIbHPLZ9O5uLJ_rQW&amp;index=10&amp;pp=iAQB</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=icPlZCF6LEw&list=PL0sMmOaE_gs1Ox-wIIbHPLZ9O5uLJ_rQW&index=10&pp=iAQB">youtube</a><br><br>This is a meta video about researching ELNs in my #scimax ELN. I review a paper I found on considerations for ELNs, and use that paper to find related articles on ELNs. I document those papers in an entry in my ELN.
+
+  #emacs #orgmode
+
+  Repo: https://github.com/jkitchin/scimax-eln
+
+  - Video 1 - https://www.youtube.com/watch?v=KodhYAo4xn0&t=0s
+  - Video 2 - joblib https://www.youtube.com/watch?v=sHiMOQkNFKQ
+  - Video 3 - hashcache https://youtube.com/live/d3zcfdylKOc
+  - Video 4 - SqlCache https://youtube.com/live/aWnYGOWWIqY
+  - Video 5 - molecular simulation https://youtube.com/live/eQcTubl-7kw
+  - Video 6 - writing reports in the notebook https://youtube.com/live/c9saatJ2o7A
+  - Video 7 - Interoperability and extendability https://youtube.com/live/RumU94MxqN4
+  - Video 8 - Searching your notebook https://youtube.com/live/C02FFd520MI
+  - Video 9 - Running Arduino devices https://youtube.com/live/Fn7sq8uRsGQ</div>]]></description>
+      <pubDate>Fri, 28 Jun 2024 07:03:33 +0000</pubDate>
+    </item>
+    <item>
+      <title>Electronic Lab Notebook for Arduino devices with scimax</title>
+      <link>https://www.youtube.com/watch?v=Fn7sq8uRsGQ&amp;list=PL0sMmOaE_gs1Ox-wIIbHPLZ9O5uLJ_rQW&amp;index=9&amp;pp=iAQB</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=Fn7sq8uRsGQ&list=PL0sMmOaE_gs1Ox-wIIbHPLZ9O5uLJ_rQW&index=9&pp=iAQB">youtube</a><br><br>In this video I show how to create a new src-block to load code onto an Arduino device. We explore a few ways to capture data from the device including screenshots, audio clips and video clips. We also get numeric data from a serial port on the device.
+
+  Repo: https://github.com/jkitchin/scimax-eln
+
+  - Video 1 - https://www.youtube.com/watch?v=KodhYAo4xn0&t=0s
+  - Video 2 - joblib https://www.youtube.com/watch?v=sHiMOQkNFKQ
+  - Video 3 - hashcache https://youtube.com/live/d3zcfdylKOc
+  - Video 4 - SqlCache https://youtube.com/live/aWnYGOWWIqY
+  - Video 5 - molecular simulation https://youtube.com/live/eQcTubl-7kw
+  - Video 6 - writing reports in the notebook https://youtube.com/live/c9saatJ2o7A
+  - Video 7 - Interoperability and extendability https://youtube.com/live/RumU94MxqN4
+  - Video 8 - Searching your notebook https://youtube.com/live/C02FFd520MI</div>]]></description>
+      <pubDate>Wed, 26 Jun 2024 12:07:42 +0000</pubDate>
+    </item>
+    <item>
+      <title>Is your electronic notebook searchable the way you want?</title>
+      <link>https://www.youtube.com/watch?v=C02FFd520MI&amp;list=PL0sMmOaE_gs1Ox-wIIbHPLZ9O5uLJ_rQW&amp;index=8&amp;pp=iAQB</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=C02FFd520MI&list=PL0sMmOaE_gs1Ox-wIIbHPLZ9O5uLJ_rQW&index=8&pp=iAQB">youtube</a><br><br>Your notebook needs to be searchable in a lot of different ways; you might need to find a file, or some text, or an image, and that should be 1) possible, and 2) not that difficult. scimax comes close to this. It provides a variety of ways to search for files and in files using tools from projectile. It also provides org-db which has full-text search, image search and other org-element searches, e.g. in src-blocks.
+
+  Repo: https://github.com/jkitchin/scimax-eln
+
+  - Video 1 - https://www.youtube.com/watch?v=KodhYAo4xn0&t=0s
+  - Video 2 - joblib https://www.youtube.com/watch?v=sHiMOQkNFKQ
+  - Video 3 - hashcache https://youtube.com/live/d3zcfdylKOc
+  - Video 4 - SqlCache https://youtube.com/live/aWnYGOWWIqY
+  - Video 5 - molecular simulation https://youtube.com/live/eQcTubl-7kw
+  - Video 6 - writing reports in the notebook https://youtube.com/live/c9saatJ2o7A
+  - Video 7 - Interoperability and extendability https://youtube.com/live/RumU94MxqN4</div>]]></description>
+      <pubDate>Mon, 24 Jun 2024 17:55:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>Electronic lab notebook with scimax #7 - Interoperability and extendability</title>
+      <link>https://www.youtube.com/watch?v=RumU94MxqN4&amp;list=PL0sMmOaE_gs1Ox-wIIbHPLZ9O5uLJ_rQW&amp;index=7&amp;pp=iAQB</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=RumU94MxqN4&list=PL0sMmOaE_gs1Ox-wIIbHPLZ9O5uLJ_rQW&index=7&pp=iAQB">youtube</a><br><br>In this video we explore how to interact with other software for image, audio and video capture in the electronic notebook using an Adafruit Circuit playground as a proxy instrument. We leverage screenshots, audio recording, and video capture with literate programming to control it and capture data from the device.
+
+  #emacs #orgmode #scimax
+
+  Repo: https://github.com/jkitchin/scimax-eln
+
+  - Video 1 - https://www.youtube.com/watch?v=KodhYAo4xn0&t=0s
+  - Video 2 - joblib https://www.youtube.com/watch?v=sHiMOQkNFKQ
+  - Video 3 - hashcache https://youtube.com/live/d3zcfdylKOc
+  - Video 4 - SqlCache https://youtube.com/live/aWnYGOWWIqY
+  - Video 5 - molecular simulation https://youtube.com/live/eQcTubl-7kw
+  - Video 6 - writing reports in the notebook https://youtube.com/live/c9saatJ2o7A</div>]]></description>
+      <pubDate>Mon, 24 Jun 2024 03:37:05 +0000</pubDate>
+    </item>
+    <item>
+      <title>Writing reports in an electronic lab notebook with scimax #6</title>
+      <link>https://www.youtube.com/watch?v=c9saatJ2o7A&amp;list=PL0sMmOaE_gs1Ox-wIIbHPLZ9O5uLJ_rQW&amp;index=6&amp;t=7s&amp;pp=iAQB</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=c9saatJ2o7A&list=PL0sMmOaE_gs1Ox-wIIbHPLZ9O5uLJ_rQW&index=6&t=7s&pp=iAQB">youtube</a><br><br>You should be able to use an electronic notebook to write reports using the data from your notebook. In this video we explore writing a small report from the molecular simulation work we did in the last video. We show how to reuse data from your notebook, and a limitation of the cache system we used last time. With #scimax you can write reports and then export them to other formats like pdf using #orgmode.</div>]]></description>
+      <pubDate>Sun, 23 Jun 2024 02:16:52 +0000</pubDate>
+    </item>
+    <item>
+      <title>Electronic lab notebook with scimax for molecular simulation tasks</title>
+      <link>https://www.youtube.com/watch?v=eQcTubl-7kw&amp;list=PL0sMmOaE_gs1Ox-wIIbHPLZ9O5uLJ_rQW&amp;index=5&amp;pp=iAQB</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=eQcTubl-7kw&list=PL0sMmOaE_gs1Ox-wIIbHPLZ9O5uLJ_rQW&index=5&pp=iAQB">youtube</a><br><br>In this video I explore using SqlCache and HashCache to save intermediate results in a molecular simulation task of computing the lattice constants of some fcc metals.
+
+  Repo: https://github.com/jkitchin/scimax-eln
+
+  #emacs #orgmode #scimax</div>]]></description>
+      <pubDate>Thu, 20 Jun 2024 02:48:43 +0000</pubDate>
+    </item>
+    <item>
+      <title>ELN with scimax - SqlCache for saving FAIRish data</title>
+      <link>https://www.youtube.com/watch?v=aWnYGOWWIqY&amp;list=PL0sMmOaE_gs1Ox-wIIbHPLZ9O5uLJ_rQW&amp;index=4&amp;pp=iAQB</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=aWnYGOWWIqY&list=PL0sMmOaE_gs1Ox-wIIbHPLZ9O5uLJ_rQW&index=4&pp=iAQB">youtube</a><br><br>In this 4th video I explore using sqlite and orjson for serializing data in a cache. This gives us better findability, interoperability and reproducibility. The cache is "lossy" though, and some data types get converted to new types, e.g. arrays to lists, data classes to dictionaries.
+
+  Repo: https://github.com/jkitchin/scimax-eln
+
+  #emacs, #orgmode, #scimax</div>]]></description>
+      <pubDate>Wed, 19 Jun 2024 12:51:09 +0000</pubDate>
+    </item>
+    <item>
       <title>Context Menu is Personal (GNU Emacs)</title>
       <link>https://lifeofpenguin.blogspot.com/2024/06/context-menu-is-personal-gnu-emacs.html</link>
       <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=DC_KhawqVyQ&list=PLW9poAEUvGDC1g1A3hBdZa0Atr0RL8yZt&index=9&pp=iAQB">youtube</a><br><br>https://lifeofpenguin.blogspot.com/2024/06/context-menu-is-personal-gnu-emacs.html</div>]]></description>
       <pubDate>Mon, 17 Jun 2024 10:26:23 +0000</pubDate>
+    </item>
+    <item>
+      <title>Using hashcache in an electronic lab notebook #eln #3</title>
+      <link>https://www.youtube.com/watch?v=d3zcfdylKOc&amp;list=PL0sMmOaE_gs1Ox-wIIbHPLZ9O5uLJ_rQW&amp;index=3&amp;pp=iAQB</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=d3zcfdylKOc&list=PL0sMmOaE_gs1Ox-wIIbHPLZ9O5uLJ_rQW&index=3&pp=iAQB">youtube</a><br><br>In the last video we explored joblib for data persistence and found some limitations that make it not suitable for a lot of #eln work. In this video we explore pycse.hashcache as an alternative. It solves some issues with joblib, but is still only a step forward in getting FAIR data into an eln.
+
+  #scimax #orgmode #emacs
+
+  Repo: https://github.com/jkitchin/scimax-eln</div>]]></description>
+      <pubDate>Mon, 17 Jun 2024 01:56:20 +0000</pubDate>
+    </item>
+    <item>
+      <title>joblib and electronic lab notebooks - scimax-eln #2</title>
+      <link>https://www.youtube.com/watch?v=sHiMOQkNFKQ&amp;list=PL0sMmOaE_gs1Ox-wIIbHPLZ9O5uLJ_rQW&amp;index=2&amp;pp=iAQB</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=sHiMOQkNFKQ&list=PL0sMmOaE_gs1Ox-wIIbHPLZ9O5uLJ_rQW&index=2&pp=iAQB">youtube</a><br><br>In this video I look at using joblib to cache results in the notebook so we can reuse them later. This is a step forward in reusabilty, but it turns out at the expense of interoperability. We also uncover some potentially surprising features that are undesirable. Still, it is helpful to work through these so we can move towards a more complete solution later.
+
+  video #1: https://www.youtube.com/watch?v=KodhYAo4xn0
+
+  https://github.com/jkitchin/scimax-eln</div>]]></description>
+      <pubDate>Sun, 16 Jun 2024 00:14:57 +0000</pubDate>
+    </item>
+    <item>
+      <title>Electronic Lab Notebooks with scimax</title>
+      <link>https://www.youtube.com/watch?v=KodhYAo4xn0&amp;list=PL0sMmOaE_gs1Ox-wIIbHPLZ9O5uLJ_rQW&amp;index=1&amp;pp=iAQB</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=KodhYAo4xn0&list=PL0sMmOaE_gs1Ox-wIIbHPLZ9O5uLJ_rQW&index=1&pp=iAQB">youtube</a><br><br>I have used org-mode for over a decade now in a broad range of applications from writing papers and proposals, in research projects, task management and more. I have basically used it myself as an electronic lab notebook (ELN) of sorts. Some things about scimax make it very well-suited for this, but there are some things it is not ideal for.This video is the start of what will hopefully be a series of videos on using scimax as an ELN where I more systematically explore what it is good for, where improvements might be desired, and limitations of scimax for this purpose.
+
+  In this first video we explore limitations of using scipy to solve a simple engineering problem.
+
+  There is a github repo for this project at  https://github.com/jkitchin/scimax-eln
+
+  #eln #orgmode #emacs</div>]]></description>
+      <pubDate>Fri, 14 Jun 2024 01:34:54 +0000</pubDate>
     </item>
     <item>
       <title>Emacs Micro Lesson  #10 | Open line (because it&apos;s good)</title>
@@ -3339,6 +3557,12 @@ This video is available under the terms of the Creative Commons Attribution-Shar
       <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=4ljvsHPBD5g&list=PLW9poAEUvGDCtcnrDdiQWRAX_3RC6XcNU&index=5&pp=iAQB">youtube</a><br><br>Stock Heatmap (index and sector) in GNU Emacs
   Details: https://lifeofpenguin.blogspot.com/2024/04/alternatives-in-gnu-emacs.html</div>]]></description>
       <pubDate>Thu, 25 Apr 2024 09:27:43 +0000</pubDate>
+    </item>
+    <item>
+      <title>Literature Alerts - OpenAlex + GitHUB Actions + Emacs and Zotero</title>
+      <link>https://www.youtube.com/watch?v=cMKn2BgVics&amp;list=PL0sMmOaE_gs3E0OjExoI7vlCAVygj6S4I&amp;index=7&amp;pp=iAQB</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=cMKn2BgVics&list=PL0sMmOaE_gs3E0OjExoI7vlCAVygj6S4I&index=7&pp=iAQB">youtube</a><br><br>OpenAlex is a great resource for the scientific literature. In this video we explore how to setup a system for getting new literature using OpenAlex, GitHUB actions, Emacs and Zotero.</div>]]></description>
+      <pubDate>Sat, 20 Apr 2024 20:03:37 +0000</pubDate>
     </item>
     <item>
       <title>SVG Animation in GNU Emacs</title>
@@ -3990,6 +4214,14 @@ This video is available under the terms of the Creative Commons Attribution-Shar
       <pubDate>Mon, 18 Dec 2023 12:07:51 +0000</pubDate>
     </item>
     <item>
+      <title>Semantic completing read in #Emacs</title>
+      <link>https://www.youtube.com/watch?v=bB7rywlahSc&amp;list=PL0sMmOaE_gs3E0OjExoI7vlCAVygj6S4I&amp;index=8&amp;pp=iAQB</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=bB7rywlahSc&list=PL0sMmOaE_gs3E0OjExoI7vlCAVygj6S4I&index=8&pp=iAQB">youtube</a><br><br>Completing-read is a staple feature of Emacs where you can iteratively downselect a list of candidates by typing part of them. The matching can be literal or fuzzy, e.g. by regular expression, but it is limited to this. There is not any way to match by "meaning".
+
+  In https://youtube.com/live/8YXc1s5-TdM I showed an example of using LLM technology to search bibtex entries by semantic similarity. Here we expand the idea, and shows some additional applications that might be interesting.</div>]]></description>
+      <pubDate>Sat, 16 Dec 2023 14:19:19 +0000</pubDate>
+    </item>
+    <item>
       <title>Emacs Does Everything, Including Viewing PDFs and Diffs</title>
       <link>https://www.youtube.com/watch?v=v2-m7_X3uy8&amp;list=PL5--8gKSku15uYCnmxWPO17Dq6hVabAB4&amp;index=2&amp;pp=iAQB</link>
       <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=v2-m7_X3uy8&list=PL5--8gKSku15uYCnmxWPO17Dq6hVabAB4&index=2&pp=iAQB">youtube</a><br><br>Configuring emacs...it's a neverending job.  In the last few weeks, I've made a few additions to my config, including adding the ability to read and annotate PDFs from inside Emacs.  Also, I've been playing around with 'ediff' which is a builtin 'diff' program...
@@ -4027,6 +4259,12 @@ This video is available under the terms of the Creative Commons Attribution-Shar
 
   Find all my publications on my website (Emacs, philosophy, Linux, etc.): https://protesilaos.com</div>]]></description>
       <pubDate>Tue, 12 Dec 2023 14:35:39 +0000</pubDate>
+    </item>
+    <item>
+      <title>LLMs and searching bibtex entries</title>
+      <link>https://www.youtube.com/watch?v=8YXc1s5-TdM&amp;list=PL0sMmOaE_gs3E0OjExoI7vlCAVygj6S4I&amp;index=9&amp;pp=iAQB</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=8YXc1s5-TdM&list=PL0sMmOaE_gs3E0OjExoI7vlCAVygj6S4I&index=9&pp=iAQB">youtube</a><br><br>About six years ago, I wrote about [[https://kitchingroup.cheme.cmu.edu/blog/2017/09/16/Finding-similar-bibtex-entries/][finding similar bibtex entries]] using NLP with TFIDF vectors. The world has moved on and today we have LLMs and transformers that can generate embeddings for documents. In this post I provide an update on this idea, and for fun integrate it with Emacs.</div>]]></description>
+      <pubDate>Tue, 12 Dec 2023 20:44:43 +0000</pubDate>
     </item>
     <item>
       <title>Emacs Goodies - #32 Which Function Mode</title>
@@ -8927,6 +9165,14 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
       <pubDate>Tue, 28 Feb 2023 14:04:20 +0000</pubDate>
     </item>
     <item>
+      <title>Literate programming in org-mode and scimax</title>
+      <link>https://www.youtube.com/watch?v=v3CeZ9TaAWo&amp;list=PL0sMmOaE_gs3E0OjExoI7vlCAVygj6S4I&amp;index=10&amp;pp=iAQB</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=v3CeZ9TaAWo&list=PL0sMmOaE_gs3E0OjExoI7vlCAVygj6S4I&index=10&pp=iAQB">youtube</a><br><br>In this video I introduce some ideas on improving literate prorgramming in Emacs and org-mode. Some aspects of literate programming are already supported in org-mode, but two features are missing: flycheck and code navigation. I will show two ways I have addressed this in scimax. They are both proofs of concept, but I think it is worth talking about them to see if there are better ideas out there for this.
+
+  You can find the code at https://github.com/jkitchin/scimax.</div>]]></description>
+      <pubDate>Tue, 28 Feb 2023 01:40:43 +0000</pubDate>
+    </item>
+    <item>
       <title>GNU Calc embedded in your Emacs Buffer for a LaTeX productivity boost.</title>
       <link>https://www.youtube.com/watch?v=_zWJP_MK1Dk</link>
       <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=_zWJP_MK1Dk">youtube</a><br><br>Evaluating GNU Calc commands within an emacs buffer where the result is returned as an LaTeX expression.</div>]]></description>
@@ -9418,10 +9664,16 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
       <pubDate>Fri, 27 Jan 2023 13:00:11 +0000</pubDate>
     </item>
     <item>
-      <title>How I Use My Linux Computer - DT LIVE!</title>
-      <link>https://www.youtube.com/watch?v=7JKzC63JAn4</link>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=7JKzC63JAn4">youtube</a><br><br></div>]]></description>
-      <pubDate>Tue, 24 Jan 2023 18:02:41 +0000</pubDate>
+      <title>OpenAlex in Emacs</title>
+      <link>https://www.youtube.com/watch?v=cX6HkdAcC8A&amp;list=PL0sMmOaE_gs3E0OjExoI7vlCAVygj6S4I&amp;index=12&amp;pp=iAQB</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=cX6HkdAcC8A&list=PL0sMmOaE_gs3E0OjExoI7vlCAVygj6S4I&index=12&pp=iAQB">youtube</a><br><br></div>]]></description>
+      <pubDate>Fri, 27 Jan 2023 00:32:46 +0000</pubDate>
+    </item>
+    <item>
+      <title>OpenAlex in Emacs</title>
+      <link>https://www.youtube.com/watch?v=cX6HkdAcC8A&amp;list=PL0sMmOaE_gs3E0OjExoI7vlCAVygj6S4I&amp;index=12&amp;pp=iAQB</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=cX6HkdAcC8A&list=PL0sMmOaE_gs3E0OjExoI7vlCAVygj6S4I&index=12&pp=iAQB">youtube</a><br><br>Brief demo of OpenAlex integration in Emacs</div>]]></description>
+      <pubDate>Fri, 27 Jan 2023 00:32:46 +0000</pubDate>
     </item>
     <item>
       <title>How I Use My Linux Computer - DT LIVE!</title>
@@ -16016,6 +16268,16 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
 
   Goodreads: https://goodreads.com/unixbhaskar</div>]]></description>
       <pubDate>Sat, 11 Jun 2022 11:03:59 +0000</pubDate>
+    </item>
+    <item>
+      <title>Scimax in the cloud</title>
+      <link>https://www.youtube.com/watch?v=ZrEthbq0SkI&amp;list=PL0sMmOaE_gs3E0OjExoI7vlCAVygj6S4I&amp;index=14&amp;pp=iAQB</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=ZrEthbq0SkI&list=PL0sMmOaE_gs3E0OjExoI7vlCAVygj6S4I&index=14&pp=iAQB">youtube</a><br><br>Scimax is a highly customized Emacs configuration for scientists and engineers.  So far, using scimax has required you to install Emacs, the scimax code, a working LaTeX, Python, and a host of utility programs.  It is a task.  In this video, I will show you that it is now possible to run almost all of scimax in a browser using GitHUB Codespaces!
+
+  With Codespaces we can pre-configure a container that has all of those programs already installed in them so you don't have to do it yourself, you just have to launch the Codespace and get started.
+
+  You can find the repo for this at https://github.com/kitchingroup-codespaces/cs-scimax. You probably cannot start the codespace yourself, but you should be able to clone it to your own GitHUB organization where you can launch it.</div>]]></description>
+      <pubDate>Sat, 11 Jun 2022 13:36:29 +0000</pubDate>
     </item>
     <item>
       <title>Modular Emacs Configuration Strategies - System Crafters Live!</title>
@@ -23559,6 +23821,16 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
       <pubDate>Wed, 27 Oct 2021 09:19:53 +0000</pubDate>
     </item>
     <item>
+      <title>org-ref - doi and bibtex utilities</title>
+      <link>https://www.youtube.com/watch?v=_1WzhNJByMQ&amp;list=PL0sMmOaE_gs3E0OjExoI7vlCAVygj6S4I&amp;index=19&amp;pp=iAQB</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=_1WzhNJByMQ&list=PL0sMmOaE_gs3E0OjExoI7vlCAVygj6S4I&index=19&pp=iAQB">youtube</a><br><br>So far I have focused on how org-ref supports inserting citations, cross-references, etc. and how it provides hyperfunctional links that give access to a variety of functions to act on those links, including export to different formats.
+
+  This is only part of the story though; the other part is the database of bibliographic entries. org-ref exclusively supports bibtex as the database format, and org-ref provides support for adding new entries, maintaining and editing those entries, and navigating them. This video shows some of those capabilities.
+
+  https://github.com/jkitchin/org-ref</div>]]></description>
+      <pubDate>Wed, 27 Oct 2021 04:47:44 +0000</pubDate>
+    </item>
+    <item>
       <title>Using Emacs Episode 80 - Vertico, Marginalia, Consult, and Embark</title>
       <link>https://www.youtube.com/watch?v=5ffb2at2d7w&amp;list=PL9KxKa8NpFxIcNQa9js7dQQIHc81b0-Xg&amp;index=81&amp;pp=iAQB</link>
       <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=5ffb2at2d7w&list=PL9KxKa8NpFxIcNQa9js7dQQIHc81b0-Xg&index=81&pp=iAQB">youtube</a><br><br>Blog: http://cestlaz.github.io/post/using-emacs-80-vertico</div>]]></description>
@@ -23594,6 +23866,14 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
       <pubDate>Mon, 25 Oct 2021 11:13:18 +0000</pubDate>
     </item>
     <item>
+      <title>org-ref: acronyms, glossaries and an index</title>
+      <link>https://www.youtube.com/watch?v=sebs2vSIEk4&amp;list=PL0sMmOaE_gs3E0OjExoI7vlCAVygj6S4I&amp;index=22&amp;pp=iAQB</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=sebs2vSIEk4&list=PL0sMmOaE_gs3E0OjExoI7vlCAVygj6S4I&index=22&pp=iAQB">youtube</a><br><br>In technical writing it is common to use acronyms, to have technical terms that need defining, and to use an index to help readers navigate the document. org-refprovides these features through a set of hyperfunctional links that can be exported to different formats.
+
+  https://github.com/jkitchin/org-ref</div>]]></description>
+      <pubDate>Mon, 25 Oct 2021 14:31:02 +0000</pubDate>
+    </item>
+    <item>
       <title>EXWM - Emacs X Window Manager On GNU/Emacs With  Dmenu</title>
       <link>https://www.youtube.com/watch?v=O3nOnrc2WIs</link>
       <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=O3nOnrc2WIs">youtube</a><br><br>A Short Video on Basic Setup Of EXWM on GNU/Emacs</div>]]></description>
@@ -23618,10 +23898,38 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
       <pubDate>Sat, 23 Oct 2021 17:14:53 +0000</pubDate>
     </item>
     <item>
+      <title>org-ref: the natbib/bbl citation processor</title>
+      <link>https://www.youtube.com/watch?v=lq3LspE-rAs&amp;list=PL0sMmOaE_gs3E0OjExoI7vlCAVygj6S4I&amp;index=23&amp;pp=iAQB</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=lq3LspE-rAs&list=PL0sMmOaE_gs3E0OjExoI7vlCAVygj6S4I&index=23&pp=iAQB">youtube</a><br><br>org-ref has several options for handling citations in exports. LaTeX is the gold standard, but is not always what you need especially for export to HTML or other formats. CSL may do what you want if you can find the right style.
+
+  org-ref has a third, new option that leverages LaTeX's citation processor with natbib and bibtex for other formats. This video will illustrate how it works.
+
+  https://github.com/jkitchin/org-ref</div>]]></description>
+      <pubDate>Sat, 23 Oct 2021 15:43:25 +0000</pubDate>
+    </item>
+    <item>
       <title>Emacs: Demo of Minibuffer and Completions in Tandem (mct.el)</title>
       <link>https://www.youtube.com/watch?v=roSD50L2z-A</link>
       <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=roSD50L2z-A">youtube</a><br><br>Minibuffer and Completions in Tandem (mct.el) is my new Emacs package which enhances the default minibuffer experience. /// Source code: https://gitlab.com/protesilaos/mct .  Online documentation: https://protesilaos.com/emacs/mct/</div>]]></description>
       <pubDate>Fri, 22 Oct 2021 12:18:59 +0000</pubDate>
+    </item>
+    <item>
+      <title>org-ref: natmove and refproc (take 2)</title>
+      <link>https://www.youtube.com/watch?v=gHQO7dKgfm4&amp;list=PL0sMmOaE_gs3E0OjExoI7vlCAVygj6S4I&amp;index=21&amp;pp=iAQB</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=gHQO7dKgfm4&list=PL0sMmOaE_gs3E0OjExoI7vlCAVygj6S4I&index=21&pp=iAQB">youtube</a><br><br>A small hill I might die on is that citations belong in the sentence they are used in, and not outside them. However, in some citations styles, especially superscripted numbers, I agree it looks nicer for the superscripted number to be on the right-hand side of punctuation.  The achemso package in LaTeX provides natmove, which lets you put citations where they belong while writing, but that moves them when the final document is build.
+
+  org-ref provides a natmove preprocessor for this same purpose, so you can put citations in the sentences where they belong, but move them during export to the right place if you want to. This video illustrates that.
+
+  https://github.com/jkitchin/org-ref</div>]]></description>
+      <pubDate>Fri, 22 Oct 2021 14:51:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>org-ref - Exporting nicely formatted cross-references to non-LaTeX from #orgmode</title>
+      <link>https://www.youtube.com/watch?v=rRR-5NSpKyE&amp;list=PL0sMmOaE_gs3E0OjExoI7vlCAVygj6S4I&amp;index=20&amp;pp=iAQB</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=rRR-5NSpKyE&list=PL0sMmOaE_gs3E0OjExoI7vlCAVygj6S4I&index=20&pp=iAQB">youtube</a><br><br>org-ref was originally designed for writing scientific papers that would be converted to a PDF via LaTeX, where LaTeX would do all the cross-reference processing. That is not helpful though if you want to export to HTML or ODT, or any other non-LaTeX format! This video introduces org-ref-refproc, which provides similar functionality as cleveref in LateX to non-LaTeX exports. For example, you can get clever prefixes that automatically add Figure/Table etc in HTML, with reasonable numbering, etc.
+
+  org-ref: https://github.com/jkitchin/org-ref</div>]]></description>
+      <pubDate>Thu, 21 Oct 2021 17:50:13 +0000</pubDate>
     </item>
     <item>
       <title>getting covid data from John Hopkins University with python, covid19pandas  and emacs</title>
@@ -23634,6 +23942,14 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
 
   notebook for the course with references to materials used: https://github.com/janboone/msc_datascience/blob/master/hacking_part_2.ipynb</div>]]></description>
       <pubDate>Thu, 21 Oct 2021 08:59:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>org-ref - Exporting nicely formatted citations to non-LaTeX with CSL from #orgmode</title>
+      <link>https://www.youtube.com/watch?v=Xs59PGTfDC0&amp;list=PL0sMmOaE_gs3E0OjExoI7vlCAVygj6S4I&amp;index=24&amp;pp=iAQB</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=Xs59PGTfDC0&list=PL0sMmOaE_gs3E0OjExoI7vlCAVygj6S4I&index=24&pp=iAQB">youtube</a><br><br>org-ref was originally designed for writing scientific papers that would be converted to a PDF via LaTeX, where LaTeX would do all the citation processing via bib(la)tex. That is not helpful though if you want to export to HTML or ODT, or any other non-LaTeX format! Luckily, there are other citation processors available, and notably there is now a Citation Syntax Language processor package (citeproc) you can install in Emacs. org-ref uses this package to provide formatted citations and bibliographies in non-LaTeX exports. This video will illustrate how that is done,  and provide some examples of the outputs.
+
+  org-ref: https://github.com/jkitchin/org-ref</div>]]></description>
+      <pubDate>Thu, 21 Oct 2021 03:28:12 +0000</pubDate>
     </item>
     <item>
       <title>Emacs Screencast #5: Mein Org Mode Workflow + Anpassungen</title>
@@ -23870,6 +24186,16 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
       <pubDate>Thu, 14 Oct 2021 05:49:45 +0000</pubDate>
     </item>
     <item>
+      <title>scimax - Journaling</title>
+      <link>https://www.youtube.com/watch?v=P65Zd4EPpTo&amp;list=PL0sMmOaE_gs3E0OjExoI7vlCAVygj6S4I&amp;index=29&amp;pp=iAQB</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=P65Zd4EPpTo&list=PL0sMmOaE_gs3E0OjExoI7vlCAVygj6S4I&index=29&pp=iAQB">youtube</a><br><br>I write a lot in #Emacs with org-mode.  I use it as a journal to capture ideas, try out code snippets, store information, etc. In this video I will go through scimax-journal which is a library I develop to make it easy to make new journal entries, search the entries, and jump to places in the entries.
+
+  You can find scimax-journal at https://github.com/jkitchin/scimax/blob/master/scimax-journal.el
+
+  Find scimax at https://github.com/jkitchin/scimax</div>]]></description>
+      <pubDate>Wed, 13 Oct 2021 03:54:17 +0000</pubDate>
+    </item>
+    <item>
       <title>&quot;Type-Driven API Design in Rust&quot; by Will Crichton</title>
       <link>https://www.youtube.com/watch?v=bnnacleqg6k</link>
       <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=bnnacleqg6k">youtube</a><br><br>Rust is a unique programming language that blends imperative and functional concepts to make low-level systems safer. However, compared to other modern languages, designing APIs in Rust requires a fundamentally different mindset -- for example, designing without classes or inheritance. In this talk, I will live-code the design of a simple Rust API. Through the evolution of the API, I will demonstrate how Rust’s type system (especially traits) can be used to design interfaces that cleanly compose with existing code, and that help API clients catch mistakes at compile-time.
@@ -24019,10 +24345,36 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
       <pubDate>Tue, 12 Oct 2021 13:12:51 +0000</pubDate>
     </item>
     <item>
-      <title>Spell-checking in scimax</title>
-      <link>https://www.youtube.com/watch?v=V5IPZVje-ps</link>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=V5IPZVje-ps">youtube</a><br><br></div>]]></description>
-      <pubDate>Fri, 08 Oct 2021 20:38:17 +0000</pubDate>
+      <title>scimax - screenshot, tesseract, pngpaste and ox-clip</title>
+      <link>https://www.youtube.com/watch?v=rGGAr1AWkTc&amp;list=PL0sMmOaE_gs3E0OjExoI7vlCAVygj6S4I&amp;index=30&amp;t=3s&amp;pp=iAQB</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=rGGAr1AWkTc&list=PL0sMmOaE_gs3E0OjExoI7vlCAVygj6S4I&index=30&t=3s&pp=iAQB">youtube</a><br><br>When taking notes with #Emacs and #orgmode I often need to capture images from my screen or iPad in them. I show how I do that in scimax with three functions called screenshot, tesseract and pngpaste in this video. I also sometimes need to copy from org-mode to other applications, and for that I use ox-clip.
+
+  Find scimax at https://github.com/jkitchin/scimax.</div>]]></description>
+      <pubDate>Mon, 11 Oct 2021 15:53:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>scimax - Auto-formatting, abbreviations and snippets</title>
+      <link>https://www.youtube.com/watch?v=q0KFusAaqu4&amp;list=PL0sMmOaE_gs3E0OjExoI7vlCAVygj6S4I&amp;index=31&amp;pp=iAQB</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=q0KFusAaqu4&list=PL0sMmOaE_gs3E0OjExoI7vlCAVygj6S4I&index=31&pp=iAQB">youtube</a><br><br></div>]]></description>
+      <pubDate>Sun, 10 Oct 2021 19:56:44 +0000</pubDate>
+    </item>
+    <item>
+      <title>scimax - Auto-formatting, abbreviations and snippets</title>
+      <link>https://www.youtube.com/watch?v=q0KFusAaqu4&amp;list=PL0sMmOaE_gs3E0OjExoI7vlCAVygj6S4I&amp;index=31&amp;pp=iAQB</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=q0KFusAaqu4&list=PL0sMmOaE_gs3E0OjExoI7vlCAVygj6S4I&index=31&pp=iAQB">youtube</a><br><br>When writing it is often convenient to use some auto-formatting,  auto-correcting, and templates to help you. In this video I show how we use abbreviations, yasnippets and other template functions for these purposes.
+
+  Find scimax at https://github.com/jkitchin/scimax.</div>]]></description>
+      <pubDate>Sun, 10 Oct 2021 19:56:44 +0000</pubDate>
+    </item>
+    <item>
+      <title>scimax - words</title>
+      <link>https://www.youtube.com/watch?v=-9LpYK-nA4w&amp;list=PL0sMmOaE_gs3E0OjExoI7vlCAVygj6S4I&amp;index=32&amp;pp=iAQB</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=-9LpYK-nA4w&list=PL0sMmOaE_gs3E0OjExoI7vlCAVygj6S4I&index=32&pp=iAQB">youtube</a><br><br>In writing we use words all the time. Sometimes we need help understanding the words, finding better words, etc. In scimax, =words.el= provides a lot of tools for this. This video shows how scimax integrates tools like a dictionary, thesaurus, even text to speech and translation engines to work with words in #Emacs.
+
+  See the notes at https://github.com/jkitchin/scimax-channel/blob/main/readme.org#words
+
+  Find scimax at https://github.com/jkitchin/scimax.</div>]]></description>
+      <pubDate>Sat, 09 Oct 2021 14:05:25 +0000</pubDate>
     </item>
     <item>
       <title>Spell-checking in scimax</title>
@@ -24051,6 +24403,14 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
       <link>https://www.youtube.com/watch?v=DNR3pgnurfc</link>
       <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=DNR3pgnurfc">youtube</a><br><br>A Short video on some more org mode stuff on GNU/Emacs</div>]]></description>
       <pubDate>Wed, 06 Oct 2021 18:58:02 +0000</pubDate>
+    </item>
+    <item>
+      <title>scimax - let it be</title>
+      <link>https://www.youtube.com/watch?v=KQnVi7Pks4c&amp;list=PL0sMmOaE_gs3E0OjExoI7vlCAVygj6S4I&amp;index=35&amp;pp=iAQB</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=KQnVi7Pks4c&list=PL0sMmOaE_gs3E0OjExoI7vlCAVygj6S4I&index=35&pp=iAQB">youtube</a><br><br>let is a powerful construct in Emacs-lisp for temporarily defining and redefining variables.  In this video I explore some of the let variants, and show some examples of how I use them.
+
+  Find scimax at https://github.com/jkitchin/scimax.</div>]]></description>
+      <pubDate>Mon, 04 Oct 2021 21:37:42 +0000</pubDate>
     </item>
     <item>
       <title>Emacs Screencast #1: Mein ganzes (wissenschaftliches) Leben in Reintextform.</title>
@@ -24338,6 +24698,16 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
       <pubDate>Sat, 25 Sep 2021 19:16:25 +0000</pubDate>
     </item>
     <item>
+      <title>scimax - editmarks</title>
+      <link>https://www.youtube.com/watch?v=qBmvBkpzixs&amp;list=PL0sMmOaE_gs3E0OjExoI7vlCAVygj6S4I&amp;index=37&amp;pp=iAQB</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=qBmvBkpzixs&list=PL0sMmOaE_gs3E0OjExoI7vlCAVygj6S4I&index=37&pp=iAQB">youtube</a><br><br>In this video I will introduce the scimax-editmarks package for Emacs. This package provides some lightweight markup for adding comments, highlighting text, as well as audio recordings, and some other things. The editmarks are persistent, and can be exported to different formats like html and pdf.
+
+  You can find the org-file I used at https://github.com/jkitchin/scimax/blob/master/scimax-channel/editmarks.org
+
+  The scimax-editmarks code is at https://github.com/jkitchin/scimax/blob/master/scimax-editmarks.org</div>]]></description>
+      <pubDate>Sun, 26 Sep 2021 01:46:28 +0000</pubDate>
+    </item>
+    <item>
       <title>ISLisp-mode</title>
       <link></link>
       <description><![CDATA[<div id="content"><a href="https://vimeo.com/614514131">vimeo</a><br><br>ISLIsp Emacs major mode example usage</div>]]></description>
@@ -24442,6 +24812,12 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
   - Attachments
   - Signing/Encrypting email using PGP</div>]]></description>
       <pubDate>Tue, 21 Sep 2021 02:58:59 +0000</pubDate>
+    </item>
+    <item>
+      <title>scimax - iteration in emacs-lisp</title>
+      <link>https://www.youtube.com/watch?v=yUnEjAPxW5A&amp;list=PL0sMmOaE_gs3E0OjExoI7vlCAVygj6S4I&amp;index=39&amp;pp=iAQB</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=yUnEjAPxW5A&list=PL0sMmOaE_gs3E0OjExoI7vlCAVygj6S4I&index=39&pp=iAQB">youtube</a><br><br>Summary of looping in emacs-lisp with similarities to Python</div>]]></description>
+      <pubDate>Tue, 21 Sep 2021 09:08:49 +0000</pubDate>
     </item>
     <item>
       <title>scimax - formatting strings in elisp</title>
@@ -27196,6 +27572,14 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
 
   Github: https://github.com/alexgiorev/emacs-btree</div>]]></description>
       <pubDate>Fri, 25 Jun 2021 11:31:06 +0000</pubDate>
+    </item>
+    <item>
+      <title>Overview of Org-cite</title>
+      <link>https://www.youtube.com/watch?v=4ta4J20kpmM&amp;list=PL0sMmOaE_gs3GbuZV_sNjwMREw9rfElTV&amp;index=49&amp;pp=iAQB</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=4ta4J20kpmM&list=PL0sMmOaE_gs3GbuZV_sNjwMREw9rfElTV&index=49&pp=iAQB">youtube</a><br><br>Overview of org-cite - This is a WIP, and likely to change in the future.
+
+  The current code is at https://github.com/jkitchin/scimax/tree/master/org-ref3</div>]]></description>
+      <pubDate>Fri, 25 Jun 2021 15:32:55 +0000</pubDate>
     </item>
     <item>
       <title>Registers for File Shortcuts – A Better Bookmark – Straightforward Emacs</title>
@@ -39861,18 +40245,10 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
       <pubDate>Sun, 10 Mar 2019 11:09:42 +0000</pubDate>
     </item>
     <item>
-      <title>Piezoelectric Resonator</title>
-      <link></link>
-      <description><![CDATA[<div id="content"><a href="https://vimeo.com/321104184">vimeo</a><br><br></div>]]></description>
-      <pubDate>Sun, 03 Mar 2019 20:43:10 +0000</pubDate>
-    </item>
-    <item>
-      <title>Piezoelectric Resonator</title>
-      <link></link>
-      <description><![CDATA[<div id="content"><a href="https://vimeo.com/321104184">vimeo</a><br><br>A Live musical and visual performance controlled through writing programming code. Created with SonicPi, Ruby,Emacs, Ableton Live & Unity3D.
-  Nothing pre-recorded, all performed live in one take.
-  Based on a live performance given in the US, LA at The Millennium Biltmore.</div>]]></description>
-      <pubDate>Sun, 03 Mar 2019 20:43:10 +0000</pubDate>
+      <title>Emacs Is Great - Ep 36, Web Browsing in emacs</title>
+      <link>https://www.youtube.com/watch?v=rjMq9ujMMl0</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=rjMq9ujMMl0">youtube</a><br><br></div>]]></description>
+      <pubDate>Sun, 03 Mar 2019 12:48:24 +0000</pubDate>
     </item>
     <item>
       <title>Emacs Is Great - Ep 36, Web Browsing in emacs</title>
@@ -40930,6 +41306,12 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
       <pubDate>Sun, 03 Jun 2018 11:17:20 +0000</pubDate>
     </item>
     <item>
+      <title>org-mode and noweb for Python doctests</title>
+      <link>https://www.youtube.com/watch?v=u8CWbedVV9Y</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=u8CWbedVV9Y">youtube</a><br><br>An example of using org-mode and noweb to create Python functions with tested doctests.</div>]]></description>
+      <pubDate>Fri, 18 May 2018 22:07:47 +0000</pubDate>
+    </item>
+    <item>
       <title>Using Emacs for JavaScript development!</title>
       <link>https://www.youtube.com/watch?v=5hJBMwwGhlo</link>
       <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=5hJBMwwGhlo">youtube</a><br><br></div>]]></description>
@@ -41019,14 +41401,6 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
 
   Emacs config: https://github.com/zamansky/using-emacs</div>]]></description>
       <pubDate>Sun, 22 Apr 2018 21:37:29 +0000</pubDate>
-    </item>
-    <item>
-      <title>Repl Electric - You fall into your screen</title>
-      <link></link>
-      <description><![CDATA[<div id="content"><a href="https://vimeo.com/265785040">vimeo</a><br><br>Live coded performance using Ruby, Emacs, SonicPi and Unity3D.
-  No post production or pre-rendering. Visuals are all live and controlled via emacs.
-  Based on a live performance given in the UK at Exeter University.</div>]]></description>
-      <pubDate>Fri, 20 Apr 2018 16:09:55 +0000</pubDate>
     </item>
     <item>
       <title>Scratching Samples with Emacs</title>
@@ -41741,6 +42115,18 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
       <pubDate>Thu, 15 Jun 2017 20:23:55 +0000</pubDate>
     </item>
     <item>
+      <title>Adding keymaps to org-mode src blocks</title>
+      <link>https://www.youtube.com/watch?v=a2jHqB1qWiY</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=a2jHqB1qWiY">youtube</a><br><br>This shows how to add custom keymaps to src blocks in org-mode. See the blog post and code here: http://kitchingroup.cheme.cmu.edu/blog/2017/06/10/Adding-keymaps-to-src-blocks-via-org-font-lock-hook/</div>]]></description>
+      <pubDate>Sat, 10 Jun 2017 19:25:46 +0000</pubDate>
+    </item>
+    <item>
+      <title>Scimax enhancements to ipython in org-mode</title>
+      <link>https://www.youtube.com/watch?v=dMira3QsUdg</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=dMira3QsUdg">youtube</a><br><br>Here are a couple of examples of new features in scimax that make running ipython src blocks better</div>]]></description>
+      <pubDate>Fri, 26 May 2017 20:51:21 +0000</pubDate>
+    </item>
+    <item>
       <title>froscon12 lisp  open emacs workshop</title>
       <link>https://www.youtube.com/watch?v=bSMnOtv2zS4</link>
       <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=bSMnOtv2zS4">youtube</a><br><br></div>]]></description>
@@ -42221,6 +42607,18 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
       <pubDate>Thu, 10 Nov 2016 23:21:11 +0000</pubDate>
     </item>
     <item>
+      <title>Persistent highlights in Emacs</title>
+      <link>https://www.youtube.com/watch?v=syeRq_LBFns</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=syeRq_LBFns">youtube</a><br><br>This video shows how we use overlays to get persistent text highlights and annotations in Emacs. See the blog post at http://kitchingroup.cheme.cmu.edu/blog/2016/11/10/Persistent-highlighting-in-Emacs/</div>]]></description>
+      <pubDate>Thu, 10 Nov 2016 14:19:18 +0000</pubDate>
+    </item>
+    <item>
+      <title>Better asynchronous python blocks in org-mode</title>
+      <link>https://www.youtube.com/watch?v=m4vCXM7_p_o</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=m4vCXM7_p_o">youtube</a><br><br>This video shows some improvements we have made to running Python src blocks in org-mode, including autopep8 reformatting and pylint. See the blogpost here: http://kitchingroup.cheme.cmu.edu/blog/2016/11/09/New-and-improved-asynchronous-org-babel-python-blocks/</div>]]></description>
+      <pubDate>Wed, 09 Nov 2016 16:01:29 +0000</pubDate>
+    </item>
+    <item>
       <title>Writing Thesis with Emacs + AUCTeX +Yasnippet</title>
       <link>https://www.youtube.com/watch?v=UjprbZl_m6Y</link>
       <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=UjprbZl_m6Y">youtube</a><br><br>A demo of writing thesis with Emacs + AUCTeX + Yasnippet
@@ -42252,6 +42650,24 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
   - https://github.com/wx672/dotfile/tree/master/dot.tmux
   - https://github.com/wx672/dotfile/blob/master/dot.tmux.conf</div>]]></description>
       <pubDate>Mon, 07 Nov 2016 09:32:48 +0000</pubDate>
+    </item>
+    <item>
+      <title>Continuous numbering of org-mode equations</title>
+      <link>https://www.youtube.com/watch?v=pcMuJlUvKCw</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=pcMuJlUvKCw">youtube</a><br><br>This video shows how to get continuous numbering in org-mode equations.</div>]]></description>
+      <pubDate>Mon, 07 Nov 2016 12:03:31 +0000</pubDate>
+    </item>
+    <item>
+      <title>Justifying orgmode LaTeX fragment overlays</title>
+      <link>https://www.youtube.com/watch?v=nA9YzooqpWY</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=nA9YzooqpWY">youtube</a><br><br>This video shows how to modify the justification of org latex fragment images in org-buffers. Find the source here: http://kitchingroup.cheme.cmu.edu/blog/2016/11/06/Justifying-LaTeX-preview-fragments-in-org-mode/</div>]]></description>
+      <pubDate>Mon, 07 Nov 2016 01:41:40 +0000</pubDate>
+    </item>
+    <item>
+      <title>New link features in org-mode v9.0</title>
+      <link>https://www.youtube.com/watch?v=5haX95nk02E</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=5haX95nk02E">youtube</a><br><br>Demonstration of new link features in org-mode. See the code at http://kitchingroup.cheme.cmu.edu/blog/2016/11/04/New-link-features-in-org-9/</div>]]></description>
+      <pubDate>Fri, 04 Nov 2016 03:57:12 +0000</pubDate>
     </item>
     <item>
       <title>Using Emacs 18 - iedit, narrowing, and widening</title>
@@ -42423,14 +42839,6 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
       <link>https://www.youtube.com/watch?v=WRUBPE55Cpo</link>
       <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=WRUBPE55Cpo">youtube</a><br><br>Have trouble finding your plot when using ESS? View it by toggling the transparency of your emacs frame. TODO:  version 2 with a transparent window (bottom-right) instead of whole frame.</div>]]></description>
       <pubDate>Wed, 14 Sep 2016 10:12:50 +0000</pubDate>
-    </item>
-    <item>
-      <title>Less is Code: An Audio-Visual Live Coding Performance</title>
-      <link></link>
-      <description><![CDATA[<div id="content"><a href="https://vimeo.com/182279635">vimeo</a><br><br>A minimalist-based audio-visual live coding performance which explores cross modal perceptual analogies.
-
-  by Joan Sandoval</div>]]></description>
-      <pubDate>Sun, 11 Sep 2016 11:38:21 +0000</pubDate>
     </item>
     <item>
       <title>Rolf Langsdorf: Emacs as Perl IDE‎ - YAPC::Europe 2016</title>
@@ -42658,6 +43066,12 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
       <pubDate>Mon, 20 Jun 2016 15:44:05 +0000</pubDate>
     </item>
     <item>
+      <title>Copy formatted text from org-mode to applications</title>
+      <link>https://www.youtube.com/watch?v=irkmQnggVpE</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=irkmQnggVpE">youtube</a><br><br>How to copy org-mode text with formatting to other applications</div>]]></description>
+      <pubDate>Thu, 16 Jun 2016 15:44:23 +0000</pubDate>
+    </item>
+    <item>
       <title>Using Emacs 5 - Windows</title>
       <link>https://www.youtube.com/watch?v=D6OUMVbPKSA&amp;list=PL9KxKa8NpFxIcNQa9js7dQQIHc81b0-Xg&amp;index=5&amp;pp=iAQB</link>
       <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=D6OUMVbPKSA&list=PL9KxKa8NpFxIcNQa9js7dQQIHc81b0-Xg&index=5&pp=iAQB">youtube</a><br><br>Link to related blog post: http://cestlaz.github.io/posts/using-emacs-5-windows
@@ -42675,6 +43089,18 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
 
   Read more about orgmode and some "show notes" in the OrgMode section of my blog at http://koenig-haunstetten.de/tag/orgmode/</div>]]></description>
       <pubDate>Tue, 14 Jun 2016 17:49:29 +0000</pubDate>
+    </item>
+    <item>
+      <title>Prefix args with ivy</title>
+      <link>https://www.youtube.com/watch?v=Y8HHLAE_-yA</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=Y8HHLAE_-yA">youtube</a><br><br>Illustrates the new prefix arg feature of ivy</div>]]></description>
+      <pubDate>Tue, 14 Jun 2016 15:02:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>Dynamic sorting in ivy</title>
+      <link>https://www.youtube.com/watch?v=nFKfM3MOAd0</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=nFKfM3MOAd0">youtube</a><br><br>How to dynamically sort candidates with ivy.</div>]]></description>
+      <pubDate>Mon, 13 Jun 2016 18:58:10 +0000</pubDate>
     </item>
     <item>
       <title>OrgMode E01S01: Headlines &amp; outline mode</title>
@@ -42830,6 +43256,12 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
       <pubDate>Sat, 09 Apr 2016 01:38:32 +0000</pubDate>
     </item>
     <item>
+      <title>eldoc/lispy integration in hy-mode</title>
+      <link>https://www.youtube.com/watch?v=m62oiB6Feeo</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=m62oiB6Feeo">youtube</a><br><br>Demonstration of integrating eldoc and lispy into hy-mode for the hy language in Emacs</div>]]></description>
+      <pubDate>Wed, 06 Apr 2016 20:40:02 +0000</pubDate>
+    </item>
+    <item>
       <title>GNU Emacs #3: Archivo .emacs</title>
       <link>https://www.youtube.com/watch?v=LE5cLc98KEY</link>
       <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=LE5cLc98KEY">youtube</a><br><br>Dentro de este episodio vemos lo que es el .emacs y la importancia que tiene al momento de configurar nuestro emacs.</div>]]></description>
@@ -42854,6 +43286,12 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
       <link>https://www.youtube.com/watch?v=VuAnwCERM0U</link>
       <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=VuAnwCERM0U">youtube</a><br><br>Shows how to use font-lock to provide image tooltips in Emacs for image files</div>]]></description>
       <pubDate>Mon, 21 Mar 2016 15:12:25 +0000</pubDate>
+    </item>
+    <item>
+      <title>Teleport org-mode headlines</title>
+      <link>https://www.youtube.com/watch?v=Vv-2888rpyc</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=Vv-2888rpyc">youtube</a><br><br>Use ivy to move headlines around in your org-buffer. See http://kitchingroup.cheme.cmu.edu/blog/2016/03/18/Org-teleport-headlines/ for the code.</div>]]></description>
+      <pubDate>Thu, 17 Mar 2016 16:49:40 +0000</pubDate>
     </item>
     <item>
       <title>Graphical tooltips in Emacs</title>
@@ -43068,10 +43506,40 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
       <pubDate>Tue, 22 Dec 2015 15:54:24 +0000</pubDate>
     </item>
     <item>
-      <title>2015-11-18 Emacs Hangout</title>
-      <link>https://www.youtube.com/watch?v=A4uunJOltj8&amp;list=PLomc4HLgvuCWZD3pWBpDfJiJRkz0zkY1b&amp;index=5&amp;pp=gAQBiAQB</link>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=A4uunJOltj8&list=PLomc4HLgvuCWZD3pWBpDfJiJRkz0zkY1b&index=5&pp=gAQBiAQB">youtube</a><br><br></div>]]></description>
-      <pubDate>Thu, 19 Nov 2015 03:41:53 +0000</pubDate>
+      <title>Helm + LDAP in emacs</title>
+      <link>https://www.youtube.com/watch?v=N7AaKHRd9uw</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=N7AaKHRd9uw">youtube</a><br><br></div>]]></description>
+      <pubDate>Wed, 25 Nov 2015 14:30:12 +0000</pubDate>
+    </item>
+    <item>
+      <title>Helm + LDAP in emacs</title>
+      <link>https://www.youtube.com/watch?v=N7AaKHRd9uw</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=N7AaKHRd9uw">youtube</a><br><br>We show how to use Helm to select entries from an LDAP query</div>]]></description>
+      <pubDate>Wed, 25 Nov 2015 14:30:12 +0000</pubDate>
+    </item>
+    <item>
+      <title>Contextual help in org-mode</title>
+      <link>https://www.youtube.com/watch?v=99uxJWqZGzA</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=99uxJWqZGzA">youtube</a><br><br>We describe an approach to get help on what you can do in org-mode with the element at point.</div>]]></description>
+      <pubDate>Tue, 24 Nov 2015 14:19:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>Improving org-ref cite links with tooltips</title>
+      <link>https://www.youtube.com/watch?v=ifSmlId2rk0</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=ifSmlId2rk0">youtube</a><br><br>Shows how to add a dynamic tooltip to an org-ref cite link.</div>]]></description>
+      <pubDate>Mon, 23 Nov 2015 12:02:28 +0000</pubDate>
+    </item>
+    <item>
+      <title>Tooltips on Emacs commands and variables in org-mode</title>
+      <link>https://www.youtube.com/watch?v=VLUMW0sR4Vk</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=VLUMW0sR4Vk">youtube</a><br><br>Describes how to add tooltips and functionality to Emacs documentation markup in org-mode.</div>]]></description>
+      <pubDate>Sun, 22 Nov 2015 14:51:16 +0000</pubDate>
+    </item>
+    <item>
+      <title>Asynchronous python in org-mode src-blocks</title>
+      <link>https://www.youtube.com/watch?v=VDyoN8yipSE</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=VDyoN8yipSE">youtube</a><br><br>We illustrate some approaches to run Python code asynchronously in Emacs and see the output as it goes.</div>]]></description>
+      <pubDate>Fri, 20 Nov 2015 15:43:21 +0000</pubDate>
     </item>
     <item>
       <title>2015-11-18 Emacs Hangout</title>
@@ -43133,6 +43601,12 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
       <pubDate>Thu, 15 Oct 2015 02:52:27 +0000</pubDate>
     </item>
     <item>
+      <title>Line numbers in org-mode code blocks</title>
+      <link>https://www.youtube.com/watch?v=kinWijGzXms</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=kinWijGzXms">youtube</a><br><br>This video shows how to get temporary line numbers in an org-mode code block.</div>]]></description>
+      <pubDate>Tue, 13 Oct 2015 12:55:36 +0000</pubDate>
+    </item>
+    <item>
       <title>Python + Org-mode for fluent output generation of scientific research</title>
       <link>https://www.youtube.com/watch?v=Bvse62CR-w0&amp;feature=youtu.be</link>
       <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=Bvse62CR-w0&feature=youtu.be">youtube</a><br><br>Generating outputs (plots, tables, and texts) is an essential part of scientific research. Usually they are generated with scripts (either .py or.ipynb`), and a natural way of maintaining these scripts is using either a long script file or multiple short files.
@@ -43143,6 +43617,12 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
 
   In this talk, I introduce org-mode and some of its functionalities for all three steps. org-mode is ideal for managing these tasks because it can minimize the non-fluency. It has a convenient and flexible markup syntax for hierarchical documents. It uses tree-like headlines, which make it very easy to organize code and text. It provides a convenient way to collapse or expand headline blocks and navigate through them. In addition, one can execute a code block or export the results (or the source code itself) conveniently inside org-mode. Theoretically, one can have the entire contents and code for a paper and a presentation inside one org file. I show examples of how one can leverage these functionalities to maintain outputs.</div>]]></description>
       <pubDate>Fri, 09 Oct 2015 21:19:17 +0000</pubDate>
+    </item>
+    <item>
+      <title>Using the cursor to toggle LaTeX overlays in org-mode</title>
+      <link>https://www.youtube.com/watch?v=E0s3PDBqsEc</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=E0s3PDBqsEc">youtube</a><br><br>We explore using the cursor to toggle the image overlays on LaTeX equations in org-mode.</div>]]></description>
+      <pubDate>Fri, 09 Oct 2015 15:51:40 +0000</pubDate>
     </item>
     <item>
       <title>Emacs For Writers</title>
@@ -43424,6 +43904,12 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
       <pubDate>Tue, 28 Jul 2015 13:04:00 +0000</pubDate>
     </item>
     <item>
+      <title>Highlighting text in Emacs</title>
+      <link>https://www.youtube.com/watch?v=Cvz2tiT12-I</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=Cvz2tiT12-I">youtube</a><br><br>We show how to highlight text in Emacs and discuss some limitations of the approach</div>]]></description>
+      <pubDate>Tue, 28 Jul 2015 14:51:31 +0000</pubDate>
+    </item>
+    <item>
       <title>GNU EMACS SEMAINE 4 VIDEO 1</title>
       <link></link>
       <description><![CDATA[<div id="content"><a href="https://vimeo.com/134608551">vimeo</a><br><br>résumé : introduction à la programmation Emacs Lisp</div>]]></description>
@@ -43557,6 +44043,12 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
     <item>
       <title>GNU Emacs Semaine 1 Vidéo 7</title>
       <link></link>
+      <description><![CDATA[<div id="content"><a href="https://vimeo.com/133038938">vimeo</a><br><br></div>]]></description>
+      <pubDate>Thu, 09 Jul 2015 13:49:17 +0000</pubDate>
+    </item>
+    <item>
+      <title>GNU Emacs Semaine 1 Vidéo 7</title>
+      <link></link>
       <description><![CDATA[<div id="content"><a href="https://vimeo.com/133038938">vimeo</a><br><br>Placer et utiliser une marque dans un ou plusieurs tampons (buffers).
   Undo.
   Numérotation des lignes.</div>]]></description>
@@ -43575,6 +44067,12 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
       <pubDate>Thu, 09 Jul 2015 13:12:56 +0000</pubDate>
     </item>
     <item>
+      <title>Acronym mode for Emacs</title>
+      <link>https://www.youtube.com/watch?v=2G2isMO6E2c</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=2G2isMO6E2c">youtube</a><br><br>A demonstration of a minor mode for Emacs to put tooltip definitions on acronyms based on definitions in the buffer.</div>]]></description>
+      <pubDate>Thu, 09 Jul 2015 11:22:17 +0000</pubDate>
+    </item>
+    <item>
       <title>GNU Emacs Semaine 1 Vidéo 4</title>
       <link></link>
       <description><![CDATA[<div id="content"><a href="https://vimeo.com/132820972">vimeo</a><br><br>Commandes d’inversions avec GNU Emacs
@@ -43582,6 +44080,18 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
   2) Inversion de mots
   3) Inversion de lignes</div>]]></description>
       <pubDate>Tue, 07 Jul 2015 13:22:25 +0000</pubDate>
+    </item>
+    <item>
+      <title>Functional chemical formulas in Emacs</title>
+      <link>https://www.youtube.com/watch?v=sjxS9m8QCoo</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=sjxS9m8QCoo">youtube</a><br><br></div>]]></description>
+      <pubDate>Thu, 02 Jul 2015 16:33:24 +0000</pubDate>
+    </item>
+    <item>
+      <title>Functional chemical formulas in Emacs</title>
+      <link>https://www.youtube.com/watch?v=sjxS9m8QCoo</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=sjxS9m8QCoo">youtube</a><br><br>Using pyparsing to make chemical formulas functional and clickable in Emacs</div>]]></description>
+      <pubDate>Thu, 02 Jul 2015 16:33:24 +0000</pubDate>
     </item>
     <item>
       <title>GNU Emacs Semaine 1 Vidéo 3</title>
@@ -43595,6 +44105,12 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
   Tuteur ENS (fr) : http://www.tuteurs.ens.fr/unix/editeurs/emacs.html
   Ubuntu (fr) : http://doc.ubuntu-fr.org/emacs</div>]]></description>
       <pubDate>Wed, 01 Jul 2015 21:15:35 +0000</pubDate>
+    </item>
+    <item>
+      <title>Spoken translations in Emacs</title>
+      <link>https://www.youtube.com/watch?v=8CBKnahE0ak</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=8CBKnahE0ak">youtube</a><br><br>Use Emacs to translate text to other languages and then speak the translated text.</div>]]></description>
+      <pubDate>Wed, 01 Jul 2015 15:27:52 +0000</pubDate>
     </item>
     <item>
       <title>GNU Emacs Semaine 1 Vidéo 2</title>
@@ -43616,6 +44132,24 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
   5) Jérémie Zimmermann à l'ENS : https://www.youtube.com/watch?v=YgnAHcX2WM8
   6) Arte surveillance de masse : http://future.arte.tv/fr/cybersurveillance</div>]]></description>
       <pubDate>Tue, 30 Jun 2015 13:32:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>Spoken definitions in Emacs</title>
+      <link>https://www.youtube.com/watch?v=m529gXMrXZA</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=m529gXMrXZA">youtube</a><br><br>Use Emacs to look up the word at point in the Merriam dictionary, and then read the definition back to you.</div>]]></description>
+      <pubDate>Tue, 30 Jun 2015 15:17:44 +0000</pubDate>
+    </item>
+    <item>
+      <title>Getting Emacs to read to me</title>
+      <link>https://www.youtube.com/watch?v=8bgS8yDSkXw</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=8bgS8yDSkXw">youtube</a><br><br>Using the builtin voices in Mac OSX to read text in Emacs</div>]]></description>
+      <pubDate>Mon, 29 Jun 2015 17:57:54 +0000</pubDate>
+    </item>
+    <item>
+      <title>Clickable text in Emacs</title>
+      <link>https://www.youtube.com/watch?v=Ogavyl_QXiU</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=Ogavyl_QXiU">youtube</a><br><br>How to add clickable text in emacs with dynamic tooltips</div>]]></description>
+      <pubDate>Fri, 26 Jun 2015 15:35:14 +0000</pubDate>
     </item>
     <item>
       <title>Evil Mode: Or, How I Learned to Stop Worrying and Love Emacs</title>
@@ -43805,20 +44339,16 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
       <pubDate>Tue, 10 Mar 2015 15:30:00 +0000</pubDate>
     </item>
     <item>
-      <title>Repl Electric - End of buffer</title>
-      <link></link>
-      <description><![CDATA[<div id="content"><a href="https://vimeo.com/117516352">vimeo</a><br><br></div>]]></description>
-      <pubDate>Thu, 22 Jan 2015 19:31:00 +0000</pubDate>
+      <title>org-ref+helm</title>
+      <link>https://www.youtube.com/watch?v=8cEb6F9AEu0</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=8cEb6F9AEu0">youtube</a><br><br></div>]]></description>
+      <pubDate>Tue, 27 Jan 2015 17:49:51 +0000</pubDate>
     </item>
     <item>
-      <title>Repl Electric - End of buffer</title>
-      <link></link>
-      <description><![CDATA[<div id="content"><a href="https://vimeo.com/117516352">vimeo</a><br><br>A live coded performance based on a performance given in New York City.
-
-  Live coded using Clojure, Emacs, Overtone, Dirt (Part of Tidal) & Shadertone. No post-production.
-
-  All the performance source is open for the world to see and play with: https://github.com/repl-electric/cassiopeia</div>]]></description>
-      <pubDate>Thu, 22 Jan 2015 19:31:00 +0000</pubDate>
+      <title>org-ref+helm</title>
+      <link>https://www.youtube.com/watch?v=8cEb6F9AEu0</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=8cEb6F9AEu0">youtube</a><br><br>New features in org-ref with helm integration</div>]]></description>
+      <pubDate>Tue, 27 Jan 2015 17:49:51 +0000</pubDate>
     </item>
     <item>
       <title>2015-01-21 Emacs Chat - Steve Purcell</title>
@@ -43844,6 +44374,18 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
       <pubDate>Wed, 31 Dec 2014 20:17:27 +0000</pubDate>
     </item>
     <item>
+      <title>pydoc in Emacs</title>
+      <link>https://www.youtube.com/watch?v=G_r7wTcVK54</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=G_r7wTcVK54">youtube</a><br><br>Demonstration of a new pydoc module for Emacs.</div>]]></description>
+      <pubDate>Mon, 22 Dec 2014 14:30:04 +0000</pubDate>
+    </item>
+    <item>
+      <title>Teaching with Emacs+org-mode</title>
+      <link>https://www.youtube.com/watch?v=cRUCiF2MwP4</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=cRUCiF2MwP4">youtube</a><br><br></div>]]></description>
+      <pubDate>Fri, 19 Dec 2014 16:25:07 +0000</pubDate>
+    </item>
+    <item>
       <title>Emacs Chat: Karl Voit</title>
       <link>https://www.youtube.com/watch?v=SaKPr4J0K2I&amp;list=PL4th0AZixyRF8o3fdx68HGUrYKF2Pfvrp&amp;index=17&amp;pp=iAQB</link>
       <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=SaKPr4J0K2I&list=PL4th0AZixyRF8o3fdx68HGUrYKF2Pfvrp&index=17&pp=iAQB">youtube</a><br><br></div>]]></description>
@@ -43860,6 +44402,12 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
       <link>https://youtu.be/BverGxP41cE</link>
       <description><![CDATA[<div id="content"><a href="https://youtu.be/BverGxP41cE">youtube</a><br><br>This is an overview screencast of https://github.com/abo-abo/lispy.</div>]]></description>
       <pubDate>Sat, 22 Nov 2014 23:05:05 +0000</pubDate>
+    </item>
+    <item>
+      <title>helm-ps interface</title>
+      <link>https://www.youtube.com/watch?v=3FImB6OwHI0</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=3FImB6OwHI0">youtube</a><br><br>example of using helm to create an interactive interface to ps with actions for a selection.</div>]]></description>
+      <pubDate>Sat, 22 Nov 2014 19:58:47 +0000</pubDate>
     </item>
     <item>
       <title>Emacs Rocks! Episode 15: restclient-mode</title>
@@ -43912,6 +44460,12 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
 
   Keyboard macros are a powerful Emacs feature! A keyboard macro is simply a recording of a sequence of key sequences that can be played back and repeated. In this meetup we go over the different keyboard macro commands Emacs has to offer; and in the second half we solve a couple repetitive text manipulation tasks using them.</div>]]></description>
       <pubDate>Tue, 14 Oct 2014 15:30:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Edit in Canopy from Emacs</title>
+      <link>https://www.youtube.com/watch?v=-noKrT1dfFE</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=-noKrT1dfFE">youtube</a><br><br>Illustrates using an external editor from Emacs</div>]]></description>
+      <pubDate>Sun, 28 Sep 2014 18:13:49 +0000</pubDate>
     </item>
     <item>
       <title>ZombieCLJ: Live parprogrammering - Magnar Sveen, Christian Johansen</title>
@@ -44003,6 +44557,12 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
     <item>
       <title>Turtle Graphics with Emacs Lisp</title>
       <link>https://www.youtube.com/watch?v=zzbEjmlIET0&amp;list=PL8tzorAO7s0he-pp7Y_JDl7-Kz2Qlr_Pj&amp;index=17&amp;t=13s&amp;pp=iAQB</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=zzbEjmlIET0&list=PL8tzorAO7s0he-pp7Y_JDl7-Kz2Qlr_Pj&index=17&t=13s&pp=iAQB">youtube</a><br><br></div>]]></description>
+      <pubDate>Thu, 10 Jul 2014 15:44:56 +0000</pubDate>
+    </item>
+    <item>
+      <title>Turtle Graphics with Emacs Lisp</title>
+      <link>https://www.youtube.com/watch?v=zzbEjmlIET0&amp;list=PL8tzorAO7s0he-pp7Y_JDl7-Kz2Qlr_Pj&amp;index=17&amp;t=13s&amp;pp=iAQB</link>
       <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=zzbEjmlIET0&list=PL8tzorAO7s0he-pp7Y_JDl7-Kz2Qlr_Pj&index=17&t=13s&pp=iAQB">youtube</a><br><br>Ray Puzio shows us his implementation of turtle graphics in emacs and takes us under the shell to see how it works.
 
   Turtle graphics are a way of drawing pictures in which one provides a series of directions such as "move forward" or "turn left" to steer the pen. (The name comes from the fact that the original implementation involved a robotic turtle as an output device controlled by the computer.) In addition to providing a useful and entertaining program, this talk also discusses techniques of pbm graphics and the use of a buffer for drawing which are of general use when doing graphics in emacs.</div>]]></description>
@@ -44043,10 +44603,22 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
       <pubDate>Fri, 27 Jun 2014 23:23:49 +0000</pubDate>
     </item>
     <item>
+      <title>org show show</title>
+      <link>https://www.youtube.com/watch?v=JZ8RK-R9O_g</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=JZ8RK-R9O_g">youtube</a><br><br>A show about using org-show</div>]]></description>
+      <pubDate>Fri, 27 Jun 2014 17:28:30 +0000</pubDate>
+    </item>
+    <item>
       <title>Emacs Org-mode Bibtex Screencast</title>
       <link></link>
       <description><![CDATA[<div id="content"><a href="https://vimeo.com/99167082">vimeo</a><br><br>Demonstrating the bibtex functionality built into Org-mode.  Sorry no sound.</div>]]></description>
       <pubDate>Wed, 25 Jun 2014 18:12:23 +0000</pubDate>
+    </item>
+    <item>
+      <title>org ref show</title>
+      <link>https://www.youtube.com/watch?v=JyvpSVl4_dg</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=JyvpSVl4_dg">youtube</a><br><br>Demonstration of org-ref features.</div>]]></description>
+      <pubDate>Tue, 24 Jun 2014 18:34:14 +0000</pubDate>
     </item>
     <item>
       <title>Writing Games with Emacs</title>
@@ -44219,13 +44791,6 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
 
   http://sachachua.com/blog/?p=27098&shareadraft=baba27098_53306da9c8ff1</div>]]></description>
       <pubDate>Mon, 24 Mar 2014 17:43:34 +0000</pubDate>
-    </item>
-    <item>
-      <title>Repl Electric - Tsih</title>
-      <link></link>
-      <description><![CDATA[<div id="content"><a href="https://vimeo.com/89741187">vimeo</a><br><br>Live Music coding with Overtone, Clojure, Emacs Live and Shadertone.
-  All source code: http://github.com/repl-electric</div>]]></description>
-      <pubDate>Fri, 21 Mar 2014 19:45:52 +0000</pubDate>
     </item>
     <item>
       <title>2014-03-19 Emacs Basics - Using the Mouse v2</title>
@@ -44467,12 +45032,6 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
 
   The Erlang Development Tool Suite (EDTS) is an open-source package of useful development tools for working with the Erlang programming language in Emacs. It bundles a number of useful external packages, together with specialized Erlang plugins for them, and its own features to create a complete and efficient development environment that is easy to set up.</div>]]></description>
       <pubDate>Mon, 21 Oct 2013 10:08:22 +0000</pubDate>
-    </item>
-    <item>
-      <title>Sam Aaron 2nd live performance with Overtone at EuroClojure 2013</title>
-      <link></link>
-      <description><![CDATA[<div id="content"><a href="https://vimeo.com/77030184">vimeo</a><br><br></div>]]></description>
-      <pubDate>Wed, 16 Oct 2013 09:15:50 +0000</pubDate>
     </item>
     <item>
       <title>Debugging CL-HTTP, using Clozure Common Lisp, GNU Emacs and SLIME</title>
@@ -44772,14 +45331,6 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
       <pubDate>Fri, 15 Mar 2013 18:55:07 +0000</pubDate>
     </item>
     <item>
-      <title>Sam Aaron, Live @ Arnolfini 2012</title>
-      <link></link>
-      <description><![CDATA[<div id="content"><a href="https://vimeo.com/61097922">vimeo</a><br><br>A live set performed by Sam Aaron at the Arnolfini art gallery in Bristol. Sound is designed and manipulated with Overtone (github.com/overtone/overtone), graphics with Quil (github.com/quil/quil) and is controlled via Emacs with the Emacs Live config (overtone.github.com/emacs-live/). Additionally a Korg NanoKontrol 2 was used to control some values in Emacs and the Satie part was performed with a monome (monome.org). All the code for this performance is Open Source and available on github: github.com/samaaron/arnold
-
-  For a pure screencast version of the same performance see: https://vimeo.com/46867490</div>]]></description>
-      <pubDate>Tue, 05 Mar 2013 14:25:04 +0000</pubDate>
-    </item>
-    <item>
       <title>Emacs Chat with Avdi Grimm</title>
       <link></link>
       <description><![CDATA[<div id="content"><a href="https://vimeo.com/60848459">vimeo</a><br><br>Avdi Grimm (http://dev.avdi.org) records the RubyTapas screencasts and does other cool stuff. I chatted with him about Org mode, literate programming, technical authoring, and other things you can do with Emacs.</div>]]></description>
@@ -45018,28 +45569,6 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
   Follow us on Twitter @Erlangfactory twitter.com/#!/erlangfactory
   Join our group on Linkedin Erlang Factory linkedin.com/groups/Erlang-Factory-2003110?trk=myg_ugrp_ovr</div>]]></description>
       <pubDate>Fri, 24 Aug 2012 13:28:22 +0000</pubDate>
-    </item>
-    <item>
-      <title>Live Hacking Overtone - Internal Sequencer</title>
-      <link></link>
-      <description><![CDATA[<div id="content"><a href="https://vimeo.com/47578617">vimeo</a><br><br>A quick run-through and then live jam with the internal sequencer example available in the latest development version of Overtone: http://bit.ly/MwdRJX
-
-  No fancy graphics this time - just raw text in Emacs, noise from Overtone and programming in Clojure.
-
-  Any questions will be happily answered in the Overtone mailing list: http://groups.google.com/group/overtone/</div>]]></description>
-      <pubDate>Wed, 15 Aug 2012 10:05:04 +0000</pubDate>
-    </item>
-    <item>
-      <title>Sam Aaron - Hacking Overtone - Live @ Arnolfini</title>
-      <link></link>
-      <description><![CDATA[<div id="content"><a href="https://vimeo.com/46867490">vimeo</a><br><br>A live set performed by Sam Aaron at the Arnolfini art gallery in Bristol. Sound is designed and manipulated with Overtone (http://github.com/overtone/overtone), graphics with Quil (http://github.com/quil/quil) and is controlled via Emacs with the Emacs Live config (http://overtone.github.com/emacs-live/). Additionally a Korg NanoKontrol 2 was used to control some values in Emacs and the Satie part was performed with a monome (http://monome.org). All the code for this performance is Open Source and available on github: http://github.com/samaaron/arnold
-
-  * For a stage capture of the same performance see: https://vimeo.com/61097922
-
-  * For a short 4 minute introduction to Overtone head here: https://vimeo.com/22798433
-
-  * Check out Meta-eX the Overtone-powered band: http://meta-ex.com</div>]]></description>
-      <pubDate>Fri, 03 Aug 2012 08:30:58 +0000</pubDate>
     </item>
     <item>
       <title>GUI Bug in Emacs NS port</title>

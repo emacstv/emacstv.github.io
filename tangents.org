@@ -1,0 +1,214 @@
+#+TODO: KEYWORD_THAT_WONT_BE_USED
+#+STARTUP: nolatexpreview
+
+Videos that aren't about Emacs specifically, but use Emacs
+
+* An sklearn-doe package with application to the SDL-Light   :science:tangent:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=Sfbmk4zTFCw&list=PL0sMmOaE_gs1Ox-wIIbHPLZ9O5uLJ_rQW&index=19&pp=iAQB
+:DATE:     2024-07-08T10:01:53-07:00
+:SPEAKERS: John Kitchin
+:DURATION: 14:45
+:END:
+  I introduce a new sklearn-inspired Surface Response design of experiment library in this video, and show how to use it in scimax. The library streamlines the setup and analysis of the design of experiment matrix and results.
+
+  Repo: https://github.com/jkitchin/scimax-eln
+
+  - Video 1 - https://www.youtube.com/watch?v=KodhYAo4xn0&t=0s
+  - Video 2 - joblib https://www.youtube.com/watch?v=sHiMOQkNFKQ
+  - Video 3 - hashcache https://youtube.com/live/d3zcfdylKOc
+  - Video 4 - SqlCache https://youtube.com/live/aWnYGOWWIqY
+  - Video 5 - molecular simulation https://youtube.com/live/eQcTubl-7kw
+  - Video 6 - writing reports in the notebook https://youtube.com/live/c9saatJ2o7A
+  - Video 7 - Interoperability and extendability https://youtube.com/live/RumU94MxqN4
+  - Video 8 - Searching your notebook https://youtube.com/live/C02FFd520MI
+  - Video 9 - Running Arduino devices https://youtube.com/live/Fn7sq8uRsGQ
+  - Video 10 - Electronic lab notebook with scimax - ELNs in the literature https://youtube.com/live/icPlZCF6LEw
+  - Video 11 - Publishing your ELN to GitHUB Pages https://youtube.com/live/zIgSOiMFBWU
+  - Video 12 - Tracking reagents in an ELN with scimax, completion and QR codes https://youtube.com/live/bLyhOCXn-Hg
+  - Video 13 - Controlling a remote instrument from an ELN - the SDL-light https://youtube.com/live/qbqxSKJ1F60
+  - Video 14 - SDL-Light with a design of experiment approach https://youtube.com/live/g1DEVScu6NE
+  - Video 15 - Reproducibility, significant differences and interactions in the SDL-Light https://youtube.com/live/BlUzXcyyYc0
+  - Video 16 - ANOVA + DOE with the SDL-Light https://youtube.com/live/pGuolCOZ8HQ
+  - Video 17 - Active learning and surrogates - take 1 https://youtube.com/live/mgxSuNgQmNQ
+  - Video 18 - Active learning and surrogates - take 2 https://youtube.com/live/-cH4mXnulwk
+
+* A Latin Hypercube experimental design to estimate effects in the SDL-Light  :science:tangent:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=VH8ooOeN4RI&list=PL0sMmOaE_gs1Ox-wIIbHPLZ9O5uLJ_rQW&index=20&pp=iAQB
+:DATE:     2024-07-09T07:59:45-07:00
+:SPEAKERS: John Kitchin
+:DURATION: 18:19
+:END:
+  I introduce a new Latin square design of experiment module in pycse. I show two applications, one using data from a textbook, and one using data from the SDL-Light.
+
+  Repo: https://github.com/jkitchin/scimax-eln
+
+  - Video 1 - https://www.youtube.com/watch?v=KodhYAo4xn0&t=0s
+  - Video 2 - joblib https://www.youtube.com/watch?v=sHiMOQkNFKQ
+  - Video 3 - hashcache https://youtube.com/live/d3zcfdylKOc
+  - Video 4 - SqlCache https://youtube.com/live/aWnYGOWWIqY
+  - Video 5 - molecular simulation https://youtube.com/live/eQcTubl-7kw
+  - Video 6 - writing reports in the notebook https://youtube.com/live/c9saatJ2o7A
+  - Video 7 - Interoperability and extendability https://youtube.com/live/RumU94MxqN4
+  - Video 8 - Searching your notebook https://youtube.com/live/C02FFd520MI
+  - Video 9 - Running Arduino devices https://youtube.com/live/Fn7sq8uRsGQ
+  - Video 10 - Electronic lab notebook with scimax - ELNs in the literature https://youtube.com/live/icPlZCF6LEw
+  - Video 11 - Publishing your ELN to GitHUB Pages https://youtube.com/live/zIgSOiMFBWU
+  - Video 12 - Tracking reagents in an ELN with scimax, completion and QR codes https://youtube.com/live/bLyhOCXn-Hg
+  - Video 13 - Controlling a remote instrument from an ELN - the SDL-light https://youtube.com/live/qbqxSKJ1F60
+  - Video 14 - SDL-Light with a design of experiment approach https://youtube.com/live/g1DEVScu6NE
+  - Video 15 - Reproducibility, significant differences and interactions in the SDL-Light https://youtube.com/live/BlUzXcyyYc0
+  - Video 16 - ANOVA + DOE with the SDL-Light https://youtube.com/live/pGuolCOZ8HQ
+  - Video 17 - Active learning and surrogates - take 1 https://youtube.com/live/mgxSuNgQmNQ
+  - Video 18 - Active learning and surrogates - take 2 https://youtube.com/live/-cH4mXnulwk
+  - Video 19 - An sklearn-doe package with application to the SDL-Light https://youtube.com/live/Sfbmk4zTFCw
+
+* sklearn-doe v2 - more flexible designs and models  :science:tangent:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=uxLCNEj1FbY&list=PL0sMmOaE_gs1Ox-wIIbHPLZ9O5uLJ_rQW&index=21&pp=iAQB
+:DATE:     2024-07-10T07:29:28-07:00
+:SPEAKERS: John Kitchin
+:DURATION: 16:20
+:END:
+  I updated the surface_response design of experiment code to give more flexibility in choosing a design, and flexibility to change the model. This video shows some of the new design capabilities, and two worked examples with Latin hypercube sampling: one with the default model, and one with a custom model. We show that the details of the model are important, especially for good uncertainty quantification.
+
+
+* SDL-Light with a design of experiment approach                        :org:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=g1DEVScu6NE&list=PL0sMmOaE_gs1Ox-wIIbHPLZ9O5uLJ_rQW&index=14&pp=iAQB
+:DATE:     2024-07-04T00:26:30-07:00
+:SPEAKERS: John Kitchin
+:DURATION: 19:31
+:END:
+  We use a Box-Behnken design of experiments to model the response of the SDL-Light demo. This gives us a matrix of experiments to perform, and then we fit models to the results. Here we look at simple linear and polynomial surface models. We don't do any analysis of variance in this video because we use the simplest regression tools that don't provide that.
+
+* Reproducibility, significant differences and interactions in the SDL-Light :org:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=BlUzXcyyYc0&list=PL0sMmOaE_gs1Ox-wIIbHPLZ9O5uLJ_rQW&index=15&pp=iAQB
+:DATE:     2024-07-04T12:12:05-07:00
+:SPEAKERS: John Kitchin
+:DURATION: 18:52
+:END:
+  We explore reproducibility in the SDL-Light in this video to estimate the noise in measurements. We also explore interactions between the input settings and output measurements. It looks like there is some interaction between the input channels and the output measurements. The noise in the measurements is approximately Gaussian in distribution, but the measurements are discretized because of the integer inputs.
+
+* ANOVA + DOE with the SDL-Light                                        :org:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=pGuolCOZ8HQ&list=PL0sMmOaE_gs1Ox-wIIbHPLZ9O5uLJ_rQW&index=16&pp=iAQB
+:DATE:     2024-07-05T09:13:21-07:00
+:SPEAKERS: John Kitchin
+:DURATION: 15:25
+:END:
+  We explore an analysis of variance with statsmodels on data from the SDL-Light demo. This allows us to assess whether the terms in the model we use are important, and provides a mechanism to estimate uncertainty in predictions from the model.
+
+* DOE vs active learning and surrogate models of the SDL-Light
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=mgxSuNgQmNQ&list=PL0sMmOaE_gs1Ox-wIIbHPLZ9O5uLJ_rQW&index=17&pp=iAQB
+:DATE:     2024-07-07T00:39:29-07:00
+:SPEAKERS: John Kitchin
+:DURATION: 24:44
+:END:
+  We introduce an idea of active learning and surrogate models in finding conditions to meet a desired output with the SDL-Light. The idea is a partial success, but in one example we found the surrogate model was over-confident and did not find a good solution even though it thought that it did! There is still some work to do on the surrogate model,  but it is on the right track!
+* Piezoelectric Resonator   :music:
+:PROPERTIES:
+:DATE:     2019-03-03T20:43:10+00:00
+:DURATION: 19:39
+:VIMEO_URL: https://vimeo.com/321104184
+:SPEAKERS: Repl Electric
+:END:
+  A Live musical and visual performance controlled through writing programming code. Created with SonicPi, Ruby,Emacs, Ableton Live & Unity3D.
+  Nothing pre-recorded, all performed live in one take.
+  Based on a live performance given in the US, LA at The Millennium Biltmore.
+
+* Repl Electric - You fall into your screen   :music:
+:PROPERTIES:
+:DATE:     2018-04-20T16:09:55+00:00
+:DURATION: 22:54
+:VIMEO_URL: https://vimeo.com/265785040
+:SPEAKERS: Repl Electric
+:END:
+  Live coded performance using Ruby, Emacs, SonicPi and Unity3D.
+  No post production or pre-rendering. Visuals are all live and controlled via emacs.
+  Based on a live performance given in the UK at Exeter University.
+
+* Less is Code: An Audio-Visual Live Coding Performance  :music:multimedia:
+:PROPERTIES:
+:DATE:     2016-09-11T11:38:21+00:00
+:DURATION: 6:40
+:VIMEO_URL: https://vimeo.com/182279635
+:SPEAKERS: Joan Sandoval
+:END:
+  A minimalist-based audio-visual live coding performance which explores cross modal perceptual analogies.
+
+  by Joan Sandoval
+
+* Repl Electric - End of buffer  :music:
+:PROPERTIES:
+:DATE:     2015-01-22T19:31:00+00:00
+:DURATION: 9:28
+:VIMEO_URL: https://vimeo.com/117516352
+:SPEAKERS: Repl Electric
+:END:
+  A live coded performance based on a performance given in New York City.
+
+  Live coded using Clojure, Emacs, Overtone, Dirt (Part of Tidal) & Shadertone. No post-production.
+
+  All the performance source is open for the world to see and play with: https://github.com/repl-electric/cassiopeia
+
+* Repl Electric - Tsih  :music:
+:PROPERTIES:
+:DATE:     2014-03-21T19:45:52+00:00
+:DURATION: 7:04
+:VIMEO_URL: https://vimeo.com/89741187
+:SPEAKERS: Repl Electric
+:END:
+  Live Music coding with Overtone, Clojure, Emacs Live and Shadertone.
+  All source code: http://github.com/repl-electric
+
+* Sam Aaron 2nd live performance with Overtone at EuroClojure 2013  :music:
+:PROPERTIES:
+:DATE:     2013-10-16T09:15:50+00:00
+:DURATION: 5:51
+:VIMEO_URL: https://vimeo.com/77030184
+:SPEAKERS: Jérémie Grodziski
+:END:
+
+* Sam Aaron, Live @ Arnolfini 2012   :music:
+:PROPERTIES:
+:DATE:     2013-03-05T14:25:04+00:00
+:DURATION: 17:11
+:VIMEO_URL: https://vimeo.com/61097922
+:SPEAKERS: Sam Aaron
+:END:
+  A live set performed by Sam Aaron at the Arnolfini art gallery in Bristol. Sound is designed and manipulated with Overtone (github.com/overtone/overtone), graphics with Quil (github.com/quil/quil) and is controlled via Emacs with the Emacs Live config (overtone.github.com/emacs-live/). Additionally a Korg NanoKontrol 2 was used to control some values in Emacs and the Satie part was performed with a monome (monome.org). All the code for this performance is Open Source and available on github: github.com/samaaron/arnold
+
+  For a pure screencast version of the same performance see: https://vimeo.com/46867490
+
+
+* Live Hacking Overtone - Internal Sequencer   :music:
+:PROPERTIES:
+:DATE:     2012-08-15T10:05:04+00:00
+:DURATION: 10:55
+:VIMEO_URL: https://vimeo.com/47578617
+:SPEAKERS: Sam Aaron
+:END:
+  A quick run-through and then live jam with the internal sequencer example available in the latest development version of Overtone: http://bit.ly/MwdRJX
+
+  No fancy graphics this time - just raw text in Emacs, noise from Overtone and programming in Clojure.
+
+  Any questions will be happily answered in the Overtone mailing list: http://groups.google.com/group/overtone/
+
+* Sam Aaron - Hacking Overtone - Live @ Arnolfini   :music:
+:PROPERTIES:
+:DATE:     2012-08-03T08:30:58+00:00
+:DURATION: 17:08
+:VIMEO_URL: https://vimeo.com/46867490
+:SPEAKERS: Sam Aaron
+:END:
+  A live set performed by Sam Aaron at the Arnolfini art gallery in Bristol. Sound is designed and manipulated with Overtone (http://github.com/overtone/overtone), graphics with Quil (http://github.com/quil/quil) and is controlled via Emacs with the Emacs Live config (http://overtone.github.com/emacs-live/). Additionally a Korg NanoKontrol 2 was used to control some values in Emacs and the Satie part was performed with a monome (http://monome.org). All the code for this performance is Open Source and available on github: http://github.com/samaaron/arnold
+
+  * For a stage capture of the same performance see: https://vimeo.com/61097922
+
+  * For a short 4 minute introduction to Overtone head here: https://vimeo.com/22798433
+
+  * Check out Meta-eX the Overtone-powered band: http://meta-ex.com
