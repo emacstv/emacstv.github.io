@@ -1472,6 +1472,56 @@ You can view this and other resources using free/libre software at https://emacs
 
 This video is available under the terms of the Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license.
 
+* EmacsConf 2024 Talk: So You Want To Be An Emacs-Fluencer?  :community:sharing:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=iG9fMUXpjRE
+:DATE:     2024-12-08T13:22:31-08:00
+:SPEAKERS: Goparism
+:DURATION: 21:40
+:END:
+  The Talk I gave at EmacsConf2024:
+
+  ========================================
+  Ever thought about sharing your Emacs knowledge? Starting a YouTube channel, blog, podcast, or even smoke signals to share those tidbits? If you’ve answered "No", then I'd like to change your mind. And if you said "Yes", then you're already on the right path.
+
+  In this talk, I will share what I've learned from my journey as an Emacs advocate, including tips, setups (both current and past), and various alternatives to get your works out there. Most importantly, I'll discuss why your story and perspective matter, even if you think otherwise. Your unique experience can inspire and help others in the Emacs community.
+
+  About the speaker:
+
+  Gopar, a fellow Emacs user and advocate, will be sharing insights on how everyone can become the Emacs Influencer they never knew they wanted to be.
+
+  From starting a YouTube channel to writing blogs, Gopar will provide practical tips and share personal experiences to help you embark on your journey of sharing Emacs knowledge.
+
+  00:00 Introduction
+  00:12 Knowledge grows when it is shared
+  00:36 When's the last time you shared something?
+  01:07 Sharing Emacs
+  02:41 My background
+  03:06 Why you should make Emacs videos (or other formats)
+  03:44 Beginners
+  05:22 Intermediate
+  05:56 Advanced
+  06:22 Impostor syndrome
+  07:28 Process for recording
+  08:46 Details: recording
+  09:36 Tips: Recording
+  13:33 Details: Editing
+  14:38 Tips: Editing
+  15:44 Details: Uploading
+  16:06 Tips: Uploading
+  18:06 Your secret sauce
+  19:04 Cons of YouTube
+
+  -----------------------------------------------------
+  Github: https://github.com/gopar/
+  -----------------------------------------------------
+
+  John 3:16 - "For God so loved the world that he gave his one and only Son, that whoever believes in him shall not perish but have eternal life."
+
+  James 1:5 - "If any of you lacks wisdom, you should ask God, who gives generously to all without finding fault, and it will be given to you."
+
+  I thank God for all the wisdom he has blessed me with.
+
 * Open mic/pad for quick updates etc.  :emacsconf:emacsconf2024:community:
 :PROPERTIES:
 :DATE:     2024-12-08T05:00:00+0000
@@ -3794,6 +3844,36 @@ count-words-region
   ekg can be found at:
   https://github.com/ahyatt/ekg
 
+* Eshell Quality Improvements  :eshell:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=__f9A9uYJkE
+:DATE:     2024-08-09T09:15:02-07:00
+:SPEAKERS: Goparism
+:DURATION: 15:35
+:END:
+  ▶️ Playlist: https://www.youtube.com/playlist?list=PL3kg5TcOuFlqE1_ZTkC7RO2VEC3DFxcg5
+
+  🎥 𝗩𝗶𝗱𝗲𝗼 𝗦𝘂𝗺𝗺𝗮𝗿𝘆:
+  Here's a look into my eshell setup. I use eshell as my primary shell.
+  Please let me know if there are other things I should be looking into!
+
+  🍵 𝗦𝘂𝗽𝗽𝗼𝗿𝘁 𝗠𝗲:
+  Like what you see? Here are a few ways you can support the channel:
+  - https://github.com/sponsors/gopar
+  - https://www.buymeacoffee.com/gopar
+
+  📱 𝗦𝗼𝗰𝗶𝗮𝗹𝘀:
+  📘 Blog: https://pygopar.com
+  🐦 Twitter: https://twitter.com/goparism
+  🌐 Github: https://github.com/gopar
+
+  ✝️ 𝗠𝗶𝘀𝗰:
+  James 1:5 - "If any of you lacks wisdom, you should ask God, who gives generously to all without finding fault, and it will be given to you."
+
+  I thank God for all the wisdom he has blessed me with.
+
+  #Emacs #IDE #Programming #SoftwareDevelopment #GNU #GNUEmacs
+
 * 5 Custom Org Agenda Views for Productivity                            :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=-9rpQA6O3aM&list=PLEoMzSkcN8oM8vAS2dcoeLHtD2DTqKTVY&index=1&pp=iAQB
@@ -3854,6 +3934,36 @@ count-words-region
   reNovation by airtone, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/airtone/60674
   ukeSounds by airtone, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/airtone/32655
   Between Worlds (Instrumental) by Aussens@iter, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/tobias_weber/56664
+
+* Turn Eshell into a Comedian  :eshell:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=RYdvSAf7Cl0
+:DATE:     2024-07-30T09:15:01-07:00
+:SPEAKERS: Goparism
+:DURATION: 4:48
+:END:
+  ▶️ Playlist: https://www.youtube.com/playlist?list=PL3kg5TcOuFlqE1_ZTkC7RO2VEC3DFxcg5
+
+  🎥 𝗩𝗶𝗱𝗲𝗼 𝗦𝘂𝗺𝗺𝗮𝗿𝘆:
+  Lets learn how to make Eshell tell jokes! Its a lot simpler than you think.
+  Please let me know if there are other things I should be looking into!
+
+  🍵 𝗦𝘂𝗽𝗽𝗼𝗿𝘁 𝗠𝗲:
+  Like what you see? Here are a few ways you can support the channel:
+  - https://github.com/sponsors/gopar
+  - https://www.buymeacoffee.com/gopar
+
+  📱 𝗦𝗼𝗰𝗶𝗮𝗹𝘀:
+  📘 Blog: https://pygopar.com
+  🐦 Twitter: https://twitter.com/goparism
+  🌐 Github: https://github.com/gopar
+
+  ✝️ 𝗠𝗶𝘀𝗰:
+  James 1:5 - "If any of you lacks wisdom, you should ask God, who gives generously to all without finding fault, and it will be given to you."
+
+  I thank God for all the wisdom he has blessed me with.
+
+  #Emacs #IDE #Programming #SoftwareDevelopment #GNU #GNUEmacs
 
 * Emacs: exclude directories in Denote's Org dynamic blocks  :org:denote:
 :PROPERTIES:
@@ -3983,6 +4093,40 @@ count-words-region
   - Video 19 - An sklearn-doe package with application to the SDL-Light https://youtube.com/live/Sfbmk4zTFCw
   - Video 20 - An sklearn-doe package for Latin square designs https://youtube.com/live/VH8ooOeN4RI
   - Video 21 - update on sklearn-doe package https://youtube.com/live/uxLCNEj1FbY
+* PSA: Org Mode Vulnerability - Please Update  :org:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=KoSS0F2Vg6A
+:DATE:     2024-07-16T09:15:01-07:00
+:SPEAKERS: Goparism
+:DURATION: 3:09
+:END:
+  ▶️ Playlist: https://www.youtube.com/playlist?list=PL3kg5TcOuFlqE1_ZTkC7RO2VEC3DFxcg5
+
+  Reddit Post: https://www.reddit.com/r/orgmode/comments/1dlz5zb/ann_emergency_bugfix_release_org_mode_975/
+  Post explaining Vuln: https://seclists.org/oss-sec/2024/q2/296
+
+  🎥 𝗩𝗶𝗱𝗲𝗼 𝗦𝘂𝗺𝗺𝗮𝗿𝘆:
+  A Vulnerability has been found in Org Mode, affecting version 9.7.4 and below. Please update when you can.
+
+  Please let me know if there are other things I should be looking into!
+
+  🍵 𝗦𝘂𝗽𝗽𝗼𝗿𝘁 𝗠𝗲:
+  Like what you see? Here are a few ways you can support the channel:
+  - https://github.com/sponsors/gopar
+  - https://www.buymeacoffee.com/gopar
+
+  📱 𝗦𝗼𝗰𝗶𝗮𝗹𝘀:
+  📘 Blog: https://pygopar.com
+  🐦 Twitter: https://twitter.com/goparism
+  🌐 Github: https://github.com/gopar
+
+  ✝️ 𝗠𝗶𝘀𝗰:
+  James 1:5 - "If any of you lacks wisdom, you should ask God, who gives generously to all without finding fault, and it will be given to you."
+
+  I thank God for all the wisdom he has blessed me with.
+
+  #Emacs #IDE #Programming #SoftwareDevelopment #GNU #GNUEmacs
+
 * Algumas perguntas pros estudantes de C2 que estão aprendendo Emacs, eev e Maxima :eev:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=FjhyhTxN_-o
@@ -4190,6 +4334,37 @@ count-words-region
 :END:
   You should be able to use an electronic notebook to write reports using the data from your notebook. In this video we explore writing a small report from the molecular simulation work we did in the last video. We show how to reuse data from your notebook, and a limitation of the cache system we used last time. With #scimax you can write reports and then export them to other formats like pdf using #orgmode.
 
+* Auto adding Jira tickets in commits  :magit:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=yP3mgt5hMyI
+:DATE:     2024-06-20T09:30:09-07:00
+:SPEAKERS: Goparism
+:DURATION: 3:18
+:END:
+  ▶️ Playlist: https://www.youtube.com/playlist?list=PL3kg5TcOuFlqE1_ZTkC7RO2VEC3DFxcg5
+
+  🎥 𝗩𝗶𝗱𝗲𝗼 𝗦𝘂𝗺𝗺𝗮𝗿𝘆:
+  We look at how to automatically add jira ticket numbers into the git commits via Emacs/Magit. This can be used for any bug ticketing really.
+
+  Please let me know if there are other things I should be looking into!
+
+  🍵 𝗦𝘂𝗽𝗽𝗼𝗿𝘁 𝗠𝗲:
+  Like what you see? Here are a few ways you can support the channel:
+  - https://github.com/sponsors/gopar
+  - https://www.buymeacoffee.com/gopar
+
+  📱 𝗦𝗼𝗰𝗶𝗮𝗹𝘀:
+  📘 Blog: https://pygopar.com
+  🐦 Twitter: https://twitter.com/pygopar
+  🌐 Github: https://github.com/gopar
+
+  ✝️ 𝗠𝗶𝘀𝗰:
+  James 1:5 - "If any of you lacks wisdom, you should ask God, who gives generously to all without finding fault, and it will be given to you."
+
+  I thank God for all the wisdom he has blessed me with.
+
+  #Emacs #IDE #Programming #SoftwareDevelopment #GNU #GNUEmacs
+
 * Electronic lab notebook with scimax for molecular simulation tasks    :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=eQcTubl-7kw&list=PL0sMmOaE_gs1Ox-wIIbHPLZ9O5uLJ_rQW&index=5&pp=iAQB
@@ -4215,6 +4390,37 @@ count-words-region
   Repo: https://github.com/jkitchin/scimax-eln
 
   #emacs, #orgmode, #scimax
+
+* Underscore Key is DEAD :keybinding:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=6R-73hsL5wk
+:DATE:     2024-06-17T13:01:24-07:00
+:SPEAKERS: Goparism
+:DURATION: 2:13
+:END:
+  ▶️ Playlist: https://www.youtube.com/playlist?list=PL3kg5TcOuFlqE1_ZTkC7RO2VEC3DFxcg5
+
+  🎥 𝗩𝗶𝗱𝗲𝗼 𝗦𝘂𝗺𝗺𝗮𝗿𝘆:
+  I no longer type the underscore in emacs, and here's how I did it!
+
+  Please let me know if there are other things I should look into!
+
+  🍵 𝗦𝘂𝗽𝗽𝗼𝗿𝘁 𝗠𝗲:
+  Like what you see? Here are a few ways you can support the channel:
+  - https://github.com/sponsors/gopar
+  - https://www.buymeacoffee.com/gopar
+
+  📱 𝗦𝗼𝗰𝗶𝗮𝗹𝘀:
+  📘 Blog: https://pygopar.com
+  🐦 Twitter: https://twitter.com/pygopar
+  🌐 Github: https://github.com/gopar
+
+  ✝️ 𝗠𝗶𝘀𝗰:
+  James 1:5 - "If any of you lacks wisdom, you should ask God, who gives generously to all without finding fault, and it will be given to you."
+
+  I thank God for all the wisdom he has blessed me with.
+
+  #Emacs #IDE #Programming #SoftwareDevelopment #GNU #GNUEmacs
 
 * Context Menu is Personal (GNU Emacs)    :menu:ContextMenu:
 :PROPERTIES:
@@ -4515,6 +4721,32 @@ count-words-region
   Quick Data Visualization with GNU Emacs and Gnuplot
   https://lifeofpenguin.blogspot.com/2024/03/data-visualization-with-gnu-emacs.html
 
+* How I used INFORMATION THEORY to choose better Keybindings   :keybindings:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=MytPttbIUOY
+:DATE:     2024-03-21T15:06:33-07:00
+:SPEAKERS: Sammy Engineering
+:DURATION: 13:40
+:END:
+  code for this project:
+  https://github.com/sstraust/shannonmax/tree/master
+
+  Timestamps:
+  0:00 Intro
+  2:34 Overview
+  3:20 Keylogger, and Frequencies
+  5:18 Entropy
+  7:14 Huffman Encoding
+  8:58 Applying it in the Real World
+  12:00 Final Thoughts
+
+
+
+  In this video I talk about how I use concepts from information theory to choose better keybindings for myself in emacs.
+
+  In particular, I compute the entropy of my emacs commands, calculate a huffman encoding, and apply the theoretical optimal values to come up with better keybindings for myself.
+
+  This is the absolutely most unhinged use of information theory you've ever seen. I show how you can use techniques from signal processing, and compression, apply them to a different domain, and succintly solve a real-world problem.
 * Data Visualization with GNU Emacs - Time series  :visualization:gnuplot:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=A6OhjYjdrqY&list=PLW9poAEUvGDCtcnrDdiQWRAX_3RC6XcNU&index=2&pp=iAQB
@@ -4707,6 +4939,38 @@ count-words-region
   Envrc takes care of direnv support - a way to automatically set up your environment when you change into a directory.
 
   Matching blog post (which includes configuration file info): https://cestlaz.github.io/posts/using-emacs-82-conda-direnv
+* Google Calendar Syncing With Emacs + Diary  :calendar:diary:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=0RNhdDN-NiQ
+:DATE:     2024-02-13T08:00:00-08:00
+:SPEAKERS: Goparism
+:DURATION: 6:29
+:END:
+  ▶️ Playlist: https://www.youtube.com/playlist?list=PL3kg5TcOuFlqE1_ZTkC7RO2VEC3DFxcg5
+  Prot Diary Calendar Video: https://www.youtube.com/watch?v=NkhgIB64zgc
+
+  🎥 𝗩𝗶𝗱𝗲𝗼 𝗦𝘂𝗺𝗺𝗮𝗿𝘆:
+  Showing how I do one way syncing from Google Calender to emacs!
+
+  🍵 𝗦𝘂𝗽𝗽𝗼𝗿𝘁 𝗠𝗲:
+  Like what you see? Here are a few ways you can support the channel:
+  - https://github.com/sponsors/gopar
+  - https://www.buymeacoffee.com/gopar
+
+  📱 𝗦𝗼𝗰𝗶𝗮𝗹𝘀:
+  📘 Blog: https://pygopar.com
+  🐦 Twitter: https://twitter.com/pygopar
+  🌐 Github: https://github.com/gopar
+
+  ✝️ 𝗠𝗶𝘀𝗰:
+  John 3:16 - "For God so loved the world that he gave his one and only Son, that whoever believes in him shall not perish but have eternal life."
+
+  James 1:5 - "If any of you lacks wisdom, you should ask God, who gives generously to all without finding fault, and it will be given to you."
+
+  I thank God for all the wisdom he has blessed me with.
+
+  #Emacs #IDE #Programming #SoftwareDevelopment #GNU #GNUEmacs
+
 * Emacs: control where buffers are displayed (the 'display-buffer-alist')  :buffers:configuration:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?si=o55awR-etgHGz4jr&v=1-UIzYPn38s&feature=youtu.be
@@ -4919,6 +5183,35 @@ count-words-region
 
   https://cestlaz.github.io/post/learning-elisp-17
 
+* Why is My Emacs Slow?
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=eyDGeVvnHgo&list=PL3kg5TcOuFlo36D8Sfyum_p8t9NN4e18I&index=9&pp=iAQB
+:DATE:     2024-01-23T08:00:23-08:00
+:SPEAKERS: Goparism
+:DURATION: 6:10
+:END:
+  🎥 𝗩𝗶𝗱𝗲𝗼 𝗦𝘂𝗺𝗺𝗮𝗿𝘆:
+  If you've ever wondered "Why is my emacs slow?", or what could be possibly slowing down emacs, well in this video we talk about emacs built-in profiler to help find out the culprits
+
+  🍵 𝗦𝘂𝗽𝗽𝗼𝗿𝘁 𝗠𝗲:
+  Like what you see? Here are a few ways you can support the channel:
+  - https://github.com/sponsors/gopar
+  - https://www.buymeacoffee.com/gopar
+
+  📱 𝗦𝗼𝗰𝗶𝗮𝗹𝘀:
+  📘 Blog: https://pygopar.com
+  🐦 Twitter: https://twitter.com/pygopar
+  🌐 Github: https://github.com/gopar
+
+  ✝️ 𝗠𝗶𝘀𝗰:
+  John 3:16 - "For God so loved the world that he gave his one and only Son, that whoever believes in him shall not perish but have eternal life."
+
+  James 1:5 - "If any of you lacks wisdom, you should ask God, who gives generously to all without finding fault, and it will be given to you."
+
+  I thank God for all the wisdom he has blessed me with.
+
+  #Emacs #IDE #Programming #SoftwareDevelopment #GNU #GNUEmacs
+
 * ellama  :ai:llm:ellama:
 :PROPERTIES:
 :DATE:     2024-01-21T15:33:39+00:00
@@ -5053,6 +5346,103 @@ count-words-region
 
   Find all my publications on my website: https://protesilaos.com
 
+* Where To Learn Emacs in 2024  :learning:beginner:community:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=jgogUgeuBPo&list=PL3kg5TcOuFlo36D8Sfyum_p8t9NN4e18I&index=8&pp=iAQB
+:DATE:     2024-01-11T08:00:35-08:00
+:SPEAKERS: Goparism
+:DURATION: 7:10
+:END:
+  🔗 Links:
+  * Big Emacs Content Creators
+  - https://www.youtube.com/@emacselements
+  - https://www.youtube.com/@protesilaos
+  - https://www.youtube.com/@EmacsConf
+  - https://www.youtube.com/@SystemCrafters
+  - https://www.youtube.com/@DistroTube
+  - https://www.youtube.com/@howardabrams1
+
+  * Smaller Creators:
+  - https://www.youtube.com/@ChristopherMaiorana
+  - https://www.youtube.com/@tonyaldon
+  - https://www.youtube.com/@bwestbro
+  - https://www.youtube.com/@BlackberryBoy
+  - https://www.youtube.com/@skybert
+  - https://www.youtube.com/@timunkertnet
+
+  * Blogs
+  - https://www.reddit.com/r/emacs/comments/11o6fz3/what_good_emacs_blogs_do_you_read/
+  - https://irreal.org/blog/
+  - https://medium.com/@goparism
+
+  * Other Places
+  - twitter
+  - Reddit.com
+    - r/emacs/
+    - r/org-mode/
+    - r/spacemacs/
+    - r/freemacs/
+  - IRC
+  - Manual
+
+  🎥 𝗩𝗶𝗱𝗲𝗼 𝗦𝘂𝗺𝗺𝗮𝗿𝘆:
+  Learn about other YouTube content creators who are focusing on Emacs and other places to learn about emacs :)
+
+  🍵 𝗦𝘂𝗽𝗽𝗼𝗿𝘁 𝗠𝗲:
+  Like what you see? Here are a few ways you can support the channel:
+  - https://github.com/sponsors/gopar
+  - https://www.buymeacoffee.com/gopar
+
+  📱 𝗦𝗼𝗰𝗶𝗮𝗹𝘀:
+  📘 Blog: https://pygopar.com
+  🐦 Twitter: https://twitter.com/pygopar
+  🌐 Github: https://github.com/gopar
+
+  ✝️ 𝗠𝗶𝘀𝗰:
+  John 3:16 - "For God so loved the world that he gave his one and only Son, that whoever believes in him shall not perish but have eternal life."
+
+  James 1:5 - "If any of you lacks wisdom, you should ask God, who gives generously to all without finding fault, and it will be given to you."
+
+  I thank God for all the wisdom he has blessed me with.
+
+  #Emacs #IDE #Programming #SoftwareDevelopment #GNU #GNUEmacs
+
+* TDD In Emacs
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=V6ceL-KdIeQ&list=PL3kg5TcOuFlo36D8Sfyum_p8t9NN4e18I&index=7&pp=iAQB
+:DATE:     2024-01-09T08:00:19-08:00
+:SPEAKERS: Goparism
+:DURATION: 7:37
+:END:
+  🔗 Links:
+  - https://codeberg.org/ideasman42/emacs-fancy-compilation
+  - https://github.com/maio/recompile-on-save.el
+  - https://github.com/EricCrosson/bury-successful-compilation
+
+
+  🎥 𝗩𝗶𝗱𝗲𝗼 𝗦𝘂𝗺𝗺𝗮𝗿𝘆:
+  We talk about some handy little 3rd party packages for TDD (Test Driven Development) along with Emacs Built In Compilation mode.
+  Please let me know if there are other things I should be looking into!
+
+  🍵 𝗦𝘂𝗽𝗽𝗼𝗿𝘁 𝗠𝗲:
+  Like what you see? Here are a few ways you can support the channel:
+  - https://github.com/sponsors/gopar
+  - https://www.buymeacoffee.com/gopar
+
+  📱 𝗦𝗼𝗰𝗶𝗮𝗹𝘀:
+  📘 Blog: https://pygopar.com
+  🐦 Twitter: https://twitter.com/pygopar
+  🌐 Github: https://github.com/gopar
+
+  ✝️ 𝗠𝗶𝘀𝗰:
+  John 3:16 - "For God so loved the world that he gave his one and only Son, that whoever believes in him shall not perish but have eternal life."
+
+  James 1:5 - "If any of you lacks wisdom, you should ask God, who gives generously to all without finding fault, and it will be given to you."
+
+  I thank God for all the wisdom he has blessed me with.
+
+  #Emacs #IDE #Programming #SoftwareDevelopment #GNU #GNUEmacs
+
 * Learning git with "try it!"s (and eev)                                :eev:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=lsVvokjqMY0
@@ -5135,6 +5525,36 @@ count-words-region
 
   #Emacs #IDE #Programming #SoftwareDevelopment #GNU #GNUEmacs
 
+* 12 Week Year in Emacs
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=WgZL3TwrKUA&list=PL3kg5TcOuFlo36D8Sfyum_p8t9NN4e18I&index=6&pp=iAQB
+:DATE:     2023-12-28T08:00:19-08:00
+:SPEAKERS: Goparism
+:DURATION: 8:38
+:END:
+  🎥 𝗩𝗶𝗱𝗲𝗼 𝗦𝘂𝗺𝗺𝗮𝗿𝘆:
+  I use the 12 week year framework, and here is how I do it to keep track of things :)
+  Please let me know if there are other things I should be looking into!
+
+  🍵 𝗦𝘂𝗽𝗽𝗼𝗿𝘁 𝗠𝗲:
+  Like what you see? Here are a few ways you can support the channel:
+  - https://github.com/sponsors/gopar
+  - https://www.buymeacoffee.com/gopar
+
+  📱 𝗦𝗼𝗰𝗶𝗮𝗹𝘀:
+  📘 Blog: https://pygopar.com
+  🐦 Twitter: https://twitter.com/pygopar
+  🌐 Github: https://github.com/gopar
+
+  ✝️ 𝗠𝗶𝘀𝗰:
+  John 3:16 - "For God so loved the world that he gave his one and only Son, that whoever believes in him shall not perish but have eternal life."
+
+  James 1:5 - "If any of you lacks wisdom, you should ask God, who gives generously to all without finding fault, and it will be given to you."
+
+  I thank God for all the wisdom he has blessed me with.
+
+  #Emacs #IDE #Programming #SoftwareDevelopment #GNU #GNUEmacs
+
 * REPLs in strange places: updates, a demo, and how to try it
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=s3enXsuXyNg
@@ -5143,6 +5563,44 @@ count-words-region
 :DURATION: 20:52
 :END:
   See http://anggtwu.net/emacsconf2023.html
+
+* Every LLM in Emacs, with gptel  :ai:llm:gptel:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=bsRnh_brggM
+:DATE:     2023-12-25T04:00:36-08:00
+:SPEAKERS: karthink
+:DURATION: 17:56
+:END:
+  GPTel is a simple LLM client for Emacs.  It's always available but stays out of your way.
+
+  It supports ChatGPT/Azure, Ollama, Gemini, Kagi and more.
+
+  You can install it from MELPA. For more information: https://github.com/karthink/gptel
+
+  00:00 The pitch
+  00:27 Installation and basic usage
+  04:00 Fun with LLM system messages
+  04:27 Example: GPT-4 as a scientific calculator
+  05:47 Example: GPT-4 as a thesaurus
+  07:07 gptel's design
+  07:55 Redirecting input and output
+  08:04 Example: Redirect both to the minibuffer
+  08:32 Example: Redirect and continue a conversation
+  10:37 Design objective: be invisible, but always available
+  11:04 Example: Fixing LaTeX in-place
+  12:08 Example: A just-in-time shell commands
+  13:09 Example: just-in-time Emacs discovery
+  13:38 Design objective: a small surface area
+  13:57 Two kinds of consistency: external and internal interface
+  14:13 Example: Multi-LLM demo
+  15:53 Design objective: Focus on text
+  16:46 Commonly requested behaviors, gptel-request
+  17:47 Sign-off
+
+  Since I always get questions about the visuals:
+  Emacs theme: modus-operandi
+  Fonts: Iosevka Comfy Motion (monospace), Merriweather (Serif)
+  Other packages used: spacious-padding, olivetti, popper
 
 * Audio braindump workflow tweaks: Adding Org Mode hyperlinks to recordings based on keywords :org:
 :PROPERTIES:
@@ -5153,6 +5611,38 @@ count-words-region
 :END:
   I've been experimenting with using speech recognition, Emacs, and Org Mode to lightly structure audio braindumps. Details:
   https://sachachua.com/blog/2023/12/audio-braindump-workflow-tweaks-adding-org-mode-hyperlinks-to-recordings-based-on-keywords/
+* My GTD Emacs Workflow (Getting Things Done)  :gtd:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=92PCxH29UCo&list=PL3kg5TcOuFlo36D8Sfyum_p8t9NN4e18I&index=5&pp=iAQB
+:DATE:     2023-12-21T08:00:05-08:00
+:SPEAKERS: Goparism
+:DURATION: 13:49
+:END:
+  🎥 𝗩𝗶𝗱𝗲𝗼 𝗦𝘂𝗺𝗺𝗮𝗿𝘆:
+  Today I'll go over how I use Emacs in my GTD workflow (Getting Things Done).
+  Its a lot simpler than you think!
+
+  Please let me know if there are other things I should be looking into!
+
+  🍵 𝗦𝘂𝗽𝗽𝗼𝗿𝘁 𝗠𝗲:
+  Like what you see? Here are a few ways you can support the channel:
+  - https://github.com/sponsors/gopar
+  - https://www.buymeacoffee.com/gopar
+
+  📱 𝗦𝗼𝗰𝗶𝗮𝗹𝘀:
+  📘 Blog: https://pygopar.com
+  🐦 Twitter: https://twitter.com/pygopar
+  🌐 Github: https://github.com/gopar
+
+  ✝️ 𝗠𝗶𝘀𝗰:
+  John 3:16 - "For God so loved the world that he gave his one and only Son, that whoever believes in him shall not perish but have eternal life."
+
+  James 1:5 - "If any of you lacks wisdom, you should ask God, who gives generously to all without finding fault, and it will be given to you."
+
+  I thank God for all the wisdom he has blessed me with.
+
+  #Emacs #IDE #Programming #SoftwareDevelopment #GNU #GNUEmacs #GTD #GettingThingsDone
+
 * 20230930D Инженерный способ делать менеджмент
 :PROPERTIES:
 :DATE:     2023-12-19T17:44:52+00:00
@@ -5176,6 +5666,49 @@ count-words-region
   в освоение этого инструмента.
 
   md5:5924b539380b124193a8ae08a6c4dacd
+
+* My Python Emacs Workflow  :coding:python:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=UJRfahlLHFg&list=PL3kg5TcOuFlo36D8Sfyum_p8t9NN4e18I&index=4&pp=iAQB
+:DATE:     2023-12-19T08:00:16-08:00
+:SPEAKERS: Goparism
+:DURATION: 19:07
+:END:
+  🎥 𝗩𝗶𝗱𝗲𝗼 𝗦𝘂𝗺𝗺𝗮𝗿𝘆:
+  I go over what packages I use for my python workflow in Emacs
+  Please let me know if there are other things I should be looking into!
+
+  Timestamps:
+  00:00 Intro
+  00:30 Python Configuration
+  06:34 Virtual Env Handling
+  08:16 Formatters/Linters
+  10:15 Importmagic
+  11:01 Pydoc
+  13:28 Jedi
+  14:56 Devdoc (Documentation)
+  16:18 Dir-locals.el Variables
+  17:27 Eshell
+  17:47 Vterm
+  18:29 Outro
+
+  🍵 𝗦𝘂𝗽𝗽𝗼𝗿𝘁 𝗠𝗲:
+  Like what you see? Here are a few ways you can support the channel:
+  - https://www.buymeacoffee.com/gopar
+
+  📱 𝗦𝗼𝗰𝗶𝗮𝗹𝘀:
+  📘 Blog: https://pygopar.com
+  🐦 Twitter: https://twitter.com/pygopar
+  🌐 Github: https://github.com/gopar
+
+  ✝️ 𝗠𝗶𝘀𝗰:
+  John 3:16 - "For God so loved the world that he gave his one and only Son, that whoever believes in him shall not perish but have eternal life."
+
+  James 1:5 - "If any of you lacks wisdom, you should ask God, who gives generously to all without finding fault, and it will be given to you."
+
+  I thank God for all the wisdom he has blessed me with.
+
+  #Emacs #IDE #Programming #SoftwareDevelopment #GNU #GNUEmacs
 
 * Emacs: advanced Org literate configuration  :org:literate:configuration:
 :PROPERTIES:
@@ -5258,6 +5791,62 @@ count-words-region
 :DURATION: 10:28
 :END:
   About six years ago, I wrote about [[https://kitchingroup.cheme.cmu.edu/blog/2017/09/16/Finding-similar-bibtex-entries/][finding similar bibtex entries]] using NLP with TFIDF vectors. The world has moved on and today we have LLMs and transformers that can generate embeddings for documents. In this post I provide an update on this idea, and for fun integrate it with Emacs.
+
+* Modern Emacs UI   :appearance:DoomEmacs:treemacs:vertico:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=rwKTc4MNmt8&list=PL3kg5TcOuFlo36D8Sfyum_p8t9NN4e18I&index=3&pp=iAQB
+:DATE:     2023-12-12T08:00:24-08:00
+:SPEAKERS: Goparism
+:DURATION: 9:31
+:END:
+  🔗 𝗟𝗶𝗻𝗸𝘀:
+  - Treemacs: https://github.com/Alexander-Miller/treemacs
+  - Solair: https://github.com/hlissner/emacs-solaire-mode
+  - Golden Ratio: https://github.com/roman/golden-ratio.el
+  - Vertico Posframe: https://github.com/tumashu/vertico-posframe
+  - Doom Modeline: https://github.com/seagle0128/doom-modeline
+  - Doom Themes: https://github.com/doomemacs/themes
+  - Spacious Padding: https://elpa.gnu.org/packages/spacious-padding.html
+  - All The Icons: https://github.com/domtronn/all-the-icons.el
+  - Dashboard: https://github.com/emacs-dashboard/emacs-dashboard
+  - Pair Programming: https://github.com/gopar/.emacs.d/blob/main/README.org#pair-programming
+
+  🎥 𝗩𝗶𝗱𝗲𝗼 𝗦𝘂𝗺𝗺𝗮𝗿𝘆:
+  We go over how I style emacs to look "modern" like today's IDE's (pycharm, Atom, Sublime, etc)
+  These are the packages I use to make them look like so :)
+  Please let me know if there are other things I should look into!
+
+  📋 𝗖𝗵𝗮𝗽𝘁𝗲𝗿𝘀:
+  00:00 - Intro
+  00:19 - Treemacs/Neotree
+  01:03 - Solair
+  01:49 - Golden Ratio
+  03:10 - Vertico Pos-frame
+  04:14 - Doom Modeline
+  04:42 - Doom Themes
+  05:28 - Mac Specific Settings
+  05:52 - Spacious Padding
+  06:50 - All the icons
+  07:22 - dashboard
+  08:08 - pair programming
+
+  🍵 𝗦𝘂𝗽𝗽𝗼𝗿𝘁 𝗠𝗲:
+  Like what you see? Here are a few ways you can support the channel:
+  - https://www.buymeacoffee.com/gopar
+
+  📱 𝗦𝗼𝗰𝗶𝗮𝗹𝘀:
+  📘 Blog: https://pygopar.com
+  🐦 Twitter: https://twitter.com/pygopar
+  🌐 Github: https://github.com/gopar
+
+  ✝️ 𝗠𝗶𝘀𝗰:
+  John 3:16 - "For God so loved the world that he gave his one and only Son, that whoever believes in him shall not perish but have eternal life."
+
+  James 1:5 - "If any of you lacks wisdom, you should ask God, who gives generously to all without finding fault, and it will be given to you."
+
+  I thank God for all the wisdom he has blessed me with.
+
+  #Emacs #IDE #Programming #SoftwareDevelopment
 
 * Emacs Goodies - #32 Which Function Mode  :coding:elisp:
 :PROPERTIES:
@@ -6193,6 +6782,53 @@ count-words-region
 
   Find all my publications on my website (Emacs, philosophy, Linux, etc.): https://protesilaos.com
 
+* Emacs as a Lean IDE (No LSP/Eglot)  :coding:projectile:dumbjump:corfu:navigation:devdocs:ai:chatgpt:gpt:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=gu3mFS_HX7w&list=PL3kg5TcOuFlo36D8Sfyum_p8t9NN4e18I&index=1&pp=iAQB
+:DATE:     2023-11-21T22:00:27-08:00
+:SPEAKERS: Goparism
+:DURATION: 7:28
+:END:
+  🔗 𝗟𝗶𝗻𝗸𝘀:
+  Projectile: https://github.com/bbatsov/projectile
+  Dumb-Jump: https://github.com/jacktasia/dumb-jump
+  Vterm: https://github.com/akermu/emacs-libvterm
+  corfu: https://github.com/minad/corfu
+  devdocs: https://github.com/astoff/devdocs.el
+  ChatGPT: https://github.com/xenodium/chatgpt-shell
+
+  🎥 𝗩𝗶𝗱𝗲𝗼 𝗦𝘂𝗺𝗺𝗮𝗿𝘆:
+  We go over on how I use the following packages (see above) to be able to create my own light weight lean IDE in emacs. Primarily because LSP/Eglot/*insert other 3rd party* would always break on me.
+
+  Please let me know if there are other things I should be looking into!
+
+  📋 𝗖𝗵𝗮𝗽𝘁𝗲𝗿𝘀:
+  00:00 - Intro
+  00:50 - Projectile
+  01:25 - Dumbjump
+  02:10 - "Dumb" Code Completion (Corfu)
+  03:06 - Devdocs
+  05:11 - Terminal
+  06:00 - ChatGPT
+
+  🍵 𝗦𝘂𝗽𝗽𝗼𝗿𝘁 𝗠𝗲:
+  Like what you see? Here are a few ways you can support the channel:
+  - https://www.buymeacoffee.com/gopar
+
+  📱 Socials:
+  📘 Blog: https://pygopar.com
+  🐦 Twitter: https://twitter.com/pygopar
+  🌐 Github: https://github.com/gopar
+
+  ✝️ Misc:
+  John 3:16 - "For God so loved the world that he gave his one and only Son, that whoever believes in him shall not perish but have eternal life."
+
+  James 1:5 - "If any of you lacks wisdom, you should ask God, who gives generously to all without finding fault, and it will be given to you."
+
+  I thank God for all the wisdom he has blessed me with.
+
+  #Emacs #IDE #Programming #SoftwareDevelopment
+
 * Learning Elisp 14 - a minor mode  :elisp:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=YBV9czwq-nw&list=PL9KxKa8NpFxKGctwh4-BqjQvdSRhh4NV-&index=16&pp=iAQB
@@ -6586,6 +7222,19 @@ count-words-region
 
   #Emacs #IDE #Programming #SoftwareDevelopment #GNU #GNUEmacs
 
+* Emacs(Doom) | Org Mode | Актуально для Sublime, VsCode и IDEA  :DoomEmacs:org:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=-YqIr1nv-9E&list=PLTWLcFAdsDIjREyzdZ8C2UHTWb_aScysj&index=3&pp=iAQB
+:DATE:     2023-10-21T05:51:12-07:00
+:SPEAKERS: Lambda Enjoyer
+:DURATION: 1:05:11
+:END:
+  простой и очень мощный формат для организации информации
+  это
+  и интерактивный журнал разработки
+  и менеджмент проекта
+  и календарь
+  и средство документации
 * Emacs Goodies - #22 Repeat Mode                                   :keymaps:configuration:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=5AzSahLmDQk&list=PL3kg5TcOuFloKaZ3TSmOL0Zh6xb8xyvpX&index=22&pp=iAQB
@@ -6736,6 +7385,16 @@ count-words-region
 
   #Emacs #IDE #Programming #SoftwareDevelopment #GNU #GNUEmacs
 
+* Every Line of My Emacs Config | Part 4   :config:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=BdloSZxRNLQ&list=PL3nY3J1rj8KmCOTasfYr_eMpLTi_7yOMi&index=4&pp=iAQB
+:DATE:     2023-10-10T14:00:05-07:00
+:SPEAKERS: Brent Westbrook
+:DURATION: 38:10
+:END:
+  In this video, I finish showing off and explaining every line of my ~1500 line Emacs config. In this part, I cover a lot of miscellaneous settings, utilities, and keybindings at the bottom of the config. I also uncover a couple of files/packages that I worked on but never use anymore and explain what I was trying to do with them.
+
+  My website: https://bwestbro.com
 * Emacs Goodies - #19 Scroll All Mode  :scroll:navigation:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=ht4PZWEbE_A&list=PL3kg5TcOuFloKaZ3TSmOL0Zh6xb8xyvpX&index=19&pp=iAQB
@@ -6766,6 +7425,33 @@ count-words-region
   I thank God for all the wisdom he has blessed me with.
 
   #Emacs #IDE #Programming #SoftwareDevelopment #GNU #GNUEmacs
+
+* Every Line of My Emacs Config | Part 3   :lsp:company:projectile:mu4e:mail:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=vI9sE-hExNU&list=PL3nY3J1rj8KmCOTasfYr_eMpLTi_7yOMi&index=3&pp=iAQB
+:DATE:     2023-10-07T12:00:23-07:00
+:SPEAKERS: Brent Westbrook
+:DURATION: 1:03:06
+:END:
+  In this video, I continue showing off and explaining every line of my ~1500 line Emacs config. In this part, I touch on a lot of smaller sections including lsp-mode, company-mode, projectile, and treemacs, but the big highlight is probably my mu4e config for reading and sending email in Emacs.
+
+  My website: https://bwestbro.com
+
+  Time stamps
+  00:00:00 treemacs
+  00:03:41 go-mode, go-dlv
+  00:05:57 slime, hyperspec, rainbow-delimiters
+  00:08:12 company
+  00:11:25 winum
+  00:12:24 mu4e
+  00:27:00 tramp, yasnippet, magit
+  00:35:21 lsp-mode
+  00:40:22 treesit
+  00:40:56 projectile
+  00:42:54 perspective
+  00:46:20 org-roam
+  00:48:44 org-drill
+  00:51:35 misc
 
 * How I Wrote my Book in Emacs + Org  :org:writing:
 :PROPERTIES:
@@ -6807,6 +7493,24 @@ count-words-region
 
   #Emacs #IDE #Programming #SoftwareDevelopment #GNU #GNUEmacs
 
+* Every Line of My Emacs Config | Part 2   :org:completion:latex:python:coding:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=4XJ4IF9BUyQ&list=PL3nY3J1rj8KmCOTasfYr_eMpLTi_7yOMi&index=2&pp=iAQB
+:DATE:     2023-10-03T14:00:03-07:00
+:SPEAKERS: Brent Westbrook
+:DURATION: 35:43
+:END:
+  In this video, I continue showing off and explaining every line of my ~1500 line Emacs config. In this part, I finish off my org-mode config and then cover my completion stack, my LaTeX setup, and most of my Python config.
+
+  My website: https://bwestbro.com
+
+  Time stamps
+  00:00:00 Finishing org-mode
+  00:08:06 vertico, marginalia, orderless, consult, embark
+  00:16:59 auctex
+  00:24:52 vertico-bibtex
+  00:30:08 Python
+
 * Emacs Goodies - #17 Master Mode   :navigation:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=iuIQwRCJkyI&list=PL3kg5TcOuFloKaZ3TSmOL0Zh6xb8xyvpX&index=17&pp=iAQB
@@ -6837,6 +7541,33 @@ count-words-region
   I thank God for all the wisdom he has blessed me with.
 
   #Emacs #IDE #Programming #SoftwareDevelopment #GNU #GNUEmacs
+
+* Every Line of My Emacs Config | Part 1  :org:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=zqg-o_xb8dw&list=PL3nY3J1rj8KmCOTasfYr_eMpLTi_7yOMi&index=1&pp=iAQB
+:DATE:     2023-09-30T12:15:52-07:00
+:SPEAKERS: Brent Westbrook
+:DURATION: 41:38
+:END:
+  In this video, I start showing off and explaining every line of my ~1500 line Emacs config. In this part, I get through some of my startup options, my evil-mode config, and most of my org-mode config.
+
+  My website: https://bwestbro.com
+
+  Time stamps
+  00:00:00 Introduction
+  00:01:56 Why I don't use an org-mode config
+  00:03:07 File-local variables
+  00:04:33 Startup options
+  00:07:02 Package initialization
+  00:10:08 undo-tree
+  00:11:16 evil-mode
+  00:16:55 evil-collection, evil-surround, vimish-fold
+  00:18:45 General org-mode settings
+  00:24:45 Inserting screenshots
+  00:26:09 Defining new link types
+  00:31:10 org-agenda and source blocks
+  00:34:15 org-alert
+  00:37:41 org-capture-templates
 
 * Emacs Goodies -#16 Network Utils   :network:
 :PROPERTIES:
@@ -7967,6 +8698,15 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
 
   #Emacs #IDE #Programming #SoftwareDevelopment
 
+* Emacs(Doom) | Установка | Первые шаги | Выбор пакетов  :DoomEmacs:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=QQldLKbT-v8&list=PLTWLcFAdsDIjREyzdZ8C2UHTWb_aScysj&index=2&pp=iAQB
+:DATE:     2023-08-06T01:17:10-07:00
+:SPEAKERS: Lambda Enjoyer
+:DURATION: 1:05:09
+:END:
+  https://github.com/veschin/workshops
+
 * Emacs: contribute to GNU Emacs core
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=xvBJv1ea-i4&list=PL8Bwba5vnQK14z96Gil86pLMDO2GnOhQ6&index=19&pp=iAQB
@@ -8074,6 +8814,35 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
   🗒️ Doom Emacs: https://github.com/hlissner/doom-emacs
 
   Your support is very much appreciated. Thanks, guys!
+
+* Emacs and Pomodoro - My Workflow  :pomodoro:org:OrgPomodoro:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=x6wbb0xeBTg&list=PL3kg5TcOuFlo36D8Sfyum_p8t9NN4e18I&index=2&pp=iAQB
+:DATE:     2023-07-31T07:00:41-07:00
+:SPEAKERS: Goparism
+:DURATION: 7:12
+:END:
+  🔗 𝗟𝗶𝗻𝗸𝘀:
+  Org Pomodoro: https://github.com/marcinkoziej/org-pomodoro
+  Pomodoro For Engineers: https://youtu.be/QXTLNm5UwHY
+
+  🍵 𝗦𝘂𝗽𝗽𝗼𝗿𝘁 𝗠𝗲:
+  Like what you see? Here are a few ways you can support the channel:
+  - https://www.buymeacoffee.com/gopar
+
+  📱 Socials:
+  📘 Blog: https://pygopar.com
+  🐦 Twitter: https://twitter.com/pygopar
+  🌐 Github: https://github.com/gopar
+
+  ✝️ Misc:
+  John 3:16 - "For God so loved the world that he gave his one and only Son, that whoever believes in him shall not perish but have eternal life."
+
+  James 1:5 - "If any of you lacks wisdom, you should ask God, who gives generously to all without finding fault, and it will be given to you."
+
+  I thank God for all the wisdom he has blessed me with.
+
+  #Emacs #IDE #Programming #SoftwareDevelopment
 
 * Emacs: write custom mode line
 :PROPERTIES:
@@ -9441,6 +10210,21 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
   5. Youtube: https://youtube.com/ravisagar1
   ####
 
+* I built an EMACS Package to SAVE Clojure Commands (w/implementation + github links)  :clojure:coding:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=hYGvmtIa6sY
+:DATE:     2023-05-01T19:24:32-07:00
+:SPEAKERS: Sammy Engineering
+:DURATION: 4:51
+:END:
+  I built an emacs package for clojure!
+
+  https://github.com/sstraust/save-clojure-command/blob/master/cider-save-command.el
+
+  save a Clojure command in emacs
+  emacs commands for clojure
+  make editing clojure in emacs easier
+  emacs packages for clojure development
 * Building Emacs 30 pgtk for wayland with native compilation on linux  :building:wayland:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=d5JXM7tUTQI&list=PL7hhhG5qUoXk266pUiPhm-gqBgM5P8vBV&index=27&pp=iAQB
@@ -16057,10 +16841,10 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
 
   Your support is very much appreciated. Thanks, guys!
 
-* I made an EMACS PACKAGE with NO EXPERIENCE
+* I made an EMACS PACKAGE with NO EXPERIENCE  :elisp:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=QqZd5N71-I8
-:DATE:     2022-10-10T18:09:28+0000
+:DATE:     2022-10-10T11:09:28-07:00
 :SPEAKERS: Sammy Engineering
 :DURATION: 27:00
 :END:
@@ -16635,9 +17419,9 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
 * How a Professional Sets Up Emacs (Ex-Googler)  :cider:coding:GodMode:comparison:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=KU3POHoVKls
-:DATE:     2022-09-19T19:24:03+0000
+:DATE:     2022-09-19T12:24:03-07:00
 :SPEAKERS: Sammy Engineering
-:DURATION: 05:30
+:DURATION: 5:30
 :END:
   In this video I show you how I setup my emacs config, including which emacs packages I use:
   cider-mode
@@ -29384,6 +30168,30 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 
   Find scimax at https://github.com/jkitchin/scimax.
 
+* Declickbaiting Elfeed - A live coding misadventure  :elfeed:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=tF4OdtSuXMg
+:DATE:     2021-10-11T05:38:51-07:00
+:SPEAKERS: karthink
+:DURATION: 34:16
+:END:
+  In which I attempt to remove clickbait from my Elfeed feed... and briefly remove my Elfeed feed.
+
+  Folks who want the code (which works, I assure you) can get it at https://karthinks.com/software/declickbait-elfeed.
+
+  Folks who enjoy meandering coding streams or floundering Elisp sessions may get something out of the video instead.
+
+  00:00 Problem: Clickbait in RSS feed titles
+  02:05 Goal: Declickbait RSS feed titles
+  03:23 Process: Hook, getter, setter
+  07:25 Process: Text transformation
+  12:55 Testing & Mishaps
+  22:01 Filing down edge cases
+  27:12 More mishaps
+  29:08 Generalizing to more interesting declickbaiters
+  31:14 Summary
+  32:49 Turning Yakshave code into a package
+  33:52 Profit
 * Using Emacs Episode 78 - a grading workflow
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=7HLVcQi8GGk&list=PL9KxKa8NpFxIcNQa9js7dQQIHc81b0-Xg&index=79&pp=iAQB
@@ -37009,6 +37817,39 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
   Intro music: Coriolis Effect by logos feat. stefsax, licensed CC-BY
   http://ccmixter.org/files/mseq/26296
 
+* Elisp Tutorial Part 7 - Alists and Plists  :elisp:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=GMFIFH4re68
+:DATE:     2020-12-22T09:00:15-08:00
+:SPEAKERS: Goparism
+:DURATION: 13:58
+:END:
+  Documentation:
+
+
+  Association Lists: https://www.gnu.org/software/emacs/manual/html_node/elisp/Association-Lists.html#Association-Lists
+
+
+  Property Lists: https://www.gnu.org/software/emacs/manual/html_node/elisp/Property-Lists.html#Property-Lists
+
+
+  Alists Vs PLists: https://www.gnu.org/software/emacs/manual/html_node/elisp/Plists-and-Alists.html#Plists-and-Alists
+
+
+
+
+  ================================
+  My Site: http://www.PyGopar.com
+
+
+  Twitter: https://twitter.com/pygopar
+
+  John 3:16 - "For God so loved the world that he gave his one and only Son, that whoever believes in him shall not perish but have eternal life."
+
+  James 1:5 - "If any of you lacks wisdom, you should ask God, who gives generously to all without finding fault, and it will be given to you."
+
+  I thank God for all the wisdom he has blessed me with.
+
 * Unlock the Power of the Daemon with emacsclient
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=ZjCRxAMPdNc&feature=youtu.be
@@ -38268,6 +39109,34 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
   5. Spotify Podcast: https://go.ravi.pro/spotify
   6. Apple Podcast: https://go.ravi.pro/apple
   7. Youtube: https://youtube.com/ravisagar1
+
+* Elisp Tutorial - Part 6 - Brief intro to Lists and Con Cells  :elisp:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=7_1ztZ10tRo
+:DATE:     2020-11-27T15:01:01-08:00
+:SPEAKERS: Goparism
+:DURATION: 8:41
+:END:
+  My Site: http://www.PyGopar.com
+  Twitter: https://twitter.com/pygopar
+
+
+  Documentation LInks:
+  (Read  Box Diagrams and Dotted Notation)
+
+  https://www.gnu.org/software/emacs/manual/html_node/elisp/Cons-Cell-Type.html
+
+
+  https://www.gnu.org/software/emacs/manual/html_node/elisp/Cons-Cells.html#Cons-Cells
+
+
+
+  =========================================================
+  John 3:16 - "For God so loved the world that he gave his one and only Son, that whoever believes in him shall not perish but have eternal life."
+
+  James 1:5 - "If any of you lacks wisdom, you should ask God, who gives generously to all without finding fault, and it will be given to you."
+
+  I thank God for all the wisdom he has blessed me with.
 
 * Create and import tables | org-table | Inside Emacs #6 (part 1)       :org:
 :PROPERTIES:
@@ -50667,6 +51536,28 @@ Full code on github:
   "Das Bild hängt schief!"
   Kurz vor den Vorträgen ist uns der Beamer kaputt gegangen, das kurzfristig beschaffte Ersatzgerät hatte leider weniger umfangreiche Einstellmöglichkeiten. Nächstes Mal wird alles besser.
 
+* Elisp Tutorial - Part 5 Creating a minor mode                       :elisp:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=QaX3AaK3_Lk
+:DATE:     2016-12-17T14:38:06-08:00
+:SPEAKERS: Goparism
+:DURATION: 11:39
+:END:
+  Tutorial on creating a minor mode. I've been using this minor mode for a while. I find it pretty usefull.
+
+  Link to Repo: https://github.com/gopar/boolcase
+
+  ###############################################
+
+  My Site: http://www.PyGopar.com
+  Twitter: https://twitter.com/pygopar
+
+  John 3:16 - "For God so loved the world that he gave his one and only Son, that whoever believes in him shall not perish but have eternal life."
+
+  James 1:5 - "If any of you lacks wisdom, you should ask God, who gives generously to all without finding fault, and it will be given to you."
+
+  I thank God for all the wisdom he has blessed me with.
+
 * F(by) 2016 - Bozhidar Batsov - Speech 2 - Deep Dive into CIDER  :cider:clojure:coding:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=aYA4AAjLfT0
@@ -51127,6 +52018,54 @@ Full code on github:
   Have trouble finding your plot when using ESS? View it by toggling the transparency of your emacs frame. TODO:  version 2 with a transparent window (bottom-right) instead of whole frame.
 
 
+* Elisp Tutorial - Part 4 Interactive Functions                       :elisp:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=KwBRpS9Bs4U
+:DATE:     2016-09-12T13:46:07-07:00
+:SPEAKERS: Goparism
+:DURATION: 10:11
+:END:
+  My Site: http://www.PyGopar.com
+  Twitter: https://twitter.com/pygopar
+
+  Emacs Lisp
+  0:00 Introduction
+  0:40 Interactive function to count words
+  7:00 Save-excursion function
+  8:00 Testing our function
+
+  John 3:16 - "For God so loved the world that he gave his one and only Son, that whoever believes in him shall not perish but have eternal life."
+
+  James 1:5 - "If any of you lacks wisdom, you should ask God, who gives generously to all without finding fault, and it will be given to you."
+
+  I thank God for all the wisdom he has blessed me with.
+
+* Elisp Tutorial  - Part 3 Looping and Local Variables                :elisp:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=VqCSbDqHziM
+:DATE:     2016-09-11T18:15:49-07:00
+:SPEAKERS: Goparism
+:DURATION: 12:14
+:END:
+  My Site: http://www.PyGopar.com
+  Twitter: https://twitter.com/pygopar
+
+  Emacs Lisp
+  0:00 Introduction
+  0:40 Evaluate an expression via C-x C-e
+  1:10 Looping for even numbers
+  4:20 Scopes and local variables
+  6:00 More examples of let expression
+  8:20 Creating a function to add all even numbers
+  10:50 Creating testing function
+
+
+  John 3:16 - "For God so loved the world that he gave his one and only Son, that whoever believes in him shall not perish but have eternal life."
+
+  James 1:5 - "If any of you lacks wisdom, you should ask God, who gives generously to all without finding fault, and it will be given to you."
+
+  I thank God for all the wisdom he has blessed me with.
+
 * Rolf Langsdorf: Emacs as Perl IDE‎ - YAPC::Europe 2016
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=jauckPY4EwU
@@ -51144,6 +52083,61 @@ Full code on github:
   possibilities.
 
   http://act.yapc.eu/ye2016/talk/6851
+
+* Elisp Tutorial - Part 2 Variables, Booleans and Lists               :elisp:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=lmTPJB0Musk
+:DATE:     2016-09-10T11:21:55-07:00
+:SPEAKERS: Goparism
+:DURATION: 9:23
+:END:
+  My Site: http://www.PyGopar.com
+  Twitter: https://twitter.com/pygopar
+
+  Emacs Lisp
+  0:00 How to use variables
+  1:05 Elisp Booleans
+  1:40 Elisp Lists
+  3:25 List operations
+  6:20 Basic memebership list function
+  7:25 Add tests
+
+  John 3:16 - "For God so loved the world that he gave his one and only Son, that whoever believes in him shall not perish but have eternal life."
+
+  James 1:5 - "If any of you lacks wisdom, you should ask God, who gives generously to all without finding fault, and it will be given to you."
+
+  I thank God for all the wisdom he has blessed me with.
+
+* Elisp Tutorial - Part 1 Intro                                       :elisp:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=CH0RUrO_oww
+:DATE:     2016-09-08T15:39:40-07:00
+:SPEAKERS: Goparism
+:DURATION: 10:34
+:END:
+  My Site: http://www.PyGopar.com
+  Twitter: https://twitter.com/pygopar
+
+  Emasc Lisp
+
+  I go over variables, functions and basic testing
+
+  Let me know any tips or feedback.
+
+
+  0:00 Introduction
+  0:36 Using the Elisp REPL (IELM)
+  1:00 Intro to basic types
+  1:37 Basic operations (Add, Subtract, etc)
+  4:07 Making functions
+  5:50 Intro to testing elisp
+  8:15 How to run tests
+
+  John 3:16 - "For God so loved the world that he gave his one and only Son, that whoever believes in him shall not perish but have eternal life."
+
+  James 1:5 - "If any of you lacks wisdom, you should ask God, who gives generously to all without finding fault, and it will be given to you."
+
+  I thank God for all the wisdom he has blessed me with.
 
 * Using Emacs - 15 - macros
 :PROPERTIES:
@@ -52433,6 +53427,24 @@ Using restclient within emacs...
 :END:
 
 
+* Emacs Tutorial Part 6 - Some Configurations with Helm               :beginner:helm:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=k78f8NYYIto
+:DATE:     2015-09-22T21:13:51-07:00
+:SPEAKERS: Goparism
+:DURATION: 8:36
+:END:
+  So I make some configurations with Helm. Got to admit. I seriously love this package. Feel free to ask questions.
+
+  My Site: http://www.PyGopar.com
+  Twitter: https://twitter.com/pygopar
+
+  John 3:16 - "For God so loved the world that he gave his one and only Son, that whoever believes in him shall not perish but have eternal life."
+
+  James 1:5 - "If any of you lacks wisdom, you should ask God, who gives generously to all without finding fault, and it will be given to you."
+
+  I thank God for all the wisdom he has blessed me with.
+
 * Emacs auto-adjusting font coloring
 :PROPERTIES:
 :DATE:     2015-09-21T18:16:56+00:00
@@ -52441,6 +53453,24 @@ Using restclient within emacs...
 :SPEAKERS: Walter GR
 :END:
   Emacs with a transparent background auto-adjusting font coloring upon changes to background color of Terminal.app window.
+
+* Emacs Tutorial Part 5 - Self help, Emacs Manual and IRC  :beginner:help:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=2xPdoP1NXWE
+:DATE:     2015-09-18T13:30:37-07:00
+:SPEAKERS: Goparism
+:DURATION: 5:03
+:END:
+  Questions are always welcomed. You can ask me questions on Twitter as well
+
+  My Site: http://www.PyGopar.com
+  Twitter: https://twitter.com/pygopar
+
+  John 3:16 - "For God so loved the world that he gave his one and only Son, that whoever believes in him shall not perish but have eternal life."
+
+  James 1:5 - "If any of you lacks wisdom, you should ask God, who gives generously to all without finding fault, and it will be given to you."
+
+  I thank God for all the wisdom he has blessed me with.
 
 * .Emacs #9 - Keyboard Macros
 :PROPERTIES:
@@ -52477,6 +53507,23 @@ Using restclient within emacs...
 :SPEAKERS: Chris S
 :END:
   Reviewing a small change, committing it and pushing it.
+
+* Emacs Tutorial Part 4 - Global Key-bindings and Major/Minor modes  :beginner:keybindings:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=WyPPVFdraoQ
+:DATE:     2015-09-10T14:42:13-07:00
+:SPEAKERS: Goparism
+:DURATION: 6:51
+:END:
+  My Site: http://www.PyGopar.com
+  Twitter: https://twitter.com/pygopar
+
+
+  John 3:16 - "For God so loved the world that he gave his one and only Son, that whoever believes in him shall not perish but have eternal life."
+
+  James 1:5 - "If any of you lacks wisdom, you should ask God, who gives generously to all without finding fault, and it will be given to you."
+
+  I thank God for all the wisdom he has blessed me with.
 
 * .Emacs #8 - Beyond ASCII
 :PROPERTIES:
@@ -52543,6 +53590,40 @@ Using restclient within emacs...
 :END:
   Quick demo of my Haskell and Emacs workflow.
 
+* Emacs Tutorial Part 3 - Custom Mode Key-bindings  :beginner:keybindings:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=h9Mw6mxPO-Y
+:DATE:     2015-08-19T12:40:10-07:00
+:SPEAKERS: Goparism
+:DURATION: 7:09
+:END:
+  In this video we go over how to create custom key bindings for a certain mode.
+
+  My Site: http://www.PyGopar.com
+  Twitter: https://twitter.com/pygopar
+
+  John 3:16 - "For God so loved the world that he gave his one and only Son, that whoever believes in him shall not perish but have eternal life."
+
+  James 1:5 - "If any of you lacks wisdom, you should ask God, who gives generously to all without finding fault, and it will be given to you."
+
+  I thank God for all the wisdom he has blessed me with.
+
+* Emacs Tutorial Part 2 - Installing Packages  :beginner:packages:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=qM05oAe2mr0
+:DATE:     2015-08-15T19:31:48-07:00
+:SPEAKERS: Goparism
+:DURATION: 12:25
+:END:
+  My Site: http://www.PyGopar.com
+  Twitter: https://twitter.com/pygopar
+
+  John 3:16 - "For God so loved the world that he gave his one and only Son, that whoever believes in him shall not perish but have eternal life."
+
+  James 1:5 - "If any of you lacks wisdom, you should ask God, who gives generously to all without finding fault, and it will be given to you."
+
+  I thank God for all the wisdom he has blessed me with.
+
 * 2015-08-13 Emacs Hangout European Edition
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=kN3Kgel3w6M&list=PLomc4HLgvuCWZD3pWBpDfJiJRkz0zkY1b&index=3&pp=gAQBiAQB
@@ -52553,6 +53634,24 @@ Using restclient within emacs...
   The hangout without a plan. We sit around the virtual campfire and talk about whatever comes up in order to defeat the evil silence.
   Notes: http://sachachua.com/blog/2015/08/august-2015-emacs-hangout/
 
+* Emacs Tutorial Part 1 - Intro  :beginner:config:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=FxcYxdnnQqw
+:DATE:     2015-08-13T11:44:04-07:00
+:SPEAKERS: Goparism
+:DURATION: 11:57
+:END:
+  This is an introduction to getting Emacs configured and setting things up. This is mostly aimed to beginners who already know some basic emacs commands.
+  Questions are welcomed.
+
+  My Site: http://www.PyGopar.com
+  Twitter: https://twitter.com/pygopar
+
+  John 3:16 - "For God so loved the world that he gave his one and only Son, that whoever believes in him shall not perish but have eternal life."
+
+  James 1:5 - "If any of you lacks wisdom, you should ask God, who gives generously to all without finding fault, and it will be given to you."
+
+  I thank God for all the wisdom he has blessed me with.
 * GNU EMACS SEMAINE 4 VIDEO 5
 :PROPERTIES:
 :DATE:     2015-07-31T15:28:20+00:00
