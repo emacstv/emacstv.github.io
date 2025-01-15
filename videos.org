@@ -1,6 +1,15 @@
 #+TODO: KEYWORD_THAT_WONT_BE_USED
 #+STARTUP: nolatexpreview
 
+* Trying emacs and a life lesson   :community:
+:PROPERTIES:
+:DATE:     2025-01-11T04:25:28-08:00
+:DURATION: 8:41
+:YOUTUBE_URL: https://www.youtube.com/watch?v=_dZQT_Bei4I
+:SPEAKERS: louisbetsch
+:END:
+  So I had quite some journey using a terminal centred workflow and it was a great time to explore. But recently I reflected, that I limited myself to the belief that there is nothing else besides this. And this belief was heavily inspired by other people's opinions. So I want to try something new and explore for myself, create my own. Really start a self-guided exploration to come to my own conclusions and thoughts, rather than copying someone else's. I will try emacs.
+
 * Recursive project search in Emacs  :navigation:lsp:projectile:
 :PROPERTIES:
 :YOUTUBE_URL: https://youtu.be/1jBbVUnNbDU
@@ -24,6 +33,85 @@
   - lsp-mode - https://emacs-lsp.github.io/lsp-mode/
   - lsp-pyright - https://github.com/emacs-lsp/lsp-pyright
   - rg-mode - https://github.com/dajva/rg.el
+* Devtherapy Episode #6 - NIka Otiashvili | დაზეპირებული OOP ცუდია, SDL, Emacs, Neovim, Indie თამაშები
+:PROPERTIES:
+:DATE:     2025-01-09T04:16:38-08:00
+:DURATION: 1:49:37
+:YOUTUBE_URL: https://www.youtube.com/watch?v=ohciTBFhqMo
+:SPEAKERS: Devtherapy
+:END:
+  პოდკასტის მეექვსე ეპიზოდში ჩვენი სტუმარია ნიკოლოზ ოთიაშვილი. ნიკა ღრმა ბავშვობიდან არის დაკავებული პროგრამირებით, ის ბავშვობიდან აკეთებდა თამაშებს და მონაწილეობა აქვს მიღებული თითქმის ყველა Game Jam ზე, ასევე ნიკას აქვს გამოცდიელბა Enterprise development ის და კარგად ესმის განსხვავება პროგრამირების ასპექტების, რომელიც გვხვდება Enterprise ში და ასევე თამაშების კეთებისას, ეს ორი კი ძირითადად ძალიან განსხვავდება ერთმანეთისგან.
+
+  პოდკასტში ვისაუბრებთ ამ სხვაობებზე, არა პოპულალურ იდეებზე რომლებიც იწვევენ ჩვენს brainwashing ს, შევეხებით OOP ს და ვეცდებით ბევრი კითხვის ნიშანი დავსვათ მასთან დაკავშირებით, ვისაუბრებთ Developer tooling ზე, ნამდვილ ინჟინერიაზე და მოძველებულ best practice ებზე.
+
+  ასევე განვიხილავთ თამაშების პროგრამირებას, Game Engine ების გარეშე და ვისაუბრებთ თუ რა მინუსები აქვს დიდი Game Engine ების გამოყენებას და რატომ არის ხშირად main stream ტექნოლოგია ცუდი შენი იდეისთვის.
+
+  ბევრს ვიკამათებთ პროგრამირების ასპექტებზე და ვეცდებით დაგანახოთ ჩვენი შეხედულება ამ საკითხებზე.
+
+  ნიკას Youtube არხი
+
+  https://youtube.com/@notiashvili?si=AzSWyoBv6NU4IQ_g
+
+  ნიკას Linkedin ი - https://www.linkedin.com/in/nikolozung/?originalSubdomain=ge
+  ნიკას Github - https://github.com/nikaoto
+
+  და მისი თამაშები Steam ზე - https://store.steampowered.com/search/?developer=LisiSoft
+
+  მოუსმინე და გამოიწერე ჩვენი პოდკასტი, შენს საყვარელ პლატფორმაზე 🎧
+
+  Buzzsprout 🎤 - https://tinyurl.com/devtherapy-buzzsrpout
+  AppleMusic 🎤 - https://tinyurl.com/devtherapy-applemusic
+  Spotify 🎤 - https://tinyurl.com/devtherapy-spotify
+  AmazonMusic 🎤 - https://tinyurl.com/devtherapy-amazon
+  Pocketcast 🎤 - https://tinyurl.com/devtherapy-pocketcast
+  Deezer 🎤 - https://tinyurl.com/devtherapy-deezer
+
+  გვიპოვეთ სოც.ქსელებში:
+
+  Facebook:
+  https://www.facebook.com/devtherapy
+
+  Linkedin:
+  https://www.linkedin.com/in/tornikegomareli/
+  https://www.linkedin.com/in/avtuney/
+
+  X:
+  https://x.com/tornikegomareli
+  https://x.com/AVTUNEY_
+
+  Github:
+  https://github.com/tornikegomareli
+
+* A new year a new rewrite of my emacs config   :configuration:
+:PROPERTIES:
+:DATE:     2025-01-08T17:13:45-08:00
+:DURATION: 1:14:38
+:YOUTUBE_URL: https://www.youtube.com/watch?v=HxebPMg5Wjs
+:SPEAKERS: DVRBS
+:END:
+  Join me as I rewrite my Emacs configuration from scratch! 🎉 I've moved away from the idea of creating a full Emacs distribution and embraced a kickstarter-style setup inspired by projects like kickstart.nvim, kickstart.emacs, and others. This streamlined configuration is now my personal foundation for Emacs and will feature in future videos.
+
+  In this video, I share my thought process, the challenges I faced, and how this new approach simplifies my workflow. Whether you’re an Emacs user or just curious about customizing your tools, this journey might inspire you to rethink your setup too!
+
+  Inspirations:
+
+      kickstart.nvim github.com/nvim-lua/kickstart.nvim
+      emacs-kick github.com/LionyxML/emacs-kick
+      kickstart.emacs github.com/MiniApollo/kickstart.emacs
+      venom-emacs gitlab.com/dvrbs/venom-emacs
+
+  Don’t forget to like, comment, and subscribe if you find this helpful! 😊
+
+* Learning Elisp 18 - extracting emails from text   :email:elisp:
+:PROPERTIES:
+:DATE:     2025-01-07T07:23:41-08:00
+:DURATION: 17:56
+:YOUTUBE_URL: https://www.youtube.com/watch?v=o2z9SKNVCwk
+:SPEAKERS: Mike Zamansky
+:END:
+  I had to extract a bunch of emails from a free form text document today. Here's how I used Emacs and a little elisp to accomplish this.
+
+  Related blog post: https:/cestalz.github.io/post/extracting-emails/
 * #YayEmacs 8: which-key-replacement-alist  :WhichKey:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=mdwM3e2zsmw&list=PL4th0AZixyRHyXaHbE0GSyu-ui1e2UKTw&index=1&pp=gAQBiAQB
@@ -81,7 +169,7 @@
 
   OP・ EDテーマ制作：田中潤（ゲントウキ） (http://www.gentouki.jp)
 
-* This Time Is Going to Be Different. I Hope. - Emacs Long Term Review
+* This Time Is Going to Be Different. I Hope. - Emacs Long Term Review  :community:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=JYqJx9GQutE
 :DATE:     2025-01-05T18:36:46-08:00
@@ -361,6 +449,15 @@
 :DURATION: 04:44
 :END:
   This is a short video demonstration of how I tone down Org citations using some custom code I wrote. I share the code and its annotated version on my website: https://protesilaos.com/codelog/2024-12-26-emacs-org-hide-citations-mode
+
+* One Emacs Buffer, Many Major Modes   :coding:
+:PROPERTIES:
+:DATE:     2024-12-25T23:24:04-08:00
+:DURATION: 1:50
+:YOUTUBE_URL: https://www.youtube.com/watch?v=k_xaGmTir8I
+:SPEAKERS: dickmao
+:END:
+  https://github.com/commercial-emacs/commercial-emacs.git
 
 * Emacs for Students of Life🖊📖  :org:emacstv:
 :PROPERTIES:
@@ -5910,6 +6007,25 @@ count-words-region
   I thank God for all the wisdom he has blessed me with.
 
   #Emacs #IDE #Programming #SoftwareDevelopment
+
+* Introducción a org-mode - parte 2  :org:
+:PROPERTIES:
+:DATE:     2023-12-04T22:14:15.047Z
+:PEERTUBE_URL: https://fediverse.tv/w/nhDkoWTaQMSs2oG4kcgMC4
+:SPEAKERS: Notxor
+:DURATION: 18:42
+:LANGUAGE: Spanish
+:END:
+  Segunda parte de la entrega de introducción a Emacs &#x2F; Org-mode. ( por Notxor )
+* Introducción a org-mode - parte 1  :org:
+:PROPERTIES:
+:DATE:     2023-12-04T22:00:37.265Z
+:PEERTUBE_URL: https://fediverse.tv/w/eD5bpZNENLtnjGFDV3UF6J
+:SPEAKERS: Notxor
+:DURATION: 16:37
+:LANGUAGE: Spanish
+:END:
+  Primera parte de la entrega de introducción a Emacs &#x2F; Org-mode. ( por Notxor )
 
 * Emacs: the new Denote sort mechanism (Dired, Org dynamic blocks)  :denote:org:
 :PROPERTIES:
