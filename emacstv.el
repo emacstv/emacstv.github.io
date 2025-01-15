@@ -43,6 +43,12 @@
 	 ((string-match "\\`https://\\(?:www\\.\\)?vimeo\\.com/\\([0-9]+\\)" url) (match-string 1 url))
 	 (t nil)))
 
+(defun emacstv-peertube-id (url)
+	"Return the video ID for URL."
+	(cond
+	 ((string-match "\\`https://\\([^/]+/w/.+\\)" url) (match-string 1 url))
+	 (t nil)))
+
 (defun emacstv-find-by-generic-url (field id-func url)
 	(when-let*
 			((id (funcall id-func url))
@@ -71,6 +77,11 @@ Returns nil if not found."
 	"Move point to the entry for URL.
 Returns nil if not found."
 	(emacstv-find-by-generic-url "VIMEO_URL" #'emacstv-vimeo-id url))
+
+(defun emacstv-find-by-peertube-url (url)
+	"Move point to the entry for URL.
+Returns nil if not found."
+	(emacstv-find-by-generic-url "PEERTUBE_URL" #'emacstv-peertube-id url))
 
 (defun emacstv-export-json ()
 	(interactive)
@@ -163,11 +174,13 @@ Returns nil if not found."
 	(emacstv-count-entries))
 
 (defun emacstv-find-by-url (url)
+	(interactive "MURL: ")
 	"Go to the entry that for URL."
 	;; TODO: This could be more efficient someday.
 	(or
 	 (emacstv-find-by-youtube-url url)
 	 (emacstv-find-by-vimeo-url url)
+	 (emacstv-find-by-peertube-url url)
 	 (emacstv-find-by-media-url url)))
 
 (defun emacstv-add-video-object (video)
@@ -188,7 +201,8 @@ Returns nil if not found."
 										 (assoc-default 'DESCRIPTION video)) 2)
 								"\n\n")))
 			;; set the properties if specified
-			(dolist (prop '("DATE" "DURATION" "YOUTUBE_URL" "TOOBNIX_URL" "VIMEO_URL" "SPEAKERS" "URL"))
+			(dolist (prop '("DATE" "DURATION" "YOUTUBE_URL" "TOOBNIX_URL" "PEERTUBE_URL"
+											"VIMEO_URL" "SPEAKERS" "URL"))
 				(when (and (or (assoc-default prop video #'string=)
 											 (assoc-default (intern prop) video))
 									 (not (org-entry-get (point) prop)))
@@ -196,6 +210,28 @@ Returns nil if not found."
 					 (point) prop
 					 (or (assoc-default prop video #'string=)
 							 (assoc-default (intern prop) video)))))))
+
+(defun emacstv-add-from-peertube (url)
+	"Add an entry for URL."
+	(interactive (list (read-string "Peertube URL: "
+																	(let ((clipboard (current-kill 0 t)))
+																		(when (string-match "^https://" clipboard)
+																			clipboard)))))
+	(let* ((json-object-type 'alist)
+				 (json-array-type 'list)
+				 data)
+		(with-current-buffer (url-retrieve-synchronously url)
+			(set-buffer-multibyte t)
+			(goto-char (point-min))
+			(when (re-search-forward "json\">" nil t)
+				(setq data (json-read))))
+		(let-alist data
+			(emacstv-add-video-object
+			 `(("ITEM" . ,(identity .name))
+				 ("PEERTUBE_URL" . ,(identity .url))
+				 ("DATE" . ,(identity .uploadDate))
+				 ("DURATION" . ,(emacstv-format-seconds (string-to-number (replace-regexp-in-string "PT\\|S" "" .duration))))
+				 ("DESCRIPTION" . ,(identity .description)))))))
 
 (defun emacstv-add-from-youtube (url)
 	"Add an entry for URL."
@@ -212,17 +248,13 @@ Returns nil if not found."
 			(when (re-search-forward "ytInitialPlayerResponse *= *" nil t)
 				(setq data (json-read))))
 		(let-alist (alist-get 'videoDetails data)
-			(unless (emacstv-find-by-youtube-url url)
-				(unless .title
-					(error "Could not get video details for %s" url))
-				(goto-char (point-max))
-				(unless (bolp) (insert "\n"))
-				(insert "* " .title "\n")
-				(org-entry-put (point) "YOUTUBE_URL" url)
-				(insert (org-ascii--indent-string .shortDescription 2) "\n\n"))
-			(org-entry-put (point) "DATE" (let-alist data .microformat.playerMicroformatRenderer.publishDate))
-			(org-entry-put (point) "SPEAKERS" .author)
-			(org-entry-put (point) "DURATION" (emacstv-format-seconds (string-to-number .lengthSeconds))))))
+			(emacstv-add-video-object
+			 `(("ITEM" . ,.title)
+				 ("DATE" . ,(let-alist data .microformat.playerMicroformatRenderer.publishDate))
+				 ("YOUTUBE_URL" . ,url)
+				 ("DESCRIPTION" . ,.shortDescription)
+				 ("SPEAKERS" . ,.author)
+				 ("DURATION" . ,(emacstv-format-seconds (string-to-number .lengthSeconds))))))))
 
 ;; useful for extracting from YouTube:
 ;; from channel page:
@@ -382,10 +414,12 @@ Return nil if TIME-STRING doesn't match the pattern."
 			(assoc-default "TOOBNIX_URL" video #'string=)
 			(assoc-default "VIMEO_URL" video #'string=)
 			(assoc-default "YOUTUBE_URL" video #'string=)
+			(assoc-default "PEERTUBE_URL" video #'string=)
 			(assoc-default 'MEDIA_URL video #'string=)
 			(assoc-default 'TOOBNIX_URL video #'string=)
 			(assoc-default 'VIMEO_URL video #'string=)
-			(assoc-default 'YOUTUBE_URL video #'string=)))
+			(assoc-default 'YOUTUBE_URL video #'string=)
+			(assoc-default 'PEERTUBE_URL video #'string=)))
 
 (defun emacstv-format-seconds (seconds)
 	"Format SECONDS as hh:mm:ss. Omit hh or mm if not needed."
@@ -462,7 +496,7 @@ Return nil if TIME-STRING doesn't match the pattern."
 	(interactive)
 	(require 'mpv)
 	(emacstv-clear-playlist)
-	(emacstv-queue (emacstv-shuffle-list (mapcar #'emacstv-video-url (emacstv-videos)))))
+	(emacstv-queue-list (emacstv-shuffle-list (mapcar #'emacstv-video-url (emacstv-videos)))))
 
 (defun emacstv-queue-from-org-agenda ()
 	"Queue marked entries."
