@@ -109,7 +109,7 @@ ${videoList.html}`;
 }
 
 class RandomPickRenderer {
-  private store: StateStore;
+	private store: StateStore;
 
   constructor(store: StateStore) {
     this.store =store;
@@ -118,7 +118,7 @@ class RandomPickRenderer {
   render(headings: OrgHeading[]): RenderResult {
     let handlers: Array<{ nodeId: string, listenerName: string, handler: Function }> = [];
     const renderableHeadings = headings.filter(heading =>
-      heading.drawer?.MEDIA_URL || heading.drawer?.TOOBNIX_URL || heading.drawer?.YOUTUBE_URL || heading.drawer?.VIMEO_URL
+      heading.drawer?.MEDIA_URL || heading.drawer?.TOOBNIX_URL || heading.drawer?.YOUTUBE_URL || heading.drawer?.VIMEO_URL || heading.drawer?.PEERTUBE_URL
     );
     if (renderableHeadings.length === 0) {
       return {
@@ -141,44 +141,51 @@ class RandomPickRenderer {
       handler: () => this.store.refresh()
     });
 
-    let player = '';
-    if (randomHeading.drawer['MEDIA_URL']) {
-      player = `
+		let player = '';
+		if (randomHeading.drawer['MEDIA_URL']) {
+			player = `
 <video controls>
-  <source src="${randomHeading.drawer['MEDIA_URL']}" type="video/webm">
-  Your browser does not support the video tag.
+<source src="${randomHeading.drawer['MEDIA_URL']}" type="video/webm">
+Your browser does not support the video tag.
 </video>`;
-  } else if (randomHeading.drawer['TOOBNIX_URL']) {
-    const toobnixId = this.extractToobnixId(randomHeading.drawer['TOOBNIX_URL']);
-    player = `
+		} else if (randomHeading.drawer['TOOBNIX_URL']) {
+			const toobnixId = this.extractToobnixId(randomHeading.drawer['TOOBNIX_URL']);
+			player = `
 <div class="video-container">
   <iframe title="" src="https://toobnix.org/videos/embed/${toobnixId}"
           frameborder="0" allowfullscreen="" sandbox="allow-same-origin allow-scripts allow-popups allow-forms">
   </iframe>
 </div>`;
-  } else if (randomHeading.drawer['YOUTUBE_URL']) {
-    const youtubeId = this.extractYouTubeId(randomHeading.drawer['YOUTUBE_URL']);
-    player = `
-<div class="video-container">
+		} else if (randomHeading.drawer['YOUTUBE_URL']) {
+			const youtubeId = this.extractYouTubeId(randomHeading.drawer['YOUTUBE_URL']);
+			player = `
+<div class="video-container">video-container">
   <iframe src="https://www.youtube.com/embed/${youtubeId}"
           title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write;
           encrypted-media; gyroscope; picture-in-picture; web-share"
           referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
   </iframe>
 </div>`;
-  } else if (randomHeading.drawer['VIMEO_URL']) {
-    const vimeoId = this.extractVimeoId(randomHeading.drawer['VIMEO_URL']);
-    player = `
+		} else if (randomHeading.drawer['VIMEO_URL']) {
+			const vimeoId = this.extractVimeoId(randomHeading.drawer['VIMEO_URL']);
+			player = `
 <div class="video-container">
  <iframe src="https://player.vimeo.com/video/${vimeoId}?badge=0&autopause=0&player_id=0&app_id=58479"
          frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write">
  </iframe>
 </div>
 <script src="https://player.vimeo.com/api/player.js"></script>`;
-  }
-    return {
-      handlers: handlers,
-      html: `
+		} else if (randomHeading.drawer['PEERTUBE_URL']) {
+			const matches = randomHeading.drawer['PEERTUBE_URL'].match(/https:\/\/([^\/]+?)\/w\/(.+)/);
+			if (matches) {
+				const domain = matches[1];
+				const id = matches[2];
+				player = `<iframe width="560" height="315" src="https://${domain}/videos/embed/${id}" frameborder="0" allowfullscreen="" sandbox="allow-same-origin allow-scripts allow-popups"></iframe>`;
+			}
+		}
+		return {
+			handlers: handlers,
+			html: `
 <div>
   <h2 id="random-pick-heading"><span>Lucky pick</span><span id="die">🎲</span></h2>
   ${player}
@@ -186,8 +193,8 @@ class RandomPickRenderer {
   ${video.html}
   </div>
 </div>`
-    };
-  }
+		};
+	}
 
   private extractYouTubeId(url: string): string {
     const match = url.match(/(?:https?:\/\/)?(?:www\.)?youtube\.com\/watch\?v=([^&]+)/) ||

@@ -371,7 +371,7 @@ ${videoList.html}`;
     render(headings) {
       let handlers = [];
       const renderableHeadings = headings.filter(
-        (heading) => heading.drawer?.MEDIA_URL || heading.drawer?.TOOBNIX_URL || heading.drawer?.YOUTUBE_URL || heading.drawer?.VIMEO_URL
+        (heading) => heading.drawer?.MEDIA_URL || heading.drawer?.TOOBNIX_URL || heading.drawer?.YOUTUBE_URL || heading.drawer?.VIMEO_URL || heading.drawer?.PEERTUBE_URL
       );
       if (renderableHeadings.length === 0) {
         return {
@@ -397,8 +397,8 @@ ${videoList.html}`;
       if (randomHeading.drawer["MEDIA_URL"]) {
         player = `
 <video controls>
-  <source src="${randomHeading.drawer["MEDIA_URL"]}" type="video/webm">
-  Your browser does not support the video tag.
+<source src="${randomHeading.drawer["MEDIA_URL"]}" type="video/webm">
+Your browser does not support the video tag.
 </video>`;
       } else if (randomHeading.drawer["TOOBNIX_URL"]) {
         const toobnixId = this.extractToobnixId(randomHeading.drawer["TOOBNIX_URL"]);
@@ -411,7 +411,7 @@ ${videoList.html}`;
       } else if (randomHeading.drawer["YOUTUBE_URL"]) {
         const youtubeId = this.extractYouTubeId(randomHeading.drawer["YOUTUBE_URL"]);
         player = `
-<div class="video-container">
+<div class="video-container">video-container">
   <iframe src="https://www.youtube.com/embed/${youtubeId}"
           title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write;
           encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -427,6 +427,14 @@ ${videoList.html}`;
  </iframe>
 </div>
 <script src="https://player.vimeo.com/api/player.js"><\/script>`;
+      } else if (randomHeading.drawer["PEERTUBE_URL"]) {
+        const matches = randomHeading.drawer["PEERTUBE_URL"].match(/https:\/\/([^\/]+?)\/w\/(.+)/);
+        console.debug("peertube", matches);
+        if (matches) {
+          const domain = matches[1];
+          const id = matches[2];
+          player = `<iframe width="560" height="315" src="https://${domain}/videos/embed/${id}" frameborder="0" allowfullscreen="" sandbox="allow-same-origin allow-scripts allow-popups"></iframe>`;
+        }
       }
       return {
         handlers,
