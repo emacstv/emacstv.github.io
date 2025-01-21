@@ -5,6 +5,276 @@
     <link>https://emacs.tv</link>
     <description>Emacs videos</description>
     <item>
+      <title>Arranging Elementary Objects in GNU Emacs: Dynamic Knowledge Structuring in RCD Notes and Hyperscope</title>
+      <link>https://www.youtube.com/watch?v=h9AcCdZtqGY</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=h9AcCdZtqGY">youtube</a><br><br>The process of moving elementary objects up and down and arranging them in a dynamic knowledge repository is often referred to as **"knowledge structuring"** or **"knowledge organization."** This involves categorizing, ordering, and managing information or data elements in a way that makes them easily accessible, retrievable, and meaningful within a system.
+
+  In more technical contexts, it might also be called **"ontology management"** or **"taxonomy building,"** especially when dealing with hierarchical or relational structures in knowledge bases. If the process involves dynamic, real-time adjustments, it could also be associated with **"dynamic knowledge management"** or **"adaptive knowledge organization."**
+
+  The process of arranging elementary objects in a dynamic knowledge repository, such as in **RCD Notes** and **Hyperscope** within GNU Emacs, is conceptually similar to moving **Org headings** up or down in an Org mode file. In Org mode, headings serve as the fundamental building blocks of structured information, and rearranging them allows users to dynamically organize and prioritize content. Similarly, in a dynamic knowledge repository, elementary objects (such as notes, concepts, or data points) are manipulated—moved up, down, or reordered—to reflect evolving relationships, hierarchies, or priorities. Both processes involve a flexible, user-driven approach to structuring information, enabling adaptive organization and efficient retrieval within a hierarchical or relational framework.
+
+  RCD Notes & Hyperscope for GNU Emacs, The Dynamic Knowledge Repository:
+  https://gnu.support/gnu-emacs/rcd-notes-for-gnu-emacs/index.html</div>]]></description>
+      <pubDate>Sun, 19 Jan 2025 17:25:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>A Modern and Extensible IDE for Guile Scheme</title>
+      <link>https://www.youtube.com/watch?v=gQpwf4jgpGo</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=gQpwf4jgpGo">youtube</a><br><br>Andrew Tropin (https://trop.in) introduces Emacs-Arei a modern, extensible IDE for Guile Scheme. Using the Nrepl protocol foundation of Guile Ares-rs, it provides a highly interactive developer experience for programming Guile or Guix.</div>]]></description>
+      <pubDate>Sun, 19 Jan 2025 14:57:20 +0000</pubDate>
+    </item>
+    <item>
+      <title>sndd.el demo, some frog sounds from emacs</title>
+      <link>https://www.youtube.com/watch?v=-6dlgqytIfE</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=-6dlgqytIfE">youtube</a><br><br>The snd source files (available at https://ccrma.stanford.edu/software/snd/) have code for computer generated animal sounds in animals.scm.
+
+  I extracted sndd.el from the snd-selectric-project and show you some commands you can use to drive snd. sndd.el is also used by my other project, hella-sounds.el.
+
+  More: https:17070415.xyz/blog
+  YT: https://youtube.com/@jwow-0
+  sndd: https://codeberg.org/MegaJ/sndd.el
+  hella-sounds: https://codeberg.org/MegaJ/hella-sounds.el
+  snd-selectric-mode: https://codeberg.org/MegaJ/snd-selectric-mode
+
+  If you liked this content, please like and subscribe. It helps me a lot and thanks so much!</div>]]></description>
+      <pubDate>Sun, 19 Jan 2025 00:01:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>hella-sounds.el, evented audio sfx in emacs</title>
+      <link>https://www.youtube.com/watch?v=Pn76Kr8VOhU</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=Pn76Kr8VOhU">youtube</a><br><br>A demonstration of evented audio in emacs to react to different actions a user takes.
+
+  More: https:17070415.xyz/blog
+  Project: https://codeberg.org/MegaJ/hella-sounds.el/
+  sndd: https://codeberg.org/MegaJ/sndd.el/
+  YT: https://youtube.com/@jwow-0
+
+  Unfortunately, youtube won't let me give hyperlinks, sorry!</div>]]></description>
+      <pubDate>Sat, 18 Jan 2025 20:32:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>Use LLMs to Read and Summarize GitHub Notifications inside Emacs</title>
+      <link>https://www.youtube.com/watch?v=g1VMGhC5gRU</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=g1VMGhC5gRU">youtube</a><br><br>This is a quick demo of using https://github.com/karthink/gptel/ with the tool-use deature (github.com/karthink/gptel/issues/514) to read and summarize GitHub notifications.
+
+  I am going to play with this tool a bit more, so stay tuned...</div>]]></description>
+      <pubDate>Sat, 18 Jan 2025 20:04:43 +0000</pubDate>
+    </item>
+    <item>
+      <title>Configuring emacs is actually easy</title>
+      <link>https://www.youtube.com/watch?v=hIGt0XK7ImA</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=hIGt0XK7ImA">youtube</a><br><br>subscribe
+
+  timestamps
+  0:00 Intro</div>]]></description>
+      <pubDate>Sat, 18 Jan 2025 14:50:48 +0000</pubDate>
+    </item>
+    <item>
+      <title>Going Back to Graphical Emacs? - System Crafters Live!</title>
+      <link>https://www.youtube.com/watch?v=3Fq_lghCP8E</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=3Fq_lghCP8E">youtube</a><br><br>In this stream, we'll discuss what I consider to be the downsides of using Emacs primarily in the terminal in a graphical desktop environment.  We'll also spend some time improving my new configuration to work well in graphical Emacs again.
+
+  #gnu #emacs #terminal #dotfiles
+
+  SUPPORT THE CHANNEL:
+
+  👍 Support My Work: https://systemcrafters.net/how-to-help/#support-my-work
+  📰 Subscribe to the Newsletter: https://systemcrafters.net/newsletter/
+  👕 Check out the Store: https://systemcrafters.store
+  📘 Get Your Copy of Mastering Emacs: https://www.masteringemacs.org/r/systemcrafters?utm_source=yt&utm_medium=desc&utm_campaign=scme
+
+  SHOW NOTES:
+
+  https://systemcrafters.net/live-streams/january-17-2025/
+
+  JOIN THE COMMUNITY:
+
+  https://systemcrafters.net/community/ (Forum and IRC chat!)
+  https://fosstodon.org/@daviwil
+
+  MY CONFIGURATION:
+
+  (This site is currently down but will be back up soon!)
+
+  https://config.daviwil.com
+  https://config.daviwil.com/emacs
+  https://config.daviwil.com/systems (Guix)
+
+  OTHER SERIES:
+
+  - Emacs Essentials: https://www.youtube.com/watch?v=48JlgiBpw_I&list=PLEoMzSkcN8oPZvSdewHG8uApD7THlLLCV
+  - Emacs From Scratch: https://www.youtube.com/watch?v=74zOY-vgkyw&list=PLEoMzSkcN8oPH1au7H6B7bBJ4ZO7BXjSZ
+  - Emacs Tips: https://www.youtube.com/watch?v=wKTKmE1wLyw&list=PLEoMzSkcN8oMHJ6Xil1YdnYtlWd5hHZql
+  - Emacs Desktop Environment: https://www.youtube.com/watch?v=f7xB2fFk1tQ&list=PLEoMzSkcN8oNPbEMYEtswOVTvq7CVddCS
+  - Emacs IDE: https://www.youtube.com/watch?v=E-NAM9U5JYE&list=PLEoMzSkcN8oNvsrtk_iZSb94krGRofFjN
+  - Emacs Mail: https://www.youtube.com/watch?v=yZRyEhi4y44&list=PLEoMzSkcN8oM-kA19xOQc8s0gr0PpFGJQ
+  - Learning Emacs Lisp: https://www.youtube.com/watch?v=RQK_DaaX34Q&list=PLEoMzSkcN8oPQtn7FQEF3D7sroZbXuPZ7
+  - Craft Your System with GNU Guix: https://www.youtube.com/watch?v=iBaqOK75cho&list=PLEoMzSkcN8oNxnj7jm5V2ZcGc52002pQU
+
+  CREDITS:
+
+  Coriolis Effect by logos feat. stefsax, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/mseq/26296
+  reNovation by airtone, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/airtone/60674
+  ukeSounds by airtone, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/airtone/32655
+  Between Worlds (Instrumental) by Aussens@iter, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/tobias_weber/56664</div>]]></description>
+      <pubDate>Sat, 18 Jan 2025 06:18:12 +0000</pubDate>
+    </item>
+    <item>
+      <title>Hyprland + DOOM Emacs workflow</title>
+      <link>https://www.youtube.com/watch?v=iFVJCyjfKpI</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=iFVJCyjfKpI">youtube</a><br><br>Just a short showcase of my simple workflow on my Linux machine.
+
+  Mentioned in this video:
+  Hyprland: https://hyprland.org/
+  Ghostty: https://ghostty.org/
+  https://mitchellh.com/ghostty
+  Neovim: https://neovim.io/
+  TJ DeVries YouTube Channel: https://www.youtube.com/c/tjdevries
+  DOOM Emacs: https://github.com/doomemacs/doomemacs</div>]]></description>
+      <pubDate>Fri, 17 Jan 2025 23:08:22 +0000</pubDate>
+    </item>
+    <item>
+      <title>Xah Talk Show 2025-01-16 Ep607 Emacs Lisp, HTML Ruby Markup Chinese, Jump to String</title>
+      <link>https://www.youtube.com/watch?v=2BFquEm2L8k</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=2BFquEm2L8k">youtube</a><br><br>notes at
+  http://xahlee.info/talk_show/xah_talk_show_2025-01-16.html</div>]]></description>
+      <pubDate>Fri, 17 Jan 2025 09:11:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>Creating a New Website for Emacs Packages in Guile | Real World Scheme Programming</title>
+      <link>https://www.youtube.com/watch?v=ACQ_CQ277gA</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=ACQ_CQ277gA">youtube</a><br><br>In this video, I present a summary of the work we've been doing during Crafter Hours streams on a new project called emacspackges.com, a website written from scratch in Guile Scheme.  We'll take a look at the approach I'm using to write the basic request handlers, page templating, and database access.
+
+  If you want to follow the development of a real website in Guile Scheme, this is the place to start!
+
+  - Crafter Hours dev log: https://systemcrafters.net/crafter-hours/
+  - The project source repo: https://codeberg.org/SystemCrafters/emacspackages.com
+
+  #guile #scheme #emacs #programming
+
+  SUPPORT THE CHANNEL:
+
+  👍 Support My Work: https://systemcrafters.net/how-to-help/#support-my-work
+  📰 Subscribe to the Newsletter: https://systemcrafters.net/newsletter/
+  👕 https://store.systemcrafters.net
+  📘 Get Your Copy of Mastering Emacs: https://www.masteringemacs.org/r/systemcrafters?utm_source=yt&utm_medium=desc&utm_campaign=scme
+
+  JOIN THE COMMUNITY:
+
+  https://systemcrafters.net/community/
+  https://fosstodon.org/@daviwil
+
+  MY CONFIGURATION:
+
+  https://config.daviwil.com
+  https://config.daviwil.com/emacs
+  https://config.daviwil.com/systems (Guix)
+
+  OTHER SERIES:
+
+  - Emacs Essentials: https://www.youtube.com/watch?v=48JlgiBpw_I&list=PLEoMzSkcN8oPZvSdewHG8uApD7THlLLCV
+  - Emacs From Scratch (2020 Version): https://www.youtube.com/watch?v=74zOY-vgkyw&list=PLEoMzSkcN8oPH1au7H6B7bBJ4ZO7BXjSZ
+  - Emacs Tips: https://www.youtube.com/watch?v=wKTKmE1wLyw&list=PLEoMzSkcN8oMHJ6Xil1YdnYtlWd5hHZql
+  - Emacs Desktop Environment: https://www.youtube.com/watch?v=f7xB2fFk1tQ&list=PLEoMzSkcN8oNPbEMYEtswOVTvq7CVddCS
+  - Emacs IDE: https://www.youtube.com/watch?v=E-NAM9U5JYE&list=PLEoMzSkcN8oNvsrtk_iZSb94krGRofFjN
+  - Emacs Mail: https://www.youtube.com/watch?v=yZRyEhi4y44&list=PLEoMzSkcN8oM-kA19xOQc8s0gr0PpFGJQ
+  - Learning Emacs Lisp: https://www.youtube.com/watch?v=RQK_DaaX34Q&list=PLEoMzSkcN8oPQtn7FQEF3D7sroZbXuPZ7
+  - Craft Your System with GNU Guix: https://www.youtube.com/watch?v=iBaqOK75cho&list=PLEoMzSkcN8oNxnj7jm5V2ZcGc52002pQU
+
+  CREDITS:
+
+  Coriolis Effect by logos feat. stefsax, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/mseq/26296
+  reNovation by airtone, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/airtone/60674
+  ukeSounds by airtone, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/airtone/32655
+  Between Worlds (Instrumental) by Aussens@iter, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/tobias_weber/56664</div>]]></description>
+      <pubDate>Thu, 16 Jan 2025 20:52:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>Emacs: Org todo and agenda basics</title>
+      <link>https://www.youtube.com/watch?v=L0EJeN1fCYw</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=L0EJeN1fCYw">youtube</a><br><br>In this ~45-minute video I cover the basics of managing your task list with Org mode. The idea is to write tasks in a simple file and then use the Org agenda views to display and filter the tasks you are interested in. Throughout the video I also comment on relevant points about the overall workflow.
+  The basic configuration I show in the video is available on my website: https://protesilaos.com/codelog/2025-01-16-emacs-org-todo-agenda-basics</div>]]></description>
+      <pubDate>Thu, 16 Jan 2025 14:58:32 +0000</pubDate>
+    </item>
+    <item>
+      <title>Scraping Emacs Package Repositories - Crafter Hours</title>
+      <link>https://www.youtube.com/watch?v=bRfMbUlUT3Y</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=bRfMbUlUT3Y">youtube</a><br><br>Welcome to Crafter Hours where we try to build something new every stream!  Stream recordings will eventually be turned into shorter channel videos.
+
+  #gnu #guile #scheme #emacs #webdev
+
+  SUPPORT THE CHANNEL:
+
+  👍 Support My Work: https://systemcrafters.net/how-to-help/#support-my-work
+  📰 Subscribe to the Newsletter: https://systemcrafters.net/newsletter/
+  👕 Check out the Store: https://systemcrafters.store
+  📘 Get Your Copy of Mastering Emacs: https://www.masteringemacs.org/r/systemcrafters?utm_source=yt&utm_medium=desc&utm_campaign=scme
+
+  THE PROJECT:
+
+  https://codeberg.org/SystemCrafters/emacspackages.com
+
+  JOIN THE COMMUNITY:
+
+  https://systemcrafters.net/community/ (Forum and IRC chat!)
+  https://fosstodon.org/@daviwil
+
+  MY CONFIGURATION:
+
+  (This site is currently down but will be back up soon!)
+
+  https://config.daviwil.com
+  https://config.daviwil.com/emacs
+  https://config.daviwil.com/systems (Guix)
+
+  OTHER SERIES:
+
+  - Emacs Essentials: https://www.youtube.com/watch?v=48JlgiBpw_I&list=PLEoMzSkcN8oPZvSdewHG8uApD7THlLLCV
+  - Emacs From Scratch: https://www.youtube.com/watch?v=74zOY-vgkyw&list=PLEoMzSkcN8oPH1au7H6B7bBJ4ZO7BXjSZ
+  - Emacs Tips: https://www.youtube.com/watch?v=wKTKmE1wLyw&list=PLEoMzSkcN8oMHJ6Xil1YdnYtlWd5hHZql
+  - Emacs Desktop Environment: https://www.youtube.com/watch?v=f7xB2fFk1tQ&list=PLEoMzSkcN8oNPbEMYEtswOVTvq7CVddCS
+  - Emacs IDE: https://www.youtube.com/watch?v=E-NAM9U5JYE&list=PLEoMzSkcN8oNvsrtk_iZSb94krGRofFjN
+  - Emacs Mail: https://www.youtube.com/watch?v=yZRyEhi4y44&list=PLEoMzSkcN8oM-kA19xOQc8s0gr0PpFGJQ
+  - Learning Emacs Lisp: https://www.youtube.com/watch?v=RQK_DaaX34Q&list=PLEoMzSkcN8oPQtn7FQEF3D7sroZbXuPZ7
+  - Craft Your System with GNU Guix: https://www.youtube.com/watch?v=iBaqOK75cho&list=PLEoMzSkcN8oNxnj7jm5V2ZcGc52002pQU
+
+  CREDITS:
+
+  Coriolis Effect by logos feat. stefsax, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/mseq/26296
+  reNovation by airtone, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/airtone/60674
+  ukeSounds by airtone, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/airtone/32655
+  Between Worlds (Instrumental) by Aussens@iter, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/tobias_weber/56664</div>]]></description>
+      <pubDate>Wed, 15 Jan 2025 22:15:42 +0000</pubDate>
+    </item>
+    <item>
+      <title>mastering emacs note-taking in a week (as an engineering student)</title>
+      <link>https://www.youtube.com/watch?v=2XVJqBrTvPM</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=2XVJqBrTvPM">youtube</a><br><br>the chosen one prevails....
+
+  yoyoyo hope u guys enjoyed !! lmk any updates to the format u might wanna see, def think i should record a bit more in the process if i can for the next one.
+
+  resources i used to install and configure:
+  (https://github.com/doomemacs/doomemacs/blob/master/docs/getting_started.org)
+  - don't blindly follow everything on this guide, one specific point i had to do myself was making emacs start as an application, but im sure you can figure that out too, just a file path change. it's also pretty difficult to get to work with spotlight and alfred from what i found but possible with loopholes.
+  (https://github.com/jvscholz/dotfiles/tree/master/doom)
+  - a very good start (from james), if you wanna copy stuff it helps if you can understand everything you reuse.
+  (https://docs.doomemacs.org/latest/)
+  - wiki
+  (https://www.orgroam.com/manual.html)
+  - org roam
+  (https://www.reddit.com/r/DoomEmacs/)
+  - subreddit
+
+  if you have any questions, if you look on the doom and emacs subreddits/wiki chances are that other people have had the same question and the answer is out there, remember to always do some of your own research and due diligence !!
+
+  instagram: https://www.instagram.com/jk.wonnn/
+  discord: https://discord.gg/EZ9DvVWgsH
+  music: https://open.spotify.com/user/enrme07lwo476rny9l4gbuch8?si=7081ed96674549c4
+
+  19,488</div>]]></description>
+      <pubDate>Tue, 14 Jan 2025 12:36:42 +0000</pubDate>
+    </item>
+    <item>
       <title>Trying emacs and a life lesson</title>
       <link>https://www.youtube.com/watch?v=_dZQT_Bei4I</link>
       <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=_dZQT_Bei4I">youtube</a><br><br>So I had quite some journey using a terminal centred workflow and it was a great time to explore. But recently I reflected, that I limited myself to the belief that there is nothing else besides this. And this belief was heavily inspired by other people's opinions. So I want to try something new and explore for myself, create my own. Really start a self-guided exploration to come to my own conclusions and thoughts, rather than copying someone else's. I will try emacs.</div>]]></description>

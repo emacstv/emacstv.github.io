@@ -429,7 +429,6 @@ Your browser does not support the video tag.
 <script src="https://player.vimeo.com/api/player.js"><\/script>`;
       } else if (randomHeading.drawer["PEERTUBE_URL"]) {
         const matches = randomHeading.drawer["PEERTUBE_URL"].match(/https:\/\/([^\/]+?)\/w\/(.+)/);
-        console.debug("peertube", matches);
         if (matches) {
           const domain = matches[1];
           const id = matches[2];
