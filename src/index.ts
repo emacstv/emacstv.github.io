@@ -136,7 +136,7 @@ class RandomPickRenderer {
       handler: () => this.store.refresh()
     });
     handlers.push({
-      nodeId: 'random-pick-heading',
+      nodeId: 'die',
       listenerName: 'keypress',
       handler: () => this.store.refresh()
     });
@@ -192,7 +192,7 @@ Your browser does not support the video tag.
 			handlers: handlers,
 			html: `
 <div>
-  <h2 id="random-pick-heading" role="button" aria-label="Random" tabindex="0"><span>Lucky pick</span><span id="die">🎲</span></h2>
+  <h2 id="random-pick-heading"><span>Lucky pick</span><button id="die" aria-label="Random" tabindex="0">🎲</span></h2>
   ${player}
   <div class="video--caption item">
   ${video.html}

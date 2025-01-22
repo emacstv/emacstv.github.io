@@ -87,8 +87,13 @@ const htmlContent = `
       display: flex;
       justify-content: space-between; align-items: baseline;
     }
-    #die {
+    button#die {
       cursor: pointer;
+      background: none;
+			padding: 0;
+			border: 0;
+			box-shadow: none;
+			font-size: unset;
     }
     .video-container {
       position: relative;
