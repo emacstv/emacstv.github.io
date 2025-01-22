@@ -100,7 +100,9 @@ ${tagPicker.html} ${filterByTags.html}
 <br>
 <br>` : ''
 }
-${videoList.html}`;
+<div class="video-list">
+${videoList.html}
+</div>`;
 
   return {
     html: state.error ? state.error : html,
@@ -136,8 +138,13 @@ class RandomPickRenderer {
       handler: () => this.store.refresh()
     });
     handlers.push({
-      nodeId: 'die',
+      nodeId: 'lucky-pick',
       listenerName: 'keypress',
+      handler: () => this.store.refresh()
+    });
+    handlers.push({
+      nodeId: 'lucky-pick',
+      listenerName: 'click',
       handler: () => this.store.refresh()
     });
     handlers.push({
@@ -192,7 +199,7 @@ Your browser does not support the video tag.
 			handlers: handlers,
 			html: `
 <div>
-  <h2 id="random-pick-heading"><span>Lucky pick</span><button id="die" aria-label="Random" tabindex="0">🎲</span></h2>
+  <h2 id="random-pick-heading"><span id="lucky-pick" aria-role="button" aria-label="Lucky pick" tabindex="0">Lucky pick</span><span id="die">🎲</span></h2>
   ${player}
   <div class="video--caption item">
   ${video.html}
@@ -295,7 +302,7 @@ class DateRenderer {
   }
 }
 
-class VideoListRenderer {
+export class VideoListRenderer {
   private store: StateStore;
 
   constructor(store: StateStore) {
@@ -360,7 +367,8 @@ class VideoRenderer {
     const links = Object.keys(heading.drawer ?? {})
       .filter(key => key.endsWith("_URL") && heading.drawer[key]?.trim())
       .map((key) => {
-        return `<a href="${heading.drawer[key]}" target="_blank">${key.slice(0, -4).toLowerCase()}</a>`;
+				const title = key.slice(0, -4).toLowerCase() + ' - ' + heading.title.replace(/&/g, '&amp;').replace(/"/, '&quot;');
+        return `<a href="${heading.drawer[key]}" aria-label="${title}" title="${title}" target="_blank">${key.slice(0, -4).toLowerCase()}</a>`;
       })
       .join("&nbsp;·&nbsp;");
 
@@ -484,6 +492,15 @@ export class StateStore {
       orgDocument: new OrgDocument([])
     });
   }
+
+	public loadFromString(text) {
+		const orgDocument = OrgParser.parse(text);
+    this.state.mutate(state => {
+      state.loading = false;
+      state.orgDocument = orgDocument;
+      return state;
+    });
+	}
 
   public async load() {
     try {

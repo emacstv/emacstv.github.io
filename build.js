@@ -16,6 +16,10 @@
 const fs = require('fs');
 const https = require('https');
 const jsCode = fs.readFileSync('./dist/bundle.js', 'utf8');
+const { makeStore, VideoListRenderer } = require('./dist/emacstv.js');
+const store = makeStore();
+store.loadFromString(fs.readFileSync('./videos.org', 'utf8'));
+const videoList = new VideoListRenderer(store).render(store.state.currentValue.orgDocument.headings);
 const htmlContent = `
 <!DOCTYPE html>
 <html>
@@ -87,13 +91,12 @@ const htmlContent = `
       display: flex;
       justify-content: space-between; align-items: baseline;
     }
-    button#die {
+    #die {
       cursor: pointer;
       background: none;
 			padding: 0;
 			border: 0;
 			box-shadow: none;
-			font-size: unset;
     }
     .video-container {
       position: relative;
@@ -227,7 +230,9 @@ const htmlContent = `
   </style>
 </head>
 <body>
-  <div id="root"></div>
+  <div id="root">
+    <div class="video-list">${videoList.html}</div>
+  </div>
   <script>
     document.addEventListener('DOMContentLoaded', async function () {
       store = app.makeStore();

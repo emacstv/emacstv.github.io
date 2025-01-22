@@ -2,7 +2,7 @@
   "name": "emacstv",
   "version": "1.0.0",
   "scripts": {
-    "build": "npx esbuild src/index.ts --bundle --format=iife --global-name=app --outfile=dist/bundle.js && node build.js",
+    "build": "npx esbuild src/index.ts --bundle --format=iife --global-name=app --outfile=dist/bundle.js && npx esbuild src/index.ts --bundle --format=cjs --outfile=dist/emacstv.js && node build.js",
     "test": "npx jest"
   },
   "devDependencies": {
@@ -10,5 +10,8 @@
     "esbuild": "^0.24.0",
     "ts-jest": "^29.2.5",
     "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "typescript-require": "^0.3.0"
   }
 }
