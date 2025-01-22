@@ -72,6 +72,15 @@ export function render(state: State, store: StateStore): RenderResult {
     .render(filteredHeadings);
   handlers = handlers.concat(videoList.handlers);
 
+	handlers.push({
+		nodeId: 'logo-link',
+		listenerName: 'click',
+		handler: (event) => {
+			store.refresh();
+			event.preventDefault();
+			return false;
+		}
+	});
   if (state.orgDocument.headings.length === 0) {
     return {
       html: '',
@@ -81,7 +90,7 @@ export function render(state: State, store: StateStore): RenderResult {
 
   let html = `
 <h1 id="header">
-<span class="logo"><a href="https://emacs.tv" onclick="javascript:window.location.reload(); return false">🦬 emacs.tv</a></span>
+<span class="logo"><a id="logo-link" href="https://emacs.tv">🦬 emacs.tv</a></span>
   <span style="font-size: 1rem; font-weight: normal;">
     <a href="https://github.com/emacstv/emacstv.github.io#-emacstv">about</a>
  |
@@ -114,11 +123,12 @@ class RandomPickRenderer {
 	private store: StateStore;
 
   constructor(store: StateStore) {
-    this.store =store;
+    this.store = store;
   }
 
   render(headings: OrgHeading[]): RenderResult {
     let handlers: Array<{ nodeId: string, listenerName: string, handler: Function }> = [];
+		const autoplay = this.store.state.currentValue.autoPlay;
     const renderableHeadings = headings.filter(heading =>
       heading.drawer?.MEDIA_URL || heading.drawer?.TOOBNIX_URL || heading.drawer?.YOUTUBE_URL || heading.drawer?.VIMEO_URL || heading.drawer?.PEERTUBE_URL
     );
@@ -164,7 +174,7 @@ Your browser does not support the video tag.
 			const toobnixId = this.extractToobnixId(randomHeading.drawer['TOOBNIX_URL']);
 			player = `
 <div class="video-container">
-  <iframe title="" src="https://toobnix.org/videos/embed/${toobnixId}"
+  <iframe title="" src="https://toobnix.org/videos/embed/${toobnixId}${autoplay ? '?autoplay=1' : ''}"
           frameborder="0" allowfullscreen="" sandbox="allow-same-origin allow-scripts allow-popups allow-forms">
   </iframe>
 </div>`;
@@ -172,7 +182,7 @@ Your browser does not support the video tag.
 			const youtubeId = this.extractYouTubeId(randomHeading.drawer['YOUTUBE_URL']);
 			player = `
 <div class="video-container">video-container">
-  <iframe src="https://www.youtube.com/embed/${youtubeId}"
+<iframe src="https://www.youtube.com/embed/${youtubeId}${autoplay ? '?autoplay=1' : ''}"
           title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write;
           encrypted-media; gyroscope; picture-in-picture; web-share"
           referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
@@ -182,7 +192,7 @@ Your browser does not support the video tag.
 			const vimeoId = this.extractVimeoId(randomHeading.drawer['VIMEO_URL']);
 			player = `
 <div class="video-container">
- <iframe src="https://player.vimeo.com/video/${vimeoId}?badge=0&autopause=0&player_id=0&app_id=58479"
+ <iframe src="https://player.vimeo.com/video/${vimeoId}?badge=0&autopause=0&player_id=0&app_id=58479${autoplay ? '&autoplay=1' : ''}"
          frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write">
  </iframe>
 </div>
@@ -192,7 +202,7 @@ Your browser does not support the video tag.
 			if (matches) {
 				const domain = matches[1];
 				const id = matches[2];
-				player = `<iframe width="560" height="315" src="https://${domain}/videos/embed/${id}" frameborder="0" allowfullscreen="" sandbox="allow-same-origin allow-scripts allow-popups"></iframe>`;
+				player = `<iframe width="560" height="315" src="https://${domain}/videos/embed/${id}${autoplay ? '?autoplay=1' : ''}" frameborder="0" allowfullscreen="" sandbox="allow-same-origin allow-scripts allow-popups"></iframe>`;
 			}
 		}
 		return {
@@ -752,6 +762,7 @@ export function makeState(): State {
     filterByTitle: "",
     filterByTags: [],
     filterBySpeakers: [],
+		autoPlay: false,
     orgDocument: new OrgDocument([])
   };
 }

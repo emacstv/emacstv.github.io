@@ -255,6 +255,8 @@ const htmlContent = `
         state.filterByTags = tagsParam ? tagsParam.split(',') : [];
         const speakersParam = url.searchParams.get('speakers');
         state.filterBySpeakers = speakersParam ? speakersParam.split(',') : [];
+        const autoPlayParam = url.searchParams.get('autoplay');
+        state.autoPlay = autoPlayParam;
         return state;
       });
 
