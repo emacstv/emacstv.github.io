@@ -96,6 +96,7 @@ const htmlContent = `
       background: none;
 			padding: 0;
 			border: 0;
+      color: unset;
 			box-shadow: none;
       font-size: unset;
       font-weight: unset;
