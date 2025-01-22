@@ -91,6 +91,15 @@ const htmlContent = `
       display: flex;
       justify-content: space-between; align-items: baseline;
     }
+    button#lucky-pick {
+      cursor: pointer;
+      background: none;
+			padding: 0;
+			border: 0;
+			box-shadow: none;
+      font-size: unset;
+      font-weight: unset;
+    }
     #die {
       cursor: pointer;
       background: none;

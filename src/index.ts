@@ -199,7 +199,7 @@ Your browser does not support the video tag.
 			handlers: handlers,
 			html: `
 <div>
-  <h2 id="random-pick-heading"><span id="lucky-pick" aria-role="button" aria-label="Lucky pick" tabindex="0">Lucky pick</span><span id="die">🎲</span></h2>
+  <h2 id="random-pick-heading"><button id="lucky-pick" aria-role="button" aria-label="Lucky pick" tabindex="0">Lucky pick</button><span id="die">🎲</span></h2>
   ${player}
   <div class="video--caption item">
   ${video.html}
