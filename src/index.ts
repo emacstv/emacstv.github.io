@@ -81,7 +81,7 @@ export function render(state: State, store: StateStore): RenderResult {
 
   let html = `
 <h1 id="header">
-  <span>🦬 emacs.tv</span>
+<span class="logo"><a href="https://emacs.tv" onclick="javascript:window.location.reload(); return false">🦬 emacs.tv</a></span>
   <span style="font-size: 1rem; font-weight: normal;">
     <a href="https://github.com/emacstv/emacstv.github.io#-emacstv">about</a>
  |

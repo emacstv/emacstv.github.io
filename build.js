@@ -91,6 +91,7 @@ const htmlContent = `
       display: flex;
       justify-content: space-between; align-items: baseline;
     }
+    #header .logo a { text-decoration: none; color: unset }
     button#lucky-pick {
       cursor: pointer;
       background: none;
