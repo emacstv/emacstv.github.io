@@ -5,6 +5,221 @@
     <link>https://emacs.tv</link>
     <description>Emacs videos</description>
     <item>
+      <title>【TDDへの理解とEmacs】エンジニアの楽園 vim-jp ラジオ #28</title>
+      <link>https://www.youtube.com/watch?v=kTjZBrNxWGI</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=kTjZBrNxWGI">youtube</a><br><br>エンジニアコミュニティ「vim-jp」のラジオ版としてスタートした「エンジニアの楽園 vim-jp ラジオ」。
+
+
+
+
+  前回に引き続き、TDDで有名なt-wadaさんをお迎えします！
+
+  今回のテーマは「TDDへの理解とEmacs」
+  t-wadaさんにもちろん聞きます！TDDについて！
+
+  そして、前回に続きEmacsについてもお聞きしています。
+
+
+
+  ～～～
+
+  エンジニアが集まるインターネット上のコミュニティvim-jpから生まれた初の音声プログラム。
+  「tomoya」と「ありすえ」がパーソナリティを担当！
+
+  vim-jpはプログラミングから子育てに至るまで無数のチャンネルを抱えたコミュニティです。
+  そんなコミュニティの面白さを生かして、各分野の様々なゲストを交えながら楽しく雑談していきます。
+
+  vim-jpのSlackへのご参加はこちら (https://vim-jp.org/docs/chat.html) から！
+
+  メッセージはSlackの #vim-jp-radio-message チャンネルに投稿してください。
+
+
+  vim-jpラジオ・オリジナルグッズはこちら (https://suzuri.jp/vim-jp-radio) から！
+
+
+
+
+
+
+  OP・ EDテーマ制作：田中潤（ゲントウキ） (http://www.gentouki.jp)</div>]]></description>
+      <pubDate>Mon, 27 Jan 2025 03:14:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>Setting up Basedpyright LSP with Emacs Eglot</title>
+      <link>https://www.youtube.com/watch?v=K-GjbbcwLFc</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=K-GjbbcwLFc">youtube</a><br><br>Setting up and trying out the "new" basedpyright python LSP in Emacs.</div>]]></description>
+      <pubDate>Sun, 26 Jan 2025 22:12:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>Emacs: organise your init file (outline-minor-mode or Org literate config)</title>
+      <link>https://www.youtube.com/watch?v=Dkoy3NrLN9g</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=Dkoy3NrLN9g">youtube</a><br><br>In this 25-minute video I show two ways to organise your Emacs init.el file. One approach is to keep editing the code in Emacs Lisp and to leverage the "outline", while the other is to use a literate Org file whose code blocks will be "tangled" to the init.el. I explain all the technicalities and show examples. More resources about this on my website: https://protesilaos.com/codelog/2025-01-26-emacs-organise-init</div>]]></description>
+      <pubDate>Sun, 26 Jan 2025 16:32:33 +0000</pubDate>
+    </item>
+    <item>
+      <title>Emacs - Recursive Edit</title>
+      <link>https://www.youtube.com/watch?v=KJysP2WrwCw</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=KJysP2WrwCw">youtube</a><br><br>Let's find out what recursive editing in Emacs is.</div>]]></description>
+      <pubDate>Sat, 25 Jan 2025 22:11:51 +0000</pubDate>
+    </item>
+    <item>
+      <title>Why I use emacs (for now)</title>
+      <link>https://www.youtube.com/watch?v=Mvk0JESjF5Q</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=Mvk0JESjF5Q">youtube</a><br><br>I'm running out of video ideas</div>]]></description>
+      <pubDate>Sat, 25 Jan 2025 10:29:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>Emacs As Your Terminal Emulator</title>
+      <link>https://www.youtube.com/watch?v=Qo7WQjbE2io</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=Qo7WQjbE2io">youtube</a><br><br>Demonstrations of Emacs shell interactions and using GNU Emacs as your main terminal emulator for your GNU/Linux system.
+
+  Video notes:  https://thanosapollo.org/posts/emacs-shells-video/</div>]]></description>
+      <pubDate>Sat, 25 Jan 2025 09:04:06 +0000</pubDate>
+    </item>
+    <item>
+      <title>Clojure visual-tools 30 - Workflow Demos 4: LLMs in Emacs for Clojure</title>
+      <link>https://www.youtube.com/watch?v=uj2wGDeOimU</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=uj2wGDeOimU">youtube</a><br><br>This 2025-01-23 meeting was the forth of a series of meetings where people would demonstrate their Clojure workflows with different tools.
+
+  Agenda:
+  Both Ovidiu Stoica and Adham Omran shared their setup, workflow, and lessons in using LLMs in Emacs for Clojure development.
+  Baruch Berger briefly shared a tree-based UI for LLM interaction, that will be the topic of a future talk.
+
+  Summary:
+  https://clojureverse.org/t/visual-tools-meeting-30-workflow-demos-4-llms-in-emacs-for-clojure-summary-recording/</div>]]></description>
+      <pubDate>Fri, 24 Jan 2025 23:29:38 +0000</pubDate>
+    </item>
+    <item>
+      <title>Noj v2 - getting started - from raw data to a blog post</title>
+      <link>https://www.youtube.com/watch?v=vnvcKtHHMVQ</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=vnvcKtHHMVQ">youtube</a><br><br>This is a getting-started tutorial for Noj - a recommended way to use the emerging Clojure data stack.
+
+  Repo: https://github.com/scicloj/noj-v2-getting-started</div>]]></description>
+      <pubDate>Fri, 24 Jan 2025 16:55:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>Xah Talk Show 2025-01-23 Ep609 Emacs Lisp Coding, xah-increment-number</title>
+      <link>https://www.youtube.com/watch?v=CpDDAoCDfZ4</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=CpDDAoCDfZ4">youtube</a><br><br>notes at
+  http://xahlee.info/talk_show/xah_talk_show_2025-01-23.html</div>]]></description>
+      <pubDate>Fri, 24 Jan 2025 15:05:24 +0000</pubDate>
+    </item>
+    <item>
+      <title>Simple guide for emacs plugins</title>
+      <link>https://www.youtube.com/watch?v=XT9D3zifMyo</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=XT9D3zifMyo">youtube</a><br><br>(require 'package)
+  (add-to-list 'package-archives '("melpa" . "https://melpa.org/packages/") t)
+  (package-initialize)</div>]]></description>
+      <pubDate>Fri, 24 Jan 2025 11:29:05 +0000</pubDate>
+    </item>
+    <item>
+      <title>How to set up Gnus in Emacs for Gmail in seven minutes #email #gnus #emacs #gmail #emacselements</title>
+      <link>https://www.youtube.com/watch?v=C_F-CuMg9zQ</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=C_F-CuMg9zQ">youtube</a><br><br>https://docs.google.com/document/d/1ml4zW1hWy43L48EvDEl7E_80nja-JvoGUEy_e4RbZt0/edit?usp=sharing
+
+  PLEASE CONSIDER SUPPORTING ME.
+  You can support me on PayPal:
+  https://paypal.me/revrari
+  Or you can send me some Bitcoin:
+  3JToybg7LHAdsteTYGg7jRniRZEMCeTasj</div>]]></description>
+      <pubDate>Thu, 23 Jan 2025 14:03:27 +0000</pubDate>
+    </item>
+    <item>
+      <title>First Configuration - Emacs Speedrun: Ep 02</title>
+      <link>https://www.youtube.com/watch?v=6hVFbBkO8JA</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=6hVFbBkO8JA">youtube</a><br><br>It's important to put information in front of yourself even when you aren't searching for it.  That includes remembering basic things like, "where is my config file?" and opening up new rabbit holes.  Emacs defaults are not that generous.  You probably want a starter kit.  This video shows what to look for and explains the landscape of grab-and-go Emacs bootstrapping solutions.
+
+  Doom Emacs
+  https://github.com/doomemacs/doomemacs
+
+  Crafted Emacs
+  https://github.com/SystemCrafters/crafted-emacs
+
+  Prot's basic Emacs config:
+  https://protesilaos.com/codelog/2024-11-28-basic-emacs-configuration/
+
+  Emacs Kick for NeoVim users:
+  https://github.com/LionyxML/emacs-kick
+
+  Positron's Github Sponsors Page
+  https://github.com/sponsors/positron-solutions
+
+  Sponsors can access the my personal minimal Emacs, I call DeMacs
+  https://github.com/positron-solutions/youtube/
+
+  Packages featured in this video:
+  Ivy / Counsel / Ivy-Rich
+  Vertico / Consult
+  Marginalia
+  Prescient
+  Orderless
+  Helpful
+  Keycast
+  Lispy
+  Aggressive-Indent
+
+  Built-in Packages Featured
+  recentf
+  bookmark
+  paren
+
+  This is the de-facto early sign-up for PrizeForge.
+
+  https://prizeforge.com/
+
+  #emacs #opensource #programming #coding
+
+  TIMESTAMPS
+  00:00 Learning Incidentally
+  01:09 Starter Kits
+  02:13 Use Them All!
+  03:10 Starting Points
+  03:40 Editing Lisps
+  04:15 Homework Problems</div>]]></description>
+      <pubDate>Thu, 23 Jan 2025 07:02:05 +0000</pubDate>
+    </item>
+    <item>
+      <title>Keeping Emacs Windows Still:  Sinister</title>
+      <link>https://www.youtube.com/watch?v=6aA1wfW6t0g</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=6aA1wfW6t0g">youtube</a><br><br>Sinister is Latin for "left" and it is so called because the package is for people who prefer splitting windows horizontally into left & right windows.
+
+  The package is available on my sponsor's Github and will be available whenever I get around to properly publishing it to MELPA/ELPA and all that.
+
+  Our Github sponsors can use it in its pre-published state:
+  https://github.com/positron-solutions/youtube/blob/master/de-macs/lisp/sinister.el
+
+  You want it.
+
+  Buy me a hamburger:
+  https://github.com/sponsors/positron-solutions
+
+  Your hamburgers help get PrizeForge off the ground
+  https://prizeforge.com/
+
+  Help a PrizeForge in need.  For just a dollar a month, you can feed a software engineer.
+
+  #emacs #programming #coding #opensource</div>]]></description>
+      <pubDate>Wed, 22 Jan 2025 09:54:38 +0000</pubDate>
+    </item>
+    <item>
+      <title>An Emacs Wall Clock</title>
+      <link>https://www.youtube.com/watch?v=tNrlHdKgTLA</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=tNrlHdKgTLA">youtube</a><br><br>Invoking Ramin Honary's excellent svg-analog-clock to provide a wall clock.</div>]]></description>
+      <pubDate>Tue, 21 Jan 2025 13:43:22 +0000</pubDate>
+    </item>
+    <item>
+      <title>The 7 Best Text Editors I Have Used #coding #emacs #neovim #acme #programming #emacselements</title>
+      <link>https://www.youtube.com/watch?v=IEcJVEH_IVg</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=IEcJVEH_IVg">youtube</a><br><br>https://drive.google.com/file/d/1JdeAu60OFa7PhcdBZQd8836SupCGQTvE/view?usp=sharing
+
+  PLEASE CONSIDER SUPPORTING ME.
+  You can support me on PayPal:
+  https://paypal.me/revrari
+  Or you can send me some Bitcoin:
+  3JToybg7LHAdsteTYGg7jRniRZEMCeTasj</div>]]></description>
+      <pubDate>Sun, 19 Jan 2025 22:00:10 +0000</pubDate>
+    </item>
+    <item>
       <title>Arranging Elementary Objects in GNU Emacs: Dynamic Knowledge Structuring in RCD Notes and Hyperscope</title>
       <link>https://www.youtube.com/watch?v=h9AcCdZtqGY</link>
       <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=h9AcCdZtqGY">youtube</a><br><br>The process of moving elementary objects up and down and arranging them in a dynamic knowledge repository is often referred to as **"knowledge structuring"** or **"knowledge organization."** This involves categorizing, ordering, and managing information or data elements in a way that makes them easily accessible, retrievable, and meaningful within a system.
@@ -47809,7 +48024,7 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
       <pubDate>Wed, 09 Apr 2008 18:21:14 +0000</pubDate>
     </item>
     <item>
-      <title>sketchbook.rb</title>
+      <title>sketchbook.rb  :coding:ruby:dev:</title>
       <link></link>
       <description><![CDATA[<div id="content"><a href="https://vimeo.com/665846">vimeo</a><br><br>jruby with processing demo.
   sketchbook.rb observe your_sketch.rb to compile when file updates are detected.

@@ -1,6 +1,265 @@
 #+TODO: KEYWORD_THAT_WONT_BE_USED
 #+STARTUP: nolatexpreview
 
+* 【TDDへの理解とEmacs】エンジニアの楽園 vim-jp ラジオ #28   :coding:testing:
+:PROPERTIES:
+:DATE:     2025-01-26T19:14:07-08:00
+:DURATION: 34:55
+:YOUTUBE_URL: https://www.youtube.com/watch?v=kTjZBrNxWGI
+:SPEAKERS: TOKYO FM Podcasts | AuDee by TOKYO FM
+:END:
+  エンジニアコミュニティ「vim-jp」のラジオ版としてスタートした「エンジニアの楽園 vim-jp ラジオ」。
+
+
+
+
+  前回に引き続き、TDDで有名なt-wadaさんをお迎えします！
+
+  今回のテーマは「TDDへの理解とEmacs」
+  t-wadaさんにもちろん聞きます！TDDについて！
+
+  そして、前回に続きEmacsについてもお聞きしています。
+
+
+
+  ～～～
+
+  エンジニアが集まるインターネット上のコミュニティvim-jpから生まれた初の音声プログラム。
+  「tomoya」と「ありすえ」がパーソナリティを担当！
+
+  vim-jpはプログラミングから子育てに至るまで無数のチャンネルを抱えたコミュニティです。
+  そんなコミュニティの面白さを生かして、各分野の様々なゲストを交えながら楽しく雑談していきます。
+
+  vim-jpのSlackへのご参加はこちら (https://vim-jp.org/docs/chat.html) から！
+
+  メッセージはSlackの #vim-jp-radio-message チャンネルに投稿してください。
+
+
+  vim-jpラジオ・オリジナルグッズはこちら (https://suzuri.jp/vim-jp-radio) から！
+
+
+
+
+
+
+  OP・ EDテーマ制作：田中潤（ゲントウキ） (http://www.gentouki.jp)
+
+* Setting up Basedpyright LSP with Emacs Eglot  :coding:python:lsp:
+:PROPERTIES:
+:DATE:     2025-01-26T14:12:08-08:00
+:DURATION: 27:13
+:YOUTUBE_URL: https://www.youtube.com/watch?v=K-GjbbcwLFc
+:SPEAKERS: PizzaTorque
+:END:
+  Setting up and trying out the "new" basedpyright python LSP in Emacs.
+
+* Emacs: organise your init file (outline-minor-mode or Org literate config)   :configuration:
+:PROPERTIES:
+:DATE:     2025-01-26T08:32:33-08:00
+:DURATION: 24:52
+:YOUTUBE_URL: https://www.youtube.com/watch?v=Dkoy3NrLN9g
+:SPEAKERS: Protesilaos Stavrou
+:END:
+  In this 25-minute video I show two ways to organise your Emacs init.el file. One approach is to keep editing the code in Emacs Lisp and to leverage the "outline", while the other is to use a literate Org file whose code blocks will be "tangled" to the init.el. I explain all the technicalities and show examples. More resources about this on my website: https://protesilaos.com/codelog/2025-01-26-emacs-organise-init
+
+* Emacs - Recursive Edit  :navigation:
+:PROPERTIES:
+:DATE:     2025-01-25T14:11:51-08:00
+:DURATION: 22:50
+:YOUTUBE_URL: https://www.youtube.com/watch?v=KJysP2WrwCw
+:SPEAKERS: PizzaTorque
+:END:
+  Let's find out what recursive editing in Emacs is.
+
+* Why I use emacs (for now)   :community:why:
+:PROPERTIES:
+:DATE:     2025-01-25T02:29:15-08:00
+:DURATION: 6:06
+:YOUTUBE_URL: https://www.youtube.com/watch?v=Mvk0JESjF5Q
+:SPEAKERS: Cicin
+:END:
+  I'm running out of video ideas
+
+* Emacs As Your Terminal Emulator     :shell:
+:PROPERTIES:
+:DATE:     2025-01-25T01:04:06-08:00
+:DURATION: 7:45
+:YOUTUBE_URL: https://www.youtube.com/watch?v=Qo7WQjbE2io
+:SPEAKERS: Thanos Apollo
+:END:
+  Demonstrations of Emacs shell interactions and using GNU Emacs as your main terminal emulator for your GNU/Linux system.
+
+  Video notes:  https://thanosapollo.org/posts/emacs-shells-video/
+
+* Clojure visual-tools 30 - Workflow Demos 4: LLMs in Emacs for Clojure  :clojure:llm:ai:coding:dev:
+:PROPERTIES:
+:DATE:     2025-01-24T15:29:38-08:00
+:DURATION: 1:39:50
+:YOUTUBE_URL: https://www.youtube.com/watch?v=uj2wGDeOimU
+:SPEAKERS: Sci Cloj
+:END:
+  This 2025-01-23 meeting was the forth of a series of meetings where people would demonstrate their Clojure workflows with different tools.
+
+  Agenda:
+  Both Ovidiu Stoica and Adham Omran shared their setup, workflow, and lessons in using LLMs in Emacs for Clojure development.
+  Baruch Berger briefly shared a tree-based UI for LLM interaction, that will be the topic of a future talk.
+
+  Summary:
+  https://clojureverse.org/t/visual-tools-meeting-30-workflow-demos-4-llms-in-emacs-for-clojure-summary-recording/
+
+* Noj v2 - getting started - from raw data to a blog post   :clojure:coding:
+:PROPERTIES:
+:DATE:     2025-01-24T08:55:07-08:00
+:DURATION: 47:25
+:YOUTUBE_URL: https://www.youtube.com/watch?v=vnvcKtHHMVQ
+:SPEAKERS: Sci Cloj
+:END:
+  This is a getting-started tutorial for Noj - a recommended way to use the emerging Clojure data stack.
+
+  Repo: https://github.com/scicloj/noj-v2-getting-started
+
+* Xah Talk Show 2025-01-23 Ep609 Emacs Lisp Coding, xah-increment-number  :elisp:
+:PROPERTIES:
+:DATE:     2025-01-24T07:05:24-08:00
+:DURATION: 54:25
+:YOUTUBE_URL: https://www.youtube.com/watch?v=CpDDAoCDfZ4
+:SPEAKERS: Xah Lee
+:END:
+  notes at
+  http://xahlee.info/talk_show/xah_talk_show_2025-01-23.html
+
+* Simple guide for emacs plugins  :configuration:
+:PROPERTIES:
+:DATE:     2025-01-24T03:29:05-08:00
+:DURATION: 7:53
+:YOUTUBE_URL: https://www.youtube.com/watch?v=XT9D3zifMyo
+:SPEAKERS: Cicin
+:END:
+  (require 'package)
+  (add-to-list 'package-archives '("melpa" . "https://melpa.org/packages/") t)
+  (package-initialize)
+
+* How to set up Gnus in Emacs for Gmail in seven minutes #email #gnus #emacs #gmail #emacselements   :mail:gnus:
+:PROPERTIES:
+:DATE:     2025-01-23T06:03:27-08:00
+:DURATION: 8:10
+:YOUTUBE_URL: https://www.youtube.com/watch?v=C_F-CuMg9zQ
+:SPEAKERS: Raoul Comninos
+:END:
+  https://docs.google.com/document/d/1ml4zW1hWy43L48EvDEl7E_80nja-JvoGUEy_e4RbZt0/edit?usp=sharing
+
+  PLEASE CONSIDER SUPPORTING ME.
+  You can support me on PayPal:
+  https://paypal.me/revrari
+  Or you can send me some Bitcoin:
+  3JToybg7LHAdsteTYGg7jRniRZEMCeTasj
+
+* First Configuration - Emacs Speedrun: Ep 02   :configuration:
+:PROPERTIES:
+:DATE:     2025-01-22T23:02:05-08:00
+:DURATION: 4:40
+:YOUTUBE_URL: https://www.youtube.com/watch?v=6hVFbBkO8JA
+:SPEAKERS: Positron's Emacs Channel
+:END:
+  It's important to put information in front of yourself even when you aren't searching for it.  That includes remembering basic things like, "where is my config file?" and opening up new rabbit holes.  Emacs defaults are not that generous.  You probably want a starter kit.  This video shows what to look for and explains the landscape of grab-and-go Emacs bootstrapping solutions.
+
+  Doom Emacs
+  https://github.com/doomemacs/doomemacs
+
+  Crafted Emacs
+  https://github.com/SystemCrafters/crafted-emacs
+
+  Prot's basic Emacs config:
+  https://protesilaos.com/codelog/2024-11-28-basic-emacs-configuration/
+
+  Emacs Kick for NeoVim users:
+  https://github.com/LionyxML/emacs-kick
+
+  Positron's Github Sponsors Page
+  https://github.com/sponsors/positron-solutions
+
+  Sponsors can access the my personal minimal Emacs, I call DeMacs
+  https://github.com/positron-solutions/youtube/
+
+  Packages featured in this video:
+  Ivy / Counsel / Ivy-Rich
+  Vertico / Consult
+  Marginalia
+  Prescient
+  Orderless
+  Helpful
+  Keycast
+  Lispy
+  Aggressive-Indent
+
+  Built-in Packages Featured
+  recentf
+  bookmark
+  paren
+
+  This is the de-facto early sign-up for PrizeForge.
+
+  https://prizeforge.com/
+
+  #emacs #opensource #programming #coding
+
+  TIMESTAMPS
+  00:00 Learning Incidentally
+  01:09 Starter Kits
+  02:13 Use Them All!
+  03:10 Starting Points
+  03:40 Editing Lisps
+  04:15 Homework Problems
+
+* Keeping Emacs Windows Still:  Sinister   :navigation:windows:
+:PROPERTIES:
+:DATE:     2025-01-22T01:54:38-08:00
+:DURATION: 0:42
+:YOUTUBE_URL: https://www.youtube.com/watch?v=6aA1wfW6t0g
+:SPEAKERS: Positron's Emacs Channel
+:END:
+  Sinister is Latin for "left" and it is so called because the package is for people who prefer splitting windows horizontally into left & right windows.
+
+  The package is available on my sponsor's Github and will be available whenever I get around to properly publishing it to MELPA/ELPA and all that.
+
+  Our Github sponsors can use it in its pre-published state:
+  https://github.com/positron-solutions/youtube/blob/master/de-macs/lisp/sinister.el
+
+  You want it.
+
+  Buy me a hamburger:
+  https://github.com/sponsors/positron-solutions
+
+  Your hamburgers help get PrizeForge off the ground
+  https://prizeforge.com/
+
+  Help a PrizeForge in need.  For just a dollar a month, you can feed a software engineer.
+
+  #emacs #programming #coding #opensource
+
+* An Emacs Wall Clock   :svg:
+:PROPERTIES:
+:DATE:     2025-01-21T05:43:22-08:00
+:DURATION: 10:12
+:YOUTUBE_URL: https://www.youtube.com/watch?v=tNrlHdKgTLA
+:SPEAKERS: Kalman Reti
+:END:
+  Invoking Ramin Honary's excellent svg-analog-clock to provide a wall clock.
+* The 7 Best Text Editors I Have Used #coding #emacs #neovim #acme #programming #emacselements   :comparison:
+:PROPERTIES:
+:DATE:     2025-01-19T14:00:10-08:00
+:DURATION: 12:59
+:YOUTUBE_URL: https://www.youtube.com/watch?v=IEcJVEH_IVg
+:SPEAKERS: Raoul Comninos
+:END:
+  https://drive.google.com/file/d/1JdeAu60OFa7PhcdBZQd8836SupCGQTvE/view?usp=sharing
+
+  PLEASE CONSIDER SUPPORTING ME.
+  You can support me on PayPal:
+  https://paypal.me/revrari
+  Or you can send me some Bitcoin:
+  3JToybg7LHAdsteTYGg7jRniRZEMCeTasj
+
 * Arranging Elementary Objects in GNU Emacs: Dynamic Knowledge Structuring in RCD Notes and Hyperscope
 :PROPERTIES:
 :DATE:     2025-01-19T09:25:13-08:00
@@ -57529,7 +57788,7 @@ Using restclient within emacs...
 :END:
   This is a follow up to the "Shootout" tutorial that shows you how to use a shell and a commands line editor instead of the web based administrative interface. Works even if you run the binary distribution. -h for all command line options.
 
-* sketchbook.rb  :coding:ruby:dev:
+* sketchbook.rb  :coding:ruby:dev:  :coding:ruby:
 :PROPERTIES:
 :DATE:     2008-02-05T10:09:29+00:00
 :DURATION: 0:48

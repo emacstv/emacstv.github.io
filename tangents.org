@@ -3,6 +3,22 @@
 
 Videos that aren't about Emacs specifically, but use Emacs
 
+
+* Kaveh's Common Lisp Lesson 01: Points & Shapes  :CommonLisp:
+:PROPERTIES:
+:DATE:     2022-07-19T16:48:22-07:00
+:DURATION: 29:18
+:YOUTUBE_URL: https://www.youtube.com/watch?v=nSJcuOLmkl8
+:SPEAKERS: Kaveh808
+:END:
+  Kaveh's Common Lisp Lessons
+
+  Programming language tutorial with 2D OpenGL graphics. Common Lisp running in CCL on MacOS.
+
+  Source code: https://github.com/kaveh808
+
+  Blog: https://kaveh808.medium.com
+
 * An sklearn-doe package with application to the SDL-Light   :science:tangent:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=Sfbmk4zTFCw&list=PL0sMmOaE_gs1Ox-wIIbHPLZ9O5uLJ_rQW&index=19&pp=iAQB
