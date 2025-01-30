@@ -24,18 +24,17 @@
 
 ;;; Code:
 
+(require 'mpv)
+
 (defvar emacstv-index-org (expand-file-name "videos.org" (file-name-directory (or load-file-name (buffer-file-name))))
 	"*Where the data is stored.")
 
 (defun emacstv-youtube-id (url)
-	"Return the video ID for URL."
-	(cond
-	 ((string-match "\\`https://youtu.be/\\(.*\\)" url) (match-string 1 url))
-	 ((string-match "\\`https://\\(?:www\\.\\)?youtube.com/live/\\(.*?\\)\\(\\?.+\\|$\\)" url) (match-string 1 url))
-	 ((string-match "\\`https://\\(?:www\\.\\)?youtube.com/shorts/\\(.*?\\)\\(\\?.+\\|$\\)" url) (match-string 1 url))
-	 ((string-match "\\`https://\\(?:www\\.\\)?youtube.com/watch\\?\\(.*\\)" url)
-		(car (assoc-default "v" (url-parse-query-string (match-string 1 url)) #'string=)))
-	 (t nil)))
+  "Return the video ID for a YouTube URL."
+  (cond
+   ((string-match "\\`https://\\(?:youtu\\.be/\\|\\(?:www\\.\\)?youtube\\.com/\\(?:live/\\|shorts/\\|watch\\?v=\\)\\)\\([^?&]+\\)" url)
+    (match-string 1 url))
+   (t nil)))
 
 (defun emacstv-vimeo-id (url)
 	"Return the video ID for URL."
@@ -50,18 +49,18 @@
 	 (t nil)))
 
 (defun emacstv-find-by-generic-url (field id-func url)
-	(when-let*
-			((id (funcall id-func url))
-			 (id-re (regexp-quote id))
-			 (pos
-				(catch 'found
-					(org-map-entries
-					 (lambda ()
-						 (when (string-match id-re (org-entry-get (point) field))
-							 (throw 'found (point))))
-					 (concat field "={.}"))
-					nil)))
-		(goto-char pos)))
+  (when-let*
+      ((id (funcall id-func url))
+       (id-re (regexp-quote id))
+       (pos
+	(catch 'found
+	  (org-map-entries
+	   (lambda ()
+	     (when (string-match id-re (org-entry-get (point) field))
+	       (throw 'found (point))))
+	   (concat field "={.}"))
+	  nil)))
+    (goto-char pos)))
 
 (defun emacstv-find-by-media-url (url)
 	"Move point to the entry for URL.
@@ -434,16 +433,32 @@ Return nil if TIME-STRING doesn't match the pattern."
 					(setq seconds (mod seconds seconds-in-day))))
 			(concat (format-seconds "%.2h:%z%.2m:%.2s" (floor seconds)))))))
 
+
+(defvar emacstv-playlist nil
+  "A list of videos for emacs.tv package.")
+
 ;;;###autoload
 (defun emacstv-play (video)
-	(interactive (list (emacstv-complete-video)))
-	(require 'mpv)
-	(let ((url (if (stringp video) video (emacstv-video-url video))))
-		(setq emacstv-playlist (list url))
-		(if (mpv-live-p)
-				(progn
-					(mpv-run-command "loadfile" url))
-			(mpv-play-url url))))
+  "Select and play a video from emacs.tv using MPV.
+
+Invoked after selecting VIDEO from a list displayed in an interactive
+buffer populated from the videos.org file, which contains all the
+videos available for emacs.tv.
+
+If MPV is running, the video URL is passed to `mpv-run-command';
+otherwise, a new MPV instance starts with the selected video.
+
+@dependencies: Requires the 'mpv package.
+
+See also: `emacstv-complete-video', `emacstv-video-url',
+`mpv-live-p', `mpv-run-command', `mpv-play-url'."
+  (interactive (list (emacstv-complete-video)))
+  (require 'mpv)
+  (let ((url (if (stringp video) video (emacstv-video-url video))))
+    (setq emacstv-playlist (list url))
+    (if (mpv-live-p)
+        (mpv-run-command "loadfile" url)
+      (mpv-play-url url))))
 
 (defun emacstv-random-video ()
 	(let ((videos (emacstv-videos)))
@@ -465,8 +480,6 @@ Return nil if TIME-STRING doesn't match the pattern."
         (setf (nth i shuffled) (nth j shuffled))
         (setf (nth j shuffled) temp)))
     shuffled))
-
-(defvar emacstv-playlist nil)
 
 (defun emacstv-clear-playlist ()
 	(interactive)
@@ -621,20 +634,27 @@ Return nil if TIME-STRING doesn't match the pattern."
 
 ;;;###autoload
 (defun emacstv-jump-to-current-video ()
-	"Jump to the entry for the current video."
-	;; TODO: Fix this, doesn't seem to always work
-	(interactive)
-	(emacstv-find-org)
-	(require 'mpv)
-	(unless (mpv-live-p)
-		(error "No active MPV process."))
-	(let ((url (mpv-get-property "stream-open-filename"))
-				(playlist-index (and emacstv-playlist
-														 (mpv-get-property "playlist-playing-pos"))))
-		(or (emacstv-find-by-url url)
-				(emacstv-find-by-url (elt emacstv-playlist playlist-index))
-				(and url (error "Could not find %s" url))
-				(error "Not sure what the current URL is"))))
+  "Jump to the entry for the current video playing in MPV.
+
+Retrieves the `stream-open-filename' property from MPV and extracts
+the video's DATA. Searches for the URL in the videos.org file to find
+the matching entry for the currently playing video.
+
+@dependencies: Requires the 'mpv package.
+
+See also: `emacstv-find-org', `emacstv-find-by-url', `mpv-get-property'."
+  (interactive)
+  (emacstv-find-org)
+  (require 'mpv)
+  (unless (mpv-live-p)
+    (error "No active MPV process found. Make sure MPV is running and try again"))
+  (let ((url (mpv-get-property "stream-open-filename"))
+        (playlist-index (and emacstv-playlist
+                             (mpv-get-property "playlist-playing-pos"))))
+    (or (emacstv-find-by-url url)
+        (emacstv-find-by-url (elt emacstv-playlist playlist-index))
+        (and url (error "Could not find the video with URL: %s" url))
+        (error "Not sure what the current URL is"))))
 
 (defun emacstv-org-ql-search-matching-untagged (query)
 	"Search for headings matching QUERY that don't have that as a tag."
