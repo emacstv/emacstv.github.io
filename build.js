@@ -286,6 +286,7 @@ const htmlContent = `
           url.searchParams.delete('speakers');
         }
 
+        console.log('Location: ' + window.location.href + ' ====> ' + url.toString());
         if (url.toString() !== window.location.href) {
           history.replaceState(null, '', url.toString());
         }
