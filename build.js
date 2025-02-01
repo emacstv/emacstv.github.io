@@ -267,6 +267,7 @@ const htmlContent = `
         }
 
         const url = new URL(window.location.href);
+
         if (state.filterByTitle){
           url.searchParams.set('title', state.filterByTitle);
         } else {
@@ -277,14 +278,6 @@ const htmlContent = `
           url.searchParams.set('tags', state.filterByTags.join(','));
         } else {
           url.searchParams.delete('tags');
-        }
-
-        history.replaceState(null, '', url.toString());
-
-        if (state.filterByTitle){
-          url.searchParams.set('title', state.filterByTitle);
-        } else {
-          url.searchParams.delete('title');
         }
 
         if (state.filterBySpeakers && state.filterBySpeakers.length > 0) {
