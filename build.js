@@ -286,7 +286,9 @@ const htmlContent = `
           url.searchParams.delete('speakers');
         }
 
-        history.replaceState(null, '', url.toString());
+        if (url.toString() !== window.location.href) {
+          history.replaceState(null, '', url.toString());
+        }
 
         const { loading, html, handlers } = app.render(state, store);
 
