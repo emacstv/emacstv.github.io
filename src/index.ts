@@ -733,11 +733,14 @@ export class ValueStream<T> {
 
   public mutate(mutator: (value: T) => T) {
     if (this.currentValue !== undefined) {
-      const newValue = typeof this.currentValue === 'object' && this.currentValue !== null
-       ? structuredClone(this.currentValue)
-       : this.currentValue;
-      this.currentValue = mutator(newValue);
-      this.emit(this.currentValue);
+      const candidateValue = typeof this.currentValue === 'object' && this.currentValue !== null
+        ? structuredClone(this.currentValue)
+        : this.currentValue;
+      const mutatedValue = mutator(candidateValue);
+      if (this.currentValue !== mutatedValue) {
+        this.currentValue = mutatedValue;
+        this.emit(this.currentValue);
+      }
     }
   }
 }
