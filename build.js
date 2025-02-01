@@ -286,12 +286,10 @@ const htmlContent = `
           url.searchParams.delete('speakers');
         }
 
-        console.log('Location: ' + window.location.href + ' ====> ' + url.toString());
-        // Momentarily disabling while debugging:
-        // Too many calls to Location or History APIs within a short timeframe.
-        // if (url.toString() !== window.location.href) {
-        //   history.replaceState(null, '', url.toString());
-        // }
+        if (url.toString() !== window.location.href) {
+          console.log('Replacing location: ' + window.location.href + ' ====> ' + url.toString());
+          history.replaceState(null, '', url.toString());
+        }
 
         const { loading, html, handlers } = app.render(state, store);
 
