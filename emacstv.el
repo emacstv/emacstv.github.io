@@ -24,8 +24,6 @@
 
 ;;; Code:
 
-(require 'mpv)
-
 (defvar emacstv-index-org (expand-file-name "videos.org" (file-name-directory (or load-file-name (buffer-file-name))))
 	"*Where the data is stored.")
 
@@ -483,12 +481,14 @@ See also: `emacstv-complete-video', `emacstv-video-url',
 
 (defun emacstv-clear-playlist ()
 	(interactive)
-	(mpv-run-command "playlist-clear")
+	(when (featurep 'mpv)
+		(mpv-run-command "playlist-clear"))
 	(setq emacstv-playlist nil))
 
 (defun emacstv-queue-list (list)
 	"Add LIST to the playlist."
 	(setq emacstv-playlist (append emacstv-playlist list))
+	(require 'mpv)
 	(if (mpv-live-p)
 			(dolist (url list)
 				(mpv-run-command "loadfile" url "append-play"))
@@ -499,6 +499,7 @@ See also: `emacstv-complete-video', `emacstv-video-url',
 (defun emacstv-queue-url (url)
 	"Add LIST to the playlist."
 	(setq emacstv-playlist (append emacstv-playlist (list url)))
+	(require 'mpv)
 	(if (mpv-live-p)
 			(mpv-run-command "loadfile" url "append-play")
 		(mpv-play-url url)))
@@ -550,9 +551,9 @@ See also: `emacstv-complete-video', `emacstv-video-url',
 (define-minor-mode emacstv-background-mode
 	"Play random Emacs videos in the background."
 	:global t
+	(require 'mpv)
 	(if emacstv-background-mode
 			(progn
-				(require 'mpv)
 				(emacstv-queue-random))
 		;; no worries if it has already quit
 		(condition-case nil
@@ -591,6 +592,7 @@ See also: `emacstv-complete-video', `emacstv-video-url',
 (defun emacstv-add-to-playlist-at-point ()
 	"Queue a video from the agenda or org file."
 	(interactive)
+	(require 'mpv)
 	(when (derived-mode-p 'org-agenda-mode)
 		(org-agenda-switch-to))
 	(when (derived-mode-p 'org-mode)
