@@ -227,7 +227,7 @@ Returns nil if not found."
 			 `(("ITEM" . ,(identity .name))
 				 ("PEERTUBE_URL" . ,(identity .url))
 				 ("DATE" . ,(identity .uploadDate))
-				 ("DURATION" . ,(emacstv-format-seconds (string-to-number (replace-regexp-in-string "PT\\|S" "" .duration))))
+				 ("DURATION" . ,(if .duration (emacstv-format-seconds (string-to-number (replace-regexp-in-string "PT\\|S" "" .duration)))))
 				 ("DESCRIPTION" . ,(identity .description)))))))
 
 (defun emacstv-add-from-youtube (url)

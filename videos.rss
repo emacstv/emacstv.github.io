@@ -5,6 +5,249 @@
     <link>https://emacs.tv</link>
     <description>Emacs videos</description>
     <item>
+      <title>Nuke em! Quick search and replace #emacs #org #markdown</title>
+      <link>https://www.youtube.com/watch?v=MSZ7f-n9Jic</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=MSZ7f-n9Jic">youtube</a><br><br>PLEASE CONSIDER SUPPORTING ME.
+  You can support me on PayPal:
+  https://paypal.me/revrari
+  Or you can send me some Bitcoin:
+  3JToybg7LHAdsteTYGg7jRniRZEMCeTasj</div>]]></description>
+      <pubDate>Mon, 03 Feb 2025 07:31:44 +0000</pubDate>
+    </item>
+    <item>
+      <title>piem - an Emacs tool for applying patches</title>
+      <link>https://www.youtube.com/watch?v=y3jSr55ujo4</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=y3jSr55ujo4">youtube</a><br><br>Implementing feature-piem for RDE.
+
+  https://docs.kyleam.com/piem.html
+
+  https://git.sr.ht/~abcdw/rde
+
+  #rde #guix #guile #scheme
+
+  IRC Chat:
+  #tropin IRC channel at libera.chat.
+
+  Mastodon:
+  https://fosstodon.org/@abcdw
+
+  RDE and Arei Guile IDE projects:
+  https://sr.ht/~abcdw/rde
+  https://sr.ht/~abcdw/emacs-arei
+
+  https://github.com/abcdw/rde (mirror)
+
+  Mailing lists:
+  https://lists.sr.ht/~abcdw/
+
+  Other tags:
+  #linux #foss #floss #lisp #scheme #guile #nrepl #repl</div>]]></description>
+      <pubDate>Mon, 03 Feb 2025 06:09:38 +0000</pubDate>
+    </item>
+    <item>
+      <title>My simple note taking system #emacs #orgmode #coding #programming #notes</title>
+      <link>https://www.youtube.com/watch?v=KMGgHyaIpo0</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=KMGgHyaIpo0">youtube</a><br><br>The notes for this video can be found here:
+  https://mega.nz/file/2qpGzQ7I#KujN6Edr2RMIhNXlxbL31S0SdZqE_Oczsqfju0WKlN0
+
+  PLEASE CONSIDER SUPPORTING ME.
+  You can support me on PayPal:
+  https://paypal.me/revrari
+  Or you can send me some Bitcoin:
+  3JToybg7LHAdsteTYGg7jRniRZEMCeTasj</div>]]></description>
+      <pubDate>Sun, 02 Feb 2025 22:00:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>configuring emacs</title>
+      <link>https://www.youtube.com/watch?v=qUCaeDcM3BE</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=qUCaeDcM3BE">youtube</a><br><br>some minor changes in emacs</div>]]></description>
+      <pubDate>Sun, 02 Feb 2025 20:28:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>Emacs Writing Studio (Exploring your Denote digital knowledge garden)</title>
+      <link>https://www.youtube.com/watch?v=UylZOHIwnBw</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=UylZOHIwnBw">youtube</a><br><br>Emacs Writing Studio is a configuration of the GNU Emacs system for authors, students, researchers and anyone else who needs to manage written ideas.
+
+  This video accompanies the Emacs Writing Studio website and book and demonstrates how explore and visualise your Denote collection of notes and attachments.
+
+  Emacs Writing Studio Website: https://lucidmanager.org/productivity/denote-explore/
+
+  GitHub repository: https://github.com/pprevos/denote-explore/</div>]]></description>
+      <pubDate>Sun, 02 Feb 2025 04:28:28 +0000</pubDate>
+    </item>
+    <item>
+      <title>Emacs Writing Studio (Create and manage literature notes with Citar-Denote)</title>
+      <link>https://www.youtube.com/watch?v=s7Mf6udiCSE</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=s7Mf6udiCSE">youtube</a><br><br>Emacs Writing Studio is a configuration of the GNU Emacs system for authors, students, researchers and anyone else who needs to manage written ideas.
+
+  This video accompanies the Emacs Writing Studio website and book and demonstrates how to create and manage literature notes with the Citar-Denote package.
+
+  Emacs Writing Studio Website: https://lucidmanager.org/productivity/bibliographic-notes-in-emacs-with-citar-denote/
+
+  GitHub repository: https://github.com/pprevos/citar-denote</div>]]></description>
+      <pubDate>Sun, 02 Feb 2025 02:54:04 +0000</pubDate>
+    </item>
+    <item>
+      <title>Emacs Writing Studio: Ideation (Taking fleeting and permanent notes)</title>
+      <link>https://www.youtube.com/watch?v=HFUAKJI0_SI</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=HFUAKJI0_SI">youtube</a><br><br>Emacs Writing Studio is a configuration of the GNU Emacs system for authors, students, researchers and anyone else who needs to manage written ideas.
+
+  This video accompanies the Emacs Writing Studio website and book and demonstrates how to create fleeting and permanent notes with Org mode and Denote.
+
+  Emacs Writing Studio Website: https://lucidmanager.org/tags/emacs/
+
+  Other videos:
+  Emacs: introduction to Denote (simple note-taking): https://www.youtube.com/watch?v=mLzFJcLpDFI
+  Emacs: Denote Org dynamic blocks: https://www.youtube.com/watch?v=zzXcav0yb50</div>]]></description>
+      <pubDate>Sun, 02 Feb 2025 01:21:51 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introduction to Emacs Writing Studio</title>
+      <link>https://www.youtube.com/watch?v=5IJVDCpE3vA</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=5IJVDCpE3vA">youtube</a><br><br>Emacs Writing Studio is a configuration of the GNU Emacs system for authors, students, researchers and anyone else who needs to manage written ideas.
+
+  This video accompanies the Emacs Writing Studio website and book and introduces the basic concept of using Org mode for authors.
+
+  Emacs Writing Studio Website: https://lucidmanager.org/tags/emacs/
+
+  Other Videos:
+  Basics of Org mode: https://www.youtube.com/watch?v=e9Ucb1JHUfQ
+  The Absolute Beginner's Guide to Emacs: https://www.youtube.com/watch?v=48JlgiBpw_I</div>]]></description>
+      <pubDate>Sat, 01 Feb 2025 23:42:39 +0000</pubDate>
+    </item>
+    <item>
+      <title>Emacs Writing Studio: Inspiration (Read e-books, manage a bibliography, surf the web and play music)</title>
+      <link>https://www.youtube.com/watch?v=RGUvNnO7lj4</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=RGUvNnO7lj4">youtube</a><br><br>Emacs Writing Studio is a configuration of the GNU Emacs system for authors, students, researchers and anyone else who needs to manage written ideas.
+
+  This video accompanies the Emacs Writing Studio website and book and demonstrates how to read e-books, manage a bibliography, surf the web and listen to music.
+
+  Emacs Writing Studio Website: https://lucidmanager.org/tags/emacs/
+
+  To view e-books and listen of watch media files you need to install the following additional software:
+
+  - gs (GhostScript) or mutool (MuPDF): View PDF files
+  - pdftotext (poppler-utils): Convert PDF to text
+  - soffice (LibreOffice): View and create office documents
+  - unzip: Unpack ePub documents
+  - djvu (DjVuLibre): View DjVu files
+  - curl: Reading RSS feeds
+  - mpg321, ogg123 (vorbis-tools), mplayer, mpv, vlc: Play music and watch videos
+
+  You can also use the OpenWith package to view these files in your favourite software: https://www.youtube.com/watch?v=dIrISO_dgjQ</div>]]></description>
+      <pubDate>Sat, 01 Feb 2025 07:18:28 +0000</pubDate>
+    </item>
+    <item>
+      <title>Interview With DistroTube - YouTuber, Opensource Advocate, Emacs User</title>
+      <link>https://www.youtube.com/watch?v=F_U-5NZGqC8</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=F_U-5NZGqC8">youtube</a><br><br>Join me for an interview with Derek Taylor (DistroTube). We chat about Emacs, Opensource, YouTube and much more.
+
+  Sorry for the minor issues with the video and audio quality. I am still getting the hang of recording these interviews.
+
+  Let me know what you think and if there is anything specific you would like to learn about.
+
+  ----------------► Wanna Support Me? ◀︎----------------
+  Github:
+      https://www.github.com/sponsors/gavinok
+  Patreon:
+      https://www.patreon.com/gavinfreeborn
+
+  ----------------► Wanna Checkout My Dots? ◀︎----------------
+  Vimrc:
+      https://github.com/Gavinok/dotvim
+  Emacs Config:
+      https://github.com/Gavinok/emacs.d
+  ----------------► Come Join The Community◀︎----------------
+  LBRY:
+      https://odysee.com/@GavinFreeborn:d
+  Discord:
+      https://discord.gg/JJk5KKU</div>]]></description>
+      <pubDate>Fri, 31 Jan 2025 17:00:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>Returning to the Church (of Emacs)</title>
+      <link>https://www.youtube.com/watch?v=sBc7toJaCxw</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=sBc7toJaCxw">youtube</a><br><br>I think I made a mistake, team!
+
+  I explore in this video how I found my home back in Emacs, how I figured out better usage patterns, and what the potential (unlimited) is in this 40+ year old program.
+
+  I wrote the post below for your reading pleasure:
+  https://joshblais.com/posts/returning-to-emacs/
+
+  Doom emacs repo: https://github.com/doomemacs/doomemacs
+
+  Dotfiles:
+  https://github.com/jblais493/Logos
+
+  My Setup:
+  Thinkpad t14s Gen 3 - https://amzn.to/3WxfOwi
+  Majexstand - https://amzn.to/3ydquZd
+  Chocofi Keyboard - https://shop.beekeeb.com/product/pres...
+  Ulanzi Superclamp - https://amzn.to/3SwVv12
+  Logitech MX Ergo - https://amzn.to/4dqzetJ
+  Shure SM7B - https://amzn.to/3LMzMyr
+  Audient ID4 Mkii - https://amzn.to/3Sz9e7A
+  Anker 100w GaN Charger - https://amzn.to/3LKH99A
+  Cables - https://amzn.to/3WvIjdX
+  Moondrop Kato - https://amzn.to/46xsUyd
+  Ulanzi Tripod - https://amzn.to/4cc3szN
+
+  Want to support the channel? Buymeacoffee here: https://buymeacoffee.com/joshuablais
+
+  My website: https://joshblais.com
+  Github: https://github.com/jblais493/
+  Twitter:   / realjoshuablais
+  Subscribe on my site to get my book, Mountain sent for FREE to your inbox: https://joshblais.com
+
+  These links help to support the channel so I can make more content that resonates with you!</div>]]></description>
+      <pubDate>Thu, 30 Jan 2025 22:22:50 +0000</pubDate>
+    </item>
+    <item>
+      <title>Emacs Hyperdrive</title>
+      <link></link>
+      <description><![CDATA[<div id="content"><a href="https://fediverse.tv/w/mR2YCSrnXU3X6WWWNksAmQ">peertube</a><br><br>1a Hispa-Emacs Conf.: ¿Qué?: Jornadas de Microtalleres online de 15&#x2F;30 min. ~ HORARIOS referidos en base a CET : p.ej.: 18h en Madrid &#x3D; 14h en Buenos Aires Coordinación de las jornadas en el canal de chat IRC #emacs-es ( Libera.chat server ) Web: https:&#x2F;&#x2F;hispa-emacs.org&#x2F; XMPP: xmpp:hispa-emacs@salas.xmpp.elbinario.net?join Telegram: https:&#x2F;&#x2F;t.me&#x2F;emacsorgmode Mastodon: https:&#x2F;&#x2F;fosstodon.org&#x2F;@hispaemacs</div>]]></description>
+      <pubDate>Thu, 30 Jan 2025 12:20:43 +0000</pubDate>
+    </item>
+    <item>
+      <title>Emacs y twtxt, la red social en texto plano, descentralizada y minimalista by Andros</title>
+      <link></link>
+      <description><![CDATA[<div id="content"><a href="https://fediverse.tv/w/9e7burNXEdQdixyGY456qv">peertube</a><br><br>1a Hispa-Emacs Conf.: ¿Qué?: Jornadas de Microtalleres online de 15&#x2F;30 min. ~ HORARIOS referidos en base a CET : p.ej.: 18h en Madrid &#x3D; 14h en Buenos Aires Coordinación de las jornadas en el canal de chat IRC #emacs-es ( Libera.chat server ) Web: https:&#x2F;&#x2F;hispa-emacs.org&#x2F; XMPP: xmpp:hispa-emacs@salas.xmpp.elbinario.net?join Telegram: https:&#x2F;&#x2F;t.me&#x2F;emacsorgmode Mastodon: https:&#x2F;&#x2F;fosstodon.org&#x2F;@hispaemacs</div>]]></description>
+      <pubDate>Thu, 30 Jan 2025 03:13:50 +0000</pubDate>
+    </item>
+    <item>
+      <title>Construyendo el website Hispa-Emacs.org enteramente desde Emacs</title>
+      <link></link>
+      <description><![CDATA[<div id="content"><a href="https://fediverse.tv/w/9cNJm42wMbojoV45hNhfWA">peertube</a><br><br>1a Hispa-Emacs Conf.: ¿Qué?: Jornadas de Microtalleres online de 15&#x2F;30 min. ~ HORARIOS referidos en base a CET : p.ej.: 18h en Madrid &#x3D; 14h en Buenos Aires Coordinación de las jornadas en el canal de chat IRC #emacs-es ( Libera.chat server ) Web: https:&#x2F;&#x2F;hispa-emacs.org&#x2F; XMPP: xmpp:hispa-emacs@salas.xmpp.elbinario.net?join Telegram: https:&#x2F;&#x2F;t.me&#x2F;emacsorgmode Mastodon: https:&#x2F;&#x2F;fosstodon.org&#x2F;@hispaemacs</div>]]></description>
+      <pubDate>Thu, 30 Jan 2025 01:23:44 +0000</pubDate>
+    </item>
+    <item>
+      <title>Distribución - Emacs Lloica</title>
+      <link></link>
+      <description><![CDATA[<div id="content"><a href="https://fediverse.tv/w/3uWn7MiLdtNNG3LHFZWKoK">peertube</a><br><br>Distribución - Emacs Lloica: Desde el sur del mundo una configuración especial para programadores y proyectos pedagógicos.. (by David Pineiden) 1a Hispa-Emacs Conf.: ¿Qué?: 2 Jornadas de Microtalleres online de 15&#x2F;30 min. ~ HORARIOS referidos en base a CET : p.ej.: 18h en Madrid &#x3D; 14h en Buenos Aires Coordinación de las jornadas en el canal de chat IRC #emacs-es ( Libera.chat server ) Web: https:&#x2F;&#x2F;hispa-emacs.org&#x2F; XMPP: xmpp:hispa-emacs@salas.xmpp.elbinario.net?join Telegram: https:&#x2F;&#x2F;t.me&#x2F;emacsorgmode Mastodon: https:&#x2F;&#x2F;fosstodon.org&#x2F;@hispaemacs</div>]]></description>
+      <pubDate>Wed, 29 Jan 2025 18:54:45 +0000</pubDate>
+    </item>
+    <item>
+      <title>La Comunidad GNU Emacs - Retrospectiva: Orígenes - Pasado, Presente y Futuro</title>
+      <link></link>
+      <description><![CDATA[<div id="content"><a href="https://fediverse.tv/w/6s8f93Gt91cAz3d85T4QdZ">peertube</a><br><br>1a Hispa-Emacs Conf.: ¿Qué?: Jornadas de Microtalleres online de 15&#x2F;30 min. ~ HORARIOS referidos en base a CET : p.ej.: 18h en Madrid &#x3D; 14h en Buenos Aires Coordinación de las jornadas en el canal de chat IRC #emacs-es ( Libera.chat server ) Web: https:&#x2F;&#x2F;hispa-emacs.org&#x2F; XMPP: xmpp:hispa-emacs@salas.xmpp.elbinario.net?join Telegram: https:&#x2F;&#x2F;t.me&#x2F;emacsorgmode Mastodon: https:&#x2F;&#x2F;fosstodon.org&#x2F;@hispaemacs</div>]]></description>
+      <pubDate>Wed, 29 Jan 2025 12:45:04 +0000</pubDate>
+    </item>
+    <item>
+      <title>Java programming in Emacs using Eglot</title>
+      <link>https://www.youtube.com/watch?v=fd7xcTG5Z_s</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=fd7xcTG5Z_s">youtube</a><br><br>Set up Emacs to be a comfortable Java development environment using Eglot. In this video, I show how I set up annotation processing with Lombok, decompile clases and run JUnit tests all from within Emacs.
+
+  # Slides and conf
+  - https://github.com/skybert/skybert-talks/tree/main/emacs-java-eglot
+  - https://gitlab.com/skybert/my-little-friends/-/blob/master/emacs/.emacs
+
+  # Connect
+  🕸️ https://skybert.net
+  🐘 https://hachyderm.io/@skybert
+  📫 torstein@skybert.net</div>]]></description>
+      <pubDate>Mon, 27 Jan 2025 21:08:30 +0000</pubDate>
+    </item>
+    <item>
       <title>【TDDへの理解とEmacs】エンジニアの楽園 vim-jp ラジオ #28</title>
       <link>https://www.youtube.com/watch?v=kTjZBrNxWGI</link>
       <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=kTjZBrNxWGI">youtube</a><br><br>エンジニアコミュニティ「vim-jp」のラジオ版としてスタートした「エンジニアの楽園 vim-jp ラジオ」。
@@ -125,6 +368,60 @@
       <pubDate>Thu, 23 Jan 2025 14:03:27 +0000</pubDate>
     </item>
     <item>
+      <title>Scraping Emacs Package Listings into SQLite - Real World Scheme Programming #2</title>
+      <link>https://www.youtube.com/watch?v=CCtHjQIjwq8</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=CCtHjQIjwq8">youtube</a><br><br>In this video, I give a new update on the work we've been doing during Crafter Hours streams on a project called emacspackges.com, a website written from scratch in Guile Scheme.
+
+  I'll describe the approach we're using the import the full set of Emacs package listings from the various ELPA-compatible package archives.  I'll also discuss how I'm using SQLite to store the package details so that they can be used in the web interface.
+
+  #guile #scheme #emacs #programming #webdev
+
+  SUPPORT THE CHANNEL:
+
+  👍 Support My Work: https://systemcrafters.net/how-to-help/#support-my-work
+  📰 Subscribe to the Newsletter: https://systemcrafters.net/newsletter/
+  👕 https://store.systemcrafters.net
+  📘 Get Your Copy of Mastering Emacs: https://www.masteringemacs.org/r/systemcrafters?utm_source=yt&utm_medium=desc&utm_campaign=scme
+
+  DEVELOPMENT LOG:
+
+  https://systemcrafters.net/crafter-hours/
+
+  THE PROJECT:
+
+  https://codeberg.org/SystemCrafters/emacspackages.com
+
+  JOIN THE COMMUNITY:
+
+  https://systemcrafters.net/community/
+  https://fosstodon.org/@daviwil
+
+  MY CONFIGURATION:
+
+  https://config.daviwil.com
+  https://config.daviwil.com/emacs
+  https://config.daviwil.com/systems (Guix)
+
+  OTHER SERIES:
+
+  - Emacs Essentials: https://www.youtube.com/watch?v=48JlgiBpw_I&list=PLEoMzSkcN8oPZvSdewHG8uApD7THlLLCV
+  - Emacs From Scratch (2020 Version): https://www.youtube.com/watch?v=74zOY-vgkyw&list=PLEoMzSkcN8oPH1au7H6B7bBJ4ZO7BXjSZ
+  - Emacs Tips: https://www.youtube.com/watch?v=wKTKmE1wLyw&list=PLEoMzSkcN8oMHJ6Xil1YdnYtlWd5hHZql
+  - Emacs Desktop Environment: https://www.youtube.com/watch?v=f7xB2fFk1tQ&list=PLEoMzSkcN8oNPbEMYEtswOVTvq7CVddCS
+  - Emacs IDE: https://www.youtube.com/watch?v=E-NAM9U5JYE&list=PLEoMzSkcN8oNvsrtk_iZSb94krGRofFjN
+  - Emacs Mail: https://www.youtube.com/watch?v=yZRyEhi4y44&list=PLEoMzSkcN8oM-kA19xOQc8s0gr0PpFGJQ
+  - Learning Emacs Lisp: https://www.youtube.com/watch?v=RQK_DaaX34Q&list=PLEoMzSkcN8oPQtn7FQEF3D7sroZbXuPZ7
+  - Craft Your System with GNU Guix: https://www.youtube.com/watch?v=iBaqOK75cho&list=PLEoMzSkcN8oNxnj7jm5V2ZcGc52002pQU
+
+  CREDITS:
+
+  Coriolis Effect by logos feat. stefsax, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/mseq/26296
+  reNovation by airtone, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/airtone/60674
+  ukeSounds by airtone, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/airtone/32655
+  Between Worlds (Instrumental) by Aussens@iter, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/tobias_weber/56664</div>]]></description>
+      <pubDate>Thu, 23 Jan 2025 13:30:20 +0000</pubDate>
+    </item>
+    <item>
       <title>First Configuration - Emacs Speedrun: Ep 02</title>
       <link>https://www.youtube.com/watch?v=6hVFbBkO8JA</link>
       <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=6hVFbBkO8JA">youtube</a><br><br>It's important to put information in front of yourself even when you aren't searching for it.  That includes remembering basic things like, "where is my config file?" and opening up new rabbit holes.  Emacs defaults are not that generous.  You probably want a starter kit.  This video shows what to look for and explains the landscape of grab-and-go Emacs bootstrapping solutions.
@@ -206,6 +503,21 @@
       <link>https://www.youtube.com/watch?v=tNrlHdKgTLA</link>
       <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=tNrlHdKgTLA">youtube</a><br><br>Invoking Ramin Honary's excellent svg-analog-clock to provide a wall clock.</div>]]></description>
       <pubDate>Tue, 21 Jan 2025 13:43:22 +0000</pubDate>
+    </item>
+    <item>
+      <title>Why I still use Emacs</title>
+      <link>https://www.youtube.com/watch?v=0i8Az2MHwGo</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=0i8Az2MHwGo">youtube</a><br><br>0:00 - Introduction
+  2:48 - The Philosophy of Emacs
+  4:34 - Using Emacs as a Terminal
+  6:17 - Recent Developments in Emacs
+  7:12 - Modern Challenges and Limitations
+  9:21 - Closing Remarks
+
+  https://vivekhaldar.com/articles/a-spiritual-successor-to-emacs/
+  https://vivekhaldar.com/articles/the-levels-of-emacs-proficiency/
+  https://vivekhaldar.com/articles/stephenson-on-emacs/</div>]]></description>
+      <pubDate>Tue, 21 Jan 2025 04:25:38 +0000</pubDate>
     </item>
     <item>
       <title>The 7 Best Text Editors I Have Used #coding #emacs #neovim #acme #programming #emacselements</title>
@@ -354,6 +666,12 @@
       <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=2BFquEm2L8k">youtube</a><br><br>notes at
   http://xahlee.info/talk_show/xah_talk_show_2025-01-16.html</div>]]></description>
       <pubDate>Fri, 17 Jan 2025 09:11:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>Stupidly Simple Notes Taking With Emacs</title>
+      <link></link>
+      <description><![CDATA[<div id="content"><a href="https://tux-edu.tv/w/gQgHnV9ydKCzLCSbTqSL78">peertube</a><br><br>I felt called out on this is, therefore a reaction video. IF you missed Matt's take on this topic go watch it here: https://www.youtube.com/watch?v=IGpYbdXL9aE Make sure to motivate me for more con...</div>]]></description>
+      <pubDate>Thu, 16 Jan 2025 19:35:01 +0000</pubDate>
     </item>
     <item>
       <title>Creating a New Website for Emacs Packages in Guile | Real World Scheme Programming</title>
@@ -41169,6 +41487,23 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
       <title>Org mode and Spacemacs: The Absolute Minimum you need to know</title>
       <link>https://youtu.be/S4f-GUxu3CY</link>
       <description><![CDATA[<div id="content"><a href="https://youtu.be/S4f-GUxu3CY">youtube</a><br><br>This is the first video in a series I'm calling "Absolute Minimum". I go over what I consider to be the minimum amount of knowledge you need to work with Org mode in Spacemacs.
+
+  Prerequisite: Basics of Spacemacs https://www.youtube.com/watch?v=fdLCuJcS2Aw
+  Final Org File: https://gist.github.com/safijari/d9b1ed8a3f4cd10e632e04353c6abdfe
+  Orgmode Website: https://orgmode.org/
+  Orgmode Spacemacs Documentation: http://spacemacs.org/layers/+emacs/org/README.html
+
+  Twitter: https://twitter.com/safijari
+
+  Laser Groove Kevin MacLeod (incompetech.com)
+  Licensed under Creative Commons: By Attribution 3.0 License
+  http://creativecommons.org/licenses/by/3.0/</div>]]></description>
+      <pubDate>Fri, 03 May 2019 23:54:03 +0000</pubDate>
+    </item>
+    <item>
+      <title>Org mode and Spacemacs: The Absolute Minimum you need to know</title>
+      <link>https://www.youtube.com/watch?si=FcZQne9IRlwAprbB&amp;v=S4f-GUxu3CY&amp;feature=youtu.be</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?si=FcZQne9IRlwAprbB&v=S4f-GUxu3CY&feature=youtu.be">youtube</a><br><br>This is the first video in a series I'm calling "Absolute Minimum". I go over what I consider to be the minimum amount of knowledge you need to work with Org mode in Spacemacs.
 
   Prerequisite: Basics of Spacemacs https://www.youtube.com/watch?v=fdLCuJcS2Aw
   Final Org File: https://gist.github.com/safijari/d9b1ed8a3f4cd10e632e04353c6abdfe
