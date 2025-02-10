@@ -5,6 +5,172 @@
     <link>https://emacs.tv</link>
     <description>Emacs videos</description>
     <item>
+      <title>Emacs Tamil Introduction</title>
+      <link>https://www.youtube.com/watch?v=izlOuKf_jxU</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=izlOuKf_jxU">youtube</a><br><br>The file in the vod
+  https://gist.github.com/AyakoGFX/5ca7239dcf41e04811f2fc210606c9a5</div>]]></description>
+      <pubDate>Mon, 10 Feb 2025 13:50:56 +0000</pubDate>
+    </item>
+    <item>
+      <title>One and a half-hour advanced course on Org Mode (8 videos in one) #emacs #orgmode #org</title>
+      <link>https://www.youtube.com/watch?v=QlYQijQCNHU</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=QlYQijQCNHU">youtube</a><br><br>00:00 Introduction
+  06:51 Structures
+  13:53 Motions
+  21:05 Structure Editing
+  25:40 Sparse Trees
+  30:50 Plain Lists
+  35:43 Drawers
+  42:05 Footnotes
+  53:54 Hyperlinks
+  1:05:31 Theory of External Links
+  1:13:02 Handling External Links
+  1:22:45 Rich Text
+
+  PLEASE CONSIDER SUPPORTING ME.
+  You can support me on PayPal:
+  https://paypal.me/revrari
+  Or you can send me some Bitcoin:
+  3JToybg7LHAdsteTYGg7jRniRZEMCeTasj
+
+  https://mega.nz/folder/enhUzYDK#ZUPHW0-8edaSCtBdgKO_ZQ</div>]]></description>
+      <pubDate>Mon, 10 Feb 2025 04:04:37 +0000</pubDate>
+    </item>
+    <item>
+      <title>RAGmacs - Pt. 1: Retrieving Deep Value in Emacs</title>
+      <link>https://www.youtube.com/watch?v=JHXG225oP8E</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=JHXG225oP8E">youtube</a><br><br>We're using GPTel with LLM tool-use integration to retrieve introspection data from Emacs and deliver high-quality results that are vastly better than the data embedded in LLMs weights.  The tests are a success.  This is just the beginning.
+
+  The demos use manuals, completions, source code, docstrings, and other facilities to let the LLM traverse facts and more deductively arrive at useful conclusions.
+
+  Source code for tools in the demo (subscribers exclusive!):
+  https://github.com/positron-solutions/youtube/blob/master/lunch/09-retreival-augmented-macros/demo-gptel-config.el
+
+  Our Github Sponsors
+  https://github.com/sponsors/positron-solutions
+
+  GPTel for Emacs:
+  https://github.com/karthink/gptel
+
+  These techniques will scale across any language.  By using these techniques within Emacs to make our Emacs usage more efficient, we are in a very tight feedback loop with very high headroom.  Editors like Cursor don't really have anything to offer over programmable tools where the programmers employ LLMs to their problems rather than waiting for the IDE to come to them.
+
+  Since Common Lisp is a good Lisp to reason about Lisp and other languages, it might just turn out that LLMs turn into a killer application for lisp-like languages.  Since Lem is an Emacs, there's an intriguing possibility that we're witnessing a turning point in the making.
+
+  #programming #llm #opensource
+
+  TIMESTAMPS
+  00:00 Welcome
+  00:28 Retrieval Augmented Emacs
+  03:22 The Problems Being Solved
+  05:27 Not Even the Best Available
+  06:22 Why This is Huge</div>]]></description>
+      <pubDate>Sun, 09 Feb 2025 04:53:38 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Augmented Software Engineer - Ep.15 - Emacs/Local</title>
+      <link>https://www.youtube.com/watch?v=14KNPxEe1hU</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=14KNPxEe1hU">youtube</a><br><br>The blog post - https://tedn.life/2024/10/24/the-augmented-software-engineer-what-is-it/
+  The problems - https://aperiodic.net/pip/scala/s-99/
+  The repo - https://github.com/rolandtritsch/99-scala3-problems
+  The emacs config - https://github.com/rolandtritsch/emacs.d</div>]]></description>
+      <pubDate>Sun, 09 Feb 2025 03:45:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>Quickly delete all lines containing a string #emacs #coding #programming</title>
+      <link>https://www.youtube.com/watch?v=z38_FhNKHuY</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=z38_FhNKHuY">youtube</a><br><br>https://mega.nz/file/ez4wiaZC#cUir8-1vaycl8k1ox_OqbU-uqWGsrSwgqQwwlrmJfOU
+
+  PLEASE CONSIDER SUPPORTING ME.
+  You can support me on PayPal:
+  https://paypal.me/revrari
+  Or you can send me some Bitcoin:
+  3JToybg7LHAdsteTYGg7jRniRZEMCeTasj</div>]]></description>
+      <pubDate>Sat, 08 Feb 2025 16:37:03 +0000</pubDate>
+    </item>
+    <item>
+      <title>Export From Emacs to Microsoft Word Format (The Whole Writing Process)</title>
+      <link>https://www.youtube.com/watch?v=WKZBGmxglwU</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=WKZBGmxglwU">youtube</a><br><br>Most publishers and editors to whom you submit your writing will require a .docx (Microsoft Word) document. But who wants to write in Word? You sure don't; you're an Emacs user.  So if you compose in Emacs, fear not, you can export from Emacs to Microsoft Word using Libreoffice Writers as a go-between.  It's easy. It's fun. I'll show ya. Let's do this.
+
+  https://chrismaiorana.com/from-emacs-to-microsoft-word/</div>]]></description>
+      <pubDate>Sat, 08 Feb 2025 13:20:36 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introduzione al Emacs Lisp</title>
+      <link>https://www.youtube.com/watch?v=-Qmt3RWR87M</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=-Qmt3RWR87M">youtube</a><br><br>Vuoi imparare a personalizzare Emacs e scrivere il tuo codice in Emacs Lisp? In questo video scoprirai le basi di Emacs Lisp, il linguaggio di programmazione che alimenta uno degli editor più potenti e flessibili al mondo! Ovviamente si parla di rudimenti, e sono presenti anche alcuni esercizi dimostrativi.
+
+  📌 Cosa vedrai in questo video:
+  ✔️ Cos’è Emacs Lisp e perché usarlo
+  ✔️ Nozioni di base: variabili, funzioni e liste
+  ✔️ Scrivere e valutare il codice direttamente in Emacs
+  ✔️ Creare semplici automazioni
+
+  💡 Perfetto per principianti e utenti di Emacs che vogliono esplorare il mondo della programmazione funzionale!
+
+  #Emacs #EmacsLisp #Lisp #Programmazione #Coding #Scripting #OpenSource #Editor #Automation #DevTools #Linux #SoftwareDevelopment #Productivity #FOSS
+
+  📌 Link
+  Sito da dove ho preso gli esercizi: https://www.ic.unicamp.br/~meidanis/courses/mc336/problemas-lisp/L-99_Ninety-Nine_Lisp_Problems.html
+
+  📌  Contatti
+  Canale telegram: https://t.me/NFVblog
+  Pagina ko-fi per le donazioni: https://ko-fi.com/nfvblog
+  Pagina Mastodon: https://mastodon.cloud/@nfvblog</div>]]></description>
+      <pubDate>Fri, 07 Feb 2025 11:30:06 +0000</pubDate>
+    </item>
+    <item>
+      <title>Properly Installing Emacs on Windows #emacs #windows #coding #programming</title>
+      <link>https://www.youtube.com/watch?v=9lE45khK3qU</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=9lE45khK3qU">youtube</a><br><br>https://mega.nz/folder/LuJ3hTYT#LFwG28uaKtdjahiMzdDgqw
+
+  PLEASE CONSIDER SUPPORTING ME.
+  You can support me on PayPal:
+  https://paypal.me/revrari
+  Or you can send me some Bitcoin:
+  3JToybg7LHAdsteTYGg7jRniRZEMCeTasj</div>]]></description>
+      <pubDate>Thu, 06 Feb 2025 22:00:06 +0000</pubDate>
+    </item>
+    <item>
+      <title>02 - Text Editing Approaches - Vim and Emacs - History</title>
+      <link>https://www.youtube.com/watch?v=AmuZUvm_PCk</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=AmuZUvm_PCk">youtube</a><br><br>This series of videos is ultimately a single presentation that seeks to evaluate Vim, Emacs, and the Editor War. The whole presentation is split into several sections, where in each video I go through one section.
+
+  In this second section I go through the history of Vim and Emacs by taking two rabbit holes into Wikipedia.
+
+  00:00 ### Intro ###
+
+  00:14 ### History of Vim ###
+  00:42 Vim General History/Intro
+  03:12 Stevie
+  03:37 Vi (Introduction)
+  04:11 Teleprinter Example/Demonstration
+  12:13 Ed
+  16:16 Vi (Continuation)
+  17:40 Em
+  19:50 En, Ex, and Vi
+
+  23:05 ### History of Emacs ###
+  23:26 Emacs General Evolution
+  31:17 Emacs Early Implementations
+  34:46 GNU Emacs
+
+  38:16 ### Conclusion ###</div>]]></description>
+      <pubDate>Thu, 06 Feb 2025 15:20:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>Rebuilding my Emacs setup and some beginner tips</title>
+      <link>https://www.youtube.com/watch?v=qvXclq0cg8k</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=qvXclq0cg8k">youtube</a><br><br>Streamed on 2025-01-24 (https://www.twitch.tv/thediscouragerofhesitancy)
+
+  In this episode I rebuild me emacs. I also build a set of slides with some information for beginners. I debug and old macro that doesn't work on the latest Emacs release.
+
+  Example .emacs file: https://drive.google.com/file/d/1-Eid83cYRtJo76mNShv7eGt44Fnz_N4A/view?usp=sharing
+
+  Slides: https://docs.google.com/presentation/d/11FuMW0tisLRc7nBiBMSVJxuig9qXKPN1XUfsbcd1BYU/edit?usp=sharing</div>]]></description>
+      <pubDate>Tue, 04 Feb 2025 22:32:11 +0000</pubDate>
+    </item>
+    <item>
       <title>Nuke em! Quick search and replace #emacs #org #markdown</title>
       <link>https://www.youtube.com/watch?v=MSZ7f-n9Jic</link>
       <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=MSZ7f-n9Jic">youtube</a><br><br>PLEASE CONSIDER SUPPORTING ME.
@@ -10743,13 +10909,13 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
   https://fosstodon.org/@jackkeifer
 
   My eBay search site:
-  https://www.ribitus.com​​​​/search​​
+  https://www.ribitus.com​​​​/search
 
   Email me here:
   https://www.ribitus.com/contact-us/
 
   My blog which I haven't updated in a while, but may soon...
-  https://www.ribitus.com​
+  https://www.ribitus.com
 
   #dtos
   #distrotube
@@ -38492,6 +38658,13 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
 
   Your support is very much appreciated. Thanks, guys!</div>]]></description>
       <pubDate>Fri, 07 Feb 2020 22:54:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>Tool Time Session 1: Emacs Basics</title>
+      <link>https://youtube.com/watch?v=HyMCzEwI4cU&amp;si=MtSPZykCRYfRl4kM</link>
+      <description><![CDATA[<div id="content"><a href="https://youtube.com/watch?v=HyMCzEwI4cU&si=MtSPZykCRYfRl4kM">youtube</a><br><br>Session Notes and Code available from: http://z.umn.edu/tooltime
+  Overview of editing basics in the Emacs text editor. Emphasis on cursor movement, killing/yanking text, buffers for files/directories/shells, and basic edit/compile development cycles.</div>]]></description>
+      <pubDate>Fri, 07 Feb 2020 22:35:35 +0000</pubDate>
     </item>
     <item>
       <title>Emacs - 06 - Toolbar, menubar, scrollbar and other settings</title>
