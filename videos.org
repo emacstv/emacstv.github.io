@@ -1,6 +1,201 @@
 #+TODO: KEYWORD_THAT_WONT_BE_USED
 #+STARTUP: nolatexpreview
 
+* Emacs Tamil Introduction
+:PROPERTIES:
+:DATE:     2025-02-10T05:50:56-08:00
+:DURATION: 1:21:28
+:YOUTUBE_URL: https://www.youtube.com/watch?v=izlOuKf_jxU
+:SPEAKERS: Gob
+:END:
+  The file in the vod
+  https://gist.github.com/AyakoGFX/5ca7239dcf41e04811f2fc210606c9a5
+
+* One and a half-hour advanced course on Org Mode (8 videos in one) #emacs #orgmode #org
+:PROPERTIES:
+:DATE:     2025-02-09T20:04:37-08:00
+:DURATION: 1:32:14
+:YOUTUBE_URL: https://www.youtube.com/watch?v=QlYQijQCNHU
+:SPEAKERS: Raoul Comninos
+:END:
+  00:00 Introduction
+  06:51 Structures
+  13:53 Motions
+  21:05 Structure Editing
+  25:40 Sparse Trees
+  30:50 Plain Lists
+  35:43 Drawers
+  42:05 Footnotes
+  53:54 Hyperlinks
+  1:05:31 Theory of External Links
+  1:13:02 Handling External Links
+  1:22:45 Rich Text
+
+  PLEASE CONSIDER SUPPORTING ME.
+  You can support me on PayPal:
+  https://paypal.me/revrari
+  Or you can send me some Bitcoin:
+  3JToybg7LHAdsteTYGg7jRniRZEMCeTasj
+
+  https://mega.nz/folder/enhUzYDK#ZUPHW0-8edaSCtBdgKO_ZQ
+
+* RAGmacs - Pt. 1: Retrieving Deep Value in Emacs
+:PROPERTIES:
+:DATE:     2025-02-08T20:53:38-08:00
+:DURATION: 9:42
+:YOUTUBE_URL: https://www.youtube.com/watch?v=JHXG225oP8E
+:SPEAKERS: Positron's Emacs Channel
+:END:
+  We're using GPTel with LLM tool-use integration to retrieve introspection data from Emacs and deliver high-quality results that are vastly better than the data embedded in LLMs weights.  The tests are a success.  This is just the beginning.
+
+  The demos use manuals, completions, source code, docstrings, and other facilities to let the LLM traverse facts and more deductively arrive at useful conclusions.
+
+  Source code for tools in the demo (subscribers exclusive!):
+  https://github.com/positron-solutions/youtube/blob/master/lunch/09-retreival-augmented-macros/demo-gptel-config.el
+
+  Our Github Sponsors
+  https://github.com/sponsors/positron-solutions
+
+  GPTel for Emacs:
+  https://github.com/karthink/gptel
+
+  These techniques will scale across any language.  By using these techniques within Emacs to make our Emacs usage more efficient, we are in a very tight feedback loop with very high headroom.  Editors like Cursor don't really have anything to offer over programmable tools where the programmers employ LLMs to their problems rather than waiting for the IDE to come to them.
+
+  Since Common Lisp is a good Lisp to reason about Lisp and other languages, it might just turn out that LLMs turn into a killer application for lisp-like languages.  Since Lem is an Emacs, there's an intriguing possibility that we're witnessing a turning point in the making.
+
+  #programming #llm #opensource
+
+  TIMESTAMPS
+  00:00 Welcome
+  00:28 Retrieval Augmented Emacs
+  03:22 The Problems Being Solved
+  05:27 Not Even the Best Available
+  06:22 Why This is Huge
+
+* The Augmented Software Engineer - Ep.15 - Emacs/Local
+:PROPERTIES:
+:DATE:     2025-02-08T19:45:11-08:00
+:DURATION: 2:25
+:YOUTUBE_URL: https://www.youtube.com/watch?v=14KNPxEe1hU
+:SPEAKERS: The Extreme Digital Nomad
+:END:
+  The blog post - https://tedn.life/2024/10/24/the-augmented-software-engineer-what-is-it/
+  The problems - https://aperiodic.net/pip/scala/s-99/
+  The repo - https://github.com/rolandtritsch/99-scala3-problems
+  The emacs config - https://github.com/rolandtritsch/emacs.d
+
+* Quickly delete all lines containing a string #emacs #coding #programming
+:PROPERTIES:
+:DATE:     2025-02-08T08:37:03-08:00
+:DURATION: 2:47
+:YOUTUBE_URL: https://www.youtube.com/watch?v=z38_FhNKHuY
+:SPEAKERS: Raoul Comninos
+:END:
+  https://mega.nz/file/ez4wiaZC#cUir8-1vaycl8k1ox_OqbU-uqWGsrSwgqQwwlrmJfOU
+
+  PLEASE CONSIDER SUPPORTING ME.
+  You can support me on PayPal:
+  https://paypal.me/revrari
+  Or you can send me some Bitcoin:
+  3JToybg7LHAdsteTYGg7jRniRZEMCeTasj
+
+* Export From Emacs to Microsoft Word Format (The Whole Writing Process)
+:PROPERTIES:
+:DATE:     2025-02-08T05:20:36-08:00
+:DURATION: 11:35
+:YOUTUBE_URL: https://www.youtube.com/watch?v=WKZBGmxglwU
+:SPEAKERS: Chris Maiorana
+:END:
+  Most publishers and editors to whom you submit your writing will require a .docx (Microsoft Word) document. But who wants to write in Word? You sure don't; you're an Emacs user.  So if you compose in Emacs, fear not, you can export from Emacs to Microsoft Word using Libreoffice Writers as a go-between.  It's easy. It's fun. I'll show ya. Let's do this.
+
+  https://chrismaiorana.com/from-emacs-to-microsoft-word/
+
+* Introduzione al Emacs Lisp
+:PROPERTIES:
+:DATE:     2025-02-07T03:30:06-08:00
+:DURATION: 32:51
+:YOUTUBE_URL: https://www.youtube.com/watch?v=-Qmt3RWR87M
+:SPEAKERS: NFVblog
+:END:
+  Vuoi imparare a personalizzare Emacs e scrivere il tuo codice in Emacs Lisp? In questo video scoprirai le basi di Emacs Lisp, il linguaggio di programmazione che alimenta uno degli editor più potenti e flessibili al mondo! Ovviamente si parla di rudimenti, e sono presenti anche alcuni esercizi dimostrativi.
+
+  📌 Cosa vedrai in questo video:
+  ✔️ Cos’è Emacs Lisp e perché usarlo
+  ✔️ Nozioni di base: variabili, funzioni e liste
+  ✔️ Scrivere e valutare il codice direttamente in Emacs
+  ✔️ Creare semplici automazioni
+
+  💡 Perfetto per principianti e utenti di Emacs che vogliono esplorare il mondo della programmazione funzionale!
+
+  #Emacs #EmacsLisp #Lisp #Programmazione #Coding #Scripting #OpenSource #Editor #Automation #DevTools #Linux #SoftwareDevelopment #Productivity #FOSS
+
+  📌 Link
+  Sito da dove ho preso gli esercizi: https://www.ic.unicamp.br/~meidanis/courses/mc336/problemas-lisp/L-99_Ninety-Nine_Lisp_Problems.html
+
+  📌  Contatti
+  Canale telegram: https://t.me/NFVblog
+  Pagina ko-fi per le donazioni: https://ko-fi.com/nfvblog
+  Pagina Mastodon: https://mastodon.cloud/@nfvblog
+
+* Properly Installing Emacs on Windows #emacs #windows #coding #programming
+:PROPERTIES:
+:DATE:     2025-02-06T14:00:06-08:00
+:DURATION: 19:22
+:YOUTUBE_URL: https://www.youtube.com/watch?v=9lE45khK3qU
+:SPEAKERS: Raoul Comninos
+:END:
+  https://mega.nz/folder/LuJ3hTYT#LFwG28uaKtdjahiMzdDgqw
+
+  PLEASE CONSIDER SUPPORTING ME.
+  You can support me on PayPal:
+  https://paypal.me/revrari
+  Or you can send me some Bitcoin:
+  3JToybg7LHAdsteTYGg7jRniRZEMCeTasj
+* 02 - Text Editing Approaches - Vim and Emacs - History
+:PROPERTIES:
+:DATE:     2025-02-06T07:20:15-08:00
+:DURATION: 39:49
+:YOUTUBE_URL: https://www.youtube.com/watch?v=AmuZUvm_PCk
+:SPEAKERS: WyrWise
+:END:
+  This series of videos is ultimately a single presentation that seeks to evaluate Vim, Emacs, and the Editor War. The whole presentation is split into several sections, where in each video I go through one section.
+
+  In this second section I go through the history of Vim and Emacs by taking two rabbit holes into Wikipedia.
+
+  00:00 ### Intro ###
+
+  00:14 ### History of Vim ###
+  00:42 Vim General History/Intro
+  03:12 Stevie
+  03:37 Vi (Introduction)
+  04:11 Teleprinter Example/Demonstration
+  12:13 Ed
+  16:16 Vi (Continuation)
+  17:40 Em
+  19:50 En, Ex, and Vi
+
+  23:05 ### History of Emacs ###
+  23:26 Emacs General Evolution
+  31:17 Emacs Early Implementations
+  34:46 GNU Emacs
+
+  38:16 ### Conclusion ###
+
+* Rebuilding my Emacs setup and some beginner tips
+:PROPERTIES:
+:DATE:     2025-02-04T14:32:11-08:00
+:DURATION: 4:03:17
+:YOUTUBE_URL: https://www.youtube.com/watch?v=qvXclq0cg8k
+:SPEAKERS: The Discourager of Hesitancy
+:END:
+  Streamed on 2025-01-24 (https://www.twitch.tv/thediscouragerofhesitancy)
+
+  In this episode I rebuild me emacs. I also build a set of slides with some information for beginners. I debug and old macro that doesn't work on the latest Emacs release.
+
+  Example .emacs file: https://drive.google.com/file/d/1-Eid83cYRtJo76mNShv7eGt44Fnz_N4A/view?usp=sharing
+
+  Slides: https://docs.google.com/presentation/d/11FuMW0tisLRc7nBiBMSVJxuig9qXKPN1XUfsbcd1BYU/edit?usp=sharing
+
 * Nuke em! Quick search and replace #emacs #org #markdown  :org:
 :PROPERTIES:
 :DATE:     2025-02-02T23:31:44-08:00
@@ -45549,6 +45744,16 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 
   Your support is very much appreciated. Thanks, guys!
 
+* Tool Time Session 1: Emacs Basics
+:PROPERTIES:
+:DATE:     2020-02-07T14:35:35-08:00
+:DURATION: 1:41:01
+:YOUTUBE_URL: https://youtube.com/watch?v=HyMCzEwI4cU&si=MtSPZykCRYfRl4kM
+:SPEAKERS: Chris Kauffman
+:END:
+  Session Notes and Code available from: http://z.umn.edu/tooltime
+  Overview of editing basics in the Emacs text editor. Emphasis on cursor movement, killing/yanking text, buffers for files/directories/shells, and basic edit/compile development cycles.
+
 * Emacs - 06 - Toolbar, menubar, scrollbar and other settings  :appearance:configuration:toolbar:menubar:scrollbar:LineNumbers:hl:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=8wMk2nxoeK4&list=PLNJWazvift25KnHDwYlhwrrgr60wtpQOB&index=6&pp=iAQB
@@ -58190,76 +58395,34 @@ Using restclient within emacs...
   in this demo foo.rb is edited in emacs(in coLinux) and run sketchbook.rb in windows command line.
 
   http://d.hatena.ne.jp/koyachi/20080206/1202225831
-* Tool Time Session 1: Emacs Basics
+* Xah Talk Show 2025-02-16 Ep614 emacs lisp coding, keyword parameters
 :PROPERTIES:
-:DATE:     2020-02-07T14:35:35-08:00
-:DURATION: 1:41:01
-:YOUTUBE_URL: https://youtube.com/watch?v=HyMCzEwI4cU&si=MtSPZykCRYfRl4kM
-:SPEAKERS: Chris Kauffman
+:DATE:     2025-02-17T08:26:46-08:00
+:DURATION: 1:01:05
+:YOUTUBE_URL: https://www.youtube.com/watch?v=BvoZAUXl-Sg
+:SPEAKERS: Xah Lee
 :END:
-  Session Notes and Code available from: http://z.umn.edu/tooltime
-  Overview of editing basics in the Emacs text editor. Emphasis on cursor movement, killing/yanking text, buffers for files/directories/shells, and basic edit/compile development cycles.
+  notes
+  http://xahlee.info/talk_show/xah_talk_show_2025-02-16.html
 
-* Emacs Tamil Introduction
+* Is spacemacs the best emacs distro?  :spacemacs:
 :PROPERTIES:
-:DATE:     2025-02-10T05:50:56-08:00
-:DURATION: 1:21:28
-:YOUTUBE_URL: https://www.youtube.com/watch?v=izlOuKf_jxU
-:SPEAKERS: Gob
+:DATE:     2025-02-16T15:25:23-08:00
+:DURATION: 25:56
+:YOUTUBE_URL: https://www.youtube.com/watch?v=frBJQpuNtVk
+:SPEAKERS: DVRBS
 :END:
-  The file in the vod
-  https://gist.github.com/AyakoGFX/5ca7239dcf41e04811f2fc210606c9a5
+  Spacemacs: https://www.spacemacs.org/
+  Kickstarter: https://gitlab.com/dvrbs/kickstart-emacs
 
-* Rebuilding my Emacs setup and some beginner tips
+* Installing Doom Emacs on Windows #emacs #doomemacs #keybinds  :DoomEmacs:windows:
 :PROPERTIES:
-:DATE:     2025-02-04T14:32:11-08:00
-:DURATION: 4:03:17
-:YOUTUBE_URL: https://www.youtube.com/watch?v=qvXclq0cg8k
-:SPEAKERS: The Discourager of Hesitancy
-:END:
-  Streamed on 2025-01-24 (https://www.twitch.tv/thediscouragerofhesitancy)
-
-  In this episode I rebuild me emacs. I also build a set of slides with some information for beginners. I debug and old macro that doesn't work on the latest Emacs release.
-
-  Example .emacs file: https://drive.google.com/file/d/1-Eid83cYRtJo76mNShv7eGt44Fnz_N4A/view?usp=sharing
-
-  Slides: https://docs.google.com/presentation/d/11FuMW0tisLRc7nBiBMSVJxuig9qXKPN1XUfsbcd1BYU/edit?usp=sharing
-
-* Introduzione al Emacs Lisp
-:PROPERTIES:
-:DATE:     2025-02-07T03:30:06-08:00
-:DURATION: 32:51
-:YOUTUBE_URL: https://www.youtube.com/watch?v=-Qmt3RWR87M
-:SPEAKERS: NFVblog
-:END:
-  Vuoi imparare a personalizzare Emacs e scrivere il tuo codice in Emacs Lisp? In questo video scoprirai le basi di Emacs Lisp, il linguaggio di programmazione che alimenta uno degli editor più potenti e flessibili al mondo! Ovviamente si parla di rudimenti, e sono presenti anche alcuni esercizi dimostrativi.
-
-  📌 Cosa vedrai in questo video:
-  ✔️ Cos’è Emacs Lisp e perché usarlo
-  ✔️ Nozioni di base: variabili, funzioni e liste
-  ✔️ Scrivere e valutare il codice direttamente in Emacs
-  ✔️ Creare semplici automazioni
-
-  💡 Perfetto per principianti e utenti di Emacs che vogliono esplorare il mondo della programmazione funzionale!
-
-  #Emacs #EmacsLisp #Lisp #Programmazione #Coding #Scripting #OpenSource #Editor #Automation #DevTools #Linux #SoftwareDevelopment #Productivity #FOSS
-
-  📌 Link
-  Sito da dove ho preso gli esercizi: https://www.ic.unicamp.br/~meidanis/courses/mc336/problemas-lisp/L-99_Ninety-Nine_Lisp_Problems.html
-
-  📌  Contatti
-  Canale telegram: https://t.me/NFVblog
-  Pagina ko-fi per le donazioni: https://ko-fi.com/nfvblog
-  Pagina Mastodon: https://mastodon.cloud/@nfvblog
-
-* Quickly delete all lines containing a string #emacs #coding #programming
-:PROPERTIES:
-:DATE:     2025-02-08T08:37:03-08:00
-:DURATION: 2:47
-:YOUTUBE_URL: https://www.youtube.com/watch?v=z38_FhNKHuY
+:DATE:     2025-02-16T20:02:21-08:00
+:DURATION: 10:17
+:YOUTUBE_URL: https://www.youtube.com/watch?v=IAZU6sC46YU
 :SPEAKERS: Raoul Comninos
 :END:
-  https://mega.nz/file/ez4wiaZC#cUir8-1vaycl8k1ox_OqbU-uqWGsrSwgqQwwlrmJfOU
+  https://mega.nz/file/zuBDkC6Z#_u6P1_FYywOeIcTwF5C5avSMPKHQj9cgdOSBS0N5R5A
 
   PLEASE CONSIDER SUPPORTING ME.
   You can support me on PayPal:
@@ -58267,131 +58430,48 @@ Using restclient within emacs...
   Or you can send me some Bitcoin:
   3JToybg7LHAdsteTYGg7jRniRZEMCeTasj
 
-* One and a half-hour advanced course on Org Mode (8 videos in one) #emacs #orgmode #org
+* Using ChatGPT via gptel to make my Emacs nutrition tracker smarter  :ai:gptel:
 :PROPERTIES:
-:DATE:     2025-02-09T20:04:37-08:00
-:DURATION: 1:32:14
-:YOUTUBE_URL: https://www.youtube.com/watch?v=QlYQijQCNHU
-:SPEAKERS: Raoul Comninos
+:DATE:     2025-02-16T00:48:43-08:00
+:DURATION: 5:58
+:YOUTUBE_URL: https://www.youtube.com/watch?v=Kvl5XKppwrk
+:SPEAKERS: Ioannis Canellos
 :END:
-  00:00 Introduction
-  06:51 Structures
-  13:53 Motions
-  21:05 Structure Editing
-  25:40 Sparse Trees
-  30:50 Plain Lists
-  35:43 Drawers
-  42:05 Footnotes
-  53:54 Hyperlinks
-  1:05:31 Theory of External Links
-  1:13:02 Handling External Links
-  1:22:45 Rich Text
+  During the quarantine of 2020 I blogged about how I am using Emacs + Org Mode to build a nutrition tracker (see [1]). The tracker code, post and data is available also as a  gist (see [2]).
 
-  PLEASE CONSIDER SUPPORTING ME.
-  You can support me on PayPal:
-  https://paypal.me/revrari
-  Or you can send me some Bitcoin:
-  3JToybg7LHAdsteTYGg7jRniRZEMCeTasj
+  To easily insert new foods and recipes I am leveraging ChatGPT using the gptel Emacs package to fetch nutritional information for new foods.
 
-  https://mega.nz/folder/enhUzYDK#ZUPHW0-8edaSCtBdgKO_ZQ
+  This video demonstrates how it works and goes through the code.
 
-* Export From Emacs to Microsoft Word Format (The Whole Writing Process)
+  [1]: https://iocanel.com/2020/04/nutrition-tracking-using-emacs/
+  [2]: https://gist.github.com/iocanel/0b8bcdb3d69fb7731069cb872f836507
+
+* Emacs Lisp Live Code | quick gemini API integrration  :elisp:ai:
 :PROPERTIES:
-:DATE:     2025-02-08T05:20:36-08:00
-:DURATION: 11:35
-:YOUTUBE_URL: https://www.youtube.com/watch?v=WKZBGmxglwU
-:SPEAKERS: Chris Maiorana
+:DATE:     2025-02-15T23:42:47-08:00
+:DURATION: 35:57
+:YOUTUBE_URL: https://www.youtube.com/watch?v=7nKpGwg-PJg
+:SPEAKERS: faster-than-light-memes
 :END:
-  Most publishers and editors to whom you submit your writing will require a .docx (Microsoft Word) document. But who wants to write in Word? You sure don't; you're an Emacs user.  So if you compose in Emacs, fear not, you can export from Emacs to Microsoft Word using Libreoffice Writers as a go-between.  It's easy. It's fun. I'll show ya. Let's do this.
+  Code:
 
-  https://chrismaiorana.com/from-emacs-to-microsoft-word/
+  https://github.com/benjamin-asdf/gemini-quick.el
 
-* RAGmacs - Pt. 1: Retrieving Deep Value in Emacs
+
+  Emacs Lisp Live code, buffers, point, save-excursion, package, config, gemini, AI workflows
+
+
+
+  Find me here
+  https://benjamin-schwerdtner.de/
+
+  https://benjamin-schwerdtner.de/contact.html
+
+* Глупая война между Vim и GNU Emacs
 :PROPERTIES:
-:DATE:     2025-02-08T20:53:38-08:00
-:DURATION: 9:42
-:YOUTUBE_URL: https://www.youtube.com/watch?v=JHXG225oP8E
-:SPEAKERS: Positron's Emacs Channel
+:DATE:     2025-02-13T23:37:23-08:00
+:DURATION: 22:46
+:YOUTUBE_URL: https://www.youtube.com/watch?v=DqKfUnaKozA
+:SPEAKERS: mtv1337
 :END:
-  We're using GPTel with LLM tool-use integration to retrieve introspection data from Emacs and deliver high-quality results that are vastly better than the data embedded in LLMs weights.  The tests are a success.  This is just the beginning.
-
-  The demos use manuals, completions, source code, docstrings, and other facilities to let the LLM traverse facts and more deductively arrive at useful conclusions.
-
-  Source code for tools in the demo (subscribers exclusive!):
-  https://github.com/positron-solutions/youtube/blob/master/lunch/09-retreival-augmented-macros/demo-gptel-config.el
-
-  Our Github Sponsors
-  https://github.com/sponsors/positron-solutions
-
-  GPTel for Emacs:
-  https://github.com/karthink/gptel
-
-  These techniques will scale across any language.  By using these techniques within Emacs to make our Emacs usage more efficient, we are in a very tight feedback loop with very high headroom.  Editors like Cursor don't really have anything to offer over programmable tools where the programmers employ LLMs to their problems rather than waiting for the IDE to come to them.
-
-  Since Common Lisp is a good Lisp to reason about Lisp and other languages, it might just turn out that LLMs turn into a killer application for lisp-like languages.  Since Lem is an Emacs, there's an intriguing possibility that we're witnessing a turning point in the making.
-
-  #programming #llm #opensource
-
-  TIMESTAMPS
-  00:00 Welcome
-  00:28 Retrieval Augmented Emacs
-  03:22 The Problems Being Solved
-  05:27 Not Even the Best Available
-  06:22 Why This is Huge
-
-* The Augmented Software Engineer - Ep.15 - Emacs/Local
-:PROPERTIES:
-:DATE:     2025-02-08T19:45:11-08:00
-:DURATION: 2:25
-:YOUTUBE_URL: https://www.youtube.com/watch?v=14KNPxEe1hU
-:SPEAKERS: The Extreme Digital Nomad
-:END:
-  The blog post - https://tedn.life/2024/10/24/the-augmented-software-engineer-what-is-it/
-  The problems - https://aperiodic.net/pip/scala/s-99/
-  The repo - https://github.com/rolandtritsch/99-scala3-problems
-  The emacs config - https://github.com/rolandtritsch/emacs.d
-
-* 02 - Text Editing Approaches - Vim and Emacs - History
-:PROPERTIES:
-:DATE:     2025-02-06T07:20:15-08:00
-:DURATION: 39:49
-:YOUTUBE_URL: https://www.youtube.com/watch?v=AmuZUvm_PCk
-:SPEAKERS: WyrWise
-:END:
-  This series of videos is ultimately a single presentation that seeks to evaluate Vim, Emacs, and the Editor War. The whole presentation is split into several sections, where in each video I go through one section.
-
-  In this second section I go through the history of Vim and Emacs by taking two rabbit holes into Wikipedia.
-
-  00:00 ### Intro ###
-
-  00:14 ### History of Vim ###
-  00:42 Vim General History/Intro
-  03:12 Stevie
-  03:37 Vi (Introduction)
-  04:11 Teleprinter Example/Demonstration
-  12:13 Ed
-  16:16 Vi (Continuation)
-  17:40 Em
-  19:50 En, Ex, and Vi
-
-  23:05 ### History of Emacs ###
-  23:26 Emacs General Evolution
-  31:17 Emacs Early Implementations
-  34:46 GNU Emacs
-
-  38:16 ### Conclusion ###
-
-* Properly Installing Emacs on Windows #emacs #windows #coding #programming
-:PROPERTIES:
-:DATE:     2025-02-06T14:00:06-08:00
-:DURATION: 19:22
-:YOUTUBE_URL: https://www.youtube.com/watch?v=9lE45khK3qU
-:SPEAKERS: Raoul Comninos
-:END:
-  https://mega.nz/folder/LuJ3hTYT#LFwG28uaKtdjahiMzdDgqw
-
-  PLEASE CONSIDER SUPPORTING ME.
-  You can support me on PayPal:
-  https://paypal.me/revrari
-  Or you can send me some Bitcoin:
-  3JToybg7LHAdsteTYGg7jRniRZEMCeTasj
+  просто свои мысли

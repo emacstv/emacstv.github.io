@@ -5,6 +5,69 @@
     <link>https://emacs.tv</link>
     <description>Emacs videos</description>
     <item>
+      <title>Xah Talk Show 2025-02-16 Ep614 emacs lisp coding, keyword parameters</title>
+      <link>https://www.youtube.com/watch?v=BvoZAUXl-Sg</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=BvoZAUXl-Sg">youtube</a><br><br>notes
+  http://xahlee.info/talk_show/xah_talk_show_2025-02-16.html</div>]]></description>
+      <pubDate>Mon, 17 Feb 2025 16:26:46 +0000</pubDate>
+    </item>
+    <item>
+      <title>Installing Doom Emacs on Windows #emacs #doomemacs #keybinds</title>
+      <link>https://www.youtube.com/watch?v=IAZU6sC46YU</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=IAZU6sC46YU">youtube</a><br><br>https://mega.nz/file/zuBDkC6Z#_u6P1_FYywOeIcTwF5C5avSMPKHQj9cgdOSBS0N5R5A
+
+  PLEASE CONSIDER SUPPORTING ME.
+  You can support me on PayPal:
+  https://paypal.me/revrari
+  Or you can send me some Bitcoin:
+  3JToybg7LHAdsteTYGg7jRniRZEMCeTasj</div>]]></description>
+      <pubDate>Mon, 17 Feb 2025 04:02:21 +0000</pubDate>
+    </item>
+    <item>
+      <title>Is spacemacs the best emacs distro?</title>
+      <link>https://www.youtube.com/watch?v=frBJQpuNtVk</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=frBJQpuNtVk">youtube</a><br><br>Spacemacs: https://www.spacemacs.org/
+  Kickstarter: https://gitlab.com/dvrbs/kickstart-emacs</div>]]></description>
+      <pubDate>Sun, 16 Feb 2025 23:25:23 +0000</pubDate>
+    </item>
+    <item>
+      <title>Using ChatGPT via gptel to make my Emacs nutrition tracker smarter</title>
+      <link>https://www.youtube.com/watch?v=Kvl5XKppwrk</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=Kvl5XKppwrk">youtube</a><br><br>During the quarantine of 2020 I blogged about how I am using Emacs + Org Mode to build a nutrition tracker (see [1]). The tracker code, post and data is available also as a  gist (see [2]).
+
+  To easily insert new foods and recipes I am leveraging ChatGPT using the gptel Emacs package to fetch nutritional information for new foods.
+
+  This video demonstrates how it works and goes through the code.
+
+  [1]: https://iocanel.com/2020/04/nutrition-tracking-using-emacs/
+  [2]: https://gist.github.com/iocanel/0b8bcdb3d69fb7731069cb872f836507</div>]]></description>
+      <pubDate>Sun, 16 Feb 2025 08:48:43 +0000</pubDate>
+    </item>
+    <item>
+      <title>Emacs Lisp Live Code | quick gemini API integrration</title>
+      <link>https://www.youtube.com/watch?v=7nKpGwg-PJg</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=7nKpGwg-PJg">youtube</a><br><br>Code:
+
+  https://github.com/benjamin-asdf/gemini-quick.el
+
+
+  Emacs Lisp Live code, buffers, point, save-excursion, package, config, gemini, AI workflows
+
+
+
+  Find me here
+  https://benjamin-schwerdtner.de/
+
+  https://benjamin-schwerdtner.de/contact.html</div>]]></description>
+      <pubDate>Sun, 16 Feb 2025 07:42:47 +0000</pubDate>
+    </item>
+    <item>
+      <title>Глупая война между Vim и GNU Emacs</title>
+      <link>https://www.youtube.com/watch?v=DqKfUnaKozA</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=DqKfUnaKozA">youtube</a><br><br>просто свои мысли</div>]]></description>
+      <pubDate>Fri, 14 Feb 2025 07:37:23 +0000</pubDate>
+    </item>
+    <item>
       <title>Emacs Tamil Introduction</title>
       <link>https://www.youtube.com/watch?v=izlOuKf_jxU</link>
       <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=izlOuKf_jxU">youtube</a><br><br>The file in the vod
