@@ -1,6 +1,355 @@
 #+TODO: KEYWORD_THAT_WONT_BE_USED
 #+STARTUP: nolatexpreview
 
+* Comprehensive 12 Part Org-Agenda Course in One #emacs #coding #scheduling #org
+:PROPERTIES:
+:DATE:     2025-02-23T14:00:00-08:00
+:DURATION: 1:34:06
+:YOUTUBE_URL: https://www.youtube.com/watch?v=-2kQNmfVzAI
+:SPEAKERS: Raoul Comninos
+:END:
+  00:00 Todos
+  03:31 Todos (Advanced)
+  09:22 Tags
+  19:34 Timestamps
+  24:26 Creating Timestamps
+  31:36 Scheduled and Deadline
+  39:02 Refiling
+  42:04 Org Capture
+  47:15 Org Capture Templates
+  56:19 Org Attachments
+  1:08:45 Org Agenda View
+  1:15:40 Org Agenda Customization
+
+  https://mega.nz/folder/rnBTmSDa#uEsPBcwTvqRJ2NdGCZZacg
+
+  PLEASE CONSIDER SUPPORTING ME.
+  You can support me on PayPal:
+  https://paypal.me/revrari
+  Or you can send me some Bitcoin:
+  3JToybg7LHAdsteTYGg7jRniRZEMCeTasj
+
+* advanced emacs: revert-buffer-function
+:PROPERTIES:
+:DATE:     2025-02-23T11:14:21-08:00
+:DURATION: 3:57
+:YOUTUBE_URL: https://www.youtube.com/watch?v=c69BnacEKVs
+:SPEAKERS: faster-than-light-memes
+:END:
+  I configure revert-buffer to rerun the test.
+
+
+  Making 'revert-buffer' a 'redo the action that the buffer is associated with' thing.
+
+  emacs, cider, cider-test, emacs lisp, pro, advanced, configure
+* Emacs Counsel M X Is A Bloody Good Way To Find Commands 2025_02_23_16:29:00
+:PROPERTIES:
+:DATE:     2025-02-23T03:43:44-08:00
+:DURATION: 7:00
+:YOUTUBE_URL: https://www.youtube.com/watch?v=is4sCzDTlJY
+:SPEAKERS: Bhaskar Chowdhury  ...Musing with GNU_Linux!!
+:END:
+  In this video, you will see, Emacs Counsel-M-x is function to help find command in a easy manner.
+
+  #linux #linuxadmin #sysadmin #opensource #Gentoo #Debian #Slackware #research
+  #linuxkernel #kernel #gnu #Linux #GNU
+
+  Buy Me A Coffee: https://www.buymeacoffee.com/unixbhaskar
+  Patreon: https://www.patreon.com/unixbhaskar
+  Paypal: https://paypal.me/linuxbhaskar
+
+  You can also find me :
+
+  GitHub: https://github.com/unixbhaskar
+
+  Reddit: https://www.reddit.com/user/unixbhaskar
+
+  Blogs: https://unixbhaskar.wordpress.com
+
+  Twitter: https://twitter.com/unixbhaskar
+
+  Linkedin: https://linkedin.com/in/unixbhaskar
+
+  Vimeo: https://vimeo.com/unixbhaskar
+
+  Goodreads: https://goodreads.com/unixbhaskar
+
+* Bad Apple! Played In Emacs
+:PROPERTIES:
+:DATE:     2025-02-22T23:28:28-08:00
+:DURATION: 3:42
+:YOUTUBE_URL: https://www.youtube.com/watch?v=XE4U8ieZpU4
+:SPEAKERS: TereRenji
+:END:
+  Bad Apple, rendered frame by frame as Tetris blocks using Emacs' built-in XMP rendering tool, and then played in a buffer.
+
+  The sound is played separately.
+
+* Emacs Form Scratch Tamil [ep1]
+:PROPERTIES:
+:DATE:     2025-02-22T15:23:03-08:00
+:DURATION: 1:28:42
+:YOUTUBE_URL: https://www.youtube.com/watch?v=AVJ9Njvq4HI
+:SPEAKERS: Gob
+:END:
+  https://www.gnu.org/software/emacs/
+  https://github.com/AyakoGFX/emacs-form-scratch.git
+
+* What's New in Emacs? (Feb 2025) - System Crafters Live!
+:PROPERTIES:
+:DATE:     2025-02-22T14:37:25-08:00
+:DURATION: 1:47:01
+:YOUTUBE_URL: https://www.youtube.com/watch?v=WcDhmW3gB4A
+:SPEAKERS: System Crafters
+:END:
+  In this stream, we'll catch up on the latest news from the Emacs community!  We'll discuss some recent events in Emacs development and then look through news posts and package releases to see if we can learn anything useful.
+
+  #gnu #emacs #programming
+
+  SUPPORT THE CHANNEL:
+
+  👍 Support My Work: https://systemcrafters.net/how-to-help/#support-my-work
+  📰 Subscribe to the Newsletter: https://systemcrafters.net/newsletter/
+  👕 Check out the Store: https://systemcrafters.store
+  📘 Get Your Copy of Mastering Emacs: https://www.masteringemacs.org/r/systemcrafters?utm_source=yt&utm_medium=desc&utm_campaign=scme
+
+  SHOW NOTES:
+
+  https://systemcrafters.net/live-streams/february-21-2025/
+
+  JOIN THE COMMUNITY:
+
+  https://systemcrafters.net/community/ (Forum and IRC chat!)
+  https://fosstodon.org/@daviwil
+
+  MY CONFIGURATION:
+
+  (This site is currently down but will be back up soon!)
+
+  https://config.daviwil.com
+  https://config.daviwil.com/emacs
+  https://config.daviwil.com/systems (Guix)
+
+  OTHER SERIES:
+
+  - Emacs Essentials: https://www.youtube.com/watch?v=48JlgiBpw_I&list=PLEoMzSkcN8oPZvSdewHG8uApD7THlLLCV
+  - Emacs From Scratch: https://www.youtube.com/watch?v=74zOY-vgkyw&list=PLEoMzSkcN8oPH1au7H6B7bBJ4ZO7BXjSZ
+  - Emacs Tips: https://www.youtube.com/watch?v=wKTKmE1wLyw&list=PLEoMzSkcN8oMHJ6Xil1YdnYtlWd5hHZql
+  - Emacs Desktop Environment: https://www.youtube.com/watch?v=f7xB2fFk1tQ&list=PLEoMzSkcN8oNPbEMYEtswOVTvq7CVddCS
+  - Emacs IDE: https://www.youtube.com/watch?v=E-NAM9U5JYE&list=PLEoMzSkcN8oNvsrtk_iZSb94krGRofFjN
+  - Emacs Mail: https://www.youtube.com/watch?v=yZRyEhi4y44&list=PLEoMzSkcN8oM-kA19xOQc8s0gr0PpFGJQ
+  - Learning Emacs Lisp: https://www.youtube.com/watch?v=RQK_DaaX34Q&list=PLEoMzSkcN8oPQtn7FQEF3D7sroZbXuPZ7
+  - Craft Your System with GNU Guix: https://www.youtube.com/watch?v=iBaqOK75cho&list=PLEoMzSkcN8oNxnj7jm5V2ZcGc52002pQU
+
+  CREDITS:
+
+  Coriolis Effect by logos feat. stefsax, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/mseq/26296
+  reNovation by airtone, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/airtone/60674
+  ukeSounds by airtone, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/airtone/32655
+  Between Worlds (Instrumental) by Aussens@iter, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/tobias_weber/56664
+
+* The auto-org-md package #org #markdown #coding #programming #emacs
+:PROPERTIES:
+:DATE:     2025-02-22T07:21:29-08:00
+:DURATION: 1:03
+:YOUTUBE_URL: https://www.youtube.com/watch?v=PgsaODAZyt0
+:SPEAKERS: Raoul Comninos
+:END:
+  https://mega.nz/file/22giDQSK#NiJyKdqULa935AmvAQdv6BJ_IvwHE28JRdj8q-nDhaA
+
+  PLEASE CONSIDER SUPPORTING ME.
+  You can support me on PayPal:
+  https://paypal.me/revrari
+  Or you can send me some Bitcoin:
+  3JToybg7LHAdsteTYGg7jRniRZEMCeTasj
+
+* RAGmacs - Pt. 2: Re-Tooling Emacs With GPTel
+:PROPERTIES:
+:DATE:     2025-02-22T06:29:57-08:00
+:DURATION: 9:32
+:YOUTUBE_URL: https://www.youtube.com/watch?v=2VoOoS4cEV0
+:SPEAKERS: Positron's Emacs Channel
+:END:
+  Essentials of building tools for LLMs to call Elisp functions directly, enabling RAG-style retreival-in-editor patterns and other advanced composition of the increasingly accessible and powerful heuristics offered by LLMs.
+
+  GPTel on Github
+  https://github.com/karthink/gptel
+
+  Positron's explicit-tool-turns PR
+  https://github.com/karthink/gptel/pull/626
+
+  Positron's Github Sponsors Page
+  https://github.com/sponsors/positron-solutions
+
+  PrizeForge's feature claims page
+  https://prizeforge.com/
+
+  The demonstration tools have been used to synthesize multiple documentation and source code sources into factually grounded dynamic documentation that can be summarized and translated on the fly.  This essentially provides a natural language query capability for almost anything Emacs can do.  It is the model for how these integrations can really impact development beyond the neat generation that captivated some early on.
+
+  The prototype tools are available on our Private Github and being updated as
+  they are improved.  The notes on the configuration seen in the demos are mostly ready for reading in the lunch/drafts folder within our Private YouTube
+  repository.  We look forward to open sourcing this after launching PrizeForge,
+  which has a superior funding model that doesn't depend on paywalling.
+
+  Support us!  We are bringing the necessary shake-up to open source funding,
+  which will be critical if the next two decades will be built with open technologies enforcing competitive dynamics and providing the healthy alternatives that lead to more progress faster and healthier markets with less
+  stagnation from dominant incumbents.
+
+  More LLM backend support is needed in GPTel.  We would like to help on the R1 integration since it's a cheap and powerful model at the moment with a lot of open source locally running options.  Inevitably, we will need some hardware to continue pushing the boundary and ensuring that Emacs is in front of the wave. Everything counts.
+
+  #emacs #opensource #programming #agi #llm #editor #coding
+
+  TIMESTAMPS
+  00:00 Intro
+  00:35 What & Why Tools?
+  01:44 Building Tools
+  02:18 Arguments
+  04:02 Returning Results
+  05:32 Register & Test
+  06:00 Cool Behaviors
+  08:41 See You Next Time
+
+* Blogging with Emacs, Hugo, and Github Pages
+:PROPERTIES:
+:DATE:     2025-02-21T16:27:08-08:00
+:DURATION: 3:40
+:YOUTUBE_URL: https://www.youtube.com/watch?v=biGsd4H7vwc
+:SPEAKERS: Seth Martin
+:END:
+  You can set this up yourself using this guide (you DO NOT need Doom Emacs):
+
+  https://tgcg.xyz/posts/blogging-with-emacs
+
+* Vibe coding in Emacs
+:PROPERTIES:
+:DATE:     2025-02-21T07:18:54-08:00
+:DURATION: 13:12
+:YOUTUBE_URL: https://www.youtube.com/watch?v=Banfijo2u8M
+:SPEAKERS: John Kitchin
+:END:
+  Vibe coding (https://x.com/karpathy/status/1886192184808149383), or writing code from prompts to LLMs, is a feature of many new editors like VS Code, Cursor, etc. In this video I explore the ideas using Emacs, whisper, and gptel. It is still a little rough but pretty reasonable.
+
+* The ChatGPT Shell Package #emacs #ai #coding #programming #openai #llama
+:PROPERTIES:
+:DATE:     2025-02-20T14:00:05-08:00
+:DURATION: 8:24
+:YOUTUBE_URL: https://www.youtube.com/watch?v=oYhI9X1j0p0
+:SPEAKERS: Raoul Comninos
+:END:
+  https://mega.nz/file/76hiSLZI#FTvycBT9nD6Pp4-o4tpDTDokVomBFlqZJxSpeVzZRCo
+
+  PLEASE CONSIDER SUPPORTING ME.
+  You can support me on PayPal:
+  https://paypal.me/revrari
+  Or you can send me some Bitcoin:
+  3JToybg7LHAdsteTYGg7jRniRZEMCeTasj
+
+* Watch YouTube with Emacs Elfeed and GNU EMMS
+:PROPERTIES:
+:DATE:     2025-02-19T17:50:50-08:00
+:DURATION: 1:20
+:YOUTUBE_URL: https://www.youtube.com/watch?v=V0c8CPk9LHk
+:SPEAKERS: bardman
+:END:
+  Related Article on my website:
+  https://bardman.dev/technology/elfeed
+
+  Music: Nujabes - Kumomi
+
+* Compiler Work
+:PROPERTIES:
+:DATE:     2025-02-19T17:14:15-08:00
+:DURATION: 1:50:29
+:YOUTUBE_URL: https://youtu.be/xF9XK1DPIX8?si=L6K-k1nIoYKU-aXv&t=376
+:SPEAKERS: UNOFFICIAL Jonathan Blow stream archive
+:END:
+  https://www.twitch.tv/videos/2332878402 Compiler Work 2024-12-21 17:14:15(UTC-8)
+
+  Unofficial re-upload of Jonathan Blow's Twitch stream: http://twitch.tv/j_blow
+  Jonathan Blow's YouTube: http://youtube.com/jblow888
+
+  This channel is not affiliated with, or endorsed by Jonathan Blow. We simply believe Jon's content deserves to be archived indefinitely for its informational and entertainment value.
+
+* Xah Talk Show 2025-02-16 Ep614 emacs lisp coding, keyword parameters
+:PROPERTIES:
+:DATE:     2025-02-17T08:26:46-08:00
+:DURATION: 1:01:05
+:YOUTUBE_URL: https://www.youtube.com/watch?v=BvoZAUXl-Sg
+:SPEAKERS: Xah Lee
+:END:
+  notes
+  http://xahlee.info/talk_show/xah_talk_show_2025-02-16.html
+
+* Installing Doom Emacs on Windows #emacs #doomemacs #keybinds  :DoomEmacs:windows:
+:PROPERTIES:
+:DATE:     2025-02-16T20:02:21-08:00
+:DURATION: 10:17
+:YOUTUBE_URL: https://www.youtube.com/watch?v=IAZU6sC46YU
+:SPEAKERS: Raoul Comninos
+:END:
+  https://mega.nz/file/zuBDkC6Z#_u6P1_FYywOeIcTwF5C5avSMPKHQj9cgdOSBS0N5R5A
+
+  PLEASE CONSIDER SUPPORTING ME.
+  You can support me on PayPal:
+  https://paypal.me/revrari
+  Or you can send me some Bitcoin:
+  3JToybg7LHAdsteTYGg7jRniRZEMCeTasj
+
+* Is spacemacs the best emacs distro?  :spacemacs:
+:PROPERTIES:
+:DATE:     2025-02-16T15:25:23-08:00
+:DURATION: 25:56
+:YOUTUBE_URL: https://www.youtube.com/watch?v=frBJQpuNtVk
+:SPEAKERS: DVRBS
+:END:
+  Spacemacs: https://www.spacemacs.org/
+  Kickstarter: https://gitlab.com/dvrbs/kickstart-emacs
+
+* Using ChatGPT via gptel to make my Emacs nutrition tracker smarter  :ai:gptel:
+:PROPERTIES:
+:DATE:     2025-02-16T00:48:43-08:00
+:DURATION: 5:58
+:YOUTUBE_URL: https://www.youtube.com/watch?v=Kvl5XKppwrk
+:SPEAKERS: Ioannis Canellos
+:END:
+  During the quarantine of 2020 I blogged about how I am using Emacs + Org Mode to build a nutrition tracker (see [1]). The tracker code, post and data is available also as a  gist (see [2]).
+
+  To easily insert new foods and recipes I am leveraging ChatGPT using the gptel Emacs package to fetch nutritional information for new foods.
+
+  This video demonstrates how it works and goes through the code.
+
+  [1]: https://iocanel.com/2020/04/nutrition-tracking-using-emacs/
+  [2]: https://gist.github.com/iocanel/0b8bcdb3d69fb7731069cb872f836507
+
+* Emacs Lisp Live Code | quick gemini API integrration  :elisp:ai:
+:PROPERTIES:
+:DATE:     2025-02-15T23:42:47-08:00
+:DURATION: 35:57
+:YOUTUBE_URL: https://www.youtube.com/watch?v=7nKpGwg-PJg
+:SPEAKERS: faster-than-light-memes
+:END:
+  Code:
+
+  https://github.com/benjamin-asdf/gemini-quick.el
+
+
+  Emacs Lisp Live code, buffers, point, save-excursion, package, config, gemini, AI workflows
+
+
+
+  Find me here
+  https://benjamin-schwerdtner.de/
+
+  https://benjamin-schwerdtner.de/contact.html
+
+* Глупая война между Vim и GNU Emacs
+:PROPERTIES:
+:DATE:     2025-02-13T23:37:23-08:00
+:DURATION: 22:46
+:YOUTUBE_URL: https://www.youtube.com/watch?v=DqKfUnaKozA
+:SPEAKERS: mtv1337
+:END:
+  просто свои мысли
 * Emacs Tamil Introduction
 :PROPERTIES:
 :DATE:     2025-02-10T05:50:56-08:00
@@ -8106,6 +8455,19 @@ count-words-region
 :DATE:     2023-11-17T14:46:59+0000
 :SPEAKERS: Protesilaos Stavrou
 :DURATION: 15:49
+:END:
+  In this ~15 minute video, I show how to inspect the differences between two or three files in a side-by-side comparison. Ediff lets you merge changes from one file to another while retaining all the text editing capabilities of Emacs (e.g. further edit the buffer and/or undo changes).
+
+  * * *
+
+  Find all my publications on my website (Emacs, philosophy, etc.): https://protesilaos.com
+
+* Emacs: ediff basics
+:PROPERTIES:
+:DATE:     2023-11-17T06:46:59-08:00
+:DURATION: 15:49
+:YOUTUBE_URL: https://www.youtube.com/watch?amp;t=14s&v=pSvsAutseO0
+:SPEAKERS: Protesilaos Stavrou
 :END:
   In this ~15 minute video, I show how to inspect the differences between two or three files in a side-by-side comparison. Ediff lets you merge changes from one file to another while retaining all the text editing capabilities of Emacs (e.g. further edit the buffer and/or undo changes).
 
@@ -58395,83 +58757,3 @@ Using restclient within emacs...
   in this demo foo.rb is edited in emacs(in coLinux) and run sketchbook.rb in windows command line.
 
   http://d.hatena.ne.jp/koyachi/20080206/1202225831
-* Xah Talk Show 2025-02-16 Ep614 emacs lisp coding, keyword parameters
-:PROPERTIES:
-:DATE:     2025-02-17T08:26:46-08:00
-:DURATION: 1:01:05
-:YOUTUBE_URL: https://www.youtube.com/watch?v=BvoZAUXl-Sg
-:SPEAKERS: Xah Lee
-:END:
-  notes
-  http://xahlee.info/talk_show/xah_talk_show_2025-02-16.html
-
-* Is spacemacs the best emacs distro?  :spacemacs:
-:PROPERTIES:
-:DATE:     2025-02-16T15:25:23-08:00
-:DURATION: 25:56
-:YOUTUBE_URL: https://www.youtube.com/watch?v=frBJQpuNtVk
-:SPEAKERS: DVRBS
-:END:
-  Spacemacs: https://www.spacemacs.org/
-  Kickstarter: https://gitlab.com/dvrbs/kickstart-emacs
-
-* Installing Doom Emacs on Windows #emacs #doomemacs #keybinds  :DoomEmacs:windows:
-:PROPERTIES:
-:DATE:     2025-02-16T20:02:21-08:00
-:DURATION: 10:17
-:YOUTUBE_URL: https://www.youtube.com/watch?v=IAZU6sC46YU
-:SPEAKERS: Raoul Comninos
-:END:
-  https://mega.nz/file/zuBDkC6Z#_u6P1_FYywOeIcTwF5C5avSMPKHQj9cgdOSBS0N5R5A
-
-  PLEASE CONSIDER SUPPORTING ME.
-  You can support me on PayPal:
-  https://paypal.me/revrari
-  Or you can send me some Bitcoin:
-  3JToybg7LHAdsteTYGg7jRniRZEMCeTasj
-
-* Using ChatGPT via gptel to make my Emacs nutrition tracker smarter  :ai:gptel:
-:PROPERTIES:
-:DATE:     2025-02-16T00:48:43-08:00
-:DURATION: 5:58
-:YOUTUBE_URL: https://www.youtube.com/watch?v=Kvl5XKppwrk
-:SPEAKERS: Ioannis Canellos
-:END:
-  During the quarantine of 2020 I blogged about how I am using Emacs + Org Mode to build a nutrition tracker (see [1]). The tracker code, post and data is available also as a  gist (see [2]).
-
-  To easily insert new foods and recipes I am leveraging ChatGPT using the gptel Emacs package to fetch nutritional information for new foods.
-
-  This video demonstrates how it works and goes through the code.
-
-  [1]: https://iocanel.com/2020/04/nutrition-tracking-using-emacs/
-  [2]: https://gist.github.com/iocanel/0b8bcdb3d69fb7731069cb872f836507
-
-* Emacs Lisp Live Code | quick gemini API integrration  :elisp:ai:
-:PROPERTIES:
-:DATE:     2025-02-15T23:42:47-08:00
-:DURATION: 35:57
-:YOUTUBE_URL: https://www.youtube.com/watch?v=7nKpGwg-PJg
-:SPEAKERS: faster-than-light-memes
-:END:
-  Code:
-
-  https://github.com/benjamin-asdf/gemini-quick.el
-
-
-  Emacs Lisp Live code, buffers, point, save-excursion, package, config, gemini, AI workflows
-
-
-
-  Find me here
-  https://benjamin-schwerdtner.de/
-
-  https://benjamin-schwerdtner.de/contact.html
-
-* Глупая война между Vim и GNU Emacs
-:PROPERTIES:
-:DATE:     2025-02-13T23:37:23-08:00
-:DURATION: 22:46
-:YOUTUBE_URL: https://www.youtube.com/watch?v=DqKfUnaKozA
-:SPEAKERS: mtv1337
-:END:
-  просто свои мысли
