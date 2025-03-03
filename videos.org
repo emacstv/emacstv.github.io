@@ -1,7 +1,94 @@
 #+TODO: KEYWORD_THAT_WONT_BE_USED
 #+STARTUP: nolatexpreview
 
-* Comprehensive 12 Part Org-Agenda Course in One #emacs #coding #scheduling #org
+* The Golden Ratio Package in Emacs   :windows:
+:PROPERTIES:
+:DATE:     2025-02-27T14:00:37-08:00
+:DURATION: 6:50
+:YOUTUBE_URL: https://www.youtube.com/watch?v=nAZZ02hPBd0
+:SPEAKERS: Raoul Comninos
+:END:
+  The notes for this video can be found here:
+  https://gist.github.com/gnarledgrip/52ba7dd3a433c8bfaab669ef0e92b8d3
+  Follow me on X:
+  https://x.com/GnarledGrip
+
+  PLEASE CONSIDER SUPPORTING ME.
+  You can support me on PayPal:
+  https://paypal.me/revrari
+  Or you can send me some Bitcoin:
+  3JToybg7LHAdsteTYGg7jRniRZEMCeTasj
+
+* Xah Talk Show 2025-02-26 Ep620 emacs lisp coding   :livestream:elisp:
+:PROPERTIES:
+:DATE:     2025-02-27T05:31:34-08:00
+:DURATION: 25:05
+:YOUTUBE_URL: https://www.youtube.com/watch?v=UCqgaMcR4ko
+:SPEAKERS: Xah Lee
+:END:
+  notes at
+  http://xahlee.info/talk_show/xah_talk_show_2025-02-26.html
+
+* Rewriting My Emacs Config [Tamil]   :configuration:
+:PROPERTIES:
+:DATE:     2025-02-26T23:32:17-08:00
+:DURATION: 1:07:06
+:YOUTUBE_URL: https://www.youtube.com/watch?v=u6xmCxUNb4k
+:SPEAKERS: Gob
+:END:
+  https://www.gnu.org/software/emacs/
+
+* Emacs 30 Now On Android  :emacs30:android:
+:PROPERTIES:
+:DATE:     2025-02-25T13:23:30-08:00
+:DURATION: 12:18
+:YOUTUBE_URL: https://www.youtube.com/watch?v=jPaXU9vaLu0
+:SPEAKERS: Linux Renaissance
+:END:
+  → Emacs 30 is out now. Also on Android.
+  → Invest your thanks here: https://patreon.com/LinuxRenaissance
+
+  Make sure to motivate me for more content by, at least, liking the video and leaving a comment. It means a lot to me. Sharing this video with your friends is most welcome as is following this channel!
+
+  You can support my work financially, starting with merch:
+  → https://shop.linuxrenaissance.com
+  → https://ko-fi.com/darth
+  → https://patreon.com/LinuxRenaissance
+  → https://youtube.com/@LinuxRenaissance/join
+
+  Social links:
+  → My webpage: https://linuxrenaissance.com
+  → My Matrix room: https://matrix.to/#/%23lrl:matrix.org
+  → My PeerTube channel: https://tux-edu.tv/c/lxr
+  → My YouTube chanel: https://youtube.com/@LinuxRenaissance/join
+  → My Odysee channel: https://odysee.com/@LinuxRenaissance:1
+  → My Rumble channel: https://rumble.com/c/LinuxRenaissance
+
+  This video was edited with Kdenlive.
+
+  Intro / outro music is borrowed with permission from H0ffman:
+  https://soundcloud.com/h0ffman/sets/protracker-amiga
+
+* The winnow package: Separating the grain from the chaff #emacs #coding   :coding:
+:PROPERTIES:
+:DATE:     2025-02-24T21:11:15-08:00
+:DURATION: 3:19
+:YOUTUBE_URL: https://www.youtube.com/watch?v=BjX8-D-NonY
+:SPEAKERS: Raoul Comninos
+:END:
+  I am indebted to the help I received on Stack Exchange for this video:
+  https://emacs.stackexchange.com/questions/83073/deleting-lines-in-an-editable-occur-buffer
+  The notes for this video can be found here:
+  https://gist.github.com/gnarledgrip/ddadd6b7933d50febafa5a1b6f8170b3
+  Follow me on X:
+  https://x.com/GnarledGrip
+
+  PLEASE CONSIDER SUPPORTING ME.
+  You can support me on PayPal:
+  https://paypal.me/revrari
+  Or you can send me some Bitcoin:
+  3JToybg7LHAdsteTYGg7jRniRZEMCeTasj
+* Comprehensive 12 Part Org-Agenda Course in One #emacs #coding #scheduling #org  :org:
 :PROPERTIES:
 :DATE:     2025-02-23T14:00:00-08:00
 :DURATION: 1:34:06
@@ -29,7 +116,7 @@
   Or you can send me some Bitcoin:
   3JToybg7LHAdsteTYGg7jRniRZEMCeTasj
 
-* advanced emacs: revert-buffer-function
+* advanced emacs: revert-buffer-function   :navigation:
 :PROPERTIES:
 :DATE:     2025-02-23T11:14:21-08:00
 :DURATION: 3:57
@@ -42,7 +129,7 @@
   Making 'revert-buffer' a 'redo the action that the buffer is associated with' thing.
 
   emacs, cider, cider-test, emacs lisp, pro, advanced, configure
-* Emacs Counsel M X Is A Bloody Good Way To Find Commands 2025_02_23_16:29:00
+* Emacs Counsel M X Is A Bloody Good Way To Find Commands 2025_02_23_16:29:00  :completion:counsel:
 :PROPERTIES:
 :DATE:     2025-02-23T03:43:44-08:00
 :DURATION: 7:00
@@ -74,7 +161,7 @@
 
   Goodreads: https://goodreads.com/unixbhaskar
 
-* Bad Apple! Played In Emacs
+* Bad Apple! Played In Emacs  :fun:
 :PROPERTIES:
 :DATE:     2025-02-22T23:28:28-08:00
 :DURATION: 3:42
@@ -85,7 +172,7 @@
 
   The sound is played separately.
 
-* Emacs Form Scratch Tamil [ep1]
+* Emacs Form Scratch Tamil [ep1]   :configuration:
 :PROPERTIES:
 :DATE:     2025-02-22T15:23:03-08:00
 :DURATION: 1:28:42
@@ -95,7 +182,7 @@
   https://www.gnu.org/software/emacs/
   https://github.com/AyakoGFX/emacs-form-scratch.git
 
-* What's New in Emacs? (Feb 2025) - System Crafters Live!
+* What's New in Emacs? (Feb 2025) - System Crafters Live!  :emacs30:
 :PROPERTIES:
 :DATE:     2025-02-22T14:37:25-08:00
 :DURATION: 1:47:01
@@ -148,7 +235,7 @@
   ukeSounds by airtone, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/airtone/32655
   Between Worlds (Instrumental) by Aussens@iter, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/tobias_weber/56664
 
-* The auto-org-md package #org #markdown #coding #programming #emacs
+* The auto-org-md package #org #markdown #coding #programming #emacs  :org:markdown:
 :PROPERTIES:
 :DATE:     2025-02-22T07:21:29-08:00
 :DURATION: 1:03
@@ -163,7 +250,7 @@
   Or you can send me some Bitcoin:
   3JToybg7LHAdsteTYGg7jRniRZEMCeTasj
 
-* RAGmacs - Pt. 2: Re-Tooling Emacs With GPTel
+* RAGmacs - Pt. 2: Re-Tooling Emacs With GPTel  :ai:gptel:
 :PROPERTIES:
 :DATE:     2025-02-22T06:29:57-08:00
 :DURATION: 9:32
@@ -209,7 +296,7 @@
   06:00 Cool Behaviors
   08:41 See You Next Time
 
-* Blogging with Emacs, Hugo, and Github Pages
+* Blogging with Emacs, Hugo, and Github Pages   :org:hugo:
 :PROPERTIES:
 :DATE:     2025-02-21T16:27:08-08:00
 :DURATION: 3:40
@@ -220,7 +307,7 @@
 
   https://tgcg.xyz/posts/blogging-with-emacs
 
-* Vibe coding in Emacs
+* Vibe coding in Emacs   :ai:
 :PROPERTIES:
 :DATE:     2025-02-21T07:18:54-08:00
 :DURATION: 13:12
@@ -229,7 +316,7 @@
 :END:
   Vibe coding (https://x.com/karpathy/status/1886192184808149383), or writing code from prompts to LLMs, is a feature of many new editors like VS Code, Cursor, etc. In this video I explore the ideas using Emacs, whisper, and gptel. It is still a little rough but pretty reasonable.
 
-* The ChatGPT Shell Package #emacs #ai #coding #programming #openai #llama
+* The ChatGPT Shell Package #emacs #ai #coding #programming #openai #llama   :ai:ChatGPTShell:
 :PROPERTIES:
 :DATE:     2025-02-20T14:00:05-08:00
 :DURATION: 8:24
@@ -244,7 +331,7 @@
   Or you can send me some Bitcoin:
   3JToybg7LHAdsteTYGg7jRniRZEMCeTasj
 
-* Watch YouTube with Emacs Elfeed and GNU EMMS
+* Watch YouTube with Emacs Elfeed and GNU EMMS  :elfeed:youtube:emms:
 :PROPERTIES:
 :DATE:     2025-02-19T17:50:50-08:00
 :DURATION: 1:20
@@ -256,7 +343,7 @@
 
   Music: Nujabes - Kumomi
 
-* Compiler Work
+* Compiler Work   :coding:
 :PROPERTIES:
 :DATE:     2025-02-19T17:14:15-08:00
 :DURATION: 1:50:29
@@ -270,7 +357,7 @@
 
   This channel is not affiliated with, or endorsed by Jonathan Blow. We simply believe Jon's content deserves to be archived indefinitely for its informational and entertainment value.
 
-* Xah Talk Show 2025-02-16 Ep614 emacs lisp coding, keyword parameters
+* Xah Talk Show 2025-02-16 Ep614 emacs lisp coding, keyword parameters   :livestream:elisp:
 :PROPERTIES:
 :DATE:     2025-02-17T08:26:46-08:00
 :DURATION: 1:01:05
@@ -360,7 +447,7 @@
   The file in the vod
   https://gist.github.com/AyakoGFX/5ca7239dcf41e04811f2fc210606c9a5
 
-* One and a half-hour advanced course on Org Mode (8 videos in one) #emacs #orgmode #org
+* One and a half-hour advanced course on Org Mode (8 videos in one) #emacs #orgmode #org  :org:
 :PROPERTIES:
 :DATE:     2025-02-09T20:04:37-08:00
 :DURATION: 1:32:14
@@ -388,7 +475,7 @@
 
   https://mega.nz/folder/enhUzYDK#ZUPHW0-8edaSCtBdgKO_ZQ
 
-* RAGmacs - Pt. 1: Retrieving Deep Value in Emacs
+* RAGmacs - Pt. 1: Retrieving Deep Value in Emacs   :ai:
 :PROPERTIES:
 :DATE:     2025-02-08T20:53:38-08:00
 :DURATION: 9:42
@@ -421,7 +508,7 @@
   05:27 Not Even the Best Available
   06:22 Why This is Huge
 
-* The Augmented Software Engineer - Ep.15 - Emacs/Local
+* The Augmented Software Engineer - Ep.15 - Emacs/Local  :ai:
 :PROPERTIES:
 :DATE:     2025-02-08T19:45:11-08:00
 :DURATION: 2:25
@@ -448,7 +535,7 @@
   Or you can send me some Bitcoin:
   3JToybg7LHAdsteTYGg7jRniRZEMCeTasj
 
-* Export From Emacs to Microsoft Word Format (The Whole Writing Process)
+* Export From Emacs to Microsoft Word Format (The Whole Writing Process)  :org:
 :PROPERTIES:
 :DATE:     2025-02-08T05:20:36-08:00
 :DURATION: 11:35
@@ -459,7 +546,7 @@
 
   https://chrismaiorana.com/from-emacs-to-microsoft-word/
 
-* Introduzione al Emacs Lisp
+* Introduzione al Emacs Lisp   :elisp:
 :PROPERTIES:
 :DATE:     2025-02-07T03:30:06-08:00
 :DURATION: 32:51
@@ -486,7 +573,7 @@
   Pagina ko-fi per le donazioni: https://ko-fi.com/nfvblog
   Pagina Mastodon: https://mastodon.cloud/@nfvblog
 
-* Properly Installing Emacs on Windows #emacs #windows #coding #programming
+* Properly Installing Emacs on Windows #emacs #windows #coding #programming  :windows:install:
 :PROPERTIES:
 :DATE:     2025-02-06T14:00:06-08:00
 :DURATION: 19:22
@@ -500,7 +587,7 @@
   https://paypal.me/revrari
   Or you can send me some Bitcoin:
   3JToybg7LHAdsteTYGg7jRniRZEMCeTasj
-* 02 - Text Editing Approaches - Vim and Emacs - History
+* 02 - Text Editing Approaches - Vim and Emacs - History   :comparison:
 :PROPERTIES:
 :DATE:     2025-02-06T07:20:15-08:00
 :DURATION: 39:49
@@ -530,7 +617,7 @@
 
   38:16 ### Conclusion ###
 
-* Rebuilding my Emacs setup and some beginner tips
+* Rebuilding my Emacs setup and some beginner tips   :configuration:beginner:
 :PROPERTIES:
 :DATE:     2025-02-04T14:32:11-08:00
 :DURATION: 4:03:17
