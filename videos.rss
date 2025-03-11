@@ -5,6 +5,155 @@
     <link>https://emacs.tv</link>
     <description>Emacs videos</description>
     <item>
+      <title>Plain Text Supremacy With Emacs</title>
+      <link>https://www.youtube.com/watch?v=Oz_3F5K0PTU</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=Oz_3F5K0PTU">youtube</a><br><br>Download a transcript from youtube and transform it using jq.
+
+  This is done via the `M-x shell-command-on-region` using a prefix argument. The keybinding I highlighted in the video is incorrect ... it's actually "C-u M-|"
+
+  Anyways, the command is generally useful when learning Linux commands. It requires no emacs dependencies. It augments any buffer with CLI super-powers: you can transform text piped into and out of commands. Whatever is highlighted is piped into the first command run by "shell-command-on-region"</div>]]></description>
+      <pubDate>Mon, 10 Mar 2025 12:15:33 +0000</pubDate>
+    </item>
+    <item>
+      <title>Better registers in Emacs #coding #programming #emacswiki</title>
+      <link>https://www.youtube.com/watch?v=xEXqcLLLjvA</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=xEXqcLLLjvA">youtube</a><br><br>The notes for this video can be found here:
+  https://gist.github.com/gnarledgrip/2e777f8051bb6e36f0d10f55ef7ac331
+
+  PLEASE CONSIDER SUPPORTING ME.
+  You can support me on PayPal:
+  https://paypal.me/revrari
+  Or you can send me some Bitcoin:
+  3JToybg7LHAdsteTYGg7jRniRZEMCeTasj
+
+  Follow me on X: https://x.com/GnarledGrip</div>]]></description>
+      <pubDate>Sun, 09 Mar 2025 22:00:41 +0000</pubDate>
+    </item>
+    <item>
+      <title>Installing color scheme in Emacs</title>
+      <link>https://www.youtube.com/watch?v=LRTqjj7s1bc</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=LRTqjj7s1bc">youtube</a><br><br></div>]]></description>
+      <pubDate>Sun, 09 Mar 2025 09:36:36 +0000</pubDate>
+    </item>
+    <item>
+      <title>Emulating Howm Notes with Denote and Consult - System Crafters Live!</title>
+      <link>https://www.youtube.com/watch?v=u-eFNq8T8LY</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=u-eFNq8T8LY">youtube</a><br><br></div>]]></description>
+      <pubDate>Sat, 08 Mar 2025 06:06:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Emulating Howm Notes with Denote and Consult - System Crafters Live!</title>
+      <link>https://www.youtube.com/watch?v=u-eFNq8T8LY</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=u-eFNq8T8LY">youtube</a><br><br>In this stream, we'll attempt to emulate some of the essential functionality of the Howm note taking package using Denote and Consult.  We'll try to implement date-sorted searches, automatic note preview, and even in/out links if we have time.
+
+  Howm presents some interesting ideas, can we adopt them into a Denote workflow?
+
+  #gnu #emacs #orgmode #howm #denote #notetaking
+
+  SUPPORT THE CHANNEL:
+
+  👍 Support My Work: https://systemcrafters.net/how-to-help/#support-my-work
+  📰 Subscribe to the Newsletter: https://systemcrafters.net/newsletter/
+  👕 Check out the Store: https://systemcrafters.store
+  📘 Get Your Copy of Mastering Emacs: https://www.masteringemacs.org/r/systemcrafters?utm_source=yt&utm_medium=desc&utm_campaign=scme
+
+  SHOW NOTES:
+
+  https://systemcrafters.net/live-streams/march-7-2025/
+
+  JOIN THE COMMUNITY:
+
+  https://systemcrafters.net/community/ (Forum and IRC chat!)
+  https://fosstodon.org/@daviwil
+
+  MY CONFIGURATION:
+
+  (This site is currently down but will be back up soon!)
+
+  https://config.daviwil.com
+  https://config.daviwil.com/emacs
+  https://config.daviwil.com/systems (Guix)
+
+  OTHER SERIES:
+
+  - Emacs Essentials: https://www.youtube.com/watch?v=48JlgiBpw_I&list=PLEoMzSkcN8oPZvSdewHG8uApD7THlLLCV
+  - Emacs From Scratch: https://www.youtube.com/watch?v=74zOY-vgkyw&list=PLEoMzSkcN8oPH1au7H6B7bBJ4ZO7BXjSZ
+  - Emacs Tips: https://www.youtube.com/watch?v=wKTKmE1wLyw&list=PLEoMzSkcN8oMHJ6Xil1YdnYtlWd5hHZql
+  - Emacs Desktop Environment: https://www.youtube.com/watch?v=f7xB2fFk1tQ&list=PLEoMzSkcN8oNPbEMYEtswOVTvq7CVddCS
+  - Emacs IDE: https://www.youtube.com/watch?v=E-NAM9U5JYE&list=PLEoMzSkcN8oNvsrtk_iZSb94krGRofFjN
+  - Emacs Mail: https://www.youtube.com/watch?v=yZRyEhi4y44&list=PLEoMzSkcN8oM-kA19xOQc8s0gr0PpFGJQ
+  - Learning Emacs Lisp: https://www.youtube.com/watch?v=RQK_DaaX34Q&list=PLEoMzSkcN8oPQtn7FQEF3D7sroZbXuPZ7
+  - Craft Your System with GNU Guix: https://www.youtube.com/watch?v=iBaqOK75cho&list=PLEoMzSkcN8oNxnj7jm5V2ZcGc52002pQU
+
+  CREDITS:
+
+  Coriolis Effect by logos feat. stefsax, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/mseq/26296
+  reNovation by airtone, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/airtone/60674
+  ukeSounds by airtone, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/airtone/32655
+  Between Worlds (Instrumental) by Aussens@iter, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/tobias_weber/56664</div>]]></description>
+      <pubDate>Sat, 08 Mar 2025 06:06:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Erlang shell in Emacs</title>
+      <link>https://www.youtube.com/watch?v=wZldeJ8hUHo</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=wZldeJ8hUHo">youtube</a><br><br>How I use emacs keybindings to interact with a running (rebar3) Erlang shell in Emacs.</div>]]></description>
+      <pubDate>Fri, 07 Mar 2025 18:34:45 +0000</pubDate>
+    </item>
+    <item>
+      <title>Emacs, czyli edytor tak wszechstronny, że może zostać Window Managerem - „Hakki” | JL 2024</title>
+      <link>https://www.youtube.com/watch?v=jYOSHKixtmY</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=jYOSHKixtmY">youtube</a><br><br>Emacs, jeden z dwóch uczestników Wojny Edytorów, edytor pozwalający przyjemnie pisać dosłownie wszystko, od kodu, aż po artykuły naukowe, planować swój czas, a nawet... rozmawiać z psychoterapeutą. Co więcej może zastąpić Ci nie tylko psychoterapeutę, ale nawet twój Window Manager.
+
+  Prelegent:
+  Igor a.k.a. „Hakki”
+
+  ---
+  Zobacz pozostałe nagrania z Jesieni Linuksowej 2024: https://www.youtube.com/playlist?list=PLeoF3Wk8-oJvot3rq6ieDm43OLqNinSEm
+  Sprawdź także inne wystąpienia z poprzednich edycji Jesieni na naszym kanale: @jesienlinuksowa6757
+
+  Dołącz do naszego Discorda: https://discord.linux.org.pl/
+  Polska Grupa Użytkowników Linuksa: https://linux.org.pl/
+  Strona główna konferencji: https://jesien.org
+
+  --
+  Realizacja @polskagrupauzytkownikowlin4475 i @norbertlangner3684</div>]]></description>
+      <pubDate>Fri, 07 Mar 2025 16:00:50 +0000</pubDate>
+    </item>
+    <item>
+      <title>What AI chat I currently use in emacs</title>
+      <link>https://www.youtube.com/watch?v=-8LZW4K2O7A</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=-8LZW4K2O7A">youtube</a><br><br>I currently have gemini on a keybind, put the output in an emacs buffer, good enough.
+
+  https://github.com/benjamin-asdf/gemini-quick-chat-bb
+
+  https://github.com/benjamin-asdf/gemini-quick.el
+
+  about: https://benjamin-schwerdtner.de/about.html</div>]]></description>
+      <pubDate>Fri, 07 Mar 2025 14:03:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>Aidermacs in Action: Emacs AI Pair Programming w/ Aider &amp; Ediff</title>
+      <link>https://www.youtube.com/watch?v=fB3-ie6zs4Y</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=fB3-ie6zs4Y">youtube</a><br><br>Missing Cursor but prefer living in Emacs? Aidermacs brings Cursor-like AI-powered development to your Emacs workflow by integrating Aider, one of the most powerful open-source AI pair programming tools. As a community-driven project, Aidermacs prioritizes Emacs users' needs and preferences while providing the same powerful features found in Cursor!
+
+  Github: https://github.com/MatthewZMD/aidermacs</div>]]></description>
+      <pubDate>Fri, 07 Mar 2025 08:38:44 +0000</pubDate>
+    </item>
+    <item>
+      <title>Emacs Note Taking &amp; Journaling with org-gnosis</title>
+      <link>https://www.youtube.com/watch?v=5SkLa7jGjl0&amp;feature=youtu.be</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=5SkLa7jGjl0&feature=youtu.be">youtube</a><br><br>Overview about org-gnosis, a Roam-like Knowledge Management System for GNU Emacs.
+
+  Org Gnosis is a knowledge management tool that leverages Org mode
+  for storing notes & journal entries, integrating them with an
+  SQLite database for efficient retrieval and relationship mapping.
+
+  Org Gnosis Homepage: https://thanosapollo.org/projects/org-gnosis/
+
+  Video notes: https://thanosapollo.org/posts/org-gnosis-overview/</div>]]></description>
+      <pubDate>Mon, 03 Mar 2025 19:11:59 +0000</pubDate>
+    </item>
+    <item>
       <title>The Golden Ratio Package in Emacs</title>
       <link>https://www.youtube.com/watch?v=nAZZ02hPBd0</link>
       <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=nAZZ02hPBd0">youtube</a><br><br>The notes for this video can be found here:
