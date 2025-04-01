@@ -1,5 +1,6 @@
 #+TODO: KEYWORD_THAT_WONT_BE_USED
 #+STARTUP: nolatexpreview
+#+PROPERTY: header-args:emacs-lisp+   :eval no
 
 * Emacs Macros: All You Need to Know #coding #programming
 :PROPERTIES:
@@ -124,7 +125,7 @@
 
   私の設定です。
   * company
-  #+BEGIN_SRC emacs-lisp
+  #+BEGIN_SRC emacs-lisp :eval no
     (use-package company
       :ensure t
       :config
@@ -28834,7 +28835,7 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
   📺 In this video, I will show you the intuitive and productive workflow (clone/stage/branch/log/push, etc.) of Magit, one of the killer apps in Emacs. It's the best Git client.
 
   💡 The Emacs version I demonstrated here is 27.2, and I didn't customize anything of Magit. It just runs well out of the box. Install magit as below:
-  #+begin_src elisp
+  #+begin_src elisp :eval no
   (require 'package)
 
   (setq package-archives
@@ -48806,7 +48807,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 :END:
   On popular demand, here is the gnuplot code (essentially copied from the gnuplot example at: http://gnuplot.sourceforge.net/demo_5.1/gantt.html
 
-  #+BEGIN_SRC gnuplot :var DATA=gantt-table :file gantt-out.png
+  #+BEGIN_SRC gnuplot :var DATA=gantt-table :file gantt-out.png :eval no
   OneMonth = strptime("%m","2")
   timeformat = "%Y-%m-%d"
   T(N) = timecolumn(N,timeformat)
@@ -50926,7 +50927,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
   **  Screen Shot
 
   Will take a screeshot of the current frame
-     #+begin_src emacs-lisp
+     #+begin_src emacs-lisp :eval no
        (defun screenshot-frame ()
          "Takes a screenshot of the current frame. Requires imagemagic. "
          (interactive)
@@ -50953,7 +50954,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
       Gives some great editing capabilities for pairs, it combines
       features from other pair editing packages, like paraedit.
 
-      #+begin_src emacs-lisp
+      #+begin_src emacs-lisp :eval no
         (use-package smartparens
    :config (require 'smartparens-config)
    (show-smartparens-global-mode 1)
@@ -50965,7 +50966,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
       Easily mark logical regions, much easier way to navigate pairs
       than remembering 100s of bindings for smartparens.
 
-      #+begin_src emacs-lisp
+      #+begin_src emacs-lisp :eval no
         (use-package expand-region
    :commands ( er/expand-region er/contract-region )
    :bind  ("C-=" . er/expand-region)
@@ -51110,7 +51111,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 
   Show colors for color strings like ~#fff~ or ~red~ depending on the mode.
 
-  #+begin_src emacs-lisp
+  #+begin_src emacs-lisp :eval no
   (use-package rainbow-mode
   :hook (prog-mode . rainbow-mode ))
   #+end_src
