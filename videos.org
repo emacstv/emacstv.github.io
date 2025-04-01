@@ -1,6 +1,496 @@
 #+TODO: KEYWORD_THAT_WONT_BE_USED
 #+STARTUP: nolatexpreview
 
+* Emacs Macros: All You Need to Know #coding #programming
+:PROPERTIES:
+:DATE:     2025-03-30T15:00:06-07:00
+:DURATION: 15:36
+:YOUTUBE_URL: https://www.youtube.com/watch?v=dFFewYmtfGM
+:SPEAKERS: Raoul Comninos
+:END:
+  00:00 Introduction
+  02:40 Repeat Macro over region
+  03:57 Example of Macros across buffers
+  05:20 Keyboard Macro Ring
+  05:48 The Macro Counter
+  07:30 Executing Macros with Variations
+  11:15 Naming and Saving Macros
+  13:15 Insert Macro into the Buffer
+  15:08 Conclusion
+
+  The notes for this video can be found here:
+  https://gitlab.com/-/snippets/4830270
+
+  PLEASE CONSIDER SUPPORTING ME.
+  You can support me on PayPal:
+  https://paypal.me/revrari
+  Or you can send me some Bitcoin:
+  3JToybg7LHAdsteTYGg7jRniRZEMCeTasj
+
+  Follow me on X: https://x.com/GnarledGrip
+
+* Ollama Buddy - Same prompt to 10 models (multishot) #emacs #ollama
+:PROPERTIES:
+:DATE:     2025-03-30T07:26:40-07:00
+:DURATION: 1:26
+:YOUTUBE_URL: https://www.youtube.com/watch?v=SPYgkAVe2rM
+:SPEAKERS: Ollama Buddy for Emacs
+:END:
+  Demonstrating the Emacs package ollama-buddy, providing a convenient way to integrate Ollama's local LLM capabilities.
+
+  PROMPT: What is the capital of France?
+  Multishot to abcdefghij
+
+  https://melpa.org/#/ollama-buddy
+  https://github.com/captainflasmr/ollama-buddy
+
+  #emacs #ollama
+
+* Ep636 emacs lisp, change bracket type, design of function arguments
+:PROPERTIES:
+:DATE:     2025-03-29T01:40:50-07:00
+:DURATION: 1:16:25
+:YOUTUBE_URL: https://www.youtube.com/watch?v=LdXz8gXpH4s
+:SPEAKERS: Xah Lee
+:END:
+  Xah Talk Show 2025-03-28 Ep636 emacs lisp, change bracket type, design of function arguments
+  http://xahlee.info/talk_show/xah_talk_show_2025-03-28.html
+
+  (if you get https error, that is because Google Chrome and Firefox browsers censor websites. Use Brave Browser or Safari, or copy and paste the url directly in url field.)
+
+* Gnus for Noobs: Mail and News in Emacs - System Crafters Live!
+:PROPERTIES:
+:DATE:     2025-03-28T23:04:24-07:00
+:DURATION: 1:40:18
+:YOUTUBE_URL: https://www.youtube.com/watch?v=I1H1GuPvhCc
+:SPEAKERS: System Crafters
+:END:
+  In this stream, we'll take a look Gnus, the legendary mail and news reader that is built in to Emacs.  I have not used Gnus in many years so we will all be learning it together for the first time!
+
+  #gnu #emacs #mail #rss #config #dotfiles
+
+  SUPPORT THE CHANNEL:
+
+  👍 Support My Work: https://systemcrafters.net/how-to-help/#support-my-work
+  📰 Subscribe to the Newsletter: https://systemcrafters.net/newsletter/
+  👕 Check out the Store: https://systemcrafters.store
+  📘 Get Your Copy of Mastering Emacs: https://www.masteringemacs.org/r/systemcrafters?utm_source=yt&utm_medium=desc&utm_campaign=scme
+
+  SHOW NOTES:
+
+  https://systemcrafters.net/live-streams/march-28-2025/
+
+  JOIN THE COMMUNITY:
+
+  https://systemcrafters.net/community/ (Forum and IRC chat!)
+  https://fosstodon.org/@daviwil
+
+  MY CONFIGURATION:
+
+  (This site is currently down but will be back up soon!)
+
+  https://config.daviwil.com
+  https://config.daviwil.com/emacs
+  https://config.daviwil.com/systems (Guix)
+
+  OTHER SERIES:
+
+  - Emacs Essentials: https://www.youtube.com/watch?v=48JlgiBpw_I&list=PLEoMzSkcN8oPZvSdewHG8uApD7THlLLCV
+  - Emacs From Scratch: https://www.youtube.com/watch?v=74zOY-vgkyw&list=PLEoMzSkcN8oPH1au7H6B7bBJ4ZO7BXjSZ
+  - Emacs Tips: https://www.youtube.com/watch?v=wKTKmE1wLyw&list=PLEoMzSkcN8oMHJ6Xil1YdnYtlWd5hHZql
+  - Emacs Desktop Environment: https://www.youtube.com/watch?v=f7xB2fFk1tQ&list=PLEoMzSkcN8oNPbEMYEtswOVTvq7CVddCS
+  - Emacs IDE: https://www.youtube.com/watch?v=E-NAM9U5JYE&list=PLEoMzSkcN8oNvsrtk_iZSb94krGRofFjN
+  - Emacs Mail: https://www.youtube.com/watch?v=yZRyEhi4y44&list=PLEoMzSkcN8oM-kA19xOQc8s0gr0PpFGJQ
+  - Learning Emacs Lisp: https://www.youtube.com/watch?v=RQK_DaaX34Q&list=PLEoMzSkcN8oPQtn7FQEF3D7sroZbXuPZ7
+  - Craft Your System with GNU Guix: https://www.youtube.com/watch?v=iBaqOK75cho&list=PLEoMzSkcN8oNxnj7jm5V2ZcGc52002pQU
+
+  CREDITS:
+
+  Coriolis Effect by logos feat. stefsax, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/mseq/26296
+  reNovation by airtone, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/airtone/60674
+  ukeSounds by airtone, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/airtone/32655
+  Between Worlds (Instrumental) by Aussens@iter, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/tobias_weber/56664
+
+* Emacs company-mode タイピングが楽になる！！ (無音)
+:PROPERTIES:
+:DATE:     2025-03-28T08:03:17-07:00
+:DURATION: 1:50
+:YOUTUBE_URL: https://www.youtube.com/watch?v=f_II8tTs-gg
+:SPEAKERS: 最高じゃん Emacs
+:END:
+  無音です。
+  Emacsの補完システム company についてです。
+  わたしはいまいち恩恵に預かっている気がしてませんが、念の為。
+
+  私の設定です。
+  * company
+  #+BEGIN_SRC emacs-lisp
+    (use-package company
+      :ensure t
+      :config
+      ;;(global-company-mode)
+      (add-hook 'prog-mode-hook 'company-mode)
+      (add-hook 'org-mode-hook 'company-mode)
+      (add-hook 'inferior-emacs-lisp-mode-hook 'company-mode)
+      ;;(add-hook 'lisp-interaction-mode-hook 'company-mode)
+      ;; 遅延なしにする。
+      (setq company-idle-delay 0)
+      ;; デフォルトは4。より少ない文字数から補完が始まる様にする。
+      (setq company-minimum-prefix-length 4)
+      ;; 候補の一番下でさらに下に行こうとすると一番上に戻る。
+      (setq company-selection-wrap-around t)
+      ;; 番号を表示する。
+      (setq company-show-numbers t))
+  #+END_SRC
+
+  Emacs関連のチャンネルです。省エネモードで運用します。
+  Emacs ホームページ
+  https://www.gnu.org/software/emacs/
+  org-mode ホームページ
+  https://orgmode.org/ja/
+
+  和訳マニュアルの公開
+  https://ayatakesi.github.io/
+
+  日本語org modeマニュアル
+  https://takaxp.github.io/org-ja.html
+
+* Accidentally writing an Emacs Package 🛠💻
+:PROPERTIES:
+:DATE:     2025-03-27T20:00:46-07:00
+:DURATION: 1:07:12
+:YOUTUBE_URL: https://youtu.be/39OsH_OeWSA
+:SPEAKERS: (Bit-Mage)
+:END:
+  I accidentally wrote an emacs package : https://github.com/rajp152k/fabric-gpt.el
+
+  that helps integrate crowd sourced prompts via fabric : https://github.com/danielmiessler/fabric
+
+  into an LLM client for emacs (gptel) : https://github.com/karthink/gptel
+
+  This is a stroll through the emacs editor - to highlight the self documentation and learnability aspects emacs offers.
+
+  I plan to show my usual thought process when working with emacs: This is not a tutorial with specific objective but an attempt to chart out the functionalities that emacs has to offer in a practical manner, when it comes to helping learn about itself.
+
+  Contacts:
+
+  vlogs       :   https://thebitmage.com/dd0x
+  blogs       :   https://thebitmage.com/all-posts/
+  braindump   :   https://buffer.thebitmage.com
+  instagram   :   ln2.thebitmage.com
+  mail        :   raj@thebitmage.com
+  github      :   @rajp152k
+  X/twitter   :   @rajpatil152k
+  goodreads   :   @rajp152k
+
+
+  Chapters:
+  0:00 The Mandatory Introductory Ramble
+  0:57 The Crux of this Video
+  5:10 Some Awkwardness
+  5:35 Moods of Usage
+  7:30 The Helping Whiches
+  17:00 An Instance of Learning Effortlessly
+  19:50 Testing in Production
+  21:00 Hot Reloads
+  22:10 Init Chancing upon a Package
+  22:45 Reverse Engineering your Usage : The Meta
+  25:00 I wrote an Emacs Package
+  27:30 Diving into the Gptel Config
+  32:50 2 mins of Silent Awkwardness
+  34:40 The Silent Awkwardness Ends
+  36:00 Completing Read for Prompt Selection
+  38:00 How Fabric Comes in
+  39:45 Buffers as my LLM interfaces
+  41:00 Breaking down your Behaviors
+  43:30 Functional Custom Prompt Dispatches
+  47:15 Founding constituents of fabric-gpt.el
+  48:30 Package Overview
+  49:00 A no-cone Sparse Checkout
+  51:10 Observing the Patterns
+  52:00 Collating Patterns
+  54:30 fabric-gpt.el-send
+  56:30 Works Great
+  1:01:01 Phew ..
+  1:03:00 The Mandatory Outroductory Ramble
+  1:04:40 ln2.thebitmage
+
+* Activate superword mode in the Emacs Minibuffer #coding #programming
+:PROPERTIES:
+:DATE:     2025-03-27T15:00:22-07:00
+:DURATION: 1:06
+:YOUTUBE_URL: https://www.youtube.com/watch?v=WqN27ltSwag
+:SPEAKERS: Raoul Comninos
+:END:
+  The notes for this video can be found here:
+  https://gitlab.com/-/snippets/4830168
+
+  PLEASE CONSIDER SUPPORTING ME.
+  You can support me on PayPal:
+  https://paypal.me/revrari
+  Or you can send me some Bitcoin:
+  3JToybg7LHAdsteTYGg7jRniRZEMCeTasj
+
+  Follow me on X: https://x.com/GnarledGrip
+
+* Clojure visual-tools 32- Workflow Demos 6: old-school tools, REPL, Emacs, Org-mode, AI, MCP, & more
+:PROPERTIES:
+:DATE:     2025-03-26T17:08:30-07:00
+:DURATION: 1:51:40
+:YOUTUBE_URL: https://www.youtube.com/watch?v=oV9F9bmPr58
+:SPEAKERS: Sci Cloj
+:END:
+  This 2025-03-26 meeting was the sixth of a series of meetings where people would demonstrate their Clojure workflows with different tools.
+
+  Agenda:
+  Kapil Reddy - Vibe coding with Clojurescript and Clojure
+  Aditya Athalye - Keeping it Old-Tool: REPL habits of a grug-brained Clojurist
+
+  Summary: https://clojureverse.org/t/visual-tools-meeting-32-workflow-demos-6-old-school-tools-repl-emacs-org-mode-ai-mcp-more/
+* Get Emacs Packages from the Emacswiki with a Script
+:PROPERTIES:
+:DATE:     2025-03-25T20:47:11-07:00
+:DURATION: 2:45
+:YOUTUBE_URL: https://www.youtube.com/watch?v=3WbATXxzmh4
+:SPEAKERS: Raoul Comninos
+:END:
+  The notes for this video can be found here:
+  https://gitlab.com/-/snippets/4830173
+  https://www.emacswiki.org/
+
+  PLEASE CONSIDER SUPPORTING ME.
+  You can support me on PayPal:
+  https://paypal.me/revrari
+  Or you can send me some Bitcoin:
+  3JToybg7LHAdsteTYGg7jRniRZEMCeTasj
+
+  Follow me on X: https://x.com/GnarledGrip
+
+* GNU Emacs má 40 let (Tomáš Čech)
+:PROPERTIES:
+:DATE:     2025-03-17T03:19:55-07:00
+:DURATION: 23:22
+:YOUTUBE_URL: https://www.youtube.com/watch?v=KbYlGhogXxg
+:SPEAKERS: InstallFest
+:END:
+  Přednáška na konferenci Installfest 2025 (https://www.installfest.cz/if25/)
+
+  Abstrakt:
+  Emacs bude mít 20. března 2025 své 40-ti leté jubileum. Je Emacs jakkoli relevantní v dnešní době? Jaké vlastnosti nabízí? A proč pohled na Emacs jako operační systém není až tak přehnaný?
+
+  moderní vlastnosti jako
+  - tree-sitter (moderní parsování jazyka)
+  - language server protocol
+  - integrace Copilot
+
+  už tradiční vlastnosti jako
+  - magit (integrace Git)
+  - tramp (síťová transparence)
+  - org-mode (+Orgzly revived)
+  - self-documenting
+
+  Vyrobilo AVC SiliconHill, 2025
+
+  Další informace:
+  https://pretalx.installfest.cz/installfest-2025/talk/FL8EJY
+
+* Emacs என்பது யாதெனில் - அத்தியாயம் ஒன்று - Sakhil
+:PROPERTIES:
+:DATE:     2025-03-16T19:40:39-07:00
+:DURATION: 1:00:55
+:YOUTUBE_URL: https://www.youtube.com/watch?v=8NHN45OIFco
+:SPEAKERS: Tamil Linux Community
+:END:
+  I learn from people how to be and how not to be.
+
+* The Emacs recursive narrow package #coding #programming
+:PROPERTIES:
+:DATE:     2025-03-16T15:00:25-07:00
+:DURATION: 2:41
+:YOUTUBE_URL: https://www.youtube.com/watch?v=fLMUE-_mVLk
+:SPEAKERS: Raoul Comninos
+:END:
+  https://github.com/nflath/recursive-narrow/tree/master
+  The notes for this video can be found here:
+  https://gist.github.com/gnarledgrip/6585ed677c1372df1248e3b7c783235e
+
+  PLEASE CONSIDER SUPPORTING ME.
+  You can support me on PayPal:
+  https://paypal.me/revrari
+  Or you can send me some Bitcoin:
+  3JToybg7LHAdsteTYGg7jRniRZEMCeTasj
+
+  Follow me on X: https://x.com/GnarledGrip
+
+* Editing Files with Emacs
+:PROPERTIES:
+:DATE:     2025-03-16T11:30:42-07:00
+:DURATION: 11:28
+:YOUTUBE_URL: https://www.youtube.com/watch?v=m-8hENaLltQ
+:SPEAKERS: Tech Sista
+:END:
+  In this tutorial, you'll learn how to edit files using the Emacs editor in Linux. Emacs is a powerful and highly customizable text editor used by developers and system administrators worldwide. We'll cover the basics, including navigation, editing, saving, and essential shortcuts to boost your productivity. Whether you're new to Emacs or looking to sharpen your skills, this tutorial will help you get started!
+
+  #Linux #Emacs #TextEditor #EmacsTutorial #LinuxCommands #Programming #DevOps #EmacsShortcuts #TerminalCommands #SysAdmin #LinuxForBeginners
+
+* Dotfiles Check-Up: Emacs and Guix Tweaks - System Crafters Live!
+:PROPERTIES:
+:DATE:     2025-03-14T22:55:24-07:00
+:DURATION: 1:38:38
+:YOUTUBE_URL: https://www.youtube.com/watch?v=JQBII2fO_CQ
+:SPEAKERS: System Crafters
+:END:
+  In this stream, we'll take a look at the current state of my dotfiles repository and discuss a few improvements I'd like to make to both the Emacs and Guix configurations.
+
+  We'll spend some time hacking on those and also attempting to integrate any new Emacs features or Guix home services that I'm not using yet!
+
+  #gnu #emacs #guix #scheme #config #dotfiles
+
+  SUPPORT THE CHANNEL:
+
+  👍 Support My Work: https://systemcrafters.net/how-to-help/#support-my-work
+  📰 Subscribe to the Newsletter: https://systemcrafters.net/newsletter/
+  👕 Check out the Store: https://systemcrafters.store
+  📘 Get Your Copy of Mastering Emacs: https://www.masteringemacs.org/r/systemcrafters?utm_source=yt&utm_medium=desc&utm_campaign=scme
+
+  SHOW NOTES:
+
+  https://systemcrafters.net/live-streams/march-7-2025/
+
+  JOIN THE COMMUNITY:
+
+  https://systemcrafters.net/community/ (Forum and IRC chat!)
+  https://fosstodon.org/@daviwil
+
+  MY CONFIGURATION:
+
+  (This site is currently down but will be back up soon!)
+
+  https://config.daviwil.com
+  https://config.daviwil.com/emacs
+  https://config.daviwil.com/systems (Guix)
+
+  OTHER SERIES:
+
+  - Emacs Essentials: https://www.youtube.com/watch?v=48JlgiBpw_I&list=PLEoMzSkcN8oPZvSdewHG8uApD7THlLLCV
+  - Emacs From Scratch: https://www.youtube.com/watch?v=74zOY-vgkyw&list=PLEoMzSkcN8oPH1au7H6B7bBJ4ZO7BXjSZ
+  - Emacs Tips: https://www.youtube.com/watch?v=wKTKmE1wLyw&list=PLEoMzSkcN8oMHJ6Xil1YdnYtlWd5hHZql
+  - Emacs Desktop Environment: https://www.youtube.com/watch?v=f7xB2fFk1tQ&list=PLEoMzSkcN8oNPbEMYEtswOVTvq7CVddCS
+  - Emacs IDE: https://www.youtube.com/watch?v=E-NAM9U5JYE&list=PLEoMzSkcN8oNvsrtk_iZSb94krGRofFjN
+  - Emacs Mail: https://www.youtube.com/watch?v=yZRyEhi4y44&list=PLEoMzSkcN8oM-kA19xOQc8s0gr0PpFGJQ
+  - Learning Emacs Lisp: https://www.youtube.com/watch?v=RQK_DaaX34Q&list=PLEoMzSkcN8oPQtn7FQEF3D7sroZbXuPZ7
+  - Craft Your System with GNU Guix: https://www.youtube.com/watch?v=iBaqOK75cho&list=PLEoMzSkcN8oNxnj7jm5V2ZcGc52002pQU
+
+  CREDITS:
+
+  Coriolis Effect by logos feat. stefsax, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/mseq/26296
+  reNovation by airtone, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/airtone/60674
+  ukeSounds by airtone, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/airtone/32655
+  Between Worlds (Instrumental) by Aussens@iter, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/tobias_weber/56664
+
+* Meet Harper | A Grammarly Alternative for Neovim  | Emacs, Obsidian, Zed, VScode and Helix (deez)
+:PROPERTIES:
+:DATE:     2025-03-14T11:50:03-07:00
+:DURATION: 21:16
+:YOUTUBE_URL: https://www.youtube.com/watch?v=3p2n2-eiuZw
+:SPEAKERS: linkarzu
+:END:
+  Do you write a lot markdown in Neovim, and even though you have spell checking enabled, you would like to have a smart alternative similar to Grammarly that checks your spelling and grammar and offers suggestions?
+
+  I do have spell checking for neovim, but sometimes that's not enough, you need something smarter, that's when Harper comes in handy
+
+  If you know how to disable harper for specific paths in nvim-lspconfig, please let me know in the comments
+
+  Join us in discord
+  https://discord.gg/NgqMgwwtMH
+
+  YouTube Memberships
+  https://www.youtube.com/channel/UCrSIvbFncPSlK6AdwE2QboA/join
+
+  Start your setap free trial (my affiliate link)
+  https://setapp.sjv.io/QjKK1a
+
+  Start your 1password trial  (my affiliate link)
+  https://www.dpbolvw.net/click-101327218-15917064
+
+  If you find this video helpful and want to support me
+  https://ko-fi.com/linkarzu
+
+  Follow me on twitter
+  https://x.com/link_arzu
+
+  My dotfiles (remember to star them)
+  https://github.com/linkarzu/dotfiles-latest
+
+  Harper neovim docs
+  https://writewithharper.com/docs/integrations/neovim
+  https://writewithharper.com/docs/rules
+
+  Reddit discusion
+  https://www.reddit.com/r/neovim/comments/1j7ookn/comment/mgysste/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button
+
+  #linkarzu #tmux #macos #linux #neovim #grammarly #vscode #zed #emacs #wordpress #helix
+
+  The text below is from their website:
+  Harper is an English grammar checker designed to be just right. You can think of it as an open-source alternative to Grammarly. I created it after years of dealing with the shortcomings of the competition.
+
+  Harper is completely private, in every sense of the word. Since Harper runs on-device, your data doesn't go anywhere you don't want it to. That means you have 100% certainty we don't violate your copyright by training large language models.
+
+  Harper is both available as a language server, and through WebAssembly, so you can get fantastic grammar checking anywhere you work.
+
+  That said, we take extra care to make sure the Visual Studio Code, Neovim, Zed and Obsidian integration is amazing. Since Harper runs on your devices, it's able to serve up suggestions in under 10 milliseconds. No network request, no massive language models, no fuss.
+
+  Harper is completely open source under the Apache-2.0 license.
+
+  00:00 - Harper demo
+  02:59 - disable rules
+  04:30 - move between hints
+  04:52 - what is harper
+  05:21 - IgnoreLinkTitle
+  07:18 - isolateEnglish
+  09:11 - diagnostics in hover window
+  09:55 - find the files in my dotfiles
+  10:28 - hover window config
+  11:52 - emacs helix zed vscode obsidian integration
+  12:14 - runs locally
+  12:32 - Parse lua comments
+  13:55 - harper_ls setup call
+  14:51 - Harper config options
+  15:38 - Install and setup harper through mason
+  16:30 - English only supported language
+  16:50 - Recommendations for multiple languages?
+  17:29 - Disable harper for specific paths?
+  18:21 - Push github changes
+  18:48 - Thank you for the help supporters
+  19:47 - GitHub changes in SketchyBar
+* A tutorial on 2 Columns in Emacs #emacs #coding #programming
+:PROPERTIES:
+:DATE:     2025-03-13T15:00:20-07:00
+:DURATION: 11:31
+:YOUTUBE_URL: https://www.youtube.com/watch?v=Vu36eBLwe4c
+:SPEAKERS: Raoul Comninos
+:END:
+  The notes for this video can be found here:
+  https://gist.github.com/gnarledgrip/f51a29c8e870db92be70f1c18b79cecc
+
+  PLEASE CONSIDER SUPPORTING ME.
+  You can support me on PayPal:
+  https://paypal.me/revrari
+  Or you can send me some Bitcoin:
+  3JToybg7LHAdsteTYGg7jRniRZEMCeTasj
+
+* Some problems of modernizing Emacs (incomplete - slides 0 to 6 only)
+:PROPERTIES:
+:DATE:     2025-03-11T02:42:01-07:00
+:DURATION: 20:39
+:YOUTUBE_URL: https://www.youtube.com/watch?v=BRbOXmvkFFA
+:SPEAKERS: Eduardo Ochs
+:END:
+  Some problems of modernizing Emacs (incomplete - slides 0 to 6 only)
+  http://anggtwu.net/2025-modern.html
+
+  INCOMPLETE! INCOMPLETE!
+
 * Plain Text Supremacy With Emacs  :shell:
 :PROPERTIES:
 :DATE:     2025-03-10T05:15:33-07:00
@@ -3218,6 +3708,23 @@ This is the Q&A for the talk at https://www.youtube.com/watch?v=wa6tjBXZiTU&t=0s
 
 You can view this and other resources using free/libre software at https://emacsconf.org/2024/talks/blee .
 This video is available under the terms of the Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license.
+
+* Literate Programming for the 24½ Century
+:PROPERTIES:
+:DATE:     2024-12-08T15:00:15-08:00
+:DURATION: 16:39
+:YOUTUBE_URL: https://www.youtube.com/watch?si=BsAcWOfX4Wy9VUtJ&v=OUuz9-CtCwY&feature=youtu.be
+:SPEAKERS: Howard Abrams
+:END:
+  After a decade of talking about Literating Programming with Org Mode in Emacs, I thought I might give an update of some new tips and functions I've made to make literate programming as easy and quick as "old fashioned" programming.
+
+  I originally gave this talk at EmacsConf 2024 and it contains promises of uploading and sharing some code. Check out the following:
+
+  My code at:
+  https://www.howardabrams.com/hamacs/ha-org-literate.html
+
+  Details discussed in this video:
+  https://howardism.org/Technical/Emacs/literate-writ-large.html
 
 * Survival of the skillest: Thriving in the learning jungle  :emacsconf:emacsconf2024:learning:planning:org:gtd:
 :PROPERTIES:
