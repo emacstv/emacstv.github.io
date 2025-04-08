@@ -2,6 +2,59 @@
 #+STARTUP: nolatexpreview
 #+PROPERTY: header-args:emacs-lisp+   :eval no
 
+* Nth Brains with Org Roam💻🕸
+:PROPERTIES:
+:DATE:     2025-04-02T12:33:04-07:00
+:DURATION: 33:43
+:YOUTUBE_URL: https://youtu.be/EobRvrZpp1s
+:SPEAKERS: (Bit-Mage)
+:END:
+  This video highlights the development journey of nth-roam - a way to efficiently manage multiple org roam vaults.
+
+  nth-roam     : https://github.com/rajp152k/nth-roam
+  org-roam     : https://github.com/org-roam/org-roam
+  my .dotfiles : https://github.com/rajp152k/.dotfiles
+
+  Chapters:
+  0:00 The Mandatory Introductory Ramble
+  0:30 Overview & Context
+  1:55 Problem Establishment
+  4:00 How Org Roam Manages State
+  5:45 The crux of it
+  6:05 Initial Code Conception
+  9:30 the details of the switch
+  12:00 user emacs files to stash your db
+  13:30 the inefficient switch
+  15:10 Basic Setup
+  16:00 Switch Dry Run
+  17:00 Actual Switch Demo
+  20:40 Adding a new vault
+  20:10 Deleting a vault
+  23:15 Live Debugging
+  27:20 other functionality switches too
+  28:00 what do the docs say
+  30:00 Summary
+  31:20 The Mandatory Outroductory Ramble
+
+* Lispy Gopher Climate 2025 04 02 ramin_hal9001 #emacs #unix #lisp #philosophy #live #interview
+:PROPERTIES:
+:DATE:     2025-04-02T02:06:05.817Z
+:DURATION: 1:00:33
+:PEERTUBE_URL: https://communitymedia.video/w/bHafNcgW9jDXM1kdmdsyRo
+:END:
+  Ramin_Hal9001 talks about their essays and research into emacs, the unix philosophy and lisp in history and practice, as well as live and earlier commentary and notes from Kent Pitman, Nosredna ydu...
+* Why I use Emacs
+:PROPERTIES:
+:DATE:     2025-04-01T00:12:13-07:00
+:DURATION: 13:20
+:YOUTUBE_URL: https://www.youtube.com/watch?v=3OlwyB7kghU
+:SPEAKERS: GNU /Arkboi
+:END:
+  This is a short overview of what Emacs is, why I use it and why it should not be compared to Vim.
+
+  Please subscribe to my youtube channel (https://youtube.com/@iobkrA) in your favourite browser (it will subscribe globally) if you want more content like this. 😊
+
+  Hash tags: #emacs #texteditor #gnu
 * Emacs Macros: All You Need to Know #coding #programming
 :PROPERTIES:
 :DATE:     2025-03-30T15:00:06-07:00

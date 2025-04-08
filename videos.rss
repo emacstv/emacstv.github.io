@@ -5,6 +5,53 @@
     <link>https://emacs.tv</link>
     <description>Emacs videos</description>
     <item>
+      <title>Nth Brains with Org Roam💻🕸</title>
+      <link>https://youtu.be/EobRvrZpp1s</link>
+      <description><![CDATA[<div id="content"><a href="https://youtu.be/EobRvrZpp1s">youtube</a><br><br>This video highlights the development journey of nth-roam - a way to efficiently manage multiple org roam vaults.
+
+  nth-roam     : https://github.com/rajp152k/nth-roam
+  org-roam     : https://github.com/org-roam/org-roam
+  my .dotfiles : https://github.com/rajp152k/.dotfiles
+
+  Chapters:
+  0:00 The Mandatory Introductory Ramble
+  0:30 Overview & Context
+  1:55 Problem Establishment
+  4:00 How Org Roam Manages State
+  5:45 The crux of it
+  6:05 Initial Code Conception
+  9:30 the details of the switch
+  12:00 user emacs files to stash your db
+  13:30 the inefficient switch
+  15:10 Basic Setup
+  16:00 Switch Dry Run
+  17:00 Actual Switch Demo
+  20:40 Adding a new vault
+  20:10 Deleting a vault
+  23:15 Live Debugging
+  27:20 other functionality switches too
+  28:00 what do the docs say
+  30:00 Summary
+  31:20 The Mandatory Outroductory Ramble</div>]]></description>
+      <pubDate>Wed, 02 Apr 2025 19:33:04 +0000</pubDate>
+    </item>
+    <item>
+      <title>Lispy Gopher Climate 2025 04 02 ramin_hal9001 #emacs #unix #lisp #philosophy #live #interview</title>
+      <link></link>
+      <description><![CDATA[<div id="content"><a href="https://communitymedia.video/w/bHafNcgW9jDXM1kdmdsyRo">peertube</a><br><br>Ramin_Hal9001 talks about their essays and research into emacs, the unix philosophy and lisp in history and practice, as well as live and earlier commentary and notes from Kent Pitman, Nosredna ydu...</div>]]></description>
+      <pubDate>Wed, 02 Apr 2025 02:06:05 +0000</pubDate>
+    </item>
+    <item>
+      <title>Why I use Emacs</title>
+      <link>https://www.youtube.com/watch?v=3OlwyB7kghU</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=3OlwyB7kghU">youtube</a><br><br>This is a short overview of what Emacs is, why I use it and why it should not be compared to Vim.
+
+  Please subscribe to my youtube channel (https://youtube.com/@iobkrA) in your favourite browser (it will subscribe globally) if you want more content like this. 😊
+
+  Hash tags: #emacs #texteditor #gnu</div>]]></description>
+      <pubDate>Tue, 01 Apr 2025 07:12:13 +0000</pubDate>
+    </item>
+    <item>
       <title>Emacs Macros: All You Need to Know #coding #programming</title>
       <link>https://www.youtube.com/watch?v=dFFewYmtfGM</link>
       <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=dFFewYmtfGM">youtube</a><br><br>00:00 Introduction
@@ -111,7 +158,7 @@
 
   私の設定です。
   * company
-  #+BEGIN_SRC emacs-lisp
+  #+BEGIN_SRC emacs-lisp :eval no
     (use-package company
       :ensure t
       :config
@@ -24209,7 +24256,7 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
       <description><![CDATA[<div id="content"><a href="https://youtu.be/cxJeyPZQGNI">youtube</a><br><br>📺 In this video, I will show you the intuitive and productive workflow (clone/stage/branch/log/push, etc.) of Magit, one of the killer apps in Emacs. It's the best Git client.
 
   💡 The Emacs version I demonstrated here is 27.2, and I didn't customize anything of Magit. It just runs well out of the box. Install magit as below:
-  #+begin_src elisp
+  #+begin_src elisp :eval no
   (require 'package)
 
   (setq package-archives
@@ -41295,7 +41342,7 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
       <link>https://youtu.be/5ViUBaarsbw</link>
       <description><![CDATA[<div id="content"><a href="https://youtu.be/5ViUBaarsbw">youtube</a><br><br>On popular demand, here is the gnuplot code (essentially copied from the gnuplot example at: http://gnuplot.sourceforge.net/demo_5.1/gantt.html
 
-  #+BEGIN_SRC gnuplot :var DATA=gantt-table :file gantt-out.png
+  #+BEGIN_SRC gnuplot :var DATA=gantt-table :file gantt-out.png :eval no
   OneMonth = strptime("%m","2")
   timeformat = "%Y-%m-%d"
   T(N) = timecolumn(N,timeformat)
@@ -43057,7 +43104,7 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
       <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=PHsgFWpcpVQ">youtube</a><br><br>**  Screen Shot
 
   Will take a screeshot of the current frame
-     #+begin_src emacs-lisp
+     #+begin_src emacs-lisp :eval no
        (defun screenshot-frame ()
          "Takes a screenshot of the current frame. Requires imagemagic. "
          (interactive)
@@ -43081,7 +43128,7 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
       Gives some great editing capabilities for pairs, it combines
       features from other pair editing packages, like paraedit.
 
-      #+begin_src emacs-lisp
+      #+begin_src emacs-lisp :eval no
         (use-package smartparens
    :config (require 'smartparens-config)
    (show-smartparens-global-mode 1)
@@ -43093,7 +43140,7 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
       Easily mark logical regions, much easier way to navigate pairs
       than remembering 100s of bindings for smartparens.
 
-      #+begin_src emacs-lisp
+      #+begin_src emacs-lisp :eval no
         (use-package expand-region
    :commands ( er/expand-region er/contract-region )
    :bind  ("C-=" . er/expand-region)
@@ -43200,7 +43247,7 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
 
   Show colors for color strings like ~#fff~ or ~red~ depending on the mode.
 
-  #+begin_src emacs-lisp
+  #+begin_src emacs-lisp :eval no
   (use-package rainbow-mode
   :hook (prog-mode . rainbow-mode ))
   #+end_src</div>]]></description>

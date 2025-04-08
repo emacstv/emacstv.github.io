@@ -194,8 +194,13 @@ Returns nil if not found."
 			(when (or (assoc-default "DESCRIPTION" video #'string=)
 								(assoc-default 'DESCRIPTION video))
 				(insert (org-ascii--indent-string
-								 (or (assoc-default "DESCRIPTION" video #'string=)
-										 (assoc-default 'DESCRIPTION video)) 2)
+                  (replace-regexp-in-string
+                    "^#", ",#"
+								    (or
+                      (assoc-default "DESCRIPTION" video #'string=)
+										  (assoc-default 'DESCRIPTION video)
+                      ""))
+                  2)
 								"\n\n")))
 			;; set the properties if specified
 			(dolist (prop '("DATE" "DURATION" "YOUTUBE_URL" "TOOBNIX_URL" "PEERTUBE_URL"
@@ -246,12 +251,13 @@ Returns nil if not found."
 				(setq data (json-read))))
 		(let-alist (alist-get 'videoDetails data)
 			(emacstv-add-video-object
-			 `(("ITEM" . ,.title)
-				 ("DATE" . ,(let-alist data .microformat.playerMicroformatRenderer.publishDate))
-				 ("YOUTUBE_URL" . ,url)
-				 ("DESCRIPTION" . ,.shortDescription)
-				 ("SPEAKERS" . ,.author)
-				 ("DURATION" . ,(emacstv-format-seconds (string-to-number .lengthSeconds))))))))
+			 (list
+         (cons "ITEM" . .title)
+				 (cons "DATE" . (let-alist data .microformat.playerMicroformatRenderer.publishDate))
+         (cons "YOUTUBE_URL" url)
+				 (cons "DESCRIPTION" .shortDescription)
+				 (cons "SPEAKERS" .author)
+				 (cons "DURATION" (emacstv-format-seconds (string-to-number .lengthSeconds))))))))
 
 ;; useful for extracting from YouTube:
 ;; from channel page:
