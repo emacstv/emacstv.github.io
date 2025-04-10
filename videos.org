@@ -2,6 +2,21 @@
 #+STARTUP: nolatexpreview
 #+PROPERTY: header-args:emacs-lisp+   :eval no
 
+* Advanced Emacs Motions #emacs #coding #programming
+:PROPERTIES:
+:DATE:     2025-04-06T15:00:06-07:00
+:DURATION: 15:48
+:YOUTUBE_URL: https://www.youtube.com/watch?v=XzWFdfKFJ_o
+:SPEAKERS: Raoul Comninos
+:END:
+  The notes for this video can be found here:
+  https://gitlab.com/-/snippets/4832096
+
+  PLEASE CONSIDER SUPPORTING ME.
+  You can support me on PayPal:
+  https://paypal.me/revrari
+  Or you can send me some Bitcoin:
+  3JToybg7LHAdsteTYGg7jRniRZEMCeTasj
 * Nth Brains with Org Roam💻🕸
 :PROPERTIES:
 :DATE:     2025-04-02T12:33:04-07:00
