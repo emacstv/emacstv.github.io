@@ -1,4 +1,7 @@
 * 🦬 emacs.tv
+:PROPERTIES:
+:CUSTOM_ID: emacs-tv
+:END:
 
 #+HTML: <img src="https://raw.githubusercontent.com/emacstv/emacstv.github.io/main/header.png" width="300px" />
 
@@ -7,10 +10,16 @@
 This project was born out of a [[https://social.sachachua.com/@sacha/statuses/01JF94JQQNNRXMTKN3Y1774TFP][collaboration]] between [[https://sachachua.com/blog/][Sacha Chua]] and [[https://lmno.lol/alvaro][Alvaro Ramirez]].
 
 * Watch videos on web - [[https://emacs.tv][emacs.tv]]
+:PROPERTIES:
+:CUSTOM_ID: watch-videos-on-web-emacs-tv
+:END:
 
 [[https://emacs.tv][emacs.tv]] enables browsing, searching, and viewing random videos from your browser (requires JavaScript).
 
 * Watch videos on Emacs - [[https://github.com/emacstv/emacstv.github.io/blob/main/emacstv.el][emacstv.el]]
+:PROPERTIES:
+:CUSTOM_ID: watch-videos-on-emacs-emacstv-el
+:END:
 
 Alternatively, you can access video content directly from Emacs itself. If you have the [[https://mpv.io][MPV media player]] and the [[https://github.com/kljohann/mpv.el/tree/master][mpv.el]] package (available on MELPA and NonGNU ELPA), you can install =emacstv.el= from this repo:
 
@@ -58,9 +67,15 @@ geometry=50%x50%-0-0
 #+end_example
 
 * Add videos
+:PROPERTIES:
+:CUSTOM_ID: add-videos
+:END:
 
 Help keep =emacs.tv= fresh and interesting by submitting new videos.
 ** Adding videos one by one
+:PROPERTIES:
+:CUSTOM_ID: add-videos-adding-videos-one-by-one
+:END:
 You can e-mail [[mailto:sacha@sachachua.com][sacha@sachachua.com]] with a link to the video, or you can add videos by following these steps:
 
 - [[https://github.com/emacstv/emacstv.github.io/fork][Fork]] this repository.
@@ -84,6 +99,9 @@ For example:
 
 - Submit a pull request.
 ** Adding videos from a playlist
+:PROPERTIES:
+:CUSTOM_ID: add-videos-adding-videos-from-a-playlist
+:END:
 
 Right now my workflow for adding videos from a
 YouTube playlist or from Vimeo search results use
@@ -102,6 +120,9 @@ build the data feeds.
 - [[https://vimeo.com/search?q=emacs&sort=latest_desc][Vimeo]]
 
 * Improve tags/metadata
+:PROPERTIES:
+:CUSTOM_ID: improve-tags-metadata
+:END:
 
 Many videos could really do with more tags and additional metadata. Please help us by submitting pull requests with metadata improvements.
 
@@ -115,3 +136,26 @@ the heading but not the tags.
 
 Mark items with ~m~, unmark them with ~u~, and add or remove tags from marked items with ~B +~ and ~B -~.
 You can play the video at the current line with ~M-x emacstv-play-at-point~.
+
+* Channels to check out
+:PROPERTIES:
+:CUSTOM_ID: channels-to-check-out
+:END:
+
+Here are some channels you might want to check out for more videos:
+
+- [[https://www.youtube.com/@SystemCrafters][System Crafters - YouTube]]
+- [[https://www.youtube.com/@raoulcomninos][Raoul Comninos - YouTube]]
+- [[https://www.youtube.com/@protesilaos][Protesilaos Stavrou - YouTube]] ([[https://www.youtube.com/playlist?list=PL8Bwba5vnQK14z96Gil86pLMDO2GnOhQ6][Emacs playlist]])
+- [[https://www.youtube.com/@XahLee][Xah Lee - YouTube]]
+- [[https://www.youtube.com/@Positron-gv7do][Positron's Emacs Channel - YouTube]]
+- [[https://communitymedia.video/c/screwtape_channel/videos][Lispy gopher climate technology live podcast - Community Video]]
+- [[https://toobnix.org/c/emacsconf/videos][EmacsConf - toobnix]], [[https://www.youtube.com/@EmacsConf][YouTube]]
+- [[https://www.youtube.com/@karthink][karthink - YouTube]]
+- [[https://www.youtube.com/@gnu-emacs-for-success][GNU Emacs for Success - YouTube]]
+- [[https://www.youtube.com/@emacssf1077][Emacs SF - YouTube]]
+- [[https://www.youtube.com/@JohnKitchin][John Kitchin - YouTube]] (playlists: [[https://www.youtube.com/playlist?list=PL0sMmOaE_gs3E0OjExoI7vlCAVygj6S4I][scimax]], [[https://www.youtube.com/playlist?list=PL0sMmOaE_gs1Ox-wIIbHPLZ9O5uLJ_rQW][scimax-eln]])
+- [[https://www.youtube.com/@timunkertnet][Tim Unkert Net - YouTube]]
+- [[https://www.youtube.com/@dickmao5177][dickmao - YouTube]]
+- [[https://www.youtube.com/@sachactube][Sacha Chua - YouTube]]
+- [[https://www.youtube.com/@mzamansky][Mike Zamansky - YouTube]]
