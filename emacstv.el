@@ -195,7 +195,7 @@ Returns nil if not found."
 								(assoc-default 'DESCRIPTION video))
 				(insert (org-ascii--indent-string
                   (replace-regexp-in-string
-                    "^#", ",#"
+                    "^#" ",#"
 								    (or
                       (assoc-default "DESCRIPTION" video #'string=)
 										  (assoc-default 'DESCRIPTION video)
@@ -252,8 +252,8 @@ Returns nil if not found."
 		(let-alist (alist-get 'videoDetails data)
 			(emacstv-add-video-object
 			 (list
-         (cons "ITEM" . .title)
-				 (cons "DATE" . (let-alist data .microformat.playerMicroformatRenderer.publishDate))
+         (cons "ITEM" .title)
+				 (cons "DATE" (let-alist data .microformat.playerMicroformatRenderer.publishDate))
          (cons "YOUTUBE_URL" url)
 				 (cons "DESCRIPTION" .shortDescription)
 				 (cons "SPEAKERS" .author)

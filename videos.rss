@@ -5,6 +5,560 @@
     <link>https://emacs.tv</link>
     <description>Emacs videos</description>
     <item>
+      <title>org-mode babel asymptote 日本語化(無音)。luatex-jaを使おうの続きかな？！</title>
+      <link>https://www.youtube.com/watch?v=01sz9SUiJBE</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=01sz9SUiJBE">youtube</a><br><br>luatex-jaを使っていれば簡単です。asymptoteの日本語化です。
+
+  ○お詫びと訂正、収録中間違えてしまいました。ごめんなさい。
+  usepackage("lualatexja") ー＞ usepackage("luatexja")
+
+  tex wiki の asymptote のページ
+  https://texwiki.texjp.org/?Asymptote
+  の例題をお借りしました。
+
+  org-mode関連の文書にはよく出てきてましたが、
+  私も今回初めて、asymptoteいじってみました。で、結構便利。
+  https://asymptote.sourceforge.io/asymptote_tutorial.pdf
+  を見て、私も勉強してます。
+
+  Emacs関連のチャンネルです。省エネモードで運用します。
+  Emacs ホームページ
+  https://www.gnu.org/software/emacs/
+  org-mode ホームページ
+  https://orgmode.org/ja/
+
+  和訳マニュアルの公開
+  https://ayatakesi.github.io/
+
+  日本語org modeマニュアル ちょっと古い
+  https://takaxp.github.io/org-ja.html</div>]]></description>
+      <pubDate>Mon, 21 Apr 2025 05:59:28 +0000</pubDate>
+    </item>
+    <item>
+      <title>日本人Emacsユーザはluatex-jaを使おう！(無音)</title>
+      <link>https://www.youtube.com/watch?v=VfZFFrrPyZI</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=VfZFFrrPyZI">youtube</a><br><br>無音です。日本人Emacsユーザはluatexjaを使いましょう。
+  圧倒的に利便性があります。
+
+  ○お詫びと訂正
+  いつもは間違えても直さないのですが、
+  今回肝心なところで間違えてますね。
+  ごめんなさい。訂正です。
+  1955 ー＞ 1995
+  lualatex-ja ー＞ luatex-ja
+
+  tex wiki org mode
+  https://texwiki.texjp.org/?Emacs%2FOrg%20mode
+
+  luatexja github
+  https://github.com/luatexja/luatexja
+
+  わたしのinit.orgでの設定。私もよくわかってないところあるので、
+  ちゃんとマニュアル読んでやってみてね。
+  ** org-mode ox(org export)関連
+  *** latex
+  ,#+begin_src emacs-lisp :results silent
+    (setq org-latex-compiler "lualatex")
+    (setq org-latex-classes '(("ltjsarticle"
+          "\\documentclass{ltjsarticle}
+      \\usepackage{graphicx}
+      \\usepackage{color}
+      \\usepackage{atbegshi}
+      \\usepackage[unicode=true,bookmarks=true]{hyperref}
+      \\usepackage{bookmark}
+      \\usepackage{url}
+      [NO-DEFAULT-PACKAGES]
+      [PACKAGES]
+      [EXTRA]"
+          ("\\section{%s}" . "\\section*{%s}")
+          ("\\subsection{%s}" . "\\subsection*{%s}")
+          ("\\subsubsection{%s}" . "\\subsubsection*{%s}")
+          ("\\paragraph{%s}" . "\\paragraph*{%s}")
+          ("\\subparagraph{%s}" . "\\subparagraph*{%s}"))
+
+         ("beamer"
+          "\\documentclass[presentation]{beamer}
+    [NO-DEFAULT-PACKAGES]
+    \\usepackage{luatexja}
+    \\usepackage{textcomp}
+    \\usepackage{graphicx}
+    % \\usepackage{booktabs}
+    \\usepackage{longtable}
+    \\usepackage{wrapfig}
+    \\usepackage{hyperref}
+    \\hypersetup{pdfencoding=auto, linkbordercolor={0 1 0}}
+    %% Fonts
+    % mathematical font
+    \\usepackage{fontspec}
+    \\usepackage{amsmath, amssymb}
+    \\usepackage{qtxmath}    % Times (Gyre Termes)
+    % English
+    \\setmainfont[BoldFont=TeXGyreHeros, Ligatures=TeX]{TeXGyreTermes}  % Times
+    \\setsansfont[Ligatures=TeX]{TeXGyreHeros}                          % Helvetica
+    % Japanese
+    \\usepackage{luacode}
+    \\usepackage{luatexja-otf}
+    \\usepackage[ipaex]{luatexja-preset}
+    \\renewcommand{\\kanjifamilydefault}{\\gtdefault}
+    %%
+    \\setbeamercovered{transparent}
+    \\setbeamertemplate{navigation symbols}{}"
+          ("\\section{%s}" . "\\section*{%s}")
+          ("\\subsection{%s}" . "\\subsection*{%s}")
+          ("\\subsubsection{%s}" . "\\subsubsection*{%s}")
+          ("\\paragraph{%s}" . "\\paragraph*{%s}")
+          ("\\subparagraph{%s}" . "\\subparagraph*{%s}"))))
+
+    (setq org-latex-default-class "ltjsarticle")
+    (setq org-export-with-toc nil)
+    (setq org-latex-pdf-process
+   '("lualatex -shell-escape --draftmode %b"
+     "lualatex -shell-escape %b"))
+  ,#+end_src
+
+  Emacs関連のチャンネルです。省エネモードで運用します。
+  Emacs ホームページ
+  https://www.gnu.org/software/emacs/
+  org-mode ホームページ
+  https://orgmode.org/ja/
+
+  和訳マニュアルの公開
+  https://ayatakesi.github.io/
+
+  日本語org modeマニュアル ちょっと古い
+  https://takaxp.github.io/org-ja.html</div>]]></description>
+      <pubDate>Mon, 21 Apr 2025 02:30:01 +0000</pubDate>
+    </item>
+    <item>
+      <title>Org Speed Commands #emacs #orgmode #programming #coding</title>
+      <link>https://www.youtube.com/watch?v=QNzNR-K2biI</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=QNzNR-K2biI">youtube</a><br><br>The notes for this video can be found here:
+  https://gnarledgrip.gitlab.io/
+
+  PLEASE CONSIDER SUPPORTING ME.
+  You can support me on PayPal:
+  https://paypal.me/revrari
+  Or you can send me some Bitcoin:
+  3JToybg7LHAdsteTYGg7jRniRZEMCeTasj</div>]]></description>
+      <pubDate>Sun, 20 Apr 2025 22:00:24 +0000</pubDate>
+    </item>
+    <item>
+      <title>Emacs For Beginners | Your first configuration</title>
+      <link>https://www.youtube.com/watch?v=fbiSFlykolg</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=fbiSFlykolg">youtube</a><br><br>That's right! It's time to do you first Emacs configuration, and keep it minimal. So, to give a little helping hand with my own version of what a nice minimalist config can look like. Here it is:
+
+  https://github.com/cryptstopher/darkstar
+
+  And my blog post about it:
+
+  https://chrismaiorana.com/control-excess-the-elegant-simplicity-of-vanilla-emacs/
+
+  When I started with Emacs, I started with plain vanilla GNU Emacs. I opened the tutorial and learned the basics of moving around.
+
+  I knew I wanted to use Org mode. That was all I was interested in. I didn’t care about having a fancy configuration to start. I knew I could tweak and customize along the way.
+
+  I tried out Doom and Spacemacs, and they are highly functional. But they don’t furnish you with a good foundation. There’s a lot of sophisticated software in these configurations. You may never need this much. But how would you know?
+
+  Emacs ships with a lot of built-in functionality already. I think starting with a solid foundation in the built-in functions is important before moving on to more advanced configurations.
+
+  SUBSCRIBE TO MY WEBSITE
+  🌐: https://chrismaiorana.com/subscribe/
+
+  ,#emacs</div>]]></description>
+      <pubDate>Sat, 19 Apr 2025 00:47:39 +0000</pubDate>
+    </item>
+    <item>
+      <title>Elpaca: Harnessing the power of an advanced Emacs package manager</title>
+      <link>https://www.youtube.com/watch?v=kIsEtsXyd_o</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=kIsEtsXyd_o">youtube</a><br><br>The notes for this video can be found here:
+  https://gnarledgrip.gitlab.io/
+
+  PLEASE CONSIDER SUPPORTING ME.
+  You can support me on PayPal:
+  https://paypal.me/revrari
+  Or you can send me some Bitcoin:
+  3JToybg7LHAdsteTYGg7jRniRZEMCeTasj
+
+  Follow me on X: https://x.com/GnarledGrip</div>]]></description>
+      <pubDate>Fri, 18 Apr 2025 14:54:44 +0000</pubDate>
+    </item>
+    <item>
+      <title>Semantically linking LaTeX documents jumping to URLs, with GNU Emacs.</title>
+      <link>https://www.youtube.com/watch?v=L0bFRkgm0o8</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=L0bFRkgm0o8">youtube</a><br><br>This video illustrates how a LaTeX document can be semantically linked in order to select links that jump to relevant, similar information.</div>]]></description>
+      <pubDate>Fri, 18 Apr 2025 13:19:32 +0000</pubDate>
+    </item>
+    <item>
+      <title>Semantic linking of LaTeX documents by using GNU Emacs.</title>
+      <link>https://www.youtube.com/watch?v=qNvFGXYUgJI</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=qNvFGXYUgJI">youtube</a><br><br>This video shows how LaTeX documents can be marked up by using GNU emacs in a very simple way. Documents are then asking the shell script to be interpolated and then the URL or citation can be obtained from the shell script.  When this is fully understood this is saving a lot of time and energy to many writers and creators which depend on references and hyperlinking.</div>]]></description>
+      <pubDate>Fri, 18 Apr 2025 12:44:36 +0000</pubDate>
+    </item>
+    <item>
+      <title>Ep644 emacs lisp, text processing tutorial, validate HTML annotation pairs</title>
+      <link>https://www.youtube.com/watch?v=zJ3JsYJvvcE</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=zJ3JsYJvvcE">youtube</a><br><br>notes at
+  http://xahlee.info/talk_show/xah_talk_show_2025-04-17.html
+  (if you get https error, that is because Google Chrome and Firefox browsers censor websites. Use Brave Browser or Safari, or copy and paste the url directly in url field.)</div>]]></description>
+      <pubDate>Fri, 18 Apr 2025 09:17:29 +0000</pubDate>
+    </item>
+    <item>
+      <title>Quickly Save Org Docs in Emacs #coding #programming</title>
+      <link>https://www.youtube.com/watch?v=y2snYRnPjsE</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=y2snYRnPjsE">youtube</a><br><br>The notes for this video can be found here:
+  https://gitlab.com/-/snippets/4834692
+
+  PLEASE CONSIDER SUPPORTING ME.
+  You can support me on PayPal:
+  https://paypal.me/revrari
+  Or you can send me some Bitcoin:
+  3JToybg7LHAdsteTYGg7jRniRZEMCeTasj
+
+  Follow me on X: https://x.com/GnarledGrip</div>]]></description>
+      <pubDate>Thu, 17 Apr 2025 22:01:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>GTD + Emacs</title>
+      <link>https://www.youtube.com/watch?v=jDfC6b3t8Cg</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=jDfC6b3t8Cg">youtube</a><br><br>An implementation of the GTD system in Emacs elisp.
+  https://github.com/juanmanuelferrera/gtd-E</div>]]></description>
+      <pubDate>Thu, 17 Apr 2025 18:04:18 +0000</pubDate>
+    </item>
+    <item>
+      <title>How I use Org-mode to organize my life</title>
+      <link>https://www.youtube.com/watch?v=b97vEEBEcrQ</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=b97vEEBEcrQ">youtube</a><br><br>Org mode is one of the killer apps of emacs, and for good reason. I do a broad overview of how I use org to organize my life and make sure is get things done.
+
+  Post in the comments how you use org mode in your life, functions, etc. that help you streamline processes and keep you on track.
+
+  Dotfiles: https://github.com/jblais493/dotfiles
+
+  My Setup:
+  Thinkpad t14s Gen 3 - https://amzn.to/3WxfOwi
+  Majexstand - https://amzn.to/3ydquZd
+  Chocofi Keyboard - https://shop.beekeeb.com/product/presoldered-chocofi-split-keyboard/
+  Ulanzi Superclamp - https://amzn.to/3SwVv12
+  Logitech MX Ergo - https://amzn.to/4dqzetJ
+  Shure SM7B - https://amzn.to/3LMzMyr
+  Audient ID4 Mkii - https://amzn.to/3Sz9e7A
+  Anker 100w GaN Charger - https://amzn.to/3LKH99A
+  Cables - https://amzn.to/3WvIjdX
+  Moondrop Kato - https://amzn.to/46xsUyd
+  Ulanzi Tripod - https://amzn.to/4cc3szN
+
+  Want to support the channel? Buymeacoffee here: https://buymeacoffee.com/joshuablais or Check out my book here: https://mountainthebook.com
+
+  My website: https://joshblais.com
+  Github: https://github.com/jblais493/
+  Twitter: https://twitter.com/realjoshuablais
+  Instagra: https://instagram.com/joshuablais
+
+  These links help to support the channel so I can make more content that resonates with you!</div>]]></description>
+      <pubDate>Wed, 16 Apr 2025 21:20:46 +0000</pubDate>
+    </item>
+    <item>
+      <title>Emacs Tutorial 01 - Basic Movements</title>
+      <link>https://www.youtube.com/watch?v=uR8h2gWN37I</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=uR8h2gWN37I">youtube</a><br><br>Hi there!
+
+  Today we start the introductory Emacs tutorial by focusing on the cursor movement keybinds, which are core keybinds that you must learn at the beginning of your Emacs journey. In the future we will analyze many more concepts to help you deeply understand how Emacs works and how to extract the most out of it.
+
+  If you're interested in my work and you want to support me, you can subscribe to my patreon to access my private git server, where I host all the notes and assets showcased in the video.
+
+  - Patreon: https://www.patreon.com/hexdump
+  - Coffee: https://buymeacoffee.com/hexdump
+  - Git Server: https://git.hexdump.sh
+
+  Thank you very much for watching.
+
+  -------------------------
+
+  TIMESTAMP
+
+  00:00 Introduction
+  02:00 Keybinds notations
+  04:30 Scrolling the screeen
+  06:09 Basic cursor movement
+  17:25 Some suggestions
+  20:30 Why not arrow keys?
+  23:10 Conclusion
+
+  -------------------------
+
+  REFERENCES
+
+  - Emacs: https://www.gnu.org/software/emacs/
+
+  -------------------------
+
+  CONTACTS
+  - Patreon: https://www.patreon.com/hexdump
+  - Coffee: https://buymeacoffee.com/hexdump
+  - Git: https://git.hexdump.sh
+  - Blog: https://blog.leonardotamiano.xyz/</div>]]></description>
+      <pubDate>Wed, 16 Apr 2025 12:04:03 +0000</pubDate>
+    </item>
+    <item>
+      <title>Visual Emacs Studio - It&apos;s Emacs, but looks like VSCode</title>
+      <link>https://www.youtube.com/watch?v=d2ELRRDknoY</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=d2ELRRDknoY">youtube</a><br><br>That's right. You may have been wondering, is there a solution out there for the VSCode user who wants to do Emacs Lisp the right way? Or, is there an Emacs user who wants the VSCode look and feel? Maybe! The Visual Emacs Studio package may be just what you were looking for. Check it out!
+
+  https://github.com/DevelopmentCool2449/visual-emacs
+
+  🌐: https://chrismaiorana.com/subscribe/</div>]]></description>
+      <pubDate>Tue, 15 Apr 2025 01:13:39 +0000</pubDate>
+    </item>
+    <item>
+      <title>Emacs and the art of Computer Programming - with Baishampayan Ghose (BG san)</title>
+      <link>https://www.youtube.com/watch?v=e8Yf80ODCTg</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=e8Yf80ODCTg">youtube</a><br><br>I recently fell in love, all over again, with emacs. And I want to share the beauty of this with everyone. So I went to my friend BG to help me with this.
+
+  We did a session on the Engineering Org discord where we talked about emacs and showed some of the power you get with it. And we talked about adjacent topics around programming, what it means to be one, what is the task at hand and how to get better.
+
+  Come for the emacs, stay for BGs wisdom on all things life and tech.
+
+  First video ever, so apologies - the OBS crop wasn't correct and BGs emacs window is slightly cut at the start :-/. Will do better next time. But BG drops enough nuggets of wisdom that I think it will be well worth a watch.</div>]]></description>
+      <pubDate>Mon, 14 Apr 2025 06:36:46 +0000</pubDate>
+    </item>
+    <item>
+      <title>Mastering Customization in Emacs #coding #programming #customization</title>
+      <link>https://www.youtube.com/watch?v=Z9iML_8YzsU</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=Z9iML_8YzsU">youtube</a><br><br>The notes for this video can be found here:
+  https://gnarledgrip.gitlab.io/
+
+  PLEASE CONSIDER SUPPORTING ME.
+  You can support me on PayPal:
+  https://paypal.me/revrari
+  Or you can send me some Bitcoin:
+  3JToybg7LHAdsteTYGg7jRniRZEMCeTasj
+
+  Follow me on X: https://x.com/GnarledGrip</div>]]></description>
+      <pubDate>Sun, 13 Apr 2025 22:00:36 +0000</pubDate>
+    </item>
+    <item>
+      <title>Ep643 emacs lisp, write a major mode for fsharp</title>
+      <link>https://www.youtube.com/watch?v=BUJmp2MWDSo</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=BUJmp2MWDSo">youtube</a><br><br>notes at
+  http://xahlee.info/talk_show/xah_talk_show_2025-04-12.html
+  (if you get https error, that is because Google Chrome and Firefox browsers censor websites. Use Brave Browser or Safari, or copy and paste the url directly in url field.)</div>]]></description>
+      <pubDate>Sun, 13 Apr 2025 08:17:20 +0000</pubDate>
+    </item>
+    <item>
+      <title>Setup: Clojure, Leiningen, Cider</title>
+      <link>https://www.youtube.com/watch?v=3mQPS7dWQ6g</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=3mQPS7dWQ6g">youtube</a><br><br>Ich zeige das Setup einer Clojure-Entwicklungsumgebung basierend auf Debian GNU/Linux 12 "Bookworm" mit Leiningen und Emacs mit der Erweiterung Cider.
+
+  00:00 Einstieg
+  00:30 Clojure
+  01:14 Leiningen
+  02:17 Emacs
+  03:09 Emacs-Konfiguration
+  04:29 Erweiterugen installieren
+  06:17 Konfiguration erweitern
+  06:51 Projekt anlegen
+  07:35 Cider starten
+  08:21 Cider verwenden
+  09:41 Code erweitern
+  11:01 Funktion kompilieren
+  12:05 VM hochskalieren
+  13:03 Funktion verwenden
+  13:34 Schluss</div>]]></description>
+      <pubDate>Sun, 13 Apr 2025 06:25:34 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing semext for #emacs</title>
+      <link>https://www.youtube.com/watch?v=rI_UWFLiA9U</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=rI_UWFLiA9U">youtube</a><br><br>Semext is a new library for doing fairly normal Emacs operations in a semantic way, with llms.  The repository is at:
+
+  https://github.com/ahyatt/semext</div>]]></description>
+      <pubDate>Sat, 12 Apr 2025 19:42:16 +0000</pubDate>
+    </item>
+    <item>
+      <title>Accounting in Emacs with Ledger Mode - System Crafters Live!</title>
+      <link>https://www.youtube.com/watch?v=iBCBDtVm_hg</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=iBCBDtVm_hg">youtube</a><br><br>In this stream, we'll take a look at a program called Ledger which enables you to perform double-entry bookkeeping with a plain-text format.  We'll use Ledger Mode in Emacs to experiment with the features of Ledger and see how it might be useful for personal and business accounting!
+
+  ,#emacs #ledger #accounting #plaintext
+
+  SUPPORT THE CHANNEL:
+
+  👍 Support My Work: https://systemcrafters.net/how-to-help/#support-my-work
+  📰 Subscribe to the Newsletter: https://systemcrafters.net/newsletter/
+  👕 Check out the Store: https://systemcrafters.store
+  📘 Get Your Copy of Mastering Emacs: https://www.masteringemacs.org/r/systemcrafters?utm_source=yt&utm_medium=desc&utm_campaign=scme
+
+  SHOW NOTES:
+
+  https://systemcrafters.net/live-streams/april-11-2025/
+
+  JOIN THE COMMUNITY:
+
+  https://systemcrafters.net/community/ (Forum and IRC chat!)
+  https://fosstodon.org/@daviwil
+
+  MY CONFIGURATION:
+
+  (This site is currently down but will be back up soon!)
+
+  https://config.daviwil.com
+  https://config.daviwil.com/emacs
+  https://config.daviwil.com/systems (Guix)
+
+  OTHER SERIES:
+
+  - Emacs Essentials: https://www.youtube.com/watch?v=48JlgiBpw_I&list=PLEoMzSkcN8oPZvSdewHG8uApD7THlLLCV
+  - Emacs From Scratch: https://www.youtube.com/watch?v=74zOY-vgkyw&list=PLEoMzSkcN8oPH1au7H6B7bBJ4ZO7BXjSZ
+  - Emacs Tips: https://www.youtube.com/watch?v=wKTKmE1wLyw&list=PLEoMzSkcN8oMHJ6Xil1YdnYtlWd5hHZql
+  - Emacs Desktop Environment: https://www.youtube.com/watch?v=f7xB2fFk1tQ&list=PLEoMzSkcN8oNPbEMYEtswOVTvq7CVddCS
+  - Emacs IDE: https://www.youtube.com/watch?v=E-NAM9U5JYE&list=PLEoMzSkcN8oNvsrtk_iZSb94krGRofFjN
+  - Emacs Mail: https://www.youtube.com/watch?v=yZRyEhi4y44&list=PLEoMzSkcN8oM-kA19xOQc8s0gr0PpFGJQ
+  - Learning Emacs Lisp: https://www.youtube.com/watch?v=RQK_DaaX34Q&list=PLEoMzSkcN8oPQtn7FQEF3D7sroZbXuPZ7
+  - Craft Your System with GNU Guix: https://www.youtube.com/watch?v=iBaqOK75cho&list=PLEoMzSkcN8oNxnj7jm5V2ZcGc52002pQU
+
+  CREDITS:
+
+  Coriolis Effect by logos feat. stefsax, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/mseq/26296
+  reNovation by airtone, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/airtone/60674
+  ukeSounds by airtone, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/airtone/32655
+  Between Worlds (Instrumental) by Aussens@iter, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/tobias_weber/56664</div>]]></description>
+      <pubDate>Sat, 12 Apr 2025 05:08:22 +0000</pubDate>
+    </item>
+    <item>
+      <title>Xah Talk Show Ep641 emacs lisp coding, goto-line-number-next-buffer</title>
+      <link>https://www.youtube.com/watch?v=sNGavheOsgo</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=sNGavheOsgo">youtube</a><br><br>notes at
+  http://xahlee.info/talk_show/xah_talk_show_2025-04-10.html
+  (if you get https error, that is because Google Chrome and Firefox browsers censor websites. Use Brave Browser or Safari, or copy and paste the url directly in url field.)</div>]]></description>
+      <pubDate>Fri, 11 Apr 2025 08:57:21 +0000</pubDate>
+    </item>
+    <item>
+      <title>Emacs configuration for Editors</title>
+      <link>https://www.youtube.com/watch?v=BS6jXiJU8ts</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=BS6jXiJU8ts">youtube</a><br><br>Let's create configuration for the following problem
+
+  https://forums.tamillinuxcommunity.org/t/need-help-to-make-emacs-as-fullcsreen-edtior-like-writeroom/2906</div>]]></description>
+      <pubDate>Fri, 11 Apr 2025 04:05:03 +0000</pubDate>
+    </item>
+    <item>
+      <title>Navigating the Emacs Calendar #diary</title>
+      <link>https://www.youtube.com/watch?v=fuLYSTkmzaA</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=fuLYSTkmzaA">youtube</a><br><br>The notes for this video can be found here:
+  https://gnarledgrip.gitlab.io/
+
+  PLEASE CONSIDER SUPPORTING ME.
+  You can support me on PayPal:
+  https://paypal.me/revrari
+  Or you can send me some Bitcoin:
+  3JToybg7LHAdsteTYGg7jRniRZEMCeTasj
+
+  Follow me on X: https://x.com/GnarledGrip</div>]]></description>
+      <pubDate>Thu, 10 Apr 2025 22:00:47 +0000</pubDate>
+    </item>
+    <item>
+      <title>Does emacs startup time ACTUALLY matter?</title>
+      <link>https://www.youtube.com/watch?v=6pjsTSTmvfk</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=6pjsTSTmvfk">youtube</a><br><br>I discuss my thoughts on startup time, how most compare emacs to neovim and are disappointed, and why I don't think it matters so much.
+
+  Resources in the video:
+  Bozhidar Batsov's Post: https://batsov.com/articles/2025/04/07/emacs-startup-time-does-not-matter/
+  Reddit discussion: https://www.reddit.com/r/emacs/comments/1jtja9s/emacs_startup_time_doesnt_matter/
+  My post: https://joshblais.com/posts/does-emacs-startup-time-matter/
+
+  Dotfiles: https://github.com/jblais493/dotfiles
+
+  My Setup:
+  Thinkpad t14s Gen 3 - https://amzn.to/3WxfOwi
+  Majexstand - https://amzn.to/3ydquZd
+  Chocofi Keyboard - https://shop.beekeeb.com/product/presoldered-chocofi-split-keyboard/
+  Ulanzi Superclamp - https://amzn.to/3SwVv12
+  Logitech MX Ergo - https://amzn.to/4dqzetJ
+  Shure SM7B - https://amzn.to/3LMzMyr
+  Audient ID4 Mkii - https://amzn.to/3Sz9e7A
+  Anker 100w GaN Charger - https://amzn.to/3LKH99A
+  Cables - https://amzn.to/3WvIjdX
+  Moondrop Kato - https://amzn.to/46xsUyd
+  Ulanzi Tripod - https://amzn.to/4cc3szN
+
+  Want to support the channel? Buymeacoffee here: https://buymeacoffee.com/joshuablais or Check out my book here: https://mountainthebook.com
+
+  My website: https://joshblais.com
+  Github: https://github.com/jblais493/
+  Twitter: https://twitter.com/realjoshuablais
+  Instagra: https://instagram.com/joshuablais
+
+  These links help to support the channel so I can make more content that resonates with you!</div>]]></description>
+      <pubDate>Thu, 10 Apr 2025 17:28:23 +0000</pubDate>
+    </item>
+    <item>
+      <title>Comparing Emacs region/speech or LLM queries to embeddings, LLM agents in work with Emacs Lisp</title>
+      <link>https://www.youtube.com/watch?v=jQLplzHDT1k</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=jQLplzHDT1k">youtube</a><br><br>Video demonstrates how query, or text, question, command, or speech, could be compared to embeddings in the database to find those distinctive commands.
+
+  This is one way how LLM agents can be invoked in the background:
+
+  - query is converted to embedding or multiple embeddings;
+  - multiple commands are found
+  - program may execute multiple commands
+  - program could output more possible outcomes
+  - possible outcomes could lead to more program execution
+
+  How could user prepare it?
+
+  User could say what he wants and his wishes could be stored in the database. User could say "I like sport, nature, and animals", and could describe more of his personal wishes. User could say that he follows football club Manchester United, or otherwise could speak to LLM. Queries of user could be split into various embeddings.
+
+  Use could say to computer what to do during or after certain times of the day, to maybe turn off the lights or turn on specific music.
+
+  Then on each query to LLM, the program behind, can check for specific embeddings, and invoke commands, and engage various agents in background to work for the user.
+
+  To maybe call business partner, and open up notes on screen, and inform user which is next command to be executed.
+
+  To maybe insert next command into the waiting list and inform user about it.
+
+  There are so many combinations.</div>]]></description>
+      <pubDate>Thu, 10 Apr 2025 10:10:49 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Emacs dired-du Package #emacs #coding #programming</title>
+      <link>https://www.youtube.com/watch?v=5o7pajQ-k_c</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=5o7pajQ-k_c">youtube</a><br><br>The notes for this video can be found here:
+  https://gnarledgrip.gitlab.io/
+
+  PLEASE CONSIDER SUPPORTING ME.
+  You can support me on PayPal:
+  https://paypal.me/revrari
+  Or you can send me some Bitcoin:
+  3JToybg7LHAdsteTYGg7jRniRZEMCeTasj
+
+  Follow me on X: https://x.com/GnarledGrip</div>]]></description>
+      <pubDate>Tue, 08 Apr 2025 22:00:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>Emacs vibe-talkin: making my modeline personal</title>
+      <link>https://www.youtube.com/watch?v=-i-ShfdMSTw</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=-i-ShfdMSTw">youtube</a><br><br>Just a vibe-talkin video about making my modeline personal and what that looks like from here. Your modeline might be different, and that's all good. It's your personal canvas to decorate as you see fit. I followed Prot's excellent video about how to build your own modeline from scratch. Here's the link to my modeline code if you want to check it out try it yourself:
+
+  https://gist.github.com/cryptstopher/2bb210d65a56dd1d73c97a2731666501
+
+  🌐: https://chrismaiorana.com/subscribe/</div>]]></description>
+      <pubDate>Tue, 08 Apr 2025 20:47:28 +0000</pubDate>
+    </item>
+    <item>
+      <title>RCD Notes RAG (Retrieval Augmented Generation) for GNU Emacs, demonstration #01</title>
+      <link>https://www.youtube.com/watch?v=NYBbt49Koqg</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=NYBbt49Koqg">youtube</a><br><br>This demonstrates talking with intersection of documents, only those related to llama.cpp, instead of using all 65000+ documents.</div>]]></description>
+      <pubDate>Mon, 07 Apr 2025 20:13:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>Emacs | Launch local server for HTML, CSS, JavaScript development</title>
+      <link>https://www.youtube.com/watch?v=YMdfE3kNClY</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=YMdfE3kNClY">youtube</a><br><br>Let's do this. You don't need to install Apache or NGINX and set up and manage complicated virtual host files. Who's got time for that these days? It can be so much simpler. And that's what Emacs does, it simplifies through complexity. But I break it down for you so you can get the gist without any of the hassle. Watch and learn and find out what it's all about. Launch a simple HTTP service via Emacs. This video. Here's the blog post for reference and more information:
+
+  https://chrismaiorana.com/spin-up-a-simple-web-server-from-emacs/
+
+  🌐: https://chrismaiorana.com/subscribe/</div>]]></description>
+      <pubDate>Mon, 07 Apr 2025 09:15:02 +0000</pubDate>
+    </item>
+    <item>
       <title>Advanced Emacs Motions #emacs #coding #programming</title>
       <link>https://www.youtube.com/watch?v=XzWFdfKFJ_o</link>
       <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=XzWFdfKFJ_o">youtube</a><br><br>The notes for this video can be found here:
@@ -16,6 +570,21 @@
   Or you can send me some Bitcoin:
   3JToybg7LHAdsteTYGg7jRniRZEMCeTasj</div>]]></description>
       <pubDate>Sun, 06 Apr 2025 22:00:06 +0000</pubDate>
+    </item>
+    <item>
+      <title>Emacs makes a big ediff #emacs #coding #programming</title>
+      <link>https://www.youtube.com/watch?v=4eYXTlZ2SwQ</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=4eYXTlZ2SwQ">youtube</a><br><br>The notes for this video can be found here:
+  https://gnarledgrip.gitlab.io/
+
+  PLEASE CONSIDER SUPPORTING ME.
+  You can support me on PayPal:
+  https://paypal.me/revrari
+  Or you can send me some Bitcoin:
+  3JToybg7LHAdsteTYGg7jRniRZEMCeTasj
+
+  Follow me on X: https://x.com/GnarledGrip</div>]]></description>
+      <pubDate>Thu, 03 Apr 2025 22:00:05 +0000</pubDate>
     </item>
     <item>
       <title>Nth Brains with Org Roam💻🕸</title>
@@ -53,6 +622,36 @@
       <link></link>
       <description><![CDATA[<div id="content"><a href="https://communitymedia.video/w/bHafNcgW9jDXM1kdmdsyRo">peertube</a><br><br>Ramin_Hal9001 talks about their essays and research into emacs, the unix philosophy and lisp in history and practice, as well as live and earlier commentary and notes from Kent Pitman, Nosredna ydu...</div>]]></description>
       <pubDate>Wed, 02 Apr 2025 02:06:05 +0000</pubDate>
+    </item>
+    <item>
+      <title>Two Productivity Packages: bufferfile and stripspace #emacs #coding #programming</title>
+      <link>https://www.youtube.com/watch?v=esRTjdRh4yo</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=esRTjdRh4yo">youtube</a><br><br>https://sachachua.com/blog/2025/03/2025-03-31-emacs-news/
+  The notes for this video can be found here:
+  https://gnarledgrip.gitlab.io/
+
+  PLEASE CONSIDER SUPPORTING ME.
+  You can support me on PayPal:
+  https://paypal.me/revrari
+  Or you can send me some Bitcoin:
+  3JToybg7LHAdsteTYGg7jRniRZEMCeTasj
+
+  Follow me on X: https://x.com/GnarledGrip</div>]]></description>
+      <pubDate>Wed, 02 Apr 2025 05:34:12 +0000</pubDate>
+    </item>
+    <item>
+      <title>Emacs Mono Complete Package #emacs #coding #programming</title>
+      <link>https://www.youtube.com/watch?v=_VQ_nwTT7J0</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=_VQ_nwTT7J0">youtube</a><br><br>https://codeberg.org/ideasman42/emacs-mono-complete
+
+  PLEASE CONSIDER SUPPORTING ME.
+  You can support me on PayPal:
+  https://paypal.me/revrari
+  Or you can send me some Bitcoin:
+  3JToybg7LHAdsteTYGg7jRniRZEMCeTasj
+
+  Follow me on X: https://x.com/GnarledGrip</div>]]></description>
+      <pubDate>Tue, 01 Apr 2025 20:07:50 +0000</pubDate>
     </item>
     <item>
       <title>Why I use Emacs</title>
@@ -304,6 +903,54 @@
       <pubDate>Wed, 26 Mar 2025 03:47:11 +0000</pubDate>
     </item>
     <item>
+      <title>The Emacs Claude Code Package #coding #ai #programming #project</title>
+      <link>https://www.youtube.com/watch?v=K8sCVLmFyyU</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=K8sCVLmFyyU">youtube</a><br><br>The notes for this video can be found here:
+  https://gitlab.com/-/snippets/4830175
+
+  PLEASE CONSIDER SUPPORTING ME.
+  You can support me on PayPal:
+  https://paypal.me/revrari
+  Or you can send me some Bitcoin:
+  3JToybg7LHAdsteTYGg7jRniRZEMCeTasj
+
+  Follow me on X: https://x.com/GnarledGrip</div>]]></description>
+      <pubDate>Wed, 19 Mar 2025 07:14:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>Set up Emacs for Classical Greek and Hebrew #greek #hebrew #emacs</title>
+      <link>https://www.youtube.com/watch?v=Fl4eu_bv54c</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=Fl4eu_bv54c">youtube</a><br><br>The notes for this video can be found here:
+  https://gitlab.com/-/snippets/4830177
+
+  PLEASE CONSIDER SUPPORTING ME.
+  You can support me on PayPal:
+  https://paypal.me/revrari
+  Or you can send me some Bitcoin:
+  3JToybg7LHAdsteTYGg7jRniRZEMCeTasj
+
+  Follow me on X: https://x.com/GnarledGrip</div>]]></description>
+      <pubDate>Mon, 17 Mar 2025 18:39:59 +0000</pubDate>
+    </item>
+    <item>
+      <title>Backup Each Save #emacs #backup #coding #programming</title>
+      <link>https://www.youtube.com/watch?v=igsXmdRQOIs</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=igsXmdRQOIs">youtube</a><br><br>The notes for this video can be found here:
+  //////////////////////////////////////////////////////////////
+  (require 'backup-each-save)
+  (setq backup-each-save-mirror-location "~/.emacs.d/.backups")
+  (add-hook 'after-save-hook 'backup-each-save)
+  /////////////////////////////////////////////////////////////////////
+  PLEASE CONSIDER SUPPORTING ME.
+  You can support me on PayPal:
+  https://paypal.me/revrari
+  Or you can send me some Bitcoin:
+  3JToybg7LHAdsteTYGg7jRniRZEMCeTasj
+
+  Follow me on X: https://x.com/GnarledGrip</div>]]></description>
+      <pubDate>Mon, 17 Mar 2025 18:39:17 +0000</pubDate>
+    </item>
+    <item>
       <title>GNU Emacs má 40 let (Tomáš Čech)</title>
       <link>https://www.youtube.com/watch?v=KbYlGhogXxg</link>
       <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=KbYlGhogXxg">youtube</a><br><br>Přednáška na konferenci Installfest 2025 (https://www.installfest.cz/if25/)
@@ -357,6 +1004,18 @@
 
   #Linux #Emacs #TextEditor #EmacsTutorial #LinuxCommands #Programming #DevOps #EmacsShortcuts #TerminalCommands #SysAdmin #LinuxForBeginners</div>]]></description>
       <pubDate>Sun, 16 Mar 2025 18:30:42 +0000</pubDate>
+    </item>
+    <item>
+      <title>Dragstuff - moving lines up and down in Emacs #lines</title>
+      <link>https://www.youtube.com/watch?v=S0FCPsiNtl8</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=S0FCPsiNtl8">youtube</a><br><br>PLEASE CONSIDER SUPPORTING ME.
+  You can support me on PayPal:
+  https://paypal.me/revrari
+  Or you can send me some Bitcoin:
+  3JToybg7LHAdsteTYGg7jRniRZEMCeTasj
+
+  Follow me on X: https://x.com/GnarledGrip</div>]]></description>
+      <pubDate>Sat, 15 Mar 2025 08:34:18 +0000</pubDate>
     </item>
     <item>
       <title>Dotfiles Check-Up: Emacs and Guix Tweaks - System Crafters Live!</title>
@@ -641,6 +1300,21 @@
       <pubDate>Fri, 07 Mar 2025 08:38:44 +0000</pubDate>
     </item>
     <item>
+      <title>Mastering Rectangles in Emacs #column #emacs</title>
+      <link>https://www.youtube.com/watch?v=Beqf9X4seLA</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=Beqf9X4seLA">youtube</a><br><br>The notes for this video can be found here:
+  https://mega.nz/folder/XyQQEBRY#jQ-Eo_o8mDPo_d5_86sAww
+
+  PLEASE CONSIDER SUPPORTING ME.
+  You can support me on PayPal:
+  https://paypal.me/revrari
+  Or you can send me some Bitcoin:
+  3JToybg7LHAdsteTYGg7jRniRZEMCeTasj
+
+  Follow me on X: https://x.com/GnarledGrip</div>]]></description>
+      <pubDate>Thu, 06 Mar 2025 22:00:06 +0000</pubDate>
+    </item>
+    <item>
       <title>Emacs Note Taking &amp; Journaling with org-gnosis</title>
       <link>https://www.youtube.com/watch?v=5SkLa7jGjl0&amp;feature=youtu.be</link>
       <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=5SkLa7jGjl0&feature=youtu.be">youtube</a><br><br>Overview about org-gnosis, a Roam-like Knowledge Management System for GNU Emacs.
@@ -653,6 +1327,43 @@
 
   Video notes: https://thanosapollo.org/posts/org-gnosis-overview/</div>]]></description>
       <pubDate>Mon, 03 Mar 2025 19:11:59 +0000</pubDate>
+    </item>
+    <item>
+      <title>Emacs smart-mode-line Package #emacs #coding #programming</title>
+      <link>https://www.youtube.com/watch?v=vc5jEDlq2P8</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=vc5jEDlq2P8">youtube</a><br><br>The notes for this video can be found here:
+  https://mega.nz/folder/7ugwUIAI#rYyqNQ_vkl_JVbCqxQVsGw
+
+  PLEASE CONSIDER SUPPORTING ME.
+  You can support me on PayPal:
+  https://paypal.me/revrari
+  Or you can send me some Bitcoin:
+  3JToybg7LHAdsteTYGg7jRniRZEMCeTasj
+
+  Follow me on X: https://x.com/GnarledGrip</div>]]></description>
+      <pubDate>Sun, 02 Mar 2025 22:00:30 +0000</pubDate>
+    </item>
+    <item>
+      <title>Store snippets of information fast with Emacs Remember #coding #programming</title>
+      <link>https://www.youtube.com/watch?v=adEvbf3zoxk</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=adEvbf3zoxk">youtube</a><br><br>The notes for this video can be found here:
+  /////////////////////////////////////////////////////////////
+  (require 'remember)
+  (setq remember-data-directory "~/.emacs.d/remember")
+  (setq remember-handler-functions '(remember-store-in-files))
+  (setq remember-annotation-functions nil)
+  (setq remember-directory-file-name-format "lisp-snippet-%Y-%m-%d-%T.el")
+  (global-set-key (kbd "C-c r") 'remember-region)
+  (global-set-key (kbd "C-c z") 'remember-finalize)
+  /////////////////////////////////////////////////////////////////////
+  PLEASE CONSIDER SUPPORTING ME.
+  You can support me on PayPal:
+  https://paypal.me/revrari
+  Or you can send me some Bitcoin:
+  3JToybg7LHAdsteTYGg7jRniRZEMCeTasj
+
+  Follow me on X: https://x.com/GnarledGrip</div>]]></description>
+      <pubDate>Fri, 28 Feb 2025 04:09:12 +0000</pubDate>
     </item>
     <item>
       <title>The Golden Ratio Package in Emacs</title>
@@ -966,6 +1677,21 @@
       <pubDate>Mon, 17 Feb 2025 16:26:46 +0000</pubDate>
     </item>
     <item>
+      <title>What&apos;s new in Emacs 29 #emacs #coding #programming</title>
+      <link>https://www.youtube.com/watch?v=gcQ-CvYl6Fs</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=gcQ-CvYl6Fs">youtube</a><br><br>The notes for this video can be found here:
+  https://mega.nz/folder/2qomCaSC#1oEgu0Ts5ndJdlMjZhEscw
+  Follow me on X:
+  https://x.com/GnarledGrip
+
+  PLEASE CONSIDER SUPPORTING ME.
+  You can support me on PayPal:
+  https://paypal.me/revrari
+  Or you can send me some Bitcoin:
+  3JToybg7LHAdsteTYGg7jRniRZEMCeTasj</div>]]></description>
+      <pubDate>Mon, 17 Feb 2025 04:02:34 +0000</pubDate>
+    </item>
+    <item>
       <title>Installing Doom Emacs on Windows #emacs #doomemacs #keybinds</title>
       <link>https://www.youtube.com/watch?v=IAZU6sC46YU</link>
       <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=IAZU6sC46YU">youtube</a><br><br>https://mega.nz/file/zuBDkC6Z#_u6P1_FYywOeIcTwF5C5avSMPKHQj9cgdOSBS0N5R5A
@@ -1020,6 +1746,19 @@
       <link>https://www.youtube.com/watch?v=DqKfUnaKozA</link>
       <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=DqKfUnaKozA">youtube</a><br><br>просто свои мысли</div>]]></description>
       <pubDate>Fri, 14 Feb 2025 07:37:23 +0000</pubDate>
+    </item>
+    <item>
+      <title>Enhanced Image Features in Emacs 29 #coding #programming</title>
+      <link>https://www.youtube.com/watch?v=q0J12EJ6qJk</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=q0J12EJ6qJk">youtube</a><br><br>The notes for this video can be found here:
+  https://mega.nz/folder/2qomCaSC#1oEgu0Ts5ndJdlMjZhEscw
+
+  PLEASE CONSIDER SUPPORTING ME.
+  You can support me on PayPal:
+  https://paypal.me/revrari
+  Or you can send me some Bitcoin:
+  3JToybg7LHAdsteTYGg7jRniRZEMCeTasj</div>]]></description>
+      <pubDate>Thu, 13 Feb 2025 22:00:29 +0000</pubDate>
     </item>
     <item>
       <title>Emacs Tamil Introduction</title>
