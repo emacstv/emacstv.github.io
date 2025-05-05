@@ -2,46 +2,6 @@
 #+STARTUP: nolatexpreview
 #+PROPERTY: header-args:emacs-lisp+   :eval no
 
-* Listen To Internet Radio With Emacs And Eradio
-:PROPERTIES:
-:DATE:     2025-05-04T21:01:16-07:00
-:DURATION: 9:24
-:YOUTUBE_URL: https://www.youtube.com/watch?v=hEbEY96vUcU
-:SPEAKERS: Stacked Dev
-:END:
-  GET SPECIAL DISCOUNT ON YOUR DEALS TECHBRIEFINGZONE.COM/OFFERS
-
-  Original video published date: 2023-10-27
-  Original video description: 'eradio' is a simple Internet radio player for Emacs.  Installation and setup is super easy, since 'eradio' consists of only three functions (play, stop, toggle) and three variables that you may or may not need to edit.
-
-  REFERENCED:
-  º https://github.com/olavfosse/eradio
-
-  WANT TO SUPPORT THE CHANNEL?
-  ° Patreon: https://www.patreon.com/distrotube
-  ³ Paypal: https://www.youtube.com/redirect?event=channel_banner&redir_token=QUFFLUhqazNocEhiaGFBT1l1MnRHbnlIcHFKbXJWVnpQd3xBQ3Jtc0tsLVZJc19YeFlwZ2JqbXVOa3g0Skw4TVhTV2otNm1tM3A1bUNnamh3S2V6OGQtLTBnSjBxYTlvUXMxeEVIS3o4US10NENHMUQ3STk2a01FOFBhUnZjZFctMEhFUTg1TVctQmFfVUdxZXJ4TDl0azlYNA&q=https%3A%2F%2Fwww.paypal.com%2Fcgi-bin%2Fwebscr%3Fcmd%3D_donations%26business%3Dderek%2540distrotube%252ecom%26lc%3DUS%26item_name%3DDistroTube%26no_note%3D0%26currency_code%3DUSD%26bn%3DPP%252dDonationsBF%253abtn_donateCC_LG%252egif%253aNonHostedGuest
-  Í Amazon: https://amzn.to/2RotFFi
-  U Teespring: https://teespring.com/stores/distrotube
-
-  DT ON THE WEB:
-  x Website: http://distrotube.com/
-  Á GitLab: https://gitlab.com/dwt1
-  è Mastodon: https://fosstodon.org/@distrotube
-  k Reddit: https://www.reddit.com/r/DistroTube/
-  ý LBRY/Odysee: https://odysee.com/@DistroTube:2
-
-  FREE AND OPEN SOURCE SOFTWARE THAT I USE:
-   Brave Browser - https://brave.com/dis872
-  ý Open Broadcaster Software: https://obsproject.com/
-  ¬ Kdenlive: https://kdenlive.org
-  ¨ GIMP: https://www.gimp.org/
-  µ Tenacity: https://github.com/tenacityteam/tenacity
-  » VirtualBox: https://www.virtualbox.org/
-  Ò Doom Emacs: https://github.com/hlissner/doom-emacs
-
-  Your support is very much appreciated. Thanks, guys!
-  Original video link: https://www.youtube.com/watch?v=P8p3zXSzY4c
-
 * Slackware-15.0:  Doom Emacs Install (v02)
 :PROPERTIES:
 :DATE:     2025-05-04T17:08:36-07:00
