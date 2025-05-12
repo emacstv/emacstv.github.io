@@ -2,6 +2,67 @@
 #+STARTUP: nolatexpreview
 #+PROPERTY: header-args:emacs-lisp+   :eval no
 
+* A few tweaks to Emacs (without elisp) to make it nicer
+:PROPERTIES:
+:DATE:     2025-05-11T05:00:28-07:00
+:DURATION: 3:45
+:YOUTUBE_URL: https://www.youtube.com/watch?v=HWpeZY4XzxE
+:SPEAKERS: Timothy Unkert
+:END:
+  In this video, I go through a few tweaks I make to Emacs when setting it up on a Chromebook to make it nicer.
+
+* Control Emacs with Model Context Protocol (MCP)
+:PROPERTIES:
+:DATE:     2025-05-08T22:16:20-07:00
+:DURATION: 4:04
+:YOUTUBE_URL: https://youtu.be/ojeBNAtZea4
+:SPEAKERS: Vivek Haldar
+:END:
+  https://github.com/vivekhaldar/emacs-mcp-server
+
+  00:00 - Introduction to MCP Model
+  00:13 - Writing an MCP Server
+  01:14 - Setting Up Claude with MCP
+  01:56 - Demonstrating Emacs Commands
+  03:31 - Conclusion and Further Resources
+* IT'S ALIVE !! Doom Emacs On Windows
+:PROPERTIES:
+:DATE:     2025-05-08T15:54:46-07:00
+:DURATION: 23:11
+:YOUTUBE_URL: https://www.youtube.com/watch?v=tTsCTb0tCAg
+:SPEAKERS: Caribou Data Science
+:END:
+  #emacs , #doomemacs , #gitbash
+  IT'S ALIVE !! Doom Emacs On Windows
+
+  * Install Guide:
+  https://earvingad.github.io/posts/doom_emacs_windows/
+
+
+  * Install Emacs for Windows:
+  https://mirrors.ibiblio.org/gnu/emacs/windows/emacs-30/
+  * Install Git Bash:
+  https://gitforwindows.org/
+
+  * And last but not least, Doom Emacs forWindows script:
+  git clone https://github.com/hlissner/doom-emacs ~/.emacs.d
+
+  * ripgrep (be sure and get the Windows GNU version):
+  https://github.com/BurntSushi/ripgrep/releases
+  * fd (be sure and get the Windows GNU version):
+  https://github.com/sharkdp/fd/releases
+
+* Improving Frappe Developer Experience in Emacs | Ruthra Kumar
+:PROPERTIES:
+:DATE:     2025-05-08T03:30:38-07:00
+:DURATION: 33:45
+:YOUTUBE_URL: https://www.youtube.com/watch?v=sB2v7nPHedE
+:SPEAKERS: Frappe
+:END:
+  In this talk, Ruthra Kumar shares how he built an Emacs extension to improve the Frappe developer experience. By creating tools to interact with Bench directly from Emacs, he demonstrates how simple editor automation can lead to a faster and smoother development workflow. Whether you use Emacs or are just curious about custom tooling, this session offers a glimpse into how small improvements can make a big difference.
+
+  Major mode is available in this repo: https://github.com/ruthra-kumar/frappe-bench-major-mode
+
 * Slackware-15.0:  Doom Emacs Install (v02)
 :PROPERTIES:
 :DATE:     2025-05-04T17:08:36-07:00
@@ -33,6 +94,20 @@
   R/Tidyverse/MongoDb: More Extract and Load (vid 03):
   https://youtu.be/NavfdNxWaLo?si=rmG6bq4D3qvMTjod
 
+* Isolating select information in Emacs #registry #macros
+:PROPERTIES:
+:DATE:     2025-05-04T15:00:03-07:00
+:DURATION: 2:51
+:YOUTUBE_URL: https://www.youtube.com/watch?v=2Qyd-uJDcd4
+:SPEAKERS: Emacs Elements
+:END:
+  My website: https://gnarledgrip.gitlab.io/
+  (Notes for videos can be found there.)
+  Follow me on Mastodon: https://mastodon.social/@revrari
+  Follow me on X: https://x.com/GnarledGrip
+  If you enjoy my videos you can send me a donation via PayPal:
+  https://paypal.me/revrari
+
 * Ep651 emacs lisp coding, text processing
 :PROPERTIES:
 :DATE:     2025-05-03T22:12:04-07:00
@@ -43,6 +118,140 @@
   notes at
   http://xahlee.info/talk_show/xah_talk_show_2025-05-03.html
   (if you get https error, that is because Google Chrome and Firefox browsers censor websites. Use Brave Browser or Safari, or copy and paste the url directly in url field.)
+
+* Insert verses from the Bible into Emacs #reupload
+:PROPERTIES:
+:DATE:     2025-05-03T01:39:19-07:00
+:DURATION: 7:27
+:YOUTUBE_URL: https://www.youtube.com/watch?v=oZhjm-KSuLE
+:SPEAKERS: Emacs Elements
+:END:
+  My website: https://gnarledgrip.gitlab.io/
+  (Notes for videos can be found there.)
+  Follow me on Mastodon: https://mastodon.social/@revrari
+  Follow me on X: https://x.com/GnarledGrip
+  If you enjoy my videos you can send me a donation via PayPal:
+  https://paypal.me/revrari
+
+* 15 Awesome Emacs Eshell Tips #coding #terminal #programming #reupload
+:PROPERTIES:
+:DATE:     2025-05-03T01:22:40-07:00
+:DURATION: 17:10
+:YOUTUBE_URL: https://www.youtube.com/watch?v=vw8_FJXxicM
+:SPEAKERS: Emacs Elements
+:END:
+  My website: https://gnarledgrip.gitlab.io/
+  (Notes for videos can be found there.)
+  Follow me on Mastodon: https://mastodon.social/@revrari
+  Follow me on X: https://x.com/GnarledGrip
+  If you enjoy my videos you can send me a donation via PayPal:
+  https://paypal.me/revrari
+
+* The Strange and Peculiar World of Emacs Regular Expressions #reupload #regex
+:PROPERTIES:
+:DATE:     2025-05-03T01:21:36-07:00
+:DURATION: 22:27
+:YOUTUBE_URL: https://www.youtube.com/watch?v=woGl1XpXG98&pp=0gcJCYUJAYcqIYzv
+:SPEAKERS: Emacs Elements
+:END:
+  My website: https://gnarledgrip.gitlab.io/
+  (Notes for videos can be found there.)
+  Follow me on Mastodon: https://mastodon.social/@revrari
+  Follow me on X: https://x.com/GnarledGrip
+  If you enjoy my videos you can send me a donation via PayPal:
+  https://paypal.me/revrari
+
+* 3 Minute Guide to Emacs Autoinsert Mode #coding #programming #org #reupload
+:PROPERTIES:
+:DATE:     2025-05-03T01:18:31-07:00
+:DURATION: 2:34
+:YOUTUBE_URL: https://www.youtube.com/watch?v=Qkr3J5R9LSQ
+:SPEAKERS: Emacs Elements
+:END:
+  My website: https://gnarledgrip.gitlab.io/
+  (Notes for videos can be found there.)
+  Follow me on Mastodon: https://mastodon.social/@revrari
+  Follow me on X: https://x.com/GnarledGrip
+  If you enjoy my videos you can send me a donation via PayPal:
+  https://paypal.me/revrari
+
+* Basic introduction to Emacs Calc #emacs #calculator #mathematics #reupload
+:PROPERTIES:
+:DATE:     2025-05-03T01:17:30-07:00
+:DURATION: 7:09
+:YOUTUBE_URL: https://www.youtube.com/watch?v=S585j4Nj-QM
+:SPEAKERS: Emacs Elements
+:END:
+  My website: https://gnarledgrip.gitlab.io/
+  (Notes for videos can be found there.)
+  Follow me on Mastodon: https://mastodon.social/@revrari
+  Follow me on X: https://x.com/GnarledGrip
+  If you enjoy my videos you can send me a donation via PayPal:
+  https://paypal.me/revrari
+
+* Emacs Help Essentials in 4 Minutes #emacs #reupload #reedit
+:PROPERTIES:
+:DATE:     2025-05-03T01:16:35-07:00
+:DURATION: 4:19
+:YOUTUBE_URL: https://www.youtube.com/watch?v=ZCNRv3WVx1Q
+:SPEAKERS: Emacs Elements
+:END:
+  My website: https://gnarledgrip.gitlab.io/
+  (Notes for videos can be found there.)
+  Follow me on Mastodon: https://mastodon.social/@revrari
+  Follow me on X: https://x.com/GnarledGrip
+  If you enjoy my videos you can send me a donation via PayPal:
+  https://paypal.me/revrari
+
+* It bears repeating: Two Emacs Repeat Commands #coding #programming #reupload
+:PROPERTIES:
+:DATE:     2025-05-03T01:15:06-07:00
+:DURATION: 2:37
+:YOUTUBE_URL: https://www.youtube.com/watch?v=8yE0fg606d8
+:SPEAKERS: Emacs Elements
+:END:
+  My website: https://gnarledgrip.gitlab.io/
+  (Notes for videos can be found there.)
+  Follow me on Mastodon: https://mastodon.social/@revrari
+  Follow me on X: https://x.com/GnarledGrip
+  If you enjoy my videos you can send me a donation via PayPal:
+  https://paypal.me/revrari
+
+* Emacs Package Embark: Key Features and Tweaks #reupload #edited
+:PROPERTIES:
+:DATE:     2025-05-01T09:51:27-07:00
+:DURATION: 17:52
+:YOUTUBE_URL: https://www.youtube.com/watch?v=4ycUZ7imCPU
+:SPEAKERS: Emacs Elements
+:END:
+  The notes for this video can be found here on my website:
+  https://gnarledgrip.gitlab.io/
+
+  PLEASE CONSIDER SUPPORTING ME.
+  You can support me on PayPal:
+  https://paypal.me/revrari
+  Or you can send me some Bitcoin:
+  3JToybg7LHAdsteTYGg7jRniRZEMCeTasj
+
+  Follow me on X: https://x.com/GnarledGrip
+
+* Vertico: Minimalist Vertical Interactive Completion in Emacs #reupload
+:PROPERTIES:
+:DATE:     2025-05-01T09:50:58-07:00
+:DURATION: 8:28
+:YOUTUBE_URL: https://www.youtube.com/watch?v=ERyNSLRsNsg
+:SPEAKERS: Emacs Elements
+:END:
+  The notes for this video can be found here on my website:
+  https://gnarledgrip.gitlab.io/
+
+  PLEASE CONSIDER SUPPORTING ME.
+  You can support me on PayPal:
+  https://paypal.me/revrari
+  Or you can send me some Bitcoin:
+  3JToybg7LHAdsteTYGg7jRniRZEMCeTasj
+
+  Follow me on X: https://x.com/GnarledGrip
 
 * Detecting Emacs Package Synergy - Crafter Hours
 :PROPERTIES:
@@ -58,9 +267,9 @@
   SUPPORT THE CHANNEL:
 
   M Support My Work: https://systemcrafters.net/how-to-help/#support-my-work
-  � Subscribe to the Newsletter: https://systemcrafters.net/newsletter/
+  Subscribe to the Newsletter: https://systemcrafters.net/newsletter/
   U Check out the Store: https://systemcrafters.store
-  � Get Your Copy of Mastering Emacs: https://www.masteringemacs.org/r/systemcrafters?utm_source=yt&utm_medium=desc&utm_campaign=scme
+  Get Your Copy of Mastering Emacs: https://www.masteringemacs.org/r/systemcrafters?utm_source=yt&utm_medium=desc&utm_campaign=scme
 
   DEVELOPMENT LOG:
 
@@ -109,6 +318,109 @@
 :END:
   https://github.com/commercial-emacs/commercial-emacs.git
 
+* Changing the color of the region for Vanilla Emacs #coding #themes #reupload
+:PROPERTIES:
+:DATE:     2025-04-28T11:18:37-07:00
+:DURATION: 1:55
+:YOUTUBE_URL: https://www.youtube.com/watch?v=IJ_r1oLIC64
+:SPEAKERS: Emacs Elements
+:END:
+  My website: https://gnarledgrip.gitlab.io/
+  (Notes for videos can be found there.)
+  Follow me on Mastodon: https://mastodon.social/@revrari
+  Follow me on X: https://x.com/GnarledGrip
+  If you enjoy my videos you can send me a donation via PayPal:
+  https://paypal.me/revrari
+
+* Handling PDF files in Emacs with DocView Mode #reupload
+:PROPERTIES:
+:DATE:     2025-04-28T11:15:33-07:00
+:DURATION: 10:44
+:YOUTUBE_URL: https://www.youtube.com/watch?v=2kBe0lu4uAE
+:SPEAKERS: Emacs Elements
+:END:
+  The notes for this video can be found here on my website:
+  https://gnarledgrip.gitlab.io/
+
+  PLEASE CONSIDER SUPPORTING ME.
+  You can support me on PayPal:
+  https://paypal.me/revrari
+  Or you can send me some Bitcoin:
+  3JToybg7LHAdsteTYGg7jRniRZEMCeTasj
+
+  Follow me on X: https://x.com/GnarledGrip
+
+* Emacs Evil Nerd Commenter: Comment/uncomment lines more efficiently #reupload
+:PROPERTIES:
+:DATE:     2025-04-28T11:12:54-07:00
+:DURATION: 2:34
+:YOUTUBE_URL: https://www.youtube.com/watch?v=F9YyCSC-dK4
+:SPEAKERS: Emacs Elements
+:END:
+  The notes for this video can be found here on my website:
+  https://gnarledgrip.gitlab.io/
+
+  PLEASE CONSIDER SUPPORTING ME.
+  You can support me on PayPal:
+  https://paypal.me/revrari
+  Or you can send me some Bitcoin:
+  3JToybg7LHAdsteTYGg7jRniRZEMCeTasj
+
+  Follow me on X: https://x.com/GnarledGrip
+
+* The Doom Modeline Package for Emacs #reupload
+:PROPERTIES:
+:DATE:     2025-04-28T11:12:17-07:00
+:DURATION: 6:22
+:YOUTUBE_URL: https://www.youtube.com/watch?v=gWjmBw4REYE
+:SPEAKERS: Emacs Elements
+:END:
+  The notes for this video can be found here on my website:
+  https://gnarledgrip.gitlab.io/
+
+  PLEASE CONSIDER SUPPORTING ME.
+  You can support me on PayPal:
+  https://paypal.me/revrari
+  Or you can send me some Bitcoin:
+  3JToybg7LHAdsteTYGg7jRniRZEMCeTasj
+
+  Follow me on X: https://x.com/GnarledGrip
+
+* god Mode--no more RSI #emacs #reupload
+:PROPERTIES:
+:DATE:     2025-04-28T11:11:43-07:00
+:DURATION: 4:33
+:YOUTUBE_URL: https://www.youtube.com/watch?v=57iRv2zVGGs
+:SPEAKERS: Emacs Elements
+:END:
+  The notes for this video can be found here on my website:
+  https://gnarledgrip.gitlab.io/
+
+  PLEASE CONSIDER SUPPORTING ME.
+  You can support me on PayPal:
+  https://paypal.me/revrari
+  Or you can send me some Bitcoin:
+  3JToybg7LHAdsteTYGg7jRniRZEMCeTasj
+
+  Follow me on X: https://x.com/GnarledGrip
+
+* A brief guide to evil-mode in Emacs #vim #neovim #reupload
+:PROPERTIES:
+:DATE:     2025-04-28T11:11:10-07:00
+:DURATION: 11:05
+:YOUTUBE_URL: https://www.youtube.com/watch?v=7WJzlnlJqVk&pp=0gcJCYUJAYcqIYzv
+:SPEAKERS: Emacs Elements
+:END:
+  The notes for this video can be found here on my website:
+  https://gnarledgrip.gitlab.io/
+
+  PLEASE CONSIDER SUPPORTING ME.
+  You can support me on PayPal:
+  https://paypal.me/revrari
+  Or you can send me some Bitcoin:
+  3JToybg7LHAdsteTYGg7jRniRZEMCeTasj
+
+  Follow me on X: https://x.com/GnarledGrip
 * org-mode babel asymptote 日本語化(無音)。luatex-jaを使おうの続きかな？！
 :PROPERTIES:
 :DATE:     2025-04-20T22:59:28-07:00

@@ -5,6 +5,356 @@
     <link>https://emacs.tv</link>
     <description>Emacs videos</description>
     <item>
+      <title>A few tweaks to Emacs (without elisp) to make it nicer</title>
+      <link>https://www.youtube.com/watch?v=HWpeZY4XzxE</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=HWpeZY4XzxE">youtube</a><br><br>In this video, I go through a few tweaks I make to Emacs when setting it up on a Chromebook to make it nicer.</div>]]></description>
+      <pubDate>Sun, 11 May 2025 12:00:28 +0000</pubDate>
+    </item>
+    <item>
+      <title>Control Emacs with Model Context Protocol (MCP)</title>
+      <link>https://youtu.be/ojeBNAtZea4</link>
+      <description><![CDATA[<div id="content"><a href="https://youtu.be/ojeBNAtZea4">youtube</a><br><br>https://github.com/vivekhaldar/emacs-mcp-server
+
+  00:00 - Introduction to MCP Model
+  00:13 - Writing an MCP Server
+  01:14 - Setting Up Claude with MCP
+  01:56 - Demonstrating Emacs Commands
+  03:31 - Conclusion and Further Resources</div>]]></description>
+      <pubDate>Fri, 09 May 2025 05:16:20 +0000</pubDate>
+    </item>
+    <item>
+      <title>IT&apos;S ALIVE !! Doom Emacs On Windows</title>
+      <link>https://www.youtube.com/watch?v=tTsCTb0tCAg</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=tTsCTb0tCAg">youtube</a><br><br>#emacs , #doomemacs , #gitbash
+  IT'S ALIVE !! Doom Emacs On Windows
+
+  * Install Guide:
+  https://earvingad.github.io/posts/doom_emacs_windows/
+
+
+  * Install Emacs for Windows:
+  https://mirrors.ibiblio.org/gnu/emacs/windows/emacs-30/
+  * Install Git Bash:
+  https://gitforwindows.org/
+
+  * And last but not least, Doom Emacs forWindows script:
+  git clone https://github.com/hlissner/doom-emacs ~/.emacs.d
+
+  * ripgrep (be sure and get the Windows GNU version):
+  https://github.com/BurntSushi/ripgrep/releases
+  * fd (be sure and get the Windows GNU version):
+  https://github.com/sharkdp/fd/releases</div>]]></description>
+      <pubDate>Thu, 08 May 2025 22:54:46 +0000</pubDate>
+    </item>
+    <item>
+      <title>Improving Frappe Developer Experience in Emacs | Ruthra Kumar</title>
+      <link>https://www.youtube.com/watch?v=sB2v7nPHedE</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=sB2v7nPHedE">youtube</a><br><br>In this talk, Ruthra Kumar shares how he built an Emacs extension to improve the Frappe developer experience. By creating tools to interact with Bench directly from Emacs, he demonstrates how simple editor automation can lead to a faster and smoother development workflow. Whether you use Emacs or are just curious about custom tooling, this session offers a glimpse into how small improvements can make a big difference.
+
+  Major mode is available in this repo: https://github.com/ruthra-kumar/frappe-bench-major-mode</div>]]></description>
+      <pubDate>Thu, 08 May 2025 10:30:38 +0000</pubDate>
+    </item>
+    <item>
+      <title>Slackware-15.0:  Doom Emacs Install (v02)</title>
+      <link>https://www.youtube.com/watch?v=I7arlSwpoQg</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=I7arlSwpoQg">youtube</a><br><br>,#slackware ,#emacs ,#lunux ,#doomemacs
+
+  Slackware-15.0:  Doom Emacs Install (v02)
+
+
+  ** Amazon Goodies **
+  Nature Valley Chocolate Biscuits with Peanut Butter(10 Count): https://amzn.to/4aISe6P [Amazon]
+
+
+  Code and Data:
+  https://github.com/davidjayjackson/tt_life-expectancy
+
+  Excel ETL: Extract, and Clean (from csv files):
+  https://youtu.be/TX1nTGSnUKQ
+
+  Excel/Power Query/ETL: Extract and Clean(vid01):
+  https://youtu.be/gHdOrLe0m0A
+
+  MongoDb/ETL/R/tidyverse: Transform and Load (vid 02):
+  https://youtu.be/tc6jUJkfb28
+
+  R/Tidyverse/MongoDb: More Extract and Load (vid 03):
+  https://youtu.be/NavfdNxWaLo?si=rmG6bq4D3qvMTjod</div>]]></description>
+      <pubDate>Mon, 05 May 2025 00:08:36 +0000</pubDate>
+    </item>
+    <item>
+      <title>Isolating select information in Emacs #registry #macros</title>
+      <link>https://www.youtube.com/watch?v=2Qyd-uJDcd4</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=2Qyd-uJDcd4">youtube</a><br><br>My website: https://gnarledgrip.gitlab.io/
+  (Notes for videos can be found there.)
+  Follow me on Mastodon: https://mastodon.social/@revrari
+  Follow me on X: https://x.com/GnarledGrip
+  If you enjoy my videos you can send me a donation via PayPal:
+  https://paypal.me/revrari</div>]]></description>
+      <pubDate>Sun, 04 May 2025 22:00:03 +0000</pubDate>
+    </item>
+    <item>
+      <title>Ep651 emacs lisp coding, text processing</title>
+      <link>https://www.youtube.com/watch?v=e_eqwP1Fq3s</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=e_eqwP1Fq3s">youtube</a><br><br>notes at
+  http://xahlee.info/talk_show/xah_talk_show_2025-05-03.html
+  (if you get https error, that is because Google Chrome and Firefox browsers censor websites. Use Brave Browser or Safari, or copy and paste the url directly in url field.)</div>]]></description>
+      <pubDate>Sun, 04 May 2025 05:12:04 +0000</pubDate>
+    </item>
+    <item>
+      <title>Insert verses from the Bible into Emacs #reupload</title>
+      <link>https://www.youtube.com/watch?v=oZhjm-KSuLE</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=oZhjm-KSuLE">youtube</a><br><br>My website: https://gnarledgrip.gitlab.io/
+  (Notes for videos can be found there.)
+  Follow me on Mastodon: https://mastodon.social/@revrari
+  Follow me on X: https://x.com/GnarledGrip
+  If you enjoy my videos you can send me a donation via PayPal:
+  https://paypal.me/revrari</div>]]></description>
+      <pubDate>Sat, 03 May 2025 08:39:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>15 Awesome Emacs Eshell Tips #coding #terminal #programming #reupload</title>
+      <link>https://www.youtube.com/watch?v=vw8_FJXxicM</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=vw8_FJXxicM">youtube</a><br><br>My website: https://gnarledgrip.gitlab.io/
+  (Notes for videos can be found there.)
+  Follow me on Mastodon: https://mastodon.social/@revrari
+  Follow me on X: https://x.com/GnarledGrip
+  If you enjoy my videos you can send me a donation via PayPal:
+  https://paypal.me/revrari</div>]]></description>
+      <pubDate>Sat, 03 May 2025 08:22:40 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Strange and Peculiar World of Emacs Regular Expressions #reupload #regex</title>
+      <link>https://www.youtube.com/watch?v=woGl1XpXG98&amp;pp=0gcJCYUJAYcqIYzv</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=woGl1XpXG98&pp=0gcJCYUJAYcqIYzv">youtube</a><br><br>My website: https://gnarledgrip.gitlab.io/
+  (Notes for videos can be found there.)
+  Follow me on Mastodon: https://mastodon.social/@revrari
+  Follow me on X: https://x.com/GnarledGrip
+  If you enjoy my videos you can send me a donation via PayPal:
+  https://paypal.me/revrari</div>]]></description>
+      <pubDate>Sat, 03 May 2025 08:21:36 +0000</pubDate>
+    </item>
+    <item>
+      <title>3 Minute Guide to Emacs Autoinsert Mode #coding #programming #org #reupload</title>
+      <link>https://www.youtube.com/watch?v=Qkr3J5R9LSQ</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=Qkr3J5R9LSQ">youtube</a><br><br>My website: https://gnarledgrip.gitlab.io/
+  (Notes for videos can be found there.)
+  Follow me on Mastodon: https://mastodon.social/@revrari
+  Follow me on X: https://x.com/GnarledGrip
+  If you enjoy my videos you can send me a donation via PayPal:
+  https://paypal.me/revrari</div>]]></description>
+      <pubDate>Sat, 03 May 2025 08:18:31 +0000</pubDate>
+    </item>
+    <item>
+      <title>Basic introduction to Emacs Calc #emacs #calculator #mathematics #reupload</title>
+      <link>https://www.youtube.com/watch?v=S585j4Nj-QM</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=S585j4Nj-QM">youtube</a><br><br>My website: https://gnarledgrip.gitlab.io/
+  (Notes for videos can be found there.)
+  Follow me on Mastodon: https://mastodon.social/@revrari
+  Follow me on X: https://x.com/GnarledGrip
+  If you enjoy my videos you can send me a donation via PayPal:
+  https://paypal.me/revrari</div>]]></description>
+      <pubDate>Sat, 03 May 2025 08:17:30 +0000</pubDate>
+    </item>
+    <item>
+      <title>Emacs Help Essentials in 4 Minutes #emacs #reupload #reedit</title>
+      <link>https://www.youtube.com/watch?v=ZCNRv3WVx1Q</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=ZCNRv3WVx1Q">youtube</a><br><br>My website: https://gnarledgrip.gitlab.io/
+  (Notes for videos can be found there.)
+  Follow me on Mastodon: https://mastodon.social/@revrari
+  Follow me on X: https://x.com/GnarledGrip
+  If you enjoy my videos you can send me a donation via PayPal:
+  https://paypal.me/revrari</div>]]></description>
+      <pubDate>Sat, 03 May 2025 08:16:35 +0000</pubDate>
+    </item>
+    <item>
+      <title>It bears repeating: Two Emacs Repeat Commands #coding #programming #reupload</title>
+      <link>https://www.youtube.com/watch?v=8yE0fg606d8</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=8yE0fg606d8">youtube</a><br><br>My website: https://gnarledgrip.gitlab.io/
+  (Notes for videos can be found there.)
+  Follow me on Mastodon: https://mastodon.social/@revrari
+  Follow me on X: https://x.com/GnarledGrip
+  If you enjoy my videos you can send me a donation via PayPal:
+  https://paypal.me/revrari</div>]]></description>
+      <pubDate>Sat, 03 May 2025 08:15:06 +0000</pubDate>
+    </item>
+    <item>
+      <title>Emacs Package Embark: Key Features and Tweaks #reupload #edited</title>
+      <link>https://www.youtube.com/watch?v=4ycUZ7imCPU</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=4ycUZ7imCPU">youtube</a><br><br>The notes for this video can be found here on my website:
+  https://gnarledgrip.gitlab.io/
+
+  PLEASE CONSIDER SUPPORTING ME.
+  You can support me on PayPal:
+  https://paypal.me/revrari
+  Or you can send me some Bitcoin:
+  3JToybg7LHAdsteTYGg7jRniRZEMCeTasj
+
+  Follow me on X: https://x.com/GnarledGrip</div>]]></description>
+      <pubDate>Thu, 01 May 2025 16:51:27 +0000</pubDate>
+    </item>
+    <item>
+      <title>Vertico: Minimalist Vertical Interactive Completion in Emacs #reupload</title>
+      <link>https://www.youtube.com/watch?v=ERyNSLRsNsg</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=ERyNSLRsNsg">youtube</a><br><br>The notes for this video can be found here on my website:
+  https://gnarledgrip.gitlab.io/
+
+  PLEASE CONSIDER SUPPORTING ME.
+  You can support me on PayPal:
+  https://paypal.me/revrari
+  Or you can send me some Bitcoin:
+  3JToybg7LHAdsteTYGg7jRniRZEMCeTasj
+
+  Follow me on X: https://x.com/GnarledGrip</div>]]></description>
+      <pubDate>Thu, 01 May 2025 16:50:58 +0000</pubDate>
+    </item>
+    <item>
+      <title>Detecting Emacs Package Synergy - Crafter Hours</title>
+      <link>https://www.youtube.com/watch?v=ECJ023Gz-e4</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=ECJ023Gz-e4">youtube</a><br><br>Welcome to Crafter Hours where we try to build something new every stream!  Stream recordings will eventually be turned into shorter channel videos.
+
+  ,#gnu #guile #scheme #emacs #webdev
+
+  SUPPORT THE CHANNEL:
+
+  M Support My Work: https://systemcrafters.net/how-to-help/#support-my-work
+  Subscribe to the Newsletter: https://systemcrafters.net/newsletter/
+  U Check out the Store: https://systemcrafters.store
+  Get Your Copy of Mastering Emacs: https://www.masteringemacs.org/r/systemcrafters?utm_source=yt&utm_medium=desc&utm_campaign=scme
+
+  DEVELOPMENT LOG:
+
+  https://systemcrafters.net/crafter-hours/
+
+  THE PROJECT:
+
+  https://codeberg.org/SystemCrafters/emacspackages.com
+
+  JOIN THE COMMUNITY:
+
+  https://systemcrafters.net/community/ (Forum and IRC chat!)
+  https://fosstodon.org/@daviwil
+
+  MY CONFIGURATION:
+
+  (This site is currently down but will be back up soon!)
+
+  https://config.daviwil.com
+  https://config.daviwil.com/emacs
+  https://config.daviwil.com/systems (Guix)
+
+  OTHER SERIES:
+
+  - Emacs Essentials: https://www.youtube.com/watch?v=48JlgiBpw_I&list=PLEoMzSkcN8oPZvSdewHG8uApD7THlLLCV
+  - Emacs From Scratch: https://www.youtube.com/watch?v=74zOY-vgkyw&list=PLEoMzSkcN8oPH1au7H6B7bBJ4ZO7BXjSZ
+  - Emacs Tips: https://www.youtube.com/watch?v=wKTKmE1wLyw&list=PLEoMzSkcN8oMHJ6Xil1YdnYtlWd5hHZql
+  - Emacs Desktop Environment: https://www.youtube.com/watch?v=f7xB2fFk1tQ&list=PLEoMzSkcN8oNPbEMYEtswOVTvq7CVddCS
+  - Emacs IDE: https://www.youtube.com/watch?v=E-NAM9U5JYE&list=PLEoMzSkcN8oNvsrtk_iZSb94krGRofFjN
+  - Emacs Mail: https://www.youtube.com/watch?v=yZRyEhi4y44&list=PLEoMzSkcN8oM-kA19xOQc8s0gr0PpFGJQ
+  - Learning Emacs Lisp: https://www.youtube.com/watch?v=RQK_DaaX34Q&list=PLEoMzSkcN8oPQtn7FQEF3D7sroZbXuPZ7
+  - Craft Your System with GNU Guix: https://www.youtube.com/watch?v=iBaqOK75cho&list=PLEoMzSkcN8oNxnj7jm5V2ZcGc52002pQU
+
+  CREDITS:
+
+  Coriolis Effect by logos feat. stefsax, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/mseq/26296
+  reNovation by airtone, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/airtone/60674
+  ukeSounds by airtone, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/airtone/32655
+  Between Worlds (Instrumental) by Aussens@iter, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/tobias_weber/56664</div>]]></description>
+      <pubDate>Wed, 30 Apr 2025 21:11:30 +0000</pubDate>
+    </item>
+    <item>
+      <title>Emacs Buffer Local Functions</title>
+      <link>https://www.youtube.com/watch?v=gRb0YNfK6_A</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=gRb0YNfK6_A">youtube</a><br><br>https://github.com/commercial-emacs/commercial-emacs.git</div>]]></description>
+      <pubDate>Tue, 29 Apr 2025 00:40:30 +0000</pubDate>
+    </item>
+    <item>
+      <title>Changing the color of the region for Vanilla Emacs #coding #themes #reupload</title>
+      <link>https://www.youtube.com/watch?v=IJ_r1oLIC64</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=IJ_r1oLIC64">youtube</a><br><br>My website: https://gnarledgrip.gitlab.io/
+  (Notes for videos can be found there.)
+  Follow me on Mastodon: https://mastodon.social/@revrari
+  Follow me on X: https://x.com/GnarledGrip
+  If you enjoy my videos you can send me a donation via PayPal:
+  https://paypal.me/revrari</div>]]></description>
+      <pubDate>Mon, 28 Apr 2025 18:18:37 +0000</pubDate>
+    </item>
+    <item>
+      <title>Handling PDF files in Emacs with DocView Mode #reupload</title>
+      <link>https://www.youtube.com/watch?v=2kBe0lu4uAE</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=2kBe0lu4uAE">youtube</a><br><br>The notes for this video can be found here on my website:
+  https://gnarledgrip.gitlab.io/
+
+  PLEASE CONSIDER SUPPORTING ME.
+  You can support me on PayPal:
+  https://paypal.me/revrari
+  Or you can send me some Bitcoin:
+  3JToybg7LHAdsteTYGg7jRniRZEMCeTasj
+
+  Follow me on X: https://x.com/GnarledGrip</div>]]></description>
+      <pubDate>Mon, 28 Apr 2025 18:15:33 +0000</pubDate>
+    </item>
+    <item>
+      <title>Emacs Evil Nerd Commenter: Comment/uncomment lines more efficiently #reupload</title>
+      <link>https://www.youtube.com/watch?v=F9YyCSC-dK4</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=F9YyCSC-dK4">youtube</a><br><br>The notes for this video can be found here on my website:
+  https://gnarledgrip.gitlab.io/
+
+  PLEASE CONSIDER SUPPORTING ME.
+  You can support me on PayPal:
+  https://paypal.me/revrari
+  Or you can send me some Bitcoin:
+  3JToybg7LHAdsteTYGg7jRniRZEMCeTasj
+
+  Follow me on X: https://x.com/GnarledGrip</div>]]></description>
+      <pubDate>Mon, 28 Apr 2025 18:12:54 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Doom Modeline Package for Emacs #reupload</title>
+      <link>https://www.youtube.com/watch?v=gWjmBw4REYE</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=gWjmBw4REYE">youtube</a><br><br>The notes for this video can be found here on my website:
+  https://gnarledgrip.gitlab.io/
+
+  PLEASE CONSIDER SUPPORTING ME.
+  You can support me on PayPal:
+  https://paypal.me/revrari
+  Or you can send me some Bitcoin:
+  3JToybg7LHAdsteTYGg7jRniRZEMCeTasj
+
+  Follow me on X: https://x.com/GnarledGrip</div>]]></description>
+      <pubDate>Mon, 28 Apr 2025 18:12:17 +0000</pubDate>
+    </item>
+    <item>
+      <title>god Mode--no more RSI #emacs #reupload</title>
+      <link>https://www.youtube.com/watch?v=57iRv2zVGGs</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=57iRv2zVGGs">youtube</a><br><br>The notes for this video can be found here on my website:
+  https://gnarledgrip.gitlab.io/
+
+  PLEASE CONSIDER SUPPORTING ME.
+  You can support me on PayPal:
+  https://paypal.me/revrari
+  Or you can send me some Bitcoin:
+  3JToybg7LHAdsteTYGg7jRniRZEMCeTasj
+
+  Follow me on X: https://x.com/GnarledGrip</div>]]></description>
+      <pubDate>Mon, 28 Apr 2025 18:11:43 +0000</pubDate>
+    </item>
+    <item>
+      <title>A brief guide to evil-mode in Emacs #vim #neovim #reupload</title>
+      <link>https://www.youtube.com/watch?v=7WJzlnlJqVk&amp;pp=0gcJCYUJAYcqIYzv</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=7WJzlnlJqVk&pp=0gcJCYUJAYcqIYzv">youtube</a><br><br>The notes for this video can be found here on my website:
+  https://gnarledgrip.gitlab.io/
+
+  PLEASE CONSIDER SUPPORTING ME.
+  You can support me on PayPal:
+  https://paypal.me/revrari
+  Or you can send me some Bitcoin:
+  3JToybg7LHAdsteTYGg7jRniRZEMCeTasj
+
+  Follow me on X: https://x.com/GnarledGrip</div>]]></description>
+      <pubDate>Mon, 28 Apr 2025 18:11:10 +0000</pubDate>
+    </item>
+    <item>
       <title>org-mode babel asymptote 日本語化(無音)。luatex-jaを使おうの続きかな？！</title>
       <link>https://www.youtube.com/watch?v=01sz9SUiJBE</link>
       <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=01sz9SUiJBE">youtube</a><br><br>luatex-jaを使っていれば簡単です。asymptoteの日本語化です。
@@ -33,6 +383,18 @@
   日本語org modeマニュアル ちょっと古い
   https://takaxp.github.io/org-ja.html</div>]]></description>
       <pubDate>Mon, 21 Apr 2025 05:59:28 +0000</pubDate>
+    </item>
+    <item>
+      <title>Emacs Package Development: The Emacs Reader (I: Introduction)</title>
+      <link></link>
+      <description><![CDATA[<div id="content"><a href="https://tv.dyne.org/w/8W8o4fWz94bMYVMUWExkX7">peertube</a><br><br>This is the first in a series of Emacs package development streams focusing on the Emacs Reader package: https://codeberg.org/divyaranjan/emacs-reader/ Operating System: GNU Guix, Editor: GNU Emacs...</div>]]></description>
+      <pubDate>Sun, 20 Apr 2025 22:31:21 +0000</pubDate>
+    </item>
+    <item>
+      <title>Emacs Package Development: The Emacs Reader (II: Making Overlays Centered and Zoomable)</title>
+      <link></link>
+      <description><![CDATA[<div id="content"><a href="https://tv.dyne.org/w/7rTq5HyAXf3s9WBtzsYupE">peertube</a><br><br>This is the second in a series of Emacs package development streams focusing on the Emacs Reader package: https://codeberg.org/divyaranjan/emacs-reader/ In this stream specifically, I'll be adding ...</div>]]></description>
+      <pubDate>Sun, 20 Apr 2025 21:00:54 +0000</pubDate>
     </item>
     <item>
       <title>日本人Emacsユーザはluatex-jaを使おう！(無音)</title>
