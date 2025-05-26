@@ -5,6 +5,193 @@
     <link>https://emacs.tv</link>
     <description>Emacs videos</description>
     <item>
+      <title>Refactoring chatgpt.el - Emacs Lisp | lesson 07</title>
+      <link>https://www.youtube.com/watch?v=Mgqu3wvvNXM</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=Mgqu3wvvNXM">youtube</a><br><br>Free PDF and course 👉 https://tonyaldon.com/chatgpt-emacs-integration-course/
+
+  -----
+
+  Let's tidy up our code! 🧹 We refactor the chatgpt-send function for better organization and introduce a dedicated variable for our OpenAI API key. Clean code is happy code, and keeping our API keys secure is a top priority. We'll streamline our package for smoother operations.
+
+  - Refactoring chatgpt-send with chatgpt-command
+  - Introducing chatgpt-api-key to hold OpenAI API Key
+  - Updating chatgpt-command Function Signature
+
+  -----
+
+  Hi there! 👋 I'm Tony Aldon, a passionate Emacs enthusiast dedicated to helping you master Emacs and Emacs Lisp.
+
+  Join me on an exciting journey with the ChatGPT Emacs Integration Course and master the art of building a fully functional Emacs package from scratch.
+
+  🌟 Through
+
+  - 18 engaging lessons,
+  - 2.5 hours video content and
+  - 100 pages of PDF
+
+  you'll:
+
+  - Master Emacs Lisp: 🛠️ Customize and extend Emacs like a pro.
+  - Integrate ChatGPT Seamlessly: 🤖 Enhance your workflow with advanced AI features using the OpenAI API.
+
+  It can help if you know a little bit of Emacs Lisp, but this is not a requirement as we'll meticulously write, review, and comment on each line of code. 📝</div>]]></description>
+      <pubDate>Sat, 24 May 2025 15:35:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>021 Ollama Buddy - Using a vision model to extract some text #emacs #ollama</title>
+      <link>https://www.youtube.com/watch?v=QxEOsBKsy-o</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=QxEOsBKsy-o">youtube</a><br><br>Demonstrating the Emacs package ollama-buddy, providing a convenient way to integrate Ollama's local LLM capabilities.
+
+  switch to use gemma3:4b
+
+  Open the image with the text
+
+  Copy the link, paste into the chat buffer and then lets see if the text is correctly extracted!
+
+  https://melpa.org/#/ollama-buddy
+  https://github.com/captainflasmr/ollama-buddy
+
+  ,#emacs #ollama</div>]]></description>
+      <pubDate>Sat, 24 May 2025 13:22:35 +0000</pubDate>
+    </item>
+    <item>
+      <title>019 Ollama Buddy - First Steps into User System Prompt Management #emacs #ollama</title>
+      <link>https://www.youtube.com/watch?v=TV5QXEqsuAE</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=TV5QXEqsuAE">youtube</a><br><br>Demonstrating the Emacs package ollama-buddy, providing a convenient way to integrate Ollama's local LLM capabilities.
+
+  Select User System Prompts
+
+  List, and move down through the buffer
+
+  Set as system prompt/load
+
+  Select Elisp Debugging Guide
+
+  Show the system prompt in a buffer
+
+  switch to use qwen2.5-coder:3b
+
+  Run checking overy my/rsync in Emacs-DIYer
+
+  https://melpa.org/#/ollama-buddy
+  https://github.com/captainflasmr/ollama-buddy
+
+  ,#emacs #ollama
+
+  ,#+attr_org: :width 300px
+  ,#+attr_html: :width 100%
+  [[file:img/ollama-buddy-screen-recording_019.gif]]</div>]]></description>
+      <pubDate>Sat, 24 May 2025 12:45:20 +0000</pubDate>
+    </item>
+    <item>
+      <title>[Emacs + Polymode + Org-mode] fix unfolding on source block entry</title>
+      <link>https://www.youtube.com/watch?v=PK2F6u_wbpc</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=PK2F6u_wbpc">youtube</a><br><br>Code with the fix:
+  https://github.com/DeadEarnest/polymode/commit/e0f511e8295f26229494291c1afccaff4a10ef10
+
+  Detailed explanation:
+  1) Going into source block triggers major mode switch, e. g. from Org-Mode to Elisp.
+  2) This triggers `pm--move-overlays` and inside it, `move-overlay`.
+  3) `move-overlay` works by removing an overlay from one buffer, and putting it into another.
+  4) So in result, we delete all overlays from Org-Mode base buffer, and transfer them to Elisp indirect buffer.
+  5) Non-focused window keeps displaying Org-Mode base buffer, and everything unfolds after overlay deletion.
+
+  - To avoid deletion of overlays, my solution creates a copy of each overlay in the previous buffer, and puts them in the next buffer. Overlays cannot exist in more than one buffer, so we must copy.
+  - I delete all overlays in the next buffer, before copying into it, to avoid endlessly creating overlay objects. Without this deletion, we quickly get overlay explosion, and Emacs freezes.
+  - `show-paren-match` overlays are not copied, because they get stuck forever if you switch between modes by clicking.
+  - `region` overlay is not copied, because it's not necessary, selection works OK without it.
+
+  The issue can be avoided by setting ~org-fold-core-style 'text-properties~, but I read that ~org-fold-core-style 'overlays~, is less buggy with poly-org. So I decided to stick with this fix instead of changing the setting.</div>]]></description>
+      <pubDate>Fri, 23 May 2025 23:44:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>Nifty Isearch Commands in Emacs</title>
+      <link>https://www.youtube.com/watch?v=Z6lMU2LUSG4</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=Z6lMU2LUSG4">youtube</a><br><br>My website: https://emacselements.com/
+  (Notes for videos can be found there.)
+  Follow me on Mastodon: https://mastodon.social/@revrari
+  Follow me on X: https://x.com/GnarledGrip
+  If you enjoy my videos please send me a donation via PayPal:
+  https://paypal.me/revrari</div>]]></description>
+      <pubDate>Fri, 23 May 2025 22:00:39 +0000</pubDate>
+    </item>
+    <item>
+      <title>Emacs AIPlus --  Blee enhancements to aidermacs and gptel.</title>
+      <link>https://www.youtube.com/watch?v=R2AkHl0GS5U</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=R2AkHl0GS5U">youtube</a><br><br>Emacs, Itself: the Ultimate AI Assistant
+
+  As of mid-2025, integrating AI into everyday environments is a universal trend. Microsoft has embedded Copilot into Windows and Microsoft 365 apps. Google offers Gemini and “Google Assistant” for AI integration in Android and Google Apps. Apple, too, has Siri and “Apple Intelligence.” In the proprietary American digital ecosystems, these profit-driven companies dictate the terms, and consumers accept what is provided.
+
+  In contrast, the Libre-Halaal ByStar Digital Ecosystem (https://github.com/mohsenBanan) offers a different approach. Our usage environment, Blee (https://github.com/bx-blee), is rooted in Emacs.
+
+  The integration of Artificial Intelligence in Emacs is particularly powerful.
+
+  Emacs, a 40+ year-old omni-context, editor-centered usage environment, supports AI capabilities across all work contexts. Whether it’s software development (in any programming language), content creation and publishing (such as LaTeX), sophisticated email management (like Gnus), or task and time management (using org-mode), Emacs has it covered.
+
+  Each of these activities can now benefit from a unified and consistent AI-assistant model. The ease of AI integration into Emacs is a testament to its core philosophy (conviviality of tools) and flexibility. Emacs’ AI integration can be tailored to your preferences, allowing you to choose local (self-hosted) or remote AI engines. While many options exist, setting up a cohesive system requires some integration effort. And, that is not always easy.
+
+  With Blee and BISOS (ByStar Internet Services OS) – https://github.com/bisos), we have achieved this integration by incorporating two key Emacs AI interface packages:
+
+  gptel - [GitHub](https://github.com/karthink/gptel): This package offers a simple Large Language Model chat client for Emacs, supporting multiple models and backends. It maintains the Emacs spirit by being accessible at any time within any buffer.
+  aidermacs - [GitHub](https://github.com/MatthewZMD/aidermacs): Designed for AI pair programming in Emacs, Aidermacs integrates Aider—an open-source AI pair programming tool—into Emacs. It surpasses other integrations, like Cursor, through its seamless incorporation.
+  Think of gptel as a versatile, omnipresent chatbox and aidermacs as a multilingual AI coding assistant. Installing these is straightforward, and with Blee, they come fully integrated for efficient AI-enhanced workflows.
+
+  With Blee, installation and configuration of gptel is using:
+  https://github.com/bx-blee/env3/blob/main/plus/bcpg%3AgptelPlus.el and /bisos/blee/env3/plus/bcpg:gptelPlus.el
+
+  With Blee, installation and configuration of aidermacs is using:
+  https://github.com/bx-blee/env3/blob/main/plus/bcpg%3AaidermacsPlus.el and /bisos/blee/env3/plus/bcpg:aidermacsPlus.el
+
+  We have augmented these with an additional package called AIPlus (https://github.com/bx-blee/aiplus). AIPlus includes various menus and utilities for integrating aidermacs and gptel in Emacs and Blee.
+
+  Installation and configuration of aidermacs is using:
+  https://github.com/bx-blee/env3/blob/main/plus/bnpa%3Aaiplus.el and /bisos/blee/env3/plus/bnpa:aiplus.el
+
+  In the proprietary American model, the integration of AI into usage environments has accelerated surveillance capitalism and that trend will continue. In the Libre-Halaal model (https://github.com/bxplpc/120033), with the integration of AI into Emacs, we aim to preserve autonomy and control.
+
+  I’ll continue using Emacs. Your call!</div>]]></description>
+      <pubDate>Thu, 22 May 2025 23:01:56 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Emacs Easy-Find Package #filemanagement #types #search</title>
+      <link>https://www.youtube.com/watch?v=wUh-d4a16r4</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=wUh-d4a16r4">youtube</a><br><br>https://gitlab.com/gnarledgrip/easy-find/
+  My website: https://emacselements.com/
+  Follow me on Mastodon: https://mastodon.social/@revrari
+  If you enjoy my videos please send me a donation via PayPal:
+  https://paypal.me/revrari</div>]]></description>
+      <pubDate>Thu, 22 May 2025 22:01:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>Emacs Code Folding And Unfolding Via hs-minor-mode 2025_05_20_16:16:51</title>
+      <link>https://www.youtube.com/watch?v=MlvzN1vKyzU</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=MlvzN1vKyzU">youtube</a><br><br>In this video, you will see, how you could fold and unfold code block via Emacs's hs-minor-mode.
+
+  ,#linux #linuxadmin #sysadmin #opensource #Gentoo #Debian #Slackware #research
+  ,#linuxkernel #kernel #gnu #Linux #GNU
+
+  Buy Me A Coffee: https://www.buymeacoffee.com/unixbhaskar
+  Patreon: https://www.patreon.com/unixbhaskar
+  Paypal: https://paypal.me/linuxbhaskar
+
+  You can also find me :
+
+  GitHub: https://github.com/unixbhaskar
+
+  Reddit: https://www.reddit.com/user/unixbhaskar
+
+  Blogs: https://unixbhaskar.wordpress.com
+
+  Twitter: https://twitter.com/unixbhaskar
+
+  Linkedin: https://linkedin.com/in/unixbhaskar
+
+  Vimeo: https://vimeo.com/unixbhaskar
+
+  Goodreads: https://goodreads.com/unixbhaskar</div>]]></description>
+      <pubDate>Tue, 20 May 2025 11:19:36 +0000</pubDate>
+    </item>
+    <item>
       <title>Ep657 emacs lisp generic map functions (hashtable, asso list, property list), google https censor</title>
       <link>https://www.youtube.com/watch?v=RBh1fInPFKo</link>
       <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=RBh1fInPFKo">youtube</a><br><br>notes at
