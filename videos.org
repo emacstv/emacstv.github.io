@@ -2,6 +2,16 @@
 #+STARTUP: nolatexpreview
 #+PROPERTY: header-args:emacs-lisp+   :eval no
 
+*  Emacs UV mode (Python) development VOD         :emacs:uvmode:python:elisp:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=nHV5pRlZMl4
+:DATE:     2025-04-18T21:07:01+0000
+:SPEAKERS: PizzaTorque
+:DURATION: 01:25:10
+:END:
+  Ranting and working on Emacs UV mode for Python
+
+
 * Refactoring chatgpt.el - Emacs Lisp | lesson 07  :ai:
 :PROPERTIES:
 :DATE:     2025-05-24T08:35:08-07:00
