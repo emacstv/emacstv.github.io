@@ -2,15 +2,147 @@
 #+STARTUP: nolatexpreview
 #+PROPERTY: header-args:emacs-lisp+   :eval no
 
-*  Emacs UV mode (Python) development VOD         :emacs:uvmode:python:elisp:
-:PROPERTIES:
-:YOUTUBE_URL: https://www.youtube.com/watch?v=nHV5pRlZMl4
-:DATE:     2025-04-18T21:07:01+0000
-:SPEAKERS: PizzaTorque
-:DURATION: 01:25:10
-:END:
-  Ranting and working on Emacs UV mode for Python
 
+* Emacs treesitter lexical analysis of javascript  :js:
+:PROPERTIES:
+:DATE:     2025-06-02T05:04:27-07:00
+:DURATION: 1:43
+:YOUTUBE_URL: https://www.youtube.com/watch?v=QZ7YEEBjO1o
+:SPEAKERS: Nic Ferrier
+:END:
+  Doing lexical analysis of javascript was slightly more difficult than C, which I did previously. But now it works!
+
+* How I take notes in org-roam #emacs   :OrgRoam:
+:PROPERTIES:
+:DATE:     2025-06-01T12:53:24-07:00
+:DURATION: 7:23
+:YOUTUBE_URL: https://www.youtube.com/watch?v=aU8Q8VbdnEU
+:SPEAKERS: Kiran's Happy Happy Times
+:END:
+  Hihi~ Kiran here! Today I'm just making a little tutorial on how I make notes in Org-roam!
+
+  Hope it was helpful! thanks for watching!
+
+* Agentic LLM use in Emacs using Model Context Protocol (MCP)  :ai:
+:PROPERTIES:
+:DATE:     2025-05-31T13:18:08-07:00
+:DURATION: 46:55
+:YOUTUBE_URL: https://www.youtube.com/watch?v=Hkih7jaqOnE
+:SPEAKERS: Greg Grubbs - Tech and History
+:END:
+  Here's a demo using tools in Emacs with the LLMs of your choosing.  You can have any mix of "native" Emacs Lisp tools and MCP server tools using a combination of the gptel package and the mycp.el package.
+
+  00:00 Introduction
+  01:50 How to create tools in Emacs Lisp in gptel
+  08:35 Demo of gptel Emacs Lisp tools
+  18:00 Model Context Protocol and mcp.el
+  20:38 mcp.el - github page and configuration examples
+  26:00 Demo of gptel using MCP servers
+  42:20 Translate Claude Desktop mcp configs for mcp.el
+  45:15 mcp-server-lib.el - Write even your MCP servers in Emacs Lisp!
+
+  My configuration for mcp.el: https://github.com/gregoryg/emacs-gregoryg?tab=readme-ov-file#mcpel---model-context-protocol
+
+  My gptel configuration (excerpt at will): https://github.com/gregoryg/emacs-gregoryg?tab=readme-ov-file#gptel---llms-in-markdown-and-org-mode
+
+  My AIPIHKAL repo - prompts for LLMs, including the tool-use prompt I use here: https://github.com/gregoryg/AIPIHKAL
+
+  Gptel package: https://github.com/karthink/gptel
+
+  mcp.el package: https://github.com/lizqwerscott/mcp.el
+* Image Viewing Workflow with NSXIV + Emacs Lisp + Dired  :dired:
+:PROPERTIES:
+:DATE:     2025-05-30T23:45:42-07:00
+:DURATION: 7:49
+:YOUTUBE_URL: https://www.youtube.com/watch?v=fEUQEK_uXk0
+:SPEAKERS: bardman
+:END:
+  Showcase of my Emacs Lisp functions to interact with NSXIV image viewer
+
+  Links:
+  NSXIV Website: https://grfreire.github.io/nsxiv/
+  NSXIV GitHub: https://github.com/nsxiv/nsxiv
+
+  Code found in this video:
+  https://github.com/BardofSprites/.emacs.d/blob/master/bard-elisp/bard-media.el
+
+  Possible FAQ:
+  1. What is your setup??? 👉👉👉 https://bardman.dev/technology/gallery
+  2. DOTFILES???? 👉👉👉 https://github.com/BardofSprites/dotfiles-stow
+
+* Time To Format Chat Interactions With Markdown Mode - Emacs Lisp | lesson 09  :ai:markdown:
+:PROPERTIES:
+:DATE:     2025-05-28T20:46:48-07:00
+:DURATION: 9:42
+:YOUTUBE_URL: https://www.youtube.com/watch?v=CuIwgjiVzHQ
+:SPEAKERS: Tony Aldon
+:END:
+  Free PDF and course 👉 https://tonyaldon.com/chatgpt-emacs-integration-course/
+
+  -----
+
+  Let's make things look pretty. 🎨 We learn how to parse JSON responses and format them using Markdown within Emacs. Your chats with ChatGPT will be not only functional but also beautifully organized and easy to read. Markdown magic makes all the difference!
+
+  - Parsing and Returning a JSON Object with json-read
+  - Accessing Elements in a Nested Structure with map-nested-elt
+  - Inserting the Assistant Response instead of the JSON Response
+  - Formatting with markdown-mode
+
+  -----
+
+  Hi there! 👋 I'm Tony Aldon, a passionate Emacs enthusiast dedicated to helping you master Emacs and Emacs Lisp.
+
+  Join me on an exciting journey with the ChatGPT Emacs Integration Course and master the art of building a fully functional Emacs package from scratch.
+
+  🌟 Through
+
+  - 18 engaging lessons,
+  - 2.5 hours video content and
+  - 100 pages of PDF
+
+  you'll:
+
+  - Master Emacs Lisp: 🛠️ Customize and extend Emacs like a pro.
+  - Integrate ChatGPT Seamlessly: 🤖 Enhance your workflow with advanced AI features using the OpenAI API.
+
+  It can help if you know a little bit of Emacs Lisp, but this is not a requirement as we'll meticulously write, review, and comment on each line of code. 📝
+
+* Making the Prompt Dynamic in Requests to OpenAI Chat Completion API - Emacs Lisp | lesson 08  :ai:
+:PROPERTIES:
+:DATE:     2025-05-26T19:51:53-07:00
+:DURATION: 8:32
+:YOUTUBE_URL: https://www.youtube.com/watch?v=j6RsRdwLomo
+:SPEAKERS: Tony Aldon
+:END:
+  Free PDF and course 👉 https://tonyaldon.com/chatgpt-emacs-integration-course/
+
+  -----
+
+  No more static prompts! 🔄 We make our requests dynamic by pulling prompts from the current buffer. Whether you're brainstorming ideas or asking questions on the fly, ChatGPT's got your back. We'll adjust our functions to handle any input you throw its way.
+
+  - Writing a JSON Object to a File
+  - Writing the OpenAI Request to a File
+  - Updating chatgpt-send
+  - Entering the Prompt from a Buffer
+
+  -----
+
+  Hi there! 👋 I'm Tony Aldon, a passionate Emacs enthusiast dedicated to helping you master Emacs and Emacs Lisp.
+
+  Join me on an exciting journey with the ChatGPT Emacs Integration Course and master the art of building a fully functional Emacs package from scratch.
+
+  🌟 Through
+
+  - 18 engaging lessons,
+  - 2.5 hours video content and
+  - 100 pages of PDF
+
+  you'll:
+
+  - Master Emacs Lisp: 🛠️ Customize and extend Emacs like a pro.
+  - Integrate ChatGPT Seamlessly: 🤖 Enhance your workflow with advanced AI features using the OpenAI API.
+
+  It can help if you know a little bit of Emacs Lisp, but this is not a requirement as we'll meticulously write, review, and comment on each line of code. 📝
 
 * Refactoring chatgpt.el - Emacs Lisp | lesson 07  :ai:
 :PROPERTIES:
@@ -962,6 +1094,15 @@
   https://paypal.me/revrari
   Or you can send me some Bitcoin:
   3JToybg7LHAdsteTYGg7jRniRZEMCeTasj
+
+*  Emacs UV mode (Python) development VOD         :emacs:uvmode:python:elisp:
+:PROPERTIES:
+:YOUTUBE_URL: https://www.youtube.com/watch?v=nHV5pRlZMl4
+:DATE:     2025-04-18T21:07:01+0000
+:SPEAKERS: PizzaTorque
+:DURATION: 01:25:10
+:END:
+  Ranting and working on Emacs UV mode for Python
 
 * Emacs For Beginners | Your first configuration
 :PROPERTIES:
