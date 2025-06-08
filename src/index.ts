@@ -41,7 +41,7 @@ export function render(state: State, store: StateStore): RenderResult {
     (state.filterByTags.length === 0 || state.filterByTags.every(filterTag =>
       heading.tags?.map(tag => tag.toLowerCase()).includes(filterTag))) &&
     (state.filterBySpeakers.length === 0 || state.filterBySpeakers.every(filterSpeaker =>
-      heading.drawer?.SPEAKERS.split(',').map(speaker => speaker.trim().toLowerCase()).includes(filterSpeaker.toLowerCase()))) &&
+      heading.drawer?.SPEAKERS?.split(',').map(speaker => speaker.trim().toLowerCase()).includes(filterSpeaker.toLowerCase()))) &&
 			(state.filterByTitle.length === 0 || state.filterByTitle.split(' ').every(filterTitle => headingMatchesSearch(heading, filterTitle.trim().toLowerCase()))));
 
   const randomPick = new RandomPickRenderer(store)
