@@ -5,6 +5,25 @@
     <link>https://emacs.tv</link>
     <description>Emacs videos</description>
     <item>
+      <title>Emacs Lucid vs GTK: Debunking the Lightweight Myth</title>
+      <link>https://www.youtube.com/watch?v=MKqNrREUkYI</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=MKqNrREUkYI">youtube</a><br><br>My website: https://emacselements.com/
+  Follow me on Mastodon: https://mastodon.social/@revrari
+  If you enjoy my videos please send me a donation via PayPal:
+  https://paypal.me/revrari</div>]]></description>
+      <pubDate>Sun, 08 Jun 2025 22:00:30 +0000</pubDate>
+    </item>
+    <item>
+      <title>Ep663 emacs lisp coding, html show duplicate links</title>
+      <link>https://www.youtube.com/watch?v=eUTze3dJoIY</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=eUTze3dJoIY">youtube</a><br><br>Notes at
+  http ://xahlee .info/talk_show/xah_talk_show_2025-06-03.html
+  Copy the link, remove spaces, paste the link in browser tab.
+  Google Chrome and Firefox browsers censor websites by auto adding s in http and says the site Secure Connection Failed.
+  Use Brave Browser or Safari.</div>]]></description>
+      <pubDate>Wed, 04 Jun 2025 10:48:45 +0000</pubDate>
+    </item>
+    <item>
       <title>Emacs treesitter lexical analysis of javascript</title>
       <link>https://www.youtube.com/watch?v=QZ7YEEBjO1o</link>
       <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=QZ7YEEBjO1o">youtube</a><br><br>Doing lexical analysis of javascript was slightly more difficult than C, which I did previously. But now it works!</div>]]></description>

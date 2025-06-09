@@ -3,6 +3,30 @@
 #+PROPERTY: header-args:emacs-lisp+   :eval no
 
 
+* Emacs Lucid vs GTK: Debunking the Lightweight Myth
+:PROPERTIES:
+:DATE:     2025-06-08T15:00:30-07:00
+:DURATION: 3:50
+:YOUTUBE_URL: https://www.youtube.com/watch?v=MKqNrREUkYI
+:SPEAKERS: Emacs Elements
+:END:
+  My website: https://emacselements.com/
+  Follow me on Mastodon: https://mastodon.social/@revrari
+  If you enjoy my videos please send me a donation via PayPal:
+  https://paypal.me/revrari
+* Ep663 emacs lisp coding, html show duplicate links
+:PROPERTIES:
+:DATE:     2025-06-04T03:48:45-07:00
+:DURATION: 1:38:35
+:YOUTUBE_URL: https://www.youtube.com/watch?v=eUTze3dJoIY
+:SPEAKERS: Xah Lee
+:END:
+  Notes at
+  http ://xahlee .info/talk_show/xah_talk_show_2025-06-03.html
+  Copy the link, remove spaces, paste the link in browser tab.
+  Google Chrome and Firefox browsers censor websites by auto adding s in http and says the site Secure Connection Failed.
+  Use Brave Browser or Safari.
+
 * Emacs treesitter lexical analysis of javascript  :js:
 :PROPERTIES:
 :DATE:     2025-06-02T05:04:27-07:00
