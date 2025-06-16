@@ -5,6 +5,54 @@
     <link>https://emacs.tv</link>
     <description>Emacs videos</description>
     <item>
+      <title>Plan 9 Remote File Access from Emacs</title>
+      <link>https://www.youtube.com/watch?v=ntNJGguWaso</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=ntNJGguWaso">youtube</a><br><br>Details: https://lifeofpenguin.blogspot.com/2025/06/plan-9-remote-file-access-from-emacs.html</div>]]></description>
+      <pubDate>Mon, 16 Jun 2025 09:00:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>Better Grep Defaults for Emacs</title>
+      <link>https://www.youtube.com/watch?v=osViM1W6wkM</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=osViM1W6wkM">youtube</a><br><br>My website: https://emacselements.com/
+  Follow me on Mastodon: https://mastodon.social/@revrari
+  If you enjoy my videos please send me a donation via PayPal:
+  https://paypal.me/revrari</div>]]></description>
+      <pubDate>Sun, 15 Jun 2025 22:01:02 +0000</pubDate>
+    </item>
+    <item>
+      <title>compile error right from a term in emacs</title>
+      <link>https://www.youtube.com/watch?v=yjLqgGgFnmM</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=yjLqgGgFnmM">youtube</a><br><br>Emacs can track compile errors for your program even when the compilation happened in a term.
+  This is good, because I'd rather compile in my shell than have emacs do all that.</div>]]></description>
+      <pubDate>Sat, 14 Jun 2025 21:43:37 +0000</pubDate>
+    </item>
+    <item>
+      <title>Browsing Reddit and HackerNews In Emacs</title>
+      <link>https://www.youtube.com/watch?v=ud3Gmxg5UZg</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=ud3Gmxg5UZg">youtube</a><br><br>Let's see how we can nicely browse, search and read HackerNews (and Reddit) in Emacs.
+
+  https://github.com/thanhvg/emacs-hnreader
+  https://github.com/thanhvg/emacs-reddigg
+
+  https://github.com/agzam/consult-hn</div>]]></description>
+      <pubDate>Thu, 12 Jun 2025 23:29:58 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Emacs Org-Ai Package: Three Key Features #ai #chatgpt #dalle3</title>
+      <link>https://www.youtube.com/watch?v=U7KgTHQWl98</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=U7KgTHQWl98">youtube</a><br><br>My website: https://emacselements.com/
+  Follow me on Mastodon: https://mastodon.social/@revrari
+  If you enjoy my videos please send me a donation via PayPal:
+  https://paypal.me/revrari</div>]]></description>
+      <pubDate>Wed, 11 Jun 2025 16:47:38 +0000</pubDate>
+    </item>
+    <item>
+      <title>Emacs Lucid vs GTK: Debunking the Lightweight Myth</title>
+      <link>https://www.youtube.com/watch?v=MKqNrREUkYI</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=MKqNrREUkYI">youtube</a><br><br></div>]]></description>
+      <pubDate>Sun, 08 Jun 2025 22:00:30 +0000</pubDate>
+    </item>
+    <item>
       <title>Emacs Lucid vs GTK: Debunking the Lightweight Myth</title>
       <link>https://www.youtube.com/watch?v=MKqNrREUkYI</link>
       <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=MKqNrREUkYI">youtube</a><br><br>My website: https://emacselements.com/
@@ -12,6 +60,50 @@
   If you enjoy my videos please send me a donation via PayPal:
   https://paypal.me/revrari</div>]]></description>
       <pubDate>Sun, 08 Jun 2025 22:00:30 +0000</pubDate>
+    </item>
+    <item>
+      <title>022 Ollama Buddy - Prototyping autocompletion #emacs #ollama</title>
+      <link>https://www.youtube.com/watch?v=szTtEv65XiE</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=szTtEv65XiE">youtube</a><br><br>Demonstrating a potential implementation for some autocompletion.
+
+  Select o:qwen2.5-coder:0.5b in configuration
+
+  (ollama-buddy-autocomplete-model "o:qwen2.5-coder:0.5b")
+
+  Load up my init file and through a test transient menu toggle on autocomplete and then set manual completion, lets see what happens.
+
+  I chose qwen2.5-coder:0.5b as it probably the fastest coding local LLM.
+
+  Basically looking to autocomplete bits and bobs within the init file.
+
+  https://melpa.org/#/ollama-buddy
+  https://github.com/captainflasmr/ollama-buddy
+
+  ,#emacs #ollama</div>]]></description>
+      <pubDate>Sat, 07 Jun 2025 10:03:22 +0000</pubDate>
+    </item>
+    <item>
+      <title>Save the Last Recorded Macro in Emacs to the Registry</title>
+      <link>https://www.youtube.com/watch?v=b3EAYskhvmo</link>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=b3EAYskhvmo">youtube</a><br><br>```
+  (use-package session
+    :hook
+    (after-init . session-initialize)
+    :custom
+    (session-globals-include
+     '((kill-ring 10 nil)
+       (session-file-alist 100 t)
+       (file-name-history 200 nil)
+       search-ring
+       regexp-search-ring
+       (register-alist 100 t)))
+    (session-globals-exclude nil))  ;; Optional: clears exclusions
+  ```
+  My website: https://emacselements.com/
+  Follow me on Mastodon: https://mastodon.social/@revrari
+  If you enjoy my videos please send me a donation via PayPal:
+  https://paypal.me/revrari</div>]]></description>
+      <pubDate>Thu, 05 Jun 2025 22:00:51 +0000</pubDate>
     </item>
     <item>
       <title>Ep663 emacs lisp coding, html show duplicate links</title>

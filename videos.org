@@ -3,6 +3,70 @@
 #+PROPERTY: header-args:emacs-lisp+   :eval no
 
 
+* Plan 9 Remote File Access from Emacs
+:PROPERTIES:
+:DATE:     2025-06-16T02:00:14-07:00
+:DURATION: 1:06
+:YOUTUBE_URL: https://www.youtube.com/watch?v=ntNJGguWaso
+:SPEAKERS: Anand Tamariya
+:END:
+  Details: https://lifeofpenguin.blogspot.com/2025/06/plan-9-remote-file-access-from-emacs.html
+
+* Better Grep Defaults for Emacs
+:PROPERTIES:
+:DATE:     2025-06-15T15:01:02-07:00
+:DURATION: 4:18
+:YOUTUBE_URL: https://www.youtube.com/watch?v=osViM1W6wkM
+:SPEAKERS: Emacs Elements
+:END:
+  My website: https://emacselements.com/
+  Follow me on Mastodon: https://mastodon.social/@revrari
+  If you enjoy my videos please send me a donation via PayPal:
+  https://paypal.me/revrari
+
+* compile error right from a term in emacs
+:PROPERTIES:
+:DATE:     2025-06-14T14:43:37-07:00
+:DURATION: 1:12
+:YOUTUBE_URL: https://www.youtube.com/watch?v=yjLqgGgFnmM
+:SPEAKERS: Nic Ferrier
+:END:
+  Emacs can track compile errors for your program even when the compilation happened in a term.
+  This is good, because I'd rather compile in my shell than have emacs do all that.
+
+* Browsing Reddit and HackerNews In Emacs
+:PROPERTIES:
+:DATE:     2025-06-12T16:29:58-07:00
+:DURATION: 7:03
+:YOUTUBE_URL: https://www.youtube.com/watch?v=ud3Gmxg5UZg
+:SPEAKERS: iLemming
+:END:
+  Let's see how we can nicely browse, search and read HackerNews (and Reddit) in Emacs.
+
+  https://github.com/thanhvg/emacs-hnreader
+  https://github.com/thanhvg/emacs-reddigg
+
+  https://github.com/agzam/consult-hn
+
+* The Emacs Org-Ai Package: Three Key Features #ai #chatgpt #dalle3
+:PROPERTIES:
+:DATE:     2025-06-11T09:47:38-07:00
+:DURATION: 4:37
+:YOUTUBE_URL: https://www.youtube.com/watch?v=U7KgTHQWl98
+:SPEAKERS: Emacs Elements
+:END:
+  My website: https://emacselements.com/
+  Follow me on Mastodon: https://mastodon.social/@revrari
+  If you enjoy my videos please send me a donation via PayPal:
+  https://paypal.me/revrari
+
+* setting up Emacs as an OpenRC service (and installing it on Alpine Linux)
+:PROPERTIES:
+:DATE:     2025-06-11T04:12:03-07:00
+:DURATION: 12:19
+:YOUTUBE_URL: https://www.youtube.com/watch?v=knrb4b1M74Y
+:SPEAKERS: Nic Olas
+:END:
 * Emacs Lucid vs GTK: Debunking the Lightweight Myth
 :PROPERTIES:
 :DATE:     2025-06-08T15:00:30-07:00
@@ -14,6 +78,56 @@
   Follow me on Mastodon: https://mastodon.social/@revrari
   If you enjoy my videos please send me a donation via PayPal:
   https://paypal.me/revrari
+* 022 Ollama Buddy - Prototyping autocompletion #emacs #ollama
+:PROPERTIES:
+:DATE:     2025-06-07T03:03:22-07:00
+:DURATION: 0:38
+:YOUTUBE_URL: https://www.youtube.com/watch?v=szTtEv65XiE
+:SPEAKERS: Ollama Buddy for Emacs
+:END:
+  Demonstrating a potential implementation for some autocompletion.
+
+  Select o:qwen2.5-coder:0.5b in configuration
+
+  (ollama-buddy-autocomplete-model "o:qwen2.5-coder:0.5b")
+
+  Load up my init file and through a test transient menu toggle on autocomplete and then set manual completion, lets see what happens.
+
+  I chose qwen2.5-coder:0.5b as it probably the fastest coding local LLM.
+
+  Basically looking to autocomplete bits and bobs within the init file.
+
+  https://melpa.org/#/ollama-buddy
+  https://github.com/captainflasmr/ollama-buddy
+
+  ,#emacs #ollama
+
+* Save the Last Recorded Macro in Emacs to the Registry
+:PROPERTIES:
+:DATE:     2025-06-05T15:00:51-07:00
+:DURATION: 3:44
+:YOUTUBE_URL: https://www.youtube.com/watch?v=b3EAYskhvmo
+:SPEAKERS: Emacs Elements
+:END:
+  ```
+  (use-package session
+    :hook
+    (after-init . session-initialize)
+    :custom
+    (session-globals-include
+     '((kill-ring 10 nil)
+       (session-file-alist 100 t)
+       (file-name-history 200 nil)
+       search-ring
+       regexp-search-ring
+       (register-alist 100 t)))
+    (session-globals-exclude nil))  ;; Optional: clears exclusions
+  ```
+  My website: https://emacselements.com/
+  Follow me on Mastodon: https://mastodon.social/@revrari
+  If you enjoy my videos please send me a donation via PayPal:
+  https://paypal.me/revrari
+
 * Ep663 emacs lisp coding, html show duplicate links
 :PROPERTIES:
 :DATE:     2025-06-04T03:48:45-07:00
