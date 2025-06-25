@@ -3,6 +3,129 @@
 #+PROPERTY: header-args:emacs-lisp+   :eval no
 
 
+* Emacs Auto-Completion with Company Mode
+:PROPERTIES:
+:DATE:     2025-06-23T01:01:52-07:00
+:DURATION: 1:01
+:YOUTUBE_URL: https://www.youtube.com/watch?v=hVA7KXDSUws
+:SPEAKERS: Emacs Elements
+:END:
+  My website: https://emacselements.com/
+  Follow me on Mastodon: https://mastodon.social/@revrari
+  If you enjoy my videos please send me a donation via PayPal:
+  https://paypal.me/revrari
+
+* Interesting Grep Commands in Emacs
+:PROPERTIES:
+:DATE:     2025-06-22T13:19:27-07:00
+:DURATION: 5:09
+:YOUTUBE_URL: https://www.youtube.com/watch?v=GR3T6ZH33g0
+:SPEAKERS: Emacs Elements
+:END:
+  My website: https://emacselements.com/
+  Follow me on Mastodon: https://mastodon.social/@revrari
+  If you enjoy my videos please send me a donation via PayPal:
+  https://paypal.me/revrari
+
+* What's Special About 'M-x shell' in Emacs? - System Crafters Live!
+:PROPERTIES:
+:DATE:     2025-06-20T21:54:44-07:00
+:DURATION: 1:21:25
+:YOUTUBE_URL: https://www.youtube.com/watch?v=xqf6exp7wlI
+:SPEAKERS: System Crafters
+:END:
+  In this stream, we'll take at the 'shell' feature in Emacs to try and understand what makes it unique compared to other built-in options like Eshell and ansi-term.  We'll also take a look at how 'shell' is integrated with other packages like project.el and a community package called 'multishell'.
+
+  ,#gnu #emacs #shell #bash #programming
+
+  SUPPORT THE CHANNEL:
+
+  👍 Support My Work: https://systemcrafters.net/how-to-help/#support-my-work
+  📰 Subscribe to the Newsletter: https://systemcrafters.net/newsletter/
+  👕 Check out the Store: https://systemcrafters.store
+  📘 Get Your Copy of Mastering Emacs: https://www.masteringemacs.org/r/systemcrafters?utm_source=yt&utm_medium=desc&utm_campaign=scme
+
+  SHOW NOTES:
+
+  https://systemcrafters.net/live-streams/june-20-2025/
+
+  JOIN THE COMMUNITY:
+
+  https://systemcrafters.net/community/ (Forum and IRC chat!)
+  https://fosstodon.org/@daviwil
+
+  MY CONFIGURATION:
+
+  (This site is currently down but will be back up soon!)
+
+  https://config.daviwil.com
+  https://config.daviwil.com/emacs
+  https://config.daviwil.com/systems (Guix)
+
+  OTHER SERIES:
+
+  - Emacs Essentials: https://www.youtube.com/watch?v=48JlgiBpw_I&list=PLEoMzSkcN8oPZvSdewHG8uApD7THlLLCV
+  - Emacs From Scratch: https://www.youtube.com/watch?v=74zOY-vgkyw&list=PLEoMzSkcN8oPH1au7H6B7bBJ4ZO7BXjSZ
+  - Emacs Tips: https://www.youtube.com/watch?v=wKTKmE1wLyw&list=PLEoMzSkcN8oMHJ6Xil1YdnYtlWd5hHZql
+  - Emacs Desktop Environment: https://www.youtube.com/watch?v=f7xB2fFk1tQ&list=PLEoMzSkcN8oNPbEMYEtswOVTvq7CVddCS
+  - Emacs IDE: https://www.youtube.com/watch?v=E-NAM9U5JYE&list=PLEoMzSkcN8oNvsrtk_iZSb94krGRofFjN
+  - Emacs Mail: https://www.youtube.com/watch?v=yZRyEhi4y44&list=PLEoMzSkcN8oM-kA19xOQc8s0gr0PpFGJQ
+  - Learning Emacs Lisp: https://www.youtube.com/watch?v=RQK_DaaX34Q&list=PLEoMzSkcN8oPQtn7FQEF3D7sroZbXuPZ7
+  - Craft Your System with GNU Guix: https://www.youtube.com/watch?v=iBaqOK75cho&list=PLEoMzSkcN8oNxnj7jm5V2ZcGc52002pQU
+
+  CREDITS:
+
+  Coriolis Effect by logos feat. stefsax, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/mseq/26296
+  reNovation by airtone, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/airtone/60674
+  ukeSounds by airtone, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/airtone/32655
+  Between Worlds (Instrumental) by Aussens@iter, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/tobias_weber/56664
+
+* Have Emacs Start in a *Notes* Buffer
+:PROPERTIES:
+:DATE:     2025-06-19T19:59:29-07:00
+:DURATION: 1:07
+:YOUTUBE_URL: https://www.youtube.com/watch?v=Ecp3eNgk9yk
+:SPEAKERS: Emacs Elements
+:END:
+  My website: https://emacselements.com/
+  Follow me on Mastodon: https://mastodon.social/@revrari
+  If you enjoy my videos please send me a donation via PayPal:
+  https://paypal.me/revrari
+
+* Org-mode pour les études (Emacs)
+:PROPERTIES:
+:DATE:     2025-06-19T13:51:32-07:00
+:DURATION: 21:38
+:YOUTUBE_URL: https://www.youtube.com/watch?v=skc-PZ4TenI
+:SPEAKERS: Eric Nantel
+:END:
+  ,#emacs #orgmode #productivity #studentsuccess #pc #informatique #desktop #freecourse
+
+* Curious and Obsessive | My Emacs For Writers handbook
+:PROPERTIES:
+:DATE:     2025-06-18T05:05:03-07:00
+:DURATION: 2:01
+:YOUTUBE_URL: https://www.youtube.com/watch?v=naTirHAl9l8
+:SPEAKERS: Chris Maiorana
+:END:
+  Finally, after many years of using Emacs for writing, I have assembled what I believe are the key points necessary to take any non-programmer writer gently by the hand into Emacs.
+
+  DOWNLOAD HERE:
+  https://chris-maiorana.kit.com/products/emacs-for-writers
+
+  This handbook goes ALL THE WAY from “Why plain text” to exporting your Org Mode files to crisp, standard manuscript Microsoft Word formatted documents for the writer’s market.
+
+  If you are a technical writer, blogger, copywriter, novelist, or just a weekend short story writer like yours truly, Emacs is the superior composition and editing tool you need to more easily get your ideas out of your head and into the world.
+
+* Emacs buffer navigation
+:PROPERTIES:
+:DATE:     2025-06-16T12:06:04-07:00
+:DURATION: 5:53
+:YOUTUBE_URL: https://www.youtube.com/watch?v=dDZ9B297hxU
+:SPEAKERS: Oleksii Koval
+:END:
+  Explains how I navigate in the buffer
+
 * Plan 9 Remote File Access from Emacs
 :PROPERTIES:
 :DATE:     2025-06-16T02:00:14-07:00
@@ -48,6 +171,25 @@
 
   https://github.com/agzam/consult-hn
 
+* chatgpt-shell.el, by Álvaro Ramírez (BALISP)
+:PROPERTIES:
+:DATE:     2025-06-12T13:24:15-07:00
+:DURATION: 46:57
+:YOUTUBE_URL: https://www.youtube.com/watch?v=5iZRnPBnK-c
+:SPEAKERS: Arthur Gleckler
+:END:
+  BALISP, the Bay Area Lisp & Scheme Users Group
+  https://balisp.org/
+  Sat 7 Jun 2025
+  Hacker Dojo
+  Mountain View, CA
+
+
+  Abstract
+
+  Álvaro Ramírez spoke about his Emacs Lisp package, chatgpt-shell.xel, which integrates ChatGPT, Gemini, Claude, LLAMA, etc. into Emacs.  Álvaro joined us via video from London.
+
+  Álvaro is a software engineer who contributes to many Emacs packages.
 * The Emacs Org-Ai Package: Three Key Features #ai #chatgpt #dalle3
 :PROPERTIES:
 :DATE:     2025-06-11T09:47:38-07:00
@@ -67,6 +209,15 @@
 :YOUTUBE_URL: https://www.youtube.com/watch?v=knrb4b1M74Y
 :SPEAKERS: Nic Olas
 :END:
+* Emacs Micro Lesson 12 | Org mode subtree export
+:PROPERTIES:
+:DATE:     2025-06-10T05:44:09-07:00
+:DURATION: 2:54
+:YOUTUBE_URL: https://www.youtube.com/watch?v=ezonhD_sltU
+:SPEAKERS: Chris Maiorana
+:END:
+  What do you do if you're in a longer Org Mode document and you want to export one small part of it? You may be thinking, "Well, I'll just copy and paste that part into another document."  No!  You can do a subtree export. It's easy. I'll show you how. Let's get into it.
+
 * Emacs Lucid vs GTK: Debunking the Lightweight Myth
 :PROPERTIES:
 :DATE:     2025-06-08T15:00:30-07:00
@@ -3199,6 +3350,39 @@
   Since Common Lisp is a good Lisp to reason about Lisp and other languages, it might just turn out that LLMs turn into a killer application for lisp-like languages.  Since Lem is an Emacs, there's an intriguing possibility that we're witnessing a turning point in the making.
 
   #programming #llm #opensource
+
+  TIMESTAMPS
+  00:00 Welcome
+  00:28 Retrieval Augmented Emacs
+  03:22 The Problems Being Solved
+  05:27 Not Even the Best Available
+  06:22 Why This is Huge
+
+* RAGmacs - Pt. 1: Retrieving Deep Value in Emacs
+:PROPERTIES:
+:DATE:     2025-02-08T20:53:38-08:00
+:DURATION: 9:42
+:YOUTUBE_URL: https://www.youtube.com/watch?si=JTLfL5FeabmLLx_p&v=JHXG225oP8E&feature=youtu.be
+:SPEAKERS: Positron's Emacs Channel
+:END:
+  We're using GPTel with LLM tool-use integration to retrieve introspection data from Emacs and deliver high-quality results that are vastly better than the data embedded in LLMs weights.  The tests are a success.  This is just the beginning.
+
+  The demos use manuals, completions, source code, docstrings, and other facilities to let the LLM traverse facts and more deductively arrive at useful conclusions.
+
+  Source code for tools in the demo (subscribers exclusive!):
+  https://github.com/positron-solutions/youtube/blob/master/lunch/09-retreival-augmented-macros/demo-gptel-config.el
+
+  Our Github Sponsors
+  https://github.com/sponsors/positron-solutions
+
+  GPTel for Emacs:
+  https://github.com/karthink/gptel
+
+  These techniques will scale across any language.  By using these techniques within Emacs to make our Emacs usage more efficient, we are in a very tight feedback loop with very high headroom.  Editors like Cursor don't really have anything to offer over programmable tools where the programmers employ LLMs to their problems rather than waiting for the IDE to come to them.
+
+  Since Common Lisp is a good Lisp to reason about Lisp and other languages, it might just turn out that LLMs turn into a killer application for lisp-like languages.  Since Lem is an Emacs, there's an intriguing possibility that we're witnessing a turning point in the making.
+
+  ,#programming #llm #opensource
 
   TIMESTAMPS
   00:00 Welcome
