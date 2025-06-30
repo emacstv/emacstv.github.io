@@ -3,6 +3,193 @@
 #+PROPERTY: header-args:emacs-lisp+   :eval no
 
 
+* Emacs Package Development: The Emacs Reader (VI: v0.3.0 release and further triaging) - 6&#x2F;29&#x2F;2025, 2:55:40 PM
+:PROPERTIES:
+:DATE:     2025-06-29T17:13:05.453Z
+:DURATION: 2:12:32
+:PEERTUBE_URL: https://tv.dyne.org/w/tPgpVpD7pqhksLuZd5hSFV
+:END:
+  This is the sixth in a series of Emacs package development streams focusing on the Emacs Reader package: https://codeberg.org/divyaranjan/emacs-reader/ In this stream specifically, I'll be introduc...
+* View and Annotate Your PDFS in Emacs -- Pdf-tools and Org-noter
+:PROPERTIES:
+:DATE:     2025-06-29T12:56:43-07:00
+:DURATION: 4:52
+:YOUTUBE_URL: https://www.youtube.com/watch?v=JDkGuBfiHg8
+:SPEAKERS: Emacs Elements
+:END:
+  My website: https://emacselements.com/
+  Follow me on Mastodon: https://mastodon.social/@revrari
+  If you enjoy my videos please send me a donation via PayPal:
+  https://paypal.me/revrari
+
+* Emacs trial & editor configuration  :DoomEmacs:
+:PROPERTIES:
+:DATE:     2025-06-29T02:27:01-07:00
+:DURATION: 5:05:19
+:YOUTUBE_URL: https://www.youtube.com/watch?v=mRjlCXY3WnQ
+:SPEAKERS: ae2f
+:END:
+  Made with Restream. Livestream on 30+ platforms at once via https://restream.io
+
+  ,#emacs #doom
+
+* GNU Emacs【※音無し】
+:PROPERTIES:
+:DATE:     2025-06-27T19:43:05-07:00
+:DURATION: 3:17
+:YOUTUBE_URL: https://www.youtube.com/watch?v=yRDovUQjuK8
+:SPEAKERS: Unix & Linux Ch
+:END:
+  Linux Mint に GNU Emacs（イーマクス）をインストールし、操作していきます。
+  ※映像に、BGM等の音は一切ありません
+
+  ■概要
+  https://phoomu.com/articles/20250628.html
+* Xah Talk Show Ep669 emacs lisp and random
+:PROPERTIES:
+:DATE:     2025-06-27T00:07:48-07:00
+:DURATION: 50:15
+:YOUTUBE_URL: https://www.youtube.com/watch?v=6eWWQvlnaFg
+:SPEAKERS: Xah Lee
+:END:
+  emacs lisp coding and random.
+  you ask and i answer.
+
+  Notes at
+  http ://xahlee .info /talk_show/xah_talk_show_ep669.html
+  Copy the link, remove spaces, paste the link in browser tab.
+  Google Chrome and Firefox browsers censor websites by auto adding s in http and says the site Secure Connection Failed.
+  Use Brave Browser or Safari.
+
+* Emacs AI plugins
+:PROPERTIES:
+:DATE:     2025-06-26T07:46:54-07:00
+:DURATION: 40:06
+:YOUTUBE_URL: https://www.youtube.com/watch?v=n-HB49gIQTE
+:SPEAKERS: Ants Are Everywhere
+:END:
+  Special thanks to my Patreon patrons:
+
+  - Frederick Rowland
+  - Alexander Kulnev
+  - AnonMe
+  - Long Nguyen
+  - Sreyan Chakravarty
+  - Nam Anh
+  - duck
+  - Naur
+  - KKR
+  - Randy Jordan
+  - Kenn
+  - manoj
+  - Rafael
+  - Abdullah Al-Kheshen
+  - Friction
+  - Koorosh
+  - Wilson
+  - Parker
+  - bhanu jampala
+
+  Coding videos have moved to my other channel: https://www.youtube.com/@The_Ant_Farm
+
+  You can join my Patreon at https://patreon.com/ants_are_everywhere.
+
+  Thanks for watching :)
+
+  Join Discord at: https://discord.gg/YNtU8Yw7yT
+  My Mastodon address is: https://mathstodon.xyz/@ants_are_everywhere
+
+* Emacs Org Mode Date Range Calculated 2025_06_26_08:31:09  :org:
+:PROPERTIES:
+:DATE:     2025-06-25T20:38:29-07:00
+:DURATION: 11:25
+:YOUTUBE_URL: https://youtu.be/NgqxeT4jT5k
+:SPEAKERS: Bhaskar Chowdhury  ...Musing with GNU_Linux!!
+:END:
+  In this video, you will see, how easily you could find the date range value of two different dates in Emacs org mode file.
+
+  ,#linux #linuxadmin #sysadmin #opensource #Gentoo #Debian #Slackware #research
+  ,#linuxkernel #kernel #gnu #Linux #GNU
+
+  Buy Me A Coffee: https://www.buymeacoffee.com/unixbhaskar
+  Patreon: https://www.patreon.com/unixbhaskar
+  Paypal: https://paypal.me/linuxbhaskar
+
+  You can also find me :
+
+  GitHub: https://github.com/unixbhaskar
+
+  Reddit: https://www.reddit.com/user/unixbhaskar
+
+  Blogs: https://unixbhaskar.wordpress.com
+
+  Twitter: https://twitter.com/unixbhaskar
+
+  Linkedin: https://linkedin.com/in/unixbhaskar
+
+  Vimeo: https://vimeo.com/unixbhaskar
+
+  Goodreads: https://goodreads.com/unixbhaskar
+
+* Using Emacs Org-Babel instead of Jupyter(Lab) Notebooks  :org:
+:PROPERTIES:
+:DATE:     2025-06-25T05:06:03-07:00
+:DURATION: 32:57
+:YOUTUBE_URL: https://www.youtube.com/watch?v=jezMi0QI7G8
+:SPEAKERS: Thomas Haschka
+:END:
+  Shows how to configure org-babel mode in emacs in order to emulate or surpass the functionality of jupyter notebooks:
+  emacs: https://www.gnu.org/software/emacs/
+  org-babel: https://orgmode.org/worg/org-contrib/babel/intro.html
+
+* #EXTENDEDCUT damaru+doug merritt on #emacs, #meditation, edrx&#39;s #eev #lispygopherclimate
+:PROPERTIES:
+:DATE:     2025-06-25T01:40:34.770Z
+:DURATION: 1:12:00
+:PEERTUBE_URL: https://communitymedia.video/w/hTjTR5cwshdWP7DX3VqWjB
+:END:
+  We talk with DJ Damaru of the Evolution Revolution podcast and Doug Merritt of (many places) about their computer useages over the ages, orbitting the topic of emacs for writers. Meditation and spi...
+* Emacs org mode changelog for your github repositories  :org:
+:PROPERTIES:
+:DATE:     2025-06-23T14:23:14-07:00
+:DURATION: 37:35
+:YOUTUBE_URL: https://www.youtube.com/watch?v=qkGPgK5rYa4
+:SPEAKERS: NapoleonWils0n
+:END:
+  Using emacs org model with src blocks we will create a changelog for your github repositories, showing the git hash, commit message, time and date of the commit and the repository status
+
+  You can also set a todo status on the git repo in emacs to indicate the machine you have made the changes on,
+  so you know which other machines you need to pull the changes to, you can then add a todo entry showing you have pulled the changes to that machine
+
+  We with be using noweb to simplify the code and pass in variables for the local path to the git repo, from the src code block for each repo
+
+  And we will wrap the results in a quote block so they are rendered on github as well
+
+  changelog git repository
+  https://github.com/NapoleonWils0n/changelog
+
+  show the git sha sum of local and remote git repositories
+  https://github.com/NapoleonWils0n/cerberus/blob/master/git/show-sha-sum.org
+
+* How to Install Emacs on Windows 11   :install:
+:PROPERTIES:
+:DATE:     2025-06-23T09:07:55-07:00
+:DURATION: 2:39
+:YOUTUBE_URL: https://www.youtube.com/watch?v=b_Fu4OnHLXc
+:SPEAKERS: thecoderworld
+:END:
+  In this video, we’re going to learn how to install and use Emacs on Windows 11. It’s a free text editor that’s still under development and widely loved by Lisp programmers.
+
+  Download Emacs Text Editor: https://www.gnu.org/software/emacs/
+
+  Read the Full Guide 👇
+  https://thecoderworld.com/install-emacs-text-editor-on-windows-11/
+
+  Have a different tech issue? Looking for a troubleshooting guide? Visit👇
+  https://thecoderworld.com/
+
+  For Business Inquiries Email at - contact@thecoderworld.com
+
 * Emacs Auto-Completion with Company Mode
 :PROPERTIES:
 :DATE:     2025-06-23T01:01:52-07:00
@@ -92,7 +279,7 @@
   If you enjoy my videos please send me a donation via PayPal:
   https://paypal.me/revrari
 
-* Org-mode pour les études (Emacs)
+* Org-mode pour les études (Emacs)   :org:
 :PROPERTIES:
 :DATE:     2025-06-19T13:51:32-07:00
 :DURATION: 21:38
@@ -190,7 +377,7 @@
   Álvaro Ramírez spoke about his Emacs Lisp package, chatgpt-shell.xel, which integrates ChatGPT, Gemini, Claude, LLAMA, etc. into Emacs.  Álvaro joined us via video from London.
 
   Álvaro is a software engineer who contributes to many Emacs packages.
-* The Emacs Org-Ai Package: Three Key Features #ai #chatgpt #dalle3
+* The Emacs Org-Ai Package: Three Key Features #ai #chatgpt #dalle3  :org:ai:
 :PROPERTIES:
 :DATE:     2025-06-11T09:47:38-07:00
 :DURATION: 4:37
@@ -209,7 +396,7 @@
 :YOUTUBE_URL: https://www.youtube.com/watch?v=knrb4b1M74Y
 :SPEAKERS: Nic Olas
 :END:
-* Emacs Micro Lesson 12 | Org mode subtree export
+* Emacs Micro Lesson 12 | Org mode subtree export  :org:
 :PROPERTIES:
 :DATE:     2025-06-10T05:44:09-07:00
 :DURATION: 2:54
@@ -301,7 +488,7 @@
 :END:
   Doing lexical analysis of javascript was slightly more difficult than C, which I did previously. But now it works!
 
-* How I take notes in org-roam #emacs   :OrgRoam:
+* How I take notes in org-roam #emacs   :OrgRoam:org:
 :PROPERTIES:
 :DATE:     2025-06-01T12:53:24-07:00
 :DURATION: 7:23
