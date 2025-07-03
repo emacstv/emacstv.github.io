@@ -85,35 +85,45 @@ Returns nil if not found."
 (defun emacstv-export-json ()
 	(interactive)
 	(with-current-buffer (find-file-noselect emacstv-index-org)
-		(let ((data (org-map-entries
-								 (lambda ()
-									 (let* ((end (save-excursion (org-end-of-subtree)))
-													(beg (progn (org-end-of-meta-data t) (point)))
-													(desc (if (< beg end) (string-trim (buffer-substring beg end)) "")))
-										 (append (org-entry-properties)
-														 `(("DESCRIPTION" . ,desc)))))
-								 "LEVEL=1")))
+		(let ((data (emacstv-export-data)))
 			(with-temp-file (expand-file-name "videos.json" (file-name-directory emacstv-index-org))
-				(insert (json-encode data))))))
+				(insert (json-encode data))
+        (json-pretty-print (point-min) (point-max))))))
+
+(defvar emacstv-rss-number-of-items 40 "Number of items to include in the RSS feed.")
+(defun emacstv-export-data ()
+  "Return a sorted list of data."
+  (sort (org-map-entries
+          (lambda ()
+            (let* ((end (save-excursion
+                          (org-end-of-subtree)))
+                    (start (progn
+                             (org-end-of-meta-data t)
+                             (point)))
+                    (body (if (< start end)
+                            (string-trim (buffer-substring start end))
+                            ""))
+                    (props (org-entry-properties)))
+              (delq nil
+                (append
+                  (mapcar (lambda (field) (assoc field props))
+                    '("ITEM" "DATE" "DURATION" "URL" "MEDIA_URL" "PEERTUBE_URL" "YOUTUBE_URL" "TOOBNIX_URL" "TRANSCRIPT_URL" "SPEAKERS"))
+                  (when (assoc-default "TAGS" props)
+                    `(("TAGS" . ,(split-string (org-trim (assoc-default "TAGS" props))
+                                   ":" t))))
+                  `(("BODY" . ,body))))))
+          "LEVEL=1")
+    :key (lambda (o) (assoc-default "DATE" o))
+    :lessp 'string< :reverse t))
 
 (defun emacstv-export-rss ()
   (interactive)
   (with-current-buffer (find-file-noselect emacstv-index-org)
-    (let ((data (org-map-entries
-                 (lambda ()
-                   (let* ((end (save-excursion
-                                 (org-end-of-subtree)))
-                          (start (progn
-                                   (org-end-of-meta-data t)
-                                   (point)))
-                          (body (if (< start end)
-                                    (string-trim (buffer-substring start end))
-                                  "")))
-                     (append (org-entry-properties)
-                       `(("BODY" . ,body)))))
-                 "LEVEL=1")))
+    (let ((data (seq-take
+                  (emacstv-export-data)
+                  emacstv-rss-number-of-items)))
       (with-temp-file (expand-file-name "videos.rss"
-                                        (file-name-directory emacstv-index-org))
+                        (file-name-directory emacstv-index-org))
         (insert (format "
 <rss version=\"2.0\" xmlns:atom=\"http://www.w3.org/2005/Atom\">
   <channel>
@@ -122,22 +132,22 @@ Returns nil if not found."
     <atom:link href=\"https://emacs.tv/videos.rss\" rel=\"self\" type=\"application/rss+xml\" />
     <description>Emacs videos</description>"))
         (dolist (entry data)
-          (let ((title (or (map-elt entry "ITEM") ""))
-                (url (or (map-elt entry "URL")
-                         (map-elt entry "MEDIA_URL")
-                         (map-elt entry "TOOBNIX_URL")
-                         (map-elt entry "YOUTUBE_URL")
-                         (map-elt entry "PEERTUBE_URL")
-                         (map-elt entry "TRANSCRIPT_URL")
-                         ""))
-                (urls (seq-filter
-                       (lambda (item) (string-suffix-p "_URL" (car item)))
-                       entry))
-                (timestamp (format-time-string "%a, %d %b %Y %H:%M:%S %z"
-                                               (date-to-time (or (map-elt entry "DATE")
-                                                                 (error "No date for: %s" entry)))
-                                               t))
-                (body (or (map-elt entry "BODY") "")))
+          (let ((title (or (assoc-default "ITEM" entry) ""))
+                 (url (or (assoc-default "URL" entry)
+                        (assoc-default "MEDIA_URL" entry)
+                        (assoc-default "TOOBNIX_URL" entry)
+                        (assoc-default "YOUTUBE_URL" entry)
+                        (assoc-default "PEERTUBE_URL" entry)
+                        (assoc-default "TRANSCRIPT_URL" entry)
+                        ""))
+                 (urls (seq-filter
+                         (lambda (item) (string-suffix-p "_URL" (car item)))
+                         entry))
+                 (timestamp (format-time-string "%a, %d %b %Y %H:%M:%S %z"
+                              (date-to-time (or (assoc-default "DATE" entry)
+                                              (error "No date for: %s" entry)))
+                              t))
+                 (body (or (assoc-default "BODY" entry) "")))
             (insert (format "
     <item>
       <title>%s</title>
@@ -164,7 +174,7 @@ Returns nil if not found."
                       (mapconcat
                         (lambda (s) (format "<category>%s</category>"
                                       (org-html-encode-plain-text s)))
-                        (split-string (org-trim (or (map-elt entry "TAGS") "")) ":" t)
+                        (assoc-default "TAGS" entry)
                         "\n")
                       ))))
         (insert "
