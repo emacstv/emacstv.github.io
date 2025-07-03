@@ -24,6 +24,8 @@
 
 ;;; Code:
 
+(require 'ox-html)
+
 (defvar emacstv-index-org (expand-file-name "videos.org" (file-name-directory (or load-file-name (buffer-file-name))))
 	"*Where the data is stored.")
 
