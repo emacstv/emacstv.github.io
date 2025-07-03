@@ -108,7 +108,7 @@ Returns nil if not found."
                                     (string-trim (buffer-substring start end))
                                   "")))
                      (append (org-entry-properties)
-                             `(("BODY" . ,body)))))
+                       `(("BODY" . ,body)))))
                  "LEVEL=1")))
       (with-temp-file (expand-file-name "videos.rss"
                                         (file-name-directory emacstv-index-org))
@@ -139,22 +139,28 @@ Returns nil if not found."
       <title>%s</title>
       <link>%s</link>
       <description><![CDATA[<div id=\"content\">%s</div>]]></description>
-      <pubDate>%s</pubDate>
+      <pubDate>%s</pubDate>%s
     </item>"
-                            (xml-escape-string title)
-                            (xml-escape-string url)
-                            (if-let* ((links (concat
-                                             (mapconcat
-                                              (lambda (url)
-                                                (format "<a href=\"%s\">%s</a>"
-                                                        (cdr url)
-                                                        (downcase (substring (car url) 0 -4))))
-                                              urls
-                                              "&nbsp;·&nbsp;"))))
-                                (concat links "<br><br>"
-                                        body)
-                              body)
-                            (xml-escape-string timestamp)))))
+                      (xml-escape-string title)
+                      (xml-escape-string url)
+                      (if-let* ((links (concat
+                                         (mapconcat
+                                           (lambda (url)
+                                             (format "<a href=\"%s\">%s</a>"
+                                               (cdr url)
+                                               (downcase (substring (car url) 0 -4))))
+                                           urls
+                                           "&nbsp;·&nbsp;"))))
+                        (concat links "<br><br>"
+                          body)
+                        body)
+                      (xml-escape-string timestamp)
+                      (mapconcat
+                        (lambda (s) (format "<category>%s</category>"
+                                      (org-html-encode-plain-text s)))
+                        (split-string (org-trim (or (map-elt entry "TAGS") "")) ":" t)
+                        "\n")
+                      ))))
         (insert "
   </channel>
 </rss>")))))
