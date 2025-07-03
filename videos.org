@@ -853,7 +853,7 @@
   • 37:54 demo of template
   • 50:11 Google forcing https crime
 
-* Emacs Package Development: The Emacs Reader (III: Multi-Threading) - 5&#x2F;18&#x2F;2025, 5:32:23 PM
+* Emacs Package Development: The Emacs Reader (III: Multi-Threading) - 5-18-2025, 5:32:23 PM
 :PROPERTIES:
 :DATE:     2025-05-18T19:38:54.092Z
 :DURATION: 2:01:38
@@ -7352,7 +7352,7 @@ I needed to quickly go through a large set of images to select out a subset from
 
   GET GOOD AT GIT:
 
-  Have you used Git for a while but still feel like you donât really understand what youâre doing? Do you wish you understood how Git really works under the hood? Wish you knew all the cool techniques that the expert hackers use?
+  Have you used Git for a while but still feel like you don't really understand what you're doing? Do you wish you understood how Git really works under the hood? Wish you knew all the cool techniques that the expert hackers use?
 
   In December, I'll be running a new one-day workshop called "Git Good: From Basics to Beyond in 4 Hours" that will teach you many of the secrets of expert Git users within 4 hours while giving you hands-on exercises to try it all for yourself!
 
@@ -7363,10 +7363,10 @@ I needed to quickly go through a large set of images to select out a subset from
 
   SUPPORT THE CHANNEL:
 
-  ð Support My Work: https://systemcrafters.net/how-to-help/#support-my-work
-  ð° Subscribe to the Newsletter: https://systemcrafters.net/newsletter/
-  ð Check out the Store: https://systemcrafters.store
-  ð Get Your Copy of Mastering Emacs: https://www.masteringemacs.org/r/systemcrafters?utm_source=yt&utm_medium=desc&utm_campaign=scme
+  - Support My Work: https://systemcrafters.net/how-to-help/#support-my-work
+  - Subscribe to the Newsletter: https://systemcrafters.net/newsletter/
+  - Check out the Store: https://systemcrafters.store
+  - Get Your Copy of Mastering Emacs: https://www.masteringemacs.org/r/systemcrafters?utm_source=yt&utm_medium=desc&utm_campaign=scme
 
   SHOW NOTES:
 

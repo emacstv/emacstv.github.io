@@ -119,6 +119,7 @@ Returns nil if not found."
   <channel>
     <title>Emacs TV</title>
     <link>https://emacs.tv</link>
+    <atom:link href=\"https://emacs.tv/videos.rss\" rel=\"self\" type=\"application/rss+xml\" />
     <description>Emacs videos</description>"))
         (dolist (entry data)
           (let ((title (or (map-elt entry "ITEM") ""))
@@ -126,6 +127,7 @@ Returns nil if not found."
                          (map-elt entry "MEDIA_URL")
                          (map-elt entry "TOOBNIX_URL")
                          (map-elt entry "YOUTUBE_URL")
+                         (map-elt entry "PEERTUBE_URL")
                          (map-elt entry "TRANSCRIPT_URL")
                          ""))
                 (urls (seq-filter
@@ -140,10 +142,12 @@ Returns nil if not found."
     <item>
       <title>%s</title>
       <link>%s</link>
+      <guid>%s</guid>
       <description><![CDATA[<div id=\"content\">%s</div>]]></description>
       <pubDate>%s</pubDate>%s
     </item>"
                       (xml-escape-string title)
+                      (xml-escape-string url)
                       (xml-escape-string url)
                       (if-let* ((links (concat
                                          (mapconcat
