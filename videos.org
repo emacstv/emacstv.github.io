@@ -511,8 +511,7 @@
   00:00 Introduction
   01:50 How to create tools in Emacs Lisp in gptel
   08:35 Demo of gptel Emacs Lisp tools
-  18:00 Model Context Protocol and mcp.el
-  20:38 mcp.el - github page and configuration examples
+  18:00 Model Context Protocol and mcp.el  20:38 mcp.el - github page and configuration examples
   26:00 Demo of gptel using MCP servers
   42:20 Translate Claude Desktop mcp configs for mcp.el
   45:15 mcp-server-lib.el - Write even your MCP servers in Emacs Lisp!
