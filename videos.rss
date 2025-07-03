@@ -6,7 +6,7 @@
     <atom:link href="https://emacs.tv/videos.rss" rel="self" type="application/rss+xml" />
     <description>Emacs videos</description>
     <item>
-      <title>Emacs Package Development: The Emacs Reader (VI: v0.3.0 release and further triaging) - 6&amp;#x2F;29&amp;#x2F;2025, 2:55:40 PM</title>
+      <title>Emacs Package Development: The Emacs Reader (VI: v0.3.0 release and further triaging) - 6-29-2025, 2:55:40 PM</title>
       <link>https://tv.dyne.org/w/tPgpVpD7pqhksLuZd5hSFV</link>
       <guid>https://tv.dyne.org/w/tPgpVpD7pqhksLuZd5hSFV</guid>
       <description><![CDATA[<div id="content"><a href="https://tv.dyne.org/w/tPgpVpD7pqhksLuZd5hSFV">peertube</a><br><br>This is the sixth in a series of Emacs package development streams focusing on the Emacs Reader package: https://codeberg.org/divyaranjan/emacs-reader/ In this stream specifically, I'll be introduc...</div>]]></description>
@@ -351,11 +351,11 @@
 <category>ai</category>
     </item>
     <item>
-      <title>Emacs Micro Lesson 12 | Org mode subtree export</title>
-      <link>https://www.youtube.com/watch?v=ezonhD_sltU</link>
-      <guid>https://www.youtube.com/watch?v=ezonhD_sltU</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=ezonhD_sltU">youtube</a><br><br></div>]]></description>
-      <pubDate>Tue, 10 Jun 2025 12:44:09 +0000</pubDate><category>org</category>
+      <title>setting up Emacs as an OpenRC service (and installing it on Alpine Linux)</title>
+      <link>https://www.youtube.com/watch?v=knrb4b1M74Y</link>
+      <guid>https://www.youtube.com/watch?v=knrb4b1M74Y</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=knrb4b1M74Y">youtube</a><br><br></div>]]></description>
+      <pubDate>Wed, 11 Jun 2025 11:12:03 +0000</pubDate>
     </item>
     <item>
       <title>Emacs Micro Lesson 12 | Org mode subtree export</title>

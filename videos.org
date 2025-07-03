@@ -3,7 +3,7 @@
 #+PROPERTY: header-args:emacs-lisp+   :eval no
 
 
-* Emacs Package Development: The Emacs Reader (VI: v0.3.0 release and further triaging) - 6&#x2F;29&#x2F;2025, 2:55:40 PM
+* Emacs Package Development: The Emacs Reader (VI: v0.3.0 release and further triaging) - 6-29-2025, 2:55:40 PM
 :PROPERTIES:
 :DATE:     2025-06-29T17:13:05.453Z
 :DURATION: 2:12:32

@@ -97,7 +97,7 @@ Returns nil if not found."
           (lambda ()
             (let* ((end (save-excursion
                           (org-end-of-subtree)))
-                    (start (progn
+                    (start (save-excursion
                              (org-end-of-meta-data t)
                              (point)))
                     (body (if (< start end)

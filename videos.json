@@ -1,6 +1,6 @@
 [
   {
-    "ITEM": "Emacs Package Development: The Emacs Reader (VI: v0.3.0 release and further triaging) - 6&#x2F;29&#x2F;2025, 2:55:40 PM",
+    "ITEM": "Emacs Package Development: The Emacs Reader (VI: v0.3.0 release and further triaging) - 6-29-2025, 2:55:40 PM",
     "DATE": "2025-06-29T17:13:05.453Z",
     "DURATION": "2:12:32",
     "PEERTUBE_URL": "https://tv.dyne.org/w/tPgpVpD7pqhksLuZd5hSFV",
@@ -212,14 +212,11 @@
     "BODY": "My website: https://emacselements.com/\n  Follow me on Mastodon: https://mastodon.social/@revrari\n  If you enjoy my videos please send me a donation via PayPal:\n  https://paypal.me/revrari"
   },
   {
-    "ITEM": "Emacs Micro Lesson 12 | Org mode subtree export",
-    "DATE": "2025-06-10T05:44:09-07:00",
-    "DURATION": "2:54",
-    "YOUTUBE_URL": "https://www.youtube.com/watch?v=ezonhD_sltU",
-    "SPEAKERS": "Chris Maiorana",
-    "TAGS": [
-      "org"
-    ],
+    "ITEM": "setting up Emacs as an OpenRC service (and installing it on Alpine Linux)",
+    "DATE": "2025-06-11T04:12:03-07:00",
+    "DURATION": "12:19",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=knrb4b1M74Y",
+    "SPEAKERS": "Nic Olas",
     "BODY": ""
   },
   {
@@ -1209,6 +1206,18 @@
     "BODY": "The notes for this video can be found here:\n  https://gist.github.com/gnarledgrip/2e777f8051bb6e36f0d10f55ef7ac331\n\n  PLEASE CONSIDER SUPPORTING ME.\n  You can support me on PayPal:\n  https://paypal.me/revrari\n  Or you can send me some Bitcoin:\n  3JToybg7LHAdsteTYGg7jRniRZEMCeTasj\n\n  Follow me on X: https://x.com/GnarledGrip"
   },
   {
+    "ITEM": "How to extract the Filename from an Emacs buffer and include it in a Yasnippet",
+    "DATE": "2025-03-09T01:39:30-08:00",
+    "DURATION": "6:10",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=2OUqLcq5ZCc",
+    "SPEAKERS": "Mark Olson",
+    "TAGS": [
+      "yasnippet",
+      "elisp"
+    ],
+    "BODY": ""
+  },
+  {
     "ITEM": "Installing color scheme in Emacs",
     "DATE": "2025-03-09T01:36:36-08:00",
     "DURATION": "6:26",
@@ -1216,18 +1225,6 @@
     "SPEAKERS": "VelryScream",
     "TAGS": [
       "appearance"
-    ],
-    "BODY": ""
-  },
-  {
-    "ITEM": "Emulating Howm Notes with Denote and Consult - System Crafters Live!",
-    "DATE": "2025-03-07T22:06:00-08:00",
-    "DURATION": "1:39:32",
-    "YOUTUBE_URL": "https://www.youtube.com/watch?v=u-eFNq8T8LY",
-    "SPEAKERS": "System Crafters",
-    "TAGS": [
-      "denote",
-      "consult"
     ],
     "BODY": ""
   },
@@ -2705,16 +2702,15 @@
     "BODY": "#Clojure programming with #Emacs is very appealing, let's get started!\n\nTimeline:\n00:00 Intro\n00:24 Jack In to a REPl\n05:21 Definition Lookup\n08:58 Switching Code and REPL Buffers\n11:57 Advanced\n12:25 Outro\n\nI've edited and uploaded a subtitle file along with this video, so if you find my English is confusing, you can enable CC while watching, hopefully it helps.\n\nFor detailed docs on cider, visit https://cider.mx/ .\n\nCredit\n\nLight Sting by Kevin MacLeod is licensed under a Creative Commons Attribution 4.0 license. https://creativecommons.org/licenses/...\nSource: http://incompetech.com/music/royalty-...\nArtist: http://incompetech.com/"
   },
   {
-    "ITEM": "EmacsGME - Solo Roleplaying inside the Emacs Text Editor",
-    "DATE": "2024-12-13T05:00:00+0000",
-    "DURATION": "15:37",
-    "YOUTUBE_URL": "https://www.youtube.com/watch?v=0f9Rvk6dulM",
-    "SPEAKERS": "Category's Solo Game Table",
+    "ITEM": "Building Emacs 30 from git on openSUSE Tumbleweed",
+    "DATE": "2024-12-14T18:15:12+0000",
+    "DURATION": "21:08",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=8dWPDJ4ShFc",
+    "SPEAKERS": "Open Source Fiddler",
     "TAGS": [
-      "fun",
-      "emacsgme",
-      "rpg",
-      "games"
+      "building",
+      "opensuse",
+      "emacs30"
     ],
     "BODY": ""
   },
@@ -2733,16 +2729,15 @@
     "BODY": "This video is a little showcase for the nerd-crossover event of the season, a solo RPG system inside Emacs! If this sounds like something you want to play with, you can find the project here:-\n\n  EmacsGME - https://github.com/CategoryQ/EmacsGME\n\n  As mentioned in the video, some of this work is based on an earlier physical solo RPG project I created, the \"Solo Sci-Fi Sidekick\" deck of cards. That can be purchased from DriveThruCards:-\n\n  Solo Sci-Fi Sidekick - https://www.drivethrucards.com/product/360899/Solo-SciFi-Sidekick\n\n  And find places around the video here:-\n\n  00:08 - Intro\n  01:34 - Download\n  01:48 - What it is/isn't\n  02:29 - Installation\n  03:40 - Dice Roller\n  05:08 - Yes/No Oracle\n  07:55 - NPC/Thread Lists\n  08:39 - Dashboard\n  09:14 - Random Events\n  12:10 - Customize\n  13:29 - Additional functions\n  14:34 - Outro"
   },
   {
-    "ITEM": "Using emacs dape to debug software with DAP protocol",
-    "DATE": "2024-12-09T05:00:00+0000",
-    "DURATION": "12:45",
-    "YOUTUBE_URL": "https://youtu.be/i-A8vds_wE4",
-    "SPEAKERS": "Chmouel Boudjnah (Red Hat)",
+    "ITEM": "The Definitive Emacs + Go setup",
+    "DATE": "2024-12-12T05:00:00+0000",
+    "DURATION": "01:07:18",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=9dMYSrstrLk",
+    "SPEAKERS": "(Bit-Mage)",
     "TAGS": [
+      "golang",
       "coding",
-      "debugging",
-      "dape",
-      "golang"
+      "dev"
     ],
     "BODY": ""
   },
@@ -3019,19 +3014,23 @@
     "BODY": "EmacsConf 2024: Survival of the skillest: Thriving in the learning jungle - Bala Ramadurai (his/him)\nhttps://emacsconf.org/2024/talks/lear...\n\n00:00 Introduction\n01:35 What is a skill?\n01:47 Why should you learn a new skill?\n02:11 What skills should you learn?\n02:35 What stops you from learning new skills?\n03:16 Empty your teacup\n04:40 Getting Things Done\n06:33 Archive\n07:33 Multiple steps\n10:02 Multiple projects\n10:37 What if the project stops before completion?\n11:20 What if you successfully complete the project?\n12:18 What if the project is ongoing and doesn't really end?\n12:54 What if you forget to visit the TODO files?\n16:02 Planning for the future\n18:36 Summary\n19:03 References\n\nYou can view this and other resources using free/libre software at https://emacsconf.org/2024/talks/learning\nThis video is available under the terms of the Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license."
   },
   {
-    "ITEM": "Emacs regex compilation and future directions for expressive pattern matching",
-    "DATE": "2024-12-08T14:30:00+0000",
-    "DURATION": "24:56",
-    "URL": "https://emacsconf.org/2024/talks/regex",
-    "MEDIA_URL": "https://media.emacsconf.org/2024/emacsconf-2024-regex--emacs-regex-compilation-and-future-directions-for-expressive-pattern-matching--danny-mcclanahan--main.webm",
-    "YOUTUBE_URL": "https://www.youtube.com/watch?v=v3Bl8VLaLqg",
-    "TOOBNIX_URL": "https://toobnix.org/w/q6Mhn7TPtDi7acd6y3KtRf",
-    "TRANSCRIPT_URL": "https://media.emacsconf.org/2024/emacsconf-2024-regex--emacs-regex-compilation-and-future-directions-for-expressive-pattern-matching--danny-mcclanahan--main.vtt",
-    "SPEAKERS": "Danny McClanahan",
+    "ITEM": "Q&A: Survival of the skillest: Thriving in the learning jungle",
+    "DATE": "2024-12-08T15:00:00+0000",
+    "DURATION": "24:41",
+    "URL": "https://emacsconf.org/2024/talks/learning",
+    "MEDIA_URL": "https://media.emacsconf.org/2024/emacsconf-2024-learning--survival-of-the-skillest-thriving-in-the-learning-jungle--bala-ramadurai--answers.webm",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=IbI37PTJWQw",
+    "TOOBNIX_URL": "https://toobnix.org/w/rnG2fEoHDDeNRSQYRRTrwR",
+    "TRANSCRIPT_URL": "https://media.emacsconf.org/2024/emacsconf-2024-learning--survival-of-the-skillest-thriving-in-the-learning-jungle--bala-ramadurai--answers.vtt",
+    "SPEAKERS": "EmacsConf and Emacs hangouts",
     "TAGS": [
+      "answers",
       "emacsconf",
       "emacsconf2024",
-      "regex"
+      "learning",
+      "planning",
+      "org",
+      "gtd"
     ],
     "BODY": ""
   },
@@ -3083,6 +3082,22 @@
     "BODY": "The Talk I gave at EmacsConf2024:\n\n  ========================================\n  Ever thought about sharing your Emacs knowledge? Starting a YouTube channel, blog, podcast, or even smoke signals to share those tidbits? If you’ve answered \"No\", then I'd like to change your mind. And if you said \"Yes\", then you're already on the right path.\n\n  In this talk, I will share what I've learned from my journey as an Emacs advocate, including tips, setups (both current and past), and various alternatives to get your works out there. Most importantly, I'll discuss why your story and perspective matter, even if you think otherwise. Your unique experience can inspire and help others in the Emacs community.\n\n  About the speaker:\n\n  Gopar, a fellow Emacs user and advocate, will be sharing insights on how everyone can become the Emacs Influencer they never knew they wanted to be.\n\n  From starting a YouTube channel to writing blogs, Gopar will provide practical tips and share personal experiences to help you embark on your journey of sharing Emacs knowledge.\n\n  00:00 Introduction\n  00:12 Knowledge grows when it is shared\n  00:36 When's the last time you shared something?\n  01:07 Sharing Emacs\n  02:41 My background\n  03:06 Why you should make Emacs videos (or other formats)\n  03:44 Beginners\n  05:22 Intermediate\n  05:56 Advanced\n  06:22 Impostor syndrome\n  07:28 Process for recording\n  08:46 Details: recording\n  09:36 Tips: Recording\n  13:33 Details: Editing\n  14:38 Tips: Editing\n  15:44 Details: Uploading\n  16:06 Tips: Uploading\n  18:06 Your secret sauce\n  19:04 Cons of YouTube\n\n  -----------------------------------------------------\n  Github: https://github.com/gopar/\n  -----------------------------------------------------\n\n  John 3:16 - \"For God so loved the world that he gave his one and only Son, that whoever believes in him shall not perish but have eternal life.\"\n\n  James 1:5 - \"If any of you lacks wisdom, you should ask God, who gives generously to all without finding fault, and it will be given to you.\"\n\n  I thank God for all the wisdom he has blessed me with."
   },
   {
+    "ITEM": "Open mic/pad for quick updates etc.",
+    "DATE": "2024-12-08T05:00:00+0000",
+    "URL": "https://emacsconf.org/2024/talks/open-mic",
+    "MEDIA_URL": "https://media.emacsconf.org/2024/emacsconf-2024-open-mic--open-micpad-for-quick-updates-etc--main.webm",
+    "YOUTUBE_URL": "",
+    "TOOBNIX_URL": "",
+    "TRANSCRIPT_URL": "https://media.emacsconf.org/2024/emacsconf-2024-open-mic--open-micpad-for-quick-updates-etc--main.vtt",
+    "SPEAKERS": "",
+    "TAGS": [
+      "emacsconf",
+      "emacsconf2024",
+      "community"
+    ],
+    "BODY": ""
+  },
+  {
     "ITEM": "EmacsConf 2024 Sunday closing remarks",
     "DATE": "2024-12-08T05:00:00+0000",
     "DURATION": "01:59",
@@ -3095,25 +3110,6 @@
     "TAGS": [
       "emacsconf",
       "emacsconf2024"
-    ],
-    "BODY": ""
-  },
-  {
-    "ITEM": "Emacs 30 Highlights",
-    "DATE": "2024-12-07T21:25:00+0000",
-    "DURATION": "24:44",
-    "URL": "https://emacsconf.org/2024/talks/emacs30",
-    "MEDIA_URL": "https://media.emacsconf.org/2024/emacsconf-2024-emacs30--emacs-30-highlights--philip-kaludercic--main.webm",
-    "YOUTUBE_URL": "https://youtu.be/V1mnDK_tuAs",
-    "TOOBNIX_URL": "https://toobnix.org/w/bPze1S1o61QaYXTJuEQFHK",
-    "TRANSCRIPT_URL": "https://media.emacsconf.org/2024/emacsconf-2024-emacs30--emacs-30-highlights--philip-kaludercic--main.vtt",
-    "SPEAKERS": "Philip Kaludercic",
-    "TAGS": [
-      "emacsconf",
-      "emacsconf2024",
-      "highlights",
-      "update",
-      "EmacsDevel"
     ],
     "BODY": ""
   },
@@ -3704,6 +3700,23 @@
     "BODY": "Vincent Conus (he/him)\n\nThis is the Q&A for the talk at https://www.youtube.com/watch?v=BKQcgpZS2GM&t=0s .\n\n01:23 Q: I'd be interested how to start this journey of writing academic papers in Org-Roam when not having used Emacs Org-Mode yet? Thanks!\n02:35 Q: How about connecting Emacs Org-Roam to Zotero? Is that something you have experience with?\n02:55 Q: Out of curiosity, how do you manage your bibliography? Do you do it from inside Emacs, or using a separate program like Zotero?\n06:22 Q: How do you start a new document?\n07:41 Q: What do you think of using citar with org-roam-bibtex?\n09:26 Q: Most academic journals insist that papers are formatted in their own custom LaTeX documentclass.  Does org-roam make it easy to do that?\n14:21 Q: Are you using zotra or org-ref?\n14:45 Q: How much of this is tied to org-roam specifically?\n\nYou can view this and other resources using free/libre software at https://emacsconf.org/2024/talks/papers .\nThis video is available under the terms of the Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license."
   },
   {
+    "ITEM": "Committing secrets with git using sops-mode",
+    "DATE": "2024-12-07T05:00:00+0000",
+    "URL": "https://emacsconf.org/2024/talks/secrets",
+    "MEDIA_URL": "https://media.emacsconf.org/2024/emacsconf-2024-secrets--committing-secrets-with-git-using-sopsmode--jonathan-otsuka--main.webm",
+    "YOUTUBE_URL": "",
+    "TOOBNIX_URL": "",
+    "TRANSCRIPT_URL": "https://media.emacsconf.org/2024/emacsconf-2024-secrets--committing-secrets-with-git-using-sopsmode--jonathan-otsuka--main.vtt",
+    "SPEAKERS": "Jonathan Otsuka",
+    "TAGS": [
+      "emacsconf",
+      "emacsconf2024",
+      "vc",
+      "git"
+    ],
+    "BODY": ""
+  },
+  {
     "ITEM": "EmacsConf 2024 Saturday closing remarks",
     "DATE": "2024-12-07T05:00:00+0000",
     "DURATION": "04:46:55",
@@ -3717,18 +3730,6 @@
       "emacsconf",
       "emacsconf2024",
       "closing"
-    ],
-    "BODY": ""
-  },
-  {
-    "ITEM": "windows emacs picture pathname capture and display hack",
-    "DATE": "2024-12-07T05:00:00+0000",
-    "DURATION": "04:30",
-    "YOUTUBE_URL": "https://www.youtube.com/watch?v=-OKXUK1AYFU",
-    "SPEAKERS": "Kalman Reti",
-    "TAGS": [
-      "windows",
-      "images"
     ],
     "BODY": ""
   },
@@ -3830,13 +3831,14 @@
     "BODY": "https://orgmode.org/ has a simple and effective way to fold/collapse the entirety or parts of a hierarchical document, recursively.\n  - TAB cycles through the folding state of the element where the cursor is and its children.\n  - SHIFT+TAB cycles through the folding state of the entire document regardless of the cursor's position.\n\n  In this screencap, I show several operations, each with a different starting cursor position and/or starting folding state, where I hit the TAB or SHIFT+TAB keys, showing how elements get folded or unfolded recursively. I do it twice for each operation."
   },
   {
-    "ITEM": "Yay Emacs 7: using word timing in caption editing with subed-word-data",
-    "DATE": "2024-11-16T14:02:32+0000",
-    "DURATION": "00:58",
-    "YOUTUBE_URL": "https://youtube.com/shorts/JeBg7-cF4Zk",
-    "SPEAKERS": "Sacha Chua",
+    "ITEM": "Adding macOS tags to my Org-Roam File Organization Workflow",
+    "DATE": "2024-11-18T10:28:10-08:00",
+    "DURATION": "6:50",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=r_4xV7tn1rQ",
+    "SPEAKERS": "Mark Olson",
     "TAGS": [
-      "subed"
+      "org",
+      "OrgRoam"
     ],
     "BODY": ""
   },
@@ -3994,6 +3996,17 @@
     "BODY": "In this video, we’ll walk you through the process of installing Emacs on macOS, making it easy for beginners to get started with this powerful text editor. Whether you're a seasoned programmer or just diving into coding, Emacs offers a wealth of features that can enhance your workflow. Join us as we break down each step, ensuring you have everything you need to set up Emacs smoothly and efficiently.\n\n  Today's Topic: How to Install Emacs on macOS: A Step-by-Step Guide for Beginners\n\n  Thanks for taking the time to learn more. In this video I'll go through your question, provide various answers & hopefully this will lead to your solution! Remember to always stay just a little bit crazy like me, and get through to the end resolution.\n\n  Don't forget at any stage just hit pause on the video if the question & answers are going too fast.\n\n  Content (except music & images) licensed under CC BY-SA meta.stackexchange.com/help/licensing\n\n  Just wanted to thank those users featured in this video:\n  maximusdooku (https://stackoverflow.com/users/3942806/maximusdooku\n  h q (https://stackoverflow.com/users/2035207/h-q)\n  Bul (https://stackoverflow.com/users/11772495/bul)\n  Gene De Lisa (https://stackoverflow.com/users/409891/gene-de-lisa)\n\n  Trademarks are property of their respective owners.\n  Disclaimer: All information is provided \"AS IS\" without warranty of any kind. You are responsible for your own actions.\n\n  Please contact me if anything is amiss. I hope you have a wonderful day.\n\n  Related to: #emacs, #installemacs, #emacsmacos, #emacstutorial, #beginnersguide, #step-by-stepemacs, #macosprogramming, #texteditor, #emacsinstallation, #emacssetup, #codingonmacos, #emacsforbeginners, #programmingtools, #opensourcetexteditor, #emacstips, #macosdevelopment, #emacsconfiguration, #learnemacs, #emacsfeatures, #productivitytools"
   },
   {
+    "ITEM": "restclient fork with graphql builder",
+    "DATE": "2024-10-24T00:50:56+0000",
+    "DURATION": "00:25",
+    "YOUTUBE_URL": "https://youtu.be/TiHo10h_hQg",
+    "SPEAKERS": "Yuan Fu",
+    "TAGS": [
+      "restclient"
+    ],
+    "BODY": ""
+  },
+  {
     "ITEM": "Prolog大好きおじさん　ver3.36で仕切り直しです。Emacsは無理かも。",
     "DATE": "2024-10-23T09:32:24+0000",
     "DURATION": "04:39",
@@ -4003,20 +4016,6 @@
       "coding",
       "prolog",
       "dev"
-    ],
-    "BODY": ""
-  },
-  {
-    "ITEM": "Emacs as your Intellectual HQ",
-    "DATE": "2024-10-20T15:28:13+0000",
-    "DURATION": "01:02:48",
-    "YOUTUBE_URL": "https://www.youtube.com/watch?v=zQ3BsRvMnpI",
-    "SPEAKERS": "(Bit-Mage)",
-    "TAGS": [
-      "org",
-      "gtd",
-      "OrgCapture",
-      "OrgRoam"
     ],
     "BODY": ""
   },
@@ -4096,13 +4095,13 @@
     "BODY": "I'm tweaking my video workflow. I use Orgzly Revived on my Android phone to write the text, and I use Easy Voice Recorder to record it. Syncthing automatically copies both to my laptop. I use WhisperX to transcribe my recording, and I use a little bit of Emacs Lisp to figure out timestamps for each word. I edit this to fix errors. I can even rearrange things and get rid of anything I don't want.Then I use subed-convert to turn it into a VTT file. I can tweak the start and end times by looking at the waveforms. Then I add comments with the visuals I want. I can add images, animated GIFs, or videos, and they're automatically squeezed or stretched to fit. I can also have them play at original speed. Then I set up open captions and use subed-record-compile-video. Tada!\n\n  Links:\n\n  - Notes at YayEmacs.com\n  - [Orgzly Revived] (https://www.orgzlyrevived.com/)\n  - [Easy Voice Recorder] (https://play.google.com/store/apps/details?id=com.coffeebeanventures.easyvoicerecorder&hl=en_US)\n  - [WhisperX] (https://github.com/m-bain/whisperX)\n  - [Using Emacs Lisp to process WhisperX timestamps] (https://sachachua.com/blog/2024/09/using-whisperx-to-get-word-level-timestamps-for-audio-editing-with-emacs-and-subed-record/)\n  - [Subed] (https://github.com/sachac/subed)- [My other blog posts about subed] (https://sachachua.com/blog/category/subed/)\n  - [Subed-record] (https://github.com/sachac/subed-record)\n  - Animated GIF by DemonDeLuxe (Dominique Toussaint) - Image:Newtons cradle animation book.gif, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=3717500"
   },
   {
-    "ITEM": "Yay #Emacs: Embark completion with C-h",
-    "DATE": "2024-10-06T18:24:04+0000",
-    "DURATION": "00:24",
-    "YOUTUBE_URL": "https://youtube.com/shorts/NUgKVOX6UZQ",
-    "SPEAKERS": "Sacha Chua",
+    "ITEM": "Emacs as Menu for Shell Commands, Passwords and Bluetooth Connections",
+    "DATE": "2024-10-06T23:18:45+0000",
+    "DURATION": "01:04",
+    "YOUTUBE_URL": "https://youtu.be/94GjrMvxZJg",
+    "SPEAKERS": "Mekeor Melire",
     "TAGS": [
-      "embark"
+      "shell"
     ],
     "BODY": ""
   },
@@ -4130,13 +4129,13 @@
     "BODY": "This special live event will be about my recent explorations into Emacs and the Eshell.  I will talk about my latest Emacs config.  I will also interact with the folks hanging out in the YouTube chat!\n\n  WANT TO SUPPORT THE CHANNEL?\n  💰 Patreon: https://www.patreon.com/distrotube\n  💳 Paypal: https://www.youtube.com/redirect?event=channel_banner&redir_token=QUFFLUhqbFF3eGpGSzM5Vk1PMGlENllqckpHeERYWWRld3xBQ3Jtc0tuUVNSYno2bjFGSG1MTGdfYkJnanhhU1o3ODdxejVWZzNTeHhLX0p4VUIwR01PMmF1MEtpdWVYMnppVXBuTmluSU16OFhHUmIyQ2Qyc3Z5MElJSkdMTExSRlRUUm9zZUhoLVVwcmxFdDlhZFhKNnpNZw&q=https%3A%2F%2Fwww.paypal.com%2Fcgi-bin%2Fwebscr%3Fcmd%3D_donations%26business%3Dderek%2540distrotube%252ecom%26lc%3DUS%26item_name%3DDistroTube%26no_note%3D0%26currency_code%3DUSD%26bn%3DPP%252dDonationsBF%253abtn_donateCC_LG%252egif%253aNonHostedGuest\n  🛍️ Amazon: https://amzn.to/2RotFFi\n  👕 Teespring: https://teespring.com/stores/distrotube\n\n  SOCIAL PLATFORMS:\n  🗨️ Mastodon: https://fosstodon.org/@distrotube\n  👫 Reddit: https://www.reddit.com/r/DistroTube/\n  📽️ LBRY/Odysee: https://odysee.com/$/invite/@DistroTu...\n\n  DT ON THE WEB:\n  🕸️ Website: http://distro.tube\n  📁 GitLab: https://gitlab.com/dwt1\n\n  FREE AND OPEN SOURCE SOFTWARE THAT I USE:\n  🌐 Brave Browser - https://brave.com/dis872\n  📽️ Open Broadcaster Software: https://obsproject.com/\n  🎬 Kdenlive: https://kdenlive.org\n  🎨 GIMP: https://www.gimp.org/\n  🎵 Ardour: https://ardour.org/\n  💻 VirtualBox: https://www.virtualbox.org/\n  🗒️ Doom Emacs: https://github.com/hlissner/doom-emacs\n\n  Your support is very much appreciated. Thanks, guys!"
   },
   {
-    "ITEM": "Aprendendo Emacs Lisp - Corte 5: Jogo da adivinhação",
-    "DATE": "2024-10-03T18:17:08+0000",
-    "DURATION": "01:07:40",
-    "YOUTUBE_URL": "https://www.youtube.com/watch?v=Pcc0x6l033A",
-    "SPEAKERS": "debxp",
+    "ITEM": "Emacs 16, 17, 18, 19, 20",
+    "DATE": "2024-10-04T14:36:30+0000",
+    "DURATION": "03:35",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=LRBjVGtaFLc",
+    "SPEAKERS": "ZAXTERMAGER",
     "TAGS": [
-      "elisp"
+      "history"
     ],
     "BODY": ""
   },
@@ -4175,14 +4174,13 @@
     "BODY": "In which I LaTeX All The Things.\n\n  Instructions for trying out the LaTeX preview development branch: https://abode.karthinks.com/org-latex-preview\n\n  LaTeX input for impatient scholars: https://karthinks.com/software/latex-input-for-impatient-scholars/\n\n  0:00 This video isn't about writing LaTeX\n  0:45 Org mode and LaTeX\n  2:27 This video isn't about Org mode either\n  3:17 Demo: programming modes\n  4:39 Demo: the Emacs calculator\n  9:27 Demo: LaTeX-mode\n  10:31 Demo: the little things\n  11:31 How does it work?\n  12:28 Progress update\n  13:04 Just the typst of thing you'd ask\n  13:54 So, about calc..."
   },
   {
-    "ITEM": "Wizbango Episode 3 [Emacs Basics]",
-    "DATE": "2024-09-30T20:00:00+0000",
-    "DURATION": "27:02",
-    "YOUTUBE_URL": "https://www.youtube.com/watch?v=0jVLFouaxVo",
-    "SPEAKERS": "Wizbango",
+    "ITEM": "🤪 emacs tutorial",
+    "DATE": "2024-10-01T06:00:42+0000",
+    "DURATION": "06:20",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=SGkesbUG5u0",
+    "SPEAKERS": "Mika",
     "TAGS": [
-      "beginner",
-      "install"
+      "beginner"
     ],
     "BODY": ""
   },
@@ -4917,13 +4915,12 @@
     "BODY": "Details: https://lifeofpenguin.blogspot.com/2024/04/svg-animation-in-gnu-emacs.html"
   },
   {
-    "ITEM": "Circle Packing Animation in GNU Emacs",
-    "DATE": "2024-04-11T09:31:31+0000",
-    "DURATION": "00:32",
-    "YOUTUBE_URL": "https://www.youtube.com/watch?v=qPNVMQF9zK4&list=PLW9poAEUvGDCtcnrDdiQWRAX_3RC6XcNU&index=4&pp=iAQB",
-    "SPEAKERS": "Anand Tamariya",
+    "ITEM": "install-emacs-in-ubuntu",
+    "DATE": "2024-04-12T12:36:07+00:00",
+    "DURATION": "6:30",
+    "SPEAKERS": "Britt Anderson",
     "TAGS": [
-      "visualization"
+      "install"
     ],
     "BODY": ""
   },
@@ -4951,15 +4948,14 @@
     "BODY": "To try everything Brilliant has to offer—free—for a full 30 days, visit https://brilliant.org/GavinFreeborn . You’ll also get 20% off an annual premium subscription.\n\n  This tutorial focuses on Emacs's org-mode's table functionality. Tables on a surface level are simple. However, with the power of org-mode they become a spreadsheet system, time-tracking tool, programming tool, and much more.\n\n  Small correction the reason I used :export both was for use with org export. I should have removed that from the version used in this video.\n\n  One package I recommend checking out is https://github.com/casouri/valign if you work with lots of images and latex fragments. It does a better job at aligning the table in these cases than default emacs does.\n\n  Show notes https://gist.github.com/Gavinok/f5fdb853e62d730be650b5ad413657e5\n\n  Let me know what you think and if there is anything specific you would like to learn about.\n\n  ----------------► Wanna Support Me? ◀︎----------------\n  Github:\n      https://www.github.com/sponsors/gavinok\n  Patreon:\n      https://www.patreon.com/gavinfreeborn\n\n  ----------------► Wanna Checkout My Dots? ◀︎----------------\n  Vimrc:\n      https://github.com/Gavinok/dotvim\n  Emacs Config:\n      https://github.com/Gavinok/emacs.d\n  ----------------► Come Join The Community◀︎----------------\n  LBRY:\n      https://odysee.com/@GavinFreeborn:d\n  Matrix Space:\n      https://matrix.to/#/%23gavinfreeborn:matrix.org\n  Discord:\n      https://discord.gg/JJk5KKU\n\n  This video was sponsored by Brilliant\n\n  TIMESTAMPS\n  0:00 Intro\n  1:50 Creating a table\n  4:56 Generating tables\n  6:11 Calculations\n  7:43 References\n  12:07 Using Tables For Org Babel\n  18:22 Conclusion"
   },
   {
-    "ITEM": "Data Visualization with GNU Emacs: Live Preview",
-    "DATE": "2024-03-23T04:28:01+0000",
-    "DURATION": "00:32",
-    "URL": "https://lifeofpenguin.blogspot.com/2024/03/data-visualization-with-gnu-emacs.html",
-    "YOUTUBE_URL": "https://www.youtube.com/watch?v=kz6t60OB-jE&list=PLW9poAEUvGDCtcnrDdiQWRAX_3RC6XcNU&index=1&pp=iAQB",
-    "SPEAKERS": "Anand Tamariya",
+    "ITEM": "Org Tables Changed My Life",
+    "DATE": "2024-03-24T20:29:26+0000",
+    "DURATION": "19:10",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=o74kz7diOsQ&list=PLknodeJt-I5GJmcd7ENakYf_M0x9q50d1&index=14&pp=iAQB",
+    "SPEAKERS": "Gavin Freeborn",
     "TAGS": [
-      "visualization",
-      "gnuplot"
+      "org",
+      "OrgTable"
     ],
     "BODY": ""
   },
@@ -5599,6 +5595,24 @@
       "org"
     ],
     "BODY": "In this ~13 minute video I demonstrate the new functionality I am developing for Denote. It allows us to produce sorted lists of files based on any of the file name components that Denote formalises. The command 'denote-sort-dired' leverages this facility, as do the Org dynamic blocks that Denote defines.\n\n  * * *\n\n  Find all my publications on my website: https://protesilaos.com"
+  },
+  {
+    "ITEM": "Q&A: EmacsConf.org: How we use Org Mode and TRAMP to organize and run a multi-track conference",
+    "DATE": "2023-12-03T21:00:00+0000",
+    "DURATION": "2:00:43",
+    "URL": "https://emacsconf.org/2023/talks/emacsconf",
+    "MEDIA_URL": "https://media.emacsconf.org/2023/emacsconf-2023-emacsconf--emacsconforg-how-we-use-org-mode-and-tramp-to-organize-and-run-a-multitrack-conference--sacha-chua--answers.webm",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=uTregv3rNl0",
+    "TOOBNIX_URL": "https://toobnix.org/w/eX2dXG3xMtUHuuBz4fssGT",
+    "TRANSCRIPT_URL": "https://media.emacsconf.org/2023/emacsconf-2023-emacsconf--emacsconforg-how-we-use-org-mode-and-tramp-to-organize-and-run-a-multitrack-conference--sacha-chua--answers.vtt",
+    "SPEAKERS": "Sacha Chua",
+    "TAGS": [
+      "answers",
+      "emacsconf",
+      "emacsconf2023",
+      "org"
+    ],
+    "BODY": ""
   },
   {
     "ITEM": "EmacsConf.org: How we use Org Mode and TRAMP to organize and run a multi-track conference",
@@ -6755,18 +6769,6 @@
     "TAGS": [
       "emacsconf",
       "emacsconf2023"
-    ],
-    "BODY": ""
-  },
-  {
-    "ITEM": "Learning Elisp 15 - cleaning up our emoji mode",
-    "DATE": "2023-11-29T16:59:56+0000",
-    "DURATION": "12:00",
-    "URL": "https://cestlaz.github.io/post/learning-elisp-15",
-    "YOUTUBE_URL": "https://www.youtube.com/watch?v=Y9TPHo33Y1Y&list=PL9KxKa8NpFxKGctwh4-BqjQvdSRhh4NV-&index=17&pp=iAQB",
-    "SPEAKERS": "Mike Zamansky",
-    "TAGS": [
-      "elisp"
     ],
     "BODY": ""
   },
@@ -8293,11 +8295,11 @@
     "BODY": "Du hack, du fun et de l'invest.\n\n  Contenu : On va voir dans cette vidéo comment installer Doom Emacs.\n\n  Au préalable, avant toute installation, prenez soin de faire vos sauvegardes ! Pour installer Archlinux :\n\n  1/ Methode Endeavour os\n  https://endeavouros.com/\n  C'est la méthode la plus simple, celle que je recommande.\n\n  2/ Methode Archinstall :\n  https://wiki.archlinux.org/title/Archinstall\n\n  3/ Methode Manjaro\n  (Mais attention ce n'est pas vraiment archlinux)\n  https://manjaro.org/\n\n  Et pour l'installation de Doom Emacs :\n\n  https://github.com/doomemacs/doomemacs/blob/master/docs/getting_started.org\n\n  Contact: neomy-formation@neomy.com\n\n  Les informations présentées dans ce site sont à titre informatif seulement et ne doivent pas être considérées comme des conseils professionnels, juridiques ou techniques. Nous ne garantissons pas l'exactitude, la fiabilité ou l'exhaustivité des informations. L'utilisation de ce site se fait à vos propres risques et nous déclinons toute responsabilité pour les pertes ou dommages encourus."
   },
   {
-    "ITEM": "Live: General Emacs maintenance work",
-    "DATE": "2023-05-06T22:13:45+0000",
-    "DURATION": "01:36:48",
-    "YOUTUBE_URL": "https://www.youtube.com/watch?v=v8NaZV1LdN8",
-    "SPEAKERS": "Protesilaos Stavrou",
+    "ITEM": "Текстовой редактор emacs",
+    "DATE": "2023-05-07T05:58:38+0000",
+    "DURATION": "01:01:34",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=02lXjHy9fKI",
+    "SPEAKERS": "ADIK",
     "BODY": ""
   },
   {
@@ -8412,10 +8414,11 @@
     "BODY": "Showing off the synergy of using one interface for both an editor and notetaking."
   },
   {
-    "ITEM": "GB31401_システムプログラム_2023-0014-emacs",
-    "DATE": "2023-04-27T03:04:49+00:00",
-    "DURATION": "23:41",
-    "SPEAKERS": "Yasushi Shinjo",
+    "ITEM": "Emacs long line demo: operating a file with a 10MB long line!",
+    "DATE": "2023-04-27T19:09:46+0000",
+    "DURATION": "00:52",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=1yHmGpix-bE",
+    "SPEAKERS": "Tu Do",
     "BODY": ""
   },
   {
@@ -8621,11 +8624,14 @@
     "BODY": "Temi trattati nella Live:\n\n  - Emacs: vantaggi rispetto ad altri editor di testo e differenze rispetto a Vim.\n  - Distribuzioni minimali vs \"full bloated\": perché alcuni preferiscono le prime.\n  - Panoramica su diverse distro con installazione di un sistema base.\n  - Gentoo, tra compilazioni e personalizzazioni.\n  - Come mai i programmatori sembrano preferire Linux?\n  - I vantaggi di Github/Gitlab anche per non programmatori (repository di dotfiles).\n\n  METTI LIKE E ISCRIVITI AL CANALE 👍\n\n  💻 Il mio Github: https://github.com/clarintux"
   },
   {
-    "ITEM": "Emacs | The Best Screenplay App Is Not a Screenplay App (Fountain Mode)",
-    "DATE": "2023-04-09T16:12:53+0000",
-    "DURATION": "11:02",
-    "YOUTUBE_URL": "https://www.youtube.com/watch?v=IM6voNQdwY8",
-    "SPEAKERS": "Chris Maiorana",
+    "ITEM": "iPhone tricks 175 - Running Emacs and org file on iPhone!",
+    "DATE": "2023-04-10T08:34:05+0000",
+    "DURATION": "00:59",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=A-VqsY6-vLY",
+    "SPEAKERS": "Clement",
+    "TAGS": [
+      "org"
+    ],
     "BODY": ""
   },
   {
@@ -9051,11 +9057,14 @@
     "BODY": "DTOS is a post install script created by Derek Taylor AKA #Distrotube.  As someone not accustomed to tiling window managers, I'm taking a look at this from that very perspective.  Surprising results!\n\n  SUPPORT THE CHANNEL WITH A BREWSKI\n  🍻 Paypal: https://www.paypal.com/donate/?hosted_button_id=PWX7JN2Y6CQN4\n\n  ⌚ Timestamps\n  00:00​ - Intro\n  02:24 - Installing DTOS in CachyOS (Arch)\n  06:29 - Fixing Locale during Install\n  12:11 - Post Install - A look around\n  13:30 - XMobar\n  14:05 - Emacs - Download Emojis\n  15:09 - DMenu / Launcher\n  16:00 - Exploring Tiling Windows\n  16:24 - Enabling the Emacs Daemon\n  17:28 - Picking a Random Wallpaper\n  18:10 - Exploring the different sections Xmobar\n  19:18 - PCManFM File Manager\n  20:08 - Opening Gimp & Cycling Different Layouts\n  21:45 - My Thoughts\n  26:22 - Outro\n\n  Get DTOS here:\n  https://distro.tube/dtos/\n\n  Mastodon:\n  https://fosstodon.org/@jackkeifer\n\n  My eBay search site:\n  https://www.ribitus.com​​​​/search\n\n  Email me here:\n  https://www.ribitus.com/contact-us/\n\n  My blog which I haven't updated in a while, but may soon...\n  https://www.ribitus.com\n\n  #dtos\n  #distrotube\n  #CachyOS\n  #archlinux"
   },
   {
-    "ITEM": "Emacs: introduction to my 'beframe' package",
-    "DATE": "2023-02-28T14:04:20+0000",
-    "DURATION": "18:33",
-    "YOUTUBE_URL": "https://www.youtube.com/watch?v=SYEBbHmOkFY",
-    "SPEAKERS": "Protesilaos Stavrou",
+    "ITEM": "LaTeX snippets with Yasnippet & Auto Activating Snippets",
+    "DATE": "2023-02-28T14:57:58+0000",
+    "DURATION": "11:22",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=5cGsiRtBK9I&feature=youtu.be",
+    "SPEAKERS": "Mark Olson",
+    "TAGS": [
+      "yasnippet"
+    ],
     "BODY": ""
   },
   {
@@ -9109,6 +9118,18 @@
     "BODY": "Today I learned you can generate Word documents from org-mode with Word omments in them. In this video I will show you how to do that. You can find the source on my blog here:\n\n  https://kitchingroup.cheme.cmu.edu/blog/2023/02/25/MS-Word-comments-from-org-mode/"
   },
   {
+    "ITEM": "emacs + whisper + chatgpt rewrite text",
+    "DATE": "2023-02-25T14:27:49+0000",
+    "DURATION": "00:19",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=4Jyhs6SfFl0",
+    "SPEAKERS": "jaz nokle",
+    "TAGS": [
+      "gpt",
+      "ai"
+    ],
+    "BODY": ""
+  },
+  {
     "ITEM": "emacs + whisper + chatgpt - refactor code",
     "DATE": "2023-02-25T12:34:36+0000",
     "DURATION": "00:32",
@@ -9118,14 +9139,6 @@
       "gpt",
       "ai"
     ],
-    "BODY": ""
-  },
-  {
-    "ITEM": "Xah Talk Show 2023-02-23 Emacs Lisp Writing URL Parser",
-    "DATE": "2023-02-24T13:36:06+0000",
-    "DURATION": "01:20:10",
-    "YOUTUBE_URL": "https://www.youtube.com/watch?v=wHgWyH-aOS4",
-    "SPEAKERS": "Xah Lee",
     "BODY": ""
   },
   {
@@ -9145,14 +9158,10 @@
     "BODY": "Today we will be taking a look at an Emacs feature known as the mark ring. We'll be discussing the differences between global and local marks. We'll also be covering how and when marks are added to these mark rings. In addition, we'll share some configuration recommendations to steam line the experience of using this feature.\n\n  PLEASE NOTE:  At around : 3:10, I mention that there are two condition that's required in order to add a new mark to the global mark ring. This is actually not true, only the first condition is required. Please see the updated show notes below.\n\n  Go to show notes:\n  https://github.com/VernonGrant/discovering-emacs/blob/main/show-notes/2-efficiency-with-the-mark-ring.md\n\n  Podcast Feed:\n  https://www.discovering-emacs.com\n\n  Podcast Discussions:\n  https://github.com/VernonGrant/discovering-emacs/discussions\n\n  Twitter:\n  https://twitter.com/DiscoverEmacs\n\n  To support my work, you can buy me a coffee:\n  https://www.buymeacoffee.com/vernon.grant"
   },
   {
-    "ITEM": "Emacs Magit Way Of Creating Rudimentary Patch 2023_02_21_03:53:35",
-    "DATE": "2023-02-20T23:10:15+0000",
-    "DURATION": "13:05",
-    "YOUTUBE_URL": "https://www.youtube.com/watch?v=Cn3YovbsH18&feature=youtu.be",
-    "SPEAKERS": "Bhaskar Chowdhury  ...Musing with GNU_Linux!!",
-    "TAGS": [
-      "magit"
-    ],
+    "ITEM": "Slow emacs WR frame creation",
+    "DATE": "2023-02-21T01:57:19+00:00",
+    "DURATION": "1:43",
+    "SPEAKERS": "declanqian",
     "BODY": ""
   },
   {
@@ -9381,11 +9390,10 @@
     "BODY": "And I thought it was difficult learning how to cut and paste in Emacs, then I tried explaining it."
   },
   {
-    "ITEM": "OpenAlex in Emacs",
-    "DATE": "2023-01-26T16:32:46-08:00",
-    "DURATION": "4:55",
-    "YOUTUBE_URL": "https://www.youtube.com/watch?v=cX6HkdAcC8A&list=PL0sMmOaE_gs3E0OjExoI7vlCAVygj6S4I&index=12&pp=iAQB",
-    "SPEAKERS": "John Kitchin",
+    "ITEM": "section on Emacs vim and vi.mp4",
+    "DATE": "2023-01-26T19:45:46+00:00",
+    "DURATION": "1:24:14",
+    "SPEAKERS": "Ezekiel Odutola (MoshTeach)",
     "BODY": ""
   },
   {
@@ -9665,14 +9673,13 @@
     "BODY": "Maximize your screen real estate by learning the most effective commands to manage your windows and buffers inside of emacs.\n\n  00:00 Intro\n  00:23 Jargon - Buffers, Windows, and Frames\n  00:59 Splitting Windows Horizontally with C-x 2\n  01:42 Close all other windows with C-x 1\n  01:57 Splitting Windows Vertically with C-x 3\n  02:34 Scrolling the Other Window\n  03:09 Resizing Windows Horizontally with C-x { and C-x }\n  03:54 Rebalance Windows C-x +\n  04:01 Cycle through windows with C-x o (and O with repeat mode)\n  04:30 Resizing Windows Vertically with C-x ^ (and v with repeat mode)\n  04:50 Repeat mode\n  05:11 Closing windows with C-x 0\n  05:30 Conclusion"
   },
   {
-    "ITEM": "I Made a ChatGPT Like Client For Emacs - AND SO CAN YOU!!",
-    "DATE": "2022-12-28T17:00:08+0000",
-    "DURATION": "16:14",
-    "YOUTUBE_URL": "https://youtu.be/EgVfurJUdFo",
-    "SPEAKERS": "Gavin Freeborn",
+    "ITEM": "Don't forget re-builder",
+    "DATE": "2022-12-29T09:13:38+0000",
+    "DURATION": "31:51",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=tZh6ueo9pKk",
+    "SPEAKERS": "Tony Aldon",
     "TAGS": [
-      "gpt",
-      "ai"
+      "regex"
     ],
     "BODY": ""
   },
@@ -9732,11 +9739,11 @@
     "BODY": "A introductory demo of emacs-codeql\n\n  https://github.com/anticomputer/emacs-codeql"
   },
   {
-    "ITEM": "Emacs config tour stream! Christmas 2022",
-    "DATE": "2022-12-26T14:34:19+0000",
-    "DURATION": "01:32:58",
-    "YOUTUBE_URL": "https://www.youtube.com/watch?v=-iZO2P5v_4M",
-    "SPEAKERS": "mirqmarq42",
+    "ITEM": "Learn two ways to perform a string replacement with visual feedback",
+    "DATE": "2022-12-26T15:51:13+0000",
+    "DURATION": "08:02",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=Zm0XjD1sA_Q",
+    "SPEAKERS": "Tony Aldon",
     "BODY": ""
   },
   {
@@ -9942,14 +9949,11 @@
     "BODY": "This presentation was recorded at GOTO Aarhus 2013\n  http://gotocon.com\n\n  Ola Bini - Language Geek\n  Trisha Gee - MongoDB Inc\n  Roy Osherove - Senior consultant at ITVerket AS\n\n  ABSTRACT\n  TALK 1: Emacs for the Win\n  If there is one tool that makes me more powerful in my day-to-day life, it is Emacs. In this presentation I will show a few examples of why it's an excellent environment for programmers, and why it's crucial to understand.\n\n  TALK 2: Top Ten IntelliJ Tips\n  In this talk, Trisha shares with you the top tips shamelessly stolen from everyone she's ever pair-programmed with. Learn keyboard shortcuts you never knew you needed, and dramatically increase the speed of your coding.\n\n  TALK 3: Vim for Victory\n  If there is one tool that makes me more powerful in my day-to-day life, it is Emacs. In this presentation I will show a few examples of why it's an excellent environment for programmers, and why it's crucial to understand.\n\n  https://twitter.com/gotocon\n  https://www.facebook.com/GOTOConference\n  http://gotocon.com\n\n  Looking for a unique learning experience?\n  Attend the next GOTO conference near you! Get your ticket at https://gotopia.tech\n  Sign up for updates and specials at https://gotopia.tech/newsletter"
   },
   {
-    "ITEM": "Emacs | Getting More Efficient With Org Mode Attachments | Efficient!",
-    "DATE": "2022-12-12T13:00:11+0000",
-    "DURATION": "06:08",
-    "YOUTUBE_URL": "https://www.youtube.com/watch?v=MVjuVH-moAc",
-    "SPEAKERS": "Chris Maiorana",
-    "TAGS": [
-      "org"
-    ],
+    "ITEM": "You can be faster at renaming file and changing file permissions in dired buffers",
+    "DATE": "2022-12-12T16:19:09+0000",
+    "DURATION": "26:45",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=x4s0KKSVuN0",
+    "SPEAKERS": "Tony Aldon",
     "BODY": ""
   },
   {
@@ -9972,14 +9976,11 @@
     "BODY": "Lex Fridman Podcast full episode: https://www.youtube.com/watch?v=hi9Rf0oLdHk\n  Please support this podcast by checking out our sponsors:\n  - Eight Sleep: https://www.eightsleep.com/lex to get special savings\n  - MasterClass: https://masterclass.com/lex to get 15% off\n  - BetterHelp: https://betterhelp.com/lex to get 10% off\n  - Rocket Money: https://rocketmoney.com/lex\n\n  GUEST BIO:\n  Coffeezilla is a journalist and investigator on YouTube who exposes financial frauds, scams, and fake gurus.\n\n  PODCAST INFO:\n  Podcast website: https://lexfridman.com/podcast\n  Apple Podcasts: https://apple.co/2lwqZIr\n  Spotify: https://spoti.fi/2nEwCF8\n  RSS: https://lexfridman.com/feed/podcast/\n  Full episodes playlist: https://www.youtube.com/playlist?list=PLrAXtmErZgOdP_8GztsuKi9nrraNbKKp4\n  Clips playlist: https://www.youtube.com/playlist?list=PLrAXtmErZgOeciFP3CBCIEElOJeitOr41\n\n  SOCIAL:\n  - Twitter: https://twitter.com/lexfridman\n  - LinkedIn: https://www.linkedin.com/in/lexfridman\n  - Facebook: https://www.facebook.com/lexfridman\n  - Instagram: https://www.instagram.com/lexfridman\n  - Medium: https://medium.com/@lexfridman\n  - Reddit: https://reddit.com/r/lexfridman\n  - Support on Patreon: https://www.patreon.com/lexfridman"
   },
   {
-    "ITEM": "0057. Пакет Howm для Emacs",
-    "DATE": "2022-12-10T06:51:50+0000",
-    "DURATION": "07:29",
-    "YOUTUBE_URL": "https://www.youtube.com/watch?v=Ee1OfQ6R2iw",
-    "SPEAKERS": "qnnnp",
-    "TAGS": [
-      "howm"
-    ],
+    "ITEM": "Doom emacs, mejorando sus fuentes",
+    "DATE": "2022-12-11T02:54:10+0000",
+    "DURATION": "02:57",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=oSsYRVJnUjc",
+    "SPEAKERS": "rusty",
     "BODY": ""
   },
   {
@@ -10024,11 +10025,11 @@
     "BODY": "Become my channel member: https://www.sparxsys.com/join\n\n  Resizing your images in an HTML file that you generate using Org Mode is very easy.\n\n  #Emacs #resizeimage\n\n  ####\n  Become Jira master: https://www.youtube.com/ravisagar1/join\n  Need my help? Raise a ticket for me: https://www.ravisagar.in/support\n  Atlassian Consultancy Services: https://www.sparxsys.com/\n  Jira books and Video courses (Available to buy): https://www.ravisagar.in/products\n  Free Ravi Sagar Courses: https://www.ravisagar.in/courses\n\n  Social\n  1. Blog: https://www.ravisagar.in\n  2. Linkedin: https://www.linkedin.com/in/ravisagar/\n  3. Twitter: https://www.twitter.com/ravisagar\n  4. Podcast: https://www.ravisagar.in/podcast\n  5. Youtube: https://youtube.com/ravisagar1\n  ####"
   },
   {
-    "ITEM": "Split configuration management with punchcard on Emacs",
-    "DATE": "2022-12-08T14:28:13+0000",
-    "DURATION": "21:02",
-    "YOUTUBE_URL": "https://www.youtube.com/watch?v=ux-V-t1UrR0",
-    "SPEAKERS": "Gene Pasquet",
+    "ITEM": "How to refactor in the current buffer with isearch-occur and occur-edit-mode",
+    "DATE": "2022-12-08T16:58:13+0000",
+    "DURATION": "08:04",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=QEIczYUMKgk",
+    "SPEAKERS": "Tony Aldon",
     "BODY": ""
   },
   {
@@ -10040,11 +10041,11 @@
     "BODY": "In this episode, I go through the config management tool punchcard. I present its function and how it can help maintaining a split configuration through dependency handling.\n\n  Resources:\n\n  Punchcard: https://gitlab.com/binary-ec/punchcard\n  Setting up MELPA: https://www.emacswiki.org/emacs/InstallingPackages#h5o-1\n  Find me on Mastodon: https://emacs.ch/@etenil"
   },
   {
-    "ITEM": "Emacs Tree Sitter, We Have The Technology",
-    "DATE": "2022-12-07T19:33:10+0000",
-    "DURATION": "05:28",
-    "YOUTUBE_URL": "https://www.youtube.com/watch?v=ZtkR8DPekWE",
-    "SPEAKERS": "dickmao",
+    "ITEM": "Learn how to temporary override function definitions",
+    "DATE": "2022-12-07T20:29:01+0000",
+    "DURATION": "21:47",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=Lq5T-0oF9xM",
+    "SPEAKERS": "Tony Aldon",
     "BODY": ""
   },
   {
@@ -10083,15 +10084,11 @@
     "BODY": "Talk page: https://emacsconf.org/2022/talks/lspbridge/\n  Q&A: https://pad.emacsconf.org/2022-lspbridge\n\n  LSP Bridge's goal is to become the fastest LSP client in Emacs.\n\n  LSP Bridge uses python's threading technology to build caches that bridge Emacs and LSP servers. Lsp-bridge will provide a smooth completion experience without compromising to slow down emacs' performance."
   },
   {
-    "ITEM": "Emacs: introduction to Clojure (CIDER and clojure-mode)",
-    "DATE": "2022-12-05T15:03:03+0000",
-    "DURATION": "26:54",
-    "YOUTUBE_URL": "https://www.youtube.com/watch?v=KMWLIgG986I&list=PL8Bwba5vnQK14z96Gil86pLMDO2GnOhQ6&index=31&pp=iAQB",
-    "SPEAKERS": "Protesilaos Stavrou",
-    "TAGS": [
-      "cider",
-      "clojure"
-    ],
+    "ITEM": "How to unbind variables and functions in Emacs Lisp",
+    "DATE": "2022-12-05T19:32:34+0000",
+    "DURATION": "11:21",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=EgT4hRRVtvs&list=PLGMx7bOKMJTztuAxNIbacZs0RjTaC8lPc&index=21&pp=iAQB",
+    "SPEAKERS": "Tony Aldon",
     "BODY": ""
   },
   {
@@ -10116,6 +10113,22 @@
       "org"
     ],
     "BODY": "That's right. It's time to go from org mode to standard manuscript format open office document, then to PDF, MS Word, RTF, whatever you want.  You can do it."
+  },
+  {
+    "ITEM": "Sunday closing remarks",
+    "DATE": "2022-12-04T21:50:00+0000",
+    "DURATION": "${duration}",
+    "URL": "https://emacsconf.org/2022/talks/sun-close",
+    "MEDIA_URL": "https://media.emacsconf.org/2022/emacsconf-2022-sun-close--sunday-closing-remarks--main.webm",
+    "YOUTUBE_URL": "",
+    "TOOBNIX_URL": "",
+    "TRANSCRIPT_URL": "https://media.emacsconf.org/2022/emacsconf-2022-sun-close--sunday-closing-remarks--main.vtt",
+    "SPEAKERS": "",
+    "TAGS": [
+      "emacsconf",
+      "emacsconf2022"
+    ],
+    "BODY": ""
   },
   {
     "ITEM": "Short hyperlinks to Python docs",
@@ -10496,15 +10509,24 @@
     "DURATION": "17:01",
     "YOUTUBE_URL": "https://www.youtube.com/watch?v=vEpk2ZTqJu4",
     "SPEAKERS": "EmacsConf and Emacs hangouts",
-    "BODY": ""
+    "BODY": "https://emacsconf.org/2022/talks/rms\n\n  00:00:00.000 GNU Emacs and its purpose\n  02:33.640 Lisp as the extension language\n  03:46.280 JavaScript versus freedom\n  06:14.640 Updating \"An Introduction to Emacs Lisp Programming\"\n  07:23.407 More memorable package names\n  08:31.807 Simplifying the command interface\n  10:23.620 Modularity\n  11:22.220 Editing formatted text\n  12:55.460 Not the equivalent of a modern web browser\n  15:31.300 Getting involved\n\n  You can view this and other resources using free/libre software at https://emacsconf.org/2022/talks/rms . During the conference, you can ask questions via the Etherpad or through IRC (https://chat.emacsconf.org/?join=emacsconf,emacsconf-dev , or emacsconf-dev on irc.libera.chat). Afterwards, check the talk page at https://emacsconf.org/2022/talks/rms for notes and contact information.\n\n  This video is available under the terms of the Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license."
   },
   {
-    "ITEM": "EmacsConf 2022: What I'd like to see in Emacs - Richard M. Stallman",
+    "ITEM": "Q&A: What I'd like to see in Emacs",
     "DATE": "2022-12-04T16:15:00+0000",
-    "DURATION": "17:01",
-    "YOUTUBE_URL": "https://www.youtube.com/watch?v=vEpk2ZTqJu4",
-    "SPEAKERS": "EmacsConf and Emacs hangouts",
-    "BODY": "https://emacsconf.org/2022/talks/rms\n\n  00:00:00.000 GNU Emacs and its purpose\n  02:33.640 Lisp as the extension language\n  03:46.280 JavaScript versus freedom\n  06:14.640 Updating \"An Introduction to Emacs Lisp Programming\"\n  07:23.407 More memorable package names\n  08:31.807 Simplifying the command interface\n  10:23.620 Modularity\n  11:22.220 Editing formatted text\n  12:55.460 Not the equivalent of a modern web browser\n  15:31.300 Getting involved\n\n  You can view this and other resources using free/libre software at https://emacsconf.org/2022/talks/rms . During the conference, you can ask questions via the Etherpad or through IRC (https://chat.emacsconf.org/?join=emacsconf,emacsconf-dev , or emacsconf-dev on irc.libera.chat). Afterwards, check the talk page at https://emacsconf.org/2022/talks/rms for notes and contact information.\n\n  This video is available under the terms of the Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license."
+    "DURATION": "59:50",
+    "URL": "https://emacsconf.org/2022/talks/rms",
+    "MEDIA_URL": "https://media.emacsconf.org/2022/emacsconf-2022-rms--what-id-like-to-see-in-emacs--answers.webm",
+    "YOUTUBE_URL": "https://youtu.be/_ou5di4V0JY",
+    "TOOBNIX_URL": "https://toobnix.org/w/mHf8R49L7GX1ocbr5ipnRx",
+    "TRANSCRIPT_URL": "https://media.emacsconf.org/2022/emacsconf-2022-rms--what-id-like-to-see-in-emacs--answers.vtt",
+    "SPEAKERS": "Richard M. Stallman",
+    "TAGS": [
+      "answers",
+      "emacsconf",
+      "emacsconf2022"
+    ],
+    "BODY": ""
   },
   {
     "ITEM": "orgvm: a simple HTTP server for org",
@@ -11268,14 +11290,6 @@
     "DURATION": "23:47",
     "YOUTUBE_URL": "https://www.youtube.com/watch?v=E2KGCbLDcp8",
     "SPEAKERS": "System Crafters",
-    "BODY": ""
-  },
-  {
-    "ITEM": "Trying Out Emacs 29, Part 2 - System Crafters Live!",
-    "DATE": "2022-12-03T06:05:20+0000",
-    "DURATION": "23:47",
-    "YOUTUBE_URL": "https://www.youtube.com/watch?v=E2KGCbLDcp8",
-    "SPEAKERS": "System Crafters",
     "BODY": "Powered by Restream https://restream.io"
   },
   {
@@ -11287,11 +11301,18 @@
     "BODY": "Turn your videos into live streams with Restream https://restre.am/ANIm\n\n  In today's stream, we'll try out a few of the amazing new features that are coming in Emacs 29.  This will be one of the most impactful releases in years!\n\n  SUPPORT THE CHANNEL:\n\n  👕 https://store.systemcrafters.net\n  👍 https://systemcrafters.net/support-the-channel\n  📘 Get Your Copy of Mastering Emacs: https://www.masteringemacs.org/r/systemcrafters?utm_source=yt&utm_medium=desc&utm_campaign=scme\n  🌐 Buy a domain with Namecheap: https://namecheap.pxf.io/NK0yXK\n\n\n  SHOW NOTES:\n\n  https://systemcrafters.net/live-streams/december-2-2022/\n\n  MY CONFIGURATION:\n\n  https://config.daviwil.com\n  https://config.daviwil.com/emacs\n  https://config.daviwil.com/systems (Guix)\n\n  JOIN THE COMMUNITY:\n\n  http://systemcrafters.chat (IRC and Discord)\n  https://twitter.com/SystemCrafters\n\n  OTHER SERIES:\n\n  - Emacs Essentials: https://www.youtube.com/watch?v=48JlgiBpw_I&list=PLEoMzSkcN8oPZvSdewHG8uApD7THlLLCV\n  - Emacs From Scratch: https://www.youtube.com/watch?v=74zOY-vgkyw&list=PLEoMzSkcN8oPH1au7H6B7bBJ4ZO7BXjSZ\n  - Emacs Tips: https://www.youtube.com/watch?v=wKTKmE1wLyw&list=PLEoMzSkcN8oMHJ6Xil1YdnYtlWd5hHZql\n  - Emacs Desktop Environment: https://www.youtube.com/watch?v=f7xB2fFk1tQ&list=PLEoMzSkcN8oNPbEMYEtswOVTvq7CVddCS\n  - Emacs IDE: https://www.youtube.com/watch?v=E-NAM9U5JYE&list=PLEoMzSkcN8oNvsrtk_iZSb94krGRofFjN\n  - Emacs Mail: https://www.youtube.com/watch?v=yZRyEhi4y44&list=PLEoMzSkcN8oM-kA19xOQc8s0gr0PpFGJQ\n  - Learning Emacs Lisp: https://www.youtube.com/watch?v=RQK_DaaX34Q&list=PLEoMzSkcN8oPQtn7FQEF3D7sroZbXuPZ7\n  - Craft Your System with GNU Guix: https://www.youtube.com/watch?v=iBaqOK75cho&list=PLEoMzSkcN8oNxnj7jm5V2ZcGc52002pQU\n\n  MY SECOND CHANNEL:\n\n  On the Flux Harmonic channel I do live coding twice a week using many of the tools we talk about on System Crafters!\n\n  - https://youtube.com/FluxHarmonicLive\n  - https://fluxharmonic.com\n\n  CREDITS:\n\n  Coriolis Effect by logos feat. stefsax, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/mseq/26296\n  reNovation by airtone, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/airtone/60674\n  ukeSounds by airtone, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/airtone/32655\n  Between Worlds (Instrumental) by Aussens@iter, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/tobias_weber/56664"
   },
   {
-    "ITEM": "Emacs For Writers | How To Wrap Text",
-    "DATE": "2022-12-02T13:00:12+0000",
-    "DURATION": "12:29",
-    "YOUTUBE_URL": "https://www.youtube.com/watch?v=Mr5U5Xq41Hg",
-    "SPEAKERS": "Chris Maiorana",
+    "ITEM": "EmacsConf 2022 Saturday closing remarks",
+    "DATE": "2022-12-03T05:00:00+0000",
+    "URL": "https://emacsconf.org/2022/talks/sat-close",
+    "MEDIA_URL": "https://media.emacsconf.org/2022/emacsconf-2022-sat-close--saturday-closing-remarks--main.webm",
+    "YOUTUBE_URL": "",
+    "TOOBNIX_URL": "",
+    "TRANSCRIPT_URL": "https://media.emacsconf.org/2022/emacsconf-2022-sat-close--saturday-closing-remarks--main.vtt",
+    "SPEAKERS": "",
+    "TAGS": [
+      "emacsconf",
+      "emacsconf2022"
+    ],
     "BODY": ""
   },
   {
@@ -11303,11 +11324,11 @@
     "BODY": "Wrapping text is a fundamental aspect of writing in Emacs. But how should your wrap text? Soft or hard? What are the pros and cons? That's what I explore in this video.  We'll take a close look at visual line mode and auto fill mode.  And you can decide the ultimate question: how will you choose to wrap your text in Emacs."
   },
   {
-    "ITEM": "Using packages to learn elisp in emacs",
-    "DATE": "2022-12-01T07:00:10+0000",
-    "DURATION": "03:30",
-    "YOUTUBE_URL": "https://www.youtube.com/watch?v=dpouE8E6aqI",
-    "SPEAKERS": "Cade",
+    "ITEM": "Get the most of the command query-replace",
+    "DATE": "2022-12-01T22:36:39+0000",
+    "DURATION": "19:50",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=8JhYATXavoM",
+    "SPEAKERS": "Tony Aldon",
     "BODY": ""
   },
   {
@@ -11319,22 +11340,22 @@
     "BODY": "A quick demo of using a package that gives you a nice workflow in one language to parody that workflow in another language and learn some elisp."
   },
   {
+    "ITEM": "Learn how to write a command that limits searches to org-mode headlines",
+    "DATE": "2022-11-30T21:25:23+0000",
+    "DURATION": "16:34",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=bTq11L5zLmE",
+    "SPEAKERS": "Tony Aldon",
+    "TAGS": [
+      "org"
+    ],
+    "BODY": ""
+  },
+  {
     "ITEM": "Emacs Lisp is everywhere, this is not a joke! Look at query-replace-regexp command",
     "DATE": "2022-11-29T21:46:54+0000",
     "DURATION": "05:51",
     "YOUTUBE_URL": "https://www.youtube.com/watch?v=efBlQF6lb2I",
     "SPEAKERS": "Tony Aldon",
-    "BODY": ""
-  },
-  {
-    "ITEM": "How I used Org-mode and Next.js to Make a Hipster Website",
-    "DATE": "2022-11-29T12:31:26+0000",
-    "DURATION": "01:49",
-    "YOUTUBE_URL": "https://youtu.be/mRGFE-Pn86Q",
-    "SPEAKERS": "Joshua Petitma",
-    "TAGS": [
-      "org"
-    ],
     "BODY": ""
   },
   {
@@ -11435,11 +11456,14 @@
     "BODY": "https://github.com/tonyaldon/bfs"
   },
   {
-    "ITEM": "Does Your Editor Matter?",
-    "DATE": "2022-11-22T14:01:03+0000",
-    "DURATION": "04:32",
-    "YOUTUBE_URL": "https://www.youtube.com/watch?v=rNsWTWvm8uw",
-    "SPEAKERS": "ThePrimeagen",
+    "ITEM": "Learn how to test Emacs Lisp code intended to be used in org-mode buffers",
+    "DATE": "2022-11-22T23:19:04+0000",
+    "DURATION": "25:56",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=QPzoLVtzhsw",
+    "SPEAKERS": "Tony Aldon",
+    "TAGS": [
+      "org"
+    ],
     "BODY": ""
   },
   {
@@ -11459,6 +11483,14 @@
     "BODY": "Details: https://lifeofpenguin.blogspot.com/2022/10/take-charge-of-pdf-in-gnu-emacs.html"
   },
   {
+    "ITEM": "MARMEE and Gnus",
+    "DATE": "2022-11-22T05:31:29+0000",
+    "DURATION": "37:31",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=J7u2xwvXSK0",
+    "SPEAKERS": "Mohsen Banan",
+    "BODY": ""
+  },
+  {
     "ITEM": "Modify the parsed tree of an org-mode buffer using org-element-put-property",
     "DATE": "2022-11-21T23:46:26+0000",
     "DURATION": "36:32",
@@ -11475,22 +11507,14 @@
     "DURATION": "16:28",
     "YOUTUBE_URL": "https://youtube.com/watch?v=M4qj2ictRpg&feature=share",
     "SPEAKERS": "Gavin Freeborn",
-    "BODY": ""
-  },
-  {
-    "ITEM": "Why Are Lisp Macros So Great!?",
-    "DATE": "2022-11-20T20:02:14+0000",
-    "DURATION": "16:28",
-    "YOUTUBE_URL": "https://youtube.com/watch?v=M4qj2ictRpg&feature=share",
-    "SPEAKERS": "Gavin Freeborn",
     "BODY": "This tutorial is focused on Common Lisp and Emacs Lisp macros. Lisp macros are one of the things that has kept lisp relevant to this day. Since no matter how languages try to mimic them they just never fit as well as they do in Lisps. I hope to do a future video on hygienic macros like you see in Scheme and Clojure. In addition, cover macros on a deeper level in the future.\n\n  - More Example Macros\n      https://lisp-journey.gitlab.io/blog/common-lisp-macros-by-example-tutorial/\n  - Common Lisp Pattern Matching\n      https://github.com/guicho271828/trivia\n  - C syntax in Common Lisp\n      https://github.com/y2q-actionman/with-c-syntax/\n  - Clojure's core.async macro internals\n      https://youtu.be/R3PZMIwXN_g\n\n  Let me know what you think and if there is anything specific you would like to learn about.\n\n  ----------------► Wanna Support Me? ◀︎----------------\n  Github:\n      https://www.github.com/sponsors/gavinok\n  Patreon:\n      https://www.patreon.com/gavinfreeborn\n\n  ----------------► Wanna Checkout My Dots? ◀︎----------------\n  Vimrc:\n      https://github.com/Gavinok/dotvim\n  Emacs Config:\n      https://github.com/Gavinok/emacs.d\n  ----------------► Come Join The Community◀︎----------------\n  LBRY:\n      https://odysee.com/@GavinFreeborn:d\n  Matrix Space:\n      https://matrix.to/#/%23gavinfreeborn:matrix.org\n  Discord:\n      https://discord.gg/JJk5KKU"
   },
   {
-    "ITEM": "Emacs: Getting started with eglot (using golang)",
-    "DATE": "2022-11-19T14:42:35+0000",
-    "DURATION": "05:10",
-    "YOUTUBE_URL": "https://www.youtube.com/watch?v=7Cgq-5oGdpc",
-    "SPEAKERS": "3Max",
+    "ITEM": "Εισαγωγή στο Linux - Lecture06-01 -  install Emacs Packages with MELPA",
+    "DATE": "2022-11-20T19:27:56+0000",
+    "DURATION": "08:51",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=YdxwaDc4HPU",
+    "SPEAKERS": "Pavlos Pavlidis",
     "BODY": ""
   },
   {
@@ -11513,11 +11537,11 @@
     "BODY": "In today's stream, we'll try to convert the relevant parts of my literate system configuration (written with Org Babel) to Guix Home!  We'll also make the configuration parameterizable for multiple systems so that I can conditionally enable features on each system.\n\n  SUPPORT THE CHANNEL:\n\n  👕 https://store.systemcrafters.net\n  👍 https://systemcrafters.net/support-the-channel\n  📘 Get Your Copy of Mastering Emacs: https://www.masteringemacs.org/r/systemcrafters?utm_source=yt&utm_medium=desc&utm_campaign=scme\n  🌐 Buy a domain with Namecheap: https://namecheap.pxf.io/NK0yXK\n\n\n  SHOW NOTES:\n\n  [[https://systemcrafters.net/live-streams/november-18-2022/]]\n\n  MY CONFIGURATION:\n\n  https://config.daviwil.com\n  https://config.daviwil.com/emacs\n  https://config.daviwil.com/systems (Guix)\n\n  JOIN THE COMMUNITY:\n\n  http://systemcrafters.chat (IRC and Discord)\n  https://twitter.com/SystemCrafters\n\n  OTHER SERIES:\n\n  - Emacs Essentials: https://www.youtube.com/watch?v=48JlgiBpw_I&list=PLEoMzSkcN8oPZvSdewHG8uApD7THlLLCV\n  - Emacs From Scratch: https://www.youtube.com/watch?v=74zOY-vgkyw&list=PLEoMzSkcN8oPH1au7H6B7bBJ4ZO7BXjSZ\n  - Emacs Tips: https://www.youtube.com/watch?v=wKTKmE1wLyw&list=PLEoMzSkcN8oMHJ6Xil1YdnYtlWd5hHZql\n  - Emacs Desktop Environment: https://www.youtube.com/watch?v=f7xB2fFk1tQ&list=PLEoMzSkcN8oNPbEMYEtswOVTvq7CVddCS\n  - Emacs IDE: https://www.youtube.com/watch?v=E-NAM9U5JYE&list=PLEoMzSkcN8oNvsrtk_iZSb94krGRofFjN\n  - Emacs Mail: https://www.youtube.com/watch?v=yZRyEhi4y44&list=PLEoMzSkcN8oM-kA19xOQc8s0gr0PpFGJQ\n  - Learning Emacs Lisp: https://www.youtube.com/watch?v=RQK_DaaX34Q&list=PLEoMzSkcN8oPQtn7FQEF3D7sroZbXuPZ7\n  - Craft Your System with GNU Guix: https://www.youtube.com/watch?v=iBaqOK75cho&list=PLEoMzSkcN8oNxnj7jm5V2ZcGc52002pQU\n\n  MY SECOND CHANNEL:\n\n  On the Flux Harmonic channel I do live coding twice a week using many of the tools we talk about on System Crafters!\n\n  - https://youtube.com/FluxHarmonicLive\n  - https://fluxharmonic.com\n\n  CREDITS:\n\n  Coriolis Effect by logos feat. stefsax, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/mseq/26296\n  reNovation by airtone, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/airtone/60674\n  ukeSounds by airtone, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/airtone/32655\n  Between Worlds (Instrumental) by Aussens@iter, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/tobias_weber/56664"
   },
   {
-    "ITEM": "Emacs Long Lines, This Time With Feeling",
-    "DATE": "2022-11-17T21:14:53+0000",
-    "DURATION": "08:49",
-    "YOUTUBE_URL": "https://www.youtube.com/watch?v=kflDJ9L4siw",
-    "SPEAKERS": "dickmao",
+    "ITEM": "Learn how to override fontification",
+    "DATE": "2022-11-18T18:59:06+0000",
+    "DURATION": "14:13",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=d7S3uMJy2-I",
+    "SPEAKERS": "Tony Aldon",
     "BODY": ""
   },
   {
@@ -11529,11 +11553,11 @@
     "BODY": "https://github.com/commercial-emacs\n\n  Credits:\n  \"Universe 2022 Day 1 Keynote\" https://youtu.be/AYRxDoUxcfQ?t=569\n\n  Benchmark:\n  ${1:-emacs} -Q -l cl-lib --eval \"                                          \\\n  (let ((large-file-warning-threshold (truncate 1e9))               \\\n        (find-file-literally-line-length (truncate 1e9))            \\\n        (file (make-temp-file \\\"baz\\\")))                            \\\n    (cl-assert (= 80 (window-width)) t)                             \\\n    (with-temp-file file        \\\n      (dotimes (i 10)                                               \\\n        (insert \\\"\\\\\\\"\\\"                                            \\\n          (make-string (truncate 1e5) ?x) \\\"\\\\\\\"\\\" \\\"\\n\\\")))        \\\n    (dolist (find-fun (list (function find-file)                    \\\n                            (function find-file-literally)))        \\\n      (let* ((buffer (funcall find-fun file)))                      \\\n          (with-current-buffer buffer                               \\\n            (c-mode)                                                \\\n            (goto-char (point-min))                                 \\\n            (princ (format \\\"Under %s %ds\\n\\\" find-fun              \\\n                      (fround (car (benchmark-run                   \\\n                           (while (condition-case nil               \\\n                               (prog1 t (call-interactively         \\\n                                 (function next-line))              \\\n                               (redisplay))                         \\\n                             (end-of-buffer)))))))                  \\\n              (function external-debugging-output)))                \\\n          (kill-buffer buffer)))                                    \\\n     (kill-emacs))\""
   },
   {
-    "ITEM": "Linter de #markdown para #emacs",
-    "DATE": "2022-11-17T08:07:55+0000",
-    "DURATION": "03:20:18",
-    "YOUTUBE_URL": "https://www.youtube.com/watch?v=FR9IegE42mc",
-    "SPEAKERS": "Erick Navarro livestream",
+    "ITEM": "Clear screen without deleting previous command lines and outputs | term-mode",
+    "DATE": "2022-11-17T20:35:31+0000",
+    "DURATION": "08:58",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=As0NKacbDmE",
+    "SPEAKERS": "Tony Aldon",
     "BODY": ""
   },
   {
@@ -11561,11 +11585,11 @@
     "BODY": "Emacs 29 new functions, commands and depreciated options,\n  define-key and global-set-key have been replaced with a new simpler method of specifying keybindings.\n\n  package-update-all will updated all of your packages instead of using package-list-packages,  scratch-buffer will create a new scratch buffer in case you deleted the scratch buffer\n\n  emacsclient has a new -r option, with this command-line option, Emacs reuses an existing graphical client frame if one exists; otherwise it creates a new frame.\n\n  emacs 29 new functions and commands:\n  https://github.com/NapoleonWils0n/cerberus/blob/master/emacs/emacs-29-new-functions.org\n\n  new emacs init.el\n  https://github.com/NapoleonWils0n/ubuntu-dotfiles/blob/master/.config/emacs/init.el\n\n  old emacs init.el\n  https://github.com/NapoleonWils0n/ubuntu-dotfiles/blob/cef8d490b0006eb622b2c831aefaceed81f1d88b/.config/emacs/init.el\n\n  emacs news:\n  https://github.com/emacs-mirror/emacs/blob/master/etc/NEWS\n\n  Legacy define-key and global-set-key in Emacs\n  https://blog.drshapeless.com/p/legacy-define-key-and-global-set-key-in-emacs.html"
   },
   {
-    "ITEM": "Emacs | \"External brain, and all that.\" | Introducing My \"Captain's Log\"",
-    "DATE": "2022-11-14T16:36:04+0000",
-    "DURATION": "08:37",
-    "YOUTUBE_URL": "https://www.youtube.com/watch?v=Pzq6WTWt0FU",
-    "SPEAKERS": "Chris Maiorana",
+    "ITEM": "Learn how to fontify the strings foo and bar in a sh-mode buffer using font-lock-add-keywords",
+    "DATE": "2022-11-14T22:52:23+0000",
+    "DURATION": "18:05",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=sgXFj1PYqDU",
+    "SPEAKERS": "Tony Aldon",
     "BODY": ""
   },
   {
@@ -11620,6 +11644,14 @@
     "BODY": "In this video i cover using the early-init.el file to try and improve emacs start up time some useful settings and general tips and tricks\n\n  emacs manual early init\n  https://www.gnu.org/software/emacs/manual/html_node/emacs/Early-Init-File.html\n\n  emacs early-init.el\n  https://github.com/NapoleonWils0n/ubuntu-dotfiles/blob/master/.config/emacs/early-init.el\n\n  emacs init.el\n  https://github.com/NapoleonWils0n/ubuntu-dotfiles/blob/master/.config/emacs/init.el"
   },
   {
+    "ITEM": "Learn how to write an Emacs mode that highlights lines starting with the dollar sign",
+    "DATE": "2022-11-12T15:38:40+0000",
+    "DURATION": "22:00",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=wGyUEoTXczk",
+    "SPEAKERS": "Tony Aldon",
+    "BODY": ""
+  },
+  {
     "ITEM": "GNU Emacs: Create directory in dired-mode",
     "DATE": "2022-11-12T00:30:24+0000",
     "DURATION": "00:54",
@@ -11628,14 +11660,6 @@
     "TAGS": [
       "dired"
     ],
-    "BODY": ""
-  },
-  {
-    "ITEM": "10 Hour Emacs Compilation",
-    "DATE": "2022-11-11T14:00:07+0000",
-    "DURATION": "09:59:07",
-    "YOUTUBE_URL": "https://www.youtube.com/watch?v=CDBK_Ua7CK4",
-    "SPEAKERS": "Timothy Unkert",
     "BODY": ""
   },
   {
@@ -11656,6 +11680,14 @@
       "python"
     ],
     "BODY": "notes at http://xahlee.info/talk_show/xah_talk_show_2022-11-10.html"
+  },
+  {
+    "ITEM": "Dynamic buffer-name in term-mode",
+    "DATE": "2022-11-10T16:22:16+0000",
+    "DURATION": "16:25",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=nF_Bm5ffgyc",
+    "SPEAKERS": "Tony Aldon",
+    "BODY": ""
   },
   {
     "ITEM": "How to assign values to variables in Emacs GNU Calc",
@@ -11679,15 +11711,15 @@
     "DURATION": "06:56",
     "YOUTUBE_URL": "https://www.youtube.com/watch?v=mvkkPY0no28",
     "SPEAKERS": "dickmao",
-    "BODY": ""
+    "BODY": "https://github.com/commercial-emacs/xlsp\n\n  Credits: https://www.youtube.com/c/NealWuProgramming/about"
   },
   {
-    "ITEM": "XLSP Can't Save Emacs",
-    "DATE": "2022-11-09T20:02:07+0000",
-    "DURATION": "06:56",
-    "YOUTUBE_URL": "https://www.youtube.com/watch?v=mvkkPY0no28",
-    "SPEAKERS": "dickmao",
-    "BODY": "https://github.com/commercial-emacs/xlsp\n\n  Credits: https://www.youtube.com/c/NealWuProgramming/about"
+    "ITEM": "Convert numbers in different bases with the Emacs package Calc",
+    "DATE": "2022-11-09T18:15:13+0000",
+    "DURATION": "06:10",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=eqEDQaGdIpk",
+    "SPEAKERS": "Tony Aldon",
+    "BODY": ""
   },
   {
     "ITEM": "Getting Started With GNU Emacs Calculator (calc)",
@@ -11703,14 +11735,6 @@
     "DURATION": "20:01",
     "YOUTUBE_URL": "https://www.youtube.com/watch?v=VaQ0C93m0Ck&list=PLGMx7bOKMJTztuAxNIbacZs0RjTaC8lPc&index=13&pp=iAQB",
     "SPEAKERS": "Tony Aldon",
-    "BODY": ""
-  },
-  {
-    "ITEM": "Installing Emacs 28.2 on a Chromebook (The Emacs Mega Tutorial Continues ...)",
-    "DATE": "2022-11-07T14:30:04+0000",
-    "DURATION": "06:57",
-    "YOUTUBE_URL": "https://www.youtube.com/watch?v=J9AyuPFpm_o",
-    "SPEAKERS": "Timothy Unkert",
     "BODY": ""
   },
   {
@@ -12076,11 +12100,14 @@
     "BODY": "Que onda vergas en este video el karthus mas verga de lan les contara como podemos ejecucar querys de sql con org mode, diran para que verga me va a servir esto bueno para nada solo para hacerle al vergas, sobres si hay algun pedo con el video que se vea zarra y asi dejen un comentario con respeto por que putos inrespetuosos no les hago caso sobres ahora si. fuera de mame alguna duda con el tema del video dejenlo en los comentarios."
   },
   {
-    "ITEM": "Emacs Lisp Coding. Fantastic Command to Add HTML Section Tags.",
-    "DATE": "2022-09-23T09:25:03+0000",
-    "DURATION": "20:10",
-    "YOUTUBE_URL": "https://www.youtube.com/watch?v=Zm__S8zQ40E",
-    "SPEAKERS": "Xah Lee",
+    "ITEM": "An overview of how I add nodes to emacs org-roam.",
+    "DATE": "2022-09-25T17:46:28+0000",
+    "DURATION": "07:19",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=HXa5fZjbioA",
+    "SPEAKERS": "Mark Olson",
+    "TAGS": [
+      "org"
+    ],
     "BODY": ""
   },
   {
@@ -12191,13 +12218,13 @@
     "BODY": "In this video, you will see, how easily you can customize your blog post interface according to your need.\n\n  #linux #emacs #blogmode #linuxadmin #sysadmin #opensource #Gentoo #Debian #Slackware #research\n  #linuxkernel #kernel #gnu #Linux #GNU\n\n  Buy Me A Coffee: https://www.buymeacoffee.com/unixbhaskar\n  Patreon: https://www.patreon.com/unixbhaskar\n  Paypal: https://paypal.me/unixbhaskar\n\n  You can also find me :\n\n  GitHub: https://github.com/unixbhaskar\n\n  Reddit: https://www.reddit.com/user/unixbhaskar\n\n  Blogs: https://unixbhaskar.wordpress.com\n\n  Twitter: https://twitter.com/unixbhaskar\n\n  Linkedin: https://linkedin.com/in/unixbhaskar\n\n  Vimeo: https://vimeo.com/unixbhaskar\n\n  Goodreads: https://goodreads.com/unixbhaskar"
   },
   {
-    "ITEM": "Generating a Blog Site from Denote Entries - System Crafters Live!",
-    "DATE": "2022-09-10T05:10:10+0000",
-    "DURATION": "01:57:37",
-    "YOUTUBE_URL": "https://www.youtube.com/watch?v=5R7ad5xz5wo",
-    "SPEAKERS": "System Crafters",
+    "ITEM": "Building My Second Brain with Emacs and Org-Roam (An Overview)",
+    "DATE": "2022-09-11T19:10:09+0000",
+    "DURATION": "00:54",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=3H38Yglw1dU",
+    "SPEAKERS": "Mark Olson",
     "TAGS": [
-      "denote"
+      "org"
     ],
     "BODY": ""
   },
@@ -12237,11 +12264,14 @@
     "BODY": "In questo video discuto l'articolo How I manage my blog in cui faccio vedere come gestisco il mio blog tramite hugo, emacs e ox-hugo. La pipeline che utilizzo ha tre step: gestisco il contenuto dei post in un file org-mode tramite emacs, utilizzo il pacchetto ox-hugo per esportare i vari post in relativi file markdown, e infine utilizzo hugo per esportare i file markdown nei file html, css e javascript che vanno poi a formare il sito statico finale.\n\n  Nel video menziono anche un concetto importante che purtroppo molto spesso dimentichiamo: è importante conoscere bene la potenza degli strumenti che utilizziamo in modo da scegliere lo strumento più appropriato per il task da risolvere. Non c'è bisogno sempre di scegliere strumento più potente, perché il potere può si aiutare in tanti contesti, ma può anche creare danni in tanti altri contesti, specialmente nel mondo dell'informatica e dunque della sicurezza informatica.\n\n  ------------------------------------\n\n  MATERIALE ORIGINALE:\n\n  https://blog.leonardotamiano.xyz/posts/how-i-manage-my-blog/\n  https://academy.leonardotamiano.xyz/video/x3GhiF-1R0Q.html\n\n  ------------------------------------\n\n  RIFERIMENTI ESTERNI:\n\n  https://gohugo.io/\n  https://ox-hugo.scripter.co/\n\n  ------------------------------------\n\n  TIMESTAMPS:\n\n  00:00 introduzione\n  02:26 che cos'è un sito web statico?\n  11:30 perché ho scelto di utilizzare un sito web statico\n  14:50 come utilizzare hugo (markdown 〉html)\n  32:40 come utilizzare ox-hugo (org mode  〉markdown)\n  44:00 conclusioni\n\n  ------------------------------------\n\n  PER CONTATTI:\n\n  - Academy: https://academy.leonardotamiano.xyz\n  - Website: https://leonardotamiano.xyz\n  - LinkedIn: https://www.linkedin.com/in/leonardo-tamiano-707591236"
   },
   {
-    "ITEM": "Tips On Customizing Emacs To Fit Your Needs",
-    "DATE": "2022-09-05T13:23:11+0000",
-    "DURATION": "10:45",
-    "YOUTUBE_URL": "https://www.youtube.com/watch?v=O6tGvwp-Ayk",
-    "SPEAKERS": "Chris Maiorana",
+    "ITEM": "Previsualizar párrafos con LaTeX en Org Mode (test)",
+    "DATE": "2022-09-06T12:35:31+0000",
+    "DURATION": "02:09",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=Wndg10Fb-Ns",
+    "SPEAKERS": "Juan Manuel Macías",
+    "TAGS": [
+      "org"
+    ],
     "BODY": ""
   },
   {
@@ -12384,11 +12414,14 @@
     "BODY": "In today's stream, we'll take a look at the EIEIO library for Emacs Lisp to learn how you might write object-oriented code for your configuration or custom packages.  This library is based on the Common Lisp Object System, so if you've got a general interest in Lisp you'll want to check this out!\n\n  SUPPORT THE CHANNEL:\n\n  👕 https://store.systemcrafters.net\n  👍 https://systemcrafters.net/support-the-channel\n  📘 Get Your Copy of Mastering Emacs: https://www.masteringemacs.org/r/systemcrafters?utm_source=yt&utm_medium=desc&utm_campaign=scme\n  🌐 Buy a domain with Namecheap: https://namecheap.pxf.io/NK0yXK\n\n\n  SHOW NOTES:\n\n  https://systemcrafters.net/live-streams/august-26-2022/\n\n  MY CONFIGURATION:\n\n  https://config.daviwil.com\n  https://config.daviwil.com/emacs\n  https://config.daviwil.com/systems (Guix)\n\n  JOIN THE COMMUNITY:\n\n  http://systemcrafters.chat (IRC and Discord)\n  https://twitter.com/SystemCrafters\n\n  OTHER SERIES:\n\n  - Emacs Essentials: https://www.youtube.com/watch?v=48JlgiBpw_I&list=PLEoMzSkcN8oPZvSdewHG8uApD7THlLLCV\n  - Emacs From Scratch: https://www.youtube.com/watch?v=74zOY-vgkyw&list=PLEoMzSkcN8oPH1au7H6B7bBJ4ZO7BXjSZ\n  - Emacs Tips: https://www.youtube.com/watch?v=wKTKmE1wLyw&list=PLEoMzSkcN8oMHJ6Xil1YdnYtlWd5hHZql\n  - Emacs Desktop Environment: https://www.youtube.com/watch?v=f7xB2fFk1tQ&list=PLEoMzSkcN8oNPbEMYEtswOVTvq7CVddCS\n  - Emacs IDE: https://www.youtube.com/watch?v=E-NAM9U5JYE&list=PLEoMzSkcN8oNvsrtk_iZSb94krGRofFjN\n  - Emacs Mail: https://www.youtube.com/watch?v=yZRyEhi4y44&list=PLEoMzSkcN8oM-kA19xOQc8s0gr0PpFGJQ\n  - Learning Emacs Lisp: https://www.youtube.com/watch?v=RQK_DaaX34Q&list=PLEoMzSkcN8oPQtn7FQEF3D7sroZbXuPZ7\n  - Craft Your System with GNU Guix: https://www.youtube.com/watch?v=iBaqOK75cho&list=PLEoMzSkcN8oNxnj7jm5V2ZcGc52002pQU\n\n  MY SECOND CHANNEL:\n\n  On the Flux Harmonic channel I do live coding twice a week using many of the tools we talk about on System Crafters!\n\n  - https://youtube.com/FluxHarmonicLive\n  - https://fluxharmonic.com\n\n  CREDITS:\n\n  Coriolis Effect by logos feat. stefsax, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/mseq/26296\n  reNovation by airtone, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/airtone/60674\n  ukeSounds by airtone, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/airtone/32655\n  Between Worlds (Instrumental) by Aussens@iter, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/tobias_weber/56664"
   },
   {
-    "ITEM": "Compiler from scratch, for fun :p | Emacs Major Mode and Breaking Function Parsing | 019",
-    "DATE": "2022-08-24T00:20:23+0000",
-    "DURATION": "04:57:48",
-    "YOUTUBE_URL": "https://www.youtube.com/watch?v=5nshi4FSYQ8",
-    "SPEAKERS": "Lens_r",
+    "ITEM": "org-fc flashcards on steamdeck",
+    "DATE": "2022-08-24T20:25:15+0000",
+    "DURATION": "00:58",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=V9vQ06n7HX4",
+    "SPEAKERS": "Ryan Rix",
+    "TAGS": [
+      "org"
+    ],
     "BODY": ""
   },
   {
@@ -12477,11 +12510,11 @@
     "BODY": "A tutorial and guide on how to use emacs."
   },
   {
-    "ITEM": "Emacs: ef-themes demonstration",
-    "DATE": "2022-08-18T11:26:00+0000",
-    "DURATION": "31:09",
-    "YOUTUBE_URL": "https://www.youtube.com/watch?v=h7VOd7CVz10",
-    "SPEAKERS": "Protesilaos Stavrou",
+    "ITEM": "Understanding emacs navigation and commands",
+    "DATE": "2022-08-18T23:14:12+0000",
+    "DURATION": "13:48",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=JYEXGUf_cp4",
+    "SPEAKERS": "codave codes",
     "BODY": ""
   },
   {
@@ -12501,14 +12534,10 @@
     "BODY": "Commands on Emacs and how to navigate in linux terminal"
   },
   {
-    "ITEM": "Emacs | Introduction to Writing In Org Mode",
-    "DATE": "2022-08-14T22:40:07+0000",
-    "DURATION": "17:00",
-    "YOUTUBE_URL": "https://www.youtube.com/watch?v=wQ7zAKKGCfc",
-    "SPEAKERS": "Chris Maiorana",
-    "TAGS": [
-      "org"
-    ],
+    "ITEM": "Stefan van der Walt on Emacs (edited)",
+    "DATE": "2022-08-16T16:55:51+00:00",
+    "DURATION": "15:43",
+    "SPEAKERS": "Matthew Brett",
     "BODY": ""
   },
   {
@@ -12601,11 +12630,10 @@
     "BODY": "Pequeña introducción al editor de código EMACS. Aunque se trata de un editor más bien antigua, emacs presenta algunas características interesantes, como su flexibilidad y adaptabilidad. Este editor se basa en el lenguaje Lisp (\"LISt Processor\", o \"Procesamiento de Listas\"). En este vídeo, veremos cómo movernos por el archivo de código, como copiar y pegar texto, cómo navegar por otros archivos desde la misma ventana o cómo buscar y reemplazar cadenas de texto.\n\n  ¡ Esperamos que este contenido te sirva y sea de tu interés !\n\n\n  Si te interesa el tema del diseño de veleros, no dejes de visitar esta web: https://navalapp.com\n  Allí encontrarás una comunidad muy activa e interesada en este tema, además de varios cursos sobre diseño de embarcaciones a vela:\n\n  1) Curso sobre diseño de veleros: https://navalapp.com/courses/sailing-yacht-design-1/\n  Este curso incluye teoría y práctica sobre el embarcaciones a vela. Usando Maxsurf, realizaremos el diseño de una carena y sus apéndices. Además aprenderemos a hacer el cálculo de resistencia al avance y la estabilidad, también usando Maxsurf.\n\n  2) Curso sobre escantillonado de veleros con ISO-12215: https://navalapp.com/courses/scantling-with-iso-12215/\n  Este curso trata de la aplicación de la norma ISO 12215 al escantillonado de estructuras de veleros. Se trata de un curso eminentemente práctico, donde aprenderás los detalles de la norma ISO 12215 a través del ejemplo con un barco concreto. Para ese barco, se calcularán el escantillonado a través de ejemplos a mano y utilizando el software SCT. El curso incluye una licencia temporal gratuita de este software. Más información sobre el software SCT aquí: http://www.boatscantlings.com\n\n  Además de estos, podrás encontrar otros cursos de otros temas relacionados con el mundo de las embarcaciones a vela. De estos cursos no somos nosotros los autores pero son igual de interesantes.\n\n\n  Aparte de eso, en Matemáticas y barcos nos interesa el tema de los CFD en general, y su aplicación a la ingeniería naval, en particular. Sobre este tema, podrás encontrar también un par de cursos de los que somos autores:\n\n  3) Curso sobre OpenFoam: https://ingeoexpert.com/cursos/curso-de-simulacion-numerica-de-fluidos-con-openfoam/\n  En este curso aprenderás los rudimentos del CFD OpenFoam a través de varios ejemplos de aplicación:  \"Cavity\", los problemas de Couette y Poiselle, un perfil aerodinámico y un Dam Break.\n\n  4) Curso sobre CFD para aplicaciones navales (OpenFoam):\n  https://ingenierojorgejuan.com/es/c/109/simulacion-numerica-para-aplicaciones-navales\n  En este curso podrás aprender algunas aplicaciones más avanzadas centradas en casos de interés práctico en ingeniería naval. Estos casos son:\n  - Un ensayo de remolque.\n  - Un ensayo de propulsor aislado, es decir: la simulación del flujo en una hélice para obtener sus curvas de funcionamiento.\n  - Un ensayo de plataforma flotante en olas.\n\n\n  Puedes encontrar más sobre nosotros en:\n  1) LinkedIn:\n  https://www.linkedin.com/in/pe-merino-alonso\n  https://www.linkedin.com/in/javiercalderons/\n  2) Twitter:\n  https://twitter.com/eleazar_13\n  https://twitter.com/calderonsj7\n\n\n  Esperamos verte pronto de nuevo por el canal y, sobre todo, que disfrutes y aprendas con nuestro contenido. ¡ Hasta la próxima !"
   },
   {
-    "ITEM": "Emacs From Scratch, An Emacs Tutorial for Beginners- 09 Introduction to macros",
-    "DATE": "2022-08-01T15:11:23+0000",
-    "DURATION": "25:26",
-    "YOUTUBE_URL": "https://www.youtube.com/watch?v=4ch5VaVsgqo",
-    "SPEAKERS": "lxsameer",
+    "ITEM": "2enabling-emacs",
+    "DATE": "2022-08-02T08:56:37+00:00",
+    "DURATION": "0:50",
+    "SPEAKERS": "Safcsp",
     "BODY": ""
   },
   {
@@ -12687,11 +12715,14 @@
     "BODY": "In which the pursuit of a tiny change in Emacs' behavior leads us deep into the belly of the beast.\n\n  A semi-live coding session featuring the ultimate yakshaving experience.\n\n  00:00 Hyperbolic claims about Emacs\n  01:00 A tiny but annoying problem\n  02:03 Generalize much?\n  03:00 Customize, your fair-weather friend\n  03:49 Diving in headfirst\n  06:12 A promising find\n  11:06 A function that hides: the bottom of the stack\n  12:20 Trying the simpler fix first\n  15:21 Inline's gone and attached itself\n  16:39 Approaches to fix Notmuch\n  19:49 Making a decision\n  20:15 RTFM time\n  20:52 The Advice\n  27:31 The test\n  28:21 An incomplete summary"
   },
   {
-    "ITEM": "I tried 10 code editors",
-    "DATE": "2022-07-21T16:27:36+0000",
-    "DURATION": "10:27",
-    "YOUTUBE_URL": "https://www.youtube.com/watch?v=8PhdfcX9tG0&feature=youtu.be",
-    "SPEAKERS": "Fireship",
+    "ITEM": "Emacs - zk - Quickly Find and Insert Links, with Embark",
+    "DATE": "2022-07-21T18:12:18+0000",
+    "DURATION": "07:31",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=VIPxC8TMR6s",
+    "SPEAKERS": "localauthor",
+    "TAGS": [
+      "zk"
+    ],
     "BODY": ""
   },
   {
@@ -13089,14 +13120,10 @@
     "BODY": "https://github.com/commercial-emacs"
   },
   {
-    "ITEM": "Emacs org mode library in C++",
-    "DATE": "2022-06-19T07:02:52+0000",
-    "DURATION": "45:35",
-    "YOUTUBE_URL": "https://www.youtube.com/watch?v=Hg-oljbwf40",
-    "SPEAKERS": "Raynei",
-    "TAGS": [
-      "org"
-    ],
+    "ITEM": "Integrando Diogenes en Gnu Emacs dentro de Android vía Termux (demo)",
+    "DATE": "2022-06-19T13:51:09+00:00",
+    "DURATION": "3:20",
+    "SPEAKERS": "Juan Manuel Macías Chaín",
     "BODY": ""
   },
   {
@@ -13532,11 +13559,11 @@
     "BODY": "In this video, you will see, absolute necessary shortcuts to operate efficiently inside Emacs.\n\n\n  Buy Me A Coffee : https://www.buymeacoffee.com/unixbhaskar\n  Patreon : https://www.patreon.com/unixbhaskar\n\n  You can also find me :\n\n  GITHUB: https://github.com/unixbhaskar\n\n  Reddit: https://www.reddit.com/user/unixbhaskar\n\n  Blogs: https://unixbhaskar.wordpress.com\n\n  Twitter: https://twitter.com/unixbhaskar\n\n  LinkedIN: https://linkedin.com/in/unixbhaskar\n\n  Vimeo: https://vimeo.com/unixbhaskar\n\n  Goodreads: https://goodreads.com/unixbhaskar"
   },
   {
-    "ITEM": "flite mode demo: Text to Speech (TTS) using Festival Lite in Emacs",
-    "DATE": "2022-05-04T02:30:24+0000",
-    "DURATION": "01:56",
-    "YOUTUBE_URL": "https://www.youtube.com/watch?v=cbdUKpmNZQM",
-    "SPEAKERS": "Gaurav Atreya",
+    "ITEM": "Team Linguini: Emacs IDE",
+    "DATE": "2022-05-05T03:27:13+0000",
+    "DURATION": "05:01",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=3IFEsrumRkM",
+    "SPEAKERS": "Natalia Alonzo",
     "BODY": ""
   },
   {
@@ -13706,11 +13733,10 @@
     "BODY": "In this video, you will see, emacs enthusiasts, and community members built a curated list of apps and utilities for the people.\n\n  Here you can find all those: https://github.com/emacs-tw/awesome-emacs\n\n\n  Buy Me A Coffee: https://www.buymeacoffee.com/unixbhaskar\n  Patreon: https://www.patreon.com/unixbhaskar\n\n  You can also find me :\n\n  GITHUB: https://github.com/unixbhaskar\n\n  Reddit: https://www.reddit.com/user/unixbhaskar\n\n  Blogs: https://unixbhaskar.wordpress.com\n\n  Twitter: https://twitter.com/unixbhaskar\n\n  LinkedIN: https://linkedin.com/in/unixbhaskar\n\n  Vimeo: https://vimeo.com/unixbhaskar\n\n  Goodreads: https://goodreads.com/unixbhaskar"
   },
   {
-    "ITEM": "LEM - What If Emacs Was Multithreaded",
-    "DATE": "2022-04-23T16:04:11+0000",
-    "DURATION": "14:31",
-    "YOUTUBE_URL": "https://www.youtube.com/watch?v=Ph8M8ThBgPc&list=PLknodeJt-I5GJmcd7ENakYf_M0x9q50d1&index=4&pp=iAQB",
-    "SPEAKERS": "Gavin Freeborn",
+    "ITEM": "stefan_emacs.mp4",
+    "DATE": "2022-04-23T18:17:53+00:00",
+    "DURATION": "24:33",
+    "SPEAKERS": "Matthew Brett",
     "BODY": ""
   },
   {
@@ -14067,14 +14093,11 @@
     "BODY": "C-c C-p for ipython\n  C-c C-v for pylint (or C-c ml)\n  #python\n  #emacs\n  #lisp\n  #ipython\n  #pylint\n  #elpy"
   },
   {
-    "ITEM": "Python in Emacs 0003 -- Why I insist using Emacs for Python coding? And what is elpy mode?",
-    "DATE": "2022-03-19T01:32:59+0000",
-    "DURATION": "10:08",
-    "YOUTUBE_URL": "https://www.youtube.com/watch?v=P4rtox7A8IA",
-    "SPEAKERS": "Clement",
-    "TAGS": [
-      "python"
-    ],
+    "ITEM": "System Crafters Live! - Writing Tools with Transient in Emacs (Part 3)",
+    "DATE": "2022-03-19T05:39:49+0000",
+    "DURATION": "44:19",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=GxO-xD9LoQo",
+    "SPEAKERS": "System Crafters",
     "BODY": ""
   },
   {
@@ -14423,11 +14446,11 @@
     "BODY": "In this Emacs tutorial I show you how to expand abbreviations and enter abbreviations using abbreviation mode. I also show you how to use it to quickly expand letter combinations for common programming selectors and how to use it as a sort of auto-correct. Finally I show you how to turn it off.\n\n  Abbreviation markdown file:\n  https://github.com/Tunkert/emacs-tutorial/blob/main/abbreviations.md\n\n  Abbreviation text file:\n  https://github.com/Tunkert/emacs-tutorial/blob/main/abbreviations.txt\n\n  Blog I found with Education acronyms:\n  https://blog.socialstudies.com/20-educational-acronyms-every-educator-and-parent-should-know\n\n  Emacs logo attribution:\n  Kentaro Ohkouchi, GPLv3 http://www.gnu.org/licenses/gpl-3.0.html, via Wikimedia Commons\n\n  File URL:\n  https://upload.wikimedia.org/wikipedia/commons/5/59/Emacs_512.png\n\n  Page URL:\n  https://commons.wikimedia.org/wiki/File:Emacs_512.png"
   },
   {
-    "ITEM": "Live: Emacs videos, LibrePlanet 2022, philosophy presentations",
-    "DATE": "2022-02-20T00:52:22+0000",
-    "DURATION": "02:15:53",
-    "YOUTUBE_URL": "https://www.youtube.com/watch?v=pKnKDJqI3Ro&list=PL8Bwba5vnQK14z96Gil86pLMDO2GnOhQ6&index=40&pp=iAQB",
-    "SPEAKERS": "Protesilaos Stavrou",
+    "ITEM": "terminal emacs emoji rendering comparison",
+    "DATE": "2022-02-20T06:19:05+0000",
+    "DURATION": "00:56",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=R54biaRFohM",
+    "SPEAKERS": "12Me21",
     "BODY": ""
   },
   {
@@ -14833,6 +14856,17 @@
     "BODY": "Demo of zk-luhmann, a set of functions that extend zk and zk-index to facilitate working with notes that have alphanumeric IDs (so-called \"Luhmann-IDs\") in the form \"{4 }\", \"{4,1 }\", {4,1,a }\" and so on.\n\n  Available here: https://github.com/localauthor/zk-luhmann"
   },
   {
+    "ITEM": "Emacs Dired file manager",
+    "DATE": "2022-01-31T14:07:09+0000",
+    "DURATION": "02:50",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=NcRxKgEYkDU&list=PLwgb17bzeNyiuQtvKtcZ_pvSSoO9ShXv8&index=5&pp=iAQB",
+    "SPEAKERS": "Literate Programming with Emacs and Org-mode",
+    "TAGS": [
+      "dired"
+    ],
+    "BODY": ""
+  },
+  {
     "ITEM": "Inserting file into buffer, and completion with TAB",
     "DATE": "2022-01-31T14:07:02+0000",
     "DURATION": "02:56",
@@ -14846,14 +14880,6 @@
     "DURATION": "08:41",
     "YOUTUBE_URL": "https://www.youtube.com/watch?v=iftaphsqjko&list=PLwgb17bzeNyiuQtvKtcZ_pvSSoO9ShXv8&index=3&pp=iAQB",
     "SPEAKERS": "Literate Programming with Emacs and Org-mode",
-    "BODY": ""
-  },
-  {
-    "ITEM": "Emacs: Learn to ask for Help and write Elisp",
-    "DATE": "2022-01-31T14:06:56+0000",
-    "DURATION": "50:36",
-    "YOUTUBE_URL": "https://www.youtube.com/watch?v=46w9e4GAjsU",
-    "SPEAKERS": "Protesilaos Stavrou",
     "BODY": ""
   },
   {
@@ -14881,10 +14907,10 @@
     "BODY": "Resources:\n  GNU Emacs reference card: https://github.com/birkenkrahe/org/blob/master/emacs/refcard.pdf\n  Short installation instructions: https://github.com/birkenkrahe/org/blob/master/emacs/install.org\n  Detailed installation instructions: https://github.com/birkenkrahe/org/blob/master/FAQ.org#how-can-i-install-emacs-as-a-data-science-ide-on-windows-10"
   },
   {
-    "ITEM": "Installing the GNU .emacs init file",
-    "DATE": "2022-01-31T14:06:08+0000",
-    "DURATION": "05:22",
-    "YOUTUBE_URL": "https://www.youtube.com/watch?v=MICX4Al2mcQ&list=PLwgb17bzeNyiuQtvKtcZ_pvSSoO9ShXv8&index=7&pp=iAQB",
+    "ITEM": "Emacs buffer list and moving between buffers",
+    "DATE": "2022-01-31T14:06:19+0000",
+    "DURATION": "02:43",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=8EorF1ah5fk&list=PLwgb17bzeNyiuQtvKtcZ_pvSSoO9ShXv8&index=6&pp=iAQB",
     "SPEAKERS": "Literate Programming with Emacs and Org-mode",
     "BODY": ""
   },
@@ -15587,13 +15613,13 @@
     "BODY": "I often get viewers asking me about what skills they should learn to become a \"power user\" or \"elite.\"  While there are so many important skills that one could learn, I think the two most important programs that every Linux user owes it to themselves to learn are Vim and Emacs.\n\n  REFERENCED:\n  ► https://www.vim.org/ - Vim\n  ► https://github.com/hlissner/doom-emacs - Doom Emacs\n\n  WANT TO SUPPORT THE CHANNEL?\n  💰 Patreon: https://www.patreon.com/distrotube\n  💳 Paypal: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=derek%40distrotube%2ecom&lc=US&item_name=DistroTube&no_note=0&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHostedGuest\n  🛍️ Amazon: https://amzn.to/2RotFFi\n  👕 Teespring: https://teespring.com/stores/distrotube\n\n  DONATE CRYPTO:\n  💰 Bitcoin: 1Mp6ebz5bNcjNFW7XWHVht36SkiLoxPKoX\n  🐶 Dogecoin: D5fpRD1JRoBFPDXSBocRTp8W9uKzfwLFAu\n  📕 LBC: bMfA2c3zmcLxPCpyPcrykLvMhZ7A5mQuhJ\n\n  SOCIAL PLATFORMS:\n  🗨️ Mastodon: https://distrotoot.com/@derek\n  👫 Reddit: https://www.reddit.com/r/DistroTube/\n  📽️ LBRY/Odysee: https://odysee.com/$/invite/@DistroTube:2\n\n  DT ON THE WEB:\n  🕸️ Website: http://distrotube.com/\n  🐿️ Gemini Capsule: gemini://distro.tube\n  📁 GitLab: https://gitlab.com/dwt1\n\n  FREE AND OPEN SOURCE SOFTWARE THAT I USE:\n  🌐 Brave Browser - https://brave.com/dis872\n  📽️ Open Broadcaster Software: https://obsproject.com/\n  🎬 Kdenlive: https://kdenlive.org\n  🎨 GIMP: https://www.gimp.org/\n  🎵  Ardour: https://ardour.org/\n  💻 VirtualBox: https://www.virtualbox.org/\n  🗒️ Doom Emacs: https://github.com/hlissner/doom-emacs\n\n  Your support is very much appreciated. Thanks, guys!"
   },
   {
-    "ITEM": "Org-mode - Are you using org-bullets-mode",
-    "DATE": "2022-01-06T05:00:30+0000",
-    "DURATION": "07:54",
-    "YOUTUBE_URL": "https://www.youtube.com/watch?v=ie8VFEPVjBM&list=PLlHHtPGox8K6bcuruX10Evf4AYGzYQKiz&index=68&pp=iAQB",
-    "SPEAKERS": "Blackberry Boy",
+    "ITEM": "Shell History Navigation in Emacs Mode",
+    "DATE": "2022-01-07T13:45:10+0000",
+    "DURATION": "01:58",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=3_uAlcymu1A",
+    "SPEAKERS": "Douglas Rumbaugh",
     "TAGS": [
-      "org"
+      "shell"
     ],
     "BODY": ""
   },
@@ -16181,6 +16207,24 @@
     "BODY": "A short video on usage of yasnippet and neotree on GNU/Emacs"
   },
   {
+    "ITEM": "Q&A: M-x Forever: Why Emacs will outlast text editor trends",
+    "DATE": "2021-11-28T21:15:00+0000",
+    "DURATION": "56:56.758",
+    "URL": "https://emacsconf.org/2021/talks/forever",
+    "MEDIA_URL": "https://media.emacsconf.org/2021/emacsconf-2021-forever--m-x-forever-why-emacs-will-outlast-text-editor-trends--david-wilson-system-crafters--answers.webm",
+    "YOUTUBE_URL": "https://youtu.be/-Auq6RKUjlo",
+    "TOOBNIX_URL": "https://toobnix.org/w/nMigBHKfsTyQzBYTqx1siU",
+    "TRANSCRIPT_URL": "https://media.emacsconf.org/2021/emacsconf-2021-forever--m-x-forever-why-emacs-will-outlast-text-editor-trends--david-wilson-system-crafters--answers.vtt",
+    "SPEAKERS": "David Wilson (System Crafters)",
+    "TAGS": [
+      "answers",
+      "emacsconf",
+      "emacsconf2021",
+      "gen"
+    ],
+    "BODY": ""
+  },
+  {
     "ITEM": "M-x Forever: Why Emacs will outlast text editor trends",
     "DATE": "2021-11-28T21:15:00+0000",
     "URL": "https://emacsconf.org/2021/talks/forever",
@@ -16236,15 +16280,24 @@
     "DURATION": "09:14",
     "YOUTUBE_URL": "https://www.youtube.com/watch?v=bh37zbefZk4",
     "SPEAKERS": "Matthew Zeng",
-    "BODY": ""
+    "BODY": "Emacs Application Framework (EAF) is a customizable and extensible GUI application framework that extends Emacs graphical capabilities using PyQt5. There are many new but important updates since EmacsConf2020 last year, this talk will briefly go over them.\n\n  EmacsConf2021 page: https://emacsconf.org/2021/talks/eaf/\n  Last year's talk:\n  - https://www.youtube.com/watch?v=HK_f8KTuR0s\n  - EmacsConf2020 page with Q&A: https://emacsconf.org/2020/talks/34/\n  EAF repo: https://github.com/emacs-eaf/emacs-application-framework"
   },
   {
-    "ITEM": "EmacsConf2021 - Emacs Application Framework: A 2021 Update",
-    "DATE": "2021-11-28T20:33:02+0000",
-    "DURATION": "09:14",
-    "YOUTUBE_URL": "https://www.youtube.com/watch?v=bh37zbefZk4",
-    "SPEAKERS": "Matthew Zeng",
-    "BODY": "Emacs Application Framework (EAF) is a customizable and extensible GUI application framework that extends Emacs graphical capabilities using PyQt5. There are many new but important updates since EmacsConf2020 last year, this talk will briefly go over them.\n\n  EmacsConf2021 page: https://emacsconf.org/2021/talks/eaf/\n  Last year's talk:\n  - https://www.youtube.com/watch?v=HK_f8KTuR0s\n  - EmacsConf2020 page with Q&A: https://emacsconf.org/2020/talks/34/\n  EAF repo: https://github.com/emacs-eaf/emacs-application-framework"
+    "ITEM": "How to help Emacs maintainers?",
+    "DATE": "2021-11-28T20:25:00+0000",
+    "URL": "https://emacsconf.org/2021/talks/maintainers",
+    "MEDIA_URL": "https://media.emacsconf.org/2021/emacsconf-2021-maintainers--how-to-help-emacs-maintainers---bastien-guerry--main.webm",
+    "YOUTUBE_URL": "https://youtu.be/xvna8at7iKk",
+    "TOOBNIX_URL": "https://toobnix.org/w/naNvWzM2jjj5ownu9zmbAf",
+    "TRANSCRIPT_URL": "https://media.emacsconf.org/2021/emacsconf-2021-maintainers--how-to-help-emacs-maintainers---bastien-guerry--main.vtt",
+    "SPEAKERS": "Bastien Guerry",
+    "TAGS": [
+      "emacsconf",
+      "emacsconf2021",
+      "community",
+      "gen"
+    ],
+    "BODY": ""
   },
   {
     "ITEM": "Q&A: How to help Emacs maintainers?",
@@ -16636,17 +16689,6 @@
     "TAGS": [
       "eev"
     ],
-    "BODY": ""
-  },
-  {
-    "ITEM": "Test blocks: eev @ EmacsConf 2021",
-    "DATE": "2021-11-28T10:08:56-08:00",
-    "DURATION": "6:04",
-    "YOUTUBE_URL": "https://www.youtube.com/watch?v=qM0Luz78qGw",
-    "SPEAKERS": "Eduardo Ochs",
-    "TAGS": [
-      "eev"
-    ],
     "BODY": "See:\n  http://anggtwu.net/emacsconf2021.html\n  http://anggtwu.net/eepitch.html\n\n  This video is also hosted at several other places, but this one always has the latest version of its (revised) subtitles."
   },
   {
@@ -16656,6 +16698,21 @@
     "YOUTUBE_URL": "https://www.youtube.com/watch?v=QUMo7vgkHJI",
     "SPEAKERS": "Eduardo Ochs",
     "BODY": "See: http://angg.twu.net/emacsconf2021.html"
+  },
+  {
+    "ITEM": "Closing remarks day 2",
+    "DATE": "2021-11-28T05:00:00+0000",
+    "URL": "https://emacsconf.org/2021/talks/day2-close",
+    "MEDIA_URL": "https://media.emacsconf.org/2021/nil--main.webm",
+    "YOUTUBE_URL": "",
+    "TOOBNIX_URL": "",
+    "TRANSCRIPT_URL": "https://media.emacsconf.org/2021/nil--main.vtt",
+    "SPEAKERS": "",
+    "TAGS": [
+      "emacsconf",
+      "emacsconf2021"
+    ],
+    "BODY": ""
   },
   {
     "ITEM": "Q&A: On the design of text editors",
@@ -17408,14 +17465,6 @@
     "DURATION": "01:23:22",
     "YOUTUBE_URL": "https://www.youtube.com/watch?v=OY0fBVnc6QU",
     "SPEAKERS": "NUS Hackers",
-    "BODY": ""
-  },
-  {
-    "ITEM": "Hacker Tools AY 21/22 S 1: Emacs",
-    "DATE": "2021-11-27T13:57:43+0000",
-    "DURATION": "01:23:22",
-    "YOUTUBE_URL": "https://www.youtube.com/watch?v=OY0fBVnc6QU",
-    "SPEAKERS": "NUS Hackers",
     "BODY": "This week, we’ll be introducing another highly customizable text editor, Emacs, providing a sane base for you to get started."
   },
   {
@@ -17431,13 +17480,18 @@
     "BODY": "In this stream, we'll talk about the plans I have for next year and the specific improvements I'll make to my configuration to enable them.  It's time for a rewrite!\n\n  SUPPORT THE CHANNEL:\n\n  👕 https://store.systemcrafters.net\n  👍 https://systemcrafters.net/support-the-channel\n  🌐 Buy a domain with Namecheap: https://namecheap.pxf.io/NK0yXK\n\n  SHOW NOTES:\n\n  https://systemcrafters.net/live-streams/november-26-2021/\n\n  MY CONFIGURATION:\n\n  https://config.daviwil.com\n  https://config.daviwil.com/emacs\n  https://config.daviwil.com/systems (Guix)\n\n  JOIN THE COMMUNITY:\n\n  http://systemcrafters.chat (IRC and Discord)\n  https://twitter.com/SystemCrafters\n\n  OTHER SERIES:\n\n  - Emacs Essentials: https://www.youtube.com/watch?v=48JlgiBpw_I&list=PLEoMzSkcN8oPZvSdewHG8uApD7THlLLCV\n  - Emacs From Scratch: https://www.youtube.com/watch?v=74zOY-vgkyw&list=PLEoMzSkcN8oPH1au7H6B7bBJ4ZO7BXjSZ\n  - Emacs Tips: https://www.youtube.com/watch?v=wKTKmE1wLyw&list=PLEoMzSkcN8oMHJ6Xil1YdnYtlWd5hHZql\n  - Emacs Desktop Environment: https://www.youtube.com/watch?v=f7xB2fFk1tQ&list=PLEoMzSkcN8oNPbEMYEtswOVTvq7CVddCS\n  - Emacs IDE: https://www.youtube.com/watch?v=E-NAM9U5JYE&list=PLEoMzSkcN8oNvsrtk_iZSb94krGRofFjN\n  - Emacs Mail: https://www.youtube.com/watch?v=yZRyEhi4y44&list=PLEoMzSkcN8oM-kA19xOQc8s0gr0PpFGJQ\n  - Learning Emacs Lisp: https://www.youtube.com/watch?v=RQK_DaaX34Q&list=PLEoMzSkcN8oPQtn7FQEF3D7sroZbXuPZ7\n  - Craft Your System with GNU Guix: https://www.youtube.com/watch?v=iBaqOK75cho&list=PLEoMzSkcN8oNxnj7jm5V2ZcGc52002pQU\n\n  CREDITS:\n\n  Coriolis Effect by logos feat. stefsax, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/mseq/26296\n  reNovation by airtone, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/airtone/60674\n  ukeSounds by airtone, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/airtone/32655\n  Between Worlds (Instrumental) by Aussens@iter, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/tobias_weber/56664\n\n\n  Powered by Restream https://restream.io/"
   },
   {
-    "ITEM": "Emacs Hacking: creating graphviz trees from Org lists [Livestream Archive]",
-    "DATE": "2021-11-26T05:41:05+0000",
-    "DURATION": "01:35:38",
-    "YOUTUBE_URL": "https://www.youtube.com/watch?v=RULnMEedyNY",
-    "SPEAKERS": "P’undrak 「プンドラック」",
+    "ITEM": "Closing remarks day 1",
+    "DATE": "2021-11-27T05:00:00+0000",
+    "URL": "https://emacsconf.org/2021/talks/day1-close",
+    "MEDIA_URL": "https://media.emacsconf.org/2021/nil--main.webm",
+    "YOUTUBE_URL": "",
+    "TOOBNIX_URL": "",
+    "TRANSCRIPT_URL": "https://media.emacsconf.org/2021/nil--main.vtt",
+    "SPEAKERS": "",
     "TAGS": [
-      "org"
+      "emacsconf",
+      "emacsconf2021",
+      "closing"
     ],
     "BODY": ""
   },
@@ -18243,14 +18297,11 @@
     "BODY": "In which I attempt to remove clickbait from my Elfeed feed... and briefly remove my Elfeed feed.\n\n  Folks who want the code (which works, I assure you) can get it at https://karthinks.com/software/declickbait-elfeed.\n\n  Folks who enjoy meandering coding streams or floundering Elisp sessions may get something out of the video instead.\n\n  00:00 Problem: Clickbait in RSS feed titles\n  02:05 Goal: Declickbait RSS feed titles\n  03:23 Process: Hook, getter, setter\n  07:25 Process: Text transformation\n  12:55 Testing & Mishaps\n  22:01 Filing down edge cases\n  27:12 More mishaps\n  29:08 Generalizing to more interesting declickbaiters\n  31:14 Summary\n  32:49 Turning Yakshave code into a package\n  33:52 Profit"
   },
   {
-    "ITEM": "scimax - Auto-formatting, abbreviations and snippets",
-    "DATE": "2021-10-10T12:56:44-07:00",
-    "DURATION": "19:57",
-    "YOUTUBE_URL": "https://www.youtube.com/watch?v=q0KFusAaqu4&list=PL0sMmOaE_gs3E0OjExoI7vlCAVygj6S4I&index=31&pp=iAQB",
-    "SPEAKERS": "John Kitchin",
-    "TAGS": [
-      "yasnippet"
-    ],
+    "ITEM": "Using Emacs Episode 78 - a grading workflow",
+    "DATE": "2021-10-10T15:30:45+0000",
+    "DURATION": "18:40",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=7HLVcQi8GGk&list=PL9KxKa8NpFxIcNQa9js7dQQIHc81b0-Xg&index=79&pp=iAQB",
+    "SPEAKERS": "Mike Zamansky",
     "BODY": ""
   },
   {
@@ -18945,11 +18996,13 @@
     "BODY": "In this stream, I want the community to suggest Emacs packages for me to try!  It can either be a package you wrote, one you love using, or one you think is really obscure and doesn't get enough love.  We'll see whether I can figure out how to set up and use them in the time available :)\n\n  Show notes can be found here: https://systemcrafters.net/live-streams/august-13-2021/\n\n  These timestamps aren't super accurate, sorry about that!\n\n  - 00:00 Intro\n  - 08:23 News\n  - 22:47 Emacs Package Potluck\n  - 36:00 crafter-bot\n  - 43:46 org-protocol\n  - 48:10 webpaste.el\n  - 59:51 restclient.el\n  - 1:04:58 selected.el\n  - 1:10:12 pair-tree.el\n  - 1:15:17 org-recur\n  - 1:26:22 lyrics-fetcher.el\n  - 1:34:40 org-download\n  - 1:39:11 aggressive-indent-mode\n  - 1:47:35 nov.el\n  - 1:52:36 consult-dir\n\n  If you enjoy the content I make on this channel, please consider becoming a sponsor:  https://systemcrafters.net/support-the-channel\n\n\n  Follow me on Twitter for more Emacs content!\n  https://twitter.com/SystemCrafters\n\n  Chat with the System Crafters community on Discord and IRC: http://systemcrafters.chat\n\n  Check out my other video series!\n\n  - Emacs Essentials: https://www.youtube.com/watch?v=48JlgiBpw_I&list=PLEoMzSkcN8oPZvSdewHG8uApD7THlLLCV\n  - Emacs From Scratch: https://www.youtube.com/watch?v=74zOY-vgkyw&list=PLEoMzSkcN8oPH1au7H6B7bBJ4ZO7BXjSZ\n  - Emacs Tips: https://www.youtube.com/watch?v=wKTKmE1wLyw&list=PLEoMzSkcN8oMHJ6Xil1YdnYtlWd5hHZql\n  - Emacs Desktop Environment: https://www.youtube.com/watch?v=f7xB2fFk1tQ&list=PLEoMzSkcN8oNPbEMYEtswOVTvq7CVddCS\n  - Emacs IDE: https://www.youtube.com/watch?v=E-NAM9U5JYE&list=PLEoMzSkcN8oNvsrtk_iZSb94krGRofFjN\n  - Emacs Mail: https://www.youtube.com/watch?v=yZRyEhi4y44&list=PLEoMzSkcN8oM-kA19xOQc8s0gr0PpFGJQ\n  - Learning Emacs Lisp: https://www.youtube.com/watch?v=RQK_DaaX34Q&list=PLEoMzSkcN8oPQtn7FQEF3D7sroZbXuPZ7\n  - Craft Your System with GNU Guix: https://www.youtube.com/watch?v=iBaqOK75cho&list=PLEoMzSkcN8oNxnj7jm5V2ZcGc52002pQU\n\n  Music credits:\n\n  Coriolis Effect by logos feat. stefsax, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/mseq/26296\n  reNovation by airtone, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/airtone/60674\n  ukeSounds by airtone, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/airtone/32655\n  Between Worlds (Instrumental) by Aussens@iter, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/tobias_weber/56664\n\n\n  Powered by Restream https://restream.io/"
   },
   {
-    "ITEM": "The Modern Emacs",
-    "DATE": "2021-08-11T04:45:30+0000",
-    "DURATION": "01:33:38",
-    "YOUTUBE_URL": "https://youtu.be/ZbxUJz6a9Io",
-    "SPEAKERS": "Andrew Tropin",
+    "ITEM": "Integrando Emacs y Org Mode con diogenes, primer test",
+    "DATE": "2021-08-12T12:19:52+00:00",
+    "DURATION": "1:57",
+    "SPEAKERS": "Juan Manuel Macías Chaín",
+    "TAGS": [
+      "org"
+    ],
     "BODY": ""
   },
   {
@@ -19569,14 +19622,11 @@
     "BODY": "Today I thought of learning org-roam properly. The first thing is of course to install it and it is not difficult at all.\n\n  #Emacs #OrgRoam\n\n  Mastering org-roam: https://ravi.pro/blog/mastering-org-roam.html\n\n  My other channel: https://youtube.com/ravisagar1\n\n  ####\n\n  Jira books and Video courses (Available to buy)\n\n  1. Jira Quick Start Guide (Book): https://go.ravi.pro/JiraQuickStartGuide\n  2. Mastering Jira (Book): https://go.ravi.pro/masteringjira\n  3. Jira 7 Guide for Administrators and Developers (Video course): https://go.ravi.pro/JiraGuideAdmin\n  4. Jira 7 Essentials (Video course): https://go.ravi.pro/JiraEssentials\n\n  Free Video courses\n\n  1. GetAnswers: https://go.ravi.pro/GetAnswers\n  2. Portfolio for Jira: https://go.ravi.pro/portfolio\n  3. Structure for Jira: https://go.ravi.pro/StructureJira\n  4. ScriptRunner for Jira: https://go.ravi.pro/ScriptRunnerJira\n  5. Google Apps Script tutorials: https://go.ravi.pro/GoogleAppsScript\n  6. JiraTips: https://go.ravi.pro/JiraTips\n\n  Social\n\n  1. Blog: https://www.ravisagar.in\n  2. Linkedin: https://www.linkedin.com/in/ravisagar/\n  3. Twitter: https://www.twitter.com/ravisagar\n  4. Instagram: https://www.instagram.com/ravisagar.in\n  5. Spotify Podcast: https://go.ravi.pro/spotify\n  6. Apple Podcast: https://go.ravi.pro/apple\n  7. Youtube: https://youtube.com/ravisagar1"
   },
   {
-    "ITEM": "Org-transclusion (alpha v0.2.0) Demo #8",
-    "DATE": "2021-06-13T12:40:15+0000",
-    "DURATION": "17:28",
-    "YOUTUBE_URL": "https://www.youtube.com/watch?v=JViI7u_PB9M&feature=youtu.be",
-    "SPEAKERS": "nobiot",
-    "TAGS": [
-      "org"
-    ],
+    "ITEM": "Emacs in the browser",
+    "DATE": "2021-06-13T16:29:20+0000",
+    "DURATION": "00:24",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=IROIt1Y-xqs",
+    "SPEAKERS": "Ivan Yonchovski",
     "BODY": ""
   },
   {
@@ -19683,11 +19733,10 @@
     "BODY": "In this video, I'll show you how to connect to a chat protocol called IRC with Emacs' built-in client called ERC!  I'll also give you a tour of some basic IRC commands you'll need to know and then provide basic configuration you can use with ERC.\n\n  Check out the show notes here: https://systemcrafters.cc/chatting-with-emacs/irc-basics-with-erc/\n\n  We cover the following topics:\n\n  - 0:00 Intro\n  - 0:28 Yet another thing Emacs can do!\n  - 1:00 What is IRC?\n  - 2:37 What is ERC?\n  - 4:58 Joining a server\n  - 6:37 Demo of joining Libera.Chat\n  - 7:40 Joining a channel\n  - 10:47 Leaving a channel\n  - 11:33 Listing available channels\n  - 13:36 Finding more details about a user\n  - 14:41 Sending someone a private message\n  - 16:33 Changing your nickname\n  - 17:07 Quitting the IRC server\n  - 17:42 Reconnecting to the server\n  - 18:51 A basic ERC configuration\n  - 22:40 Come chat with us!\n\n  My Emacs configuration: https://config.daviwil.com/emacs\n  My system configurations: https://config.daviwil.com/systems\n\n  If you enjoy this series, please consider becoming a sponsor on GitHub or Patreon:\n\n  - https://github.com/sponsors/daviwil\n  - https://patreon.com/SystemCrafters\n\n  You can also leave a tip via PayPal: https://paypal.me/daviwil\n\n  Follow me on Twitter for more GNU Emacs and GNU Guix content!\n  https://twitter.com/SystemCrafters\n\n  Chat with the System Crafters community on Discord: https://discord.gg/yVD8Gx6\n\n  Check out my other video series!\n\n  - Emacs Essentials: https://www.youtube.com/watch?v=48JlgiBpw_I&list=PLEoMzSkcN8oPZvSdewHG8uApD7THlLLCV\n  - Emacs From Scratch: https://www.youtube.com/watch?v=74zOY-vgkyw&list=PLEoMzSkcN8oPH1au7H6B7bBJ4ZO7BXjSZ\n  - Emacs Tips: https://www.youtube.com/watch?v=wKTKmE1wLyw&list=PLEoMzSkcN8oMHJ6Xil1YdnYtlWd5hHZql\n  - Emacs Desktop Environment: https://www.youtube.com/watch?v=f7xB2fFk1tQ&list=PLEoMzSkcN8oNPbEMYEtswOVTvq7CVddCS\n  - Emacs IDE: https://www.youtube.com/watch?v=E-NAM9U5JYE&list=PLEoMzSkcN8oNvsrtk_iZSb94krGRofFjN\n  - Emacs Mail: https://www.youtube.com/watch?v=yZRyEhi4y44&list=PLEoMzSkcN8oM-kA19xOQc8s0gr0PpFGJQ\n  - Learning Emacs Lisp: https://www.youtube.com/watch?v=RQK_DaaX34Q&list=PLEoMzSkcN8oPQtn7FQEF3D7sroZbXuPZ7\n  - Craft Your System with GNU Guix: https://www.youtube.com/watch?v=iBaqOK75cho&list=PLEoMzSkcN8oNxnj7jm5V2ZcGc52002pQU\n\n  Music credits:\n\n  Coriolis Effect by logos feat. stefsax, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/mseq/26296\n  reNovation by airtone, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/airtone/60674\n  ukeSounds by airtone, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/airtone/32655\n  Between Worlds (Instrumental) by Aussens@iter, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/tobias_weber/56664"
   },
   {
-    "ITEM": "Exploring Emacs: What's new in emacs 27? Built in tab bar mode",
-    "DATE": "2021-05-30T18:51:19+0000",
-    "DURATION": "05:59",
-    "YOUTUBE_URL": "https://www.youtube.com/watch?v=-AbYSiHZAPg",
-    "SPEAKERS": "oxysc bw",
+    "ITEM": "yabai+emacs-demo",
+    "DATE": "2021-05-31T13:04:53+00:00",
+    "DURATION": "0:06",
+    "SPEAKERS": "Ethan L.",
     "BODY": ""
   },
   {
@@ -19758,15 +19807,11 @@
     "BODY": "In this video, we'll learn how to use a tool called Chemacs2 to make it possible to switch between multiple Emacs configurations and even use them at the same time!  To prove it, I'll show you how you can use Doom Emacs, Spacemacs, the Emacs From Scratch configuration, and a custom configuration all in their own Emacs windows.\n\n  Check out the show notes here: https://systemcrafters.cc/emacs-tips/multiple-configurations-with-chemacs2\n\n  You can find Chemacs2 here: https://github.com/plexus/chemacs2\n\n  We cover the following topics:\n\n  - 0:00 Intro\n  - 0:33 The challenge of multiple Emacs configurations\n  - 1:38 Enter Chemacs2\n  - 4:18 Setting it up\n  - 6:28 Managing your Emacs profiles\n  - 10:05 Adding a profile\n  - 12:24 Setting the default profile\n  - 13:45 A real example!\n  - 18:07 Doom Emacs Tip\n  - 19:21 Using Chemacs2 in your dotfiles repository\n  - 21:24 Setting the eln-cache path correctly\n  - 23:25 What will you use Chemacs2 for?\n\n  My Emacs configuration: https://config.daviwil.com/emacs\n  My system configurations: https://config.daviwil.com/systems\n\n  If you enjoy this series, please consider becoming a sponsor on GitHub or Patreon:\n\n  - https://github.com/sponsors/daviwil\n  - https://patreon.com/SystemCrafters\n\n  You can also leave a tip via PayPal: https://paypal.me/daviwil\n\n  Follow me on Twitter for more GNU Emacs and GNU Guix content!\n  https://twitter.com/SystemCrafters\n\n  Chat with the System Crafters community on Discord: https://discord.gg/yVD8Gx6\n\n  Check out my other video series!\n\n  - Emacs Essentials: https://www.youtube.com/watch?v=48JlgiBpw_I&list=PLEoMzSkcN8oPZvSdewHG8uApD7THlLLCV\n  - Emacs From Scratch: https://www.youtube.com/watch?v=74zOY-vgkyw&list=PLEoMzSkcN8oPH1au7H6B7bBJ4ZO7BXjSZ\n  - Emacs Tips: https://www.youtube.com/watch?v=wKTKmE1wLyw&list=PLEoMzSkcN8oMHJ6Xil1YdnYtlWd5hHZql\n  - Emacs Desktop Environment: https://www.youtube.com/watch?v=f7xB2fFk1tQ&list=PLEoMzSkcN8oNPbEMYEtswOVTvq7CVddCS\n  - Emacs IDE: https://www.youtube.com/watch?v=E-NAM9U5JYE&list=PLEoMzSkcN8oNvsrtk_iZSb94krGRofFjN\n  - Emacs Mail: https://www.youtube.com/watch?v=yZRyEhi4y44&list=PLEoMzSkcN8oM-kA19xOQc8s0gr0PpFGJQ\n  - Learning Emacs Lisp: https://www.youtube.com/watch?v=RQK_DaaX34Q&list=PLEoMzSkcN8oPQtn7FQEF3D7sroZbXuPZ7\n  - Craft Your System with GNU Guix: https://www.youtube.com/watch?v=iBaqOK75cho&list=PLEoMzSkcN8oNxnj7jm5V2ZcGc52002pQU\n\n  Music credits:\n\n  Coriolis Effect by logos feat. stefsax, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/mseq/26296\n  reNovation by airtone, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/airtone/60674\n  ukeSounds by airtone, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/airtone/32655\n  Between Worlds (Instrumental) by Aussens@iter, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/tobias_weber/56664"
   },
   {
-    "ITEM": "System Crafters Live! - Replacing Ivy and Counsel with Vertico and Consult",
-    "DATE": "2021-05-22T06:46:30+0000",
-    "DURATION": "01:59:18",
-    "YOUTUBE_URL": "https://www.youtube.com/watch?v=UtqE-lR2HCA",
-    "SPEAKERS": "System Crafters",
-    "TAGS": [
-      "vertico",
-      "consult"
-    ],
+    "ITEM": "EuroTcl2019: Tcl Digraphs, Emacs Tcl Minor Mode (Michael Kaelbling)",
+    "DATE": "2021-05-23T17:10:31+0000",
+    "DURATION": "07:22",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=5pwsqeU_ILc",
+    "SPEAKERS": "Tcl/Tk Video",
     "BODY": ""
   },
   {
@@ -19782,11 +19827,10 @@
     "BODY": "In this stream, we'll hang out and discuss the following topics:\n\n  - What is needed to replace Ivy and Counsel with Vertico and Consult?\n  - Emacs News, Chat, and Q&A\n\n\n  Check out the show notes here: https://systemcrafters.cc/live-streams/may-21-2021/\n\n My Emacs configuration: https://config.daviwil.com/emacs\n\n  If you enjoy this series, please consider becoming a sponsor on GitHub or Patreon:\n\n  - https://github.com/sponsors/daviwil\n  - https://patreon.com/SystemCrafters\n\n  You can also leave a tip via PayPal: https://paypal.me/daviwil\n\n  Follow me on Twitter for more Emacs content!\n  https://twitter.com/SystemCrafters\n\n  Chat with the System Crafters community on Discord: https://discord.gg/yVD8Gx6\n\n  Check out my other video series!\n\n  - Emacs Essentials: https://www.youtube.com/watch?v=48JlgiBpw_I&list=PLEoMzSkcN8oPZvSdewHG8uApD7THlLLCV\n  - Emacs From Scratch: https://www.youtube.com/watch?v=74zOY-vgkyw&list=PLEoMzSkcN8oPH1au7H6B7bBJ4ZO7BXjSZ\n  - Emacs Tips: https://www.youtube.com/watch?v=wKTKmE1wLyw&list=PLEoMzSkcN8oMHJ6Xil1YdnYtlWd5hHZql\n  - Emacs Desktop Environment: https://www.youtube.com/watch?v=f7xB2fFk1tQ&list=PLEoMzSkcN8oNPbEMYEtswOVTvq7CVddCS\n  - Emacs IDE: https://www.youtube.com/watch?v=E-NAM9U5JYE&list=PLEoMzSkcN8oNvsrtk_iZSb94krGRofFjN\n  - Emacs Mail: https://www.youtube.com/watch?v=yZRyEhi4y44&list=PLEoMzSkcN8oM-kA19xOQc8s0gr0PpFGJQ\n  - Learning Emacs Lisp: https://www.youtube.com/watch?v=RQK_DaaX34Q&list=PLEoMzSkcN8oPQtn7FQEF3D7sroZbXuPZ7\n  - Craft Your System with GNU Guix: https://www.youtube.com/watch?v=iBaqOK75cho&list=PLEoMzSkcN8oNxnj7jm5V2ZcGc52002pQU\n\n  Music credits:\n\n  Coriolis Effect by logos feat. stefsax, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/mseq/26296\n  reNovation by airtone, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/airtone/60674\n  ukeSounds by airtone, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/airtone/32655\n  Between Worlds (Instrumental) by Aussens@iter, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/tobias_weber/56664"
   },
   {
-    "ITEM": "Emacs: Modus themes status update (2021-05-19)",
-    "DATE": "2021-05-19T10:23:22+0000",
-    "DURATION": "29:47",
-    "YOUTUBE_URL": "https://www.youtube.com/watch?v=e-ApnxQeeTY&list=PL8Bwba5vnQK14z96Gil86pLMDO2GnOhQ6&index=55&pp=iAQB",
-    "SPEAKERS": "Protesilaos Stavrou",
+    "ITEM": "Emacs workspace per screen",
+    "DATE": "2021-05-19T16:48:12+00:00",
+    "DURATION": "0:42",
+    "SPEAKERS": "Speedhog",
     "BODY": ""
   },
   {
@@ -20169,6 +20213,13 @@
     "BODY": "In this video, we'll continue learning about the basics of Emacs and talk about the default key bindings for moving around in text buffers efficiently!  This is the basis for a few more videos covering the basics of using Emacs as a text editor.\n\n  Check out the show notes here: https://systemcrafters.cc/emacs-essentials/efficient-movement-key-bindings/\n\n  We cover the following topics:\n\n  - 0:00 Intro\n  - 0:31 What will we learn?\n  - 2:28 The Point\n  - 4:55 Basic Point Movements\n  - 8:44 Moving to Beginning and End of Line\n  - 10:19 Moving to Beginning and End of Buffer\n  - 12:05 Moving to a Specific Line or Column\n  - 14:45 Moving by Words, Sentences, and Paragraphs\n  - 15:09 Moving by Words\n  - 17:33 Moving by Paragraphs\n  - 20:13 Moving by Sentences\n  - 24:13 Scrolling the Window\n  - 26:18 Centering the Window\n  - 29:35 Searching for Text\n  - 33:44 What's next?\n\n  My Emacs configuration: https://config.daviwil.com/emacs\n  My system configurations: https://config.daviwil.com/systems\n\n  If you enjoy this series, please consider becoming a sponsor on GitHub or Patreon:\n\n  - https://github.com/sponsors/daviwil\n  - https://patreon.com/SystemCrafters\n\n  You can also leave a tip via PayPal: https://paypal.me/daviwil\n\n  Follow me on Twitter for more GNU Emacs and GNU Guix content!\n  https://twitter.com/SystemCrafters\n\n  Chat with the System Crafters community on Discord: https://discord.gg/yVD8Gx6\n\n  Check out my other video series!\n\n  - Emacs From Scratch: https://www.youtube.com/watch?v=74zOY-vgkyw&list=PLEoMzSkcN8oPH1au7H6B7bBJ4ZO7BXjSZ\n  - Emacs Tips: https://www.youtube.com/watch?v=wKTKmE1wLyw&list=PLEoMzSkcN8oMHJ6Xil1YdnYtlWd5hHZql\n  - Emacs Desktop Environment: https://www.youtube.com/watch?v=f7xB2fFk1tQ&list=PLEoMzSkcN8oNPbEMYEtswOVTvq7CVddCS\n  - Emacs IDE: https://www.youtube.com/watch?v=E-NAM9U5JYE&list=PLEoMzSkcN8oNvsrtk_iZSb94krGRofFjN\n  - Emacs Mail: https://www.youtube.com/watch?v=yZRyEhi4y44&list=PLEoMzSkcN8oM-kA19xOQc8s0gr0PpFGJQ\n  - Learning Emacs Lisp: https://www.youtube.com/watch?v=RQK_DaaX34Q&list=PLEoMzSkcN8oPQtn7FQEF3D7sroZbXuPZ7\n\n  Intro music: Coriolis Effect by logos feat. stefsax, licensed CC-BY\n  http://ccmixter.org/files/mseq/26296"
   },
   {
+    "ITEM": "IDE para el lenguaje de programación Go con el editor de texto emacs. �",
+    "DATE": "2021-03-29T00:52:07+00:00",
+    "DURATION": "1:41",
+    "SPEAKERS": "emmanuel palacio",
+    "BODY": ""
+  },
+  {
     "ITEM": "Descargango paquetes dede emacs",
     "DATE": "2021-03-28T23:48:20+00:00",
     "DURATION": "1:15",
@@ -20184,23 +20235,12 @@
     "TAGS": [
       "hyperbole"
     ],
-    "BODY": ""
-  },
-  {
-    "ITEM": "GNU Hyperbole - Overview and Demo",
-    "DATE": "2021-03-28T23:23:44+0000",
-    "DURATION": "56:44",
-    "YOUTUBE_URL": "https://www.youtube.com/watch?v=WKwZHSbHmPg",
-    "SPEAKERS": "Hyperforming with GNU Hyperbole",
-    "TAGS": [
-      "hyperbole"
-    ],
     "BODY": "Click SHOW MORE below to choose couple minute Hyperbole topics!\n\n  Overview and demo (starts at 8:36) of GNU Hyperbole, the Everyday Information Manager,  broken into sections for quick viewing on any topic of interest.  Hyperbole is like Markdown for hypertext; with little or no change to existing documents it provides automatic hyperlinking and hypermedia behavior.\n\n  Introduction: 0:00\n  Hyperbole Mission: 1:39\n  Why Use Hyperbole: 2:44\n  Components: 4:35\n  Installation & Use: 7:31\n  Hyperbole Buttons: 8:36\n  Button Categories & Files: 10:04\n  Implicit Buttons: 12:26\n  Implicit Button Types: 20:04\n  Explicit Buttons: 21:48\n  Global Buttons: 33:29\n  Mouse Keys/Buttons: 36:09\n  Mouse Drags & Treemacs: 36:56\n  Window Grids & Throws: 38:01\n  The Find Menu: 39:46\n  The Koutliner: 41:15\n  HyRolo: 47:10\n  HyControl & Org Mode: 49:05\n  Integrations: 50:34\n  Hyperbole History: 50:59\n  Acknowledgements & Resources: 53:29\n  The Big Picture: 54:25"
   },
   {
-    "ITEM": "vokoscreen-2021-03-28-15-03-43_X1689fY5_VJjq.mkv",
-    "DATE": "2021-03-28T20:12:05+00:00",
-    "DURATION": "0:15",
+    "ITEM": "Unir Emacs con MELPA",
+    "DATE": "2021-03-28T22:53:02+00:00",
+    "DURATION": "0:18",
     "SPEAKERS": "emmanuel palacio",
     "BODY": ""
   },
@@ -20239,11 +20279,13 @@
     "BODY": "In this demo I showcase the built-in \"Emacs Web Wowser\" and the extensions I have written for it. /// My dotemacs: https://protesilaos.com/dotemacs"
   },
   {
-    "ITEM": "Managing Files and Directories in Practice - Learning Emacs Lisp #6",
-    "DATE": "2021-03-23T15:23:43+0000",
-    "DURATION": "01:22:52",
-    "YOUTUBE_URL": "https://www.youtube.com/watch?v=nq-gqNGmayI",
-    "SPEAKERS": "System Crafters",
+    "ITEM": "emacs-helm-for-files.mp4",
+    "DATE": "2021-03-23T21:06:25+00:00",
+    "DURATION": "2:49",
+    "SPEAKERS": "Fabrice Niessen",
+    "TAGS": [
+      "helm"
+    ],
     "BODY": ""
   },
   {
@@ -20541,11 +20583,13 @@
     "BODY": "Overview of the built-in Version Control (VC) framework of Emacs and how I use it for all my Git projects. This demo also includes lots of custom code that I have written. Everything is part of my dotemacs: https://protesilaos.com/dotemacs"
   },
   {
-    "ITEM": "System Crafters Live! - Emacs Startup Speed, Emacs News, Q&A",
-    "DATE": "2021-02-06T07:24:13+0000",
-    "DURATION": "01:58:00",
-    "YOUTUBE_URL": "https://www.youtube.com/watch?v=bF84mQMmfa8",
-    "SPEAKERS": "System Crafters",
+    "ITEM": "Emacs Everywhere Error Report",
+    "DATE": "2021-02-08T08:49:21+00:00",
+    "DURATION": "0:54",
+    "SPEAKERS": "Ting Zhou",
+    "TAGS": [
+      "bug"
+    ],
     "BODY": ""
   },
   {
@@ -20939,11 +20983,14 @@
     "BODY": "Do you use Emacs?  Do you also use a desktop email client like Thunderbird or Geary?  There is no need to run those desktop email clients when Emacs has a great email client available.  That email client is called mu4e.\n\n  NOTE:\n  When I did the git clone of my dotfiles repo and copied over my .doom.d configs, my Doom configs didn't want to work properly initially, because my Doom configs expect the following packages to be installed.  So if you choose to use my Doom configs, make sure to install these!\n  ► ttf-ubuntu-font-family\n  ► nerd-fonts-mononoki (AUR)\n  ► fish\n\n  REFERENCED:\n  ► https://github.com/hlissner/doom-emacs - Doom Emacs\n  ► https://www.djcbsoftware.nl/code/mu/mu4e.html - Mu4e\n  ► https://gitlab.com/dwt1/dotfiles - DT's dotfiles repo\n  ► https://www.reddit.com/r/emacs/comments/bfsck6/mu4e_for_dummies/\n  ► https://www.reddit.com/r/emacs/comments/8q84dl/tip_how_to_easily_manage_your_emails_with_mu4e/\n\n  WANT TO SUPPORT THE CHANNEL?\n  💰 Patreon: https://www.patreon.com/distrotube\n  💳 Paypal: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=derek%40distrotube%2ecom&lc=US&item_name=DistroTube&no_note=0&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHostedGuest\n  🛍️ Amazon: https://amzn.to/2RotFFi\n  👕 Teespring: https://teespring.com/stores/distrotube\n\n  SOCIAL PLATFORMS:\n  🗨️ Mastodon: https://mastodon.technology/@distrotube\n  💬 IRC: irc://freenode #distrotube\n  👫 Reddit: https://www.reddit.com/r/DistroTube/\n  📽️ LBRY: https://lbry.tv/$/invite/@DistroTube:2\n\n  DT ON THE WEB:\n  🕸️ Website: http://distrotube.com/\n  🐿️ Gopherhole: gopher://distro.tube\n  📁 GitLab: https://gitlab.com/dwt1\n  🔊 Audio Podcasts: https://www.buzzsprout.com/1263722\n\n  FREE AND OPEN SOURCE SOFTWARE THAT I USE:\n  🌐 Brave Browser - https://brave.com/dis872\n  📽️ Open Broadcaster Software: https://obsproject.com/\n  🎬 Kdenlive: https://kdenlive.org\n  🎨 GIMP: https://www.gimp.org/\n  🎵  Audacity: https://www.audacityteam.org/\n  💻 VirtualBox: https://www.virtualbox.org/\n  🗒️ Doom Emacs: https://github.com/hlissner/doom-emacs\n\n  Your support is very much appreciated. Thanks, guys!"
   },
   {
-    "ITEM": "Dynamic Tiling Windows like dwm in Emacs with Edwina",
-    "DATE": "2020-12-16T15:00:25+0000",
-    "DURATION": "15:01",
-    "YOUTUBE_URL": "https://www.youtube.com/watch?v=_qXZNfRcNnw",
-    "SPEAKERS": "System Crafters",
+    "ITEM": "Keeping organized with Emacs and Orgmode, by Henrique Castro",
+    "DATE": "2020-12-18T19:47:53+0000",
+    "DURATION": "20:30",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=RvTuHsMPVLo",
+    "SPEAKERS": "Codeminer42",
+    "TAGS": [
+      "org"
+    ],
     "BODY": ""
   },
   {
@@ -21015,13 +21062,12 @@
     "BODY": "Trying to do too much too soon?\n\n  #OrgMode #Emacs\n\n  Org Mode basics and blogging with Org Mode: https://ravi.pro/blog/blogging-with-emacs-org-mode.html\n\n  My other channel: https://youtube.com/ravisagar1\n\n  ####\n\n  Jira books and Video courses (Available to buy)\n\n  1. Jira Quick Start Guide (Book): https://go.ravi.pro/JiraQuickStartGuide\n  2. Mastering Jira (Book): https://go.ravi.pro/masteringjira\n  3. Jira 7 Guide for Administrators and Developers (Video course): https://go.ravi.pro/JiraGuideAdmin\n  4. Jira 7 Essentials (Video course): https://go.ravi.pro/JiraEssentials\n\n  Free Video courses\n\n  1. GetAnswers: https://go.ravi.pro/GetAnswers\n  2. Portfolio for Jira: https://go.ravi.pro/portfolio\n  3. Structure for Jira: https://go.ravi.pro/StructureJira\n  4. ScriptRunner for Jira: https://go.ravi.pro/ScriptRunnerJira\n  5. Google Apps Script tutorials: https://go.ravi.pro/GoogleAppsScript\n  6. JiraTips: https://go.ravi.pro/JiraTips\n\n  Social\n\n  1. Blog: https://www.ravisagar.in\n  2. Linkedin: https://www.linkedin.com/in/ravisagar/\n  3. Twitter: https://www.twitter.com/ravisagar\n  4. Instagram: https://www.instagram.com/ravisagar.in\n  5. Spotify Podcast: https://go.ravi.pro/spotify\n  6. Apple Podcast: https://go.ravi.pro/apple\n  7. Youtube: https://youtube.com/ravisagar1"
   },
   {
-    "ITEM": "What can you do with Org Mode?",
-    "DATE": "2020-12-12T12:23:53+0000",
-    "DURATION": "11:54",
-    "YOUTUBE_URL": "https://www.youtube.com/watch?v=TOqcwJs7vgU&list=PLlHHtPGox8K6bcuruX10Evf4AYGzYQKiz&index=35&pp=iAQB",
-    "SPEAKERS": "Blackberry Boy",
+    "ITEM": "Emacs EAF Interference with M-x",
+    "DATE": "2020-12-12T14:20:07+00:00",
+    "DURATION": "0:41",
+    "SPEAKERS": "Shiroi Akuma",
     "TAGS": [
-      "org"
+      "bug"
     ],
     "BODY": ""
   },
@@ -21584,14 +21630,11 @@
     "BODY": "GitHub repo: https://github.com/nobiot/org-transclusion\n  Org-roam Discourse forum for discussion: https://org-roam.discourse.group/t/prototype-transclusion-block-reference-with-emacs-org-mode/830/36\n\n  Other videos related to Org-transclusion:\n  Demo #5 https://youtu.be/hz92vaO8IgQ\n  Demo #4 https://youtu.be/nO_JEXUeGkI"
   },
   {
-    "ITEM": "Optimizing Window Placement in EXWM - Emacs Desktop Environment #3",
-    "DATE": "2020-12-05T06:13:22+0000",
-    "DURATION": "52:28",
-    "YOUTUBE_URL": "https://youtu.be/HGGU5Zvljj8",
-    "SPEAKERS": "System Crafters",
-    "TAGS": [
-      "exwm"
-    ],
+    "ITEM": "Emacs: working with virtual machines (emacs-tramp)",
+    "DATE": "2020-12-05T12:10:18+0000",
+    "DURATION": "08:45",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=5yPLf7_U3c4",
+    "SPEAKERS": "Marcin Magnus",
     "BODY": ""
   },
   {
@@ -22323,14 +22366,10 @@
     "BODY": "Are you using tags?\n\n  #Emacs #Tags\n\n  My other channel: https://youtube.com/ravisagar1\n\n  ####\n\n  Jira books and Video courses (Available to buy)\n\n  1. Jira Quick Start Guide (Book): https://go.ravi.pro/JiraQuickStartGuide\n  2. Mastering Jira (Book): https://go.ravi.pro/masteringjira\n  3. Jira 7 Guide for Administrators and Developers (Video course): https://go.ravi.pro/JiraGuideAdmin\n  4. Jira 7 Essentials (Video course): https://go.ravi.pro/JiraEssentials\n\n  Free Video courses\n\n  1. GetAnswers: https://go.ravi.pro/GetAnswers\n  2. Portfolio for Jira: https://go.ravi.pro/portfolio\n  3. Structure for Jira: https://go.ravi.pro/StructureJira\n  4. ScriptRunner for Jira: https://go.ravi.pro/ScriptRunnerJira\n  5. Google Apps Script tutorials: https://go.ravi.pro/GoogleAppsScript\n  6. JiraTips: https://go.ravi.pro/JiraTips\n\n  Social\n\n  1. Blog: https://www.ravisagar.in\n  2. Linkedin: https://www.linkedin.com/in/ravisagar/\n  3. Twitter: https://www.twitter.com/ravisagar\n  4. Instagram: https://www.instagram.com/ravisagar.in\n  5. Spotify Podcast: https://go.ravi.pro/spotify\n  6. Apple Podcast: https://go.ravi.pro/apple\n  7. Youtube: https://youtube.com/ravisagar1"
   },
   {
-    "ITEM": "Gc : An Introduction to Org Babel (i2c4p)",
-    "DATE": "2020-09-15T19:45:10+00:00",
-    "DURATION": "20:58",
-    "SPEAKERS": "Britt Anderson",
-    "TAGS": [
-      "org",
-      "OrgBabel"
-    ],
+    "ITEM": "emacs-vterm-eol.mov",
+    "DATE": "2020-09-18T16:28:45+00:00",
+    "DURATION": "1:01",
+    "SPEAKERS": "Justin Schell",
     "BODY": ""
   },
   {
@@ -22584,11 +22623,10 @@
     "BODY": "Become efficient switching buffers in Emacs\n\n  #Emacs #Buffers\n\n  Switch between buffers: https://ravi.pro/blog/blogging-with-emacs-org-mode.html#org887473e\n\n  My other channel: https://youtube.com/ravisagar1\n\n  ####\n\n  Jira books and Video courses (Available to buy)\n\n  1. Jira Quick Start Guide (Book): https://go.ravi.pro/JiraQuickStartGuide\n  2. Mastering Jira (Book): https://go.ravi.pro/masteringjira\n  3. Jira 7 Guide for Administrators and Developers (Video course): https://go.ravi.pro/JiraGuideAdmin\n  4. Jira 7 Essentials (Video course): https://go.ravi.pro/JiraEssentials\n\n  Free Video courses\n\n  1. GetAnswers: https://go.ravi.pro/GetAnswers\n  2. Portfolio for Jira: https://go.ravi.pro/portfolio\n  3. Structure for Jira: https://go.ravi.pro/StructureJira\n  4. ScriptRunner for Jira: https://go.ravi.pro/ScriptRunnerJira\n  5. Google Apps Script tutorials: https://go.ravi.pro/GoogleAppsScript\n  6. JiraTips: https://go.ravi.pro/JiraTips\n\n  Social\n\n  1. Blog: https://www.ravisagar.in\n  2. Linkedin: https://www.linkedin.com/in/ravisagar/\n  3. Twitter: https://www.twitter.com/ravisagar\n  4. Instagram: https://www.instagram.com/ravisagar.in\n  5. Spotify Podcast: https://go.ravi.pro/spotify\n  6. Apple Podcast: https://go.ravi.pro/apple\n  7. Youtube: https://youtube.com/ravisagar1"
   },
   {
-    "ITEM": "Emacs - Spell check to make no mistakes",
-    "DATE": "2020-08-17T17:13:15+0000",
-    "DURATION": "04:36",
-    "YOUTUBE_URL": "https://www.youtube.com/watch?v=F-QkJ7IybPI&list=PLlHHtPGox8K6bcuruX10Evf4AYGzYQKiz&index=15&pp=iAQB",
-    "SPEAKERS": "Blackberry Boy",
+    "ITEM": "Probando browse-at-remote en GNU Emacs",
+    "DATE": "2020-08-20T10:11:46+00:00",
+    "DURATION": "0:54",
+    "SPEAKERS": "Juan Manuel Macías Chaín",
     "BODY": ""
   },
   {
@@ -23052,11 +23090,10 @@
     "BODY": "A 2-minute quick demonstration of Org-roam with the Md-roam plugin to show what it feels like to work with 10,000 markdown files in your digital slip-box.\n\n  The 10,000 markdown files are downloaded from https://github.com/Zettelkasten-Method/10000-markdown-files.\n\n  #org_roam #md_roam #zettelkasten #emacs #org_mode"
   },
   {
-    "ITEM": "Do not compare Emacs with Vim",
-    "DATE": "2020-05-29T06:38:13+0000",
-    "DURATION": "05:46",
-    "YOUTUBE_URL": "https://www.youtube.com/watch?v=oWGCRCnoMqk&list=PLlHHtPGox8K6bcuruX10Evf4AYGzYQKiz&index=32&pp=iAQB",
-    "SPEAKERS": "Blackberry Boy",
+    "ITEM": "Una lista interactiva de las fuentes del sistema en Emacs con Helm",
+    "DATE": "2020-05-30T20:58:28+00:00",
+    "DURATION": "1:22",
+    "SPEAKERS": "Juan Manuel Macías Chaín",
     "BODY": ""
   },
   {
@@ -24788,14 +24825,13 @@
     "BODY": "On popular demand, here is the gnuplot code (essentially copied from the gnuplot example at: http://gnuplot.sourceforge.net/demo_5.1/gantt.html\n\n  #+BEGIN_SRC gnuplot :var DATA=gantt-table :file gantt-out.png :eval no\n  OneMonth = strptime(\"%m\",\"2\")\n  timeformat = \"%Y-%m-%d\"\n  T(N) = timecolumn(N,timeformat)\n\n  set xdata time\n  set format x \"%b\\n'%y\"\n  set xtics OneMonth nomirror\n  set xtics scale 2, 0.5\n  set mxtics 4\n\n  skiptorow=4\n  set yrange [(skiptorow-2):] reverse\n  set ytics nomirror\n\n  unset key\n  set title \"{/=15 GANTT Chart Example}\"\n  set grid x y\n  set border 3\n  set style arrow 1 nohead filled size screen 0.02, 15 fixed lt 3 lw 8\n\n  plot DATA using (T(3)) : ($0) : (T(4)-T(3)) : (0.0) : yticlabel(1) with vector as 1\n  #+END_SRC"
   },
   {
-    "ITEM": "Literate Programming with Emacs Org-mode",
-    "DATE": "2019-11-06T15:17:20+0000",
-    "DURATION": "01:48:20",
-    "YOUTUBE_URL": "https://www.youtube.com/watch?v=MW9i2wcCfzU&feature=youtu.be",
-    "SPEAKERS": "GeekNight ThoughtWorks",
+    "ITEM": "org demo",
+    "DATE": "2019-11-07T22:50:43+0000",
+    "DURATION": "00:18",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=D9a7AQMZcFI&feature=youtu.be",
+    "SPEAKERS": "Dave Jones",
     "TAGS": [
-      "org",
-      "literate"
+      "org"
     ],
     "BODY": ""
   },
@@ -24828,18 +24864,18 @@
     "BODY": "Emacs’ TRAMP Mode allows for remotely editing files and using Emacs Shell Mode with remote systems. This session walked through the basics of using TRAMP Mode with the Free Software tools Vagrant, Chef, InSpec, and the interactive Ruby debugging shell Pry."
   },
   {
+    "ITEM": "Inserting spéciãl châraçters",
+    "DATE": "2019-11-03T19:29:51+0000",
+    "DURATION": "01:49",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=HjUquOQtIYs",
+    "SPEAKERS": "Doom Emacs in Under 3 Minutes",
+    "BODY": ""
+  },
+  {
     "ITEM": "Abrir y reproducir con emms enlaces multimedia dentro de Emacs",
     "DATE": "2019-10-29T15:25:05+00:00",
     "DURATION": "0:29",
     "SPEAKERS": "Juan Manuel Macías Chaín",
-    "BODY": ""
-  },
-  {
-    "ITEM": "Using Emacs Episode 60 - Restclient",
-    "DATE": "2019-10-25T21:18:49+0000",
-    "DURATION": "14:36",
-    "YOUTUBE_URL": "https://www.youtube.com/watch?v=L7Jcoe3oHTs&list=PL9KxKa8NpFxIcNQa9js7dQQIHc81b0-Xg&index=61&pp=iAQB",
-    "SPEAKERS": "Mike Zamansky",
     "BODY": ""
   },
   {
@@ -25043,14 +25079,10 @@
     "BODY": "Multistreaming with https://restream.io/\n\n  Hi! I find programming to be a form of caaaaalming relaaaaxation, and watching people code does the same thing for me. This is my slow, gentle livestream where I mess around with interesting new technologies, chat about geek culture,  the EFF (where I work) and other intriguing, but unhectic, topics. You can join me in chat at https://twitch.tv/codetherapy or IRC at irc.oftc.net #codetherapy (see http://webchat.oftc.net/?channels=codetherapy )"
   },
   {
-    "ITEM": "Emacs Org Mode - Using Checkboxes - Emacs Doom 17",
-    "DATE": "2019-09-16T18:49:43+0000",
-    "DURATION": "04:08",
-    "YOUTUBE_URL": "https://www.youtube.com/watch?v=SYgsS8Be1ZY&feature=youtu.be",
-    "SPEAKERS": "Zaiste Programming",
-    "TAGS": [
-      "org"
-    ],
+    "ITEM": "Aplicando overlays a un documento LaTeX en Emacs",
+    "DATE": "2019-09-17T16:54:05+00:00",
+    "DURATION": "0:22",
+    "SPEAKERS": "Juan Manuel Macías Chaín",
     "BODY": ""
   },
   {
@@ -25219,14 +25251,10 @@
     "BODY": "Real world application of Emacs' keyboard macro counter: a specialised piece of functionality that is very useful in the right circumstance.\n\n  What I did here requires no packages or customisations whatsoever. But if you want to check my configs, here is the link to their dedicated page on my website: https://protesilaos.com/dotemacs."
   },
   {
-    "ITEM": "Emacs Doom E15: Org Mode, Priorities for Tasks",
-    "DATE": "2019-08-21T12:07:02+0000",
-    "DURATION": "06:16",
-    "YOUTUBE_URL": "https://www.youtube.com/watch?v=WSF4EgQqa3Q&feature=youtu.be",
-    "SPEAKERS": "Zaiste Programming",
-    "TAGS": [
-      "org"
-    ],
+    "ITEM": "Buscando en la web de Logeion desde Emacs con Helm-Surfraw",
+    "DATE": "2019-08-21T20:28:09+00:00",
+    "DURATION": "1:10",
+    "SPEAKERS": "Juan Manuel Macías Chaín",
     "BODY": ""
   },
   {
@@ -25265,13 +25293,13 @@
     "BODY": "Demo of some extra features of Emacs' isearch (built-in search tool), as well as the extensions I have made to it. Here are all my configs: https://protesilaos.com/dotemacs"
   },
   {
-    "ITEM": "Org Analyzer - an app that visualizes org-mode time tracking data",
-    "DATE": "2019-08-12T21:00:08+0000",
-    "DURATION": "02:50",
-    "YOUTUBE_URL": "https://www.youtube.com/watch?v=qBgvGDOxmUw&feature=youtu.be",
-    "SPEAKERS": "Robert Krahn",
+    "ITEM": "The three main keys of eev (2019aug09, in English)",
+    "DATE": "2019-08-14T15:40:42-07:00",
+    "DURATION": "1:00:17",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=s0_48wzWFbU",
+    "SPEAKERS": "Eduardo Ochs",
     "TAGS": [
-      "org"
+      "eev"
     ],
     "BODY": ""
   },
@@ -25298,13 +25326,12 @@
     "BODY": "Demo of some of the customisations I have made to Emacs' built-in directory editor (file manager). My configs are here: https://gitlab.com/protesilaos/dotemacs"
   },
   {
-    "ITEM": "The three main keys of eev (2019aug09, in portuguese)",
-    "DATE": "2019-08-09T17:11:30-07:00",
-    "DURATION": "39:59",
-    "YOUTUBE_URL": "https://www.youtube.com/watch?v=GUuCpmLItTs",
-    "SPEAKERS": "Eduardo Ochs",
+    "ITEM": "Hacer un test rápido de una fuente en Dired (Emacs) con LuaTeX",
+    "DATE": "2019-08-10T12:59:17+00:00",
+    "DURATION": "0:34",
+    "SPEAKERS": "Juan Manuel Macías Chaín",
     "TAGS": [
-      "eev"
+      "dired"
     ],
     "BODY": ""
   },
@@ -25339,11 +25366,10 @@
     "BODY": "Demo for my org-pdftools package and org-noter PR\n\n  Probably you would want to watch in 1.5x speed ;-)\n\n  https://github.com/fuxialexander/org-pdftools\n  https://github.com/weirdNox/org-noter/pull/75"
   },
   {
-    "ITEM": "My accessible Emacs themes",
-    "DATE": "2019-08-07T14:41:25+0000",
-    "DURATION": "17:28",
-    "YOUTUBE_URL": "https://www.youtube.com/watch?v=gz8yifu6pGo&list=PL8Bwba5vnQK14z96Gil86pLMDO2GnOhQ6&index=122&pp=iAQB",
-    "SPEAKERS": "Protesilaos Stavrou",
+    "ITEM": "Buscar un término griego en Perseus-Hopper desde GNU Emacs",
+    "DATE": "2019-08-08T12:00:20+00:00",
+    "DURATION": "1:36",
+    "SPEAKERS": "Juan Manuel Macías Chaín",
     "BODY": ""
   },
   {
@@ -25396,11 +25422,10 @@
     "BODY": "This video shows one way to customize your color theme. 이 영상은 컬러 테마를 커스터마이징 하는 기초적인 방법을 다루고 있습니다.\n\n  theming layer (stable)\n  https://github.com/syl20bnr/spacemacs/tree/master/layers/%2Bthemes/theming\n\n  #spacemacs #emacs #theming\n\n  Seorenn\n  https://www.youtube.com/c/seorenn\n\n  Twitter @seorenn\n  https://twitter.com/seorenn\n\n  My Blog (Korean)\n  https://seorenn.tistory.com\n  https://seorenn.blogspot.com"
   },
   {
-    "ITEM": "Emacs: use \"occur\" in practice",
-    "DATE": "2019-08-04T11:13:08+0000",
-    "DURATION": "12:22",
-    "YOUTUBE_URL": "https://www.youtube.com/watch?v=zxS3zXwV0PU&feature=youtu.be",
-    "SPEAKERS": "Protesilaos Stavrou",
+    "ITEM": "gdbWatchPoint: GDB & Emacs",
+    "DATE": "2019-08-04T19:31:24+00:00",
+    "DURATION": "6:58",
+    "SPEAKERS": "Undo",
     "BODY": ""
   },
   {
@@ -25477,11 +25502,11 @@
     "BODY": "Some more features of Emacs' built-in file manager. This is a continuation of yesterday's video: https://www.youtube.com/watch?v=5dlydii7tAU. If you want to have a look at my configs, see: https://gitlab.com/protesilaos/dotemacs"
   },
   {
-    "ITEM": "Basics of the Emacs file manager (dired == directory editor)",
-    "DATE": "2019-07-22T09:48:30+0000",
-    "DURATION": "19:29",
-    "YOUTUBE_URL": "https://www.youtube.com/watch?v=5dlydii7tAU&list=PL8Bwba5vnQK14z96Gil86pLMDO2GnOhQ6&index=127&pp=iAQB",
-    "SPEAKERS": "Protesilaos Stavrou",
+    "ITEM": "2019-04-17: A hodgepodge of Emacs - Sean Farley",
+    "DATE": "2019-07-22T21:31:05+0000",
+    "DURATION": "01:37:02",
+    "YOUTUBE_URL": "https://youtu.be/SjFQiMNwThg",
+    "SPEAKERS": "Emacs SF",
     "BODY": ""
   },
   {
@@ -25764,11 +25789,11 @@
     "BODY": "My config → https://github.com/freetonik/emacs-dotfiles\n  Castlemacs (based on my config, but richer and more user friendly) → https://github.com/freetonik/castlemacs\n\n  Podcast about emacs → https://emacscast.org/"
   },
   {
-    "ITEM": "Installing and getting started with Spacemacs: Emacs tutorial",
-    "DATE": "2019-04-13T17:00:06+0000",
-    "DURATION": "16:18",
-    "YOUTUBE_URL": "https://www.youtube.com/watch?v=hCNOB5jjtmc&feature=youtu.be",
-    "SPEAKERS": "GDQuest",
+    "ITEM": "First McMaster Emacs Meetup ;; Hamilton ;; Ontario",
+    "DATE": "2019-04-15T01:54:51+0000",
+    "DURATION": "01:03:52",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=3pk--kumpC0",
+    "SPEAKERS": "Musa Al-hassy",
     "BODY": ""
   },
   {
@@ -25807,11 +25832,10 @@
     "BODY": "Using Emacs Episode 57 - dired-narrow\n\n  Blog post: http://cestlaz.github.io/post/using-emacs-57-dired-narrow\n\n  Series page: http://cestlaz.github.io/stories/emacs\n\n  Emacs config: https://github.com/zamansky/using-emacs"
   },
   {
-    "ITEM": "Orgmode TV - News about the future plans",
-    "DATE": "2019-04-01T05:17:08+0000",
-    "DURATION": "13:02",
-    "YOUTUBE_URL": "https://www.youtube.com/watch?v=NqPhz8aqk2U&feature=youtu.be",
-    "SPEAKERS": "Rainer König",
+    "ITEM": "Funciones para trabajar en Emacs con el entorno verse de LaTeX (demostración)",
+    "DATE": "2019-04-04T14:03:30+00:00",
+    "DURATION": "0:25",
+    "SPEAKERS": "Juan Manuel Macías Chaín",
     "BODY": ""
   },
   {
@@ -25882,11 +25906,11 @@
     "BODY": "Showing notifications when a compilation is finished"
   },
   {
-    "ITEM": "TDDing a Java application using Emacs",
-    "DATE": "2019-03-19T21:32:30+0000",
-    "DURATION": "05:23",
-    "YOUTUBE_URL": "https://www.youtube.com/watch?v=4z2Ywregkig&list=PLebcndvR-wlP0iyv46tqtOxS5wKEn9E-K&index=20&pp=iAQB",
-    "SPEAKERS": "Skybert Hacks",
+    "ITEM": "hydras",
+    "DATE": "2019-03-21T18:56:32+0000",
+    "DURATION": "01:29",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=llXnV9vrv-I&feature=youtu.be&t=54",
+    "SPEAKERS": "Comrade Tovarish",
     "BODY": ""
   },
   {
@@ -25933,11 +25957,10 @@
     "BODY": "*** smartparens\n\n      Gives some great editing capabilities for pairs, it combines\n      features from other pair editing packages, like paraedit.\n\n      #+begin_src emacs-lisp :eval no\n        (use-package smartparens\n   :config (require 'smartparens-config)\n   (show-smartparens-global-mode 1)\n   (sp-use-paredit-bindings))\n      #+end_src\n\n\n  *** expand region\n      Easily mark logical regions, much easier way to navigate pairs\n      than remembering 100s of bindings for smartparens.\n\n      #+begin_src emacs-lisp :eval no\n        (use-package expand-region\n   :commands ( er/expand-region er/contract-region )\n   :bind  (\"C-=\" . er/expand-region)\n   :bind  (\"C--\" . er/contract-region)\n   :ensure t\n   )\n      #+end_src"
   },
   {
-    "ITEM": "Emacs Is Great - Ep 36, Web Browsing in emacs",
-    "DATE": "2019-03-03T12:48:24+0000",
-    "DURATION": "30:47",
-    "YOUTUBE_URL": "https://www.youtube.com/watch?v=rjMq9ujMMl0",
-    "SPEAKERS": "Yisrael Dov L",
+    "ITEM": "Buscar términos griegos en Emacs con el Liddell-Scott del Perseus",
+    "DATE": "2019-03-04T02:50:35+00:00",
+    "DURATION": "1:17",
+    "SPEAKERS": "Juan Manuel Macías Chaín",
     "BODY": ""
   },
   {
@@ -26202,11 +26225,11 @@
     "BODY": "This could be done much faster with `query-replace-regexp` Emacs command, yet I wanted to show some Elisp in action."
   },
   {
-    "ITEM": "Using Emacs episode 55 - C++ Irony Completions",
-    "DATE": "2019-01-21T13:36:59+0000",
-    "DURATION": "03:49",
-    "YOUTUBE_URL": "https://www.youtube.com/watch?v=GRdZuc1Z4WI&list=PL9KxKa8NpFxIcNQa9js7dQQIHc81b0-Xg&index=56&pp=iAQB",
-    "SPEAKERS": "Mike Zamansky",
+    "ITEM": "emacs preview-latex demo",
+    "DATE": "2019-01-21T20:33:01+0000",
+    "DURATION": "02:03",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=sGX-LePl_RY",
+    "SPEAKERS": "Nikita Petrenko",
     "BODY": ""
   },
   {
@@ -26242,6 +26265,14 @@
     "BODY": "Emacs Is Great\"\n  (setq Ep \"17.2\")\n  \"PHP-mode 3\n  linting-works 🐃 🐘"
   },
   {
+    "ITEM": "Emacs is great - EP 17.1 - php-mode 2 linting",
+    "DATE": "2019-01-16T11:22:55+0000",
+    "DURATION": "12:57",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=S95LAy7uJRY",
+    "SPEAKERS": "Yisrael Dov L",
+    "BODY": ""
+  },
+  {
     "ITEM": "Emacs is great - EP 17.0 - php-mode",
     "DATE": "2019-01-16T11:21:56+0000",
     "DURATION": "11:35",
@@ -26261,21 +26292,15 @@
       "OrgTables",
       "teaching"
     ],
-    "BODY": ""
+    "BODY": "Using Emacs Episode 54 - Org Tables\n\n  Blog post: http://cestlaz.github.io/post/using-emacs-54-org-tables\n\n  Series page: http://cestlaz.github.io/stories/emacs\n\n  Emacs config: https://github.com/zamansky/using-emacs"
   },
   {
-    "ITEM": "Using Emacs episode 54 - Org Tables",
-    "DATE": "2019-01-14T16:42:41+0000",
-    "DURATION": "12:46",
-    "YOUTUBE_URL": "https://www.youtube.com/watch?v=5vGGgfs0q3k&feature=youtu.be",
-    "SPEAKERS": "Mike Zamansky",
-    "TAGS": [
-      "org",
-      "grading",
-      "OrgTables",
-      "teaching"
-    ],
-    "BODY": "Using Emacs Episode 54 - Org Tables\n\n  Blog post: http://cestlaz.github.io/post/using-emacs-54-org-tables\n\n  Series page: http://cestlaz.github.io/stories/emacs\n\n  Emacs config: https://github.com/zamansky/using-emacs"
+    "ITEM": "Emacs Is Great - Ep 16 Moving the config live",
+    "DATE": "2019-01-14T12:23:05+0000",
+    "DURATION": "07:11",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=Mq5-nzP1NP4",
+    "SPEAKERS": "Yisrael Dov L",
+    "BODY": ""
   },
   {
     "ITEM": "emacs is great - Ep 15, projectile",
@@ -26299,22 +26324,14 @@
     "DURATION": "13:51",
     "YOUTUBE_URL": "https://www.youtube.com/watch?v=UR2xZ4UY4h4",
     "SPEAKERS": "Yisrael Dov L",
-    "BODY": ""
-  },
-  {
-    "ITEM": "Emacs is great -  Ep 13 more faster git ussage",
-    "DATE": "2019-01-08T08:38:19+0000",
-    "DURATION": "13:51",
-    "YOUTUBE_URL": "https://www.youtube.com/watch?v=UR2xZ4UY4h4",
-    "SPEAKERS": "Yisrael Dov L",
     "BODY": "ep-13 diff-hl and vc-next-action\n\n  https://gitlab.com/yisraeldov/emacs-d/tree/13-diff-hl-quicker-git-usage"
   },
   {
-    "ITEM": "Emacs is great - EP 12.1, getting easy templates back",
-    "DATE": "2019-01-06T14:57:01+0000",
-    "DURATION": "02:56",
-    "YOUTUBE_URL": "https://www.youtube.com/watch?v=u46CL0-gVTU",
-    "SPEAKERS": "Yisrael Dov L",
+    "ITEM": "emacs talk: vim golf delete lines",
+    "DATE": "2019-01-06T22:34:56+0000",
+    "DURATION": "11:36",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=XHfVYRkxxLQ",
+    "SPEAKERS": "Xah Lee",
     "BODY": ""
   },
   {
@@ -26326,10 +26343,10 @@
     "BODY": "https://gitlab.com/yisraeldov/emacs-d/commit/a5409abc2af40deca4091cbfe367e024c77660a3#4e0b411206a54e9f83f60d1864f872a187018700_127_127"
   },
   {
-    "ITEM": "Emacs Is Great - EP 11, org-mode detangle",
-    "DATE": "2019-01-06T14:10:20+0000",
-    "DURATION": "08:00",
-    "YOUTUBE_URL": "https://www.youtube.com/watch?v=BLomb52wjvE",
+    "ITEM": "Emacs Is Great - EP 12, org-mode noweb links",
+    "DATE": "2019-01-06T14:36:42+0000",
+    "DURATION": "17:37",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=u47xJVqCD9o",
     "SPEAKERS": "Yisrael Dov L",
     "TAGS": [
       "org"
@@ -26432,14 +26449,11 @@
     "BODY": "emacs. demo of image scale/crop/convert jpg/png commands. Code at http://ergoemacs.org/emacs/emacs_dired_convert_images.html"
   },
   {
-    "ITEM": "Emacs is great - Ep 9, upgrading org-mode and fancy code blocks",
-    "DATE": "2018-12-30T14:47:50+0000",
-    "DURATION": "12:03",
-    "YOUTUBE_URL": "https://www.youtube.com/watch?v=1EqWfVf2oGE",
+    "ITEM": "Emacs is great - Ep 10, trying outshine and talking about literate programming.",
+    "DATE": "2018-12-31T11:28:18+0000",
+    "DURATION": "12:28",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=1-rfk1nVDoE",
     "SPEAKERS": "Yisrael Dov L",
-    "TAGS": [
-      "org"
-    ],
     "BODY": ""
   },
   {
@@ -26497,6 +26511,14 @@
     "BODY": "Using a custom file for customization]]\n\n  I want to move my location of customized variables so they don't get\n  over written on tangle and so I can put environment specific settings\n  in there.\n\n  You can see the changes on gitlab\n\n  https://gitlab.com/yisraeldov/emacs-d/tree/de62dcb41872d8b4cece620e551d5880f0fd0e2e"
   },
   {
+    "ITEM": "emacs is great - Ep 4, A Bit of lisp",
+    "DATE": "2018-12-15T19:11:12+0000",
+    "DURATION": "09:44",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=fLUcgEwSF_c",
+    "SPEAKERS": "Yisrael Dov L",
+    "BODY": ""
+  },
+  {
     "ITEM": "emacs is great - Ep 3, Magit intro",
     "DATE": "2018-12-13T17:13:14+0000",
     "DURATION": "16:21",
@@ -26512,14 +26534,6 @@
     "DATE": "2018-12-13T16:48:43+0000",
     "DURATION": "23:55",
     "YOUTUBE_URL": "https://www.youtube.com/watch?v=-mwIpoLYVu0&list=PLrFss89N5XNw8JMVSWJOwailCu8PC-ZZ_&index=5&pp=iAQB",
-    "SPEAKERS": "Yisrael Dov L",
-    "BODY": ""
-  },
-  {
-    "ITEM": "emacs is great - Ep 1, packages",
-    "DATE": "2018-12-13T14:08:33+0000",
-    "DURATION": "20:22",
-    "YOUTUBE_URL": "https://www.youtube.com/watch?v=vI-xoBbghWQ",
     "SPEAKERS": "Yisrael Dov L",
     "BODY": ""
   },
@@ -26633,11 +26647,14 @@
     "BODY": "Suyash Bire talks about his setup that uses evil-mode general.el which-key and use-package to emulate spacemacs-like behavior (in most\n  cases); with the main focus on how general.el enables modularization. Suyash shows how he uses this setup to code in python write LaTeX documents and conduct reproducible research using org-mode.\n\n  Learn more from the developers at thoughtbot ⌨️\n  Head over to http://tbot.io/dev-blog to read more great articles on our blog."
   },
   {
-    "ITEM": "2018-10-24: Emacs Bay Area + PDX Meetup (Lightning Talks)",
-    "DATE": "2018-11-14T02:09:45+0000",
-    "DURATION": "02:10:38",
-    "YOUTUBE_URL": "https://www.youtube.com/watch?v=6VFrX6I4tAI",
+    "ITEM": "2018-11-14: Building a Second Brain in Org Mode - Tasshin Michael Fogleman",
+    "DATE": "2018-11-16T18:44:46+0000",
+    "DURATION": "01:30:39",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=Bpmkeh4D98s",
     "SPEAKERS": "Emacs SF",
+    "TAGS": [
+      "org"
+    ],
     "BODY": ""
   },
   {
@@ -27017,14 +27034,10 @@
     "BODY": "An example of using org-mode and noweb to create Python functions with tested doctests."
   },
   {
-    "ITEM": "Using Emacs for JavaScript development!",
-    "DATE": "2018-05-12T20:14:28+0000",
-    "DURATION": "31:12",
-    "YOUTUBE_URL": "https://www.youtube.com/watch?v=5hJBMwwGhlo",
-    "SPEAKERS": "zdx",
-    "TAGS": [
-      "magit"
-    ],
+    "ITEM": "Emacs as an Instrument",
+    "DATE": "2018-05-16T14:06:53+00:00",
+    "DURATION": "4:10",
+    "SPEAKERS": "Joseph Wilk",
     "BODY": ""
   },
   {
@@ -27039,11 +27052,11 @@
     "BODY": "Let's refactor a tiny Node.js project using Emacs!\n\n  Repository: https://github.com/zeusdeux/echo-server\n  Live: https://echo.zdx.cat/hello/\n\n  Emacs theme: https://draculatheme.com/emacs/\n\n  My GitHub: https://github.com/zeusdeux\n\n  Interesting emacs packages:\n  -----------------------------------------------\n  helm - https://github.com/emacs-helm/helm\n  helm-projectile - https://github.com/bbatsov/helm-projectile\n  helm-ag - https://github.com/syohex/emacs-helm-ag\n  helm-swoop - https://github.com/ShingoFukuyama/helm-swoop\n  golden-ratio - https://github.com/roman/golden-ratio.el\n  winner-mode - https://www.emacswiki.org/emacs/WinnerMode\n  magit - https://magit.vc/\n  olivetti-mode - https://github.com/rnkn/olivetti\n  prettier-emacs - https://github.com/prettier/prettier-emacs\n  flycheck - http://www.flycheck.org/en/latest/\n  dockerfile-mode - https://github.com/spotify/dockerfile-mode\n  js2-mode - https://github.com/mooz/js2-mode\n\n  I use the built in js-mode and with js2-mode as a minor mode to borrow a few Nice Things™ from it.\n\n\n\n  As streamed at https://www.twitch.tv/zeusdeux"
   },
   {
-    "ITEM": "Mark Dawson - emacs for vim users",
-    "DATE": "2018-05-07T12:55:09+0000",
-    "DURATION": "48:30",
-    "YOUTUBE_URL": "https://youtu.be/_y4OuHfxgmI",
-    "SPEAKERS": "Swansea Academy of Advanced Computing",
+    "ITEM": "Emacs Is Awesome",
+    "DATE": "2018-05-09T01:11:09+0000",
+    "DURATION": "01:15",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=-YLYHauGm4c",
+    "SPEAKERS": "Nicholas Yang",
     "BODY": ""
   },
   {
@@ -27116,14 +27129,11 @@
     "BODY": "Instructions and configs: https://github.com/chrissound/RangerEmacs"
   },
   {
-    "ITEM": "Using Emacs Episode 47 - Magit",
-    "DATE": "2018-04-07T18:09:09+0000",
-    "DURATION": "18:42",
-    "YOUTUBE_URL": "https://www.youtube.com/watch?v=1IYsiHXR620&list=PL9KxKa8NpFxIcNQa9js7dQQIHc81b0-Xg&index=48&pp=iAQB",
-    "SPEAKERS": "Mike Zamansky",
-    "TAGS": [
-      "magit"
-    ],
+    "ITEM": "RPI UPE - Vim vs. Emacs Showdown [2018/04/09]",
+    "DATE": "2018-04-12T19:24:16+0000",
+    "DURATION": "59:07",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=4_af_qes-34&feature=youtu.be",
+    "SPEAKERS": "RPI TV Alum Archive",
     "BODY": ""
   },
   {
@@ -27211,11 +27221,11 @@
     "BODY": "Teenage Engineering taught me  the idea of playful music.\n  #Emacs can  be as playful. Attach a slider to any float and live sculpt sound."
   },
   {
-    "ITEM": "Using Emacs 43 - Music",
-    "DATE": "2018-02-20T20:05:59+0000",
-    "DURATION": "14:54",
-    "YOUTUBE_URL": "https://www.youtube.com/watch?v=LWd60rc_rQ0&list=PL9KxKa8NpFxIcNQa9js7dQQIHc81b0-Xg&index=44&pp=iAQB",
-    "SPEAKERS": "Mike Zamansky",
+    "ITEM": "psc-ide-emacs",
+    "DATE": "2018-02-25T21:35:27+0000",
+    "DURATION": "01:14",
+    "YOUTUBE_URL": "https://youtu.be/F-7BtbgxaV8",
+    "SPEAKERS": "gilmi",
     "BODY": ""
   },
   {
@@ -27283,10 +27293,14 @@
     "BODY": "A Video response that ended up a little longer than anticipated.\n\n  Luke Smith asked the people to provide him with reasoning for switching to emacs, I heard of it and had to jump in and add my 2 cents."
   },
   {
-    "ITEM": "editing in Emacs",
-    "DATE": "2018-02-04T10:50:14+00:00",
-    "DURATION": "1:22",
-    "SPEAKERS": "Wanderson Ferreira",
+    "ITEM": "Python Interactive (PYNT) - Emacs Python to Jupyter Notebook Converter Feature Demo",
+    "DATE": "2018-02-04T22:18:58+0000",
+    "DURATION": "03:36",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=wtVF5cMhBjg",
+    "SPEAKERS": "Edward Banner",
+    "TAGS": [
+      "python"
+    ],
     "BODY": ""
   },
   {
@@ -27332,11 +27346,10 @@
     "BODY": "We finally get around to discussing macros!\n  We are also discussing how you can save them and retrieve them at a later date."
   },
   {
-    "ITEM": "Emacs Tutorial 15 - Kill-ring and a popup menu to replace it!",
-    "DATE": "2018-01-11T22:26:40+0000",
-    "DURATION": "06:30",
-    "YOUTUBE_URL": "https://www.youtube.com/watch?v=LFXA089Tx38&list=PLX2044Ew-UVVv31a0-Qn3dA6Sd_-NyA1n&index=15&pp=iAQB",
-    "SPEAKERS": "Uncle Dave",
+    "ITEM": "emacs spotify",
+    "DATE": "2018-01-13T00:00:23+00:00",
+    "DURATION": "1:09",
+    "SPEAKERS": "Rui Figueiredo",
     "BODY": ""
   },
   {
@@ -27792,11 +27805,10 @@
     "BODY": "Here are a couple of examples of new features in scimax that make running ipython src blocks better"
   },
   {
-    "ITEM": "froscon12 lisp  open emacs workshop",
-    "DATE": "2017-05-13T19:28:23+0000",
-    "DURATION": "01:48:23",
-    "YOUTUBE_URL": "https://www.youtube.com/watch?v=bSMnOtv2zS4",
-    "SPEAKERS": "Colin Carr",
+    "ITEM": "Weird Emacs display thing",
+    "DATE": "2017-05-18T13:47:39+00:00",
+    "DURATION": "0:29",
+    "SPEAKERS": "mightbethrownaway",
     "BODY": ""
   },
   {
@@ -27973,11 +27985,10 @@
     "BODY": "Después de un buen rato de no continuar con la serie, en este episodio hablamos un poco acerca de los shells modes que podemos encontrar dentro de emacs.\n\n  Gracias a las personas que se han tomado el tiempo de regalarme un me gusta y/o comentario, se aprecia:)"
   },
   {
-    "ITEM": "Using emacs 28 - rectangles",
-    "DATE": "2017-02-09T17:37:11+0000",
-    "DURATION": "05:35",
-    "YOUTUBE_URL": "https://www.youtube.com/watch?v=pcA5NeEudgU&list=PL9KxKa8NpFxIcNQa9js7dQQIHc81b0-Xg&index=29&pp=iAQB",
-    "SPEAKERS": "Mike Zamansky",
+    "ITEM": "emacs24",
+    "DATE": "2017-02-13T16:43:38+00:00",
+    "DURATION": "0:26",
+    "SPEAKERS": "Alex Keyes",
     "BODY": ""
   },
   {
@@ -28125,11 +28136,16 @@
     "BODY": "Tutorial on creating a minor mode. I've been using this minor mode for a while. I find it pretty usefull.\n\n  Link to Repo: https://github.com/gopar/boolcase\n\n  ###############################################\n\n  My Site: http://www.PyGopar.com\n  Twitter: https://twitter.com/pygopar\n\n  John 3:16 - \"For God so loved the world that he gave his one and only Son, that whoever believes in him shall not perish but have eternal life.\"\n\n  James 1:5 - \"If any of you lacks wisdom, you should ask God, who gives generously to all without finding fault, and it will be given to you.\"\n\n  I thank God for all the wisdom he has blessed me with."
   },
   {
-    "ITEM": "1 Emacs CL Intro",
-    "DATE": "2016-12-06T04:03:09+0000",
-    "DURATION": "29:13",
-    "YOUTUBE_URL": "https://www.youtube.com/watch?v=f6fENfjB4kc",
-    "SPEAKERS": "Dave Cooper",
+    "ITEM": "F(by) 2016 - Bozhidar Batsov - Speech 2 - Deep Dive into CIDER",
+    "DATE": "2016-12-16T14:42:46+0000",
+    "DURATION": "56:03",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=aYA4AAjLfT0",
+    "SPEAKERS": "SPACE",
+    "TAGS": [
+      "cider",
+      "clojure",
+      "coding"
+    ],
     "BODY": ""
   },
   {
@@ -28193,14 +28209,11 @@
     "BODY": "Note: I was able to solve the quote insertion issue I had in the video by setting web-mode-enabled-auto-quoting:\n\n  (setq web-mode-enable-auto-quoting t)\n\n  Blog post: http://cestlaz.github.io/posts/using-...\n\n  Series page: http://cestlaz.github.io/stories/emacs\n  Category\n  Blog post: http://cestlaz.github.io/posts/using-emacs-21-webmode\n\n  Series page: http://cestlaz.github.io/stories/emacs"
   },
   {
-    "ITEM": "Magit: Git in Emacs - Grumpy Gits SG",
-    "DATE": "2016-11-14T15:37:28+0000",
-    "DURATION": "55:24",
-    "YOUTUBE_URL": "https://www.youtube.com/watch?v=OMIxZhLU71U",
-    "SPEAKERS": "Engineers.SG",
-    "TAGS": [
-      "magit"
-    ],
+    "ITEM": "Debug a function in Emacs with Spacemacs",
+    "DATE": "2016-11-16T16:00:11+0000",
+    "DURATION": "00:13",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=74kmEI92ru8",
+    "SPEAKERS": "Randall Mason",
     "BODY": ""
   },
   {
@@ -28401,11 +28414,14 @@
     "BODY": "Hello! In this video you will learn how to use some of Emacs basic functionalities.\n\n  This video covers:\n  1. Creation of directories/folders\n  2. Creation of files\n  3. How to obtain spilt view (horizontally and vertically)\n  4. Switch between files (using keyboard and mouse)\n\n  Thanks for watching this video! :)"
   },
   {
-    "ITEM": "Clojure in Emacs from absolute zero",
-    "DATE": "2016-09-28T20:13:10+0000",
-    "DURATION": "26:32",
-    "YOUTUBE_URL": "https://www.youtube.com/watch?v=efPPh2jUrkg",
-    "SPEAKERS": "BuildFunThings",
+    "ITEM": "Emacs - RSS Feeds using elfeed",
+    "DATE": "2016-09-29T06:55:58+0000",
+    "DURATION": "00:40",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=hoWdFB4Zt6s",
+    "SPEAKERS": "rpm",
+    "TAGS": [
+      "elfeed"
+    ],
     "BODY": ""
   },
   {
@@ -28443,11 +28459,11 @@
     "BODY": "Live coding done with Emacs, Scheme, and SuperCollider."
   },
   {
-    "ITEM": "EMACS as STM32 IDE with CubeMx",
-    "DATE": "2016-09-18T17:06:42+0000",
-    "DURATION": "03:48",
-    "YOUTUBE_URL": "https://www.youtube.com/watch?v=M7RBQsq5_lc",
-    "SPEAKERS": "Alexander Lutsai",
+    "ITEM": "Edit and author Markdown and PDF files from Emacs",
+    "DATE": "2016-09-20T18:30:01+0000",
+    "DURATION": "02:59",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=Pd0JwOqh-gI&feature=youtu.be",
+    "SPEAKERS": "Alain M. Lafon",
     "BODY": ""
   },
   {
@@ -29050,15 +29066,11 @@
     "BODY": "Dentro de este episodio se habla acerca de las diferencias entre lo que es un buffer y una ventana en emacs."
   },
   {
-    "ITEM": "Emacs restclient",
-    "DATE": "2016-03-08T20:35:29+0000",
-    "DURATION": "00:35",
-    "YOUTUBE_URL": "https://www.youtube.com/watch?v=l0pGzU24pRQ",
-    "SPEAKERS": "Dino Chiesa",
-    "TAGS": [
-      "elisp",
-      "restclient"
-    ],
+    "ITEM": "Emacs.el Episode 5 - Jason Lewis - Exercism.io",
+    "DATE": "2016-03-12T23:07:53+0000",
+    "DURATION": "33:10",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=dHdvgNeyBjs",
+    "SPEAKERS": "Goparism",
     "BODY": ""
   },
   {
@@ -29089,11 +29101,11 @@
     "BODY": "Ledger is a command line accounting tool for Linux, Mac, and Windows. Transactions are stored in a simple text format, so your data is available wherever you can use a text editor. Using Emacs in ledger-mode, which offers autocompletion for account names and other useful functions, Austin shows how he manages the last half-decade of his personal financial data!\n\n  Learn more from the developers at thoughtbot ⌨️\n  Head over to http://tbot.io/dev-blog to read more great articles on our blog."
   },
   {
-    "ITEM": "Emacs Aggressive Indent Demo",
-    "DATE": "2016-02-12T22:21:27+0000",
-    "DURATION": "00:53",
-    "YOUTUBE_URL": "https://www.youtube.com/watch?v=nVQ3kVXRGdc",
-    "SPEAKERS": "Avdi Grimm",
+    "ITEM": "GNU Emacs: Intro",
+    "DATE": "2016-02-14T21:00:52+0000",
+    "DURATION": "07:48",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=48-6Z-v_o0c",
+    "SPEAKERS": "Abel Guitian",
     "BODY": ""
   },
   {
@@ -29105,11 +29117,11 @@
     "BODY": "A quick demo of aggressive-indent-mode."
   },
   {
-    "ITEM": "How to Order Salads From Inside Emacs",
-    "DATE": "2016-02-11T16:30:00+0000",
-    "DURATION": "40:33",
-    "YOUTUBE_URL": "https://www.youtube.com/watch?v=puHMpEgojkA",
-    "SPEAKERS": "thoughtbot",
+    "ITEM": "solving Emacs pinky problem on the macbook#1.[english]",
+    "DATE": "2016-02-12T08:38:30+0000",
+    "DURATION": "02:00",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=jPZn_kCuaLg",
+    "SPEAKERS": "holy frege",
     "BODY": ""
   },
   {
@@ -29129,11 +29141,11 @@
     "BODY": "Demonstrating the code from this blog post: http://endlessparentheses.com/ispell-and-abbrev-the-perfect-auto-correct.html"
   },
   {
-    "ITEM": "Role-playing with Emacs - Episode 02",
-    "DATE": "2016-02-06T14:03:41+0000",
-    "DURATION": "11:15",
-    "YOUTUBE_URL": "https://www.youtube.com/watch?v=cgavi6T7IcY",
-    "SPEAKERS": "Mohammed Ismail Ansari",
+    "ITEM": "Emacs Installation on the macbook#0 [english]",
+    "DATE": "2016-02-08T09:32:40+0000",
+    "DURATION": "02:54",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=NRWbEc-Jd30",
+    "SPEAKERS": "holy frege",
     "BODY": ""
   },
   {
@@ -29153,11 +29165,11 @@
     "BODY": "A simple touch interface for Emacs to play music. For an explanation, see http://lars.ingebrigtsen.no/2016/02/05/touchy-emacs/"
   },
   {
-    "ITEM": "C/C++ in Spacemacs",
-    "DATE": "2016-02-03T18:26:36+0000",
-    "DURATION": "40:23",
-    "YOUTUBE_URL": "https://www.youtube.com/watch?v=OjbkCEkboA8",
-    "SPEAKERS": "Eivind Fonn",
+    "ITEM": "Emacs.el Episode 4 - John Weigley - Emacs State and Plans",
+    "DATE": "2016-02-04T04:01:20+0000",
+    "DURATION": "35:31",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=udNb4E4smbM",
+    "SPEAKERS": "Goparism",
     "BODY": ""
   },
   {
@@ -29228,11 +29240,11 @@
     "BODY": "Another elm-mode demo, this time showing off the automatic TAGS file generation features I just added.\n\n  https://github.com/jcollard/elm-mode"
   },
   {
-    "ITEM": "Emacs elm-mode demo",
-    "DATE": "2016-01-13T10:19:06+0000",
-    "DURATION": "09:02",
-    "YOUTUBE_URL": "https://www.youtube.com/watch?v=wZ9uvU0lZ-E",
-    "SPEAKERS": "Bogdan Popa",
+    "ITEM": "List comprehend refactor in Emacs",
+    "DATE": "2016-01-17T10:56:21+0000",
+    "DURATION": "00:10",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=XaeAaj7Kf9Q",
+    "SPEAKERS": "Pascal van Kooten",
     "BODY": ""
   },
   {
@@ -29276,15 +29288,11 @@
     "BODY": "This video shows new org-ref features that are available in the package on Melpa. You can find the files used in this video here: http://kitchingroup.cheme.cmu.edu/blog/2015/12/22/org-ref-is-on-Melpa/\n\n  This video shows version 2 of org-ref. On Oct 18, 2021 I released version 3. There are a series of new videos about version 3 at https://www.youtube.com/playlist?list=PL0sMmOaE_gs3E0OjExoI7vlCAVygj6S4I\n\n  starting with https://www.youtube.com/watch?v=3u6eTSzHT6s."
   },
   {
-    "ITEM": "Helm + LDAP in emacs",
-    "DATE": "2015-11-25T06:30:12-08:00",
-    "DURATION": "7:56",
-    "YOUTUBE_URL": "https://www.youtube.com/watch?v=N7AaKHRd9uw",
-    "SPEAKERS": "John Kitchin",
-    "TAGS": [
-      "helm",
-      "ldap"
-    ],
+    "ITEM": "system config",
+    "DATE": "2015-12-10T01:53:25+0000",
+    "DURATION": "02:04:45",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=qp2b3-Guej0",
+    "SPEAKERS": "Haojun Bao",
     "BODY": ""
   },
   {
@@ -29395,10 +29403,10 @@
     "BODY": "http://www.Cppcon.org\n  —\n  Presentation Slides, PDFs, Source Code and other presenter materials are available at: https://github.com/cppcon/cppcon2015\n  —\n  Lightning Talk\n  —\n  Videos Filmed & Edited by Bash Films: http://www.BashFilms.com\n\n  *-----*\n  Register Now For CppCon 2022: https://cppcon.org/registration/\n  *-----*"
   },
   {
-    "ITEM": "EmacsConf 2015 - Lightning Talk - Graphics in Emacs - wasamasa",
-    "DATE": "2015-10-16T17:04:47+0000",
-    "DURATION": "06:29",
-    "YOUTUBE_URL": "https://www.youtube.com/watch?v=6LFtbwjWeEE&list=PLomc4HLgvuCUoPVpUJSkpsje4333Guxeo&index=6&pp=gAQBiAQB",
+    "ITEM": "EmacsConf 2015 - Lightning talk - Emacs Club",
+    "DATE": "2015-10-16T17:19:03+0000",
+    "DURATION": "16:18",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=tSKjXHSQypM&list=PLomc4HLgvuCUoPVpUJSkpsje4333Guxeo&index=11&pp=gAQBiAQB",
     "SPEAKERS": "EmacsConf and Emacs hangouts",
     "BODY": ""
   },
@@ -29495,6 +29503,14 @@
     "BODY": "For quickly searching websites"
   },
   {
+    "ITEM": "EmacsConf 2015 - Lightning talk - File sharing with Git and save hooks - Arthur A. Gleckler",
+    "DATE": "2015-09-25T19:38:04+0000",
+    "DURATION": "08:16",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=qXrxzQck0mY&list=PLomc4HLgvuCUoPVpUJSkpsje4333Guxeo&index=18&pp=gAQBiAQB",
+    "SPEAKERS": "EmacsConf and Emacs hangouts",
+    "BODY": ""
+  },
+  {
     "ITEM": "EmacsConf 2015 - Lightning talk - gist.el",
     "DATE": "2015-09-25T19:38:04+0000",
     "DURATION": "08:08",
@@ -29516,15 +29532,18 @@
     "DURATION": "02:15",
     "YOUTUBE_URL": "https://www.youtube.com/watch?v=IRUeI_xqGNY&list=PLomc4HLgvuCUoPVpUJSkpsje4333Guxeo&index=2&pp=gAQBiAQB",
     "SPEAKERS": "EmacsConf and Emacs hangouts",
-    "BODY": ""
+    "BODY": "Emacs regression tests - automated testing"
   },
   {
-    "ITEM": "EmacsConf 2015 Lightning Talk - ERT and Exercism.io",
+    "ITEM": "EmacsConf 2015 Questions - Org mode, logbooks, utilities, GIFs",
     "DATE": "2015-09-25T19:38:03+0000",
-    "DURATION": "02:15",
-    "YOUTUBE_URL": "https://www.youtube.com/watch?v=IRUeI_xqGNY&list=PLomc4HLgvuCUoPVpUJSkpsje4333Guxeo&index=2&pp=gAQBiAQB",
+    "DURATION": "03:02",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=_EWASHVUdns&list=PLomc4HLgvuCUoPVpUJSkpsje4333Guxeo&index=4&pp=gAQBiAQB",
     "SPEAKERS": "EmacsConf and Emacs hangouts",
-    "BODY": "Emacs regression tests - automated testing"
+    "TAGS": [
+      "org"
+    ],
+    "BODY": ""
   },
   {
     "ITEM": "EmacsConf 2015 seq.el and map.el - Nicholas Petton",
@@ -29575,15 +29594,15 @@
     "DURATION": "30:38",
     "YOUTUBE_URL": "https://www.youtube.com/watch?v=158sgUBhQcM&list=PLomc4HLgvuCUoPVpUJSkpsje4333Guxeo&index=14&pp=gAQBiAQB",
     "SPEAKERS": "EmacsConf and Emacs hangouts",
-    "BODY": ""
+    "BODY": "Presentation: http://www.e6h.org/talks/emacsconf-2015/index.html\n  Check out irreal.org's write-up: http://irreal.org/blog/?p=4678"
   },
   {
-    "ITEM": "Emacsconf 2015 - Making Emacs a Better Tool for Scholars - Erik Hetzner",
+    "ITEM": "EmacsConf 2015 - Wrapping up and going forward",
     "DATE": "2015-09-25T19:38:02+0000",
-    "DURATION": "30:38",
-    "YOUTUBE_URL": "https://www.youtube.com/watch?v=158sgUBhQcM&list=PLomc4HLgvuCUoPVpUJSkpsje4333Guxeo&index=14&pp=gAQBiAQB",
+    "DURATION": "01:59",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=THPSsm4wBLE&list=PLomc4HLgvuCUoPVpUJSkpsje4333Guxeo&index=15&pp=gAQBiAQB",
     "SPEAKERS": "EmacsConf and Emacs hangouts",
-    "BODY": "Presentation: http://www.e6h.org/talks/emacsconf-2015/index.html\n  Check out irreal.org's write-up: http://irreal.org/blog/?p=4678"
+    "BODY": ""
   },
   {
     "ITEM": "EmacsConf 2015 - Hearing from Emacs Beginners - Daniel Gopar",
@@ -29650,18 +29669,6 @@
     "DURATION": "05:33",
     "YOUTUBE_URL": "https://www.youtube.com/watch?v=0MUr7zw-qMM&list=PLomc4HLgvuCUoPVpUJSkpsje4333Guxeo&index=16&pp=gAQBiAQB",
     "SPEAKERS": "EmacsConf and Emacs hangouts",
-    "BODY": ""
-  },
-  {
-    "ITEM": "Emacs Tutorial Part 6 - Some Configurations with Helm",
-    "DATE": "2015-09-22T21:13:51-07:00",
-    "DURATION": "8:36",
-    "YOUTUBE_URL": "https://www.youtube.com/watch?v=k78f8NYYIto",
-    "SPEAKERS": "Goparism",
-    "TAGS": [
-      "beginner",
-      "helm"
-    ],
     "BODY": ""
   },
   {
@@ -29963,10 +29970,14 @@
     "BODY": "Récapitulatif de la semaine 1.\n  20 commandes sont abordées."
   },
   {
-    "ITEM": "GNU Emacs Semaine 1 Vidéo 7",
-    "DATE": "2015-07-09T13:49:17+00:00",
-    "DURATION": "5:01",
-    "SPEAKERS": "Freeman Emacs",
+    "ITEM": "Changing Emacs drag-n-drop behavior",
+    "DATE": "2015-07-10T12:00:10-07:00",
+    "DURATION": "4:36",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=ahqKXbBVjpQ",
+    "SPEAKERS": "John Kitchin",
+    "TAGS": [
+      "DragAndDrop"
+    ],
     "BODY": ""
   },
   {
@@ -30009,14 +30020,13 @@
     "BODY": "Commandes d’inversions avec GNU Emacs\n  1) Inversion de caractères\n  2) Inversion de mots\n  3) Inversion de lignes"
   },
   {
-    "ITEM": "Functional chemical formulas in Emacs",
-    "DATE": "2015-07-02T09:33:24-07:00",
-    "DURATION": "5:13",
-    "YOUTUBE_URL": "https://www.youtube.com/watch?v=sjxS9m8QCoo",
+    "ITEM": "Getting location information from swish-e searches",
+    "DATE": "2015-07-06T08:01:46-07:00",
+    "DURATION": "5:29",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=bTwXtEb5Ng8",
     "SPEAKERS": "John Kitchin",
     "TAGS": [
-      "chemistry",
-      "science"
+      "search"
     ],
     "BODY": ""
   },
@@ -30176,13 +30186,12 @@
     "BODY": "We chatted about packages, packaging, databases, and the upcoming Emacs conference.\n  Show notes: http://sachachua.com/blog/2015/04/emacs-hangout-2015-04-15-show-notes/"
   },
   {
-    "ITEM": "Emacs configuration in 24 minutes",
-    "DATE": "2015-04-12T19:15:13+0000",
-    "DURATION": "23:29",
-    "YOUTUBE_URL": "https://www.youtube.com/watch?v=FRu8SRWuUko&feature=youtu.be",
-    "SPEAKERS": "Mohammed Ismail Ansari",
+    "ITEM": "ShaderTone + Emacs Live - study 2",
+    "DATE": "2015-04-14T17:59:50+00:00",
+    "DURATION": "1:49",
+    "SPEAKERS": "Atsushi Tadokoro",
     "TAGS": [
-      "configuration"
+      "music"
     ],
     "BODY": ""
   },
@@ -30286,10 +30295,10 @@
     "BODY": "Previously uploaded at https://www.youtube.com/watch?v=gswAVtzQ7to&list=PL4th0AZixyRE9bb8OevAb7I8RuaWJQWnO&index=3"
   },
   {
-    "ITEM": "Emacs Live - Sam Aaron - Emacs Conference 2013",
-    "DATE": "2015-04-09T00:38:38+0000",
-    "DURATION": "27:46",
-    "YOUTUBE_URL": "https://www.youtube.com/watch?v=j4bcE_gBJrw&list=PLomc4HLgvuCUGJY-knn_6Ss_lcJ58IlKx&index=1&pp=gAQBiAQB",
+    "ITEM": "XWidgets- Joakim Verona - Emacs Conf 2013",
+    "DATE": "2015-04-10T00:26:19+0000",
+    "DURATION": "18:16",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=iUEwuzUJLO4&list=PLomc4HLgvuCUGJY-knn_6Ss_lcJ58IlKx&index=2&pp=gAQBiAQB",
     "SPEAKERS": "EmacsConf and Emacs hangouts",
     "BODY": ""
   },
@@ -30318,14 +30327,14 @@
     "BODY": "I probably spend about 75% of my programming time looking up documentation. That's really easy in Emacs Lisp--my documentation is built into my editor--but in most other languages I'm not so lucky.\n\n  I wrote engine-mode to help fix this problem. It's a simple minor mode that lets me define arbitrary search engines and send snippets of text to them from within Emacs. Now I don't have to copy and paste text between my browser and editor! So fancy.\n\n  We'll be talking about how to get started with engine-mode (it's easy!) and then digging into the implementation and discussing the process of committing a package to MELPA.\n\n  Learn more from the developers at thoughtbot ⌨️\n  Head over to http://tbot.io/dev-blog to read more great articles on our blog."
   },
   {
-    "ITEM": "How I Use org-capture and Stuff",
-    "DATE": "2015-03-10T15:30:00+0000",
-    "DURATION": "15:41",
-    "YOUTUBE_URL": "https://www.youtube.com/watch?v=KdcXu_RdKI0&feature=youtu.be",
-    "SPEAKERS": "thoughtbot",
+    "ITEM": "Using embedded emacs calc-mode for symbolic processing",
+    "DATE": "2015-03-14T00:23:15+0000",
+    "DURATION": "00:18",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=p7O43b6kEc4&feature=youtu.be",
+    "SPEAKERS": "Mohammad Alaggan",
     "TAGS": [
-      "org",
-      "OrgCapture"
+      "calc",
+      "math"
     ],
     "BODY": ""
   },
@@ -30342,15 +30351,13 @@
     "BODY": "Org-capture is a great way to take notes and plan in Emacs. Capture templates provide a flexible way to extend org-capture and personalize the way you record various bits of information.\n\n  This talk covers how Jonathan uses org-capture and provides an intro to writing your own org-capture templates.\n\n  Learn more from the developers at thoughtbot ⌨️\n  Head over to http://tbot.io/dev-blog to read more great articles on our blog."
   },
   {
-    "ITEM": "org-ref+helm",
-    "DATE": "2015-01-27T09:49:51-08:00",
-    "DURATION": "7:12",
-    "YOUTUBE_URL": "https://www.youtube.com/watch?v=8cEb6F9AEu0",
-    "SPEAKERS": "John Kitchin",
+    "ITEM": "Debconf2010-emacs-pydbgr",
+    "DATE": "2015-02-08T01:58:30+00:00",
+    "DURATION": "6:07",
+    "SPEAKERS": "Rocky Bernstein",
     "TAGS": [
-      "org",
-      "OrgRef",
-      "helm"
+      "python",
+      "debugging"
     ],
     "BODY": ""
   },
@@ -30405,6 +30412,18 @@
     "BODY": "Demonstration of a new pydoc module for Emacs."
   },
   {
+    "ITEM": "org-ref in action",
+    "DATE": "2014-12-19T20:11:32+0000",
+    "DURATION": "03:18",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=Zya8SfmCtFA&feature=youtu.be",
+    "SPEAKERS": "John Kitchin",
+    "TAGS": [
+      "org",
+      "OrgRef"
+    ],
+    "BODY": ""
+  },
+  {
     "ITEM": "Teaching with Emacs+org-mode",
     "DATE": "2014-12-19T08:25:07-08:00",
     "DURATION": "6:35",
@@ -30414,14 +30433,6 @@
       "org",
       "teaching"
     ],
-    "BODY": ""
-  },
-  {
-    "ITEM": "Emacs Chat: Karl Voit",
-    "DATE": "2014-12-03T19:08:13+0000",
-    "DURATION": "59:21",
-    "YOUTUBE_URL": "https://www.youtube.com/watch?v=SaKPr4J0K2I&list=PL4th0AZixyRF8o3fdx68HGUrYKF2Pfvrp&index=17&pp=iAQB",
-    "SPEAKERS": "Karl Voit, Sacha Chua",
     "BODY": ""
   },
   {
@@ -30526,12 +30537,13 @@
     "BODY": "Illustrates using an external editor from Emacs"
   },
   {
-    "ITEM": "ZombieCLJ: Live parprogrammering - Magnar Sveen, Christian Johansen",
-    "DATE": "2014-09-10T16:39:38+00:00",
-    "DURATION": "46:51",
-    "SPEAKERS": "JavaZone",
+    "ITEM": "An Emacs Calc-Mode Epiphany",
+    "DATE": "2014-09-17T21:35:30+0000",
+    "DURATION": "02:46",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=D9lmCbLGZ_c&feature=youtu.be",
+    "SPEAKERS": "Avdi Grimm",
     "TAGS": [
-      "clojure"
+      "calc"
     ],
     "BODY": ""
   },
@@ -30627,11 +30639,16 @@
     "BODY": "This is the second tutorial for Generalized Linear Models (w/ Bayesian Inference).  The topic is managing input files and output files using GNU Emacs and ESS (Emacs Speaks Statistics).  In this tutorial we do the same simple regression analysis as in the first tutorial (GLM2-1), but using Emacs/ESS."
   },
   {
-    "ITEM": "Turtle Graphics with Emacs Lisp",
-    "DATE": "2014-07-10T15:44:56+0000",
-    "DURATION": "30:25",
-    "YOUTUBE_URL": "https://www.youtube.com/watch?v=zzbEjmlIET0&list=PL8tzorAO7s0he-pp7Y_JDl7-Kz2Qlr_Pj&index=17&t=13s&pp=iAQB",
-    "SPEAKERS": "thoughtbot",
+    "ITEM": "A Success Story in Using Python in a Graduate Chemical Engineering Course| SciPy 2014 | John Kitchin",
+    "DATE": "2014-07-13T09:48:18-07:00",
+    "DURATION": "25:20",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=IsSMs-4GlT8&list=PL0sMmOaE_gs3GbuZV_sNjwMREw9rfElTV&index=5&pp=iAQB",
+    "SPEAKERS": "Enthought",
+    "TAGS": [
+      "teaching",
+      "python",
+      "org"
+    ],
     "BODY": ""
   },
   {
@@ -30643,13 +30660,13 @@
     "BODY": "Ray Puzio shows us his implementation of turtle graphics in emacs and takes us under the shell to see how it works.\n\n  Turtle graphics are a way of drawing pictures in which one provides a series of directions such as \"move forward\" or \"turn left\" to steer the pen. (The name comes from the fact that the original implementation involved a robotic turtle as an output device controlled by the computer.) In addition to providing a useful and entertaining program, this talk also discusses techniques of pbm graphics and the use of a buffer for drawing which are of general use when doing graphics in emacs."
   },
   {
-    "ITEM": "org mode is awesome",
-    "DATE": "2014-07-04T10:41:40+0000",
-    "DURATION": "18:06",
-    "YOUTUBE_URL": "https://www.youtube.com/watch?v=fgizHHd7nOo",
-    "SPEAKERS": "John Kitchin",
+    "ITEM": "Demonstrating in-buffer evaluation of Clojure code with Emacs",
+    "DATE": "2014-07-05T13:13:05+00:00",
+    "DURATION": "0:25",
+    "SPEAKERS": "John Jacobsen",
     "TAGS": [
-      "org"
+      "clojure",
+      "dev"
     ],
     "BODY": ""
   },
@@ -30738,13 +30755,14 @@
     "BODY": "Within the Org mode ecosystem there exists a literate development tool named Org Babel which supports practicing reproducible research by making it possible to eval within the same Emacs buffer the contents of the code blocks.\n\n  Building upon the idea of reproducible runs enabled by Org mode markup and Org babel, as well as in the maturity of the Ruby ecosystem, here I am exploring the potential of following a literate programming approach for domains such as Continuous integration, Configuration management and Infrastructure setup."
   },
   {
-    "ITEM": "Emacs Chat: Christopher Wellons (FFI, Emacs internals)",
-    "DATE": "2014-05-31T00:06:08+0000",
-    "DURATION": "56:39",
-    "YOUTUBE_URL": "https://www.youtube.com/watch?v=Hr06UDD4mCs&list=PL4th0AZixyRF8o3fdx68HGUrYKF2Pfvrp&index=14&pp=iAQB",
-    "SPEAKERS": "Christopher Wellons, Sacha Chua",
+    "ITEM": "helm-clojure.el",
+    "DATE": "2014-06-01T11:30:44+00:00",
+    "DURATION": "0:48",
+    "SPEAKERS": "Andrew Rudenko",
     "TAGS": [
-      "community"
+      "helm",
+      "clojure",
+      "completion"
     ],
     "BODY": ""
   },
@@ -30837,11 +30855,11 @@
     "BODY": "Evan Misshula provides an introduction to incremental analysis through IPython moderated by the editing features of Emacs. He gives a brief introduction to integrating with Org-mode; and advantages over the R console and Bash shell are also discussed.\n\n  Learn more from the developers at thoughtbot ⌨️\n  Head over to http://tbot.io/dev-blog to read more great articles on our blog."
   },
   {
-    "ITEM": "Emacs Chat: Jānis Mancēvičs",
-    "DATE": "2014-04-19T21:19:55+0000",
-    "DURATION": "01:02:00",
-    "YOUTUBE_URL": "https://www.youtube.com/watch?v=HOy4h0a_0TI&list=PL4th0AZixyRF8o3fdx68HGUrYKF2Pfvrp&index=9&pp=iAQB",
-    "SPEAKERS": "Jānis Mancēvičs, Sacha Chua",
+    "ITEM": "2014 05 02 Emacs Chat   Xah Lee",
+    "DATE": "2014-05-03T18:50:05+0000",
+    "DURATION": "57:30",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=rKPKWqvTImA&list=PL4th0AZixyRF8o3fdx68HGUrYKF2Pfvrp&index=11&pp=iAQB",
+    "SPEAKERS": "Xah Lee, Sacha Chua",
     "TAGS": [
       "community"
     ],
@@ -30922,6 +30940,16 @@
     "BODY": "This week, we're going to focus on learning how to tweak Emacs with M-x customize and by editing ~/.emacs.d/init.el .\n\n  http://sachachua.com/blog/?p=27098&shareadraft=baba27098_53306da9c8ff1"
   },
   {
+    "ITEM": "Emacs Basics - Calling commands by name with M-x",
+    "DATE": "2014-03-19T21:04:14+00:00",
+    "DURATION": "3:17",
+    "SPEAKERS": "Sacha Chua",
+    "TAGS": [
+      "tutorial"
+    ],
+    "BODY": ""
+  },
+  {
     "ITEM": "2014-03-19 Emacs Basics - Using the Mouse v2",
     "DATE": "2014-03-19T21:04:13+00:00",
     "DURATION": "3:03",
@@ -30930,13 +30958,6 @@
       "tutorial",
       "mouse"
     ],
-    "BODY": ""
-  },
-  {
-    "ITEM": "Venture into Emacs: Learning Emacs",
-    "DATE": "2014-03-13T04:16:44+00:00",
-    "DURATION": "3:07",
-    "SPEAKERS": "Tuts+",
     "BODY": ""
   },
   {
@@ -31048,10 +31069,10 @@
     "BODY": "This demo shows how `lispy-goto` can navigate a directory\n  of popular Clojure statistical package Incanter (https://github.com/liebke/incanter).\n\n  Lispy is a GNU Emacs package available at https://github.com/abo-abo/lispy and\n  as \"lispy\" in MELPA. The second method is recommended for new users as it automatically\n  installs (almost) all dependencies and updates.\n\n  Only dependency that can't be installed from MELPA and has to be installed\n  manually is clojure-semantic (https://github.com/kototama/clojure-semantic).\n  It enables CEDET to parse Clojure code.\n\n  Similar navigation is already in-place for Emacs Lisp, Scheme and Common Lisp."
   },
   {
-    "ITEM": "ViveCodigo 01x09 - GNU Emacs con Alcides FLores (@alcidesfp) - Continuación",
-    "DATE": "2014-02-10T22:48:51+00:00",
-    "DURATION": "36:20",
-    "SPEAKERS": "MakingDevs",
+    "ITEM": "TRUG#15 Emacs Michał Kwiatkowski",
+    "DATE": "2014-02-12T13:31:13+00:00",
+    "DURATION": "51:28",
+    "SPEAKERS": "Michał Kwiatkowski",
     "BODY": ""
   },
   {
@@ -31091,12 +31112,12 @@
     "BODY": "Code Mesh London is the best place in Europe for non-mainstream tech and programming languages. On 4-5 December 2013 over 50 inventors and originators of the most innovative languages and technologies of the moment shared their experience with 200 attendees. Topics included Scala, Haskell, Clojure, Erlang, Elixir, Julia and much more. See you at Code Mesh 2014! codemesh.io/\n\n  About the talk:\n  The term \"programming language\" is often used to describe the medium we use to build software. However, to what extent can we also consider programming languages as interfaces in their own right? Are they sufficiently expressive, interactive and dynamic to, say, control a musical instrument? What if the programming language was the musical instrument? How might that challenge our perception of programming language and tools in general. For example, what happens when we consider the act of programming as a performance? What might a music programming environment which has sufficient liveness, rapid feedback and tolerance of failure look like? What benefits would such a style of programming offer business? Could live coding be beneficial for rapid prototyping, exploring big data sets, and even communicating formal business ideas?\n  Weaving Immutable Data Structures into Ephemeral Sounds - Conference Party\n\n  Armed with laptops, monomes and number of simple MIDI Kontrollers, we harness the full power of the SuperCollider synthesis engine through the incredible Overtone platform. We don't just use our laptops to tweak GUI sliders and pots, we write raw Clojure code into Emacs live in our performances. We also generate real-time visualisations perfectly synchronised to the sound with Quil and Shadertone. All the code for our sets is open source and available for you to play with: Meta-eX Ignite.\n\n  Live Hacking allows us to generate music on-the-fly enabling us to change the direction of the sound and respond to our environment at a whim. Our sounds aren't pre-recorded and tweaked on-stage, they're coded and generated live in real time. We produce a real raw noise rather than manufactured industry-polished pseudo-perfection. Our sound isn't hardcore, breakcore or speedcore - it's multi-core and fully hyper-threaded."
   },
   {
-    "ITEM": "Symbolics Document Examiner and Concordia",
-    "DATE": "2014-01-10T21:49:25+00:00",
-    "DURATION": "21:20",
-    "SPEAKERS": "Rainer Joswig",
+    "ITEM": "Emacs and coder integration",
+    "DATE": "2014-01-13T23:30:48+00:00",
+    "DURATION": "1:06",
+    "SPEAKERS": "Ethan",
     "TAGS": [
-      "history"
+      "coding"
     ],
     "BODY": ""
   },
@@ -31187,10 +31208,14 @@
     "BODY": "Erlang User Conference 2013\n  More info and slides on the website: http://www.erlang-factory.com/conference/ErlangUserConference2013/talks\n\n  The Erlang Development Tool Suite (EDTS) is an open-source package of useful development tools for working with the Erlang programming language in Emacs. It bundles a number of useful external packages, together with specialized Erlang plugins for them, and its own features to create a complete and efficient development environment that is easy to set up."
   },
   {
-    "ITEM": "Debugging CL-HTTP, using Clozure Common Lisp, GNU Emacs and SLIME",
-    "DATE": "2013-10-15T23:21:08+00:00",
-    "DURATION": "15:11",
-    "SPEAKERS": "Rainer Joswig",
+    "ITEM": "emacs nrepl austin async brepl",
+    "DATE": "2013-10-17T11:00:35+00:00",
+    "DURATION": "4:20",
+    "SPEAKERS": "juan antonio ruz",
+    "TAGS": [
+      "async",
+      "nrepl"
+    ],
     "BODY": ""
   },
   {
@@ -31297,6 +31322,13 @@
     "BODY": "In which we chat about Emacs and the community.\n  Just want the audio? http://archive.org/details/EmacsChatSachaChuawithBastienGuerry\n  Transcript: http://sachachua.com/blog/2013/07/emacs-chat-sacha-chua-with-bastien-guerry/\n  More Emacs chats: http://sachachua.com/emacs-chat"
   },
   {
+    "ITEM": "Emacs",
+    "DATE": "2013-06-23T20:08:38+00:00",
+    "DURATION": "0:15",
+    "SPEAKERS": "Minzhao Liu",
+    "BODY": ""
+  },
+  {
     "ITEM": "Emacs ctags demo",
     "DATE": "2013-06-20T08:03:27+00:00",
     "DURATION": "0:43",
@@ -31307,17 +31339,6 @@
     "ITEM": "Crab hint following",
     "DATE": "2013-06-09T17:00:00+00:00",
     "DURATION": "0:32",
-    "SPEAKERS": "Brian McKenna",
-    "TAGS": [
-      "chrome",
-      "web"
-    ],
-    "BODY": ""
-  },
-  {
-    "ITEM": "Early Crab demo",
-    "DATE": "2013-06-08T15:36:43+00:00",
-    "DURATION": "1:03",
     "SPEAKERS": "Brian McKenna",
     "TAGS": [
       "chrome",
@@ -31528,21 +31549,20 @@
     "BODY": "Simple tutorial for installing Clojure (via Leiningen), EMACS, and EMACS Live for Clojure development on Windows.\n\n  Leiningen: https://github.com/technomancy/leiningen\n  Console2: http://sourceforge.net/projects/console/\n  EMACS: http://ftp.gnu.org/gnu/emacs/windows/\n  EMACS Live: https://github.com/overtone/emacs-live\n\n  (Sorry about the Adium log-on and log-off noises I was capturing computer audio and completely missed it)"
   },
   {
+    "ITEM": "Yas Snippets and Emacs Issue",
+    "DATE": "2012-12-23T03:52:08+00:00",
+    "DURATION": "0:23",
+    "SPEAKERS": "Shiv Deepak",
+    "TAGS": [
+      "yasnippet"
+    ],
+    "BODY": ""
+  },
+  {
     "ITEM": "emacs-realtime-markdown-viewer test",
     "DATE": "2012-11-15T21:37:30+00:00",
     "DURATION": "2:02",
     "SPEAKERS": "gongo",
-    "BODY": ""
-  },
-  {
-    "ITEM": "Uma introducao ao eev2 (2012nov15)",
-    "DATE": "2012-11-15T17:21:29-08:00",
-    "DURATION": "1:09:42",
-    "YOUTUBE_URL": "https://www.youtube.com/watch?v=yztYD9Y7Iz4",
-    "SPEAKERS": "Eduardo Ochs",
-    "TAGS": [
-      "eev"
-    ],
     "BODY": ""
   },
   {
@@ -32207,12 +32227,11 @@
     "BODY": "This is not a \"performance\" or a general introduction.  Instead it is a somewhat congested, and probably confusing, introduction to some of the more technical aspects of Extempore.  In particular concurrency, the compiler, audio signal processing, and runtime binding to dynamic libraries.\n\n  It's almost certainly premature to be making screencasts with Extempore, however, I've thrown this together because, as they say, a screencast is worth a thousand words.\n\n  The audio is slightly out of sink but this shouldn't cause to much trouble for this introductory video.\n\n  In this screencast Extempore is running in Emacs under Ubuntu Linux.\n\n  Extempore:\n  https://github.com/digego/extempore\n  http://groups.google.com/group/extemporelang"
   },
   {
-    "ITEM": "sclang snippets",
-    "DATE": "2010-12-16T18:10:12+00:00",
-    "DURATION": "0:20",
-    "SPEAKERS": "{yv}",
+    "ITEM": "Untitled (sclang)",
+    "DATE": "2011-02-24T16:55:02+00:00",
+    "DURATION": "1:41",
+    "SPEAKERS": "feadi",
     "TAGS": [
-      "yasnippet",
       "sclang"
     ],
     "BODY": ""
@@ -32357,10 +32376,10 @@
     "BODY": "I have put down this screencast to demonstrate the use of Boost Test Library to develop C++ software. This was created using Emacs 23.1.1, gcc 4.4.3 and Boost 1.40 and ffmpeg 0.5.1."
   },
   {
-    "ITEM": "GuateOnRails - Charla Pablo Castellanos Emacs",
-    "DATE": "2010-02-15T16:42:21+00:00",
-    "DURATION": "1:15:55",
-    "SPEAKERS": "Javier Alvarez",
+    "ITEM": "Atajos de Emacs en Cocoa",
+    "DATE": "2010-03-15T04:07:58+00:00",
+    "DURATION": "0:41",
+    "SPEAKERS": "varodonaire",
     "BODY": ""
   },
   {
@@ -32436,10 +32455,15 @@
     "BODY": "Small tutorial-like video which shows off the Emacs IDEverything, which I use for dynamic webdevelopment."
   },
   {
-    "ITEM": "smartchr.el",
-    "DATE": "2009-11-26T08:23:08+00:00",
-    "DURATION": "1:30",
-    "SPEAKERS": "imakado",
+    "ITEM": "Fortran Debugging with GDB in Emacs",
+    "DATE": "2009-12-11T00:25:29+00:00",
+    "DURATION": "1:56",
+    "SPEAKERS": "Jason Marcell",
+    "TAGS": [
+      "debugging",
+      "gdb",
+      "fortran"
+    ],
     "BODY": ""
   },
   {
@@ -32464,10 +32488,10 @@
     "BODY": "I recently got an Intel X25-M SSD, and I was shocked to learn exactly how fast it was. I had heard \"Apps launch fast\" but I hadn't really understood *how* fast.\n\n  Ironically, emacs still takes 3 bounces to launch :D."
   },
   {
-    "ITEM": "poj-mode.el demo",
-    "DATE": "2009-07-19T18:48:40+00:00",
-    "DURATION": "0:37",
-    "SPEAKERS": "smly",
+    "ITEM": "Emacs-like yanking in IntelliJ IDEA implemented with ABCL",
+    "DATE": "2009-08-22T12:50:56+00:00",
+    "DURATION": "0:45",
+    "SPEAKERS": "Anton Vodonosov",
     "BODY": ""
   },
   {
@@ -32478,13 +32502,10 @@
     "BODY": "poj-mode.el demo"
   },
   {
-    "ITEM": "perl-completion.el",
-    "DATE": "2009-05-20T02:49:26+00:00",
-    "DURATION": "6:24",
-    "SPEAKERS": "imakado",
-    "TAGS": [
-      "perl"
-    ],
+    "ITEM": "poj-mode.el demonstration",
+    "DATE": "2009-07-19T02:19:48+00:00",
+    "DURATION": "0:31",
+    "SPEAKERS": "smly",
     "BODY": ""
   },
   {
