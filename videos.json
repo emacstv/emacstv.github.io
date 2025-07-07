@@ -1,5 +1,58 @@
 [
   {
+    "ITEM": "Ep675 Golang vs Emacs Lisp Hashtable. Part 2",
+    "DATE": "2025-07-06T04:24:44-07:00",
+    "DURATION": "1:12:40",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=HNoXOFtULqA",
+    "SPEAKERS": "Xah Lee",
+    "BODY": "Notes at\n  http ://xahlee .info/talk_show/xah_talk_show_ep675.html\n  Copy the link, remove spaces, paste the link in browser tab.\n  Google Chrome and Firefox browsers censor websites by auto adding s in http and says the site Secure Connection Failed.\n  Use Brave Browser or Safari."
+  },
+  {
+    "ITEM": "Markdown to Org: Ex-NeovimConf Speaker Converts Me | Theena Kumaragurunathan",
+    "DATE": "2025-07-05T14:17:23-07:00",
+    "DURATION": "7:41",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=LW-WitUmgJg",
+    "SPEAKERS": "linkarzu",
+    "TAGS": [
+      "org"
+    ],
+    "BODY": "In this clip I ask Theena what his thoughts are in regards to markdown, Theena used to manage a Neovim config called OVIwrite, and that's where he did most of his writing. Not so long ago, he discovered Emacs and has then switched completely from Neovim to Emacs, so after talking in multiple NeovimConf events, he now uses emacs and org files as his preferred format for writing, he left the good old markdown behind.\n\n  Me on the other hand have no experience with org, but I do see the benefits, the variable font usage in a single file, and also variable font sizes amongst one of the few features.\n\n  Link to the full interview:\n  https://youtu.be/5W0bcoFkvLY\n\n  ---------------------------------------------------------------------------------------\n\n  If you're not a YouTube member yet, you can join here:\n  https://www.youtube.com/channel/UCrSIvbFncPSlK6AdwE2QboA/join\n\n  Join me in discord\n  https://discord.gg/NgqMgwwtMH\n\n  Start your setap 7 day free trial (my affiliate link)\n  https://setapp.sjv.io/QjKK1a\n\n  Start your 1password 14 day free trial  (my affiliate link)\n  https://www.dpbolvw.net/click-101327218-15917064\n\n  If you find this video helpful and want to support me\n  https://ko-fi.com/linkarzu\n\n  Follow me on twitter\n  https://x.com/link_arzu\n\n  My dotfiles (remember to star them)\n  https://github.com/linkarzu/dotfiles-latest"
+  },
+  {
+    "ITEM": "Efficient Multi-Project Hacking in Emacs - System Crafters Live!",
+    "DATE": "2025-07-04T22:20:58-07:00",
+    "DURATION": "1:50:20",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=Ta2bR6fNwBQ",
+    "SPEAKERS": "System Crafters",
+    "TAGS": [
+      "navigation",
+      "project"
+    ],
+    "BODY": "In this stream, we'll discuss ways to use Emacs to efficiently hack on multiple projects at the same time, especially when those projects are related.  Let's see how we can maximize the value we get from project.el to create an efficient workflow!\n\n  SUPPORT THE CHANNEL:\n\n  👍 Support My Work: https://systemcrafters.net/how-to-help/#support-my-work\n  📰 Subscribe to the Newsletter: https://systemcrafters.net/newsletter/\n  👕 Check out the Store: https://systemcrafters.store\n  📘 Get Your Copy of Mastering Emacs: https://www.masteringemacs.org/r/systemcrafters?utm_source=yt&utm_medium=desc&utm_campaign=scme\n\n  SHOW NOTES:\n\n  https://systemcrafters.net/live-streams/july-4-2025/\n\n  JOIN THE COMMUNITY:\n\n  https://systemcrafters.net/community/ (Forum and IRC chat!)\n  https://fosstodon.org/@daviwil\n\n  MY CONFIGURATION:\n\n  (This site is currently down but will be back up soon!)\n\n  https://config.daviwil.com\n  https://config.daviwil.com/emacs\n  https://config.daviwil.com/systems (Guix)\n\n  OTHER SERIES:\n\n  - Emacs Essentials: https://www.youtube.com/watch?v=48JlgiBpw_I&list=PLEoMzSkcN8oPZvSdewHG8uApD7THlLLCV\n  - Emacs From Scratch: https://www.youtube.com/watch?v=74zOY-vgkyw&list=PLEoMzSkcN8oPH1au7H6B7bBJ4ZO7BXjSZ\n  - Emacs Tips: https://www.youtube.com/watch?v=wKTKmE1wLyw&list=PLEoMzSkcN8oMHJ6Xil1YdnYtlWd5hHZql\n  - Emacs Desktop Environment: https://www.youtube.com/watch?v=f7xB2fFk1tQ&list=PLEoMzSkcN8oNPbEMYEtswOVTvq7CVddCS\n  - Emacs IDE: https://www.youtube.com/watch?v=E-NAM9U5JYE&list=PLEoMzSkcN8oNvsrtk_iZSb94krGRofFjN\n  - Emacs Mail: https://www.youtube.com/watch?v=yZRyEhi4y44&list=PLEoMzSkcN8oM-kA19xOQc8s0gr0PpFGJQ\n  - Learning Emacs Lisp: https://www.youtube.com/watch?v=RQK_DaaX34Q&list=PLEoMzSkcN8oPQtn7FQEF3D7sroZbXuPZ7\n  - Craft Your System with GNU Guix: https://www.youtube.com/watch?v=iBaqOK75cho&list=PLEoMzSkcN8oNxnj7jm5V2ZcGc52002pQU\n\n  CREDITS:\n\n  Coriolis Effect by logos feat. stefsax, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/mseq/26296\n  reNovation by airtone, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/airtone/60674\n  ukeSounds by airtone, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/airtone/32655\n  Between Worlds (Instrumental) by Aussens@iter, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/tobias_weber/56664"
+  },
+  {
+    "ITEM": "Ep673 Format Python JavaScript Golang HTML CSS in Emacs, and Wolfram Language auto format",
+    "DATE": "2025-07-04T00:53:51-07:00",
+    "DURATION": "43:55",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=tEh-YEDkVDg",
+    "SPEAKERS": "Xah Lee",
+    "TAGS": [
+      "coding"
+    ],
+    "BODY": "timestamp\n  01:34 format CSS code\n  06:37 format python code\n  11:47 format JavaScript code\n  18:11 format HTML code\n  20:48 format golang code\n\n  Notes at\n  http ://xahlee .info /talk_show/xah_talk_show_ep673.html\n  Copy the link, remove spaces, paste the link in browser tab.\n  Google Chrome and Firefox browsers censor websites by auto adding s in http and says the site Secure Connection Failed.\n  Use Brave Browser or Safari."
+  },
+  {
+    "ITEM": "Ep672 Make Spell Checking in Emacs Windows Work Again, Part 2",
+    "DATE": "2025-07-02T00:56:28-07:00",
+    "DURATION": "41:40",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=Sv65SKfkLZg",
+    "SPEAKERS": "Xah Lee",
+    "TAGS": [
+      "spelling"
+    ],
+    "BODY": "Notes at\n  http ://xahlee .info /talk_show/xah_talk_show_ep672.html\n  Copy the link, remove spaces, paste the link in browser tab.\n  Google Chrome and Firefox browsers censor websites by auto adding s in http and says the site Secure Connection Failed.\n  Use Brave Browser or Safari."
+  },
+  {
     "ITEM": "Emacs Package Development: The Emacs Reader (VI: v0.3.0 release and further triaging) - 6-29-2025, 2:55:40 PM",
     "DATE": "2025-06-29T17:13:05.453Z",
     "DURATION": "2:12:32",
@@ -40,6 +93,17 @@
     "YOUTUBE_URL": "https://www.youtube.com/watch?v=6eWWQvlnaFg",
     "SPEAKERS": "Xah Lee",
     "BODY": "emacs lisp coding and random.\n  you ask and i answer.\n\n  Notes at\n  http ://xahlee .info /talk_show/xah_talk_show_ep669.html\n  Copy the link, remove spaces, paste the link in browser tab.\n  Google Chrome and Firefox browsers censor websites by auto adding s in http and says the site Secure Connection Failed.\n  Use Brave Browser or Safari."
+  },
+  {
+    "ITEM": "Bare-bones Emacs starter setup",
+    "DATE": "2025-06-26T14:09:55-07:00",
+    "DURATION": "2:43",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=ZZcj5Uul6AA",
+    "SPEAKERS": "Loose Leaf Learning",
+    "TAGS": [
+      "configuration"
+    ],
+    "BODY": "Here's a very very basic config to make Emacs it look nice, in my opinion.\n\n  ```\n  ;; remove window decorations\n  (menu-bar-mode -1)\n  (tool-bar-mode -1)\n  (scroll-bar-mode -1)\n\n  (load-theme 'modus-vivendi)\n\n  ;; set mini-buffer completion mode\n  (fido-vertical-mode)\n\n  ;; change where file backups are created\n  (setq backup-directory-alist '((\".\" . \"~/.emacs.d/backups\")))\n  ```\n\n  0:04 open init file\n  0:20 remove bars\n  0:42 set color theme\n  0:57 minibuffer completion mode\n  2:08 backup files"
   },
   {
     "ITEM": "Emacs AI plugins",

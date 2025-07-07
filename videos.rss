@@ -6,6 +6,131 @@
     <atom:link href="https://emacs.tv/videos.rss" rel="self" type="application/rss+xml" />
     <description>Emacs videos</description>
     <item>
+      <title>Ep675 Golang vs Emacs Lisp Hashtable. Part 2</title>
+      <link>https://www.youtube.com/watch?v=HNoXOFtULqA</link>
+      <guid>https://www.youtube.com/watch?v=HNoXOFtULqA</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=HNoXOFtULqA">youtube</a><br><br>Notes at
+  http ://xahlee .info/talk_show/xah_talk_show_ep675.html
+  Copy the link, remove spaces, paste the link in browser tab.
+  Google Chrome and Firefox browsers censor websites by auto adding s in http and says the site Secure Connection Failed.
+  Use Brave Browser or Safari.</div>]]></description>
+      <pubDate>Sun, 06 Jul 2025 11:24:44 +0000</pubDate>
+    </item>
+    <item>
+      <title>Markdown to Org: Ex-NeovimConf Speaker Converts Me | Theena Kumaragurunathan</title>
+      <link>https://www.youtube.com/watch?v=LW-WitUmgJg</link>
+      <guid>https://www.youtube.com/watch?v=LW-WitUmgJg</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=LW-WitUmgJg">youtube</a><br><br>In this clip I ask Theena what his thoughts are in regards to markdown, Theena used to manage a Neovim config called OVIwrite, and that's where he did most of his writing. Not so long ago, he discovered Emacs and has then switched completely from Neovim to Emacs, so after talking in multiple NeovimConf events, he now uses emacs and org files as his preferred format for writing, he left the good old markdown behind.
+
+  Me on the other hand have no experience with org, but I do see the benefits, the variable font usage in a single file, and also variable font sizes amongst one of the few features.
+
+  Link to the full interview:
+  https://youtu.be/5W0bcoFkvLY
+
+  ---------------------------------------------------------------------------------------
+
+  If you're not a YouTube member yet, you can join here:
+  https://www.youtube.com/channel/UCrSIvbFncPSlK6AdwE2QboA/join
+
+  Join me in discord
+  https://discord.gg/NgqMgwwtMH
+
+  Start your setap 7 day free trial (my affiliate link)
+  https://setapp.sjv.io/QjKK1a
+
+  Start your 1password 14 day free trial  (my affiliate link)
+  https://www.dpbolvw.net/click-101327218-15917064
+
+  If you find this video helpful and want to support me
+  https://ko-fi.com/linkarzu
+
+  Follow me on twitter
+  https://x.com/link_arzu
+
+  My dotfiles (remember to star them)
+  https://github.com/linkarzu/dotfiles-latest</div>]]></description>
+      <pubDate>Sat, 05 Jul 2025 21:17:23 +0000</pubDate><category>org</category>
+    </item>
+    <item>
+      <title>Efficient Multi-Project Hacking in Emacs - System Crafters Live!</title>
+      <link>https://www.youtube.com/watch?v=Ta2bR6fNwBQ</link>
+      <guid>https://www.youtube.com/watch?v=Ta2bR6fNwBQ</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=Ta2bR6fNwBQ">youtube</a><br><br>In this stream, we'll discuss ways to use Emacs to efficiently hack on multiple projects at the same time, especially when those projects are related.  Let's see how we can maximize the value we get from project.el to create an efficient workflow!
+
+  SUPPORT THE CHANNEL:
+
+  👍 Support My Work: https://systemcrafters.net/how-to-help/#support-my-work
+  📰 Subscribe to the Newsletter: https://systemcrafters.net/newsletter/
+  👕 Check out the Store: https://systemcrafters.store
+  📘 Get Your Copy of Mastering Emacs: https://www.masteringemacs.org/r/systemcrafters?utm_source=yt&utm_medium=desc&utm_campaign=scme
+
+  SHOW NOTES:
+
+  https://systemcrafters.net/live-streams/july-4-2025/
+
+  JOIN THE COMMUNITY:
+
+  https://systemcrafters.net/community/ (Forum and IRC chat!)
+  https://fosstodon.org/@daviwil
+
+  MY CONFIGURATION:
+
+  (This site is currently down but will be back up soon!)
+
+  https://config.daviwil.com
+  https://config.daviwil.com/emacs
+  https://config.daviwil.com/systems (Guix)
+
+  OTHER SERIES:
+
+  - Emacs Essentials: https://www.youtube.com/watch?v=48JlgiBpw_I&list=PLEoMzSkcN8oPZvSdewHG8uApD7THlLLCV
+  - Emacs From Scratch: https://www.youtube.com/watch?v=74zOY-vgkyw&list=PLEoMzSkcN8oPH1au7H6B7bBJ4ZO7BXjSZ
+  - Emacs Tips: https://www.youtube.com/watch?v=wKTKmE1wLyw&list=PLEoMzSkcN8oMHJ6Xil1YdnYtlWd5hHZql
+  - Emacs Desktop Environment: https://www.youtube.com/watch?v=f7xB2fFk1tQ&list=PLEoMzSkcN8oNPbEMYEtswOVTvq7CVddCS
+  - Emacs IDE: https://www.youtube.com/watch?v=E-NAM9U5JYE&list=PLEoMzSkcN8oNvsrtk_iZSb94krGRofFjN
+  - Emacs Mail: https://www.youtube.com/watch?v=yZRyEhi4y44&list=PLEoMzSkcN8oM-kA19xOQc8s0gr0PpFGJQ
+  - Learning Emacs Lisp: https://www.youtube.com/watch?v=RQK_DaaX34Q&list=PLEoMzSkcN8oPQtn7FQEF3D7sroZbXuPZ7
+  - Craft Your System with GNU Guix: https://www.youtube.com/watch?v=iBaqOK75cho&list=PLEoMzSkcN8oNxnj7jm5V2ZcGc52002pQU
+
+  CREDITS:
+
+  Coriolis Effect by logos feat. stefsax, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/mseq/26296
+  reNovation by airtone, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/airtone/60674
+  ukeSounds by airtone, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/airtone/32655
+  Between Worlds (Instrumental) by Aussens@iter, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/tobias_weber/56664</div>]]></description>
+      <pubDate>Sat, 05 Jul 2025 05:20:58 +0000</pubDate><category>navigation</category>
+<category>project</category>
+    </item>
+    <item>
+      <title>Ep673 Format Python JavaScript Golang HTML CSS in Emacs, and Wolfram Language auto format</title>
+      <link>https://www.youtube.com/watch?v=tEh-YEDkVDg</link>
+      <guid>https://www.youtube.com/watch?v=tEh-YEDkVDg</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=tEh-YEDkVDg">youtube</a><br><br>timestamp
+  01:34 format CSS code
+  06:37 format python code
+  11:47 format JavaScript code
+  18:11 format HTML code
+  20:48 format golang code
+
+  Notes at
+  http ://xahlee .info /talk_show/xah_talk_show_ep673.html
+  Copy the link, remove spaces, paste the link in browser tab.
+  Google Chrome and Firefox browsers censor websites by auto adding s in http and says the site Secure Connection Failed.
+  Use Brave Browser or Safari.</div>]]></description>
+      <pubDate>Fri, 04 Jul 2025 07:53:51 +0000</pubDate><category>coding</category>
+    </item>
+    <item>
+      <title>Ep672 Make Spell Checking in Emacs Windows Work Again, Part 2</title>
+      <link>https://www.youtube.com/watch?v=Sv65SKfkLZg</link>
+      <guid>https://www.youtube.com/watch?v=Sv65SKfkLZg</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=Sv65SKfkLZg">youtube</a><br><br>Notes at
+  http ://xahlee .info /talk_show/xah_talk_show_ep672.html
+  Copy the link, remove spaces, paste the link in browser tab.
+  Google Chrome and Firefox browsers censor websites by auto adding s in http and says the site Secure Connection Failed.
+  Use Brave Browser or Safari.</div>]]></description>
+      <pubDate>Wed, 02 Jul 2025 07:56:28 +0000</pubDate><category>spelling</category>
+    </item>
+    <item>
       <title>Emacs Package Development: The Emacs Reader (VI: v0.3.0 release and further triaging) - 6-29-2025, 2:55:40 PM</title>
       <link>https://tv.dyne.org/w/tPgpVpD7pqhksLuZd5hSFV</link>
       <guid>https://tv.dyne.org/w/tPgpVpD7pqhksLuZd5hSFV</guid>
@@ -55,6 +180,34 @@
   Google Chrome and Firefox browsers censor websites by auto adding s in http and says the site Secure Connection Failed.
   Use Brave Browser or Safari.</div>]]></description>
       <pubDate>Fri, 27 Jun 2025 07:07:48 +0000</pubDate>
+    </item>
+    <item>
+      <title>Bare-bones Emacs starter setup</title>
+      <link>https://www.youtube.com/watch?v=ZZcj5Uul6AA</link>
+      <guid>https://www.youtube.com/watch?v=ZZcj5Uul6AA</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=ZZcj5Uul6AA">youtube</a><br><br>Here's a very very basic config to make Emacs it look nice, in my opinion.
+
+  ```
+  ;; remove window decorations
+  (menu-bar-mode -1)
+  (tool-bar-mode -1)
+  (scroll-bar-mode -1)
+
+  (load-theme 'modus-vivendi)
+
+  ;; set mini-buffer completion mode
+  (fido-vertical-mode)
+
+  ;; change where file backups are created
+  (setq backup-directory-alist '(("." . "~/.emacs.d/backups")))
+  ```
+
+  0:04 open init file
+  0:20 remove bars
+  0:42 set color theme
+  0:57 minibuffer completion mode
+  2:08 backup files</div>]]></description>
+      <pubDate>Thu, 26 Jun 2025 21:09:55 +0000</pubDate><category>configuration</category>
     </item>
     <item>
       <title>Emacs AI plugins</title>
@@ -490,181 +643,6 @@
   1. What is your setup??? 👉👉👉 https://bardman.dev/technology/gallery
   2. DOTFILES???? 👉👉👉 https://github.com/BardofSprites/dotfiles-stow</div>]]></description>
       <pubDate>Sat, 31 May 2025 06:45:42 +0000</pubDate><category>dired</category>
-    </item>
-    <item>
-      <title>Time To Format Chat Interactions With Markdown Mode - Emacs Lisp | lesson 09</title>
-      <link>https://www.youtube.com/watch?v=CuIwgjiVzHQ</link>
-      <guid>https://www.youtube.com/watch?v=CuIwgjiVzHQ</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=CuIwgjiVzHQ">youtube</a><br><br>Free PDF and course 👉 https://tonyaldon.com/chatgpt-emacs-integration-course/
-
-  -----
-
-  Let's make things look pretty. 🎨 We learn how to parse JSON responses and format them using Markdown within Emacs. Your chats with ChatGPT will be not only functional but also beautifully organized and easy to read. Markdown magic makes all the difference!
-
-  - Parsing and Returning a JSON Object with json-read
-  - Accessing Elements in a Nested Structure with map-nested-elt
-  - Inserting the Assistant Response instead of the JSON Response
-  - Formatting with markdown-mode
-
-  -----
-
-  Hi there! 👋 I'm Tony Aldon, a passionate Emacs enthusiast dedicated to helping you master Emacs and Emacs Lisp.
-
-  Join me on an exciting journey with the ChatGPT Emacs Integration Course and master the art of building a fully functional Emacs package from scratch.
-
-  🌟 Through
-
-  - 18 engaging lessons,
-  - 2.5 hours video content and
-  - 100 pages of PDF
-
-  you'll:
-
-  - Master Emacs Lisp: 🛠️ Customize and extend Emacs like a pro.
-  - Integrate ChatGPT Seamlessly: 🤖 Enhance your workflow with advanced AI features using the OpenAI API.
-
-  It can help if you know a little bit of Emacs Lisp, but this is not a requirement as we'll meticulously write, review, and comment on each line of code. 📝</div>]]></description>
-      <pubDate>Thu, 29 May 2025 03:46:48 +0000</pubDate><category>ai</category>
-<category>markdown</category>
-    </item>
-    <item>
-      <title>Making the Prompt Dynamic in Requests to OpenAI Chat Completion API - Emacs Lisp | lesson 08</title>
-      <link>https://www.youtube.com/watch?v=j6RsRdwLomo</link>
-      <guid>https://www.youtube.com/watch?v=j6RsRdwLomo</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=j6RsRdwLomo">youtube</a><br><br>Free PDF and course 👉 https://tonyaldon.com/chatgpt-emacs-integration-course/
-
-  -----
-
-  No more static prompts! 🔄 We make our requests dynamic by pulling prompts from the current buffer. Whether you're brainstorming ideas or asking questions on the fly, ChatGPT's got your back. We'll adjust our functions to handle any input you throw its way.
-
-  - Writing a JSON Object to a File
-  - Writing the OpenAI Request to a File
-  - Updating chatgpt-send
-  - Entering the Prompt from a Buffer
-
-  -----
-
-  Hi there! 👋 I'm Tony Aldon, a passionate Emacs enthusiast dedicated to helping you master Emacs and Emacs Lisp.
-
-  Join me on an exciting journey with the ChatGPT Emacs Integration Course and master the art of building a fully functional Emacs package from scratch.
-
-  🌟 Through
-
-  - 18 engaging lessons,
-  - 2.5 hours video content and
-  - 100 pages of PDF
-
-  you'll:
-
-  - Master Emacs Lisp: 🛠️ Customize and extend Emacs like a pro.
-  - Integrate ChatGPT Seamlessly: 🤖 Enhance your workflow with advanced AI features using the OpenAI API.
-
-  It can help if you know a little bit of Emacs Lisp, but this is not a requirement as we'll meticulously write, review, and comment on each line of code. 📝</div>]]></description>
-      <pubDate>Tue, 27 May 2025 02:51:53 +0000</pubDate><category>ai</category>
-    </item>
-    <item>
-      <title>Refactoring chatgpt.el - Emacs Lisp | lesson 07</title>
-      <link>https://www.youtube.com/watch?v=Mgqu3wvvNXM</link>
-      <guid>https://www.youtube.com/watch?v=Mgqu3wvvNXM</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=Mgqu3wvvNXM">youtube</a><br><br>Free PDF and course 👉 https://tonyaldon.com/chatgpt-emacs-integration-course/
-
-  -----
-
-  Let's tidy up our code! 🧹 We refactor the chatgpt-send function for better organization and introduce a dedicated variable for our OpenAI API key. Clean code is happy code, and keeping our API keys secure is a top priority. We'll streamline our package for smoother operations.
-
-  - Refactoring chatgpt-send with chatgpt-command
-  - Introducing chatgpt-api-key to hold OpenAI API Key
-  - Updating chatgpt-command Function Signature
-
-  -----
-
-  Hi there! 👋 I'm Tony Aldon, a passionate Emacs enthusiast dedicated to helping you master Emacs and Emacs Lisp.
-
-  Join me on an exciting journey with the ChatGPT Emacs Integration Course and master the art of building a fully functional Emacs package from scratch.
-
-  🌟 Through
-
-  - 18 engaging lessons,
-  - 2.5 hours video content and
-  - 100 pages of PDF
-
-  you'll:
-
-  - Master Emacs Lisp: 🛠️ Customize and extend Emacs like a pro.
-  - Integrate ChatGPT Seamlessly: 🤖 Enhance your workflow with advanced AI features using the OpenAI API.
-
-  It can help if you know a little bit of Emacs Lisp, but this is not a requirement as we'll meticulously write, review, and comment on each line of code. 📝</div>]]></description>
-      <pubDate>Sat, 24 May 2025 15:35:08 +0000</pubDate><category>ai</category>
-    </item>
-    <item>
-      <title>021 Ollama Buddy - Using a vision model to extract some text #emacs #ollama</title>
-      <link>https://www.youtube.com/watch?v=QxEOsBKsy-o</link>
-      <guid>https://www.youtube.com/watch?v=QxEOsBKsy-o</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=QxEOsBKsy-o">youtube</a><br><br>Demonstrating the Emacs package ollama-buddy, providing a convenient way to integrate Ollama's local LLM capabilities.
-
-  switch to use gemma3:4b
-
-  Open the image with the text
-
-  Copy the link, paste into the chat buffer and then lets see if the text is correctly extracted!
-
-  https://melpa.org/#/ollama-buddy
-  https://github.com/captainflasmr/ollama-buddy
-
-  ,#emacs #ollama</div>]]></description>
-      <pubDate>Sat, 24 May 2025 13:22:35 +0000</pubDate><category>ai</category>
-    </item>
-    <item>
-      <title>019 Ollama Buddy - First Steps into User System Prompt Management #emacs #ollama</title>
-      <link>https://www.youtube.com/watch?v=TV5QXEqsuAE</link>
-      <guid>https://www.youtube.com/watch?v=TV5QXEqsuAE</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=TV5QXEqsuAE">youtube</a><br><br>Demonstrating the Emacs package ollama-buddy, providing a convenient way to integrate Ollama's local LLM capabilities.
-
-  Select User System Prompts
-
-  List, and move down through the buffer
-
-  Set as system prompt/load
-
-  Select Elisp Debugging Guide
-
-  Show the system prompt in a buffer
-
-  switch to use qwen2.5-coder:3b
-
-  Run checking overy my/rsync in Emacs-DIYer
-
-  https://melpa.org/#/ollama-buddy
-  https://github.com/captainflasmr/ollama-buddy
-
-  ,#emacs #ollama
-
-  ,#+attr_org: :width 300px
-  ,#+attr_html: :width 100%
-  [[file:img/ollama-buddy-screen-recording_019.gif]]</div>]]></description>
-      <pubDate>Sat, 24 May 2025 12:45:20 +0000</pubDate><category>ai</category>
-    </item>
-    <item>
-      <title>[Emacs + Polymode + Org-mode] fix unfolding on source block entry</title>
-      <link>https://www.youtube.com/watch?v=PK2F6u_wbpc</link>
-      <guid>https://www.youtube.com/watch?v=PK2F6u_wbpc</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=PK2F6u_wbpc">youtube</a><br><br>Code with the fix:
-  https://github.com/DeadEarnest/polymode/commit/e0f511e8295f26229494291c1afccaff4a10ef10
-
-  Detailed explanation:
-  1) Going into source block triggers major mode switch, e. g. from Org-Mode to Elisp.
-  2) This triggers `pm--move-overlays` and inside it, `move-overlay`.
-  3) `move-overlay` works by removing an overlay from one buffer, and putting it into another.
-  4) So in result, we delete all overlays from Org-Mode base buffer, and transfer them to Elisp indirect buffer.
-  5) Non-focused window keeps displaying Org-Mode base buffer, and everything unfolds after overlay deletion.
-
-  - To avoid deletion of overlays, my solution creates a copy of each overlay in the previous buffer, and puts them in the next buffer. Overlays cannot exist in more than one buffer, so we must copy.
-  - I delete all overlays in the next buffer, before copying into it, to avoid endlessly creating overlay objects. Without this deletion, we quickly get overlay explosion, and Emacs freezes.
-  - `show-paren-match` overlays are not copied, because they get stuck forever if you switch between modes by clicking.
-  - `region` overlay is not copied, because it's not necessary, selection works OK without it.
-
-  The issue can be avoided by setting ~org-fold-core-style 'text-properties~, but I read that ~org-fold-core-style 'overlays~, is less buggy with poly-org. So I decided to stick with this fix instead of changing the setting.</div>]]></description>
-      <pubDate>Fri, 23 May 2025 23:44:07 +0000</pubDate><category>org</category>
     </item>
   </channel>
 </rss>

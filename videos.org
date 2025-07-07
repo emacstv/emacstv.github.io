@@ -3,6 +3,139 @@
 #+PROPERTY: header-args:emacs-lisp+   :eval no
 
 
+* Ep675 Golang vs Emacs Lisp Hashtable. Part 2
+:PROPERTIES:
+:DATE:     2025-07-06T04:24:44-07:00
+:DURATION: 1:12:40
+:YOUTUBE_URL: https://www.youtube.com/watch?v=HNoXOFtULqA
+:SPEAKERS: Xah Lee
+:END:
+  Notes at
+  http ://xahlee .info/talk_show/xah_talk_show_ep675.html
+  Copy the link, remove spaces, paste the link in browser tab.
+  Google Chrome and Firefox browsers censor websites by auto adding s in http and says the site Secure Connection Failed.
+  Use Brave Browser or Safari.
+
+* Markdown to Org: Ex-NeovimConf Speaker Converts Me | Theena Kumaragurunathan  :org:
+:PROPERTIES:
+:DATE:     2025-07-05T14:17:23-07:00
+:DURATION: 7:41
+:YOUTUBE_URL: https://www.youtube.com/watch?v=LW-WitUmgJg
+:SPEAKERS: linkarzu
+:END:
+  In this clip I ask Theena what his thoughts are in regards to markdown, Theena used to manage a Neovim config called OVIwrite, and that's where he did most of his writing. Not so long ago, he discovered Emacs and has then switched completely from Neovim to Emacs, so after talking in multiple NeovimConf events, he now uses emacs and org files as his preferred format for writing, he left the good old markdown behind.
+
+  Me on the other hand have no experience with org, but I do see the benefits, the variable font usage in a single file, and also variable font sizes amongst one of the few features.
+
+  Link to the full interview:
+  https://youtu.be/5W0bcoFkvLY
+
+  ---------------------------------------------------------------------------------------
+
+  If you're not a YouTube member yet, you can join here:
+  https://www.youtube.com/channel/UCrSIvbFncPSlK6AdwE2QboA/join
+
+  Join me in discord
+  https://discord.gg/NgqMgwwtMH
+
+  Start your setap 7 day free trial (my affiliate link)
+  https://setapp.sjv.io/QjKK1a
+
+  Start your 1password 14 day free trial  (my affiliate link)
+  https://www.dpbolvw.net/click-101327218-15917064
+
+  If you find this video helpful and want to support me
+  https://ko-fi.com/linkarzu
+
+  Follow me on twitter
+  https://x.com/link_arzu
+
+  My dotfiles (remember to star them)
+  https://github.com/linkarzu/dotfiles-latest
+
+* Efficient Multi-Project Hacking in Emacs - System Crafters Live!  :navigation:project:
+:PROPERTIES:
+:DATE:     2025-07-04T22:20:58-07:00
+:DURATION: 1:50:20
+:YOUTUBE_URL: https://www.youtube.com/watch?v=Ta2bR6fNwBQ
+:SPEAKERS: System Crafters
+:END:
+  In this stream, we'll discuss ways to use Emacs to efficiently hack on multiple projects at the same time, especially when those projects are related.  Let's see how we can maximize the value we get from project.el to create an efficient workflow!
+
+  SUPPORT THE CHANNEL:
+
+  👍 Support My Work: https://systemcrafters.net/how-to-help/#support-my-work
+  📰 Subscribe to the Newsletter: https://systemcrafters.net/newsletter/
+  👕 Check out the Store: https://systemcrafters.store
+  📘 Get Your Copy of Mastering Emacs: https://www.masteringemacs.org/r/systemcrafters?utm_source=yt&utm_medium=desc&utm_campaign=scme
+
+  SHOW NOTES:
+
+  https://systemcrafters.net/live-streams/july-4-2025/
+
+  JOIN THE COMMUNITY:
+
+  https://systemcrafters.net/community/ (Forum and IRC chat!)
+  https://fosstodon.org/@daviwil
+
+  MY CONFIGURATION:
+
+  (This site is currently down but will be back up soon!)
+
+  https://config.daviwil.com
+  https://config.daviwil.com/emacs
+  https://config.daviwil.com/systems (Guix)
+
+  OTHER SERIES:
+
+  - Emacs Essentials: https://www.youtube.com/watch?v=48JlgiBpw_I&list=PLEoMzSkcN8oPZvSdewHG8uApD7THlLLCV
+  - Emacs From Scratch: https://www.youtube.com/watch?v=74zOY-vgkyw&list=PLEoMzSkcN8oPH1au7H6B7bBJ4ZO7BXjSZ
+  - Emacs Tips: https://www.youtube.com/watch?v=wKTKmE1wLyw&list=PLEoMzSkcN8oMHJ6Xil1YdnYtlWd5hHZql
+  - Emacs Desktop Environment: https://www.youtube.com/watch?v=f7xB2fFk1tQ&list=PLEoMzSkcN8oNPbEMYEtswOVTvq7CVddCS
+  - Emacs IDE: https://www.youtube.com/watch?v=E-NAM9U5JYE&list=PLEoMzSkcN8oNvsrtk_iZSb94krGRofFjN
+  - Emacs Mail: https://www.youtube.com/watch?v=yZRyEhi4y44&list=PLEoMzSkcN8oM-kA19xOQc8s0gr0PpFGJQ
+  - Learning Emacs Lisp: https://www.youtube.com/watch?v=RQK_DaaX34Q&list=PLEoMzSkcN8oPQtn7FQEF3D7sroZbXuPZ7
+  - Craft Your System with GNU Guix: https://www.youtube.com/watch?v=iBaqOK75cho&list=PLEoMzSkcN8oNxnj7jm5V2ZcGc52002pQU
+
+  CREDITS:
+
+  Coriolis Effect by logos feat. stefsax, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/mseq/26296
+  reNovation by airtone, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/airtone/60674
+  ukeSounds by airtone, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/airtone/32655
+  Between Worlds (Instrumental) by Aussens@iter, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/tobias_weber/56664
+
+* Ep673 Format Python JavaScript Golang HTML CSS in Emacs, and Wolfram Language auto format  :coding:
+:PROPERTIES:
+:DATE:     2025-07-04T00:53:51-07:00
+:DURATION: 43:55
+:YOUTUBE_URL: https://www.youtube.com/watch?v=tEh-YEDkVDg
+:SPEAKERS: Xah Lee
+:END:
+  timestamp
+  01:34 format CSS code
+  06:37 format python code
+  11:47 format JavaScript code
+  18:11 format HTML code
+  20:48 format golang code
+
+  Notes at
+  http ://xahlee .info /talk_show/xah_talk_show_ep673.html
+  Copy the link, remove spaces, paste the link in browser tab.
+  Google Chrome and Firefox browsers censor websites by auto adding s in http and says the site Secure Connection Failed.
+  Use Brave Browser or Safari.
+* Ep672 Make Spell Checking in Emacs Windows Work Again, Part 2  :spelling:
+:PROPERTIES:
+:DATE:     2025-07-02T00:56:28-07:00
+:DURATION: 41:40
+:YOUTUBE_URL: https://www.youtube.com/watch?v=Sv65SKfkLZg
+:SPEAKERS: Xah Lee
+:END:
+  Notes at
+  http ://xahlee .info /talk_show/xah_talk_show_ep672.html
+  Copy the link, remove spaces, paste the link in browser tab.
+  Google Chrome and Firefox browsers censor websites by auto adding s in http and says the site Secure Connection Failed.
+  Use Brave Browser or Safari.
+
 * Emacs Package Development: The Emacs Reader (VI: v0.3.0 release and further triaging) - 6-29-2025, 2:55:40 PM
 :PROPERTIES:
 :DATE:     2025-06-29T17:13:05.453Z
@@ -60,6 +193,36 @@
   Copy the link, remove spaces, paste the link in browser tab.
   Google Chrome and Firefox browsers censor websites by auto adding s in http and says the site Secure Connection Failed.
   Use Brave Browser or Safari.
+
+* Bare-bones Emacs starter setup   :configuration:
+:PROPERTIES:
+:DATE:     2025-06-26T14:09:55-07:00
+:DURATION: 2:43
+:YOUTUBE_URL: https://www.youtube.com/watch?v=ZZcj5Uul6AA
+:SPEAKERS: Loose Leaf Learning
+:END:
+  Here's a very very basic config to make Emacs it look nice, in my opinion.
+
+  ```
+  ;; remove window decorations
+  (menu-bar-mode -1)
+  (tool-bar-mode -1)
+  (scroll-bar-mode -1)
+
+  (load-theme 'modus-vivendi)
+
+  ;; set mini-buffer completion mode
+  (fido-vertical-mode)
+
+  ;; change where file backups are created
+  (setq backup-directory-alist '(("." . "~/.emacs.d/backups")))
+  ```
+
+  0:04 open init file
+  0:20 remove bars
+  0:42 set color theme
+  0:57 minibuffer completion mode
+  2:08 backup files
 
 * Emacs AI plugins
 :PROPERTIES:
