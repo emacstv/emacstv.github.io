@@ -6,6 +6,281 @@
     <atom:link href="https://emacs.tv/videos.rss" rel="self" type="application/rss+xml" />
     <description>Emacs videos</description>
     <item>
+      <title>Writing Tools in Emacs - Emacs Writing Studio</title>
+      <link>https://www.youtube.com/watch?v=nX0-Sg90RIk</link>
+      <guid>https://www.youtube.com/watch?v=nX0-Sg90RIk</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=nX0-Sg90RIk">youtube</a><br><br>Emacs Writing Studio is a configuration of the GNU Emacs system for authors, students, researchers and anyone else who needs to manage written ideas.
+
+  This video accompanies the Emacs Writing Studio website and book, demonstrating various tools for writers.
+
+  Emacs Writing Studio Website: https://lucidmanager.org/productivity/denote-explore/
+
+  GitHub repository: https://github.com/pprevos/emacs-writing-studio/</div>]]></description>
+      <pubDate>Sun, 20 Jul 2025 04:36:02 +0000</pubDate><category>org</category>
+<category>writing</category>
+    </item>
+    <item>
+      <title>Is the Default Emacs Completion UI Good? - System Crafters Live!</title>
+      <link>https://www.youtube.com/watch?v=ze1J7MG0sFg</link>
+      <guid>https://www.youtube.com/watch?v=ze1J7MG0sFg</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=ze1J7MG0sFg">youtube</a><br><br>In this stream, we'll take a closer look at the default, in-box completion UI of Emacs to better understand its unique value and customize it to be more pleasant to use.
+
+  ,#gnu #emacs #completion #productivity
+
+  SUPPORT THE CHANNEL:
+
+  👍 Support My Work: https://systemcrafters.net/how-to-help/#support-my-work
+  📰 Subscribe to the Newsletter: https://systemcrafters.net/newsletter/
+  👕 Check out the Store: https://systemcrafters.store
+  📘 Get Your Copy of Mastering Emacs: https://www.masteringemacs.org/r/systemcrafters?utm_source=yt&utm_medium=desc&utm_campaign=scme
+
+  SHOW NOTES:
+
+  https://systemcrafters.net/live-streams/july-18-2025/
+
+  JOIN THE COMMUNITY:
+
+  https://systemcrafters.net/community/ (Forum and IRC chat!)
+  https://fosstodon.org/@daviwil
+
+  MY CONFIGURATION:
+
+  (This site is currently down but will be back up soon!)
+
+  https://config.daviwil.com
+  https://config.daviwil.com/emacs
+  https://config.daviwil.com/systems (Guix)
+
+  OTHER SERIES:
+
+  - Emacs Essentials: https://www.youtube.com/watch?v=48JlgiBpw_I&list=PLEoMzSkcN8oPZvSdewHG8uApD7THlLLCV
+  - Emacs From Scratch: https://www.youtube.com/watch?v=74zOY-vgkyw&list=PLEoMzSkcN8oPH1au7H6B7bBJ4ZO7BXjSZ
+  - Emacs Tips: https://www.youtube.com/watch?v=wKTKmE1wLyw&list=PLEoMzSkcN8oMHJ6Xil1YdnYtlWd5hHZql
+  - Emacs Desktop Environment: https://www.youtube.com/watch?v=f7xB2fFk1tQ&list=PLEoMzSkcN8oNPbEMYEtswOVTvq7CVddCS
+  - Emacs IDE: https://www.youtube.com/watch?v=E-NAM9U5JYE&list=PLEoMzSkcN8oNvsrtk_iZSb94krGRofFjN
+  - Emacs Mail: https://www.youtube.com/watch?v=yZRyEhi4y44&list=PLEoMzSkcN8oM-kA19xOQc8s0gr0PpFGJQ
+  - Learning Emacs Lisp: https://www.youtube.com/watch?v=RQK_DaaX34Q&list=PLEoMzSkcN8oPQtn7FQEF3D7sroZbXuPZ7
+  - Craft Your System with GNU Guix: https://www.youtube.com/watch?v=iBaqOK75cho&list=PLEoMzSkcN8oNxnj7jm5V2ZcGc52002pQU
+
+  CREDITS:
+
+  Coriolis Effect by logos feat. stefsax, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/mseq/26296
+  reNovation by airtone, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/airtone/60674
+  ukeSounds by airtone, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/airtone/32655
+  Between Worlds (Instrumental) by Aussens@iter, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/tobias_weber/56664</div>]]></description>
+      <pubDate>Sat, 19 Jul 2025 05:14:01 +0000</pubDate><category>completion</category>
+    </item>
+    <item>
+      <title>Emacs | Ask me about my Org Mode agenda</title>
+      <link>https://www.youtube.com/watch?v=2w0TxXmIomM</link>
+      <guid>https://www.youtube.com/watch?v=2w0TxXmIomM</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=2w0TxXmIomM">youtube</a><br><br>Bro, do you use the Org Mode agenda?  It's a great tool, but it has some quirks.  What kind of todo items are you tracking?
+
+  Read my blog post here:
+  https://chrismaiorana.com/ask-org-mode-agenda/
+
+  GET THE EMACS FOR WRITERS HANDBOOK HERE:
+  https://chris-maiorana.kit.com/products/emacs-for-writers</div>]]></description>
+      <pubDate>Fri, 18 Jul 2025 13:00:06 +0000</pubDate><category>org</category>
+    </item>
+    <item>
+      <title>Guile Stack Viewer, Metacommands in Arei, New Ares CLI, Custom Ports Backport | RDE Meetup #6</title>
+      <link>https://www.youtube.com/watch?v=VUnY1LY4Las</link>
+      <guid>https://www.youtube.com/watch?v=VUnY1LY4Las</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=VUnY1LY4Las">youtube</a><br><br>,#lisp #scheme #guile
+  This is a partial recording of RDE Meetup #6. It was a lot of exciting stuff.
+
+  Talk "Metacommands, Ares CLI and progress on Guile Debugger",  by Noé Lopez.
+  Talk "When Arei 1.0 release, custom-ports backport and stuff" by Andrew Tropin.
+  Disscussion "Let's share Ares/Arei with more Scheme hackers " by Pjotr Prins.
+
+  ,#linux #emacs #rde #guix
+
+  Reach me out for consulting or other fun stuff:
+  https://trop.in/contact
+
+  IRC Chat:
+  ,#tropin IRC channel at libera.chat.
+
+  Mastodon:
+  https://fosstodon.org/@abcdw
+
+  RDE and Arei Guile IDE projects:
+  https://sr.ht/~abcdw/rde
+  https://sr.ht/~abcdw/emacs-arei
+
+  https://github.com/abcdw/rde (mirror)
+
+  Mailing lists:
+  https://lists.sr.ht/~abcdw/</div>]]></description>
+      <pubDate>Fri, 18 Jul 2025 06:41:23 +0000</pubDate><category>arei</category>
+    </item>
+    <item>
+      <title>3 Ways to Manually Install Emacs Packages</title>
+      <link>https://www.youtube.com/watch?v=hABlN9b7K5A</link>
+      <guid>https://www.youtube.com/watch?v=hABlN9b7K5A</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=hABlN9b7K5A">youtube</a><br><br>My website: https://emacselements.com/
+  If you enjoy my videos please send me a donation via PayPal:
+  https://paypal.me/revrari</div>]]></description>
+      <pubDate>Sun, 13 Jul 2025 22:00:43 +0000</pubDate>
+    </item>
+    <item>
+      <title>Ep680 JSON in Emacs Lisp and Wolfram Language</title>
+      <link>https://www.youtube.com/watch?v=1UhN6bWL8IY</link>
+      <guid>https://www.youtube.com/watch?v=1UhN6bWL8IY</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=1UhN6bWL8IY">youtube</a><br><br>Notes at
+  http ://xahlee .info/talk_show/xah_talk_show_ep680.html
+  Copy the link, remove spaces, paste the link in browser tab.
+  Google Chrome and Firefox browsers censor websites by auto adding s in http and says the site Secure Connection Failed.
+  Use Brave Browser or Safari.</div>]]></description>
+      <pubDate>Sun, 13 Jul 2025 17:11:32 +0000</pubDate>
+    </item>
+    <item>
+      <title>C++ development in Emacs: clangd and eglot</title>
+      <link>https://www.youtube.com/watch?v=NRLzS0_8MBQ</link>
+      <guid>https://www.youtube.com/watch?v=NRLzS0_8MBQ</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=NRLzS0_8MBQ">youtube</a><br><br>Here's how to set up Emacs for a better C++ development experience, in my opinion.
+
+  clangd install instructions https://clangd.llvm.org/installation
+  clangd features https://clangd.llvm.org/features
+
+  eglot keybindings
+  (use-package eglot
+    :bind (:map eglot-mode-map
+         ("C-c l r" . eglot-rename)
+         ("C-c l a" . eglot-code-actions)
+         ("C-c l f" . eglot-format)))
+
+  if you're not using use-package
+  (define-key eglot-mode-map (kbd "C-c l r") 'eglot-rename)
+  (define-key eglot-mode-map (kbd "C-c l a") 'eglot-code-actions)
+  (define-key eglot-mode-map (kbd "C-c l f") 'eglot-format)</div>]]></description>
+      <pubDate>Sun, 13 Jul 2025 15:40:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>Updating to Emacs v30</title>
+      <link>https://www.youtube.com/watch?v=JpnloYaTZ1E</link>
+      <guid>https://www.youtube.com/watch?v=JpnloYaTZ1E</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=JpnloYaTZ1E">youtube</a><br><br></div>]]></description>
+      <pubDate>Sun, 13 Jul 2025 11:45:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Ep679 Emacs Lisp JSON, Serialize Idiocy, Crimes of Google Chrome, Microsoft Edge</title>
+      <link>https://www.youtube.com/watch?v=kJ-pxF3ijjs</link>
+      <guid>https://www.youtube.com/watch?v=kJ-pxF3ijjs</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=kJ-pxF3ijjs">youtube</a><br><br>timestamp
+      25:34 The Idiocy of the Jargon Serialization of the Object Oriented Programers.
+      33:38 The crime of Google Chrome</div>]]></description>
+      <pubDate>Sat, 12 Jul 2025 13:19:34 +0000</pubDate>
+    </item>
+    <item>
+      <title>showcase of outline-minor-mode and imenu in the eshell buffer</title>
+      <link>https://www.youtube.com/watch?v=f9mqPsQEwGM</link>
+      <guid>https://www.youtube.com/watch?v=f9mqPsQEwGM</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=f9mqPsQEwGM">youtube</a><br><br>(setq eshell-prompt-regexp "^.* λ ") ;; modify according to your prompt
+
+  (add-hook 'eshell-mode-hook 'outline-minor-mode)
+  (add-hook 'eshell-mode-hook (lambda () (setq-local outline-regexp (concat eshell-prompt-regexp ".*"))))
+  (add-hook 'eshell-mode-hook (lambda ()
+             (setq-local imenu-generic-expression `(("Prompt" ,(concat eshell-prompt-regexp "\\(.*\\)") 1)))))</div>]]></description>
+      <pubDate>Fri, 11 Jul 2025 08:44:03 +0000</pubDate><category>eshell</category>
+    </item>
+    <item>
+      <title>Emacs Magical Music Showcase (with EMMS, Embark, and Dired)</title>
+      <link>https://www.youtube.com/watch?v=jPqqKCYVGZg</link>
+      <guid>https://www.youtube.com/watch?v=jPqqKCYVGZg</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=jPqqKCYVGZg">youtube</a><br><br>(did you notice the backcronym in first 4 words)
+  A quick workflow example with a few popular Emacs utilities
+  More about Embark: https://karthinks.com/software/fifteen-ways-to-use-embark/
+  More about EMMS:
+  https://www.bardman.dev/technology/emms/</div>]]></description>
+      <pubDate>Fri, 11 Jul 2025 02:39:46 +0000</pubDate><category>emms</category>
+<category>dired</category>
+<category>embark</category>
+<category>music</category>
+    </item>
+    <item>
+      <title>Coding &quot;Static Site Generator&quot; | Emacs :: Rhhen :: Python | Pt. 2</title>
+      <link>https://www.youtube.com/watch?v=soJW1Ui02JM</link>
+      <guid>https://www.youtube.com/watch?v=soJW1Ui02JM</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=soJW1Ui02JM">youtube</a><br><br>I'm building a SSG in Python(3)
+  Join me :: Name suggestion are open!
+
+  https://www.youtube.com/@rhhen122
+  https://rhhen.xyz/</div>]]></description>
+      <pubDate>Thu, 10 Jul 2025 15:47:32 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Most Simple Emacs Mode to Interact With OpenAI/ChatGPT API  | lesson 11</title>
+      <link>https://www.youtube.com/watch?v=ZRhTFv2Bl-I</link>
+      <guid>https://www.youtube.com/watch?v=ZRhTFv2Bl-I</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=ZRhTFv2Bl-I">youtube</a><br><br>Free PDF and course 👉 https://tonyaldon.com/chatgpt-emacs-integration-course/
+
+  -----
+
+  We set up the *chatgpt* buffer to enter our prompts, positioning it neatly at the bottom of the frame for easy access. 🖥️ By defining chatgpt-mode, we customize this buffer's behavior and appearance, making it the perfect spot to interact with ChatGPT seamlessly within Emacs.
+
+  - Displaying the Prompt Buffer with chatgpt
+  - Defining chatgpt-mode
+  - Introducing chatgpt-model Variable
+  - Mode Line of the Prompt Buffer
+  - Executing chatgpt-mode Once
+  - Creating chatgpt-dir in chatgpt-mode
+  - Defining chatgpt-mode-map keymap
+
+  -----
+
+  Hi there! 👋 I'm Tony Aldon, a passionate Emacs enthusiast dedicated to helping you master Emacs and Emacs Lisp.
+
+  Join me on an exciting journey with the ChatGPT Emacs Integration Course and master the art of building a fully functional Emacs package from scratch.
+
+  🌟 Through
+
+  - 18 engaging lessons,
+  - 2.5 hours video content and
+  - 100 pages of PDF
+
+  you'll:
+
+  - Master Emacs Lisp: 🛠️ Customize and extend Emacs like a pro.
+  - Integrate ChatGPT Seamlessly: 🤖 Enhance your workflow with advanced AI features using the OpenAI API.
+
+  It can help if you know a little bit of Emacs Lisp, but this is not a requirement as we'll meticulously write, review, and comment on each line of code. 📝</div>]]></description>
+      <pubDate>Thu, 10 Jul 2025 13:27:50 +0000</pubDate><category>ai</category>
+    </item>
+    <item>
+      <title>Configuring Emacs</title>
+      <link>https://www.youtube.com/watch?v=45Y2kIXBjyc</link>
+      <guid>https://www.youtube.com/watch?v=45Y2kIXBjyc</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=45Y2kIXBjyc">youtube</a><br><br></div>]]></description>
+      <pubDate>Thu, 10 Jul 2025 05:26:45 +0000</pubDate><category>configuration</category>
+    </item>
+    <item>
+      <title>Fix to Longstanding Pdf-Tools Bug #emacs</title>
+      <link>https://www.youtube.com/watch?v=e8n31aylkNY</link>
+      <guid>https://www.youtube.com/watch?v=e8n31aylkNY</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=e8n31aylkNY">youtube</a><br><br>My website: https://emacselements.com/
+  If you enjoy my videos please send me a donation via PayPal:
+  https://paypal.me/revrari</div>]]></description>
+      <pubDate>Wed, 09 Jul 2025 11:08:46 +0000</pubDate>
+    </item>
+    <item>
+      <title>nobody knows that using Emacs in the terminal is so great</title>
+      <link>https://www.youtube.com/watch?v=2_6OxZDoWvw</link>
+      <guid>https://www.youtube.com/watch?v=2_6OxZDoWvw</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=2_6OxZDoWvw">youtube</a><br><br>In this video I briefly review my thoughts on using Emacs in the terminal and argue that it's worth trying out. I also provide some concrete steps to get started.
+
+  If you enjoy (or don't enjoy) this video format please let me know.
+
+  Contents
+  0:00 Intro
+  0:34 What we lose
+  1:09 What we gain
+  2:16 Simplicity
+  2:59 Steps you can take</div>]]></description>
+      <pubDate>Tue, 08 Jul 2025 05:39:02 +0000</pubDate><category>terminal</category>
+    </item>
+    <item>
       <title>Ep675 Golang vs Emacs Lisp Hashtable. Part 2</title>
       <link>https://www.youtube.com/watch?v=HNoXOFtULqA</link>
       <guid>https://www.youtube.com/watch?v=HNoXOFtULqA</guid>
@@ -436,213 +711,6 @@
       <guid>https://www.youtube.com/watch?v=dDZ9B297hxU</guid>
       <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=dDZ9B297hxU">youtube</a><br><br>Explains how I navigate in the buffer</div>]]></description>
       <pubDate>Mon, 16 Jun 2025 19:06:04 +0000</pubDate>
-    </item>
-    <item>
-      <title>Plan 9 Remote File Access from Emacs</title>
-      <link>https://www.youtube.com/watch?v=ntNJGguWaso</link>
-      <guid>https://www.youtube.com/watch?v=ntNJGguWaso</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=ntNJGguWaso">youtube</a><br><br>Details: https://lifeofpenguin.blogspot.com/2025/06/plan-9-remote-file-access-from-emacs.html</div>]]></description>
-      <pubDate>Mon, 16 Jun 2025 09:00:14 +0000</pubDate>
-    </item>
-    <item>
-      <title>Better Grep Defaults for Emacs</title>
-      <link>https://www.youtube.com/watch?v=osViM1W6wkM</link>
-      <guid>https://www.youtube.com/watch?v=osViM1W6wkM</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=osViM1W6wkM">youtube</a><br><br>My website: https://emacselements.com/
-  Follow me on Mastodon: https://mastodon.social/@revrari
-  If you enjoy my videos please send me a donation via PayPal:
-  https://paypal.me/revrari</div>]]></description>
-      <pubDate>Sun, 15 Jun 2025 22:01:02 +0000</pubDate>
-    </item>
-    <item>
-      <title>compile error right from a term in emacs</title>
-      <link>https://www.youtube.com/watch?v=yjLqgGgFnmM</link>
-      <guid>https://www.youtube.com/watch?v=yjLqgGgFnmM</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=yjLqgGgFnmM">youtube</a><br><br>Emacs can track compile errors for your program even when the compilation happened in a term.
-  This is good, because I'd rather compile in my shell than have emacs do all that.</div>]]></description>
-      <pubDate>Sat, 14 Jun 2025 21:43:37 +0000</pubDate>
-    </item>
-    <item>
-      <title>Browsing Reddit and HackerNews In Emacs</title>
-      <link>https://www.youtube.com/watch?v=ud3Gmxg5UZg</link>
-      <guid>https://www.youtube.com/watch?v=ud3Gmxg5UZg</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=ud3Gmxg5UZg">youtube</a><br><br>Let's see how we can nicely browse, search and read HackerNews (and Reddit) in Emacs.
-
-  https://github.com/thanhvg/emacs-hnreader
-  https://github.com/thanhvg/emacs-reddigg
-
-  https://github.com/agzam/consult-hn</div>]]></description>
-      <pubDate>Thu, 12 Jun 2025 23:29:58 +0000</pubDate>
-    </item>
-    <item>
-      <title>chatgpt-shell.el, by Álvaro Ramírez (BALISP)</title>
-      <link>https://www.youtube.com/watch?v=5iZRnPBnK-c</link>
-      <guid>https://www.youtube.com/watch?v=5iZRnPBnK-c</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=5iZRnPBnK-c">youtube</a><br><br>BALISP, the Bay Area Lisp & Scheme Users Group
-  https://balisp.org/
-  Sat 7 Jun 2025
-  Hacker Dojo
-  Mountain View, CA
-
-
-  Abstract
-
-  Álvaro Ramírez spoke about his Emacs Lisp package, chatgpt-shell.xel, which integrates ChatGPT, Gemini, Claude, LLAMA, etc. into Emacs.  Álvaro joined us via video from London.
-
-  Álvaro is a software engineer who contributes to many Emacs packages.</div>]]></description>
-      <pubDate>Thu, 12 Jun 2025 20:24:15 +0000</pubDate>
-    </item>
-    <item>
-      <title>The Emacs Org-Ai Package: Three Key Features #ai #chatgpt #dalle3</title>
-      <link>https://www.youtube.com/watch?v=U7KgTHQWl98</link>
-      <guid>https://www.youtube.com/watch?v=U7KgTHQWl98</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=U7KgTHQWl98">youtube</a><br><br>My website: https://emacselements.com/
-  Follow me on Mastodon: https://mastodon.social/@revrari
-  If you enjoy my videos please send me a donation via PayPal:
-  https://paypal.me/revrari</div>]]></description>
-      <pubDate>Wed, 11 Jun 2025 16:47:38 +0000</pubDate><category>org</category>
-<category>ai</category>
-    </item>
-    <item>
-      <title>setting up Emacs as an OpenRC service (and installing it on Alpine Linux)</title>
-      <link>https://www.youtube.com/watch?v=knrb4b1M74Y</link>
-      <guid>https://www.youtube.com/watch?v=knrb4b1M74Y</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=knrb4b1M74Y">youtube</a><br><br></div>]]></description>
-      <pubDate>Wed, 11 Jun 2025 11:12:03 +0000</pubDate>
-    </item>
-    <item>
-      <title>Emacs Micro Lesson 12 | Org mode subtree export</title>
-      <link>https://www.youtube.com/watch?v=ezonhD_sltU</link>
-      <guid>https://www.youtube.com/watch?v=ezonhD_sltU</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=ezonhD_sltU">youtube</a><br><br>What do you do if you're in a longer Org Mode document and you want to export one small part of it? You may be thinking, "Well, I'll just copy and paste that part into another document."  No!  You can do a subtree export. It's easy. I'll show you how. Let's get into it.</div>]]></description>
-      <pubDate>Tue, 10 Jun 2025 12:44:09 +0000</pubDate><category>org</category>
-    </item>
-    <item>
-      <title>Emacs Lucid vs GTK: Debunking the Lightweight Myth</title>
-      <link>https://www.youtube.com/watch?v=MKqNrREUkYI</link>
-      <guid>https://www.youtube.com/watch?v=MKqNrREUkYI</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=MKqNrREUkYI">youtube</a><br><br>My website: https://emacselements.com/
-  Follow me on Mastodon: https://mastodon.social/@revrari
-  If you enjoy my videos please send me a donation via PayPal:
-  https://paypal.me/revrari</div>]]></description>
-      <pubDate>Sun, 08 Jun 2025 22:00:30 +0000</pubDate>
-    </item>
-    <item>
-      <title>022 Ollama Buddy - Prototyping autocompletion #emacs #ollama</title>
-      <link>https://www.youtube.com/watch?v=szTtEv65XiE</link>
-      <guid>https://www.youtube.com/watch?v=szTtEv65XiE</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=szTtEv65XiE">youtube</a><br><br>Demonstrating a potential implementation for some autocompletion.
-
-  Select o:qwen2.5-coder:0.5b in configuration
-
-  (ollama-buddy-autocomplete-model "o:qwen2.5-coder:0.5b")
-
-  Load up my init file and through a test transient menu toggle on autocomplete and then set manual completion, lets see what happens.
-
-  I chose qwen2.5-coder:0.5b as it probably the fastest coding local LLM.
-
-  Basically looking to autocomplete bits and bobs within the init file.
-
-  https://melpa.org/#/ollama-buddy
-  https://github.com/captainflasmr/ollama-buddy
-
-  ,#emacs #ollama</div>]]></description>
-      <pubDate>Sat, 07 Jun 2025 10:03:22 +0000</pubDate>
-    </item>
-    <item>
-      <title>Save the Last Recorded Macro in Emacs to the Registry</title>
-      <link>https://www.youtube.com/watch?v=b3EAYskhvmo</link>
-      <guid>https://www.youtube.com/watch?v=b3EAYskhvmo</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=b3EAYskhvmo">youtube</a><br><br>```
-  (use-package session
-    :hook
-    (after-init . session-initialize)
-    :custom
-    (session-globals-include
-     '((kill-ring 10 nil)
-       (session-file-alist 100 t)
-       (file-name-history 200 nil)
-       search-ring
-       regexp-search-ring
-       (register-alist 100 t)))
-    (session-globals-exclude nil))  ;; Optional: clears exclusions
-  ```
-  My website: https://emacselements.com/
-  Follow me on Mastodon: https://mastodon.social/@revrari
-  If you enjoy my videos please send me a donation via PayPal:
-  https://paypal.me/revrari</div>]]></description>
-      <pubDate>Thu, 05 Jun 2025 22:00:51 +0000</pubDate>
-    </item>
-    <item>
-      <title>Ep663 emacs lisp coding, html show duplicate links</title>
-      <link>https://www.youtube.com/watch?v=eUTze3dJoIY</link>
-      <guid>https://www.youtube.com/watch?v=eUTze3dJoIY</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=eUTze3dJoIY">youtube</a><br><br>Notes at
-  http ://xahlee .info/talk_show/xah_talk_show_2025-06-03.html
-  Copy the link, remove spaces, paste the link in browser tab.
-  Google Chrome and Firefox browsers censor websites by auto adding s in http and says the site Secure Connection Failed.
-  Use Brave Browser or Safari.</div>]]></description>
-      <pubDate>Wed, 04 Jun 2025 10:48:45 +0000</pubDate>
-    </item>
-    <item>
-      <title>Emacs treesitter lexical analysis of javascript</title>
-      <link>https://www.youtube.com/watch?v=QZ7YEEBjO1o</link>
-      <guid>https://www.youtube.com/watch?v=QZ7YEEBjO1o</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=QZ7YEEBjO1o">youtube</a><br><br>Doing lexical analysis of javascript was slightly more difficult than C, which I did previously. But now it works!</div>]]></description>
-      <pubDate>Mon, 02 Jun 2025 12:04:27 +0000</pubDate><category>js</category>
-    </item>
-    <item>
-      <title>How I take notes in org-roam #emacs</title>
-      <link>https://www.youtube.com/watch?v=aU8Q8VbdnEU</link>
-      <guid>https://www.youtube.com/watch?v=aU8Q8VbdnEU</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=aU8Q8VbdnEU">youtube</a><br><br>Hihi~ Kiran here! Today I'm just making a little tutorial on how I make notes in Org-roam!
-
-  Hope it was helpful! thanks for watching!</div>]]></description>
-      <pubDate>Sun, 01 Jun 2025 19:53:24 +0000</pubDate><category>OrgRoam</category>
-<category>org</category>
-    </item>
-    <item>
-      <title>Agentic LLM use in Emacs using Model Context Protocol (MCP)</title>
-      <link>https://www.youtube.com/watch?v=Hkih7jaqOnE</link>
-      <guid>https://www.youtube.com/watch?v=Hkih7jaqOnE</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=Hkih7jaqOnE">youtube</a><br><br>Here's a demo using tools in Emacs with the LLMs of your choosing.  You can have any mix of "native" Emacs Lisp tools and MCP server tools using a combination of the gptel package and the mycp.el package.
-
-  00:00 Introduction
-  01:50 How to create tools in Emacs Lisp in gptel
-  08:35 Demo of gptel Emacs Lisp tools
-  18:00 Model Context Protocol and mcp.el  20:38 mcp.el - github page and configuration examples
-  26:00 Demo of gptel using MCP servers
-  42:20 Translate Claude Desktop mcp configs for mcp.el
-  45:15 mcp-server-lib.el - Write even your MCP servers in Emacs Lisp!
-
-  My configuration for mcp.el: https://github.com/gregoryg/emacs-gregoryg?tab=readme-ov-file#mcpel---model-context-protocol
-
-  My gptel configuration (excerpt at will): https://github.com/gregoryg/emacs-gregoryg?tab=readme-ov-file#gptel---llms-in-markdown-and-org-mode
-
-  My AIPIHKAL repo - prompts for LLMs, including the tool-use prompt I use here: https://github.com/gregoryg/AIPIHKAL
-
-  Gptel package: https://github.com/karthink/gptel
-
-  mcp.el package: https://github.com/lizqwerscott/mcp.el</div>]]></description>
-      <pubDate>Sat, 31 May 2025 20:18:08 +0000</pubDate><category>ai</category>
-    </item>
-    <item>
-      <title>Image Viewing Workflow with NSXIV + Emacs Lisp + Dired</title>
-      <link>https://www.youtube.com/watch?v=fEUQEK_uXk0</link>
-      <guid>https://www.youtube.com/watch?v=fEUQEK_uXk0</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=fEUQEK_uXk0">youtube</a><br><br>Showcase of my Emacs Lisp functions to interact with NSXIV image viewer
-
-  Links:
-  NSXIV Website: https://grfreire.github.io/nsxiv/
-  NSXIV GitHub: https://github.com/nsxiv/nsxiv
-
-  Code found in this video:
-  https://github.com/BardofSprites/.emacs.d/blob/master/bard-elisp/bard-media.el
-
-  Possible FAQ:
-  1. What is your setup??? 👉👉👉 https://bardman.dev/technology/gallery
-  2. DOTFILES???? 👉👉👉 https://github.com/BardofSprites/dotfiles-stow</div>]]></description>
-      <pubDate>Sat, 31 May 2025 06:45:42 +0000</pubDate><category>dired</category>
     </item>
   </channel>
 </rss>

@@ -1,5 +1,164 @@
 [
   {
+    "ITEM": "Writing Tools in Emacs - Emacs Writing Studio",
+    "DATE": "2025-07-19T21:36:02-07:00",
+    "DURATION": "19:21",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=nX0-Sg90RIk",
+    "SPEAKERS": "Peter Prevos",
+    "TAGS": [
+      "org",
+      "writing"
+    ],
+    "BODY": "Emacs Writing Studio is a configuration of the GNU Emacs system for authors, students, researchers and anyone else who needs to manage written ideas.\n\n  This video accompanies the Emacs Writing Studio website and book, demonstrating various tools for writers.\n\n  Emacs Writing Studio Website: https://lucidmanager.org/productivity/denote-explore/\n\n  GitHub repository: https://github.com/pprevos/emacs-writing-studio/"
+  },
+  {
+    "ITEM": "Is the Default Emacs Completion UI Good? - System Crafters Live!",
+    "DATE": "2025-07-18T22:14:01-07:00",
+    "DURATION": "1:53:34",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=ze1J7MG0sFg",
+    "SPEAKERS": "System Crafters",
+    "TAGS": [
+      "completion"
+    ],
+    "BODY": "In this stream, we'll take a closer look at the default, in-box completion UI of Emacs to better understand its unique value and customize it to be more pleasant to use.\n\n  ,#gnu #emacs #completion #productivity\n\n  SUPPORT THE CHANNEL:\n\n  👍 Support My Work: https://systemcrafters.net/how-to-help/#support-my-work\n  📰 Subscribe to the Newsletter: https://systemcrafters.net/newsletter/\n  👕 Check out the Store: https://systemcrafters.store\n  📘 Get Your Copy of Mastering Emacs: https://www.masteringemacs.org/r/systemcrafters?utm_source=yt&utm_medium=desc&utm_campaign=scme\n\n  SHOW NOTES:\n\n  https://systemcrafters.net/live-streams/july-18-2025/\n\n  JOIN THE COMMUNITY:\n\n  https://systemcrafters.net/community/ (Forum and IRC chat!)\n  https://fosstodon.org/@daviwil\n\n  MY CONFIGURATION:\n\n  (This site is currently down but will be back up soon!)\n\n  https://config.daviwil.com\n  https://config.daviwil.com/emacs\n  https://config.daviwil.com/systems (Guix)\n\n  OTHER SERIES:\n\n  - Emacs Essentials: https://www.youtube.com/watch?v=48JlgiBpw_I&list=PLEoMzSkcN8oPZvSdewHG8uApD7THlLLCV\n  - Emacs From Scratch: https://www.youtube.com/watch?v=74zOY-vgkyw&list=PLEoMzSkcN8oPH1au7H6B7bBJ4ZO7BXjSZ\n  - Emacs Tips: https://www.youtube.com/watch?v=wKTKmE1wLyw&list=PLEoMzSkcN8oMHJ6Xil1YdnYtlWd5hHZql\n  - Emacs Desktop Environment: https://www.youtube.com/watch?v=f7xB2fFk1tQ&list=PLEoMzSkcN8oNPbEMYEtswOVTvq7CVddCS\n  - Emacs IDE: https://www.youtube.com/watch?v=E-NAM9U5JYE&list=PLEoMzSkcN8oNvsrtk_iZSb94krGRofFjN\n  - Emacs Mail: https://www.youtube.com/watch?v=yZRyEhi4y44&list=PLEoMzSkcN8oM-kA19xOQc8s0gr0PpFGJQ\n  - Learning Emacs Lisp: https://www.youtube.com/watch?v=RQK_DaaX34Q&list=PLEoMzSkcN8oPQtn7FQEF3D7sroZbXuPZ7\n  - Craft Your System with GNU Guix: https://www.youtube.com/watch?v=iBaqOK75cho&list=PLEoMzSkcN8oNxnj7jm5V2ZcGc52002pQU\n\n  CREDITS:\n\n  Coriolis Effect by logos feat. stefsax, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/mseq/26296\n  reNovation by airtone, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/airtone/60674\n  ukeSounds by airtone, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/airtone/32655\n  Between Worlds (Instrumental) by Aussens@iter, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/tobias_weber/56664"
+  },
+  {
+    "ITEM": "Emacs | Ask me about my Org Mode agenda",
+    "DATE": "2025-07-18T06:00:06-07:00",
+    "DURATION": "5:49",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=2w0TxXmIomM",
+    "SPEAKERS": "Chris Maiorana",
+    "TAGS": [
+      "org"
+    ],
+    "BODY": "Bro, do you use the Org Mode agenda?  It's a great tool, but it has some quirks.  What kind of todo items are you tracking?\n\n  Read my blog post here:\n  https://chrismaiorana.com/ask-org-mode-agenda/\n\n  GET THE EMACS FOR WRITERS HANDBOOK HERE:\n  https://chris-maiorana.kit.com/products/emacs-for-writers"
+  },
+  {
+    "ITEM": "Guile Stack Viewer, Metacommands in Arei, New Ares CLI, Custom Ports Backport | RDE Meetup #6",
+    "DATE": "2025-07-17T23:41:23-07:00",
+    "DURATION": "26:34",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=VUnY1LY4Las",
+    "SPEAKERS": "Andrew Tropin",
+    "TAGS": [
+      "arei"
+    ],
+    "BODY": ",#lisp #scheme #guile\n  This is a partial recording of RDE Meetup #6. It was a lot of exciting stuff.\n\n  Talk \"Metacommands, Ares CLI and progress on Guile Debugger\",  by Noé Lopez.\n  Talk \"When Arei 1.0 release, custom-ports backport and stuff\" by Andrew Tropin.\n  Disscussion \"Let's share Ares/Arei with more Scheme hackers \" by Pjotr Prins.\n\n  ,#linux #emacs #rde #guix\n\n  Reach me out for consulting or other fun stuff:\n  https://trop.in/contact\n\n  IRC Chat:\n  ,#tropin IRC channel at libera.chat.\n\n  Mastodon:\n  https://fosstodon.org/@abcdw\n\n  RDE and Arei Guile IDE projects:\n  https://sr.ht/~abcdw/rde\n  https://sr.ht/~abcdw/emacs-arei\n\n  https://github.com/abcdw/rde (mirror)\n\n  Mailing lists:\n  https://lists.sr.ht/~abcdw/"
+  },
+  {
+    "ITEM": "3 Ways to Manually Install Emacs Packages",
+    "DATE": "2025-07-13T15:00:43-07:00",
+    "DURATION": "3:36",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=hABlN9b7K5A",
+    "SPEAKERS": "Emacs Elements",
+    "BODY": "My website: https://emacselements.com/\n  If you enjoy my videos please send me a donation via PayPal:\n  https://paypal.me/revrari"
+  },
+  {
+    "ITEM": "Ep680 JSON in Emacs Lisp and Wolfram Language",
+    "DATE": "2025-07-13T10:11:32-07:00",
+    "DURATION": "57:30",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=1UhN6bWL8IY",
+    "SPEAKERS": "Xah Lee",
+    "BODY": "Notes at\n  http ://xahlee .info/talk_show/xah_talk_show_ep680.html\n  Copy the link, remove spaces, paste the link in browser tab.\n  Google Chrome and Firefox browsers censor websites by auto adding s in http and says the site Secure Connection Failed.\n  Use Brave Browser or Safari."
+  },
+  {
+    "ITEM": "C++ development in Emacs: clangd and eglot",
+    "DATE": "2025-07-13T08:40:15-07:00",
+    "DURATION": "13:45",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=NRLzS0_8MBQ",
+    "SPEAKERS": "Loose Leaf Learning",
+    "BODY": "Here's how to set up Emacs for a better C++ development experience, in my opinion.\n\n  clangd install instructions https://clangd.llvm.org/installation\n  clangd features https://clangd.llvm.org/features\n\n  eglot keybindings\n  (use-package eglot\n    :bind (:map eglot-mode-map\n         (\"C-c l r\" . eglot-rename)\n         (\"C-c l a\" . eglot-code-actions)\n         (\"C-c l f\" . eglot-format)))\n\n  if you're not using use-package\n  (define-key eglot-mode-map (kbd \"C-c l r\") 'eglot-rename)\n  (define-key eglot-mode-map (kbd \"C-c l a\") 'eglot-code-actions)\n  (define-key eglot-mode-map (kbd \"C-c l f\") 'eglot-format)"
+  },
+  {
+    "ITEM": "Updating to Emacs v30",
+    "DATE": "2025-07-13T04:45:00-07:00",
+    "DURATION": "16:22",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=JpnloYaTZ1E",
+    "SPEAKERS": "Bruno Ribarić",
+    "BODY": ""
+  },
+  {
+    "ITEM": "Ep679 Emacs Lisp JSON, Serialize Idiocy, Crimes of Google Chrome, Microsoft Edge",
+    "DATE": "2025-07-12T06:19:34-07:00",
+    "DURATION": "1:06:40",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=kJ-pxF3ijjs",
+    "SPEAKERS": "Xah Lee",
+    "BODY": "timestamp\n      25:34 The Idiocy of the Jargon Serialization of the Object Oriented Programers.\n      33:38 The crime of Google Chrome"
+  },
+  {
+    "ITEM": "showcase of outline-minor-mode and imenu in the eshell buffer",
+    "DATE": "2025-07-11T01:44:03-07:00",
+    "DURATION": "2:27",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=f9mqPsQEwGM",
+    "SPEAKERS": "Arni",
+    "TAGS": [
+      "eshell"
+    ],
+    "BODY": "(setq eshell-prompt-regexp \"^.* λ \") ;; modify according to your prompt\n\n  (add-hook 'eshell-mode-hook 'outline-minor-mode)\n  (add-hook 'eshell-mode-hook (lambda () (setq-local outline-regexp (concat eshell-prompt-regexp \".*\"))))\n  (add-hook 'eshell-mode-hook (lambda ()\n             (setq-local imenu-generic-expression `((\"Prompt\" ,(concat eshell-prompt-regexp \"\\\\(.*\\\\)\") 1)))))"
+  },
+  {
+    "ITEM": "Emacs Magical Music Showcase (with EMMS, Embark, and Dired)",
+    "DATE": "2025-07-10T19:39:46-07:00",
+    "DURATION": "0:41",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=jPqqKCYVGZg",
+    "SPEAKERS": "bardman",
+    "TAGS": [
+      "emms",
+      "dired",
+      "embark",
+      "music"
+    ],
+    "BODY": "(did you notice the backcronym in first 4 words)\n  A quick workflow example with a few popular Emacs utilities\n  More about Embark: https://karthinks.com/software/fifteen-ways-to-use-embark/\n  More about EMMS:\n  https://www.bardman.dev/technology/emms/"
+  },
+  {
+    "ITEM": "Coding \"Static Site Generator\" | Emacs :: Rhhen :: Python | Pt. 2",
+    "DATE": "2025-07-10T08:47:32-07:00",
+    "DURATION": "47:38",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=soJW1Ui02JM",
+    "SPEAKERS": "rhhen122 Live | StabbieGD",
+    "BODY": "I'm building a SSG in Python(3)\n  Join me :: Name suggestion are open!\n\n  https://www.youtube.com/@rhhen122\n  https://rhhen.xyz/"
+  },
+  {
+    "ITEM": "The Most Simple Emacs Mode to Interact With OpenAI/ChatGPT API  | lesson 11",
+    "DATE": "2025-07-10T06:27:50-07:00",
+    "DURATION": "16:57",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=ZRhTFv2Bl-I",
+    "SPEAKERS": "Tony Aldon",
+    "TAGS": [
+      "ai"
+    ],
+    "BODY": "Free PDF and course 👉 https://tonyaldon.com/chatgpt-emacs-integration-course/\n\n  -----\n\n  We set up the *chatgpt* buffer to enter our prompts, positioning it neatly at the bottom of the frame for easy access. 🖥️ By defining chatgpt-mode, we customize this buffer's behavior and appearance, making it the perfect spot to interact with ChatGPT seamlessly within Emacs.\n\n  - Displaying the Prompt Buffer with chatgpt\n  - Defining chatgpt-mode\n  - Introducing chatgpt-model Variable\n  - Mode Line of the Prompt Buffer\n  - Executing chatgpt-mode Once\n  - Creating chatgpt-dir in chatgpt-mode\n  - Defining chatgpt-mode-map keymap\n\n  -----\n\n  Hi there! 👋 I'm Tony Aldon, a passionate Emacs enthusiast dedicated to helping you master Emacs and Emacs Lisp.\n\n  Join me on an exciting journey with the ChatGPT Emacs Integration Course and master the art of building a fully functional Emacs package from scratch.\n\n  🌟 Through\n\n  - 18 engaging lessons,\n  - 2.5 hours video content and\n  - 100 pages of PDF\n\n  you'll:\n\n  - Master Emacs Lisp: 🛠️ Customize and extend Emacs like a pro.\n  - Integrate ChatGPT Seamlessly: 🤖 Enhance your workflow with advanced AI features using the OpenAI API.\n\n  It can help if you know a little bit of Emacs Lisp, but this is not a requirement as we'll meticulously write, review, and comment on each line of code. 📝"
+  },
+  {
+    "ITEM": "Configuring Emacs",
+    "DATE": "2025-07-09T22:26:45-07:00",
+    "DURATION": "1:44:41",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=45Y2kIXBjyc",
+    "SPEAKERS": "AgamaZero",
+    "TAGS": [
+      "configuration"
+    ],
+    "BODY": ""
+  },
+  {
+    "ITEM": "Fix to Longstanding Pdf-Tools Bug #emacs",
+    "DATE": "2025-07-09T04:08:46-07:00",
+    "DURATION": "0:48",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=e8n31aylkNY",
+    "SPEAKERS": "Emacs Elements",
+    "BODY": "My website: https://emacselements.com/\n  If you enjoy my videos please send me a donation via PayPal:\n  https://paypal.me/revrari"
+  },
+  {
+    "ITEM": "nobody knows that using Emacs in the terminal is so great",
+    "DATE": "2025-07-07T22:39:02-07:00",
+    "DURATION": "5:18",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=2_6OxZDoWvw",
+    "SPEAKERS": "Jake B",
+    "TAGS": [
+      "terminal"
+    ],
+    "BODY": "In this video I briefly review my thoughts on using Emacs in the terminal and argue that it's worth trying out. I also provide some concrete steps to get started.\n\n  If you enjoy (or don't enjoy) this video format please let me know.\n\n  Contents\n  0:00 Intro\n  0:34 What we lose\n  1:09 What we gain\n  2:16 Simplicity\n  2:59 Steps you can take"
+  },
+  {
     "ITEM": "Ep675 Golang vs Emacs Lisp Hashtable. Part 2",
     "DATE": "2025-07-06T04:24:44-07:00",
     "DURATION": "1:12:40",
