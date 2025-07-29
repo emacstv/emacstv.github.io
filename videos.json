@@ -1,5 +1,74 @@
 [
   {
+    "ITEM": "Prot Asks: Ihor about maintaining Emacs Org mode, history, travels, and material science",
+    "DATE": "2025-07-26T10:41:08-07:00",
+    "DURATION": "1:21:30",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=ZrPtIGln5ps",
+    "SPEAKERS": "Protesilaos Stavrou",
+    "TAGS": [
+      "org",
+      "community"
+    ],
+    "BODY": "In this new video series, I talk to anybody who is interested to have a video call with me (so do contact me if you want!). The topics cover anything related to Emacs, technology, and life in general. More information in the announcement I posted: https://protesilaos.com/codelog/2025-07-10-prot-asks-chats-videos-proposal/.\n\n  Today I learnt from Ihor Radchenko what kind of work goes into maintaining the Emacs Org package. We discussed the process of contributing to Org and how the community is involved in the process. Other than the technicalities of Emacs, I asked Ihor about general interests in life. Some of those involve the study of history, which we explored in some further depth. Ihor has travelled and worked in various parts of the planet. I wanted to understand more about those experiences. Towards the end of our meeting, I wanted to gain insights into what \"material science\" is in practice.\n\n  More from Ihor listed on my website because the description here limits the character count: https://protesilaos.com/codelog/2025-07-26-prot-asks-ihor-emacs-org-maintainer-history-travel-material-science"
+  },
+  {
+    "ITEM": "Emacs Org mode as a LaTeX editor",
+    "DATE": "2025-07-26T00:24:56-07:00",
+    "DURATION": "24:27",
+    "YOUTUBE_URL": "https://youtu.be/jBdpnaHGJ88",
+    "SPEAKERS": "Peter Prevos",
+    "TAGS": [
+      "org",
+      "latex"
+    ],
+    "BODY": "Emacs Writing Studio is a configuration of the GNU Emacs system for authors, students, researchers and anyone else who needs to manage written ideas.\n\n  This video explains how to use Org mode as a LaTeX editor and export files to PDF.\n\n  Emacs Writing Studio Website: https://lucidmanager.org/tags/emacs/\n\n  GitHub repository: https://github.com/pprevos/emacs-writing-studio/"
+  },
+  {
+    "ITEM": "i switched to emacs for notetaking (and i'm never going back)",
+    "DATE": "2025-07-25T06:40:41-07:00",
+    "DURATION": "6:08",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=7A2GHGY0tGg",
+    "SPEAKERS": "Nicholas Sobolev",
+    "TAGS": [
+      "org",
+      "OrgRoam"
+    ],
+    "BODY": "emacs org roam is one of the best productivity apps ive used\n  if your a cs student or someone just interested in second brain note-taking systems give it a try!\n\n  my website/blog!: https://nicholassobolev.com/\n  syncthing video (by DistroTube): https://www.youtube.com/watch?v=i6LuV7Pl2YU"
+  },
+  {
+    "ITEM": "Ep685 Emacs Xah Fly Keys News, Function Keyword Parameter, and Random Rant",
+    "DATE": "2025-07-22T02:22:01-07:00",
+    "DURATION": "1:09:20",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=p9HuXV2HfH8",
+    "SPEAKERS": "Xah Lee",
+    "TAGS": [
+      "elisp"
+    ],
+    "BODY": "timestamp\n  04:02 Xah Fly Keys news, and demo in terminal\n  06:47 emacs lisp keyword parameters\n  09:42 emacs lisp xah-find-text-regex\n  14:44 emacs xah-dired-rename-space-to-underscore\n  15:25 emacs and xah-make-backup-and-save\n  15:42 wikesley scum copy my emacs lisp tutorial\n  17:01 am i a bot\n  21:01 glove 80 keyboard, ultimate hacking keyboard, svalboard\n  22:40 emacs encoding declaration\n  26:55 emacs lexical binding declaration\n  31:20 emacs demo of xah-find-text-regex\n  32:31 design your own keyboard. xah no-chord keyboard\n  39:46 my jacket, Nanjing Massacre\n  41:44 emacs god mode\n  44:07 one thousand articles on keyboard\n  50:23 persistent troll\n  54:27 Perl Priests, Tom Christiansen\n  57:21 perl sort, Schwartzian Transform\n  1:06:19 JavaScript sort sucked"
+  },
+  {
+    "ITEM": "Neovim vs Emacs | Roundtable w/ TJ DeVries, DistroTube, Greg Anders & Joshua Blais",
+    "DATE": "2025-07-20T04:29:54-07:00",
+    "DURATION": "1:44:11",
+    "YOUTUBE_URL": "https://youtu.be/SnhcXR9CKno",
+    "SPEAKERS": "linkarzu",
+    "TAGS": [
+      "community"
+    ],
+    "BODY": "Discussion between advanced and hardcore users of 2 similar, but very different worlds, the only 2 titans when it comes to text editing and life management: Neovim and Emacs.\n\n  TJ DeVries (CEO https://terminal.shop)\n   @teej_dv\n\n  Gregory Anders (Neovim Core Maintainer)\n  https://github.com/gpanders\n\n  DistroTube (Emacs Enthusiast and YouTuber)\n  @DistroTube\n\n  Joshua Blais (Emacs Evangelist https://joshblais.com)\n   @JoshuaBlais\n\n  If you're not a YouTube member yet, you can join here:\n  https://www.youtube.com/channel/UCrSIvbFncPSlK6AdwE2QboA/join\n\n  00:00:00 - Highlights\n  00:01:13 - Teej handing out a signed copy of the Neovim help manual to the CEO of cursor\n  00:02:31 - Agenda\n  00:03:03 - Who is TJ DeVries\n  00:03:51 - Who is Derek (DistroTube)\n  00:05:20 - Meet Gregory Anders, Neovim Core and Ghostty Terminal contributor\n  00:08:07 - The problem of not having terminal standards and trying to come to agreements\n  00:08:54 - Benefits of being a maintainer in both Neovim and Ghostty\n  00:10:01 - Speaking for tmux users here. We need Ghostty sessions\n  00:10:43 - terminal.shop not shipping coffee to Canada, simply because they don't like Canadians\n  00:11:00 - Who is Joshua Blais\n  00:11:33 - Josh's adventure with Neovim and going back to Emacs\n  00:12:39 - Gregory Anders Neovim and workflow demo\n  00:15:03 - Gregory now using Jujutsu instead of Git\n  00:16:05 - Gregory hates dealing with colorschemes\n  00:16:37 - Low contrast or high contrast colorschemes?\n  00:18:59 - Greg does not use a plugin manager, and his thoughts\n  00:20:16 - Evgeni Chasnovski (echasnovski mentioned) mini plugins, when the interview?\n  00:22:41 - Configuring Neovim with Fennel and not Lua\n  00:24:42 - Gregory's love for Lua, Brazil mentioned, but not in a good way\n  00:25:19 - Gregory nvim-parinfer plugin\n  00:26:04 - Gregory fennel-repl.nvim plugin\n  00:26:47 - How many hours have you put into your Neovim config?\n  00:29:48 - DistroTube workflow and Emacs demo\n  00:31:10 - Emacs variable font size\n  00:33:35 - Emacs Eshell\n  00:34:31 - Woman pages in Emacs\n  00:36:51 - Teej Neovim Worklow and tricks\n  00:38:08 - Teej saying he doesn't have anything against tmux, when he clearly does\n  00:39:14 - Prime showed us how to navigate with tmux sessions, how do you navigate projects without tmux?\n  00:41:33 - Ivy theme in telescope (comes from Emacs)\n  00:42:46 - Teej Dynamic Neovim and dad jokes generator\n  00:46:34 - Supermaven and Awesomewm\n  00:47:39 - Are there any other macOS users here?\n  00:48:04 - What's that yoga ball in the background Teej? balls.yoga site\n  00:49:23 - Joshua Blais emacs and workflow demo\n  00:49:45 - How Kovid Goyal does everything in the terminal, including the variable font size protocol\n  00:51:55 - How Joshua wrote a book in Emacs\n  00:52:18 - Sending an Email from Emacs\n  00:53:37 - Playing music in Emacs\n  00:53:58 - Leaking keys and sending REST requests in Emacs\n  00:54:25 - kulala.nvim plugin mentioned, as a postman alternative in Neovim\n  00:55:23 - Joshua created a Launcher in Emacs\n  00:55:55 - The problem with Emacs being single threaded\n  00:57:54 - What do you do outside Emacs?\n  00:59:14 - Gregory's thoughts on Emacs, as a Neovim user\n  01:04:16 - Whats up with people and org mode\n  01:05:33 - In a world of all these new AI editors, we gotta stay united with our old tools\n  01:06:29 - DT's thoughts on Neovim as an Emacs user\n  01:08:00 - DTs thoughts on default emacs keybindings vs vim keybinds\n  01:09:05 - Org mode in Neovim is not just the same\n  01:11:18 - TJ's thoughts on Emacs\n  01:14:04 - Neovim and Emacs on the same team? Can we get along?\n  01:15:01 - Joshua Blais thoughts on Neovim\n  01:15:38 - Greg playing doom in Ghostty\n  01:18:04 - Shoutout to the doom emacs creator, Henrik Lissner\n  01:18:52 - Asking TJ what he recommends someone just starting, neovim or emacs\n  01:20:26 - TJ: Neovim distro or no distro?\n  01:20:54 - Teej and Gregory love auto-updating plugins at startup, fax\n  01:22:15 - How often to update Neovim plugins?\n  01:23:22 - DT recommendation on someone just starting\n  01:24:06 - Gregory recommendations on someone just starting\n  01:26:25 - Joshua Blais recommendation on someone just starting\n  01:26:51 - If you're a macOS user, check out kindaVim\n  01:30:13 - Greg, how is maintaining 2 open source projects?\n  01:30:41 - Are we still live?\n  01:31:39 - Kovid Goyal has single handedly solved so many terminal problems\n  01:34:15 - Who started the GPU accelerated terminal paradigm, kovid or the alacritty guys?\n  01:34:56 - Any final words or thoughts?\n  01:35:59 - Can linux and macos be friends too?\n  01:37:51 - Greg thoughts on daily driving linux\n  01:41:37 - Are 365 days of learning nix worth to re-deploy your computer every 10 years?\n\n  ,#linkarzu #neovim #emacs #macos #linux"
+  },
+  {
+    "ITEM": "Introducing Org mode exports - Emacs Writing Studio",
+    "DATE": "2025-07-19T23:45:52-07:00",
+    "DURATION": "11:10",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=NwDOKkwtJ34",
+    "SPEAKERS": "Peter Prevos",
+    "TAGS": [
+      "org"
+    ],
+    "BODY": "Emacs Writing Studio is a configuration of the GNU Emacs system for authors, students, researchers and anyone else who needs to manage written ideas.\n\n  This video explains the basic principles of exporting Org mode files to HTML.\n\n  Emacs Writing Studio Website: https://lucidmanager.org/tags/emacs/\n\n  GitHub repository: https://github.com/pprevos/emacs-writing-studio/"
+  },
+  {
     "ITEM": "Writing Tools in Emacs - Emacs Writing Studio",
     "DATE": "2025-07-19T21:36:02-07:00",
     "DURATION": "19:21",

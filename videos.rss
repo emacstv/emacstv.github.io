@@ -6,6 +6,180 @@
     <atom:link href="https://emacs.tv/videos.rss" rel="self" type="application/rss+xml" />
     <description>Emacs videos</description>
     <item>
+      <title>Prot Asks: Ihor about maintaining Emacs Org mode, history, travels, and material science</title>
+      <link>https://www.youtube.com/watch?v=ZrPtIGln5ps</link>
+      <guid>https://www.youtube.com/watch?v=ZrPtIGln5ps</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=ZrPtIGln5ps">youtube</a><br><br>In this new video series, I talk to anybody who is interested to have a video call with me (so do contact me if you want!). The topics cover anything related to Emacs, technology, and life in general. More information in the announcement I posted: https://protesilaos.com/codelog/2025-07-10-prot-asks-chats-videos-proposal/.
+
+  Today I learnt from Ihor Radchenko what kind of work goes into maintaining the Emacs Org package. We discussed the process of contributing to Org and how the community is involved in the process. Other than the technicalities of Emacs, I asked Ihor about general interests in life. Some of those involve the study of history, which we explored in some further depth. Ihor has travelled and worked in various parts of the planet. I wanted to understand more about those experiences. Towards the end of our meeting, I wanted to gain insights into what "material science" is in practice.
+
+  More from Ihor listed on my website because the description here limits the character count: https://protesilaos.com/codelog/2025-07-26-prot-asks-ihor-emacs-org-maintainer-history-travel-material-science</div>]]></description>
+      <pubDate>Sat, 26 Jul 2025 17:41:08 +0000</pubDate><category>org</category>
+<category>community</category>
+    </item>
+    <item>
+      <title>Emacs Org mode as a LaTeX editor</title>
+      <link>https://youtu.be/jBdpnaHGJ88</link>
+      <guid>https://youtu.be/jBdpnaHGJ88</guid>
+      <description><![CDATA[<div id="content"><a href="https://youtu.be/jBdpnaHGJ88">youtube</a><br><br>Emacs Writing Studio is a configuration of the GNU Emacs system for authors, students, researchers and anyone else who needs to manage written ideas.
+
+  This video explains how to use Org mode as a LaTeX editor and export files to PDF.
+
+  Emacs Writing Studio Website: https://lucidmanager.org/tags/emacs/
+
+  GitHub repository: https://github.com/pprevos/emacs-writing-studio/</div>]]></description>
+      <pubDate>Sat, 26 Jul 2025 07:24:56 +0000</pubDate><category>org</category>
+<category>latex</category>
+    </item>
+    <item>
+      <title>i switched to emacs for notetaking (and i&apos;m never going back)</title>
+      <link>https://www.youtube.com/watch?v=7A2GHGY0tGg</link>
+      <guid>https://www.youtube.com/watch?v=7A2GHGY0tGg</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=7A2GHGY0tGg">youtube</a><br><br>emacs org roam is one of the best productivity apps ive used
+  if your a cs student or someone just interested in second brain note-taking systems give it a try!
+
+  my website/blog!: https://nicholassobolev.com/
+  syncthing video (by DistroTube): https://www.youtube.com/watch?v=i6LuV7Pl2YU</div>]]></description>
+      <pubDate>Fri, 25 Jul 2025 13:40:41 +0000</pubDate><category>org</category>
+<category>OrgRoam</category>
+    </item>
+    <item>
+      <title>Ep685 Emacs Xah Fly Keys News, Function Keyword Parameter, and Random Rant</title>
+      <link>https://www.youtube.com/watch?v=p9HuXV2HfH8</link>
+      <guid>https://www.youtube.com/watch?v=p9HuXV2HfH8</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=p9HuXV2HfH8">youtube</a><br><br>timestamp
+  04:02 Xah Fly Keys news, and demo in terminal
+  06:47 emacs lisp keyword parameters
+  09:42 emacs lisp xah-find-text-regex
+  14:44 emacs xah-dired-rename-space-to-underscore
+  15:25 emacs and xah-make-backup-and-save
+  15:42 wikesley scum copy my emacs lisp tutorial
+  17:01 am i a bot
+  21:01 glove 80 keyboard, ultimate hacking keyboard, svalboard
+  22:40 emacs encoding declaration
+  26:55 emacs lexical binding declaration
+  31:20 emacs demo of xah-find-text-regex
+  32:31 design your own keyboard. xah no-chord keyboard
+  39:46 my jacket, Nanjing Massacre
+  41:44 emacs god mode
+  44:07 one thousand articles on keyboard
+  50:23 persistent troll
+  54:27 Perl Priests, Tom Christiansen
+  57:21 perl sort, Schwartzian Transform
+  1:06:19 JavaScript sort sucked</div>]]></description>
+      <pubDate>Tue, 22 Jul 2025 09:22:01 +0000</pubDate><category>elisp</category>
+    </item>
+    <item>
+      <title>Neovim vs Emacs | Roundtable w/ TJ DeVries, DistroTube, Greg Anders &amp; Joshua Blais</title>
+      <link>https://youtu.be/SnhcXR9CKno</link>
+      <guid>https://youtu.be/SnhcXR9CKno</guid>
+      <description><![CDATA[<div id="content"><a href="https://youtu.be/SnhcXR9CKno">youtube</a><br><br>Discussion between advanced and hardcore users of 2 similar, but very different worlds, the only 2 titans when it comes to text editing and life management: Neovim and Emacs.
+
+  TJ DeVries (CEO https://terminal.shop)
+   @teej_dv
+
+  Gregory Anders (Neovim Core Maintainer)
+  https://github.com/gpanders
+
+  DistroTube (Emacs Enthusiast and YouTuber)
+  @DistroTube
+
+  Joshua Blais (Emacs Evangelist https://joshblais.com)
+   @JoshuaBlais
+
+  If you're not a YouTube member yet, you can join here:
+  https://www.youtube.com/channel/UCrSIvbFncPSlK6AdwE2QboA/join
+
+  00:00:00 - Highlights
+  00:01:13 - Teej handing out a signed copy of the Neovim help manual to the CEO of cursor
+  00:02:31 - Agenda
+  00:03:03 - Who is TJ DeVries
+  00:03:51 - Who is Derek (DistroTube)
+  00:05:20 - Meet Gregory Anders, Neovim Core and Ghostty Terminal contributor
+  00:08:07 - The problem of not having terminal standards and trying to come to agreements
+  00:08:54 - Benefits of being a maintainer in both Neovim and Ghostty
+  00:10:01 - Speaking for tmux users here. We need Ghostty sessions
+  00:10:43 - terminal.shop not shipping coffee to Canada, simply because they don't like Canadians
+  00:11:00 - Who is Joshua Blais
+  00:11:33 - Josh's adventure with Neovim and going back to Emacs
+  00:12:39 - Gregory Anders Neovim and workflow demo
+  00:15:03 - Gregory now using Jujutsu instead of Git
+  00:16:05 - Gregory hates dealing with colorschemes
+  00:16:37 - Low contrast or high contrast colorschemes?
+  00:18:59 - Greg does not use a plugin manager, and his thoughts
+  00:20:16 - Evgeni Chasnovski (echasnovski mentioned) mini plugins, when the interview?
+  00:22:41 - Configuring Neovim with Fennel and not Lua
+  00:24:42 - Gregory's love for Lua, Brazil mentioned, but not in a good way
+  00:25:19 - Gregory nvim-parinfer plugin
+  00:26:04 - Gregory fennel-repl.nvim plugin
+  00:26:47 - How many hours have you put into your Neovim config?
+  00:29:48 - DistroTube workflow and Emacs demo
+  00:31:10 - Emacs variable font size
+  00:33:35 - Emacs Eshell
+  00:34:31 - Woman pages in Emacs
+  00:36:51 - Teej Neovim Worklow and tricks
+  00:38:08 - Teej saying he doesn't have anything against tmux, when he clearly does
+  00:39:14 - Prime showed us how to navigate with tmux sessions, how do you navigate projects without tmux?
+  00:41:33 - Ivy theme in telescope (comes from Emacs)
+  00:42:46 - Teej Dynamic Neovim and dad jokes generator
+  00:46:34 - Supermaven and Awesomewm
+  00:47:39 - Are there any other macOS users here?
+  00:48:04 - What's that yoga ball in the background Teej? balls.yoga site
+  00:49:23 - Joshua Blais emacs and workflow demo
+  00:49:45 - How Kovid Goyal does everything in the terminal, including the variable font size protocol
+  00:51:55 - How Joshua wrote a book in Emacs
+  00:52:18 - Sending an Email from Emacs
+  00:53:37 - Playing music in Emacs
+  00:53:58 - Leaking keys and sending REST requests in Emacs
+  00:54:25 - kulala.nvim plugin mentioned, as a postman alternative in Neovim
+  00:55:23 - Joshua created a Launcher in Emacs
+  00:55:55 - The problem with Emacs being single threaded
+  00:57:54 - What do you do outside Emacs?
+  00:59:14 - Gregory's thoughts on Emacs, as a Neovim user
+  01:04:16 - Whats up with people and org mode
+  01:05:33 - In a world of all these new AI editors, we gotta stay united with our old tools
+  01:06:29 - DT's thoughts on Neovim as an Emacs user
+  01:08:00 - DTs thoughts on default emacs keybindings vs vim keybinds
+  01:09:05 - Org mode in Neovim is not just the same
+  01:11:18 - TJ's thoughts on Emacs
+  01:14:04 - Neovim and Emacs on the same team? Can we get along?
+  01:15:01 - Joshua Blais thoughts on Neovim
+  01:15:38 - Greg playing doom in Ghostty
+  01:18:04 - Shoutout to the doom emacs creator, Henrik Lissner
+  01:18:52 - Asking TJ what he recommends someone just starting, neovim or emacs
+  01:20:26 - TJ: Neovim distro or no distro?
+  01:20:54 - Teej and Gregory love auto-updating plugins at startup, fax
+  01:22:15 - How often to update Neovim plugins?
+  01:23:22 - DT recommendation on someone just starting
+  01:24:06 - Gregory recommendations on someone just starting
+  01:26:25 - Joshua Blais recommendation on someone just starting
+  01:26:51 - If you're a macOS user, check out kindaVim
+  01:30:13 - Greg, how is maintaining 2 open source projects?
+  01:30:41 - Are we still live?
+  01:31:39 - Kovid Goyal has single handedly solved so many terminal problems
+  01:34:15 - Who started the GPU accelerated terminal paradigm, kovid or the alacritty guys?
+  01:34:56 - Any final words or thoughts?
+  01:35:59 - Can linux and macos be friends too?
+  01:37:51 - Greg thoughts on daily driving linux
+  01:41:37 - Are 365 days of learning nix worth to re-deploy your computer every 10 years?
+
+  ,#linkarzu #neovim #emacs #macos #linux</div>]]></description>
+      <pubDate>Sun, 20 Jul 2025 11:29:54 +0000</pubDate><category>community</category>
+    </item>
+    <item>
+      <title>Introducing Org mode exports - Emacs Writing Studio</title>
+      <link>https://www.youtube.com/watch?v=NwDOKkwtJ34</link>
+      <guid>https://www.youtube.com/watch?v=NwDOKkwtJ34</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=NwDOKkwtJ34">youtube</a><br><br>Emacs Writing Studio is a configuration of the GNU Emacs system for authors, students, researchers and anyone else who needs to manage written ideas.
+
+  This video explains the basic principles of exporting Org mode files to HTML.
+
+  Emacs Writing Studio Website: https://lucidmanager.org/tags/emacs/
+
+  GitHub repository: https://github.com/pprevos/emacs-writing-studio/</div>]]></description>
+      <pubDate>Sun, 20 Jul 2025 06:45:52 +0000</pubDate><category>org</category>
+    </item>
+    <item>
       <title>Writing Tools in Emacs - Emacs Writing Studio</title>
       <link>https://www.youtube.com/watch?v=nX0-Sg90RIk</link>
       <guid>https://www.youtube.com/watch?v=nX0-Sg90RIk</guid>
@@ -612,105 +786,6 @@
   If you enjoy my videos please send me a donation via PayPal:
   https://paypal.me/revrari</div>]]></description>
       <pubDate>Mon, 23 Jun 2025 08:01:52 +0000</pubDate>
-    </item>
-    <item>
-      <title>Interesting Grep Commands in Emacs</title>
-      <link>https://www.youtube.com/watch?v=GR3T6ZH33g0</link>
-      <guid>https://www.youtube.com/watch?v=GR3T6ZH33g0</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=GR3T6ZH33g0">youtube</a><br><br>My website: https://emacselements.com/
-  Follow me on Mastodon: https://mastodon.social/@revrari
-  If you enjoy my videos please send me a donation via PayPal:
-  https://paypal.me/revrari</div>]]></description>
-      <pubDate>Sun, 22 Jun 2025 20:19:27 +0000</pubDate>
-    </item>
-    <item>
-      <title>What&apos;s Special About &apos;M-x shell&apos; in Emacs? - System Crafters Live!</title>
-      <link>https://www.youtube.com/watch?v=xqf6exp7wlI</link>
-      <guid>https://www.youtube.com/watch?v=xqf6exp7wlI</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=xqf6exp7wlI">youtube</a><br><br>In this stream, we'll take at the 'shell' feature in Emacs to try and understand what makes it unique compared to other built-in options like Eshell and ansi-term.  We'll also take a look at how 'shell' is integrated with other packages like project.el and a community package called 'multishell'.
-
-  ,#gnu #emacs #shell #bash #programming
-
-  SUPPORT THE CHANNEL:
-
-  👍 Support My Work: https://systemcrafters.net/how-to-help/#support-my-work
-  📰 Subscribe to the Newsletter: https://systemcrafters.net/newsletter/
-  👕 Check out the Store: https://systemcrafters.store
-  📘 Get Your Copy of Mastering Emacs: https://www.masteringemacs.org/r/systemcrafters?utm_source=yt&utm_medium=desc&utm_campaign=scme
-
-  SHOW NOTES:
-
-  https://systemcrafters.net/live-streams/june-20-2025/
-
-  JOIN THE COMMUNITY:
-
-  https://systemcrafters.net/community/ (Forum and IRC chat!)
-  https://fosstodon.org/@daviwil
-
-  MY CONFIGURATION:
-
-  (This site is currently down but will be back up soon!)
-
-  https://config.daviwil.com
-  https://config.daviwil.com/emacs
-  https://config.daviwil.com/systems (Guix)
-
-  OTHER SERIES:
-
-  - Emacs Essentials: https://www.youtube.com/watch?v=48JlgiBpw_I&list=PLEoMzSkcN8oPZvSdewHG8uApD7THlLLCV
-  - Emacs From Scratch: https://www.youtube.com/watch?v=74zOY-vgkyw&list=PLEoMzSkcN8oPH1au7H6B7bBJ4ZO7BXjSZ
-  - Emacs Tips: https://www.youtube.com/watch?v=wKTKmE1wLyw&list=PLEoMzSkcN8oMHJ6Xil1YdnYtlWd5hHZql
-  - Emacs Desktop Environment: https://www.youtube.com/watch?v=f7xB2fFk1tQ&list=PLEoMzSkcN8oNPbEMYEtswOVTvq7CVddCS
-  - Emacs IDE: https://www.youtube.com/watch?v=E-NAM9U5JYE&list=PLEoMzSkcN8oNvsrtk_iZSb94krGRofFjN
-  - Emacs Mail: https://www.youtube.com/watch?v=yZRyEhi4y44&list=PLEoMzSkcN8oM-kA19xOQc8s0gr0PpFGJQ
-  - Learning Emacs Lisp: https://www.youtube.com/watch?v=RQK_DaaX34Q&list=PLEoMzSkcN8oPQtn7FQEF3D7sroZbXuPZ7
-  - Craft Your System with GNU Guix: https://www.youtube.com/watch?v=iBaqOK75cho&list=PLEoMzSkcN8oNxnj7jm5V2ZcGc52002pQU
-
-  CREDITS:
-
-  Coriolis Effect by logos feat. stefsax, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/mseq/26296
-  reNovation by airtone, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/airtone/60674
-  ukeSounds by airtone, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/airtone/32655
-  Between Worlds (Instrumental) by Aussens@iter, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/tobias_weber/56664</div>]]></description>
-      <pubDate>Sat, 21 Jun 2025 04:54:44 +0000</pubDate>
-    </item>
-    <item>
-      <title>Have Emacs Start in a *Notes* Buffer</title>
-      <link>https://www.youtube.com/watch?v=Ecp3eNgk9yk</link>
-      <guid>https://www.youtube.com/watch?v=Ecp3eNgk9yk</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=Ecp3eNgk9yk">youtube</a><br><br>My website: https://emacselements.com/
-  Follow me on Mastodon: https://mastodon.social/@revrari
-  If you enjoy my videos please send me a donation via PayPal:
-  https://paypal.me/revrari</div>]]></description>
-      <pubDate>Fri, 20 Jun 2025 02:59:29 +0000</pubDate>
-    </item>
-    <item>
-      <title>Org-mode pour les études (Emacs)</title>
-      <link>https://www.youtube.com/watch?v=skc-PZ4TenI</link>
-      <guid>https://www.youtube.com/watch?v=skc-PZ4TenI</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=skc-PZ4TenI">youtube</a><br><br>,#emacs #orgmode #productivity #studentsuccess #pc #informatique #desktop #freecourse</div>]]></description>
-      <pubDate>Thu, 19 Jun 2025 20:51:32 +0000</pubDate><category>org</category>
-    </item>
-    <item>
-      <title>Curious and Obsessive | My Emacs For Writers handbook</title>
-      <link>https://www.youtube.com/watch?v=naTirHAl9l8</link>
-      <guid>https://www.youtube.com/watch?v=naTirHAl9l8</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=naTirHAl9l8">youtube</a><br><br>Finally, after many years of using Emacs for writing, I have assembled what I believe are the key points necessary to take any non-programmer writer gently by the hand into Emacs.
-
-  DOWNLOAD HERE:
-  https://chris-maiorana.kit.com/products/emacs-for-writers
-
-  This handbook goes ALL THE WAY from “Why plain text” to exporting your Org Mode files to crisp, standard manuscript Microsoft Word formatted documents for the writer’s market.
-
-  If you are a technical writer, blogger, copywriter, novelist, or just a weekend short story writer like yours truly, Emacs is the superior composition and editing tool you need to more easily get your ideas out of your head and into the world.</div>]]></description>
-      <pubDate>Wed, 18 Jun 2025 12:05:03 +0000</pubDate>
-    </item>
-    <item>
-      <title>Emacs buffer navigation</title>
-      <link>https://www.youtube.com/watch?v=dDZ9B297hxU</link>
-      <guid>https://www.youtube.com/watch?v=dDZ9B297hxU</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=dDZ9B297hxU">youtube</a><br><br>Explains how I navigate in the buffer</div>]]></description>
-      <pubDate>Mon, 16 Jun 2025 19:06:04 +0000</pubDate>
     </item>
   </channel>
 </rss>
