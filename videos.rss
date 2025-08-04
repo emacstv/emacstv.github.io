@@ -6,6 +6,191 @@
     <atom:link href="https://emacs.tv/videos.rss" rel="self" type="application/rss+xml" />
     <description>Emacs videos</description>
     <item>
+      <title>Introducting vecdb for Emacs</title>
+      <link>https://www.youtube.com/watch?v=qzXMU3Yu3gA</link>
+      <guid>https://www.youtube.com/watch?v=qzXMU3Yu3gA</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=qzXMU3Yu3gA">youtube</a><br><br>GNU ELPA: https://elpa.gnu.org/packages/vecdb.html
+  Github: https://github.com/ahyatt/vecdb</div>]]></description>
+      <pubDate>Sun, 03 Aug 2025 22:08:51 +0000</pubDate>
+    </item>
+    <item>
+      <title>Emacs: A Deep Dive into Its Internals</title>
+      <link>https://www.youtube.com/watch?v=lGKTYaRBgmk</link>
+      <guid>https://www.youtube.com/watch?v=lGKTYaRBgmk</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=lGKTYaRBgmk">youtube</a><br><br>Curious why Emacs still thrives in 2025? This video dives deep into its internals — from Emacs Lisp and C primitives to display engines and performance tuning. It’s not just an editor; it’s a programmable platform built by and for its community.
+
+  My website: https://emacselements.com/
+  If you enjoy my videos please send me a donation via PayPal:
+  https://paypal.me/revrari</div>]]></description>
+      <pubDate>Sun, 03 Aug 2025 22:00:06 +0000</pubDate>
+    </item>
+    <item>
+      <title>Emacs Org mode as a word processor: Emacs Writing Studio</title>
+      <link>https://www.youtube.com/watch?v=2cACd5i4iU4</link>
+      <guid>https://www.youtube.com/watch?v=2cACd5i4iU4</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=2cACd5i4iU4">youtube</a><br><br>Emacs Writing Studio is a configuration of the GNU Emacs system for authors, students, researchers and anyone else who needs to manage written ideas.
+
+  This video explains how to use Org mode as a word processor and export your writing to ODT, DOCx or PDF format.
+
+  Emacs Writing Studio Website: https://lucidmanager.org/tags/emacs/
+
+  GitHub repository: https://github.com/pprevos/emacs-writing-studio/</div>]]></description>
+      <pubDate>Sun, 03 Aug 2025 03:36:27 +0000</pubDate>
+    </item>
+    <item>
+      <title>How I would manually generate my current default emacs setup (usually it is in an init file)</title>
+      <link>https://www.youtube.com/watch?v=U_kXkS2hKxk</link>
+      <guid>https://www.youtube.com/watch?v=U_kXkS2hKxk</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=U_kXkS2hKxk">youtube</a><br><br>I show how I set up my default emacs configuration, touching upon some less-frequently known emacs features.</div>]]></description>
+      <pubDate>Fri, 01 Aug 2025 20:44:18 +0000</pubDate>
+    </item>
+    <item>
+      <title>Deep-Dive with Prot: Emacs, Philosophy, Debian, Life &amp; Open-Source Ethics</title>
+      <link>https://www.youtube.com/watch?v=b4nV0jCHwGQ</link>
+      <guid>https://www.youtube.com/watch?v=b4nV0jCHwGQ</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=b4nV0jCHwGQ">youtube</a><br><br>In this chat, I sit down with Protesilaos Stavrou. philosopher, programmer and the voice behind some of the most thoughtful Emacs content on the internet. We go back and forth between Neovim and Emacs, both of us show how we use each one of the tools and share a few tips and tricks
+
+  Prot YouTube channel:  @protesilaos
+  Prot's Website: https://protesilaos.com
+  Donate to Prot in GitHub: https://github.com/sponsors/protesilaos
+
+  ------------------------------------------------------------------
+
+  If you're not a YouTube member yet, you can join here:
+  https://www.youtube.com/channel/UCrSIvbFncPSlK6AdwE2QboA/join
+
+  Join me in discord
+  https://discord.gg/NgqMgwwtMH
+
+  Follow me on twitter
+  https://x.com/link_arzu
+
+  00:00:00 - Highlights
+  00:01:15 - "Neovim vs Emacs" video is how I heard about Prot
+  00:01:40 - VIDEO: Neovim vs Emacs
+  00:02:24 - Wildfires in Cyprus July 2025
+  00:04:42 - Prot's Legendary Intro, and where did it come from
+  00:05:44 - Where is Cyprus in the world map?
+  00:06:42 - Are you originally from Cyprus?
+  00:07:20 - Football, university, working in politics, website
+  00:10:01 - What are you, a philosopher, programmer or what?
+  00:12:05 - What is your main medium, website or youtube?
+  00:13:45 - Why did you decide to get started with YouTube?
+  00:14:51 - Did you receive formal education as a programmer? How did all this computer stuff got started
+  00:16:44 - Thoughts on Windows and macOS?
+  00:18:39 - Prot asks me if I prefer macOS or Linux
+  00:19:37 - Prot uses Debian, like a real chad. He was in Arch before
+  00:22:00 - Any issues with outdated packages in Debian? What about security updates?
+  00:23:07 - Thoughts on flatpaks
+  00:23:57 - What's the difference between open source and free software
+  00:27:40 - Thoughts on supporting open source maintainers
+  00:29:07 - I (linkarzu) feel open source like a 1 way relationship in which the maintainer has to give and not expect anything in return?
+  00:33:18 - Remove the stigma when a free software maintainer asks for money
+  00:34:45 - What are your thoughts on Neovim?
+  00:36:05 - Images in Neovim, variable font size in terminals hopefully soon
+  00:36:30 - VIDEO: Kovid Goyal (Kitty and Calibre creator)
+  00:37:42 - The importance of having an integrated computing environment
+  00:38:55 - What are the different ways of working with emacs? Evil, space, traditional, what do you recommend?
+  00:42:02 - What about using the ctrl key with emacs?
+  00:42:52 - Give default emacs a fair chance
+  00:44:38 - Did you remap your Ctrl key?
+  00:45:40 - Thoughts on homerow mods, Prot's keyboard
+  00:46:54 - VIDEO: Kanata keyboard mapper full config
+  00:48:13 - The delay in homerow mods and false positives
+  00:50:44 - The long spacebar on laptops does not make sense
+  00:51:32 - Why a light theme if we live in a dark theme world? Demo modus-operandi, modus-vivendi and other themes
+  00:56:05 - In a video you mentioned you prefer taking notes in plain text and switch to org when needed
+  00:58:57 - Let the dogs out, thoughts on Markdown and org
+  01:02:11 - Paste images in AVIF inside Neovim, also view images
+  01:02:48 - Some folks think that viewing images in Neovim is not useful
+  01:05:04 - Create private or public GitHub repo from within Neovim and extending outside to your Operating System
+  01:08:58 - Prot demo on org: email, calendar, and way more
+  01:14:55 - How long is your emacs config? 18,000 lines
+  01:15:51 - Magit git client, allows you to also merge, issues, PRs
+  01:16:57 - How do you get notifications in Emacs, for example for emails? notmuch-indicator
+  01:19:56 - Packages for auto-formatting and moving around parentheses
+  01:23:36 - Neovim demo on how I manage tasks and fold headings, emacs demo as well
+  01:26:52 - VIDEO: Theena betrayed the Neovim community (just kidding, I love Theena) and switched to Emacs
+  01:28:00 - Prot uses multiple emacs frames
+  01:30:28 - Are emacs frames like tmux sessions?
+  01:32:12 - How I navigate projects with tmux on the neovim side
+  01:34:37 - You can put emacs frames in different workspaces
+  01:36:09 - The beauty of organizing your life in org mode, email and calendar
+  01:40:53 - What is LISP?
+  01:42:00 - Fennel to write LISP but convert it to Lua
+  01:43:00 - I have heard about issues with Single threading in emacs, can you elaborate on that?
+  01:45:04 - One potential problem could be if you use emacs as a window manager
+  01:46:49 - What are your thoughts on alcohol and substance abuse?
+  01:55:47 - What are your thoughts on a supreme being?
+  02:10:03 - People who are really loud about their values, usually are compensating
+  02:11:00 - Thoughts on physical activity
+  02:13:18 - Thoughts on material objects
+  02:16:10 - Let's see the puppies
+  02:16:42 - Thoughts on AI
+  02:18:29 - Do you use qwerty or colemak?
+  02:19:00 - What is the best way to support you monetarily?
+  02:20:45 - Be mindful on what you are doing on your computer but also in life
+
+  ,#neovim #emacs #linux #macos</div>]]></description>
+      <pubDate>Fri, 01 Aug 2025 12:01:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>Prot Asks: Rudy about Emacs for game development, Lisp hacking, and learning</title>
+      <link>https://www.youtube.com/watch?v=9eC1kgq4mzA</link>
+      <guid>https://www.youtube.com/watch?v=9eC1kgq4mzA</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=9eC1kgq4mzA">youtube</a><br><br>In this new video series, I talk to anybody who is interested to have a video call with me (so do contact me if you want!). The topics cover anything related to Emacs, technology, and life in general. More information in the announcement I posted: https://protesilaos.com/codelog/2025-07-10-prot-asks-chats-videos-proposal/.
+
+  For this meeting, I learnt from Rudy about a bunch of geeky and fun issues. We discussed what it means to be "living in Emacs". It takes a certain mindset to experiment with your tools and to understand what is going on. You eventually push against the boundaries because you take things to their full potential. Our talk covers bugs and some in-development feature of Org mode. Then we explore more themes that speak to the hacker's heart: Scheme and Fennel for developing games within certain constraints, simple cooking, experimenting with pizza, and more!</div>]]></description>
+      <pubDate>Wed, 30 Jul 2025 17:13:39 +0000</pubDate>
+    </item>
+    <item>
+      <title>Building log verbosity control UI for Ares/Arei Guile Scheme IDE</title>
+      <link>https://www.youtube.com/watch?v=vnK60c8S7yw</link>
+      <guid>https://www.youtube.com/watch?v=vnK60c8S7yw</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=vnK60c8S7yw">youtube</a><br><br>I was asked a few times how to disable logging in Ares. I guess it's time to finally implement a way to control the logging verbosity :)
+
+  ,#scheme #lisp #ide #guile
+
+  My site and blog:
+  https://trop.in
+  https://trop.in/blog
+
+  Reach me out here:
+  https://trop.in/contact
+
+  IRC Chat:
+  ,#tropin IRC channel at libera.chat.
+
+  Mastodon:
+  https://fosstodon.org/@abcdw
+
+  RDE and Arei Guile IDE projects:
+  https://sr.ht/~abcdw/rde
+  https://sr.ht/~abcdw/emacs-arei
+
+  https://github.com/abcdw/rde (mirror)
+
+  Mailing lists:
+  https://lists.sr.ht/~abcdw/</div>]]></description>
+      <pubDate>Tue, 29 Jul 2025 19:15:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>Modern Emacs Part 1: Consult, Marginalia, Vertico, Orderless and Embark - VOD</title>
+      <link>https://www.youtube.com/watch?v=0OuF6PLkzsQ</link>
+      <guid>https://www.youtube.com/watch?v=0OuF6PLkzsQ</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=0OuF6PLkzsQ">youtube</a><br><br>VOD Installing and checking out the main features of consult, marginalia, vertico, orderless and embark in Emacs.
+
+  00:00 Introduction and rambling
+  20:53 Marginalia
+  24:40 VSCode users don't have nyan cat
+  25:25 Vertico
+  31:05 Orderless
+  40:05 Embark
+  49:40 Putting things together
+  1:15:50 Surfing Blogs</div>]]></description>
+      <pubDate>Tue, 29 Jul 2025 08:22:47 +0000</pubDate>
+    </item>
+    <item>
       <title>Prot Asks: Ihor about maintaining Emacs Org mode, history, travels, and material science</title>
       <link>https://www.youtube.com/watch?v=ZrPtIGln5ps</link>
       <guid>https://www.youtube.com/watch?v=ZrPtIGln5ps</guid>
@@ -455,6 +640,13 @@
       <pubDate>Tue, 08 Jul 2025 05:39:02 +0000</pubDate><category>terminal</category>
     </item>
     <item>
+      <title>Perfect Speech to Text in Emacs</title>
+      <link>https://www.youtube.com/watch?v=bTU9ctFtyBA</link>
+      <guid>https://www.youtube.com/watch?v=bTU9ctFtyBA</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=bTU9ctFtyBA">youtube</a><br><br>In this video I demonstrate how to achieve perfect speech-to-text transcription in Emacs using whisper.cpp and sox. Speak directly into any Emacs buffer and your text will be typed up automatically. Use C-c v to start speech to text and C-g to end. The complete code and setup instructions are available on my website: https://emacselements.com/</div>]]></description>
+      <pubDate>Tue, 08 Jul 2025 04:09:02 +0000</pubDate>
+    </item>
+    <item>
       <title>Ep675 Golang vs Emacs Lisp Hashtable. Part 2</title>
       <link>https://www.youtube.com/watch?v=HNoXOFtULqA</link>
       <guid>https://www.youtube.com/watch?v=HNoXOFtULqA</guid>
@@ -615,177 +807,6 @@
   ■概要
   https://phoomu.com/articles/20250628.html</div>]]></description>
       <pubDate>Sat, 28 Jun 2025 02:43:05 +0000</pubDate>
-    </item>
-    <item>
-      <title>Xah Talk Show Ep669 emacs lisp and random</title>
-      <link>https://www.youtube.com/watch?v=6eWWQvlnaFg</link>
-      <guid>https://www.youtube.com/watch?v=6eWWQvlnaFg</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=6eWWQvlnaFg">youtube</a><br><br>emacs lisp coding and random.
-  you ask and i answer.
-
-  Notes at
-  http ://xahlee .info /talk_show/xah_talk_show_ep669.html
-  Copy the link, remove spaces, paste the link in browser tab.
-  Google Chrome and Firefox browsers censor websites by auto adding s in http and says the site Secure Connection Failed.
-  Use Brave Browser or Safari.</div>]]></description>
-      <pubDate>Fri, 27 Jun 2025 07:07:48 +0000</pubDate>
-    </item>
-    <item>
-      <title>Bare-bones Emacs starter setup</title>
-      <link>https://www.youtube.com/watch?v=ZZcj5Uul6AA</link>
-      <guid>https://www.youtube.com/watch?v=ZZcj5Uul6AA</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=ZZcj5Uul6AA">youtube</a><br><br>Here's a very very basic config to make Emacs it look nice, in my opinion.
-
-  ```
-  ;; remove window decorations
-  (menu-bar-mode -1)
-  (tool-bar-mode -1)
-  (scroll-bar-mode -1)
-
-  (load-theme 'modus-vivendi)
-
-  ;; set mini-buffer completion mode
-  (fido-vertical-mode)
-
-  ;; change where file backups are created
-  (setq backup-directory-alist '(("." . "~/.emacs.d/backups")))
-  ```
-
-  0:04 open init file
-  0:20 remove bars
-  0:42 set color theme
-  0:57 minibuffer completion mode
-  2:08 backup files</div>]]></description>
-      <pubDate>Thu, 26 Jun 2025 21:09:55 +0000</pubDate><category>configuration</category>
-    </item>
-    <item>
-      <title>Emacs AI plugins</title>
-      <link>https://www.youtube.com/watch?v=n-HB49gIQTE</link>
-      <guid>https://www.youtube.com/watch?v=n-HB49gIQTE</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=n-HB49gIQTE">youtube</a><br><br>Special thanks to my Patreon patrons:
-
-  - Frederick Rowland
-  - Alexander Kulnev
-  - AnonMe
-  - Long Nguyen
-  - Sreyan Chakravarty
-  - Nam Anh
-  - duck
-  - Naur
-  - KKR
-  - Randy Jordan
-  - Kenn
-  - manoj
-  - Rafael
-  - Abdullah Al-Kheshen
-  - Friction
-  - Koorosh
-  - Wilson
-  - Parker
-  - bhanu jampala
-
-  Coding videos have moved to my other channel: https://www.youtube.com/@The_Ant_Farm
-
-  You can join my Patreon at https://patreon.com/ants_are_everywhere.
-
-  Thanks for watching :)
-
-  Join Discord at: https://discord.gg/YNtU8Yw7yT
-  My Mastodon address is: https://mathstodon.xyz/@ants_are_everywhere</div>]]></description>
-      <pubDate>Thu, 26 Jun 2025 14:46:54 +0000</pubDate>
-    </item>
-    <item>
-      <title>Emacs Org Mode Date Range Calculated 2025_06_26_08:31:09</title>
-      <link>https://youtu.be/NgqxeT4jT5k</link>
-      <guid>https://youtu.be/NgqxeT4jT5k</guid>
-      <description><![CDATA[<div id="content"><a href="https://youtu.be/NgqxeT4jT5k">youtube</a><br><br>In this video, you will see, how easily you could find the date range value of two different dates in Emacs org mode file.
-
-  ,#linux #linuxadmin #sysadmin #opensource #Gentoo #Debian #Slackware #research
-  ,#linuxkernel #kernel #gnu #Linux #GNU
-
-  Buy Me A Coffee: https://www.buymeacoffee.com/unixbhaskar
-  Patreon: https://www.patreon.com/unixbhaskar
-  Paypal: https://paypal.me/linuxbhaskar
-
-  You can also find me :
-
-  GitHub: https://github.com/unixbhaskar
-
-  Reddit: https://www.reddit.com/user/unixbhaskar
-
-  Blogs: https://unixbhaskar.wordpress.com
-
-  Twitter: https://twitter.com/unixbhaskar
-
-  Linkedin: https://linkedin.com/in/unixbhaskar
-
-  Vimeo: https://vimeo.com/unixbhaskar
-
-  Goodreads: https://goodreads.com/unixbhaskar</div>]]></description>
-      <pubDate>Thu, 26 Jun 2025 03:38:29 +0000</pubDate><category>org</category>
-    </item>
-    <item>
-      <title>Using Emacs Org-Babel instead of Jupyter(Lab) Notebooks</title>
-      <link>https://www.youtube.com/watch?v=jezMi0QI7G8</link>
-      <guid>https://www.youtube.com/watch?v=jezMi0QI7G8</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=jezMi0QI7G8">youtube</a><br><br>Shows how to configure org-babel mode in emacs in order to emulate or surpass the functionality of jupyter notebooks:
-  emacs: https://www.gnu.org/software/emacs/
-  org-babel: https://orgmode.org/worg/org-contrib/babel/intro.html</div>]]></description>
-      <pubDate>Wed, 25 Jun 2025 12:06:03 +0000</pubDate><category>org</category>
-    </item>
-    <item>
-      <title>#EXTENDEDCUT damaru+doug merritt on #emacs, #meditation, edrx&amp;#39;s #eev #lispygopherclimate</title>
-      <link>https://communitymedia.video/w/hTjTR5cwshdWP7DX3VqWjB</link>
-      <guid>https://communitymedia.video/w/hTjTR5cwshdWP7DX3VqWjB</guid>
-      <description><![CDATA[<div id="content"><a href="https://communitymedia.video/w/hTjTR5cwshdWP7DX3VqWjB">peertube</a><br><br>We talk with DJ Damaru of the Evolution Revolution podcast and Doug Merritt of (many places) about their computer useages over the ages, orbitting the topic of emacs for writers. Meditation and spi...</div>]]></description>
-      <pubDate>Wed, 25 Jun 2025 01:40:34 +0000</pubDate>
-    </item>
-    <item>
-      <title>Emacs org mode changelog for your github repositories</title>
-      <link>https://www.youtube.com/watch?v=qkGPgK5rYa4</link>
-      <guid>https://www.youtube.com/watch?v=qkGPgK5rYa4</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=qkGPgK5rYa4">youtube</a><br><br>Using emacs org model with src blocks we will create a changelog for your github repositories, showing the git hash, commit message, time and date of the commit and the repository status
-
-  You can also set a todo status on the git repo in emacs to indicate the machine you have made the changes on,
-  so you know which other machines you need to pull the changes to, you can then add a todo entry showing you have pulled the changes to that machine
-
-  We with be using noweb to simplify the code and pass in variables for the local path to the git repo, from the src code block for each repo
-
-  And we will wrap the results in a quote block so they are rendered on github as well
-
-  changelog git repository
-  https://github.com/NapoleonWils0n/changelog
-
-  show the git sha sum of local and remote git repositories
-  https://github.com/NapoleonWils0n/cerberus/blob/master/git/show-sha-sum.org</div>]]></description>
-      <pubDate>Mon, 23 Jun 2025 21:23:14 +0000</pubDate><category>org</category>
-    </item>
-    <item>
-      <title>How to Install Emacs on Windows 11</title>
-      <link>https://www.youtube.com/watch?v=b_Fu4OnHLXc</link>
-      <guid>https://www.youtube.com/watch?v=b_Fu4OnHLXc</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=b_Fu4OnHLXc">youtube</a><br><br>In this video, we’re going to learn how to install and use Emacs on Windows 11. It’s a free text editor that’s still under development and widely loved by Lisp programmers.
-
-  Download Emacs Text Editor: https://www.gnu.org/software/emacs/
-
-  Read the Full Guide 👇
-  https://thecoderworld.com/install-emacs-text-editor-on-windows-11/
-
-  Have a different tech issue? Looking for a troubleshooting guide? Visit👇
-  https://thecoderworld.com/
-
-  For Business Inquiries Email at - contact@thecoderworld.com</div>]]></description>
-      <pubDate>Mon, 23 Jun 2025 16:07:55 +0000</pubDate><category>install</category>
-    </item>
-    <item>
-      <title>Emacs Auto-Completion with Company Mode</title>
-      <link>https://www.youtube.com/watch?v=hVA7KXDSUws</link>
-      <guid>https://www.youtube.com/watch?v=hVA7KXDSUws</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=hVA7KXDSUws">youtube</a><br><br>My website: https://emacselements.com/
-  Follow me on Mastodon: https://mastodon.social/@revrari
-  If you enjoy my videos please send me a donation via PayPal:
-  https://paypal.me/revrari</div>]]></description>
-      <pubDate>Mon, 23 Jun 2025 08:01:52 +0000</pubDate>
     </item>
   </channel>
 </rss>
