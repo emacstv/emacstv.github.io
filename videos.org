@@ -3,6 +3,157 @@
 #+PROPERTY: header-args:emacs-lisp+   :eval no
 
 
+* Emacs PDF-Tools Tips You Probably Don’t Know #pdftools #emacs #navigation
+:PROPERTIES:
+:DATE:     2025-08-10T15:00:05-07:00
+:DURATION: 15:44
+:YOUTUBE_URL: https://www.youtube.com/watch?v=rTtLu4QAT2I
+:SPEAKERS: Emacs Elements
+:END:
+  In this guide Discover powerful but lesser-known features of the Emacs package PDF-Tools. I walk through tips like using virtual buffers, metadata display, and navigating quickly with registers and history. I also share my personal configuration and favourite keybindings. Perfect for anyone looking to get more out of reading and managing PDFs in Emacs with PDF-Tools.
+
+  https://emacselements.com/pdf-tools-settings.html
+* emacs package dev v2532864955
+:PROPERTIES:
+:DATE:     2025-08-10T09:33:54-07:00
+:DURATION: 2:02:03
+:YOUTUBE_URL: https://www.youtube.com/watch?v=nto_2pmCytg
+:SPEAKERS: Mochar
+:END:
+
+
+* Prot Asks: PizzaTorque about Emacs for programming, linguistics, art and community
+:PROPERTIES:
+:DATE:     2025-08-09T23:18:08-07:00
+:DURATION: 1:34:45
+:YOUTUBE_URL: https://www.youtube.com/watch?v=-g8o0M9CRkA
+:SPEAKERS: Protesilaos Stavrou
+:END:
+  In this new video series, I talk to anybody who is interested to have a video call with me (so do contact me if you want!). The topics cover anything related to Emacs, technology, and life in general. More here: https://protesilaos.com/prot-asks/.
+
+  Today I learn from PizzaTorque about how Emacs is used for programming in the field of data science. We discuss the kind of infrastructure Emacs has for dealing with various programming languages and how the experience is. Emacs as a note-taking tool is also something we consider. Then the discussion shifts to linguistics and relevant cultural as well as political considerations. We frequently draw parallels with Emacs. After that we talk about Emacs more in terms of lifestyle and art, commenting on how it helps us develop certain qualities that apply to other parts of our life. We conclude with a conversation on community and an individual's outlook, tying it all together.
+
+  PizzaTorque does video streams on programming-related topics, while using Emacs. Here is the YouTube channel: https://www.youtube.com/@PizzaTorque
+
+* Emacs | Org File Includes SO Awesome
+:PROPERTIES:
+:DATE:     2025-08-08T09:39:38-07:00
+:DURATION: 7:07
+:YOUTUBE_URL: https://www.youtube.com/watch?v=hzdL7WNoP2M
+:SPEAKERS: Chris Maiorana
+:END:
+  Org mode includes let you suck content from other sources to strengthen the collective power of your document!  We're going to get into this so come on in and pay attention.
+
+  EMACS FOR WRITERS HANDBOOK:
+  https://chrismaiorana.com/the-emacs-for-writers-handbook-is-available-now-and-ever/
+
+  ,#emacs
+
+* GNU Emacs for Beginners 🚀 | Setup, Tour & Programming with Emacs on Fedora Linux!
+:PROPERTIES:
+:DATE:     2025-08-08T00:00:48-07:00
+:DURATION: 48:30
+:YOUTUBE_URL: https://www.youtube.com/watch?v=pPMspoL7m_k
+:SPEAKERS: ojamboshop
+:END:
+  🚀 Start using GNU Emacs like a pro — even as a total beginner!
+  In this beginner-friendly screencast, you'll learn how to install, configure, and use GNU Emacs on Fedora Linux. Discover why developers love this open-source powerhouse and how you can start coding efficiently with it.
+
+  👉 Emacs is more than just a text editor — it's a full development environment, task manager, and writing tool all in one!
+
+  💻 What You’ll Learn in This Video:
+
+  What GNU Emacs is and why it's so powerful
+
+  How to install Emacs on Fedora Linux
+
+  A first look at the Emacs interface
+
+  Basic navigation, editing, and saving files
+
+  Tips for customizing Emacs for programmers
+
+  🔗 Related Links
+  📝 Full article on GNU Emacs (WordPress):
+  https://ojambo.com/emacs-30-1-advanced-editor-review
+
+  📚 My Programming Books on Amazon:
+  https://www.amazon.com/stores/Edward-Ojambo/author/B0D94QM76N
+
+  🎓 Courses & Training:
+  https://ojamboshop.com/product-category/course
+
+  👨‍🏫 1-on-1 Programming Help:
+  https://ojambo.com/contact
+
+  🛠️ Emacs Installation or Migration Services:
+  https://ojamboservices.com/contact
+
+  🧠 Don’t forget to like 👍, comment 💬, and subscribe 🔔 for more tutorials on open source tools, Linux, and programming!
+
+  ,#Emacs #LinuxTutorial #OpenSource #FedoraLinux #TextEditor #GNUEmacs #BeginnerCoding #CodingTools
+
+* Emacs Embark: Customizing Commands
+:PROPERTIES:
+:DATE:     2025-08-07T13:10:13-07:00
+:DURATION: 40:42
+:YOUTUBE_URL: https://www.youtube.com/watch?v=GptL42i0JF8
+:SPEAKERS: PizzaTorque
+:END:
+  Extract from last stream VOD, setting up a custom function for Embark and adding more functions to Embark's keymap
+
+* Ep689 emacs. commands for cycle color themes, font, space hyphen lowline.
+:PROPERTIES:
+:DATE:     2025-08-07T02:18:22-07:00
+:DURATION: 31:15
+:YOUTUBE_URL: https://www.youtube.com/watch?v=FFd5ev4CJYE
+:SPEAKERS: Xah Lee
+:END:
+  Notes at
+  http ://xahlee .info/talk_show/xah_talk_show_ep689.html
+  Copy the link, remove spaces, paste the link in browser tab.
+  Google Chrome and Firefox browsers censor websites by auto adding s in http and says the site Secure Connection Failed.
+  Use Brave Browser or Safari.
+
+* Prot Asks: James about teaching biology, Emacs, and free software politics
+:PROPERTIES:
+:DATE:     2025-08-06T10:10:06-07:00
+:DURATION: 1:06:48
+:YOUTUBE_URL: https://www.youtube.com/watch?v=YzVToImIm1Y
+:SPEAKERS: Protesilaos Stavrou
+:END:
+  In this new video series, I talk to anybody who is interested to have a video call with me (so do contact me if you want!). The topics cover anything related to Emacs, technology, and life in general. More here: https://protesilaos.com/prot-asks/.
+
+  In this 1-hour video, I learn from James about what goes into teaching biology and thinking as a scientist. We discuss the shortcomings of the education system and touch on the alternative approach of going more in-depth. James describes how Emacs comes into the picture, the importance of the free software community---and community in general---and how politics informs our views on competition and cooperation.
+
+  - James teaches at the Pennsylvania State University: https://science.psu.edu/bmb/people/jeh37
+  - Personal website: https://jamesendreshowell.com/
+  - EmacsConf 2023 presentation about teaching at the university with free software: https://emacsconf.org/2023/talks/uni/
+
+* Set up AI assisted programming in Emacs using aider
+:PROPERTIES:
+:DATE:     2025-08-04T05:00:21-07:00
+:DURATION: 6:40
+:YOUTUBE_URL: https://www.youtube.com/watch?v=6hHD-mHg08A
+:SPEAKERS: Loose Leaf Learning
+:END:
+  Here's how to set up aidermacs in Emacs, in my opinion
+
+  aider installation instructions: https://aider.chat/docs/install.html
+
+  (use-package aidermacs
+    :straight t
+    :bind (("C-c c a" . aidermacs-transient-menu))
+    :config
+    ; Set API_KEY in .bashrc, that will automatically picked up by aider or in elisp
+    ;; (setenv "ANTHROPIC_API_KEY" "sk-...")
+    ; defun my-get-openrouter-api-key yourself elsewhere for security reasons
+    (setenv "OPENROUTER_API_KEY" (password-store-get "OpenRouter/lll-exp"))
+    :custom
+    ; See the Configuration section below
+    (aidermacs-default-chat-mode 'code)
+    (aidermacs-default-model "openrouter/deepseek/deepseek-r1-0528:free"))
+
 * Introducting vecdb for Emacs
 :PROPERTIES:
 :DATE:     2025-08-03T15:08:51-07:00

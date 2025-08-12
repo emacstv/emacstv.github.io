@@ -1,5 +1,77 @@
 [
   {
+    "ITEM": "Emacs PDF-Tools Tips You Probably Don’t Know #pdftools #emacs #navigation",
+    "DATE": "2025-08-10T15:00:05-07:00",
+    "DURATION": "15:44",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=rTtLu4QAT2I",
+    "SPEAKERS": "Emacs Elements",
+    "BODY": "In this guide Discover powerful but lesser-known features of the Emacs package PDF-Tools. I walk through tips like using virtual buffers, metadata display, and navigating quickly with registers and history. I also share my personal configuration and favourite keybindings. Perfect for anyone looking to get more out of reading and managing PDFs in Emacs with PDF-Tools.\n\n  https://emacselements.com/pdf-tools-settings.html"
+  },
+  {
+    "ITEM": "emacs package dev v2532864955",
+    "DATE": "2025-08-10T09:33:54-07:00",
+    "DURATION": "2:02:03",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=nto_2pmCytg",
+    "SPEAKERS": "Mochar",
+    "BODY": ""
+  },
+  {
+    "ITEM": "Prot Asks: PizzaTorque about Emacs for programming, linguistics, art and community",
+    "DATE": "2025-08-09T23:18:08-07:00",
+    "DURATION": "1:34:45",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=-g8o0M9CRkA",
+    "SPEAKERS": "Protesilaos Stavrou",
+    "BODY": "In this new video series, I talk to anybody who is interested to have a video call with me (so do contact me if you want!). The topics cover anything related to Emacs, technology, and life in general. More here: https://protesilaos.com/prot-asks/.\n\n  Today I learn from PizzaTorque about how Emacs is used for programming in the field of data science. We discuss the kind of infrastructure Emacs has for dealing with various programming languages and how the experience is. Emacs as a note-taking tool is also something we consider. Then the discussion shifts to linguistics and relevant cultural as well as political considerations. We frequently draw parallels with Emacs. After that we talk about Emacs more in terms of lifestyle and art, commenting on how it helps us develop certain qualities that apply to other parts of our life. We conclude with a conversation on community and an individual's outlook, tying it all together.\n\n  PizzaTorque does video streams on programming-related topics, while using Emacs. Here is the YouTube channel: https://www.youtube.com/@PizzaTorque"
+  },
+  {
+    "ITEM": "Emacs | Org File Includes SO Awesome",
+    "DATE": "2025-08-08T09:39:38-07:00",
+    "DURATION": "7:07",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=hzdL7WNoP2M",
+    "SPEAKERS": "Chris Maiorana",
+    "BODY": "Org mode includes let you suck content from other sources to strengthen the collective power of your document!  We're going to get into this so come on in and pay attention.\n\n  EMACS FOR WRITERS HANDBOOK:\n  https://chrismaiorana.com/the-emacs-for-writers-handbook-is-available-now-and-ever/\n\n  ,#emacs"
+  },
+  {
+    "ITEM": "GNU Emacs for Beginners 🚀 | Setup, Tour & Programming with Emacs on Fedora Linux!",
+    "DATE": "2025-08-08T00:00:48-07:00",
+    "DURATION": "48:30",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=pPMspoL7m_k",
+    "SPEAKERS": "ojamboshop",
+    "BODY": "🚀 Start using GNU Emacs like a pro — even as a total beginner!\n  In this beginner-friendly screencast, you'll learn how to install, configure, and use GNU Emacs on Fedora Linux. Discover why developers love this open-source powerhouse and how you can start coding efficiently with it.\n\n  👉 Emacs is more than just a text editor — it's a full development environment, task manager, and writing tool all in one!\n\n  💻 What You’ll Learn in This Video:\n\n  What GNU Emacs is and why it's so powerful\n\n  How to install Emacs on Fedora Linux\n\n  A first look at the Emacs interface\n\n  Basic navigation, editing, and saving files\n\n  Tips for customizing Emacs for programmers\n\n  🔗 Related Links\n  📝 Full article on GNU Emacs (WordPress):\n  https://ojambo.com/emacs-30-1-advanced-editor-review\n\n  📚 My Programming Books on Amazon:\n  https://www.amazon.com/stores/Edward-Ojambo/author/B0D94QM76N\n\n  🎓 Courses & Training:\n  https://ojamboshop.com/product-category/course\n\n  👨‍🏫 1-on-1 Programming Help:\n  https://ojambo.com/contact\n\n  🛠️ Emacs Installation or Migration Services:\n  https://ojamboservices.com/contact\n\n  🧠 Don’t forget to like 👍, comment 💬, and subscribe 🔔 for more tutorials on open source tools, Linux, and programming!\n\n  ,#Emacs #LinuxTutorial #OpenSource #FedoraLinux #TextEditor #GNUEmacs #BeginnerCoding #CodingTools"
+  },
+  {
+    "ITEM": "Emacs Embark: Customizing Commands",
+    "DATE": "2025-08-07T13:10:13-07:00",
+    "DURATION": "40:42",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=GptL42i0JF8",
+    "SPEAKERS": "PizzaTorque",
+    "BODY": "Extract from last stream VOD, setting up a custom function for Embark and adding more functions to Embark's keymap"
+  },
+  {
+    "ITEM": "Ep689 emacs. commands for cycle color themes, font, space hyphen lowline.",
+    "DATE": "2025-08-07T02:18:22-07:00",
+    "DURATION": "31:15",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=FFd5ev4CJYE",
+    "SPEAKERS": "Xah Lee",
+    "BODY": "Notes at\n  http ://xahlee .info/talk_show/xah_talk_show_ep689.html\n  Copy the link, remove spaces, paste the link in browser tab.\n  Google Chrome and Firefox browsers censor websites by auto adding s in http and says the site Secure Connection Failed.\n  Use Brave Browser or Safari."
+  },
+  {
+    "ITEM": "Prot Asks: James about teaching biology, Emacs, and free software politics",
+    "DATE": "2025-08-06T10:10:06-07:00",
+    "DURATION": "1:06:48",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=YzVToImIm1Y",
+    "SPEAKERS": "Protesilaos Stavrou",
+    "BODY": "In this new video series, I talk to anybody who is interested to have a video call with me (so do contact me if you want!). The topics cover anything related to Emacs, technology, and life in general. More here: https://protesilaos.com/prot-asks/.\n\n  In this 1-hour video, I learn from James about what goes into teaching biology and thinking as a scientist. We discuss the shortcomings of the education system and touch on the alternative approach of going more in-depth. James describes how Emacs comes into the picture, the importance of the free software community---and community in general---and how politics informs our views on competition and cooperation.\n\n  - James teaches at the Pennsylvania State University: https://science.psu.edu/bmb/people/jeh37\n  - Personal website: https://jamesendreshowell.com/\n  - EmacsConf 2023 presentation about teaching at the university with free software: https://emacsconf.org/2023/talks/uni/"
+  },
+  {
+    "ITEM": "Set up AI assisted programming in Emacs using aider",
+    "DATE": "2025-08-04T05:00:21-07:00",
+    "DURATION": "6:40",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=6hHD-mHg08A",
+    "SPEAKERS": "Loose Leaf Learning",
+    "BODY": "Here's how to set up aidermacs in Emacs, in my opinion\n\n  aider installation instructions: https://aider.chat/docs/install.html\n\n  (use-package aidermacs\n    :straight t\n    :bind ((\"C-c c a\" . aidermacs-transient-menu))\n    :config\n    ; Set API_KEY in .bashrc, that will automatically picked up by aider or in elisp\n    ;; (setenv \"ANTHROPIC_API_KEY\" \"sk-...\")\n    ; defun my-get-openrouter-api-key yourself elsewhere for security reasons\n    (setenv \"OPENROUTER_API_KEY\" (password-store-get \"OpenRouter/lll-exp\"))\n    :custom\n    ; See the Configuration section below\n    (aidermacs-default-chat-mode 'code)\n    (aidermacs-default-model \"openrouter/deepseek/deepseek-r1-0528:free\"))"
+  },
+  {
     "ITEM": "Introducting vecdb for Emacs",
     "DATE": "2025-08-03T15:08:51-07:00",
     "DURATION": "9:31",

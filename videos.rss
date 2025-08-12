@@ -6,6 +6,140 @@
     <atom:link href="https://emacs.tv/videos.rss" rel="self" type="application/rss+xml" />
     <description>Emacs videos</description>
     <item>
+      <title>Emacs PDF-Tools Tips You Probably Don’t Know #pdftools #emacs #navigation</title>
+      <link>https://www.youtube.com/watch?v=rTtLu4QAT2I</link>
+      <guid>https://www.youtube.com/watch?v=rTtLu4QAT2I</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=rTtLu4QAT2I">youtube</a><br><br>In this guide Discover powerful but lesser-known features of the Emacs package PDF-Tools. I walk through tips like using virtual buffers, metadata display, and navigating quickly with registers and history. I also share my personal configuration and favourite keybindings. Perfect for anyone looking to get more out of reading and managing PDFs in Emacs with PDF-Tools.
+
+  https://emacselements.com/pdf-tools-settings.html</div>]]></description>
+      <pubDate>Sun, 10 Aug 2025 22:00:05 +0000</pubDate>
+    </item>
+    <item>
+      <title>emacs package dev v2532864955</title>
+      <link>https://www.youtube.com/watch?v=nto_2pmCytg</link>
+      <guid>https://www.youtube.com/watch?v=nto_2pmCytg</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=nto_2pmCytg">youtube</a><br><br></div>]]></description>
+      <pubDate>Sun, 10 Aug 2025 16:33:54 +0000</pubDate>
+    </item>
+    <item>
+      <title>Prot Asks: PizzaTorque about Emacs for programming, linguistics, art and community</title>
+      <link>https://www.youtube.com/watch?v=-g8o0M9CRkA</link>
+      <guid>https://www.youtube.com/watch?v=-g8o0M9CRkA</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=-g8o0M9CRkA">youtube</a><br><br>In this new video series, I talk to anybody who is interested to have a video call with me (so do contact me if you want!). The topics cover anything related to Emacs, technology, and life in general. More here: https://protesilaos.com/prot-asks/.
+
+  Today I learn from PizzaTorque about how Emacs is used for programming in the field of data science. We discuss the kind of infrastructure Emacs has for dealing with various programming languages and how the experience is. Emacs as a note-taking tool is also something we consider. Then the discussion shifts to linguistics and relevant cultural as well as political considerations. We frequently draw parallels with Emacs. After that we talk about Emacs more in terms of lifestyle and art, commenting on how it helps us develop certain qualities that apply to other parts of our life. We conclude with a conversation on community and an individual's outlook, tying it all together.
+
+  PizzaTorque does video streams on programming-related topics, while using Emacs. Here is the YouTube channel: https://www.youtube.com/@PizzaTorque</div>]]></description>
+      <pubDate>Sun, 10 Aug 2025 06:18:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>Emacs | Org File Includes SO Awesome</title>
+      <link>https://www.youtube.com/watch?v=hzdL7WNoP2M</link>
+      <guid>https://www.youtube.com/watch?v=hzdL7WNoP2M</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=hzdL7WNoP2M">youtube</a><br><br>Org mode includes let you suck content from other sources to strengthen the collective power of your document!  We're going to get into this so come on in and pay attention.
+
+  EMACS FOR WRITERS HANDBOOK:
+  https://chrismaiorana.com/the-emacs-for-writers-handbook-is-available-now-and-ever/
+
+  ,#emacs</div>]]></description>
+      <pubDate>Fri, 08 Aug 2025 16:39:38 +0000</pubDate>
+    </item>
+    <item>
+      <title>GNU Emacs for Beginners 🚀 | Setup, Tour &amp; Programming with Emacs on Fedora Linux!</title>
+      <link>https://www.youtube.com/watch?v=pPMspoL7m_k</link>
+      <guid>https://www.youtube.com/watch?v=pPMspoL7m_k</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=pPMspoL7m_k">youtube</a><br><br>🚀 Start using GNU Emacs like a pro — even as a total beginner!
+  In this beginner-friendly screencast, you'll learn how to install, configure, and use GNU Emacs on Fedora Linux. Discover why developers love this open-source powerhouse and how you can start coding efficiently with it.
+
+  👉 Emacs is more than just a text editor — it's a full development environment, task manager, and writing tool all in one!
+
+  💻 What You’ll Learn in This Video:
+
+  What GNU Emacs is and why it's so powerful
+
+  How to install Emacs on Fedora Linux
+
+  A first look at the Emacs interface
+
+  Basic navigation, editing, and saving files
+
+  Tips for customizing Emacs for programmers
+
+  🔗 Related Links
+  📝 Full article on GNU Emacs (WordPress):
+  https://ojambo.com/emacs-30-1-advanced-editor-review
+
+  📚 My Programming Books on Amazon:
+  https://www.amazon.com/stores/Edward-Ojambo/author/B0D94QM76N
+
+  🎓 Courses & Training:
+  https://ojamboshop.com/product-category/course
+
+  👨‍🏫 1-on-1 Programming Help:
+  https://ojambo.com/contact
+
+  🛠️ Emacs Installation or Migration Services:
+  https://ojamboservices.com/contact
+
+  🧠 Don’t forget to like 👍, comment 💬, and subscribe 🔔 for more tutorials on open source tools, Linux, and programming!
+
+  ,#Emacs #LinuxTutorial #OpenSource #FedoraLinux #TextEditor #GNUEmacs #BeginnerCoding #CodingTools</div>]]></description>
+      <pubDate>Fri, 08 Aug 2025 07:00:48 +0000</pubDate>
+    </item>
+    <item>
+      <title>Emacs Embark: Customizing Commands</title>
+      <link>https://www.youtube.com/watch?v=GptL42i0JF8</link>
+      <guid>https://www.youtube.com/watch?v=GptL42i0JF8</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=GptL42i0JF8">youtube</a><br><br>Extract from last stream VOD, setting up a custom function for Embark and adding more functions to Embark's keymap</div>]]></description>
+      <pubDate>Thu, 07 Aug 2025 20:10:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>Ep689 emacs. commands for cycle color themes, font, space hyphen lowline.</title>
+      <link>https://www.youtube.com/watch?v=FFd5ev4CJYE</link>
+      <guid>https://www.youtube.com/watch?v=FFd5ev4CJYE</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=FFd5ev4CJYE">youtube</a><br><br>Notes at
+  http ://xahlee .info/talk_show/xah_talk_show_ep689.html
+  Copy the link, remove spaces, paste the link in browser tab.
+  Google Chrome and Firefox browsers censor websites by auto adding s in http and says the site Secure Connection Failed.
+  Use Brave Browser or Safari.</div>]]></description>
+      <pubDate>Thu, 07 Aug 2025 09:18:22 +0000</pubDate>
+    </item>
+    <item>
+      <title>Prot Asks: James about teaching biology, Emacs, and free software politics</title>
+      <link>https://www.youtube.com/watch?v=YzVToImIm1Y</link>
+      <guid>https://www.youtube.com/watch?v=YzVToImIm1Y</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=YzVToImIm1Y">youtube</a><br><br>In this new video series, I talk to anybody who is interested to have a video call with me (so do contact me if you want!). The topics cover anything related to Emacs, technology, and life in general. More here: https://protesilaos.com/prot-asks/.
+
+  In this 1-hour video, I learn from James about what goes into teaching biology and thinking as a scientist. We discuss the shortcomings of the education system and touch on the alternative approach of going more in-depth. James describes how Emacs comes into the picture, the importance of the free software community---and community in general---and how politics informs our views on competition and cooperation.
+
+  - James teaches at the Pennsylvania State University: https://science.psu.edu/bmb/people/jeh37
+  - Personal website: https://jamesendreshowell.com/
+  - EmacsConf 2023 presentation about teaching at the university with free software: https://emacsconf.org/2023/talks/uni/</div>]]></description>
+      <pubDate>Wed, 06 Aug 2025 17:10:06 +0000</pubDate>
+    </item>
+    <item>
+      <title>Set up AI assisted programming in Emacs using aider</title>
+      <link>https://www.youtube.com/watch?v=6hHD-mHg08A</link>
+      <guid>https://www.youtube.com/watch?v=6hHD-mHg08A</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=6hHD-mHg08A">youtube</a><br><br>Here's how to set up aidermacs in Emacs, in my opinion
+
+  aider installation instructions: https://aider.chat/docs/install.html
+
+  (use-package aidermacs
+    :straight t
+    :bind (("C-c c a" . aidermacs-transient-menu))
+    :config
+    ; Set API_KEY in .bashrc, that will automatically picked up by aider or in elisp
+    ;; (setenv "ANTHROPIC_API_KEY" "sk-...")
+    ; defun my-get-openrouter-api-key yourself elsewhere for security reasons
+    (setenv "OPENROUTER_API_KEY" (password-store-get "OpenRouter/lll-exp"))
+    :custom
+    ; See the Configuration section below
+    (aidermacs-default-chat-mode 'code)
+    (aidermacs-default-model "openrouter/deepseek/deepseek-r1-0528:free"))</div>]]></description>
+      <pubDate>Mon, 04 Aug 2025 12:00:21 +0000</pubDate>
+    </item>
+    <item>
       <title>Introducting vecdb for Emacs</title>
       <link>https://www.youtube.com/watch?v=qzXMU3Yu3gA</link>
       <guid>https://www.youtube.com/watch?v=qzXMU3Yu3gA</guid>
@@ -645,168 +779,6 @@
       <guid>https://www.youtube.com/watch?v=bTU9ctFtyBA</guid>
       <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=bTU9ctFtyBA">youtube</a><br><br>In this video I demonstrate how to achieve perfect speech-to-text transcription in Emacs using whisper.cpp and sox. Speak directly into any Emacs buffer and your text will be typed up automatically. Use C-c v to start speech to text and C-g to end. The complete code and setup instructions are available on my website: https://emacselements.com/</div>]]></description>
       <pubDate>Tue, 08 Jul 2025 04:09:02 +0000</pubDate>
-    </item>
-    <item>
-      <title>Ep675 Golang vs Emacs Lisp Hashtable. Part 2</title>
-      <link>https://www.youtube.com/watch?v=HNoXOFtULqA</link>
-      <guid>https://www.youtube.com/watch?v=HNoXOFtULqA</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=HNoXOFtULqA">youtube</a><br><br>Notes at
-  http ://xahlee .info/talk_show/xah_talk_show_ep675.html
-  Copy the link, remove spaces, paste the link in browser tab.
-  Google Chrome and Firefox browsers censor websites by auto adding s in http and says the site Secure Connection Failed.
-  Use Brave Browser or Safari.</div>]]></description>
-      <pubDate>Sun, 06 Jul 2025 11:24:44 +0000</pubDate>
-    </item>
-    <item>
-      <title>Markdown to Org: Ex-NeovimConf Speaker Converts Me | Theena Kumaragurunathan</title>
-      <link>https://www.youtube.com/watch?v=LW-WitUmgJg</link>
-      <guid>https://www.youtube.com/watch?v=LW-WitUmgJg</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=LW-WitUmgJg">youtube</a><br><br>In this clip I ask Theena what his thoughts are in regards to markdown, Theena used to manage a Neovim config called OVIwrite, and that's where he did most of his writing. Not so long ago, he discovered Emacs and has then switched completely from Neovim to Emacs, so after talking in multiple NeovimConf events, he now uses emacs and org files as his preferred format for writing, he left the good old markdown behind.
-
-  Me on the other hand have no experience with org, but I do see the benefits, the variable font usage in a single file, and also variable font sizes amongst one of the few features.
-
-  Link to the full interview:
-  https://youtu.be/5W0bcoFkvLY
-
-  ---------------------------------------------------------------------------------------
-
-  If you're not a YouTube member yet, you can join here:
-  https://www.youtube.com/channel/UCrSIvbFncPSlK6AdwE2QboA/join
-
-  Join me in discord
-  https://discord.gg/NgqMgwwtMH
-
-  Start your setap 7 day free trial (my affiliate link)
-  https://setapp.sjv.io/QjKK1a
-
-  Start your 1password 14 day free trial  (my affiliate link)
-  https://www.dpbolvw.net/click-101327218-15917064
-
-  If you find this video helpful and want to support me
-  https://ko-fi.com/linkarzu
-
-  Follow me on twitter
-  https://x.com/link_arzu
-
-  My dotfiles (remember to star them)
-  https://github.com/linkarzu/dotfiles-latest</div>]]></description>
-      <pubDate>Sat, 05 Jul 2025 21:17:23 +0000</pubDate><category>org</category>
-    </item>
-    <item>
-      <title>Efficient Multi-Project Hacking in Emacs - System Crafters Live!</title>
-      <link>https://www.youtube.com/watch?v=Ta2bR6fNwBQ</link>
-      <guid>https://www.youtube.com/watch?v=Ta2bR6fNwBQ</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=Ta2bR6fNwBQ">youtube</a><br><br>In this stream, we'll discuss ways to use Emacs to efficiently hack on multiple projects at the same time, especially when those projects are related.  Let's see how we can maximize the value we get from project.el to create an efficient workflow!
-
-  SUPPORT THE CHANNEL:
-
-  👍 Support My Work: https://systemcrafters.net/how-to-help/#support-my-work
-  📰 Subscribe to the Newsletter: https://systemcrafters.net/newsletter/
-  👕 Check out the Store: https://systemcrafters.store
-  📘 Get Your Copy of Mastering Emacs: https://www.masteringemacs.org/r/systemcrafters?utm_source=yt&utm_medium=desc&utm_campaign=scme
-
-  SHOW NOTES:
-
-  https://systemcrafters.net/live-streams/july-4-2025/
-
-  JOIN THE COMMUNITY:
-
-  https://systemcrafters.net/community/ (Forum and IRC chat!)
-  https://fosstodon.org/@daviwil
-
-  MY CONFIGURATION:
-
-  (This site is currently down but will be back up soon!)
-
-  https://config.daviwil.com
-  https://config.daviwil.com/emacs
-  https://config.daviwil.com/systems (Guix)
-
-  OTHER SERIES:
-
-  - Emacs Essentials: https://www.youtube.com/watch?v=48JlgiBpw_I&list=PLEoMzSkcN8oPZvSdewHG8uApD7THlLLCV
-  - Emacs From Scratch: https://www.youtube.com/watch?v=74zOY-vgkyw&list=PLEoMzSkcN8oPH1au7H6B7bBJ4ZO7BXjSZ
-  - Emacs Tips: https://www.youtube.com/watch?v=wKTKmE1wLyw&list=PLEoMzSkcN8oMHJ6Xil1YdnYtlWd5hHZql
-  - Emacs Desktop Environment: https://www.youtube.com/watch?v=f7xB2fFk1tQ&list=PLEoMzSkcN8oNPbEMYEtswOVTvq7CVddCS
-  - Emacs IDE: https://www.youtube.com/watch?v=E-NAM9U5JYE&list=PLEoMzSkcN8oNvsrtk_iZSb94krGRofFjN
-  - Emacs Mail: https://www.youtube.com/watch?v=yZRyEhi4y44&list=PLEoMzSkcN8oM-kA19xOQc8s0gr0PpFGJQ
-  - Learning Emacs Lisp: https://www.youtube.com/watch?v=RQK_DaaX34Q&list=PLEoMzSkcN8oPQtn7FQEF3D7sroZbXuPZ7
-  - Craft Your System with GNU Guix: https://www.youtube.com/watch?v=iBaqOK75cho&list=PLEoMzSkcN8oNxnj7jm5V2ZcGc52002pQU
-
-  CREDITS:
-
-  Coriolis Effect by logos feat. stefsax, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/mseq/26296
-  reNovation by airtone, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/airtone/60674
-  ukeSounds by airtone, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/airtone/32655
-  Between Worlds (Instrumental) by Aussens@iter, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/tobias_weber/56664</div>]]></description>
-      <pubDate>Sat, 05 Jul 2025 05:20:58 +0000</pubDate><category>navigation</category>
-<category>project</category>
-    </item>
-    <item>
-      <title>Ep673 Format Python JavaScript Golang HTML CSS in Emacs, and Wolfram Language auto format</title>
-      <link>https://www.youtube.com/watch?v=tEh-YEDkVDg</link>
-      <guid>https://www.youtube.com/watch?v=tEh-YEDkVDg</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=tEh-YEDkVDg">youtube</a><br><br>timestamp
-  01:34 format CSS code
-  06:37 format python code
-  11:47 format JavaScript code
-  18:11 format HTML code
-  20:48 format golang code
-
-  Notes at
-  http ://xahlee .info /talk_show/xah_talk_show_ep673.html
-  Copy the link, remove spaces, paste the link in browser tab.
-  Google Chrome and Firefox browsers censor websites by auto adding s in http and says the site Secure Connection Failed.
-  Use Brave Browser or Safari.</div>]]></description>
-      <pubDate>Fri, 04 Jul 2025 07:53:51 +0000</pubDate><category>coding</category>
-    </item>
-    <item>
-      <title>Ep672 Make Spell Checking in Emacs Windows Work Again, Part 2</title>
-      <link>https://www.youtube.com/watch?v=Sv65SKfkLZg</link>
-      <guid>https://www.youtube.com/watch?v=Sv65SKfkLZg</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=Sv65SKfkLZg">youtube</a><br><br>Notes at
-  http ://xahlee .info /talk_show/xah_talk_show_ep672.html
-  Copy the link, remove spaces, paste the link in browser tab.
-  Google Chrome and Firefox browsers censor websites by auto adding s in http and says the site Secure Connection Failed.
-  Use Brave Browser or Safari.</div>]]></description>
-      <pubDate>Wed, 02 Jul 2025 07:56:28 +0000</pubDate><category>spelling</category>
-    </item>
-    <item>
-      <title>Emacs Package Development: The Emacs Reader (VI: v0.3.0 release and further triaging) - 6-29-2025, 2:55:40 PM</title>
-      <link>https://tv.dyne.org/w/tPgpVpD7pqhksLuZd5hSFV</link>
-      <guid>https://tv.dyne.org/w/tPgpVpD7pqhksLuZd5hSFV</guid>
-      <description><![CDATA[<div id="content"><a href="https://tv.dyne.org/w/tPgpVpD7pqhksLuZd5hSFV">peertube</a><br><br>This is the sixth in a series of Emacs package development streams focusing on the Emacs Reader package: https://codeberg.org/divyaranjan/emacs-reader/ In this stream specifically, I'll be introduc...</div>]]></description>
-      <pubDate>Sun, 29 Jun 2025 17:13:05 +0000</pubDate>
-    </item>
-    <item>
-      <title>View and Annotate Your PDFS in Emacs -- Pdf-tools and Org-noter</title>
-      <link>https://www.youtube.com/watch?v=JDkGuBfiHg8</link>
-      <guid>https://www.youtube.com/watch?v=JDkGuBfiHg8</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=JDkGuBfiHg8">youtube</a><br><br>My website: https://emacselements.com/
-  Follow me on Mastodon: https://mastodon.social/@revrari
-  If you enjoy my videos please send me a donation via PayPal:
-  https://paypal.me/revrari</div>]]></description>
-      <pubDate>Sun, 29 Jun 2025 19:56:43 +0000</pubDate>
-    </item>
-    <item>
-      <title>Emacs trial &amp; editor configuration</title>
-      <link>https://www.youtube.com/watch?v=mRjlCXY3WnQ</link>
-      <guid>https://www.youtube.com/watch?v=mRjlCXY3WnQ</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=mRjlCXY3WnQ">youtube</a><br><br>Made with Restream. Livestream on 30+ platforms at once via https://restream.io
-
-  ,#emacs #doom</div>]]></description>
-      <pubDate>Sun, 29 Jun 2025 09:27:01 +0000</pubDate><category>DoomEmacs</category>
-    </item>
-    <item>
-      <title>GNU Emacs【※音無し】</title>
-      <link>https://www.youtube.com/watch?v=yRDovUQjuK8</link>
-      <guid>https://www.youtube.com/watch?v=yRDovUQjuK8</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=yRDovUQjuK8">youtube</a><br><br>Linux Mint に GNU Emacs（イーマクス）をインストールし、操作していきます。
-  ※映像に、BGM等の音は一切ありません
-
-  ■概要
-  https://phoomu.com/articles/20250628.html</div>]]></description>
-      <pubDate>Sat, 28 Jun 2025 02:43:05 +0000</pubDate>
     </item>
   </channel>
 </rss>
