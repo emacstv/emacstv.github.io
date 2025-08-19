@@ -1,5 +1,77 @@
 [
   {
+    "ITEM": "Matt from The Linux Cast on macOS, NixOS, Emacs & More",
+    "DATE": "2025-08-17T04:00:53-07:00",
+    "DURATION": "2:23:43",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=V4mzxJROCFk",
+    "SPEAKERS": "linkarzu",
+    "BODY": "Conversation with Matt, we talk about his recent experience with macOS, current experience with NixOS and also his challenge of using Emacs for 2 years.\n\n  YouTube:  @TheLinuxCast\n  Website: thelinuxcast.org\n\n  -------------------------------------------------\n\n  If you're not a YouTube member yet, you can join here:\n  https://www.youtube.com/channel/UCrSIvbFncPSlK6AdwE2QboA/join\n\n  Isn't  YouTube ads enough:\n  https://linkarzu.com/about/#youre-a-fraud-why-do-you-ask-for-money-isnt-youtube-ads-enough\n\n  00:00:00 - Highlights\n  00:01:13 - Matt's YouTube channel \"The Linux Cast\"\n  00:02:29 - Is The Linux Cast channel yours, or does it belong to a group?\n  00:03:18 - Why did you get started with YouTube?\n  00:05:24 - DistroTube shouted out Matt's channel, video\n  00:05:53 - Has your channel grown gradually, any stuff that made it blow up?\n  00:06:58 - Have you ever felt discouraged to make videos? Tutorial videos usually perform bad\n  00:09:08 - Is youtube your full time job? (neovim vs emacs video)\n  00:10:32 - What does your family think of you doing YouTube?\n  00:11:36 - Are you a 1 man band, do you still find making videos fun? Editing long hour videos sucks big time\n  00:13:17 - Are you addicted looking at YouTube analytics?\n  00:16:24 - Matt's 40 years old, but I look older, wtf\n  00:17:14 - Matt's guilty pleasure: MacOS Finder app. Why did you buy a mac?\n  00:18:56 - PopOS Pop!_OS is just an older version of Debian\n  00:22:14 - The Logitech software nightmare on macOS\n  00:24:05 - Plans on keep using mac?\n  00:25:41 - Finder alternative ForkLift, Pathfinder\n  00:26:46 - Matt's experience with macOS in college\n  00:29:48 - The AppStore sucks, the way macOS installs apps is great, no dependency issues\n  00:31:51 - App recommendation, trickster (video)\n  00:33:10 - Why did you start using NixOS?\n  00:34:33 - The drama with the \"NixOS is not a real distro\" video\n  00:36:05 - Linkarzu install Arch video and experience. Is arch a new user recommended distro?\n  00:40:13 - How I re-deploy macOS video, what are the real benefits of nix?\n  00:44:19 - NixOS overlay, let's say snapshots\n  00:45:37 - Any other weird or special experiences with nix so far?\n  00:46:42 - Can't you hear, can't you hear the thunder? You better run, you better take cover\n  00:48:55 - What iPad should I get?\n  00:50:46 - How does the nix rebuild work?\n  00:53:29 - If I change a config file, do I have to rebuild? What is this nix home manager?\n  00:56:57 - Matt also uses GNU Stow\n  00:58:04 - GNU stow or symlinks? Chat, let us know in the comments, where the 5 chezmoi bois at\n  01:00:26 - What's the status of your homelab? pastebin, glance, FreshRSS\n  01:03:27 - Media side of things, music library\n  01:06:58 - Buying used CDs would be really expensive\n  01:08:34 - In the end, it's just simpler to use Deezer (I use Spotify)\n  01:09:36 - I'm tired of listening to the same music, but I'm not open to new music. Does Matt listen to Music?\n  01:12:00 - Alexa always plays the damn song, where to find new music, shuffle sucks\n  01:15:10 - What are your thoughts on taking sponsorships?\n  01:18:32 - Linux Phone FuriPhone\n  01:20:35 - BenQ, if you're reading this, we're waiting for our monitors\n  01:21:42 - What Keyboard do you use? Dactyl Manuform\n  01:24:33 - Alice layout keyboard\n  01:25:32 - First split keyboard was a moonlander, how was the experience?\n  01:26:34 - hitting the D with the left and right hand, ifywim\n  01:28:39 - Thoughts on using keyboard layers\n  01:29:38 - Hand shaped custom Dactyl Manuform\n  01:30:24 - Corne Min prototype pre-order\n  01:31:23 - Thoughts on key chords, more keys, less keys? Thoughts on the Corne?\n  01:32:50 - What keyboard layout do you use?\n  01:34:28 - What if you remap hjkl? KindaVim app on macOS video\n  01:35:45 - Why did you recently start using emacs again?\n  01:38:07 - Matt is using Vanilla Emacs, just as prot recommends video\n  01:39:26 - Matt is not into org mode\n  01:40:39 - Did you start your notes in Markdown?\n  01:41:52 - Obsidian on the desktop, and obsidian vault stored in nextcloud, quillpad android app\n  01:44:47 - What about notes under a versioning control system, like github?\n  01:46:27 - I moved from Obsidian to Neovim, what do you love about Obsidian? Video\n  01:49:01 - Do you use the Obsidian Dataview plugin?\n  01:52:35 - Marksman LSP demo in Neovim to link notes together\n  01:54:15 - Let's talk browsers, Vivaldi, Brave. Reformed tab hoarder\n  01:57:00 - Vivaldi tab stacks\n  01:59:21 - Vivaldi is source available?\n  02:00:08 - Thoughts on Vertical tabs?\n  02:02:35 - Matt uses tabs everywhere, not only on the browser\n  02:04:59 - Thoughts on the new AI related IDEs like cursor, windsurf and those\n  02:06:15 - How do you use AI? Chatgpt or claude?\n  02:08:15 - I can't pay 20 to claude and 20 to chatgpt, I have to pick 1\n  02:11:47 - Once chatgpt says \"you're absolutely right\" you're cooked\n  02:13:44 - Sometimes we say \"that's awesome\" to chatgpt, so it keeps the good mood\n  02:14:56 - \"Claude does it better\"\n  02:18:09 - What about claude code?\n  02:20:25 - AI search results in google, gemini AI\n\n  ,#neovim #linux #thelinuxcast #emacs #linkarzu"
+  },
+  {
+    "ITEM": "Timestamp Files - Emacs Lisp  | lesson 14",
+    "DATE": "2025-08-16T11:00:18-07:00",
+    "DURATION": "9:21",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=MAvSavIfA3U",
+    "SPEAKERS": "Tony Aldon",
+    "BODY": "Free PDF and course 👉 https://tonyaldon.com/chatgpt-emacs-integration-course/\n\n  -----\n\n  To keep our history neat, we start using timestamp files for each\n  request. 🕰️ These little helpers help us sort and manage our\n  interactions chronologically without any hassle. It's all about staying\n  organized and making history navigation a breeze.\n\n  - Purpose of Timestamp Files\n  - Writing Timestamp Files\n  - Defining the chatgpt-timestamp Function\n  - Defining the chatgpt-requests Function\n\n  -----\n\n  Hi there! 👋 I'm Tony Aldon, a passionate Emacs enthusiast dedicated to helping you master Emacs and Emacs Lisp.\n\n  Join me on an exciting journey with the ChatGPT Emacs Integration Course and master the art of building a fully functional Emacs package from scratch.\n\n  🌟 Through\n\n  - 18 engaging lessons,\n  - 2.5 hours video content and\n  - 100 pages of PDF\n\n  you'll:\n\n  - Master Emacs Lisp: 🛠️ Customize and extend Emacs like a pro.\n  - Integrate ChatGPT Seamlessly: 🤖 Enhance your workflow with advanced AI features using the OpenAI API.\n\n  It can help if you know a little bit of Emacs Lisp, but this is not a requirement as we'll meticulously write, review, and comment on each line of code. 📝"
+  },
+  {
+    "ITEM": "Modern Emacs Part 2: Project.el, Eglot and Corfu - VOD",
+    "DATE": "2025-08-16T01:08:27-07:00",
+    "DURATION": "37:02",
+    "YOUTUBE_URL": "https://youtu.be/GzQNdpd0D-4?feature=shared",
+    "SPEAKERS": "PizzaTorque",
+    "BODY": "Second part of the Modern Emacs series where I put together a minimal but functional config for software development using packages that came out in the last years."
+  },
+  {
+    "ITEM": "How To Handle API Errors From OpenAI - Emacs Lisp | lesson 13",
+    "DATE": "2025-08-15T11:01:01-07:00",
+    "DURATION": "11:10",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=vO-ErrL1EpY",
+    "SPEAKERS": "Tony Aldon",
+    "BODY": "Free PDF and course 👉 https://tonyaldon.com/chatgpt-emacs-integration-course/\n\n  -----\n\n  Oops! 😅 Sometimes things go wrong. We equip our package to gracefully handle API errors from OpenAI. Whether it's a wrong model or a connection hiccup, we catch these errors, display meaningful messages, and log them for future reference. This makes our integration robust and reliable.\n\n  - Signaling API Errors\n  - Saving API Errors\n  - Signaling and Saving Process Errors\n\n  -----\n\n  Hi there! 👋 I'm Tony Aldon, a passionate Emacs enthusiast dedicated to helping you master Emacs and Emacs Lisp.\n\n  Join me on an exciting journey with the ChatGPT Emacs Integration Course and master the art of building a fully functional Emacs package from scratch.\n\n  🌟 Through\n\n  - 18 engaging lessons,\n  - 2.5 hours video content and\n  - 100 pages of PDF\n\n  you'll:\n\n  - Master Emacs Lisp: 🛠️ Customize and extend Emacs like a pro.\n  - Integrate ChatGPT Seamlessly: 🤖 Enhance your workflow with advanced AI features using the OpenAI API.\n\n  It can help if you know a little bit of Emacs Lisp, but this is not a requirement as we'll meticulously write, review, and comment on each line of code. 📝"
+  },
+  {
+    "ITEM": "Ep692 Emacs Lisp Find Replace Greek Chars, Multiple Pairs Algorithm, Feedback Loop Problem",
+    "DATE": "2025-08-15T07:44:58-07:00",
+    "DURATION": "1:08:00",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=UOGFnnyGsZo",
+    "SPEAKERS": "Xah Lee",
+    "BODY": "Notes at\n  http ://xahlee .info/talk_show/xah_talk_show_ep692.html\n  Copy the link, remove spaces, paste the link in browser tab.\n  Google Chrome and Firefox browsers censor websites by auto adding s in http and says the site Secure Connection Failed.\n  Use Brave Browser or Safari."
+  },
+  {
+    "ITEM": "Edite texto no seu navegador usando o Emacs",
+    "DATE": "2025-08-15T04:00:25-07:00",
+    "DURATION": "10:03",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=9scNUayMIxs",
+    "SPEAKERS": "O Clementino",
+    "BODY": "Neste vídeo eu busco mostrar para você como você pode usar o editor de texto da sua preferência para escrever dentro do seu navegador.\n\n  Links úteis\n  - Uma extensão compatível com vários editores e navegadores: https://github.com/fregante/GhostText\n  - O pacote compatível com GhostText: https://github.com/alpha22jp/atomic-chrome\n  - Um fork mais recente do atomic-chrome: https://github.com/KarimAziev/atomic-chrome\n  - Uma extensão compatível com o fork do atomic-chrome: https://addons.mozilla.org/en-US/firefox/addon/chrome-emacs/"
+  },
+  {
+    "ITEM": "Emacs helm-raindrop.el demo",
+    "DATE": "2025-08-15T02:11:09-07:00",
+    "DURATION": "0:35",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=te8OTzM4V3A",
+    "SPEAKERS": "masutaka",
+    "BODY": "https://github.com/masutaka/emacs-helm-raindrop"
+  },
+  {
+    "ITEM": "Day 21: Display Test Runner State in UI | suitbl - Implementing Testing Library in five days",
+    "DATE": "2025-08-14T13:51:37-07:00",
+    "DURATION": "1:36:25",
+    "YOUTUBE_URL": "https://youtu.be/LQ8z9ZKmzEc",
+    "SPEAKERS": "Andrew Tropin",
+    "BODY": "I would like to see information about current test runner: how much tests are loaded at the moment, what are the config options, how much tests scheduled for run, etc. Will start from displaying  number of loaded tests and will see how it goes.\n\n  ,#scheme #lisp #test #tdd #macros #guile #racket\n\n  My site and blog:\n  https://trop.in\n  https://trop.in/blog\n\n  Reach me out here:\n  https://trop.in/contact\n\n  IRC Chat:\n  ,#tropin IRC channel at libera.chat.\n\n  Mastodon:\n  https://fosstodon.org/@abcdw\n\n  RDE and Arei Guile IDE projects:\n  https://sr.ht/~abcdw/rde\n  https://sr.ht/~abcdw/emacs-arei\n\n  https://github.com/abcdw/rde (mirror)\n\n  Mailing lists:\n  https://lists.sr.ht/~abcdw/"
+  },
+  {
+    "ITEM": "Make An Emacs Buffer Pops Up Upon Asynchronous Response  | lesson 12",
+    "DATE": "2025-08-14T11:00:33-07:00",
+    "DURATION": "11:23",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=TioEQ22_GJc",
+    "SPEAKERS": "Tony Aldon",
+    "BODY": "Free PDF and course 👉 https://tonyaldon.com/chatgpt-emacs-integration-course/\n\n  -----\n\n  Now that we can send prompts, we want to see responses immediately! 👀 We tweak our functions so that once ChatGPT replies, the *chatgpt[requests]* buffer pops up automatically. No more hunting for responses ― we get them right where we need them, enhancing our workflow efficiency.\n\n  - Refactoring chatgpt-send into chatgpt-send-request\n  - Deleting The Prompt Buffer window\n  - Ensuring the Response Buffer is Displayed\n  - Adding Notifications\n\n  -----\n\n  Hi there! 👋 I'm Tony Aldon, a passionate Emacs enthusiast dedicated to helping you master Emacs and Emacs Lisp.\n\n  Join me on an exciting journey with the ChatGPT Emacs Integration Course and master the art of building a fully functional Emacs package from scratch.\n\n  🌟 Through\n\n  - 18 engaging lessons,\n  - 2.5 hours video content and\n  - 100 pages of PDF\n\n  you'll:\n\n  - Master Emacs Lisp: 🛠️ Customize and extend Emacs like a pro.\n  - Integrate ChatGPT Seamlessly: 🤖 Enhance your workflow with advanced AI features using the OpenAI API.\n\n  It can help if you know a little bit of Emacs Lisp, but this is not a requirement as we'll meticulously write, review, and comment on each line of code. 📝"
+  },
+  {
     "ITEM": "Emacs PDF-Tools Tips You Probably Don’t Know #pdftools #emacs #navigation",
     "DATE": "2025-08-10T15:00:05-07:00",
     "DURATION": "15:44",
@@ -46,6 +118,14 @@
     "YOUTUBE_URL": "https://www.youtube.com/watch?v=GptL42i0JF8",
     "SPEAKERS": "PizzaTorque",
     "BODY": "Extract from last stream VOD, setting up a custom function for Embark and adding more functions to Embark's keymap"
+  },
+  {
+    "ITEM": "The Code Editor Wars: A Dev’s Guide to Surviving 2025",
+    "DATE": "2025-08-07T10:02:24-07:00",
+    "DURATION": "2:24",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=HycaJwHqs5M",
+    "SPEAKERS": "Run it Bare",
+    "BODY": "You open your terminal, full of hope.\n  But before you write one line of code… you enter the editor warzone.\n\n  Vim, Emacs, VS Code, Sublime, NeoVim, Nano — every dev has a favorite.\n  And every dev thinks you’re wrong.\n\n  In this chaotic (and painfully accurate) breakdown, we cover:\n\n  Vim: the cryptic keybinding dungeon\n\n  Emacs: the text editor that does your taxes\n\n  VS Code: the plugin playground of the people\n\n  Sublime: the eternal \"Unregistered\" champ\n\n  NeoVim: where configuration is the final boss\n\n  Nano: the DevOps death trap no one escapes\n\n  Browser editors in 2025: code from inside a Docker container… inside another Docker container\n\n  Whether you're flexing a 12ms NeoVim startup or still clicking ‘Later’ on Sublime’s license prompt, just remember:\n\n  ⚡ The most powerful key in programming is still Ctrl+S."
   },
   {
     "ITEM": "Ep689 emacs. commands for cycle color themes, font, space hyphen lowline.",
