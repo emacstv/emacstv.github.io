@@ -3,6 +3,166 @@
 #+PROPERTY: header-args:emacs-lisp+   :eval no
 
 
+* Prot Asks: Ronnie about free software, privacy, parenting, and life in Iraqi Kurdistan  :ProtAsks:community:
+:PROPERTIES:
+:DATE:     2025-08-24T23:19:34-07:00
+:DURATION: 1:47:29
+:YOUTUBE_URL: https://www.youtube.com/watch?v=qvWSGzfR1wA
+:SPEAKERS: Protesilaos Stavrou
+:END:
+  In this new video series, I talk to anybody who is interested to have a video call with me (so do contact me if you want!). The topics cover anything related to Emacs, technology, and life in general. More here: https://protesilaos.com/prot-asks/.
+
+  In this video I talk with Ronnie Nissan about a range of issues covering free software and everyday life issues. Ronnie is a GTK (Gnome) app developer, who also has experience with GNU Emacs. We explore the intersection of social organisation and modern technology, such as how people's behavioural patterns are affected and what kind of power dynamics are at play. Through our exchange we discuss matters of parenting, or what I called "upbringing" (it involves more than just the parents), education, and culture at-large. In the process, I learn about life in Iraqi Kurdistan, while also noticing how many of the typical personal and collective problems we are aware of are common across cultures.
+
+  Links by Ronnie (and mention of my journal entry):
+
+  - Concessio GTK app: https://flathub.org/apps/io.github.ronniedroid.concessio
+  - Embellish GTK app: https://flathub.org/apps/io.github.getnf.embellish
+  - "Get NerdFonts" application: https://github.com/getnf/getnf
+  - Ronnie's website: https://ronnienissan.pages.dev/
+  - Prot's "Freedom within robust constraints": https://protesilaos.com/commentary/2025-08-23-freedom-robust-constraints/
+* S1E8: Show And Tell: Efrit: When Steve Gives Claude Full Access To 50 Years of Emacs Capabilities :ai:
+:PROPERTIES:
+:DATE:     2025-08-24T17:46:18-07:00
+:DURATION: 40:14
+:YOUTUBE_URL: https://www.youtube.com/watch?v=ZJUyVVFOXOc
+:SPEAKERS: Vibe Coding With Steve and Gene
+:END:
+  In this rather mind-blowing episode of Vibe Coding with Steve and Gene, Steve demonstrates Efrit — giving Claude full access to control Emacs. What starts as a simple show-and-tell quickly melts Gene's brain.  Steve shows how Claude can get Emacs do basically anything: open info pages, count files, start shells, even generate a Mandelbrot fractals in a buffer.
+
+  By doing this, the AI has complete access to Emacs's 50-year ecosystem of packages and can orchestrate complex tasks across multiple windows and processes. You can hear Gene's constantly trying to ask questions so he can get his head around what Steve built.
+
+  Gene also asks Steve to apply the vibe coding loop from the book to this project: Steve emphasizes that "the plan is everything" - proper planning solves most AI coding problems, including instruction following failures, reward hacking, and context window limitations. His approach involved months of iterative refinement, constantly catching the AI when it tried to "cheat" (like building haiku detectors instead of just writing haikus), and gradually building up a stable system that could handle multi-turn conversations reliably. The breakthrough came when he re-architected the entire system around Thorsten Ball's vision of simple agent loops.
+
+  We suspect you will find this episode to be mind-expanding, when you can control software in a way that is truly conversational and alive — beyond what MCPs can do today. Steve's system demonstrates how vibe coding can create genuinely transformative new things that the world has never seen.  As long as you can articulate your vision clearly, are willing to iterate, know have a sense of where the AI boundaries of capabilities are.
+
+  https://github.com/steveyegge/efrit
+
+  Pre-order the book here: https://www.amazon.com/Vibe-Coding-Building-Production-Grade-Software/dp/1966280025
+
+  00:00 Introduction
+  00:33 Steve's Project: Efrit in Emacs
+  03:17 Demonstration of Efrit
+  06:27 Technical Deep Dive: Building Efrit
+  09:21 The Vibe Coding Loop Explained
+  14:07 The Importance of Planning in Vibe Coding
+  20:44 Adding Context to Coding Agents
+  21:23 Challenges with Multi-Turn Interactions
+  22:14 Re-Architecting the System
+  22:48 Creative Vision for Software Development
+  23:15 Voice Dictation and Testing Challenges
+  23:40 Integration Tests and Permission Checks
+  26:40 Context Window Limitations
+  30:56 Reward Hacking in AI
+  33:56 Instruction Following Issues
+  36:18 Show and Tell: Integration Test Results
+  38:52 Conclusion and Future Plans
+
+* Wiring Claude Code Into Emacs - System Crafters Live!  :ai:
+:PROPERTIES:
+:DATE:     2025-08-22T22:07:44-07:00
+:DURATION: 1:45:40
+:YOUTUBE_URL: https://www.youtube.com/watch?v=3N5FVSSQGYs
+:SPEAKERS: System Crafters
+:END:
+  In this stream, we'll explore integrating Claude Code into an Emacs workflow and tackle the challenges of using it within terminal emulators like eat and vterm. We'll share real project experiences, compare different approaches, and test packages like claude-code.el and monet that promise better integration.
+
+  Along the way, we'll start building a Guile Scheme XMPP client library to demonstrate these workflows in action, giving us a concrete project to work with while exploring the tools.
+
+  ,#emacs #claudecode #guile #workflow #terminal
+
+  SUPPORT THE CHANNEL:
+
+  👍 Support My Work: https://systemcrafters.net/how-to-help/#support-my-work
+  📰 Subscribe to the Newsletter: https://systemcrafters.net/newsletter/
+  👕 Check out the Store: https://systemcrafters.store
+  📘 Get Your Copy of Mastering Emacs: https://www.masteringemacs.org/r/systemcrafters?utm_source=yt&utm_medium=desc&utm_campaign=scme
+
+  SHOW NOTES:
+
+  https://systemcrafters.net/live-streams/august-22-2025/
+
+  JOIN THE COMMUNITY:
+
+  https://systemcrafters.net/community/ (Forum and IRC chat!)
+  https://fosstodon.org/@daviwil
+
+  MY CONFIGURATION:
+
+  (This site is currently down but will be back up soon!)
+
+  https://config.daviwil.com
+  https://config.daviwil.com/emacs
+  https://config.daviwil.com/systems (Guix)
+
+  OTHER SERIES:
+
+  - Emacs Essentials: https://www.youtube.com/watch?v=48JlgiBpw_I&list=PLEoMzSkcN8oPZvSdewHG8uApD7THlLLCV
+  - Emacs From Scratch: https://www.youtube.com/watch?v=74zOY-vgkyw&list=PLEoMzSkcN8oPH1au7H6B7bBJ4ZO7BXjSZ
+  - Emacs Tips: https://www.youtube.com/watch?v=wKTKmE1wLyw&list=PLEoMzSkcN8oMHJ6Xil1YdnYtlWd5hHZql
+  - Emacs Desktop Environment: https://www.youtube.com/watch?v=f7xB2fFk1tQ&list=PLEoMzSkcN8oNPbEMYEtswOVTvq7CVddCS
+  - Emacs IDE: https://www.youtube.com/watch?v=E-NAM9U5JYE&list=PLEoMzSkcN8oNvsrtk_iZSb94krGRofFjN
+  - Emacs Mail: https://www.youtube.com/watch?v=yZRyEhi4y44&list=PLEoMzSkcN8oM-kA19xOQc8s0gr0PpFGJQ
+  - Learning Emacs Lisp: https://www.youtube.com/watch?v=RQK_DaaX34Q&list=PLEoMzSkcN8oPQtn7FQEF3D7sroZbXuPZ7
+  - Craft Your System with GNU Guix: https://www.youtube.com/watch?v=iBaqOK75cho&list=PLEoMzSkcN8oNxnj7jm5V2ZcGc52002pQU
+
+  CREDITS:
+
+  Coriolis Effect by logos feat. stefsax, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/mseq/26296
+  reNovation by airtone, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/airtone/60674
+  ukeSounds by airtone, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/airtone/32655
+  Between Worlds (Instrumental) by Aussens@iter, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/tobias_weber/56664
+
+* A new powerful project-agnostic Emacs workflow (a Neovim alternative)  :coding:
+:PROPERTIES:
+:DATE:     2025-08-21T17:56:36-07:00
+:DURATION: 12:50
+:YOUTUBE_URL: https://youtube.com/watch?v=MouEAYdxEqA&si=x5i8XifuszJh9RYg
+:SPEAKERS: Ardie83
+:END:
+  A new powerful project-agnostic Emacs workflow I discovered.
+
+  Inspired by the blog article in this link:
+  https://matklad.github.io/2024/07/25/git-worktrees.html
+
+  Do read the article
+
+  I added my own touches, making it super ergonomic.
+
+  My touches is inside (use-package emacs..) macro in this file: https://github.com/ardieMejia/linux-home-emacs-init/blob/main/my_looks/my_looks.el
+
+  Using mouse buttons is not an issue here, since those mouse buttons are extra and rarely used. And my main workflow is keyboard-centric.
+
+  Supporting me will inspire me to produce more quality content, including improving vocal quality.
+
+  (Edit: This video lacks context, I listened to the Reddit complaints. This workflow lets me separate coding and testing into 2 Emacs instance. It also does not affect previous branches, or workflow with other developers. And if Im happy with long weeks fuzzing, I can commit --amend, and start another fuzzing phase.)
+
+  (Edit: 2 folks got offended by my supposed "non-standard" Git usage. I have no idea why people get overly attached by tools that were "created by others". 2-3 Emacs users so far also seem to complain my "long messy config". If your Emacs config is minimal, why arent you using VSCode? Please point what is wrong with my config, Im here to learn.)
+
+  Show some support by buying me coffee on my Ko-fi page just setup recently. (It has both Debit/Credit Card and Paypal options, with 0% fee)
+  https://ko-fi.com/ardiemejia83
+
+  Or can donate straight to my PayPal
+  https://paypal.me/ardiemejia83
+
+* Prot Asks: Dimos about Emacs interconnectedness, collective work, and The Conspiracy Club  :ProtAsks:community:
+:PROPERTIES:
+:DATE:     2025-08-20T05:25:56-07:00
+:DURATION: 1:12:57
+:YOUTUBE_URL: https://www.youtube.com/watch?v=c5KV_P7K73Y
+:SPEAKERS: Protesilaos Stavrou
+:END:
+  In this new video series, I talk to anybody who is interested to have a video call with me (so do contact me if you want!). The topics cover anything related to Emacs, technology, and life in general. More here: https://protesilaos.com/prot-asks/.
+
+  In this video, I talk with Dimos from Greece about Emacs as an integrated computing environment. I learn how Dimos started using Emacs 10 years ago while studying mathematics: what is the appeal of Lisp and how that opened the way for using Emacs as an integrated computing environment. We also discuss the work Dimos does, which is part of a technology collective called "Stin Priza" that provides a variety of web services. In this context we explore themes of ownership and of belonging to a community or a place. I then ask about personal interests and other activities, to learn about some of the naturalist activities Dimos does as well as the podcast that Dimos co-hosts called "The Conspiracy Club": it is a show that has been going on for five years now, which discusses conspiracy theories and other mysteries with an open mind and a playful attitude, neither adopting the theories nor debunking them.
+
+  Links by Dimos:
+
+  - Personal website: https://bendersteed.gr.
+  - _Stin Priza_ collective for technology (in Greek): https://stinpriza.org/who/.
+  - _The Conspiracy Club_ podcast (in Greek): https://theconspiracyclub.gr.
+  - Git sources: https://sr.ht/~bendersteed/.
+
 * Matt from The Linux Cast on macOS, NixOS, Emacs & More
 :PROPERTIES:
 :DATE:     2025-08-17T04:00:53-07:00
@@ -309,7 +469,7 @@
 :END:
 
 
-* Prot Asks: PizzaTorque about Emacs for programming, linguistics, art and community
+* Prot Asks: PizzaTorque about Emacs for programming, linguistics, art and community  :ProtAsks:community:
 :PROPERTIES:
 :DATE:     2025-08-09T23:18:08-07:00
 :DURATION: 1:34:45
@@ -435,7 +595,7 @@
   Google Chrome and Firefox browsers censor websites by auto adding s in http and says the site Secure Connection Failed.
   Use Brave Browser or Safari.
 
-* Prot Asks: James about teaching biology, Emacs, and free software politics
+* Prot Asks: James about teaching biology, Emacs, and free software politics  :ProtAsks:community:
 :PROPERTIES:
 :DATE:     2025-08-06T10:10:06-07:00
 :DURATION: 1:06:48
@@ -613,7 +773,7 @@
 
   ,#neovim #emacs #linux #macos
 
-* Prot Asks: Rudy about Emacs for game development, Lisp hacking, and learning
+* Prot Asks: Rudy about Emacs for game development, Lisp hacking, and learning   :ProtAsks:community:
 :PROPERTIES:
 :DATE:     2025-07-30T10:13:39-07:00
 :DURATION: 1:47:09
@@ -675,7 +835,7 @@
   49:40 Putting things together
   1:15:50 Surfing Blogs
 
-* Prot Asks: Ihor about maintaining Emacs Org mode, history, travels, and material science   :org:community:
+* Prot Asks: Ihor about maintaining Emacs Org mode, history, travels, and material science   :org:community:ProtAsks:
 :PROPERTIES:
 :DATE:     2025-07-26T10:41:08-07:00
 :DURATION: 1:21:30

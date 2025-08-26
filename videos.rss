@@ -6,6 +6,159 @@
     <atom:link href="https://emacs.tv/videos.rss" rel="self" type="application/rss+xml" />
     <description>Emacs videos</description>
     <item>
+      <title>Prot Asks: Ronnie about free software, privacy, parenting, and life in Iraqi Kurdistan</title>
+      <link>https://www.youtube.com/watch?v=qvWSGzfR1wA</link>
+      <guid>https://www.youtube.com/watch?v=qvWSGzfR1wA</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=qvWSGzfR1wA">youtube</a><br><br>In this new video series, I talk to anybody who is interested to have a video call with me (so do contact me if you want!). The topics cover anything related to Emacs, technology, and life in general. More here: https://protesilaos.com/prot-asks/.
+
+  In this video I talk with Ronnie Nissan about a range of issues covering free software and everyday life issues. Ronnie is a GTK (Gnome) app developer, who also has experience with GNU Emacs. We explore the intersection of social organisation and modern technology, such as how people's behavioural patterns are affected and what kind of power dynamics are at play. Through our exchange we discuss matters of parenting, or what I called "upbringing" (it involves more than just the parents), education, and culture at-large. In the process, I learn about life in Iraqi Kurdistan, while also noticing how many of the typical personal and collective problems we are aware of are common across cultures.
+
+  Links by Ronnie (and mention of my journal entry):
+
+  - Concessio GTK app: https://flathub.org/apps/io.github.ronniedroid.concessio
+  - Embellish GTK app: https://flathub.org/apps/io.github.getnf.embellish
+  - "Get NerdFonts" application: https://github.com/getnf/getnf
+  - Ronnie's website: https://ronnienissan.pages.dev/
+  - Prot's "Freedom within robust constraints": https://protesilaos.com/commentary/2025-08-23-freedom-robust-constraints/</div>]]></description>
+      <pubDate>Mon, 25 Aug 2025 06:19:34 +0000</pubDate><category>ProtAsks</category>
+<category>community</category>
+    </item>
+    <item>
+      <title>S1E8: Show And Tell: Efrit: When Steve Gives Claude Full Access To 50 Years of Emacs Capabilities</title>
+      <link>https://www.youtube.com/watch?v=ZJUyVVFOXOc</link>
+      <guid>https://www.youtube.com/watch?v=ZJUyVVFOXOc</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=ZJUyVVFOXOc">youtube</a><br><br>In this rather mind-blowing episode of Vibe Coding with Steve and Gene, Steve demonstrates Efrit — giving Claude full access to control Emacs. What starts as a simple show-and-tell quickly melts Gene's brain.  Steve shows how Claude can get Emacs do basically anything: open info pages, count files, start shells, even generate a Mandelbrot fractals in a buffer.
+
+  By doing this, the AI has complete access to Emacs's 50-year ecosystem of packages and can orchestrate complex tasks across multiple windows and processes. You can hear Gene's constantly trying to ask questions so he can get his head around what Steve built.
+
+  Gene also asks Steve to apply the vibe coding loop from the book to this project: Steve emphasizes that "the plan is everything" - proper planning solves most AI coding problems, including instruction following failures, reward hacking, and context window limitations. His approach involved months of iterative refinement, constantly catching the AI when it tried to "cheat" (like building haiku detectors instead of just writing haikus), and gradually building up a stable system that could handle multi-turn conversations reliably. The breakthrough came when he re-architected the entire system around Thorsten Ball's vision of simple agent loops.
+
+  We suspect you will find this episode to be mind-expanding, when you can control software in a way that is truly conversational and alive — beyond what MCPs can do today. Steve's system demonstrates how vibe coding can create genuinely transformative new things that the world has never seen.  As long as you can articulate your vision clearly, are willing to iterate, know have a sense of where the AI boundaries of capabilities are.
+
+  https://github.com/steveyegge/efrit
+
+  Pre-order the book here: https://www.amazon.com/Vibe-Coding-Building-Production-Grade-Software/dp/1966280025
+
+  00:00 Introduction
+  00:33 Steve's Project: Efrit in Emacs
+  03:17 Demonstration of Efrit
+  06:27 Technical Deep Dive: Building Efrit
+  09:21 The Vibe Coding Loop Explained
+  14:07 The Importance of Planning in Vibe Coding
+  20:44 Adding Context to Coding Agents
+  21:23 Challenges with Multi-Turn Interactions
+  22:14 Re-Architecting the System
+  22:48 Creative Vision for Software Development
+  23:15 Voice Dictation and Testing Challenges
+  23:40 Integration Tests and Permission Checks
+  26:40 Context Window Limitations
+  30:56 Reward Hacking in AI
+  33:56 Instruction Following Issues
+  36:18 Show and Tell: Integration Test Results
+  38:52 Conclusion and Future Plans</div>]]></description>
+      <pubDate>Mon, 25 Aug 2025 00:46:18 +0000</pubDate><category>ai</category>
+    </item>
+    <item>
+      <title>Wiring Claude Code Into Emacs - System Crafters Live!</title>
+      <link>https://www.youtube.com/watch?v=3N5FVSSQGYs</link>
+      <guid>https://www.youtube.com/watch?v=3N5FVSSQGYs</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=3N5FVSSQGYs">youtube</a><br><br>In this stream, we'll explore integrating Claude Code into an Emacs workflow and tackle the challenges of using it within terminal emulators like eat and vterm. We'll share real project experiences, compare different approaches, and test packages like claude-code.el and monet that promise better integration.
+
+  Along the way, we'll start building a Guile Scheme XMPP client library to demonstrate these workflows in action, giving us a concrete project to work with while exploring the tools.
+
+  ,#emacs #claudecode #guile #workflow #terminal
+
+  SUPPORT THE CHANNEL:
+
+  👍 Support My Work: https://systemcrafters.net/how-to-help/#support-my-work
+  📰 Subscribe to the Newsletter: https://systemcrafters.net/newsletter/
+  👕 Check out the Store: https://systemcrafters.store
+  📘 Get Your Copy of Mastering Emacs: https://www.masteringemacs.org/r/systemcrafters?utm_source=yt&utm_medium=desc&utm_campaign=scme
+
+  SHOW NOTES:
+
+  https://systemcrafters.net/live-streams/august-22-2025/
+
+  JOIN THE COMMUNITY:
+
+  https://systemcrafters.net/community/ (Forum and IRC chat!)
+  https://fosstodon.org/@daviwil
+
+  MY CONFIGURATION:
+
+  (This site is currently down but will be back up soon!)
+
+  https://config.daviwil.com
+  https://config.daviwil.com/emacs
+  https://config.daviwil.com/systems (Guix)
+
+  OTHER SERIES:
+
+  - Emacs Essentials: https://www.youtube.com/watch?v=48JlgiBpw_I&list=PLEoMzSkcN8oPZvSdewHG8uApD7THlLLCV
+  - Emacs From Scratch: https://www.youtube.com/watch?v=74zOY-vgkyw&list=PLEoMzSkcN8oPH1au7H6B7bBJ4ZO7BXjSZ
+  - Emacs Tips: https://www.youtube.com/watch?v=wKTKmE1wLyw&list=PLEoMzSkcN8oMHJ6Xil1YdnYtlWd5hHZql
+  - Emacs Desktop Environment: https://www.youtube.com/watch?v=f7xB2fFk1tQ&list=PLEoMzSkcN8oNPbEMYEtswOVTvq7CVddCS
+  - Emacs IDE: https://www.youtube.com/watch?v=E-NAM9U5JYE&list=PLEoMzSkcN8oNvsrtk_iZSb94krGRofFjN
+  - Emacs Mail: https://www.youtube.com/watch?v=yZRyEhi4y44&list=PLEoMzSkcN8oM-kA19xOQc8s0gr0PpFGJQ
+  - Learning Emacs Lisp: https://www.youtube.com/watch?v=RQK_DaaX34Q&list=PLEoMzSkcN8oPQtn7FQEF3D7sroZbXuPZ7
+  - Craft Your System with GNU Guix: https://www.youtube.com/watch?v=iBaqOK75cho&list=PLEoMzSkcN8oNxnj7jm5V2ZcGc52002pQU
+
+  CREDITS:
+
+  Coriolis Effect by logos feat. stefsax, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/mseq/26296
+  reNovation by airtone, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/airtone/60674
+  ukeSounds by airtone, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/airtone/32655
+  Between Worlds (Instrumental) by Aussens@iter, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/tobias_weber/56664</div>]]></description>
+      <pubDate>Sat, 23 Aug 2025 05:07:44 +0000</pubDate><category>ai</category>
+    </item>
+    <item>
+      <title>A new powerful project-agnostic Emacs workflow (a Neovim alternative)</title>
+      <link>https://youtube.com/watch?v=MouEAYdxEqA&amp;si=x5i8XifuszJh9RYg</link>
+      <guid>https://youtube.com/watch?v=MouEAYdxEqA&amp;si=x5i8XifuszJh9RYg</guid>
+      <description><![CDATA[<div id="content"><a href="https://youtube.com/watch?v=MouEAYdxEqA&si=x5i8XifuszJh9RYg">youtube</a><br><br>A new powerful project-agnostic Emacs workflow I discovered.
+
+  Inspired by the blog article in this link:
+  https://matklad.github.io/2024/07/25/git-worktrees.html
+
+  Do read the article
+
+  I added my own touches, making it super ergonomic.
+
+  My touches is inside (use-package emacs..) macro in this file: https://github.com/ardieMejia/linux-home-emacs-init/blob/main/my_looks/my_looks.el
+
+  Using mouse buttons is not an issue here, since those mouse buttons are extra and rarely used. And my main workflow is keyboard-centric.
+
+  Supporting me will inspire me to produce more quality content, including improving vocal quality.
+
+  (Edit: This video lacks context, I listened to the Reddit complaints. This workflow lets me separate coding and testing into 2 Emacs instance. It also does not affect previous branches, or workflow with other developers. And if Im happy with long weeks fuzzing, I can commit --amend, and start another fuzzing phase.)
+
+  (Edit: 2 folks got offended by my supposed "non-standard" Git usage. I have no idea why people get overly attached by tools that were "created by others". 2-3 Emacs users so far also seem to complain my "long messy config". If your Emacs config is minimal, why arent you using VSCode? Please point what is wrong with my config, Im here to learn.)
+
+  Show some support by buying me coffee on my Ko-fi page just setup recently. (It has both Debit/Credit Card and Paypal options, with 0% fee)
+  https://ko-fi.com/ardiemejia83
+
+  Or can donate straight to my PayPal
+  https://paypal.me/ardiemejia83</div>]]></description>
+      <pubDate>Fri, 22 Aug 2025 00:56:36 +0000</pubDate><category>coding</category>
+    </item>
+    <item>
+      <title>Prot Asks: Dimos about Emacs interconnectedness, collective work, and The Conspiracy Club</title>
+      <link>https://www.youtube.com/watch?v=c5KV_P7K73Y</link>
+      <guid>https://www.youtube.com/watch?v=c5KV_P7K73Y</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=c5KV_P7K73Y">youtube</a><br><br>In this new video series, I talk to anybody who is interested to have a video call with me (so do contact me if you want!). The topics cover anything related to Emacs, technology, and life in general. More here: https://protesilaos.com/prot-asks/.
+
+  In this video, I talk with Dimos from Greece about Emacs as an integrated computing environment. I learn how Dimos started using Emacs 10 years ago while studying mathematics: what is the appeal of Lisp and how that opened the way for using Emacs as an integrated computing environment. We also discuss the work Dimos does, which is part of a technology collective called "Stin Priza" that provides a variety of web services. In this context we explore themes of ownership and of belonging to a community or a place. I then ask about personal interests and other activities, to learn about some of the naturalist activities Dimos does as well as the podcast that Dimos co-hosts called "The Conspiracy Club": it is a show that has been going on for five years now, which discusses conspiracy theories and other mysteries with an open mind and a playful attitude, neither adopting the theories nor debunking them.
+
+  Links by Dimos:
+
+  - Personal website: https://bendersteed.gr.
+  - _Stin Priza_ collective for technology (in Greek): https://stinpriza.org/who/.
+  - _The Conspiracy Club_ podcast (in Greek): https://theconspiracyclub.gr.
+  - Git sources: https://sr.ht/~bendersteed/.</div>]]></description>
+      <pubDate>Wed, 20 Aug 2025 12:25:56 +0000</pubDate><category>ProtAsks</category>
+<category>community</category>
+    </item>
+    <item>
       <title>Matt from The Linux Cast on macOS, NixOS, Emacs &amp; More</title>
       <link>https://www.youtube.com/watch?v=V4mzxJROCFk</link>
       <guid>https://www.youtube.com/watch?v=V4mzxJROCFk</guid>
@@ -300,7 +453,8 @@
   Today I learn from PizzaTorque about how Emacs is used for programming in the field of data science. We discuss the kind of infrastructure Emacs has for dealing with various programming languages and how the experience is. Emacs as a note-taking tool is also something we consider. Then the discussion shifts to linguistics and relevant cultural as well as political considerations. We frequently draw parallels with Emacs. After that we talk about Emacs more in terms of lifestyle and art, commenting on how it helps us develop certain qualities that apply to other parts of our life. We conclude with a conversation on community and an individual's outlook, tying it all together.
 
   PizzaTorque does video streams on programming-related topics, while using Emacs. Here is the YouTube channel: https://www.youtube.com/@PizzaTorque</div>]]></description>
-      <pubDate>Sun, 10 Aug 2025 06:18:08 +0000</pubDate>
+      <pubDate>Sun, 10 Aug 2025 06:18:08 +0000</pubDate><category>ProtAsks</category>
+<category>community</category>
     </item>
     <item>
       <title>Emacs | Org File Includes SO Awesome</title>
@@ -416,7 +570,8 @@
   - James teaches at the Pennsylvania State University: https://science.psu.edu/bmb/people/jeh37
   - Personal website: https://jamesendreshowell.com/
   - EmacsConf 2023 presentation about teaching at the university with free software: https://emacsconf.org/2023/talks/uni/</div>]]></description>
-      <pubDate>Wed, 06 Aug 2025 17:10:06 +0000</pubDate>
+      <pubDate>Wed, 06 Aug 2025 17:10:06 +0000</pubDate><category>ProtAsks</category>
+<category>community</category>
     </item>
     <item>
       <title>Set up AI assisted programming in Emacs using aider</title>
@@ -576,7 +731,8 @@
       <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=9eC1kgq4mzA">youtube</a><br><br>In this new video series, I talk to anybody who is interested to have a video call with me (so do contact me if you want!). The topics cover anything related to Emacs, technology, and life in general. More information in the announcement I posted: https://protesilaos.com/codelog/2025-07-10-prot-asks-chats-videos-proposal/.
 
   For this meeting, I learnt from Rudy about a bunch of geeky and fun issues. We discussed what it means to be "living in Emacs". It takes a certain mindset to experiment with your tools and to understand what is going on. You eventually push against the boundaries because you take things to their full potential. Our talk covers bugs and some in-development feature of Org mode. Then we explore more themes that speak to the hacker's heart: Scheme and Fennel for developing games within certain constraints, simple cooking, experimenting with pizza, and more!</div>]]></description>
-      <pubDate>Wed, 30 Jul 2025 17:13:39 +0000</pubDate>
+      <pubDate>Wed, 30 Jul 2025 17:13:39 +0000</pubDate><category>ProtAsks</category>
+<category>community</category>
     </item>
     <item>
       <title>Building log verbosity control UI for Ares/Arei Guile Scheme IDE</title>
@@ -636,6 +792,7 @@
   More from Ihor listed on my website because the description here limits the character count: https://protesilaos.com/codelog/2025-07-26-prot-asks-ihor-emacs-org-maintainer-history-travel-material-science</div>]]></description>
       <pubDate>Sat, 26 Jul 2025 17:41:08 +0000</pubDate><category>org</category>
 <category>community</category>
+<category>ProtAsks</category>
     </item>
     <item>
       <title>Emacs Org mode as a LaTeX editor</title>
@@ -863,93 +1020,6 @@
   ukeSounds by airtone, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/airtone/32655
   Between Worlds (Instrumental) by Aussens@iter, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/tobias_weber/56664</div>]]></description>
       <pubDate>Sat, 19 Jul 2025 05:14:01 +0000</pubDate><category>completion</category>
-    </item>
-    <item>
-      <title>Emacs | Ask me about my Org Mode agenda</title>
-      <link>https://www.youtube.com/watch?v=2w0TxXmIomM</link>
-      <guid>https://www.youtube.com/watch?v=2w0TxXmIomM</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=2w0TxXmIomM">youtube</a><br><br>Bro, do you use the Org Mode agenda?  It's a great tool, but it has some quirks.  What kind of todo items are you tracking?
-
-  Read my blog post here:
-  https://chrismaiorana.com/ask-org-mode-agenda/
-
-  GET THE EMACS FOR WRITERS HANDBOOK HERE:
-  https://chris-maiorana.kit.com/products/emacs-for-writers</div>]]></description>
-      <pubDate>Fri, 18 Jul 2025 13:00:06 +0000</pubDate><category>org</category>
-    </item>
-    <item>
-      <title>Guile Stack Viewer, Metacommands in Arei, New Ares CLI, Custom Ports Backport | RDE Meetup #6</title>
-      <link>https://www.youtube.com/watch?v=VUnY1LY4Las</link>
-      <guid>https://www.youtube.com/watch?v=VUnY1LY4Las</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=VUnY1LY4Las">youtube</a><br><br>,#lisp #scheme #guile
-  This is a partial recording of RDE Meetup #6. It was a lot of exciting stuff.
-
-  Talk "Metacommands, Ares CLI and progress on Guile Debugger",  by Noé Lopez.
-  Talk "When Arei 1.0 release, custom-ports backport and stuff" by Andrew Tropin.
-  Disscussion "Let's share Ares/Arei with more Scheme hackers " by Pjotr Prins.
-
-  ,#linux #emacs #rde #guix
-
-  Reach me out for consulting or other fun stuff:
-  https://trop.in/contact
-
-  IRC Chat:
-  ,#tropin IRC channel at libera.chat.
-
-  Mastodon:
-  https://fosstodon.org/@abcdw
-
-  RDE and Arei Guile IDE projects:
-  https://sr.ht/~abcdw/rde
-  https://sr.ht/~abcdw/emacs-arei
-
-  https://github.com/abcdw/rde (mirror)
-
-  Mailing lists:
-  https://lists.sr.ht/~abcdw/</div>]]></description>
-      <pubDate>Fri, 18 Jul 2025 06:41:23 +0000</pubDate><category>arei</category>
-    </item>
-    <item>
-      <title>3 Ways to Manually Install Emacs Packages</title>
-      <link>https://www.youtube.com/watch?v=hABlN9b7K5A</link>
-      <guid>https://www.youtube.com/watch?v=hABlN9b7K5A</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=hABlN9b7K5A">youtube</a><br><br>My website: https://emacselements.com/
-  If you enjoy my videos please send me a donation via PayPal:
-  https://paypal.me/revrari</div>]]></description>
-      <pubDate>Sun, 13 Jul 2025 22:00:43 +0000</pubDate>
-    </item>
-    <item>
-      <title>Ep680 JSON in Emacs Lisp and Wolfram Language</title>
-      <link>https://www.youtube.com/watch?v=1UhN6bWL8IY</link>
-      <guid>https://www.youtube.com/watch?v=1UhN6bWL8IY</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=1UhN6bWL8IY">youtube</a><br><br>Notes at
-  http ://xahlee .info/talk_show/xah_talk_show_ep680.html
-  Copy the link, remove spaces, paste the link in browser tab.
-  Google Chrome and Firefox browsers censor websites by auto adding s in http and says the site Secure Connection Failed.
-  Use Brave Browser or Safari.</div>]]></description>
-      <pubDate>Sun, 13 Jul 2025 17:11:32 +0000</pubDate>
-    </item>
-    <item>
-      <title>C++ development in Emacs: clangd and eglot</title>
-      <link>https://www.youtube.com/watch?v=NRLzS0_8MBQ</link>
-      <guid>https://www.youtube.com/watch?v=NRLzS0_8MBQ</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=NRLzS0_8MBQ">youtube</a><br><br>Here's how to set up Emacs for a better C++ development experience, in my opinion.
-
-  clangd install instructions https://clangd.llvm.org/installation
-  clangd features https://clangd.llvm.org/features
-
-  eglot keybindings
-  (use-package eglot
-    :bind (:map eglot-mode-map
-         ("C-c l r" . eglot-rename)
-         ("C-c l a" . eglot-code-actions)
-         ("C-c l f" . eglot-format)))
-
-  if you're not using use-package
-  (define-key eglot-mode-map (kbd "C-c l r") 'eglot-rename)
-  (define-key eglot-mode-map (kbd "C-c l a") 'eglot-code-actions)
-  (define-key eglot-mode-map (kbd "C-c l f") 'eglot-format)</div>]]></description>
-      <pubDate>Sun, 13 Jul 2025 15:40:15 +0000</pubDate>
     </item>
   </channel>
 </rss>

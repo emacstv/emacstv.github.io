@@ -1,5 +1,62 @@
 [
   {
+    "ITEM": "Prot Asks: Ronnie about free software, privacy, parenting, and life in Iraqi Kurdistan",
+    "DATE": "2025-08-24T23:19:34-07:00",
+    "DURATION": "1:47:29",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=qvWSGzfR1wA",
+    "SPEAKERS": "Protesilaos Stavrou",
+    "TAGS": [
+      "ProtAsks",
+      "community"
+    ],
+    "BODY": "In this new video series, I talk to anybody who is interested to have a video call with me (so do contact me if you want!). The topics cover anything related to Emacs, technology, and life in general. More here: https://protesilaos.com/prot-asks/.\n\n  In this video I talk with Ronnie Nissan about a range of issues covering free software and everyday life issues. Ronnie is a GTK (Gnome) app developer, who also has experience with GNU Emacs. We explore the intersection of social organisation and modern technology, such as how people's behavioural patterns are affected and what kind of power dynamics are at play. Through our exchange we discuss matters of parenting, or what I called \"upbringing\" (it involves more than just the parents), education, and culture at-large. In the process, I learn about life in Iraqi Kurdistan, while also noticing how many of the typical personal and collective problems we are aware of are common across cultures.\n\n  Links by Ronnie (and mention of my journal entry):\n\n  - Concessio GTK app: https://flathub.org/apps/io.github.ronniedroid.concessio\n  - Embellish GTK app: https://flathub.org/apps/io.github.getnf.embellish\n  - \"Get NerdFonts\" application: https://github.com/getnf/getnf\n  - Ronnie's website: https://ronnienissan.pages.dev/\n  - Prot's \"Freedom within robust constraints\": https://protesilaos.com/commentary/2025-08-23-freedom-robust-constraints/"
+  },
+  {
+    "ITEM": "S1E8: Show And Tell: Efrit: When Steve Gives Claude Full Access To 50 Years of Emacs Capabilities",
+    "DATE": "2025-08-24T17:46:18-07:00",
+    "DURATION": "40:14",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=ZJUyVVFOXOc",
+    "SPEAKERS": "Vibe Coding With Steve and Gene",
+    "TAGS": [
+      "ai"
+    ],
+    "BODY": "In this rather mind-blowing episode of Vibe Coding with Steve and Gene, Steve demonstrates Efrit — giving Claude full access to control Emacs. What starts as a simple show-and-tell quickly melts Gene's brain.  Steve shows how Claude can get Emacs do basically anything: open info pages, count files, start shells, even generate a Mandelbrot fractals in a buffer.\n\n  By doing this, the AI has complete access to Emacs's 50-year ecosystem of packages and can orchestrate complex tasks across multiple windows and processes. You can hear Gene's constantly trying to ask questions so he can get his head around what Steve built.\n\n  Gene also asks Steve to apply the vibe coding loop from the book to this project: Steve emphasizes that \"the plan is everything\" - proper planning solves most AI coding problems, including instruction following failures, reward hacking, and context window limitations. His approach involved months of iterative refinement, constantly catching the AI when it tried to \"cheat\" (like building haiku detectors instead of just writing haikus), and gradually building up a stable system that could handle multi-turn conversations reliably. The breakthrough came when he re-architected the entire system around Thorsten Ball's vision of simple agent loops.\n\n  We suspect you will find this episode to be mind-expanding, when you can control software in a way that is truly conversational and alive — beyond what MCPs can do today. Steve's system demonstrates how vibe coding can create genuinely transformative new things that the world has never seen.  As long as you can articulate your vision clearly, are willing to iterate, know have a sense of where the AI boundaries of capabilities are.\n\n  https://github.com/steveyegge/efrit\n\n  Pre-order the book here: https://www.amazon.com/Vibe-Coding-Building-Production-Grade-Software/dp/1966280025\n\n  00:00 Introduction\n  00:33 Steve's Project: Efrit in Emacs\n  03:17 Demonstration of Efrit\n  06:27 Technical Deep Dive: Building Efrit\n  09:21 The Vibe Coding Loop Explained\n  14:07 The Importance of Planning in Vibe Coding\n  20:44 Adding Context to Coding Agents\n  21:23 Challenges with Multi-Turn Interactions\n  22:14 Re-Architecting the System\n  22:48 Creative Vision for Software Development\n  23:15 Voice Dictation and Testing Challenges\n  23:40 Integration Tests and Permission Checks\n  26:40 Context Window Limitations\n  30:56 Reward Hacking in AI\n  33:56 Instruction Following Issues\n  36:18 Show and Tell: Integration Test Results\n  38:52 Conclusion and Future Plans"
+  },
+  {
+    "ITEM": "Wiring Claude Code Into Emacs - System Crafters Live!",
+    "DATE": "2025-08-22T22:07:44-07:00",
+    "DURATION": "1:45:40",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=3N5FVSSQGYs",
+    "SPEAKERS": "System Crafters",
+    "TAGS": [
+      "ai"
+    ],
+    "BODY": "In this stream, we'll explore integrating Claude Code into an Emacs workflow and tackle the challenges of using it within terminal emulators like eat and vterm. We'll share real project experiences, compare different approaches, and test packages like claude-code.el and monet that promise better integration.\n\n  Along the way, we'll start building a Guile Scheme XMPP client library to demonstrate these workflows in action, giving us a concrete project to work with while exploring the tools.\n\n  ,#emacs #claudecode #guile #workflow #terminal\n\n  SUPPORT THE CHANNEL:\n\n  👍 Support My Work: https://systemcrafters.net/how-to-help/#support-my-work\n  📰 Subscribe to the Newsletter: https://systemcrafters.net/newsletter/\n  👕 Check out the Store: https://systemcrafters.store\n  📘 Get Your Copy of Mastering Emacs: https://www.masteringemacs.org/r/systemcrafters?utm_source=yt&utm_medium=desc&utm_campaign=scme\n\n  SHOW NOTES:\n\n  https://systemcrafters.net/live-streams/august-22-2025/\n\n  JOIN THE COMMUNITY:\n\n  https://systemcrafters.net/community/ (Forum and IRC chat!)\n  https://fosstodon.org/@daviwil\n\n  MY CONFIGURATION:\n\n  (This site is currently down but will be back up soon!)\n\n  https://config.daviwil.com\n  https://config.daviwil.com/emacs\n  https://config.daviwil.com/systems (Guix)\n\n  OTHER SERIES:\n\n  - Emacs Essentials: https://www.youtube.com/watch?v=48JlgiBpw_I&list=PLEoMzSkcN8oPZvSdewHG8uApD7THlLLCV\n  - Emacs From Scratch: https://www.youtube.com/watch?v=74zOY-vgkyw&list=PLEoMzSkcN8oPH1au7H6B7bBJ4ZO7BXjSZ\n  - Emacs Tips: https://www.youtube.com/watch?v=wKTKmE1wLyw&list=PLEoMzSkcN8oMHJ6Xil1YdnYtlWd5hHZql\n  - Emacs Desktop Environment: https://www.youtube.com/watch?v=f7xB2fFk1tQ&list=PLEoMzSkcN8oNPbEMYEtswOVTvq7CVddCS\n  - Emacs IDE: https://www.youtube.com/watch?v=E-NAM9U5JYE&list=PLEoMzSkcN8oNvsrtk_iZSb94krGRofFjN\n  - Emacs Mail: https://www.youtube.com/watch?v=yZRyEhi4y44&list=PLEoMzSkcN8oM-kA19xOQc8s0gr0PpFGJQ\n  - Learning Emacs Lisp: https://www.youtube.com/watch?v=RQK_DaaX34Q&list=PLEoMzSkcN8oPQtn7FQEF3D7sroZbXuPZ7\n  - Craft Your System with GNU Guix: https://www.youtube.com/watch?v=iBaqOK75cho&list=PLEoMzSkcN8oNxnj7jm5V2ZcGc52002pQU\n\n  CREDITS:\n\n  Coriolis Effect by logos feat. stefsax, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/mseq/26296\n  reNovation by airtone, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/airtone/60674\n  ukeSounds by airtone, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/airtone/32655\n  Between Worlds (Instrumental) by Aussens@iter, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/tobias_weber/56664"
+  },
+  {
+    "ITEM": "A new powerful project-agnostic Emacs workflow (a Neovim alternative)",
+    "DATE": "2025-08-21T17:56:36-07:00",
+    "DURATION": "12:50",
+    "YOUTUBE_URL": "https://youtube.com/watch?v=MouEAYdxEqA&si=x5i8XifuszJh9RYg",
+    "SPEAKERS": "Ardie83",
+    "TAGS": [
+      "coding"
+    ],
+    "BODY": "A new powerful project-agnostic Emacs workflow I discovered.\n\n  Inspired by the blog article in this link:\n  https://matklad.github.io/2024/07/25/git-worktrees.html\n\n  Do read the article\n\n  I added my own touches, making it super ergonomic.\n\n  My touches is inside (use-package emacs..) macro in this file: https://github.com/ardieMejia/linux-home-emacs-init/blob/main/my_looks/my_looks.el\n\n  Using mouse buttons is not an issue here, since those mouse buttons are extra and rarely used. And my main workflow is keyboard-centric.\n\n  Supporting me will inspire me to produce more quality content, including improving vocal quality.\n\n  (Edit: This video lacks context, I listened to the Reddit complaints. This workflow lets me separate coding and testing into 2 Emacs instance. It also does not affect previous branches, or workflow with other developers. And if Im happy with long weeks fuzzing, I can commit --amend, and start another fuzzing phase.)\n\n  (Edit: 2 folks got offended by my supposed \"non-standard\" Git usage. I have no idea why people get overly attached by tools that were \"created by others\". 2-3 Emacs users so far also seem to complain my \"long messy config\". If your Emacs config is minimal, why arent you using VSCode? Please point what is wrong with my config, Im here to learn.)\n\n  Show some support by buying me coffee on my Ko-fi page just setup recently. (It has both Debit/Credit Card and Paypal options, with 0% fee)\n  https://ko-fi.com/ardiemejia83\n\n  Or can donate straight to my PayPal\n  https://paypal.me/ardiemejia83"
+  },
+  {
+    "ITEM": "Prot Asks: Dimos about Emacs interconnectedness, collective work, and The Conspiracy Club",
+    "DATE": "2025-08-20T05:25:56-07:00",
+    "DURATION": "1:12:57",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=c5KV_P7K73Y",
+    "SPEAKERS": "Protesilaos Stavrou",
+    "TAGS": [
+      "ProtAsks",
+      "community"
+    ],
+    "BODY": "In this new video series, I talk to anybody who is interested to have a video call with me (so do contact me if you want!). The topics cover anything related to Emacs, technology, and life in general. More here: https://protesilaos.com/prot-asks/.\n\n  In this video, I talk with Dimos from Greece about Emacs as an integrated computing environment. I learn how Dimos started using Emacs 10 years ago while studying mathematics: what is the appeal of Lisp and how that opened the way for using Emacs as an integrated computing environment. We also discuss the work Dimos does, which is part of a technology collective called \"Stin Priza\" that provides a variety of web services. In this context we explore themes of ownership and of belonging to a community or a place. I then ask about personal interests and other activities, to learn about some of the naturalist activities Dimos does as well as the podcast that Dimos co-hosts called \"The Conspiracy Club\": it is a show that has been going on for five years now, which discusses conspiracy theories and other mysteries with an open mind and a playful attitude, neither adopting the theories nor debunking them.\n\n  Links by Dimos:\n\n  - Personal website: https://bendersteed.gr.\n  - _Stin Priza_ collective for technology (in Greek): https://stinpriza.org/who/.\n  - _The Conspiracy Club_ podcast (in Greek): https://theconspiracyclub.gr.\n  - Git sources: https://sr.ht/~bendersteed/."
+  },
+  {
     "ITEM": "Matt from The Linux Cast on macOS, NixOS, Emacs & More",
     "DATE": "2025-08-17T04:00:53-07:00",
     "DURATION": "2:23:43",
@@ -93,6 +150,10 @@
     "DURATION": "1:34:45",
     "YOUTUBE_URL": "https://www.youtube.com/watch?v=-g8o0M9CRkA",
     "SPEAKERS": "Protesilaos Stavrou",
+    "TAGS": [
+      "ProtAsks",
+      "community"
+    ],
     "BODY": "In this new video series, I talk to anybody who is interested to have a video call with me (so do contact me if you want!). The topics cover anything related to Emacs, technology, and life in general. More here: https://protesilaos.com/prot-asks/.\n\n  Today I learn from PizzaTorque about how Emacs is used for programming in the field of data science. We discuss the kind of infrastructure Emacs has for dealing with various programming languages and how the experience is. Emacs as a note-taking tool is also something we consider. Then the discussion shifts to linguistics and relevant cultural as well as political considerations. We frequently draw parallels with Emacs. After that we talk about Emacs more in terms of lifestyle and art, commenting on how it helps us develop certain qualities that apply to other parts of our life. We conclude with a conversation on community and an individual's outlook, tying it all together.\n\n  PizzaTorque does video streams on programming-related topics, while using Emacs. Here is the YouTube channel: https://www.youtube.com/@PizzaTorque"
   },
   {
@@ -141,6 +202,10 @@
     "DURATION": "1:06:48",
     "YOUTUBE_URL": "https://www.youtube.com/watch?v=YzVToImIm1Y",
     "SPEAKERS": "Protesilaos Stavrou",
+    "TAGS": [
+      "ProtAsks",
+      "community"
+    ],
     "BODY": "In this new video series, I talk to anybody who is interested to have a video call with me (so do contact me if you want!). The topics cover anything related to Emacs, technology, and life in general. More here: https://protesilaos.com/prot-asks/.\n\n  In this 1-hour video, I learn from James about what goes into teaching biology and thinking as a scientist. We discuss the shortcomings of the education system and touch on the alternative approach of going more in-depth. James describes how Emacs comes into the picture, the importance of the free software community---and community in general---and how politics informs our views on competition and cooperation.\n\n  - James teaches at the Pennsylvania State University: https://science.psu.edu/bmb/people/jeh37\n  - Personal website: https://jamesendreshowell.com/\n  - EmacsConf 2023 presentation about teaching at the university with free software: https://emacsconf.org/2023/talks/uni/"
   },
   {
@@ -197,6 +262,10 @@
     "DURATION": "1:47:09",
     "YOUTUBE_URL": "https://www.youtube.com/watch?v=9eC1kgq4mzA",
     "SPEAKERS": "Protesilaos Stavrou",
+    "TAGS": [
+      "ProtAsks",
+      "community"
+    ],
     "BODY": "In this new video series, I talk to anybody who is interested to have a video call with me (so do contact me if you want!). The topics cover anything related to Emacs, technology, and life in general. More information in the announcement I posted: https://protesilaos.com/codelog/2025-07-10-prot-asks-chats-videos-proposal/.\n\n  For this meeting, I learnt from Rudy about a bunch of geeky and fun issues. We discussed what it means to be \"living in Emacs\". It takes a certain mindset to experiment with your tools and to understand what is going on. You eventually push against the boundaries because you take things to their full potential. Our talk covers bugs and some in-development feature of Org mode. Then we explore more themes that speak to the hacker's heart: Scheme and Fennel for developing games within certain constraints, simple cooking, experimenting with pizza, and more!"
   },
   {
@@ -223,7 +292,8 @@
     "SPEAKERS": "Protesilaos Stavrou",
     "TAGS": [
       "org",
-      "community"
+      "community",
+      "ProtAsks"
     ],
     "BODY": "In this new video series, I talk to anybody who is interested to have a video call with me (so do contact me if you want!). The topics cover anything related to Emacs, technology, and life in general. More information in the announcement I posted: https://protesilaos.com/codelog/2025-07-10-prot-asks-chats-videos-proposal/.\n\n  Today I learnt from Ihor Radchenko what kind of work goes into maintaining the Emacs Org package. We discussed the process of contributing to Org and how the community is involved in the process. Other than the technicalities of Emacs, I asked Ihor about general interests in life. Some of those involve the study of history, which we explored in some further depth. Ihor has travelled and worked in various parts of the planet. I wanted to understand more about those experiences. Towards the end of our meeting, I wanted to gain insights into what \"material science\" is in practice.\n\n  More from Ihor listed on my website because the description here limits the character count: https://protesilaos.com/codelog/2025-07-26-prot-asks-ihor-emacs-org-maintainer-history-travel-material-science"
   },
