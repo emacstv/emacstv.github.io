@@ -3,6 +3,143 @@
 #+PROPERTY: header-args:emacs-lisp+   :eval no
 
 
+* Emacs bankruptcy – fix your Emacs and your life  :configuration:
+:PROPERTIES:
+:DATE:     2025-08-31T09:46:44-07:00
+:DURATION: 13:12
+:YOUTUBE_URL: https://www.youtube.com/watch?v=dSlMmCD5quc
+:SPEAKERS: Jake B
+:END:
+  In this video I discuss Emacs Bankruptcy, the idea of starting your Emacs configuration from scratch in hopes of coming up with something better. I'll talk about what it is, why you should do it, discuss my own Emacs bankruptcy, give important points to consider, and walk through a little example.
+
+  0:00 Introduction
+  0:17 What is Emacs bankruptcy
+  0:46 Should you do it
+  1:10 How to
+  2:03 My Emacs bankruptcy
+  3:07 Main considerations
+  6:28 Example
+  8:23 Organization
+  12:13 Conclusion
+
+* Emacs/Meep (modal editing)  :meep:
+:PROPERTIES:
+:DATE:     2025-08-31T02:21:10-07:00
+:DURATION: 5:28
+:YOUTUBE_URL: https://youtu.be/MJqX8Z64k0c
+:SPEAKERS: Campbell Barton
+:END:
+  https://codeberg.org/ideasman42/emacs-meep
+
+* Eshell + Windows + Coreutils  :eshell:
+:PROPERTIES:
+:DATE:     2025-08-29T16:02:49-07:00
+:DURATION: 16:12
+:YOUTUBE_URL: https://www.youtube.com/watch?v=DVGhY3X0nbg
+:SPEAKERS: O Clementino
+:END:
+  Pot-pourri é um conjunto heterogêneo de coisas e é isso que eu faço nesse vídeo: eu mostro como você pode usar comandos do GNU Coreutils no Windows e ter isso disponível dentro do Eshell.
+
+  00:00 Algumas ideias gerais
+  02:00 Tour do command prompt que você não precisa!
+  04:00 Interagindo com o shell do Emacs: o Eshell
+  07:30 Mostrando como instalar o MSYS2
+  09:00 Disponibilizando comandos do MSYS2 no Eshell
+  12:00 Caso de uso
+  13:15 Redirecionamento para arquivos ou o clipboard
+
+  Links úteis
+  - https://www.msys2.org/
+
+* Ultra Ergonomic Emacs Workflow (navigation wise and Undo)  :navigation:keychord:
+:PROPERTIES:
+:DATE:     2025-08-28T19:58:16-07:00
+:DURATION: 7:52
+:YOUTUBE_URL: https://youtube.com/watch?v=BbiLFNwOPhw
+:SPEAKERS: Ardie83
+:END:
+  Ultra Ergonomic Emacs Workflow (navigation wise and Undo)
+
+  Combining powerful Key-Chords, Braille and Hydra-mode.
+
+  All are "directional".
+
+  Inspired by this article:
+  https://www.johndcook.com/blog/2015/02/01/rare-bigrams/
+
+
+  Supporting me will inspire me to produce more quality content, improved video and audio.
+
+
+  Show some support by buying me coffee on my Ko-fi page just setup recently. (It has both Debit/Credit Card and Paypal options, with 0% fee)
+  https://ko-fi.com/ardiemejia83
+
+  Or can donate straight to my PayPal
+  https://paypal.me/ardiemejia83
+
+* A Stealth Flex: Browse Reddit at Work Using Emacs  :reddit:
+:PROPERTIES:
+:DATE:     2025-08-27T14:19:05-07:00
+:DURATION: 2:15
+:YOUTUBE_URL: https://www.youtube.com/watch?v=nwF52QB3hB8
+:SPEAKERS: dickmao
+:END:
+  https://github.com/dickmao/emacs-subreddit.git
+
+  Graphic Credits: Back Cover Art of Gnu Emacs Manual (1985) by Etienne Suvasa.
+* Buffers Are the BEST Emacs Feature   :buffer:navigation:
+:PROPERTIES:
+:DATE:     2025-08-25T18:18:23-07:00
+:DURATION: 8:22
+:YOUTUBE_URL: https://www.youtube.com/watch?v=_zVvIUw8uaQ
+:SPEAKERS: The Linux Cast
+:END:
+  Today I talk about the best Emacs feature, and why it is so damn good.
+
+  👇 PULL IT DOWN FOR THE GOOD STUFF 👇
+
+  Patreon - https://patreon.com/thelinuxcast
+  Paypal - https://paypal.me/thelinuxcast
+  Youtube - https://www.youtube.com/channel/UCylGUf9BvQooEFjgdNudoQg/join
+  Ko-fi - https://ko-fi.com/thelinuxcast
+
+  ===== Follow us 🐧🐧 ======
+  MERCH - https://shop.thelinuxcast.org
+  Discord - https://thelinuxcast.org/discord
+  Odysee - https://odysee.com/$/invite/@thelinuxcast:4
+  TILvids(Peertube) - https://tilvids.com/c/thelinuxcast_channel/videos
+  Mastodon- https://polymaths.social/@thelinuxcast
+  Bluesky - https://bsky.app/profile/thelinuxcast.bsky.social
+  https://gitlab.com/thelinuxcast
+  Matrix - https://matrix.to/#/#the-linux-cast:matrix.org
+  The Website http://thelinuxcast.org
+  Contact us email@thelinuxcast.org
+  Amazon Wishlist - https://www.amazon.com/hz/wishlist/ls/1J3W9HF4O2M7T?ref_=wl_share
+  Logo Courtesy of - pedropaulo.net
+  Intro Courtesy of - https://www.fragcgi.com/?i=1
+
+  Get a free month of Proton Mail! https://go.getproton.me/SH1gC
+  Get 20% Off Your First Year at Hostinger - https://tinyurl.com/27kqbj63
+
+  ==== Special Thanks to Our Patrons! ====
+  https://thelinuxcast.org/patrons/
+
+  ==== My Gear ==== (Affilliate Links)
+
+  Shure sm7b - https://amzn.to/42jvata
+  LG Dual Up Monitor - https://amzn.to/42h7m9e
+  Sceptre 32 Curved Monitor - https://amzn.to/40CHoeY
+  Edifier R1280T - https://amzn.to/4gValbW
+  Elgato Stream Deck MK2 - https://amzn.to/4ga1MJa
+  Universal Audio Volt 276 - https://amzn.to/4jd8ukh
+  iPhone 15 Pro Mac - https://amzn.to/4jmxdT2
+  Logitech Brio Webcam - https://amzn.to/4aqoRFZ
+  Weilisi Desk Ring Light - https://amzn.to/4aqp1gz
+  Logitech MX Master 3 - https://amzn.to/3Wm5A2E
+
+
+  ,#emacs #linux #thelinuxcast
+
 * Prot Asks: Ronnie about free software, privacy, parenting, and life in Iraqi Kurdistan  :ProtAsks:community:
 :PROPERTIES:
 :DATE:     2025-08-24T23:19:34-07:00

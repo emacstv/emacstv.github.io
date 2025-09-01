@@ -1,5 +1,73 @@
 [
   {
+    "ITEM": "Emacs bankruptcy – fix your Emacs and your life",
+    "DATE": "2025-08-31T09:46:44-07:00",
+    "DURATION": "13:12",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=dSlMmCD5quc",
+    "SPEAKERS": "Jake B",
+    "TAGS": [
+      "configuration"
+    ],
+    "BODY": "In this video I discuss Emacs Bankruptcy, the idea of starting your Emacs configuration from scratch in hopes of coming up with something better. I'll talk about what it is, why you should do it, discuss my own Emacs bankruptcy, give important points to consider, and walk through a little example.\n\n  0:00 Introduction\n  0:17 What is Emacs bankruptcy\n  0:46 Should you do it\n  1:10 How to\n  2:03 My Emacs bankruptcy\n  3:07 Main considerations\n  6:28 Example\n  8:23 Organization\n  12:13 Conclusion"
+  },
+  {
+    "ITEM": "Emacs/Meep (modal editing)",
+    "DATE": "2025-08-31T02:21:10-07:00",
+    "DURATION": "5:28",
+    "YOUTUBE_URL": "https://youtu.be/MJqX8Z64k0c",
+    "SPEAKERS": "Campbell Barton",
+    "TAGS": [
+      "meep"
+    ],
+    "BODY": "https://codeberg.org/ideasman42/emacs-meep"
+  },
+  {
+    "ITEM": "Eshell + Windows + Coreutils",
+    "DATE": "2025-08-29T16:02:49-07:00",
+    "DURATION": "16:12",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=DVGhY3X0nbg",
+    "SPEAKERS": "O Clementino",
+    "TAGS": [
+      "eshell"
+    ],
+    "BODY": "Pot-pourri é um conjunto heterogêneo de coisas e é isso que eu faço nesse vídeo: eu mostro como você pode usar comandos do GNU Coreutils no Windows e ter isso disponível dentro do Eshell.\n\n  00:00 Algumas ideias gerais\n  02:00 Tour do command prompt que você não precisa!\n  04:00 Interagindo com o shell do Emacs: o Eshell\n  07:30 Mostrando como instalar o MSYS2\n  09:00 Disponibilizando comandos do MSYS2 no Eshell\n  12:00 Caso de uso\n  13:15 Redirecionamento para arquivos ou o clipboard\n\n  Links úteis\n  - https://www.msys2.org/"
+  },
+  {
+    "ITEM": "Ultra Ergonomic Emacs Workflow (navigation wise and Undo)",
+    "DATE": "2025-08-28T19:58:16-07:00",
+    "DURATION": "7:52",
+    "YOUTUBE_URL": "https://youtube.com/watch?v=BbiLFNwOPhw",
+    "SPEAKERS": "Ardie83",
+    "TAGS": [
+      "navigation",
+      "keychord"
+    ],
+    "BODY": "Ultra Ergonomic Emacs Workflow (navigation wise and Undo)\n\n  Combining powerful Key-Chords, Braille and Hydra-mode.\n\n  All are \"directional\".\n\n  Inspired by this article:\n  https://www.johndcook.com/blog/2015/02/01/rare-bigrams/\n\n\n  Supporting me will inspire me to produce more quality content, improved video and audio.\n\n\n  Show some support by buying me coffee on my Ko-fi page just setup recently. (It has both Debit/Credit Card and Paypal options, with 0% fee)\n  https://ko-fi.com/ardiemejia83\n\n  Or can donate straight to my PayPal\n  https://paypal.me/ardiemejia83"
+  },
+  {
+    "ITEM": "A Stealth Flex: Browse Reddit at Work Using Emacs",
+    "DATE": "2025-08-27T14:19:05-07:00",
+    "DURATION": "2:15",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=nwF52QB3hB8",
+    "SPEAKERS": "dickmao",
+    "TAGS": [
+      "reddit"
+    ],
+    "BODY": "https://github.com/dickmao/emacs-subreddit.git\n\n  Graphic Credits: Back Cover Art of Gnu Emacs Manual (1985) by Etienne Suvasa."
+  },
+  {
+    "ITEM": "Buffers Are the BEST Emacs Feature",
+    "DATE": "2025-08-25T18:18:23-07:00",
+    "DURATION": "8:22",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=_zVvIUw8uaQ",
+    "SPEAKERS": "The Linux Cast",
+    "TAGS": [
+      "buffer",
+      "navigation"
+    ],
+    "BODY": "Today I talk about the best Emacs feature, and why it is so damn good.\n\n  👇 PULL IT DOWN FOR THE GOOD STUFF 👇\n\n  Patreon - https://patreon.com/thelinuxcast\n  Paypal - https://paypal.me/thelinuxcast\n  Youtube - https://www.youtube.com/channel/UCylGUf9BvQooEFjgdNudoQg/join\n  Ko-fi - https://ko-fi.com/thelinuxcast\n\n  ===== Follow us 🐧🐧 ======\n  MERCH - https://shop.thelinuxcast.org\n  Discord - https://thelinuxcast.org/discord\n  Odysee - https://odysee.com/$/invite/@thelinuxcast:4\n  TILvids(Peertube) - https://tilvids.com/c/thelinuxcast_channel/videos\n  Mastodon- https://polymaths.social/@thelinuxcast\n  Bluesky - https://bsky.app/profile/thelinuxcast.bsky.social\n  https://gitlab.com/thelinuxcast\n  Matrix - https://matrix.to/#/#the-linux-cast:matrix.org\n  The Website http://thelinuxcast.org\n  Contact us email@thelinuxcast.org\n  Amazon Wishlist - https://www.amazon.com/hz/wishlist/ls/1J3W9HF4O2M7T?ref_=wl_share\n  Logo Courtesy of - pedropaulo.net\n  Intro Courtesy of - https://www.fragcgi.com/?i=1\n\n  Get a free month of Proton Mail! https://go.getproton.me/SH1gC\n  Get 20% Off Your First Year at Hostinger - https://tinyurl.com/27kqbj63\n\n  ==== Special Thanks to Our Patrons! ====\n  https://thelinuxcast.org/patrons/\n\n  ==== My Gear ==== (Affilliate Links)\n\n  Shure sm7b - https://amzn.to/42jvata\n  LG Dual Up Monitor - https://amzn.to/42h7m9e\n  Sceptre 32 Curved Monitor - https://amzn.to/40CHoeY\n  Edifier R1280T - https://amzn.to/4gValbW\n  Elgato Stream Deck MK2 - https://amzn.to/4ga1MJa\n  Universal Audio Volt 276 - https://amzn.to/4jd8ukh\n  iPhone 15 Pro Mac - https://amzn.to/4jmxdT2\n  Logitech Brio Webcam - https://amzn.to/4aqoRFZ\n  Weilisi Desk Ring Light - https://amzn.to/4aqp1gz\n  Logitech MX Master 3 - https://amzn.to/3Wm5A2E\n\n\n  ,#emacs #linux #thelinuxcast"
+  },
+  {
     "ITEM": "Prot Asks: Ronnie about free software, privacy, parenting, and life in Iraqi Kurdistan",
     "DATE": "2025-08-24T23:19:34-07:00",
     "DURATION": "1:47:29",
