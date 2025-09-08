@@ -1,5 +1,102 @@
 [
   {
+    "ITEM": "Substituindo a palavra A pela palavra B e B pela palavra A no Emacs",
+    "DATE": "2025-09-08T02:00:19-07:00",
+    "DURATION": "1:01",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=FsD01SfEmJ4",
+    "SPEAKERS": "O Clementino",
+    "BODY": "Mostrando pra você como duas palavras podem ser substituídas uma pelas outras no Emacs usando o comando query-replace-regexp (C-M-% ou C-Alt-%).\n\n  O livro mencionado é o Practical Vim, 2nd ed."
+  },
+  {
+    "ITEM": "Ep698 Emacs Lisp coding, defvar-keymap",
+    "DATE": "2025-09-07T15:59:35-07:00",
+    "DURATION": "1:03:55",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=Bv_Mr-tiScg",
+    "SPEAKERS": "Xah Lee",
+    "BODY": ""
+  },
+  {
+    "ITEM": "Emacs Tree-sitter Treesit Configuration - VOD",
+    "DATE": "2025-09-07T11:14:49-07:00",
+    "DURATION": "16:06",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=pD-wF3fZFGo",
+    "SPEAKERS": "PizzaTorque",
+    "TAGS": [
+      "treesitter"
+    ],
+    "BODY": "Configuring Emacs built in treesit with treesit auto on vanilla Emacs"
+  },
+  {
+    "ITEM": "Prot Asks: Greg about Emacs, Android, dogs, fishing, cycling, and Pennsylvania",
+    "DATE": "2025-09-07T00:31:52-07:00",
+    "DURATION": "1:31:50",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=8iovwdREt1o",
+    "SPEAKERS": "Protesilaos Stavrou",
+    "TAGS": [
+      "ProtAsks",
+      "community"
+    ],
+    "BODY": "In this video, I talk to Greg about a number of topics ranging from the technical work one does in Emacs to outdoors activities in Pennsylvania. Our discussion starts with the topic of Emacs, where I learn that Greg has been working professionally with software for twenty years. In Greg's experience, one of the advantages of using Emacs for work is that you do not need to change your tools when you switch jobs or work with different programming languages. We then discuss Greg's attempt to use Emacs on Android, as there now is an official build for that platform. We briefly touch on the Clojure programming language and also talk about ways of learning to program. Once we cover these technical issues, we switch to the outdoor activities that Greg enjoys: cycling, fishing, and just being outside with his dog. I learn from Greg a few things about fishing and we eventually comment on a lot of more profound insights about natural experiences in general. Our final comments revolve around the appreciation of the comments, in light of a politics essay I published recently titled \"When your country is a theme park\": https://protesilaos.com/politics/2025-09-02-when-your-country-is-a-theme-park/.\n\n  ,## About \"Prot Asks\"\n\n  In this new video series, I talk to anybody who is interested to have a video call with me (so do contact me if you want!). The topics cover anything related to Emacs, technology, and life in general. More here: https://protesilaos.com/prot-asks/."
+  },
+  {
+    "ITEM": "Ep696 Emacs Lisp. insert date, extend selection, Generic Map Functions",
+    "DATE": "2025-09-05T08:54:21-07:00",
+    "DURATION": "46:35",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=lnTD6-VSb6A",
+    "SPEAKERS": "Xah Lee",
+    "BODY": "(ai generated summary, correctness verified by me.)\n\n      The video provides updates of the creator's emacs commands.\n      These include a command to insert dates in various formats (1:52), an extend selection feature for selecting text more efficiently (7:34), and new commands for switching between user buffers (8:48).\n\n      Later, the video delves into more technical Emacs Lisp concepts, specifically the map.el library and its generic map functions (12:20).\n      The creator explains how these functions simplify working with key-value data structures like hash tables and association lists, and demonstrates the map-filter function (16:08).\n\n      Towards the end, there's a broader discussion about programming language popularity, emphasizing the role of corporate support and a large user base for a language's success (25:47)."
+  },
+  {
+    "ITEM": "Emacs Treesitter with Combobulate structured navigation and editing",
+    "DATE": "2025-09-03T13:28:25-07:00",
+    "DURATION": "1:00:36",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=TgDo7Nm4v4Y",
+    "SPEAKERS": "NapoleonWils0n",
+    "TAGS": [
+      "treesitter"
+    ],
+    "BODY": "In this video we install Treesitter and Combobulate on Emacs, and try to create new languages for Combobulate including bash, c, elisp and nix\n\n  Tree-sitter is a parser generator tool and an incremental parsing library. It can build a concrete syntax tree for a source file\n\n  https://tree-sitter.github.io/tree-sitter/\n\n  Combobulate is a package that adds structured editing and movement to a wide range of programming languages. Unlike most programming major modes that use error-prone imperative code and regular expressions to determine what's what in your code, Combobulate uses Emacs 29's tree-sitter library.\n\n  https://github.com/mickeynp/combobulate\n\n  Treesitter and Combobulate notes\n  https://github.com/NapoleonWils0n/cerberus/blob/master/emacs/treesitter-combobulate.org\n\n  Emacs init.el\n  https://github.com/NapoleonWils0n/nixos-dotfiles/blob/91ce7128808ea309c21ee960513c53d5ac77ccbb/.config/emacs/init.el\n\n  Emacs early-init.el\n  https://github.com/NapoleonWils0n/nixos-dotfiles/blob/master/.config/emacs/early-init.el\n\n  Emacs lisp directory\n  Combobulate languages for bash, c, elisp and nix\n  https://github.com/NapoleonWils0n/nixos-dotfiles/tree/91ce7128808ea309c21ee960513c53d5ac77ccbb/.config/emacs/lisp\n\n  nixos dotfiles\n  https://github.com/NapoleonWils0n/nixos-dotfiles\n\n  nixos home-manger\n  https://github.com/NapoleonWils0n/nixos-dotfiles/blob/master/.config/home-manager/home.nix"
+  },
+  {
+    "ITEM": "Prot Asks: Amin about EmacsConf, Debian, GNU, Internet Archive, and Canada",
+    "DATE": "2025-09-03T10:41:49-07:00",
+    "DURATION": "1:29:18",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=kbJ3i3QMozs",
+    "SPEAKERS": "Protesilaos Stavrou",
+    "TAGS": [
+      "ProtAsks",
+      "community"
+    ],
+    "BODY": "In this video, I talk with Amin Bandali about free software, free knowledge, the importance of community and the commons, and life in Canada. Our discussion starts with the topic of EmacsConf, the annual conference about GNU Emacs. Amin has helped organise a few of those and I ask what kind of work is involved. As Amin contributes to other free software communities, I get to learn how the GNU and Debian projects work, especially with regard to getting involved with the work they do---and they can always benefit from more volunteers. After we cover free software, we switch to free knowledge. In this part, Amin tells me about The Internet Archive, what it is, how and why it is useful in our life. In the final part of the video, I ask about life in Canada, where Amin lives. It is an informative chat which also has a lot of funny moments.\n\n  ,## Links by Amin\n\n  - https://kelar.org/~bandali\n  - https://blog.archive.org/trillion/\n  - https://www.gnu.org/help/help.html\n  - https://www.fsf.org/volunteer\n  - https://kelar.org/~bandali/2025/07/25/protesilaos-videos-archive.html\n  - https://protesilaos.com/codelog/2025-07-29-videos-internet-archive/\n  - https://www.debian.org\n  - https://trisquel.info\n\n  ,## About \"Prot Asks\"\n\n  In this new video series, I talk to anybody who is interested to have a video call with me (so do contact me if you want!). The topics cover anything related to Emacs, technology, and life in general. More here: https://protesilaos.com/prot-asks/."
+  },
+  {
+    "ITEM": "Directory Slideshow (Emacs Package)",
+    "DATE": "2025-09-03T09:18:29-07:00",
+    "DURATION": "3:27",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=pNLFXdVwYcA",
+    "SPEAKERS": "Duncan Britt",
+    "BODY": "Source: https://github.com/Duncan-Britt/directory-slideshow\n  MELPA: https://melpa.org/#/directory-slideshow"
+  },
+  {
+    "ITEM": "Getting Started With Doom Emacs",
+    "DATE": "2025-09-02T06:00:04-07:00",
+    "DURATION": "16:34",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=26gFIhHM09E",
+    "SPEAKERS": "DistroTube",
+    "TAGS": [
+      "DoomEmacs"
+    ],
+    "BODY": "I've been using my own custom GNU Emacs config for a few years, but people have asked for more \"Doom Emacs\" content.  So I'm switching back to Doom Emacs.  This is day one!\n\n  REFERENCED:\n  ► https://github.com/doomemacs/doomemacs\n\n  WANT TO SUPPORT THE CHANNEL?\n  💰 Patreon: https://www.patreon.com/distrotube\n  💳 Paypal: https://www.paypal.com/donate/?hosted_button_id=MW3ZFGS8Q9JGW\n  🛍️ Amazon: https://amzn.to/2RotFFi\n  👕 Teespring: https://teespring.com/stores/distrotube\n\n  DT ON THE WEB:\n  🕸️ Website: http://distro.tube\n  📁 GitLab: https://gitlab.com/dwt1\n  🗨️ Mastodon: https://fosstodon.org/@distrotube\n  👫 Reddit: https://www.reddit.com/r/DistroTube/\n  📽️ Odysee: https://odysee.com/@DistroTube:2\n\n  FREE AND OPEN SOURCE SOFTWARE THAT I LIKE:\n  🌐 Brave Browser - https://brave.com/\n  📽️ Open Broadcaster Software: https://obsproject.com/\n  🎬 Kdenlive: https://kdenlive.org\n  🎨 GIMP: https://www.gimp.org/\n  💻 VirtualBox: https://www.virtualbox.org/\n  🗒️ Doom Emacs: https://github.com/hlissner/doom-emacs\n\n  Your support is very much appreciated. Thanks, guys!"
+  },
+  {
+    "ITEM": "Ep695 emacs lisp, most commonly used functions, fill region problems, etc",
+    "DATE": "2025-09-01T07:31:11-07:00",
+    "DURATION": "42:05",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=Jxbkm0Q3Dgo",
+    "SPEAKERS": "Xah Lee",
+    "BODY": "timestamp\n  01:48 emacs lisp command frequency\n  05:45 emacs fill-region command\n  07:53 80 chars per line convention, punched cards, unix idiocy\n  18:09 Why you should stop listening to human but talk to AI bot instead.\n  22:35 sqlite\n  26:28 on reading manual, why you read mysql manual\n  31:03 why is emacs fill-region command called fill?\n\n\n  Notes at\n  http ://xahlee .info/talk_show/xah_talk_show_ep695.html\n  Copy the link, remove spaces, paste the link in browser tab.\n  Google Chrome and Firefox browsers censor websites by auto adding s in http and says the site Secure Connection Failed.\n  Use Brave Browser or Safari."
+  },
+  {
     "ITEM": "Emacs bankruptcy – fix your Emacs and your life",
     "DATE": "2025-08-31T09:46:44-07:00",
     "DURATION": "13:12",
@@ -21993,6 +22090,9 @@
     "DURATION": "25:16",
     "YOUTUBE_URL": "https://www.youtube.com/watch?v=ZwibVdNtFjs",
     "SPEAKERS": "EmacsConf and Emacs hangouts",
+    "TAGS": [
+      "treesitter"
+    ],
     "BODY": "If you would like to watch this video using only free software, you can check out the corresponding page at https://emacsconf.org/2020/talks/\n  Questions, notes, and links are there as well. Enjoy!"
   },
   {
@@ -22001,6 +22101,9 @@
     "DURATION": "18:38",
     "YOUTUBE_URL": "https://www.youtube.com/watch?v=AeHgwreK5RE",
     "SPEAKERS": "EmacsConf and Emacs hangouts",
+    "TAGS": [
+      "treesitter"
+    ],
     "BODY": "If you would like to watch this video using only free software, you can check out the corresponding page at https://emacsconf.org/2020/talks/\n  Questions, notes, and links are there as well. Enjoy!"
   },
   {
