@@ -3,6 +3,111 @@
 #+PROPERTY: header-args:emacs-lisp+   :eval no
 
 
+* Sync Emacs Org Agenda and Google Calendar with the Org-Gcal Package  :org:
+:PROPERTIES:
+:DATE:     2025-09-14T15:00:06-07:00
+:DURATION: 6:30
+:YOUTUBE_URL: https://www.youtube.com/watch?v=hz6yc6uWDw4
+:SPEAKERS: Emacs Elements
+:END:
+  Discover how to sync your Google Calendar with Emacs using the Org-Gcal package. In this video, I walk you through setting up the Google API, and configuring your Emacs for seamless calendar integration. Learn how to fetch events, push Org entries to Google Calendar, and use org-capture templates for productivity. Links and setup can be found at the link below.
+
+  My website: https://emacselements.com/
+
+  You can support me on PayPal:
+
+  https://paypal.me/revrari
+
+* Teaching Emacs recognize thing-at-point  :web:
+:PROPERTIES:
+:DATE:     2025-09-10T17:33:44-07:00
+:DURATION: 17:52
+:YOUTUBE_URL: https://www.youtube.com/watch?v=Azi3WOUUSIU
+:SPEAKERS: iLemming
+:END:
+  I  needed a polymorphic, pattern-matching based URL dispatcher, so I could easily process different types of URLs.
+
+  Turns out, this wasn't too difficult at all.
+
+  Karthik's  post: https://karthinks.com/software/fifteen-ways-to-use-embark
+
+  Prot's video: https://www.youtube.com/watch?v=uoP9ZYdNCHg
+
+* Emacs workflow ideas: How I use Hydra in a minor mode  :hydra:
+:PROPERTIES:
+:DATE:     2025-09-09T23:45:08-07:00
+:DURATION: 15:50
+:YOUTUBE_URL: https://youtube.com/watch?v=_MPxt_JznXE
+:SPEAKERS: Ardie83
+:END:
+  Emacs workflow ideas - How I use Hydra in a minor mode
+
+  - each custom minor mode is bound to a specific Hydra
+  - ; as leading key
+  - never overlap current or future key modifier shortcuts
+
+  Supporting me will inspire me to produce more quality content
+
+  Please show me some real actual monetary support. My country is fascist. If there is some way to connect with an international Emacs community and make some money, please contact me.
+
+  Show some support by buying me coffee on my Ko-fi page just setup recently. (It has both Debit/Credit Card and Paypal options, with 0% fee)
+  https://ko-fi.com/ardiemejia83
+
+  Or can donate straight to my PayPal
+  https://paypal.me/ardiemejia83
+
+* Doom Emacs And Creating A Literate Config  :DoomEmacs:configuration:
+:PROPERTIES:
+:DATE:     2025-09-08T06:01:13-07:00
+:DURATION: 24:06
+:YOUTUBE_URL: https://www.youtube.com/watch?v=eFRzRsWTXPk
+:SPEAKERS: DistroTube
+:END:
+  I recently switched back to Doom Emacs and I'm in the early stages of configuring it.  In this video, I configure variable font sized Org headers, set eshell as the initial buffer when I launch emacs, and convert my config.el over to a literate config.org.
+
+  WANT TO SUPPORT THE CHANNEL?
+  💰 Patreon: https://www.patreon.com/distrotube
+  💳 Paypal: https://www.paypal.com/donate/?hosted_button_id=MW3ZFGS8Q9JGW
+  🛍️ Amazon: https://amzn.to/2RotFFi
+  👕 Teespring: https://teespring.com/stores/distrotube
+
+  DT ON THE WEB:
+  🕸️ Website: http://distro.tube
+  📁 GitLab: https://gitlab.com/dwt1
+  🗨️ Mastodon: https://fosstodon.org/@distrotube
+  👫 Reddit: https://www.reddit.com/r/DistroTube/
+  📽️ Odysee: https://odysee.com/@DistroTube:2
+
+  FREE AND OPEN SOURCE SOFTWARE THAT I LIKE:
+  🌐 Brave Browser - https://brave.com/
+  📽️ Open Broadcaster Software: https://obsproject.com/
+  🎬 Kdenlive: https://kdenlive.org
+  🎨 GIMP: https://www.gimp.org/
+  💻 VirtualBox: https://www.virtualbox.org/
+  🗒️ Doom Emacs: https://github.com/hlissner/doom-emacs
+
+  Your support is very much appreciated. Thanks, guys!
+* Ep699 Emacs Lisp defvar-keymap, define-keymap , part 2
+:PROPERTIES:
+:DATE:     2025-09-08T05:42:12-07:00
+:DURATION: 1:01:15
+:YOUTUBE_URL: https://www.youtube.com/watch?v=dA5SM20y2a0
+:SPEAKERS: Xah Lee
+:END:
+  Video Summary
+  AI Generated (human edited)
+
+  This video focuses on updating Emacs Lisp code to use new, simpler key binding functions introduced in Emacs 29 (released two years ago).
+
+  Here's a summary:
+
+      The speaker explains that Emacs 29 brought significant changes to how keyboard shortcuts (key bindings) are defined, making the code much simpler and shorter compared to older versions (0:57, 9:02).
+      In Emacs, every keystroke invokes a command, and users can assign keyboard shortcuts to any command (3:30, 6:42).
+      The main goal of the video is to refactor the speaker's personal Emacs Lisp packages from using the old define-key function to the new define-var-keymap and keymap-set functions (10:05, 10:11).
+      The speaker demonstrates this refactoring process for several packages, highlighting the reduction in code complexity and explaining how to handle "leader keys" for customizable major mode commands (24:00, 26:15).
+      A new syntax for the tab key, specifically kbd "", is also introduced, which helps distinguish the tab key from the tab character, especially in terminal Emacs (30:37).
+      Towards the end, the speaker answers viewer questions about Emacs key bindings, keyboard ergonomics, and using various keyboard layouts (41:00, 47:00).
+
 * Substituindo a palavra A pela palavra B e B pela palavra A no Emacs
 :PROPERTIES:
 :DATE:     2025-09-08T02:00:19-07:00

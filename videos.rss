@@ -6,6 +6,103 @@
     <atom:link href="https://emacs.tv/videos.rss" rel="self" type="application/rss+xml" />
     <description>Emacs videos</description>
     <item>
+      <title>Sync Emacs Org Agenda and Google Calendar with the Org-Gcal Package</title>
+      <link>https://www.youtube.com/watch?v=hz6yc6uWDw4</link>
+      <guid>https://www.youtube.com/watch?v=hz6yc6uWDw4</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=hz6yc6uWDw4">youtube</a><br><br>Discover how to sync your Google Calendar with Emacs using the Org-Gcal package. In this video, I walk you through setting up the Google API, and configuring your Emacs for seamless calendar integration. Learn how to fetch events, push Org entries to Google Calendar, and use org-capture templates for productivity. Links and setup can be found at the link below.
+
+  My website: https://emacselements.com/
+
+  You can support me on PayPal:
+
+  https://paypal.me/revrari</div>]]></description>
+      <pubDate>Sun, 14 Sep 2025 22:00:06 +0000</pubDate><category>org</category>
+    </item>
+    <item>
+      <title>Teaching Emacs recognize thing-at-point</title>
+      <link>https://www.youtube.com/watch?v=Azi3WOUUSIU</link>
+      <guid>https://www.youtube.com/watch?v=Azi3WOUUSIU</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=Azi3WOUUSIU">youtube</a><br><br>I  needed a polymorphic, pattern-matching based URL dispatcher, so I could easily process different types of URLs.
+
+  Turns out, this wasn't too difficult at all.
+
+  Karthik's  post: https://karthinks.com/software/fifteen-ways-to-use-embark
+
+  Prot's video: https://www.youtube.com/watch?v=uoP9ZYdNCHg</div>]]></description>
+      <pubDate>Thu, 11 Sep 2025 00:33:44 +0000</pubDate><category>web</category>
+    </item>
+    <item>
+      <title>Emacs workflow ideas: How I use Hydra in a minor mode</title>
+      <link>https://youtube.com/watch?v=_MPxt_JznXE</link>
+      <guid>https://youtube.com/watch?v=_MPxt_JznXE</guid>
+      <description><![CDATA[<div id="content"><a href="https://youtube.com/watch?v=_MPxt_JznXE">youtube</a><br><br>Emacs workflow ideas - How I use Hydra in a minor mode
+
+  - each custom minor mode is bound to a specific Hydra
+  - ; as leading key
+  - never overlap current or future key modifier shortcuts
+
+  Supporting me will inspire me to produce more quality content
+
+  Please show me some real actual monetary support. My country is fascist. If there is some way to connect with an international Emacs community and make some money, please contact me.
+
+  Show some support by buying me coffee on my Ko-fi page just setup recently. (It has both Debit/Credit Card and Paypal options, with 0% fee)
+  https://ko-fi.com/ardiemejia83
+
+  Or can donate straight to my PayPal
+  https://paypal.me/ardiemejia83</div>]]></description>
+      <pubDate>Wed, 10 Sep 2025 06:45:08 +0000</pubDate><category>hydra</category>
+    </item>
+    <item>
+      <title>Doom Emacs And Creating A Literate Config</title>
+      <link>https://www.youtube.com/watch?v=eFRzRsWTXPk</link>
+      <guid>https://www.youtube.com/watch?v=eFRzRsWTXPk</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=eFRzRsWTXPk">youtube</a><br><br>I recently switched back to Doom Emacs and I'm in the early stages of configuring it.  In this video, I configure variable font sized Org headers, set eshell as the initial buffer when I launch emacs, and convert my config.el over to a literate config.org.
+
+  WANT TO SUPPORT THE CHANNEL?
+  💰 Patreon: https://www.patreon.com/distrotube
+  💳 Paypal: https://www.paypal.com/donate/?hosted_button_id=MW3ZFGS8Q9JGW
+  🛍️ Amazon: https://amzn.to/2RotFFi
+  👕 Teespring: https://teespring.com/stores/distrotube
+
+  DT ON THE WEB:
+  🕸️ Website: http://distro.tube
+  📁 GitLab: https://gitlab.com/dwt1
+  🗨️ Mastodon: https://fosstodon.org/@distrotube
+  👫 Reddit: https://www.reddit.com/r/DistroTube/
+  📽️ Odysee: https://odysee.com/@DistroTube:2
+
+  FREE AND OPEN SOURCE SOFTWARE THAT I LIKE:
+  🌐 Brave Browser - https://brave.com/
+  📽️ Open Broadcaster Software: https://obsproject.com/
+  🎬 Kdenlive: https://kdenlive.org
+  🎨 GIMP: https://www.gimp.org/
+  💻 VirtualBox: https://www.virtualbox.org/
+  🗒️ Doom Emacs: https://github.com/hlissner/doom-emacs
+
+  Your support is very much appreciated. Thanks, guys!</div>]]></description>
+      <pubDate>Mon, 08 Sep 2025 13:01:13 +0000</pubDate><category>DoomEmacs</category>
+<category>configuration</category>
+    </item>
+    <item>
+      <title>Ep699 Emacs Lisp defvar-keymap, define-keymap , part 2</title>
+      <link>https://www.youtube.com/watch?v=dA5SM20y2a0</link>
+      <guid>https://www.youtube.com/watch?v=dA5SM20y2a0</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=dA5SM20y2a0">youtube</a><br><br>Video Summary
+  AI Generated (human edited)
+
+  This video focuses on updating Emacs Lisp code to use new, simpler key binding functions introduced in Emacs 29 (released two years ago).
+
+  Here's a summary:
+
+      The speaker explains that Emacs 29 brought significant changes to how keyboard shortcuts (key bindings) are defined, making the code much simpler and shorter compared to older versions (0:57, 9:02).
+      In Emacs, every keystroke invokes a command, and users can assign keyboard shortcuts to any command (3:30, 6:42).
+      The main goal of the video is to refactor the speaker's personal Emacs Lisp packages from using the old define-key function to the new define-var-keymap and keymap-set functions (10:05, 10:11).
+      The speaker demonstrates this refactoring process for several packages, highlighting the reduction in code complexity and explaining how to handle "leader keys" for customizable major mode commands (24:00, 26:15).
+      A new syntax for the tab key, specifically kbd "", is also introduced, which helps distinguish the tab key from the tab character, especially in terminal Emacs (30:37).
+      Towards the end, the speaker answers viewer questions about Emacs key bindings, keyboard ergonomics, and using various keyboard layouts (41:00, 47:00).</div>]]></description>
+      <pubDate>Mon, 08 Sep 2025 12:42:12 +0000</pubDate>
+    </item>
+    <item>
       <title>Substituindo a palavra A pela palavra B e B pela palavra A no Emacs</title>
       <link>https://www.youtube.com/watch?v=FsD01SfEmJ4</link>
       <guid>https://www.youtube.com/watch?v=FsD01SfEmJ4</guid>
@@ -806,91 +903,6 @@
 
   ,#Emacs #LinuxTutorial #OpenSource #FedoraLinux #TextEditor #GNUEmacs #BeginnerCoding #CodingTools</div>]]></description>
       <pubDate>Fri, 08 Aug 2025 07:00:48 +0000</pubDate>
-    </item>
-    <item>
-      <title>Emacs Embark: Customizing Commands</title>
-      <link>https://www.youtube.com/watch?v=GptL42i0JF8</link>
-      <guid>https://www.youtube.com/watch?v=GptL42i0JF8</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=GptL42i0JF8">youtube</a><br><br>Extract from last stream VOD, setting up a custom function for Embark and adding more functions to Embark's keymap</div>]]></description>
-      <pubDate>Thu, 07 Aug 2025 20:10:13 +0000</pubDate>
-    </item>
-    <item>
-      <title>The Code Editor Wars: A Dev’s Guide to Surviving 2025</title>
-      <link>https://www.youtube.com/watch?v=HycaJwHqs5M</link>
-      <guid>https://www.youtube.com/watch?v=HycaJwHqs5M</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=HycaJwHqs5M">youtube</a><br><br>You open your terminal, full of hope.
-  But before you write one line of code… you enter the editor warzone.
-
-  Vim, Emacs, VS Code, Sublime, NeoVim, Nano — every dev has a favorite.
-  And every dev thinks you’re wrong.
-
-  In this chaotic (and painfully accurate) breakdown, we cover:
-
-  Vim: the cryptic keybinding dungeon
-
-  Emacs: the text editor that does your taxes
-
-  VS Code: the plugin playground of the people
-
-  Sublime: the eternal "Unregistered" champ
-
-  NeoVim: where configuration is the final boss
-
-  Nano: the DevOps death trap no one escapes
-
-  Browser editors in 2025: code from inside a Docker container… inside another Docker container
-
-  Whether you're flexing a 12ms NeoVim startup or still clicking ‘Later’ on Sublime’s license prompt, just remember:
-
-  ⚡ The most powerful key in programming is still Ctrl+S.</div>]]></description>
-      <pubDate>Thu, 07 Aug 2025 17:02:24 +0000</pubDate>
-    </item>
-    <item>
-      <title>Ep689 emacs. commands for cycle color themes, font, space hyphen lowline.</title>
-      <link>https://www.youtube.com/watch?v=FFd5ev4CJYE</link>
-      <guid>https://www.youtube.com/watch?v=FFd5ev4CJYE</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=FFd5ev4CJYE">youtube</a><br><br>Notes at
-  http ://xahlee .info/talk_show/xah_talk_show_ep689.html
-  Copy the link, remove spaces, paste the link in browser tab.
-  Google Chrome and Firefox browsers censor websites by auto adding s in http and says the site Secure Connection Failed.
-  Use Brave Browser or Safari.</div>]]></description>
-      <pubDate>Thu, 07 Aug 2025 09:18:22 +0000</pubDate>
-    </item>
-    <item>
-      <title>Prot Asks: James about teaching biology, Emacs, and free software politics</title>
-      <link>https://www.youtube.com/watch?v=YzVToImIm1Y</link>
-      <guid>https://www.youtube.com/watch?v=YzVToImIm1Y</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=YzVToImIm1Y">youtube</a><br><br>In this new video series, I talk to anybody who is interested to have a video call with me (so do contact me if you want!). The topics cover anything related to Emacs, technology, and life in general. More here: https://protesilaos.com/prot-asks/.
-
-  In this 1-hour video, I learn from James about what goes into teaching biology and thinking as a scientist. We discuss the shortcomings of the education system and touch on the alternative approach of going more in-depth. James describes how Emacs comes into the picture, the importance of the free software community---and community in general---and how politics informs our views on competition and cooperation.
-
-  - James teaches at the Pennsylvania State University: https://science.psu.edu/bmb/people/jeh37
-  - Personal website: https://jamesendreshowell.com/
-  - EmacsConf 2023 presentation about teaching at the university with free software: https://emacsconf.org/2023/talks/uni/</div>]]></description>
-      <pubDate>Wed, 06 Aug 2025 17:10:06 +0000</pubDate><category>ProtAsks</category>
-<category>community</category>
-    </item>
-    <item>
-      <title>Set up AI assisted programming in Emacs using aider</title>
-      <link>https://www.youtube.com/watch?v=6hHD-mHg08A</link>
-      <guid>https://www.youtube.com/watch?v=6hHD-mHg08A</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=6hHD-mHg08A">youtube</a><br><br>Here's how to set up aidermacs in Emacs, in my opinion
-
-  aider installation instructions: https://aider.chat/docs/install.html
-
-  (use-package aidermacs
-    :straight t
-    :bind (("C-c c a" . aidermacs-transient-menu))
-    :config
-    ; Set API_KEY in .bashrc, that will automatically picked up by aider or in elisp
-    ;; (setenv "ANTHROPIC_API_KEY" "sk-...")
-    ; defun my-get-openrouter-api-key yourself elsewhere for security reasons
-    (setenv "OPENROUTER_API_KEY" (password-store-get "OpenRouter/lll-exp"))
-    :custom
-    ; See the Configuration section below
-    (aidermacs-default-chat-mode 'code)
-    (aidermacs-default-model "openrouter/deepseek/deepseek-r1-0528:free"))</div>]]></description>
-      <pubDate>Mon, 04 Aug 2025 12:00:21 +0000</pubDate>
     </item>
   </channel>
 </rss>
