@@ -1,5 +1,101 @@
 [
   {
+    "ITEM": "eldoc-mouse demo overlay 2025 09 21 21 36 09",
+    "DATE": "2025-09-21T06:54:18-07:00",
+    "DURATION": "0:13",
+    "YOUTUBE_URL": "https://youtube.com/watch?v=XFAc4WyiJjI&si=4-ZAZa6ihIbIg_O6",
+    "SPEAKERS": "Feiyu Huang",
+    "TAGS": [
+      "EldocMouse"
+    ],
+    "BODY": "The emacs package to show eglot eldoc document on a posframe for mouse hover."
+  },
+  {
+    "ITEM": "Fix Messy wide Org Mode Tables in 5 Minutes - phscroll Tutorial for Emacs Users",
+    "DATE": "2025-09-21T01:18:30-07:00",
+    "DURATION": "2:22",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=br4YJBIOMkM",
+    "SPEAKERS": "Samuel Michaël Vanié",
+    "BODY": "Tired of unreadable tables in Org Mode? This quick tutorial shows you how to use the phscroll package to add smooth horizontal scrolling to your wide tables in Emacs.\n\n  🔧 What You'll Learn:\n  - Install and configure phscroll for Org mode\n  - Transform wrapped, messy tables into clean, scrollable data\n\n  🔗 Useful Links:\n  phscroll GitHub: https://github.com/misohena/phscroll\n  Org Mode Documentation: https://orgmode.org/\n  My Emacs Config: https://github.com/SamuelVanie/emacs\n\n  Perfect for data analysts, developers, researchers, and anyone who works with structured data in Emacs. No more fighting with text wrapping!"
+  },
+  {
+    "ITEM": "Another minor issue with my use of svg-analog-clock.el",
+    "DATE": "2025-09-20T08:42:01-07:00",
+    "DURATION": "5:00",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=3Tdz-4i8tHY",
+    "SPEAKERS": "Kalman Reti",
+    "BODY": "This is the fourth video about my using Ramin Honary's excellent svg-analog-clock in emacs"
+  },
+  {
+    "ITEM": "eldoc mouse demo 2025 09 20 21 31 08",
+    "DATE": "2025-09-20T06:36:50-07:00",
+    "DURATION": "0:19",
+    "YOUTUBE_URL": "https://youtube.com/watch?v=aGsheHu7Esw&si=NCsI13UJVVrKyqD-",
+    "SPEAKERS": "Feiyu Huang",
+    "TAGS": [
+      "EldocMouse"
+    ],
+    "BODY": "Emacs package eldoc-mouse show document for mouse hover."
+  },
+  {
+    "ITEM": "Custom Functions And Keybindings In Doom Emacs",
+    "DATE": "2025-09-19T10:46:28-07:00",
+    "DURATION": "18:37",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=92tjZ8wHZ8I",
+    "SPEAKERS": "DistroTube",
+    "TAGS": [
+      "DoomEmacs"
+    ],
+    "BODY": "In this video, I'm going to configure my Doom Emacs by adding custom functions, custom keybindings and adjusting how Markdown files appear in\n  Doom Emacs.\n\n  MY DOOM CONFIGS:\n  ► https://gitlab.com/dwt1/dotfiles/-/tree/master/.config/doom?ref_type=heads\n\n  WANT TO SUPPORT THE CHANNEL?\n  💰 Patreon: https://www.patreon.com/distrotube\n  💳 Paypal: https://www.paypal.com/donate/?hosted_button_id=MW3ZFGS8Q9JGW\n  🛍️ Amazon: https://amzn.to/2RotFFi\n  👕 Teespring: https://teespring.com/stores/distrotube\n\n  DT ON THE WEB:\n  🕸️ Website: http://distro.tube\n  📁 GitLab: https://gitlab.com/dwt1\n  🗨️ Mastodon: https://fosstodon.org/@distrotube\n  👫 Reddit: https://www.reddit.com/r/DistroTube/\n  📽️ Odysee: https://odysee.com/@DistroTube:2\n\n  FREE AND OPEN SOURCE SOFTWARE THAT I LIKE:\n  🌐 Brave Browser - https://brave.com/\n  📽️ Open Broadcaster Software: https://obsproject.com/\n  🎬 Kdenlive: https://kdenlive.org\n  🎨 GIMP: https://www.gimp.org/\n  💻 VirtualBox: https://www.virtualbox.org/\n  🗒️ Doom Emacs: https://github.com/hlissner/doom-emacs\n\n  Your support is very much appreciated. Thanks, guys!"
+  },
+  {
+    "ITEM": "An electronic notebook with Emacs + gptel + mcp and claude-light",
+    "DATE": "2025-09-19T08:02:21-07:00",
+    "DURATION": "17:34",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=9RR9UzViXj4",
+    "SPEAKERS": "John Kitchin",
+    "TAGS": [
+      "ai",
+      "gptel",
+      "mcp",
+      "ClaudeLight"
+    ],
+    "BODY": "I show how Emacs + orgmode + gptel and mcp can be used to run an external instrument (claude-light) through an electronic lab notebook interface. We can make single measurements that are recorded in the notebook, design a set of measurements and do analysis on them, and create a design of experiments, run and analyze them."
+  },
+  {
+    "ITEM": "Prot Asks: Julien about Emacs, functional package managers, Nix, Guix, and reproducibility",
+    "DATE": "2025-09-17T23:35:26-07:00",
+    "DURATION": "1:24:39",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=Yv8BC8ISAPQ",
+    "SPEAKERS": "Protesilaos Stavrou",
+    "TAGS": [
+      "ProtAsks"
+    ],
+    "BODY": "In this video I talk with Julien Malka who is a PhD student on supply chain security. I have known Julien through Emacs, so we start our discussion with some comments on how Julien uses Emacs for note-taking and as a general purpose computing environment. We then shift our attention to the research area of Julien which involves, among others, functional package managers and reproducibility at-large. In this light, we cover Nix at length while commenting on its GNU counterpart, Guix. Nix is a functional package manager, a programming language, and can also be deployed as a fully fledged operating system. I learn from Julien about the different kinds of reproducibility and gain a better understanding of what kind of advantages we get by using a functional package manager for our system. The \"recipes\" that derive software packages in this world are written in a pure functional programming language and Julien explains what kind of advantages this design has. Julien explains that NixOS is quite different from other Linux distributions, in terms of how it does certain things. As such, those who want to use it should know what they are working towards and have the right expectations. Towards the end of our talk, I also ask Julien about academic life in France with regard to digital sovereignty and the kind of incentives researchers have for contributing to free and open source software.\n\n  ,## Links from Julien Malka\n\n  - my personal website: https://luj.fr\n  - NixOS home page: https://nixos.org\n  - Guix home page: https://guix.gnu.org/\n  - reproducible-builds: https://reproducible-builds.org\n  - bootstrapable-builds: https://www.bootstrappable.org\n  - Eelco Dolstra PhD thesis: https://edolstra.github.io/pubs/phd-thesis.pdf\n\n  ,## About \"Prot Asks\"\n\n  In this new video series, I talk to anybody who is interested to have a video call with me (so do contact me if you want!). The topics cover anything related to Emacs, technology, and life in general. More here: https://protesilaos.com/prot-asks/."
+  },
+  {
+    "ITEM": "Emacs UV Mode - Python Command VOD",
+    "DATE": "2025-09-17T09:49:54-07:00",
+    "DURATION": "55:14",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=rXB0G5jryPM",
+    "SPEAKERS": "PizzaTorque",
+    "TAGS": [
+      "python"
+    ],
+    "BODY": "Launching a python interpreter buffer with UV and exploring python.el"
+  },
+  {
+    "ITEM": "How I read papers with Org-roam & Zotero #emacs",
+    "DATE": "2025-09-16T16:54:15-07:00",
+    "DURATION": "16:07",
+    "YOUTUBE_URL": "https://youtube.com/watch?v=UjvlGfbAkNw&si=jm2HhSuALziW8eHi",
+    "SPEAKERS": "Kiran's Happy Happy Times",
+    "TAGS": [
+      "org"
+    ],
+    "BODY": "Hiyayyaa Kiran :3 here again~ Today I'm doing a tutorial on how I use org-roam for taking notes on papers for my research. Hopefully this will help any students who might be thinking about using Emacs for taking notes. It's been a real game changer for my research output!\n\n  Would recommend watching my previous video on org-roam to see how I've set up the keybindings as I don't explain them here.\n\n  ,#emacs #orgmode #research #phdlife #postdoclife #zotero"
+  },
+  {
     "ITEM": "Sync Emacs Org Agenda and Google Calendar with the Org-Gcal Package",
     "DATE": "2025-09-14T15:00:06-07:00",
     "DURATION": "6:30",

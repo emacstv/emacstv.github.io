@@ -6,6 +6,127 @@
     <atom:link href="https://emacs.tv/videos.rss" rel="self" type="application/rss+xml" />
     <description>Emacs videos</description>
     <item>
+      <title>eldoc-mouse demo overlay 2025 09 21 21 36 09</title>
+      <link>https://youtube.com/watch?v=XFAc4WyiJjI&amp;si=4-ZAZa6ihIbIg_O6</link>
+      <guid>https://youtube.com/watch?v=XFAc4WyiJjI&amp;si=4-ZAZa6ihIbIg_O6</guid>
+      <description><![CDATA[<div id="content"><a href="https://youtube.com/watch?v=XFAc4WyiJjI&si=4-ZAZa6ihIbIg_O6">youtube</a><br><br>The emacs package to show eglot eldoc document on a posframe for mouse hover.</div>]]></description>
+      <pubDate>Sun, 21 Sep 2025 13:54:18 +0000</pubDate><category>EldocMouse</category>
+    </item>
+    <item>
+      <title>Fix Messy wide Org Mode Tables in 5 Minutes - phscroll Tutorial for Emacs Users</title>
+      <link>https://www.youtube.com/watch?v=br4YJBIOMkM</link>
+      <guid>https://www.youtube.com/watch?v=br4YJBIOMkM</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=br4YJBIOMkM">youtube</a><br><br>Tired of unreadable tables in Org Mode? This quick tutorial shows you how to use the phscroll package to add smooth horizontal scrolling to your wide tables in Emacs.
+
+  🔧 What You'll Learn:
+  - Install and configure phscroll for Org mode
+  - Transform wrapped, messy tables into clean, scrollable data
+
+  🔗 Useful Links:
+  phscroll GitHub: https://github.com/misohena/phscroll
+  Org Mode Documentation: https://orgmode.org/
+  My Emacs Config: https://github.com/SamuelVanie/emacs
+
+  Perfect for data analysts, developers, researchers, and anyone who works with structured data in Emacs. No more fighting with text wrapping!</div>]]></description>
+      <pubDate>Sun, 21 Sep 2025 08:18:30 +0000</pubDate>
+    </item>
+    <item>
+      <title>Another minor issue with my use of svg-analog-clock.el</title>
+      <link>https://www.youtube.com/watch?v=3Tdz-4i8tHY</link>
+      <guid>https://www.youtube.com/watch?v=3Tdz-4i8tHY</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=3Tdz-4i8tHY">youtube</a><br><br>This is the fourth video about my using Ramin Honary's excellent svg-analog-clock in emacs</div>]]></description>
+      <pubDate>Sat, 20 Sep 2025 15:42:01 +0000</pubDate>
+    </item>
+    <item>
+      <title>eldoc mouse demo 2025 09 20 21 31 08</title>
+      <link>https://youtube.com/watch?v=aGsheHu7Esw&amp;si=NCsI13UJVVrKyqD-</link>
+      <guid>https://youtube.com/watch?v=aGsheHu7Esw&amp;si=NCsI13UJVVrKyqD-</guid>
+      <description><![CDATA[<div id="content"><a href="https://youtube.com/watch?v=aGsheHu7Esw&si=NCsI13UJVVrKyqD-">youtube</a><br><br>Emacs package eldoc-mouse show document for mouse hover.</div>]]></description>
+      <pubDate>Sat, 20 Sep 2025 13:36:50 +0000</pubDate><category>EldocMouse</category>
+    </item>
+    <item>
+      <title>Custom Functions And Keybindings In Doom Emacs</title>
+      <link>https://www.youtube.com/watch?v=92tjZ8wHZ8I</link>
+      <guid>https://www.youtube.com/watch?v=92tjZ8wHZ8I</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=92tjZ8wHZ8I">youtube</a><br><br>In this video, I'm going to configure my Doom Emacs by adding custom functions, custom keybindings and adjusting how Markdown files appear in
+  Doom Emacs.
+
+  MY DOOM CONFIGS:
+  ► https://gitlab.com/dwt1/dotfiles/-/tree/master/.config/doom?ref_type=heads
+
+  WANT TO SUPPORT THE CHANNEL?
+  💰 Patreon: https://www.patreon.com/distrotube
+  💳 Paypal: https://www.paypal.com/donate/?hosted_button_id=MW3ZFGS8Q9JGW
+  🛍️ Amazon: https://amzn.to/2RotFFi
+  👕 Teespring: https://teespring.com/stores/distrotube
+
+  DT ON THE WEB:
+  🕸️ Website: http://distro.tube
+  📁 GitLab: https://gitlab.com/dwt1
+  🗨️ Mastodon: https://fosstodon.org/@distrotube
+  👫 Reddit: https://www.reddit.com/r/DistroTube/
+  📽️ Odysee: https://odysee.com/@DistroTube:2
+
+  FREE AND OPEN SOURCE SOFTWARE THAT I LIKE:
+  🌐 Brave Browser - https://brave.com/
+  📽️ Open Broadcaster Software: https://obsproject.com/
+  🎬 Kdenlive: https://kdenlive.org
+  🎨 GIMP: https://www.gimp.org/
+  💻 VirtualBox: https://www.virtualbox.org/
+  🗒️ Doom Emacs: https://github.com/hlissner/doom-emacs
+
+  Your support is very much appreciated. Thanks, guys!</div>]]></description>
+      <pubDate>Fri, 19 Sep 2025 17:46:28 +0000</pubDate><category>DoomEmacs</category>
+    </item>
+    <item>
+      <title>An electronic notebook with Emacs + gptel + mcp and claude-light</title>
+      <link>https://www.youtube.com/watch?v=9RR9UzViXj4</link>
+      <guid>https://www.youtube.com/watch?v=9RR9UzViXj4</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=9RR9UzViXj4">youtube</a><br><br>I show how Emacs + orgmode + gptel and mcp can be used to run an external instrument (claude-light) through an electronic lab notebook interface. We can make single measurements that are recorded in the notebook, design a set of measurements and do analysis on them, and create a design of experiments, run and analyze them.</div>]]></description>
+      <pubDate>Fri, 19 Sep 2025 15:02:21 +0000</pubDate><category>ai</category>
+<category>gptel</category>
+<category>mcp</category>
+<category>ClaudeLight</category>
+    </item>
+    <item>
+      <title>Prot Asks: Julien about Emacs, functional package managers, Nix, Guix, and reproducibility</title>
+      <link>https://www.youtube.com/watch?v=Yv8BC8ISAPQ</link>
+      <guid>https://www.youtube.com/watch?v=Yv8BC8ISAPQ</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=Yv8BC8ISAPQ">youtube</a><br><br>In this video I talk with Julien Malka who is a PhD student on supply chain security. I have known Julien through Emacs, so we start our discussion with some comments on how Julien uses Emacs for note-taking and as a general purpose computing environment. We then shift our attention to the research area of Julien which involves, among others, functional package managers and reproducibility at-large. In this light, we cover Nix at length while commenting on its GNU counterpart, Guix. Nix is a functional package manager, a programming language, and can also be deployed as a fully fledged operating system. I learn from Julien about the different kinds of reproducibility and gain a better understanding of what kind of advantages we get by using a functional package manager for our system. The "recipes" that derive software packages in this world are written in a pure functional programming language and Julien explains what kind of advantages this design has. Julien explains that NixOS is quite different from other Linux distributions, in terms of how it does certain things. As such, those who want to use it should know what they are working towards and have the right expectations. Towards the end of our talk, I also ask Julien about academic life in France with regard to digital sovereignty and the kind of incentives researchers have for contributing to free and open source software.
+
+  ,## Links from Julien Malka
+
+  - my personal website: https://luj.fr
+  - NixOS home page: https://nixos.org
+  - Guix home page: https://guix.gnu.org/
+  - reproducible-builds: https://reproducible-builds.org
+  - bootstrapable-builds: https://www.bootstrappable.org
+  - Eelco Dolstra PhD thesis: https://edolstra.github.io/pubs/phd-thesis.pdf
+
+  ,## About "Prot Asks"
+
+  In this new video series, I talk to anybody who is interested to have a video call with me (so do contact me if you want!). The topics cover anything related to Emacs, technology, and life in general. More here: https://protesilaos.com/prot-asks/.</div>]]></description>
+      <pubDate>Thu, 18 Sep 2025 06:35:26 +0000</pubDate><category>ProtAsks</category>
+    </item>
+    <item>
+      <title>Emacs UV Mode - Python Command VOD</title>
+      <link>https://www.youtube.com/watch?v=rXB0G5jryPM</link>
+      <guid>https://www.youtube.com/watch?v=rXB0G5jryPM</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=rXB0G5jryPM">youtube</a><br><br>Launching a python interpreter buffer with UV and exploring python.el</div>]]></description>
+      <pubDate>Wed, 17 Sep 2025 16:49:54 +0000</pubDate><category>python</category>
+    </item>
+    <item>
+      <title>How I read papers with Org-roam &amp; Zotero #emacs</title>
+      <link>https://youtube.com/watch?v=UjvlGfbAkNw&amp;si=jm2HhSuALziW8eHi</link>
+      <guid>https://youtube.com/watch?v=UjvlGfbAkNw&amp;si=jm2HhSuALziW8eHi</guid>
+      <description><![CDATA[<div id="content"><a href="https://youtube.com/watch?v=UjvlGfbAkNw&si=jm2HhSuALziW8eHi">youtube</a><br><br>Hiyayyaa Kiran :3 here again~ Today I'm doing a tutorial on how I use org-roam for taking notes on papers for my research. Hopefully this will help any students who might be thinking about using Emacs for taking notes. It's been a real game changer for my research output!
+
+  Would recommend watching my previous video on org-roam to see how I've set up the keybindings as I don't explain them here.
+
+  ,#emacs #orgmode #research #phdlife #postdoclife #zotero</div>]]></description>
+      <pubDate>Tue, 16 Sep 2025 23:54:15 +0000</pubDate><category>org</category>
+    </item>
+    <item>
       <title>Sync Emacs Org Agenda and Google Calendar with the Org-Gcal Package</title>
       <link>https://www.youtube.com/watch?v=hz6yc6uWDw4</link>
       <guid>https://www.youtube.com/watch?v=hz6yc6uWDw4</guid>
@@ -735,174 +856,6 @@
   Google Chrome and Firefox browsers censor websites by auto adding s in http and says the site Secure Connection Failed.
   Use Brave Browser or Safari.</div>]]></description>
       <pubDate>Fri, 15 Aug 2025 14:44:58 +0000</pubDate>
-    </item>
-    <item>
-      <title>Edite texto no seu navegador usando o Emacs</title>
-      <link>https://www.youtube.com/watch?v=9scNUayMIxs</link>
-      <guid>https://www.youtube.com/watch?v=9scNUayMIxs</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=9scNUayMIxs">youtube</a><br><br>Neste vídeo eu busco mostrar para você como você pode usar o editor de texto da sua preferência para escrever dentro do seu navegador.
-
-  Links úteis
-  - Uma extensão compatível com vários editores e navegadores: https://github.com/fregante/GhostText
-  - O pacote compatível com GhostText: https://github.com/alpha22jp/atomic-chrome
-  - Um fork mais recente do atomic-chrome: https://github.com/KarimAziev/atomic-chrome
-  - Uma extensão compatível com o fork do atomic-chrome: https://addons.mozilla.org/en-US/firefox/addon/chrome-emacs/</div>]]></description>
-      <pubDate>Fri, 15 Aug 2025 11:00:25 +0000</pubDate>
-    </item>
-    <item>
-      <title>Emacs helm-raindrop.el demo</title>
-      <link>https://www.youtube.com/watch?v=te8OTzM4V3A</link>
-      <guid>https://www.youtube.com/watch?v=te8OTzM4V3A</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=te8OTzM4V3A">youtube</a><br><br>https://github.com/masutaka/emacs-helm-raindrop</div>]]></description>
-      <pubDate>Fri, 15 Aug 2025 09:11:09 +0000</pubDate>
-    </item>
-    <item>
-      <title>Day 21: Display Test Runner State in UI | suitbl - Implementing Testing Library in five days</title>
-      <link>https://youtu.be/LQ8z9ZKmzEc</link>
-      <guid>https://youtu.be/LQ8z9ZKmzEc</guid>
-      <description><![CDATA[<div id="content"><a href="https://youtu.be/LQ8z9ZKmzEc">youtube</a><br><br>I would like to see information about current test runner: how much tests are loaded at the moment, what are the config options, how much tests scheduled for run, etc. Will start from displaying  number of loaded tests and will see how it goes.
-
-  ,#scheme #lisp #test #tdd #macros #guile #racket
-
-  My site and blog:
-  https://trop.in
-  https://trop.in/blog
-
-  Reach me out here:
-  https://trop.in/contact
-
-  IRC Chat:
-  ,#tropin IRC channel at libera.chat.
-
-  Mastodon:
-  https://fosstodon.org/@abcdw
-
-  RDE and Arei Guile IDE projects:
-  https://sr.ht/~abcdw/rde
-  https://sr.ht/~abcdw/emacs-arei
-
-  https://github.com/abcdw/rde (mirror)
-
-  Mailing lists:
-  https://lists.sr.ht/~abcdw/</div>]]></description>
-      <pubDate>Thu, 14 Aug 2025 20:51:37 +0000</pubDate>
-    </item>
-    <item>
-      <title>Make An Emacs Buffer Pops Up Upon Asynchronous Response  | lesson 12</title>
-      <link>https://www.youtube.com/watch?v=TioEQ22_GJc</link>
-      <guid>https://www.youtube.com/watch?v=TioEQ22_GJc</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=TioEQ22_GJc">youtube</a><br><br>Free PDF and course 👉 https://tonyaldon.com/chatgpt-emacs-integration-course/
-
-  -----
-
-  Now that we can send prompts, we want to see responses immediately! 👀 We tweak our functions so that once ChatGPT replies, the *chatgpt[requests]* buffer pops up automatically. No more hunting for responses ― we get them right where we need them, enhancing our workflow efficiency.
-
-  - Refactoring chatgpt-send into chatgpt-send-request
-  - Deleting The Prompt Buffer window
-  - Ensuring the Response Buffer is Displayed
-  - Adding Notifications
-
-  -----
-
-  Hi there! 👋 I'm Tony Aldon, a passionate Emacs enthusiast dedicated to helping you master Emacs and Emacs Lisp.
-
-  Join me on an exciting journey with the ChatGPT Emacs Integration Course and master the art of building a fully functional Emacs package from scratch.
-
-  🌟 Through
-
-  - 18 engaging lessons,
-  - 2.5 hours video content and
-  - 100 pages of PDF
-
-  you'll:
-
-  - Master Emacs Lisp: 🛠️ Customize and extend Emacs like a pro.
-  - Integrate ChatGPT Seamlessly: 🤖 Enhance your workflow with advanced AI features using the OpenAI API.
-
-  It can help if you know a little bit of Emacs Lisp, but this is not a requirement as we'll meticulously write, review, and comment on each line of code. 📝</div>]]></description>
-      <pubDate>Thu, 14 Aug 2025 18:00:33 +0000</pubDate>
-    </item>
-    <item>
-      <title>Emacs PDF-Tools Tips You Probably Don’t Know #pdftools #emacs #navigation</title>
-      <link>https://www.youtube.com/watch?v=rTtLu4QAT2I</link>
-      <guid>https://www.youtube.com/watch?v=rTtLu4QAT2I</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=rTtLu4QAT2I">youtube</a><br><br>In this guide Discover powerful but lesser-known features of the Emacs package PDF-Tools. I walk through tips like using virtual buffers, metadata display, and navigating quickly with registers and history. I also share my personal configuration and favourite keybindings. Perfect for anyone looking to get more out of reading and managing PDFs in Emacs with PDF-Tools.
-
-  https://emacselements.com/pdf-tools-settings.html</div>]]></description>
-      <pubDate>Sun, 10 Aug 2025 22:00:05 +0000</pubDate>
-    </item>
-    <item>
-      <title>emacs package dev v2532864955</title>
-      <link>https://www.youtube.com/watch?v=nto_2pmCytg</link>
-      <guid>https://www.youtube.com/watch?v=nto_2pmCytg</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=nto_2pmCytg">youtube</a><br><br></div>]]></description>
-      <pubDate>Sun, 10 Aug 2025 16:33:54 +0000</pubDate>
-    </item>
-    <item>
-      <title>Prot Asks: PizzaTorque about Emacs for programming, linguistics, art and community</title>
-      <link>https://www.youtube.com/watch?v=-g8o0M9CRkA</link>
-      <guid>https://www.youtube.com/watch?v=-g8o0M9CRkA</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=-g8o0M9CRkA">youtube</a><br><br>In this new video series, I talk to anybody who is interested to have a video call with me (so do contact me if you want!). The topics cover anything related to Emacs, technology, and life in general. More here: https://protesilaos.com/prot-asks/.
-
-  Today I learn from PizzaTorque about how Emacs is used for programming in the field of data science. We discuss the kind of infrastructure Emacs has for dealing with various programming languages and how the experience is. Emacs as a note-taking tool is also something we consider. Then the discussion shifts to linguistics and relevant cultural as well as political considerations. We frequently draw parallels with Emacs. After that we talk about Emacs more in terms of lifestyle and art, commenting on how it helps us develop certain qualities that apply to other parts of our life. We conclude with a conversation on community and an individual's outlook, tying it all together.
-
-  PizzaTorque does video streams on programming-related topics, while using Emacs. Here is the YouTube channel: https://www.youtube.com/@PizzaTorque</div>]]></description>
-      <pubDate>Sun, 10 Aug 2025 06:18:08 +0000</pubDate><category>ProtAsks</category>
-<category>community</category>
-    </item>
-    <item>
-      <title>Emacs | Org File Includes SO Awesome</title>
-      <link>https://www.youtube.com/watch?v=hzdL7WNoP2M</link>
-      <guid>https://www.youtube.com/watch?v=hzdL7WNoP2M</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=hzdL7WNoP2M">youtube</a><br><br>Org mode includes let you suck content from other sources to strengthen the collective power of your document!  We're going to get into this so come on in and pay attention.
-
-  EMACS FOR WRITERS HANDBOOK:
-  https://chrismaiorana.com/the-emacs-for-writers-handbook-is-available-now-and-ever/
-
-  ,#emacs</div>]]></description>
-      <pubDate>Fri, 08 Aug 2025 16:39:38 +0000</pubDate>
-    </item>
-    <item>
-      <title>GNU Emacs for Beginners 🚀 | Setup, Tour &amp; Programming with Emacs on Fedora Linux!</title>
-      <link>https://www.youtube.com/watch?v=pPMspoL7m_k</link>
-      <guid>https://www.youtube.com/watch?v=pPMspoL7m_k</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=pPMspoL7m_k">youtube</a><br><br>🚀 Start using GNU Emacs like a pro — even as a total beginner!
-  In this beginner-friendly screencast, you'll learn how to install, configure, and use GNU Emacs on Fedora Linux. Discover why developers love this open-source powerhouse and how you can start coding efficiently with it.
-
-  👉 Emacs is more than just a text editor — it's a full development environment, task manager, and writing tool all in one!
-
-  💻 What You’ll Learn in This Video:
-
-  What GNU Emacs is and why it's so powerful
-
-  How to install Emacs on Fedora Linux
-
-  A first look at the Emacs interface
-
-  Basic navigation, editing, and saving files
-
-  Tips for customizing Emacs for programmers
-
-  🔗 Related Links
-  📝 Full article on GNU Emacs (WordPress):
-  https://ojambo.com/emacs-30-1-advanced-editor-review
-
-  📚 My Programming Books on Amazon:
-  https://www.amazon.com/stores/Edward-Ojambo/author/B0D94QM76N
-
-  🎓 Courses & Training:
-  https://ojamboshop.com/product-category/course
-
-  👨‍🏫 1-on-1 Programming Help:
-  https://ojambo.com/contact
-
-  🛠️ Emacs Installation or Migration Services:
-  https://ojamboservices.com/contact
-
-  🧠 Don’t forget to like 👍, comment 💬, and subscribe 🔔 for more tutorials on open source tools, Linux, and programming!
-
-  ,#Emacs #LinuxTutorial #OpenSource #FedoraLinux #TextEditor #GNUEmacs #BeginnerCoding #CodingTools</div>]]></description>
-      <pubDate>Fri, 08 Aug 2025 07:00:48 +0000</pubDate>
     </item>
   </channel>
 </rss>
