@@ -1,5 +1,51 @@
 [
   {
+    "ITEM": "Emacs tree sitter integration AND it's published",
+    "DATE": "2025-09-28T10:30:10-07:00",
+    "DURATION": "4:38",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=eHCQa55U3gw",
+    "SPEAKERS": "Nic Ferrier",
+    "TAGS": [
+      "TreeSitter"
+    ],
+    "BODY": "I've been faffing around not publishing this but here it is again, a little more useful than before and it's also published now here:\n\n  Tangled git repo: https://tangled.org/@nicferrier.bsky.social/nic-emacs-treesitter-stuff/"
+  },
+  {
+    "ITEM": "Emacs + GPTel: A Scientist's AI Notebook",
+    "DATE": "2025-09-23T06:21:26-07:00",
+    "DURATION": "14:43",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=6jd1uYEGLDs",
+    "SPEAKERS": "John Kitchin",
+    "TAGS": [
+      "ai",
+      "gptel"
+    ],
+    "BODY": "What if your scientific notes could practically write themselves, and even suggest your next big breakthrough?\n\n  I show how an LLM can help analyze data, suggest models, and then generate quantitative code to fit the data with that model."
+  },
+  {
+    "ITEM": "Emacs as a Microsoft Word killer (Part 1)",
+    "DATE": "2025-09-22T18:12:00-07:00",
+    "DURATION": "14:48",
+    "YOUTUBE_URL": "https://youtu.be/hDvnX7RJojc",
+    "SPEAKERS": "Ardie83",
+    "TAGS": [
+      "writing",
+      "flyspell"
+    ],
+    "BODY": "Emacs as a Microsoft Word killer OR as a bootstrap from writer to programmer\n  (Part 1)\n\n  - try package\n  - flyspell (spell checking)\n  - highlighting (not persistent)\n\n  Supporting me will inspire me to produce more quality content\n\n  Please show me some real actual monetary support. If there is some way to connect with an international Emacs community and make some money, please contact me.\n\n  Show some support by buying me coffee on my Ko-fi page just setup recently. (It has both Debit/Credit Card and Paypal options, with 0% fee)\n  https://ko-fi.com/ardiemejia83\n\n  Or can donate straight to my PayPal\n  https://paypal.me/ardiemejia83"
+  },
+  {
+    "ITEM": "Studying Strategy (in Emacs (for writing an OS))",
+    "DATE": "2025-09-21T08:03:46-07:00",
+    "DURATION": "44:29",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=RVjGAbQKuCk",
+    "SPEAKERS": "(Bit-Mage)",
+    "TAGS": [
+      "ai"
+    ],
+    "BODY": "https://github.com/rajp152k/OSDev/blob/master/journal/0x2439.org\n\n  setting up a studying strat for this long term side project.\n\n  dotfiles : https://github.com/rajp152k/.dotfiles"
+  },
+  {
     "ITEM": "eldoc-mouse demo overlay 2025 09 21 21 36 09",
     "DATE": "2025-09-21T06:54:18-07:00",
     "DURATION": "0:13",

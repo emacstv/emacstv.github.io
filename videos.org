@@ -3,6 +3,64 @@
 #+PROPERTY: header-args:emacs-lisp+   :eval no
 
 
+* Emacs tree sitter integration AND it's published  :TreeSitter:
+:PROPERTIES:
+:DATE:     2025-09-28T10:30:10-07:00
+:DURATION: 4:38
+:YOUTUBE_URL: https://www.youtube.com/watch?v=eHCQa55U3gw
+:SPEAKERS: Nic Ferrier
+:END:
+  I've been faffing around not publishing this but here it is again, a little more useful than before and it's also published now here:
+
+  Tangled git repo: https://tangled.org/@nicferrier.bsky.social/nic-emacs-treesitter-stuff/
+
+* Emacs + GPTel: A Scientist's AI Notebook  :ai:gptel:
+:PROPERTIES:
+:DATE:     2025-09-23T06:21:26-07:00
+:DURATION: 14:43
+:YOUTUBE_URL: https://www.youtube.com/watch?v=6jd1uYEGLDs
+:SPEAKERS: John Kitchin
+:END:
+  What if your scientific notes could practically write themselves, and even suggest your next big breakthrough?
+
+  I show how an LLM can help analyze data, suggest models, and then generate quantitative code to fit the data with that model.
+
+* Emacs as a Microsoft Word killer (Part 1)  :writing:flyspell:
+:PROPERTIES:
+:DATE:     2025-09-22T18:12:00-07:00
+:DURATION: 14:48
+:YOUTUBE_URL: https://youtu.be/hDvnX7RJojc
+:SPEAKERS: Ardie83
+:END:
+  Emacs as a Microsoft Word killer OR as a bootstrap from writer to programmer
+  (Part 1)
+
+  - try package
+  - flyspell (spell checking)
+  - highlighting (not persistent)
+
+  Supporting me will inspire me to produce more quality content
+
+  Please show me some real actual monetary support. If there is some way to connect with an international Emacs community and make some money, please contact me.
+
+  Show some support by buying me coffee on my Ko-fi page just setup recently. (It has both Debit/Credit Card and Paypal options, with 0% fee)
+  https://ko-fi.com/ardiemejia83
+
+  Or can donate straight to my PayPal
+  https://paypal.me/ardiemejia83
+
+* Studying Strategy (in Emacs (for writing an OS))  :ai:
+:PROPERTIES:
+:DATE:     2025-09-21T08:03:46-07:00
+:DURATION: 44:29
+:YOUTUBE_URL: https://www.youtube.com/watch?v=RVjGAbQKuCk
+:SPEAKERS: (Bit-Mage)
+:END:
+  https://github.com/rajp152k/OSDev/blob/master/journal/0x2439.org
+
+  setting up a studying strat for this long term side project.
+
+  dotfiles : https://github.com/rajp152k/.dotfiles
 * eldoc-mouse demo overlay 2025 09 21 21 36 09  :EldocMouse:
 :PROPERTIES:
 :DATE:     2025-09-21T06:54:18-07:00
