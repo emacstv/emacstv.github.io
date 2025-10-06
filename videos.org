@@ -3,6 +3,87 @@
 #+PROPERTY: header-args:emacs-lisp+   :eval no
 
 
+* Emacs RAG with LibSQL - Enabling semantic search of org-mode headings with Claude Code  :ai:org:
+:PROPERTIES:
+:DATE:     2025-10-06T00:46:13-07:00
+:DURATION: 18:57
+:YOUTUBE_URL: https://www.youtube.com/watch?v=FwP3HQkrP28
+:SPEAKERS: John Kitchin
+:END:
+  Watch along as we use Claude Code to bring semantic search of org-mode headings to #Emacs! This is part of an ongoing project in semantic search that Claude has made possible. Now we have semantic and full-text search across all the indexed org-files. Special thanks to libsql for making vector search an integrated part of sqlite!
+
+  You can see the code at https://github.com/jkitchin/emacs-rag-libsql. It is still quite alpha, but I am using it myself.
+
+* Super simple Emacs config  :configuration:
+:PROPERTIES:
+:DATE:     2025-10-05T08:17:28-07:00
+:DURATION: 5:51
+:YOUTUBE_URL: https://www.youtube.com/watch?v=_cQLjp7GNFk
+:SPEAKERS: Nic Ferrier
+:END:
+  I have my own Emacs config built up over 20 years or so but every now and then someone asks me to show them how something works in Emacs and my config gets in the way of illustrating what default Emacs would do.
+
+  So I keep a super simple Emacs config lying around that just does a very things.
+
+  This video shows off that config.
+
+* Pragmatic Opacity w/ Emacs   :opacity:
+:PROPERTIES:
+:DATE:     2025-10-05T05:27:07-07:00
+:DURATION: 10:49
+:YOUTUBE_URL: https://www.youtube.com/watch?v=nimOCOiBXsA
+:SPEAKERS: (Bit-Mage)
+:END:
+  Exploring and Ideating towards practical applications for altering the opacity of your emacs frames and how it may forward the domain of human computer interactions.
+
+* Emacs Abbrev Mode vs Microsoft Word Autocorrect   :abbrev:
+:PROPERTIES:
+:DATE:     2025-10-02T00:08:03-07:00
+:DURATION: 33:22
+:YOUTUBE_URL: https://www.youtube.com/watch?v=AZ_fqUm5KuU
+:SPEAKERS: Ardie83
+:END:
+  Emacs Abbrev Mode vs Microsoft Word Autocorrect
+
+  Why do we need command line tools anyway? Read this article.
+  https://web.stanford.edu/class/cs81n/command.txt
+
+  Better resources online?, try:
+   - Xah Lee
+   - SystemCrafters
+   - Sacha Chua
+   - MasteringEmacs
+   - also, Gavin Freeborn.
+
+  Supporting me will inspire me to produce more quality content
+
+  Show some support by buying me coffee on my Ko-fi page. It accepts your usual Debit/Credit card with 0% fee.
+  https://ko-fi.com/ardiemejia83
+
+  Or can donate straight to my PayPal
+  https://paypal.me/ardiemejia83
+
+* Bending Emacs - Episode 01: Applying CLI utils  :DwimShellCommand:
+:PROPERTIES:
+:DATE:     2025-09-30T08:11:19-07:00
+:DURATION: 6:16
+:YOUTUBE_URL: https://www.youtube.com/watch?v=77NtPfgr4x0
+:SPEAKERS: xenodium
+:END:
+  I'll show you how to apply (or batch apply) command line utilities from my favorite editor.
+
+  I use my Emacs DWIM Shell Command package for this (available on MELPA). https://github.com/xenodium/dwim-shell-command
+
+  Notes from video at: https://xenodium.com/bending-emacs-episode-1
+
+  This is my first video in the channel. Please leave me some comments and let me know how you like it.
+
+  If folks like this kind of video, I'll make more of them. What other Emacs things would you like to see a video about? I got a ton of topics on my https://xenodium.com blog you could look up.
+
+  Please press that like button and subscribe to my channel ;)
+
+  @xenodium
+
 * Emacs tree sitter integration AND it's published  :TreeSitter:
 :PROPERTIES:
 :DATE:     2025-09-28T10:30:10-07:00
@@ -13,6 +94,34 @@
   I've been faffing around not publishing this but here it is again, a little more useful than before and it's also published now here:
 
   Tangled git repo: https://tangled.org/@nicferrier.bsky.social/nic-emacs-treesitter-stuff/
+
+* Emacs. Your Customizable AI Control Center with the llm Package  :ai:llm:
+:PROPERTIES:
+:DATE:     2025-09-25T18:22:39-07:00
+:DURATION: 2:09
+:YOUTUBE_URL: https://www.youtube.com/watch?v=zw1pm1mGRKs
+:SPEAKERS: HI AI
+:END:
+
+
+* How to Manage AWS IAM Roles with Emacs Org Mode | Full Tutorial   :org:
+:PROPERTIES:
+:DATE:     2025-09-24T13:50:42-07:00
+:DURATION: 5:23
+:YOUTUBE_URL: https://www.youtube.com/watch?v=9HffiDAg10U
+:SPEAKERS: Neuralize AI
+:END:
+  Tired of switching between your editor and the AWS web console just to manage IAM roles? In this video, I walk you through an Emacs package, `org-aws-iam-role`, that lets you browse, modify, and even simulate IAM policies without ever leaving your editor.
+
+  ▶️ Find the package here:
+  GitHub: https://github.com/will-abb/org-aws-iam-role
+  Also in Melpa sometime in the future
+
+  ✅ In this tutorial, we will cover:
+  • How to interactively browse and select IAM roles.
+  • Understanding the detailed Org Mode buffer for roles and policies.
+  • The power of Org Babel: updating a policies with a simple C-c C-c.
+  • Using the built-in IAM Policy Simulator to test permissions.
 
 * Emacs + GPTel: A Scientist's AI Notebook  :ai:gptel:
 :PROPERTIES:
@@ -174,6 +283,26 @@
 
   In this new video series, I talk to anybody who is interested to have a video call with me (so do contact me if you want!). The topics cover anything related to Emacs, technology, and life in general. More here: https://protesilaos.com/prot-asks/.
 
+* GTD List Manager and Emacs  :gtd:
+:PROPERTIES:
+:DATE:     2025-09-17T22:15:00-07:00
+:DURATION: 55:54
+:YOUTUBE_URL: https://www.youtube.com/watch?v=tU4D6y7-slo
+:SPEAKERS: gtd
+:END:
+  You may have heard of a text editor called Emacs, which has been around for a long time. This is your chance to hear how Matt has used it to create a GTD list manager. He talks about how he got into GTD, and goes into plenty of detail about the system he has developed, through many iterations, using Emacs.
+
+  https://gtdconnect.com/video.php?titleid=1360&trackid=2011
+
+  ………………………………………………….
+  https://gettingthingsdone.com
+  https://gtdconnect.com
+  https://www.instagram.com/gtdtimes/
+  https://www.linkedin.com/company/david-allen-company/
+  https://www.facebook.com/gettingthingsdone
+  https://www.youtube.com/user/gtd
+  ………………………………………………….
+  ,#mindlikewater #GTD #gettingthingsdone #FreedomFocusGTD #DavidAllen
 * Emacs UV Mode - Python Command VOD  :python:
 :PROPERTIES:
 :DATE:     2025-09-17T09:49:54-07:00

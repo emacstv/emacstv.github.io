@@ -6,6 +6,78 @@
     <atom:link href="https://emacs.tv/videos.rss" rel="self" type="application/rss+xml" />
     <description>Emacs videos</description>
     <item>
+      <title>Emacs RAG with LibSQL - Enabling semantic search of org-mode headings with Claude Code</title>
+      <link>https://www.youtube.com/watch?v=FwP3HQkrP28</link>
+      <guid>https://www.youtube.com/watch?v=FwP3HQkrP28</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=FwP3HQkrP28">youtube</a><br><br>Watch along as we use Claude Code to bring semantic search of org-mode headings to #Emacs! This is part of an ongoing project in semantic search that Claude has made possible. Now we have semantic and full-text search across all the indexed org-files. Special thanks to libsql for making vector search an integrated part of sqlite!
+
+  You can see the code at https://github.com/jkitchin/emacs-rag-libsql. It is still quite alpha, but I am using it myself.</div>]]></description>
+      <pubDate>Mon, 06 Oct 2025 07:46:13 +0000</pubDate><category>ai</category>
+<category>org</category>
+    </item>
+    <item>
+      <title>Super simple Emacs config</title>
+      <link>https://www.youtube.com/watch?v=_cQLjp7GNFk</link>
+      <guid>https://www.youtube.com/watch?v=_cQLjp7GNFk</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=_cQLjp7GNFk">youtube</a><br><br>I have my own Emacs config built up over 20 years or so but every now and then someone asks me to show them how something works in Emacs and my config gets in the way of illustrating what default Emacs would do.
+
+  So I keep a super simple Emacs config lying around that just does a very things.
+
+  This video shows off that config.</div>]]></description>
+      <pubDate>Sun, 05 Oct 2025 15:17:28 +0000</pubDate><category>configuration</category>
+    </item>
+    <item>
+      <title>Pragmatic Opacity w/ Emacs</title>
+      <link>https://www.youtube.com/watch?v=nimOCOiBXsA</link>
+      <guid>https://www.youtube.com/watch?v=nimOCOiBXsA</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=nimOCOiBXsA">youtube</a><br><br>Exploring and Ideating towards practical applications for altering the opacity of your emacs frames and how it may forward the domain of human computer interactions.</div>]]></description>
+      <pubDate>Sun, 05 Oct 2025 12:27:07 +0000</pubDate><category>opacity</category>
+    </item>
+    <item>
+      <title>Emacs Abbrev Mode vs Microsoft Word Autocorrect</title>
+      <link>https://www.youtube.com/watch?v=AZ_fqUm5KuU</link>
+      <guid>https://www.youtube.com/watch?v=AZ_fqUm5KuU</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=AZ_fqUm5KuU">youtube</a><br><br>Emacs Abbrev Mode vs Microsoft Word Autocorrect
+
+  Why do we need command line tools anyway? Read this article.
+  https://web.stanford.edu/class/cs81n/command.txt
+
+  Better resources online?, try:
+   - Xah Lee
+   - SystemCrafters
+   - Sacha Chua
+   - MasteringEmacs
+   - also, Gavin Freeborn.
+
+  Supporting me will inspire me to produce more quality content
+
+  Show some support by buying me coffee on my Ko-fi page. It accepts your usual Debit/Credit card with 0% fee.
+  https://ko-fi.com/ardiemejia83
+
+  Or can donate straight to my PayPal
+  https://paypal.me/ardiemejia83</div>]]></description>
+      <pubDate>Thu, 02 Oct 2025 07:08:03 +0000</pubDate><category>abbrev</category>
+    </item>
+    <item>
+      <title>Bending Emacs - Episode 01: Applying CLI utils</title>
+      <link>https://www.youtube.com/watch?v=77NtPfgr4x0</link>
+      <guid>https://www.youtube.com/watch?v=77NtPfgr4x0</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=77NtPfgr4x0">youtube</a><br><br>I'll show you how to apply (or batch apply) command line utilities from my favorite editor.
+
+  I use my Emacs DWIM Shell Command package for this (available on MELPA). https://github.com/xenodium/dwim-shell-command
+
+  Notes from video at: https://xenodium.com/bending-emacs-episode-1
+
+  This is my first video in the channel. Please leave me some comments and let me know how you like it.
+
+  If folks like this kind of video, I'll make more of them. What other Emacs things would you like to see a video about? I got a ton of topics on my https://xenodium.com blog you could look up.
+
+  Please press that like button and subscribe to my channel ;)
+
+  @xenodium</div>]]></description>
+      <pubDate>Tue, 30 Sep 2025 15:11:19 +0000</pubDate><category>DwimShellCommand</category>
+    </item>
+    <item>
       <title>Emacs tree sitter integration AND it&apos;s published</title>
       <link>https://www.youtube.com/watch?v=eHCQa55U3gw</link>
       <guid>https://www.youtube.com/watch?v=eHCQa55U3gw</guid>
@@ -13,6 +85,31 @@
 
   Tangled git repo: https://tangled.org/@nicferrier.bsky.social/nic-emacs-treesitter-stuff/</div>]]></description>
       <pubDate>Sun, 28 Sep 2025 17:30:10 +0000</pubDate><category>TreeSitter</category>
+    </item>
+    <item>
+      <title>Emacs. Your Customizable AI Control Center with the llm Package</title>
+      <link>https://www.youtube.com/watch?v=zw1pm1mGRKs</link>
+      <guid>https://www.youtube.com/watch?v=zw1pm1mGRKs</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=zw1pm1mGRKs">youtube</a><br><br></div>]]></description>
+      <pubDate>Fri, 26 Sep 2025 01:22:39 +0000</pubDate><category>ai</category>
+<category>llm</category>
+    </item>
+    <item>
+      <title>How to Manage AWS IAM Roles with Emacs Org Mode | Full Tutorial</title>
+      <link>https://www.youtube.com/watch?v=9HffiDAg10U</link>
+      <guid>https://www.youtube.com/watch?v=9HffiDAg10U</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=9HffiDAg10U">youtube</a><br><br>Tired of switching between your editor and the AWS web console just to manage IAM roles? In this video, I walk you through an Emacs package, `org-aws-iam-role`, that lets you browse, modify, and even simulate IAM policies without ever leaving your editor.
+
+  ▶️ Find the package here:
+  GitHub: https://github.com/will-abb/org-aws-iam-role
+  Also in Melpa sometime in the future
+
+  ✅ In this tutorial, we will cover:
+  • How to interactively browse and select IAM roles.
+  • Understanding the detailed Org Mode buffer for roles and policies.
+  • The power of Org Babel: updating a policies with a simple C-c C-c.
+  • Using the built-in IAM Policy Simulator to test permissions.</div>]]></description>
+      <pubDate>Wed, 24 Sep 2025 20:50:42 +0000</pubDate><category>org</category>
     </item>
     <item>
       <title>Emacs + GPTel: A Scientist&apos;s AI Notebook</title>
@@ -160,6 +257,25 @@
 
   In this new video series, I talk to anybody who is interested to have a video call with me (so do contact me if you want!). The topics cover anything related to Emacs, technology, and life in general. More here: https://protesilaos.com/prot-asks/.</div>]]></description>
       <pubDate>Thu, 18 Sep 2025 06:35:26 +0000</pubDate><category>ProtAsks</category>
+    </item>
+    <item>
+      <title>GTD List Manager and Emacs</title>
+      <link>https://www.youtube.com/watch?v=tU4D6y7-slo</link>
+      <guid>https://www.youtube.com/watch?v=tU4D6y7-slo</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=tU4D6y7-slo">youtube</a><br><br>You may have heard of a text editor called Emacs, which has been around for a long time. This is your chance to hear how Matt has used it to create a GTD list manager. He talks about how he got into GTD, and goes into plenty of detail about the system he has developed, through many iterations, using Emacs.
+
+  https://gtdconnect.com/video.php?titleid=1360&trackid=2011
+
+  ………………………………………………….
+  https://gettingthingsdone.com
+  https://gtdconnect.com
+  https://www.instagram.com/gtdtimes/
+  https://www.linkedin.com/company/david-allen-company/
+  https://www.facebook.com/gettingthingsdone
+  https://www.youtube.com/user/gtd
+  ………………………………………………….
+  ,#mindlikewater #GTD #gettingthingsdone #FreedomFocusGTD #DavidAllen</div>]]></description>
+      <pubDate>Thu, 18 Sep 2025 05:15:00 +0000</pubDate><category>gtd</category>
     </item>
     <item>
       <title>Emacs UV Mode - Python Command VOD</title>
@@ -511,314 +627,6 @@
   https://paypal.me/ardiemejia83</div>]]></description>
       <pubDate>Fri, 29 Aug 2025 02:58:16 +0000</pubDate><category>navigation</category>
 <category>keychord</category>
-    </item>
-    <item>
-      <title>A Stealth Flex: Browse Reddit at Work Using Emacs</title>
-      <link>https://www.youtube.com/watch?v=nwF52QB3hB8</link>
-      <guid>https://www.youtube.com/watch?v=nwF52QB3hB8</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=nwF52QB3hB8">youtube</a><br><br>https://github.com/dickmao/emacs-subreddit.git
-
-  Graphic Credits: Back Cover Art of Gnu Emacs Manual (1985) by Etienne Suvasa.</div>]]></description>
-      <pubDate>Wed, 27 Aug 2025 21:19:05 +0000</pubDate><category>reddit</category>
-    </item>
-    <item>
-      <title>Buffers Are the BEST Emacs Feature</title>
-      <link>https://www.youtube.com/watch?v=_zVvIUw8uaQ</link>
-      <guid>https://www.youtube.com/watch?v=_zVvIUw8uaQ</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=_zVvIUw8uaQ">youtube</a><br><br>Today I talk about the best Emacs feature, and why it is so damn good.
-
-  👇 PULL IT DOWN FOR THE GOOD STUFF 👇
-
-  Patreon - https://patreon.com/thelinuxcast
-  Paypal - https://paypal.me/thelinuxcast
-  Youtube - https://www.youtube.com/channel/UCylGUf9BvQooEFjgdNudoQg/join
-  Ko-fi - https://ko-fi.com/thelinuxcast
-
-  ===== Follow us 🐧🐧 ======
-  MERCH - https://shop.thelinuxcast.org
-  Discord - https://thelinuxcast.org/discord
-  Odysee - https://odysee.com/$/invite/@thelinuxcast:4
-  TILvids(Peertube) - https://tilvids.com/c/thelinuxcast_channel/videos
-  Mastodon- https://polymaths.social/@thelinuxcast
-  Bluesky - https://bsky.app/profile/thelinuxcast.bsky.social
-  https://gitlab.com/thelinuxcast
-  Matrix - https://matrix.to/#/#the-linux-cast:matrix.org
-  The Website http://thelinuxcast.org
-  Contact us email@thelinuxcast.org
-  Amazon Wishlist - https://www.amazon.com/hz/wishlist/ls/1J3W9HF4O2M7T?ref_=wl_share
-  Logo Courtesy of - pedropaulo.net
-  Intro Courtesy of - https://www.fragcgi.com/?i=1
-
-  Get a free month of Proton Mail! https://go.getproton.me/SH1gC
-  Get 20% Off Your First Year at Hostinger - https://tinyurl.com/27kqbj63
-
-  ==== Special Thanks to Our Patrons! ====
-  https://thelinuxcast.org/patrons/
-
-  ==== My Gear ==== (Affilliate Links)
-
-  Shure sm7b - https://amzn.to/42jvata
-  LG Dual Up Monitor - https://amzn.to/42h7m9e
-  Sceptre 32 Curved Monitor - https://amzn.to/40CHoeY
-  Edifier R1280T - https://amzn.to/4gValbW
-  Elgato Stream Deck MK2 - https://amzn.to/4ga1MJa
-  Universal Audio Volt 276 - https://amzn.to/4jd8ukh
-  iPhone 15 Pro Mac - https://amzn.to/4jmxdT2
-  Logitech Brio Webcam - https://amzn.to/4aqoRFZ
-  Weilisi Desk Ring Light - https://amzn.to/4aqp1gz
-  Logitech MX Master 3 - https://amzn.to/3Wm5A2E
-
-
-  ,#emacs #linux #thelinuxcast</div>]]></description>
-      <pubDate>Tue, 26 Aug 2025 01:18:23 +0000</pubDate><category>buffer</category>
-<category>navigation</category>
-    </item>
-    <item>
-      <title>Prot Asks: Ronnie about free software, privacy, parenting, and life in Iraqi Kurdistan</title>
-      <link>https://www.youtube.com/watch?v=qvWSGzfR1wA</link>
-      <guid>https://www.youtube.com/watch?v=qvWSGzfR1wA</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=qvWSGzfR1wA">youtube</a><br><br>In this new video series, I talk to anybody who is interested to have a video call with me (so do contact me if you want!). The topics cover anything related to Emacs, technology, and life in general. More here: https://protesilaos.com/prot-asks/.
-
-  In this video I talk with Ronnie Nissan about a range of issues covering free software and everyday life issues. Ronnie is a GTK (Gnome) app developer, who also has experience with GNU Emacs. We explore the intersection of social organisation and modern technology, such as how people's behavioural patterns are affected and what kind of power dynamics are at play. Through our exchange we discuss matters of parenting, or what I called "upbringing" (it involves more than just the parents), education, and culture at-large. In the process, I learn about life in Iraqi Kurdistan, while also noticing how many of the typical personal and collective problems we are aware of are common across cultures.
-
-  Links by Ronnie (and mention of my journal entry):
-
-  - Concessio GTK app: https://flathub.org/apps/io.github.ronniedroid.concessio
-  - Embellish GTK app: https://flathub.org/apps/io.github.getnf.embellish
-  - "Get NerdFonts" application: https://github.com/getnf/getnf
-  - Ronnie's website: https://ronnienissan.pages.dev/
-  - Prot's "Freedom within robust constraints": https://protesilaos.com/commentary/2025-08-23-freedom-robust-constraints/</div>]]></description>
-      <pubDate>Mon, 25 Aug 2025 06:19:34 +0000</pubDate><category>ProtAsks</category>
-<category>community</category>
-    </item>
-    <item>
-      <title>S1E8: Show And Tell: Efrit: When Steve Gives Claude Full Access To 50 Years of Emacs Capabilities</title>
-      <link>https://www.youtube.com/watch?v=ZJUyVVFOXOc</link>
-      <guid>https://www.youtube.com/watch?v=ZJUyVVFOXOc</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=ZJUyVVFOXOc">youtube</a><br><br>In this rather mind-blowing episode of Vibe Coding with Steve and Gene, Steve demonstrates Efrit — giving Claude full access to control Emacs. What starts as a simple show-and-tell quickly melts Gene's brain.  Steve shows how Claude can get Emacs do basically anything: open info pages, count files, start shells, even generate a Mandelbrot fractals in a buffer.
-
-  By doing this, the AI has complete access to Emacs's 50-year ecosystem of packages and can orchestrate complex tasks across multiple windows and processes. You can hear Gene's constantly trying to ask questions so he can get his head around what Steve built.
-
-  Gene also asks Steve to apply the vibe coding loop from the book to this project: Steve emphasizes that "the plan is everything" - proper planning solves most AI coding problems, including instruction following failures, reward hacking, and context window limitations. His approach involved months of iterative refinement, constantly catching the AI when it tried to "cheat" (like building haiku detectors instead of just writing haikus), and gradually building up a stable system that could handle multi-turn conversations reliably. The breakthrough came when he re-architected the entire system around Thorsten Ball's vision of simple agent loops.
-
-  We suspect you will find this episode to be mind-expanding, when you can control software in a way that is truly conversational and alive — beyond what MCPs can do today. Steve's system demonstrates how vibe coding can create genuinely transformative new things that the world has never seen.  As long as you can articulate your vision clearly, are willing to iterate, know have a sense of where the AI boundaries of capabilities are.
-
-  https://github.com/steveyegge/efrit
-
-  Pre-order the book here: https://www.amazon.com/Vibe-Coding-Building-Production-Grade-Software/dp/1966280025
-
-  00:00 Introduction
-  00:33 Steve's Project: Efrit in Emacs
-  03:17 Demonstration of Efrit
-  06:27 Technical Deep Dive: Building Efrit
-  09:21 The Vibe Coding Loop Explained
-  14:07 The Importance of Planning in Vibe Coding
-  20:44 Adding Context to Coding Agents
-  21:23 Challenges with Multi-Turn Interactions
-  22:14 Re-Architecting the System
-  22:48 Creative Vision for Software Development
-  23:15 Voice Dictation and Testing Challenges
-  23:40 Integration Tests and Permission Checks
-  26:40 Context Window Limitations
-  30:56 Reward Hacking in AI
-  33:56 Instruction Following Issues
-  36:18 Show and Tell: Integration Test Results
-  38:52 Conclusion and Future Plans</div>]]></description>
-      <pubDate>Mon, 25 Aug 2025 00:46:18 +0000</pubDate><category>ai</category>
-    </item>
-    <item>
-      <title>Wiring Claude Code Into Emacs - System Crafters Live!</title>
-      <link>https://www.youtube.com/watch?v=3N5FVSSQGYs</link>
-      <guid>https://www.youtube.com/watch?v=3N5FVSSQGYs</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=3N5FVSSQGYs">youtube</a><br><br>In this stream, we'll explore integrating Claude Code into an Emacs workflow and tackle the challenges of using it within terminal emulators like eat and vterm. We'll share real project experiences, compare different approaches, and test packages like claude-code.el and monet that promise better integration.
-
-  Along the way, we'll start building a Guile Scheme XMPP client library to demonstrate these workflows in action, giving us a concrete project to work with while exploring the tools.
-
-  ,#emacs #claudecode #guile #workflow #terminal
-
-  SUPPORT THE CHANNEL:
-
-  👍 Support My Work: https://systemcrafters.net/how-to-help/#support-my-work
-  📰 Subscribe to the Newsletter: https://systemcrafters.net/newsletter/
-  👕 Check out the Store: https://systemcrafters.store
-  📘 Get Your Copy of Mastering Emacs: https://www.masteringemacs.org/r/systemcrafters?utm_source=yt&utm_medium=desc&utm_campaign=scme
-
-  SHOW NOTES:
-
-  https://systemcrafters.net/live-streams/august-22-2025/
-
-  JOIN THE COMMUNITY:
-
-  https://systemcrafters.net/community/ (Forum and IRC chat!)
-  https://fosstodon.org/@daviwil
-
-  MY CONFIGURATION:
-
-  (This site is currently down but will be back up soon!)
-
-  https://config.daviwil.com
-  https://config.daviwil.com/emacs
-  https://config.daviwil.com/systems (Guix)
-
-  OTHER SERIES:
-
-  - Emacs Essentials: https://www.youtube.com/watch?v=48JlgiBpw_I&list=PLEoMzSkcN8oPZvSdewHG8uApD7THlLLCV
-  - Emacs From Scratch: https://www.youtube.com/watch?v=74zOY-vgkyw&list=PLEoMzSkcN8oPH1au7H6B7bBJ4ZO7BXjSZ
-  - Emacs Tips: https://www.youtube.com/watch?v=wKTKmE1wLyw&list=PLEoMzSkcN8oMHJ6Xil1YdnYtlWd5hHZql
-  - Emacs Desktop Environment: https://www.youtube.com/watch?v=f7xB2fFk1tQ&list=PLEoMzSkcN8oNPbEMYEtswOVTvq7CVddCS
-  - Emacs IDE: https://www.youtube.com/watch?v=E-NAM9U5JYE&list=PLEoMzSkcN8oNvsrtk_iZSb94krGRofFjN
-  - Emacs Mail: https://www.youtube.com/watch?v=yZRyEhi4y44&list=PLEoMzSkcN8oM-kA19xOQc8s0gr0PpFGJQ
-  - Learning Emacs Lisp: https://www.youtube.com/watch?v=RQK_DaaX34Q&list=PLEoMzSkcN8oPQtn7FQEF3D7sroZbXuPZ7
-  - Craft Your System with GNU Guix: https://www.youtube.com/watch?v=iBaqOK75cho&list=PLEoMzSkcN8oNxnj7jm5V2ZcGc52002pQU
-
-  CREDITS:
-
-  Coriolis Effect by logos feat. stefsax, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/mseq/26296
-  reNovation by airtone, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/airtone/60674
-  ukeSounds by airtone, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/airtone/32655
-  Between Worlds (Instrumental) by Aussens@iter, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/tobias_weber/56664</div>]]></description>
-      <pubDate>Sat, 23 Aug 2025 05:07:44 +0000</pubDate><category>ai</category>
-    </item>
-    <item>
-      <title>A new powerful project-agnostic Emacs workflow (a Neovim alternative)</title>
-      <link>https://youtube.com/watch?v=MouEAYdxEqA&amp;si=x5i8XifuszJh9RYg</link>
-      <guid>https://youtube.com/watch?v=MouEAYdxEqA&amp;si=x5i8XifuszJh9RYg</guid>
-      <description><![CDATA[<div id="content"><a href="https://youtube.com/watch?v=MouEAYdxEqA&si=x5i8XifuszJh9RYg">youtube</a><br><br>A new powerful project-agnostic Emacs workflow I discovered.
-
-  Inspired by the blog article in this link:
-  https://matklad.github.io/2024/07/25/git-worktrees.html
-
-  Do read the article
-
-  I added my own touches, making it super ergonomic.
-
-  My touches is inside (use-package emacs..) macro in this file: https://github.com/ardieMejia/linux-home-emacs-init/blob/main/my_looks/my_looks.el
-
-  Using mouse buttons is not an issue here, since those mouse buttons are extra and rarely used. And my main workflow is keyboard-centric.
-
-  Supporting me will inspire me to produce more quality content, including improving vocal quality.
-
-  (Edit: This video lacks context, I listened to the Reddit complaints. This workflow lets me separate coding and testing into 2 Emacs instance. It also does not affect previous branches, or workflow with other developers. And if Im happy with long weeks fuzzing, I can commit --amend, and start another fuzzing phase.)
-
-  (Edit: 2 folks got offended by my supposed "non-standard" Git usage. I have no idea why people get overly attached by tools that were "created by others". 2-3 Emacs users so far also seem to complain my "long messy config". If your Emacs config is minimal, why arent you using VSCode? Please point what is wrong with my config, Im here to learn.)
-
-  Show some support by buying me coffee on my Ko-fi page just setup recently. (It has both Debit/Credit Card and Paypal options, with 0% fee)
-  https://ko-fi.com/ardiemejia83
-
-  Or can donate straight to my PayPal
-  https://paypal.me/ardiemejia83</div>]]></description>
-      <pubDate>Fri, 22 Aug 2025 00:56:36 +0000</pubDate><category>coding</category>
-    </item>
-    <item>
-      <title>Prot Asks: Dimos about Emacs interconnectedness, collective work, and The Conspiracy Club</title>
-      <link>https://www.youtube.com/watch?v=c5KV_P7K73Y</link>
-      <guid>https://www.youtube.com/watch?v=c5KV_P7K73Y</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=c5KV_P7K73Y">youtube</a><br><br>In this new video series, I talk to anybody who is interested to have a video call with me (so do contact me if you want!). The topics cover anything related to Emacs, technology, and life in general. More here: https://protesilaos.com/prot-asks/.
-
-  In this video, I talk with Dimos from Greece about Emacs as an integrated computing environment. I learn how Dimos started using Emacs 10 years ago while studying mathematics: what is the appeal of Lisp and how that opened the way for using Emacs as an integrated computing environment. We also discuss the work Dimos does, which is part of a technology collective called "Stin Priza" that provides a variety of web services. In this context we explore themes of ownership and of belonging to a community or a place. I then ask about personal interests and other activities, to learn about some of the naturalist activities Dimos does as well as the podcast that Dimos co-hosts called "The Conspiracy Club": it is a show that has been going on for five years now, which discusses conspiracy theories and other mysteries with an open mind and a playful attitude, neither adopting the theories nor debunking them.
-
-  Links by Dimos:
-
-  - Personal website: https://bendersteed.gr.
-  - _Stin Priza_ collective for technology (in Greek): https://stinpriza.org/who/.
-  - _The Conspiracy Club_ podcast (in Greek): https://theconspiracyclub.gr.
-  - Git sources: https://sr.ht/~bendersteed/.</div>]]></description>
-      <pubDate>Wed, 20 Aug 2025 12:25:56 +0000</pubDate><category>ProtAsks</category>
-<category>community</category>
-    </item>
-    <item>
-      <title>Matt from The Linux Cast on macOS, NixOS, Emacs &amp; More</title>
-      <link>https://www.youtube.com/watch?v=V4mzxJROCFk</link>
-      <guid>https://www.youtube.com/watch?v=V4mzxJROCFk</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=V4mzxJROCFk">youtube</a><br><br>Conversation with Matt, we talk about his recent experience with macOS, current experience with NixOS and also his challenge of using Emacs for 2 years.
-
-  YouTube:  @TheLinuxCast
-  Website: thelinuxcast.org
-
-  -------------------------------------------------
-
-  If you're not a YouTube member yet, you can join here:
-  https://www.youtube.com/channel/UCrSIvbFncPSlK6AdwE2QboA/join
-
-  Isn't  YouTube ads enough:
-  https://linkarzu.com/about/#youre-a-fraud-why-do-you-ask-for-money-isnt-youtube-ads-enough
-
-  00:00:00 - Highlights
-  00:01:13 - Matt's YouTube channel "The Linux Cast"
-  00:02:29 - Is The Linux Cast channel yours, or does it belong to a group?
-  00:03:18 - Why did you get started with YouTube?
-  00:05:24 - DistroTube shouted out Matt's channel, video
-  00:05:53 - Has your channel grown gradually, any stuff that made it blow up?
-  00:06:58 - Have you ever felt discouraged to make videos? Tutorial videos usually perform bad
-  00:09:08 - Is youtube your full time job? (neovim vs emacs video)
-  00:10:32 - What does your family think of you doing YouTube?
-  00:11:36 - Are you a 1 man band, do you still find making videos fun? Editing long hour videos sucks big time
-  00:13:17 - Are you addicted looking at YouTube analytics?
-  00:16:24 - Matt's 40 years old, but I look older, wtf
-  00:17:14 - Matt's guilty pleasure: MacOS Finder app. Why did you buy a mac?
-  00:18:56 - PopOS Pop!_OS is just an older version of Debian
-  00:22:14 - The Logitech software nightmare on macOS
-  00:24:05 - Plans on keep using mac?
-  00:25:41 - Finder alternative ForkLift, Pathfinder
-  00:26:46 - Matt's experience with macOS in college
-  00:29:48 - The AppStore sucks, the way macOS installs apps is great, no dependency issues
-  00:31:51 - App recommendation, trickster (video)
-  00:33:10 - Why did you start using NixOS?
-  00:34:33 - The drama with the "NixOS is not a real distro" video
-  00:36:05 - Linkarzu install Arch video and experience. Is arch a new user recommended distro?
-  00:40:13 - How I re-deploy macOS video, what are the real benefits of nix?
-  00:44:19 - NixOS overlay, let's say snapshots
-  00:45:37 - Any other weird or special experiences with nix so far?
-  00:46:42 - Can't you hear, can't you hear the thunder? You better run, you better take cover
-  00:48:55 - What iPad should I get?
-  00:50:46 - How does the nix rebuild work?
-  00:53:29 - If I change a config file, do I have to rebuild? What is this nix home manager?
-  00:56:57 - Matt also uses GNU Stow
-  00:58:04 - GNU stow or symlinks? Chat, let us know in the comments, where the 5 chezmoi bois at
-  01:00:26 - What's the status of your homelab? pastebin, glance, FreshRSS
-  01:03:27 - Media side of things, music library
-  01:06:58 - Buying used CDs would be really expensive
-  01:08:34 - In the end, it's just simpler to use Deezer (I use Spotify)
-  01:09:36 - I'm tired of listening to the same music, but I'm not open to new music. Does Matt listen to Music?
-  01:12:00 - Alexa always plays the damn song, where to find new music, shuffle sucks
-  01:15:10 - What are your thoughts on taking sponsorships?
-  01:18:32 - Linux Phone FuriPhone
-  01:20:35 - BenQ, if you're reading this, we're waiting for our monitors
-  01:21:42 - What Keyboard do you use? Dactyl Manuform
-  01:24:33 - Alice layout keyboard
-  01:25:32 - First split keyboard was a moonlander, how was the experience?
-  01:26:34 - hitting the D with the left and right hand, ifywim
-  01:28:39 - Thoughts on using keyboard layers
-  01:29:38 - Hand shaped custom Dactyl Manuform
-  01:30:24 - Corne Min prototype pre-order
-  01:31:23 - Thoughts on key chords, more keys, less keys? Thoughts on the Corne?
-  01:32:50 - What keyboard layout do you use?
-  01:34:28 - What if you remap hjkl? KindaVim app on macOS video
-  01:35:45 - Why did you recently start using emacs again?
-  01:38:07 - Matt is using Vanilla Emacs, just as prot recommends video
-  01:39:26 - Matt is not into org mode
-  01:40:39 - Did you start your notes in Markdown?
-  01:41:52 - Obsidian on the desktop, and obsidian vault stored in nextcloud, quillpad android app
-  01:44:47 - What about notes under a versioning control system, like github?
-  01:46:27 - I moved from Obsidian to Neovim, what do you love about Obsidian? Video
-  01:49:01 - Do you use the Obsidian Dataview plugin?
-  01:52:35 - Marksman LSP demo in Neovim to link notes together
-  01:54:15 - Let's talk browsers, Vivaldi, Brave. Reformed tab hoarder
-  01:57:00 - Vivaldi tab stacks
-  01:59:21 - Vivaldi is source available?
-  02:00:08 - Thoughts on Vertical tabs?
-  02:02:35 - Matt uses tabs everywhere, not only on the browser
-  02:04:59 - Thoughts on the new AI related IDEs like cursor, windsurf and those
-  02:06:15 - How do you use AI? Chatgpt or claude?
-  02:08:15 - I can't pay 20 to claude and 20 to chatgpt, I have to pick 1
-  02:11:47 - Once chatgpt says "you're absolutely right" you're cooked
-  02:13:44 - Sometimes we say "that's awesome" to chatgpt, so it keeps the good mood
-  02:14:56 - "Claude does it better"
-  02:18:09 - What about claude code?
-  02:20:25 - AI search results in google, gemini AI
-
-  ,#neovim #linux #thelinuxcast #emacs #linkarzu</div>]]></description>
-      <pubDate>Sun, 17 Aug 2025 11:00:53 +0000</pubDate>
     </item>
   </channel>
 </rss>

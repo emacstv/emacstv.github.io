@@ -1,5 +1,61 @@
 [
   {
+    "ITEM": "Emacs RAG with LibSQL - Enabling semantic search of org-mode headings with Claude Code",
+    "DATE": "2025-10-06T00:46:13-07:00",
+    "DURATION": "18:57",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=FwP3HQkrP28",
+    "SPEAKERS": "John Kitchin",
+    "TAGS": [
+      "ai",
+      "org"
+    ],
+    "BODY": "Watch along as we use Claude Code to bring semantic search of org-mode headings to #Emacs! This is part of an ongoing project in semantic search that Claude has made possible. Now we have semantic and full-text search across all the indexed org-files. Special thanks to libsql for making vector search an integrated part of sqlite!\n\n  You can see the code at https://github.com/jkitchin/emacs-rag-libsql. It is still quite alpha, but I am using it myself."
+  },
+  {
+    "ITEM": "Super simple Emacs config",
+    "DATE": "2025-10-05T08:17:28-07:00",
+    "DURATION": "5:51",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=_cQLjp7GNFk",
+    "SPEAKERS": "Nic Ferrier",
+    "TAGS": [
+      "configuration"
+    ],
+    "BODY": "I have my own Emacs config built up over 20 years or so but every now and then someone asks me to show them how something works in Emacs and my config gets in the way of illustrating what default Emacs would do.\n\n  So I keep a super simple Emacs config lying around that just does a very things.\n\n  This video shows off that config."
+  },
+  {
+    "ITEM": "Pragmatic Opacity w/ Emacs",
+    "DATE": "2025-10-05T05:27:07-07:00",
+    "DURATION": "10:49",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=nimOCOiBXsA",
+    "SPEAKERS": "(Bit-Mage)",
+    "TAGS": [
+      "opacity"
+    ],
+    "BODY": "Exploring and Ideating towards practical applications for altering the opacity of your emacs frames and how it may forward the domain of human computer interactions."
+  },
+  {
+    "ITEM": "Emacs Abbrev Mode vs Microsoft Word Autocorrect",
+    "DATE": "2025-10-02T00:08:03-07:00",
+    "DURATION": "33:22",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=AZ_fqUm5KuU",
+    "SPEAKERS": "Ardie83",
+    "TAGS": [
+      "abbrev"
+    ],
+    "BODY": "Emacs Abbrev Mode vs Microsoft Word Autocorrect\n\n  Why do we need command line tools anyway? Read this article.\n  https://web.stanford.edu/class/cs81n/command.txt\n\n  Better resources online?, try:\n   - Xah Lee\n   - SystemCrafters\n   - Sacha Chua\n   - MasteringEmacs\n   - also, Gavin Freeborn.\n\n  Supporting me will inspire me to produce more quality content\n\n  Show some support by buying me coffee on my Ko-fi page. It accepts your usual Debit/Credit card with 0% fee.\n  https://ko-fi.com/ardiemejia83\n\n  Or can donate straight to my PayPal\n  https://paypal.me/ardiemejia83"
+  },
+  {
+    "ITEM": "Bending Emacs - Episode 01: Applying CLI utils",
+    "DATE": "2025-09-30T08:11:19-07:00",
+    "DURATION": "6:16",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=77NtPfgr4x0",
+    "SPEAKERS": "xenodium",
+    "TAGS": [
+      "DwimShellCommand"
+    ],
+    "BODY": "I'll show you how to apply (or batch apply) command line utilities from my favorite editor.\n\n  I use my Emacs DWIM Shell Command package for this (available on MELPA). https://github.com/xenodium/dwim-shell-command\n\n  Notes from video at: https://xenodium.com/bending-emacs-episode-1\n\n  This is my first video in the channel. Please leave me some comments and let me know how you like it.\n\n  If folks like this kind of video, I'll make more of them. What other Emacs things would you like to see a video about? I got a ton of topics on my https://xenodium.com blog you could look up.\n\n  Please press that like button and subscribe to my channel ;)\n\n  @xenodium"
+  },
+  {
     "ITEM": "Emacs tree sitter integration AND it's published",
     "DATE": "2025-09-28T10:30:10-07:00",
     "DURATION": "4:38",
@@ -9,6 +65,29 @@
       "TreeSitter"
     ],
     "BODY": "I've been faffing around not publishing this but here it is again, a little more useful than before and it's also published now here:\n\n  Tangled git repo: https://tangled.org/@nicferrier.bsky.social/nic-emacs-treesitter-stuff/"
+  },
+  {
+    "ITEM": "Emacs. Your Customizable AI Control Center with the llm Package",
+    "DATE": "2025-09-25T18:22:39-07:00",
+    "DURATION": "2:09",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=zw1pm1mGRKs",
+    "SPEAKERS": "HI AI",
+    "TAGS": [
+      "ai",
+      "llm"
+    ],
+    "BODY": ""
+  },
+  {
+    "ITEM": "How to Manage AWS IAM Roles with Emacs Org Mode | Full Tutorial",
+    "DATE": "2025-09-24T13:50:42-07:00",
+    "DURATION": "5:23",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=9HffiDAg10U",
+    "SPEAKERS": "Neuralize AI",
+    "TAGS": [
+      "org"
+    ],
+    "BODY": "Tired of switching between your editor and the AWS web console just to manage IAM roles? In this video, I walk you through an Emacs package, `org-aws-iam-role`, that lets you browse, modify, and even simulate IAM policies without ever leaving your editor.\n\n  ▶️ Find the package here:\n  GitHub: https://github.com/will-abb/org-aws-iam-role\n  Also in Melpa sometime in the future\n\n  ✅ In this tutorial, we will cover:\n  • How to interactively browse and select IAM roles.\n  • Understanding the detailed Org Mode buffer for roles and policies.\n  • The power of Org Babel: updating a policies with a simple C-c C-c.\n  • Using the built-in IAM Policy Simulator to test permissions."
   },
   {
     "ITEM": "Emacs + GPTel: A Scientist's AI Notebook",
@@ -118,6 +197,17 @@
       "ProtAsks"
     ],
     "BODY": "In this video I talk with Julien Malka who is a PhD student on supply chain security. I have known Julien through Emacs, so we start our discussion with some comments on how Julien uses Emacs for note-taking and as a general purpose computing environment. We then shift our attention to the research area of Julien which involves, among others, functional package managers and reproducibility at-large. In this light, we cover Nix at length while commenting on its GNU counterpart, Guix. Nix is a functional package manager, a programming language, and can also be deployed as a fully fledged operating system. I learn from Julien about the different kinds of reproducibility and gain a better understanding of what kind of advantages we get by using a functional package manager for our system. The \"recipes\" that derive software packages in this world are written in a pure functional programming language and Julien explains what kind of advantages this design has. Julien explains that NixOS is quite different from other Linux distributions, in terms of how it does certain things. As such, those who want to use it should know what they are working towards and have the right expectations. Towards the end of our talk, I also ask Julien about academic life in France with regard to digital sovereignty and the kind of incentives researchers have for contributing to free and open source software.\n\n  ,## Links from Julien Malka\n\n  - my personal website: https://luj.fr\n  - NixOS home page: https://nixos.org\n  - Guix home page: https://guix.gnu.org/\n  - reproducible-builds: https://reproducible-builds.org\n  - bootstrapable-builds: https://www.bootstrappable.org\n  - Eelco Dolstra PhD thesis: https://edolstra.github.io/pubs/phd-thesis.pdf\n\n  ,## About \"Prot Asks\"\n\n  In this new video series, I talk to anybody who is interested to have a video call with me (so do contact me if you want!). The topics cover anything related to Emacs, technology, and life in general. More here: https://protesilaos.com/prot-asks/."
+  },
+  {
+    "ITEM": "GTD List Manager and Emacs",
+    "DATE": "2025-09-17T22:15:00-07:00",
+    "DURATION": "55:54",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=tU4D6y7-slo",
+    "SPEAKERS": "gtd",
+    "TAGS": [
+      "gtd"
+    ],
+    "BODY": "You may have heard of a text editor called Emacs, which has been around for a long time. This is your chance to hear how Matt has used it to create a GTD list manager. He talks about how he got into GTD, and goes into plenty of detail about the system he has developed, through many iterations, using Emacs.\n\n  https://gtdconnect.com/video.php?titleid=1360&trackid=2011\n\n  ………………………………………………….\n  https://gettingthingsdone.com\n  https://gtdconnect.com\n  https://www.instagram.com/gtdtimes/\n  https://www.linkedin.com/company/david-allen-company/\n  https://www.facebook.com/gettingthingsdone\n  https://www.youtube.com/user/gtd\n  ………………………………………………….\n  ,#mindlikewater #GTD #gettingthingsdone #FreedomFocusGTD #DavidAllen"
   },
   {
     "ITEM": "Emacs UV Mode - Python Command VOD",
