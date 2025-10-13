@@ -3,6 +3,139 @@
 #+PROPERTY: header-args:emacs-lisp+   :eval no
 
 
+* Modeling bioreactor data with an LLM in Emacs   :ai:
+:PROPERTIES:
+:DATE:     2025-10-11T11:33:22-07:00
+:DURATION: 12:03
+:YOUTUBE_URL: https://www.youtube.com/watch?v=NR9Buy3fFwI
+:SPEAKERS: John Kitchin
+:END:
+  We show how to use an LLM to examine synthetic data from a bioreactor for biomass and substrate concentrations over time. We use the LLM to graph the data with Python, suggest models for the data, and then to fit the data to extract parameters. There are a few wrinkles with the specific integration of emacs-jupyter and org-mode, but we get to a satisfactory result at the end.
+
+* My-whisper: A simple Emacs package that provides speech-to-text functionality using Whisper.cpp.  :whisper:
+:PROPERTIES:
+:DATE:     2025-10-11T06:59:22-07:00
+:DURATION: 0:37
+:YOUTUBE_URL: https://www.youtube.com/watch?v=YNtrl9bkjyE
+:SPEAKERS: Emacs Elements
+:END:
+  An Emaca Package capable of near 100% accuracy, even with technical names and Proper Nouns.
+
+  https://github.com/emacselements/my-whisper
+  My website: https://emacselements.com/
+* Nerding out about dotfiles, Qtile, Tmux, and Emacs  :configuration:
+:PROPERTIES:
+:DATE:     2025-10-11T03:00:32-07:00
+:DURATION: 1:53:00
+:YOUTUBE_URL: https://www.youtube.com/watch?v=FGiH06vtuFI
+:SPEAKERS: FrostyX unscripted
+:END:
+  Trying to explain my setup and workflows
+
+  00:00:00 Back in my day
+  00:10:37 Linux distributions doesn't matter
+  00:17:12 Qtile
+  00:49:44 Terminal emulators and Tmux
+  01:01:55 Emacs
+  01:35:24 Stow and Ansible playbooks
+
+  ► Main channel: https://www.youtube.com/@jakubkadlcik
+  ► GitHub: https://github.com/FrostyX
+  ► Blog: https://frostyx.cz
+  ► Mastodon: https://fosstodon.org/@FrostyX
+
+* Ollama tool use demo on Android Emacs 30.1  :ai:ollama:
+:PROPERTIES:
+:DATE:     2025-10-10T05:42:13-07:00
+:DURATION: 4:00
+:YOUTUBE_URL: https://www.youtube.com/watch?v=v_j7HQpFnow
+:SPEAKERS: Vladimir Stavrov
+:END:
+
+
+* AI pair programming and LLM chats in Emacs   :ai:
+:PROPERTIES:
+:DATE:     2025-10-07T14:15:40-07:00
+:DURATION: 1:14:02
+:YOUTUBE_URL: https://www.youtube.com/watch?v=qUcHbOANVns
+:SPEAKERS: WestDRI
+:END:
+  Other SFU Research Computing training events: https://training.westdri.ca/blog
+  Training Inquiries: training@westdri.ca
+
+* Bending Emacs - Episode 02: From vanilla to your flavor     :configuration:
+:PROPERTIES:
+:DATE:     2025-10-07T12:19:21-07:00
+:DURATION: 14:37
+:YOUTUBE_URL: https://www.youtube.com/watch?v=qTumnhiE1c8
+:SPEAKERS: xenodium
+:END:
+  In this video, I show some of my favorite UI customizations, with additional tips and tricks along the way.
+
+  Still finding my footing making Emacs videos. This one's a little longer than I intended (14:37) 😅
+
+  This is my second video in the channel. Please leave me some comments and let me know how you like the videos.
+
+  As in the previous, if folks keep liking my videos, I'll make more of them.
+
+  What other Emacs things would you like me to talk about? I got a ton of topics at my https://xenodium.com blog.
+
+  Please press that like button, subscribe to my channel, and tell your friends ;)
+
+  Oh and leave me comments too please!
+
+  @xenodium
+
+* Emacs Nov-mode and My Nov-highlights Package for EPUB Files   :nov:epub:
+:PROPERTIES:
+:DATE:     2025-10-07T01:48:26-07:00
+:DURATION: 5:07
+:YOUTUBE_URL: https://www.youtube.com/watch?v=HSxXWzGnMVI
+:SPEAKERS: Emacs Elements
+:END:
+  https://github.com/emacselements/nov-highlights
+
+  Master Nov-Mode in Emacs + New Highlighting Package! 📚✨
+
+  In this video, I walk you through the essential Nov-mode commands for smooth EPUB reading in Emacs — from navigating chapters and scrolling to managing links and zoom.
+
+  I also introduce my own Emacs package, nov-highlights, which lets you highlight text, add notes, and export annotations to Org-mode for a powerful reading and study workflow. 🚀
+
+  Perfect for Emacs users who want to turn Nov-mode into a full-featured e-book reader and annotation tool.
+
+  ,#Emacs #NovMode #NovHighlights #EbookReader #OrgMode
+
+  https://depp.brause.cc/nov.el/
+  https://emacselements.com/
+
+* Emacs For Writers Unit 4: Keybindings
+:PROPERTIES:
+:DATE:     2025-10-06T16:21:38-07:00
+:DURATION: 6:16
+:YOUTUBE_URL: https://www.youtube.com/watch?v=Sxl4Hw_4cBQ
+:SPEAKERS: Chris Maiorana
+:END:
+  In this video, we will take a look at how Emacs structures keybindings, how they work together, and how they populate the local global keymap. Important stuff you need to know before you can comfortably use Emacs.
+
+  Emacs For Writers handbook:
+  https://chris-maiorana.kit.com/products/emacs-for-writers
+
+  Links to all of my other content and socials:
+  https://chrismaiorana.com/links/
+
+* At Last Someone I Can Work With.  His Name is Claude.   :ai:
+:PROPERTIES:
+:DATE:     2025-10-06T05:00:15-07:00
+:DURATION: 1:45
+:YOUTUBE_URL: https://www.youtube.com/watch?v=Aacpl_8fUYY
+:SPEAKERS: dickmao
+:END:
+  https://github.com/commercial-emacs/emacs-libvterm.git
+
+  Credits:
+  https://share.google/AASrb7lEm5FA6NpKs (Zed Industries)
+  https://youtu.be/XuvKFsktX0Q?si=5qSxRD6xg7tYXNwX (Anthropic)
+
 * Emacs RAG with LibSQL - Enabling semantic search of org-mode headings with Claude Code  :ai:org:
 :PROPERTIES:
 :DATE:     2025-10-06T00:46:13-07:00
@@ -35,6 +168,40 @@
 :SPEAKERS: (Bit-Mage)
 :END:
   Exploring and Ideating towards practical applications for altering the opacity of your emacs frames and how it may forward the domain of human computer interactions.
+
+* Prot Asks: Christian about indie dev, philosophy of experiences, Zettelkasten  :ProtAsks:
+:PROPERTIES:
+:DATE:     2025-10-05T04:12:45-07:00
+:DURATION: 2:20:26
+:YOUTUBE_URL: https://www.youtube.com/watch?v=fQryiKaNmzE
+:SPEAKERS: Protesilaos Stavrou
+:END:
+  In this ~2.5-hour video, I talk to Christian Tietze about a wide range of topics, from his indie and freelancing programming, to topics of practical philosophy, and ultimately to note-taking with the Zettelkasten method. I have known Christian from the Emacs community, having interacted with him on several issue trackers (e.g. my `modus-themes`). He also has a blog where he posts articles about Emacs.
+
+  Throughout our chat, we make connections to matters of productivity, focus, and commitment. Christian has a young daughter and this is a fact that informs many of the issues we comment on.
+
+  In terms of philosophy, we explore the theme of what exactly do we value in somebody's work. Is it the result or the work that goes into developing the necessary skillset for such a result? This has wide applications on everyday affairs. In this context, we also consider the idea of experiencing as much of the world as possible, where we comment on psychedelics and having the right attitude to do things long-term.
+
+  With regard to Zettelkasten, Christian is one of the two people behind the website zettelkasten.de, which is a high quality resource on Zettelkasten. Christian shares information about the life of Niklas Luhmann, the genius behind Zettelkasten, and expounds on how one's notes contribute to a continuous process of discovery. We comment on how the interplay between the person and their notes can give rise to new thoughts.
+
+  ,## Links from Christian Tietze
+
+  Some references I mentioned:
+
+  - Ronald Dworkin (2011): Justice for Hedgehogs, p 197: performance value and paintings of chimpanzees
+  - Niklas Luhmann (1984): Soziale Systeme. (engl.: "Social Systems", e.g.: https://www.sup.org/books/sociology/social-systems)
+  - Niklas Luhmann's "Kommunikation mit Zettelkästen", engl. translation on our page: https://zettelkasten.de/communications-with-zettelkastens/
+  - Lumann's 30 year research announcement is mentioned also in the English Wikipedia: https://en.wikipedia.org/wiki/Niklas_Luhmann#cite_ref-7
+
+  Links to my stuff:
+
+  - https://christiantietze.de -- more technical blog, apps, Emacs
+  - https://zettelkasten.de -- all things Zettelkasten since 2013
+  - Mastodon: @ctietze@mastodon.social
+
+  ,## About "Prot Asks"
+
+  In this new video series, I talk to anybody who is interested to have a video call with me (so do contact me if you want!). The topics cover anything related to Emacs, technology, and life in general. More here: https://protesilaos.com/prot-asks/.
 
 * Emacs Abbrev Mode vs Microsoft Word Autocorrect   :abbrev:
 :PROPERTIES:

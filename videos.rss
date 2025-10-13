@@ -6,6 +6,124 @@
     <atom:link href="https://emacs.tv/videos.rss" rel="self" type="application/rss+xml" />
     <description>Emacs videos</description>
     <item>
+      <title>Modeling bioreactor data with an LLM in Emacs</title>
+      <link>https://www.youtube.com/watch?v=NR9Buy3fFwI</link>
+      <guid>https://www.youtube.com/watch?v=NR9Buy3fFwI</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=NR9Buy3fFwI">youtube</a><br><br>We show how to use an LLM to examine synthetic data from a bioreactor for biomass and substrate concentrations over time. We use the LLM to graph the data with Python, suggest models for the data, and then to fit the data to extract parameters. There are a few wrinkles with the specific integration of emacs-jupyter and org-mode, but we get to a satisfactory result at the end.</div>]]></description>
+      <pubDate>Sat, 11 Oct 2025 18:33:22 +0000</pubDate><category>ai</category>
+    </item>
+    <item>
+      <title>My-whisper: A simple Emacs package that provides speech-to-text functionality using Whisper.cpp.</title>
+      <link>https://www.youtube.com/watch?v=YNtrl9bkjyE</link>
+      <guid>https://www.youtube.com/watch?v=YNtrl9bkjyE</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=YNtrl9bkjyE">youtube</a><br><br>An Emaca Package capable of near 100% accuracy, even with technical names and Proper Nouns.
+
+  https://github.com/emacselements/my-whisper
+  My website: https://emacselements.com/</div>]]></description>
+      <pubDate>Sat, 11 Oct 2025 13:59:22 +0000</pubDate><category>whisper</category>
+    </item>
+    <item>
+      <title>Nerding out about dotfiles, Qtile, Tmux, and Emacs</title>
+      <link>https://www.youtube.com/watch?v=FGiH06vtuFI</link>
+      <guid>https://www.youtube.com/watch?v=FGiH06vtuFI</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=FGiH06vtuFI">youtube</a><br><br>Trying to explain my setup and workflows
+
+  00:00:00 Back in my day
+  00:10:37 Linux distributions doesn't matter
+  00:17:12 Qtile
+  00:49:44 Terminal emulators and Tmux
+  01:01:55 Emacs
+  01:35:24 Stow and Ansible playbooks
+
+  ► Main channel: https://www.youtube.com/@jakubkadlcik
+  ► GitHub: https://github.com/FrostyX
+  ► Blog: https://frostyx.cz
+  ► Mastodon: https://fosstodon.org/@FrostyX</div>]]></description>
+      <pubDate>Sat, 11 Oct 2025 10:00:32 +0000</pubDate><category>configuration</category>
+    </item>
+    <item>
+      <title>Ollama tool use demo on Android Emacs 30.1</title>
+      <link>https://www.youtube.com/watch?v=v_j7HQpFnow</link>
+      <guid>https://www.youtube.com/watch?v=v_j7HQpFnow</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=v_j7HQpFnow">youtube</a><br><br></div>]]></description>
+      <pubDate>Fri, 10 Oct 2025 12:42:13 +0000</pubDate><category>ai</category>
+<category>ollama</category>
+    </item>
+    <item>
+      <title>AI pair programming and LLM chats in Emacs</title>
+      <link>https://www.youtube.com/watch?v=qUcHbOANVns</link>
+      <guid>https://www.youtube.com/watch?v=qUcHbOANVns</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=qUcHbOANVns">youtube</a><br><br>Other SFU Research Computing training events: https://training.westdri.ca/blog
+  Training Inquiries: training@westdri.ca</div>]]></description>
+      <pubDate>Tue, 07 Oct 2025 21:15:40 +0000</pubDate><category>ai</category>
+    </item>
+    <item>
+      <title>Bending Emacs - Episode 02: From vanilla to your flavor</title>
+      <link>https://www.youtube.com/watch?v=qTumnhiE1c8</link>
+      <guid>https://www.youtube.com/watch?v=qTumnhiE1c8</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=qTumnhiE1c8">youtube</a><br><br>In this video, I show some of my favorite UI customizations, with additional tips and tricks along the way.
+
+  Still finding my footing making Emacs videos. This one's a little longer than I intended (14:37) 😅
+
+  This is my second video in the channel. Please leave me some comments and let me know how you like the videos.
+
+  As in the previous, if folks keep liking my videos, I'll make more of them.
+
+  What other Emacs things would you like me to talk about? I got a ton of topics at my https://xenodium.com blog.
+
+  Please press that like button, subscribe to my channel, and tell your friends ;)
+
+  Oh and leave me comments too please!
+
+  @xenodium</div>]]></description>
+      <pubDate>Tue, 07 Oct 2025 19:19:21 +0000</pubDate><category>configuration</category>
+    </item>
+    <item>
+      <title>Emacs Nov-mode and My Nov-highlights Package for EPUB Files</title>
+      <link>https://www.youtube.com/watch?v=HSxXWzGnMVI</link>
+      <guid>https://www.youtube.com/watch?v=HSxXWzGnMVI</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=HSxXWzGnMVI">youtube</a><br><br>https://github.com/emacselements/nov-highlights
+
+  Master Nov-Mode in Emacs + New Highlighting Package! 📚✨
+
+  In this video, I walk you through the essential Nov-mode commands for smooth EPUB reading in Emacs — from navigating chapters and scrolling to managing links and zoom.
+
+  I also introduce my own Emacs package, nov-highlights, which lets you highlight text, add notes, and export annotations to Org-mode for a powerful reading and study workflow. 🚀
+
+  Perfect for Emacs users who want to turn Nov-mode into a full-featured e-book reader and annotation tool.
+
+  ,#Emacs #NovMode #NovHighlights #EbookReader #OrgMode
+
+  https://depp.brause.cc/nov.el/
+  https://emacselements.com/</div>]]></description>
+      <pubDate>Tue, 07 Oct 2025 08:48:26 +0000</pubDate><category>nov</category>
+<category>epub</category>
+    </item>
+    <item>
+      <title>Emacs For Writers Unit 4: Keybindings</title>
+      <link>https://www.youtube.com/watch?v=Sxl4Hw_4cBQ</link>
+      <guid>https://www.youtube.com/watch?v=Sxl4Hw_4cBQ</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=Sxl4Hw_4cBQ">youtube</a><br><br>In this video, we will take a look at how Emacs structures keybindings, how they work together, and how they populate the local global keymap. Important stuff you need to know before you can comfortably use Emacs.
+
+  Emacs For Writers handbook:
+  https://chris-maiorana.kit.com/products/emacs-for-writers
+
+  Links to all of my other content and socials:
+  https://chrismaiorana.com/links/</div>]]></description>
+      <pubDate>Mon, 06 Oct 2025 23:21:38 +0000</pubDate>
+    </item>
+    <item>
+      <title>At Last Someone I Can Work With.  His Name is Claude.</title>
+      <link>https://www.youtube.com/watch?v=Aacpl_8fUYY</link>
+      <guid>https://www.youtube.com/watch?v=Aacpl_8fUYY</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=Aacpl_8fUYY">youtube</a><br><br>https://github.com/commercial-emacs/emacs-libvterm.git
+
+  Credits:
+  https://share.google/AASrb7lEm5FA6NpKs (Zed Industries)
+  https://youtu.be/XuvKFsktX0Q?si=5qSxRD6xg7tYXNwX (Anthropic)</div>]]></description>
+      <pubDate>Mon, 06 Oct 2025 12:00:15 +0000</pubDate><category>ai</category>
+    </item>
+    <item>
       <title>Emacs RAG with LibSQL - Enabling semantic search of org-mode headings with Claude Code</title>
       <link>https://www.youtube.com/watch?v=FwP3HQkrP28</link>
       <guid>https://www.youtube.com/watch?v=FwP3HQkrP28</guid>
@@ -32,6 +150,38 @@
       <guid>https://www.youtube.com/watch?v=nimOCOiBXsA</guid>
       <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=nimOCOiBXsA">youtube</a><br><br>Exploring and Ideating towards practical applications for altering the opacity of your emacs frames and how it may forward the domain of human computer interactions.</div>]]></description>
       <pubDate>Sun, 05 Oct 2025 12:27:07 +0000</pubDate><category>opacity</category>
+    </item>
+    <item>
+      <title>Prot Asks: Christian about indie dev, philosophy of experiences, Zettelkasten</title>
+      <link>https://www.youtube.com/watch?v=fQryiKaNmzE</link>
+      <guid>https://www.youtube.com/watch?v=fQryiKaNmzE</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=fQryiKaNmzE">youtube</a><br><br>In this ~2.5-hour video, I talk to Christian Tietze about a wide range of topics, from his indie and freelancing programming, to topics of practical philosophy, and ultimately to note-taking with the Zettelkasten method. I have known Christian from the Emacs community, having interacted with him on several issue trackers (e.g. my `modus-themes`). He also has a blog where he posts articles about Emacs.
+
+  Throughout our chat, we make connections to matters of productivity, focus, and commitment. Christian has a young daughter and this is a fact that informs many of the issues we comment on.
+
+  In terms of philosophy, we explore the theme of what exactly do we value in somebody's work. Is it the result or the work that goes into developing the necessary skillset for such a result? This has wide applications on everyday affairs. In this context, we also consider the idea of experiencing as much of the world as possible, where we comment on psychedelics and having the right attitude to do things long-term.
+
+  With regard to Zettelkasten, Christian is one of the two people behind the website zettelkasten.de, which is a high quality resource on Zettelkasten. Christian shares information about the life of Niklas Luhmann, the genius behind Zettelkasten, and expounds on how one's notes contribute to a continuous process of discovery. We comment on how the interplay between the person and their notes can give rise to new thoughts.
+
+  ,## Links from Christian Tietze
+
+  Some references I mentioned:
+
+  - Ronald Dworkin (2011): Justice for Hedgehogs, p 197: performance value and paintings of chimpanzees
+  - Niklas Luhmann (1984): Soziale Systeme. (engl.: "Social Systems", e.g.: https://www.sup.org/books/sociology/social-systems)
+  - Niklas Luhmann's "Kommunikation mit Zettelkästen", engl. translation on our page: https://zettelkasten.de/communications-with-zettelkastens/
+  - Lumann's 30 year research announcement is mentioned also in the English Wikipedia: https://en.wikipedia.org/wiki/Niklas_Luhmann#cite_ref-7
+
+  Links to my stuff:
+
+  - https://christiantietze.de -- more technical blog, apps, Emacs
+  - https://zettelkasten.de -- all things Zettelkasten since 2013
+  - Mastodon: @ctietze@mastodon.social
+
+  ,## About "Prot Asks"
+
+  In this new video series, I talk to anybody who is interested to have a video call with me (so do contact me if you want!). The topics cover anything related to Emacs, technology, and life in general. More here: https://protesilaos.com/prot-asks/.</div>]]></description>
+      <pubDate>Sun, 05 Oct 2025 11:12:45 +0000</pubDate><category>ProtAsks</category>
     </item>
     <item>
       <title>Emacs Abbrev Mode vs Microsoft Word Autocorrect</title>
@@ -426,207 +576,6 @@
   In this new video series, I talk to anybody who is interested to have a video call with me (so do contact me if you want!). The topics cover anything related to Emacs, technology, and life in general. More here: https://protesilaos.com/prot-asks/.</div>]]></description>
       <pubDate>Sun, 07 Sep 2025 07:31:52 +0000</pubDate><category>ProtAsks</category>
 <category>community</category>
-    </item>
-    <item>
-      <title>Ep696 Emacs Lisp. insert date, extend selection, Generic Map Functions</title>
-      <link>https://www.youtube.com/watch?v=lnTD6-VSb6A</link>
-      <guid>https://www.youtube.com/watch?v=lnTD6-VSb6A</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=lnTD6-VSb6A">youtube</a><br><br>(ai generated summary, correctness verified by me.)
-
-      The video provides updates of the creator's emacs commands.
-      These include a command to insert dates in various formats (1:52), an extend selection feature for selecting text more efficiently (7:34), and new commands for switching between user buffers (8:48).
-
-      Later, the video delves into more technical Emacs Lisp concepts, specifically the map.el library and its generic map functions (12:20).
-      The creator explains how these functions simplify working with key-value data structures like hash tables and association lists, and demonstrates the map-filter function (16:08).
-
-      Towards the end, there's a broader discussion about programming language popularity, emphasizing the role of corporate support and a large user base for a language's success (25:47).</div>]]></description>
-      <pubDate>Fri, 05 Sep 2025 15:54:21 +0000</pubDate>
-    </item>
-    <item>
-      <title>Emacs Treesitter with Combobulate structured navigation and editing</title>
-      <link>https://www.youtube.com/watch?v=TgDo7Nm4v4Y</link>
-      <guid>https://www.youtube.com/watch?v=TgDo7Nm4v4Y</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=TgDo7Nm4v4Y">youtube</a><br><br>In this video we install Treesitter and Combobulate on Emacs, and try to create new languages for Combobulate including bash, c, elisp and nix
-
-  Tree-sitter is a parser generator tool and an incremental parsing library. It can build a concrete syntax tree for a source file
-
-  https://tree-sitter.github.io/tree-sitter/
-
-  Combobulate is a package that adds structured editing and movement to a wide range of programming languages. Unlike most programming major modes that use error-prone imperative code and regular expressions to determine what's what in your code, Combobulate uses Emacs 29's tree-sitter library.
-
-  https://github.com/mickeynp/combobulate
-
-  Treesitter and Combobulate notes
-  https://github.com/NapoleonWils0n/cerberus/blob/master/emacs/treesitter-combobulate.org
-
-  Emacs init.el
-  https://github.com/NapoleonWils0n/nixos-dotfiles/blob/91ce7128808ea309c21ee960513c53d5ac77ccbb/.config/emacs/init.el
-
-  Emacs early-init.el
-  https://github.com/NapoleonWils0n/nixos-dotfiles/blob/master/.config/emacs/early-init.el
-
-  Emacs lisp directory
-  Combobulate languages for bash, c, elisp and nix
-  https://github.com/NapoleonWils0n/nixos-dotfiles/tree/91ce7128808ea309c21ee960513c53d5ac77ccbb/.config/emacs/lisp
-
-  nixos dotfiles
-  https://github.com/NapoleonWils0n/nixos-dotfiles
-
-  nixos home-manger
-  https://github.com/NapoleonWils0n/nixos-dotfiles/blob/master/.config/home-manager/home.nix</div>]]></description>
-      <pubDate>Wed, 03 Sep 2025 20:28:25 +0000</pubDate><category>treesitter</category>
-    </item>
-    <item>
-      <title>Prot Asks: Amin about EmacsConf, Debian, GNU, Internet Archive, and Canada</title>
-      <link>https://www.youtube.com/watch?v=kbJ3i3QMozs</link>
-      <guid>https://www.youtube.com/watch?v=kbJ3i3QMozs</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=kbJ3i3QMozs">youtube</a><br><br>In this video, I talk with Amin Bandali about free software, free knowledge, the importance of community and the commons, and life in Canada. Our discussion starts with the topic of EmacsConf, the annual conference about GNU Emacs. Amin has helped organise a few of those and I ask what kind of work is involved. As Amin contributes to other free software communities, I get to learn how the GNU and Debian projects work, especially with regard to getting involved with the work they do---and they can always benefit from more volunteers. After we cover free software, we switch to free knowledge. In this part, Amin tells me about The Internet Archive, what it is, how and why it is useful in our life. In the final part of the video, I ask about life in Canada, where Amin lives. It is an informative chat which also has a lot of funny moments.
-
-  ,## Links by Amin
-
-  - https://kelar.org/~bandali
-  - https://blog.archive.org/trillion/
-  - https://www.gnu.org/help/help.html
-  - https://www.fsf.org/volunteer
-  - https://kelar.org/~bandali/2025/07/25/protesilaos-videos-archive.html
-  - https://protesilaos.com/codelog/2025-07-29-videos-internet-archive/
-  - https://www.debian.org
-  - https://trisquel.info
-
-  ,## About "Prot Asks"
-
-  In this new video series, I talk to anybody who is interested to have a video call with me (so do contact me if you want!). The topics cover anything related to Emacs, technology, and life in general. More here: https://protesilaos.com/prot-asks/.</div>]]></description>
-      <pubDate>Wed, 03 Sep 2025 17:41:49 +0000</pubDate><category>ProtAsks</category>
-<category>community</category>
-    </item>
-    <item>
-      <title>Directory Slideshow (Emacs Package)</title>
-      <link>https://www.youtube.com/watch?v=pNLFXdVwYcA</link>
-      <guid>https://www.youtube.com/watch?v=pNLFXdVwYcA</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=pNLFXdVwYcA">youtube</a><br><br>Source: https://github.com/Duncan-Britt/directory-slideshow
-  MELPA: https://melpa.org/#/directory-slideshow</div>]]></description>
-      <pubDate>Wed, 03 Sep 2025 16:18:29 +0000</pubDate>
-    </item>
-    <item>
-      <title>Getting Started With Doom Emacs</title>
-      <link>https://www.youtube.com/watch?v=26gFIhHM09E</link>
-      <guid>https://www.youtube.com/watch?v=26gFIhHM09E</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=26gFIhHM09E">youtube</a><br><br>I've been using my own custom GNU Emacs config for a few years, but people have asked for more "Doom Emacs" content.  So I'm switching back to Doom Emacs.  This is day one!
-
-  REFERENCED:
-  ► https://github.com/doomemacs/doomemacs
-
-  WANT TO SUPPORT THE CHANNEL?
-  💰 Patreon: https://www.patreon.com/distrotube
-  💳 Paypal: https://www.paypal.com/donate/?hosted_button_id=MW3ZFGS8Q9JGW
-  🛍️ Amazon: https://amzn.to/2RotFFi
-  👕 Teespring: https://teespring.com/stores/distrotube
-
-  DT ON THE WEB:
-  🕸️ Website: http://distro.tube
-  📁 GitLab: https://gitlab.com/dwt1
-  🗨️ Mastodon: https://fosstodon.org/@distrotube
-  👫 Reddit: https://www.reddit.com/r/DistroTube/
-  📽️ Odysee: https://odysee.com/@DistroTube:2
-
-  FREE AND OPEN SOURCE SOFTWARE THAT I LIKE:
-  🌐 Brave Browser - https://brave.com/
-  📽️ Open Broadcaster Software: https://obsproject.com/
-  🎬 Kdenlive: https://kdenlive.org
-  🎨 GIMP: https://www.gimp.org/
-  💻 VirtualBox: https://www.virtualbox.org/
-  🗒️ Doom Emacs: https://github.com/hlissner/doom-emacs
-
-  Your support is very much appreciated. Thanks, guys!</div>]]></description>
-      <pubDate>Tue, 02 Sep 2025 13:00:04 +0000</pubDate><category>DoomEmacs</category>
-    </item>
-    <item>
-      <title>Ep695 emacs lisp, most commonly used functions, fill region problems, etc</title>
-      <link>https://www.youtube.com/watch?v=Jxbkm0Q3Dgo</link>
-      <guid>https://www.youtube.com/watch?v=Jxbkm0Q3Dgo</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=Jxbkm0Q3Dgo">youtube</a><br><br>timestamp
-  01:48 emacs lisp command frequency
-  05:45 emacs fill-region command
-  07:53 80 chars per line convention, punched cards, unix idiocy
-  18:09 Why you should stop listening to human but talk to AI bot instead.
-  22:35 sqlite
-  26:28 on reading manual, why you read mysql manual
-  31:03 why is emacs fill-region command called fill?
-
-
-  Notes at
-  http ://xahlee .info/talk_show/xah_talk_show_ep695.html
-  Copy the link, remove spaces, paste the link in browser tab.
-  Google Chrome and Firefox browsers censor websites by auto adding s in http and says the site Secure Connection Failed.
-  Use Brave Browser or Safari.</div>]]></description>
-      <pubDate>Mon, 01 Sep 2025 14:31:11 +0000</pubDate>
-    </item>
-    <item>
-      <title>Emacs bankruptcy – fix your Emacs and your life</title>
-      <link>https://www.youtube.com/watch?v=dSlMmCD5quc</link>
-      <guid>https://www.youtube.com/watch?v=dSlMmCD5quc</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=dSlMmCD5quc">youtube</a><br><br>In this video I discuss Emacs Bankruptcy, the idea of starting your Emacs configuration from scratch in hopes of coming up with something better. I'll talk about what it is, why you should do it, discuss my own Emacs bankruptcy, give important points to consider, and walk through a little example.
-
-  0:00 Introduction
-  0:17 What is Emacs bankruptcy
-  0:46 Should you do it
-  1:10 How to
-  2:03 My Emacs bankruptcy
-  3:07 Main considerations
-  6:28 Example
-  8:23 Organization
-  12:13 Conclusion</div>]]></description>
-      <pubDate>Sun, 31 Aug 2025 16:46:44 +0000</pubDate><category>configuration</category>
-    </item>
-    <item>
-      <title>Emacs/Meep (modal editing)</title>
-      <link>https://youtu.be/MJqX8Z64k0c</link>
-      <guid>https://youtu.be/MJqX8Z64k0c</guid>
-      <description><![CDATA[<div id="content"><a href="https://youtu.be/MJqX8Z64k0c">youtube</a><br><br>https://codeberg.org/ideasman42/emacs-meep</div>]]></description>
-      <pubDate>Sun, 31 Aug 2025 09:21:10 +0000</pubDate><category>meep</category>
-    </item>
-    <item>
-      <title>Eshell + Windows + Coreutils</title>
-      <link>https://www.youtube.com/watch?v=DVGhY3X0nbg</link>
-      <guid>https://www.youtube.com/watch?v=DVGhY3X0nbg</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=DVGhY3X0nbg">youtube</a><br><br>Pot-pourri é um conjunto heterogêneo de coisas e é isso que eu faço nesse vídeo: eu mostro como você pode usar comandos do GNU Coreutils no Windows e ter isso disponível dentro do Eshell.
-
-  00:00 Algumas ideias gerais
-  02:00 Tour do command prompt que você não precisa!
-  04:00 Interagindo com o shell do Emacs: o Eshell
-  07:30 Mostrando como instalar o MSYS2
-  09:00 Disponibilizando comandos do MSYS2 no Eshell
-  12:00 Caso de uso
-  13:15 Redirecionamento para arquivos ou o clipboard
-
-  Links úteis
-  - https://www.msys2.org/</div>]]></description>
-      <pubDate>Fri, 29 Aug 2025 23:02:49 +0000</pubDate><category>eshell</category>
-    </item>
-    <item>
-      <title>Ultra Ergonomic Emacs Workflow (navigation wise and Undo)</title>
-      <link>https://youtube.com/watch?v=BbiLFNwOPhw</link>
-      <guid>https://youtube.com/watch?v=BbiLFNwOPhw</guid>
-      <description><![CDATA[<div id="content"><a href="https://youtube.com/watch?v=BbiLFNwOPhw">youtube</a><br><br>Ultra Ergonomic Emacs Workflow (navigation wise and Undo)
-
-  Combining powerful Key-Chords, Braille and Hydra-mode.
-
-  All are "directional".
-
-  Inspired by this article:
-  https://www.johndcook.com/blog/2015/02/01/rare-bigrams/
-
-
-  Supporting me will inspire me to produce more quality content, improved video and audio.
-
-
-  Show some support by buying me coffee on my Ko-fi page just setup recently. (It has both Debit/Credit Card and Paypal options, with 0% fee)
-  https://ko-fi.com/ardiemejia83
-
-  Or can donate straight to my PayPal
-  https://paypal.me/ardiemejia83</div>]]></description>
-      <pubDate>Fri, 29 Aug 2025 02:58:16 +0000</pubDate><category>navigation</category>
-<category>keychord</category>
     </item>
   </channel>
 </rss>

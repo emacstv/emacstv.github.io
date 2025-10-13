@@ -1,5 +1,103 @@
 [
   {
+    "ITEM": "Modeling bioreactor data with an LLM in Emacs",
+    "DATE": "2025-10-11T11:33:22-07:00",
+    "DURATION": "12:03",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=NR9Buy3fFwI",
+    "SPEAKERS": "John Kitchin",
+    "TAGS": [
+      "ai"
+    ],
+    "BODY": "We show how to use an LLM to examine synthetic data from a bioreactor for biomass and substrate concentrations over time. We use the LLM to graph the data with Python, suggest models for the data, and then to fit the data to extract parameters. There are a few wrinkles with the specific integration of emacs-jupyter and org-mode, but we get to a satisfactory result at the end."
+  },
+  {
+    "ITEM": "My-whisper: A simple Emacs package that provides speech-to-text functionality using Whisper.cpp.",
+    "DATE": "2025-10-11T06:59:22-07:00",
+    "DURATION": "0:37",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=YNtrl9bkjyE",
+    "SPEAKERS": "Emacs Elements",
+    "TAGS": [
+      "whisper"
+    ],
+    "BODY": "An Emaca Package capable of near 100% accuracy, even with technical names and Proper Nouns.\n\n  https://github.com/emacselements/my-whisper\n  My website: https://emacselements.com/"
+  },
+  {
+    "ITEM": "Nerding out about dotfiles, Qtile, Tmux, and Emacs",
+    "DATE": "2025-10-11T03:00:32-07:00",
+    "DURATION": "1:53:00",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=FGiH06vtuFI",
+    "SPEAKERS": "FrostyX unscripted",
+    "TAGS": [
+      "configuration"
+    ],
+    "BODY": "Trying to explain my setup and workflows\n\n  00:00:00 Back in my day\n  00:10:37 Linux distributions doesn't matter\n  00:17:12 Qtile\n  00:49:44 Terminal emulators and Tmux\n  01:01:55 Emacs\n  01:35:24 Stow and Ansible playbooks\n\n  ► Main channel: https://www.youtube.com/@jakubkadlcik\n  ► GitHub: https://github.com/FrostyX\n  ► Blog: https://frostyx.cz\n  ► Mastodon: https://fosstodon.org/@FrostyX"
+  },
+  {
+    "ITEM": "Ollama tool use demo on Android Emacs 30.1",
+    "DATE": "2025-10-10T05:42:13-07:00",
+    "DURATION": "4:00",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=v_j7HQpFnow",
+    "SPEAKERS": "Vladimir Stavrov",
+    "TAGS": [
+      "ai",
+      "ollama"
+    ],
+    "BODY": ""
+  },
+  {
+    "ITEM": "AI pair programming and LLM chats in Emacs",
+    "DATE": "2025-10-07T14:15:40-07:00",
+    "DURATION": "1:14:02",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=qUcHbOANVns",
+    "SPEAKERS": "WestDRI",
+    "TAGS": [
+      "ai"
+    ],
+    "BODY": "Other SFU Research Computing training events: https://training.westdri.ca/blog\n  Training Inquiries: training@westdri.ca"
+  },
+  {
+    "ITEM": "Bending Emacs - Episode 02: From vanilla to your flavor",
+    "DATE": "2025-10-07T12:19:21-07:00",
+    "DURATION": "14:37",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=qTumnhiE1c8",
+    "SPEAKERS": "xenodium",
+    "TAGS": [
+      "configuration"
+    ],
+    "BODY": "In this video, I show some of my favorite UI customizations, with additional tips and tricks along the way.\n\n  Still finding my footing making Emacs videos. This one's a little longer than I intended (14:37) 😅\n\n  This is my second video in the channel. Please leave me some comments and let me know how you like the videos.\n\n  As in the previous, if folks keep liking my videos, I'll make more of them.\n\n  What other Emacs things would you like me to talk about? I got a ton of topics at my https://xenodium.com blog.\n\n  Please press that like button, subscribe to my channel, and tell your friends ;)\n\n  Oh and leave me comments too please!\n\n  @xenodium"
+  },
+  {
+    "ITEM": "Emacs Nov-mode and My Nov-highlights Package for EPUB Files",
+    "DATE": "2025-10-07T01:48:26-07:00",
+    "DURATION": "5:07",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=HSxXWzGnMVI",
+    "SPEAKERS": "Emacs Elements",
+    "TAGS": [
+      "nov",
+      "epub"
+    ],
+    "BODY": "https://github.com/emacselements/nov-highlights\n\n  Master Nov-Mode in Emacs + New Highlighting Package! 📚✨\n\n  In this video, I walk you through the essential Nov-mode commands for smooth EPUB reading in Emacs — from navigating chapters and scrolling to managing links and zoom.\n\n  I also introduce my own Emacs package, nov-highlights, which lets you highlight text, add notes, and export annotations to Org-mode for a powerful reading and study workflow. 🚀\n\n  Perfect for Emacs users who want to turn Nov-mode into a full-featured e-book reader and annotation tool.\n\n  ,#Emacs #NovMode #NovHighlights #EbookReader #OrgMode\n\n  https://depp.brause.cc/nov.el/\n  https://emacselements.com/"
+  },
+  {
+    "ITEM": "Emacs For Writers Unit 4: Keybindings",
+    "DATE": "2025-10-06T16:21:38-07:00",
+    "DURATION": "6:16",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=Sxl4Hw_4cBQ",
+    "SPEAKERS": "Chris Maiorana",
+    "BODY": "In this video, we will take a look at how Emacs structures keybindings, how they work together, and how they populate the local global keymap. Important stuff you need to know before you can comfortably use Emacs.\n\n  Emacs For Writers handbook:\n  https://chris-maiorana.kit.com/products/emacs-for-writers\n\n  Links to all of my other content and socials:\n  https://chrismaiorana.com/links/"
+  },
+  {
+    "ITEM": "At Last Someone I Can Work With.  His Name is Claude.",
+    "DATE": "2025-10-06T05:00:15-07:00",
+    "DURATION": "1:45",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=Aacpl_8fUYY",
+    "SPEAKERS": "dickmao",
+    "TAGS": [
+      "ai"
+    ],
+    "BODY": "https://github.com/commercial-emacs/emacs-libvterm.git\n\n  Credits:\n  https://share.google/AASrb7lEm5FA6NpKs (Zed Industries)\n  https://youtu.be/XuvKFsktX0Q?si=5qSxRD6xg7tYXNwX (Anthropic)"
+  },
+  {
     "ITEM": "Emacs RAG with LibSQL - Enabling semantic search of org-mode headings with Claude Code",
     "DATE": "2025-10-06T00:46:13-07:00",
     "DURATION": "18:57",
@@ -32,6 +130,17 @@
       "opacity"
     ],
     "BODY": "Exploring and Ideating towards practical applications for altering the opacity of your emacs frames and how it may forward the domain of human computer interactions."
+  },
+  {
+    "ITEM": "Prot Asks: Christian about indie dev, philosophy of experiences, Zettelkasten",
+    "DATE": "2025-10-05T04:12:45-07:00",
+    "DURATION": "2:20:26",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=fQryiKaNmzE",
+    "SPEAKERS": "Protesilaos Stavrou",
+    "TAGS": [
+      "ProtAsks"
+    ],
+    "BODY": "In this ~2.5-hour video, I talk to Christian Tietze about a wide range of topics, from his indie and freelancing programming, to topics of practical philosophy, and ultimately to note-taking with the Zettelkasten method. I have known Christian from the Emacs community, having interacted with him on several issue trackers (e.g. my `modus-themes`). He also has a blog where he posts articles about Emacs.\n\n  Throughout our chat, we make connections to matters of productivity, focus, and commitment. Christian has a young daughter and this is a fact that informs many of the issues we comment on.\n\n  In terms of philosophy, we explore the theme of what exactly do we value in somebody's work. Is it the result or the work that goes into developing the necessary skillset for such a result? This has wide applications on everyday affairs. In this context, we also consider the idea of experiencing as much of the world as possible, where we comment on psychedelics and having the right attitude to do things long-term.\n\n  With regard to Zettelkasten, Christian is one of the two people behind the website zettelkasten.de, which is a high quality resource on Zettelkasten. Christian shares information about the life of Niklas Luhmann, the genius behind Zettelkasten, and expounds on how one's notes contribute to a continuous process of discovery. We comment on how the interplay between the person and their notes can give rise to new thoughts.\n\n  ,## Links from Christian Tietze\n\n  Some references I mentioned:\n\n  - Ronald Dworkin (2011): Justice for Hedgehogs, p 197: performance value and paintings of chimpanzees\n  - Niklas Luhmann (1984): Soziale Systeme. (engl.: \"Social Systems\", e.g.: https://www.sup.org/books/sociology/social-systems)\n  - Niklas Luhmann's \"Kommunikation mit Zettelkästen\", engl. translation on our page: https://zettelkasten.de/communications-with-zettelkastens/\n  - Lumann's 30 year research announcement is mentioned also in the English Wikipedia: https://en.wikipedia.org/wiki/Niklas_Luhmann#cite_ref-7\n\n  Links to my stuff:\n\n  - https://christiantietze.de -- more technical blog, apps, Emacs\n  - https://zettelkasten.de -- all things Zettelkasten since 2013\n  - Mastodon: @ctietze@mastodon.social\n\n  ,## About \"Prot Asks\"\n\n  In this new video series, I talk to anybody who is interested to have a video call with me (so do contact me if you want!). The topics cover anything related to Emacs, technology, and life in general. More here: https://protesilaos.com/prot-asks/."
   },
   {
     "ITEM": "Emacs Abbrev Mode vs Microsoft Word Autocorrect",
