@@ -3,6 +3,137 @@
 #+PROPERTY: header-args:emacs-lisp+   :eval no
 
 
+* Fulltext, semantic text and image search in Emacs
+:PROPERTIES:
+:DATE:     2025-10-18T06:18:23-07:00
+:DURATION: 18:20
+:YOUTUBE_URL: https://www.youtube.com/watch?v=t879-fipgtg
+:SPEAKERS: John Kitchin
+:END:
+  I show my new org-db package for full and semantic text and image search in Emacs. This package indexes your org-files and provides several ways to search them by org-heading, full text with fts5 in sqlite, vector search for semantic search, and searching images from textual descriptions using CLIP!
+
+  The whole project was "vibe-coded" with Claude Code over about 7 days. It is still in an alpha stage of development, but I have been using it for a few days now, and am pretty happy with it.
+
+  https://github.com/jkitchin/org-db-v3
+
+* Emacs as a Microsoft Word killer part 3   :configuration:elisp:
+:PROPERTIES:
+:DATE:     2025-10-16T18:00:04-07:00
+:DURATION: 25:25
+:YOUTUBE_URL: https://youtu.be/1kUqgYk_rrI
+:SPEAKERS: Ardie83
+:END:
+  Emacs as Microsoft Word killer part 3
+
+  Using Conditionals and Defvar to Simplify Multiple Configs Across Multiple Platforms.
+
+  Supporting me will inspire me to produce more quality content
+
+  Show some support by buying me coffee on my Ko-fi page. It accepts your usual Debit/Credit card with 0% fee.
+  https://ko-fi.com/ardiemejia83
+
+  Or can donate straight to my PayPal
+  https://paypal.me/ardiemejia83
+
+* Emacs For Writers Unit 5: Basic File Management and Navigation  :dired:
+:PROPERTIES:
+:DATE:     2025-10-16T15:49:27-07:00
+:DURATION: 6:18
+:YOUTUBE_URL: https://www.youtube.com/watch?v=rhjBvrENwVY
+:SPEAKERS: Chris Maiorana
+:END:
+  In this video, we will cover basic file management with the directory editor in Emacs, also known as "Dired," as well as some rudimentary buffer navigation.
+
+  EMACS FOR WRITERS HANDBOOK:
+  https://chris-maiorana.kit.com/products/emacs-for-writers
+
+  chrismaiorana.com
+
+* Linux Mint: Set Up Python, R , duckdb and Emacs
+:PROPERTIES:
+:DATE:     2025-10-16T00:54:12-07:00
+:DURATION: 35:51
+:YOUTUBE_URL: https://www.youtube.com/watch?v=5pSbRSDHtsY
+:SPEAKERS: Precision Data Analytics
+:END:
+  ,#lunuxmint, #python, #rlanguage, #duckdb, #emacs
+  Linux Mint: Set Up Python, R , duckdb and Emacs
+  This stream is created with #PRISMLiveStudio
+
+* Emacs Adventure | Exploring Vanilla Emacs  :beginner:
+:PROPERTIES:
+:DATE:     2025-10-15T04:45:08-07:00
+:DURATION: 6:49
+:YOUTUBE_URL: https://www.youtube.com/watch?v=fGEtK9JsfKc
+:SPEAKERS: Ctrl Alt Tech
+:END:
+  🔥 Turn your terminal into a coding playground! Ever wondered what makes a 40-year-old text editor still relevant in 2025? Join me as we dive into GNU Emacs and explore the tools of the trade!
+
+  What You'll Learn:
+  ✅ Install Emacs on Linux, Mac, and Windows
+  ✅ Master essential navigation and keybindings
+  ✅ Set up Python development with LSP (Language Server Protocol)
+  ✅ Code JavaScript with intelligent features
+  ✅ Create HTML/CSS projects with web-mode
+  ✅ Build your first custom Emacs configuration
+
+  ⚡ Quick Start Commands:
+
+  sudo apt install emacs          # Linux
+  brew install --cask emacs       # Mac
+  ,# Windows: Download from gnu.org/software/emacs
+
+  ,# Essential Keys
+  C-x C-f    # Open file
+  C-x C-s    # Save
+  C-x C-c    # Quit
+  C-s        # Search
+
+  📚 Resources:
+  - GNU Emacs Official: https://www.gnu.org/software/emacs/
+  - MELPA Packages: https://melpa.org/
+  - LSP Mode Documentation: https://emacs-lsp.github.io/lsp-mode/
+  - Org Mode Documentation: https://orgmode.org/index.html
+
+  🎯 Perfect for:
+  - Developers curious about emacs
+  - Anyone wanting a single app to do everything in development workflow
+
+  ⏱️ Timestamps:
+
+  📱 Connect With Me:
+  - Subscribe for weekly tech experiments
+  - LinkedIn: https://www.linkedin.com/in/kiran-capoor/
+  - Twitter: https://x.com/ctrlalttechwk
+
+  🎬 Filmed with: OBS Studio, Terminal recordings at 1920x1080
+
+  No editors were harmed in the making of this video. All tools have their place in the developer ecosystem! 😄
+
+  Difficulty: Beginner
+  Prerequisites: Basic terminal familiarity
+
+  Support the Channel: If this helped you discover something new, the best support is hitting subscribe and sharing with fellow developers who love experimenting with their tools or buying me a coffee - https://buymeacoffee.com/ctrlalttech
+
+  Remember: In Engineering, there are no failures – only discoveries! 🧪⚡
+
+  ,#emacs  #texteditor #ctrlalttech
+
+* Bending Emacs - Episode 03: Git clone (the lazy way)
+:PROPERTIES:
+:DATE:     2025-10-15T04:43:33-07:00
+:DURATION: 6:54
+:YOUTUBE_URL: https://youtu.be/oYHlH9NWraM
+:SPEAKERS: xenodium
+:END:
+  In this video, I show how I turned a handful of small little steps into an expedited git clone flow.
+
+  Snippet and details at corresponding blog post https://xenodium.com/bending-emacs-episode-3-git-clone-the-lazy-way
+
+  With enough interest, I'll continue making videos. If you enjoy this content, please don't forget to like, susbcribe to my channel, and leave me comments.
+
+  Thank you!
+
 * Modeling bioreactor data with an LLM in Emacs   :ai:
 :PROPERTIES:
 :DATE:     2025-10-11T11:33:22-07:00
@@ -6957,6 +7088,16 @@
   In this ~45-minute video I cover the basics of managing your task list with Org mode. The idea is to write tasks in a simple file and then use the Org agenda views to display and filter the tasks you are interested in. Throughout the video I also comment on relevant points about the overall workflow.
   The basic configuration I show in the video is available on my website: https://protesilaos.com/codelog/2025-01-16-emacs-org-todo-agenda-basics
 
+* DIY FOSS cyborg (powered by Guix and Emacs)
+:PROPERTIES:
+:DATE:     2025-01-15T18:03:55-08:00
+:DURATION: 2:33
+:YOUTUBE_URL: https://www.youtube.com/shorts/flYs1fwwACk
+:SPEAKERS: Christine Lemmer-Webber
+:END:
+  At DWeb Camp 2024 I meet Zacchae Scheffer, a DIY cyborg running his own Guix + Emacs based wearable computing setup. https://dustycloud.org/blog/the-diy-foss-cyborg/
+
+  You can read more about Zacchae's setup here: https://zacchae.us/hardware.html
 * Scraping Emacs Package Repositories - Crafter Hours     :livestream:
 :PROPERTIES:
 :DATE:     2025-01-15T14:15:42-08:00

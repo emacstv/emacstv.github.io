@@ -1,5 +1,63 @@
 [
   {
+    "ITEM": "Fulltext, semantic text and image search in Emacs",
+    "DATE": "2025-10-18T06:18:23-07:00",
+    "DURATION": "18:20",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=t879-fipgtg",
+    "SPEAKERS": "John Kitchin",
+    "BODY": "I show my new org-db package for full and semantic text and image search in Emacs. This package indexes your org-files and provides several ways to search them by org-heading, full text with fts5 in sqlite, vector search for semantic search, and searching images from textual descriptions using CLIP!\n\n  The whole project was \"vibe-coded\" with Claude Code over about 7 days. It is still in an alpha stage of development, but I have been using it for a few days now, and am pretty happy with it.\n\n  https://github.com/jkitchin/org-db-v3"
+  },
+  {
+    "ITEM": "Emacs as a Microsoft Word killer part 3",
+    "DATE": "2025-10-16T18:00:04-07:00",
+    "DURATION": "25:25",
+    "YOUTUBE_URL": "https://youtu.be/1kUqgYk_rrI",
+    "SPEAKERS": "Ardie83",
+    "TAGS": [
+      "configuration",
+      "elisp"
+    ],
+    "BODY": "Emacs as Microsoft Word killer part 3\n\n  Using Conditionals and Defvar to Simplify Multiple Configs Across Multiple Platforms.\n\n  Supporting me will inspire me to produce more quality content\n\n  Show some support by buying me coffee on my Ko-fi page. It accepts your usual Debit/Credit card with 0% fee.\n  https://ko-fi.com/ardiemejia83\n\n  Or can donate straight to my PayPal\n  https://paypal.me/ardiemejia83"
+  },
+  {
+    "ITEM": "Emacs For Writers Unit 5: Basic File Management and Navigation",
+    "DATE": "2025-10-16T15:49:27-07:00",
+    "DURATION": "6:18",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=rhjBvrENwVY",
+    "SPEAKERS": "Chris Maiorana",
+    "TAGS": [
+      "dired"
+    ],
+    "BODY": "In this video, we will cover basic file management with the directory editor in Emacs, also known as \"Dired,\" as well as some rudimentary buffer navigation.\n\n  EMACS FOR WRITERS HANDBOOK:\n  https://chris-maiorana.kit.com/products/emacs-for-writers\n\n  chrismaiorana.com"
+  },
+  {
+    "ITEM": "Linux Mint: Set Up Python, R , duckdb and Emacs",
+    "DATE": "2025-10-16T00:54:12-07:00",
+    "DURATION": "35:51",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=5pSbRSDHtsY",
+    "SPEAKERS": "Precision Data Analytics",
+    "BODY": ",#lunuxmint, #python, #rlanguage, #duckdb, #emacs\n  Linux Mint: Set Up Python, R , duckdb and Emacs\n  This stream is created with #PRISMLiveStudio"
+  },
+  {
+    "ITEM": "Emacs Adventure | Exploring Vanilla Emacs",
+    "DATE": "2025-10-15T04:45:08-07:00",
+    "DURATION": "6:49",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=fGEtK9JsfKc",
+    "SPEAKERS": "Ctrl Alt Tech",
+    "TAGS": [
+      "beginner"
+    ],
+    "BODY": "🔥 Turn your terminal into a coding playground! Ever wondered what makes a 40-year-old text editor still relevant in 2025? Join me as we dive into GNU Emacs and explore the tools of the trade!\n\n  What You'll Learn:\n  ✅ Install Emacs on Linux, Mac, and Windows\n  ✅ Master essential navigation and keybindings\n  ✅ Set up Python development with LSP (Language Server Protocol)\n  ✅ Code JavaScript with intelligent features\n  ✅ Create HTML/CSS projects with web-mode\n  ✅ Build your first custom Emacs configuration\n\n  ⚡ Quick Start Commands:\n\n  sudo apt install emacs          # Linux\n  brew install --cask emacs       # Mac\n  ,# Windows: Download from gnu.org/software/emacs\n\n  ,# Essential Keys\n  C-x C-f    # Open file\n  C-x C-s    # Save\n  C-x C-c    # Quit\n  C-s        # Search\n\n  📚 Resources:\n  - GNU Emacs Official: https://www.gnu.org/software/emacs/\n  - MELPA Packages: https://melpa.org/\n  - LSP Mode Documentation: https://emacs-lsp.github.io/lsp-mode/\n  - Org Mode Documentation: https://orgmode.org/index.html\n\n  🎯 Perfect for:\n  - Developers curious about emacs\n  - Anyone wanting a single app to do everything in development workflow\n\n  ⏱️ Timestamps:\n\n  📱 Connect With Me:\n  - Subscribe for weekly tech experiments\n  - LinkedIn: https://www.linkedin.com/in/kiran-capoor/\n  - Twitter: https://x.com/ctrlalttechwk\n\n  🎬 Filmed with: OBS Studio, Terminal recordings at 1920x1080\n\n  No editors were harmed in the making of this video. All tools have their place in the developer ecosystem! 😄\n\n  Difficulty: Beginner\n  Prerequisites: Basic terminal familiarity\n\n  Support the Channel: If this helped you discover something new, the best support is hitting subscribe and sharing with fellow developers who love experimenting with their tools or buying me a coffee - https://buymeacoffee.com/ctrlalttech\n\n  Remember: In Engineering, there are no failures – only discoveries! 🧪⚡\n\n  ,#emacs  #texteditor #ctrlalttech"
+  },
+  {
+    "ITEM": "Bending Emacs - Episode 03: Git clone (the lazy way)",
+    "DATE": "2025-10-15T04:43:33-07:00",
+    "DURATION": "6:54",
+    "YOUTUBE_URL": "https://youtu.be/oYHlH9NWraM",
+    "SPEAKERS": "xenodium",
+    "BODY": "In this video, I show how I turned a handful of small little steps into an expedited git clone flow.\n\n  Snippet and details at corresponding blog post https://xenodium.com/bending-emacs-episode-3-git-clone-the-lazy-way\n\n  With enough interest, I'll continue making videos. If you enjoy this content, please don't forget to like, susbcribe to my channel, and leave me comments.\n\n  Thank you!"
+  },
+  {
     "ITEM": "Modeling bioreactor data with an LLM in Emacs",
     "DATE": "2025-10-11T11:33:22-07:00",
     "DURATION": "12:03",
@@ -3354,6 +3412,14 @@
       "agenda"
     ],
     "BODY": "In this ~45-minute video I cover the basics of managing your task list with Org mode. The idea is to write tasks in a simple file and then use the Org agenda views to display and filter the tasks you are interested in. Throughout the video I also comment on relevant points about the overall workflow.\n  The basic configuration I show in the video is available on my website: https://protesilaos.com/codelog/2025-01-16-emacs-org-todo-agenda-basics"
+  },
+  {
+    "ITEM": "DIY FOSS cyborg (powered by Guix and Emacs)",
+    "DATE": "2025-01-15T18:03:55-08:00",
+    "DURATION": "2:33",
+    "YOUTUBE_URL": "https://www.youtube.com/shorts/flYs1fwwACk",
+    "SPEAKERS": "Christine Lemmer-Webber",
+    "BODY": "At DWeb Camp 2024 I meet Zacchae Scheffer, a DIY cyborg running his own Guix + Emacs based wearable computing setup. https://dustycloud.org/blog/the-diy-foss-cyborg/\n\n  You can read more about Zacchae's setup here: https://zacchae.us/hardware.html"
   },
   {
     "ITEM": "Scraping Emacs Package Repositories - Crafter Hours",

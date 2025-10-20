@@ -6,6 +6,126 @@
     <atom:link href="https://emacs.tv/videos.rss" rel="self" type="application/rss+xml" />
     <description>Emacs videos</description>
     <item>
+      <title>Fulltext, semantic text and image search in Emacs</title>
+      <link>https://www.youtube.com/watch?v=t879-fipgtg</link>
+      <guid>https://www.youtube.com/watch?v=t879-fipgtg</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=t879-fipgtg">youtube</a><br><br>I show my new org-db package for full and semantic text and image search in Emacs. This package indexes your org-files and provides several ways to search them by org-heading, full text with fts5 in sqlite, vector search for semantic search, and searching images from textual descriptions using CLIP!
+
+  The whole project was "vibe-coded" with Claude Code over about 7 days. It is still in an alpha stage of development, but I have been using it for a few days now, and am pretty happy with it.
+
+  https://github.com/jkitchin/org-db-v3</div>]]></description>
+      <pubDate>Sat, 18 Oct 2025 13:18:23 +0000</pubDate>
+    </item>
+    <item>
+      <title>Emacs as a Microsoft Word killer part 3</title>
+      <link>https://youtu.be/1kUqgYk_rrI</link>
+      <guid>https://youtu.be/1kUqgYk_rrI</guid>
+      <description><![CDATA[<div id="content"><a href="https://youtu.be/1kUqgYk_rrI">youtube</a><br><br>Emacs as Microsoft Word killer part 3
+
+  Using Conditionals and Defvar to Simplify Multiple Configs Across Multiple Platforms.
+
+  Supporting me will inspire me to produce more quality content
+
+  Show some support by buying me coffee on my Ko-fi page. It accepts your usual Debit/Credit card with 0% fee.
+  https://ko-fi.com/ardiemejia83
+
+  Or can donate straight to my PayPal
+  https://paypal.me/ardiemejia83</div>]]></description>
+      <pubDate>Fri, 17 Oct 2025 01:00:04 +0000</pubDate><category>configuration</category>
+<category>elisp</category>
+    </item>
+    <item>
+      <title>Emacs For Writers Unit 5: Basic File Management and Navigation</title>
+      <link>https://www.youtube.com/watch?v=rhjBvrENwVY</link>
+      <guid>https://www.youtube.com/watch?v=rhjBvrENwVY</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=rhjBvrENwVY">youtube</a><br><br>In this video, we will cover basic file management with the directory editor in Emacs, also known as "Dired," as well as some rudimentary buffer navigation.
+
+  EMACS FOR WRITERS HANDBOOK:
+  https://chris-maiorana.kit.com/products/emacs-for-writers
+
+  chrismaiorana.com</div>]]></description>
+      <pubDate>Thu, 16 Oct 2025 22:49:27 +0000</pubDate><category>dired</category>
+    </item>
+    <item>
+      <title>Linux Mint: Set Up Python, R , duckdb and Emacs</title>
+      <link>https://www.youtube.com/watch?v=5pSbRSDHtsY</link>
+      <guid>https://www.youtube.com/watch?v=5pSbRSDHtsY</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=5pSbRSDHtsY">youtube</a><br><br>,#lunuxmint, #python, #rlanguage, #duckdb, #emacs
+  Linux Mint: Set Up Python, R , duckdb and Emacs
+  This stream is created with #PRISMLiveStudio</div>]]></description>
+      <pubDate>Thu, 16 Oct 2025 07:54:12 +0000</pubDate>
+    </item>
+    <item>
+      <title>Emacs Adventure | Exploring Vanilla Emacs</title>
+      <link>https://www.youtube.com/watch?v=fGEtK9JsfKc</link>
+      <guid>https://www.youtube.com/watch?v=fGEtK9JsfKc</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=fGEtK9JsfKc">youtube</a><br><br>🔥 Turn your terminal into a coding playground! Ever wondered what makes a 40-year-old text editor still relevant in 2025? Join me as we dive into GNU Emacs and explore the tools of the trade!
+
+  What You'll Learn:
+  ✅ Install Emacs on Linux, Mac, and Windows
+  ✅ Master essential navigation and keybindings
+  ✅ Set up Python development with LSP (Language Server Protocol)
+  ✅ Code JavaScript with intelligent features
+  ✅ Create HTML/CSS projects with web-mode
+  ✅ Build your first custom Emacs configuration
+
+  ⚡ Quick Start Commands:
+
+  sudo apt install emacs          # Linux
+  brew install --cask emacs       # Mac
+  ,# Windows: Download from gnu.org/software/emacs
+
+  ,# Essential Keys
+  C-x C-f    # Open file
+  C-x C-s    # Save
+  C-x C-c    # Quit
+  C-s        # Search
+
+  📚 Resources:
+  - GNU Emacs Official: https://www.gnu.org/software/emacs/
+  - MELPA Packages: https://melpa.org/
+  - LSP Mode Documentation: https://emacs-lsp.github.io/lsp-mode/
+  - Org Mode Documentation: https://orgmode.org/index.html
+
+  🎯 Perfect for:
+  - Developers curious about emacs
+  - Anyone wanting a single app to do everything in development workflow
+
+  ⏱️ Timestamps:
+
+  📱 Connect With Me:
+  - Subscribe for weekly tech experiments
+  - LinkedIn: https://www.linkedin.com/in/kiran-capoor/
+  - Twitter: https://x.com/ctrlalttechwk
+
+  🎬 Filmed with: OBS Studio, Terminal recordings at 1920x1080
+
+  No editors were harmed in the making of this video. All tools have their place in the developer ecosystem! 😄
+
+  Difficulty: Beginner
+  Prerequisites: Basic terminal familiarity
+
+  Support the Channel: If this helped you discover something new, the best support is hitting subscribe and sharing with fellow developers who love experimenting with their tools or buying me a coffee - https://buymeacoffee.com/ctrlalttech
+
+  Remember: In Engineering, there are no failures – only discoveries! 🧪⚡
+
+  ,#emacs  #texteditor #ctrlalttech</div>]]></description>
+      <pubDate>Wed, 15 Oct 2025 11:45:08 +0000</pubDate><category>beginner</category>
+    </item>
+    <item>
+      <title>Bending Emacs - Episode 03: Git clone (the lazy way)</title>
+      <link>https://youtu.be/oYHlH9NWraM</link>
+      <guid>https://youtu.be/oYHlH9NWraM</guid>
+      <description><![CDATA[<div id="content"><a href="https://youtu.be/oYHlH9NWraM">youtube</a><br><br>In this video, I show how I turned a handful of small little steps into an expedited git clone flow.
+
+  Snippet and details at corresponding blog post https://xenodium.com/bending-emacs-episode-3-git-clone-the-lazy-way
+
+  With enough interest, I'll continue making videos. If you enjoy this content, please don't forget to like, susbcribe to my channel, and leave me comments.
+
+  Thank you!</div>]]></description>
+      <pubDate>Wed, 15 Oct 2025 11:43:33 +0000</pubDate>
+    </item>
+    <item>
       <title>Modeling bioreactor data with an LLM in Emacs</title>
       <link>https://www.youtube.com/watch?v=NR9Buy3fFwI</link>
       <guid>https://www.youtube.com/watch?v=NR9Buy3fFwI</guid>
@@ -491,91 +611,6 @@
   Or can donate straight to my PayPal
   https://paypal.me/ardiemejia83</div>]]></description>
       <pubDate>Wed, 10 Sep 2025 06:45:08 +0000</pubDate><category>hydra</category>
-    </item>
-    <item>
-      <title>Doom Emacs And Creating A Literate Config</title>
-      <link>https://www.youtube.com/watch?v=eFRzRsWTXPk</link>
-      <guid>https://www.youtube.com/watch?v=eFRzRsWTXPk</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=eFRzRsWTXPk">youtube</a><br><br>I recently switched back to Doom Emacs and I'm in the early stages of configuring it.  In this video, I configure variable font sized Org headers, set eshell as the initial buffer when I launch emacs, and convert my config.el over to a literate config.org.
-
-  WANT TO SUPPORT THE CHANNEL?
-  💰 Patreon: https://www.patreon.com/distrotube
-  💳 Paypal: https://www.paypal.com/donate/?hosted_button_id=MW3ZFGS8Q9JGW
-  🛍️ Amazon: https://amzn.to/2RotFFi
-  👕 Teespring: https://teespring.com/stores/distrotube
-
-  DT ON THE WEB:
-  🕸️ Website: http://distro.tube
-  📁 GitLab: https://gitlab.com/dwt1
-  🗨️ Mastodon: https://fosstodon.org/@distrotube
-  👫 Reddit: https://www.reddit.com/r/DistroTube/
-  📽️ Odysee: https://odysee.com/@DistroTube:2
-
-  FREE AND OPEN SOURCE SOFTWARE THAT I LIKE:
-  🌐 Brave Browser - https://brave.com/
-  📽️ Open Broadcaster Software: https://obsproject.com/
-  🎬 Kdenlive: https://kdenlive.org
-  🎨 GIMP: https://www.gimp.org/
-  💻 VirtualBox: https://www.virtualbox.org/
-  🗒️ Doom Emacs: https://github.com/hlissner/doom-emacs
-
-  Your support is very much appreciated. Thanks, guys!</div>]]></description>
-      <pubDate>Mon, 08 Sep 2025 13:01:13 +0000</pubDate><category>DoomEmacs</category>
-<category>configuration</category>
-    </item>
-    <item>
-      <title>Ep699 Emacs Lisp defvar-keymap, define-keymap , part 2</title>
-      <link>https://www.youtube.com/watch?v=dA5SM20y2a0</link>
-      <guid>https://www.youtube.com/watch?v=dA5SM20y2a0</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=dA5SM20y2a0">youtube</a><br><br>Video Summary
-  AI Generated (human edited)
-
-  This video focuses on updating Emacs Lisp code to use new, simpler key binding functions introduced in Emacs 29 (released two years ago).
-
-  Here's a summary:
-
-      The speaker explains that Emacs 29 brought significant changes to how keyboard shortcuts (key bindings) are defined, making the code much simpler and shorter compared to older versions (0:57, 9:02).
-      In Emacs, every keystroke invokes a command, and users can assign keyboard shortcuts to any command (3:30, 6:42).
-      The main goal of the video is to refactor the speaker's personal Emacs Lisp packages from using the old define-key function to the new define-var-keymap and keymap-set functions (10:05, 10:11).
-      The speaker demonstrates this refactoring process for several packages, highlighting the reduction in code complexity and explaining how to handle "leader keys" for customizable major mode commands (24:00, 26:15).
-      A new syntax for the tab key, specifically kbd "", is also introduced, which helps distinguish the tab key from the tab character, especially in terminal Emacs (30:37).
-      Towards the end, the speaker answers viewer questions about Emacs key bindings, keyboard ergonomics, and using various keyboard layouts (41:00, 47:00).</div>]]></description>
-      <pubDate>Mon, 08 Sep 2025 12:42:12 +0000</pubDate>
-    </item>
-    <item>
-      <title>Substituindo a palavra A pela palavra B e B pela palavra A no Emacs</title>
-      <link>https://www.youtube.com/watch?v=FsD01SfEmJ4</link>
-      <guid>https://www.youtube.com/watch?v=FsD01SfEmJ4</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=FsD01SfEmJ4">youtube</a><br><br>Mostrando pra você como duas palavras podem ser substituídas uma pelas outras no Emacs usando o comando query-replace-regexp (C-M-% ou C-Alt-%).
-
-  O livro mencionado é o Practical Vim, 2nd ed.</div>]]></description>
-      <pubDate>Mon, 08 Sep 2025 09:00:19 +0000</pubDate>
-    </item>
-    <item>
-      <title>Ep698 Emacs Lisp coding, defvar-keymap</title>
-      <link>https://www.youtube.com/watch?v=Bv_Mr-tiScg</link>
-      <guid>https://www.youtube.com/watch?v=Bv_Mr-tiScg</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=Bv_Mr-tiScg">youtube</a><br><br></div>]]></description>
-      <pubDate>Sun, 07 Sep 2025 22:59:35 +0000</pubDate>
-    </item>
-    <item>
-      <title>Emacs Tree-sitter Treesit Configuration - VOD</title>
-      <link>https://www.youtube.com/watch?v=pD-wF3fZFGo</link>
-      <guid>https://www.youtube.com/watch?v=pD-wF3fZFGo</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=pD-wF3fZFGo">youtube</a><br><br>Configuring Emacs built in treesit with treesit auto on vanilla Emacs</div>]]></description>
-      <pubDate>Sun, 07 Sep 2025 18:14:49 +0000</pubDate><category>treesitter</category>
-    </item>
-    <item>
-      <title>Prot Asks: Greg about Emacs, Android, dogs, fishing, cycling, and Pennsylvania</title>
-      <link>https://www.youtube.com/watch?v=8iovwdREt1o</link>
-      <guid>https://www.youtube.com/watch?v=8iovwdREt1o</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=8iovwdREt1o">youtube</a><br><br>In this video, I talk to Greg about a number of topics ranging from the technical work one does in Emacs to outdoors activities in Pennsylvania. Our discussion starts with the topic of Emacs, where I learn that Greg has been working professionally with software for twenty years. In Greg's experience, one of the advantages of using Emacs for work is that you do not need to change your tools when you switch jobs or work with different programming languages. We then discuss Greg's attempt to use Emacs on Android, as there now is an official build for that platform. We briefly touch on the Clojure programming language and also talk about ways of learning to program. Once we cover these technical issues, we switch to the outdoor activities that Greg enjoys: cycling, fishing, and just being outside with his dog. I learn from Greg a few things about fishing and we eventually comment on a lot of more profound insights about natural experiences in general. Our final comments revolve around the appreciation of the comments, in light of a politics essay I published recently titled "When your country is a theme park": https://protesilaos.com/politics/2025-09-02-when-your-country-is-a-theme-park/.
-
-  ,## About "Prot Asks"
-
-  In this new video series, I talk to anybody who is interested to have a video call with me (so do contact me if you want!). The topics cover anything related to Emacs, technology, and life in general. More here: https://protesilaos.com/prot-asks/.</div>]]></description>
-      <pubDate>Sun, 07 Sep 2025 07:31:52 +0000</pubDate><category>ProtAsks</category>
-<category>community</category>
     </item>
   </channel>
 </rss>
