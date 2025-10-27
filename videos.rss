@@ -6,6 +6,153 @@
     <atom:link href="https://emacs.tv/videos.rss" rel="self" type="application/rss+xml" />
     <description>Emacs videos</description>
     <item>
+      <title>أساسيات إيماكس كمحرر نصوص | The Basics of Emacs as a Text Editor</title>
+      <link>https://www.youtube.com/watch?v=tBwu127eVyk</link>
+      <guid>https://www.youtube.com/watch?v=tBwu127eVyk</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=tBwu127eVyk">youtube</a><br><br>دعم القناة:
+  إذا أعجبك المحتوى وترغب في دعم عملي، يمكنك شراء قهوة لي من هنا:
+  ☕ https://buymeacoffee.com/the.omania
+
+  دوراتنا في لينكس وتقنية المعلومات:
+  https://omanialearninghub.com
+
+  انضم إلى مجموعة فيسبوك للشبكات وتقنية المعلومات:
+  https://www.facebook.com/groups/omanialearninghub/
+
+  انضم إلى مجموعة التليقرام للشبكات وتقنية المعلومات:
+  https://t.me/OmaniaLearningHub
+
+  تابعني على تيك توك:
+  https://www.tiktok.com/@the.omania
+
+  أضفني على سناب شات:
+  https://www.snapchat.com/add/the.omania دعم القناة:</div>]]></description>
+      <pubDate>Mon, 27 Oct 2025 08:42:50 +0000</pubDate>
+    </item>
+    <item>
+      <title>show doc for candidate of complete of company/corfu in Emacs</title>
+      <link>https://youtube.com/watch?v=6B45y7lU9Zw&amp;si=JcFtMhc2y9AhTLV8</link>
+      <guid>https://youtube.com/watch?v=6B45y7lU9Zw&amp;si=JcFtMhc2y9AhTLV8</guid>
+      <description><![CDATA[<div id="content"><a href="https://youtube.com/watch?v=6B45y7lU9Zw&si=JcFtMhc2y9AhTLV8">youtube</a><br><br>I just learned that we can show the document for the candidate as we move through the candidates list of company/corfu.
+  For company, it requires either of the following packages to show document for candidate
+  1. https://github.com/company-mode/company-quickhelp or
+  2. https://github.com/sebastiencs/company-box
+  For Corfu, not additional package is needed. just add (corfu-popupinfo-mode) in "init"
+  (use-package corfu
+    :custom
+    (corfu-cycle t)
+    (corfu-preview-current nil)
+    :init
+    (global-corfu-mode)
+    (corfu-popupinfo-mode) ;; this is for show document for candidate
+    )</div>]]></description>
+      <pubDate>Mon, 27 Oct 2025 06:41:28 +0000</pubDate><category>company</category>
+<category>corfu</category>
+<category>completion</category>
+<category>elisp</category>
+    </item>
+    <item>
+      <title>Piping in and out of Emacs buffers.</title>
+      <link>https://www.youtube.com/watch?v=LVlF3-KyqvY</link>
+      <guid>https://www.youtube.com/watch?v=LVlF3-KyqvY</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=LVlF3-KyqvY">youtube</a><br><br>Let's pipe some content in and out of Emacs in terminal.
+
+  It's a brief demo of https://github.com/agzam/mx-piper</div>]]></description>
+      <pubDate>Sun, 26 Oct 2025 03:19:21 +0000</pubDate>
+    </item>
+    <item>
+      <title>&quot;It Works&quot;: More Adventures with Racket and Emacs</title>
+      <link>https://www.youtube.com/watch?v=OJqocEYhgng</link>
+      <guid>https://www.youtube.com/watch?v=OJqocEYhgng</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=OJqocEYhgng">youtube</a><br><br>Greg Hendershott
+  "It Works": More Adventures with Racket and Emacs
+  The Emacs package "racket-mode" has continued to evolve its design and features. Among other things, it allows multiple local and remote back ends, has a redesigned "lossless" REPL, supports modern Emacs UI completion annotations, and enables lang-driven editing. Most recently the step debugger has gotten some attention.
+  Bio: Greg Hendershott has a useless degree in philosophy, a background in the music software industry, and a decade working in the open source Racket and Emacs communities. Tedious details are available at greghendershott.com.</div>]]></description>
+      <pubDate>Sat, 25 Oct 2025 19:03:42 +0000</pubDate><category>racket</category>
+    </item>
+    <item>
+      <title>Treesitter &quot;show definition&quot; in C with Emacs</title>
+      <link>https://www.youtube.com/watch?v=IEGfWHOg_GQ</link>
+      <guid>https://www.youtube.com/watch?v=IEGfWHOg_GQ</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=IEGfWHOg_GQ">youtube</a><br><br>I have given up on  the complexity of LSPs, I just use the _amazing_ treesitter library instead: parsing my code as I type it's very fast and can do nearly everything that an LSP can do but this way I just have to deal with programming Emacs, which is super easy.
+
+  I've got this on the Internet over here:
+  https://tangled.org/@nicferrier.bsky.social/nic-emacs-treesitter-stuff
+
+  There's a readme which makes an attempt to explain how to try and use it but it's still very much a work in progress.
+
+  My main focus is C, because that's what I'm programming in mostly. So if you're a C programmer and an Emacs user and you want to try it - then download it from tangled and give mea shout if it doesn't work.</div>]]></description>
+      <pubDate>Sat, 25 Oct 2025 11:36:18 +0000</pubDate><category>TreeSitter</category>
+<category>coding</category>
+    </item>
+    <item>
+      <title>Emacs gptel and mcp-searxng enable web search for your llm&apos;s with searxng</title>
+      <link>https://www.youtube.com/watch?v=6xv28WTiGsI</link>
+      <guid>https://www.youtube.com/watch?v=6xv28WTiGsI</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=6xv28WTiGsI">youtube</a><br><br>The emacs gptel package lets you use local llm's with ollama as well as online llm's like Gemini
+  however the issue is the models dont have web access so they have a cut off in their knowledge based on when they were built
+
+  Installing the mcp.el package with gptel provides the mcp protocol to work with mcp servers
+  this allows us to use the mcp-searxng server that works with the searxng self hosted search engine to enable web searches for our llm's
+
+  The mcp-searxng server also lets you download web pages as well
+
+  The mcp-nixos server allows us to search for nixos packages from within Emacs,
+  as well other tools to show the latest channel and other useful stuff
+
+  The mcp.el package works with models that support tools using ollama like llama3.1
+  or with online models like Gemini
+
+  docker.el lets you manage your podman or docker container from within Emacs,
+  and the dockerfile-mode package provides syntax highlighting for Dockerfiles
+
+  https://github.com/NapoleonWils0n/cerberus/blob/master/emacs/gptel-mcp-severs.org
+
+  https://github.com/karthink/gptel?tab=readme-ov-file#model-context-protocol-mcp-integration
+
+  https://github.com/lizqwerscott/mcp.el
+
+  https://github.com/Silex/docker.el
+
+  https://github.com/spotify/dockerfile-mode
+
+  https://github.com/ihor-sokoliuk/mcp-searxng
+
+  https://github.com/utensils/mcp-nixos
+
+  Seaxng search engine podman install
+  https://www.youtube.com/watch?v=qAKmxK6juwI
+
+  https://github.com/NapoleonWils0n/cerberus/blob/master/searxng/searxng-podman.org
+
+  https://github.com/NapoleonWils0n/nixos-dotfiles</div>]]></description>
+      <pubDate>Thu, 23 Oct 2025 22:30:56 +0000</pubDate><category>ai</category>
+<category>gptel</category>
+    </item>
+    <item>
+      <title>Bending Emacs - Episode 4: Batch renaming files</title>
+      <link>https://www.youtube.com/watch?v=1E0ThCSr8Qw</link>
+      <guid>https://www.youtube.com/watch?v=1E0ThCSr8Qw</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=1E0ThCSr8Qw">youtube</a><br><br>In this video I show a handful of ways to batch rename files. Primarily based around Emacs dired, mulitple cursors, and keyboard macros. Written notes available at blog post https://lmno.lol/alvaro/bending-emacs-episode-4-batch-renaming-files</div>]]></description>
+      <pubDate>Thu, 23 Oct 2025 16:35:28 +0000</pubDate><category>dired</category>
+    </item>
+    <item>
+      <title>Emacs For Writers Unit 6: Welcome to Org Mode</title>
+      <link>https://www.youtube.com/watch?v=YzO2HjhLYBk</link>
+      <guid>https://www.youtube.com/watch?v=YzO2HjhLYBk</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=YzO2HjhLYBk">youtube</a><br><br>In this video, you will finally get a glimpse of Org Mode, the mode that's more than a mode. It's a whole productivity suite, but even if you don't use the productivity tools, it's a powerful way to organize and compose rich outlines and beautifully written documents.  All the while, you can be cool while doing it.  Check it out.
+
+  EMACS FOR WRITERS HANDBOOK:
+  https://chris-maiorana.kit.com/products/emacs-for-writers
+
+  VIDEO ON INSTALL ORG CONTRIB PACKAGE INSTALLATION:
+  https://www.youtube.com/watch?v=FW8CkvZtNgY
+
+  chrismaiorana.com</div>]]></description>
+      <pubDate>Mon, 20 Oct 2025 16:59:18 +0000</pubDate><category>org</category>
+<category>writing</category>
+    </item>
+    <item>
       <title>Fulltext, semantic text and image search in Emacs</title>
       <link>https://www.youtube.com/watch?v=t879-fipgtg</link>
       <guid>https://www.youtube.com/watch?v=t879-fipgtg</guid>
@@ -45,6 +192,15 @@
 
   chrismaiorana.com</div>]]></description>
       <pubDate>Thu, 16 Oct 2025 22:49:27 +0000</pubDate><category>dired</category>
+    </item>
+    <item>
+      <title>Showcasing Some of My Essential Emacs and Shell Tools on GitHub</title>
+      <link>https://www.youtube.com/watch?v=8P4T5Pr36v8</link>
+      <guid>https://www.youtube.com/watch?v=8P4T5Pr36v8</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=8P4T5Pr36v8">youtube</a><br><br>https://github.com/emacselements
+
+  In this video, I walk through my personal collection of GitHub repositories, each designed to streamline and enhance your Emacs experience or automate daily tasks. The repo also some interesting Shell Scripts and  Python Apps, notably: Redactor, Video-Sorter, and Image-Viewer.</div>]]></description>
+      <pubDate>Thu, 16 Oct 2025 14:41:06 +0000</pubDate>
     </item>
     <item>
       <title>Linux Mint: Set Up Python, R , duckdb and Emacs</title>
@@ -463,154 +619,6 @@
       <guid>https://youtube.com/watch?v=aGsheHu7Esw&amp;si=NCsI13UJVVrKyqD-</guid>
       <description><![CDATA[<div id="content"><a href="https://youtube.com/watch?v=aGsheHu7Esw&si=NCsI13UJVVrKyqD-">youtube</a><br><br>Emacs package eldoc-mouse show document for mouse hover.</div>]]></description>
       <pubDate>Sat, 20 Sep 2025 13:36:50 +0000</pubDate><category>EldocMouse</category>
-    </item>
-    <item>
-      <title>Custom Functions And Keybindings In Doom Emacs</title>
-      <link>https://www.youtube.com/watch?v=92tjZ8wHZ8I</link>
-      <guid>https://www.youtube.com/watch?v=92tjZ8wHZ8I</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=92tjZ8wHZ8I">youtube</a><br><br>In this video, I'm going to configure my Doom Emacs by adding custom functions, custom keybindings and adjusting how Markdown files appear in
-  Doom Emacs.
-
-  MY DOOM CONFIGS:
-  ► https://gitlab.com/dwt1/dotfiles/-/tree/master/.config/doom?ref_type=heads
-
-  WANT TO SUPPORT THE CHANNEL?
-  💰 Patreon: https://www.patreon.com/distrotube
-  💳 Paypal: https://www.paypal.com/donate/?hosted_button_id=MW3ZFGS8Q9JGW
-  🛍️ Amazon: https://amzn.to/2RotFFi
-  👕 Teespring: https://teespring.com/stores/distrotube
-
-  DT ON THE WEB:
-  🕸️ Website: http://distro.tube
-  📁 GitLab: https://gitlab.com/dwt1
-  🗨️ Mastodon: https://fosstodon.org/@distrotube
-  👫 Reddit: https://www.reddit.com/r/DistroTube/
-  📽️ Odysee: https://odysee.com/@DistroTube:2
-
-  FREE AND OPEN SOURCE SOFTWARE THAT I LIKE:
-  🌐 Brave Browser - https://brave.com/
-  📽️ Open Broadcaster Software: https://obsproject.com/
-  🎬 Kdenlive: https://kdenlive.org
-  🎨 GIMP: https://www.gimp.org/
-  💻 VirtualBox: https://www.virtualbox.org/
-  🗒️ Doom Emacs: https://github.com/hlissner/doom-emacs
-
-  Your support is very much appreciated. Thanks, guys!</div>]]></description>
-      <pubDate>Fri, 19 Sep 2025 17:46:28 +0000</pubDate><category>DoomEmacs</category>
-    </item>
-    <item>
-      <title>An electronic notebook with Emacs + gptel + mcp and claude-light</title>
-      <link>https://www.youtube.com/watch?v=9RR9UzViXj4</link>
-      <guid>https://www.youtube.com/watch?v=9RR9UzViXj4</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=9RR9UzViXj4">youtube</a><br><br>I show how Emacs + orgmode + gptel and mcp can be used to run an external instrument (claude-light) through an electronic lab notebook interface. We can make single measurements that are recorded in the notebook, design a set of measurements and do analysis on them, and create a design of experiments, run and analyze them.</div>]]></description>
-      <pubDate>Fri, 19 Sep 2025 15:02:21 +0000</pubDate><category>ai</category>
-<category>gptel</category>
-<category>mcp</category>
-<category>ClaudeLight</category>
-    </item>
-    <item>
-      <title>Prot Asks: Julien about Emacs, functional package managers, Nix, Guix, and reproducibility</title>
-      <link>https://www.youtube.com/watch?v=Yv8BC8ISAPQ</link>
-      <guid>https://www.youtube.com/watch?v=Yv8BC8ISAPQ</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=Yv8BC8ISAPQ">youtube</a><br><br>In this video I talk with Julien Malka who is a PhD student on supply chain security. I have known Julien through Emacs, so we start our discussion with some comments on how Julien uses Emacs for note-taking and as a general purpose computing environment. We then shift our attention to the research area of Julien which involves, among others, functional package managers and reproducibility at-large. In this light, we cover Nix at length while commenting on its GNU counterpart, Guix. Nix is a functional package manager, a programming language, and can also be deployed as a fully fledged operating system. I learn from Julien about the different kinds of reproducibility and gain a better understanding of what kind of advantages we get by using a functional package manager for our system. The "recipes" that derive software packages in this world are written in a pure functional programming language and Julien explains what kind of advantages this design has. Julien explains that NixOS is quite different from other Linux distributions, in terms of how it does certain things. As such, those who want to use it should know what they are working towards and have the right expectations. Towards the end of our talk, I also ask Julien about academic life in France with regard to digital sovereignty and the kind of incentives researchers have for contributing to free and open source software.
-
-  ,## Links from Julien Malka
-
-  - my personal website: https://luj.fr
-  - NixOS home page: https://nixos.org
-  - Guix home page: https://guix.gnu.org/
-  - reproducible-builds: https://reproducible-builds.org
-  - bootstrapable-builds: https://www.bootstrappable.org
-  - Eelco Dolstra PhD thesis: https://edolstra.github.io/pubs/phd-thesis.pdf
-
-  ,## About "Prot Asks"
-
-  In this new video series, I talk to anybody who is interested to have a video call with me (so do contact me if you want!). The topics cover anything related to Emacs, technology, and life in general. More here: https://protesilaos.com/prot-asks/.</div>]]></description>
-      <pubDate>Thu, 18 Sep 2025 06:35:26 +0000</pubDate><category>ProtAsks</category>
-    </item>
-    <item>
-      <title>GTD List Manager and Emacs</title>
-      <link>https://www.youtube.com/watch?v=tU4D6y7-slo</link>
-      <guid>https://www.youtube.com/watch?v=tU4D6y7-slo</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=tU4D6y7-slo">youtube</a><br><br>You may have heard of a text editor called Emacs, which has been around for a long time. This is your chance to hear how Matt has used it to create a GTD list manager. He talks about how he got into GTD, and goes into plenty of detail about the system he has developed, through many iterations, using Emacs.
-
-  https://gtdconnect.com/video.php?titleid=1360&trackid=2011
-
-  ………………………………………………….
-  https://gettingthingsdone.com
-  https://gtdconnect.com
-  https://www.instagram.com/gtdtimes/
-  https://www.linkedin.com/company/david-allen-company/
-  https://www.facebook.com/gettingthingsdone
-  https://www.youtube.com/user/gtd
-  ………………………………………………….
-  ,#mindlikewater #GTD #gettingthingsdone #FreedomFocusGTD #DavidAllen</div>]]></description>
-      <pubDate>Thu, 18 Sep 2025 05:15:00 +0000</pubDate><category>gtd</category>
-    </item>
-    <item>
-      <title>Emacs UV Mode - Python Command VOD</title>
-      <link>https://www.youtube.com/watch?v=rXB0G5jryPM</link>
-      <guid>https://www.youtube.com/watch?v=rXB0G5jryPM</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=rXB0G5jryPM">youtube</a><br><br>Launching a python interpreter buffer with UV and exploring python.el</div>]]></description>
-      <pubDate>Wed, 17 Sep 2025 16:49:54 +0000</pubDate><category>python</category>
-    </item>
-    <item>
-      <title>How I read papers with Org-roam &amp; Zotero #emacs</title>
-      <link>https://youtube.com/watch?v=UjvlGfbAkNw&amp;si=jm2HhSuALziW8eHi</link>
-      <guid>https://youtube.com/watch?v=UjvlGfbAkNw&amp;si=jm2HhSuALziW8eHi</guid>
-      <description><![CDATA[<div id="content"><a href="https://youtube.com/watch?v=UjvlGfbAkNw&si=jm2HhSuALziW8eHi">youtube</a><br><br>Hiyayyaa Kiran :3 here again~ Today I'm doing a tutorial on how I use org-roam for taking notes on papers for my research. Hopefully this will help any students who might be thinking about using Emacs for taking notes. It's been a real game changer for my research output!
-
-  Would recommend watching my previous video on org-roam to see how I've set up the keybindings as I don't explain them here.
-
-  ,#emacs #orgmode #research #phdlife #postdoclife #zotero</div>]]></description>
-      <pubDate>Tue, 16 Sep 2025 23:54:15 +0000</pubDate><category>org</category>
-    </item>
-    <item>
-      <title>Sync Emacs Org Agenda and Google Calendar with the Org-Gcal Package</title>
-      <link>https://www.youtube.com/watch?v=hz6yc6uWDw4</link>
-      <guid>https://www.youtube.com/watch?v=hz6yc6uWDw4</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=hz6yc6uWDw4">youtube</a><br><br>Discover how to sync your Google Calendar with Emacs using the Org-Gcal package. In this video, I walk you through setting up the Google API, and configuring your Emacs for seamless calendar integration. Learn how to fetch events, push Org entries to Google Calendar, and use org-capture templates for productivity. Links and setup can be found at the link below.
-
-  My website: https://emacselements.com/
-
-  You can support me on PayPal:
-
-  https://paypal.me/revrari</div>]]></description>
-      <pubDate>Sun, 14 Sep 2025 22:00:06 +0000</pubDate><category>org</category>
-    </item>
-    <item>
-      <title>Teaching Emacs recognize thing-at-point</title>
-      <link>https://www.youtube.com/watch?v=Azi3WOUUSIU</link>
-      <guid>https://www.youtube.com/watch?v=Azi3WOUUSIU</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=Azi3WOUUSIU">youtube</a><br><br>I  needed a polymorphic, pattern-matching based URL dispatcher, so I could easily process different types of URLs.
-
-  Turns out, this wasn't too difficult at all.
-
-  Karthik's  post: https://karthinks.com/software/fifteen-ways-to-use-embark
-
-  Prot's video: https://www.youtube.com/watch?v=uoP9ZYdNCHg</div>]]></description>
-      <pubDate>Thu, 11 Sep 2025 00:33:44 +0000</pubDate><category>web</category>
-    </item>
-    <item>
-      <title>Emacs workflow ideas: How I use Hydra in a minor mode</title>
-      <link>https://youtube.com/watch?v=_MPxt_JznXE</link>
-      <guid>https://youtube.com/watch?v=_MPxt_JznXE</guid>
-      <description><![CDATA[<div id="content"><a href="https://youtube.com/watch?v=_MPxt_JznXE">youtube</a><br><br>Emacs workflow ideas - How I use Hydra in a minor mode
-
-  - each custom minor mode is bound to a specific Hydra
-  - ; as leading key
-  - never overlap current or future key modifier shortcuts
-
-  Supporting me will inspire me to produce more quality content
-
-  Please show me some real actual monetary support. My country is fascist. If there is some way to connect with an international Emacs community and make some money, please contact me.
-
-  Show some support by buying me coffee on my Ko-fi page just setup recently. (It has both Debit/Credit Card and Paypal options, with 0% fee)
-  https://ko-fi.com/ardiemejia83
-
-  Or can donate straight to my PayPal
-  https://paypal.me/ardiemejia83</div>]]></description>
-      <pubDate>Wed, 10 Sep 2025 06:45:08 +0000</pubDate><category>hydra</category>
     </item>
   </channel>
 </rss>

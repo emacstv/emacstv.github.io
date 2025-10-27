@@ -1,5 +1,93 @@
 [
   {
+    "ITEM": "أساسيات إيماكس كمحرر نصوص | The Basics of Emacs as a Text Editor",
+    "DATE": "2025-10-27T01:42:50-07:00",
+    "DURATION": "19:35",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=tBwu127eVyk",
+    "SPEAKERS": "Omania Learning Hub",
+    "BODY": "دعم القناة:\n  إذا أعجبك المحتوى وترغب في دعم عملي، يمكنك شراء قهوة لي من هنا:\n  ☕ https://buymeacoffee.com/the.omania\n\n  دوراتنا في لينكس وتقنية المعلومات:\n  https://omanialearninghub.com\n\n  انضم إلى مجموعة فيسبوك للشبكات وتقنية المعلومات:\n  https://www.facebook.com/groups/omanialearninghub/\n\n  انضم إلى مجموعة التليقرام للشبكات وتقنية المعلومات:\n  https://t.me/OmaniaLearningHub\n\n  تابعني على تيك توك:\n  https://www.tiktok.com/@the.omania\n\n  أضفني على سناب شات:\n  https://www.snapchat.com/add/the.omania دعم القناة:"
+  },
+  {
+    "ITEM": "show doc for candidate of complete of company/corfu in Emacs",
+    "DATE": "2025-10-26T23:41:28-07:00",
+    "DURATION": "0:25",
+    "YOUTUBE_URL": "https://youtube.com/watch?v=6B45y7lU9Zw&si=JcFtMhc2y9AhTLV8",
+    "SPEAKERS": "Feiyu Huang",
+    "TAGS": [
+      "company",
+      "corfu",
+      "completion",
+      "elisp"
+    ],
+    "BODY": "I just learned that we can show the document for the candidate as we move through the candidates list of company/corfu.\n  For company, it requires either of the following packages to show document for candidate\n  1. https://github.com/company-mode/company-quickhelp or\n  2. https://github.com/sebastiencs/company-box\n  For Corfu, not additional package is needed. just add (corfu-popupinfo-mode) in \"init\"\n  (use-package corfu\n    :custom\n    (corfu-cycle t)\n    (corfu-preview-current nil)\n    :init\n    (global-corfu-mode)\n    (corfu-popupinfo-mode) ;; this is for show document for candidate\n    )"
+  },
+  {
+    "ITEM": "Piping in and out of Emacs buffers.",
+    "DATE": "2025-10-25T20:19:21-07:00",
+    "DURATION": "11:53",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=LVlF3-KyqvY",
+    "SPEAKERS": "iLemming",
+    "BODY": "Let's pipe some content in and out of Emacs in terminal.\n\n  It's a brief demo of https://github.com/agzam/mx-piper"
+  },
+  {
+    "ITEM": "\"It Works\": More Adventures with Racket and Emacs",
+    "DATE": "2025-10-25T12:03:42-07:00",
+    "DURATION": "23:54",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=OJqocEYhgng",
+    "SPEAKERS": "Racket",
+    "TAGS": [
+      "racket"
+    ],
+    "BODY": "Greg Hendershott\n  \"It Works\": More Adventures with Racket and Emacs\n  The Emacs package \"racket-mode\" has continued to evolve its design and features. Among other things, it allows multiple local and remote back ends, has a redesigned \"lossless\" REPL, supports modern Emacs UI completion annotations, and enables lang-driven editing. Most recently the step debugger has gotten some attention.\n  Bio: Greg Hendershott has a useless degree in philosophy, a background in the music software industry, and a decade working in the open source Racket and Emacs communities. Tedious details are available at greghendershott.com."
+  },
+  {
+    "ITEM": "Treesitter \"show definition\" in C with Emacs",
+    "DATE": "2025-10-25T04:36:18-07:00",
+    "DURATION": "6:20",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=IEGfWHOg_GQ",
+    "SPEAKERS": "Nic Ferrier",
+    "TAGS": [
+      "TreeSitter",
+      "coding"
+    ],
+    "BODY": "I have given up on  the complexity of LSPs, I just use the _amazing_ treesitter library instead: parsing my code as I type it's very fast and can do nearly everything that an LSP can do but this way I just have to deal with programming Emacs, which is super easy.\n\n  I've got this on the Internet over here:\n  https://tangled.org/@nicferrier.bsky.social/nic-emacs-treesitter-stuff\n\n  There's a readme which makes an attempt to explain how to try and use it but it's still very much a work in progress.\n\n  My main focus is C, because that's what I'm programming in mostly. So if you're a C programmer and an Emacs user and you want to try it - then download it from tangled and give mea shout if it doesn't work."
+  },
+  {
+    "ITEM": "Emacs gptel and mcp-searxng enable web search for your llm's with searxng",
+    "DATE": "2025-10-23T15:30:56-07:00",
+    "DURATION": "1:11:33",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=6xv28WTiGsI",
+    "SPEAKERS": "NapoleonWils0n",
+    "TAGS": [
+      "ai",
+      "gptel"
+    ],
+    "BODY": "The emacs gptel package lets you use local llm's with ollama as well as online llm's like Gemini\n  however the issue is the models dont have web access so they have a cut off in their knowledge based on when they were built\n\n  Installing the mcp.el package with gptel provides the mcp protocol to work with mcp servers\n  this allows us to use the mcp-searxng server that works with the searxng self hosted search engine to enable web searches for our llm's\n\n  The mcp-searxng server also lets you download web pages as well\n\n  The mcp-nixos server allows us to search for nixos packages from within Emacs,\n  as well other tools to show the latest channel and other useful stuff\n\n  The mcp.el package works with models that support tools using ollama like llama3.1\n  or with online models like Gemini\n\n  docker.el lets you manage your podman or docker container from within Emacs,\n  and the dockerfile-mode package provides syntax highlighting for Dockerfiles\n\n  https://github.com/NapoleonWils0n/cerberus/blob/master/emacs/gptel-mcp-severs.org\n\n  https://github.com/karthink/gptel?tab=readme-ov-file#model-context-protocol-mcp-integration\n\n  https://github.com/lizqwerscott/mcp.el\n\n  https://github.com/Silex/docker.el\n\n  https://github.com/spotify/dockerfile-mode\n\n  https://github.com/ihor-sokoliuk/mcp-searxng\n\n  https://github.com/utensils/mcp-nixos\n\n  Seaxng search engine podman install\n  https://www.youtube.com/watch?v=qAKmxK6juwI\n\n  https://github.com/NapoleonWils0n/cerberus/blob/master/searxng/searxng-podman.org\n\n  https://github.com/NapoleonWils0n/nixos-dotfiles"
+  },
+  {
+    "ITEM": "Bending Emacs - Episode 4: Batch renaming files",
+    "DATE": "2025-10-23T09:35:28-07:00",
+    "DURATION": "6:42",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=1E0ThCSr8Qw",
+    "SPEAKERS": "xenodium",
+    "TAGS": [
+      "dired"
+    ],
+    "BODY": "In this video I show a handful of ways to batch rename files. Primarily based around Emacs dired, mulitple cursors, and keyboard macros. Written notes available at blog post https://lmno.lol/alvaro/bending-emacs-episode-4-batch-renaming-files"
+  },
+  {
+    "ITEM": "Emacs For Writers Unit 6: Welcome to Org Mode",
+    "DATE": "2025-10-20T09:59:18-07:00",
+    "DURATION": "11:54",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=YzO2HjhLYBk",
+    "SPEAKERS": "Chris Maiorana",
+    "TAGS": [
+      "org",
+      "writing"
+    ],
+    "BODY": "In this video, you will finally get a glimpse of Org Mode, the mode that's more than a mode. It's a whole productivity suite, but even if you don't use the productivity tools, it's a powerful way to organize and compose rich outlines and beautifully written documents.  All the while, you can be cool while doing it.  Check it out.\n\n  EMACS FOR WRITERS HANDBOOK:\n  https://chris-maiorana.kit.com/products/emacs-for-writers\n\n  VIDEO ON INSTALL ORG CONTRIB PACKAGE INSTALLATION:\n  https://www.youtube.com/watch?v=FW8CkvZtNgY\n\n  chrismaiorana.com"
+  },
+  {
     "ITEM": "Fulltext, semantic text and image search in Emacs",
     "DATE": "2025-10-18T06:18:23-07:00",
     "DURATION": "18:20",
@@ -29,6 +117,14 @@
       "dired"
     ],
     "BODY": "In this video, we will cover basic file management with the directory editor in Emacs, also known as \"Dired,\" as well as some rudimentary buffer navigation.\n\n  EMACS FOR WRITERS HANDBOOK:\n  https://chris-maiorana.kit.com/products/emacs-for-writers\n\n  chrismaiorana.com"
+  },
+  {
+    "ITEM": "Showcasing Some of My Essential Emacs and Shell Tools on GitHub",
+    "DATE": "2025-10-16T07:41:06-07:00",
+    "DURATION": "4:55",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=8P4T5Pr36v8",
+    "SPEAKERS": "Emacs Elements",
+    "BODY": "https://github.com/emacselements\n\n  In this video, I walk through my personal collection of GitHub repositories, each designed to streamline and enhance your Emacs experience or automate daily tasks. The repo also some interesting Shell Scripts and  Python Apps, notably: Redactor, Video-Sorter, and Image-Viewer."
   },
   {
     "ITEM": "Linux Mint: Set Up Python, R , duckdb and Emacs",
