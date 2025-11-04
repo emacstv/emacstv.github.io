@@ -6,6 +6,91 @@
     <atom:link href="https://emacs.tv/videos.rss" rel="self" type="application/rss+xml" />
     <description>Emacs videos</description>
     <item>
+      <title>Quick Git Tip Using Magit Inside Emacs 2025_11_04_02:55:35</title>
+      <link>https://www.youtube.com/watch?v=1GVoHtZjGlw</link>
+      <guid>https://www.youtube.com/watch?v=1GVoHtZjGlw</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=1GVoHtZjGlw">youtube</a><br><br>In this video, you will see,
+
+  ,#linux #linuxadmin #sysadmin #opensource #Gentoo #Debian #Slackware #research
+  ,#linuxkernel #kernel #gnu #Linux #GNU #shorts
+
+  Buy Me A Coffee: https://www.buymeacoffee.com/unixbhaskar
+  Patreon: https://www.patreon.com/unixbhaskar
+  Paypal: https://paypal.me/linuxbhaskar
+
+  You can also find me :
+
+  GitHub: https://github.com/unixbhaskar
+
+  Reddit: https://www.reddit.com/user/unixbhaskar
+
+  Blogs: https://unixbhaskar.wordpress.com
+
+  Twitter: https://twitter.com/unixbhaskar
+
+  Linkedin: https://linkedin.com/in/unixbhaskar
+
+  Vimeo: https://vimeo.com/unixbhaskar
+
+  Goodreads: https://goodreads.com/unixbhaskar</div>]]></description>
+      <pubDate>Mon, 03 Nov 2025 21:38:18 +0000</pubDate><category>magit</category>
+    </item>
+    <item>
+      <title>A Useful Templating System in Emacs</title>
+      <link>https://www.youtube.com/watch?v=0qEHgiaSnsw</link>
+      <guid>https://www.youtube.com/watch?v=0qEHgiaSnsw</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=0qEHgiaSnsw">youtube</a><br><br>Let's see a package in Emacs, YASnippet, which offers a powerful templating system.
+
+  Discover YASnippet:
+  - https://github.com/joaotavora/yasnippet
+
+  Support my effort :)
+  - https://www.patreon.com/hexdump
+
+  Learn Web Application Security:
+  - https://www.udemy.com/course/practical-wapt/?referralCode=15450B3828BA5A3B23CB
+
+  Learn Linux Privilege Escalation:
+  - https://www.udemy.com/course/linux-privesc/?couponCode=33738F67D2C09EB25600
+
+  Official Forum and Website:
+  - https://forum.hexdump.sh
+  - https://hexdump.sh
+
+  TIMESTAMPS
+
+  00:00 What is YASnippet?
+  03:00 Installation
+  05:00 Create a template
+  08:00 Usage</div>]]></description>
+      <pubDate>Sun, 02 Nov 2025 12:17:30 +0000</pubDate><category>yasnippet</category>
+    </item>
+    <item>
+      <title>Emacs For Writers Unit 8: Your First Configuration</title>
+      <link>https://www.youtube.com/watch?v=6yLmEGIIwb0</link>
+      <guid>https://www.youtube.com/watch?v=6yLmEGIIwb0</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=6yLmEGIIwb0">youtube</a><br><br>In this video, we will look at how you can configure your Emacs install with the magic configuration file. The "config" holds your user preferences. It's coded with Emacs Lisp.  You don't have to be an expert in Elisp to get started. You can start with my "darkstar" config or piece together examples from the Internet.
+
+  STARTER CONFIG:
+  https://github.com/cryptstopher/darkstar
+
+  EMACS FOR WRITERS HANDBOOK:
+  https://chris-maiorana.kit.com/products/emacs-for-writers
+
+  chrismaiorana.com</div>]]></description>
+      <pubDate>Fri, 31 Oct 2025 19:30:26 +0000</pubDate><category>configuration</category>
+<category>beginner</category>
+    </item>
+    <item>
+      <title>GNU Emacs do Zero - Episódio 01</title>
+      <link>https://youtu.be/jHTc2tiXt8M</link>
+      <guid>https://youtu.be/jHTc2tiXt8M</guid>
+      <description><![CDATA[<div id="content"><a href="https://youtu.be/jHTc2tiXt8M">youtube</a><br><br>Neste vídeo vamos aprender o básico do Emacs e já introduzir ao Org-mode.
+
+  ,#emacs #gnuemacs #gnu #development #developer #editor</div>]]></description>
+      <pubDate>Mon, 27 Oct 2025 16:03:02 +0000</pubDate>
+    </item>
+    <item>
       <title>أساسيات إيماكس كمحرر نصوص | The Basics of Emacs as a Text Editor</title>
       <link>https://www.youtube.com/watch?v=tBwu127eVyk</link>
       <guid>https://www.youtube.com/watch?v=tBwu127eVyk</guid>
@@ -50,6 +135,23 @@
 <category>corfu</category>
 <category>completion</category>
 <category>elisp</category>
+    </item>
+    <item>
+      <title>Hacking on Emacs #2: Enabling forge.fedoraproject.org support for git-link</title>
+      <link>https://www.youtube.com/watch?v=XkgymMFV1HQ</link>
+      <guid>https://www.youtube.com/watch?v=XkgymMFV1HQ</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=XkgymMFV1HQ">youtube</a><br><br>► Main channel: https://www.youtube.com/@jakubkadlcik
+  ► GitHub: https://github.com/FrostyX
+  ► Blog: https://frostyx.cz
+  ► Mastodon: https://fosstodon.org/@FrostyX</div>]]></description>
+      <pubDate>Sun, 26 Oct 2025 13:05:38 +0000</pubDate>
+    </item>
+    <item>
+      <title>Using Emacs and json-par-mode to navigate through records in a JSON file</title>
+      <link>https://www.youtube.com/watch?v=WDVCmJNDhDw</link>
+      <guid>https://www.youtube.com/watch?v=WDVCmJNDhDw</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=WDVCmJNDhDw">youtube</a><br><br>There are many applications that can help you browsing relatively complex JSON files. Emacs is one of a powerful choice.</div>]]></description>
+      <pubDate>Sun, 26 Oct 2025 10:37:44 +0000</pubDate><category>json</category>
     </item>
     <item>
       <title>Piping in and out of Emacs buffers.</title>
@@ -546,79 +648,6 @@
   I show how an LLM can help analyze data, suggest models, and then generate quantitative code to fit the data with that model.</div>]]></description>
       <pubDate>Tue, 23 Sep 2025 13:21:26 +0000</pubDate><category>ai</category>
 <category>gptel</category>
-    </item>
-    <item>
-      <title>Emacs as a Microsoft Word killer (Part 1)</title>
-      <link>https://youtu.be/hDvnX7RJojc</link>
-      <guid>https://youtu.be/hDvnX7RJojc</guid>
-      <description><![CDATA[<div id="content"><a href="https://youtu.be/hDvnX7RJojc">youtube</a><br><br>Emacs as a Microsoft Word killer OR as a bootstrap from writer to programmer
-  (Part 1)
-
-  - try package
-  - flyspell (spell checking)
-  - highlighting (not persistent)
-
-  Supporting me will inspire me to produce more quality content
-
-  Please show me some real actual monetary support. If there is some way to connect with an international Emacs community and make some money, please contact me.
-
-  Show some support by buying me coffee on my Ko-fi page just setup recently. (It has both Debit/Credit Card and Paypal options, with 0% fee)
-  https://ko-fi.com/ardiemejia83
-
-  Or can donate straight to my PayPal
-  https://paypal.me/ardiemejia83</div>]]></description>
-      <pubDate>Tue, 23 Sep 2025 01:12:00 +0000</pubDate><category>writing</category>
-<category>flyspell</category>
-    </item>
-    <item>
-      <title>Studying Strategy (in Emacs (for writing an OS))</title>
-      <link>https://www.youtube.com/watch?v=RVjGAbQKuCk</link>
-      <guid>https://www.youtube.com/watch?v=RVjGAbQKuCk</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=RVjGAbQKuCk">youtube</a><br><br>https://github.com/rajp152k/OSDev/blob/master/journal/0x2439.org
-
-  setting up a studying strat for this long term side project.
-
-  dotfiles : https://github.com/rajp152k/.dotfiles</div>]]></description>
-      <pubDate>Sun, 21 Sep 2025 15:03:46 +0000</pubDate><category>ai</category>
-    </item>
-    <item>
-      <title>eldoc-mouse demo overlay 2025 09 21 21 36 09</title>
-      <link>https://youtube.com/watch?v=XFAc4WyiJjI&amp;si=4-ZAZa6ihIbIg_O6</link>
-      <guid>https://youtube.com/watch?v=XFAc4WyiJjI&amp;si=4-ZAZa6ihIbIg_O6</guid>
-      <description><![CDATA[<div id="content"><a href="https://youtube.com/watch?v=XFAc4WyiJjI&si=4-ZAZa6ihIbIg_O6">youtube</a><br><br>The emacs package to show eglot eldoc document on a posframe for mouse hover.</div>]]></description>
-      <pubDate>Sun, 21 Sep 2025 13:54:18 +0000</pubDate><category>EldocMouse</category>
-    </item>
-    <item>
-      <title>Fix Messy wide Org Mode Tables in 5 Minutes - phscroll Tutorial for Emacs Users</title>
-      <link>https://www.youtube.com/watch?v=br4YJBIOMkM</link>
-      <guid>https://www.youtube.com/watch?v=br4YJBIOMkM</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=br4YJBIOMkM">youtube</a><br><br>Tired of unreadable tables in Org Mode? This quick tutorial shows you how to use the phscroll package to add smooth horizontal scrolling to your wide tables in Emacs.
-
-  🔧 What You'll Learn:
-  - Install and configure phscroll for Org mode
-  - Transform wrapped, messy tables into clean, scrollable data
-
-  🔗 Useful Links:
-  phscroll GitHub: https://github.com/misohena/phscroll
-  Org Mode Documentation: https://orgmode.org/
-  My Emacs Config: https://github.com/SamuelVanie/emacs
-
-  Perfect for data analysts, developers, researchers, and anyone who works with structured data in Emacs. No more fighting with text wrapping!</div>]]></description>
-      <pubDate>Sun, 21 Sep 2025 08:18:30 +0000</pubDate>
-    </item>
-    <item>
-      <title>Another minor issue with my use of svg-analog-clock.el</title>
-      <link>https://www.youtube.com/watch?v=3Tdz-4i8tHY</link>
-      <guid>https://www.youtube.com/watch?v=3Tdz-4i8tHY</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=3Tdz-4i8tHY">youtube</a><br><br>This is the fourth video about my using Ramin Honary's excellent svg-analog-clock in emacs</div>]]></description>
-      <pubDate>Sat, 20 Sep 2025 15:42:01 +0000</pubDate>
-    </item>
-    <item>
-      <title>eldoc mouse demo 2025 09 20 21 31 08</title>
-      <link>https://youtube.com/watch?v=aGsheHu7Esw&amp;si=NCsI13UJVVrKyqD-</link>
-      <guid>https://youtube.com/watch?v=aGsheHu7Esw&amp;si=NCsI13UJVVrKyqD-</guid>
-      <description><![CDATA[<div id="content"><a href="https://youtube.com/watch?v=aGsheHu7Esw&si=NCsI13UJVVrKyqD-">youtube</a><br><br>Emacs package eldoc-mouse show document for mouse hover.</div>]]></description>
-      <pubDate>Sat, 20 Sep 2025 13:36:50 +0000</pubDate><category>EldocMouse</category>
     </item>
   </channel>
 </rss>

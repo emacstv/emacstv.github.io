@@ -3,6 +3,98 @@
 #+PROPERTY: header-args:emacs-lisp+   :eval no
 
 
+* Quick Git Tip Using Magit Inside Emacs 2025_11_04_02:55:35   :magit:
+:PROPERTIES:
+:DATE:     2025-11-03T13:38:18-08:00
+:DURATION: 2:48
+:YOUTUBE_URL: https://www.youtube.com/watch?v=1GVoHtZjGlw
+:SPEAKERS: Bhaskar Chowdhury  ...Musing with GNU_Linux!!
+:END:
+  In this video, you will see,
+
+  ,#linux #linuxadmin #sysadmin #opensource #Gentoo #Debian #Slackware #research
+  ,#linuxkernel #kernel #gnu #Linux #GNU #shorts
+
+  Buy Me A Coffee: https://www.buymeacoffee.com/unixbhaskar
+  Patreon: https://www.patreon.com/unixbhaskar
+  Paypal: https://paypal.me/linuxbhaskar
+
+  You can also find me :
+
+  GitHub: https://github.com/unixbhaskar
+
+  Reddit: https://www.reddit.com/user/unixbhaskar
+
+  Blogs: https://unixbhaskar.wordpress.com
+
+  Twitter: https://twitter.com/unixbhaskar
+
+  Linkedin: https://linkedin.com/in/unixbhaskar
+
+  Vimeo: https://vimeo.com/unixbhaskar
+
+  Goodreads: https://goodreads.com/unixbhaskar
+
+* A Useful Templating System in Emacs  :yasnippet:
+:PROPERTIES:
+:DATE:     2025-11-02T04:17:30-08:00
+:DURATION: 9:20
+:YOUTUBE_URL: https://www.youtube.com/watch?v=0qEHgiaSnsw
+:SPEAKERS: hexdump
+:END:
+  Let's see a package in Emacs, YASnippet, which offers a powerful templating system.
+
+  Discover YASnippet:
+  - https://github.com/joaotavora/yasnippet
+
+  Support my effort :)
+  - https://www.patreon.com/hexdump
+
+  Learn Web Application Security:
+  - https://www.udemy.com/course/practical-wapt/?referralCode=15450B3828BA5A3B23CB
+
+  Learn Linux Privilege Escalation:
+  - https://www.udemy.com/course/linux-privesc/?couponCode=33738F67D2C09EB25600
+
+  Official Forum and Website:
+  - https://forum.hexdump.sh
+  - https://hexdump.sh
+
+  TIMESTAMPS
+
+  00:00 What is YASnippet?
+  03:00 Installation
+  05:00 Create a template
+  08:00 Usage
+
+* Emacs For Writers Unit 8: Your First Configuration  :configuration:beginner:
+:PROPERTIES:
+:DATE:     2025-10-31T12:30:26-07:00
+:DURATION: 6:55
+:YOUTUBE_URL: https://www.youtube.com/watch?v=6yLmEGIIwb0
+:SPEAKERS: Chris Maiorana
+:END:
+  In this video, we will look at how you can configure your Emacs install with the magic configuration file. The "config" holds your user preferences. It's coded with Emacs Lisp.  You don't have to be an expert in Elisp to get started. You can start with my "darkstar" config or piece together examples from the Internet.
+
+  STARTER CONFIG:
+  https://github.com/cryptstopher/darkstar
+
+  EMACS FOR WRITERS HANDBOOK:
+  https://chris-maiorana.kit.com/products/emacs-for-writers
+
+  chrismaiorana.com
+
+* GNU Emacs do Zero - Episódio 01
+:PROPERTIES:
+:DATE:     2025-10-27T09:03:02-07:00
+:DURATION: 7:06
+:YOUTUBE_URL: https://youtu.be/jHTc2tiXt8M
+:SPEAKERS: Lobo
+:END:
+  Neste vídeo vamos aprender o básico do Emacs e já introduzir ao Org-mode.
+
+  ,#emacs #gnuemacs #gnu #development #developer #editor
+
 * أساسيات إيماكس كمحرر نصوص | The Basics of Emacs as a Text Editor
 :PROPERTIES:
 :DATE:     2025-10-27T01:42:50-07:00
@@ -49,6 +141,29 @@
     (global-corfu-mode)
     (corfu-popupinfo-mode) ;; this is for show document for candidate
     )
+
+* Hacking on Emacs #2: Enabling forge.fedoraproject.org support for git-link
+:PROPERTIES:
+:DATE:     2025-10-26T06:05:38-07:00
+:DURATION: 34:39
+:YOUTUBE_URL: https://www.youtube.com/watch?v=XkgymMFV1HQ
+:SPEAKERS: FrostyX unscripted
+:END:
+
+
+  ► Main channel: https://www.youtube.com/@jakubkadlcik
+  ► GitHub: https://github.com/FrostyX
+  ► Blog: https://frostyx.cz
+  ► Mastodon: https://fosstodon.org/@FrostyX
+
+* Using Emacs and json-par-mode to navigate through records in a JSON file   :json:
+:PROPERTIES:
+:DATE:     2025-10-26T03:37:44-07:00
+:DURATION: 0:46
+:YOUTUBE_URL: https://www.youtube.com/watch?v=WDVCmJNDhDw
+:SPEAKERS: veer66
+:END:
+  There are many applications that can help you browsing relatively complex JSON files. Emacs is one of a powerful choice.
 
 * Piping in and out of Emacs buffers.
 :PROPERTIES:
@@ -38680,6 +38795,19 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
   results, and even output publication-quality documents. Raymond
   referenced a previous EmacsNYC talk Evan Misshula gave about
   reproducible research: https://www.youtube.com/watch?v=CGnt_PWoM5Y
+
+* Writing Music in Emacs   :music:
+:PROPERTIES:
+:DATE:     2021-09-08T17:54:35-07:00
+:DURATION: 14:08
+:YOUTUBE_URL: https://www.youtube.com/watch?v=gimjJH73wxI
+:SPEAKERS: Emacs NYC
+:END:
+  Lightning Talk by Zachary Kanfer
+
+  Recorded on November 2, 2020
+
+  Zachary presented his solution to boredom during quarantine: his software to compose looping music in Emacs. He had to dive into WAVE files to create it. Find it at https://hg.sr.ht/~zck/zmusic.
 
 * Improving EXWM #2 // Hack Sessions                                   :exwm:
 :PROPERTIES:

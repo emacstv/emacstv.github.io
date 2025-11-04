@@ -1,5 +1,47 @@
 [
   {
+    "ITEM": "Quick Git Tip Using Magit Inside Emacs 2025_11_04_02:55:35",
+    "DATE": "2025-11-03T13:38:18-08:00",
+    "DURATION": "2:48",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=1GVoHtZjGlw",
+    "SPEAKERS": "Bhaskar Chowdhury  ...Musing with GNU_Linux!!",
+    "TAGS": [
+      "magit"
+    ],
+    "BODY": "In this video, you will see,\n\n  ,#linux #linuxadmin #sysadmin #opensource #Gentoo #Debian #Slackware #research\n  ,#linuxkernel #kernel #gnu #Linux #GNU #shorts\n\n  Buy Me A Coffee: https://www.buymeacoffee.com/unixbhaskar\n  Patreon: https://www.patreon.com/unixbhaskar\n  Paypal: https://paypal.me/linuxbhaskar\n\n  You can also find me :\n\n  GitHub: https://github.com/unixbhaskar\n\n  Reddit: https://www.reddit.com/user/unixbhaskar\n\n  Blogs: https://unixbhaskar.wordpress.com\n\n  Twitter: https://twitter.com/unixbhaskar\n\n  Linkedin: https://linkedin.com/in/unixbhaskar\n\n  Vimeo: https://vimeo.com/unixbhaskar\n\n  Goodreads: https://goodreads.com/unixbhaskar"
+  },
+  {
+    "ITEM": "A Useful Templating System in Emacs",
+    "DATE": "2025-11-02T04:17:30-08:00",
+    "DURATION": "9:20",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=0qEHgiaSnsw",
+    "SPEAKERS": "hexdump",
+    "TAGS": [
+      "yasnippet"
+    ],
+    "BODY": "Let's see a package in Emacs, YASnippet, which offers a powerful templating system.\n\n  Discover YASnippet:\n  - https://github.com/joaotavora/yasnippet\n\n  Support my effort :)\n  - https://www.patreon.com/hexdump\n\n  Learn Web Application Security:\n  - https://www.udemy.com/course/practical-wapt/?referralCode=15450B3828BA5A3B23CB\n\n  Learn Linux Privilege Escalation:\n  - https://www.udemy.com/course/linux-privesc/?couponCode=33738F67D2C09EB25600\n\n  Official Forum and Website:\n  - https://forum.hexdump.sh\n  - https://hexdump.sh\n\n  TIMESTAMPS\n\n  00:00 What is YASnippet?\n  03:00 Installation\n  05:00 Create a template\n  08:00 Usage"
+  },
+  {
+    "ITEM": "Emacs For Writers Unit 8: Your First Configuration",
+    "DATE": "2025-10-31T12:30:26-07:00",
+    "DURATION": "6:55",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=6yLmEGIIwb0",
+    "SPEAKERS": "Chris Maiorana",
+    "TAGS": [
+      "configuration",
+      "beginner"
+    ],
+    "BODY": "In this video, we will look at how you can configure your Emacs install with the magic configuration file. The \"config\" holds your user preferences. It's coded with Emacs Lisp.  You don't have to be an expert in Elisp to get started. You can start with my \"darkstar\" config or piece together examples from the Internet.\n\n  STARTER CONFIG:\n  https://github.com/cryptstopher/darkstar\n\n  EMACS FOR WRITERS HANDBOOK:\n  https://chris-maiorana.kit.com/products/emacs-for-writers\n\n  chrismaiorana.com"
+  },
+  {
+    "ITEM": "GNU Emacs do Zero - Episódio 01",
+    "DATE": "2025-10-27T09:03:02-07:00",
+    "DURATION": "7:06",
+    "YOUTUBE_URL": "https://youtu.be/jHTc2tiXt8M",
+    "SPEAKERS": "Lobo",
+    "BODY": "Neste vídeo vamos aprender o básico do Emacs e já introduzir ao Org-mode.\n\n  ,#emacs #gnuemacs #gnu #development #developer #editor"
+  },
+  {
     "ITEM": "أساسيات إيماكس كمحرر نصوص | The Basics of Emacs as a Text Editor",
     "DATE": "2025-10-27T01:42:50-07:00",
     "DURATION": "19:35",
@@ -20,6 +62,25 @@
       "elisp"
     ],
     "BODY": "I just learned that we can show the document for the candidate as we move through the candidates list of company/corfu.\n  For company, it requires either of the following packages to show document for candidate\n  1. https://github.com/company-mode/company-quickhelp or\n  2. https://github.com/sebastiencs/company-box\n  For Corfu, not additional package is needed. just add (corfu-popupinfo-mode) in \"init\"\n  (use-package corfu\n    :custom\n    (corfu-cycle t)\n    (corfu-preview-current nil)\n    :init\n    (global-corfu-mode)\n    (corfu-popupinfo-mode) ;; this is for show document for candidate\n    )"
+  },
+  {
+    "ITEM": "Hacking on Emacs #2: Enabling forge.fedoraproject.org support for git-link",
+    "DATE": "2025-10-26T06:05:38-07:00",
+    "DURATION": "34:39",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=XkgymMFV1HQ",
+    "SPEAKERS": "FrostyX unscripted",
+    "BODY": "► Main channel: https://www.youtube.com/@jakubkadlcik\n  ► GitHub: https://github.com/FrostyX\n  ► Blog: https://frostyx.cz\n  ► Mastodon: https://fosstodon.org/@FrostyX"
+  },
+  {
+    "ITEM": "Using Emacs and json-par-mode to navigate through records in a JSON file",
+    "DATE": "2025-10-26T03:37:44-07:00",
+    "DURATION": "0:46",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=WDVCmJNDhDw",
+    "SPEAKERS": "veer66",
+    "TAGS": [
+      "json"
+    ],
+    "BODY": "There are many applications that can help you browsing relatively complex JSON files. Emacs is one of a powerful choice."
   },
   {
     "ITEM": "Piping in and out of Emacs buffers.",
@@ -20046,6 +20107,17 @@
     "YOUTUBE_URL": "https://www.youtube.com/watch?v=mcEZgXmjRHM",
     "SPEAKERS": "Emacs NYC",
     "BODY": "A lightning Talk by Raymond Puzio\n\n  Recorded on November 2, 2020\n\n  Raymond presented his notebook software that uses Emacs to bring\n  together multiple programs to make a single set of computations. It's\n  able to pass data back and forth between these programs, generate\n  results, and even output publication-quality documents. Raymond\n  referenced a previous EmacsNYC talk Evan Misshula gave about\n  reproducible research: https://www.youtube.com/watch?v=CGnt_PWoM5Y"
+  },
+  {
+    "ITEM": "Writing Music in Emacs",
+    "DATE": "2021-09-08T17:54:35-07:00",
+    "DURATION": "14:08",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=gimjJH73wxI",
+    "SPEAKERS": "Emacs NYC",
+    "TAGS": [
+      "music"
+    ],
+    "BODY": "Lightning Talk by Zachary Kanfer\n\n  Recorded on November 2, 2020\n\n  Zachary presented his solution to boredom during quarantine: his software to compose looping music in Emacs. He had to dive into WAVE files to create it. Find it at https://hg.sr.ht/~zck/zmusic."
   },
   {
     "ITEM": "Improving EXWM #2 // Hack Sessions",
