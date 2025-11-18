@@ -6,6 +6,130 @@
     <atom:link href="https://emacs.tv/videos.rss" rel="self" type="application/rss+xml" />
     <description>Emacs videos</description>
     <item>
+      <title>GNU Emacs do Zero - Episódio 02</title>
+      <link>https://www.youtube.com/watch?v=NnrConrvGxg</link>
+      <guid>https://www.youtube.com/watch?v=NnrConrvGxg</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=NnrConrvGxg">youtube</a><br><br>Neste segundo episódio da série GNU Emacs do Zero, você vai compreender melhor como funciona o ELisp entre tantas outras teclas atalhos e edição com org-mode e org-agenda.
+
+  Manual oficial do Elisp: https://www.gnu.org/software/emacs/manual/html_node/eintr/
+
+  Curso completo de Emacs Lisp do @blauaraujocursos  https://youtu.be/5vSdG9n9c7c?si=CLiBFdH26Xggn2zu</div>]]></description>
+      <pubDate>Sun, 16 Nov 2025 01:13:30 +0000</pubDate><category>beginner</category>
+    </item>
+    <item>
+      <title>Creating an Emacs Package from Concept to MELPA (Part 1)</title>
+      <link>https://www.youtube.com/watch?v=l6o13pLo_Ms</link>
+      <guid>https://www.youtube.com/watch?v=l6o13pLo_Ms</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=l6o13pLo_Ms">youtube</a><br><br>In this series we will be developing the rare-words Emacs package, a package that highlights rare words in your Emacs buffer, and then trying to publish it to MELPA.</div>]]></description>
+      <pubDate>Sat, 15 Nov 2025 20:10:38 +0000</pubDate><category>elisp</category>
+    </item>
+    <item>
+      <title>Emacs lisp and gptel building custom llm tools to call emacs functions</title>
+      <link>https://www.youtube.com/watch?v=M386KUIh3Xc</link>
+      <guid>https://www.youtube.com/watch?v=M386KUIh3Xc</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=M386KUIh3Xc">youtube</a><br><br>Using Emacs with the gptel package we can create gpt-tools for llms that call emacs functions to provide the llm with information about our emacs set up
+
+  i was thinking couldnt you write emacs gptel-tools for llms and did a quick search and came across the emacs-mcp mcp server which wasnt quite what i was after.
+
+  so i refactored the code from the emacs-mcp package into the gptel-tool format for use with the gptel package and llms that support tool usage like llama and gemini
+
+  i created a gptel-custom-tools.el file with 32 gptel-tools for emacs which can be loaded using the gptel use package code block
+
+  the gptel-tools allow the llm to report the state of your emacs set up by listing installed packages, modes and variables. as well as reading the manuals and looking up docstrings for elisp symbols
+
+  refactored from mpontus emacs-mcp package
+
+  emacs-mcp
+  https://github.com/mpontus/emacs-mcp
+
+  gptel-custom-tools.el
+  https://github.com/NapoleonWils0n/nixos-dotfiles/blob/master/.config/emacs/lisp/gptel-custom-tools.el
+
+  early-init.el
+  https://github.com/NapoleonWils0n/nixos-dotfiles/blob/master/.config/emacs/early-init.el
+
+  init.el
+  https://github.com/NapoleonWils0n/nixos-dotfiles/blob/master/.config/emacs/init.el
+
+  ollama
+  https://ollama.com/library/llama3.1
+  https://ollama.com/library/llama3.2
+
+  dotfiles org mode
+  https://github.com/NapoleonWils0n/nixos-dotfiles/blob/master/nixos-dotfiles.org
+
+  https://github.com/NapoleonWils0n/nixos-dotfiles/blob/master/nixos-dotfiles.org#auth-source
+
+  https://github.com/NapoleonWils0n/nixos-dotfiles/blob/master/nixos-dotfiles.org#lisp-directory
+
+  https://github.com/NapoleonWils0n/nixos-dotfiles/blob/master/nixos-dotfiles.org#gptel-custom-toolsel</div>]]></description>
+      <pubDate>Fri, 14 Nov 2025 21:08:08 +0000</pubDate><category>ai</category>
+<category>gptel</category>
+    </item>
+    <item>
+      <title>AI Augmented, Language Agnostic, SWE Workflow, in Emacs</title>
+      <link>https://www.youtube.com/watch?v=kpExav29OjM</link>
+      <guid>https://www.youtube.com/watch?v=kpExav29OjM</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=kpExav29OjM">youtube</a><br><br>https://aider.chat/
+  https://github.com/MatthewZMD/aidermacs
+  https://opensource.com/article/18/8/what-how-makefile
+
+  https://github.com/rajp152k/.dotfiles</div>]]></description>
+      <pubDate>Fri, 14 Nov 2025 09:30:37 +0000</pubDate><category>ai</category>
+    </item>
+    <item>
+      <title>Ancient Greek Tweaks in Emacs</title>
+      <link>https://www.youtube.com/watch?v=oToTtoK1PQ0</link>
+      <guid>https://www.youtube.com/watch?v=oToTtoK1PQ0</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=oToTtoK1PQ0">youtube</a><br><br>How to get Ancient Greek to work flawlessly in Emacs
+  https://github.com/emacselements/my-ancient-greek-tweaks
+  https://github.com/emacselements/screenshot-ocr
+  My website: https://emacselements.com/</div>]]></description>
+      <pubDate>Fri, 14 Nov 2025 08:50:36 +0000</pubDate><category>writing</category>
+<category>greek</category>
+    </item>
+    <item>
+      <title>Ep712 Emacs Lisp, Move File to Parent Dir. car cdr cons, Supreme Functional Programing No Variable</title>
+      <link>https://www.youtube.com/watch?v=n_JUKfSf8sc</link>
+      <guid>https://www.youtube.com/watch?v=n_JUKfSf8sc</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=n_JUKfSf8sc">youtube</a><br><br>Video Summary (Generated by AI, Editedby Human.)
+
+  In this video, Xah Lee codes in Emacs Lisp to create a command that moves files or marked files to their parent directory (0:08).
+
+  Here's a breakdown of the video's content:
+
+  • Demonstration of manual file movement in Emacs Dired (1:02): The speaker first demonstrates the manual process of moving files in Emacs's Dired mode, which involves splitting windows, navigating directories, marking files, and using the capital R key to move them (1:02-2:08).
+  • He emphasizes the desire to automate this process with a single command (2:12).
+  • Introduction to Dired and File Managers (3:28): The speaker explains Dired as Emacs's directory editor, which is essentially a file manager.
+  • He compares it to Windows File Explorer, Mac Finder, and various Linux file managers (3:28-4:32).
+  • Getting a list of marked files (5:02): The first step in coding the command is to get a list of files that are currently marked in Dired.
+  • If no files are marked, the file under the cursor is considered the "current file" (5:02-6:10).
+  • The dired-get-marked-files command is used for this purpose (7:21).
+  • Finding the parent directory (9:25): The speaker then looks for the function to find the parent directory of a given file path.
+  • He refers to his own Emacs Lisp tutorial for this (9:32-11:58).
+  • He identifies file-name-directory as the function to get the directory of a file and later introduces file-name-parent-directory for obtaining the parent directory specifically (52:22).
+  • Renaming/Moving files with rename-file (12:50): The rename-file command is introduced as the way to move or rename files, following Unix conventions (13:13).
+  • Discussion on car and cdr in Lisp (15:22): A significant portion of the video is dedicated to explaining car and cdr (pronounced "car" and "carder" by the speaker) in Lisp.
+  • Cons Cells: He explains that Lisp lists are fundamentally built from "cons cells," which are pairs of two things (17:45).
+  • car refers to the first part of a cons cell, and cdr refers to the second part (20:16-20:58).
+  • Nesting for Lists: Lists are formed by nesting these cons cells (21:56).
+  • Historical Context: The speaker provides historical context, explaining that this design originated from early Lisp machines that had hardware optimized for these two-part cells (23:41).
+  • Modern Alternatives: He advises against using the nested car and cdr functions (like cadr or cddar) for accessing elements in a list, calling them "idiotic" and "silly" (28:18-33:11).
+  • Instead, he recommends using higher-level functions like nth for direct access (33:37) and push and pop for stack-like operations (36:56).
+  • List Traversal and Efficiency: He highlights that functions like length for lists are inefficient because they have to traverse each element, which is a nature of Lisp's linked list implementation (38:55).
+  • Completing the file movement command (42:30): The speaker proceeds to finalize the Emacs Lisp command, using mapc to apply the rename-file function to each selected file, concatenating the parent directory with the file's name (55:57).
+  • Testing the command (56:30): The command is successfully tested by moving a file to its parent directory and then moving it back (56:30-58:06).
+  • Refinement and Future Improvements (58:11): The speaker notes that the command could be further refined by adding error checking for root directories and printing messages about the move (58:11).
+  • He also discusses simplifying the code by removing unnecessary variables (59:23) and functional programing technique to not use any variable or constant.
+
+  Notes at
+  http ://xahlee .info/talk_show/xah_talk_show_ep712.html
+  Copy the link, remove spaces, paste the link in browser tab.
+  Google Chrome and Firefox browsers censor websites by auto adding s in http and says the site Secure Connection Failed.
+  Use Brave Browser or Safari.</div>]]></description>
+      <pubDate>Thu, 13 Nov 2025 18:25:11 +0000</pubDate><category>elisp</category>
+    </item>
+    <item>
       <title>Effective Golang in Emacs</title>
       <link>https://www.youtube.com/watch?v=p_xX_vX8M7g</link>
       <guid>https://www.youtube.com/watch?v=p_xX_vX8M7g</guid>
@@ -155,6 +279,22 @@
 
   I dive into my personal workflow, explaining the history and practical reasons for choosing a text-based approach (hint: it's a historical happy accident that was supported by it being fun, fully customizable, and better than the other options I tried). I also reveal the secret to taming graph complexity, which involves good modular design, the "use it or lose it" principle, and leveraging SPARQL queries to serve as your method for learning the vocabula. Whether you're a Semantic Web veteran or just starting with knowledge graphs, this covers the critical strategies for scaling your data modeling efforts.</div>]]></description>
       <pubDate>Tue, 04 Nov 2025 13:01:02 +0000</pubDate>
+    </item>
+    <item>
+      <title>Easy Setup for Drew Adams&apos; Essential Emacs Packages on Emacswiki</title>
+      <link>https://www.youtube.com/watch?v=EVjJMssj5iA</link>
+      <guid>https://www.youtube.com/watch?v=EVjJMssj5iA</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=EVjJMssj5iA">youtube</a><br><br>Learn how to automatically download and configure 39 powerful Emacs packages from Drew Adams, including Icicles (interactive completion), Bookmark+, Dired+, and more. This video shows you:
+
+  - How to use the automated download script
+  - Where packages are installed (~/.emacs.d/wiki/)
+  - Basic Emacs configuration to get started
+  - Command-line options for the script
+
+  https://github.com/emacselements/emacswiki-packages
+
+  My website: https://emacselements.com/</div>]]></description>
+      <pubDate>Tue, 04 Nov 2025 02:40:43 +0000</pubDate>
     </item>
     <item>
       <title>Never stop writing in Emacs (productive transparency!)</title>
@@ -578,129 +718,6 @@
 
   In this video, I walk through my personal collection of GitHub repositories, each designed to streamline and enhance your Emacs experience or automate daily tasks. The repo also some interesting Shell Scripts and  Python Apps, notably: Redactor, Video-Sorter, and Image-Viewer.</div>]]></description>
       <pubDate>Thu, 16 Oct 2025 14:41:06 +0000</pubDate>
-    </item>
-    <item>
-      <title>Linux Mint: Set Up Python, R , duckdb and Emacs</title>
-      <link>https://www.youtube.com/watch?v=5pSbRSDHtsY</link>
-      <guid>https://www.youtube.com/watch?v=5pSbRSDHtsY</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=5pSbRSDHtsY">youtube</a><br><br>,#lunuxmint, #python, #rlanguage, #duckdb, #emacs
-  Linux Mint: Set Up Python, R , duckdb and Emacs
-  This stream is created with #PRISMLiveStudio</div>]]></description>
-      <pubDate>Thu, 16 Oct 2025 07:54:12 +0000</pubDate>
-    </item>
-    <item>
-      <title>Emacs Adventure | Exploring Vanilla Emacs</title>
-      <link>https://www.youtube.com/watch?v=fGEtK9JsfKc</link>
-      <guid>https://www.youtube.com/watch?v=fGEtK9JsfKc</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=fGEtK9JsfKc">youtube</a><br><br>🔥 Turn your terminal into a coding playground! Ever wondered what makes a 40-year-old text editor still relevant in 2025? Join me as we dive into GNU Emacs and explore the tools of the trade!
-
-  What You'll Learn:
-  ✅ Install Emacs on Linux, Mac, and Windows
-  ✅ Master essential navigation and keybindings
-  ✅ Set up Python development with LSP (Language Server Protocol)
-  ✅ Code JavaScript with intelligent features
-  ✅ Create HTML/CSS projects with web-mode
-  ✅ Build your first custom Emacs configuration
-
-  ⚡ Quick Start Commands:
-
-  sudo apt install emacs          # Linux
-  brew install --cask emacs       # Mac
-  ,# Windows: Download from gnu.org/software/emacs
-
-  ,# Essential Keys
-  C-x C-f    # Open file
-  C-x C-s    # Save
-  C-x C-c    # Quit
-  C-s        # Search
-
-  📚 Resources:
-  - GNU Emacs Official: https://www.gnu.org/software/emacs/
-  - MELPA Packages: https://melpa.org/
-  - LSP Mode Documentation: https://emacs-lsp.github.io/lsp-mode/
-  - Org Mode Documentation: https://orgmode.org/index.html
-
-  🎯 Perfect for:
-  - Developers curious about emacs
-  - Anyone wanting a single app to do everything in development workflow
-
-  ⏱️ Timestamps:
-
-  📱 Connect With Me:
-  - Subscribe for weekly tech experiments
-  - LinkedIn: https://www.linkedin.com/in/kiran-capoor/
-  - Twitter: https://x.com/ctrlalttechwk
-
-  🎬 Filmed with: OBS Studio, Terminal recordings at 1920x1080
-
-  No editors were harmed in the making of this video. All tools have their place in the developer ecosystem! 😄
-
-  Difficulty: Beginner
-  Prerequisites: Basic terminal familiarity
-
-  Support the Channel: If this helped you discover something new, the best support is hitting subscribe and sharing with fellow developers who love experimenting with their tools or buying me a coffee - https://buymeacoffee.com/ctrlalttech
-
-  Remember: In Engineering, there are no failures – only discoveries! 🧪⚡
-
-  ,#emacs  #texteditor #ctrlalttech</div>]]></description>
-      <pubDate>Wed, 15 Oct 2025 11:45:08 +0000</pubDate><category>beginner</category>
-    </item>
-    <item>
-      <title>Bending Emacs - Episode 03: Git clone (the lazy way)</title>
-      <link>https://youtu.be/oYHlH9NWraM</link>
-      <guid>https://youtu.be/oYHlH9NWraM</guid>
-      <description><![CDATA[<div id="content"><a href="https://youtu.be/oYHlH9NWraM">youtube</a><br><br>In this video, I show how I turned a handful of small little steps into an expedited git clone flow.
-
-  Snippet and details at corresponding blog post https://xenodium.com/bending-emacs-episode-3-git-clone-the-lazy-way
-
-  With enough interest, I'll continue making videos. If you enjoy this content, please don't forget to like, susbcribe to my channel, and leave me comments.
-
-  Thank you!</div>]]></description>
-      <pubDate>Wed, 15 Oct 2025 11:43:33 +0000</pubDate>
-    </item>
-    <item>
-      <title>Modeling bioreactor data with an LLM in Emacs</title>
-      <link>https://www.youtube.com/watch?v=NR9Buy3fFwI</link>
-      <guid>https://www.youtube.com/watch?v=NR9Buy3fFwI</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=NR9Buy3fFwI">youtube</a><br><br>We show how to use an LLM to examine synthetic data from a bioreactor for biomass and substrate concentrations over time. We use the LLM to graph the data with Python, suggest models for the data, and then to fit the data to extract parameters. There are a few wrinkles with the specific integration of emacs-jupyter and org-mode, but we get to a satisfactory result at the end.</div>]]></description>
-      <pubDate>Sat, 11 Oct 2025 18:33:22 +0000</pubDate><category>ai</category>
-    </item>
-    <item>
-      <title>My-whisper: A simple Emacs package that provides speech-to-text functionality using Whisper.cpp.</title>
-      <link>https://www.youtube.com/watch?v=YNtrl9bkjyE</link>
-      <guid>https://www.youtube.com/watch?v=YNtrl9bkjyE</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=YNtrl9bkjyE">youtube</a><br><br>An Emaca Package capable of near 100% accuracy, even with technical names and Proper Nouns.
-
-  https://github.com/emacselements/my-whisper
-  My website: https://emacselements.com/</div>]]></description>
-      <pubDate>Sat, 11 Oct 2025 13:59:22 +0000</pubDate><category>whisper</category>
-    </item>
-    <item>
-      <title>Nerding out about dotfiles, Qtile, Tmux, and Emacs</title>
-      <link>https://www.youtube.com/watch?v=FGiH06vtuFI</link>
-      <guid>https://www.youtube.com/watch?v=FGiH06vtuFI</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=FGiH06vtuFI">youtube</a><br><br>Trying to explain my setup and workflows
-
-  00:00:00 Back in my day
-  00:10:37 Linux distributions doesn't matter
-  00:17:12 Qtile
-  00:49:44 Terminal emulators and Tmux
-  01:01:55 Emacs
-  01:35:24 Stow and Ansible playbooks
-
-  ► Main channel: https://www.youtube.com/@jakubkadlcik
-  ► GitHub: https://github.com/FrostyX
-  ► Blog: https://frostyx.cz
-  ► Mastodon: https://fosstodon.org/@FrostyX</div>]]></description>
-      <pubDate>Sat, 11 Oct 2025 10:00:32 +0000</pubDate><category>configuration</category>
-    </item>
-    <item>
-      <title>Ollama tool use demo on Android Emacs 30.1</title>
-      <link>https://www.youtube.com/watch?v=v_j7HQpFnow</link>
-      <guid>https://www.youtube.com/watch?v=v_j7HQpFnow</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=v_j7HQpFnow">youtube</a><br><br></div>]]></description>
-      <pubDate>Fri, 10 Oct 2025 12:42:13 +0000</pubDate><category>ai</category>
-<category>ollama</category>
     </item>
   </channel>
 </rss>
