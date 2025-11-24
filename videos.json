@@ -1,5 +1,38 @@
 [
   {
+    "ITEM": "Emacs For Writers Unit 11: Word Counters and Line Numbers",
+    "DATE": "2025-11-23T13:01:57-08:00",
+    "DURATION": "8:47",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=WEVm2AxbBGc",
+    "SPEAKERS": "Chris Maiorana",
+    "TAGS": [
+      "writing"
+    ],
+    "BODY": "Writers need to track word counts for submissions and goals.  Emacs provides count-words (M-=) for accurate counts and display-line-numbers-mode for line tracking.  Relative line numbering shows distances from the current line.  While dynamic counting can slow larger documents, the built-in functions provide reliable metrics when needed.\n\n  EMACS FOR WRITERS HANDBOOK:\n  https://chris-maiorana.kit.com/products/emacs-for-writers\n\n  chrismaiorana.com"
+  },
+  {
+    "ITEM": "MX LInux: Midnight Madness (Python, Emacs, duckdb)",
+    "DATE": "2025-11-21T10:57:55-08:00",
+    "DURATION": "33:23",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=VHb8AZXLmAs",
+    "SPEAKERS": "Precision Data Analytics",
+    "TAGS": [
+      "coding"
+    ],
+    "BODY": "MX LInux: Midnight Madness (Python, Emacs, duckdb)\n  This stream is created with #PRISMLiveStudio"
+  },
+  {
+    "ITEM": "Emacs For Writers Unit 10: Text Expansion with Abbrev Mode",
+    "DATE": "2025-11-17T13:04:05-08:00",
+    "DURATION": "7:38",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=G5jmVz2FWpg",
+    "SPEAKERS": "Chris Maiorana",
+    "TAGS": [
+      "abbrev"
+    ],
+    "BODY": "Text expansion in Emacs is easy.  With \"abbrev mode\" you can easily take a small abbreviated text snippet and expand it into almost anything. This is great for creating shortcuts for complicated word spellings or for auto correct options in Emacs. Check it out.\n\n  EMACS FOR WRITERS HANDBOOK:\n  https://chris-maiorana.kit.com/products/emacs-for-writers\n\n  chrismaiorana.com"
+  },
+  {
     "ITEM": "GNU Emacs do Zero - Episódio 02",
     "DATE": "2025-11-15T17:13:30-08:00",
     "DURATION": "19:17",
@@ -34283,10 +34316,13 @@
     "DATE": "2008-04-09T18:21:14+00:00",
     "DURATION": "3:19",
     "SPEAKERS": "mdipierro",
+    "TAGS": [
+      "shell"
+    ],
     "BODY": "This is a follow up to the \"Shootout\" tutorial that shows you how to use a shell and a commands line editor instead of the web based administrative interface. Works even if you run the binary distribution. -h for all command line options."
   },
   {
-    "ITEM": "sketchbook.rb  :coding:ruby:dev:",
+    "ITEM": "sketchbook.rb",
     "DATE": "2008-02-05T10:09:29+00:00",
     "DURATION": "0:48",
     "SPEAKERS": "koyachi",

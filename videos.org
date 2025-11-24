@@ -3,6 +3,43 @@
 #+PROPERTY: header-args:emacs-lisp+   :eval no
 
 
+* Emacs For Writers Unit 11: Word Counters and Line Numbers  :writing:
+:PROPERTIES:
+:DATE:     2025-11-23T13:01:57-08:00
+:DURATION: 8:47
+:YOUTUBE_URL: https://www.youtube.com/watch?v=WEVm2AxbBGc
+:SPEAKERS: Chris Maiorana
+:END:
+  Writers need to track word counts for submissions and goals.  Emacs provides count-words (M-=) for accurate counts and display-line-numbers-mode for line tracking.  Relative line numbering shows distances from the current line.  While dynamic counting can slow larger documents, the built-in functions provide reliable metrics when needed.
+
+  EMACS FOR WRITERS HANDBOOK:
+  https://chris-maiorana.kit.com/products/emacs-for-writers
+
+  chrismaiorana.com
+
+* MX LInux: Midnight Madness (Python, Emacs, duckdb)  :coding:
+:PROPERTIES:
+:DATE:     2025-11-21T10:57:55-08:00
+:DURATION: 33:23
+:YOUTUBE_URL: https://www.youtube.com/watch?v=VHb8AZXLmAs
+:SPEAKERS: Precision Data Analytics
+:END:
+  MX LInux: Midnight Madness (Python, Emacs, duckdb)
+  This stream is created with #PRISMLiveStudio
+* Emacs For Writers Unit 10: Text Expansion with Abbrev Mode  :abbrev:
+:PROPERTIES:
+:DATE:     2025-11-17T13:04:05-08:00
+:DURATION: 7:38
+:YOUTUBE_URL: https://www.youtube.com/watch?v=G5jmVz2FWpg
+:SPEAKERS: Chris Maiorana
+:END:
+  Text expansion in Emacs is easy.  With "abbrev mode" you can easily take a small abbreviated text snippet and expand it into almost anything. This is great for creating shortcuts for complicated word spellings or for auto correct options in Emacs. Check it out.
+
+  EMACS FOR WRITERS HANDBOOK:
+  https://chris-maiorana.kit.com/products/emacs-for-writers
+
+  chrismaiorana.com
+
 * GNU Emacs do Zero - Episódio 02   :beginner:
 :PROPERTIES:
 :DATE:     2025-11-15T17:13:30-08:00
@@ -65197,7 +65234,7 @@ Using restclient within emacs...
 :END:
   Rich, composable systems are the way to go--in programming languages, libraries, and interface metaphors. This short screencast looks at the latter, comparing TextMate and Emacs.
 
-* using a shell and emacs with wep2py
+* using a shell and emacs with wep2py  :shell:
 :PROPERTIES:
 :DATE:     2008-04-09T18:21:14+00:00
 :DURATION: 3:19
@@ -65206,7 +65243,7 @@ Using restclient within emacs...
 :END:
   This is a follow up to the "Shootout" tutorial that shows you how to use a shell and a commands line editor instead of the web based administrative interface. Works even if you run the binary distribution. -h for all command line options.
 
-* sketchbook.rb  :coding:ruby:dev:  :coding:ruby:
+* sketchbook.rb                                                 :coding:ruby:
 :PROPERTIES:
 :DATE:     2008-02-05T10:09:29+00:00
 :DURATION: 0:48

@@ -6,6 +6,38 @@
     <atom:link href="https://emacs.tv/videos.rss" rel="self" type="application/rss+xml" />
     <description>Emacs videos</description>
     <item>
+      <title>Emacs For Writers Unit 11: Word Counters and Line Numbers</title>
+      <link>https://www.youtube.com/watch?v=WEVm2AxbBGc</link>
+      <guid>https://www.youtube.com/watch?v=WEVm2AxbBGc</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=WEVm2AxbBGc">youtube</a><br><br>Writers need to track word counts for submissions and goals.  Emacs provides count-words (M-=) for accurate counts and display-line-numbers-mode for line tracking.  Relative line numbering shows distances from the current line.  While dynamic counting can slow larger documents, the built-in functions provide reliable metrics when needed.
+
+  EMACS FOR WRITERS HANDBOOK:
+  https://chris-maiorana.kit.com/products/emacs-for-writers
+
+  chrismaiorana.com</div>]]></description>
+      <pubDate>Sun, 23 Nov 2025 21:01:57 +0000</pubDate><category>writing</category>
+    </item>
+    <item>
+      <title>MX LInux: Midnight Madness (Python, Emacs, duckdb)</title>
+      <link>https://www.youtube.com/watch?v=VHb8AZXLmAs</link>
+      <guid>https://www.youtube.com/watch?v=VHb8AZXLmAs</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=VHb8AZXLmAs">youtube</a><br><br>MX LInux: Midnight Madness (Python, Emacs, duckdb)
+  This stream is created with #PRISMLiveStudio</div>]]></description>
+      <pubDate>Fri, 21 Nov 2025 18:57:55 +0000</pubDate><category>coding</category>
+    </item>
+    <item>
+      <title>Emacs For Writers Unit 10: Text Expansion with Abbrev Mode</title>
+      <link>https://www.youtube.com/watch?v=G5jmVz2FWpg</link>
+      <guid>https://www.youtube.com/watch?v=G5jmVz2FWpg</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=G5jmVz2FWpg">youtube</a><br><br>Text expansion in Emacs is easy.  With "abbrev mode" you can easily take a small abbreviated text snippet and expand it into almost anything. This is great for creating shortcuts for complicated word spellings or for auto correct options in Emacs. Check it out.
+
+  EMACS FOR WRITERS HANDBOOK:
+  https://chris-maiorana.kit.com/products/emacs-for-writers
+
+  chrismaiorana.com</div>]]></description>
+      <pubDate>Mon, 17 Nov 2025 21:04:05 +0000</pubDate><category>abbrev</category>
+    </item>
+    <item>
       <title>GNU Emacs do Zero - Episódio 02</title>
       <link>https://www.youtube.com/watch?v=NnrConrvGxg</link>
       <guid>https://www.youtube.com/watch?v=NnrConrvGxg</guid>
@@ -679,45 +711,6 @@
 
   https://github.com/jkitchin/org-db-v3</div>]]></description>
       <pubDate>Sat, 18 Oct 2025 13:18:23 +0000</pubDate>
-    </item>
-    <item>
-      <title>Emacs as a Microsoft Word killer part 3</title>
-      <link>https://youtu.be/1kUqgYk_rrI</link>
-      <guid>https://youtu.be/1kUqgYk_rrI</guid>
-      <description><![CDATA[<div id="content"><a href="https://youtu.be/1kUqgYk_rrI">youtube</a><br><br>Emacs as Microsoft Word killer part 3
-
-  Using Conditionals and Defvar to Simplify Multiple Configs Across Multiple Platforms.
-
-  Supporting me will inspire me to produce more quality content
-
-  Show some support by buying me coffee on my Ko-fi page. It accepts your usual Debit/Credit card with 0% fee.
-  https://ko-fi.com/ardiemejia83
-
-  Or can donate straight to my PayPal
-  https://paypal.me/ardiemejia83</div>]]></description>
-      <pubDate>Fri, 17 Oct 2025 01:00:04 +0000</pubDate><category>configuration</category>
-<category>elisp</category>
-    </item>
-    <item>
-      <title>Emacs For Writers Unit 5: Basic File Management and Navigation</title>
-      <link>https://www.youtube.com/watch?v=rhjBvrENwVY</link>
-      <guid>https://www.youtube.com/watch?v=rhjBvrENwVY</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=rhjBvrENwVY">youtube</a><br><br>In this video, we will cover basic file management with the directory editor in Emacs, also known as "Dired," as well as some rudimentary buffer navigation.
-
-  EMACS FOR WRITERS HANDBOOK:
-  https://chris-maiorana.kit.com/products/emacs-for-writers
-
-  chrismaiorana.com</div>]]></description>
-      <pubDate>Thu, 16 Oct 2025 22:49:27 +0000</pubDate><category>dired</category>
-    </item>
-    <item>
-      <title>Showcasing Some of My Essential Emacs and Shell Tools on GitHub</title>
-      <link>https://www.youtube.com/watch?v=8P4T5Pr36v8</link>
-      <guid>https://www.youtube.com/watch?v=8P4T5Pr36v8</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=8P4T5Pr36v8">youtube</a><br><br>https://github.com/emacselements
-
-  In this video, I walk through my personal collection of GitHub repositories, each designed to streamline and enhance your Emacs experience or automate daily tasks. The repo also some interesting Shell Scripts and  Python Apps, notably: Redactor, Video-Sorter, and Image-Viewer.</div>]]></description>
-      <pubDate>Thu, 16 Oct 2025 14:41:06 +0000</pubDate>
     </item>
   </channel>
 </rss>
