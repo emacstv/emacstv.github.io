@@ -6,6 +6,93 @@
     <atom:link href="https://emacs.tv/videos.rss" rel="self" type="application/rss+xml" />
     <description>Emacs videos</description>
     <item>
+      <title>Emacs - Managing TODO comments in source code files</title>
+      <link>https://youtu.be/zVbK5itxnzE?si=Xhw_ndNOTQB6ldat</link>
+      <guid>https://youtu.be/zVbK5itxnzE?si=Xhw_ndNOTQB6ldat</guid>
+      <description><![CDATA[<div id="content"><a href="https://youtu.be/zVbK5itxnzE?si=Xhw_ndNOTQB6ldat">youtube</a><br><br>https://github.com/daehwannam/emacs-library/blob/0c10d5bf08e69bf6ae14ed14c0e8f7d9fc877402/common/dhnam-org-todo-comment.el</div>]]></description>
+      <pubDate>Sun, 30 Nov 2025 13:00:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>Bending Emacs - Episode 07: Eshell built-in commands</title>
+      <link>https://youtu.be/M6o1N2kfmuc</link>
+      <guid>https://youtu.be/M6o1N2kfmuc</guid>
+      <description><![CDATA[<div id="content"><a href="https://youtu.be/M6o1N2kfmuc">youtube</a><br><br>Eshell is a broad topic, but today we talk about Eshell built-in commands
+
+  Here's a full run-down in an equivalent blog post https://xenodium.com/rinku-cli-link-previews</div>]]></description>
+      <pubDate>Sat, 29 Nov 2025 18:42:04 +0000</pubDate><category>eshell</category>
+    </item>
+    <item>
+      <title>basics of emacs macros (and interactive regex replace)</title>
+      <link>https://www.youtube.com/watch?v=LAqlXfOZqeU</link>
+      <guid>https://www.youtube.com/watch?v=LAqlXfOZqeU</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=LAqlXfOZqeU">youtube</a><br><br>https://nic-olas.me
+
+  timestamps:
+  2:38 start of emacs macros explanation
+  9:06 advanced: interactive stop within macro
+  11:59 emacs regex (I realized the problem could be easier solved with that)</div>]]></description>
+      <pubDate>Sat, 29 Nov 2025 16:52:34 +0000</pubDate><category>macros</category>
+    </item>
+    <item>
+      <title>Bending Emacs - Episode 06: Overlays</title>
+      <link>https://www.youtube.com/watch?v=93wWCroTKnM</link>
+      <guid>https://www.youtube.com/watch?v=93wWCroTKnM</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=93wWCroTKnM">youtube</a><br><br>In this episode we take a look at overlays to decorate our Emacs buffers.
+
+  Accompanying blog post with spinnets and experiment details https://xenodium.com/bending-emacs-episode-6-overlays</div>]]></description>
+      <pubDate>Wed, 26 Nov 2025 21:42:40 +0000</pubDate><category>overlays</category>
+    </item>
+    <item>
+      <title>Emacs Rules, Vim Drools? - Why I&apos;m an Emacs Guy Now</title>
+      <link>https://www.youtube.com/watch?v=I54z-iy070A</link>
+      <guid>https://www.youtube.com/watch?v=I54z-iy070A</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=I54z-iy070A">youtube</a><br><br>Today I talk about why I've decided Emacs is good enough for me.
+
+  👇 PULL IT DOWN FOR THE GOOD STUFF 👇
+
+  Patreon - https://patreon.com/thelinuxcast
+  Paypal - https://paypal.me/thelinuxcast
+  Youtube - https://www.youtube.com/channel/UCylGUf9BvQooEFjgdNudoQg/join
+  Ko-fi - https://ko-fi.com/thelinuxcast
+
+  ===== Follow us 🐧🐧 ======
+  MERCH - https://shop.thelinuxcast.org
+  Discord - https://thelinuxcast.org/discord
+  Odysee - https://odysee.com/$/invite/@thelinuxcast:4
+  TILvids(Peertube) - https://tilvids.com/c/thelinuxcast_channel/videos
+  Mastodon- https://polymaths.social/@thelinuxcast
+  Bluesky - https://bsky.app/profile/thelinuxcast.bsky.social
+  https://gitlab.com/thelinuxcast
+  Matrix - https://matrix.to/#/#the-linux-cast:matrix.org
+  The Website http://thelinuxcast.org
+  Contact us email@thelinuxcast.org
+  Amazon Wishlist - https://www.amazon.com/hz/wishlist/ls/1J3W9HF4O2M7T?ref_=wl_share
+  Logo Courtesy of - pedropaulo.net
+  Intro Courtesy of - https://www.fragcgi.com/?i=1
+
+  Get a free month of Proton Mail! https://go.getproton.me/SH1gC
+  Get 20% Off Your First Year at Hostinger - https://tinyurl.com/27kqbj63
+
+  ==== Special Thanks to Our Patrons! ====
+  https://thelinuxcast.org/patrons/
+
+  ==== My Gear ==== (Affilliate Links)
+
+  Shure sm7b - https://amzn.to/42jvata
+  LG Dual Up Monitor - https://amzn.to/42h7m9e
+  Sceptre 32 Curved Monitor - https://amzn.to/40CHoeY
+  Edifier R1280T - https://amzn.to/4gValbW
+  Elgato Stream Deck MK2 - https://amzn.to/4ga1MJa
+  Universal Audio Volt 276 - https://amzn.to/4jd8ukh
+  iPhone 15 Pro Mac - https://amzn.to/4jmxdT2
+  Logitech Brio Webcam - https://amzn.to/4aqoRFZ
+  Weilisi Desk Ring Light - https://amzn.to/4aqp1gz
+  Logitech MX Master 3 - https://amzn.to/3Wm5A2E
+
+  ,#emacs  #linux #thelinuxcast</div>]]></description>
+      <pubDate>Wed, 26 Nov 2025 00:39:57 +0000</pubDate>
+    </item>
+    <item>
       <title>Emacs For Writers Unit 11: Word Counters and Line Numbers</title>
       <link>https://www.youtube.com/watch?v=WEVm2AxbBGc</link>
       <guid>https://www.youtube.com/watch?v=WEVm2AxbBGc</guid>
@@ -16,6 +103,13 @@
 
   chrismaiorana.com</div>]]></description>
       <pubDate>Sun, 23 Nov 2025 21:01:57 +0000</pubDate><category>writing</category>
+    </item>
+    <item>
+      <title>2 commands for every cracked #emacs nerd 🔥🤓#linux</title>
+      <link>https://www.youtube.com/watch?v=T_-Qg7jDe6s</link>
+      <guid>https://www.youtube.com/watch?v=T_-Qg7jDe6s</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=T_-Qg7jDe6s">youtube</a><br><br>exchange-point-and-mark, mark-whole-buffer</div>]]></description>
+      <pubDate>Sun, 23 Nov 2025 02:51:13 +0000</pubDate>
     </item>
     <item>
       <title>MX LInux: Midnight Madness (Python, Emacs, duckdb)</title>
@@ -608,109 +702,6 @@
 
   It's a brief demo of https://github.com/agzam/mx-piper</div>]]></description>
       <pubDate>Sun, 26 Oct 2025 03:19:21 +0000</pubDate>
-    </item>
-    <item>
-      <title>&quot;It Works&quot;: More Adventures with Racket and Emacs</title>
-      <link>https://www.youtube.com/watch?v=OJqocEYhgng</link>
-      <guid>https://www.youtube.com/watch?v=OJqocEYhgng</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=OJqocEYhgng">youtube</a><br><br>Greg Hendershott
-  "It Works": More Adventures with Racket and Emacs
-  The Emacs package "racket-mode" has continued to evolve its design and features. Among other things, it allows multiple local and remote back ends, has a redesigned "lossless" REPL, supports modern Emacs UI completion annotations, and enables lang-driven editing. Most recently the step debugger has gotten some attention.
-  Bio: Greg Hendershott has a useless degree in philosophy, a background in the music software industry, and a decade working in the open source Racket and Emacs communities. Tedious details are available at greghendershott.com.</div>]]></description>
-      <pubDate>Sat, 25 Oct 2025 19:03:42 +0000</pubDate><category>racket</category>
-    </item>
-    <item>
-      <title>Treesitter &quot;show definition&quot; in C with Emacs</title>
-      <link>https://www.youtube.com/watch?v=IEGfWHOg_GQ</link>
-      <guid>https://www.youtube.com/watch?v=IEGfWHOg_GQ</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=IEGfWHOg_GQ">youtube</a><br><br>I have given up on  the complexity of LSPs, I just use the _amazing_ treesitter library instead: parsing my code as I type it's very fast and can do nearly everything that an LSP can do but this way I just have to deal with programming Emacs, which is super easy.
-
-  I've got this on the Internet over here:
-  https://tangled.org/@nicferrier.bsky.social/nic-emacs-treesitter-stuff
-
-  There's a readme which makes an attempt to explain how to try and use it but it's still very much a work in progress.
-
-  My main focus is C, because that's what I'm programming in mostly. So if you're a C programmer and an Emacs user and you want to try it - then download it from tangled and give mea shout if it doesn't work.</div>]]></description>
-      <pubDate>Sat, 25 Oct 2025 11:36:18 +0000</pubDate><category>TreeSitter</category>
-<category>coding</category>
-    </item>
-    <item>
-      <title>Emacs gptel and mcp-searxng enable web search for your llm&apos;s with searxng</title>
-      <link>https://www.youtube.com/watch?v=6xv28WTiGsI</link>
-      <guid>https://www.youtube.com/watch?v=6xv28WTiGsI</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=6xv28WTiGsI">youtube</a><br><br>The emacs gptel package lets you use local llm's with ollama as well as online llm's like Gemini
-  however the issue is the models dont have web access so they have a cut off in their knowledge based on when they were built
-
-  Installing the mcp.el package with gptel provides the mcp protocol to work with mcp servers
-  this allows us to use the mcp-searxng server that works with the searxng self hosted search engine to enable web searches for our llm's
-
-  The mcp-searxng server also lets you download web pages as well
-
-  The mcp-nixos server allows us to search for nixos packages from within Emacs,
-  as well other tools to show the latest channel and other useful stuff
-
-  The mcp.el package works with models that support tools using ollama like llama3.1
-  or with online models like Gemini
-
-  docker.el lets you manage your podman or docker container from within Emacs,
-  and the dockerfile-mode package provides syntax highlighting for Dockerfiles
-
-  https://github.com/NapoleonWils0n/cerberus/blob/master/emacs/gptel-mcp-severs.org
-
-  https://github.com/karthink/gptel?tab=readme-ov-file#model-context-protocol-mcp-integration
-
-  https://github.com/lizqwerscott/mcp.el
-
-  https://github.com/Silex/docker.el
-
-  https://github.com/spotify/dockerfile-mode
-
-  https://github.com/ihor-sokoliuk/mcp-searxng
-
-  https://github.com/utensils/mcp-nixos
-
-  Seaxng search engine podman install
-  https://www.youtube.com/watch?v=qAKmxK6juwI
-
-  https://github.com/NapoleonWils0n/cerberus/blob/master/searxng/searxng-podman.org
-
-  https://github.com/NapoleonWils0n/nixos-dotfiles</div>]]></description>
-      <pubDate>Thu, 23 Oct 2025 22:30:56 +0000</pubDate><category>ai</category>
-<category>gptel</category>
-    </item>
-    <item>
-      <title>Bending Emacs - Episode 4: Batch renaming files</title>
-      <link>https://www.youtube.com/watch?v=1E0ThCSr8Qw</link>
-      <guid>https://www.youtube.com/watch?v=1E0ThCSr8Qw</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=1E0ThCSr8Qw">youtube</a><br><br>In this video I show a handful of ways to batch rename files. Primarily based around Emacs dired, mulitple cursors, and keyboard macros. Written notes available at blog post https://lmno.lol/alvaro/bending-emacs-episode-4-batch-renaming-files</div>]]></description>
-      <pubDate>Thu, 23 Oct 2025 16:35:28 +0000</pubDate><category>dired</category>
-    </item>
-    <item>
-      <title>Emacs For Writers Unit 6: Welcome to Org Mode</title>
-      <link>https://www.youtube.com/watch?v=YzO2HjhLYBk</link>
-      <guid>https://www.youtube.com/watch?v=YzO2HjhLYBk</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=YzO2HjhLYBk">youtube</a><br><br>In this video, you will finally get a glimpse of Org Mode, the mode that's more than a mode. It's a whole productivity suite, but even if you don't use the productivity tools, it's a powerful way to organize and compose rich outlines and beautifully written documents.  All the while, you can be cool while doing it.  Check it out.
-
-  EMACS FOR WRITERS HANDBOOK:
-  https://chris-maiorana.kit.com/products/emacs-for-writers
-
-  VIDEO ON INSTALL ORG CONTRIB PACKAGE INSTALLATION:
-  https://www.youtube.com/watch?v=FW8CkvZtNgY
-
-  chrismaiorana.com</div>]]></description>
-      <pubDate>Mon, 20 Oct 2025 16:59:18 +0000</pubDate><category>org</category>
-<category>writing</category>
-    </item>
-    <item>
-      <title>Fulltext, semantic text and image search in Emacs</title>
-      <link>https://www.youtube.com/watch?v=t879-fipgtg</link>
-      <guid>https://www.youtube.com/watch?v=t879-fipgtg</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=t879-fipgtg">youtube</a><br><br>I show my new org-db package for full and semantic text and image search in Emacs. This package indexes your org-files and provides several ways to search them by org-heading, full text with fts5 in sqlite, vector search for semantic search, and searching images from textual descriptions using CLIP!
-
-  The whole project was "vibe-coded" with Claude Code over about 7 days. It is still in an alpha stage of development, but I have been using it for a few days now, and am pretty happy with it.
-
-  https://github.com/jkitchin/org-db-v3</div>]]></description>
-      <pubDate>Sat, 18 Oct 2025 13:18:23 +0000</pubDate>
     </item>
   </channel>
 </rss>

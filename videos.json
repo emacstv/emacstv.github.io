@@ -1,5 +1,54 @@
 [
   {
+    "ITEM": "Emacs - Managing TODO comments in source code files",
+    "DATE": "2025-11-30T05:00:15-08:00",
+    "DURATION": "3:33",
+    "YOUTUBE_URL": "https://youtu.be/zVbK5itxnzE?si=Xhw_ndNOTQB6ldat",
+    "SPEAKERS": "Daehwan Nam",
+    "BODY": "https://github.com/daehwannam/emacs-library/blob/0c10d5bf08e69bf6ae14ed14c0e8f7d9fc877402/common/dhnam-org-todo-comment.el"
+  },
+  {
+    "ITEM": "Bending Emacs - Episode 07: Eshell built-in commands",
+    "DATE": "2025-11-29T10:42:04-08:00",
+    "DURATION": "12:00",
+    "YOUTUBE_URL": "https://youtu.be/M6o1N2kfmuc",
+    "SPEAKERS": "xenodium",
+    "TAGS": [
+      "eshell"
+    ],
+    "BODY": "Eshell is a broad topic, but today we talk about Eshell built-in commands\n\n  Here's a full run-down in an equivalent blog post https://xenodium.com/rinku-cli-link-previews"
+  },
+  {
+    "ITEM": "basics of emacs macros (and interactive regex replace)",
+    "DATE": "2025-11-29T08:52:34-08:00",
+    "DURATION": "19:33",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=LAqlXfOZqeU",
+    "SPEAKERS": "Nic Olas",
+    "TAGS": [
+      "macros"
+    ],
+    "BODY": "https://nic-olas.me\n\n  timestamps:\n  2:38 start of emacs macros explanation\n  9:06 advanced: interactive stop within macro\n  11:59 emacs regex (I realized the problem could be easier solved with that)"
+  },
+  {
+    "ITEM": "Bending Emacs - Episode 06: Overlays",
+    "DATE": "2025-11-26T13:42:40-08:00",
+    "DURATION": "11:58",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=93wWCroTKnM",
+    "SPEAKERS": "xenodium",
+    "TAGS": [
+      "overlays"
+    ],
+    "BODY": "In this episode we take a look at overlays to decorate our Emacs buffers.\n\n  Accompanying blog post with spinnets and experiment details https://xenodium.com/bending-emacs-episode-6-overlays"
+  },
+  {
+    "ITEM": "Emacs Rules, Vim Drools? - Why I'm an Emacs Guy Now",
+    "DATE": "2025-11-25T16:39:57-08:00",
+    "DURATION": "13:55",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=I54z-iy070A",
+    "SPEAKERS": "The Linux Cast",
+    "BODY": "Today I talk about why I've decided Emacs is good enough for me.\n\n  👇 PULL IT DOWN FOR THE GOOD STUFF 👇\n\n  Patreon - https://patreon.com/thelinuxcast\n  Paypal - https://paypal.me/thelinuxcast\n  Youtube - https://www.youtube.com/channel/UCylGUf9BvQooEFjgdNudoQg/join\n  Ko-fi - https://ko-fi.com/thelinuxcast\n\n  ===== Follow us 🐧🐧 ======\n  MERCH - https://shop.thelinuxcast.org\n  Discord - https://thelinuxcast.org/discord\n  Odysee - https://odysee.com/$/invite/@thelinuxcast:4\n  TILvids(Peertube) - https://tilvids.com/c/thelinuxcast_channel/videos\n  Mastodon- https://polymaths.social/@thelinuxcast\n  Bluesky - https://bsky.app/profile/thelinuxcast.bsky.social\n  https://gitlab.com/thelinuxcast\n  Matrix - https://matrix.to/#/#the-linux-cast:matrix.org\n  The Website http://thelinuxcast.org\n  Contact us email@thelinuxcast.org\n  Amazon Wishlist - https://www.amazon.com/hz/wishlist/ls/1J3W9HF4O2M7T?ref_=wl_share\n  Logo Courtesy of - pedropaulo.net\n  Intro Courtesy of - https://www.fragcgi.com/?i=1\n\n  Get a free month of Proton Mail! https://go.getproton.me/SH1gC\n  Get 20% Off Your First Year at Hostinger - https://tinyurl.com/27kqbj63\n\n  ==== Special Thanks to Our Patrons! ====\n  https://thelinuxcast.org/patrons/\n\n  ==== My Gear ==== (Affilliate Links)\n\n  Shure sm7b - https://amzn.to/42jvata\n  LG Dual Up Monitor - https://amzn.to/42h7m9e\n  Sceptre 32 Curved Monitor - https://amzn.to/40CHoeY\n  Edifier R1280T - https://amzn.to/4gValbW\n  Elgato Stream Deck MK2 - https://amzn.to/4ga1MJa\n  Universal Audio Volt 276 - https://amzn.to/4jd8ukh\n  iPhone 15 Pro Mac - https://amzn.to/4jmxdT2\n  Logitech Brio Webcam - https://amzn.to/4aqoRFZ\n  Weilisi Desk Ring Light - https://amzn.to/4aqp1gz\n  Logitech MX Master 3 - https://amzn.to/3Wm5A2E\n\n  ,#emacs  #linux #thelinuxcast"
+  },
+  {
     "ITEM": "Emacs For Writers Unit 11: Word Counters and Line Numbers",
     "DATE": "2025-11-23T13:01:57-08:00",
     "DURATION": "8:47",
@@ -9,6 +58,14 @@
       "writing"
     ],
     "BODY": "Writers need to track word counts for submissions and goals.  Emacs provides count-words (M-=) for accurate counts and display-line-numbers-mode for line tracking.  Relative line numbering shows distances from the current line.  While dynamic counting can slow larger documents, the built-in functions provide reliable metrics when needed.\n\n  EMACS FOR WRITERS HANDBOOK:\n  https://chris-maiorana.kit.com/products/emacs-for-writers\n\n  chrismaiorana.com"
+  },
+  {
+    "ITEM": "2 commands for every cracked #emacs nerd 🔥🤓#linux",
+    "DATE": "2025-11-22T18:51:13-08:00",
+    "DURATION": "1:14",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=T_-Qg7jDe6s",
+    "SPEAKERS": "John Cairns",
+    "BODY": "exchange-point-and-mark, mark-whole-buffer"
   },
   {
     "ITEM": "MX LInux: Midnight Madness (Python, Emacs, duckdb)",

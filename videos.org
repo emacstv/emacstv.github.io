@@ -3,6 +3,102 @@
 #+PROPERTY: header-args:emacs-lisp+   :eval no
 
 
+* Emacs - Managing TODO comments in source code files
+:PROPERTIES:
+:DATE:     2025-11-30T05:00:15-08:00
+:DURATION: 3:33
+:YOUTUBE_URL: https://youtu.be/zVbK5itxnzE?si=Xhw_ndNOTQB6ldat
+:SPEAKERS: Daehwan Nam
+:END:
+  https://github.com/daehwannam/emacs-library/blob/0c10d5bf08e69bf6ae14ed14c0e8f7d9fc877402/common/dhnam-org-todo-comment.el
+
+* Bending Emacs - Episode 07: Eshell built-in commands  :eshell:
+:PROPERTIES:
+:DATE:     2025-11-29T10:42:04-08:00
+:DURATION: 12:00
+:YOUTUBE_URL: https://youtu.be/M6o1N2kfmuc
+:SPEAKERS: xenodium
+:END:
+  Eshell is a broad topic, but today we talk about Eshell built-in commands
+
+  Here's a full run-down in an equivalent blog post https://xenodium.com/rinku-cli-link-previews
+
+* basics of emacs macros (and interactive regex replace)  :macros:
+:PROPERTIES:
+:DATE:     2025-11-29T08:52:34-08:00
+:DURATION: 19:33
+:YOUTUBE_URL: https://www.youtube.com/watch?v=LAqlXfOZqeU
+:SPEAKERS: Nic Olas
+:END:
+  https://nic-olas.me
+
+  timestamps:
+  2:38 start of emacs macros explanation
+  9:06 advanced: interactive stop within macro
+  11:59 emacs regex (I realized the problem could be easier solved with that)
+
+* Bending Emacs - Episode 06: Overlays  :overlays:
+:PROPERTIES:
+:DATE:     2025-11-26T13:42:40-08:00
+:DURATION: 11:58
+:YOUTUBE_URL: https://www.youtube.com/watch?v=93wWCroTKnM
+:SPEAKERS: xenodium
+:END:
+  In this episode we take a look at overlays to decorate our Emacs buffers.
+
+  Accompanying blog post with spinnets and experiment details https://xenodium.com/bending-emacs-episode-6-overlays
+
+* Emacs Rules, Vim Drools? - Why I'm an Emacs Guy Now
+:PROPERTIES:
+:DATE:     2025-11-25T16:39:57-08:00
+:DURATION: 13:55
+:YOUTUBE_URL: https://www.youtube.com/watch?v=I54z-iy070A
+:SPEAKERS: The Linux Cast
+:END:
+  Today I talk about why I've decided Emacs is good enough for me.
+
+  👇 PULL IT DOWN FOR THE GOOD STUFF 👇
+
+  Patreon - https://patreon.com/thelinuxcast
+  Paypal - https://paypal.me/thelinuxcast
+  Youtube - https://www.youtube.com/channel/UCylGUf9BvQooEFjgdNudoQg/join
+  Ko-fi - https://ko-fi.com/thelinuxcast
+
+  ===== Follow us 🐧🐧 ======
+  MERCH - https://shop.thelinuxcast.org
+  Discord - https://thelinuxcast.org/discord
+  Odysee - https://odysee.com/$/invite/@thelinuxcast:4
+  TILvids(Peertube) - https://tilvids.com/c/thelinuxcast_channel/videos
+  Mastodon- https://polymaths.social/@thelinuxcast
+  Bluesky - https://bsky.app/profile/thelinuxcast.bsky.social
+  https://gitlab.com/thelinuxcast
+  Matrix - https://matrix.to/#/#the-linux-cast:matrix.org
+  The Website http://thelinuxcast.org
+  Contact us email@thelinuxcast.org
+  Amazon Wishlist - https://www.amazon.com/hz/wishlist/ls/1J3W9HF4O2M7T?ref_=wl_share
+  Logo Courtesy of - pedropaulo.net
+  Intro Courtesy of - https://www.fragcgi.com/?i=1
+
+  Get a free month of Proton Mail! https://go.getproton.me/SH1gC
+  Get 20% Off Your First Year at Hostinger - https://tinyurl.com/27kqbj63
+
+  ==== Special Thanks to Our Patrons! ====
+  https://thelinuxcast.org/patrons/
+
+  ==== My Gear ==== (Affilliate Links)
+
+  Shure sm7b - https://amzn.to/42jvata
+  LG Dual Up Monitor - https://amzn.to/42h7m9e
+  Sceptre 32 Curved Monitor - https://amzn.to/40CHoeY
+  Edifier R1280T - https://amzn.to/4gValbW
+  Elgato Stream Deck MK2 - https://amzn.to/4ga1MJa
+  Universal Audio Volt 276 - https://amzn.to/4jd8ukh
+  iPhone 15 Pro Mac - https://amzn.to/4jmxdT2
+  Logitech Brio Webcam - https://amzn.to/4aqoRFZ
+  Weilisi Desk Ring Light - https://amzn.to/4aqp1gz
+  Logitech MX Master 3 - https://amzn.to/3Wm5A2E
+
+  ,#emacs  #linux #thelinuxcast
 * Emacs For Writers Unit 11: Word Counters and Line Numbers  :writing:
 :PROPERTIES:
 :DATE:     2025-11-23T13:01:57-08:00
@@ -16,6 +112,15 @@
   https://chris-maiorana.kit.com/products/emacs-for-writers
 
   chrismaiorana.com
+
+* 2 commands for every cracked #emacs nerd 🔥🤓#linux
+:PROPERTIES:
+:DATE:     2025-11-22T18:51:13-08:00
+:DURATION: 1:14
+:YOUTUBE_URL: https://www.youtube.com/watch?v=T_-Qg7jDe6s
+:SPEAKERS: John Cairns
+:END:
+exchange-point-and-mark, mark-whole-buffer
 
 * MX LInux: Midnight Madness (Python, Emacs, duckdb)  :coding:
 :PROPERTIES:
