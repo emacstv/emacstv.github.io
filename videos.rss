@@ -6,6 +6,561 @@
     <atom:link href="https://emacs.tv/videos.rss" rel="self" type="application/rss+xml" />
     <description>Emacs videos</description>
     <item>
+      <title>The Annoying Usefulness of Emacs</title>
+      <link>https://www.youtube.com/watch?v=DMbrNhx2zWQ</link>
+      <guid>https://www.youtube.com/watch?v=DMbrNhx2zWQ</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=DMbrNhx2zWQ">youtube</a><br><br>References:
+  - https://www.gnu.org/software/emacs/
+  - https://github.com/magnars/multiple-cursors.el
+
+  Support: https://github.com/tsoding/donate</div>]]></description>
+      <pubDate>Mon, 15 Dec 2025 03:40:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>Some problems of modernizing Emacs (eev @ EmacsConf 2025)</title>
+      <link>https://www.youtube.com/watch?v=Y75Q2IN8Y_M</link>
+      <guid>https://www.youtube.com/watch?v=Y75Q2IN8Y_M</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=Y75Q2IN8Y_M">youtube</a><br><br>See: http://anggtwu.net/emacsconf2025.html</div>]]></description>
+      <pubDate>Sun, 14 Dec 2025 20:31:53 +0000</pubDate><category>emacsconf</category>
+<category>eev</category>
+    </item>
+    <item>
+      <title>Wisdom - Framework for writing literate Emacs Lisp in Org Mode</title>
+      <link>https://www.youtube.com/watch?v=0Tf1DHdyrbc</link>
+      <guid>https://www.youtube.com/watch?v=0Tf1DHdyrbc</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=0Tf1DHdyrbc">youtube</a><br><br>Wisdom Repository: www.github.com/kwrooijen/wisdom</div>]]></description>
+      <pubDate>Sat, 13 Dec 2025 10:15:00 +0000</pubDate><category>org</category>
+    </item>
+    <item>
+      <title>I wrote a thing for Emacs, but don&apos;t call it a &quot;plugin&quot;</title>
+      <link>https://youtu.be/jwH3B1vHqvQ</link>
+      <guid>https://youtu.be/jwH3B1vHqvQ</guid>
+      <description><![CDATA[<div id="content"><a href="https://youtu.be/jwH3B1vHqvQ">youtube</a><br><br>Let me show you a typical process of writing a relatively simple Emacs package and publishing it on MELPA.
+
+  I'll show you https://github.com/agzam/wiktionary-bro.el
+  We'll dive into some technical nuances, talk about some history of Lisp, explore some Emacs features.
+
+  0:00:00 Introduction & Preamble
+  0:00:25 Why Emacs Has Packages, Not Plugins
+  0:02:21 The Power of Etymology
+  0:04:44 Why Wiktionary is Essential
+  0:05:51 Video Structure Overview
+  0:06:00 Package Demo
+  0:06:32 wiktionary-bro Homepage
+  0:07:03 Live Demo in Emacs
+  0:07:24 DWIM Command Explained
+  0:08:01 External Links & Browser Integration
+  0:08:37 Language Selection
+  0:09:05 Org-Mode Features
+  0:09:40 Conjugation Tables
+  0:11:10 Technical Deep Dive
+  0:12:05 Package Repositories (MELPA, ELPA)
+  0:14:29 Package Header Requirements
+  0:14:48 Lambda Calculus History (1930s)
+  0:17:25 John McCarthy & Birth of Lisp
+  0:18:06 s-expressions Origin Story
+  0:19:09 Why Lisp Matters Today
+  0:21:02 Structural Editing
+  0:22:24 REPL-Driven Development
+  0:24:40 Package Headers Deep Dive
+  0:25:05 Package Dependencies
+  0:27:28 Doom Emacs File Templates
+  0:28:11 Required Libraries
+  0:28:28 Destructuring in Lisp
+  0:31:09 Features List (1000+ Packages!)
+  0:33:32 defgroup & Customization UI
+  0:36:43 Faces
+  0:37:24 describe-face Command
+  0:38:00 Changing Face Colors Live
+  0:39:40 Frames vs Windows
+  0:41:24 Interactive vs Non-Interactive Functions
+  0:43:32 Global vs Buffer-Local Variables
+  0:44:20 buffer-local Variables Demo
+  0:46:10 Keymaps (Sparse vs Full)
+  0:48:52 define-derived-mode
+  0:49:40 Hooks System
+  0:50:20 org-open-at-point Hook
+  0:53:00 add-hook with Local Parameter
+  0:55:40 Predicate Function Convention
+  0:56:40 Private Function Convention
+  0:57:00 save-excursion
+  1:00:30 cl-letf Function Overriding
+  1:02:03 Overriding shr Functions
+  1:03:20 Extended Regex Syntax
+  1:03:40 regex-quote Helper
+  1:04:18 regex-builder Interactive Tool
+  1:06:40 MELPA Repository Structure
+  1:07:09 Recipe Format
+  1:08:26 package-lint
+  1:08:46 checkdoc for Documentation
+  1:09:58 MELPA Review Process
+  1:11:13 Conclusion & Final Thoughts
+
+
+  Opening music:   https://soundcloud.com/incredfx/at-dooms-gate</div>]]></description>
+      <pubDate>Sat, 13 Dec 2025 01:51:51 +0000</pubDate><category>elisp</category>
+    </item>
+    <item>
+      <title>Bending Emacs Episode 08: completing-read</title>
+      <link>https://www.youtube.com/watch?v=J_WxzZXuTLI</link>
+      <guid>https://www.youtube.com/watch?v=J_WxzZXuTLI</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=J_WxzZXuTLI">youtube</a><br><br>In this episode we showcase the humble but mighty useful completing-read function.
+
+  Here's the corresponding blog post https://xenodium.com/bending-emacs-episode-8-completing-read</div>]]></description>
+      <pubDate>Fri, 12 Dec 2025 11:35:56 +0000</pubDate><category>completion</category>
+    </item>
+    <item>
+      <title>DnD Character tracking with typst &amp; emacs</title>
+      <link>https://www.youtube.com/watch?v=9APlEGU_LYo</link>
+      <guid>https://www.youtube.com/watch?v=9APlEGU_LYo</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=9APlEGU_LYo">youtube</a><br><br>https://github.com/strickinato/strick-dnd</div>]]></description>
+      <pubDate>Wed, 10 Dec 2025 07:04:56 +0000</pubDate><category>fun</category>
+    </item>
+    <item>
+      <title>Eric Dallo talks about ECA</title>
+      <link>https://www.youtube.com/watch?v=013LBjd5TVo</link>
+      <guid>https://www.youtube.com/watch?v=013LBjd5TVo</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=013LBjd5TVo">youtube</a><br><br>Discussion around ECA - Editor Code Assistant.
+
+  Project page: https://eca.dev
+  Emacs package: https://github.com/editor-code-assistant/eca-emacs
+  Eric's GH: https://github.com/ericdallo
+
+  0:00 Foreword
+  2:29 Opening music
+  2:56 Introduction
+  5:50 First Look
+  8:40 It's not only for Emacs
+  11:26 ECA Protocol
+  14:50 The docs
+  17:05 Emacs gives you complete control over text
+  17:23 Context
+  18:29 Hooks (not Emacs hooks)
+  21:10 It's great to use with Clojure MCP
+  22:14 What's your ECA config?
+  28:29 Show us some Emacs
+  38:26 Context
+  39:40 Behavior
+  44:38 Changes
+  46:30 Challenges & Roadmap
+  50:55 Rollback
+  54:35 Closing remarks
+
+
+  Opening music: https://soundcloud.com/incredfx/at-dooms-gate</div>]]></description>
+      <pubDate>Tue, 09 Dec 2025 22:00:06 +0000</pubDate><category>ai</category>
+    </item>
+    <item>
+      <title>Creating an Emacs Package from Concept to MELPA (Part 6)</title>
+      <link>https://www.youtube.com/watch?v=Rv0nau_lzYk</link>
+      <guid>https://www.youtube.com/watch?v=Rv0nau_lzYk</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=Rv0nau_lzYk">youtube</a><br><br>Today we are going to finish up our rare-words package series,  a package that will highlight rare words in your buffer,  by submitting it to MELPA today.</div>]]></description>
+      <pubDate>Sun, 07 Dec 2025 20:13:46 +0000</pubDate>
+    </item>
+    <item>
+      <title>EmacsConf 2025: Zettelkasten for regular Emacs hackers - Christian Tietze (he)</title>
+      <link>https://www.youtube.com/watch?v=wE8vCWyr1Eo</link>
+      <guid>https://www.youtube.com/watch?v=wE8vCWyr1Eo</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=wE8vCWyr1Eo">youtube</a><br><br>https://emacsconf.org/2025/talks/zettelkasten
+
+  00:01 Introduction
+  01:25 Advocating Freedoms
+  02:29 What Is This About?
+  04:36 Write - Essential Mechanic
+  05:09 Connect - Essential Mechanic
+  05:34 Correct - Essential Habit
+  06:49 Design for Use - Habit
+  07:43 Create Structure - Mechanic
+  08:47 Start in the Zettelkasten - Mechanic
+  09:32 Start with a Link - Mechanic
+  09:54 Recap
+  13:22 Facilitate Growth
+  14:46 Emacs demo
+  20:39 Learn, Share, Grow
+  22:45 Outro
+
+  You can view this and other resources using free/libre software at https://emacsconf.org/2025/talks/zettelkasten .
+  This video is available under the terms of the Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license.</div>]]></description>
+      <pubDate>Sun, 07 Dec 2025 18:01:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>EmacsConf 2025: Weightlifting tracking with Emacs on Android - Zachary Romero</title>
+      <link>https://www.youtube.com/watch?v=0fwZtg-7wKE</link>
+      <guid>https://www.youtube.com/watch?v=0fwZtg-7wKE</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=0fwZtg-7wKE">youtube</a><br><br>https://emacsconf.org/2025/talks/weights
+
+  You can view this and other resources using free/libre software at https://emacsconf.org/2025/talks/weights .
+  This video is available under the terms of the Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license.</div>]]></description>
+      <pubDate>Sun, 07 Dec 2025 17:21:28 +0000</pubDate>
+    </item>
+    <item>
+      <title>EmacsConf 2025: An introduction to the Emacs Reader - Divyá</title>
+      <link>https://www.youtube.com/watch?v=KQBXTSg_Occ</link>
+      <guid>https://www.youtube.com/watch?v=KQBXTSg_Occ</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=KQBXTSg_Occ">youtube</a><br><br>https://emacsconf.org/2025/talks/reader
+
+  00:00 An introduction to the Emacs reader
+  00:44 Yet another document viewer in Emacs?
+  02:05 Architecture of Emacs Reader
+  06:00 A word on dynamic modules
+  07:39 Features of Emacs Reader
+  07:56 Memory efficiency
+  11:18 Performance and speed
+  14:23 Scanned PDFs
+  17:08 System-level multi-threading
+  23:44 Native Emacs integrations
+  25:10 (Naive) dark mode
+  26:01 Challenges and further improvements
+  29:14 What Emacs can learn?
+  32:32 Contributing to the development
+  33:35 Acknowledgements
+
+  You can view this and other resources using free/libre software at https://emacsconf.org/2025/talks/reader .
+  This video is available under the terms of the Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license.</div>]]></description>
+      <pubDate>Sun, 07 Dec 2025 17:16:36 +0000</pubDate><category>emacsconf</category>
+    </item>
+    <item>
+      <title>Enjoy Emacs: Start editing init.el</title>
+      <link>https://www.youtube.com/watch?v=Pg-4oc7yUEI</link>
+      <guid>https://www.youtube.com/watch?v=Pg-4oc7yUEI</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=Pg-4oc7yUEI">youtube</a><br><br>We've reached the point where we edit our Emacs configuration file ourselves.
+
+  Playlist
+  https://www.youtube.com/playlist?list=PLCNMXglj4PXDNCH0vJ83MUtK5Lv68Gctc
+
+  Diffs for this episode
+  https://github.com/p-snow/enjoy-emacs/commit/a7c9ba643eff4a210bb5f5e5183c783fdc527ae1
+
+  Japanese version
+  https://youtu.be/7onpWC4tJRA</div>]]></description>
+      <pubDate>Sun, 07 Dec 2025 12:09:55 +0000</pubDate>
+    </item>
+    <item>
+      <title>@karthink talks about gptel-agent</title>
+      <link>https://www.youtube.com/watch?v=k-sKO6xXgNk</link>
+      <guid>https://www.youtube.com/watch?v=k-sKO6xXgNk</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=k-sKO6xXgNk">youtube</a><br><br>Discussion around gptel-agent, new extension that works on top of gptel Emacs package.
+
+  https://github.com/karthink/gptel-agent
+
+  Opening music: https://soundcloud.com/incredfx/at-dooms-gate
+
+  0:26 Intro
+  1:05 Package Installation
+  6:53 Running gptel-agent
+  9:00 gptel-menu changes
+  14:57 Let's ask it about Doom email modules
+  20:00 You can type the requests in any buffer
+  22:00 Org-roam & Org-Roam-UI
+  28:55 Agent definitions in markdown files
+  41:00 Introspector
+  1:02:00 gptel-highlight-mode
+  1:21:30 Closing remarks</div>]]></description>
+      <pubDate>Sun, 07 Dec 2025 06:40:51 +0000</pubDate>
+    </item>
+    <item>
+      <title>EmacsConf 2025: Modern Emacs/Elisp hardware/software accelerated graphics - Emanuel Berg (he/him)</title>
+      <link>https://www.youtube.com/watch?v=RVoGcLNalJw</link>
+      <guid>https://www.youtube.com/watch?v=RVoGcLNalJw</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=RVoGcLNalJw">youtube</a><br><br>https://emacsconf.org/2025/talks/graphics
+
+  This video has no narration.
+
+  00:00 space box intro (elisp model matrix pipeline c dynamic module)
+  01:59 parallel (sdl/linux multicore pthreads)
+  02:04 bad snake (oop eieio)
+  03:30 solar (ecs)
+  04:32 60 fps 1 (opengl cpu)
+  05:36 earth (grid ascii)
+  06:02 studio (image unicode)
+  09:32 60 fps 2 (gpu)
+  11:57 rgb triangle (glsl vertex/fragment shaders)
+  13:09 ansi cube (software functional shader)
+  13:33 horizon (gradient)
+  15:16 shell color table (zsh)
+  16:13 luki-lisp (macros)
+  18:25 incal & rave dave outro (debug text triangles)
+
+  You can view this and other resources using free/libre software at https://emacsconf.org/2025/talks/graphics .
+  This video is available under the terms of the Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license.</div>]]></description>
+      <pubDate>Sat, 06 Dec 2025 20:05:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>EmacsConf 2025: GNU Emacs Greader (Gnamù Reader) mode is the best Emacs mode in existence</title>
+      <link>https://www.youtube.com/watch?v=q1gmFAKYWBk</link>
+      <guid>https://www.youtube.com/watch?v=q1gmFAKYWBk</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=q1gmFAKYWBk">youtube</a><br><br>EmacsConf 2025: GNU Emacs Greader (Gnamù Reader) mode is the best Emacs mode in existence - Yuval Langer (he/him)
+  https://emacsconf.org/2025/talks/greader
+
+  You can view this and other resources using free/libre software at https://emacsconf.org/2025/talks/greader .
+  This video is available under the terms of the Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license.</div>]]></description>
+      <pubDate>Sat, 06 Dec 2025 19:35:00 +0000</pubDate><category>tts</category>
+    </item>
+    <item>
+      <title>EmacsConf 2025: Common Lisp images communicating like-a-human through shared Emacs slime and eev</title>
+      <link>https://www.youtube.com/watch?v=hy5i6Qb6fYE</link>
+      <guid>https://www.youtube.com/watch?v=hy5i6Qb6fYE</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=hy5i6Qb6fYE">youtube</a><br><br>EmacsConf 2025: Common Lisp images communicating like-a-human through shared Emacs slime and eev - screwlisp (he/him, they/them)
+  https://emacsconf.org/2025/talks/commonlisp
+
+  You can view this and other resources using free/libre software at https://emacsconf.org/2025/talks/commonlisp .
+  This video is available under the terms of the Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license.</div>]]></description>
+      <pubDate>Sat, 06 Dec 2025 19:25:01 +0000</pubDate>
+    </item>
+    <item>
+      <title>Xah Talk Show Ep719 new CSS units, lh cap ic. emacs xah css mode. typing chinese in emacs.</title>
+      <link>https://www.youtube.com/watch?v=q5n6ejEH63k</link>
+      <guid>https://www.youtube.com/watch?v=q5n6ejEH63k</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=q5n6ejEH63k">youtube</a><br><br>This video from the Xah Talk Show focuses on new CSS length units and their practical application. The host, Xah Lee, updates his CSS tutorial with these new units and demonstrates their usage and the challenges encountered during testing.
+
+  Key topics covered include:
+
+      Introduction to new CSS Length Units (0:40-1:50): lh (line height), cap (capital letters height), ic (Chinese character "water" width/height), and rcap, ric, and rlh.
+      Demonstrating LH unit (3:31-10:24): Test the LH unit for font-size. He initially faces issues but later discovers a typo in "font-size" (8:17-8:20).
+      Updating Emacs CSS Mode (10:30-15:20): update his Emacs CSS mode to recognize and highlight the newly introduced CSS units.
+      Understanding IC unit and Chinese Input in Emacs (17:53-21:00): The video delves into the IC unit, which is based on the width/height of the Chinese character for "water." Xah Lee demonstrates how to type Chinese characters using emacs's own input method.
+      Understanding cap unit (22:25-26:00): Xah Lee explains the cap unit, which represents the nominal height of capital letters. He clarifies the long-standing problem in CSS where font-size doesn't always accurately reflect the actual visual size of letters due to font design variations.
+      Demonstrating Font Family Impact on Layout (1:00:29-1:02:50): The host demonstrates how changing font families can significantly alter the layout of a webpage, even when the font-size remains constant.
+      Discovery of a Firefox Bug (37:50-40:50, 1:10:02-1:10:55): Xah Lee uncovers a potential bug in Firefox where specifying a font family like "Arial" without a generic fallback (e.g., sans-serif) results in Firefox defaulting to a serif font. This behavior is inconsistent with other browsers like Brave and is identified as a significant issue for web development.
+      Discussion on Ergonomic Keyboards (1:05:15-1:08:41): Towards the end of the video, Xah Lee briefly discusses ergonomic keyboards, comparing the Ultimate Hacking Keyboard (UHK80) and the Glove 80. He emphasizes the importance of key switch lightness and notes the different layouts (slanted vs. ortholinear) of the two keyboards.
+
+  code at
+  http://xahlee.info/talk_show/xah_talk_show_ep719.html
+  If browser says security error, that is because it auto changes URL from HTTP to HTTPS.
+  It's a way to censor 22 million old websites.
+  Remove the S in HTTPS.
+  Or use brave browser or safari.</div>]]></description>
+      <pubDate>Sat, 06 Dec 2025 18:17:31 +0000</pubDate>
+    </item>
+    <item>
+      <title>EmacsConf 2025: Emacs, editors, and LLM driven workflows - Andrew Hyatt (he/him)</title>
+      <link>https://www.youtube.com/watch?v=U3kbEabBJ_s</link>
+      <guid>https://www.youtube.com/watch?v=U3kbEabBJ_s</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=U3kbEabBJ_s">youtube</a><br><br>https://emacsconf.org/2025/talks/llm
+
+  You can view this and other resources using free/libre software at https://emacsconf.org/2025/talks/llm .
+  This video is available under the terms of the Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license.</div>]]></description>
+      <pubDate>Sat, 06 Dec 2025 18:00:40 +0000</pubDate>
+    </item>
+    <item>
+      <title>EmacsConf 2025: Basic Calc functionality for engineering or electronics</title>
+      <link>https://www.youtube.com/watch?v=MAc6gCUHjOw</link>
+      <guid>https://www.youtube.com/watch?v=MAc6gCUHjOw</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=MAc6gCUHjOw">youtube</a><br><br>EmacsConf 2025: Basic Calc functionality for engineering or electronics - Christopher Howard (he/him)
+  https://emacsconf.org/2025/talks/calc
+
+  00:03 Introduction
+  02:36 What is Calc?
+  04:54 calc-algebraic-entry
+  06:37 calc-roll-down
+  08:07 Advanced functions
+  08:58 Solving equations with calc-solve-for
+  09:54 Systems of equations
+  12:00 calc-find-root
+  12:39 Derivatives and integrals
+  14:17 Programmable functions
+  18:12 Plotting
+  20:08 Wish list
+  22:38 Wrapping up
+
+  You can view this and other resources using free/libre software at https://emacsconf.org/2025/talks/calc .
+  This video is available under the terms of the Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license.</div>]]></description>
+      <pubDate>Sat, 06 Dec 2025 18:00:33 +0000</pubDate>
+    </item>
+    <item>
+      <title>EmacsConf 2025: Interactive Python programming in Emacs - David Vujic (he/him)</title>
+      <link>https://www.youtube.com/watch?v=uACM4a5MPQM</link>
+      <guid>https://www.youtube.com/watch?v=uACM4a5MPQM</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=uACM4a5MPQM">youtube</a><br><br>https://emacsconf.org/2025/talks/python
+
+  You can view this and other resources using free/libre software at https://emacsconf.org/2025/talks/python .
+  This video is available under the terms of the Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license.</div>]]></description>
+      <pubDate>Sat, 06 Dec 2025 16:20:01 +0000</pubDate>
+    </item>
+    <item>
+      <title>EmacsConf 2025: Reading and writing emails in GNU Emacs with Gnus - Amin Bandali (he/him)</title>
+      <link>https://www.youtube.com/watch?v=0Pu8oqdsSig</link>
+      <guid>https://www.youtube.com/watch?v=0Pu8oqdsSig</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=0Pu8oqdsSig">youtube</a><br><br>https://emacsconf.org/2025/talks/gnus
+
+  00:02 Introduction
+  01:25 Demo
+  02:49 Don't panic
+  03:58 Configuring servers
+  05:46 .authinfo
+  06:26 Configuration
+  08:25 Starting Gnus
+  09:40 Always showing groups
+  10:19 Reading messages
+  11:30 Debugging IMAP
+  12:55 Topics
+  14:25 Customizing message display
+  15:24 Sending emails
+  17:26 Plans
+  19:27 Wrapping up
+  20:12 nnimap
+
+  You can view this and other resources using free/libre software at https://emacsconf.org/2025/talks/gnus .
+  This video is available under the terms of the Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license.</div>]]></description>
+      <pubDate>Sat, 06 Dec 2025 15:50:01 +0000</pubDate>
+    </item>
+    <item>
+      <title>EmacsConf 2025: Swanky Python: Interactive development for Python - Scott Zimmermann (he/him)</title>
+      <link>https://www.youtube.com/watch?v=fy0ofT1I54U</link>
+      <guid>https://www.youtube.com/watch?v=fy0ofT1I54U</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=fy0ofT1I54U">youtube</a><br><br>https://emacsconf.org/2025/talks/swanky
+
+  You can view this and other resources using free/libre software at https://emacsconf.org/2025/talks/swanky .
+  This video is available under the terms of the Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license.</div>]]></description>
+      <pubDate>Sat, 06 Dec 2025 15:45:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>EmacsConf 2025: One year progress update Schemacs (formerly Gypsum) - Ramin Honary (he/him)</title>
+      <link>https://www.youtube.com/watch?v=KmMeLfYn1xY</link>
+      <guid>https://www.youtube.com/watch?v=KmMeLfYn1xY</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=KmMeLfYn1xY">youtube</a><br><br>https://emacsconf.org/2025/talks/schemacs
+
+  02:07 The scope of the project
+  04:24 Difference with Robin Templeton's project (Guile-Emacs)
+  05:49 Progress made since last year
+  07:28 Portable React-like GUI
+  09:06 Demo
+  11:48 Additional changes
+  14:12 Other Scheme implementations
+  17:06 GUI framework
+  21:51 Wrapping up
+
+  You can view this and other resources using free/libre software at https://emacsconf.org/2025/talks/schemacs .
+  This video is available under the terms of the Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license.</div>]]></description>
+      <pubDate>Sat, 06 Dec 2025 14:30:30 +0000</pubDate><category>emacsconf</category>
+    </item>
+    <item>
+      <title>EmacsConf 2025: Emacs as a fully-fledged reference manager - Vidianos Giannitsis (he/him)</title>
+      <link>https://www.youtube.com/watch?v=XjhnY4WuQRQ</link>
+      <guid>https://www.youtube.com/watch?v=XjhnY4WuQRQ</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=XjhnY4WuQRQ">youtube</a><br><br>https://emacsconf.org/2025/talks/reference
+
+  00:00 Introduction
+  01:43 Capture
+  04:00 Organizing
+  05:03 Ebib
+  07:55 Filters
+  09:36 Dependent databases
+  12:50 Reading lists
+  15:02 Special org-roam-node-find
+  18:05 Annotations
+  19:21 Wrapping up
+
+  You can view this and other resources using free/libre software at https://emacsconf.org/2025/talks/reference .
+  This video is available under the terms of the Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license.</div>]]></description>
+      <pubDate>Sat, 06 Dec 2025 14:30:20 +0000</pubDate>
+    </item>
+    <item>
+      <title>Advent of Code 2025 day 3 in elisp/common lisp simultaneously</title>
+      <link>https://www.youtube.com/watch?v=7ZSjwo6ohrk</link>
+      <guid>https://www.youtube.com/watch?v=7ZSjwo6ohrk</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=7ZSjwo6ohrk">youtube</a><br><br>This is a recreation of my day 3 early-in-the-morning solution but written in such a way that the file will run in both emacs lisp and common lisp.</div>]]></description>
+      <pubDate>Sat, 06 Dec 2025 12:50:53 +0000</pubDate>
+    </item>
+    <item>
+      <title>I wrote an Emacs plugin</title>
+      <link>https://www.youtube.com/watch?v=QH6KOEVnSZA</link>
+      <guid>https://www.youtube.com/watch?v=QH6KOEVnSZA</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=QH6KOEVnSZA">youtube</a><br><br>Streamed Live on Kick: https://kick.com/tsoding
+
+  Chapters:
+  - 00:00:00 - Intro
+  - 00:13:02 - Parsing TODOs
+  - 00:33:20 - Creating HUID
+  - 00:38:47 - Searching for folder
+  - 01:09:01 - Creating new task
+  - 01:46:53 - Go to task
+  - 02:14:31 - Outro
+
+  References:
+  - https://www.bitkeeper.org/
+  - https://github.com/tsoding/snitch/
+  - https://en.wikipedia.org/wiki/Snowflake_ID
+  - https://en.wikipedia.org/wiki/Universally_unique_identifier
+  - https://www.gnu.org/software/emacs/
+  - https://mitp-content-server.mit.edu/books/content/sectbyfn/books_pres_0/6515/sicp.zip/index.html
+
+  Topic: Writing a simple Emacs plugin to manage project tasks
+
+  Twitch Chat in Subtitles generated by: https://github.com/kam1k4dze/subchat
+
+  Support:
+  - https://github.com/tsoding/donate#support-tsoding</div>]]></description>
+      <pubDate>Fri, 05 Dec 2025 13:34:36 +0000</pubDate>
+    </item>
+    <item>
+      <title>たのしむ。Emacs: Emacs Lisp を書いて起動後の画面をシンプルにしてみよう</title>
+      <link>https://www.youtube.com/watch?v=7onpWC4tJRA</link>
+      <guid>https://www.youtube.com/watch?v=7onpWC4tJRA</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=7onpWC4tJRA">youtube</a><br><br>今回から Emacs Lisp で設定ファイル init.el を書いていきます。
+
+  この動画で紹介すること
+  - ブックマーク機能
+  - setq オペレータの書き方
+
+  再生リスト
+  https://www.youtube.com/playlist?list=PLsD8jPAaC2a36Qv-hysBJQLhe2cp4Qftw
+
+  今回のエピソードで変更したファイル
+  https://github.com/p-snow/enjoy-emacs/commit/a7c9ba643eff4a210bb5f5e5183c783fdc527ae1
+
+  英語バージョン
+  https://youtu.be/Pg-4oc7yUEI</div>]]></description>
+      <pubDate>Thu, 04 Dec 2025 15:12:31 +0000</pubDate>
+    </item>
+    <item>
+      <title>Configure correções ortográficas no Emacs usando o Jinx e o Embark</title>
+      <link>https://www.youtube.com/watch?v=5avUXbXKNH8</link>
+      <guid>https://www.youtube.com/watch?v=5avUXbXKNH8</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=5avUXbXKNH8">youtube</a><br><br>Neste vídeo, eu mostro como podemos configurar o Jinx mais o Embark para configurar erros ortográficos. No Windows, fazer isso se torna consideravelmente mais simples utilizando o WSL. Se você não sabe como configurar o WSL e o Emacs, veja o meu vídeo anterior.
+
+  00:00:00 Introdução
+  00:02:30 Configurando o Jinx
+  00:05:15 Instalando o dicionário pt_BR do Aspell
+  00:07:30 Instalando dependências do Jinx
+  00:09:40 Jinx funcionando pela primeira vez
+  00:10:50 Configurando o Embark
+  00:17:50 Embark e Jinx funcionam juntos pela primeira vez</div>]]></description>
+      <pubDate>Thu, 04 Dec 2025 12:00:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>Enjoy Emacs: Super basics of an Emacs configuration file</title>
+      <link>https://www.youtube.com/watch?v=-vzjmElUmi0</link>
+      <guid>https://www.youtube.com/watch?v=-vzjmElUmi0</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=-vzjmElUmi0">youtube</a><br><br>Super basics of an Emacs configuration file
+
+  Playlist
+  https://www.youtube.com/playlist?list=PLCNMXglj4PXDNCH0vJ83MUtK5Lv68Gctc
+
+  Diffs for this episode
+  https://github.com/p-snow/enjoy-emacs/commit/304205ecfd9a76b51d2c2e0b523fcdbfe974c2e6
+
+  Japanese version
+  https://youtu.be/l4nbYYn5tsI</div>]]></description>
+      <pubDate>Tue, 02 Dec 2025 14:38:49 +0000</pubDate>
+    </item>
+    <item>
+      <title>たのしむ。Emacs: Emacs の設定ファイルについて基本を説明します</title>
+      <link>https://www.youtube.com/watch?v=l4nbYYn5tsI</link>
+      <guid>https://www.youtube.com/watch?v=l4nbYYn5tsI</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=l4nbYYn5tsI">youtube</a><br><br>Emacsの設定ファイルについて基本的なことを解説します。
+
+  再生リスト
+  https://www.youtube.com/playlist?list=PLsD8jPAaC2a36Qv-hysBJQLhe2cp4Qftw
+
+  今回のエピソードで変更したファイル
+  https://github.com/p-snow/enjoy-emacs/commit/304205ecfd9a76b51d2c2e0b523fcdbfe974c2e6
+
+  英語バージョン
+  https://youtu.be/-vzjmElUmi0</div>]]></description>
+      <pubDate>Mon, 01 Dec 2025 15:52:17 +0000</pubDate>
+    </item>
+    <item>
       <title>Emacs - Managing TODO comments in source code files</title>
       <link>https://youtu.be/zVbK5itxnzE?si=Xhw_ndNOTQB6ldat</link>
       <guid>https://youtu.be/zVbK5itxnzE?si=Xhw_ndNOTQB6ldat</guid>
@@ -32,6 +587,26 @@
   9:06 advanced: interactive stop within macro
   11:59 emacs regex (I realized the problem could be easier solved with that)</div>]]></description>
       <pubDate>Sat, 29 Nov 2025 16:52:34 +0000</pubDate><category>macros</category>
+    </item>
+    <item>
+      <title>Interactive Cheatsheets in Emacs - icheat.el</title>
+      <link>https://www.youtube.com/watch?v=ZqWylt2lYtc</link>
+      <guid>https://www.youtube.com/watch?v=ZqWylt2lYtc</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=ZqWylt2lYtc">youtube</a><br><br>Repo: https://github.com/LeonardoE95/icheat
+
+  Support my effort :)
+  - https://www.patreon.com/hexdump
+
+  Learn Web Application Security:
+  - https://www.udemy.com/course/practical-wapt/?referralCode=15450B3828BA5A3B23CB
+
+  Learn Linux Privilege Escalation:
+  - https://www.udemy.com/course/linux-privesc/?couponCode=33738F67D2C09EB25600
+
+  Official Forum and Website:
+  - https://forum.hexdump.sh
+  - https://hexdump.sh</div>]]></description>
+      <pubDate>Thu, 27 Nov 2025 18:11:21 +0000</pubDate>
     </item>
     <item>
       <title>Bending Emacs - Episode 06: Overlays</title>
@@ -130,578 +705,6 @@
 
   chrismaiorana.com</div>]]></description>
       <pubDate>Mon, 17 Nov 2025 21:04:05 +0000</pubDate><category>abbrev</category>
-    </item>
-    <item>
-      <title>GNU Emacs do Zero - Episódio 02</title>
-      <link>https://www.youtube.com/watch?v=NnrConrvGxg</link>
-      <guid>https://www.youtube.com/watch?v=NnrConrvGxg</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=NnrConrvGxg">youtube</a><br><br>Neste segundo episódio da série GNU Emacs do Zero, você vai compreender melhor como funciona o ELisp entre tantas outras teclas atalhos e edição com org-mode e org-agenda.
-
-  Manual oficial do Elisp: https://www.gnu.org/software/emacs/manual/html_node/eintr/
-
-  Curso completo de Emacs Lisp do @blauaraujocursos  https://youtu.be/5vSdG9n9c7c?si=CLiBFdH26Xggn2zu</div>]]></description>
-      <pubDate>Sun, 16 Nov 2025 01:13:30 +0000</pubDate><category>beginner</category>
-    </item>
-    <item>
-      <title>Creating an Emacs Package from Concept to MELPA (Part 1)</title>
-      <link>https://www.youtube.com/watch?v=l6o13pLo_Ms</link>
-      <guid>https://www.youtube.com/watch?v=l6o13pLo_Ms</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=l6o13pLo_Ms">youtube</a><br><br>In this series we will be developing the rare-words Emacs package, a package that highlights rare words in your Emacs buffer, and then trying to publish it to MELPA.</div>]]></description>
-      <pubDate>Sat, 15 Nov 2025 20:10:38 +0000</pubDate><category>elisp</category>
-    </item>
-    <item>
-      <title>Emacs lisp and gptel building custom llm tools to call emacs functions</title>
-      <link>https://www.youtube.com/watch?v=M386KUIh3Xc</link>
-      <guid>https://www.youtube.com/watch?v=M386KUIh3Xc</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=M386KUIh3Xc">youtube</a><br><br>Using Emacs with the gptel package we can create gpt-tools for llms that call emacs functions to provide the llm with information about our emacs set up
-
-  i was thinking couldnt you write emacs gptel-tools for llms and did a quick search and came across the emacs-mcp mcp server which wasnt quite what i was after.
-
-  so i refactored the code from the emacs-mcp package into the gptel-tool format for use with the gptel package and llms that support tool usage like llama and gemini
-
-  i created a gptel-custom-tools.el file with 32 gptel-tools for emacs which can be loaded using the gptel use package code block
-
-  the gptel-tools allow the llm to report the state of your emacs set up by listing installed packages, modes and variables. as well as reading the manuals and looking up docstrings for elisp symbols
-
-  refactored from mpontus emacs-mcp package
-
-  emacs-mcp
-  https://github.com/mpontus/emacs-mcp
-
-  gptel-custom-tools.el
-  https://github.com/NapoleonWils0n/nixos-dotfiles/blob/master/.config/emacs/lisp/gptel-custom-tools.el
-
-  early-init.el
-  https://github.com/NapoleonWils0n/nixos-dotfiles/blob/master/.config/emacs/early-init.el
-
-  init.el
-  https://github.com/NapoleonWils0n/nixos-dotfiles/blob/master/.config/emacs/init.el
-
-  ollama
-  https://ollama.com/library/llama3.1
-  https://ollama.com/library/llama3.2
-
-  dotfiles org mode
-  https://github.com/NapoleonWils0n/nixos-dotfiles/blob/master/nixos-dotfiles.org
-
-  https://github.com/NapoleonWils0n/nixos-dotfiles/blob/master/nixos-dotfiles.org#auth-source
-
-  https://github.com/NapoleonWils0n/nixos-dotfiles/blob/master/nixos-dotfiles.org#lisp-directory
-
-  https://github.com/NapoleonWils0n/nixos-dotfiles/blob/master/nixos-dotfiles.org#gptel-custom-toolsel</div>]]></description>
-      <pubDate>Fri, 14 Nov 2025 21:08:08 +0000</pubDate><category>ai</category>
-<category>gptel</category>
-    </item>
-    <item>
-      <title>AI Augmented, Language Agnostic, SWE Workflow, in Emacs</title>
-      <link>https://www.youtube.com/watch?v=kpExav29OjM</link>
-      <guid>https://www.youtube.com/watch?v=kpExav29OjM</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=kpExav29OjM">youtube</a><br><br>https://aider.chat/
-  https://github.com/MatthewZMD/aidermacs
-  https://opensource.com/article/18/8/what-how-makefile
-
-  https://github.com/rajp152k/.dotfiles</div>]]></description>
-      <pubDate>Fri, 14 Nov 2025 09:30:37 +0000</pubDate><category>ai</category>
-    </item>
-    <item>
-      <title>Ancient Greek Tweaks in Emacs</title>
-      <link>https://www.youtube.com/watch?v=oToTtoK1PQ0</link>
-      <guid>https://www.youtube.com/watch?v=oToTtoK1PQ0</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=oToTtoK1PQ0">youtube</a><br><br>How to get Ancient Greek to work flawlessly in Emacs
-  https://github.com/emacselements/my-ancient-greek-tweaks
-  https://github.com/emacselements/screenshot-ocr
-  My website: https://emacselements.com/</div>]]></description>
-      <pubDate>Fri, 14 Nov 2025 08:50:36 +0000</pubDate><category>writing</category>
-<category>greek</category>
-    </item>
-    <item>
-      <title>Ep712 Emacs Lisp, Move File to Parent Dir. car cdr cons, Supreme Functional Programing No Variable</title>
-      <link>https://www.youtube.com/watch?v=n_JUKfSf8sc</link>
-      <guid>https://www.youtube.com/watch?v=n_JUKfSf8sc</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=n_JUKfSf8sc">youtube</a><br><br>Video Summary (Generated by AI, Editedby Human.)
-
-  In this video, Xah Lee codes in Emacs Lisp to create a command that moves files or marked files to their parent directory (0:08).
-
-  Here's a breakdown of the video's content:
-
-  • Demonstration of manual file movement in Emacs Dired (1:02): The speaker first demonstrates the manual process of moving files in Emacs's Dired mode, which involves splitting windows, navigating directories, marking files, and using the capital R key to move them (1:02-2:08).
-  • He emphasizes the desire to automate this process with a single command (2:12).
-  • Introduction to Dired and File Managers (3:28): The speaker explains Dired as Emacs's directory editor, which is essentially a file manager.
-  • He compares it to Windows File Explorer, Mac Finder, and various Linux file managers (3:28-4:32).
-  • Getting a list of marked files (5:02): The first step in coding the command is to get a list of files that are currently marked in Dired.
-  • If no files are marked, the file under the cursor is considered the "current file" (5:02-6:10).
-  • The dired-get-marked-files command is used for this purpose (7:21).
-  • Finding the parent directory (9:25): The speaker then looks for the function to find the parent directory of a given file path.
-  • He refers to his own Emacs Lisp tutorial for this (9:32-11:58).
-  • He identifies file-name-directory as the function to get the directory of a file and later introduces file-name-parent-directory for obtaining the parent directory specifically (52:22).
-  • Renaming/Moving files with rename-file (12:50): The rename-file command is introduced as the way to move or rename files, following Unix conventions (13:13).
-  • Discussion on car and cdr in Lisp (15:22): A significant portion of the video is dedicated to explaining car and cdr (pronounced "car" and "carder" by the speaker) in Lisp.
-  • Cons Cells: He explains that Lisp lists are fundamentally built from "cons cells," which are pairs of two things (17:45).
-  • car refers to the first part of a cons cell, and cdr refers to the second part (20:16-20:58).
-  • Nesting for Lists: Lists are formed by nesting these cons cells (21:56).
-  • Historical Context: The speaker provides historical context, explaining that this design originated from early Lisp machines that had hardware optimized for these two-part cells (23:41).
-  • Modern Alternatives: He advises against using the nested car and cdr functions (like cadr or cddar) for accessing elements in a list, calling them "idiotic" and "silly" (28:18-33:11).
-  • Instead, he recommends using higher-level functions like nth for direct access (33:37) and push and pop for stack-like operations (36:56).
-  • List Traversal and Efficiency: He highlights that functions like length for lists are inefficient because they have to traverse each element, which is a nature of Lisp's linked list implementation (38:55).
-  • Completing the file movement command (42:30): The speaker proceeds to finalize the Emacs Lisp command, using mapc to apply the rename-file function to each selected file, concatenating the parent directory with the file's name (55:57).
-  • Testing the command (56:30): The command is successfully tested by moving a file to its parent directory and then moving it back (56:30-58:06).
-  • Refinement and Future Improvements (58:11): The speaker notes that the command could be further refined by adding error checking for root directories and printing messages about the move (58:11).
-  • He also discusses simplifying the code by removing unnecessary variables (59:23) and functional programing technique to not use any variable or constant.
-
-  Notes at
-  http ://xahlee .info/talk_show/xah_talk_show_ep712.html
-  Copy the link, remove spaces, paste the link in browser tab.
-  Google Chrome and Firefox browsers censor websites by auto adding s in http and says the site Secure Connection Failed.
-  Use Brave Browser or Safari.</div>]]></description>
-      <pubDate>Thu, 13 Nov 2025 18:25:11 +0000</pubDate><category>elisp</category>
-    </item>
-    <item>
-      <title>Effective Golang in Emacs</title>
-      <link>https://www.youtube.com/watch?v=p_xX_vX8M7g</link>
-      <guid>https://www.youtube.com/watch?v=p_xX_vX8M7g</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=p_xX_vX8M7g">youtube</a><br><br>LSP support, linting, formatting, debugging, reading docs, version control.
-
-  ,# Slides and conf
-  - https://github.com/skybert/skybert-talks/blob/main/emacs-go-setup/emacs-go.org
-  - https://gitlab.com/skybert/my-little-friends/-/blob/master/emacs/
-
-  ,# Connect
-  🕸️ https://skybert.net
-  🐘 https://hachyderm.io/@skybert
-  📫 torstein@skybert.net</div>]]></description>
-      <pubDate>Sat, 08 Nov 2025 17:21:58 +0000</pubDate><category>golang</category>
-    </item>
-    <item>
-      <title>Xah Talk Show Ep710 Emacs Lisp Coding, lookup grokipedia, goto line in next pane</title>
-      <link>https://www.youtube.com/watch?v=UQC8Rav5zic</link>
-      <guid>https://www.youtube.com/watch?v=UQC8Rav5zic</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=UQC8Rav5zic">youtube</a><br><br>Video Summary (Generated by AI, Reviewed by Human.)
-
-      This video is an Emacs Lisp coding session focused on creating and fixing two commands: lookup-grokipedia and go-to-char/go-to-line.
-      The speaker begins by demonstrating the go-to-line command, which allows users to jump to a specific line number in another pane (0:37).
-      He then introduces Grokipedia, a new encyclopedia by Elon Musk, explaining that it aims to provide a different perspective on "power-sensitive" topics compared to Wikipedia, which the speaker claims contains "fake news" on such subjects (11:12).
-      He demonstrates this by comparing Wikipedia and Grokipedia entries for "Gamergate" (16:15).
-      The speaker also mentions that for non-political topics like programming or mathematics, Grokipedia currently offers plain text versions of Wikipedia articles without illustrations or interlinks (21:06).
-      He then proceeds to code the lookup-grokipedia command in Emacs Lisp, demonstrating how to grab the current word under the cursor and construct a URL to search Grokipedia (25:02).
-      Finally, the speaker fixes a bug in his go-to-line command (32:02) and briefly discusses his use of multiple web browsers (35:16) and his Emacs Lisp packages, including Xah Fly Keys (2:51) and "Xah Emacs Lisp Mode" (39:18).
-
-  Notes at
-  http ://xahlee .info/talk_show/xah_talk_show_ep710.html
-  Copy the link, remove spaces, paste the link in browser tab.
-  Google Chrome and Firefox browsers censor websites by auto adding s in http and says the site Secure Connection Failed.
-  Use Brave Browser or Safari.</div>]]></description>
-      <pubDate>Sat, 08 Nov 2025 08:58:18 +0000</pubDate>
-    </item>
-    <item>
-      <title>Emacs For Writers Unit 9: Installing Packages</title>
-      <link>https://www.youtube.com/watch?v=ZKesc3eFcxY</link>
-      <guid>https://www.youtube.com/watch?v=ZKesc3eFcxY</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=ZKesc3eFcxY">youtube</a><br><br>Emacs users have access to a wide network of installable packages.  These packages can be used to extend the base functionality of Emacs, so you can save time, do more, and have fun.
-
-  EMACS FOR WRITERS HANDBOOK:
-  https://chris-maiorana.kit.com/products/emacs-for-writers
-
-  chrismaiorana.com</div>]]></description>
-      <pubDate>Fri, 07 Nov 2025 19:45:51 +0000</pubDate><category>configuration</category>
-<category>packages</category>
-    </item>
-    <item>
-      <title>emacs literate org mode config for your init.el</title>
-      <link>https://www.youtube.com/watch?v=qn6PnM2nNy0</link>
-      <guid>https://www.youtube.com/watch?v=qn6PnM2nNy0</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=qn6PnM2nNy0">youtube</a><br><br>instead of having one big emacs init.el you can split the file up into code blocks each under their own heading in an org file and then tangle or write out all the code blocks to a file
-
-  inj this video i show you how to use org demarcate block to split a code block into multiple new blocks which can be filed under their own headings
-
-  we then use noweb-ref in a org properties drawer to apply a name to all the code blocks under a subtree which can then be tangled using another source code block that references those blocks
-
-  the advantage of this method is that you can tangle the code blocks to multiple locations instead of tangling the entire document
-
-  nixos dotfiles
-  https://github.com/NapoleonWils0n/nixos-dotfiles/blob/master/nixos-dotfiles.org
-
-  changelog
-  https://github.com/NapoleonWils0n/changelog
-
-  org demarcate block
-  https://github.com/NapoleonWils0n/cerberus/blob/master/emacs/org-demarcate-block.org</div>]]></description>
-      <pubDate>Fri, 07 Nov 2025 17:48:17 +0000</pubDate><category>org</category>
-    </item>
-    <item>
-      <title>Eldoc-mouse demo for emacs lisp</title>
-      <link>https://www.youtube.com/watch?v=NO8818bzwmU</link>
-      <guid>https://www.youtube.com/watch?v=NO8818bzwmU</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=NO8818bzwmU">youtube</a><br><br>Demo for display documentation for variable and functions for mouse hover using package Eldoc-mouse
-  https://github.com/huangfeiyu/eldoc-mouse</div>]]></description>
-      <pubDate>Fri, 07 Nov 2025 13:22:48 +0000</pubDate><category>EldocMouse</category>
-<category>eldoc</category>
-    </item>
-    <item>
-      <title>Emacs is my COMPUTER now...</title>
-      <link>https://www.youtube.com/watch?v=n5VMWuxLi10</link>
-      <guid>https://www.youtube.com/watch?v=n5VMWuxLi10</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=n5VMWuxLi10">youtube</a><br><br>I am using emacs as my computer now. Check out the original blogpost: https://joshblais.com/blog/how-i-am-deeply-integrating-emacs/
-  and HackerNews discussion: https://news.ycombinator.com/item?id=45832341
-
-  Come join me on IRC or XMPP: https://joshblais.com/community
-
-  libera.chat - #technicalrenaissance
-
-  NixOS Configuration & Dotfiles: https://github.com/jblais493/nixos-config
-
-  My Setup:
-  Thinkpad t14s Gen 3 - https://amzn.to/3WxfOwi
-  Majexstand - https://amzn.to/3ydquZd
-  Chocofi Keyboard - https://shop.beekeeb.com/product/presoldered-chocofi-split-keyboard/
-  Ulanzi Superclamp - https://amzn.to/3SwVv12
-  Logitech MX Ergo - https://amzn.to/4dqzetJ
-  Shure SM7B - https://amzn.to/3LMzMyr
-  Audient ID4 Mkii - https://amzn.to/3Sz9e7A
-  Anker 100w GaN Charger - https://amzn.to/3LKH99A
-  Cables - https://amzn.to/3WvIjdX
-  Moondrop Kato - https://amzn.to/46xsUyd
-  Ulanzi Tripod - https://amzn.to/4cc3szN
-
-  My website: https://joshblais.com
-  My Book: https://mountainthebook.com
-  Github: https://github.com/jblais493/
-  Twitter: https://twitter.com/realjoshuablais
-  Instagra: https://instagram.com/joshuablais
-
-  If you enjoy my content, please consider tipping at any of the following support channels:
-
-  Buy Me a Coffee: https://buymeacoffee.com/joshuablais
-  Ko-fi: https://ko-fi.com/joshuablais
-  LiberaPay: https://liberapay.com/joshuablais/
-  Github Sponsors: https://github.com/sponsors/jblais493</div>]]></description>
-      <pubDate>Thu, 06 Nov 2025 18:41:36 +0000</pubDate>
-    </item>
-    <item>
-      <title>Meanwhile on Emacs life...</title>
-      <link>https://www.youtube.com/shorts/3bo4ZNUoGqs</link>
-      <guid>https://www.youtube.com/shorts/3bo4ZNUoGqs</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/shorts/3bo4ZNUoGqs">youtube</a><br><br></div>]]></description>
-      <pubDate>Wed, 05 Nov 2025 14:10:08 +0000</pubDate><category>fun</category>
-    </item>
-    <item>
-      <title>Bending Emacs - Episode 05: Ready Player Mode</title>
-      <link>https://www.youtube.com/watch?v=BjCgo6NC9Zw</link>
-      <guid>https://www.youtube.com/watch?v=BjCgo6NC9Zw</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=BjCgo6NC9Zw">youtube</a><br><br>In this episode, we look at Ready Player Mode for music playback
-
-  Notes from the video at https://xenodium.com/bending-emacs-episode-5-ready-player-mode
-
-  Also of interest:
-
-  - A Tour of Ready Player Mode: https://xenodium.com/a-tour-of-ready-player-mode
-  - The Dired Abstraction: https://xenodium.com/the-dired-abstraction</div>]]></description>
-      <pubDate>Wed, 05 Nov 2025 12:20:24 +0000</pubDate><category>music</category>
-    </item>
-    <item>
-      <title>Why I Use Emacs for Ontologies (and How to Memorize a HUGE Knowledge Graph) [AMA #1]</title>
-      <link>https://www.youtube.com/watch?v=R6gYZ5B4lqs</link>
-      <guid>https://www.youtube.com/watch?v=R6gYZ5B4lqs</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=R6gYZ5B4lqs">youtube</a><br><br>Why would an Ontology Engineer skip tools like Protege and TopBraid Composer and stick with a 'plain' text editor like Emacs? And how do you manage a complex knowledge graph with thousands of classes and properties without relying on memory alone? Those were two great questions from FredBlok4308, and I'm answering them in this video.
-
-  I dive into my personal workflow, explaining the history and practical reasons for choosing a text-based approach (hint: it's a historical happy accident that was supported by it being fun, fully customizable, and better than the other options I tried). I also reveal the secret to taming graph complexity, which involves good modular design, the "use it or lose it" principle, and leveraging SPARQL queries to serve as your method for learning the vocabula. Whether you're a Semantic Web veteran or just starting with knowledge graphs, this covers the critical strategies for scaling your data modeling efforts.</div>]]></description>
-      <pubDate>Tue, 04 Nov 2025 13:01:02 +0000</pubDate>
-    </item>
-    <item>
-      <title>Easy Setup for Drew Adams&apos; Essential Emacs Packages on Emacswiki</title>
-      <link>https://www.youtube.com/watch?v=EVjJMssj5iA</link>
-      <guid>https://www.youtube.com/watch?v=EVjJMssj5iA</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=EVjJMssj5iA">youtube</a><br><br>Learn how to automatically download and configure 39 powerful Emacs packages from Drew Adams, including Icicles (interactive completion), Bookmark+, Dired+, and more. This video shows you:
-
-  - How to use the automated download script
-  - Where packages are installed (~/.emacs.d/wiki/)
-  - Basic Emacs configuration to get started
-  - Command-line options for the script
-
-  https://github.com/emacselements/emacswiki-packages
-
-  My website: https://emacselements.com/</div>]]></description>
-      <pubDate>Tue, 04 Nov 2025 02:40:43 +0000</pubDate>
-    </item>
-    <item>
-      <title>Never stop writing in Emacs (productive transparency!)</title>
-      <link>https://youtu.be/9_iYMas_mGo</link>
-      <guid>https://youtu.be/9_iYMas_mGo</guid>
-      <description><![CDATA[<div id="content"><a href="https://youtu.be/9_iYMas_mGo">youtube</a><br><br>A cool trick to impress writers.
-
-  Productive transparency!!
-
-  (Combined with all my previous tricks, Key Chords, rare bigrams, Braille Inspired, directional bindings, we achieve next level control  in writing!! Now we have a transparent Emacs client, instant and temporary!)
-
-  Supporting me will inspire me to produce more quality content
-
-  Show some support by buying me coffee on my Ko-fi page. It accepts your usual Debit/Credit card with 0% fee.
-  https://ko-fi.com/ardiemejia83
-
-  Or can donate straight to my PayPal
-  https://paypal.me/ardiemejia83</div>]]></description>
-      <pubDate>Tue, 04 Nov 2025 02:00:09 +0000</pubDate><category>transparency</category>
-    </item>
-    <item>
-      <title>Quick Git Tip Using Magit Inside Emacs 2025_11_04_02:55:35</title>
-      <link>https://www.youtube.com/watch?v=1GVoHtZjGlw</link>
-      <guid>https://www.youtube.com/watch?v=1GVoHtZjGlw</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=1GVoHtZjGlw">youtube</a><br><br>In this video, you will see,
-
-  ,#linux #linuxadmin #sysadmin #opensource #Gentoo #Debian #Slackware #research
-  ,#linuxkernel #kernel #gnu #Linux #GNU #shorts
-
-  Buy Me A Coffee: https://www.buymeacoffee.com/unixbhaskar
-  Patreon: https://www.patreon.com/unixbhaskar
-  Paypal: https://paypal.me/linuxbhaskar
-
-  You can also find me :
-
-  GitHub: https://github.com/unixbhaskar
-
-  Reddit: https://www.reddit.com/user/unixbhaskar
-
-  Blogs: https://unixbhaskar.wordpress.com
-
-  Twitter: https://twitter.com/unixbhaskar
-
-  Linkedin: https://linkedin.com/in/unixbhaskar
-
-  Vimeo: https://vimeo.com/unixbhaskar
-
-  Goodreads: https://goodreads.com/unixbhaskar</div>]]></description>
-      <pubDate>Mon, 03 Nov 2025 21:38:18 +0000</pubDate><category>magit</category>
-    </item>
-    <item>
-      <title>Emacs dired video thumbnails with ffmpegthumbnailer</title>
-      <link>https://www.youtube.com/watch?v=L2CUydP07ug</link>
-      <guid>https://www.youtube.com/watch?v=L2CUydP07ug</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=L2CUydP07ug">youtube</a><br><br>the emacs media-thumbnailer package uses ffmpegthumbnailer to show video thumbnails in dired and you can configure the thumbnail size and image cache location as well
-
-  emacs dired media-thumbnailer
-  https://github.com/NapoleonWils0n/cerberus/blob/master/emacs/media-thumbnailer.org
-
-  ffmpegthumbnailer
-  https://github.com/dirkvdb/ffmpegthumbnailer
-
-  media-thumbnailer
-  https://github.com/jojojames/media-thumbnail
-
-  nixos dotfiles
-  https://github.com/NapoleonWils0n/nixos-dotfiles</div>]]></description>
-      <pubDate>Mon, 03 Nov 2025 20:50:32 +0000</pubDate><category>dired</category>
-<category>video</category>
-    </item>
-    <item>
-      <title>Emacs eglot and language servers for auto completion</title>
-      <link>https://www.youtube.com/watch?v=f7UX79i_mmc</link>
-      <guid>https://www.youtube.com/watch?v=f7UX79i_mmc</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=f7UX79i_mmc">youtube</a><br><br>Eglot is an Emacs package that works as an lcp client that connects to a language server to provide features like auto complete, go to definition, find all references etc.
-
-  You can install language server for languages like bash, python and dozens more and then map a mode like python to the python lsp server, so whenever you open a python file it starts the python lsp server automatically
-
-  lsp servers notes
-  https://github.com/NapoleonWils0n/cerberus/blob/master/emacs/lsp-servers.org
-
-  emacs eglot
-  https://github.com/joaotavora/eglot
-
-  bash-language-server
-  https://github.com/bash-lsp/bash-language-server
-
-  python-lsp-server
-  https://github.com/python-lsp/python-lsp-server
-
-  nixd
-  https://github.com/nix-community/nixd
-
-  nixos emacs config
-  https://github.com/NapoleonWils0n/nixos-dotfiles/tree/master/.config/emacs
-
-  debian emacs config
-  https://github.com/NapoleonWils0n/debian-dotfiles/tree/master/.config/emacs
-
-  language server protocol
-  https://microsoft.github.io/language-server-protocol/</div>]]></description>
-      <pubDate>Mon, 03 Nov 2025 18:56:20 +0000</pubDate><category>eglot</category>
-<category>lsp</category>
-    </item>
-    <item>
-      <title>A Useful Templating System in Emacs</title>
-      <link>https://www.youtube.com/watch?v=0qEHgiaSnsw</link>
-      <guid>https://www.youtube.com/watch?v=0qEHgiaSnsw</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=0qEHgiaSnsw">youtube</a><br><br>Let's see a package in Emacs, YASnippet, which offers a powerful templating system.
-
-  Discover YASnippet:
-  - https://github.com/joaotavora/yasnippet
-
-  Support my effort :)
-  - https://www.patreon.com/hexdump
-
-  Learn Web Application Security:
-  - https://www.udemy.com/course/practical-wapt/?referralCode=15450B3828BA5A3B23CB
-
-  Learn Linux Privilege Escalation:
-  - https://www.udemy.com/course/linux-privesc/?couponCode=33738F67D2C09EB25600
-
-  Official Forum and Website:
-  - https://forum.hexdump.sh
-  - https://hexdump.sh
-
-  TIMESTAMPS
-
-  00:00 What is YASnippet?
-  03:00 Installation
-  05:00 Create a template
-  08:00 Usage</div>]]></description>
-      <pubDate>Sun, 02 Nov 2025 12:17:30 +0000</pubDate><category>yasnippet</category>
-    </item>
-    <item>
-      <title>Emacs For Writers Unit 8: Your First Configuration</title>
-      <link>https://www.youtube.com/watch?v=6yLmEGIIwb0</link>
-      <guid>https://www.youtube.com/watch?v=6yLmEGIIwb0</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=6yLmEGIIwb0">youtube</a><br><br>In this video, we will look at how you can configure your Emacs install with the magic configuration file. The "config" holds your user preferences. It's coded with Emacs Lisp.  You don't have to be an expert in Elisp to get started. You can start with my "darkstar" config or piece together examples from the Internet.
-
-  STARTER CONFIG:
-  https://github.com/cryptstopher/darkstar
-
-  EMACS FOR WRITERS HANDBOOK:
-  https://chris-maiorana.kit.com/products/emacs-for-writers
-
-  chrismaiorana.com</div>]]></description>
-      <pubDate>Fri, 31 Oct 2025 19:30:26 +0000</pubDate><category>configuration</category>
-<category>beginner</category>
-    </item>
-    <item>
-      <title>buffer-restore.el - Save and Restore Emacs Window Layouts with Named Sessions</title>
-      <link>https://www.youtube.com/watch?v=Kf68nibRKXc</link>
-      <guid>https://www.youtube.com/watch?v=Kf68nibRKXc</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=Kf68nibRKXc">youtube</a><br><br>https://github.com/emacselements/buffer-restore
-
-  Quick demo of buffer-restore.el, an Emacs package for manual session management.
-
-  Unlike desktop-save-mode, buffer-restore lets you save multiple named sessions and workspaces, giving you explicit control over when to save and restore your layouts.
-
-  Key Features:
-  • Save/restore single frame layouts (sessions)
-  • Save/restore multiple frames with positions (workspaces)
-  • Preserves exact PDF pages, EPUB chapters, and cursor positions
-  • Perfect for switching between different work contexts
-
-  Commands shown:
-  - buffer-restore-save-session
-  - buffer-restore-load-session
-  - buffer-restore-save-workspace
-  - buffer-restore-load-workspace
-
-  ,#emacs #productivity #opensource #plato #republic</div>]]></description>
-      <pubDate>Fri, 31 Oct 2025 09:35:55 +0000</pubDate><category>navigation</category>
-<category>BufferRestore</category>
-    </item>
-    <item>
-      <title>Hacking on Emacs #4: window configuration after magit commit</title>
-      <link>https://www.youtube.com/watch?v=R1Lo-wGZIVY</link>
-      <guid>https://www.youtube.com/watch?v=R1Lo-wGZIVY</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=R1Lo-wGZIVY">youtube</a><br><br>Making sure window configuration stays the same after finishing Magit commit (when using `current-window-only`)
-
-  ► Main channel: https://www.youtube.com/@jakubkadlcik
-  ► GitHub: https://github.com/FrostyX
-  ► Blog: https://frostyx.cz
-  ► Mastodon: https://fosstodon.org/@FrostyX</div>]]></description>
-      <pubDate>Wed, 29 Oct 2025 17:15:58 +0000</pubDate><category>configuration</category>
-<category>window</category>
-    </item>
-    <item>
-      <title>Emacs For Writers Unit 7: Advanced Text Markup in Org Mode</title>
-      <link>https://www.youtube.com/watch?v=vNFnQz8iUF8</link>
-      <guid>https://www.youtube.com/watch?v=vNFnQz8iUF8</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=vNFnQz8iUF8">youtube</a><br><br>In this video, we go beyond the basics of italics, bold, and underline formatting to take look at some more advanced constructs in Org Mode, including an intro to structured blocks and export options.
-
-  EMACS FOR WRITERS HANDBOOK:
-  https://chris-maiorana.kit.com/products/emacs-for-writers
-
-  chrismaiorana.com</div>]]></description>
-      <pubDate>Mon, 27 Oct 2025 19:39:44 +0000</pubDate><category>org</category>
-    </item>
-    <item>
-      <title>GNU Emacs do Zero - Episódio 01</title>
-      <link>https://youtu.be/jHTc2tiXt8M</link>
-      <guid>https://youtu.be/jHTc2tiXt8M</guid>
-      <description><![CDATA[<div id="content"><a href="https://youtu.be/jHTc2tiXt8M">youtube</a><br><br>Neste vídeo vamos aprender o básico do Emacs e já introduzir ao Org-mode.
-
-  ,#emacs #gnuemacs #gnu #development #developer #editor</div>]]></description>
-      <pubDate>Mon, 27 Oct 2025 16:03:02 +0000</pubDate>
-    </item>
-    <item>
-      <title>أساسيات إيماكس كمحرر نصوص | The Basics of Emacs as a Text Editor</title>
-      <link>https://www.youtube.com/watch?v=tBwu127eVyk</link>
-      <guid>https://www.youtube.com/watch?v=tBwu127eVyk</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=tBwu127eVyk">youtube</a><br><br>دعم القناة:
-  إذا أعجبك المحتوى وترغب في دعم عملي، يمكنك شراء قهوة لي من هنا:
-  ☕ https://buymeacoffee.com/the.omania
-
-  دوراتنا في لينكس وتقنية المعلومات:
-  https://omanialearninghub.com
-
-  انضم إلى مجموعة فيسبوك للشبكات وتقنية المعلومات:
-  https://www.facebook.com/groups/omanialearninghub/
-
-  انضم إلى مجموعة التليقرام للشبكات وتقنية المعلومات:
-  https://t.me/OmaniaLearningHub
-
-  تابعني على تيك توك:
-  https://www.tiktok.com/@the.omania
-
-  أضفني على سناب شات:
-  https://www.snapchat.com/add/the.omania دعم القناة:</div>]]></description>
-      <pubDate>Mon, 27 Oct 2025 08:42:50 +0000</pubDate>
-    </item>
-    <item>
-      <title>show doc for candidate of complete of company/corfu in Emacs</title>
-      <link>https://youtube.com/watch?v=6B45y7lU9Zw&amp;si=JcFtMhc2y9AhTLV8</link>
-      <guid>https://youtube.com/watch?v=6B45y7lU9Zw&amp;si=JcFtMhc2y9AhTLV8</guid>
-      <description><![CDATA[<div id="content"><a href="https://youtube.com/watch?v=6B45y7lU9Zw&si=JcFtMhc2y9AhTLV8">youtube</a><br><br>I just learned that we can show the document for the candidate as we move through the candidates list of company/corfu.
-  For company, it requires either of the following packages to show document for candidate
-  1. https://github.com/company-mode/company-quickhelp or
-  2. https://github.com/sebastiencs/company-box
-  For Corfu, not additional package is needed. just add (corfu-popupinfo-mode) in "init"
-  (use-package corfu
-    :custom
-    (corfu-cycle t)
-    (corfu-preview-current nil)
-    :init
-    (global-corfu-mode)
-    (corfu-popupinfo-mode) ;; this is for show document for candidate
-    )</div>]]></description>
-      <pubDate>Mon, 27 Oct 2025 06:41:28 +0000</pubDate><category>company</category>
-<category>corfu</category>
-<category>completion</category>
-<category>elisp</category>
-    </item>
-    <item>
-      <title>Hacking on Emacs #2: Enabling forge.fedoraproject.org support for git-link</title>
-      <link>https://www.youtube.com/watch?v=XkgymMFV1HQ</link>
-      <guid>https://www.youtube.com/watch?v=XkgymMFV1HQ</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=XkgymMFV1HQ">youtube</a><br><br>► Main channel: https://www.youtube.com/@jakubkadlcik
-  ► GitHub: https://github.com/FrostyX
-  ► Blog: https://frostyx.cz
-  ► Mastodon: https://fosstodon.org/@FrostyX</div>]]></description>
-      <pubDate>Sun, 26 Oct 2025 13:05:38 +0000</pubDate>
-    </item>
-    <item>
-      <title>Using Emacs and json-par-mode to navigate through records in a JSON file</title>
-      <link>https://www.youtube.com/watch?v=WDVCmJNDhDw</link>
-      <guid>https://www.youtube.com/watch?v=WDVCmJNDhDw</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=WDVCmJNDhDw">youtube</a><br><br>There are many applications that can help you browsing relatively complex JSON files. Emacs is one of a powerful choice.</div>]]></description>
-      <pubDate>Sun, 26 Oct 2025 10:37:44 +0000</pubDate><category>json</category>
-    </item>
-    <item>
-      <title>Piping in and out of Emacs buffers.</title>
-      <link>https://www.youtube.com/watch?v=LVlF3-KyqvY</link>
-      <guid>https://www.youtube.com/watch?v=LVlF3-KyqvY</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=LVlF3-KyqvY">youtube</a><br><br>Let's pipe some content in and out of Emacs in terminal.
-
-  It's a brief demo of https://github.com/agzam/mx-piper</div>]]></description>
-      <pubDate>Sun, 26 Oct 2025 03:19:21 +0000</pubDate>
     </item>
   </channel>
 </rss>
