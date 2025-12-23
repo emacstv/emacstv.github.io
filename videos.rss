@@ -6,6 +6,279 @@
     <atom:link href="https://emacs.tv/videos.rss" rel="self" type="application/rss+xml" />
     <description>Emacs videos</description>
     <item>
+      <title>The Essentials of Emacs Recentf</title>
+      <link>https://www.youtube.com/watch?v=aSwBn3ddAMQ</link>
+      <guid>https://www.youtube.com/watch?v=aSwBn3ddAMQ</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=aSwBn3ddAMQ">youtube</a><br><br>https://github.com/emacselements
+  https://emacselements.com/</div>]]></description>
+      <pubDate>Sat, 20 Dec 2025 20:09:27 +0000</pubDate>
+    </item>
+    <item>
+      <title>Essentials of Emacs Bookmarks</title>
+      <link>https://www.youtube.com/watch?v=VpNA44jzf1o</link>
+      <guid>https://www.youtube.com/watch?v=VpNA44jzf1o</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=VpNA44jzf1o">youtube</a><br><br>https://github.com/emacselements
+  https://emacselements.com/</div>]]></description>
+      <pubDate>Sat, 20 Dec 2025 20:09:16 +0000</pubDate>
+    </item>
+    <item>
+      <title>fzf, magit, and ast-grep demo</title>
+      <link>https://www.youtube.com/watch?v=W4eOz3L6Ga8</link>
+      <guid>https://www.youtube.com/watch?v=W4eOz3L6Ga8</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=W4eOz3L6Ga8">youtube</a><br><br>Work demo of misc tools:
+
+  - fzf shell history completion
+  - Emacs Magit interactive rebase usage
+  - ast-grep syntactical search uses cases
+
+  Sorry for the bad resolution. I don't know how to youtube.</div>]]></description>
+      <pubDate>Sat, 20 Dec 2025 05:01:21 +0000</pubDate>
+    </item>
+    <item>
+      <title>Emacs PDF Processing Workflow with Org Attach and Org Noter</title>
+      <link>https://www.youtube.com/watch?v=95WUVP10GG4</link>
+      <guid>https://www.youtube.com/watch?v=95WUVP10GG4</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=95WUVP10GG4">youtube</a><br><br>Related article:
+  https://bardman.dev/technology/emacs-pdf</div>]]></description>
+      <pubDate>Sat, 20 Dec 2025 02:33:06 +0000</pubDate>
+    </item>
+    <item>
+      <title>Emacs Notmuch with Multiple Addresses &amp; Auto Encryption</title>
+      <link>https://www.youtube.com/watch?v=P42C5wEQK-Y</link>
+      <guid>https://www.youtube.com/watch?v=P42C5wEQK-Y</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=P42C5wEQK-Y">youtube</a><br><br>This guide provides a quick setup for configuring Notmuch with GNU Emacs to handle multiple email addresses and enable automatic encryption.
+
+  Notmuch has been incredibly useful for me over the past year, and I hope this guide helps new users overcome initial challenges.
+
+
+  Video notes: https://thanosapollo.org/posts/emacs-notmuch-video-guide/</div>]]></description>
+      <pubDate>Thu, 18 Dec 2025 20:50:49 +0000</pubDate>
+    </item>
+    <item>
+      <title>EmacsConf 2025 Q&amp;A: Common Lisp images communicating like-a-human through shared Emacs slime and eev</title>
+      <link>https://www.youtube.com/watch?v=GGpKmWu54K4</link>
+      <guid>https://www.youtube.com/watch?v=GGpKmWu54K4</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=GGpKmWu54K4">youtube</a><br><br>screwlisp (he/him, they/them)
+
+  This is the Q&A for the talk at https://youtu.be/hy5i6Qb6fYE .
+
+  00:00 Opening
+  02:08 Q: What do you mean by "the agent is running slowly"?
+  03:00 Q: Do you think that it would be too hard to add a second way to send commands from Common Lisp to Emacs?
+  06:37 Q: What is the leonardo system?
+  09:27 Q: What is LambdaMOO, and how do we use it?
+  11:01 Q: It seems like you're trying to build a more restrictive Turing test using the input / output logs of an emacs conversation. Is that accurate?
+  15:52 Q: What do you mean by slowly?
+
+  You can view this and other resources using free/libre software at https://emacsconf.org/2025/talks/commonlisp .
+  This video is available under the terms of the Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license.</div>]]></description>
+      <pubDate>Thu, 18 Dec 2025 03:04:02 +0000</pubDate>
+    </item>
+    <item>
+      <title>EmacsConf 2025 Q&amp;A: Emacs as a fully-fledged reference manager - Vidianos Giannitsis (he/him)</title>
+      <link>https://www.youtube.com/watch?v=v7la6wZtqyU</link>
+      <guid>https://www.youtube.com/watch?v=v7la6wZtqyU</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=v7la6wZtqyU">youtube</a><br><br>This is the Q&A for the talk at https://youtu.be/XjhnY4WuQRQ .
+
+  00:00 Q: Have you try ivy-bibtex/bibtex-completion.el, how it compares to ebib?
+  01:32 Q: Do you find showing abstract on your navigation panel helpful?
+  03:53 Q: it seems that there's a meta problem here: too much information. Do your tools reduce cognative load?
+  06:44 Q: When you download a new article, how do you integrate its file to your database? For example, do you move and rename the file manually?
+  10:02 Q: What about annotations with ereaders: viewing and taking on emacs or ereader touchscreen highlighting and notes, org-noter I think would be an alternative out of ebook annotation alternative?
+  12:52 Q: How well do you feel about making notes on web sites, pdf, videos? I know pdf is usually good but others I am less sure about.
+  16:19 Q: How do you add a new article from scratch, a pdf that you did not have in your bib file? How do you generate the 'bib' entry with metadata and abstract?
+  18:15 Q: When do you fact check every detail for a bib entry? The author names, published journal, doi stuff.
+
+  You can view this and other resources using free/libre software at https://emacsconf.org/2025/talks/reference .
+  This video is available under the terms of the Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license.</div>]]></description>
+      <pubDate>Thu, 18 Dec 2025 02:01:49 +0000</pubDate>
+    </item>
+    <item>
+      <title>Get Focused with org-pomodoro</title>
+      <link>https://youtu.be/2ljN8xvwjvI</link>
+      <guid>https://youtu.be/2ljN8xvwjvI</guid>
+      <description><![CDATA[<div id="content"><a href="https://youtu.be/2ljN8xvwjvI">youtube</a><br><br>,#emacs #pomodoro #orgmode
+
+  Today we'll get a basic org-pomodoro setup done in emacs
+
+  ,## Links
+
+  - Readwise: https://readwise.io/
+  - Read the full post with links: https://curtismchale.ca/2025/12/15/setting-up-org-pomodoro-in-doom-emacs-hyprland-fedora/
+
+  ,## Courses
+
+  - SkillShare TickTick Course: https://skl.sh/2ExpXVv
+  - SkillShare Timeblocking Course: https://skl.sh/38MQzz8
+  - SkillShare Zettelkasten Course: https://skl.sh/3rntNDW
+  - Getting Started with Obsidian Course: https://skl.sh/2Y6DUDM
+
+  ,## My Gear
+
+  - My gear: https://curtismchale.ca/my-gear
+  - Patreon: https://patreon.com/curtismchale
+  - Music: https://www.epidemicsound.com/referral/blhmqa/
+  - Streaming with: https://www.ecamm.com/mac/ecammlive/?fp_ref=curtis42</div>]]></description>
+      <pubDate>Thu, 18 Dec 2025 02:00:05 +0000</pubDate>
+    </item>
+    <item>
+      <title>EmacsConf 2025 Q&amp;A: An introduction to the Emacs Reader - Divyá</title>
+      <link>https://www.youtube.com/watch?v=lo4eZJNzUAs</link>
+      <guid>https://www.youtube.com/watch?v=lo4eZJNzUAs</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=lo4eZJNzUAs">youtube</a><br><br>EmacsConf 2025 Q&A: An introduction to the Emacs Reader
+  Divyá
+
+  This is the Q&A for the talk at https://youtu.be/KQBXTSg_Occ .
+
+  00:00 Q: Is there scope for integrating the C library into Emacs itself with muPDF becoming an optional dependency?
+  00:59 Q: The dynamic modules sound great, and it's amazing they're there since 2017. Why is it so slow to take off, do you think? Is there prior art with them?
+  03:02 Q: How is pdf-tools difficult to install? I install it using the built in package manager.
+  04:41 Q: What tool(s) did you use to measure the memory usage between the three packages?
+  05:49 Q: How is the conversion between ELisp and the foreign language type system done? For example when interfacing with a C++ library that makes heavy use of C++ object system and templates?
+  08:17 Q: Can one look at pdf metadata with emacs-reader? Can annotations be added? Does it understand forms? Can it handle encrypted pdfs?
+  09:28 Q: How can I associate ODT files to open with emacs-reader?
+  10:26 Q: If a pdf file is open in emacs-reader and I regenerate the pdf with some changes, does emacs-reader actually refresh the pdf on its own or do I have to reload the pdf?
+  11:49 Q: What are the challenges with integrating with SyncTeX and AucTeX? This would be great to see as pdf-tools handles this well.
+  12:35 Q: Will you be giving another talk on the architecture you went over? A deep-dive there would be awesome.
+  12:59 Q: Is there search functionality? Something like isearch and occur?
+  13:30 Q: Does dynamic module prevent customization that Elisp usually provide? (Advices, Hooks, etc).
+  15:31 Q: Do you usually create an Elisp shim from the FFI and then use them with Elisp code?
+  16:44 Q: Is searching on the roadmap? Or is it already available as a feature?
+  17:48 Q: Will there be occur-like searching?
+  18:28 Q: What is your timing expectation for it to appear on ELPA?
+
+  You can view this and other resources using free/libre software at https://emacsconf.org/2025/talks/reader .
+  This video is available under the terms of the Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license.</div>]]></description>
+      <pubDate>Thu, 18 Dec 2025 01:59:34 +0000</pubDate>
+    </item>
+    <item>
+      <title>EmacsConf 2025 Q&amp;A: Interactive Python programming in Emacs - David Vujic (he/him)</title>
+      <link>https://www.youtube.com/watch?v=JIpcbE1XrKI</link>
+      <guid>https://www.youtube.com/watch?v=JIpcbE1XrKI</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=JIpcbE1XrKI">youtube</a><br><br>EmacsConf 2025 Q&A: Interactive Python programming in Emacs
+  David Vujic (he/him)
+
+  This is the Q&A for the talk at https://youtu.be/uACM4a5MPQM .
+
+  00:00 Developing Python in Emacs
+  01:16 Q: How long have you been using Emacs?
+  02:39 Q: What editor were you primarily using before?
+  04:00 Q: Do you have your Emacs connect to the IPython kernel over the XMPP socket that IPython sets up?
+  05:38 Q: Not sure if you've explored Org Babel, but what are the benefits of using your approach over Org?
+  07:05 Q: Have you seen marimo.io notebooks? It uses standard Python.
+  08:20 Q: what LLM did you say you've used?
+  10:28 Q: Are you building your own Emacs, or using the system packages?
+  12:40 Q: Are you involved with local Emacs meetups?
+  14:24 Q: Can you repeat the name of the LLM that you specifically mentioned there? - ECA
+  18:08 Wrapping up
+
+  You can view this and other resources using free/libre software at https://emacsconf.org/2025/talks/python .
+  This video is available under the terms of the Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license.</div>]]></description>
+      <pubDate>Thu, 18 Dec 2025 01:56:58 +0000</pubDate>
+    </item>
+    <item>
+      <title>EmacsConf 2025 Q&amp;A: Emacs, editors, and LLM driven workflows - Andrew Hyatt (he/him)</title>
+      <link>https://www.youtube.com/watch?v=K14Beypjarc</link>
+      <guid>https://www.youtube.com/watch?v=K14Beypjarc</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=K14Beypjarc">youtube</a><br><br>This is the Q&A for the talk at https://youtu.be/U3kbEabBJ_s .
+
+  00:00 Q: My biggest question with AI code editors trying to integrate with Emacs is -- are the AI code editors able to read unsaved buffers and not just saved files?
+  02:20 Q: Personally I don't agree with the comment you made about VS Code usage dying out because I see companies/products pushing for tightly-integrated VS-Code agents/products like Windsurf. Thoughts?
+  03:47 Q: Do you have any thoughts about the environmental cost of using LLMs - either the training of models we can download and use locally, or the larger, commercial models used from the cloud?
+  06:09 Q: I must say, I liked your conclusion, but I differ insofar as you said that VS Code differ from Emacs because the former is not as easy to adapt as the latter. Why should Microsoft not adapt VS Code as we adapt Emacs for the new era of coding? And why would VS Code be harder hit? Could you please elaborate on this point?
+  09:14 Q: Do you think that we are falling behind in productivity as Emacs users? Compared to all these VSCode forks that have 1000 buttons and textboxes everywhere (i.e. much richer UIs which are basically webpages).
+  12:17 Q: I've been using Claude Code extensively. I recently switched to Agent Shell with Claude Code. Have you tried it, what are your thoughts?
+  14:32 Q: In terms of agent selection, what has your experience been with different agents, and have you had any success with hosting your own models and using open weights?
+  17:33 Q: I'm reading angst in your thinking about AI/editing. What are you excited about?
+  19:47 Q: Why does it matter to have a richer UI? All that is left is basically writing and getting the results.
+  22:25 Wrapping up
+  23:23 Q: I have 45+ years editing, programming. I'm not sure I can think about things without thinking of buffers, editors etc. Is this a handicap/should we just have people with no experience with code learn to prompt?
+
+  You can view this and other resources using free/libre software at https://emacsconf.org/2025/talks/llm .
+  This video is available under the terms of the Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license.</div>]]></description>
+      <pubDate>Thu, 18 Dec 2025 01:53:43 +0000</pubDate>
+    </item>
+    <item>
+      <title>EmacsConf 2025 Q&amp;A: Reading and writing emails in GNU Emacs with Gnus - Amin Bandali (he/him)</title>
+      <link>https://www.youtube.com/watch?v=iu0iqBd9qSo</link>
+      <guid>https://www.youtube.com/watch?v=iu0iqBd9qSo</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=iu0iqBd9qSo">youtube</a><br><br>This is the Q&A for the talk at https://youtu.be/0Pu8oqdsSig .
+
+  00:00 Q: I noticed that it took a considerable amount of time to send email. Is it possible to configure gnus to use an external smtp client to send emails?
+  01:17 Q: Is the dovecot workaround actually a solution?
+  03:07 Q: Do you have experience with mu4e or Notmuch, and why would you say Gnus is worth using compared to these?
+  06:05 Q: At my organization, we're forced to use OAuth with outlook and they've also blacklisted all email clients except thunderbird (but they don't support it, only the webmail or the outlook app). Do you know if this is something that can be circumvented in Gnus?
+  13:18 Comment: Liked how I started with a clean setup
+  17:34 Comment: They would have liked to see a quick demo of Gnus while it is fully configured and tweaked
+  18:22 My init file
+  19:34 Mail splitting
+  19:52 Gnus parameters
+  21:31 Custom signatures
+  22:05 Other customizations
+
+  You can view this and other resources using free/libre software at https://emacsconf.org/2025/talks/gnus .
+  This video is available under the terms of the Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license.</div>]]></description>
+      <pubDate>Thu, 18 Dec 2025 01:51:33 +0000</pubDate>
+    </item>
+    <item>
+      <title>EmacsConf 2025 Q&amp;A: org-gmail: A deep integration of Gmail into your Org Mode</title>
+      <link>https://www.youtube.com/watch?v=vjkQ9kJUR44</link>
+      <guid>https://www.youtube.com/watch?v=vjkQ9kJUR44</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=vjkQ9kJUR44">youtube</a><br><br>Bala Ramadurai (he/him)
+
+  This is the Q&A for the talk at https://youtu.be/8P93UBYrUB8 .
+
+  00:00 Feedback: Consider using similar background (dark-only / light-only) throughout to help with eye strain.
+  00:29 Q: Should I know all my contact's email addresses by heart? Or is some kind of contact list?
+  01:33 Q: What would it take to use the org pieces of this with, e.g., offlineimap or other non-Gmail mail setups?
+  02:50 Q: Do you worry about sending some info to a wrong person? Due to some unseen technical issues, for example, due to memory overflow.
+  04:11 Comment: You should say what org-gmail is and is not, goals and non goals "which in this case is more helpful" to help people get their head around this.
+  05:43 Q: How does it handle attachments? If it doesn't, do you have a plan to add this feature?
+
+  You can view this and other resources using free/libre software at https://emacsconf.org/2025/talks/gmail .
+  This video is available under the terms of the Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license.</div>]]></description>
+      <pubDate>Thu, 18 Dec 2025 01:47:30 +0000</pubDate>
+    </item>
+    <item>
+      <title>Why You Should Never Try Emacs</title>
+      <link>https://www.youtube.com/watch?v=FupJOKR3WeA</link>
+      <guid>https://www.youtube.com/watch?v=FupJOKR3WeA</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=FupJOKR3WeA">youtube</a><br><br>How being uniquely the most customizable piece of software in the world makes Emacs going strong after 40 years. And why you should never try it or you'll be sad.</div>]]></description>
+      <pubDate>Thu, 18 Dec 2025 00:57:40 +0000</pubDate>
+    </item>
+    <item>
+      <title>Emacs Customization With Ease 2025_12_16_14:04:29</title>
+      <link>https://youtu.be/aPAZUfH2raA</link>
+      <guid>https://youtu.be/aPAZUfH2raA</guid>
+      <description><![CDATA[<div id="content"><a href="https://youtu.be/aPAZUfH2raA">youtube</a><br><br>In this video, you will see that Emacs can be customized easily with various options from M-x prompt.
+
+  You can look at the online manual for that specific section : https://www.gnu.org/software/emacs/manual/html_node/emacs/Specific-Customization.html
+
+  ,#linux #linuxadmin #sysadmin #opensource #Gentoo #Debian #Slackware #research
+  ,#linuxkernel #kernel #gnu #Linux #GNU
+
+  Buy Me A Coffee: https://www.buymeacoffee.com/unixbhaskar
+  Patreon: https://www.patreon.com/unixbhaskar
+  Paypal: https://paypal.me/linuxbhaskar
+
+  You can also find me :
+
+  GitHub: https://github.com/unixbhaskar
+
+  Reddit: https://www.reddit.com/user/unixbhaskar
+
+  Blogs: https://unixbhaskar.wordpress.com
+
+  Twitter: https://twitter.com/unixbhaskar
+
+  Linkedin: https://linkedin.com/in/unixbhaskar
+
+  Vimeo: https://vimeo.com/unixbhaskar
+
+  Goodreads: https://goodreads.com/unixbhaskar</div>]]></description>
+      <pubDate>Tue, 16 Dec 2025 08:56:56 +0000</pubDate>
+    </item>
+    <item>
       <title>The Annoying Usefulness of Emacs</title>
       <link>https://www.youtube.com/watch?v=DMbrNhx2zWQ</link>
       <guid>https://www.youtube.com/watch?v=DMbrNhx2zWQ</guid>
@@ -158,6 +431,61 @@
       <pubDate>Sun, 07 Dec 2025 20:13:46 +0000</pubDate>
     </item>
     <item>
+      <title>EmacsConf 2025: Bookclub tapas - Maddie Sullivan (she/her)</title>
+      <link>https://www.youtube.com/watch?v=GAOZzrm6ecA</link>
+      <guid>https://www.youtube.com/watch?v=GAOZzrm6ecA</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=GAOZzrm6ecA">youtube</a><br><br>https://emacsconf.org/2025/talks/bookclub-tapas
+
+  00:00 Introduction
+  00:29 Hi, I'm Maddie!
+  01:03 Bookclub Tapas
+  02:00 Bookclub
+  02:40 Too many hats, too many roles
+  03:55 Narrativiation
+  05:24 My starter kit - My stock, off the shelf suggestions
+  05:47 Now what?
+  05:58 Our overarching goal
+  06:23 Our development focuses
+  07:05 The rest of the headings
+  08:37 Conversationality
+  10:55 Ad-hoc means less friction
+  13:01 Gratis documentation
+  14:48 Keeping the thread of your intention
+  16:21 Bookclub is becoming too much
+  17:25 Introducing Tapas
+  18:22 What are Tapas, what are Tapas not?
+  22:25 Tapas are maybe best illustrated by example
+  25:52 Introducing Squint
+  28:36 What else does Bookclub Tapas do?
+  29:08 Let's work together
+
+  You can view this and other resources using free/libre software at https://emacsconf.org/2025/talks/bookclub-tapas .
+  This video is available under the terms of the Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license.</div>]]></description>
+      <pubDate>Sun, 07 Dec 2025 19:45:01 +0000</pubDate>
+    </item>
+    <item>
+      <title>EmacsConf 2025: Gardening in Emacs: A Windows user&apos;s tale of tending, tweaking, and triumph</title>
+      <link>https://www.youtube.com/watch?v=lNIc8-_C9kQ</link>
+      <guid>https://www.youtube.com/watch?v=lNIc8-_C9kQ</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=lNIc8-_C9kQ">youtube</a><br><br>EmacsConf 2025: Gardening in Emacs: A Windows user's tale of tending, tweaking, and triumph - Marco Bresciani
+  https://emacsconf.org/2025/talks/gardening
+
+  00:05 Introduction
+  00:39 What is a digital garden?
+  02:11 Why a digital garden?
+  03:39 How to digital garden?
+  04:57 How to make Emacs portable, on Windows
+  08:18 My Emacs customization
+  10:36 PlantUML and Japanese
+  14:50 My Org Mode publishing configuration
+  16:04 The final result
+  17:03 Thank you for listening
+
+  You can view this and other resources using free/libre software at https://emacsconf.org/2025/talks/gardening .
+  This video is available under the terms of the Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license.</div>]]></description>
+      <pubDate>Sun, 07 Dec 2025 19:15:03 +0000</pubDate>
+    </item>
+    <item>
       <title>EmacsConf 2025: Zettelkasten for regular Emacs hackers - Christian Tietze (he)</title>
       <link>https://www.youtube.com/watch?v=wE8vCWyr1Eo</link>
       <guid>https://www.youtube.com/watch?v=wE8vCWyr1Eo</guid>
@@ -192,6 +520,54 @@
   You can view this and other resources using free/libre software at https://emacsconf.org/2025/talks/weights .
   This video is available under the terms of the Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license.</div>]]></description>
       <pubDate>Sun, 07 Dec 2025 17:21:28 +0000</pubDate>
+    </item>
+    <item>
+      <title>EmacsConf 2025: Some problems of modernizing Emacs - Eduardo Ochs (he/him)</title>
+      <link>https://www.youtube.com/watch?v=EbxupbXfESg</link>
+      <guid>https://www.youtube.com/watch?v=EbxupbXfESg</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=EbxupbXfESg">youtube</a><br><br>https://emacsconf.org/2025/talks/modern
+
+  00:00 Introduction
+  01:05 The main themes of this video
+  02:18 Inner views of Emacs objects
+  02:54 Older Emacses
+  03:35 Newer Emacses
+  05:30 Help buttons
+  06:41 "Anyone can learn Lisp in one day"
+  09:34 Lambdas for beginners broken
+  12:59 Demo
+  17:29 Printing something in different ways for lambdas
+  21:52 Exploring buttons
+  22:42 Some design decisions behind EEV
+  24:05 Tests
+
+  You can view this and other resources using free/libre software at https://emacsconf.org/2025/talks/modern .
+  This video is available under the terms of the Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license.</div>]]></description>
+      <pubDate>Sun, 07 Dec 2025 17:19:42 +0000</pubDate>
+    </item>
+    <item>
+      <title>EmacsConf 2025: LaTeX export in org-mode: the overhaul - Pedro A. Aranda Gutiérrez (he, him)</title>
+      <link>https://www.youtube.com/watch?v=4nkFEd73UOE</link>
+      <guid>https://www.youtube.com/watch?v=4nkFEd73UOE</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=4nkFEd73UOE">youtube</a><br><br>https://emacsconf.org/2025/talks/latex
+
+  00:00 Introduction
+  00:41 Motivation
+  02:53 Evolution
+  06:02 What do you get from the feature branch?
+  08:47 Behind the scenes: .dir-locals.el
+  11:59 When fontspec is not enough
+  15:21 Rationale behind my take at LaTeX font management
+  18:34 Demonstrations
+  22:57 Demo: Emoji
+  23:33 Demo: Letter
+  25:44 Demo: Side by side
+  28:12 Thanks
+  29:47 Q: What about video (mp4) support for ox-latex?
+
+  You can view this and other resources using free/libre software at https://emacsconf.org/2025/talks/latex .
+  This video is available under the terms of the Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license.</div>]]></description>
+      <pubDate>Sun, 07 Dec 2025 17:18:54 +0000</pubDate>
     </item>
     <item>
       <title>EmacsConf 2025: An introduction to the Emacs Reader - Divyá</title>
@@ -403,308 +779,6 @@
   You can view this and other resources using free/libre software at https://emacsconf.org/2025/talks/gnus .
   This video is available under the terms of the Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license.</div>]]></description>
       <pubDate>Sat, 06 Dec 2025 15:50:01 +0000</pubDate>
-    </item>
-    <item>
-      <title>EmacsConf 2025: Swanky Python: Interactive development for Python - Scott Zimmermann (he/him)</title>
-      <link>https://www.youtube.com/watch?v=fy0ofT1I54U</link>
-      <guid>https://www.youtube.com/watch?v=fy0ofT1I54U</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=fy0ofT1I54U">youtube</a><br><br>https://emacsconf.org/2025/talks/swanky
-
-  You can view this and other resources using free/libre software at https://emacsconf.org/2025/talks/swanky .
-  This video is available under the terms of the Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license.</div>]]></description>
-      <pubDate>Sat, 06 Dec 2025 15:45:07 +0000</pubDate>
-    </item>
-    <item>
-      <title>EmacsConf 2025: One year progress update Schemacs (formerly Gypsum) - Ramin Honary (he/him)</title>
-      <link>https://www.youtube.com/watch?v=KmMeLfYn1xY</link>
-      <guid>https://www.youtube.com/watch?v=KmMeLfYn1xY</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=KmMeLfYn1xY">youtube</a><br><br>https://emacsconf.org/2025/talks/schemacs
-
-  02:07 The scope of the project
-  04:24 Difference with Robin Templeton's project (Guile-Emacs)
-  05:49 Progress made since last year
-  07:28 Portable React-like GUI
-  09:06 Demo
-  11:48 Additional changes
-  14:12 Other Scheme implementations
-  17:06 GUI framework
-  21:51 Wrapping up
-
-  You can view this and other resources using free/libre software at https://emacsconf.org/2025/talks/schemacs .
-  This video is available under the terms of the Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license.</div>]]></description>
-      <pubDate>Sat, 06 Dec 2025 14:30:30 +0000</pubDate><category>emacsconf</category>
-    </item>
-    <item>
-      <title>EmacsConf 2025: Emacs as a fully-fledged reference manager - Vidianos Giannitsis (he/him)</title>
-      <link>https://www.youtube.com/watch?v=XjhnY4WuQRQ</link>
-      <guid>https://www.youtube.com/watch?v=XjhnY4WuQRQ</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=XjhnY4WuQRQ">youtube</a><br><br>https://emacsconf.org/2025/talks/reference
-
-  00:00 Introduction
-  01:43 Capture
-  04:00 Organizing
-  05:03 Ebib
-  07:55 Filters
-  09:36 Dependent databases
-  12:50 Reading lists
-  15:02 Special org-roam-node-find
-  18:05 Annotations
-  19:21 Wrapping up
-
-  You can view this and other resources using free/libre software at https://emacsconf.org/2025/talks/reference .
-  This video is available under the terms of the Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license.</div>]]></description>
-      <pubDate>Sat, 06 Dec 2025 14:30:20 +0000</pubDate>
-    </item>
-    <item>
-      <title>Advent of Code 2025 day 3 in elisp/common lisp simultaneously</title>
-      <link>https://www.youtube.com/watch?v=7ZSjwo6ohrk</link>
-      <guid>https://www.youtube.com/watch?v=7ZSjwo6ohrk</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=7ZSjwo6ohrk">youtube</a><br><br>This is a recreation of my day 3 early-in-the-morning solution but written in such a way that the file will run in both emacs lisp and common lisp.</div>]]></description>
-      <pubDate>Sat, 06 Dec 2025 12:50:53 +0000</pubDate>
-    </item>
-    <item>
-      <title>I wrote an Emacs plugin</title>
-      <link>https://www.youtube.com/watch?v=QH6KOEVnSZA</link>
-      <guid>https://www.youtube.com/watch?v=QH6KOEVnSZA</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=QH6KOEVnSZA">youtube</a><br><br>Streamed Live on Kick: https://kick.com/tsoding
-
-  Chapters:
-  - 00:00:00 - Intro
-  - 00:13:02 - Parsing TODOs
-  - 00:33:20 - Creating HUID
-  - 00:38:47 - Searching for folder
-  - 01:09:01 - Creating new task
-  - 01:46:53 - Go to task
-  - 02:14:31 - Outro
-
-  References:
-  - https://www.bitkeeper.org/
-  - https://github.com/tsoding/snitch/
-  - https://en.wikipedia.org/wiki/Snowflake_ID
-  - https://en.wikipedia.org/wiki/Universally_unique_identifier
-  - https://www.gnu.org/software/emacs/
-  - https://mitp-content-server.mit.edu/books/content/sectbyfn/books_pres_0/6515/sicp.zip/index.html
-
-  Topic: Writing a simple Emacs plugin to manage project tasks
-
-  Twitch Chat in Subtitles generated by: https://github.com/kam1k4dze/subchat
-
-  Support:
-  - https://github.com/tsoding/donate#support-tsoding</div>]]></description>
-      <pubDate>Fri, 05 Dec 2025 13:34:36 +0000</pubDate>
-    </item>
-    <item>
-      <title>たのしむ。Emacs: Emacs Lisp を書いて起動後の画面をシンプルにしてみよう</title>
-      <link>https://www.youtube.com/watch?v=7onpWC4tJRA</link>
-      <guid>https://www.youtube.com/watch?v=7onpWC4tJRA</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=7onpWC4tJRA">youtube</a><br><br>今回から Emacs Lisp で設定ファイル init.el を書いていきます。
-
-  この動画で紹介すること
-  - ブックマーク機能
-  - setq オペレータの書き方
-
-  再生リスト
-  https://www.youtube.com/playlist?list=PLsD8jPAaC2a36Qv-hysBJQLhe2cp4Qftw
-
-  今回のエピソードで変更したファイル
-  https://github.com/p-snow/enjoy-emacs/commit/a7c9ba643eff4a210bb5f5e5183c783fdc527ae1
-
-  英語バージョン
-  https://youtu.be/Pg-4oc7yUEI</div>]]></description>
-      <pubDate>Thu, 04 Dec 2025 15:12:31 +0000</pubDate>
-    </item>
-    <item>
-      <title>Configure correções ortográficas no Emacs usando o Jinx e o Embark</title>
-      <link>https://www.youtube.com/watch?v=5avUXbXKNH8</link>
-      <guid>https://www.youtube.com/watch?v=5avUXbXKNH8</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=5avUXbXKNH8">youtube</a><br><br>Neste vídeo, eu mostro como podemos configurar o Jinx mais o Embark para configurar erros ortográficos. No Windows, fazer isso se torna consideravelmente mais simples utilizando o WSL. Se você não sabe como configurar o WSL e o Emacs, veja o meu vídeo anterior.
-
-  00:00:00 Introdução
-  00:02:30 Configurando o Jinx
-  00:05:15 Instalando o dicionário pt_BR do Aspell
-  00:07:30 Instalando dependências do Jinx
-  00:09:40 Jinx funcionando pela primeira vez
-  00:10:50 Configurando o Embark
-  00:17:50 Embark e Jinx funcionam juntos pela primeira vez</div>]]></description>
-      <pubDate>Thu, 04 Dec 2025 12:00:14 +0000</pubDate>
-    </item>
-    <item>
-      <title>Enjoy Emacs: Super basics of an Emacs configuration file</title>
-      <link>https://www.youtube.com/watch?v=-vzjmElUmi0</link>
-      <guid>https://www.youtube.com/watch?v=-vzjmElUmi0</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=-vzjmElUmi0">youtube</a><br><br>Super basics of an Emacs configuration file
-
-  Playlist
-  https://www.youtube.com/playlist?list=PLCNMXglj4PXDNCH0vJ83MUtK5Lv68Gctc
-
-  Diffs for this episode
-  https://github.com/p-snow/enjoy-emacs/commit/304205ecfd9a76b51d2c2e0b523fcdbfe974c2e6
-
-  Japanese version
-  https://youtu.be/l4nbYYn5tsI</div>]]></description>
-      <pubDate>Tue, 02 Dec 2025 14:38:49 +0000</pubDate>
-    </item>
-    <item>
-      <title>たのしむ。Emacs: Emacs の設定ファイルについて基本を説明します</title>
-      <link>https://www.youtube.com/watch?v=l4nbYYn5tsI</link>
-      <guid>https://www.youtube.com/watch?v=l4nbYYn5tsI</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=l4nbYYn5tsI">youtube</a><br><br>Emacsの設定ファイルについて基本的なことを解説します。
-
-  再生リスト
-  https://www.youtube.com/playlist?list=PLsD8jPAaC2a36Qv-hysBJQLhe2cp4Qftw
-
-  今回のエピソードで変更したファイル
-  https://github.com/p-snow/enjoy-emacs/commit/304205ecfd9a76b51d2c2e0b523fcdbfe974c2e6
-
-  英語バージョン
-  https://youtu.be/-vzjmElUmi0</div>]]></description>
-      <pubDate>Mon, 01 Dec 2025 15:52:17 +0000</pubDate>
-    </item>
-    <item>
-      <title>Emacs - Managing TODO comments in source code files</title>
-      <link>https://youtu.be/zVbK5itxnzE?si=Xhw_ndNOTQB6ldat</link>
-      <guid>https://youtu.be/zVbK5itxnzE?si=Xhw_ndNOTQB6ldat</guid>
-      <description><![CDATA[<div id="content"><a href="https://youtu.be/zVbK5itxnzE?si=Xhw_ndNOTQB6ldat">youtube</a><br><br>https://github.com/daehwannam/emacs-library/blob/0c10d5bf08e69bf6ae14ed14c0e8f7d9fc877402/common/dhnam-org-todo-comment.el</div>]]></description>
-      <pubDate>Sun, 30 Nov 2025 13:00:15 +0000</pubDate>
-    </item>
-    <item>
-      <title>Bending Emacs - Episode 07: Eshell built-in commands</title>
-      <link>https://youtu.be/M6o1N2kfmuc</link>
-      <guid>https://youtu.be/M6o1N2kfmuc</guid>
-      <description><![CDATA[<div id="content"><a href="https://youtu.be/M6o1N2kfmuc">youtube</a><br><br>Eshell is a broad topic, but today we talk about Eshell built-in commands
-
-  Here's a full run-down in an equivalent blog post https://xenodium.com/rinku-cli-link-previews</div>]]></description>
-      <pubDate>Sat, 29 Nov 2025 18:42:04 +0000</pubDate><category>eshell</category>
-    </item>
-    <item>
-      <title>basics of emacs macros (and interactive regex replace)</title>
-      <link>https://www.youtube.com/watch?v=LAqlXfOZqeU</link>
-      <guid>https://www.youtube.com/watch?v=LAqlXfOZqeU</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=LAqlXfOZqeU">youtube</a><br><br>https://nic-olas.me
-
-  timestamps:
-  2:38 start of emacs macros explanation
-  9:06 advanced: interactive stop within macro
-  11:59 emacs regex (I realized the problem could be easier solved with that)</div>]]></description>
-      <pubDate>Sat, 29 Nov 2025 16:52:34 +0000</pubDate><category>macros</category>
-    </item>
-    <item>
-      <title>Interactive Cheatsheets in Emacs - icheat.el</title>
-      <link>https://www.youtube.com/watch?v=ZqWylt2lYtc</link>
-      <guid>https://www.youtube.com/watch?v=ZqWylt2lYtc</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=ZqWylt2lYtc">youtube</a><br><br>Repo: https://github.com/LeonardoE95/icheat
-
-  Support my effort :)
-  - https://www.patreon.com/hexdump
-
-  Learn Web Application Security:
-  - https://www.udemy.com/course/practical-wapt/?referralCode=15450B3828BA5A3B23CB
-
-  Learn Linux Privilege Escalation:
-  - https://www.udemy.com/course/linux-privesc/?couponCode=33738F67D2C09EB25600
-
-  Official Forum and Website:
-  - https://forum.hexdump.sh
-  - https://hexdump.sh</div>]]></description>
-      <pubDate>Thu, 27 Nov 2025 18:11:21 +0000</pubDate>
-    </item>
-    <item>
-      <title>Bending Emacs - Episode 06: Overlays</title>
-      <link>https://www.youtube.com/watch?v=93wWCroTKnM</link>
-      <guid>https://www.youtube.com/watch?v=93wWCroTKnM</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=93wWCroTKnM">youtube</a><br><br>In this episode we take a look at overlays to decorate our Emacs buffers.
-
-  Accompanying blog post with spinnets and experiment details https://xenodium.com/bending-emacs-episode-6-overlays</div>]]></description>
-      <pubDate>Wed, 26 Nov 2025 21:42:40 +0000</pubDate><category>overlays</category>
-    </item>
-    <item>
-      <title>Emacs Rules, Vim Drools? - Why I&apos;m an Emacs Guy Now</title>
-      <link>https://www.youtube.com/watch?v=I54z-iy070A</link>
-      <guid>https://www.youtube.com/watch?v=I54z-iy070A</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=I54z-iy070A">youtube</a><br><br>Today I talk about why I've decided Emacs is good enough for me.
-
-  👇 PULL IT DOWN FOR THE GOOD STUFF 👇
-
-  Patreon - https://patreon.com/thelinuxcast
-  Paypal - https://paypal.me/thelinuxcast
-  Youtube - https://www.youtube.com/channel/UCylGUf9BvQooEFjgdNudoQg/join
-  Ko-fi - https://ko-fi.com/thelinuxcast
-
-  ===== Follow us 🐧🐧 ======
-  MERCH - https://shop.thelinuxcast.org
-  Discord - https://thelinuxcast.org/discord
-  Odysee - https://odysee.com/$/invite/@thelinuxcast:4
-  TILvids(Peertube) - https://tilvids.com/c/thelinuxcast_channel/videos
-  Mastodon- https://polymaths.social/@thelinuxcast
-  Bluesky - https://bsky.app/profile/thelinuxcast.bsky.social
-  https://gitlab.com/thelinuxcast
-  Matrix - https://matrix.to/#/#the-linux-cast:matrix.org
-  The Website http://thelinuxcast.org
-  Contact us email@thelinuxcast.org
-  Amazon Wishlist - https://www.amazon.com/hz/wishlist/ls/1J3W9HF4O2M7T?ref_=wl_share
-  Logo Courtesy of - pedropaulo.net
-  Intro Courtesy of - https://www.fragcgi.com/?i=1
-
-  Get a free month of Proton Mail! https://go.getproton.me/SH1gC
-  Get 20% Off Your First Year at Hostinger - https://tinyurl.com/27kqbj63
-
-  ==== Special Thanks to Our Patrons! ====
-  https://thelinuxcast.org/patrons/
-
-  ==== My Gear ==== (Affilliate Links)
-
-  Shure sm7b - https://amzn.to/42jvata
-  LG Dual Up Monitor - https://amzn.to/42h7m9e
-  Sceptre 32 Curved Monitor - https://amzn.to/40CHoeY
-  Edifier R1280T - https://amzn.to/4gValbW
-  Elgato Stream Deck MK2 - https://amzn.to/4ga1MJa
-  Universal Audio Volt 276 - https://amzn.to/4jd8ukh
-  iPhone 15 Pro Mac - https://amzn.to/4jmxdT2
-  Logitech Brio Webcam - https://amzn.to/4aqoRFZ
-  Weilisi Desk Ring Light - https://amzn.to/4aqp1gz
-  Logitech MX Master 3 - https://amzn.to/3Wm5A2E
-
-  ,#emacs  #linux #thelinuxcast</div>]]></description>
-      <pubDate>Wed, 26 Nov 2025 00:39:57 +0000</pubDate>
-    </item>
-    <item>
-      <title>Emacs For Writers Unit 11: Word Counters and Line Numbers</title>
-      <link>https://www.youtube.com/watch?v=WEVm2AxbBGc</link>
-      <guid>https://www.youtube.com/watch?v=WEVm2AxbBGc</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=WEVm2AxbBGc">youtube</a><br><br>Writers need to track word counts for submissions and goals.  Emacs provides count-words (M-=) for accurate counts and display-line-numbers-mode for line tracking.  Relative line numbering shows distances from the current line.  While dynamic counting can slow larger documents, the built-in functions provide reliable metrics when needed.
-
-  EMACS FOR WRITERS HANDBOOK:
-  https://chris-maiorana.kit.com/products/emacs-for-writers
-
-  chrismaiorana.com</div>]]></description>
-      <pubDate>Sun, 23 Nov 2025 21:01:57 +0000</pubDate><category>writing</category>
-    </item>
-    <item>
-      <title>2 commands for every cracked #emacs nerd 🔥🤓#linux</title>
-      <link>https://www.youtube.com/watch?v=T_-Qg7jDe6s</link>
-      <guid>https://www.youtube.com/watch?v=T_-Qg7jDe6s</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=T_-Qg7jDe6s">youtube</a><br><br>exchange-point-and-mark, mark-whole-buffer</div>]]></description>
-      <pubDate>Sun, 23 Nov 2025 02:51:13 +0000</pubDate>
-    </item>
-    <item>
-      <title>MX LInux: Midnight Madness (Python, Emacs, duckdb)</title>
-      <link>https://www.youtube.com/watch?v=VHb8AZXLmAs</link>
-      <guid>https://www.youtube.com/watch?v=VHb8AZXLmAs</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=VHb8AZXLmAs">youtube</a><br><br>MX LInux: Midnight Madness (Python, Emacs, duckdb)
-  This stream is created with #PRISMLiveStudio</div>]]></description>
-      <pubDate>Fri, 21 Nov 2025 18:57:55 +0000</pubDate><category>coding</category>
-    </item>
-    <item>
-      <title>Emacs For Writers Unit 10: Text Expansion with Abbrev Mode</title>
-      <link>https://www.youtube.com/watch?v=G5jmVz2FWpg</link>
-      <guid>https://www.youtube.com/watch?v=G5jmVz2FWpg</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=G5jmVz2FWpg">youtube</a><br><br>Text expansion in Emacs is easy.  With "abbrev mode" you can easily take a small abbreviated text snippet and expand it into almost anything. This is great for creating shortcuts for complicated word spellings or for auto correct options in Emacs. Check it out.
-
-  EMACS FOR WRITERS HANDBOOK:
-  https://chris-maiorana.kit.com/products/emacs-for-writers
-
-  chrismaiorana.com</div>]]></description>
-      <pubDate>Mon, 17 Nov 2025 21:04:05 +0000</pubDate><category>abbrev</category>
     </item>
   </channel>
 </rss>
