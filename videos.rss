@@ -6,6 +6,40 @@
     <atom:link href="https://emacs.tv/videos.rss" rel="self" type="application/rss+xml" />
     <description>Emacs videos</description>
     <item>
+      <title>Polymode: Enhancing Code Blocks in Org &amp; Markdown in Emacs</title>
+      <link>https://www.youtube.com/watch?v=FxF5gSTINtY</link>
+      <guid>https://www.youtube.com/watch?v=FxF5gSTINtY</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=FxF5gSTINtY">youtube</a><br><br>https://github.com/polymode/polymode
+  https://github.com/emacselements
+  https://emacselements.com/</div>]]></description>
+      <pubDate>Mon, 29 Dec 2025 07:31:09 +0000</pubDate><category>org</category>
+<category>polymode</category>
+    </item>
+    <item>
+      <title>The Built-in Emacs Subword-mode for Navigating CamelCaseWords</title>
+      <link>https://www.youtube.com/watch?v=IH5eOSNDE34</link>
+      <guid>https://www.youtube.com/watch?v=IH5eOSNDE34</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=IH5eOSNDE34">youtube</a><br><br>https://github.com/emacselements
+  https://emacselements.com/</div>]]></description>
+      <pubDate>Sat, 27 Dec 2025 12:09:00 +0000</pubDate><category>navigation</category>
+    </item>
+    <item>
+      <title>The Evil-nerd-commenter Package for Emacs</title>
+      <link>https://www.youtube.com/watch?v=JO9CI7QfipM</link>
+      <guid>https://www.youtube.com/watch?v=JO9CI7QfipM</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=JO9CI7QfipM">youtube</a><br><br>Use the package evil-nerd-commenter to comment and uncomment lines in Emacs more easily. One doesn't need to use evil-mode for this to work.
+
+  Install evil-nerd-commenter, then add this code to your init.el file.
+  ;; evil-nerd-commenter (you don't need to use evil-mode to use this)
+  (evilnc-default-hotkeys) ()
+  (defun matlab-mode-hook-config ()
+    (local-set-key (kbd "M-;") 'evilnc-comment-or-uncomment-lines))
+
+  https://github.com/emacselements
+  https://emacselements.com/</div>]]></description>
+      <pubDate>Sat, 27 Dec 2025 11:51:42 +0000</pubDate><category>coding</category>
+    </item>
+    <item>
       <title>The Essentials of Emacs Recentf</title>
       <link>https://www.youtube.com/watch?v=aSwBn3ddAMQ</link>
       <guid>https://www.youtube.com/watch?v=aSwBn3ddAMQ</guid>
@@ -717,68 +751,6 @@
   You can view this and other resources using free/libre software at https://emacsconf.org/2025/talks/llm .
   This video is available under the terms of the Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license.</div>]]></description>
       <pubDate>Sat, 06 Dec 2025 18:00:40 +0000</pubDate>
-    </item>
-    <item>
-      <title>EmacsConf 2025: Basic Calc functionality for engineering or electronics</title>
-      <link>https://www.youtube.com/watch?v=MAc6gCUHjOw</link>
-      <guid>https://www.youtube.com/watch?v=MAc6gCUHjOw</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=MAc6gCUHjOw">youtube</a><br><br>EmacsConf 2025: Basic Calc functionality for engineering or electronics - Christopher Howard (he/him)
-  https://emacsconf.org/2025/talks/calc
-
-  00:03 Introduction
-  02:36 What is Calc?
-  04:54 calc-algebraic-entry
-  06:37 calc-roll-down
-  08:07 Advanced functions
-  08:58 Solving equations with calc-solve-for
-  09:54 Systems of equations
-  12:00 calc-find-root
-  12:39 Derivatives and integrals
-  14:17 Programmable functions
-  18:12 Plotting
-  20:08 Wish list
-  22:38 Wrapping up
-
-  You can view this and other resources using free/libre software at https://emacsconf.org/2025/talks/calc .
-  This video is available under the terms of the Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license.</div>]]></description>
-      <pubDate>Sat, 06 Dec 2025 18:00:33 +0000</pubDate>
-    </item>
-    <item>
-      <title>EmacsConf 2025: Interactive Python programming in Emacs - David Vujic (he/him)</title>
-      <link>https://www.youtube.com/watch?v=uACM4a5MPQM</link>
-      <guid>https://www.youtube.com/watch?v=uACM4a5MPQM</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=uACM4a5MPQM">youtube</a><br><br>https://emacsconf.org/2025/talks/python
-
-  You can view this and other resources using free/libre software at https://emacsconf.org/2025/talks/python .
-  This video is available under the terms of the Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license.</div>]]></description>
-      <pubDate>Sat, 06 Dec 2025 16:20:01 +0000</pubDate>
-    </item>
-    <item>
-      <title>EmacsConf 2025: Reading and writing emails in GNU Emacs with Gnus - Amin Bandali (he/him)</title>
-      <link>https://www.youtube.com/watch?v=0Pu8oqdsSig</link>
-      <guid>https://www.youtube.com/watch?v=0Pu8oqdsSig</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=0Pu8oqdsSig">youtube</a><br><br>https://emacsconf.org/2025/talks/gnus
-
-  00:02 Introduction
-  01:25 Demo
-  02:49 Don't panic
-  03:58 Configuring servers
-  05:46 .authinfo
-  06:26 Configuration
-  08:25 Starting Gnus
-  09:40 Always showing groups
-  10:19 Reading messages
-  11:30 Debugging IMAP
-  12:55 Topics
-  14:25 Customizing message display
-  15:24 Sending emails
-  17:26 Plans
-  19:27 Wrapping up
-  20:12 nnimap
-
-  You can view this and other resources using free/libre software at https://emacsconf.org/2025/talks/gnus .
-  This video is available under the terms of the Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license.</div>]]></description>
-      <pubDate>Sat, 06 Dec 2025 15:50:01 +0000</pubDate>
     </item>
   </channel>
 </rss>

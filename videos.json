@@ -1,5 +1,39 @@
 [
   {
+    "ITEM": "Polymode: Enhancing Code Blocks in Org & Markdown in Emacs",
+    "DATE": "2025-12-28T23:31:09-08:00",
+    "DURATION": "2:36",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=FxF5gSTINtY",
+    "SPEAKERS": "Emacs Elements",
+    "TAGS": [
+      "org",
+      "polymode"
+    ],
+    "BODY": "https://github.com/polymode/polymode\n  https://github.com/emacselements\n  https://emacselements.com/"
+  },
+  {
+    "ITEM": "The Built-in Emacs Subword-mode for Navigating CamelCaseWords",
+    "DATE": "2025-12-27T04:09:00-08:00",
+    "DURATION": "2:26",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=IH5eOSNDE34",
+    "SPEAKERS": "Emacs Elements",
+    "TAGS": [
+      "navigation"
+    ],
+    "BODY": "https://github.com/emacselements\n  https://emacselements.com/"
+  },
+  {
+    "ITEM": "The Evil-nerd-commenter Package for Emacs",
+    "DATE": "2025-12-27T03:51:42-08:00",
+    "DURATION": "2:33",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=JO9CI7QfipM",
+    "SPEAKERS": "Emacs Elements",
+    "TAGS": [
+      "coding"
+    ],
+    "BODY": "Use the package evil-nerd-commenter to comment and uncomment lines in Emacs more easily. One doesn't need to use evil-mode for this to work.\n\n  Install evil-nerd-commenter, then add this code to your init.el file.\n  ;; evil-nerd-commenter (you don't need to use evil-mode to use this)\n  (evilnc-default-hotkeys) ()\n  (defun matlab-mode-hook-config ()\n    (local-set-key (kbd \"M-;\") 'evilnc-comment-or-uncomment-lines))\n\n  https://github.com/emacselements\n  https://emacselements.com/"
+  },
+  {
     "ITEM": "The Essentials of Emacs Recentf",
     "DATE": "2025-12-20T12:09:27-08:00",
     "DURATION": "4:44",
