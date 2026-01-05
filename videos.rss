@@ -6,6 +6,142 @@
     <atom:link href="https://emacs.tv/videos.rss" rel="self" type="application/rss+xml" />
     <description>Emacs videos</description>
     <item>
+      <title>3 Minute Guide to Emacs Autoinsert Mode #coding #programming #org</title>
+      <link>https://www.youtube.com/watch?v=2jBMd9n5n5k</link>
+      <guid>https://www.youtube.com/watch?v=2jBMd9n5n5k</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=2jBMd9n5n5k">youtube</a><br><br>A short, practical look at Emacs auto-insert-mode—how to automatically insert templates when creating new files, with quick examples for Org files and shell scripts.
+
+  Two examples:
+
+  (define-auto-insert "\\.org\\'"
+    (lambda ()
+      (let ((title (read-string "Enter title: ")))
+        (insert "#+title: " title "\n"
+                "#+OPTIONS: \\n:t\n"
+                "#+STARTUP: showall\n"
+                "#+DATE: Created on " (format-time-string "%-d %B %Y @%H:%M") "\n\n")
+        (newline)
+        (goto-char (point-max)))))
+
+  (define-auto-insert "\\.sh\\'"
+    (lambda ()
+      (insert "#!/bin/bash\n\n"
+              "# Description: \n"
+              "# Author: \n"
+              "# Date: " (format-time-string "%Y-%m-%d") "\n\n"
+              "# Add your script code here\n")
+      (search-forward "Description: ")
+      (forward-word)
+      (forward-char)))
+
+  https://github.com/emacselements
+  https://emacselements.com/</div>]]></description>
+      <pubDate>Mon, 05 Jan 2026 04:23:35 +0000</pubDate><category>autoinsert</category>
+<category>org</category>
+    </item>
+    <item>
+      <title>Integrating IRB (Ruby REPL) into Emacs</title>
+      <link>https://www.youtube.com/watch?v=tzTJOKwRDzI</link>
+      <guid>https://www.youtube.com/watch?v=tzTJOKwRDzI</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=tzTJOKwRDzI">youtube</a><br><br>From 1961 to Today: The Evolution of Live Coding in Emacs with Ruby (irb)
+
+      1961: The first text editors emerge.
+      1964: The REPL (Read-Eval-Print Loop) is born, revolutionizing interactive programming.
+      1968: REPL meets the structure editor; code editing becomes interactive and structured.
+      1977: DEdit splits the structure editor into a separate window, paving the way for modern IDE workflows.
+      1990s (or earlier): REPLs begin integrating with Emacs through stdin/stdout/stderr; ushering in a new era of developer tooling.
+
+  Fast forward to today: Emacs can now connect directly to Ruby’s irb, giving you the best of both worlds:
+
+  ✨ Live, stateful programming: Run and edit your Ruby code interactively while preserving the full execution state; just like in a native irb session.
+  💾 Full editor capabilities: Save, load, and version-control your code with Git, just like any regular text file.
+  ⚡ Instant feedback: Modify code in the editor, then evaluate only the changed portion; no restart needed. Keep your program running and evolve it in real time.
+
+  This powerful workflow blends the timeless elegance of Emacs with the dynamic interactivity of Ruby; bringing decades of programming evolution full circle.</div>]]></description>
+      <pubDate>Sun, 04 Jan 2026 12:32:53 +0000</pubDate><category>ruby</category>
+<category>irb</category>
+<category>coding</category>
+    </item>
+    <item>
+      <title>Zellij Revisited: Crafting Project Layouts - System Crafters Live!</title>
+      <link>https://www.youtube.com/watch?v=VjgmRJjwLe0</link>
+      <guid>https://www.youtube.com/watch?v=VjgmRJjwLe0</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=VjgmRJjwLe0">youtube</a><br><br>In this stream, we'll revisit Zellij and explore how to craft custom layouts that automatically set up project-specific workspaces: launching the right programs in the right tabs and panes with a single command.
+
+  We'll also look at how Zellij fits into an Emacs-based workflow and discover new use cases together!
+
+  ,#emacs #zellij #tmux #terminal #linux
+
+  SUPPORT THE CHANNEL:
+
+  👍 Support My Work: https://systemcrafters.net/how-to-help/#support-my-work
+  📰 Subscribe to the Newsletter: https://systemcrafters.net/newsletter/
+  👕 Check out the Store: https://systemcrafters.store
+  📘 Get Your Copy of Mastering Emacs: https://www.masteringemacs.org/r/systemcrafters?utm_source=yt&utm_medium=desc&utm_campaign=scme
+
+  SHOW NOTES:
+
+  https://systemcrafters.net/live-streams/january-2-2026/
+
+  JOIN THE COMMUNITY:
+
+  https://systemcrafters.net/community/ (Forum and IRC chat!)
+  https://fosstodon.org/@daviwil
+
+  MY CONFIGURATION:
+
+  (This site is currently down but will be back up soon!)
+
+  https://config.daviwil.com
+  https://config.daviwil.com/emacs
+  https://config.daviwil.com/systems (Guix)
+
+  OTHER SERIES:
+
+  - Emacs Essentials: https://www.youtube.com/watch?v=48JlgiBpw_I&list=PLEoMzSkcN8oPZvSdewHG8uApD7THlLLCV
+  - Emacs From Scratch: https://www.youtube.com/watch?v=74zOY-vgkyw&list=PLEoMzSkcN8oPH1au7H6B7bBJ4ZO7BXjSZ
+  - Emacs Tips: https://www.youtube.com/watch?v=wKTKmE1wLyw&list=PLEoMzSkcN8oMHJ6Xil1YdnYtlWd5hHZql
+  - Emacs Desktop Environment: https://www.youtube.com/watch?v=f7xB2fFk1tQ&list=PLEoMzSkcN8oNPbEMYEtswOVTvq7CVddCS
+  - Emacs IDE: https://www.youtube.com/watch?v=E-NAM9U5JYE&list=PLEoMzSkcN8oNvsrtk_iZSb94krGRofFjN
+  - Emacs Mail: https://www.youtube.com/watch?v=yZRyEhi4y44&list=PLEoMzSkcN8oM-kA19xOQc8s0gr0PpFGJQ
+  - Learning Emacs Lisp: https://www.youtube.com/watch?v=RQK_DaaX34Q&list=PLEoMzSkcN8oPQtn7FQEF3D7sroZbXuPZ7
+  - Craft Your System with GNU Guix: https://www.youtube.com/watch?v=iBaqOK75cho&list=PLEoMzSkcN8oNxnj7jm5V2ZcGc52002pQU
+
+  CREDITS:
+
+  Coriolis Effect by logos feat. stefsax, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/mseq/26296
+  reNovation by airtone, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/airtone/60674
+  ukeSounds by airtone, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/airtone/32655
+  Between Worlds (Instrumental) by Aussens@iter, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/tobias_weber/56664</div>]]></description>
+      <pubDate>Sat, 03 Jan 2026 06:10:56 +0000</pubDate><category>coding</category>
+    </item>
+    <item>
+      <title>dictd: offline dictionaries (linux full setup + usage in terminal &amp; emacs)</title>
+      <link>https://www.youtube.com/watch?v=OboEULFHDnU</link>
+      <guid>https://www.youtube.com/watch?v=OboEULFHDnU</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=OboEULFHDnU">youtube</a><br><br>https://nic-olas.me
+
+  links:
+  git repo: https://github.com/cheusov/dictd
+  freedict dictionaries: https://freedict.org/downloads/
+  gcide dictionary: https://packages.debian.org/trixie/dict-gcide
+  for openrc service: https://gitweb.gentoo.org/repo/gentoo.git/tree/app-text/dictd
+
+  timestamps:
+  00:00: introduction
+  02:31: compilation
+  04:37: installation
+  05:48: openrc service setup
+  14:20: getting dictionaries from freedict
+  17:15: getting other dictionaries
+  21:40: restarting the dictd service
+  22:29: usage from the shell
+  27:00: usage from emacs
+  31:13: conclusion</div>]]></description>
+      <pubDate>Fri, 02 Jan 2026 19:04:21 +0000</pubDate><category>writing</category>
+<category>dictd</category>
+    </item>
+    <item>
       <title>Polymode: Enhancing Code Blocks in Org &amp; Markdown in Emacs</title>
       <link>https://www.youtube.com/watch?v=FxF5gSTINtY</link>
       <guid>https://www.youtube.com/watch?v=FxF5gSTINtY</guid>
@@ -694,63 +830,6 @@
   You can view this and other resources using free/libre software at https://emacsconf.org/2025/talks/graphics .
   This video is available under the terms of the Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license.</div>]]></description>
       <pubDate>Sat, 06 Dec 2025 20:05:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>EmacsConf 2025: GNU Emacs Greader (Gnamù Reader) mode is the best Emacs mode in existence</title>
-      <link>https://www.youtube.com/watch?v=q1gmFAKYWBk</link>
-      <guid>https://www.youtube.com/watch?v=q1gmFAKYWBk</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=q1gmFAKYWBk">youtube</a><br><br>EmacsConf 2025: GNU Emacs Greader (Gnamù Reader) mode is the best Emacs mode in existence - Yuval Langer (he/him)
-  https://emacsconf.org/2025/talks/greader
-
-  You can view this and other resources using free/libre software at https://emacsconf.org/2025/talks/greader .
-  This video is available under the terms of the Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license.</div>]]></description>
-      <pubDate>Sat, 06 Dec 2025 19:35:00 +0000</pubDate><category>tts</category>
-    </item>
-    <item>
-      <title>EmacsConf 2025: Common Lisp images communicating like-a-human through shared Emacs slime and eev</title>
-      <link>https://www.youtube.com/watch?v=hy5i6Qb6fYE</link>
-      <guid>https://www.youtube.com/watch?v=hy5i6Qb6fYE</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=hy5i6Qb6fYE">youtube</a><br><br>EmacsConf 2025: Common Lisp images communicating like-a-human through shared Emacs slime and eev - screwlisp (he/him, they/them)
-  https://emacsconf.org/2025/talks/commonlisp
-
-  You can view this and other resources using free/libre software at https://emacsconf.org/2025/talks/commonlisp .
-  This video is available under the terms of the Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license.</div>]]></description>
-      <pubDate>Sat, 06 Dec 2025 19:25:01 +0000</pubDate>
-    </item>
-    <item>
-      <title>Xah Talk Show Ep719 new CSS units, lh cap ic. emacs xah css mode. typing chinese in emacs.</title>
-      <link>https://www.youtube.com/watch?v=q5n6ejEH63k</link>
-      <guid>https://www.youtube.com/watch?v=q5n6ejEH63k</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=q5n6ejEH63k">youtube</a><br><br>This video from the Xah Talk Show focuses on new CSS length units and their practical application. The host, Xah Lee, updates his CSS tutorial with these new units and demonstrates their usage and the challenges encountered during testing.
-
-  Key topics covered include:
-
-      Introduction to new CSS Length Units (0:40-1:50): lh (line height), cap (capital letters height), ic (Chinese character "water" width/height), and rcap, ric, and rlh.
-      Demonstrating LH unit (3:31-10:24): Test the LH unit for font-size. He initially faces issues but later discovers a typo in "font-size" (8:17-8:20).
-      Updating Emacs CSS Mode (10:30-15:20): update his Emacs CSS mode to recognize and highlight the newly introduced CSS units.
-      Understanding IC unit and Chinese Input in Emacs (17:53-21:00): The video delves into the IC unit, which is based on the width/height of the Chinese character for "water." Xah Lee demonstrates how to type Chinese characters using emacs's own input method.
-      Understanding cap unit (22:25-26:00): Xah Lee explains the cap unit, which represents the nominal height of capital letters. He clarifies the long-standing problem in CSS where font-size doesn't always accurately reflect the actual visual size of letters due to font design variations.
-      Demonstrating Font Family Impact on Layout (1:00:29-1:02:50): The host demonstrates how changing font families can significantly alter the layout of a webpage, even when the font-size remains constant.
-      Discovery of a Firefox Bug (37:50-40:50, 1:10:02-1:10:55): Xah Lee uncovers a potential bug in Firefox where specifying a font family like "Arial" without a generic fallback (e.g., sans-serif) results in Firefox defaulting to a serif font. This behavior is inconsistent with other browsers like Brave and is identified as a significant issue for web development.
-      Discussion on Ergonomic Keyboards (1:05:15-1:08:41): Towards the end of the video, Xah Lee briefly discusses ergonomic keyboards, comparing the Ultimate Hacking Keyboard (UHK80) and the Glove 80. He emphasizes the importance of key switch lightness and notes the different layouts (slanted vs. ortholinear) of the two keyboards.
-
-  code at
-  http://xahlee.info/talk_show/xah_talk_show_ep719.html
-  If browser says security error, that is because it auto changes URL from HTTP to HTTPS.
-  It's a way to censor 22 million old websites.
-  Remove the S in HTTPS.
-  Or use brave browser or safari.</div>]]></description>
-      <pubDate>Sat, 06 Dec 2025 18:17:31 +0000</pubDate>
-    </item>
-    <item>
-      <title>EmacsConf 2025: Emacs, editors, and LLM driven workflows - Andrew Hyatt (he/him)</title>
-      <link>https://www.youtube.com/watch?v=U3kbEabBJ_s</link>
-      <guid>https://www.youtube.com/watch?v=U3kbEabBJ_s</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=U3kbEabBJ_s">youtube</a><br><br>https://emacsconf.org/2025/talks/llm
-
-  You can view this and other resources using free/libre software at https://emacsconf.org/2025/talks/llm .
-  This video is available under the terms of the Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license.</div>]]></description>
-      <pubDate>Sat, 06 Dec 2025 18:00:40 +0000</pubDate>
     </item>
   </channel>
 </rss>

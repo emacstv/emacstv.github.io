@@ -3,6 +3,145 @@
 #+PROPERTY: header-args:emacs-lisp+   :eval no
 
 
+* 3 Minute Guide to Emacs Autoinsert Mode #coding #programming #org  :autoinsert:org:
+:PROPERTIES:
+:DATE:     2026-01-04T20:23:35-08:00
+:DURATION: 2:34
+:YOUTUBE_URL: https://www.youtube.com/watch?v=2jBMd9n5n5k
+:SPEAKERS: Emacs Elements
+:END:
+  A short, practical look at Emacs auto-insert-mode—how to automatically insert templates when creating new files, with quick examples for Org files and shell scripts.
+
+  Two examples:
+
+  (define-auto-insert "\\.org\\'"
+    (lambda ()
+      (let ((title (read-string "Enter title: ")))
+        (insert "#+title: " title "\n"
+                "#+OPTIONS: \\n:t\n"
+                "#+STARTUP: showall\n"
+                "#+DATE: Created on " (format-time-string "%-d %B %Y @%H:%M") "\n\n")
+        (newline)
+        (goto-char (point-max)))))
+
+  (define-auto-insert "\\.sh\\'"
+    (lambda ()
+      (insert "#!/bin/bash\n\n"
+              "# Description: \n"
+              "# Author: \n"
+              "# Date: " (format-time-string "%Y-%m-%d") "\n\n"
+              "# Add your script code here\n")
+      (search-forward "Description: ")
+      (forward-word)
+      (forward-char)))
+
+  https://github.com/emacselements
+  https://emacselements.com/
+* Integrating IRB (Ruby REPL) into Emacs  :ruby:irb:coding:
+:PROPERTIES:
+:DATE:     2026-01-04T04:32:53-08:00
+:DURATION: 1:11
+:YOUTUBE_URL: https://www.youtube.com/watch?v=tzTJOKwRDzI
+:SPEAKERS: veer66
+:END:
+  From 1961 to Today: The Evolution of Live Coding in Emacs with Ruby (irb)
+
+      1961: The first text editors emerge.
+      1964: The REPL (Read-Eval-Print Loop) is born, revolutionizing interactive programming.
+      1968: REPL meets the structure editor; code editing becomes interactive and structured.
+      1977: DEdit splits the structure editor into a separate window, paving the way for modern IDE workflows.
+      1990s (or earlier): REPLs begin integrating with Emacs through stdin/stdout/stderr; ushering in a new era of developer tooling.
+
+  Fast forward to today: Emacs can now connect directly to Ruby’s irb, giving you the best of both worlds:
+
+  ✨ Live, stateful programming: Run and edit your Ruby code interactively while preserving the full execution state; just like in a native irb session.
+  💾 Full editor capabilities: Save, load, and version-control your code with Git, just like any regular text file.
+  ⚡ Instant feedback: Modify code in the editor, then evaluate only the changed portion; no restart needed. Keep your program running and evolve it in real time.
+
+  This powerful workflow blends the timeless elegance of Emacs with the dynamic interactivity of Ruby; bringing decades of programming evolution full circle.
+
+* Zellij Revisited: Crafting Project Layouts - System Crafters Live!  :coding:
+:PROPERTIES:
+:DATE:     2026-01-02T22:10:56-08:00
+:DURATION: 59:56
+:YOUTUBE_URL: https://www.youtube.com/watch?v=VjgmRJjwLe0
+:SPEAKERS: System Crafters
+:END:
+  In this stream, we'll revisit Zellij and explore how to craft custom layouts that automatically set up project-specific workspaces: launching the right programs in the right tabs and panes with a single command.
+
+  We'll also look at how Zellij fits into an Emacs-based workflow and discover new use cases together!
+
+  ,#emacs #zellij #tmux #terminal #linux
+
+  SUPPORT THE CHANNEL:
+
+  👍 Support My Work: https://systemcrafters.net/how-to-help/#support-my-work
+  📰 Subscribe to the Newsletter: https://systemcrafters.net/newsletter/
+  👕 Check out the Store: https://systemcrafters.store
+  📘 Get Your Copy of Mastering Emacs: https://www.masteringemacs.org/r/systemcrafters?utm_source=yt&utm_medium=desc&utm_campaign=scme
+
+  SHOW NOTES:
+
+  https://systemcrafters.net/live-streams/january-2-2026/
+
+  JOIN THE COMMUNITY:
+
+  https://systemcrafters.net/community/ (Forum and IRC chat!)
+  https://fosstodon.org/@daviwil
+
+  MY CONFIGURATION:
+
+  (This site is currently down but will be back up soon!)
+
+  https://config.daviwil.com
+  https://config.daviwil.com/emacs
+  https://config.daviwil.com/systems (Guix)
+
+  OTHER SERIES:
+
+  - Emacs Essentials: https://www.youtube.com/watch?v=48JlgiBpw_I&list=PLEoMzSkcN8oPZvSdewHG8uApD7THlLLCV
+  - Emacs From Scratch: https://www.youtube.com/watch?v=74zOY-vgkyw&list=PLEoMzSkcN8oPH1au7H6B7bBJ4ZO7BXjSZ
+  - Emacs Tips: https://www.youtube.com/watch?v=wKTKmE1wLyw&list=PLEoMzSkcN8oMHJ6Xil1YdnYtlWd5hHZql
+  - Emacs Desktop Environment: https://www.youtube.com/watch?v=f7xB2fFk1tQ&list=PLEoMzSkcN8oNPbEMYEtswOVTvq7CVddCS
+  - Emacs IDE: https://www.youtube.com/watch?v=E-NAM9U5JYE&list=PLEoMzSkcN8oNvsrtk_iZSb94krGRofFjN
+  - Emacs Mail: https://www.youtube.com/watch?v=yZRyEhi4y44&list=PLEoMzSkcN8oM-kA19xOQc8s0gr0PpFGJQ
+  - Learning Emacs Lisp: https://www.youtube.com/watch?v=RQK_DaaX34Q&list=PLEoMzSkcN8oPQtn7FQEF3D7sroZbXuPZ7
+  - Craft Your System with GNU Guix: https://www.youtube.com/watch?v=iBaqOK75cho&list=PLEoMzSkcN8oNxnj7jm5V2ZcGc52002pQU
+
+  CREDITS:
+
+  Coriolis Effect by logos feat. stefsax, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/mseq/26296
+  reNovation by airtone, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/airtone/60674
+  ukeSounds by airtone, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/airtone/32655
+  Between Worlds (Instrumental) by Aussens@iter, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/tobias_weber/56664
+
+* dictd: offline dictionaries (linux full setup + usage in terminal & emacs)  :writing:dictd:
+:PROPERTIES:
+:DATE:     2026-01-02T11:04:21-08:00
+:DURATION: 31:46
+:YOUTUBE_URL: https://www.youtube.com/watch?v=OboEULFHDnU
+:SPEAKERS: Nic Olas
+:END:
+  https://nic-olas.me
+
+  links:
+  git repo: https://github.com/cheusov/dictd
+  freedict dictionaries: https://freedict.org/downloads/
+  gcide dictionary: https://packages.debian.org/trixie/dict-gcide
+  for openrc service: https://gitweb.gentoo.org/repo/gentoo.git/tree/app-text/dictd
+
+  timestamps:
+  00:00: introduction
+  02:31: compilation
+  04:37: installation
+  05:48: openrc service setup
+  14:20: getting dictionaries from freedict
+  17:15: getting other dictionaries
+  21:40: restarting the dictd service
+  22:29: usage from the shell
+  27:00: usage from emacs
+  31:13: conclusion
+
 * Polymode: Enhancing Code Blocks in Org & Markdown in Emacs  :org:polymode:
 :PROPERTIES:
 :DATE:     2025-12-28T23:31:09-08:00
