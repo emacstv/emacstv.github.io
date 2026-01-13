@@ -6,6 +6,120 @@
     <atom:link href="https://emacs.tv/videos.rss" rel="self" type="application/rss+xml" />
     <description>Emacs videos</description>
     <item>
+      <title>I use Emacs&apos; cursor model in evil-mode&apos;s normal state.</title>
+      <link>https://www.youtube.com/watch?v=0xaGgaaUMcw</link>
+      <guid>https://www.youtube.com/watch?v=0xaGgaaUMcw</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=0xaGgaaUMcw">youtube</a><br><br>Emacs' cursor between characters model for cursor positioning in `evil-mode' instead of Vim's normal-state cursor on top of character model.
+
+  Besides that the mode also swap three keybindings compared to Vim and `evil-mode's default normal state keys.
+
+  You can read more about the `evil-emacs-cursor-model-mode' in the README on github.
+
+  https://github.com/maxfriis/evil-emacs-cursor-model-mode</div>]]></description>
+      <pubDate>Sun, 11 Jan 2026 17:06:20 +0000</pubDate><category>EvilMode</category>
+    </item>
+    <item>
+      <title>Open jive Friday night | Getting Python into Git</title>
+      <link>https://www.youtube.com/watch?v=-wGXnY6Mdcw</link>
+      <guid>https://www.youtube.com/watch?v=-wGXnY6Mdcw</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=-wGXnY6Mdcw">youtube</a><br><br>We're going to be looking at a cool Python script, talking about Emacs, and getting into foolishness. Come on in.
+
+  Get my new ebook, Git For Writers, here: https://chris-maiorana.kit.com/products/git-for-writers
+
+  🎙️ New to streaming or looking to level up? Check out StreamYard and get $10 discount! 😍 https://streamyard.com/pal/d/6129863822147584</div>]]></description>
+      <pubDate>Sat, 10 Jan 2026 12:52:09 +0000</pubDate><category>python</category>
+    </item>
+    <item>
+      <title>Download Anime From Nyaa from within Emacs</title>
+      <link>https://www.youtube.com/watch?v=sBBq-bzghV0</link>
+      <guid>https://www.youtube.com/watch?v=sBBq-bzghV0</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=sBBq-bzghV0">youtube</a><br><br>This is the short video because everybody has shit attention span due to tiktok nowadays</div>]]></description>
+      <pubDate>Sat, 10 Jan 2026 09:36:25 +0000</pubDate><category>fun</category>
+    </item>
+    <item>
+      <title>How to insert pairs without fancy packages in Emacs</title>
+      <link>https://www.youtube.com/watch?v=Qmid2WtICrk</link>
+      <guid>https://www.youtube.com/watch?v=Qmid2WtICrk</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=Qmid2WtICrk">youtube</a><br><br>(defun my-kill-ring-save-keep-selection ()
+    (interactive)
+    (when (use-region-p)
+      (let ((beg (region-beginning))
+            (end (region-end)))
+        (kill-ring-save beg end)
+        (setq deactivate-mark nil))))
+
+  (global-set-key (kbd "M-w") 'my-kill-ring-save-keep-selection)
+
+  https://github.com/emacselements
+  https://emacselements.com/</div>]]></description>
+      <pubDate>Fri, 09 Jan 2026 16:33:33 +0000</pubDate>
+    </item>
+    <item>
+      <title>Complete Build: Emacs From Source, Reproducible Builds in Docker, WSL, and macOS</title>
+      <link>https://www.youtube.com/watch?v=fpTV_uHA2ik</link>
+      <guid>https://www.youtube.com/watch?v=fpTV_uHA2ik</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=fpTV_uHA2ik">youtube</a><br><br>Building Emacs from source. This is the series “smart watch video”: if you're in a rush and don't have time to watch all the videos, watch this one! You get a complete set of dependencies and configure arguments !
+
+  Emacs build workflow that runs almost anywhere—Docker, WSL on Windows, and macOS—using the same source and the same logic.
+
+  In this long, hands‑on build session, we:
+  - Create a reproducible Docker environment to build Emacs
+  - Mirror that setup in WSL (Windows) and on macOS
+  - Use the same source, dependencies, and configure options across systems
+  - Show you how to script and automate future builds
+  - Tie together everything from the previous 7 videos
+
+  This is where the whole Emacs‑from‑source story comes together.
+
+  Catch previous episodes first if you haven’t:
+  ▶️ Intro & Series Overview - https://youtu.be/En1DzRqkA0ky
+  ▶️ Reasons to Use Emacs - https://youtu.be/hndvNH-uEAg
+  ▶️ Install or Build From Source - https://youtu.be/xFfgGps6k-0
+  ▶️ Download Emacs from Source - https://youtu.be/VgSm1NtgXlg
+  ▶️ GNU Autotools - https://youtu.be/pYY1C_8SQIg
+  ▶️ Dependencies - https://youtu.be/Ri7UZ7g_14Q
+  ▶️ Configure Options - https://youtu.be/I_uzGnvwZTQ
+
+  ,#emacs #docker #wsl #windows #macos #devcontainers #linux #reproduciblebuilds #developers</div>]]></description>
+      <pubDate>Thu, 08 Jan 2026 23:06:46 +0000</pubDate><category>build</category>
+    </item>
+    <item>
+      <title>Emacs Build Dependencies: Everything You Need Installed First</title>
+      <link>https://www.youtube.com/watch?v=Ri7UZ7g_14Q</link>
+      <guid>https://www.youtube.com/watch?v=Ri7UZ7g_14Q</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=Ri7UZ7g_14Q">youtube</a><br><br>Before you run =./configure=, you need the right libraries and tools. This episode covers the full dependency picture so your Emacs build doesn’t fail halfway through.
+
+  We cover:
+  - Core tools and compilers required (gcc/clang, make, etc.)
+  - Optional libraries for GUI, images, sound, modules, and more
+  - How to install dependencies on popular distros (and macOS/WSL)
+  - How to interpret missing‑dependency errors from =configure=
+  - Which dependencies are worth enabling for a “full‑featured” Emacs
+
+  Then we put this to use in:
+  ▶️ Emacs Configure Options - https://youtu.be/I_uzGnvwZTQ
+  ▶️ Build Emacs in Docker/WSL/macOS - https://youtu.be/QlO2z6Vd2ww
+
+
+  ,#emacs #linux #dependencies #devtools #sysadmin #ubuntu #debian #fedora #macos</div>]]></description>
+      <pubDate>Wed, 07 Jan 2026 08:37:00 +0000</pubDate><category>build</category>
+    </item>
+    <item>
+      <title>Bending Emacs Episode 09: Time around the world</title>
+      <link>https://youtu.be/jY5lx2gHjNA</link>
+      <guid>https://youtu.be/jY5lx2gHjNA</guid>
+      <description><![CDATA[<div id="content"><a href="https://youtu.be/jY5lx2gHjNA">youtube</a><br><br>It's fairly common these days to organize an event or meeting with attendees around world, so we'll show a couple of ways to check times here and there.</div>]]></description>
+      <pubDate>Tue, 06 Jan 2026 19:44:27 +0000</pubDate><category>time</category>
+    </item>
+    <item>
+      <title>Create Directories in Emacs Dired (Tips)</title>
+      <link>https://www.youtube.com/watch?v=_49ZR9hU1js</link>
+      <guid>https://www.youtube.com/watch?v=_49ZR9hU1js</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=_49ZR9hU1js">youtube</a><br><br>https://github.com/emacselements
+  https://emacselements.com/</div>]]></description>
+      <pubDate>Tue, 06 Jan 2026 14:15:24 +0000</pubDate><category>dired</category>
+    </item>
+    <item>
       <title>3 Minute Guide to Emacs Autoinsert Mode #coding #programming #org</title>
       <link>https://www.youtube.com/watch?v=2jBMd9n5n5k</link>
       <guid>https://www.youtube.com/watch?v=2jBMd9n5n5k</guid>
@@ -654,182 +768,6 @@
   You can view this and other resources using free/libre software at https://emacsconf.org/2025/talks/gardening .
   This video is available under the terms of the Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license.</div>]]></description>
       <pubDate>Sun, 07 Dec 2025 19:15:03 +0000</pubDate>
-    </item>
-    <item>
-      <title>EmacsConf 2025: Zettelkasten for regular Emacs hackers - Christian Tietze (he)</title>
-      <link>https://www.youtube.com/watch?v=wE8vCWyr1Eo</link>
-      <guid>https://www.youtube.com/watch?v=wE8vCWyr1Eo</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=wE8vCWyr1Eo">youtube</a><br><br>https://emacsconf.org/2025/talks/zettelkasten
-
-  00:01 Introduction
-  01:25 Advocating Freedoms
-  02:29 What Is This About?
-  04:36 Write - Essential Mechanic
-  05:09 Connect - Essential Mechanic
-  05:34 Correct - Essential Habit
-  06:49 Design for Use - Habit
-  07:43 Create Structure - Mechanic
-  08:47 Start in the Zettelkasten - Mechanic
-  09:32 Start with a Link - Mechanic
-  09:54 Recap
-  13:22 Facilitate Growth
-  14:46 Emacs demo
-  20:39 Learn, Share, Grow
-  22:45 Outro
-
-  You can view this and other resources using free/libre software at https://emacsconf.org/2025/talks/zettelkasten .
-  This video is available under the terms of the Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license.</div>]]></description>
-      <pubDate>Sun, 07 Dec 2025 18:01:14 +0000</pubDate>
-    </item>
-    <item>
-      <title>EmacsConf 2025: Weightlifting tracking with Emacs on Android - Zachary Romero</title>
-      <link>https://www.youtube.com/watch?v=0fwZtg-7wKE</link>
-      <guid>https://www.youtube.com/watch?v=0fwZtg-7wKE</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=0fwZtg-7wKE">youtube</a><br><br>https://emacsconf.org/2025/talks/weights
-
-  You can view this and other resources using free/libre software at https://emacsconf.org/2025/talks/weights .
-  This video is available under the terms of the Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license.</div>]]></description>
-      <pubDate>Sun, 07 Dec 2025 17:21:28 +0000</pubDate>
-    </item>
-    <item>
-      <title>EmacsConf 2025: Some problems of modernizing Emacs - Eduardo Ochs (he/him)</title>
-      <link>https://www.youtube.com/watch?v=EbxupbXfESg</link>
-      <guid>https://www.youtube.com/watch?v=EbxupbXfESg</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=EbxupbXfESg">youtube</a><br><br>https://emacsconf.org/2025/talks/modern
-
-  00:00 Introduction
-  01:05 The main themes of this video
-  02:18 Inner views of Emacs objects
-  02:54 Older Emacses
-  03:35 Newer Emacses
-  05:30 Help buttons
-  06:41 "Anyone can learn Lisp in one day"
-  09:34 Lambdas for beginners broken
-  12:59 Demo
-  17:29 Printing something in different ways for lambdas
-  21:52 Exploring buttons
-  22:42 Some design decisions behind EEV
-  24:05 Tests
-
-  You can view this and other resources using free/libre software at https://emacsconf.org/2025/talks/modern .
-  This video is available under the terms of the Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license.</div>]]></description>
-      <pubDate>Sun, 07 Dec 2025 17:19:42 +0000</pubDate>
-    </item>
-    <item>
-      <title>EmacsConf 2025: LaTeX export in org-mode: the overhaul - Pedro A. Aranda Gutiérrez (he, him)</title>
-      <link>https://www.youtube.com/watch?v=4nkFEd73UOE</link>
-      <guid>https://www.youtube.com/watch?v=4nkFEd73UOE</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=4nkFEd73UOE">youtube</a><br><br>https://emacsconf.org/2025/talks/latex
-
-  00:00 Introduction
-  00:41 Motivation
-  02:53 Evolution
-  06:02 What do you get from the feature branch?
-  08:47 Behind the scenes: .dir-locals.el
-  11:59 When fontspec is not enough
-  15:21 Rationale behind my take at LaTeX font management
-  18:34 Demonstrations
-  22:57 Demo: Emoji
-  23:33 Demo: Letter
-  25:44 Demo: Side by side
-  28:12 Thanks
-  29:47 Q: What about video (mp4) support for ox-latex?
-
-  You can view this and other resources using free/libre software at https://emacsconf.org/2025/talks/latex .
-  This video is available under the terms of the Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license.</div>]]></description>
-      <pubDate>Sun, 07 Dec 2025 17:18:54 +0000</pubDate>
-    </item>
-    <item>
-      <title>EmacsConf 2025: An introduction to the Emacs Reader - Divyá</title>
-      <link>https://www.youtube.com/watch?v=KQBXTSg_Occ</link>
-      <guid>https://www.youtube.com/watch?v=KQBXTSg_Occ</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=KQBXTSg_Occ">youtube</a><br><br>https://emacsconf.org/2025/talks/reader
-
-  00:00 An introduction to the Emacs reader
-  00:44 Yet another document viewer in Emacs?
-  02:05 Architecture of Emacs Reader
-  06:00 A word on dynamic modules
-  07:39 Features of Emacs Reader
-  07:56 Memory efficiency
-  11:18 Performance and speed
-  14:23 Scanned PDFs
-  17:08 System-level multi-threading
-  23:44 Native Emacs integrations
-  25:10 (Naive) dark mode
-  26:01 Challenges and further improvements
-  29:14 What Emacs can learn?
-  32:32 Contributing to the development
-  33:35 Acknowledgements
-
-  You can view this and other resources using free/libre software at https://emacsconf.org/2025/talks/reader .
-  This video is available under the terms of the Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license.</div>]]></description>
-      <pubDate>Sun, 07 Dec 2025 17:16:36 +0000</pubDate><category>emacsconf</category>
-    </item>
-    <item>
-      <title>Enjoy Emacs: Start editing init.el</title>
-      <link>https://www.youtube.com/watch?v=Pg-4oc7yUEI</link>
-      <guid>https://www.youtube.com/watch?v=Pg-4oc7yUEI</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=Pg-4oc7yUEI">youtube</a><br><br>We've reached the point where we edit our Emacs configuration file ourselves.
-
-  Playlist
-  https://www.youtube.com/playlist?list=PLCNMXglj4PXDNCH0vJ83MUtK5Lv68Gctc
-
-  Diffs for this episode
-  https://github.com/p-snow/enjoy-emacs/commit/a7c9ba643eff4a210bb5f5e5183c783fdc527ae1
-
-  Japanese version
-  https://youtu.be/7onpWC4tJRA</div>]]></description>
-      <pubDate>Sun, 07 Dec 2025 12:09:55 +0000</pubDate>
-    </item>
-    <item>
-      <title>@karthink talks about gptel-agent</title>
-      <link>https://www.youtube.com/watch?v=k-sKO6xXgNk</link>
-      <guid>https://www.youtube.com/watch?v=k-sKO6xXgNk</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=k-sKO6xXgNk">youtube</a><br><br>Discussion around gptel-agent, new extension that works on top of gptel Emacs package.
-
-  https://github.com/karthink/gptel-agent
-
-  Opening music: https://soundcloud.com/incredfx/at-dooms-gate
-
-  0:26 Intro
-  1:05 Package Installation
-  6:53 Running gptel-agent
-  9:00 gptel-menu changes
-  14:57 Let's ask it about Doom email modules
-  20:00 You can type the requests in any buffer
-  22:00 Org-roam & Org-Roam-UI
-  28:55 Agent definitions in markdown files
-  41:00 Introspector
-  1:02:00 gptel-highlight-mode
-  1:21:30 Closing remarks</div>]]></description>
-      <pubDate>Sun, 07 Dec 2025 06:40:51 +0000</pubDate>
-    </item>
-    <item>
-      <title>EmacsConf 2025: Modern Emacs/Elisp hardware/software accelerated graphics - Emanuel Berg (he/him)</title>
-      <link>https://www.youtube.com/watch?v=RVoGcLNalJw</link>
-      <guid>https://www.youtube.com/watch?v=RVoGcLNalJw</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=RVoGcLNalJw">youtube</a><br><br>https://emacsconf.org/2025/talks/graphics
-
-  This video has no narration.
-
-  00:00 space box intro (elisp model matrix pipeline c dynamic module)
-  01:59 parallel (sdl/linux multicore pthreads)
-  02:04 bad snake (oop eieio)
-  03:30 solar (ecs)
-  04:32 60 fps 1 (opengl cpu)
-  05:36 earth (grid ascii)
-  06:02 studio (image unicode)
-  09:32 60 fps 2 (gpu)
-  11:57 rgb triangle (glsl vertex/fragment shaders)
-  13:09 ansi cube (software functional shader)
-  13:33 horizon (gradient)
-  15:16 shell color table (zsh)
-  16:13 luki-lisp (macros)
-  18:25 incal & rave dave outro (debug text triangles)
-
-  You can view this and other resources using free/libre software at https://emacsconf.org/2025/talks/graphics .
-  This video is available under the terms of the Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license.</div>]]></description>
-      <pubDate>Sat, 06 Dec 2025 20:05:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

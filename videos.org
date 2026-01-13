@@ -3,6 +3,135 @@
 #+PROPERTY: header-args:emacs-lisp+   :eval no
 
 
+* I use Emacs' cursor model in evil-mode's normal state.  :EvilMode:
+:PROPERTIES:
+:DATE:     2026-01-11T09:06:20-08:00
+:DURATION: 19:29
+:YOUTUBE_URL: https://www.youtube.com/watch?v=0xaGgaaUMcw
+:SPEAKERS: Peter Max Friis Jensen
+:END:
+  Emacs' cursor between characters model for cursor positioning in `evil-mode' instead of Vim's normal-state cursor on top of character model.
+
+  Besides that the mode also swap three keybindings compared to Vim and `evil-mode's default normal state keys.
+
+  You can read more about the `evil-emacs-cursor-model-mode' in the README on github.
+
+  https://github.com/maxfriis/evil-emacs-cursor-model-mode
+
+* Open jive Friday night | Getting Python into Git  :python:
+:PROPERTIES:
+:DATE:     2026-01-10T04:52:09-08:00
+:DURATION: 40:19
+:YOUTUBE_URL: https://www.youtube.com/watch?v=-wGXnY6Mdcw
+:SPEAKERS: Chris Maiorana
+:END:
+  We're going to be looking at a cool Python script, talking about Emacs, and getting into foolishness. Come on in.
+
+  Get my new ebook, Git For Writers, here: https://chris-maiorana.kit.com/products/git-for-writers
+
+  🎙️ New to streaming or looking to level up? Check out StreamYard and get $10 discount! 😍 https://streamyard.com/pal/d/6129863822147584
+
+* Download Anime From Nyaa from within Emacs  :fun:
+:PROPERTIES:
+:DATE:     2026-01-10T01:36:25-08:00
+:DURATION: 4:07
+:YOUTUBE_URL: https://www.youtube.com/watch?v=sBBq-bzghV0
+:SPEAKERS: Master Light
+:END:
+  This is the short video because everybody has shit attention span due to tiktok nowadays
+
+* How to insert pairs without fancy packages in Emacs
+:PROPERTIES:
+:DATE:     2026-01-09T08:33:33-08:00
+:DURATION: 3:49
+:YOUTUBE_URL: https://www.youtube.com/watch?v=Qmid2WtICrk
+:SPEAKERS: Emacs Elements
+:END:
+  (defun my-kill-ring-save-keep-selection ()
+    (interactive)
+    (when (use-region-p)
+      (let ((beg (region-beginning))
+            (end (region-end)))
+        (kill-ring-save beg end)
+        (setq deactivate-mark nil))))
+
+  (global-set-key (kbd "M-w") 'my-kill-ring-save-keep-selection)
+
+  https://github.com/emacselements
+  https://emacselements.com/
+
+* Complete Build: Emacs From Source, Reproducible Builds in Docker, WSL, and macOS  :build:
+:PROPERTIES:
+:DATE:     2026-01-08T15:06:46-08:00
+:DURATION: 41:57
+:YOUTUBE_URL: https://www.youtube.com/watch?v=fpTV_uHA2ik
+:SPEAKERS: Build Hello
+:END:
+  Building Emacs from source. This is the series “smart watch video”: if you're in a rush and don't have time to watch all the videos, watch this one! You get a complete set of dependencies and configure arguments !
+
+  Emacs build workflow that runs almost anywhere—Docker, WSL on Windows, and macOS—using the same source and the same logic.
+
+  In this long, hands‑on build session, we:
+  - Create a reproducible Docker environment to build Emacs
+  - Mirror that setup in WSL (Windows) and on macOS
+  - Use the same source, dependencies, and configure options across systems
+  - Show you how to script and automate future builds
+  - Tie together everything from the previous 7 videos
+
+  This is where the whole Emacs‑from‑source story comes together.
+
+  Catch previous episodes first if you haven’t:
+  ▶️ Intro & Series Overview - https://youtu.be/En1DzRqkA0ky
+  ▶️ Reasons to Use Emacs - https://youtu.be/hndvNH-uEAg
+  ▶️ Install or Build From Source - https://youtu.be/xFfgGps6k-0
+  ▶️ Download Emacs from Source - https://youtu.be/VgSm1NtgXlg
+  ▶️ GNU Autotools - https://youtu.be/pYY1C_8SQIg
+  ▶️ Dependencies - https://youtu.be/Ri7UZ7g_14Q
+  ▶️ Configure Options - https://youtu.be/I_uzGnvwZTQ
+
+  ,#emacs #docker #wsl #windows #macos #devcontainers #linux #reproduciblebuilds #developers
+
+* Emacs Build Dependencies: Everything You Need Installed First  :build:
+:PROPERTIES:
+:DATE:     2026-01-07T00:37:00-08:00
+:DURATION: 18:26
+:YOUTUBE_URL: https://www.youtube.com/watch?v=Ri7UZ7g_14Q
+:SPEAKERS: Build Hello
+:END:
+  Before you run =./configure=, you need the right libraries and tools. This episode covers the full dependency picture so your Emacs build doesn’t fail halfway through.
+
+  We cover:
+  - Core tools and compilers required (gcc/clang, make, etc.)
+  - Optional libraries for GUI, images, sound, modules, and more
+  - How to install dependencies on popular distros (and macOS/WSL)
+  - How to interpret missing‑dependency errors from =configure=
+  - Which dependencies are worth enabling for a “full‑featured” Emacs
+
+  Then we put this to use in:
+  ▶️ Emacs Configure Options - https://youtu.be/I_uzGnvwZTQ
+  ▶️ Build Emacs in Docker/WSL/macOS - https://youtu.be/QlO2z6Vd2ww
+
+
+  ,#emacs #linux #dependencies #devtools #sysadmin #ubuntu #debian #fedora #macos
+* Bending Emacs Episode 09: Time around the world  :time:
+:PROPERTIES:
+:DATE:     2026-01-06T11:44:27-08:00
+:DURATION: 6:32
+:YOUTUBE_URL: https://youtu.be/jY5lx2gHjNA
+:SPEAKERS: xenodium
+:END:
+  It's fairly common these days to organize an event or meeting with attendees around world, so we'll show a couple of ways to check times here and there.
+
+* Create Directories in Emacs Dired (Tips)  :dired:
+:PROPERTIES:
+:DATE:     2026-01-06T06:15:24-08:00
+:DURATION: 1:25
+:YOUTUBE_URL: https://www.youtube.com/watch?v=_49ZR9hU1js
+:SPEAKERS: Emacs Elements
+:END:
+  https://github.com/emacselements
+  https://emacselements.com/
+
 * 3 Minute Guide to Emacs Autoinsert Mode #coding #programming #org  :autoinsert:org:
 :PROPERTIES:
 :DATE:     2026-01-04T20:23:35-08:00
