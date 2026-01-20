@@ -1,5 +1,121 @@
 [
   {
+    "ITEM": "Emacs: easily set timers with TMR",
+    "DATE": "2026-01-19T05:46:45-08:00",
+    "DURATION": "14:32",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=vLuyt0hq4io",
+    "SPEAKERS": "Protesilaos Stavrou",
+    "TAGS": [
+      "tmr",
+      "timer"
+    ],
+    "BODY": "In this ~15-minute video I demonstrate a package of mine called \"tmr\" (pronounced as an acronym or as \"timer\"). It uses a simple notation to set the duration of a timer at the minibuffer prompt. Once the timer elapses, Emacs shows a notification. The desktop environment will also include one, as well as an audio alert (those are configurable). Timers can optionally have a description. They may also be listed in a tabulated/grid view, which makes it easier to work with them (to edit their description, reschedule them, etc.). Running timers may also be displayed on the mode line. The publication of this video is on my website, together with sample configuration: https://protesilaos.com/codelog/2026-01-19-emacs-timers-tmr-demo/"
+  },
+  {
+    "ITEM": "Bustin' out of Emacs with an Org Mode Workout Tracker + HTML",
+    "DATE": "2026-01-19T04:46:26-08:00",
+    "DURATION": "13:45",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=3b7HJgYCzzI",
+    "SPEAKERS": "Chris Maiorana",
+    "TAGS": [
+      "org"
+    ],
+    "BODY": "In today's video, we're going to look at how you can use org mode as a highly functional workout tracker. This is something I'm sure a lot of you will be thinking about now that we are full swing into New Years resolution season.\n  For visuals, I'll be exporting the org mode data to HTML. This makes it easy to see my progress and interface / share data with other applications.\n\n   https://chrismaiorana.com/org-mode-workout-tracker/ ‎\n\n  GET MY BOOKS HERE:\n  chrismaiorana.com/books"
+  },
+  {
+    "ITEM": "Tracking Time With Denote Journal and Org Clock",
+    "DATE": "2026-01-18T20:43:17-08:00",
+    "DURATION": "11:13",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=ofm-11LmLJg",
+    "SPEAKERS": "bardman",
+    "TAGS": [
+      "denote",
+      "org"
+    ],
+    "BODY": "My strategy for time tracking with Emacs Org mode and denote-journal\n  Post on website: https://bardman.dev/technology/time-tracking"
+  },
+  {
+    "ITEM": "Hide unwanted files and folders in Emacs",
+    "DATE": "2026-01-18T14:00:44-08:00",
+    "DURATION": "3:45",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=h2FoWaf4SVc",
+    "SPEAKERS": "Emacs Elements",
+    "TAGS": [
+      "dired"
+    ],
+    "BODY": "https://github.com/emacselements\n  https://emacselements.com/"
+  },
+  {
+    "ITEM": "Hacking on Emacs #5",
+    "DATE": "2026-01-18T08:59:24-08:00",
+    "DURATION": "42:32",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=Ha3PmkEmzcc",
+    "SPEAKERS": "FrostyX unscripted",
+    "TAGS": [
+      "magit",
+      "GitLink",
+      "git"
+    ],
+    "BODY": "Allow linking the current Magit commit buffer using git-link\n  ► Main channel: https://www.youtube.com/@jakubkadlcik\n  ► GitHub: https://github.com/FrostyX\n  ► Blog: https://frostyx.cz\n  ► Mastodon: https://fosstodon.org/@FrostyX"
+  },
+  {
+    "ITEM": "Create ComfyUI pictures straight from Emacs",
+    "DATE": "2026-01-18T05:03:07-08:00",
+    "DURATION": "1:07",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=OsBn_VU3pHY",
+    "SPEAKERS": "GNU Emacs for Success",
+    "TAGS": [
+      "ai"
+    ],
+    "BODY": "Video shows example on how to create ComfyUI pictures from Emacs. What does it mean? I can capture imaginary images into Org, or Dynamic Knowledge Repository or use them in many ways."
+  },
+  {
+    "ITEM": "How to get Emacs to look like the Pulsar Editor",
+    "DATE": "2026-01-17T05:44:51-08:00",
+    "DURATION": "2:12",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=Dn77mTpH7sc",
+    "SPEAKERS": "Emacs Elements",
+    "TAGS": [
+      "appearance"
+    ],
+    "BODY": "https://github.com/emacselements\n  https://emacselements.com/"
+  },
+  {
+    "ITEM": "Open Jive Friday Night | More git foolishness in Emacs",
+    "DATE": "2026-01-17T04:31:34-08:00",
+    "DURATION": "21:39",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=aOdpeP_xNFA",
+    "SPEAKERS": "Chris Maiorana",
+    "TAGS": [
+      "git",
+      "modeline"
+    ],
+    "BODY": "Let's take a look at my git change counter modeline minor mode:\n  https://chrismaiorana.com/git-changes-in-emacs-modeline/\n\n  See it in action!\n\n  My books: https://chrismaiorana.com/books/\n\n  🎙️ New to streaming or looking to level up? Check out StreamYard and get $10 discount! 😍 https://streamyard.com/pal/d/6129863822147584"
+  },
+  {
+    "ITEM": "Bending Emacs Episode 10: AI / LLM agent-shell",
+    "DATE": "2026-01-16T02:07:16-08:00",
+    "DURATION": "36:35",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=R2Ucr3amgGg",
+    "SPEAKERS": "xenodium",
+    "TAGS": [
+      "ai",
+      "AgentShell"
+    ],
+    "BODY": "In this episode, we take a look at agent-shell. A package I wrote to interact with agents offering ACP (Agent Client Protocol) like Claude Code, Gemini CLI, Qwen, OpenCode, Copilot, Codex, Goose, Cursor, Auggie, Mistral Vibe, Factory Droid, and so on...\n\n  Blog post: https://xenodium.com/bending-emacs-episode-10-agent-shell\n\n  If you're getting value out of agent-shell, consider ✨sponsoring✨ https://github.com/sponsors/xenodium\n\n  ,#mistral #emacs #qwen #claude #anthropic #ai #google #goose #gemini #linux #github #macos #oss #foss #opencode #codex #vibe #vibecoding #windows #indie"
+  },
+  {
+    "ITEM": "Org Mode Tags +Agenda: My Real Meeting Workflow",
+    "DATE": "2026-01-15T06:01:05-08:00",
+    "DURATION": "5:51",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=ZN8vfBjeg_I",
+    "SPEAKERS": "Curtis McHale",
+    "TAGS": [
+      "org"
+    ],
+    "BODY": ",#emacs #productivity  #orgmode\n\n  Here is how I automate finding my meeting tasks with Org Mode Agenda\n\n  ,## Links\n\n  - Read the full post with links: https://curtismchale.ca/?p=28998\n\n  ,## Courses\n\n  - SkillShare TickTick Course: https://skl.sh/2ExpXVv\n  - SkillShare Timeblocking Course: https://skl.sh/38MQzz8\n  - SkillShare Zettelkasten Course: https://skl.sh/3rntNDW\n  - Getting Started with Obsidian Course: https://skl.sh/2Y6DUDM\n\n  ,## My Gear\n\n  - My gear: https://curtismchale.ca/my-gear\n  - Patreon: https://patreon.com/curtismchale\n  - Music: https://www.epidemicsound.com/referral/blhmqa/\n  - Streaming with: https://www.ecamm.com/mac/ecammlive/?fp_ref=curtis42"
+  },
+  {
     "ITEM": "I use Emacs' cursor model in evil-mode's normal state.",
     "DATE": "2026-01-11T09:06:20-08:00",
     "DURATION": "19:29",
@@ -61,6 +177,17 @@
       "build"
     ],
     "BODY": "Before you run =./configure=, you need the right libraries and tools. This episode covers the full dependency picture so your Emacs build doesn’t fail halfway through.\n\n  We cover:\n  - Core tools and compilers required (gcc/clang, make, etc.)\n  - Optional libraries for GUI, images, sound, modules, and more\n  - How to install dependencies on popular distros (and macOS/WSL)\n  - How to interpret missing‑dependency errors from =configure=\n  - Which dependencies are worth enabling for a “full‑featured” Emacs\n\n  Then we put this to use in:\n  ▶️ Emacs Configure Options - https://youtu.be/I_uzGnvwZTQ\n  ▶️ Build Emacs in Docker/WSL/macOS - https://youtu.be/QlO2z6Vd2ww\n\n\n  ,#emacs #linux #dependencies #devtools #sysadmin #ubuntu #debian #fedora #macos"
+  },
+  {
+    "ITEM": "Why Emacs in 2026? 10+ Powerful Reasons Developers Still Swear By It",
+    "DATE": "2026-01-07T00:33:11-08:00",
+    "DURATION": "8:48",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=hndvNH-uEAg",
+    "SPEAKERS": "Build Hello",
+    "TAGS": [
+      "why"
+    ],
+    "BODY": "Emacs looks old—but it’s ridiculously powerful. In this video, I break down why Emacs is still a top choice for serious developers and power users.\n\n  You’ll learn:\n  - How Emacs can replace half your tools (editor, terminal, email, notes, org-mode, etc.)\n  - Why Emacs beats many modern editors for automation and customization\n  - The “Emacs as an OS” mindset and what it unlocks\n  - How Emacs grows with you instead of locking you into a plugin marketplace\n\n  Next steps in the series:\n  ▶️ Install or Build From Source - https://youtu.be/xFfgGps6k-0\n  ▶️ Download Emacs from Source - https://youtu.be/VgSm1NtgXlg\n\n  *Hashtags*\n  ,#emacs #vim #vscode #developers #productivity #orgmode #programming #linux #editorwar"
   },
   {
     "ITEM": "Bending Emacs Episode 09: Time around the world",

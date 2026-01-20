@@ -6,6 +6,128 @@
     <atom:link href="https://emacs.tv/videos.rss" rel="self" type="application/rss+xml" />
     <description>Emacs videos</description>
     <item>
+      <title>Emacs: easily set timers with TMR</title>
+      <link>https://www.youtube.com/watch?v=vLuyt0hq4io</link>
+      <guid>https://www.youtube.com/watch?v=vLuyt0hq4io</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=vLuyt0hq4io">youtube</a><br><br>In this ~15-minute video I demonstrate a package of mine called "tmr" (pronounced as an acronym or as "timer"). It uses a simple notation to set the duration of a timer at the minibuffer prompt. Once the timer elapses, Emacs shows a notification. The desktop environment will also include one, as well as an audio alert (those are configurable). Timers can optionally have a description. They may also be listed in a tabulated/grid view, which makes it easier to work with them (to edit their description, reschedule them, etc.). Running timers may also be displayed on the mode line. The publication of this video is on my website, together with sample configuration: https://protesilaos.com/codelog/2026-01-19-emacs-timers-tmr-demo/</div>]]></description>
+      <pubDate>Mon, 19 Jan 2026 13:46:45 +0000</pubDate><category>tmr</category>
+<category>timer</category>
+    </item>
+    <item>
+      <title>Bustin&apos; out of Emacs with an Org Mode Workout Tracker + HTML</title>
+      <link>https://www.youtube.com/watch?v=3b7HJgYCzzI</link>
+      <guid>https://www.youtube.com/watch?v=3b7HJgYCzzI</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=3b7HJgYCzzI">youtube</a><br><br>In today's video, we're going to look at how you can use org mode as a highly functional workout tracker. This is something I'm sure a lot of you will be thinking about now that we are full swing into New Years resolution season.
+  For visuals, I'll be exporting the org mode data to HTML. This makes it easy to see my progress and interface / share data with other applications.
+
+   https://chrismaiorana.com/org-mode-workout-tracker/ ‎
+
+  GET MY BOOKS HERE:
+  chrismaiorana.com/books</div>]]></description>
+      <pubDate>Mon, 19 Jan 2026 12:46:26 +0000</pubDate><category>org</category>
+    </item>
+    <item>
+      <title>Tracking Time With Denote Journal and Org Clock</title>
+      <link>https://www.youtube.com/watch?v=ofm-11LmLJg</link>
+      <guid>https://www.youtube.com/watch?v=ofm-11LmLJg</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=ofm-11LmLJg">youtube</a><br><br>My strategy for time tracking with Emacs Org mode and denote-journal
+  Post on website: https://bardman.dev/technology/time-tracking</div>]]></description>
+      <pubDate>Mon, 19 Jan 2026 04:43:17 +0000</pubDate><category>denote</category>
+<category>org</category>
+    </item>
+    <item>
+      <title>Hide unwanted files and folders in Emacs</title>
+      <link>https://www.youtube.com/watch?v=h2FoWaf4SVc</link>
+      <guid>https://www.youtube.com/watch?v=h2FoWaf4SVc</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=h2FoWaf4SVc">youtube</a><br><br>https://github.com/emacselements
+  https://emacselements.com/</div>]]></description>
+      <pubDate>Sun, 18 Jan 2026 22:00:44 +0000</pubDate><category>dired</category>
+    </item>
+    <item>
+      <title>Hacking on Emacs #5</title>
+      <link>https://www.youtube.com/watch?v=Ha3PmkEmzcc</link>
+      <guid>https://www.youtube.com/watch?v=Ha3PmkEmzcc</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=Ha3PmkEmzcc">youtube</a><br><br>Allow linking the current Magit commit buffer using git-link
+  ► Main channel: https://www.youtube.com/@jakubkadlcik
+  ► GitHub: https://github.com/FrostyX
+  ► Blog: https://frostyx.cz
+  ► Mastodon: https://fosstodon.org/@FrostyX</div>]]></description>
+      <pubDate>Sun, 18 Jan 2026 16:59:24 +0000</pubDate><category>magit</category>
+<category>GitLink</category>
+<category>git</category>
+    </item>
+    <item>
+      <title>Create ComfyUI pictures straight from Emacs</title>
+      <link>https://www.youtube.com/watch?v=OsBn_VU3pHY</link>
+      <guid>https://www.youtube.com/watch?v=OsBn_VU3pHY</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=OsBn_VU3pHY">youtube</a><br><br>Video shows example on how to create ComfyUI pictures from Emacs. What does it mean? I can capture imaginary images into Org, or Dynamic Knowledge Repository or use them in many ways.</div>]]></description>
+      <pubDate>Sun, 18 Jan 2026 13:03:07 +0000</pubDate><category>ai</category>
+    </item>
+    <item>
+      <title>How to get Emacs to look like the Pulsar Editor</title>
+      <link>https://www.youtube.com/watch?v=Dn77mTpH7sc</link>
+      <guid>https://www.youtube.com/watch?v=Dn77mTpH7sc</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=Dn77mTpH7sc">youtube</a><br><br>https://github.com/emacselements
+  https://emacselements.com/</div>]]></description>
+      <pubDate>Sat, 17 Jan 2026 13:44:51 +0000</pubDate><category>appearance</category>
+    </item>
+    <item>
+      <title>Open Jive Friday Night | More git foolishness in Emacs</title>
+      <link>https://www.youtube.com/watch?v=aOdpeP_xNFA</link>
+      <guid>https://www.youtube.com/watch?v=aOdpeP_xNFA</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=aOdpeP_xNFA">youtube</a><br><br>Let's take a look at my git change counter modeline minor mode:
+  https://chrismaiorana.com/git-changes-in-emacs-modeline/
+
+  See it in action!
+
+  My books: https://chrismaiorana.com/books/
+
+  🎙️ New to streaming or looking to level up? Check out StreamYard and get $10 discount! 😍 https://streamyard.com/pal/d/6129863822147584</div>]]></description>
+      <pubDate>Sat, 17 Jan 2026 12:31:34 +0000</pubDate><category>git</category>
+<category>modeline</category>
+    </item>
+    <item>
+      <title>Bending Emacs Episode 10: AI / LLM agent-shell</title>
+      <link>https://www.youtube.com/watch?v=R2Ucr3amgGg</link>
+      <guid>https://www.youtube.com/watch?v=R2Ucr3amgGg</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=R2Ucr3amgGg">youtube</a><br><br>In this episode, we take a look at agent-shell. A package I wrote to interact with agents offering ACP (Agent Client Protocol) like Claude Code, Gemini CLI, Qwen, OpenCode, Copilot, Codex, Goose, Cursor, Auggie, Mistral Vibe, Factory Droid, and so on...
+
+  Blog post: https://xenodium.com/bending-emacs-episode-10-agent-shell
+
+  If you're getting value out of agent-shell, consider ✨sponsoring✨ https://github.com/sponsors/xenodium
+
+  ,#mistral #emacs #qwen #claude #anthropic #ai #google #goose #gemini #linux #github #macos #oss #foss #opencode #codex #vibe #vibecoding #windows #indie</div>]]></description>
+      <pubDate>Fri, 16 Jan 2026 10:07:16 +0000</pubDate><category>ai</category>
+<category>AgentShell</category>
+    </item>
+    <item>
+      <title>Org Mode Tags +Agenda: My Real Meeting Workflow</title>
+      <link>https://www.youtube.com/watch?v=ZN8vfBjeg_I</link>
+      <guid>https://www.youtube.com/watch?v=ZN8vfBjeg_I</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=ZN8vfBjeg_I">youtube</a><br><br>,#emacs #productivity  #orgmode
+
+  Here is how I automate finding my meeting tasks with Org Mode Agenda
+
+  ,## Links
+
+  - Read the full post with links: https://curtismchale.ca/?p=28998
+
+  ,## Courses
+
+  - SkillShare TickTick Course: https://skl.sh/2ExpXVv
+  - SkillShare Timeblocking Course: https://skl.sh/38MQzz8
+  - SkillShare Zettelkasten Course: https://skl.sh/3rntNDW
+  - Getting Started with Obsidian Course: https://skl.sh/2Y6DUDM
+
+  ,## My Gear
+
+  - My gear: https://curtismchale.ca/my-gear
+  - Patreon: https://patreon.com/curtismchale
+  - Music: https://www.epidemicsound.com/referral/blhmqa/
+  - Streaming with: https://www.ecamm.com/mac/ecammlive/?fp_ref=curtis42</div>]]></description>
+      <pubDate>Thu, 15 Jan 2026 14:01:05 +0000</pubDate><category>org</category>
+    </item>
+    <item>
       <title>I use Emacs&apos; cursor model in evil-mode&apos;s normal state.</title>
       <link>https://www.youtube.com/watch?v=0xaGgaaUMcw</link>
       <guid>https://www.youtube.com/watch?v=0xaGgaaUMcw</guid>
@@ -103,6 +225,26 @@
 
   ,#emacs #linux #dependencies #devtools #sysadmin #ubuntu #debian #fedora #macos</div>]]></description>
       <pubDate>Wed, 07 Jan 2026 08:37:00 +0000</pubDate><category>build</category>
+    </item>
+    <item>
+      <title>Why Emacs in 2026? 10+ Powerful Reasons Developers Still Swear By It</title>
+      <link>https://www.youtube.com/watch?v=hndvNH-uEAg</link>
+      <guid>https://www.youtube.com/watch?v=hndvNH-uEAg</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=hndvNH-uEAg">youtube</a><br><br>Emacs looks old—but it’s ridiculously powerful. In this video, I break down why Emacs is still a top choice for serious developers and power users.
+
+  You’ll learn:
+  - How Emacs can replace half your tools (editor, terminal, email, notes, org-mode, etc.)
+  - Why Emacs beats many modern editors for automation and customization
+  - The “Emacs as an OS” mindset and what it unlocks
+  - How Emacs grows with you instead of locking you into a plugin marketplace
+
+  Next steps in the series:
+  ▶️ Install or Build From Source - https://youtu.be/xFfgGps6k-0
+  ▶️ Download Emacs from Source - https://youtu.be/VgSm1NtgXlg
+
+  *Hashtags*
+  ,#emacs #vim #vscode #developers #productivity #orgmode #programming #linux #editorwar</div>]]></description>
+      <pubDate>Wed, 07 Jan 2026 08:33:11 +0000</pubDate><category>why</category>
     </item>
     <item>
       <title>Bending Emacs Episode 09: Time around the world</title>
@@ -529,245 +671,6 @@
       <guid>https://www.youtube.com/watch?v=FupJOKR3WeA</guid>
       <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=FupJOKR3WeA">youtube</a><br><br>How being uniquely the most customizable piece of software in the world makes Emacs going strong after 40 years. And why you should never try it or you'll be sad.</div>]]></description>
       <pubDate>Thu, 18 Dec 2025 00:57:40 +0000</pubDate>
-    </item>
-    <item>
-      <title>Emacs Customization With Ease 2025_12_16_14:04:29</title>
-      <link>https://youtu.be/aPAZUfH2raA</link>
-      <guid>https://youtu.be/aPAZUfH2raA</guid>
-      <description><![CDATA[<div id="content"><a href="https://youtu.be/aPAZUfH2raA">youtube</a><br><br>In this video, you will see that Emacs can be customized easily with various options from M-x prompt.
-
-  You can look at the online manual for that specific section : https://www.gnu.org/software/emacs/manual/html_node/emacs/Specific-Customization.html
-
-  ,#linux #linuxadmin #sysadmin #opensource #Gentoo #Debian #Slackware #research
-  ,#linuxkernel #kernel #gnu #Linux #GNU
-
-  Buy Me A Coffee: https://www.buymeacoffee.com/unixbhaskar
-  Patreon: https://www.patreon.com/unixbhaskar
-  Paypal: https://paypal.me/linuxbhaskar
-
-  You can also find me :
-
-  GitHub: https://github.com/unixbhaskar
-
-  Reddit: https://www.reddit.com/user/unixbhaskar
-
-  Blogs: https://unixbhaskar.wordpress.com
-
-  Twitter: https://twitter.com/unixbhaskar
-
-  Linkedin: https://linkedin.com/in/unixbhaskar
-
-  Vimeo: https://vimeo.com/unixbhaskar
-
-  Goodreads: https://goodreads.com/unixbhaskar</div>]]></description>
-      <pubDate>Tue, 16 Dec 2025 08:56:56 +0000</pubDate>
-    </item>
-    <item>
-      <title>The Annoying Usefulness of Emacs</title>
-      <link>https://www.youtube.com/watch?v=DMbrNhx2zWQ</link>
-      <guid>https://www.youtube.com/watch?v=DMbrNhx2zWQ</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=DMbrNhx2zWQ">youtube</a><br><br>References:
-  - https://www.gnu.org/software/emacs/
-  - https://github.com/magnars/multiple-cursors.el
-
-  Support: https://github.com/tsoding/donate</div>]]></description>
-      <pubDate>Mon, 15 Dec 2025 03:40:13 +0000</pubDate>
-    </item>
-    <item>
-      <title>Some problems of modernizing Emacs (eev @ EmacsConf 2025)</title>
-      <link>https://www.youtube.com/watch?v=Y75Q2IN8Y_M</link>
-      <guid>https://www.youtube.com/watch?v=Y75Q2IN8Y_M</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=Y75Q2IN8Y_M">youtube</a><br><br>See: http://anggtwu.net/emacsconf2025.html</div>]]></description>
-      <pubDate>Sun, 14 Dec 2025 20:31:53 +0000</pubDate><category>emacsconf</category>
-<category>eev</category>
-    </item>
-    <item>
-      <title>Wisdom - Framework for writing literate Emacs Lisp in Org Mode</title>
-      <link>https://www.youtube.com/watch?v=0Tf1DHdyrbc</link>
-      <guid>https://www.youtube.com/watch?v=0Tf1DHdyrbc</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=0Tf1DHdyrbc">youtube</a><br><br>Wisdom Repository: www.github.com/kwrooijen/wisdom</div>]]></description>
-      <pubDate>Sat, 13 Dec 2025 10:15:00 +0000</pubDate><category>org</category>
-    </item>
-    <item>
-      <title>I wrote a thing for Emacs, but don&apos;t call it a &quot;plugin&quot;</title>
-      <link>https://youtu.be/jwH3B1vHqvQ</link>
-      <guid>https://youtu.be/jwH3B1vHqvQ</guid>
-      <description><![CDATA[<div id="content"><a href="https://youtu.be/jwH3B1vHqvQ">youtube</a><br><br>Let me show you a typical process of writing a relatively simple Emacs package and publishing it on MELPA.
-
-  I'll show you https://github.com/agzam/wiktionary-bro.el
-  We'll dive into some technical nuances, talk about some history of Lisp, explore some Emacs features.
-
-  0:00:00 Introduction & Preamble
-  0:00:25 Why Emacs Has Packages, Not Plugins
-  0:02:21 The Power of Etymology
-  0:04:44 Why Wiktionary is Essential
-  0:05:51 Video Structure Overview
-  0:06:00 Package Demo
-  0:06:32 wiktionary-bro Homepage
-  0:07:03 Live Demo in Emacs
-  0:07:24 DWIM Command Explained
-  0:08:01 External Links & Browser Integration
-  0:08:37 Language Selection
-  0:09:05 Org-Mode Features
-  0:09:40 Conjugation Tables
-  0:11:10 Technical Deep Dive
-  0:12:05 Package Repositories (MELPA, ELPA)
-  0:14:29 Package Header Requirements
-  0:14:48 Lambda Calculus History (1930s)
-  0:17:25 John McCarthy & Birth of Lisp
-  0:18:06 s-expressions Origin Story
-  0:19:09 Why Lisp Matters Today
-  0:21:02 Structural Editing
-  0:22:24 REPL-Driven Development
-  0:24:40 Package Headers Deep Dive
-  0:25:05 Package Dependencies
-  0:27:28 Doom Emacs File Templates
-  0:28:11 Required Libraries
-  0:28:28 Destructuring in Lisp
-  0:31:09 Features List (1000+ Packages!)
-  0:33:32 defgroup & Customization UI
-  0:36:43 Faces
-  0:37:24 describe-face Command
-  0:38:00 Changing Face Colors Live
-  0:39:40 Frames vs Windows
-  0:41:24 Interactive vs Non-Interactive Functions
-  0:43:32 Global vs Buffer-Local Variables
-  0:44:20 buffer-local Variables Demo
-  0:46:10 Keymaps (Sparse vs Full)
-  0:48:52 define-derived-mode
-  0:49:40 Hooks System
-  0:50:20 org-open-at-point Hook
-  0:53:00 add-hook with Local Parameter
-  0:55:40 Predicate Function Convention
-  0:56:40 Private Function Convention
-  0:57:00 save-excursion
-  1:00:30 cl-letf Function Overriding
-  1:02:03 Overriding shr Functions
-  1:03:20 Extended Regex Syntax
-  1:03:40 regex-quote Helper
-  1:04:18 regex-builder Interactive Tool
-  1:06:40 MELPA Repository Structure
-  1:07:09 Recipe Format
-  1:08:26 package-lint
-  1:08:46 checkdoc for Documentation
-  1:09:58 MELPA Review Process
-  1:11:13 Conclusion & Final Thoughts
-
-
-  Opening music:   https://soundcloud.com/incredfx/at-dooms-gate</div>]]></description>
-      <pubDate>Sat, 13 Dec 2025 01:51:51 +0000</pubDate><category>elisp</category>
-    </item>
-    <item>
-      <title>Bending Emacs Episode 08: completing-read</title>
-      <link>https://www.youtube.com/watch?v=J_WxzZXuTLI</link>
-      <guid>https://www.youtube.com/watch?v=J_WxzZXuTLI</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=J_WxzZXuTLI">youtube</a><br><br>In this episode we showcase the humble but mighty useful completing-read function.
-
-  Here's the corresponding blog post https://xenodium.com/bending-emacs-episode-8-completing-read</div>]]></description>
-      <pubDate>Fri, 12 Dec 2025 11:35:56 +0000</pubDate><category>completion</category>
-    </item>
-    <item>
-      <title>DnD Character tracking with typst &amp; emacs</title>
-      <link>https://www.youtube.com/watch?v=9APlEGU_LYo</link>
-      <guid>https://www.youtube.com/watch?v=9APlEGU_LYo</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=9APlEGU_LYo">youtube</a><br><br>https://github.com/strickinato/strick-dnd</div>]]></description>
-      <pubDate>Wed, 10 Dec 2025 07:04:56 +0000</pubDate><category>fun</category>
-    </item>
-    <item>
-      <title>Eric Dallo talks about ECA</title>
-      <link>https://www.youtube.com/watch?v=013LBjd5TVo</link>
-      <guid>https://www.youtube.com/watch?v=013LBjd5TVo</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=013LBjd5TVo">youtube</a><br><br>Discussion around ECA - Editor Code Assistant.
-
-  Project page: https://eca.dev
-  Emacs package: https://github.com/editor-code-assistant/eca-emacs
-  Eric's GH: https://github.com/ericdallo
-
-  0:00 Foreword
-  2:29 Opening music
-  2:56 Introduction
-  5:50 First Look
-  8:40 It's not only for Emacs
-  11:26 ECA Protocol
-  14:50 The docs
-  17:05 Emacs gives you complete control over text
-  17:23 Context
-  18:29 Hooks (not Emacs hooks)
-  21:10 It's great to use with Clojure MCP
-  22:14 What's your ECA config?
-  28:29 Show us some Emacs
-  38:26 Context
-  39:40 Behavior
-  44:38 Changes
-  46:30 Challenges & Roadmap
-  50:55 Rollback
-  54:35 Closing remarks
-
-
-  Opening music: https://soundcloud.com/incredfx/at-dooms-gate</div>]]></description>
-      <pubDate>Tue, 09 Dec 2025 22:00:06 +0000</pubDate><category>ai</category>
-    </item>
-    <item>
-      <title>Creating an Emacs Package from Concept to MELPA (Part 6)</title>
-      <link>https://www.youtube.com/watch?v=Rv0nau_lzYk</link>
-      <guid>https://www.youtube.com/watch?v=Rv0nau_lzYk</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=Rv0nau_lzYk">youtube</a><br><br>Today we are going to finish up our rare-words package series,  a package that will highlight rare words in your buffer,  by submitting it to MELPA today.</div>]]></description>
-      <pubDate>Sun, 07 Dec 2025 20:13:46 +0000</pubDate>
-    </item>
-    <item>
-      <title>EmacsConf 2025: Bookclub tapas - Maddie Sullivan (she/her)</title>
-      <link>https://www.youtube.com/watch?v=GAOZzrm6ecA</link>
-      <guid>https://www.youtube.com/watch?v=GAOZzrm6ecA</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=GAOZzrm6ecA">youtube</a><br><br>https://emacsconf.org/2025/talks/bookclub-tapas
-
-  00:00 Introduction
-  00:29 Hi, I'm Maddie!
-  01:03 Bookclub Tapas
-  02:00 Bookclub
-  02:40 Too many hats, too many roles
-  03:55 Narrativiation
-  05:24 My starter kit - My stock, off the shelf suggestions
-  05:47 Now what?
-  05:58 Our overarching goal
-  06:23 Our development focuses
-  07:05 The rest of the headings
-  08:37 Conversationality
-  10:55 Ad-hoc means less friction
-  13:01 Gratis documentation
-  14:48 Keeping the thread of your intention
-  16:21 Bookclub is becoming too much
-  17:25 Introducing Tapas
-  18:22 What are Tapas, what are Tapas not?
-  22:25 Tapas are maybe best illustrated by example
-  25:52 Introducing Squint
-  28:36 What else does Bookclub Tapas do?
-  29:08 Let's work together
-
-  You can view this and other resources using free/libre software at https://emacsconf.org/2025/talks/bookclub-tapas .
-  This video is available under the terms of the Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license.</div>]]></description>
-      <pubDate>Sun, 07 Dec 2025 19:45:01 +0000</pubDate>
-    </item>
-    <item>
-      <title>EmacsConf 2025: Gardening in Emacs: A Windows user&apos;s tale of tending, tweaking, and triumph</title>
-      <link>https://www.youtube.com/watch?v=lNIc8-_C9kQ</link>
-      <guid>https://www.youtube.com/watch?v=lNIc8-_C9kQ</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=lNIc8-_C9kQ">youtube</a><br><br>EmacsConf 2025: Gardening in Emacs: A Windows user's tale of tending, tweaking, and triumph - Marco Bresciani
-  https://emacsconf.org/2025/talks/gardening
-
-  00:05 Introduction
-  00:39 What is a digital garden?
-  02:11 Why a digital garden?
-  03:39 How to digital garden?
-  04:57 How to make Emacs portable, on Windows
-  08:18 My Emacs customization
-  10:36 PlantUML and Japanese
-  14:50 My Org Mode publishing configuration
-  16:04 The final result
-  17:03 Thank you for listening
-
-  You can view this and other resources using free/libre software at https://emacsconf.org/2025/talks/gardening .
-  This video is available under the terms of the Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license.</div>]]></description>
-      <pubDate>Sun, 07 Dec 2025 19:15:03 +0000</pubDate>
     </item>
   </channel>
 </rss>

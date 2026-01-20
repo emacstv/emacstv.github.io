@@ -3,6 +3,141 @@
 #+PROPERTY: header-args:emacs-lisp+   :eval no
 
 
+* Emacs: easily set timers with TMR  :tmr:timer:
+:PROPERTIES:
+:DATE:     2026-01-19T05:46:45-08:00
+:DURATION: 14:32
+:YOUTUBE_URL: https://www.youtube.com/watch?v=vLuyt0hq4io
+:SPEAKERS: Protesilaos Stavrou
+:END:
+  In this ~15-minute video I demonstrate a package of mine called "tmr" (pronounced as an acronym or as "timer"). It uses a simple notation to set the duration of a timer at the minibuffer prompt. Once the timer elapses, Emacs shows a notification. The desktop environment will also include one, as well as an audio alert (those are configurable). Timers can optionally have a description. They may also be listed in a tabulated/grid view, which makes it easier to work with them (to edit their description, reschedule them, etc.). Running timers may also be displayed on the mode line. The publication of this video is on my website, together with sample configuration: https://protesilaos.com/codelog/2026-01-19-emacs-timers-tmr-demo/
+* Bustin' out of Emacs with an Org Mode Workout Tracker + HTML  :org:
+:PROPERTIES:
+:DATE:     2026-01-19T04:46:26-08:00
+:DURATION: 13:45
+:YOUTUBE_URL: https://www.youtube.com/watch?v=3b7HJgYCzzI
+:SPEAKERS: Chris Maiorana
+:END:
+  In today's video, we're going to look at how you can use org mode as a highly functional workout tracker. This is something I'm sure a lot of you will be thinking about now that we are full swing into New Years resolution season.
+  For visuals, I'll be exporting the org mode data to HTML. This makes it easy to see my progress and interface / share data with other applications.
+
+   https://chrismaiorana.com/org-mode-workout-tracker/ ‎
+
+  GET MY BOOKS HERE:
+  chrismaiorana.com/books
+
+* Tracking Time With Denote Journal and Org Clock  :denote:org:
+:PROPERTIES:
+:DATE:     2026-01-18T20:43:17-08:00
+:DURATION: 11:13
+:YOUTUBE_URL: https://www.youtube.com/watch?v=ofm-11LmLJg
+:SPEAKERS: bardman
+:END:
+  My strategy for time tracking with Emacs Org mode and denote-journal
+  Post on website: https://bardman.dev/technology/time-tracking
+
+* Hide unwanted files and folders in Emacs  :dired:
+:PROPERTIES:
+:DATE:     2026-01-18T14:00:44-08:00
+:DURATION: 3:45
+:YOUTUBE_URL: https://www.youtube.com/watch?v=h2FoWaf4SVc
+:SPEAKERS: Emacs Elements
+:END:
+  https://github.com/emacselements
+  https://emacselements.com/
+
+* Hacking on Emacs #5  :magit:GitLink:git:
+:PROPERTIES:
+:DATE:     2026-01-18T08:59:24-08:00
+:DURATION: 42:32
+:YOUTUBE_URL: https://www.youtube.com/watch?v=Ha3PmkEmzcc
+:SPEAKERS: FrostyX unscripted
+:END:
+  Allow linking the current Magit commit buffer using git-link
+  ► Main channel: https://www.youtube.com/@jakubkadlcik
+  ► GitHub: https://github.com/FrostyX
+  ► Blog: https://frostyx.cz
+  ► Mastodon: https://fosstodon.org/@FrostyX
+
+* Create ComfyUI pictures straight from Emacs  :ai:
+:PROPERTIES:
+:DATE:     2026-01-18T05:03:07-08:00
+:DURATION: 1:07
+:YOUTUBE_URL: https://www.youtube.com/watch?v=OsBn_VU3pHY
+:SPEAKERS: GNU Emacs for Success
+:END:
+  Video shows example on how to create ComfyUI pictures from Emacs. What does it mean? I can capture imaginary images into Org, or Dynamic Knowledge Repository or use them in many ways.
+
+* How to get Emacs to look like the Pulsar Editor  :appearance:
+:PROPERTIES:
+:DATE:     2026-01-17T05:44:51-08:00
+:DURATION: 2:12
+:YOUTUBE_URL: https://www.youtube.com/watch?v=Dn77mTpH7sc
+:SPEAKERS: Emacs Elements
+:END:
+  https://github.com/emacselements
+  https://emacselements.com/
+
+* Open Jive Friday Night | More git foolishness in Emacs  :git:modeline:
+:PROPERTIES:
+:DATE:     2026-01-17T04:31:34-08:00
+:DURATION: 21:39
+:YOUTUBE_URL: https://www.youtube.com/watch?v=aOdpeP_xNFA
+:SPEAKERS: Chris Maiorana
+:END:
+  Let's take a look at my git change counter modeline minor mode:
+  https://chrismaiorana.com/git-changes-in-emacs-modeline/
+
+  See it in action!
+
+  My books: https://chrismaiorana.com/books/
+
+  🎙️ New to streaming or looking to level up? Check out StreamYard and get $10 discount! 😍 https://streamyard.com/pal/d/6129863822147584
+
+* Bending Emacs Episode 10: AI / LLM agent-shell  :ai:AgentShell:
+:PROPERTIES:
+:DATE:     2026-01-16T02:07:16-08:00
+:DURATION: 36:35
+:YOUTUBE_URL: https://www.youtube.com/watch?v=R2Ucr3amgGg
+:SPEAKERS: xenodium
+:END:
+  In this episode, we take a look at agent-shell. A package I wrote to interact with agents offering ACP (Agent Client Protocol) like Claude Code, Gemini CLI, Qwen, OpenCode, Copilot, Codex, Goose, Cursor, Auggie, Mistral Vibe, Factory Droid, and so on...
+
+  Blog post: https://xenodium.com/bending-emacs-episode-10-agent-shell
+
+  If you're getting value out of agent-shell, consider ✨sponsoring✨ https://github.com/sponsors/xenodium
+
+  ,#mistral #emacs #qwen #claude #anthropic #ai #google #goose #gemini #linux #github #macos #oss #foss #opencode #codex #vibe #vibecoding #windows #indie
+
+* Org Mode Tags +Agenda: My Real Meeting Workflow  :org:
+:PROPERTIES:
+:DATE:     2026-01-15T06:01:05-08:00
+:DURATION: 5:51
+:YOUTUBE_URL: https://www.youtube.com/watch?v=ZN8vfBjeg_I
+:SPEAKERS: Curtis McHale
+:END:
+  ,#emacs #productivity  #orgmode
+
+  Here is how I automate finding my meeting tasks with Org Mode Agenda
+
+  ,## Links
+
+  - Read the full post with links: https://curtismchale.ca/?p=28998
+
+  ,## Courses
+
+  - SkillShare TickTick Course: https://skl.sh/2ExpXVv
+  - SkillShare Timeblocking Course: https://skl.sh/38MQzz8
+  - SkillShare Zettelkasten Course: https://skl.sh/3rntNDW
+  - Getting Started with Obsidian Course: https://skl.sh/2Y6DUDM
+
+  ,## My Gear
+
+  - My gear: https://curtismchale.ca/my-gear
+  - Patreon: https://patreon.com/curtismchale
+  - Music: https://www.epidemicsound.com/referral/blhmqa/
+  - Streaming with: https://www.ecamm.com/mac/ecammlive/?fp_ref=curtis42
+
 * I use Emacs' cursor model in evil-mode's normal state.  :EvilMode:
 :PROPERTIES:
 :DATE:     2026-01-11T09:06:20-08:00
@@ -113,6 +248,28 @@
 
 
   ,#emacs #linux #dependencies #devtools #sysadmin #ubuntu #debian #fedora #macos
+* Why Emacs in 2026? 10+ Powerful Reasons Developers Still Swear By It  :why:
+:PROPERTIES:
+:DATE:     2026-01-07T00:33:11-08:00
+:DURATION: 8:48
+:YOUTUBE_URL: https://www.youtube.com/watch?v=hndvNH-uEAg
+:SPEAKERS: Build Hello
+:END:
+  Emacs looks old—but it’s ridiculously powerful. In this video, I break down why Emacs is still a top choice for serious developers and power users.
+
+  You’ll learn:
+  - How Emacs can replace half your tools (editor, terminal, email, notes, org-mode, etc.)
+  - Why Emacs beats many modern editors for automation and customization
+  - The “Emacs as an OS” mindset and what it unlocks
+  - How Emacs grows with you instead of locking you into a plugin marketplace
+
+  Next steps in the series:
+  ▶️ Install or Build From Source - https://youtu.be/xFfgGps6k-0
+  ▶️ Download Emacs from Source - https://youtu.be/VgSm1NtgXlg
+
+  *Hashtags*
+  ,#emacs #vim #vscode #developers #productivity #orgmode #programming #linux #editorwar
+
 * Bending Emacs Episode 09: Time around the world  :time:
 :PROPERTIES:
 :DATE:     2026-01-06T11:44:27-08:00
