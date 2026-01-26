@@ -6,6 +6,191 @@
     <atom:link href="https://emacs.tv/videos.rss" rel="self" type="application/rss+xml" />
     <description>Emacs videos</description>
     <item>
+      <title>Developing yet another way to do research in Emacs - fool&apos;s errand?</title>
+      <link>https://www.youtube.com/watch?v=TqVIAVTzQmY</link>
+      <guid>https://www.youtube.com/watch?v=TqVIAVTzQmY</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=TqVIAVTzQmY">youtube</a><br><br>Here I'm showing Emacs things I'm working on:
+  * *nov-x* : highlights and annotations for *nov*
+  * *librarian* : Management of epub and pdf files with metadata and a query language
+  * *researcher* : help with research and syntopic reading, leveraging *librarian*
+
+  I also use *denote* , so no need to tell me that all this functionality is subsumed by *org-roam* or *denote* .  Although maybe I *do* need to hear that.  There is a huge ecosystem that I don't necessarily know about!
+
+  00:00 LLM Code not just *with* Emacs, but *for* Emacs
+  00:25 nov-mode for reading EPUB books
+  03:06 nov-x: highlighting and annotations in Org Mode
+  09:02 librarian: organization, filtering, smart shelves and metadata
+  11:13 researcher: research management, Adlerian syntopic reading
+
+
+  Did you know Emacs has a very nice E-book reader?  Well, it actually has more than one.  *doc-view* is built in and can handle more than EPUB: PDF, ODF and much more.  But that mode turns every page into an image, then cleverly still allows some degree of text selection.  But that's ... weird.
+
+  For EPUB-only reading, there is *nov-mode* in a package where all the elisp code resides in the nicely named *nov.el* .  Nov leverages *shr* , which does X/HTML rendering - little or no CSS, so styling placed by publishers can be lost.  I think this is a net win, because it helps focus attention on the content.  It is a quite pleasant experience and can be customized with all standard Emacs features: font selection, themes, margins, visual line mode etc.
+
+  I have been extending that mode with annotations and highlighting, all saved in a sidecar  org mode file.
+
+  That lead to wanting something to organize the collection of of books and pdfs, hence *librarian*
+
+  And then came the need to attempt syntopic reading (as can be found in Mortimer Adler's *How to Read a Book* ).  Hence *researcher*</div>]]></description>
+      <pubDate>Sun, 25 Jan 2026 18:43:22 +0000</pubDate><category>writing</category>
+<category>denote</category>
+    </item>
+    <item>
+      <title>Yay Emacs live-coding: whisper.el</title>
+      <link>https://www.youtube.com/watch?v=LtfxMFW0574</link>
+      <guid>https://www.youtube.com/watch?v=LtfxMFW0574</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=LtfxMFW0574">youtube</a><br><br></div>]]></description>
+      <pubDate>Sat, 24 Jan 2026 04:48:38 +0000</pubDate><category>whisper</category>
+    </item>
+    <item>
+      <title>Unlocking Obsidian Links in Emacs Org Mode</title>
+      <link>https://www.youtube.com/watch?v=er58i65BJuI</link>
+      <guid>https://www.youtube.com/watch?v=er58i65BJuI</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=er58i65BJuI">youtube</a><br><br>,#emacs #obsidian #orgmode
+
+  Let's look at how to open obsidian links in org mode
+
+  ,## Links
+
+  - Read the full post with links: https://curtismchale.ca/?p=29049
+
+  ,## Courses
+
+  - SkillShare TickTick Course: https://skl.sh/2ExpXVv
+  - SkillShare Timeblocking Course: https://skl.sh/38MQzz8
+  - SkillShare Zettelkasten Course: https://skl.sh/3rntNDW
+  - Getting Started with Obsidian Course: https://skl.sh/2Y6DUDM
+
+  ,## My Gear
+
+  - My gear: https://curtismchale.ca/my-gear
+  - Patreon: https://patreon.com/curtismchale
+  - Music: https://www.epidemicsound.com/referral/blhmqa/
+  - Streaming with: https://www.ecamm.com/mac/ecammlive/?fp_ref=curtis42</div>]]></description>
+      <pubDate>Thu, 22 Jan 2026 14:01:05 +0000</pubDate><category>org</category>
+<category>obsidian</category>
+    </item>
+    <item>
+      <title>You can have Andrej Kaparthy&apos;s Council of LLMs anywhere: Antigravity! Claude Code! Emacs! : ai:llm:</title>
+      <link>https://www.youtube.com/watch?v=tUCz4QnZA4I</link>
+      <guid>https://www.youtube.com/watch?v=tUCz4QnZA4I</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=tUCz4QnZA4I">youtube</a><br><br>I'm back with the most fun way to do research on your own terms: a generalized version of the Council of LLMs that you can easily put into Claude Code, Gemini CLI, full-fledged IDEs like Cursor, or your own specially cooked gptel+mcp.el setup in Emacs.
+
+  The LLM Council prompt gives great flexibility in using an LLM as usual for chatting, discovery, simple coding, answering quick questions.  But it switches into turbo mode when you are working on a hard problem by invoking council deliberation between multiple LLM models of your choosing.
+
+  I show briefly how awesome Opencode CLI is as an alternative to: Claude Code, Gemini CLI, Codex CLI and who-knows-what-else LLM CLI all at once.  Install it from
+  https://github.com/anomalyco/opencode
+
+  The key MCP server I use is found at
+  https://github.com/nesquikm/mcp-rubber-duck
+
+  The LLM Council prompt I use:
+  https://github.com/gregoryg/AIPIHKAL/blob/main/llm-council-prompt.md
+
+  The mcp.el configuration for you Emacs users:
+  https://github.com/gregoryg/emacs-gregoryg?tab=readme-ov-file#mcpel---model-context-protocol
+
+  Please enjoy and let me know how you use this feature!
+
+  00:00 - Intro to and demo of Andrej Kaparthy's Council of LLMs
+  11:37 - Making a general LLM Council: The Prompt
+  14:40 - The MCP server that makes it possible: mcp-rubber-duck
+  16:30 - Let's configure the council in Opencode (like Claude Code)
+  20:00 - We convene the council in Opencode - okey dokey!
+  22:20 - A side trip to the prompt to show how to make it flexible and cost effective
+  24:05 - Holy Cow - the results are in! GLM 4.7 kills it!
+  26:05 - The config in Emacs for gptel + mcp.el
+  27:00 - Try it!  Enjoy!</div>]]></description>
+      <pubDate>Thu, 22 Jan 2026 05:07:15 +0000</pubDate><category>llm</category>
+    </item>
+    <item>
+      <title>Three important distinctions in Emacs: mini buffer and echo, mark and point, window and frame</title>
+      <link>https://www.youtube.com/watch?v=FR3e8e_jv_E</link>
+      <guid>https://www.youtube.com/watch?v=FR3e8e_jv_E</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=FR3e8e_jv_E">youtube</a><br><br>In this video, I examine three distinctions that often confuse newcomers: the minibuffer versus the echo area, point versus mark, and frames versus windows. By clarifying how these pairs differ conceptually, even when they share the same screen space, the video aims to deepen your understanding of how Emacs thinks about interaction, position, and layout.
+
+  https://github.com/emacselements
+  https://emacselements.com/
+
+  If you like my content, you can support me by sending a donation via PayPal:
+  https://paypal.me/revrari</div>]]></description>
+      <pubDate>Wed, 21 Jan 2026 17:42:50 +0000</pubDate><category>navigation</category>
+    </item>
+    <item>
+      <title>Master Emacs Dired Mode in 15 Minutes</title>
+      <link>https://www.youtube.com/watch?v=hshWBtefSmE</link>
+      <guid>https://www.youtube.com/watch?v=hshWBtefSmE</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=hshWBtefSmE">youtube</a><br><br>In this video, you'll learn all about emacs' directory editing mode. You can navigate your directory structure, find and mark files for deletion or more complex operations. You can search your directory structure for regexs, and then review and run commands against the results. After watching this video, you might never open the terminal again.
+
+  elisp to make find-file  create file in inserted subdirectory: https://stackoverflow.com/a/50138457
+
+  00:00 Intro
+  00:25 Basic Navigation
+  02:37 Subdirectories
+  03:58 Obligatory Deletion Warning
+  04:31 Deleting Files
+  05:42 Marking Files
+  07:29 Acting on Files
+  09:05 Regex Search and Replace
+  09:41 Run Shell Commands on Selection
+  11:04 Regex Operations on Files
+  11:44 Dired and Find command
+  12:41 Writable Dired Mode
+  13:19 Outro</div>]]></description>
+      <pubDate>Wed, 21 Jan 2026 01:56:31 +0000</pubDate><category>dired</category>
+    </item>
+    <item>
+      <title>Emacs tricks DYI: surround src blocks in markdown</title>
+      <link>https://www.youtube.com/watch?v=Ihf46UiZWwg</link>
+      <guid>https://www.youtube.com/watch?v=Ihf46UiZWwg</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=Ihf46UiZWwg">youtube</a><br><br>Hey! Here is little trick.
+  Ever wanted to surround src blocks in markdown?
+  Doing it yourself is fun!
+  In this video I show off the development process of creating a custom emacs lisp function to do it.
+  I hope you enjoy it.</div>]]></description>
+      <pubDate>Tue, 20 Jan 2026 23:37:35 +0000</pubDate><category>markdown</category>
+    </item>
+    <item>
+      <title>Emacs в 2026: Секретное оружие или старый хлам? |vim, vscode, lisp, org-mode|Podlodka Podcast #460</title>
+      <link>https://www.youtube.com/watch?v=IXPhel5VDNk</link>
+      <guid>https://www.youtube.com/watch?v=IXPhel5VDNk</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=IXPhel5VDNk">youtube</a><br><br>Программируемый текстовый редактор для программирования — от программистов. Звучит как утопия? Нет, это Emacs!
+  Инструменту уже больше 40 лет, но он отказывается умирать. Более того, некоторые разработчики переезжают на него с современных IDE. Чтобы разобраться в этой магии, мы позвали Дмитрия Бушенко — ветерана разработки и знатока Emacs.
+  Разобрали архитектуру и то, как она обеспечивает невероятную расширяемость Emacs, почему этот редактор иногда называют операционной системой (без нормального текстового редактора), узнали, почему гость бросил Vim ради Emacs, и поразмышляли, есть ли смысл страдать с конфигами в эпоху AI и VS Code.
+  Выпуск для тех, кто хочет понять философию true-инженерии и тотальной кастомизации.
+
+  Полезные ссылки:
+  — YouTube-канал Дмитрия https://www.youtube.com/@dbushenko
+  — YouTube-канал Куда зовет дорога https://www.youtube.com/@dmitry.bushenko
+  — Файл display.c https://reid.org/~brian/misc/gosling-emacs-1999.tar
+  — Блог Sacha Chua https://sachachua.com/blog/
+  — GNU Emacs https://www.gnu.org/software/emacs/
+  — Сайт MELPA https://melpa.org/
+  — An Emacs framework for the stubborn martian hacker  https://github.com/doomemacs/doomemacs
+  — Документация по Emacs https://codeberg.org/IDEmacs/IDEmacs
+  — A community driven list of useful Emacs packages, libraries and other items https://github.com/emacs-tw/awesome-emacs
+
+  ❓ Хочешь обсудить выпуск или задать вопрос эксперту? Вступай в наш Telegram-чат: https://t.me/podlodka
+  📰  Не любишь чаты, но хочешь оставаться в курсе дел и прокачивать свой IT кругозор? Подписывайся на наш Telegram-канал: там публикуются анонсы новых выпусков, а в комментах идут ценные и горячие обсуждения! 5 тысяч опытных IT-специалистов уже с нами: https://t.me/podlodkanews
+  👉Предложить себя в подкаст https://forms.gle/NtmaZmeDAa3MHSra7
+
+  Тайм-коды:
+  00:00 О чем выпуск?
+  19:00 Как создавался Emacs
+  28:45 Что было с Emacs в 2000-х?
+  41:19 Что такое Emacs?
+  46:05 Философия Emacs
+  52:10 Где нужна кастомизация?
+  58:42 Elisp
+  01:04:25 Плагины Emacs
+  01:10:55 Vim vs Emacs
+  01:18:23 Возможности Emacs
+  01:29:00 Зачем и кому нужен Emacs?
+  01:34:45 Как начать изучение Emacs
+  01:40:25 Заключение</div>]]></description>
+      <pubDate>Mon, 19 Jan 2026 16:31:29 +0000</pubDate>
+    </item>
+    <item>
       <title>Emacs: easily set timers with TMR</title>
       <link>https://www.youtube.com/watch?v=vLuyt0hq4io</link>
       <guid>https://www.youtube.com/watch?v=vLuyt0hq4io</guid>
@@ -499,178 +684,6 @@
   You can view this and other resources using free/libre software at https://emacsconf.org/2025/talks/commonlisp .
   This video is available under the terms of the Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license.</div>]]></description>
       <pubDate>Thu, 18 Dec 2025 03:04:02 +0000</pubDate>
-    </item>
-    <item>
-      <title>EmacsConf 2025 Q&amp;A: Emacs as a fully-fledged reference manager - Vidianos Giannitsis (he/him)</title>
-      <link>https://www.youtube.com/watch?v=v7la6wZtqyU</link>
-      <guid>https://www.youtube.com/watch?v=v7la6wZtqyU</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=v7la6wZtqyU">youtube</a><br><br>This is the Q&A for the talk at https://youtu.be/XjhnY4WuQRQ .
-
-  00:00 Q: Have you try ivy-bibtex/bibtex-completion.el, how it compares to ebib?
-  01:32 Q: Do you find showing abstract on your navigation panel helpful?
-  03:53 Q: it seems that there's a meta problem here: too much information. Do your tools reduce cognative load?
-  06:44 Q: When you download a new article, how do you integrate its file to your database? For example, do you move and rename the file manually?
-  10:02 Q: What about annotations with ereaders: viewing and taking on emacs or ereader touchscreen highlighting and notes, org-noter I think would be an alternative out of ebook annotation alternative?
-  12:52 Q: How well do you feel about making notes on web sites, pdf, videos? I know pdf is usually good but others I am less sure about.
-  16:19 Q: How do you add a new article from scratch, a pdf that you did not have in your bib file? How do you generate the 'bib' entry with metadata and abstract?
-  18:15 Q: When do you fact check every detail for a bib entry? The author names, published journal, doi stuff.
-
-  You can view this and other resources using free/libre software at https://emacsconf.org/2025/talks/reference .
-  This video is available under the terms of the Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license.</div>]]></description>
-      <pubDate>Thu, 18 Dec 2025 02:01:49 +0000</pubDate>
-    </item>
-    <item>
-      <title>Get Focused with org-pomodoro</title>
-      <link>https://youtu.be/2ljN8xvwjvI</link>
-      <guid>https://youtu.be/2ljN8xvwjvI</guid>
-      <description><![CDATA[<div id="content"><a href="https://youtu.be/2ljN8xvwjvI">youtube</a><br><br>,#emacs #pomodoro #orgmode
-
-  Today we'll get a basic org-pomodoro setup done in emacs
-
-  ,## Links
-
-  - Readwise: https://readwise.io/
-  - Read the full post with links: https://curtismchale.ca/2025/12/15/setting-up-org-pomodoro-in-doom-emacs-hyprland-fedora/
-
-  ,## Courses
-
-  - SkillShare TickTick Course: https://skl.sh/2ExpXVv
-  - SkillShare Timeblocking Course: https://skl.sh/38MQzz8
-  - SkillShare Zettelkasten Course: https://skl.sh/3rntNDW
-  - Getting Started with Obsidian Course: https://skl.sh/2Y6DUDM
-
-  ,## My Gear
-
-  - My gear: https://curtismchale.ca/my-gear
-  - Patreon: https://patreon.com/curtismchale
-  - Music: https://www.epidemicsound.com/referral/blhmqa/
-  - Streaming with: https://www.ecamm.com/mac/ecammlive/?fp_ref=curtis42</div>]]></description>
-      <pubDate>Thu, 18 Dec 2025 02:00:05 +0000</pubDate>
-    </item>
-    <item>
-      <title>EmacsConf 2025 Q&amp;A: An introduction to the Emacs Reader - Divyá</title>
-      <link>https://www.youtube.com/watch?v=lo4eZJNzUAs</link>
-      <guid>https://www.youtube.com/watch?v=lo4eZJNzUAs</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=lo4eZJNzUAs">youtube</a><br><br>EmacsConf 2025 Q&A: An introduction to the Emacs Reader
-  Divyá
-
-  This is the Q&A for the talk at https://youtu.be/KQBXTSg_Occ .
-
-  00:00 Q: Is there scope for integrating the C library into Emacs itself with muPDF becoming an optional dependency?
-  00:59 Q: The dynamic modules sound great, and it's amazing they're there since 2017. Why is it so slow to take off, do you think? Is there prior art with them?
-  03:02 Q: How is pdf-tools difficult to install? I install it using the built in package manager.
-  04:41 Q: What tool(s) did you use to measure the memory usage between the three packages?
-  05:49 Q: How is the conversion between ELisp and the foreign language type system done? For example when interfacing with a C++ library that makes heavy use of C++ object system and templates?
-  08:17 Q: Can one look at pdf metadata with emacs-reader? Can annotations be added? Does it understand forms? Can it handle encrypted pdfs?
-  09:28 Q: How can I associate ODT files to open with emacs-reader?
-  10:26 Q: If a pdf file is open in emacs-reader and I regenerate the pdf with some changes, does emacs-reader actually refresh the pdf on its own or do I have to reload the pdf?
-  11:49 Q: What are the challenges with integrating with SyncTeX and AucTeX? This would be great to see as pdf-tools handles this well.
-  12:35 Q: Will you be giving another talk on the architecture you went over? A deep-dive there would be awesome.
-  12:59 Q: Is there search functionality? Something like isearch and occur?
-  13:30 Q: Does dynamic module prevent customization that Elisp usually provide? (Advices, Hooks, etc).
-  15:31 Q: Do you usually create an Elisp shim from the FFI and then use them with Elisp code?
-  16:44 Q: Is searching on the roadmap? Or is it already available as a feature?
-  17:48 Q: Will there be occur-like searching?
-  18:28 Q: What is your timing expectation for it to appear on ELPA?
-
-  You can view this and other resources using free/libre software at https://emacsconf.org/2025/talks/reader .
-  This video is available under the terms of the Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license.</div>]]></description>
-      <pubDate>Thu, 18 Dec 2025 01:59:34 +0000</pubDate>
-    </item>
-    <item>
-      <title>EmacsConf 2025 Q&amp;A: Interactive Python programming in Emacs - David Vujic (he/him)</title>
-      <link>https://www.youtube.com/watch?v=JIpcbE1XrKI</link>
-      <guid>https://www.youtube.com/watch?v=JIpcbE1XrKI</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=JIpcbE1XrKI">youtube</a><br><br>EmacsConf 2025 Q&A: Interactive Python programming in Emacs
-  David Vujic (he/him)
-
-  This is the Q&A for the talk at https://youtu.be/uACM4a5MPQM .
-
-  00:00 Developing Python in Emacs
-  01:16 Q: How long have you been using Emacs?
-  02:39 Q: What editor were you primarily using before?
-  04:00 Q: Do you have your Emacs connect to the IPython kernel over the XMPP socket that IPython sets up?
-  05:38 Q: Not sure if you've explored Org Babel, but what are the benefits of using your approach over Org?
-  07:05 Q: Have you seen marimo.io notebooks? It uses standard Python.
-  08:20 Q: what LLM did you say you've used?
-  10:28 Q: Are you building your own Emacs, or using the system packages?
-  12:40 Q: Are you involved with local Emacs meetups?
-  14:24 Q: Can you repeat the name of the LLM that you specifically mentioned there? - ECA
-  18:08 Wrapping up
-
-  You can view this and other resources using free/libre software at https://emacsconf.org/2025/talks/python .
-  This video is available under the terms of the Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license.</div>]]></description>
-      <pubDate>Thu, 18 Dec 2025 01:56:58 +0000</pubDate>
-    </item>
-    <item>
-      <title>EmacsConf 2025 Q&amp;A: Emacs, editors, and LLM driven workflows - Andrew Hyatt (he/him)</title>
-      <link>https://www.youtube.com/watch?v=K14Beypjarc</link>
-      <guid>https://www.youtube.com/watch?v=K14Beypjarc</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=K14Beypjarc">youtube</a><br><br>This is the Q&A for the talk at https://youtu.be/U3kbEabBJ_s .
-
-  00:00 Q: My biggest question with AI code editors trying to integrate with Emacs is -- are the AI code editors able to read unsaved buffers and not just saved files?
-  02:20 Q: Personally I don't agree with the comment you made about VS Code usage dying out because I see companies/products pushing for tightly-integrated VS-Code agents/products like Windsurf. Thoughts?
-  03:47 Q: Do you have any thoughts about the environmental cost of using LLMs - either the training of models we can download and use locally, or the larger, commercial models used from the cloud?
-  06:09 Q: I must say, I liked your conclusion, but I differ insofar as you said that VS Code differ from Emacs because the former is not as easy to adapt as the latter. Why should Microsoft not adapt VS Code as we adapt Emacs for the new era of coding? And why would VS Code be harder hit? Could you please elaborate on this point?
-  09:14 Q: Do you think that we are falling behind in productivity as Emacs users? Compared to all these VSCode forks that have 1000 buttons and textboxes everywhere (i.e. much richer UIs which are basically webpages).
-  12:17 Q: I've been using Claude Code extensively. I recently switched to Agent Shell with Claude Code. Have you tried it, what are your thoughts?
-  14:32 Q: In terms of agent selection, what has your experience been with different agents, and have you had any success with hosting your own models and using open weights?
-  17:33 Q: I'm reading angst in your thinking about AI/editing. What are you excited about?
-  19:47 Q: Why does it matter to have a richer UI? All that is left is basically writing and getting the results.
-  22:25 Wrapping up
-  23:23 Q: I have 45+ years editing, programming. I'm not sure I can think about things without thinking of buffers, editors etc. Is this a handicap/should we just have people with no experience with code learn to prompt?
-
-  You can view this and other resources using free/libre software at https://emacsconf.org/2025/talks/llm .
-  This video is available under the terms of the Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license.</div>]]></description>
-      <pubDate>Thu, 18 Dec 2025 01:53:43 +0000</pubDate>
-    </item>
-    <item>
-      <title>EmacsConf 2025 Q&amp;A: Reading and writing emails in GNU Emacs with Gnus - Amin Bandali (he/him)</title>
-      <link>https://www.youtube.com/watch?v=iu0iqBd9qSo</link>
-      <guid>https://www.youtube.com/watch?v=iu0iqBd9qSo</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=iu0iqBd9qSo">youtube</a><br><br>This is the Q&A for the talk at https://youtu.be/0Pu8oqdsSig .
-
-  00:00 Q: I noticed that it took a considerable amount of time to send email. Is it possible to configure gnus to use an external smtp client to send emails?
-  01:17 Q: Is the dovecot workaround actually a solution?
-  03:07 Q: Do you have experience with mu4e or Notmuch, and why would you say Gnus is worth using compared to these?
-  06:05 Q: At my organization, we're forced to use OAuth with outlook and they've also blacklisted all email clients except thunderbird (but they don't support it, only the webmail or the outlook app). Do you know if this is something that can be circumvented in Gnus?
-  13:18 Comment: Liked how I started with a clean setup
-  17:34 Comment: They would have liked to see a quick demo of Gnus while it is fully configured and tweaked
-  18:22 My init file
-  19:34 Mail splitting
-  19:52 Gnus parameters
-  21:31 Custom signatures
-  22:05 Other customizations
-
-  You can view this and other resources using free/libre software at https://emacsconf.org/2025/talks/gnus .
-  This video is available under the terms of the Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license.</div>]]></description>
-      <pubDate>Thu, 18 Dec 2025 01:51:33 +0000</pubDate>
-    </item>
-    <item>
-      <title>EmacsConf 2025 Q&amp;A: org-gmail: A deep integration of Gmail into your Org Mode</title>
-      <link>https://www.youtube.com/watch?v=vjkQ9kJUR44</link>
-      <guid>https://www.youtube.com/watch?v=vjkQ9kJUR44</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=vjkQ9kJUR44">youtube</a><br><br>Bala Ramadurai (he/him)
-
-  This is the Q&A for the talk at https://youtu.be/8P93UBYrUB8 .
-
-  00:00 Feedback: Consider using similar background (dark-only / light-only) throughout to help with eye strain.
-  00:29 Q: Should I know all my contact's email addresses by heart? Or is some kind of contact list?
-  01:33 Q: What would it take to use the org pieces of this with, e.g., offlineimap or other non-Gmail mail setups?
-  02:50 Q: Do you worry about sending some info to a wrong person? Due to some unseen technical issues, for example, due to memory overflow.
-  04:11 Comment: You should say what org-gmail is and is not, goals and non goals "which in this case is more helpful" to help people get their head around this.
-  05:43 Q: How does it handle attachments? If it doesn't, do you have a plan to add this feature?
-
-  You can view this and other resources using free/libre software at https://emacsconf.org/2025/talks/gmail .
-  This video is available under the terms of the Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license.</div>]]></description>
-      <pubDate>Thu, 18 Dec 2025 01:47:30 +0000</pubDate>
-    </item>
-    <item>
-      <title>Why You Should Never Try Emacs</title>
-      <link>https://www.youtube.com/watch?v=FupJOKR3WeA</link>
-      <guid>https://www.youtube.com/watch?v=FupJOKR3WeA</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=FupJOKR3WeA">youtube</a><br><br>How being uniquely the most customizable piece of software in the world makes Emacs going strong after 40 years. And why you should never try it or you'll be sad.</div>]]></description>
-      <pubDate>Thu, 18 Dec 2025 00:57:40 +0000</pubDate>
     </item>
   </channel>
 </rss>
