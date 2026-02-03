@@ -6,6 +6,93 @@
     <atom:link href="https://emacs.tv/videos.rss" rel="self" type="application/rss+xml" />
     <description>Emacs videos</description>
     <item>
+      <title>[17] Emacs Reader:  Cursors, PALE, Canvas API and More! - 2/2/2026, 2:33:39 PM</title>
+      <link>https://tv.dyne.org/w/hU9gPLwU6m541nu24vXQD8</link>
+      <guid>https://tv.dyne.org/w/hU9gPLwU6m541nu24vXQD8</guid>
+      <description><![CDATA[<div id="content"><a href="https://tv.dyne.org/w/hU9gPLwU6m541nu24vXQD8">peertube</a><br><br>https://codeberg.org/divyaranjan/emacs-reader/ If you have no idea what I'm doing here, please watch the first introductory stream of the series: https://tv.dyne.org/w/8W8o4fWz94bMYVMUWExkX7 Operat...</div>]]></description>
+      <pubDate>Mon, 02 Feb 2026 15:46:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>[17] Emacs Reader:  Cursors, PALE, Canvas API and More! - 2/2/2026, 2:26:28 PM</title>
+      <link>https://tv.dyne.org/w/f4py2PspoRFjUQTJgfYEwJ</link>
+      <guid>https://tv.dyne.org/w/f4py2PspoRFjUQTJgfYEwJ</guid>
+      <description><![CDATA[<div id="content"><a href="https://tv.dyne.org/w/f4py2PspoRFjUQTJgfYEwJ">peertube</a><br><br>https://codeberg.org/divyaranjan/emacs-reader/ If you have no idea what I'm doing here, please watch the first introductory stream of the series: https://tv.dyne.org/w/8W8o4fWz94bMYVMUWExkX7 Operat...</div>]]></description>
+      <pubDate>Mon, 02 Feb 2026 14:38:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>Recursion and Quitting in Emacs</title>
+      <link>https://www.youtube.com/watch?v=WgNfGHAJsUQ</link>
+      <guid>https://www.youtube.com/watch?v=WgNfGHAJsUQ</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=WgNfGHAJsUQ">youtube</a><br><br>https://github.com/emacselements
+  https://emacselements.com/</div>]]></description>
+      <pubDate>Sun, 01 Feb 2026 22:00:37 +0000</pubDate><category>RecursiveEditing</category>
+    </item>
+    <item>
+      <title>Use Batch Mode to Test Your Dot Emacs File</title>
+      <link>https://www.youtube.com/watch?v=qZqUmqqatKs</link>
+      <guid>https://www.youtube.com/watch?v=qZqUmqqatKs</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=qZqUmqqatKs">youtube</a><br><br>Batch mode is a lesser known mode that can be used to test one's init.el
+  emacs -batch -l ~/.emacs.d/init.el
+
+  https://github.com/emacselements
+  https://emacselements.com/</div>]]></description>
+      <pubDate>Wed, 28 Jan 2026 22:01:02 +0000</pubDate>
+    </item>
+    <item>
+      <title>023 Ollama Buddy - Accessing cloud models! #emacs #ollama</title>
+      <link>https://www.youtube.com/watch?v=QsWpVF8yDbQ</link>
+      <guid>https://www.youtube.com/watch?v=QsWpVF8yDbQ</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=QsWpVF8yDbQ">youtube</a><br><br>Demonstrating the Emacs package ollama-buddy, providing a convenient way to integrate Ollama's local LLM capabilities.
+
+  Note: that the user has to be already signed in to ollama.com so the authentication is set up through ollama running locally
+
+  switch to *minimax-m2.1:cloud using the universal argument
+
+  type in some text
+
+  lets see a response!
+
+  switch to gpt-oss:120b-cloud using the transient menu
+
+  type in some text
+
+  lets see a response!
+
+  https://melpa.org/#/ollama-buddy
+  https://github.com/captainflasmr/ollama-buddy
+
+  ,#emacs #ollama</div>]]></description>
+      <pubDate>Wed, 28 Jan 2026 08:24:50 +0000</pubDate><category>ai</category>
+<category>ollama</category>
+    </item>
+    <item>
+      <title>Sorting Lines by Fields in Emacs</title>
+      <link>https://www.youtube.com/watch?v=rSom7XjUa-o</link>
+      <guid>https://www.youtube.com/watch?v=rSom7XjUa-o</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=rSom7XjUa-o">youtube</a><br><br>How to sort lines by fields in Emacs.
+
+  https://github.com/emacselements
+  https://emacselements.com/</div>]]></description>
+      <pubDate>Wed, 28 Jan 2026 03:04:14 +0000</pubDate><category>sorting</category>
+    </item>
+    <item>
+      <title>ECA: AI pair programming in your editor - Dallo</title>
+      <link>https://www.youtube.com/watch?v=4NszXTVpwmU</link>
+      <guid>https://www.youtube.com/watch?v=4NszXTVpwmU</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=4NszXTVpwmU">youtube</a><br><br>ECA is an AI pair programmer that bridges the gap between modern editors and a variety of LLMs — from commercial APIs to local models or even your company's API - completely free of vendor lock — with native integration for VSCode, IntelliJ, Vim, and Emacs.
+
+  In this session, discover how its Clojure architecture powers a dynamic customizable agentic loop within a fully transparent and open framework.
+  This unique design empowers users to customize its behavior right down to the prompts, ensuring control and transparency over the AI's operation.
+
+  Biography
+
+  Maintainer of clojure-lsp, lsp-mode, ECA, metrepl, jet.el, and other tool-related OSS projects. Engineer at Nubank helping improve developers' tooling XP
+
+  Recorded Nov 13, 2025 at Clojure/Conj 2025 in Charlotte, NC.</div>]]></description>
+      <pubDate>Tue, 27 Jan 2026 15:51:37 +0000</pubDate><category>ai</category>
+<category>eca</category>
+    </item>
+    <item>
       <title>Developing yet another way to do research in Emacs - fool&apos;s errand?</title>
       <link>https://www.youtube.com/watch?v=TqVIAVTzQmY</link>
       <guid>https://www.youtube.com/watch?v=TqVIAVTzQmY</guid>
@@ -599,91 +686,6 @@
       <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=IH5eOSNDE34">youtube</a><br><br>https://github.com/emacselements
   https://emacselements.com/</div>]]></description>
       <pubDate>Sat, 27 Dec 2025 12:09:00 +0000</pubDate><category>navigation</category>
-    </item>
-    <item>
-      <title>The Evil-nerd-commenter Package for Emacs</title>
-      <link>https://www.youtube.com/watch?v=JO9CI7QfipM</link>
-      <guid>https://www.youtube.com/watch?v=JO9CI7QfipM</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=JO9CI7QfipM">youtube</a><br><br>Use the package evil-nerd-commenter to comment and uncomment lines in Emacs more easily. One doesn't need to use evil-mode for this to work.
-
-  Install evil-nerd-commenter, then add this code to your init.el file.
-  ;; evil-nerd-commenter (you don't need to use evil-mode to use this)
-  (evilnc-default-hotkeys) ()
-  (defun matlab-mode-hook-config ()
-    (local-set-key (kbd "M-;") 'evilnc-comment-or-uncomment-lines))
-
-  https://github.com/emacselements
-  https://emacselements.com/</div>]]></description>
-      <pubDate>Sat, 27 Dec 2025 11:51:42 +0000</pubDate><category>coding</category>
-    </item>
-    <item>
-      <title>The Essentials of Emacs Recentf</title>
-      <link>https://www.youtube.com/watch?v=aSwBn3ddAMQ</link>
-      <guid>https://www.youtube.com/watch?v=aSwBn3ddAMQ</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=aSwBn3ddAMQ">youtube</a><br><br>https://github.com/emacselements
-  https://emacselements.com/</div>]]></description>
-      <pubDate>Sat, 20 Dec 2025 20:09:27 +0000</pubDate>
-    </item>
-    <item>
-      <title>Essentials of Emacs Bookmarks</title>
-      <link>https://www.youtube.com/watch?v=VpNA44jzf1o</link>
-      <guid>https://www.youtube.com/watch?v=VpNA44jzf1o</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=VpNA44jzf1o">youtube</a><br><br>https://github.com/emacselements
-  https://emacselements.com/</div>]]></description>
-      <pubDate>Sat, 20 Dec 2025 20:09:16 +0000</pubDate>
-    </item>
-    <item>
-      <title>fzf, magit, and ast-grep demo</title>
-      <link>https://www.youtube.com/watch?v=W4eOz3L6Ga8</link>
-      <guid>https://www.youtube.com/watch?v=W4eOz3L6Ga8</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=W4eOz3L6Ga8">youtube</a><br><br>Work demo of misc tools:
-
-  - fzf shell history completion
-  - Emacs Magit interactive rebase usage
-  - ast-grep syntactical search uses cases
-
-  Sorry for the bad resolution. I don't know how to youtube.</div>]]></description>
-      <pubDate>Sat, 20 Dec 2025 05:01:21 +0000</pubDate>
-    </item>
-    <item>
-      <title>Emacs PDF Processing Workflow with Org Attach and Org Noter</title>
-      <link>https://www.youtube.com/watch?v=95WUVP10GG4</link>
-      <guid>https://www.youtube.com/watch?v=95WUVP10GG4</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=95WUVP10GG4">youtube</a><br><br>Related article:
-  https://bardman.dev/technology/emacs-pdf</div>]]></description>
-      <pubDate>Sat, 20 Dec 2025 02:33:06 +0000</pubDate>
-    </item>
-    <item>
-      <title>Emacs Notmuch with Multiple Addresses &amp; Auto Encryption</title>
-      <link>https://www.youtube.com/watch?v=P42C5wEQK-Y</link>
-      <guid>https://www.youtube.com/watch?v=P42C5wEQK-Y</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=P42C5wEQK-Y">youtube</a><br><br>This guide provides a quick setup for configuring Notmuch with GNU Emacs to handle multiple email addresses and enable automatic encryption.
-
-  Notmuch has been incredibly useful for me over the past year, and I hope this guide helps new users overcome initial challenges.
-
-
-  Video notes: https://thanosapollo.org/posts/emacs-notmuch-video-guide/</div>]]></description>
-      <pubDate>Thu, 18 Dec 2025 20:50:49 +0000</pubDate>
-    </item>
-    <item>
-      <title>EmacsConf 2025 Q&amp;A: Common Lisp images communicating like-a-human through shared Emacs slime and eev</title>
-      <link>https://www.youtube.com/watch?v=GGpKmWu54K4</link>
-      <guid>https://www.youtube.com/watch?v=GGpKmWu54K4</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=GGpKmWu54K4">youtube</a><br><br>screwlisp (he/him, they/them)
-
-  This is the Q&A for the talk at https://youtu.be/hy5i6Qb6fYE .
-
-  00:00 Opening
-  02:08 Q: What do you mean by "the agent is running slowly"?
-  03:00 Q: Do you think that it would be too hard to add a second way to send commands from Common Lisp to Emacs?
-  06:37 Q: What is the leonardo system?
-  09:27 Q: What is LambdaMOO, and how do we use it?
-  11:01 Q: It seems like you're trying to build a more restrictive Turing test using the input / output logs of an emacs conversation. Is that accurate?
-  15:52 Q: What do you mean by slowly?
-
-  You can view this and other resources using free/libre software at https://emacsconf.org/2025/talks/commonlisp .
-  This video is available under the terms of the Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license.</div>]]></description>
-      <pubDate>Thu, 18 Dec 2025 03:04:02 +0000</pubDate>
     </item>
   </channel>
 </rss>

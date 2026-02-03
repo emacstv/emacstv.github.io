@@ -1,5 +1,73 @@
 [
   {
+    "ITEM": "[17] Emacs Reader:  Cursors, PALE, Canvas API and More! - 2/2/2026, 2:33:39 PM",
+    "DATE": "2026-02-02T15:46:08.426Z",
+    "DURATION": "1:07:37",
+    "PEERTUBE_URL": "https://tv.dyne.org/w/hU9gPLwU6m541nu24vXQD8",
+    "BODY": "https://codeberg.org/divyaranjan/emacs-reader/ If you have no idea what I'm doing here, please watch the first introductory stream of the series: https://tv.dyne.org/w/8W8o4fWz94bMYVMUWExkX7 Operat..."
+  },
+  {
+    "ITEM": "[17] Emacs Reader:  Cursors, PALE, Canvas API and More! - 2/2/2026, 2:26:28 PM",
+    "DATE": "2026-02-02T14:38:09.555Z",
+    "DURATION": "6:48",
+    "PEERTUBE_URL": "https://tv.dyne.org/w/f4py2PspoRFjUQTJgfYEwJ",
+    "BODY": "https://codeberg.org/divyaranjan/emacs-reader/ If you have no idea what I'm doing here, please watch the first introductory stream of the series: https://tv.dyne.org/w/8W8o4fWz94bMYVMUWExkX7 Operat..."
+  },
+  {
+    "ITEM": "Recursion and Quitting in Emacs",
+    "DATE": "2026-02-01T14:00:37-08:00",
+    "DURATION": "7:05",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=WgNfGHAJsUQ",
+    "SPEAKERS": "Emacs Elements",
+    "TAGS": [
+      "RecursiveEditing"
+    ],
+    "BODY": "https://github.com/emacselements\n  https://emacselements.com/"
+  },
+  {
+    "ITEM": "Use Batch Mode to Test Your Dot Emacs File",
+    "DATE": "2026-01-28T14:01:02-08:00",
+    "DURATION": "2:35",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=qZqUmqqatKs",
+    "SPEAKERS": "Emacs Elements",
+    "BODY": "Batch mode is a lesser known mode that can be used to test one's init.el\n  emacs -batch -l ~/.emacs.d/init.el\n\n  https://github.com/emacselements\n  https://emacselements.com/"
+  },
+  {
+    "ITEM": "023 Ollama Buddy - Accessing cloud models! #emacs #ollama",
+    "DATE": "2026-01-28T00:24:50-08:00",
+    "DURATION": "1:04",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=QsWpVF8yDbQ",
+    "SPEAKERS": "Ollama Buddy for Emacs",
+    "TAGS": [
+      "ai",
+      "ollama"
+    ],
+    "BODY": "Demonstrating the Emacs package ollama-buddy, providing a convenient way to integrate Ollama's local LLM capabilities.\n\n  Note: that the user has to be already signed in to ollama.com so the authentication is set up through ollama running locally\n\n  switch to *minimax-m2.1:cloud using the universal argument\n\n  type in some text\n\n  lets see a response!\n\n  switch to gpt-oss:120b-cloud using the transient menu\n\n  type in some text\n\n  lets see a response!\n\n  https://melpa.org/#/ollama-buddy\n  https://github.com/captainflasmr/ollama-buddy\n\n  ,#emacs #ollama"
+  },
+  {
+    "ITEM": "Sorting Lines by Fields in Emacs",
+    "DATE": "2026-01-27T19:04:14-08:00",
+    "DURATION": "2:57",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=rSom7XjUa-o",
+    "SPEAKERS": "Emacs Elements",
+    "TAGS": [
+      "sorting"
+    ],
+    "BODY": "How to sort lines by fields in Emacs.\n\n  https://github.com/emacselements\n  https://emacselements.com/"
+  },
+  {
+    "ITEM": "ECA: AI pair programming in your editor - Dallo",
+    "DATE": "2026-01-27T07:51:37-08:00",
+    "DURATION": "32:33",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=4NszXTVpwmU",
+    "SPEAKERS": "ClojureTV",
+    "TAGS": [
+      "ai",
+      "eca"
+    ],
+    "BODY": "ECA is an AI pair programmer that bridges the gap between modern editors and a variety of LLMs — from commercial APIs to local models or even your company's API - completely free of vendor lock — with native integration for VSCode, IntelliJ, Vim, and Emacs.\n\n  In this session, discover how its Clojure architecture powers a dynamic customizable agentic loop within a fully transparent and open framework.\n  This unique design empowers users to customize its behavior right down to the prompts, ensuring control and transparency over the AI's operation.\n\n  Biography\n\n  Maintainer of clojure-lsp, lsp-mode, ECA, metrepl, jet.el, and other tool-related OSS projects. Engineer at Nubank helping improve developers' tooling XP\n\n  Recorded Nov 13, 2025 at Clojure/Conj 2025 in Charlotte, NC."
+  },
+  {
     "ITEM": "Developing yet another way to do research in Emacs - fool's errand?",
     "DATE": "2026-01-25T10:43:22-08:00",
     "DURATION": "13:34",
