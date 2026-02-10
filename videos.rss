@@ -6,6 +6,101 @@
     <atom:link href="https://emacs.tv/videos.rss" rel="self" type="application/rss+xml" />
     <description>Emacs videos</description>
     <item>
+      <title>Insert Special Characters into Emacs</title>
+      <link>https://www.youtube.com/watch?v=OSCtS4sspPM</link>
+      <guid>https://www.youtube.com/watch?v=OSCtS4sspPM</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=OSCtS4sspPM">youtube</a><br><br>How to insert special characters like accents and EM DASHES into Emacs.
+
+  If you like my content, you can support me
+  by sending me a donation via PayPal:
+
+  https://paypal.me/revrari
+
+  https://github.com/emacselements
+  https://emacselements.com/</div>]]></description>
+      <pubDate>Mon, 09 Feb 2026 08:44:23 +0000</pubDate>
+    </item>
+    <item>
+      <title>Lightning Talk: Common Lisp packages in Emacs Lisp</title>
+      <link>https://www.youtube.com/watch?v=nuRPddpLOxE</link>
+      <guid>https://www.youtube.com/watch?v=nuRPddpLOxE</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=nuRPddpLOxE">youtube</a><br><br>Broadcast live for ELS 2025 at https://twitch.tv/elsconf
+  More information about ELS can be found on our website at https://european-lisp-symposium.org
+
+  Proceedings: https://www.european-lisp-symposium.org/static/proceedings/2025.pdf</div>]]></description>
+      <pubDate>Fri, 06 Feb 2026 20:54:32 +0000</pubDate><category>elisp</category>
+    </item>
+    <item>
+      <title>Lightning Talk: Skewed Emacs</title>
+      <link>https://www.youtube.com/watch?v=br5zNL_reC4</link>
+      <guid>https://www.youtube.com/watch?v=br5zNL_reC4</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=br5zNL_reC4">youtube</a><br><br>Broadcast live for ELS 2025 at https://twitch.tv/elsconf
+  More information about ELS can be found on our website at https://european-lisp-symposium.org
+
+  Speakers: Dave Cooper
+  Proceedings: https://www.european-lisp-symposium.org/static/proceedings/2025.pdf</div>]]></description>
+      <pubDate>Fri, 06 Feb 2026 20:54:30 +0000</pubDate><category>configuration</category>
+    </item>
+    <item>
+      <title>Lightning Talk: Emacs Lisp Rabbit Holes</title>
+      <link>https://www.youtube.com/watch?v=1SZQjdmTIXs</link>
+      <guid>https://www.youtube.com/watch?v=1SZQjdmTIXs</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=1SZQjdmTIXs">youtube</a><br><br>Broadcast live for ELS 2025 at https://twitch.tv/elsconf
+  More information about ELS can be found on our website at https://european-lisp-symposium.org
+
+  Speaker: Marco Antoniotti
+  Proceedings: https://www.european-lisp-symposium.org/static/proceedings/2025.pdf</div>]]></description>
+      <pubDate>Fri, 06 Feb 2026 20:54:28 +0000</pubDate><category>elisp</category>
+    </item>
+    <item>
+      <title>Contributing to Git Projects with Magit: PRs, Patches &amp; Agit workflow</title>
+      <link>https://www.youtube.com/watch?v=qSHw7D_88-0</link>
+      <guid>https://www.youtube.com/watch?v=qSHw7D_88-0</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=qSHw7D_88-0">youtube</a><br><br>Quick and simple video on contributing to Git projects using Magit, a GNU Emacs interface for git.
+
+  Video notes:
+  https://thanosapollo.org/posts/video-contributing-with-git-guide/</div>]]></description>
+      <pubDate>Fri, 06 Feb 2026 06:37:02 +0000</pubDate><category>magit</category>
+    </item>
+    <item>
+      <title>declarative, reproducible emacs (the right paradigm) – how to</title>
+      <link>https://www.youtube.com/watch?v=DnCkMpBkDp4</link>
+      <guid>https://www.youtube.com/watch?v=DnCkMpBkDp4</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=DnCkMpBkDp4">youtube</a><br><br>In this video I discuss my theory behind creating a declarative, reproducible Emacs configuration. What does it mean, why should we do it, and what tools do we have? I finish with a brief tour of a simple configuration. For full technical details, see the blogpost: https://jakebox.github.io/posts/2026-02-05-declarative_reproducible.html</div>]]></description>
+      <pubDate>Fri, 06 Feb 2026 04:03:29 +0000</pubDate><category>configuration</category>
+    </item>
+    <item>
+      <title>Two Neat Emacs Packages: Bufferfile and Stripspace #rename #whitespace</title>
+      <link>https://www.youtube.com/watch?v=8I8ywyX-03E</link>
+      <guid>https://www.youtube.com/watch?v=8I8ywyX-03E</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=8I8ywyX-03E">youtube</a><br><br>https://github.com/jamescherti
+
+  https://github.com/emacselements
+  https://emacselements.com/
+
+  If you like my content, you can support me
+  by sending me a donation via PayPal:
+
+  https://paypal.me/revrari</div>]]></description>
+      <pubDate>Wed, 04 Feb 2026 12:34:38 +0000</pubDate><category>bufferfile</category>
+<category>stripspace</category>
+    </item>
+    <item>
+      <title>Symlinks and Hardlinks in Linux and Emacs</title>
+      <link>https://www.youtube.com/watch?v=aJOq9F-vJMc</link>
+      <guid>https://www.youtube.com/watch?v=aJOq9F-vJMc</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=aJOq9F-vJMc">youtube</a><br><br>How to create symlinks and hardlinks in Linux and Emacs.
+
+  https://github.com/emacselements
+  https://emacselements.com/
+
+  If you like my content, you can support me
+  by sending me a donation via PayPal:
+
+  https://paypal.me/revrari</div>]]></description>
+      <pubDate>Wed, 04 Feb 2026 12:01:04 +0000</pubDate><category>dired</category>
+    </item>
+    <item>
       <title>[17] Emacs Reader:  Cursors, PALE, Canvas API and More! - 2/2/2026, 2:33:39 PM</title>
       <link>https://tv.dyne.org/w/hU9gPLwU6m541nu24vXQD8</link>
       <guid>https://tv.dyne.org/w/hU9gPLwU6m541nu24vXQD8</guid>
@@ -18,6 +113,34 @@
       <guid>https://tv.dyne.org/w/f4py2PspoRFjUQTJgfYEwJ</guid>
       <description><![CDATA[<div id="content"><a href="https://tv.dyne.org/w/f4py2PspoRFjUQTJgfYEwJ">peertube</a><br><br>https://codeberg.org/divyaranjan/emacs-reader/ If you have no idea what I'm doing here, please watch the first introductory stream of the series: https://tv.dyne.org/w/8W8o4fWz94bMYVMUWExkX7 Operat...</div>]]></description>
       <pubDate>Mon, 02 Feb 2026 14:38:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>Emacs RSS Reader with Online Sync</title>
+      <link>https://www.youtube.com/watch?v=Nos24tNSKco</link>
+      <guid>https://www.youtube.com/watch?v=Nos24tNSKco</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=Nos24tNSKco">youtube</a><br><br>,#emacs #rss #claudecode
+
+  I used Claude to help build the Emacs RSS reader I've been looking for.
+
+  ,## Links
+
+  - Feedsmith on GitHub: https://github.com/curtismchale/feedsmith
+  - Read the full post with links: https://curtismchale.ca/?p=29090
+
+  ,## Courses
+
+  - SkillShare TickTick Course: https://skl.sh/2ExpXVv
+  - SkillShare Timeblocking Course: https://skl.sh/38MQzz8
+  - SkillShare Zettelkasten Course: https://skl.sh/3rntNDW
+  - Getting Started with Obsidian Course: https://skl.sh/2Y6DUDM
+
+  ,## My Gear
+
+  - My gear: https://curtismchale.ca/my-gear
+  - Patreon: https://patreon.com/curtismchale
+  - Music: https://www.epidemicsound.com/referral/blhmqa/
+  - Streaming with: https://www.ecamm.com/mac/ecammlive/?fp_ref=curtis42</div>]]></description>
+      <pubDate>Mon, 02 Feb 2026 19:51:08 +0000</pubDate><category>rss</category>
     </item>
     <item>
       <title>Recursion and Quitting in Emacs</title>
@@ -497,195 +620,6 @@
 
   ,#emacs #linux #dependencies #devtools #sysadmin #ubuntu #debian #fedora #macos</div>]]></description>
       <pubDate>Wed, 07 Jan 2026 08:37:00 +0000</pubDate><category>build</category>
-    </item>
-    <item>
-      <title>Why Emacs in 2026? 10+ Powerful Reasons Developers Still Swear By It</title>
-      <link>https://www.youtube.com/watch?v=hndvNH-uEAg</link>
-      <guid>https://www.youtube.com/watch?v=hndvNH-uEAg</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=hndvNH-uEAg">youtube</a><br><br>Emacs looks old—but it’s ridiculously powerful. In this video, I break down why Emacs is still a top choice for serious developers and power users.
-
-  You’ll learn:
-  - How Emacs can replace half your tools (editor, terminal, email, notes, org-mode, etc.)
-  - Why Emacs beats many modern editors for automation and customization
-  - The “Emacs as an OS” mindset and what it unlocks
-  - How Emacs grows with you instead of locking you into a plugin marketplace
-
-  Next steps in the series:
-  ▶️ Install or Build From Source - https://youtu.be/xFfgGps6k-0
-  ▶️ Download Emacs from Source - https://youtu.be/VgSm1NtgXlg
-
-  *Hashtags*
-  ,#emacs #vim #vscode #developers #productivity #orgmode #programming #linux #editorwar</div>]]></description>
-      <pubDate>Wed, 07 Jan 2026 08:33:11 +0000</pubDate><category>why</category>
-    </item>
-    <item>
-      <title>Bending Emacs Episode 09: Time around the world</title>
-      <link>https://youtu.be/jY5lx2gHjNA</link>
-      <guid>https://youtu.be/jY5lx2gHjNA</guid>
-      <description><![CDATA[<div id="content"><a href="https://youtu.be/jY5lx2gHjNA">youtube</a><br><br>It's fairly common these days to organize an event or meeting with attendees around world, so we'll show a couple of ways to check times here and there.</div>]]></description>
-      <pubDate>Tue, 06 Jan 2026 19:44:27 +0000</pubDate><category>time</category>
-    </item>
-    <item>
-      <title>Create Directories in Emacs Dired (Tips)</title>
-      <link>https://www.youtube.com/watch?v=_49ZR9hU1js</link>
-      <guid>https://www.youtube.com/watch?v=_49ZR9hU1js</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=_49ZR9hU1js">youtube</a><br><br>https://github.com/emacselements
-  https://emacselements.com/</div>]]></description>
-      <pubDate>Tue, 06 Jan 2026 14:15:24 +0000</pubDate><category>dired</category>
-    </item>
-    <item>
-      <title>3 Minute Guide to Emacs Autoinsert Mode #coding #programming #org</title>
-      <link>https://www.youtube.com/watch?v=2jBMd9n5n5k</link>
-      <guid>https://www.youtube.com/watch?v=2jBMd9n5n5k</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=2jBMd9n5n5k">youtube</a><br><br>A short, practical look at Emacs auto-insert-mode—how to automatically insert templates when creating new files, with quick examples for Org files and shell scripts.
-
-  Two examples:
-
-  (define-auto-insert "\\.org\\'"
-    (lambda ()
-      (let ((title (read-string "Enter title: ")))
-        (insert "#+title: " title "\n"
-                "#+OPTIONS: \\n:t\n"
-                "#+STARTUP: showall\n"
-                "#+DATE: Created on " (format-time-string "%-d %B %Y @%H:%M") "\n\n")
-        (newline)
-        (goto-char (point-max)))))
-
-  (define-auto-insert "\\.sh\\'"
-    (lambda ()
-      (insert "#!/bin/bash\n\n"
-              "# Description: \n"
-              "# Author: \n"
-              "# Date: " (format-time-string "%Y-%m-%d") "\n\n"
-              "# Add your script code here\n")
-      (search-forward "Description: ")
-      (forward-word)
-      (forward-char)))
-
-  https://github.com/emacselements
-  https://emacselements.com/</div>]]></description>
-      <pubDate>Mon, 05 Jan 2026 04:23:35 +0000</pubDate><category>autoinsert</category>
-<category>org</category>
-    </item>
-    <item>
-      <title>Integrating IRB (Ruby REPL) into Emacs</title>
-      <link>https://www.youtube.com/watch?v=tzTJOKwRDzI</link>
-      <guid>https://www.youtube.com/watch?v=tzTJOKwRDzI</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=tzTJOKwRDzI">youtube</a><br><br>From 1961 to Today: The Evolution of Live Coding in Emacs with Ruby (irb)
-
-      1961: The first text editors emerge.
-      1964: The REPL (Read-Eval-Print Loop) is born, revolutionizing interactive programming.
-      1968: REPL meets the structure editor; code editing becomes interactive and structured.
-      1977: DEdit splits the structure editor into a separate window, paving the way for modern IDE workflows.
-      1990s (or earlier): REPLs begin integrating with Emacs through stdin/stdout/stderr; ushering in a new era of developer tooling.
-
-  Fast forward to today: Emacs can now connect directly to Ruby’s irb, giving you the best of both worlds:
-
-  ✨ Live, stateful programming: Run and edit your Ruby code interactively while preserving the full execution state; just like in a native irb session.
-  💾 Full editor capabilities: Save, load, and version-control your code with Git, just like any regular text file.
-  ⚡ Instant feedback: Modify code in the editor, then evaluate only the changed portion; no restart needed. Keep your program running and evolve it in real time.
-
-  This powerful workflow blends the timeless elegance of Emacs with the dynamic interactivity of Ruby; bringing decades of programming evolution full circle.</div>]]></description>
-      <pubDate>Sun, 04 Jan 2026 12:32:53 +0000</pubDate><category>ruby</category>
-<category>irb</category>
-<category>coding</category>
-    </item>
-    <item>
-      <title>Zellij Revisited: Crafting Project Layouts - System Crafters Live!</title>
-      <link>https://www.youtube.com/watch?v=VjgmRJjwLe0</link>
-      <guid>https://www.youtube.com/watch?v=VjgmRJjwLe0</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=VjgmRJjwLe0">youtube</a><br><br>In this stream, we'll revisit Zellij and explore how to craft custom layouts that automatically set up project-specific workspaces: launching the right programs in the right tabs and panes with a single command.
-
-  We'll also look at how Zellij fits into an Emacs-based workflow and discover new use cases together!
-
-  ,#emacs #zellij #tmux #terminal #linux
-
-  SUPPORT THE CHANNEL:
-
-  👍 Support My Work: https://systemcrafters.net/how-to-help/#support-my-work
-  📰 Subscribe to the Newsletter: https://systemcrafters.net/newsletter/
-  👕 Check out the Store: https://systemcrafters.store
-  📘 Get Your Copy of Mastering Emacs: https://www.masteringemacs.org/r/systemcrafters?utm_source=yt&utm_medium=desc&utm_campaign=scme
-
-  SHOW NOTES:
-
-  https://systemcrafters.net/live-streams/january-2-2026/
-
-  JOIN THE COMMUNITY:
-
-  https://systemcrafters.net/community/ (Forum and IRC chat!)
-  https://fosstodon.org/@daviwil
-
-  MY CONFIGURATION:
-
-  (This site is currently down but will be back up soon!)
-
-  https://config.daviwil.com
-  https://config.daviwil.com/emacs
-  https://config.daviwil.com/systems (Guix)
-
-  OTHER SERIES:
-
-  - Emacs Essentials: https://www.youtube.com/watch?v=48JlgiBpw_I&list=PLEoMzSkcN8oPZvSdewHG8uApD7THlLLCV
-  - Emacs From Scratch: https://www.youtube.com/watch?v=74zOY-vgkyw&list=PLEoMzSkcN8oPH1au7H6B7bBJ4ZO7BXjSZ
-  - Emacs Tips: https://www.youtube.com/watch?v=wKTKmE1wLyw&list=PLEoMzSkcN8oMHJ6Xil1YdnYtlWd5hHZql
-  - Emacs Desktop Environment: https://www.youtube.com/watch?v=f7xB2fFk1tQ&list=PLEoMzSkcN8oNPbEMYEtswOVTvq7CVddCS
-  - Emacs IDE: https://www.youtube.com/watch?v=E-NAM9U5JYE&list=PLEoMzSkcN8oNvsrtk_iZSb94krGRofFjN
-  - Emacs Mail: https://www.youtube.com/watch?v=yZRyEhi4y44&list=PLEoMzSkcN8oM-kA19xOQc8s0gr0PpFGJQ
-  - Learning Emacs Lisp: https://www.youtube.com/watch?v=RQK_DaaX34Q&list=PLEoMzSkcN8oPQtn7FQEF3D7sroZbXuPZ7
-  - Craft Your System with GNU Guix: https://www.youtube.com/watch?v=iBaqOK75cho&list=PLEoMzSkcN8oNxnj7jm5V2ZcGc52002pQU
-
-  CREDITS:
-
-  Coriolis Effect by logos feat. stefsax, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/mseq/26296
-  reNovation by airtone, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/airtone/60674
-  ukeSounds by airtone, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/airtone/32655
-  Between Worlds (Instrumental) by Aussens@iter, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/tobias_weber/56664</div>]]></description>
-      <pubDate>Sat, 03 Jan 2026 06:10:56 +0000</pubDate><category>coding</category>
-    </item>
-    <item>
-      <title>dictd: offline dictionaries (linux full setup + usage in terminal &amp; emacs)</title>
-      <link>https://www.youtube.com/watch?v=OboEULFHDnU</link>
-      <guid>https://www.youtube.com/watch?v=OboEULFHDnU</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=OboEULFHDnU">youtube</a><br><br>https://nic-olas.me
-
-  links:
-  git repo: https://github.com/cheusov/dictd
-  freedict dictionaries: https://freedict.org/downloads/
-  gcide dictionary: https://packages.debian.org/trixie/dict-gcide
-  for openrc service: https://gitweb.gentoo.org/repo/gentoo.git/tree/app-text/dictd
-
-  timestamps:
-  00:00: introduction
-  02:31: compilation
-  04:37: installation
-  05:48: openrc service setup
-  14:20: getting dictionaries from freedict
-  17:15: getting other dictionaries
-  21:40: restarting the dictd service
-  22:29: usage from the shell
-  27:00: usage from emacs
-  31:13: conclusion</div>]]></description>
-      <pubDate>Fri, 02 Jan 2026 19:04:21 +0000</pubDate><category>writing</category>
-<category>dictd</category>
-    </item>
-    <item>
-      <title>Polymode: Enhancing Code Blocks in Org &amp; Markdown in Emacs</title>
-      <link>https://www.youtube.com/watch?v=FxF5gSTINtY</link>
-      <guid>https://www.youtube.com/watch?v=FxF5gSTINtY</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=FxF5gSTINtY">youtube</a><br><br>https://github.com/polymode/polymode
-  https://github.com/emacselements
-  https://emacselements.com/</div>]]></description>
-      <pubDate>Mon, 29 Dec 2025 07:31:09 +0000</pubDate><category>org</category>
-<category>polymode</category>
-    </item>
-    <item>
-      <title>The Built-in Emacs Subword-mode for Navigating CamelCaseWords</title>
-      <link>https://www.youtube.com/watch?v=IH5eOSNDE34</link>
-      <guid>https://www.youtube.com/watch?v=IH5eOSNDE34</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=IH5eOSNDE34">youtube</a><br><br>https://github.com/emacselements
-  https://emacselements.com/</div>]]></description>
-      <pubDate>Sat, 27 Dec 2025 12:09:00 +0000</pubDate><category>navigation</category>
     </item>
   </channel>
 </rss>

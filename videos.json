@@ -1,5 +1,91 @@
 [
   {
+    "ITEM": "Insert Special Characters into Emacs",
+    "DATE": "2026-02-09T00:44:23-08:00",
+    "DURATION": "2:21",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=OSCtS4sspPM",
+    "SPEAKERS": "Emacs Elements",
+    "BODY": "How to insert special characters like accents and EM DASHES into Emacs.\n\n  If you like my content, you can support me\n  by sending me a donation via PayPal:\n\n  https://paypal.me/revrari\n\n  https://github.com/emacselements\n  https://emacselements.com/"
+  },
+  {
+    "ITEM": "Lightning Talk: Common Lisp packages in Emacs Lisp",
+    "DATE": "2026-02-06T12:54:32-08:00",
+    "DURATION": "4:22",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=nuRPddpLOxE",
+    "SPEAKERS": "European Lisp Symposium",
+    "TAGS": [
+      "elisp"
+    ],
+    "BODY": "Broadcast live for ELS 2025 at https://twitch.tv/elsconf\n  More information about ELS can be found on our website at https://european-lisp-symposium.org\n\n  Proceedings: https://www.european-lisp-symposium.org/static/proceedings/2025.pdf"
+  },
+  {
+    "ITEM": "Lightning Talk: Skewed Emacs",
+    "DATE": "2026-02-06T12:54:30-08:00",
+    "DURATION": "4:47",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=br5zNL_reC4",
+    "SPEAKERS": "European Lisp Symposium",
+    "TAGS": [
+      "configuration"
+    ],
+    "BODY": "Broadcast live for ELS 2025 at https://twitch.tv/elsconf\n  More information about ELS can be found on our website at https://european-lisp-symposium.org\n\n  Speakers: Dave Cooper\n  Proceedings: https://www.european-lisp-symposium.org/static/proceedings/2025.pdf"
+  },
+  {
+    "ITEM": "Lightning Talk: Emacs Lisp Rabbit Holes",
+    "DATE": "2026-02-06T12:54:28-08:00",
+    "DURATION": "4:02",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=1SZQjdmTIXs",
+    "SPEAKERS": "European Lisp Symposium",
+    "TAGS": [
+      "elisp"
+    ],
+    "BODY": "Broadcast live for ELS 2025 at https://twitch.tv/elsconf\n  More information about ELS can be found on our website at https://european-lisp-symposium.org\n\n  Speaker: Marco Antoniotti\n  Proceedings: https://www.european-lisp-symposium.org/static/proceedings/2025.pdf"
+  },
+  {
+    "ITEM": "Contributing to Git Projects with Magit: PRs, Patches & Agit workflow",
+    "DATE": "2026-02-05T22:37:02-08:00",
+    "DURATION": "8:00",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=qSHw7D_88-0",
+    "SPEAKERS": "Thanos Apollo",
+    "TAGS": [
+      "magit"
+    ],
+    "BODY": "Quick and simple video on contributing to Git projects using Magit, a GNU Emacs interface for git.\n\n  Video notes:\n  https://thanosapollo.org/posts/video-contributing-with-git-guide/"
+  },
+  {
+    "ITEM": "declarative, reproducible emacs (the right paradigm) – how to",
+    "DATE": "2026-02-05T20:03:29-08:00",
+    "DURATION": "8:23",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=DnCkMpBkDp4",
+    "SPEAKERS": "Jake B",
+    "TAGS": [
+      "configuration"
+    ],
+    "BODY": "In this video I discuss my theory behind creating a declarative, reproducible Emacs configuration. What does it mean, why should we do it, and what tools do we have? I finish with a brief tour of a simple configuration. For full technical details, see the blogpost: https://jakebox.github.io/posts/2026-02-05-declarative_reproducible.html"
+  },
+  {
+    "ITEM": "Two Neat Emacs Packages: Bufferfile and Stripspace #rename #whitespace",
+    "DATE": "2026-02-04T04:34:38-08:00",
+    "DURATION": "2:53",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=8I8ywyX-03E",
+    "SPEAKERS": "Emacs Elements",
+    "TAGS": [
+      "bufferfile",
+      "stripspace"
+    ],
+    "BODY": "https://github.com/jamescherti\n\n  https://github.com/emacselements\n  https://emacselements.com/\n\n  If you like my content, you can support me\n  by sending me a donation via PayPal:\n\n  https://paypal.me/revrari"
+  },
+  {
+    "ITEM": "Symlinks and Hardlinks in Linux and Emacs",
+    "DATE": "2026-02-04T04:01:04-08:00",
+    "DURATION": "3:37",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=aJOq9F-vJMc",
+    "SPEAKERS": "Emacs Elements",
+    "TAGS": [
+      "dired"
+    ],
+    "BODY": "How to create symlinks and hardlinks in Linux and Emacs.\n\n  https://github.com/emacselements\n  https://emacselements.com/\n\n  If you like my content, you can support me\n  by sending me a donation via PayPal:\n\n  https://paypal.me/revrari"
+  },
+  {
     "ITEM": "[17] Emacs Reader:  Cursors, PALE, Canvas API and More! - 2/2/2026, 2:33:39 PM",
     "DATE": "2026-02-02T15:46:08.426Z",
     "DURATION": "1:07:37",
@@ -12,6 +98,17 @@
     "DURATION": "6:48",
     "PEERTUBE_URL": "https://tv.dyne.org/w/f4py2PspoRFjUQTJgfYEwJ",
     "BODY": "https://codeberg.org/divyaranjan/emacs-reader/ If you have no idea what I'm doing here, please watch the first introductory stream of the series: https://tv.dyne.org/w/8W8o4fWz94bMYVMUWExkX7 Operat..."
+  },
+  {
+    "ITEM": "Emacs RSS Reader with Online Sync",
+    "DATE": "2026-02-02T11:51:08-08:00",
+    "DURATION": "4:56",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=Nos24tNSKco",
+    "SPEAKERS": "Curtis McHale",
+    "TAGS": [
+      "rss"
+    ],
+    "BODY": ",#emacs #rss #claudecode\n\n  I used Claude to help build the Emacs RSS reader I've been looking for.\n\n  ,## Links\n\n  - Feedsmith on GitHub: https://github.com/curtismchale/feedsmith\n  - Read the full post with links: https://curtismchale.ca/?p=29090\n\n  ,## Courses\n\n  - SkillShare TickTick Course: https://skl.sh/2ExpXVv\n  - SkillShare Timeblocking Course: https://skl.sh/38MQzz8\n  - SkillShare Zettelkasten Course: https://skl.sh/3rntNDW\n  - Getting Started with Obsidian Course: https://skl.sh/2Y6DUDM\n\n  ,## My Gear\n\n  - My gear: https://curtismchale.ca/my-gear\n  - Patreon: https://patreon.com/curtismchale\n  - Music: https://www.epidemicsound.com/referral/blhmqa/\n  - Streaming with: https://www.ecamm.com/mac/ecammlive/?fp_ref=curtis42"
   },
   {
     "ITEM": "Recursion and Quitting in Emacs",
