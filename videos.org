@@ -3,6 +3,124 @@
 #+PROPERTY: header-args:emacs-lisp+   :eval no
 
 
+* Emacs: my GNOME accent color theme switcher package  :theme:
+:PROPERTIES:
+:DATE:     2026-02-13T01:09:52-08:00
+:DURATION: 2:55
+:YOUTUBE_URL: https://www.youtube.com/watch?v=atKuEh3_ArA
+:SPEAKERS: Protesilaos Stavrou
+:END:
+  In this short video I demonstate a new package for GNU Emacs that synchronises the Emacs theme with the GNOME settings for accent color and light/dark mode. Git repository here: https://github.com/protesilaos/gnome-accent-theme-switcher
+
+  * * *
+
+  Find all my publications on my website (Emacs, philosophy, poems, selfies, and much more): https://protesilaos.com
+
+* 034 Ollama Buddy - Simple Tool Calling #emacs #ollama  :ai:ollama:
+:PROPERTIES:
+:DATE:     2026-02-13T00:21:57-08:00
+:DURATION: 0:41
+:YOUTUBE_URL: https://www.youtube.com/watch?v=DHV3My0NsJc
+:SPEAKERS: Ollama Buddy for Emacs
+:END:
+  Demonstrating the first draft of ollama tool calling
+
+  - open the chat with a model that allows tool calling : gpt-oss:20b-cloud
+  - "can you create a file in /home/jdyer called tmp.txt with the contents of : hello world"
+  - check that a new text file has been created in /home/jdyer
+
+  https://melpa.org/#/ollama-buddy
+  https://github.com/captainflasmr/ollama-buddy
+
+  ,#emacs #ollama
+* Behebung von org-babel Shell-Bindungsproblemen in Emacs: Eine Anleitung zur Festlegung Ihrer bevorz
+:PROPERTIES:
+:DATE:     2026-02-11T04:32:01-08:00
+:DURATION: 1:50
+:YOUTUBE_URL: https://www.youtube.com/watch?v=OZTodhXqISw
+:SPEAKERS: vlogize
+:END:
+  Erfahren Sie, wie Sie `org-babel` in Emacs so konfigurieren, dass es Ihre bevorzugte Shell verwendet – selbst bei Bindungsproblemen mit `fish`.
+  ---
+  Dieses Video basiert auf der Frage https://stackoverflow.com/q/62357964/ gestellt von dem Nutzer 'heyarne' ( https://stackoverflow.com/u/2345852/ ) sowie auf der Antwort https://stackoverflow.com/a/62359314/ bereitgestellt von dem Nutzer 'phils' ( https://stackoverflow.com/u/324105/ ) auf der Website 'Stack Overflow'. Vielen Dank an diese großartigen Nutzer und die Stackexchange-Community für ihre Beiträge.
+
+  Besuchen Sie diese Links, um den Originalinhalt und weitere Details zu sehen, z. B. alternative Lösungen, aktuelle Entwicklungen zum Thema, Kommentare, Versionsverlauf usw. Der ursprüngliche Titel der Frage lautete beispielsweise: org-babel shell always binds to "fish"
+
+  Außerdem steht der Inhalt (außer Musik) unter der Lizenz CC BY-SA https://meta.stackexchange.com/help/licensing
+  Der ursprüngliche Fragenbeitrag steht unter der Lizenz 'CC BY-SA 4.0' ( https://creativecommons.org/licenses/by-sa/4.0/ ), und der ursprüngliche Antwortbeitrag steht unter der Lizenz 'CC BY-SA 4.0' ( https://creativecommons.org/licenses/by-sa/4.0/ ).
+
+  Falls Ihnen irgendetwas auffällt oder Unstimmigkeiten bestehen, schreiben Sie mir bitte an vlogize [AT] gmail [DOT] com.
+  ---
+  Behebung von org-babel Shell-Bindungsproblemen in Emacs: Eine Anleitung zur Festlegung Ihrer bevorzugten Shell
+
+  Wenn Sie ein Emacs-Nutzer sind, der die elegante und funktionsreiche fish-Shell liebt, sind Sie vielleicht schon einmal auf ein frustrierendes Problem gestoßen, wenn Sie org-babel in org-mode verwenden. Trotz Ihrer Versuche, Shell-Blöcke mit anderen Shells wie sh oder bash auszuführen, erhalten Sie immer wieder Ergebnisse von fish. Das führt zu Verwirrung und erschwert es Ihnen, Ihren Code effektiv auszuführen. Keine Sorge! In diesem Blogpost werden wir dieses Problem untersuchen und Ihnen zeigen, wie Sie Ihre gewünschte Shell für org-babel in Emacs korrekt einstellen.
+
+  Das Problem verstehen
+
+  Das unerwartete Verhalten
+
+  Wenn Sie die folgenden Code-Snippets in org-mode ausführen:
+
+  [[Siehe Video, um diesen Text oder Codeausschnitt anzuzeigen]]
+
+  Stellen Sie fest, dass trotz der Angabe verschiedener Shells wie sh und bash die Ausgabe immer /usr/bin/fish lautet. Diese Inkonsistenz kann verwirrend sein, besonders wenn Sie erwarten, dass Shell-Befehle in Ihrer bevorzugten Umgebung ausgeführt werden.
+
+  Untersuchung von org-babel-shell-names
+
+  Vielleicht haben Sie bereits überprüft, dass Ihre org-babel-shell-names-Liste mehrere Shells enthält:
+
+  [[Siehe Video, um diesen Text oder Codeausschnitt anzuzeigen]]
+
+  Sie erleben jedoch weiterhin das Problem, dass Emacs standardmäßig fish verwendet, unabhängig von der angegebenen Shell. Dies wirft die Frage auf: Gibt es eine Möglichkeit, org-babel global so umzuleiten, dass es bash verwendet?
+
+  Die Lösung: Das Verständnis der $SHELL-Variable
+
+  Der entscheidende Hinweis
+
+  Um dieses Problem effektiv zu debuggen, ist es wichtig zu wissen, dass die Umgebungsvariable $SHELL nicht unbedingt die Shell widerspiegelt, die gerade aktiv Befehle ausführt. Ein genauerer Ansatz besteht darin, $0 zu prüfen oder shell-spezifische Befehle zu verwenden.
+
+  Was sollten Sie stattdessen tun?
+
+  Hier sind einige Schritte, die Sie befolgen können, um das Problem zu diagnostizieren und zu beheben:
+
+  Prüfen Sie $0 direkt:
+  Anstatt sich auf $SHELL zu verlassen, führen Sie aus:
+
+  [[Siehe Video, um diesen Text oder Codeausschnitt anzuzeigen]]
+
+  Damit erhalten Sie die tatsächliche Shell, die den Befehl ausführt.
+
+  Verwenden Sie eingebaute Shell-Befehle:
+  Sie können auch Befehle ausführen, die spezifisch für bash sind, um zu prüfen, ob sie die erwartete Ausgabe liefern. Zum Beispiel:
+
+  [[Siehe Video, um diesen Text oder Codeausschnitt anzuzeigen]]
+
+  Wenn Sie sich in bash befinden, sollte die Ausgabe Hilfeinformationen für bash zurückgeben.
+
+  Setzen Sie die Standard-Shell global:
+  Wenn Sie bash als Standard für alle org-babel-Sitzungen erzwingen möchten, konfigurieren Sie:
+
+  [[Siehe Video, um diesen Text oder Codeausschnitt anzuzeigen]]
+
+  Fazit
+
+  Zusammenfassend gilt: Wenn Sie feststellen, dass Ihre org-babel Shell-Blöcke immer fish verwenden, obwohl Sie eine andere Shell bevorzugen, ist es entscheidend, genau zu prüfen, wie Sie die Shell-Variablen auslesen. Überprüfen Sie immer $0 statt $SHELL, um eine klare Abbildung Ihrer aktuellen Shell-Umgebung zu erhalten. Zögern Sie außerdem nicht, Ihre org-babel-shell-names entsprechend anzupassen, um Ihre Präferenzen zu priorisieren. Wenn Sie diese Schritte befolgen, steht einer reibungslosen und effizienten Arbeit mit org-mode nichts mehr im Weg!
+
+  Mit dem Wissen um diese Debugging-Techniken und Konfigurationen können Sie Ihr Emacs-Erlebnis genau auf Ihre Programmierbedürfnisse zuschneiden – egal, ob Sie fish, bash oder eine andere Shell bevorzugen!
+
+* Hacking on Emacs #6: Allow linking the current Magit commit buffer using git-link, pt2 :magit:GitLink:
+:PROPERTIES:
+:DATE:     2026-02-11T02:35:49-08:00
+:DURATION: 28:49
+:YOUTUBE_URL: https://www.youtube.com/watch?v=OVtUxt4qUCc
+:SPEAKERS: FrostyX unscripted
+:END:
+  Allow linking the current Magit commit buffer using git-link, pt2
+  ► Main channel: https://www.youtube.com/@jakubkadlcik
+  ► GitHub: https://github.com/FrostyX
+  ► Blog: https://frostyx.cz
+  ► Mastodon: https://fosstodon.org/@FrostyX
+
 * Insert Special Characters into Emacs
 :PROPERTIES:
 :DATE:     2026-02-09T00:44:23-08:00
