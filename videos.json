@@ -1,5 +1,203 @@
 [
   {
+    "ITEM": "A Year Without Vertico - System Crafters Live!",
+    "DATE": "2026-02-27T22:06:25-08:00",
+    "DURATION": "1:14:56",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=3GDuQ1VAM8M",
+    "SPEAKERS": "System Crafters",
+    "TAGS": [
+      "completion"
+    ],
+    "BODY": "In this stream, we'll revisit the Vertico completion framework after a full year away, adding it back to my Emacs configuration with fresh eyes. We'll explore what's changed and improved since I last used it, tweaking settings and discovering other useful packages along the way.\n\n  Let's see how I feel after spending a year with Emacs' built-in completions and whether Vertico truly earns a place in my configuration!\n\n  ,#emacs #vertico #completions\n\n  SUPPORT THE CHANNEL:\n\n  👍 Support My Work: https://systemcrafters.net/how-to-help/#support-my-work\n  📰 Subscribe to the Newsletter: https://systemcrafters.net/newsletter/\n  👕 Check out the Store: https://systemcrafters.store\n  📘 Get Your Copy of Mastering Emacs: https://www.masteringemacs.org/r/systemcrafters?utm_source=yt&utm_medium=desc&utm_campaign=scme\n\n  SHOW NOTES:\n\n  https://systemcrafters.net/live-streams/february-27-2026/\n\n  JOIN THE COMMUNITY:\n\n  https://systemcrafters.net/community/ (Forum and IRC chat!)\n  https://fosstodon.org/@daviwil\n\n  MY CONFIGURATION:\n\n  (This site is currently down but will be back up soon!)\n\n  https://config.daviwil.com\n  https://config.daviwil.com/emacs\n  https://config.daviwil.com/systems (Guix)\n\n  OTHER SERIES:\n\n  - Emacs Essentials: https://www.youtube.com/watch?v=48JlgiBpw_I&list=PLEoMzSkcN8oPZvSdewHG8uApD7THlLLCV\n  - Emacs From Scratch: https://www.youtube.com/watch?v=74zOY-vgkyw&list=PLEoMzSkcN8oPH1au7H6B7bBJ4ZO7BXjSZ\n  - Emacs Tips: https://www.youtube.com/watch?v=wKTKmE1wLyw&list=PLEoMzSkcN8oMHJ6Xil1YdnYtlWd5hHZql\n  - Emacs Desktop Environment: https://www.youtube.com/watch?v=f7xB2fFk1tQ&list=PLEoMzSkcN8oNPbEMYEtswOVTvq7CVddCS\n  - Emacs IDE: https://www.youtube.com/watch?v=E-NAM9U5JYE&list=PLEoMzSkcN8oNvsrtk_iZSb94krGRofFjN\n  - Emacs Mail: https://www.youtube.com/watch?v=yZRyEhi4y44&list=PLEoMzSkcN8oM-kA19xOQc8s0gr0PpFGJQ\n  - Learning Emacs Lisp: https://www.youtube.com/watch?v=RQK_DaaX34Q&list=PLEoMzSkcN8oPQtn7FQEF3D7sroZbXuPZ7\n  - Craft Your System with GNU Guix: https://www.youtube.com/watch?v=iBaqOK75cho&list=PLEoMzSkcN8oNxnj7jm5V2ZcGc52002pQU\n\n  CREDITS:\n\n  Coriolis Effect by logos feat. stefsax, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/mseq/26296\n  reNovation by airtone, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/airtone/60674\n  ukeSounds by airtone, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/airtone/32655\n  Between Worlds (Instrumental) by Aussens@iter, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/tobias_weber/56664"
+  },
+  {
+    "ITEM": "Emacs Is Installed! How Can I Create A Shortcut That Just Starts This Baby up? (5) - [10:12]",
+    "DATE": "2026-02-27T20:09:38-08:00",
+    "DURATION": "10:11",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=8kB-nEy_w4Y",
+    "SPEAKERS": "Build Hello",
+    "BODY": "Stop searching for your Emacs app (plausible +2)! This video shows exactly how to create shortcuts to launch Emacs in seconds -- whether you're on Windows or Linux. You'll learn:\n\n  ✅ Windows: Create a desktop shortcut (no registry edits!)\n  ✅ Linux: Build a custom .desktop file (with Exec, Icon, and categories)\n  ✅ Why avoid bad .desktop syntax (and how to test it)\n  ✅ Command-line tricks to launch without shortcuts\n\n  Perfect for beginners who installed Emacs but don’t know what a desktop is. No source builds or NPM needed -- just click and run!\n\n  Previous videos you need:\n  ▶️ Emacs From Source (Intro) • [Video Link]\n  ▶️ Why Install From Source? • [Video Link]\n\n\n  [NPM - Package Node Manager]\n\n  📌 Subscribe for more Emacs tips, reproducible builds, and deep dives into configuration!\n  🔗 Watch our full “Build Emacs from Source” series playlist here: [Insert Playlist Link]\n  💬 Got questions? Drop them in the comments—we usually respondant every nonce!\n\n  [Soundtrack - [Not My Work - Thats Stuart Copeland pro Sounds!  📧🔽 - 🐉🔼] ]\n  https://www.youtube.com/watch?v=YvFRWKklC6c&list=PLA6ECEC231DE28F97\n\n\n  ,#emacs #windows #linux #shortcut #desktopFiles #techTips #developer #howTo #emacsWorld #emacsLaunchShortcut #windowsEmacsShortcut #linuxDesktopFile #emacsStartCommand #createDesktopShortcut #openEmacsFast #windowsShortcutGuide #desktopExample #launchEmacs #quickStartEmacs"
+  },
+  {
+    "ITEM": "Emacs is Installed! Try These 3 Ways to Start It Now (Zero Init! | CLI Hacks) (2) - [7-ish minutes]",
+    "DATE": "2026-02-27T17:35:36-08:00",
+    "DURATION": "7:11",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=jn_lG87Q1C4",
+    "SPEAKERS": "Build Hello",
+    "BODY": "Tired of wasting time launching Emacs? Learn *3 instant methods to start Emacs without your config files* (no =~/.emacs.d=!)—plus advanced tricks for WSL, Windows Terminal, and Linux.\n\n  ✅ Start without init file/splash screen (0s load)\n  ✅ Launch with AI-generated ANSI art (yes, really)\n  ✅ Open specific directories + load early-init.el (for fast startup)\n\n  ,#emacsStartWithoutInit #emacsCmdLine #emacsAlternate #emacs #terminalLaunch #emacsWindows #emacsWsl #emacsLinux #emacsTips #commandLineEmacs #startEmacsWithoutConfig\n\n  Pro Tip: Works on Ubuntu, Windows (WSL), macOS -- no config files blocked!\n\n  ,#emacs #commandLine #emacsTips #wsl #windows #linux #emacsAlternate #emacsCmdLine #emacsMac #terminalHacks #devTools\n\n  👉 Like/Subscribe for more terminal power!\n  [NPM - Package Node Manager]\n\n  📌 Subscribe for more Emacs tips, reproducible builds, and deep dives into configuration!\n  🔗 Watch our full “Build Emacs from Source” series playlist here: [Insert Playlist Link]\n  💬 Got questions? Drop them in the comments—we usually respondant every nonce!\n\n  [Soundtrack - [Not My Work - Thats Stuart Copeland pro Sounds 📧🔽 - 🐉🔼] ]\n  https://www.youtube.com/watch?v=YvFRWKklC6c&list=PLA6ECEC231DE28F97"
+  },
+  {
+    "ITEM": "Emacs Is Installed! Your User Directory Explained (.emacs.d Deep Dive) (3) - [5:36]",
+    "DATE": "2026-02-27T17:04:05-08:00",
+    "DURATION": "5:36",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=kAIzhHJsVXc",
+    "SPEAKERS": "Build Hello",
+    "TAGS": [
+      "configuration"
+    ],
+    "BODY": "🎉 You've installed Emacs—now what? Welcome to the most important directory in your Emacs journey: your user directory (typically =.emacs.d=)!\n\n  In this essential guide for new Emacs users, we explore the heart of Emacs configuration -- the directory that controls everything from themes and packages to backups and custom code.\n\n  What you'll learn:\n\n  ✅ Where your Emacs user directory lives (.emacs.d location)\n  ✅ What kind of files and folders live inside it\n  ✅ Configuration files: init.el, early-init.el, and custom.el/garbage.el\n  ✅ The elpa/ directory: where packages install\n  ✅ Auto-save files, backups, and temp files explained\n  ✅ Custom libraries, themes, and snippets storage\n\n  This directory is your Emacs home base. You'll edit files in it regularly, back it up religiously, and grow it over years. Understanding what might be in it now saves hours of confusion later!\n\n  Perfect for:\n  - Developers who just installed Emacs (first time or returning)\n  - Users migrating from VS Code, Vim, or other editors\n  - Anyone who wants to understand Emacs configuration basics\n  - System administrators setting up reproducible environments\n\n  [NPM - Package Node Manager]\n\n  ,#emacs #emacsConfig #emacsTutorial #emacsBeginners #emacsd #initEl #emacsSetup #gnuEmacs #textEditor #ide #developers #linux #programming #dotFiles #versionControl #git #emacsGuide #coding #productivity #emacsUserDirectory #emacsDExplained #emacsConfigurationDirectory #emacsInitEl #emacsForBeginners #firstStepsEmacs #emacsAfterInstallation #emacsSetupGuide #emacsConfigFiles #emacsPackageDirectory #emacsCustomization #emacsBackupFiles #emacsElpaDirectory #gnuEmacsTutorial #emacsGitConfiguration\n\n  📌 Subscribe for more Emacs tips, reproducible builds, and deep dives into configuration!\n  🔗 Watch our full “Build Emacs from Source” series playlist here: [Insert Playlist Link]\n  💬 Got questions? Drop them in the comments—we usually respondant every nonce!\n\n  [Soundtrack - [Not My Work - Thats Stuart Copeland pro Sounds 📧🔽 - 🐉🔼] ]\n  https://www.youtube.com/watch?v=YvFRWKklC6c&list=PLA6ECEC231DE28F97"
+  },
+  {
+    "ITEM": "Moving to Structural Diffs | Trying out Difftastic",
+    "DATE": "2026-02-27T12:37:03-08:00",
+    "DURATION": "1:29:56",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=pARy5XnLHKQ",
+    "SPEAKERS": "Andrew Tropin",
+    "TAGS": [
+      "diff",
+      "difftastic"
+    ],
+    "BODY": "Improving my review workflow by getting clearer diffs with Difftastic and tree-sitter grammars.\n\n  ,#rde #guix #scheme #lisp #guile #racket\n\n  My site and blog:\n  https://trop.in\n  https://trop.in/blog\n\n  Reach me out here:\n  https://trop.in/contact\n\n  IRC Chat:\n  ,#tropin IRC channel at libera.chat.\n\n  Mastodon:\n  https://fosstodon.org/@abcdw\n\n  RDE and Arei/Ares Guile IDE projects:\n  https://sr.ht/~abcdw/rde\n  https://sr.ht/~abcdw/emacs-arei\n  https://sr.ht/~abcdw/guile-ares-rs\n\n  https://github.com/abcdw/rde (mirror)\n\n  Mailing lists:\n  https://lists.sr.ht/~abcdw/"
+  },
+  {
+    "ITEM": "Bending Emacs Episode 12: agent-shell + Claude Skills",
+    "DATE": "2026-02-25T10:55:46-08:00",
+    "DURATION": "26:01",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=ymMlftdGx4I",
+    "SPEAKERS": "xenodium",
+    "TAGS": [
+      "ai",
+      "AgentShell"
+    ],
+    "BODY": "In this video I share some agent-shell flows I've been playing around with in conjunction with agent skills to teach Claude some Emacs tricks. I'm fairly new to Claude Skills, but I can see them becoming fairly handy. Do you have some particular flows or skills you like? I'd love to hear about them.\n\n  Here's the related blog post https://xenodium.com/bending-emacs-episode-12-agent-shell-claude-skills\n\n  If you're enjoying or finding my work useful, please consider sponsoring so I can continue doing it sustainably https://xenodium.com/sponsor"
+  },
+  {
+    "ITEM": "[EMACS LAB #1] Do zero a uma IDE para programar em C (parte 1)",
+    "DATE": "2026-02-24T02:00:39-08:00",
+    "DURATION": "1:00:27",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=P1CtAAfT8_E",
+    "SPEAKERS": "debxp (Blau Araujo)",
+    "TAGS": [
+      "coding",
+      "c"
+    ],
+    "BODY": "Este é um compacto do que rolou no laboratório de 21/02/2026, onde nós começamos a configurar o Emacs do zero para chegarmos a uma IDE completa para trabalhar com a programação em C.\n\n  Repositório:\n  https://bolha.dev/blau_araujo/debxp/src/branch/main/emacs#headline-4\n\n  -----\n\n  Todo o nosso trabalho só é possível graças ao apoio de vocês!\n\n  -----\n\n  Me ajude a adquirir livros e equipamentos para continuar produzindo conteúdos sobre este e outros assuntos.\n\n  Lista de prioridades de trabalho na Amazon:\n  https://www.amazon.com.br/hz/wishlist/ls/3LE4PKZEUOCCG?ref_=wl_share\n\n  -----\n\n  Outras formas de apoio:\n\n  * PIX: pix@blauaraujo.com\n  * PicPay: https://picpay.me/blauaraujo\n  * PayPal: https://bit.ly/paypal-debxp\n  * Apoia.se: https://apoia.se/debxpcursos\n  * Meu livro: https://uiclap.bio/blau_araujo\n\n  Muito obrigado!\n\n  ------\n\n  Nosso site:\n  https://debxp.org\n\n  Conteúdo complementar:\n  https://bolha.dev/blau_araujo/debxp\n\n  Meu site:\n  https://blauaraujo.com\n\n  -----\n\n  Capítulos:\n\n  0:00 - Apresentação do repositório\n  1:35 - Configuração \"literate\"\n  8:29 - O ambiente da nova instalação\n  12:15 - Baixando as configurações\n  15:05 - Iniciando o Emacs\n  22:29 - Abrindo o config.org\n  26:01 - O org-mode\n  31:08 - Preparando o tangle\n  34:18 - Ajustes na interface do Emacs\n  45:41 - Gerenciamento de pacotes\n  49:09 - Configuração do evil-mode\n  54:15 - Temas e modeline Doom"
+  },
+  {
+    "ITEM": "037 Ollama Buddy - In-Buffer responses with in-line inspection #emacs #ollama",
+    "DATE": "2026-02-24T00:46:08-08:00",
+    "DURATION": "1:27",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=Po7Wqpk0sqY",
+    "SPEAKERS": "Ollama Buddy for Emacs",
+    "TAGS": [
+      "ai",
+      "ollama"
+    ],
+    "BODY": "Demonstrating in-buffer in-line modification, now we are out of the chat buffer!\n\n  - Turn in-buffer through menu W\n  - open ollama-buddy-rewrite-samples.org\n  - Refactor Code : Sample 2 - refactor\n  - show original in-buffer and accept\n  - Proofread Text : Sample 1 - select paragraph and proofred\n  - show original in-buffer and accept\n\n  This demonstrates how ollama-buddy can now return LLM requests directly into the buffer\n\n  https://melpa.org/#/ollama-buddy\n  https://github.com/captainflasmr/ollama-buddy\n\n  ,#emacs #ollama"
+  },
+  {
+    "ITEM": "Run LLM Scripts in Emacs (No Packages) #llm #ai #claudecode",
+    "DATE": "2026-02-22T23:09:38-08:00",
+    "DURATION": "4:21",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=sdZ2by9ecBM",
+    "SPEAKERS": "Emacs Elements",
+    "TAGS": [
+      "ai",
+      "llm"
+    ],
+    "BODY": "A simple way of using the power of llms inside Emacs without the need for any packages or elisp.\n\n  https://github.com/emacselements/llm-emacs\n\n  If you like my content, you can support me\n  by sending me a donation via PayPal:\n\n  https://paypal.me/revrari\n\n  https://github.com/emacselements\n  https://emacselements.com/"
+  },
+  {
+    "ITEM": "Xah Talk Show Ep765. emacs lisp coding. command to delete emacs backup.",
+    "DATE": "2026-02-22T10:08:40-08:00",
+    "DURATION": "1:17:30",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=ZoogaFu7pOI",
+    "SPEAKERS": "Xah Lee",
+    "TAGS": [
+      "elisp"
+    ],
+    "BODY": "Video Summary (Generated by AI, Edited by Human.)\n\n  The video focuses on Emacs Lisp coding (0:08) and the creation of a command to delete Emacs backup files (0:49) within a directory, including subdirectories (1:45).\n  The host, Xah Lee, explains that Emacs backup files are identified by a tilde (~) at the end of their name (0:59).\n\n  Key aspects of the video include:\n\n  • Initial Command Functionality (2:20): Lee demonstrates an existing command that deletes backup files and confirms the action with the user. He then explains his intention to modify this command.\n  • Code Modification for Independence (3:34): Lee refactors the code to remove dependencies, ensuring the command functions independently without relying on other Emacs Lisp functions. This involves embedding the listing of backup files directly into the deletion command.\n  • User Interface Design Principles (17:24): A significant portion of the video is dedicated to discussing good user interface design. Lee argues against asking for user confirmation before executing a command, advocating instead for immediate execution with an undo feature. He emphasizes \"muscle memory\" (18:44) for efficient user interaction.\n  • Moving Files Instead of Deleting (23:23): To align with the user interface design principles, Lee modifies the command to move backup files to a temporary directory rather than permanently deleting them. This provides an implicit \"undo\" capability by retaining the files.\n  • Emacs vs. VS Code Discussion (29:16): Lee briefly compares Emacs to VS Code, highlighting Emacs's lower memory usage as a significant advantage for dedicated programmers.\n  • Addressing Challenges and Debugging (43:54): Lee encounters and debugs several errors during the coding process, demonstrating his problem-solving approach.\n  • Unix Philosophy Critique (56:19): Lee critiques the \"Unix philosophy\" of using shell commands for file operations, arguing that Emacs provides a more integrated, visual, and cross-platform solution without external dependencies.\n  • Successful Command Implementation (1:09:07): Despite various digressions and debugging, Lee successfully implements the modified command, which moves backup files to a designated temporary directory without user confirmation.\n  • Future Considerations: Undo Functionality (1:09:35): Lee discusses the complexities of implementing a robust undo feature for file operations in Emacs, as the built-in undo is primarily for text editing. He also briefly touches on the issues with file deletion and trash functionality in Linux (1:13:50)."
+  },
+  {
+    "ITEM": "Prot Asks: Ro about programmatic thinking, political discourse, and art as self-discovery",
+    "DATE": "2026-02-22T02:29:23-08:00",
+    "DURATION": "2:53:41",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=JEiru0u6gD4",
+    "SPEAKERS": "Protesilaos Stavrou",
+    "TAGS": [
+      "ProtAsks"
+    ],
+    "BODY": "**UPDATE 2026-02-23 08:34 +0200:** The portrait is available here: https://protesilaos.com/selfies/2026-02-23-prot-portrait-by-ro/\n\n  * * *\n\n  In this ~3-hour video I talk with Ro about a wide variety of topics that cover programming, politics, lifestyle, and art. We start by learning about Ro's work as a software engineer for military projects. Ro studied electrical engineering and then transitioned to programming.\n\n  I learn that Ro has an interest in politics and art. In terms of the latter, Ro draws a portrait of me during our discussion. We talk until the drawing is done, which you can check out towards the end of the video.\n\n  On the politics front, we discuss my current thinking about political issues, where I am interested in the implementation of any given opinion. This is where I introduce the notion of \"programmatic thinking\". The idea is to frame your opinions in terms of how you could implement them, given the prevailing conditions. Doing so helps filter out opinions that are not feasible.\n\n  We also comment on the quality of political discourse. Part of this is informed by the current technology, which reduces the spacetime of current affairs: everything happens instantly and feels proximate. Ro suggests how people need to be getting together to discuss politics. If people are open to talk, instead of shouting at each other, then common sense can prevail.\n\n  Ro points out that discussions tend to avoid any kind of disagreement, which Ro explains is not constructive: the realisation of disagreements can still bring people closer, as they can appreciate the others better and the diversity among us. Part of why this is happening, I explain, is because people adopt an expanded conception of identity, which includes their specific opinions. Then I go on to comment how criticism can be constructive: it helps people grow by better understanding what they are doing and why they do it.\n\n  The next topic is about the quality one has as a person. I comment on how those who are influential have responsibility towards those they influence. This is because they hold power. We explore this theme further. I argue that if we decouple power from responsibility, then we end up with egregious or abusive power.\n\n  The last big issue we cover is art. Specifically, how we can have a better sense of our self through the pursuit of recreational activities. Ro asks me about my writings. There are different sections on my website, which cover distinct areas of interest I have. This gives me the impetus to elaborate on the notion of being mindful of our emotional state and how we can stay fresh. The point is to commit to something that expresses a side of you. Ro comments how art is not about the result, but rather that you enjoy doing it.\n\n  This is relevant also in light of Artificial Intelligence, which we consider in further depth. I bring up the myth of Prometheus, which reminds us how all technological innovations comes with pros and cons. There are problems that come from the technology itself but also others that are the result of how people use the technology.\n\n  We close with questions about me, such as my personality, way of living, and the experience of blogging. This also connects to the point about how people are attached to their opinions as an extension of their identity. I explain how to think of our works as snapshots of who we are. Mistakes are a part of it. If we acknowledge them, we are more resilient, as we can change our views and/or face criticism without fearing that we lose who we are. I say that we ultimately do not need to take ourselves too seriously, in the sense that if we make a mistake it will not be the end of the world.\n\n  ,## Add Ro on Instagram\n\n  Here: https://www.instagram.com/aldebaran.alpha.tauri/\n\n  ,## About \"Prot Asks\"\n\n  In this video series, I talk to anybody who is interested to have a video call with me (so do contact me if you want!). The topics cover anything related to Emacs, technology, and life in general. More here: https://protesilaos.com/prot-asks."
+  },
+  {
+    "ITEM": "035 Ollama Buddy - Advanced Tool Calling with Multiple Tools #emacs #ollama",
+    "DATE": "2026-02-20T05:49:12-08:00",
+    "DURATION": "2:52",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=sRdWed1pDVg",
+    "SPEAKERS": "Ollama Buddy for Emacs",
+    "TAGS": [
+      "ai",
+      "ollama"
+    ],
+    "BODY": "Demonstrating advanced ollama tool calling with multiple tools working together.\n\n  - Open chat with a model that supports tool calling: glm-4.7:cloud\n  - Turn on tooling\n  - \"Can you read the file /home/jdyer/source/repos/ollama-buddy/README-videos.org and tell me how many demos it contains?\n  - Watch the read_file tool being called\n  - Ask follow-up: \"Now list all the buffers that are currently open in Emacs\"\n  - Watch the list_buffers tool being called\n  - Ask: \"Search in the current buffer for 'tool calling' and show me the results\"\n  - Watch the search_buffer tool being called\n  - \"Now combine all this information and create a summary file called /tmp/ollama-buddy-summary.org\"\n  - Watch write_file tool being called\n  - Show the created file to confirm it was written correctly\n\n  This demonstrates how ollama-buddy can orchestrate multiple tool calls in sequence to answer complex queries and perform multi-step operations.\n\n  https://melpa.org/#/ollama-buddy\n  https://github.com/captainflasmr/ollama-buddy\n\n  ,#emacs #ollama"
+  },
+  {
+    "ITEM": "Building RDE against latest Guix on CI",
+    "DATE": "2026-02-19T09:57:43-08:00",
+    "DURATION": "1:34:22",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=So3GRaXga9Y",
+    "SPEAKERS": "Andrew Tropin",
+    "TAGS": [
+      "rde"
+    ],
+    "BODY": "A warmup stream with an easy task: We want to discover breaking changes introduced by upstream earlier (than we do right now), so we can make forward compatible fixes before actually updating revision of guix channel in RDE's channels.scm. Also, talking about LLMs and trying to use them to accomplish the task.\n\n  ,#rde #guix #scheme #lisp #guile #racket\n\n  My site and blog:\n  https://trop.in\n  https://trop.in/blog\n\n  Reach me out here:\n  https://trop.in/contact\n\n  IRC Chat:\n  ,#tropin IRC channel at libera.chat.\n\n  Mastodon:\n  https://fosstodon.org/@abcdw\n\n  RDE and Arei/Ares Guile IDE projects:\n  https://sr.ht/~abcdw/rde\n  https://sr.ht/~abcdw/emacs-arei\n  https://sr.ht/~abcdw/guile-ares-rs\n\n  https://github.com/abcdw/rde (mirror)\n\n  Mailing lists:\n  https://lists.sr.ht/~abcdw/"
+  },
+  {
+    "ITEM": "Xah Ep762. emacs lisp coding, command to fix youtube description, crimes of recursive acronym",
+    "DATE": "2026-02-18T05:30:46-08:00",
+    "DURATION": "2:09:50",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=9M8x7xnP6iU",
+    "SPEAKERS": "Xah Lee",
+    "BODY": "Video Summary (Generated by AI, Edited by Human.)\n\n  The video, \"Xah Ep762. emacs lisp coding,\" features Xah Lee (0:08) discussing and demonstrating Emacs Lisp coding, primarily for programmers and computer scientists. He begins by introducing his hardware setup (0:32), including the Ultimate Hacking Keyboard and Nulea trackball, and mentions his reviews for them.\n\n  Key topics and demonstrations in the video include:\n\n  • Xah Fly Keys and Dvorak Keyboard Layout (2:41): Xah Lee explains his use of Xah Fly Keys, an efficient keybinding system for Emacs, and the Dvorak keyboard layout, an ergonomic alternative to QWERTY. He highlights how these tools improve efficiency.\n\n  • YouTube Description Fix Command (4:47): Xah Lee details a problem he faces when copying YouTube video information (title, uploader, date) due to YouTube frequently changing its formatting (6:30).\n  He demonstrates his custom Emacs Lisp command, xah YouTube fix YouTube description (9:26), which formats the copied text into a clean, consistent output for his blog.\n  He explains the challenges of maintaining this command due to YouTube's constant changes (10:05).\n\n  • Removing Dependencies in Emacs Lisp Code (14:41): A significant portion of the video is dedicated to refactoring his YouTube description fixing command to remove an external dependency (replace-pairs.el). He discusses the pros and cons of having dependencies and aims to make his code self-contained for easier sharing and use (17:49).\n\n  • Critique of Unix and Hacker Culture (35:23): Responding to a viewer's question, Xah Lee passionately rants about his strong dislike for Unix, Linux, C, Vim, and the broader hacker culture, labeling them as a \"disease\" or \"code phenomenon\" (39:44).\n  He references numerous past videos where he has discussed these topics in detail, emphasizing their outdated practices and negative societal impact (41:21).\n  He specifically criticizes the GNU project's recursive acronym \"GNU's Not Unix\" (48:14) and general marketing practices in tech (1:04:41).\n\n  • Hash Table Tips in Emacs Lisp (1:26:31): He provides a technical tip regarding hash tables in Emacs Lisp, advising against using nil as a value (1:29:57) because there's no built-in way to distinguish if a key doesn't exist or if its value is actually nil (1:30:00). He also briefly discusses a personal function for testing hash table equality (1:36:23).\n\n  • The video concludes with Xah Lee wrapping up the Emacs Lisp coding session and engaging with viewer comments.\n\n\n  ----\n\n  Emacs lisp coding, and along the way i teach.\n  Come ask any emacs questions.\n\n  if you want emacs lisp video tutorial from ground up,\n  see\n  Emacs and Elisp Video Tutorial\n  http://xahlee.info/emacs/misc/emacs_lisp_video_tutorial.html"
+  },
+  {
+    "ITEM": "Using app-emacs/portage::akater | Using Gentoo package manager from GNU Emacs",
+    "DATE": "2026-02-17T11:53:15-08:00",
+    "DURATION": "1:11",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=YBGWf07m-uY",
+    "SPEAKERS": "doas journarlctl",
+    "TAGS": [
+      "gentoo"
+    ],
+    "BODY": ""
+  },
+  {
+    "ITEM": "Bending Emacs Episode 11: winpulse",
+    "DATE": "2026-02-17T07:37:41-08:00",
+    "DURATION": "8:46",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=qaqpcjJ1u6I",
+    "SPEAKERS": "xenodium",
+    "TAGS": [
+      "winpulse",
+      "appearance"
+    ],
+    "BODY": "In this episode, I showcase a tiny new package I built recently to help me spot active windows while switching amongst them.\n\n  Notes at https://xenodium.com/bending-emacs-episode-11-winpulse and more at https://xenodium.com/introducing-winpulse"
+  },
+  {
+    "ITEM": "How I Use Emacs to Take Notes",
+    "DATE": "2026-02-16T14:54:57-08:00",
+    "DURATION": "11:22",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=iEsExQ_AQNg",
+    "SPEAKERS": "The Linux Cast",
+    "TAGS": [
+      "notes"
+    ],
+    "BODY": "Today I talk about the way I use #Emacs to take #notes.\n\n  👇 PULL IT DOWN FOR THE GOOD STUFF 👇\n\n  Patreon - https://patreon.com/thelinuxcast\n  Paypal - https://paypal.me/thelinuxcast\n  Youtube - https://www.youtube.com/channel/UCylGUf9BvQooEFjgdNudoQg/join\n  Ko-fi - https://ko-fi.com/thelinuxcast\n\n  ===== Follow us 🐧🐧 ======\n  MERCH - https://shop.thelinuxcast.org\n  Discord - https://thelinuxcast.org/discord\n  Odysee - https://odysee.com/$/invite/@thelinuxcast:4\n  TILvids(Peertube) - https://tilvids.com/c/thelinuxcast_channel/videos\n  Mastodon- https://fosstodon.org/@thelinuxcast\n  Bluesky - https://bsky.app/profile/thelinuxcast.bsky.social\n  https://codeberg.org/thelinuxcast?tab=repositories\n  Matrix - https://matrix.to/#/#the-linux-cast:matrix.org\n  The Website http://thelinuxcast.org\n  Contact us email@thelinuxcast.org\n  Amazon Wishlist - https://www.amazon.com/hz/wishlist/ls/1J3W9HF4O2M7T?ref_=wl_share\n  Logo Courtesy of - pedropaulo.net\n  Intro Courtesy of - https://www.fragcgi.com/?i=1\n\n  Get a free month of Proton Mail! https://go.getproton.me/SH1gC\n  Get 20% Off Your First Year at Hostinger - https://tinyurl.com/27kqbj63\n\n  ==== Special Thanks to Our Patrons! ====\n  https://thelinuxcast.org/patrons/\n\n  ==== My Gear ==== (Affilliate Links)\n\n  Shure sm7b - https://amzn.to/42jvata\n  LG Dual Up Monitor - https://amzn.to/42h7m9e\n  Sceptre 32 Curved Monitor - https://amzn.to/40CHoeY\n  Edifier R1280T - https://amzn.to/4gValbW\n  Elgato Stream Deck MK2 - https://amzn.to/4ga1MJa\n  Universal Audio Volt 276 - https://amzn.to/4jd8ukh\n  iPhone 15 Pro Mac - https://amzn.to/4jmxdT2\n  Logitech Brio Webcam - https://amzn.to/4aqoRFZ\n  Weilisi Desk Ring Light - https://amzn.to/4aqp1gz\n  Logitech MX Master 3 - https://amzn.to/3Wm5A2E\n\n  ,#productivity  #linux #thelinuxcast"
+  },
+  {
+    "ITEM": "Org mode, agentic coding and ekg",
+    "DATE": "2026-02-16T14:49:37-08:00",
+    "DURATION": "11:15",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=CleNgiIt2pg&t=4s",
+    "SPEAKERS": "Andrew Hyatt",
+    "TAGS": [
+      "ai",
+      "org",
+      "ekg"
+    ],
+    "BODY": "Org Mode is the best way I've found to work with agents, because it's such a great system for task management.  I talk about how I use it to work with agents, the downsides of org-mode, and how I think my ekg package may solve these issues.\n\n  ekg can be found at: https://github.com/ahyatt/ekg"
+  },
+  {
     "ITEM": "Emacs: my GNOME accent color theme switcher package",
     "DATE": "2026-02-13T01:09:52-08:00",
     "DURATION": "2:55",
