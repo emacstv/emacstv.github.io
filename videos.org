@@ -3,6 +3,144 @@
 #+PROPERTY: header-args:emacs-lisp+   :eval no
 
 
+* [EMACS LAB #2] Do zero a uma IDE para programar em C (parte 2)  :coding:c:
+:PROPERTIES:
+:DATE:     2026-03-08T09:23:53-07:00
+:DURATION: 1:17:58
+:YOUTUBE_URL: https://www.youtube.com/watch?v=Obq_nFEBN0M
+:SPEAKERS: debxp (Blau Araujo)
+:END:
+  Este é um compacto do que rolou no laboratório de 07/03/2026, onde nós terminamos a configuração do Emacs para chegarmos a uma IDE para trabalhar com a programação em C.
+
+  Repositório:
+  https://bolha.dev/blau_araujo/debxp/src/branch/main/emacs#headline-4
+
+  -----
+
+  Todo o nosso trabalho só é possível graças ao apoio de vocês!
+
+  -----
+
+  Me ajude a adquirir livros e equipamentos para continuar produzindo conteúdos sobre este e outros assuntos.
+
+  Lista de prioridades de trabalho na Amazon:
+  https://www.amazon.com.br/hz/wishlist/ls/3LE4PKZEUOCCG?ref_=wl_share
+
+  -----
+
+  Outras formas de apoio:
+
+  * Mande um salve: https://livepix.gg/blauaraujo
+  * Assinatura: https://livepix.gg/blauaraujo/assinatura
+  * PIX: pix@blauaraujo.com
+  * PicPay: https://picpay.me/blauaraujo
+  * PayPal: https://bit.ly/paypal-debxp
+  * Apoia.se: https://apoia.se/debxpcursos
+  * Meu livro: https://uiclap.bio/blau_araujo
+
+  Muito obrigado!
+
+  ------
+
+  Nosso site:
+  https://debxp.org
+
+  Conteúdo complementar:
+  https://bolha.dev/blau_araujo/debxp
+
+  Meu site:
+  https://blauaraujo.com
+
+  -----
+
+  Capítulos:
+
+  0:00 - Preparando a "bancada"
+  6:10 - Autocomplemento de comandos
+  7:11 - Vertico
+  8:59 - Marginalia
+  10:32 - Orderless
+  14:01 - Consult
+  17:45 - Which Key
+  19:42 - Complemento "inline" (no buffer) com Corfu
+  25:42 - Rainbow Delimiters
+  26:55 - Remoção do Projectile
+  28:34 - Magit
+  29:03 - Treemacs
+  35:13 - Remoção da integração com o Projectile
+  35:44 - Integração do Treemacs com o LSP
+  40:10 - Modo CC (c-mode)
+  43:28 - Flycheck
+  44:51 - Modo LSP
+  46:01 - LSP-UI
+  54:13 - YASnippet
+  1:02:03 - O que fica para outros labs
+  1:03:24 - Fontes
+  1:05:00 - Exportação dos blocos para o init.el
+  1:07:38 - Aplicação das configurações
+  1:12:37 - Solução do ícone de estado na modeline
+
+* Criei um segundo cérebro usando Claude + uma pasta  :claude:org:OrgRoam:
+:PROPERTIES:
+:DATE:     2026-03-04T06:45:06-08:00
+:DURATION: 8:43
+:YOUTUBE_URL: https://www.youtube.com/watch?v=hCa3rJMGlPM
+:SPEAKERS: Tiago Aguiar
+:END:
+  🎓 Formação Android: https://ads.tiagoaguiar.co/hCa3rJMGlPM-pad
+  🎓 Formação iOS: https://ads.tiagoaguiar.co/hCa3rJMGlPM-pid
+
+  Eu explico como transformei uma simples pasta em um segundo cérebro real usando Emacs, Org-Roam e Claude Desktop com acesso direto ao meu filesystem.
+
+  Mostro como minhas notas deixaram de ser arquivos esquecidos e passaram a funcionar como uma extensão ativa da minha própria mente.
+
+  Você vai entender como a IA consegue ler, conectar ideias e me ajudar a gerar novos conteúdos com base no que eu já pensei ao longo dos anos.
+
+  Não é mágica, não é hype.
+  É arquitetura de conhecimento aplicada com inteligência artificial.
+
+  Se você já usa Obsidian ou qualquer sistema de segundo cérebro, isso pode mudar completamente a forma como você trabalha com IA.
+
+  Aqui eu mostro o modelo mental, a estrutura da pasta, a integração com Claude Desktop e como transformar notas soltas em um sistema vivo que pensa junto com você.
+
+  📲 Instagram: https://www.instagram.com/tiagoaguiar.oficial/
+
+  😎 Sobre o Tiago Aguiar:
+  Eu acredito verdadeiramente que, sendo desenvolvedor desde 2011, eu possa te ajudar de alguma forma a evoluir na sua carreira mobile e te ajudar a criar aplicativos Android e iOS de verdade. Para conhecer a minha história nessa jornada de criação de aplicativos, acesse tiagoaguiar.dev
+
+* 024 Ollama Buddy - Web Search Integration - @search() inline syntax #emacs #ollama  :ai:ollama:
+:PROPERTIES:
+:DATE:     2026-03-04T02:25:25-08:00
+:DURATION: 2:11
+:YOUTUBE_URL: https://www.youtube.com/watch?v=05VzAajH404
+:SPEAKERS: Ollama Buddy for Emacs
+:END:
+  Demonstrating the Emacs package ollama-buddy's web search integration.
+
+  Select minimax-m2.1:cloud
+
+  - Open chat and type: =What is the next fixture for Manchester United=
+  - Open chat and type: =What is the @search(next fixture for Manchester United)=
+  - Show the ♁N indicator appearing in the header line
+  - Use =C-c / l= to show the attached web search results
+  - Ask a follow-up question using the attached context
+    "and what about liverpools" - to prove that we only have Manchester United context
+  - type: =and what about @search(liverpools next fixture?)=
+  - Use =C-c / l= to show the attached web search results
+
+  https://melpa.org/#/ollama-buddy
+  https://github.com/captainflasmr/ollama-buddy
+
+  ,#emacs #ollama
+* Bending Emacs Episode 13: agent-shell + Claude Skills + Charts  :ai:AgentShell:claude:
+:PROPERTIES:
+:DATE:     2026-03-03T14:09:49-08:00
+:DURATION: 28:10
+:YOUTUBE_URL: https://www.youtube.com/watch?v=HJQ86HuSIJI
+:SPEAKERS: xenodium
+:END:
+  In this episode we build upon our the previous video, leveraging agent-shell, Claude, Claude Skills, and command line diagram utilities to visualize or analuze data.
+
 * A Year Without Vertico - System Crafters Live!  :completion:
 :PROPERTIES:
 :DATE:     2026-02-27T22:06:25-08:00

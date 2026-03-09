@@ -6,6 +6,143 @@
     <atom:link href="https://emacs.tv/videos.rss" rel="self" type="application/rss+xml" />
     <description>Emacs videos</description>
     <item>
+      <title>[EMACS LAB #2] Do zero a uma IDE para programar em C (parte 2)</title>
+      <link>https://www.youtube.com/watch?v=Obq_nFEBN0M</link>
+      <guid>https://www.youtube.com/watch?v=Obq_nFEBN0M</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=Obq_nFEBN0M">youtube</a><br><br>Este é um compacto do que rolou no laboratório de 07/03/2026, onde nós terminamos a configuração do Emacs para chegarmos a uma IDE para trabalhar com a programação em C.
+
+  Repositório:
+  https://bolha.dev/blau_araujo/debxp/src/branch/main/emacs#headline-4
+
+  -----
+
+  Todo o nosso trabalho só é possível graças ao apoio de vocês!
+
+  -----
+
+  Me ajude a adquirir livros e equipamentos para continuar produzindo conteúdos sobre este e outros assuntos.
+
+  Lista de prioridades de trabalho na Amazon:
+  https://www.amazon.com.br/hz/wishlist/ls/3LE4PKZEUOCCG?ref_=wl_share
+
+  -----
+
+  Outras formas de apoio:
+
+  * Mande um salve: https://livepix.gg/blauaraujo
+  * Assinatura: https://livepix.gg/blauaraujo/assinatura
+  * PIX: pix@blauaraujo.com
+  * PicPay: https://picpay.me/blauaraujo
+  * PayPal: https://bit.ly/paypal-debxp
+  * Apoia.se: https://apoia.se/debxpcursos
+  * Meu livro: https://uiclap.bio/blau_araujo
+
+  Muito obrigado!
+
+  ------
+
+  Nosso site:
+  https://debxp.org
+
+  Conteúdo complementar:
+  https://bolha.dev/blau_araujo/debxp
+
+  Meu site:
+  https://blauaraujo.com
+
+  -----
+
+  Capítulos:
+
+  0:00 - Preparando a "bancada"
+  6:10 - Autocomplemento de comandos
+  7:11 - Vertico
+  8:59 - Marginalia
+  10:32 - Orderless
+  14:01 - Consult
+  17:45 - Which Key
+  19:42 - Complemento "inline" (no buffer) com Corfu
+  25:42 - Rainbow Delimiters
+  26:55 - Remoção do Projectile
+  28:34 - Magit
+  29:03 - Treemacs
+  35:13 - Remoção da integração com o Projectile
+  35:44 - Integração do Treemacs com o LSP
+  40:10 - Modo CC (c-mode)
+  43:28 - Flycheck
+  44:51 - Modo LSP
+  46:01 - LSP-UI
+  54:13 - YASnippet
+  1:02:03 - O que fica para outros labs
+  1:03:24 - Fontes
+  1:05:00 - Exportação dos blocos para o init.el
+  1:07:38 - Aplicação das configurações
+  1:12:37 - Solução do ícone de estado na modeline</div>]]></description>
+      <pubDate>Sun, 08 Mar 2026 16:23:53 +0000</pubDate><category>coding</category>
+<category>c</category>
+    </item>
+    <item>
+      <title>Criei um segundo cérebro usando Claude + uma pasta</title>
+      <link>https://www.youtube.com/watch?v=hCa3rJMGlPM</link>
+      <guid>https://www.youtube.com/watch?v=hCa3rJMGlPM</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=hCa3rJMGlPM">youtube</a><br><br>🎓 Formação Android: https://ads.tiagoaguiar.co/hCa3rJMGlPM-pad
+  🎓 Formação iOS: https://ads.tiagoaguiar.co/hCa3rJMGlPM-pid
+
+  Eu explico como transformei uma simples pasta em um segundo cérebro real usando Emacs, Org-Roam e Claude Desktop com acesso direto ao meu filesystem.
+
+  Mostro como minhas notas deixaram de ser arquivos esquecidos e passaram a funcionar como uma extensão ativa da minha própria mente.
+
+  Você vai entender como a IA consegue ler, conectar ideias e me ajudar a gerar novos conteúdos com base no que eu já pensei ao longo dos anos.
+
+  Não é mágica, não é hype.
+  É arquitetura de conhecimento aplicada com inteligência artificial.
+
+  Se você já usa Obsidian ou qualquer sistema de segundo cérebro, isso pode mudar completamente a forma como você trabalha com IA.
+
+  Aqui eu mostro o modelo mental, a estrutura da pasta, a integração com Claude Desktop e como transformar notas soltas em um sistema vivo que pensa junto com você.
+
+  📲 Instagram: https://www.instagram.com/tiagoaguiar.oficial/
+
+  😎 Sobre o Tiago Aguiar:
+  Eu acredito verdadeiramente que, sendo desenvolvedor desde 2011, eu possa te ajudar de alguma forma a evoluir na sua carreira mobile e te ajudar a criar aplicativos Android e iOS de verdade. Para conhecer a minha história nessa jornada de criação de aplicativos, acesse tiagoaguiar.dev</div>]]></description>
+      <pubDate>Wed, 04 Mar 2026 14:45:06 +0000</pubDate><category>claude</category>
+<category>org</category>
+<category>OrgRoam</category>
+    </item>
+    <item>
+      <title>024 Ollama Buddy - Web Search Integration - @search() inline syntax #emacs #ollama</title>
+      <link>https://www.youtube.com/watch?v=05VzAajH404</link>
+      <guid>https://www.youtube.com/watch?v=05VzAajH404</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=05VzAajH404">youtube</a><br><br>Demonstrating the Emacs package ollama-buddy's web search integration.
+
+  Select minimax-m2.1:cloud
+
+  - Open chat and type: =What is the next fixture for Manchester United=
+  - Open chat and type: =What is the @search(next fixture for Manchester United)=
+  - Show the ♁N indicator appearing in the header line
+  - Use =C-c / l= to show the attached web search results
+  - Ask a follow-up question using the attached context
+    "and what about liverpools" - to prove that we only have Manchester United context
+  - type: =and what about @search(liverpools next fixture?)=
+  - Use =C-c / l= to show the attached web search results
+
+  https://melpa.org/#/ollama-buddy
+  https://github.com/captainflasmr/ollama-buddy
+
+  ,#emacs #ollama</div>]]></description>
+      <pubDate>Wed, 04 Mar 2026 10:25:25 +0000</pubDate><category>ai</category>
+<category>ollama</category>
+    </item>
+    <item>
+      <title>Bending Emacs Episode 13: agent-shell + Claude Skills + Charts</title>
+      <link>https://www.youtube.com/watch?v=HJQ86HuSIJI</link>
+      <guid>https://www.youtube.com/watch?v=HJQ86HuSIJI</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=HJQ86HuSIJI">youtube</a><br><br>In this episode we build upon our the previous video, leveraging agent-shell, Claude, Claude Skills, and command line diagram utilities to visualize or analuze data.</div>]]></description>
+      <pubDate>Tue, 03 Mar 2026 22:09:49 +0000</pubDate><category>ai</category>
+<category>AgentShell</category>
+<category>claude</category>
+    </item>
+    <item>
       <title>A Year Without Vertico - System Crafters Live!</title>
       <link>https://www.youtube.com/watch?v=3GDuQ1VAM8M</link>
       <guid>https://www.youtube.com/watch?v=3GDuQ1VAM8M</guid>
@@ -827,70 +964,6 @@
   ,#emacs #ollama</div>]]></description>
       <pubDate>Wed, 28 Jan 2026 08:24:50 +0000</pubDate><category>ai</category>
 <category>ollama</category>
-    </item>
-    <item>
-      <title>Sorting Lines by Fields in Emacs</title>
-      <link>https://www.youtube.com/watch?v=rSom7XjUa-o</link>
-      <guid>https://www.youtube.com/watch?v=rSom7XjUa-o</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=rSom7XjUa-o">youtube</a><br><br>How to sort lines by fields in Emacs.
-
-  https://github.com/emacselements
-  https://emacselements.com/</div>]]></description>
-      <pubDate>Wed, 28 Jan 2026 03:04:14 +0000</pubDate><category>sorting</category>
-    </item>
-    <item>
-      <title>ECA: AI pair programming in your editor - Dallo</title>
-      <link>https://www.youtube.com/watch?v=4NszXTVpwmU</link>
-      <guid>https://www.youtube.com/watch?v=4NszXTVpwmU</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=4NszXTVpwmU">youtube</a><br><br>ECA is an AI pair programmer that bridges the gap between modern editors and a variety of LLMs — from commercial APIs to local models or even your company's API - completely free of vendor lock — with native integration for VSCode, IntelliJ, Vim, and Emacs.
-
-  In this session, discover how its Clojure architecture powers a dynamic customizable agentic loop within a fully transparent and open framework.
-  This unique design empowers users to customize its behavior right down to the prompts, ensuring control and transparency over the AI's operation.
-
-  Biography
-
-  Maintainer of clojure-lsp, lsp-mode, ECA, metrepl, jet.el, and other tool-related OSS projects. Engineer at Nubank helping improve developers' tooling XP
-
-  Recorded Nov 13, 2025 at Clojure/Conj 2025 in Charlotte, NC.</div>]]></description>
-      <pubDate>Tue, 27 Jan 2026 15:51:37 +0000</pubDate><category>ai</category>
-<category>eca</category>
-    </item>
-    <item>
-      <title>Developing yet another way to do research in Emacs - fool&apos;s errand?</title>
-      <link>https://www.youtube.com/watch?v=TqVIAVTzQmY</link>
-      <guid>https://www.youtube.com/watch?v=TqVIAVTzQmY</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=TqVIAVTzQmY">youtube</a><br><br>Here I'm showing Emacs things I'm working on:
-  * *nov-x* : highlights and annotations for *nov*
-  * *librarian* : Management of epub and pdf files with metadata and a query language
-  * *researcher* : help with research and syntopic reading, leveraging *librarian*
-
-  I also use *denote* , so no need to tell me that all this functionality is subsumed by *org-roam* or *denote* .  Although maybe I *do* need to hear that.  There is a huge ecosystem that I don't necessarily know about!
-
-  00:00 LLM Code not just *with* Emacs, but *for* Emacs
-  00:25 nov-mode for reading EPUB books
-  03:06 nov-x: highlighting and annotations in Org Mode
-  09:02 librarian: organization, filtering, smart shelves and metadata
-  11:13 researcher: research management, Adlerian syntopic reading
-
-
-  Did you know Emacs has a very nice E-book reader?  Well, it actually has more than one.  *doc-view* is built in and can handle more than EPUB: PDF, ODF and much more.  But that mode turns every page into an image, then cleverly still allows some degree of text selection.  But that's ... weird.
-
-  For EPUB-only reading, there is *nov-mode* in a package where all the elisp code resides in the nicely named *nov.el* .  Nov leverages *shr* , which does X/HTML rendering - little or no CSS, so styling placed by publishers can be lost.  I think this is a net win, because it helps focus attention on the content.  It is a quite pleasant experience and can be customized with all standard Emacs features: font selection, themes, margins, visual line mode etc.
-
-  I have been extending that mode with annotations and highlighting, all saved in a sidecar  org mode file.
-
-  That lead to wanting something to organize the collection of of books and pdfs, hence *librarian*
-
-  And then came the need to attempt syntopic reading (as can be found in Mortimer Adler's *How to Read a Book* ).  Hence *researcher*</div>]]></description>
-      <pubDate>Sun, 25 Jan 2026 18:43:22 +0000</pubDate><category>writing</category>
-<category>denote</category>
-    </item>
-    <item>
-      <title>Yay Emacs live-coding: whisper.el</title>
-      <link>https://www.youtube.com/watch?v=LtfxMFW0574</link>
-      <guid>https://www.youtube.com/watch?v=LtfxMFW0574</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=LtfxMFW0574">youtube</a><br><br></div>]]></description>
-      <pubDate>Sat, 24 Jan 2026 04:48:38 +0000</pubDate><category>whisper</category>
     </item>
   </channel>
 </rss>
