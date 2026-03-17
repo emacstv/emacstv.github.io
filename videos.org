@@ -3,6 +3,49 @@
 #+PROPERTY: header-args:emacs-lisp+   :eval no
 
 
+* Computing in freedom with GNU Emacs  :philosophy:freedom:
+:PROPERTIES:
+:DATE:     2026-03-13T04:16:53-07:00
+:DURATION: 42:40
+:YOUTUBE_URL: https://www.youtube.com/watch?v=M6ZHDJeG-dI
+:SPEAKERS: Protesilaos Stavrou
+:END:
+  This is a holistic introduction to Emacs: how useful it is and how it champions free software. It is a modified version of the talk I did for the "FLOSS @ Oxford" event, organised by people at the University of Oxford. This is the page I wrote about that event: https://protesilaos.com/codelog/2026-03-12-my-emacs-talk-floss-oxford/
+
+  And here is the transcript for this video: https://protesilaos.com/codelog/2026-03-13-computing-in-freedom-with-gnu-emacs/
+
+* 038 Ollama Buddy - Tool Calling and modifying files with an ediff session #emacs #ollama  :ollama:ai:OllamaBuddy:
+:PROPERTIES:
+:DATE:     2026-03-10T05:30:45-07:00
+:DURATION: 2:11
+:YOUTUBE_URL: https://www.youtube.com/watch?v=Eia_NnvtYrs
+:SPEAKERS: Ollama Buddy for Emacs
+:END:
+  Demonstrating ollama-buddy's tool calling capabilities for editing configuration files through Emacs built-in ediff
+
+  - Open chat with a model that supports tool calling: glm-4.7:cloud
+  - Turn on tooling
+  - "I would like to assign the brightness and volume to have a prefix of the Super key, so it is not just the function key + brightness and volume function keys I press. Note that the current keybindings should be preserved"
+  - Watch read_file tool read the Sway configuration files
+  - Watch the LLM understand the existing keybindings structure
+  - Watch propose_file_changes tool create modified configuration with Super key bindings
+  - Show Ediff session being created for interactive review
+  - Demonstrate the eregistry availability for accessing the diff session
+  - Explain that this integrates LLM intelligence directly into the Emacs workflow for configuration management
+
+  This demonstrates how ollama-buddy can intelligently edit configuration files by:
+  1. Reading existing configuration to understand context
+  2. Making informed changes based on user requirements
+  3. Using Emacs' powerful diff tools (ediff) for safe, reviewable modifications
+  4. Maintaining the complete workflow within the familiar Emacs environment
+
+  The proposed changes add Super+F6/F7 for brightness control and Super+F9/F10/F11 for volume control, preserving the existing XF86 function key bindings.
+
+  https://melpa.org/#/ollama-buddy
+  https://github.com/captainflasmr/ollama-buddy
+
+  ,#emacs #ollama
+
 * [EMACS LAB #2] Do zero a uma IDE para programar em C (parte 2)  :coding:c:
 :PROPERTIES:
 :DATE:     2026-03-08T09:23:53-07:00

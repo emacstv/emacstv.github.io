@@ -6,6 +6,48 @@
     <atom:link href="https://emacs.tv/videos.rss" rel="self" type="application/rss+xml" />
     <description>Emacs videos</description>
     <item>
+      <title>Computing in freedom with GNU Emacs</title>
+      <link>https://www.youtube.com/watch?v=M6ZHDJeG-dI</link>
+      <guid>https://www.youtube.com/watch?v=M6ZHDJeG-dI</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=M6ZHDJeG-dI">youtube</a><br><br>This is a holistic introduction to Emacs: how useful it is and how it champions free software. It is a modified version of the talk I did for the "FLOSS @ Oxford" event, organised by people at the University of Oxford. This is the page I wrote about that event: https://protesilaos.com/codelog/2026-03-12-my-emacs-talk-floss-oxford/
+
+  And here is the transcript for this video: https://protesilaos.com/codelog/2026-03-13-computing-in-freedom-with-gnu-emacs/</div>]]></description>
+      <pubDate>Fri, 13 Mar 2026 11:16:53 +0000</pubDate><category>philosophy</category>
+<category>freedom</category>
+    </item>
+    <item>
+      <title>038 Ollama Buddy - Tool Calling and modifying files with an ediff session #emacs #ollama</title>
+      <link>https://www.youtube.com/watch?v=Eia_NnvtYrs</link>
+      <guid>https://www.youtube.com/watch?v=Eia_NnvtYrs</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=Eia_NnvtYrs">youtube</a><br><br>Demonstrating ollama-buddy's tool calling capabilities for editing configuration files through Emacs built-in ediff
+
+  - Open chat with a model that supports tool calling: glm-4.7:cloud
+  - Turn on tooling
+  - "I would like to assign the brightness and volume to have a prefix of the Super key, so it is not just the function key + brightness and volume function keys I press. Note that the current keybindings should be preserved"
+  - Watch read_file tool read the Sway configuration files
+  - Watch the LLM understand the existing keybindings structure
+  - Watch propose_file_changes tool create modified configuration with Super key bindings
+  - Show Ediff session being created for interactive review
+  - Demonstrate the eregistry availability for accessing the diff session
+  - Explain that this integrates LLM intelligence directly into the Emacs workflow for configuration management
+
+  This demonstrates how ollama-buddy can intelligently edit configuration files by:
+  1. Reading existing configuration to understand context
+  2. Making informed changes based on user requirements
+  3. Using Emacs' powerful diff tools (ediff) for safe, reviewable modifications
+  4. Maintaining the complete workflow within the familiar Emacs environment
+
+  The proposed changes add Super+F6/F7 for brightness control and Super+F9/F10/F11 for volume control, preserving the existing XF86 function key bindings.
+
+  https://melpa.org/#/ollama-buddy
+  https://github.com/captainflasmr/ollama-buddy
+
+  ,#emacs #ollama</div>]]></description>
+      <pubDate>Tue, 10 Mar 2026 12:30:45 +0000</pubDate><category>ollama</category>
+<category>ai</category>
+<category>OllamaBuddy</category>
+    </item>
+    <item>
       <title>[EMACS LAB #2] Do zero a uma IDE para programar em C (parte 2)</title>
       <link>https://www.youtube.com/watch?v=Obq_nFEBN0M</link>
       <guid>https://www.youtube.com/watch?v=Obq_nFEBN0M</guid>
@@ -926,44 +968,6 @@
       <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=WgNfGHAJsUQ">youtube</a><br><br>https://github.com/emacselements
   https://emacselements.com/</div>]]></description>
       <pubDate>Sun, 01 Feb 2026 22:00:37 +0000</pubDate><category>RecursiveEditing</category>
-    </item>
-    <item>
-      <title>Use Batch Mode to Test Your Dot Emacs File</title>
-      <link>https://www.youtube.com/watch?v=qZqUmqqatKs</link>
-      <guid>https://www.youtube.com/watch?v=qZqUmqqatKs</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=qZqUmqqatKs">youtube</a><br><br>Batch mode is a lesser known mode that can be used to test one's init.el
-  emacs -batch -l ~/.emacs.d/init.el
-
-  https://github.com/emacselements
-  https://emacselements.com/</div>]]></description>
-      <pubDate>Wed, 28 Jan 2026 22:01:02 +0000</pubDate>
-    </item>
-    <item>
-      <title>023 Ollama Buddy - Accessing cloud models! #emacs #ollama</title>
-      <link>https://www.youtube.com/watch?v=QsWpVF8yDbQ</link>
-      <guid>https://www.youtube.com/watch?v=QsWpVF8yDbQ</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=QsWpVF8yDbQ">youtube</a><br><br>Demonstrating the Emacs package ollama-buddy, providing a convenient way to integrate Ollama's local LLM capabilities.
-
-  Note: that the user has to be already signed in to ollama.com so the authentication is set up through ollama running locally
-
-  switch to *minimax-m2.1:cloud using the universal argument
-
-  type in some text
-
-  lets see a response!
-
-  switch to gpt-oss:120b-cloud using the transient menu
-
-  type in some text
-
-  lets see a response!
-
-  https://melpa.org/#/ollama-buddy
-  https://github.com/captainflasmr/ollama-buddy
-
-  ,#emacs #ollama</div>]]></description>
-      <pubDate>Wed, 28 Jan 2026 08:24:50 +0000</pubDate><category>ai</category>
-<category>ollama</category>
     </item>
   </channel>
 </rss>
