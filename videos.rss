@@ -6,6 +6,634 @@
     <atom:link href="https://emacs.tv/videos.rss" rel="self" type="application/rss+xml" />
     <description>Emacs videos</description>
     <item>
+      <title>Yay Emacs 11: Fix find-function for Emacs Lisp from org-babel or scratch</title>
+      <link>https://www.youtube.com/watch?v=PKkV1Tbev_Y</link>
+      <guid>https://www.youtube.com/watch?v=PKkV1Tbev_Y</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=PKkV1Tbev_Y">youtube</a><br><br>Related:
+  https://sachachua.com/blog/2026/04/ye11-fix-find-function-for-emacs-lisp-from-org-babel-or-scratch/</div>]]></description>
+      <pubDate>Sun, 05 Apr 2026 21:55:27 +0000</pubDate><category>elisp</category>
+<category>org</category>
+    </item>
+    <item>
+      <title>[EMACS LAB] #3: Introdução ao Org Mode</title>
+      <link>https://www.youtube.com/watch?v=k2-9DS7jZyg</link>
+      <guid>https://www.youtube.com/watch?v=k2-9DS7jZyg</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=k2-9DS7jZyg">youtube</a><br><br>Todo o nosso trabalho só é possível graças ao apoio de vocês!
+
+  * LivePix (doação com mensagem): https://livepix.gg/blauaraujo
+  * LivePix (assinatura): https://livepix.gg/blauaraujo/assinatura
+  * PIX: pix@blauaraujo.com
+  * PicPay: https://picpay.me/blauaraujo
+  * PayPal: https://bit.ly/paypal-debxp
+  * Apoia.se: https://apoia.se/debxpcursos
+  * Meu livro: https://uiclap.bio/blau_araujo
+
+  Lista de prioridades de trabalho na Amazon:
+  https://www.amazon.com.br/hz/wishlist/ls/3LE4PKZEUOCCG?ref_=wl_share
+
+  Muito obrigado!
+
+  -----
+
+  Repositório desta transmissão:
+  https://bolha.dev/blau_araujo/debxp/src/branch/main/emacs
+
+  Nosso grupo sobre Emacs no Telegram:
+  https://t.me/emacs_talks
+
+  Comunidade debxp no Telegram:
+  https://t.me/debxpcomunidade</div>]]></description>
+      <pubDate>Sat, 04 Apr 2026 07:35:41 +0000</pubDate><category>org</category>
+    </item>
+    <item>
+      <title>Crafting an AI-Driven Workflow System - System Crafters Live!</title>
+      <link>https://www.youtube.com/watch?v=SrRweChigB0</link>
+      <guid>https://www.youtube.com/watch?v=SrRweChigB0</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=SrRweChigB0">youtube</a><br><br>In this stream, we'll explore the AI-driven personal workflow system I've been building with Claude Code and Sigil. I'll walk through the full MCP server stack (email, calendar, tasks, knowledge management, and autonomous agent orchestration) showing how it all fits together to manage my daily operations. Then we'll extend the system live by building a new RSS/feed MCP server from scratch, using the system to build itself.
+
+  Let's see what happens when you give an AI agent the right tools and let it craft its own workflow!
+
+  ,#claude #ai #mcp #sigil #scheme #workflow #automation
+
+  SUPPORT THE CHANNEL:
+
+  👍 Support My Work: https://systemcrafters.net/how-to-help/#support-my-work
+  📰 Subscribe to the Newsletter: https://systemcrafters.net/newsletter/
+  👕 Check out the Store: https://systemcrafters.store
+  📘 Get Your Copy of Mastering Emacs: https://www.masteringemacs.org/r/systemcrafters?utm_source=yt&utm_medium=desc&utm_campaign=scme
+
+  SHOW NOTES:
+
+  https://systemcrafters.net/live-streams/april-3-2026/
+
+  JOIN THE COMMUNITY:
+
+  https://systemcrafters.net/community/ (Forum and IRC chat!)
+  https://fosstodon.org/@daviwil
+
+  MY CONFIGURATION:
+
+  (This site is currently down but will be back up soon!)
+
+  https://config.daviwil.com
+  https://config.daviwil.com/emacs
+  https://config.daviwil.com/systems (Guix)
+
+  OTHER SERIES:
+
+  - Emacs Essentials: https://www.youtube.com/watch?v=48JlgiBpw_I&list=PLEoMzSkcN8oPZvSdewHG8uApD7THlLLCV
+  - Emacs From Scratch: https://www.youtube.com/watch?v=74zOY-vgkyw&list=PLEoMzSkcN8oPH1au7H6B7bBJ4ZO7BXjSZ
+  - Emacs Tips: https://www.youtube.com/watch?v=wKTKmE1wLyw&list=PLEoMzSkcN8oMHJ6Xil1YdnYtlWd5hHZql
+  - Emacs Desktop Environment: https://www.youtube.com/watch?v=f7xB2fFk1tQ&list=PLEoMzSkcN8oNPbEMYEtswOVTvq7CVddCS
+  - Emacs IDE: https://www.youtube.com/watch?v=E-NAM9U5JYE&list=PLEoMzSkcN8oNvsrtk_iZSb94krGRofFjN
+  - Emacs Mail: https://www.youtube.com/watch?v=yZRyEhi4y44&list=PLEoMzSkcN8oM-kA19xOQc8s0gr0PpFGJQ
+  - Learning Emacs Lisp: https://www.youtube.com/watch?v=RQK_DaaX34Q&list=PLEoMzSkcN8oPQtn7FQEF3D7sroZbXuPZ7
+  - Craft Your System with GNU Guix: https://www.youtube.com/watch?v=iBaqOK75cho&list=PLEoMzSkcN8oNxnj7jm5V2ZcGc52002pQU
+
+  CREDITS:
+
+  Coriolis Effect by logos feat. stefsax, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/mseq/26296
+  reNovation by airtone, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/airtone/60674
+  ukeSounds by airtone, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/airtone/32655
+  Between Worlds (Instrumental) by Aussens@iter, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/tobias_weber/56664</div>]]></description>
+      <pubDate>Sat, 04 Apr 2026 05:37:06 +0000</pubDate><category>ai</category>
+    </item>
+    <item>
+      <title>Yay Emacs 10: Talking to Prot about Emacs workflows</title>
+      <link>https://www.youtube.com/watch?v=kvBS8wz8ZRw</link>
+      <guid>https://www.youtube.com/watch?v=kvBS8wz8ZRw</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=kvBS8wz8ZRw">youtube</a><br><br>Notes: https://sachachua.com/blog/2026/04/yayemacs-10-emacs-coaching-with-prot-packaging-emacs-lisp/
+
+  Resources:
+  - Emacs coaching with Sacha Chua | Protesilaos Stavrou https://protesilaos.com/codelog/2026-03-31-emacs-coaching-with-sacha-chua/
+  - Thinking about Emacs coaching goals with Prot https://sachachua.com/blog/2026/03/thinking-about-coaching-goals-with-prot/
+  - My Emacs configuration https://sachachua.com/dotemacs
+  - Prot's Emacs configuration https://protesilaos.com/emacs/dotemacs
+  - The livestream we've penciled in for April 16 https://youtube.com/live/djE_pVlgDHg?feature=share - come join us!
+
+  00:01 Intro
+  00:50 Organizing my config into multiple modules and org-babel-post-tangle-hook
+  04:45 Changing namespace, renaming functions
+  07:11 Defining aliases for old functions
+  08:30 Improving my streaming setup
+  12:09 Keeping things from accidentally airing
+  14:50 Livestreaming and recording
+  15:09 Keeping track of interesting moments
+  18:19 Editing
+  20:26 Writing
+  22:34 Packaging
+  25:40 Responding to email
+  29:21 Development workflow
+  29:59 Testing
+  33:46 Learning and reminders
+  35:31 Encapsulating workflows into functions
+  37:05 Popping up notes
+  38:21 Rediscovering things in my config
+  40:31 Catching up on Emacs developments
+  41:29 diffs
+  43:08 Thinking about the community
+  44:00 org-link-preview
+  45:31 Prioritizing things to work on
+  46:39 Modelines
+  46:52 Modelines
+  48:50 Themes would be nice to have per-frame
+  49:27 Livestreaming conversations with Prot
+  50:11 Getting together
+  54:44 Namespaces
+  55:46 Verbose function names
+  56:45 Naming conventions for ERT tests
+  57:14 shorthands
+  58:27 Bisecting config in multiple files
+  58:46 "I don't write bugs."</div>]]></description>
+      <pubDate>Sat, 04 Apr 2026 04:59:44 +0000</pubDate><category>coaching</category>
+<category>workflow</category>
+    </item>
+    <item>
+      <title>Emacs ATX Meetup. April 2026.</title>
+      <link>https://www.youtube.com/watch?v=465GSalM6oI</link>
+      <guid>https://www.youtube.com/watch?v=465GSalM6oI</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=465GSalM6oI">youtube</a><br><br>https://www.meetup.com/emacsatx
+
+  Links from the chat:
+
+  https://github.com/djgoku/compilation-history
+  https://github.com/agzam/occult.el
+  https://github.com/agzam/tecla
+  https://github.com/editor-code-assistant/eca-emacs
+  https://github.com/karthink/gptel
+  https://github.com/steveyegge/efrit
+  https://github.com/rhblind/emacs-mcp-server
+  https://mistral.ai/news/leanstral
+  https://arxiv.org/abs/2305.12295
+  https://hexdocs.pm/elixir/docs-tests-and-with.html#doctests
+  https://github.com/hokomo/query-replace-parallel
+
+  0:00:00 Intro & Roundtable
+  0:02:00 Compilation history package demo
+  0:18:17 Occult demo
+  0:25:00 El Slacko tokens
+  0:26:55 Spacehammer & Tecla - modal keyboard toolkits
+  0:50:00 GPTel & MCP Tools in Clojure
+  0:55:00 Coding Agents & GPTel Capabilities
+  1:00:00 Claude Code Design Discussion
+  1:05:00 ECA & Gptel practical demo
+  1:31:00 Lean & Nucleus
+  1:50:00 query-replace-parallel
+  1:55:00 wiktionary-bro
+  2:00:00 LLM Client Model Scraping
+
+  Discussions:
+
+  https://www.reddit.com/r/emacs/comments/1sa0jmd/emacs_atx_meetup_tomorrow_thursday/
+  https://news.ycombinator.com/item?id=47623085</div>]]></description>
+      <pubDate>Fri, 03 Apr 2026 03:12:58 +0000</pubDate><category>meetup</category>
+    </item>
+    <item>
+      <title>doom emacs install on manjaro linux walkthrough on hyper-v vm</title>
+      <link>https://www.youtube.com/watch?v=tj6iMpf18DU</link>
+      <guid>https://www.youtube.com/watch?v=tj6iMpf18DU</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=tj6iMpf18DU">youtube</a><br><br></div>]]></description>
+      <pubDate>Thu, 02 Apr 2026 15:01:32 +0000</pubDate><category>DoomEmacs</category>
+    </item>
+    <item>
+      <title>Yay Emacs live: Demo: Extract PDF highlights into an Org file with Python</title>
+      <link>https://www.youtube.com/watch?v=OTnYV2IZL_U</link>
+      <guid>https://www.youtube.com/watch?v=OTnYV2IZL_U</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=OTnYV2IZL_U">youtube</a><br><br>I think I can use Noteful on my iPad to highlight interesting parts of PDFs and then extract those sections using Python into an Org Mode file, with images and text. Here's a quick demo!
+
+  2026-04-02: Hah, noticed I was off by one in the pagenum, fixed that in the Python script.
+
+  Code and notes: https://sachachua.com/blog/2026/04/demo-extract-pdf-highlights-into-an-org-file-with-python/</div>]]></description>
+      <pubDate>Thu, 02 Apr 2026 11:48:30 +0000</pubDate><category>org</category>
+    </item>
+    <item>
+      <title>Prot Asks: Hjalmar about Emacs for music, the joy of art, and Internet sociability</title>
+      <link>https://www.youtube.com/watch?v=XlESi31czFA</link>
+      <guid>https://www.youtube.com/watch?v=XlESi31czFA</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=XlESi31czFA">youtube</a><br><br>In this 2-hour video, I talk with Hjalmar about using Emacs to write music, the joy of artistic expression, and sociability in the Internet era.
+
+  Hjalmar is a viola player and composer who currently studies composition at the Norwegian Academy of Music. We start our discussion with me asking how it is to study music. I learn about Hjalmar's experiences in that regard.
+
+  Hjalmar writes music in Emacs using a setup that involves Org, the Org Babel system, and the LilyPond music notation. Hjalmar describes in further detail how this process works.
+
+  I was curious how Hjalmar discovered Emacs to learn that it was a hobby that developed during the Covid pandemic. We discuss how even though Emacs is known as a programmer's tool, it is equally capable for people who do not write code, such as musicians, academics, and journalists. A large part of that is Org and its wider ecosystem of extended functionality.
+
+  I ask about Hjalmar's creative process. It is an iterative process of accumulating lots of pieces and then jumbling them to produce a result. Hjalmar will typically settle for the second version, given that it is an attempt to address all the mistakes of the first draft.
+
+  A large part of our exchange is about the process of artistic expression. Hjalmar is interested in creating playful interactions with the audience, to blur the lines between what is and what is not music, and to make everyone present a participant. I learn more about how this works and the relevant ideas that inform the approach.
+
+  The other big theme of our talk is the human experience in the context of digital technology and the Internet. This is about artistic stimuli as well as interpersonal affairs. We discuss the community aspect of art and how that relates to the feelings of connection and creativity. The gist is how we benefit from face-to-face interactions in ways that our technology cannot replicate.
+
+  ,## Links from Hjalmar
+
+  - Personal website: https://hjalmarbjerner.com/
+  - YouTube channel: https://youtube.com/@hjallis22
+
+  ,## About "Prot Asks"
+
+  In this video series, I talk to anybody who is interested to have a video call with me (so do contact me if you want!). The topics cover anything related to Emacs, technology, and life in general. More here: https://protesilaos.com/prot-asks.</div>]]></description>
+      <pubDate>Thu, 02 Apr 2026 08:45:03 +0000</pubDate><category>ProtAsks</category>
+<category>community</category>
+    </item>
+    <item>
+      <title>Yay Emacs live: Reorganizing my Emacs configuration so that my defuns are tangled to separate files</title>
+      <link>https://www.youtube.com/watch?v=9CV5pTIM7Vk</link>
+      <guid>https://www.youtube.com/watch?v=9CV5pTIM7Vk</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=9CV5pTIM7Vk">youtube</a><br><br>That way, I can use =user-lisp-directory= to byte-compile and autoload them, and they might be easier for other people to load snippets from.
+
+  Resources:
+  - https://protesilaos.com/emacs/dotemacs#h:74c3a9e1-6852-4307-b7ba-925d8d2f61ff - Prot: Why many modules instead of one init.el?</div>]]></description>
+      <pubDate>Thu, 02 Apr 2026 03:33:30 +0000</pubDate><category>elisp</category>
+<category>configuration</category>
+<category>org</category>
+    </item>
+    <item>
+      <title>Creating an Emacs Package from Concept to MELPA (Part 7)</title>
+      <link>https://www.youtube.com/watch?v=FUAXrMbY9nE</link>
+      <guid>https://www.youtube.com/watch?v=FUAXrMbY9nE</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=FUAXrMbY9nE">youtube</a><br><br>Today we are going to make corrections suggested by the MELPA maintainers to our rare-words package.</div>]]></description>
+      <pubDate>Wed, 01 Apr 2026 18:34:33 +0000</pubDate><category>elisp</category>
+<category>packaging</category>
+    </item>
+    <item>
+      <title>Org-mode - Various font sizes LaTeX</title>
+      <link>https://www.youtube.com/watch?v=oBkzkDutLCI</link>
+      <guid>https://www.youtube.com/watch?v=oBkzkDutLCI</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=oBkzkDutLCI">youtube</a><br><br>Become my channel member: https://www.sparxsys.com/join
+
+  There are various font sizes available in LaTex.
+
+  ,#Emacs #LaTex
+
+  ,####
+  Become Jira master: https://www.youtube.com/ravisagar1/join
+  Need my help? Raise a ticket for me: https://www.ravisagar.in/support
+  Atlassian Consultancy Services: https://www.sparxsys.com/
+  Jira books and Video courses (Available to buy): https://www.ravisagar.in/products
+  Free Ravi Sagar Courses: https://www.ravisagar.in/courses
+
+  Social
+  1. Blog: https://www.ravisagar.in
+  2. Linkedin: https://www.linkedin.com/in/ravisagar/
+  3. Twitter: https://www.twitter.com/ravisagar
+  4. Podcast: https://www.ravisagar.in/podcast
+  5. Youtube: https://youtube.com/ravisagar1
+  ,####</div>]]></description>
+      <pubDate>Wed, 01 Apr 2026 15:50:41 +0000</pubDate><category>org</category>
+    </item>
+    <item>
+      <title>Spellcheck with Emacs</title>
+      <link>https://www.youtube.com/watch?v=LML6pnwLcKE</link>
+      <guid>https://www.youtube.com/watch?v=LML6pnwLcKE</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=LML6pnwLcKE">youtube</a><br><br>,#emacs  #orgmode  #writing
+
+  Lets get spellcheck setup in emacs.
+
+  ,## Links
+
+  - Read the full post with links: https://curtismchale.ca/2026/03/31/check-spelling-in-emacs
+
+  ,## Courses
+
+  - SkillShare TickTick Course: https://skl.sh/2ExpXVv
+  - SkillShare Timeblocking Course: https://skl.sh/38MQzz8
+  - SkillShare Zettelkasten Course: https://skl.sh/3rntNDW
+  - Getting Started with Obsidian Course: https://skl.sh/2Y6DUDM
+
+  ,## My Gear
+
+  - My gear: https://curtismchale.ca/my-gear
+  - Patreon: https://patreon.com/curtismchale
+  - Music: https://www.epidemicsound.com/referral/blhmqa/
+  - Streaming with: https://www.ecamm.com/mac/ecammlive/?fp_ref=curtis42</div>]]></description>
+      <pubDate>Tue, 31 Mar 2026 13:00:19 +0000</pubDate><category>writing</category>
+<category>org</category>
+    </item>
+    <item>
+      <title>Will using Emacs give you an edge in the AI-era?</title>
+      <link>https://www.youtube.com/watch?v=ePH3u7lmFWU</link>
+      <guid>https://www.youtube.com/watch?v=ePH3u7lmFWU</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=ePH3u7lmFWU">youtube</a><br><br>Just thinking out loud on some AI-related things and giving a sneak peek of my current workflow.
+
+  Things mentioned:
+
+  https://github.com/karthink/gptel
+
+  https://github.com/editor-code-assistant/eca
+
+  https://github.com/agzam/go-jira.el
+
+  https://github.com/agzam/occult.el
+
+  Dictation app: https://tryvoiceink.com
+
+  Reddit discussion threads:
+
+  https://www.reddit.com/r/emacs/comments/1s8atnd/will_using_emacs_give_you_an_edge_in_the_aiera_45/
+
+  https://www.reddit.com/r/emacs/comments/1s8m35w/will_using_emacs_give_you_an_edge_in_the_aiera/</div>]]></description>
+      <pubDate>Tue, 31 Mar 2026 02:18:55 +0000</pubDate><category>ai</category>
+    </item>
+    <item>
+      <title>Emacs Describes Almost Everything Within It 2026 03 30 03:29:50</title>
+      <link>https://www.youtube.com/watch?v=uNR18ylj9rg</link>
+      <guid>https://www.youtube.com/watch?v=uNR18ylj9rg</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=uNR18ylj9rg">youtube</a><br><br>In this video, you will see Emacs describe mode to explain almost everything inside it.
+
+  ,#linux #linuxadmin #sysadmin #opensource #Gentoo #Debian #Slackware #research
+  ,#linuxkernel #kernel #gnu #Linux #GNU
+
+  Buy Me A Coffee: https://www.buymeacoffee.com/unixbhaskar
+  Patreon: https://www.patreon.com/unixbhaskar
+  Paypal: https://paypal.me/linuxbhaskar
+
+  You can also find me :
+
+  GitHub: https://github.com/unixbhaskar
+
+  Reddit: https://www.reddit.com/user/unixbhaskar
+
+  Blogs: https://unixbhaskar.wordpress.com
+
+  Twitter: https://twitter.com/unixbhaskar
+
+  Linkedin: https://linkedin.com/in/unixbhaskar
+
+  Vimeo: https://vimeo.com/unixbhaskar
+
+  Goodreads: https://goodreads.com/unixbhaskar</div>]]></description>
+      <pubDate>Sun, 29 Mar 2026 22:39:50 +0000</pubDate>
+    </item>
+    <item>
+      <title>Edit Shell Commands in Emacs with CTRL-X CTRL-E</title>
+      <link>https://www.youtube.com/watch?v=rGfV8ivDn_0</link>
+      <guid>https://www.youtube.com/watch?v=rGfV8ivDn_0</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=rGfV8ivDn_0">youtube</a><br><br>Send commands from your terminal to emacs with a keyboard shortcut,
+  finshing typing the command in emacs and send it back to the terminal to be executed
+
+  Trigger: Press CTRL+X, then CTRL+E while typing any command in the terminal
+
+  Edit: Your command opens in a new Emacs frame.
+
+  Execute: Use Emacs' tools (like Alt-/ for autocomplete), save, and close the buffer (Ctrl-x k).
+
+  Result: The command is sent back to your terminal and executes automatically
+
+  zshenv
+  https://github.com/NapoleonWils0n/nixos-dotfiles/blob/master/.zshenv#l24
+
+  zshrc
+  https://github.com/NapoleonWils0n/nixos-dotfiles/blob/master/.zshrc#L193
+
+  emac init.el
+  https://github.com/NapoleonWils0n/nixos-dotfiles/blob/master/.config/emacs/init.el</div>]]></description>
+      <pubDate>Sat, 28 Mar 2026 14:57:00 +0000</pubDate><category>shell</category>
+    </item>
+    <item>
+      <title>Prot Asks: Arkadiusz about blindness, Emacspeak, Hyperbole, Chinese and Slavic culture</title>
+      <link>https://www.youtube.com/watch?v=oH5GKEgEGV0</link>
+      <guid>https://www.youtube.com/watch?v=oH5GKEgEGV0</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=oH5GKEgEGV0">youtube</a><br><br>In this 2-hour video I talk with Arkadiusz about how he uses the computer as a blind person. We also cover a range of other issues, from cultural values to topics of artificial intelligence. Much of our conversation revolves around the use of Emacs, which empowers Arkadiusz to do much of his computing.
+
+  Emacs has a package called `emacspeak`, which provides an audio interface to the computer. Arkadiusz explains how this is a powerful piece of technology because it benefits greatly from the introspectability and extensibility of Emacs. I get an idea of how `emacspeak` works and how it can augment the experience by giving feedback about the given context.
+
+  Another Emacs package that has context-aware functionality is `hyperbole`. Arkadiusz considers it an excellent addition to his workflow. With `hyperbole` Arkadiusz has developed the intuition to quickly act on so-called "implicit buttons", which are portions of text that `hyperbole` can do something useful on. There also are "explicit buttons", which Arkadiusz has designed himself to perform actions that streamline his workflow.
+
+  As we gradually move away from discussing Emacs, I ask Arkadiusz about his study of Chinese. He tells me the experience he had back in Poland, his native country, and how he was able to continue his studies in Italy. Part of this discussion covers Arkadiusz's blindness and describes how he showed strength of character to not let a setback derail his life.
+
+  I then want to learn more about the connection between Chinese and Slavic cultures. Arkadiusz suggests that there are some shared values between the two cultures, even though politics may sometimes get in the way. I learn how people value virtues such as hard work and honesty. To this end, I comment that the ethos is essentially about not settling for mediocrity when you can have excellence.
+
+  Our discussion continues into accessibility beyond the computer. Arkadiusz tells me how it is to live as a blind person and how one depends on the infrastructure being accessible. To illustrate the point, Arkadiusz tells me that he could never live like me alone in the mountains, even if he likes to, because some of the essentials for him would not be available. Along those lines, Arkadiusz shares his thoughts about not overly protecting people, such as in the case of special schools, as that tends to have adverse long-term effects: people have to be exposed to society at-large and thus need to be able to cope with it.
+
+  As we continue talking, we eventually get to the point of Artificial Intelligence, which Arkadiusz correctly distinguishes from machine learning. I want to learn what Arkadiusz thinks about the present state of affairs. Arkadiusz explains his moral reservations about AI and how, fundamentally, it being controlled by a handful of corporations is harmful. We discuss several related issues along those lines, including matters of personal creativity.
+
+  ,## Links from Arkadiusz
+
+  These pertain to a talk Arkadiusz gave at the Pragma 2025 conference about using the computer as a blind person.
+
+  1. Pragma video: https://www.youtube.com/watch?v=Ry77etLCAfg
+  2. Presentation repository: https://github.com/Nuno69/Pragma2025
+
+  ,## About "Prot Asks"
+
+  In this video series, I talk to anybody who is interested to have a video call with me (so do contact me if you want!). The topics cover anything related to Emacs, technology, and life in general. More here: https://protesilaos.com/prot-asks.</div>]]></description>
+      <pubDate>Wed, 25 Mar 2026 15:16:22 +0000</pubDate><category>ProtAsks</category>
+<category>community</category>
+    </item>
+    <item>
+      <title>Emacs: another spontaneous live stream for denote-sequence</title>
+      <link>https://www.youtube.com/watch?v=rDJbPCjZiOI</link>
+      <guid>https://www.youtube.com/watch?v=rDJbPCjZiOI</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=rDJbPCjZiOI">youtube</a><br><br>At 21:30 Europe/Athens time I will do a live stream (~30 minutes from this writing). The plan is to continue some of the work I am doing on my denote-sequence package for Emacs.
+
+  * * *
+
+  Find all my publications on my website (Emacs, philosophy, etc.): https://protesilaos.com
+
+  All my Emacs-related work: https://protesilaos.com/emacs.</div>]]></description>
+      <pubDate>Wed, 25 Mar 2026 09:01:05 +0000</pubDate><category>denote</category>
+    </item>
+    <item>
+      <title>Emacs Webpaste Is A Tool To Use Online Pastebin Services 2026_03_25_03:57:04</title>
+      <link>https://www.youtube.com/watch?v=vu2AoMmjSAo</link>
+      <guid>https://www.youtube.com/watch?v=vu2AoMmjSAo</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=vu2AoMmjSAo">youtube</a><br><br>In this video, you will see, an Emacs package named webpaste to provide a facility to send content to the online pastebin services.
+
+  ,#linux #linuxadmin #sysadmin #opensource #Gentoo #Debian #Slackware #research
+  ,#linuxkernel #kernel #gnu #Linux #GNU
+
+  Buy Me A Coffee: https://www.buymeacoffee.com/unixbhaskar
+  Patreon: https://www.patreon.com/unixbhaskar
+  Paypal: https://paypal.me/linuxbhaskar
+
+  You can also find me :
+
+  GitHub: https://github.com/unixbhaskar
+
+  Reddit: https://www.reddit.com/user/unixbhaskar
+
+  Blogs: https://unixbhaskar.wordpress.com
+
+  Twitter: https://twitter.com/unixbhaskar
+
+  Linkedin: https://linkedin.com/in/unixbhaskar
+
+  Vimeo: https://vimeo.com/unixbhaskar
+
+  Goodreads: https://goodreads.com/unixbhaskar</div>]]></description>
+      <pubDate>Tue, 24 Mar 2026 23:20:26 +0000</pubDate><category>web</category>
+    </item>
+    <item>
+      <title>Goodbye Longform Hello Emacs</title>
+      <link>https://www.youtube.com/watch?v=d5fRFF6Q5aU</link>
+      <guid>https://www.youtube.com/watch?v=d5fRFF6Q5aU</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=d5fRFF6Q5aU">youtube</a><br><br>,#emacs  #orgmode  #writing
+
+  I love Obsidian but the Longform plugin failed me for the last time. Let's move some of my writing to Emacs.
+
+  ,## Links
+
+  - Read the full post with links: https://curtismchale.ca/2026/03/24/goodbye-longform-hello-emacs
+
+  ,## Courses
+
+  - SkillShare TickTick Course: https://skl.sh/2ExpXVv
+  - SkillShare Timeblocking Course: https://skl.sh/38MQzz8
+  - SkillShare Zettelkasten Course: https://skl.sh/3rntNDW
+  - Getting Started with Obsidian Course: https://skl.sh/2Y6DUDM
+
+  ,## My Gear
+
+  - My gear: https://curtismchale.ca/my-gear
+  - Patreon: https://patreon.com/curtismchale
+  - Music: https://www.epidemicsound.com/referral/blhmqa/
+  - Streaming with: https://www.ecamm.com/mac/ecammlive/?fp_ref=curtis42</div>]]></description>
+      <pubDate>Tue, 24 Mar 2026 13:01:11 +0000</pubDate><category>writing</category>
+<category>OrgMode</category>
+    </item>
+    <item>
+      <title>Monday Live Coding with Emacs. 3/23/2026 #coding #livecoding #emacs #learnc</title>
+      <link>https://www.youtube.com/watch?v=4rqzQwYG_Co</link>
+      <guid>https://www.youtube.com/watch?v=4rqzQwYG_Co</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=4rqzQwYG_Co">youtube</a><br><br>Work on some C Programming and Emacs fun.</div>]]></description>
+      <pubDate>Tue, 24 Mar 2026 10:40:09 +0000</pubDate><category>coding</category>
+<category>c</category>
+    </item>
+    <item>
+      <title>Emacs: spontaneous live stream to implement a denote-sequence feature</title>
+      <link>https://www.youtube.com/watch?v=4RxFImWhNrI</link>
+      <guid>https://www.youtube.com/watch?v=4RxFImWhNrI</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=4RxFImWhNrI">youtube</a><br><br>At 17:00 Europe/Athens time I will do a live stream. The plan is to implement a feature for the denote-sequence package. I will also answer any questions from the chat, whether they are on the code I will be working on or any other topic.
+
+  * * *
+
+  Find all my publications on my website (Emacs, philosophy, etc.): https://protesilaos.com
+
+  All my Emacs-related work: https://protesilaos.com/emacs.</div>]]></description>
+      <pubDate>Tue, 24 Mar 2026 05:23:44 +0000</pubDate><category>denote</category>
+    </item>
+    <item>
+      <title>my minimalist emacs setup for writing</title>
+      <link>https://www.youtube.com/watch?v=016N8DNGm7I</link>
+      <guid>https://www.youtube.com/watch?v=016N8DNGm7I</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=016N8DNGm7I">youtube</a><br><br>https://nic-olas.me</div>]]></description>
+      <pubDate>Mon, 23 Mar 2026 16:15:28 +0000</pubDate><category>writing</category>
+    </item>
+    <item>
+      <title>Reading your Emacs notes on-the-go, minimally.</title>
+      <link>https://youtube.com/watch?v=2a4fBKLVl88</link>
+      <guid>https://youtube.com/watch?v=2a4fBKLVl88</guid>
+      <description><![CDATA[<div id="content"><a href="https://youtube.com/watch?v=2a4fBKLVl88">youtube</a><br><br>Reading your Emacs notes on-the-go, minimally.
+
+  No Orgzly, no native Emacs, just obsidian (no plugins), and your org notes repo
+
+  The Guthub repo in question: https://github.com/ardieMejia/my-mobile-tablet-notes/blob/main/rd-org-publish-org-obsidian.el
+
+  Supporting me will inspire me to produce more quality content
+
+  Show some support by buying me coffee on my Ko-fi page. It accepts your usual Debit/Credit card with 0% fee.
+  https://ko-fi.com/ardiemejia83
+
+  Or can donate straight to my PayPal
+  https://paypal.me/ardiemejia83</div>]]></description>
+      <pubDate>Mon, 23 Mar 2026 04:47:32 +0000</pubDate><category>org</category>
+    </item>
+    <item>
+      <title>MCP para Emacs - Mejora tus apuntes con ORG MODE 🦄</title>
+      <link>https://www.youtube.com/watch?v=n_NZk3hDl6I</link>
+      <guid>https://www.youtube.com/watch?v=n_NZk3hDl6I</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=n_NZk3hDl6I">youtube</a><br><br>Use opencode for improve your workflow in emacs
+
+  MCP server emacs by rhblind: https://github.com/rhblind/emacs-mcp-server
+  My dotfiles: https://github.com/Natzgun/dotfiles-linux
+  Doom Emacs: https://github.com/doomemacs/doomemacs
+  Org Roam: https://www.orgroam.com/
+
+  Learn Emacs:
+  Distrotube: https://www.youtube.com/watch?v=26gFIhHM09E&t=696s
+  System Crafters: https://www.youtube.com/watch?v=AyhPmypHDEw</div>]]></description>
+      <pubDate>Sun, 22 Mar 2026 20:15:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>Taking Notes With Emacs Org Mode (It&apos;s Easy!)</title>
+      <link>https://www.youtube.com/watch?v=NebhEVR44Jc</link>
+      <guid>https://www.youtube.com/watch?v=NebhEVR44Jc</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=NebhEVR44Jc">youtube</a><br><br>Some people are "note takers."  And most of these people are forever searching for the ultimate note taking app.  Well, look no further.  Emacs Org Mode has been the de facto standard for note taking for decades!
+
+  WANT TO SUPPORT THE CHANNEL?
+  💰 Patreon: https://www.patreon.com/distrotube
+  💳 Paypal: https://www.paypal.com/donate/?hosted_button_id=MW3ZFGS8Q9JGW
+  🛍️ Amazon: https://amzn.to/2RotFFi
+  👕 Teespring: https://teespring.com/stores/distrotube
+
+  DT ON THE WEB:
+  🕸️ Website: http://distro.tube
+  📁 GitLab: https://gitlab.com/dwt1
+  🗨️ Mastodon: https://fosstodon.org/@distrotube
+  👫 Reddit: https://www.reddit.com/r/DistroTube/
+  📽️ Odysee: https://odysee.com/@DistroTube:2
+
+  FREE AND OPEN SOURCE SOFTWARE THAT I LIKE:
+  🌐 Brave Browser - https://brave.com/
+  📽️ Open Broadcaster Software: https://obsproject.com/
+  🎬 Kdenlive: https://kdenlive.org
+  🎨 GIMP: https://www.gimp.org/
+  💻 VirtualBox: https://www.virtualbox.org/
+  🗒️ Doom Emacs: https://github.com/hlissner/doom-emacs
+
+  Your support is very much appreciated. Thanks, guys!</div>]]></description>
+      <pubDate>Sat, 21 Mar 2026 13:00:44 +0000</pubDate><category>org</category>
+    </item>
+    <item>
+      <title>Emacs - Rename currently opened file in Dired mode</title>
+      <link>https://www.youtube.com/watch?v=Nk0-VQc2mGo</link>
+      <guid>https://www.youtube.com/watch?v=Nk0-VQc2mGo</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=Nk0-VQc2mGo">youtube</a><br><br>Jira Courses, Training and Consulting: https://training.sparxsys.com
+
+  What if you are working on a file and you just want to rename that file in Emacs? How can you do that quickly?
+
+  ,#Emacs #dired
+
+  ,####
+  Jira Courses, Training and Consulting: https://training.sparxsys.com
+  Need my help? Raise a ticket for me: https://www.ravisagar.in/support
+  Atlassian Consultancy Services: https://www.sparxsys.com/
+  Jira books and Video courses (Available to buy): https://www.ravisagar.in/products
+  Free Ravi Sagar Courses: https://www.ravisagar.in/courses
+  Newsletter: https://www.sparxsys.com/newsletter
+
+  Social
+  Blog: https://www.ravisagar.in
+  Linkedin: https://www.linkedin.com/in/ravisagar/
+  Twitter: https://www.twitter.com/ravisagar
+  Podcast: https://www.ravisagar.in/podcast
+  Youtube: https://youtube.com/ravisagar1
+  ,####</div>]]></description>
+      <pubDate>Fri, 20 Mar 2026 03:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Projeto Omega - Cifra de Cesar (Emacs+Magit)</title>
+      <link>https://www.youtube.com/watch?v=-_PHVYEsdPc</link>
+      <guid>https://www.youtube.com/watch?v=-_PHVYEsdPc</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=-_PHVYEsdPc">youtube</a><br><br>Sistema: ArchLinux
+  Editor: GNU/Emacs</div>]]></description>
+      <pubDate>Thu, 19 Mar 2026 20:20:03 +0000</pubDate>
+    </item>
+    <item>
+      <title>Monday Live Coding with Emacs. 3/16/2026 #coding #livecoding #emacs #learnc</title>
+      <link>https://www.youtube.com/watch?v=hg21M5n5tf4</link>
+      <guid>https://www.youtube.com/watch?v=hg21M5n5tf4</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=hg21M5n5tf4">youtube</a><br><br>Work on some C Programming and Emacs fun.</div>]]></description>
+      <pubDate>Tue, 17 Mar 2026 11:18:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>Emacs VC-mode in action</title>
+      <link>https://www.youtube.com/watch?v=_jqs7KSZs-w</link>
+      <guid>https://www.youtube.com/watch?v=_jqs7KSZs-w</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=_jqs7KSZs-w">youtube</a><br><br>A small example of vc-mode and how to do partial commits</div>]]></description>
+      <pubDate>Mon, 16 Mar 2026 05:06:05 +0000</pubDate>
+    </item>
+    <item>
       <title>Computing in freedom with GNU Emacs</title>
       <link>https://www.youtube.com/watch?v=M6ZHDJeG-dI</link>
       <guid>https://www.youtube.com/watch?v=M6ZHDJeG-dI</guid>
@@ -364,610 +992,6 @@
   https://lists.sr.ht/~abcdw/</div>]]></description>
       <pubDate>Fri, 27 Feb 2026 20:37:03 +0000</pubDate><category>diff</category>
 <category>difftastic</category>
-    </item>
-    <item>
-      <title>Bending Emacs Episode 12: agent-shell + Claude Skills</title>
-      <link>https://www.youtube.com/watch?v=ymMlftdGx4I</link>
-      <guid>https://www.youtube.com/watch?v=ymMlftdGx4I</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=ymMlftdGx4I">youtube</a><br><br>In this video I share some agent-shell flows I've been playing around with in conjunction with agent skills to teach Claude some Emacs tricks. I'm fairly new to Claude Skills, but I can see them becoming fairly handy. Do you have some particular flows or skills you like? I'd love to hear about them.
-
-  Here's the related blog post https://xenodium.com/bending-emacs-episode-12-agent-shell-claude-skills
-
-  If you're enjoying or finding my work useful, please consider sponsoring so I can continue doing it sustainably https://xenodium.com/sponsor</div>]]></description>
-      <pubDate>Wed, 25 Feb 2026 18:55:46 +0000</pubDate><category>ai</category>
-<category>AgentShell</category>
-    </item>
-    <item>
-      <title>[EMACS LAB #1] Do zero a uma IDE para programar em C (parte 1)</title>
-      <link>https://www.youtube.com/watch?v=P1CtAAfT8_E</link>
-      <guid>https://www.youtube.com/watch?v=P1CtAAfT8_E</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=P1CtAAfT8_E">youtube</a><br><br>Este é um compacto do que rolou no laboratório de 21/02/2026, onde nós começamos a configurar o Emacs do zero para chegarmos a uma IDE completa para trabalhar com a programação em C.
-
-  Repositório:
-  https://bolha.dev/blau_araujo/debxp/src/branch/main/emacs#headline-4
-
-  -----
-
-  Todo o nosso trabalho só é possível graças ao apoio de vocês!
-
-  -----
-
-  Me ajude a adquirir livros e equipamentos para continuar produzindo conteúdos sobre este e outros assuntos.
-
-  Lista de prioridades de trabalho na Amazon:
-  https://www.amazon.com.br/hz/wishlist/ls/3LE4PKZEUOCCG?ref_=wl_share
-
-  -----
-
-  Outras formas de apoio:
-
-  * PIX: pix@blauaraujo.com
-  * PicPay: https://picpay.me/blauaraujo
-  * PayPal: https://bit.ly/paypal-debxp
-  * Apoia.se: https://apoia.se/debxpcursos
-  * Meu livro: https://uiclap.bio/blau_araujo
-
-  Muito obrigado!
-
-  ------
-
-  Nosso site:
-  https://debxp.org
-
-  Conteúdo complementar:
-  https://bolha.dev/blau_araujo/debxp
-
-  Meu site:
-  https://blauaraujo.com
-
-  -----
-
-  Capítulos:
-
-  0:00 - Apresentação do repositório
-  1:35 - Configuração "literate"
-  8:29 - O ambiente da nova instalação
-  12:15 - Baixando as configurações
-  15:05 - Iniciando o Emacs
-  22:29 - Abrindo o config.org
-  26:01 - O org-mode
-  31:08 - Preparando o tangle
-  34:18 - Ajustes na interface do Emacs
-  45:41 - Gerenciamento de pacotes
-  49:09 - Configuração do evil-mode
-  54:15 - Temas e modeline Doom</div>]]></description>
-      <pubDate>Tue, 24 Feb 2026 10:00:39 +0000</pubDate><category>coding</category>
-<category>c</category>
-    </item>
-    <item>
-      <title>037 Ollama Buddy - In-Buffer responses with in-line inspection #emacs #ollama</title>
-      <link>https://www.youtube.com/watch?v=Po7Wqpk0sqY</link>
-      <guid>https://www.youtube.com/watch?v=Po7Wqpk0sqY</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=Po7Wqpk0sqY">youtube</a><br><br>Demonstrating in-buffer in-line modification, now we are out of the chat buffer!
-
-  - Turn in-buffer through menu W
-  - open ollama-buddy-rewrite-samples.org
-  - Refactor Code : Sample 2 - refactor
-  - show original in-buffer and accept
-  - Proofread Text : Sample 1 - select paragraph and proofred
-  - show original in-buffer and accept
-
-  This demonstrates how ollama-buddy can now return LLM requests directly into the buffer
-
-  https://melpa.org/#/ollama-buddy
-  https://github.com/captainflasmr/ollama-buddy
-
-  ,#emacs #ollama</div>]]></description>
-      <pubDate>Tue, 24 Feb 2026 08:46:08 +0000</pubDate><category>ai</category>
-<category>ollama</category>
-    </item>
-    <item>
-      <title>Run LLM Scripts in Emacs (No Packages) #llm #ai #claudecode</title>
-      <link>https://www.youtube.com/watch?v=sdZ2by9ecBM</link>
-      <guid>https://www.youtube.com/watch?v=sdZ2by9ecBM</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=sdZ2by9ecBM">youtube</a><br><br>A simple way of using the power of llms inside Emacs without the need for any packages or elisp.
-
-  https://github.com/emacselements/llm-emacs
-
-  If you like my content, you can support me
-  by sending me a donation via PayPal:
-
-  https://paypal.me/revrari
-
-  https://github.com/emacselements
-  https://emacselements.com/</div>]]></description>
-      <pubDate>Mon, 23 Feb 2026 07:09:38 +0000</pubDate><category>ai</category>
-<category>llm</category>
-    </item>
-    <item>
-      <title>Xah Talk Show Ep765. emacs lisp coding. command to delete emacs backup.</title>
-      <link>https://www.youtube.com/watch?v=ZoogaFu7pOI</link>
-      <guid>https://www.youtube.com/watch?v=ZoogaFu7pOI</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=ZoogaFu7pOI">youtube</a><br><br>Video Summary (Generated by AI, Edited by Human.)
-
-  The video focuses on Emacs Lisp coding (0:08) and the creation of a command to delete Emacs backup files (0:49) within a directory, including subdirectories (1:45).
-  The host, Xah Lee, explains that Emacs backup files are identified by a tilde (~) at the end of their name (0:59).
-
-  Key aspects of the video include:
-
-  • Initial Command Functionality (2:20): Lee demonstrates an existing command that deletes backup files and confirms the action with the user. He then explains his intention to modify this command.
-  • Code Modification for Independence (3:34): Lee refactors the code to remove dependencies, ensuring the command functions independently without relying on other Emacs Lisp functions. This involves embedding the listing of backup files directly into the deletion command.
-  • User Interface Design Principles (17:24): A significant portion of the video is dedicated to discussing good user interface design. Lee argues against asking for user confirmation before executing a command, advocating instead for immediate execution with an undo feature. He emphasizes "muscle memory" (18:44) for efficient user interaction.
-  • Moving Files Instead of Deleting (23:23): To align with the user interface design principles, Lee modifies the command to move backup files to a temporary directory rather than permanently deleting them. This provides an implicit "undo" capability by retaining the files.
-  • Emacs vs. VS Code Discussion (29:16): Lee briefly compares Emacs to VS Code, highlighting Emacs's lower memory usage as a significant advantage for dedicated programmers.
-  • Addressing Challenges and Debugging (43:54): Lee encounters and debugs several errors during the coding process, demonstrating his problem-solving approach.
-  • Unix Philosophy Critique (56:19): Lee critiques the "Unix philosophy" of using shell commands for file operations, arguing that Emacs provides a more integrated, visual, and cross-platform solution without external dependencies.
-  • Successful Command Implementation (1:09:07): Despite various digressions and debugging, Lee successfully implements the modified command, which moves backup files to a designated temporary directory without user confirmation.
-  • Future Considerations: Undo Functionality (1:09:35): Lee discusses the complexities of implementing a robust undo feature for file operations in Emacs, as the built-in undo is primarily for text editing. He also briefly touches on the issues with file deletion and trash functionality in Linux (1:13:50).</div>]]></description>
-      <pubDate>Sun, 22 Feb 2026 18:08:40 +0000</pubDate><category>elisp</category>
-    </item>
-    <item>
-      <title>Prot Asks: Ro about programmatic thinking, political discourse, and art as self-discovery</title>
-      <link>https://www.youtube.com/watch?v=JEiru0u6gD4</link>
-      <guid>https://www.youtube.com/watch?v=JEiru0u6gD4</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=JEiru0u6gD4">youtube</a><br><br>**UPDATE 2026-02-23 08:34 +0200:** The portrait is available here: https://protesilaos.com/selfies/2026-02-23-prot-portrait-by-ro/
-
-  * * *
-
-  In this ~3-hour video I talk with Ro about a wide variety of topics that cover programming, politics, lifestyle, and art. We start by learning about Ro's work as a software engineer for military projects. Ro studied electrical engineering and then transitioned to programming.
-
-  I learn that Ro has an interest in politics and art. In terms of the latter, Ro draws a portrait of me during our discussion. We talk until the drawing is done, which you can check out towards the end of the video.
-
-  On the politics front, we discuss my current thinking about political issues, where I am interested in the implementation of any given opinion. This is where I introduce the notion of "programmatic thinking". The idea is to frame your opinions in terms of how you could implement them, given the prevailing conditions. Doing so helps filter out opinions that are not feasible.
-
-  We also comment on the quality of political discourse. Part of this is informed by the current technology, which reduces the spacetime of current affairs: everything happens instantly and feels proximate. Ro suggests how people need to be getting together to discuss politics. If people are open to talk, instead of shouting at each other, then common sense can prevail.
-
-  Ro points out that discussions tend to avoid any kind of disagreement, which Ro explains is not constructive: the realisation of disagreements can still bring people closer, as they can appreciate the others better and the diversity among us. Part of why this is happening, I explain, is because people adopt an expanded conception of identity, which includes their specific opinions. Then I go on to comment how criticism can be constructive: it helps people grow by better understanding what they are doing and why they do it.
-
-  The next topic is about the quality one has as a person. I comment on how those who are influential have responsibility towards those they influence. This is because they hold power. We explore this theme further. I argue that if we decouple power from responsibility, then we end up with egregious or abusive power.
-
-  The last big issue we cover is art. Specifically, how we can have a better sense of our self through the pursuit of recreational activities. Ro asks me about my writings. There are different sections on my website, which cover distinct areas of interest I have. This gives me the impetus to elaborate on the notion of being mindful of our emotional state and how we can stay fresh. The point is to commit to something that expresses a side of you. Ro comments how art is not about the result, but rather that you enjoy doing it.
-
-  This is relevant also in light of Artificial Intelligence, which we consider in further depth. I bring up the myth of Prometheus, which reminds us how all technological innovations comes with pros and cons. There are problems that come from the technology itself but also others that are the result of how people use the technology.
-
-  We close with questions about me, such as my personality, way of living, and the experience of blogging. This also connects to the point about how people are attached to their opinions as an extension of their identity. I explain how to think of our works as snapshots of who we are. Mistakes are a part of it. If we acknowledge them, we are more resilient, as we can change our views and/or face criticism without fearing that we lose who we are. I say that we ultimately do not need to take ourselves too seriously, in the sense that if we make a mistake it will not be the end of the world.
-
-  ,## Add Ro on Instagram
-
-  Here: https://www.instagram.com/aldebaran.alpha.tauri/
-
-  ,## About "Prot Asks"
-
-  In this video series, I talk to anybody who is interested to have a video call with me (so do contact me if you want!). The topics cover anything related to Emacs, technology, and life in general. More here: https://protesilaos.com/prot-asks.</div>]]></description>
-      <pubDate>Sun, 22 Feb 2026 10:29:23 +0000</pubDate><category>ProtAsks</category>
-    </item>
-    <item>
-      <title>035 Ollama Buddy - Advanced Tool Calling with Multiple Tools #emacs #ollama</title>
-      <link>https://www.youtube.com/watch?v=sRdWed1pDVg</link>
-      <guid>https://www.youtube.com/watch?v=sRdWed1pDVg</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=sRdWed1pDVg">youtube</a><br><br>Demonstrating advanced ollama tool calling with multiple tools working together.
-
-  - Open chat with a model that supports tool calling: glm-4.7:cloud
-  - Turn on tooling
-  - "Can you read the file /home/jdyer/source/repos/ollama-buddy/README-videos.org and tell me how many demos it contains?
-  - Watch the read_file tool being called
-  - Ask follow-up: "Now list all the buffers that are currently open in Emacs"
-  - Watch the list_buffers tool being called
-  - Ask: "Search in the current buffer for 'tool calling' and show me the results"
-  - Watch the search_buffer tool being called
-  - "Now combine all this information and create a summary file called /tmp/ollama-buddy-summary.org"
-  - Watch write_file tool being called
-  - Show the created file to confirm it was written correctly
-
-  This demonstrates how ollama-buddy can orchestrate multiple tool calls in sequence to answer complex queries and perform multi-step operations.
-
-  https://melpa.org/#/ollama-buddy
-  https://github.com/captainflasmr/ollama-buddy
-
-  ,#emacs #ollama</div>]]></description>
-      <pubDate>Fri, 20 Feb 2026 13:49:12 +0000</pubDate><category>ai</category>
-<category>ollama</category>
-    </item>
-    <item>
-      <title>Building RDE against latest Guix on CI</title>
-      <link>https://www.youtube.com/watch?v=So3GRaXga9Y</link>
-      <guid>https://www.youtube.com/watch?v=So3GRaXga9Y</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=So3GRaXga9Y">youtube</a><br><br>A warmup stream with an easy task: We want to discover breaking changes introduced by upstream earlier (than we do right now), so we can make forward compatible fixes before actually updating revision of guix channel in RDE's channels.scm. Also, talking about LLMs and trying to use them to accomplish the task.
-
-  ,#rde #guix #scheme #lisp #guile #racket
-
-  My site and blog:
-  https://trop.in
-  https://trop.in/blog
-
-  Reach me out here:
-  https://trop.in/contact
-
-  IRC Chat:
-  ,#tropin IRC channel at libera.chat.
-
-  Mastodon:
-  https://fosstodon.org/@abcdw
-
-  RDE and Arei/Ares Guile IDE projects:
-  https://sr.ht/~abcdw/rde
-  https://sr.ht/~abcdw/emacs-arei
-  https://sr.ht/~abcdw/guile-ares-rs
-
-  https://github.com/abcdw/rde (mirror)
-
-  Mailing lists:
-  https://lists.sr.ht/~abcdw/</div>]]></description>
-      <pubDate>Thu, 19 Feb 2026 17:57:43 +0000</pubDate><category>rde</category>
-    </item>
-    <item>
-      <title>Xah Ep762. emacs lisp coding, command to fix youtube description, crimes of recursive acronym</title>
-      <link>https://www.youtube.com/watch?v=9M8x7xnP6iU</link>
-      <guid>https://www.youtube.com/watch?v=9M8x7xnP6iU</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=9M8x7xnP6iU">youtube</a><br><br>Video Summary (Generated by AI, Edited by Human.)
-
-  The video, "Xah Ep762. emacs lisp coding," features Xah Lee (0:08) discussing and demonstrating Emacs Lisp coding, primarily for programmers and computer scientists. He begins by introducing his hardware setup (0:32), including the Ultimate Hacking Keyboard and Nulea trackball, and mentions his reviews for them.
-
-  Key topics and demonstrations in the video include:
-
-  • Xah Fly Keys and Dvorak Keyboard Layout (2:41): Xah Lee explains his use of Xah Fly Keys, an efficient keybinding system for Emacs, and the Dvorak keyboard layout, an ergonomic alternative to QWERTY. He highlights how these tools improve efficiency.
-
-  • YouTube Description Fix Command (4:47): Xah Lee details a problem he faces when copying YouTube video information (title, uploader, date) due to YouTube frequently changing its formatting (6:30).
-  He demonstrates his custom Emacs Lisp command, xah YouTube fix YouTube description (9:26), which formats the copied text into a clean, consistent output for his blog.
-  He explains the challenges of maintaining this command due to YouTube's constant changes (10:05).
-
-  • Removing Dependencies in Emacs Lisp Code (14:41): A significant portion of the video is dedicated to refactoring his YouTube description fixing command to remove an external dependency (replace-pairs.el). He discusses the pros and cons of having dependencies and aims to make his code self-contained for easier sharing and use (17:49).
-
-  • Critique of Unix and Hacker Culture (35:23): Responding to a viewer's question, Xah Lee passionately rants about his strong dislike for Unix, Linux, C, Vim, and the broader hacker culture, labeling them as a "disease" or "code phenomenon" (39:44).
-  He references numerous past videos where he has discussed these topics in detail, emphasizing their outdated practices and negative societal impact (41:21).
-  He specifically criticizes the GNU project's recursive acronym "GNU's Not Unix" (48:14) and general marketing practices in tech (1:04:41).
-
-  • Hash Table Tips in Emacs Lisp (1:26:31): He provides a technical tip regarding hash tables in Emacs Lisp, advising against using nil as a value (1:29:57) because there's no built-in way to distinguish if a key doesn't exist or if its value is actually nil (1:30:00). He also briefly discusses a personal function for testing hash table equality (1:36:23).
-
-  • The video concludes with Xah Lee wrapping up the Emacs Lisp coding session and engaging with viewer comments.
-
-
-  ----
-
-  Emacs lisp coding, and along the way i teach.
-  Come ask any emacs questions.
-
-  if you want emacs lisp video tutorial from ground up,
-  see
-  Emacs and Elisp Video Tutorial
-  http://xahlee.info/emacs/misc/emacs_lisp_video_tutorial.html</div>]]></description>
-      <pubDate>Wed, 18 Feb 2026 13:30:46 +0000</pubDate>
-    </item>
-    <item>
-      <title>Using app-emacs/portage::akater | Using Gentoo package manager from GNU Emacs</title>
-      <link>https://www.youtube.com/watch?v=YBGWf07m-uY</link>
-      <guid>https://www.youtube.com/watch?v=YBGWf07m-uY</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=YBGWf07m-uY">youtube</a><br><br></div>]]></description>
-      <pubDate>Tue, 17 Feb 2026 19:53:15 +0000</pubDate><category>gentoo</category>
-    </item>
-    <item>
-      <title>Bending Emacs Episode 11: winpulse</title>
-      <link>https://www.youtube.com/watch?v=qaqpcjJ1u6I</link>
-      <guid>https://www.youtube.com/watch?v=qaqpcjJ1u6I</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=qaqpcjJ1u6I">youtube</a><br><br>In this episode, I showcase a tiny new package I built recently to help me spot active windows while switching amongst them.
-
-  Notes at https://xenodium.com/bending-emacs-episode-11-winpulse and more at https://xenodium.com/introducing-winpulse</div>]]></description>
-      <pubDate>Tue, 17 Feb 2026 15:37:41 +0000</pubDate><category>winpulse</category>
-<category>appearance</category>
-    </item>
-    <item>
-      <title>How I Use Emacs to Take Notes</title>
-      <link>https://www.youtube.com/watch?v=iEsExQ_AQNg</link>
-      <guid>https://www.youtube.com/watch?v=iEsExQ_AQNg</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=iEsExQ_AQNg">youtube</a><br><br>Today I talk about the way I use #Emacs to take #notes.
-
-  👇 PULL IT DOWN FOR THE GOOD STUFF 👇
-
-  Patreon - https://patreon.com/thelinuxcast
-  Paypal - https://paypal.me/thelinuxcast
-  Youtube - https://www.youtube.com/channel/UCylGUf9BvQooEFjgdNudoQg/join
-  Ko-fi - https://ko-fi.com/thelinuxcast
-
-  ===== Follow us 🐧🐧 ======
-  MERCH - https://shop.thelinuxcast.org
-  Discord - https://thelinuxcast.org/discord
-  Odysee - https://odysee.com/$/invite/@thelinuxcast:4
-  TILvids(Peertube) - https://tilvids.com/c/thelinuxcast_channel/videos
-  Mastodon- https://fosstodon.org/@thelinuxcast
-  Bluesky - https://bsky.app/profile/thelinuxcast.bsky.social
-  https://codeberg.org/thelinuxcast?tab=repositories
-  Matrix - https://matrix.to/#/#the-linux-cast:matrix.org
-  The Website http://thelinuxcast.org
-  Contact us email@thelinuxcast.org
-  Amazon Wishlist - https://www.amazon.com/hz/wishlist/ls/1J3W9HF4O2M7T?ref_=wl_share
-  Logo Courtesy of - pedropaulo.net
-  Intro Courtesy of - https://www.fragcgi.com/?i=1
-
-  Get a free month of Proton Mail! https://go.getproton.me/SH1gC
-  Get 20% Off Your First Year at Hostinger - https://tinyurl.com/27kqbj63
-
-  ==== Special Thanks to Our Patrons! ====
-  https://thelinuxcast.org/patrons/
-
-  ==== My Gear ==== (Affilliate Links)
-
-  Shure sm7b - https://amzn.to/42jvata
-  LG Dual Up Monitor - https://amzn.to/42h7m9e
-  Sceptre 32 Curved Monitor - https://amzn.to/40CHoeY
-  Edifier R1280T - https://amzn.to/4gValbW
-  Elgato Stream Deck MK2 - https://amzn.to/4ga1MJa
-  Universal Audio Volt 276 - https://amzn.to/4jd8ukh
-  iPhone 15 Pro Mac - https://amzn.to/4jmxdT2
-  Logitech Brio Webcam - https://amzn.to/4aqoRFZ
-  Weilisi Desk Ring Light - https://amzn.to/4aqp1gz
-  Logitech MX Master 3 - https://amzn.to/3Wm5A2E
-
-  ,#productivity  #linux #thelinuxcast</div>]]></description>
-      <pubDate>Mon, 16 Feb 2026 22:54:57 +0000</pubDate><category>notes</category>
-    </item>
-    <item>
-      <title>Org mode, agentic coding and ekg</title>
-      <link>https://www.youtube.com/watch?v=CleNgiIt2pg&amp;t=4s</link>
-      <guid>https://www.youtube.com/watch?v=CleNgiIt2pg&amp;t=4s</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=CleNgiIt2pg&t=4s">youtube</a><br><br>Org Mode is the best way I've found to work with agents, because it's such a great system for task management.  I talk about how I use it to work with agents, the downsides of org-mode, and how I think my ekg package may solve these issues.
-
-  ekg can be found at: https://github.com/ahyatt/ekg</div>]]></description>
-      <pubDate>Mon, 16 Feb 2026 22:49:37 +0000</pubDate><category>ai</category>
-<category>org</category>
-<category>ekg</category>
-    </item>
-    <item>
-      <title>Emacs: my GNOME accent color theme switcher package</title>
-      <link>https://www.youtube.com/watch?v=atKuEh3_ArA</link>
-      <guid>https://www.youtube.com/watch?v=atKuEh3_ArA</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=atKuEh3_ArA">youtube</a><br><br>In this short video I demonstate a new package for GNU Emacs that synchronises the Emacs theme with the GNOME settings for accent color and light/dark mode. Git repository here: https://github.com/protesilaos/gnome-accent-theme-switcher
-
-  * * *
-
-  Find all my publications on my website (Emacs, philosophy, poems, selfies, and much more): https://protesilaos.com</div>]]></description>
-      <pubDate>Fri, 13 Feb 2026 09:09:52 +0000</pubDate><category>theme</category>
-    </item>
-    <item>
-      <title>034 Ollama Buddy - Simple Tool Calling #emacs #ollama</title>
-      <link>https://www.youtube.com/watch?v=DHV3My0NsJc</link>
-      <guid>https://www.youtube.com/watch?v=DHV3My0NsJc</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=DHV3My0NsJc">youtube</a><br><br>Demonstrating the first draft of ollama tool calling
-
-  - open the chat with a model that allows tool calling : gpt-oss:20b-cloud
-  - "can you create a file in /home/jdyer called tmp.txt with the contents of : hello world"
-  - check that a new text file has been created in /home/jdyer
-
-  https://melpa.org/#/ollama-buddy
-  https://github.com/captainflasmr/ollama-buddy
-
-  ,#emacs #ollama</div>]]></description>
-      <pubDate>Fri, 13 Feb 2026 08:21:57 +0000</pubDate><category>ai</category>
-<category>ollama</category>
-    </item>
-    <item>
-      <title>Behebung von org-babel Shell-Bindungsproblemen in Emacs: Eine Anleitung zur Festlegung Ihrer bevorz</title>
-      <link>https://www.youtube.com/watch?v=OZTodhXqISw</link>
-      <guid>https://www.youtube.com/watch?v=OZTodhXqISw</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=OZTodhXqISw">youtube</a><br><br>Erfahren Sie, wie Sie `org-babel` in Emacs so konfigurieren, dass es Ihre bevorzugte Shell verwendet – selbst bei Bindungsproblemen mit `fish`.
-  ---
-  Dieses Video basiert auf der Frage https://stackoverflow.com/q/62357964/ gestellt von dem Nutzer 'heyarne' ( https://stackoverflow.com/u/2345852/ ) sowie auf der Antwort https://stackoverflow.com/a/62359314/ bereitgestellt von dem Nutzer 'phils' ( https://stackoverflow.com/u/324105/ ) auf der Website 'Stack Overflow'. Vielen Dank an diese großartigen Nutzer und die Stackexchange-Community für ihre Beiträge.
-
-  Besuchen Sie diese Links, um den Originalinhalt und weitere Details zu sehen, z. B. alternative Lösungen, aktuelle Entwicklungen zum Thema, Kommentare, Versionsverlauf usw. Der ursprüngliche Titel der Frage lautete beispielsweise: org-babel shell always binds to "fish"
-
-  Außerdem steht der Inhalt (außer Musik) unter der Lizenz CC BY-SA https://meta.stackexchange.com/help/licensing
-  Der ursprüngliche Fragenbeitrag steht unter der Lizenz 'CC BY-SA 4.0' ( https://creativecommons.org/licenses/by-sa/4.0/ ), und der ursprüngliche Antwortbeitrag steht unter der Lizenz 'CC BY-SA 4.0' ( https://creativecommons.org/licenses/by-sa/4.0/ ).
-
-  Falls Ihnen irgendetwas auffällt oder Unstimmigkeiten bestehen, schreiben Sie mir bitte an vlogize [AT] gmail [DOT] com.
-  ---
-  Behebung von org-babel Shell-Bindungsproblemen in Emacs: Eine Anleitung zur Festlegung Ihrer bevorzugten Shell
-
-  Wenn Sie ein Emacs-Nutzer sind, der die elegante und funktionsreiche fish-Shell liebt, sind Sie vielleicht schon einmal auf ein frustrierendes Problem gestoßen, wenn Sie org-babel in org-mode verwenden. Trotz Ihrer Versuche, Shell-Blöcke mit anderen Shells wie sh oder bash auszuführen, erhalten Sie immer wieder Ergebnisse von fish. Das führt zu Verwirrung und erschwert es Ihnen, Ihren Code effektiv auszuführen. Keine Sorge! In diesem Blogpost werden wir dieses Problem untersuchen und Ihnen zeigen, wie Sie Ihre gewünschte Shell für org-babel in Emacs korrekt einstellen.
-
-  Das Problem verstehen
-
-  Das unerwartete Verhalten
-
-  Wenn Sie die folgenden Code-Snippets in org-mode ausführen:
-
-  [[Siehe Video, um diesen Text oder Codeausschnitt anzuzeigen]]
-
-  Stellen Sie fest, dass trotz der Angabe verschiedener Shells wie sh und bash die Ausgabe immer /usr/bin/fish lautet. Diese Inkonsistenz kann verwirrend sein, besonders wenn Sie erwarten, dass Shell-Befehle in Ihrer bevorzugten Umgebung ausgeführt werden.
-
-  Untersuchung von org-babel-shell-names
-
-  Vielleicht haben Sie bereits überprüft, dass Ihre org-babel-shell-names-Liste mehrere Shells enthält:
-
-  [[Siehe Video, um diesen Text oder Codeausschnitt anzuzeigen]]
-
-  Sie erleben jedoch weiterhin das Problem, dass Emacs standardmäßig fish verwendet, unabhängig von der angegebenen Shell. Dies wirft die Frage auf: Gibt es eine Möglichkeit, org-babel global so umzuleiten, dass es bash verwendet?
-
-  Die Lösung: Das Verständnis der $SHELL-Variable
-
-  Der entscheidende Hinweis
-
-  Um dieses Problem effektiv zu debuggen, ist es wichtig zu wissen, dass die Umgebungsvariable $SHELL nicht unbedingt die Shell widerspiegelt, die gerade aktiv Befehle ausführt. Ein genauerer Ansatz besteht darin, $0 zu prüfen oder shell-spezifische Befehle zu verwenden.
-
-  Was sollten Sie stattdessen tun?
-
-  Hier sind einige Schritte, die Sie befolgen können, um das Problem zu diagnostizieren und zu beheben:
-
-  Prüfen Sie $0 direkt:
-  Anstatt sich auf $SHELL zu verlassen, führen Sie aus:
-
-  [[Siehe Video, um diesen Text oder Codeausschnitt anzuzeigen]]
-
-  Damit erhalten Sie die tatsächliche Shell, die den Befehl ausführt.
-
-  Verwenden Sie eingebaute Shell-Befehle:
-  Sie können auch Befehle ausführen, die spezifisch für bash sind, um zu prüfen, ob sie die erwartete Ausgabe liefern. Zum Beispiel:
-
-  [[Siehe Video, um diesen Text oder Codeausschnitt anzuzeigen]]
-
-  Wenn Sie sich in bash befinden, sollte die Ausgabe Hilfeinformationen für bash zurückgeben.
-
-  Setzen Sie die Standard-Shell global:
-  Wenn Sie bash als Standard für alle org-babel-Sitzungen erzwingen möchten, konfigurieren Sie:
-
-  [[Siehe Video, um diesen Text oder Codeausschnitt anzuzeigen]]
-
-  Fazit
-
-  Zusammenfassend gilt: Wenn Sie feststellen, dass Ihre org-babel Shell-Blöcke immer fish verwenden, obwohl Sie eine andere Shell bevorzugen, ist es entscheidend, genau zu prüfen, wie Sie die Shell-Variablen auslesen. Überprüfen Sie immer $0 statt $SHELL, um eine klare Abbildung Ihrer aktuellen Shell-Umgebung zu erhalten. Zögern Sie außerdem nicht, Ihre org-babel-shell-names entsprechend anzupassen, um Ihre Präferenzen zu priorisieren. Wenn Sie diese Schritte befolgen, steht einer reibungslosen und effizienten Arbeit mit org-mode nichts mehr im Weg!
-
-  Mit dem Wissen um diese Debugging-Techniken und Konfigurationen können Sie Ihr Emacs-Erlebnis genau auf Ihre Programmierbedürfnisse zuschneiden – egal, ob Sie fish, bash oder eine andere Shell bevorzugen!</div>]]></description>
-      <pubDate>Wed, 11 Feb 2026 12:32:01 +0000</pubDate>
-    </item>
-    <item>
-      <title>Hacking on Emacs #6: Allow linking the current Magit commit buffer using git-link, pt2</title>
-      <link>https://www.youtube.com/watch?v=OVtUxt4qUCc</link>
-      <guid>https://www.youtube.com/watch?v=OVtUxt4qUCc</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=OVtUxt4qUCc">youtube</a><br><br>Allow linking the current Magit commit buffer using git-link, pt2
-  ► Main channel: https://www.youtube.com/@jakubkadlcik
-  ► GitHub: https://github.com/FrostyX
-  ► Blog: https://frostyx.cz
-  ► Mastodon: https://fosstodon.org/@FrostyX</div>]]></description>
-      <pubDate>Wed, 11 Feb 2026 10:35:49 +0000</pubDate><category>magit</category>
-<category>GitLink</category>
-    </item>
-    <item>
-      <title>Insert Special Characters into Emacs</title>
-      <link>https://www.youtube.com/watch?v=OSCtS4sspPM</link>
-      <guid>https://www.youtube.com/watch?v=OSCtS4sspPM</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=OSCtS4sspPM">youtube</a><br><br>How to insert special characters like accents and EM DASHES into Emacs.
-
-  If you like my content, you can support me
-  by sending me a donation via PayPal:
-
-  https://paypal.me/revrari
-
-  https://github.com/emacselements
-  https://emacselements.com/</div>]]></description>
-      <pubDate>Mon, 09 Feb 2026 08:44:23 +0000</pubDate>
-    </item>
-    <item>
-      <title>Lightning Talk: Common Lisp packages in Emacs Lisp</title>
-      <link>https://www.youtube.com/watch?v=nuRPddpLOxE</link>
-      <guid>https://www.youtube.com/watch?v=nuRPddpLOxE</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=nuRPddpLOxE">youtube</a><br><br>Broadcast live for ELS 2025 at https://twitch.tv/elsconf
-  More information about ELS can be found on our website at https://european-lisp-symposium.org
-
-  Proceedings: https://www.european-lisp-symposium.org/static/proceedings/2025.pdf</div>]]></description>
-      <pubDate>Fri, 06 Feb 2026 20:54:32 +0000</pubDate><category>elisp</category>
-    </item>
-    <item>
-      <title>Lightning Talk: Skewed Emacs</title>
-      <link>https://www.youtube.com/watch?v=br5zNL_reC4</link>
-      <guid>https://www.youtube.com/watch?v=br5zNL_reC4</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=br5zNL_reC4">youtube</a><br><br>Broadcast live for ELS 2025 at https://twitch.tv/elsconf
-  More information about ELS can be found on our website at https://european-lisp-symposium.org
-
-  Speakers: Dave Cooper
-  Proceedings: https://www.european-lisp-symposium.org/static/proceedings/2025.pdf</div>]]></description>
-      <pubDate>Fri, 06 Feb 2026 20:54:30 +0000</pubDate><category>configuration</category>
-    </item>
-    <item>
-      <title>Lightning Talk: Emacs Lisp Rabbit Holes</title>
-      <link>https://www.youtube.com/watch?v=1SZQjdmTIXs</link>
-      <guid>https://www.youtube.com/watch?v=1SZQjdmTIXs</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=1SZQjdmTIXs">youtube</a><br><br>Broadcast live for ELS 2025 at https://twitch.tv/elsconf
-  More information about ELS can be found on our website at https://european-lisp-symposium.org
-
-  Speaker: Marco Antoniotti
-  Proceedings: https://www.european-lisp-symposium.org/static/proceedings/2025.pdf</div>]]></description>
-      <pubDate>Fri, 06 Feb 2026 20:54:28 +0000</pubDate><category>elisp</category>
-    </item>
-    <item>
-      <title>Contributing to Git Projects with Magit: PRs, Patches &amp; Agit workflow</title>
-      <link>https://www.youtube.com/watch?v=qSHw7D_88-0</link>
-      <guid>https://www.youtube.com/watch?v=qSHw7D_88-0</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=qSHw7D_88-0">youtube</a><br><br>Quick and simple video on contributing to Git projects using Magit, a GNU Emacs interface for git.
-
-  Video notes:
-  https://thanosapollo.org/posts/video-contributing-with-git-guide/</div>]]></description>
-      <pubDate>Fri, 06 Feb 2026 06:37:02 +0000</pubDate><category>magit</category>
-    </item>
-    <item>
-      <title>declarative, reproducible emacs (the right paradigm) – how to</title>
-      <link>https://www.youtube.com/watch?v=DnCkMpBkDp4</link>
-      <guid>https://www.youtube.com/watch?v=DnCkMpBkDp4</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=DnCkMpBkDp4">youtube</a><br><br>In this video I discuss my theory behind creating a declarative, reproducible Emacs configuration. What does it mean, why should we do it, and what tools do we have? I finish with a brief tour of a simple configuration. For full technical details, see the blogpost: https://jakebox.github.io/posts/2026-02-05-declarative_reproducible.html</div>]]></description>
-      <pubDate>Fri, 06 Feb 2026 04:03:29 +0000</pubDate><category>configuration</category>
-    </item>
-    <item>
-      <title>Two Neat Emacs Packages: Bufferfile and Stripspace #rename #whitespace</title>
-      <link>https://www.youtube.com/watch?v=8I8ywyX-03E</link>
-      <guid>https://www.youtube.com/watch?v=8I8ywyX-03E</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=8I8ywyX-03E">youtube</a><br><br>https://github.com/jamescherti
-
-  https://github.com/emacselements
-  https://emacselements.com/
-
-  If you like my content, you can support me
-  by sending me a donation via PayPal:
-
-  https://paypal.me/revrari</div>]]></description>
-      <pubDate>Wed, 04 Feb 2026 12:34:38 +0000</pubDate><category>bufferfile</category>
-<category>stripspace</category>
-    </item>
-    <item>
-      <title>Symlinks and Hardlinks in Linux and Emacs</title>
-      <link>https://www.youtube.com/watch?v=aJOq9F-vJMc</link>
-      <guid>https://www.youtube.com/watch?v=aJOq9F-vJMc</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=aJOq9F-vJMc">youtube</a><br><br>How to create symlinks and hardlinks in Linux and Emacs.
-
-  https://github.com/emacselements
-  https://emacselements.com/
-
-  If you like my content, you can support me
-  by sending me a donation via PayPal:
-
-  https://paypal.me/revrari</div>]]></description>
-      <pubDate>Wed, 04 Feb 2026 12:01:04 +0000</pubDate><category>dired</category>
-    </item>
-    <item>
-      <title>[17] Emacs Reader:  Cursors, PALE, Canvas API and More! - 2/2/2026, 2:33:39 PM</title>
-      <link>https://tv.dyne.org/w/hU9gPLwU6m541nu24vXQD8</link>
-      <guid>https://tv.dyne.org/w/hU9gPLwU6m541nu24vXQD8</guid>
-      <description><![CDATA[<div id="content"><a href="https://tv.dyne.org/w/hU9gPLwU6m541nu24vXQD8">peertube</a><br><br>https://codeberg.org/divyaranjan/emacs-reader/ If you have no idea what I'm doing here, please watch the first introductory stream of the series: https://tv.dyne.org/w/8W8o4fWz94bMYVMUWExkX7 Operat...</div>]]></description>
-      <pubDate>Mon, 02 Feb 2026 15:46:08 +0000</pubDate>
-    </item>
-    <item>
-      <title>[17] Emacs Reader:  Cursors, PALE, Canvas API and More! - 2/2/2026, 2:26:28 PM</title>
-      <link>https://tv.dyne.org/w/f4py2PspoRFjUQTJgfYEwJ</link>
-      <guid>https://tv.dyne.org/w/f4py2PspoRFjUQTJgfYEwJ</guid>
-      <description><![CDATA[<div id="content"><a href="https://tv.dyne.org/w/f4py2PspoRFjUQTJgfYEwJ">peertube</a><br><br>https://codeberg.org/divyaranjan/emacs-reader/ If you have no idea what I'm doing here, please watch the first introductory stream of the series: https://tv.dyne.org/w/8W8o4fWz94bMYVMUWExkX7 Operat...</div>]]></description>
-      <pubDate>Mon, 02 Feb 2026 14:38:09 +0000</pubDate>
-    </item>
-    <item>
-      <title>Emacs RSS Reader with Online Sync</title>
-      <link>https://www.youtube.com/watch?v=Nos24tNSKco</link>
-      <guid>https://www.youtube.com/watch?v=Nos24tNSKco</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=Nos24tNSKco">youtube</a><br><br>,#emacs #rss #claudecode
-
-  I used Claude to help build the Emacs RSS reader I've been looking for.
-
-  ,## Links
-
-  - Feedsmith on GitHub: https://github.com/curtismchale/feedsmith
-  - Read the full post with links: https://curtismchale.ca/?p=29090
-
-  ,## Courses
-
-  - SkillShare TickTick Course: https://skl.sh/2ExpXVv
-  - SkillShare Timeblocking Course: https://skl.sh/38MQzz8
-  - SkillShare Zettelkasten Course: https://skl.sh/3rntNDW
-  - Getting Started with Obsidian Course: https://skl.sh/2Y6DUDM
-
-  ,## My Gear
-
-  - My gear: https://curtismchale.ca/my-gear
-  - Patreon: https://patreon.com/curtismchale
-  - Music: https://www.epidemicsound.com/referral/blhmqa/
-  - Streaming with: https://www.ecamm.com/mac/ecammlive/?fp_ref=curtis42</div>]]></description>
-      <pubDate>Mon, 02 Feb 2026 19:51:08 +0000</pubDate><category>rss</category>
-    </item>
-    <item>
-      <title>Recursion and Quitting in Emacs</title>
-      <link>https://www.youtube.com/watch?v=WgNfGHAJsUQ</link>
-      <guid>https://www.youtube.com/watch?v=WgNfGHAJsUQ</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=WgNfGHAJsUQ">youtube</a><br><br>https://github.com/emacselements
-  https://emacselements.com/</div>]]></description>
-      <pubDate>Sun, 01 Feb 2026 22:00:37 +0000</pubDate><category>RecursiveEditing</category>
     </item>
   </channel>
 </rss>
