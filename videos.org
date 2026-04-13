@@ -3,6 +3,167 @@
 #+PROPERTY: header-args:emacs-lisp+   :eval no
 
 
+* Stop Jujutsu from auto-committing everything  :jujutsu:
+:PROPERTIES:
+:DATE:     2026-04-10T23:08:26-07:00
+:DURATION: 3:33
+:YOUTUBE_URL: https://www.youtube.com/watch?v=kwwQ-pQ0Rk4
+:SPEAKERS: Andrew Tropin
+:END:
+  A simple workflow for Jujutsu for keeping local changes from being accidentally pushed to the remote repo.
+
+  ,#jujutsu #git
+
+  My site and blog:
+  https://trop.in
+  https://trop.in/blog
+
+  Reach me out here:
+  https://trop.in/contact
+
+  IRC Chat:
+  ,#tropin IRC channel at libera.chat.
+
+  Mastodon:
+  https://fosstodon.org/@abcdw
+
+  RDE and Arei/Ares Guile IDE projects:
+  https://sr.ht/~abcdw/rde
+  https://sr.ht/~abcdw/emacs-arei
+  https://sr.ht/~abcdw/guile-ares-rs
+
+  https://github.com/abcdw/rde (mirror)
+
+  Mailing lists:
+  https://lists.sr.ht/~abcdw/
+
+* Emacs: live stream about maintaining the modus-themes  :ModusThemes:
+:PROPERTIES:
+:DATE:     2026-04-10T19:22:52-07:00
+:DURATION: 2:44:35
+:YOUTUBE_URL: https://www.youtube.com/watch?v=xFQDYTCS1os
+:SPEAKERS: Protesilaos Stavrou
+:END:
+  At 14:00 Europe/Athens I will hold a live stream about Emacs. Specifically, I will work on my `modus-themes` package.
+
+  The idea is to write more tests and refine the relevant functions along the way.
+
+  I am announcing this -45 minutes before I go live. I will keep the chat open in case there are any questions.
+
+  * * *
+
+  Find all my publications on my website (Emacs, philosophy, etc.): https://protesilaos.com
+
+  All my Emacs-related work: https://protesilaos.com/emacs.
+
+* YE13: Working on modularizing my config  :configuration:
+:PROPERTIES:
+:DATE:     2026-04-10T18:16:08-07:00
+:DURATION: 1:23:25
+:YOUTUBE_URL: https://www.youtube.com/watch?v=U3mMJamXtAs
+:SPEAKERS: Sacha Chua
+:END:
+  Update: Rookie mistake! Forgot to check my calendar - I have to take the kiddo to her 11 AM  doctor's appointment. Moving the stream earlier. Sorry about that!
+  00:00 Intro
+  00:34 Oops, forgot to start my static blog exporter
+  03:11 Oops, gotta unstash things
+  04:38 Extracting function definitions
+  06:48 my-close-other-buffers
+  07:37 my-suggest-other-faces
+  08:20 defshortcuts
+  09:32 moving to the beginning of the line
+  09:55 copy file name to clipboard
+  12:20 Toggle or create buffer
+  26:06 Lispy: using a and q to navigate inside sexps
+  27:16 Randomness
+  29:19 my-org-find-first-common-heading
+  30:39 my-embark-org-insert-link-from-path
+  32:23 my-org-bookmark-match
+  33:25 Move Org propeitres to parent
+  34:12 Using speed commands for headings and lists
+  34:59 Cutting subtrees
+  36:28 my-org-goto-text-start
+  37:14 journal
+  37:57 my-org-follow-entry-link
+  40:16 my-org-back-to-heading - can be replaced with outline-previous-heading
+  41:38 row and column of an Org table
+  44:17 capture region contents with meatdata
+  46:44 words per minute
+  48:21 defhydra, dwim
+  50:13 doodles
+  01:02:03 back to toggling buffers
+  01:11:55 masterchat cli
+  01:12:44 stream chat
+  01:17:23 Displaying text in OBS
+  01:20:32 Steno
+
+  Drop by, keep me company, ask questions, share tips!
+
+* [EMACS LAB] #4: Programação "literate" (org-babel)  :org:OrgBabel:
+:PROPERTIES:
+:DATE:     2026-04-07T06:04:26-07:00
+:DURATION: 1:38:44
+:YOUTUBE_URL: https://www.youtube.com/watch?v=9ldWuYSXeQg
+:SPEAKERS: debxp (Blau Araujo)
+:END:
+  Todo o nosso trabalho só é possível graças ao apoio de vocês!
+
+  * LivePix (doação com mensagem): https://livepix.gg/blauaraujo
+  * LivePix (assinatura): https://livepix.gg/blauaraujo/assinatura
+  * PIX: pix@blauaraujo.com
+  * PicPay: https://picpay.me/blauaraujo
+  * PayPal: https://bit.ly/paypal-debxp
+  * Apoia.se: https://apoia.se/debxpcursos
+  * Meu livro: https://uiclap.bio/blau_araujo
+
+  Lista de prioridades de trabalho na Amazon:
+  https://www.amazon.com.br/hz/wishlist/ls/3LE4PKZEUOCCG?ref_=wl_share
+
+  Muito obrigado!
+
+  -----
+
+  Repositório desta transmissão:
+  https://bolha.dev/blau_araujo/debxp/src/branch/main/emacs
+
+  Nosso grupo sobre Emacs no Telegram:
+  https://t.me/emacs_talks
+
+  Comunidade debxp no Telegram:
+  https://t.me/debxpcomunidade
+
+* Emacs: live stream for writing Denote tests and more  :denote:
+:PROPERTIES:
+:DATE:     2026-04-07T01:51:51-07:00
+:DURATION: 3:06:25
+:YOUTUBE_URL: https://www.youtube.com/watch?v=Vunpn7ovEOc
+:SPEAKERS: Protesilaos Stavrou
+:END:
+  Tonight I will work on my `denote` package. There is a feature branch I implemented this morning and am now ready to continue refining the code. The immediate goals:
+
+  - Update unit tests that are still calling deprecated functions.
+  - Write new tests, starting with the `denote-dired` command and all its ancillary functions.
+  - Review all the commands that filter the query buffers (which are produced by commands such as `denote-grep`, `denote-backlinks`, `denote-query-contents-link`).
+  - Edit the manual accordingly.
+
+  I expect the stream to go on for 2-3 hours, but we will see.
+
+  I will keep the chat open in case there are any comments. I am happy to respond to them.
+
+  * * *
+
+  Find all my publications on my website (Emacs, philosophy, etc.): https://protesilaos.com
+
+  All my Emacs-related work: https://protesilaos.com/emacs.
+
+* laNotte excerpt
+:PROPERTIES:
+:DATE:     2026-04-06T05:09:58-07:00
+:DURATION: 8:18
+:YOUTUBE_URL: https://www.youtube.com/watch?v=hngY14mk64c
+:SPEAKERS: Think Error
+:END:
+  Using cslc.csd in Csound, cslc-mode in emacs. Excuse the audio glitches.
 * Yay Emacs 11: Fix find-function for Emacs Lisp from org-babel or scratch  :elisp:org:
 :PROPERTIES:
 :DATE:     2026-04-05T14:55:27-07:00

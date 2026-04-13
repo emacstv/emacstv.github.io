@@ -1,5 +1,69 @@
 [
   {
+    "ITEM": "Stop Jujutsu from auto-committing everything",
+    "DATE": "2026-04-10T23:08:26-07:00",
+    "DURATION": "3:33",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=kwwQ-pQ0Rk4",
+    "SPEAKERS": "Andrew Tropin",
+    "TAGS": [
+      "jujutsu"
+    ],
+    "BODY": "A simple workflow for Jujutsu for keeping local changes from being accidentally pushed to the remote repo.\n\n  ,#jujutsu #git\n\n  My site and blog:\n  https://trop.in\n  https://trop.in/blog\n\n  Reach me out here:\n  https://trop.in/contact\n\n  IRC Chat:\n  ,#tropin IRC channel at libera.chat.\n\n  Mastodon:\n  https://fosstodon.org/@abcdw\n\n  RDE and Arei/Ares Guile IDE projects:\n  https://sr.ht/~abcdw/rde\n  https://sr.ht/~abcdw/emacs-arei\n  https://sr.ht/~abcdw/guile-ares-rs\n\n  https://github.com/abcdw/rde (mirror)\n\n  Mailing lists:\n  https://lists.sr.ht/~abcdw/"
+  },
+  {
+    "ITEM": "Emacs: live stream about maintaining the modus-themes",
+    "DATE": "2026-04-10T19:22:52-07:00",
+    "DURATION": "2:44:35",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=xFQDYTCS1os",
+    "SPEAKERS": "Protesilaos Stavrou",
+    "TAGS": [
+      "ModusThemes"
+    ],
+    "BODY": "At 14:00 Europe/Athens I will hold a live stream about Emacs. Specifically, I will work on my `modus-themes` package.\n\n  The idea is to write more tests and refine the relevant functions along the way.\n\n  I am announcing this -45 minutes before I go live. I will keep the chat open in case there are any questions.\n\n  * * *\n\n  Find all my publications on my website (Emacs, philosophy, etc.): https://protesilaos.com\n\n  All my Emacs-related work: https://protesilaos.com/emacs."
+  },
+  {
+    "ITEM": "YE13: Working on modularizing my config",
+    "DATE": "2026-04-10T18:16:08-07:00",
+    "DURATION": "1:23:25",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=U3mMJamXtAs",
+    "SPEAKERS": "Sacha Chua",
+    "TAGS": [
+      "configuration"
+    ],
+    "BODY": "Update: Rookie mistake! Forgot to check my calendar - I have to take the kiddo to her 11 AM  doctor's appointment. Moving the stream earlier. Sorry about that!\n  00:00 Intro\n  00:34 Oops, forgot to start my static blog exporter\n  03:11 Oops, gotta unstash things\n  04:38 Extracting function definitions\n  06:48 my-close-other-buffers\n  07:37 my-suggest-other-faces\n  08:20 defshortcuts\n  09:32 moving to the beginning of the line\n  09:55 copy file name to clipboard\n  12:20 Toggle or create buffer\n  26:06 Lispy: using a and q to navigate inside sexps\n  27:16 Randomness\n  29:19 my-org-find-first-common-heading\n  30:39 my-embark-org-insert-link-from-path\n  32:23 my-org-bookmark-match\n  33:25 Move Org propeitres to parent\n  34:12 Using speed commands for headings and lists\n  34:59 Cutting subtrees\n  36:28 my-org-goto-text-start\n  37:14 journal\n  37:57 my-org-follow-entry-link\n  40:16 my-org-back-to-heading - can be replaced with outline-previous-heading\n  41:38 row and column of an Org table\n  44:17 capture region contents with meatdata\n  46:44 words per minute\n  48:21 defhydra, dwim\n  50:13 doodles\n  01:02:03 back to toggling buffers\n  01:11:55 masterchat cli\n  01:12:44 stream chat\n  01:17:23 Displaying text in OBS\n  01:20:32 Steno\n\n  Drop by, keep me company, ask questions, share tips!"
+  },
+  {
+    "ITEM": "[EMACS LAB] #4: Programação \"literate\" (org-babel)",
+    "DATE": "2026-04-07T06:04:26-07:00",
+    "DURATION": "1:38:44",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=9ldWuYSXeQg",
+    "SPEAKERS": "debxp (Blau Araujo)",
+    "TAGS": [
+      "org",
+      "OrgBabel"
+    ],
+    "BODY": "Todo o nosso trabalho só é possível graças ao apoio de vocês!\n\n  * LivePix (doação com mensagem): https://livepix.gg/blauaraujo\n  * LivePix (assinatura): https://livepix.gg/blauaraujo/assinatura\n  * PIX: pix@blauaraujo.com\n  * PicPay: https://picpay.me/blauaraujo\n  * PayPal: https://bit.ly/paypal-debxp\n  * Apoia.se: https://apoia.se/debxpcursos\n  * Meu livro: https://uiclap.bio/blau_araujo\n\n  Lista de prioridades de trabalho na Amazon:\n  https://www.amazon.com.br/hz/wishlist/ls/3LE4PKZEUOCCG?ref_=wl_share\n\n  Muito obrigado!\n\n  -----\n\n  Repositório desta transmissão:\n  https://bolha.dev/blau_araujo/debxp/src/branch/main/emacs\n\n  Nosso grupo sobre Emacs no Telegram:\n  https://t.me/emacs_talks\n\n  Comunidade debxp no Telegram:\n  https://t.me/debxpcomunidade"
+  },
+  {
+    "ITEM": "Emacs: live stream for writing Denote tests and more",
+    "DATE": "2026-04-07T01:51:51-07:00",
+    "DURATION": "3:06:25",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=Vunpn7ovEOc",
+    "SPEAKERS": "Protesilaos Stavrou",
+    "TAGS": [
+      "denote"
+    ],
+    "BODY": "Tonight I will work on my `denote` package. There is a feature branch I implemented this morning and am now ready to continue refining the code. The immediate goals:\n\n  - Update unit tests that are still calling deprecated functions.\n  - Write new tests, starting with the `denote-dired` command and all its ancillary functions.\n  - Review all the commands that filter the query buffers (which are produced by commands such as `denote-grep`, `denote-backlinks`, `denote-query-contents-link`).\n  - Edit the manual accordingly.\n\n  I expect the stream to go on for 2-3 hours, but we will see.\n\n  I will keep the chat open in case there are any comments. I am happy to respond to them.\n\n  * * *\n\n  Find all my publications on my website (Emacs, philosophy, etc.): https://protesilaos.com\n\n  All my Emacs-related work: https://protesilaos.com/emacs."
+  },
+  {
+    "ITEM": "laNotte excerpt",
+    "DATE": "2026-04-06T05:09:58-07:00",
+    "DURATION": "8:18",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=hngY14mk64c",
+    "SPEAKERS": "Think Error",
+    "BODY": "Using cslc.csd in Csound, cslc-mode in emacs. Excuse the audio glitches."
+  },
+  {
     "ITEM": "Yay Emacs 11: Fix find-function for Emacs Lisp from org-babel or scratch",
     "DATE": "2026-04-05T14:55:27-07:00",
     "DURATION": "8:19",
@@ -832,9 +896,6 @@
     "DURATION": "27:32",
     "YOUTUBE_URL": "https://www.youtube.com/watch?v=tUCz4QnZA4I",
     "SPEAKERS": "Greg Grubbs - Tech and History",
-    "TAGS": [
-      "llm"
-    ],
     "BODY": "I'm back with the most fun way to do research on your own terms: a generalized version of the Council of LLMs that you can easily put into Claude Code, Gemini CLI, full-fledged IDEs like Cursor, or your own specially cooked gptel+mcp.el setup in Emacs.\n\n  The LLM Council prompt gives great flexibility in using an LLM as usual for chatting, discovery, simple coding, answering quick questions.  But it switches into turbo mode when you are working on a hard problem by invoking council deliberation between multiple LLM models of your choosing.\n\n  I show briefly how awesome Opencode CLI is as an alternative to: Claude Code, Gemini CLI, Codex CLI and who-knows-what-else LLM CLI all at once.  Install it from\n  https://github.com/anomalyco/opencode\n\n  The key MCP server I use is found at\n  https://github.com/nesquikm/mcp-rubber-duck\n\n  The LLM Council prompt I use:\n  https://github.com/gregoryg/AIPIHKAL/blob/main/llm-council-prompt.md\n\n  The mcp.el configuration for you Emacs users:\n  https://github.com/gregoryg/emacs-gregoryg?tab=readme-ov-file#mcpel---model-context-protocol\n\n  Please enjoy and let me know how you use this feature!\n\n  00:00 - Intro to and demo of Andrej Kaparthy's Council of LLMs\n  11:37 - Making a general LLM Council: The Prompt\n  14:40 - The MCP server that makes it possible: mcp-rubber-duck\n  16:30 - Let's configure the council in Opencode (like Claude Code)\n  20:00 - We convene the council in Opencode - okey dokey!\n  22:20 - A side trip to the prompt to show how to make it flexible and cost effective\n  24:05 - Holy Cow - the results are in! GLM 4.7 kills it!\n  26:05 - The config in Emacs for gptel + mcp.el\n  27:00 - Try it!  Enjoy!"
   },
   {
@@ -9909,13 +9970,6 @@
     "TOOBNIX_URL": "https://toobnix.org/w/p8K8mtayv2HYtw1gK3zUwR",
     "TRANSCRIPT_URL": "https://media.emacsconf.org/2023/emacsconf-2023-table--who-needs-excel-managing-your-students-qualifications-with-orgtable--daniel-molina--main.vtt",
     "SPEAKERS": "EmacsConf and Emacs hangouts",
-    "TAGS": [
-      "emacsconf2023",
-      "teaching",
-      "org",
-      "OrgTables",
-      "grading"
-    ],
     "BODY": ""
   },
   {

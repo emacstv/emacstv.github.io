@@ -6,6 +6,157 @@
     <atom:link href="https://emacs.tv/videos.rss" rel="self" type="application/rss+xml" />
     <description>Emacs videos</description>
     <item>
+      <title>Stop Jujutsu from auto-committing everything</title>
+      <link>https://www.youtube.com/watch?v=kwwQ-pQ0Rk4</link>
+      <guid>https://www.youtube.com/watch?v=kwwQ-pQ0Rk4</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=kwwQ-pQ0Rk4">youtube</a><br><br>A simple workflow for Jujutsu for keeping local changes from being accidentally pushed to the remote repo.
+
+  ,#jujutsu #git
+
+  My site and blog:
+  https://trop.in
+  https://trop.in/blog
+
+  Reach me out here:
+  https://trop.in/contact
+
+  IRC Chat:
+  ,#tropin IRC channel at libera.chat.
+
+  Mastodon:
+  https://fosstodon.org/@abcdw
+
+  RDE and Arei/Ares Guile IDE projects:
+  https://sr.ht/~abcdw/rde
+  https://sr.ht/~abcdw/emacs-arei
+  https://sr.ht/~abcdw/guile-ares-rs
+
+  https://github.com/abcdw/rde (mirror)
+
+  Mailing lists:
+  https://lists.sr.ht/~abcdw/</div>]]></description>
+      <pubDate>Sat, 11 Apr 2026 06:08:26 +0000</pubDate><category>jujutsu</category>
+    </item>
+    <item>
+      <title>Emacs: live stream about maintaining the modus-themes</title>
+      <link>https://www.youtube.com/watch?v=xFQDYTCS1os</link>
+      <guid>https://www.youtube.com/watch?v=xFQDYTCS1os</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=xFQDYTCS1os">youtube</a><br><br>At 14:00 Europe/Athens I will hold a live stream about Emacs. Specifically, I will work on my `modus-themes` package.
+
+  The idea is to write more tests and refine the relevant functions along the way.
+
+  I am announcing this -45 minutes before I go live. I will keep the chat open in case there are any questions.
+
+  * * *
+
+  Find all my publications on my website (Emacs, philosophy, etc.): https://protesilaos.com
+
+  All my Emacs-related work: https://protesilaos.com/emacs.</div>]]></description>
+      <pubDate>Sat, 11 Apr 2026 02:22:52 +0000</pubDate><category>ModusThemes</category>
+    </item>
+    <item>
+      <title>YE13: Working on modularizing my config</title>
+      <link>https://www.youtube.com/watch?v=U3mMJamXtAs</link>
+      <guid>https://www.youtube.com/watch?v=U3mMJamXtAs</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=U3mMJamXtAs">youtube</a><br><br>Update: Rookie mistake! Forgot to check my calendar - I have to take the kiddo to her 11 AM  doctor's appointment. Moving the stream earlier. Sorry about that!
+  00:00 Intro
+  00:34 Oops, forgot to start my static blog exporter
+  03:11 Oops, gotta unstash things
+  04:38 Extracting function definitions
+  06:48 my-close-other-buffers
+  07:37 my-suggest-other-faces
+  08:20 defshortcuts
+  09:32 moving to the beginning of the line
+  09:55 copy file name to clipboard
+  12:20 Toggle or create buffer
+  26:06 Lispy: using a and q to navigate inside sexps
+  27:16 Randomness
+  29:19 my-org-find-first-common-heading
+  30:39 my-embark-org-insert-link-from-path
+  32:23 my-org-bookmark-match
+  33:25 Move Org propeitres to parent
+  34:12 Using speed commands for headings and lists
+  34:59 Cutting subtrees
+  36:28 my-org-goto-text-start
+  37:14 journal
+  37:57 my-org-follow-entry-link
+  40:16 my-org-back-to-heading - can be replaced with outline-previous-heading
+  41:38 row and column of an Org table
+  44:17 capture region contents with meatdata
+  46:44 words per minute
+  48:21 defhydra, dwim
+  50:13 doodles
+  01:02:03 back to toggling buffers
+  01:11:55 masterchat cli
+  01:12:44 stream chat
+  01:17:23 Displaying text in OBS
+  01:20:32 Steno
+
+  Drop by, keep me company, ask questions, share tips!</div>]]></description>
+      <pubDate>Sat, 11 Apr 2026 01:16:08 +0000</pubDate><category>configuration</category>
+    </item>
+    <item>
+      <title>[EMACS LAB] #4: Programação &quot;literate&quot; (org-babel)</title>
+      <link>https://www.youtube.com/watch?v=9ldWuYSXeQg</link>
+      <guid>https://www.youtube.com/watch?v=9ldWuYSXeQg</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=9ldWuYSXeQg">youtube</a><br><br>Todo o nosso trabalho só é possível graças ao apoio de vocês!
+
+  * LivePix (doação com mensagem): https://livepix.gg/blauaraujo
+  * LivePix (assinatura): https://livepix.gg/blauaraujo/assinatura
+  * PIX: pix@blauaraujo.com
+  * PicPay: https://picpay.me/blauaraujo
+  * PayPal: https://bit.ly/paypal-debxp
+  * Apoia.se: https://apoia.se/debxpcursos
+  * Meu livro: https://uiclap.bio/blau_araujo
+
+  Lista de prioridades de trabalho na Amazon:
+  https://www.amazon.com.br/hz/wishlist/ls/3LE4PKZEUOCCG?ref_=wl_share
+
+  Muito obrigado!
+
+  -----
+
+  Repositório desta transmissão:
+  https://bolha.dev/blau_araujo/debxp/src/branch/main/emacs
+
+  Nosso grupo sobre Emacs no Telegram:
+  https://t.me/emacs_talks
+
+  Comunidade debxp no Telegram:
+  https://t.me/debxpcomunidade</div>]]></description>
+      <pubDate>Tue, 07 Apr 2026 13:04:26 +0000</pubDate><category>org</category>
+<category>OrgBabel</category>
+    </item>
+    <item>
+      <title>Emacs: live stream for writing Denote tests and more</title>
+      <link>https://www.youtube.com/watch?v=Vunpn7ovEOc</link>
+      <guid>https://www.youtube.com/watch?v=Vunpn7ovEOc</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=Vunpn7ovEOc">youtube</a><br><br>Tonight I will work on my `denote` package. There is a feature branch I implemented this morning and am now ready to continue refining the code. The immediate goals:
+
+  - Update unit tests that are still calling deprecated functions.
+  - Write new tests, starting with the `denote-dired` command and all its ancillary functions.
+  - Review all the commands that filter the query buffers (which are produced by commands such as `denote-grep`, `denote-backlinks`, `denote-query-contents-link`).
+  - Edit the manual accordingly.
+
+  I expect the stream to go on for 2-3 hours, but we will see.
+
+  I will keep the chat open in case there are any comments. I am happy to respond to them.
+
+  * * *
+
+  Find all my publications on my website (Emacs, philosophy, etc.): https://protesilaos.com
+
+  All my Emacs-related work: https://protesilaos.com/emacs.</div>]]></description>
+      <pubDate>Tue, 07 Apr 2026 08:51:51 +0000</pubDate><category>denote</category>
+    </item>
+    <item>
+      <title>laNotte excerpt</title>
+      <link>https://www.youtube.com/watch?v=hngY14mk64c</link>
+      <guid>https://www.youtube.com/watch?v=hngY14mk64c</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=hngY14mk64c">youtube</a><br><br>Using cslc.csd in Csound, cslc-mode in emacs. Excuse the audio glitches.</div>]]></description>
+      <pubDate>Mon, 06 Apr 2026 12:09:58 +0000</pubDate>
+    </item>
+    <item>
       <title>Yay Emacs 11: Fix find-function for Emacs Lisp from org-babel or scratch</title>
       <link>https://www.youtube.com/watch?v=PKkV1Tbev_Y</link>
       <guid>https://www.youtube.com/watch?v=PKkV1Tbev_Y</guid>
@@ -802,196 +953,6 @@
   ,#emacs #ollama</div>]]></description>
       <pubDate>Wed, 04 Mar 2026 10:25:25 +0000</pubDate><category>ai</category>
 <category>ollama</category>
-    </item>
-    <item>
-      <title>Bending Emacs Episode 13: agent-shell + Claude Skills + Charts</title>
-      <link>https://www.youtube.com/watch?v=HJQ86HuSIJI</link>
-      <guid>https://www.youtube.com/watch?v=HJQ86HuSIJI</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=HJQ86HuSIJI">youtube</a><br><br>In this episode we build upon our the previous video, leveraging agent-shell, Claude, Claude Skills, and command line diagram utilities to visualize or analuze data.</div>]]></description>
-      <pubDate>Tue, 03 Mar 2026 22:09:49 +0000</pubDate><category>ai</category>
-<category>AgentShell</category>
-<category>claude</category>
-    </item>
-    <item>
-      <title>A Year Without Vertico - System Crafters Live!</title>
-      <link>https://www.youtube.com/watch?v=3GDuQ1VAM8M</link>
-      <guid>https://www.youtube.com/watch?v=3GDuQ1VAM8M</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=3GDuQ1VAM8M">youtube</a><br><br>In this stream, we'll revisit the Vertico completion framework after a full year away, adding it back to my Emacs configuration with fresh eyes. We'll explore what's changed and improved since I last used it, tweaking settings and discovering other useful packages along the way.
-
-  Let's see how I feel after spending a year with Emacs' built-in completions and whether Vertico truly earns a place in my configuration!
-
-  ,#emacs #vertico #completions
-
-  SUPPORT THE CHANNEL:
-
-  👍 Support My Work: https://systemcrafters.net/how-to-help/#support-my-work
-  📰 Subscribe to the Newsletter: https://systemcrafters.net/newsletter/
-  👕 Check out the Store: https://systemcrafters.store
-  📘 Get Your Copy of Mastering Emacs: https://www.masteringemacs.org/r/systemcrafters?utm_source=yt&utm_medium=desc&utm_campaign=scme
-
-  SHOW NOTES:
-
-  https://systemcrafters.net/live-streams/february-27-2026/
-
-  JOIN THE COMMUNITY:
-
-  https://systemcrafters.net/community/ (Forum and IRC chat!)
-  https://fosstodon.org/@daviwil
-
-  MY CONFIGURATION:
-
-  (This site is currently down but will be back up soon!)
-
-  https://config.daviwil.com
-  https://config.daviwil.com/emacs
-  https://config.daviwil.com/systems (Guix)
-
-  OTHER SERIES:
-
-  - Emacs Essentials: https://www.youtube.com/watch?v=48JlgiBpw_I&list=PLEoMzSkcN8oPZvSdewHG8uApD7THlLLCV
-  - Emacs From Scratch: https://www.youtube.com/watch?v=74zOY-vgkyw&list=PLEoMzSkcN8oPH1au7H6B7bBJ4ZO7BXjSZ
-  - Emacs Tips: https://www.youtube.com/watch?v=wKTKmE1wLyw&list=PLEoMzSkcN8oMHJ6Xil1YdnYtlWd5hHZql
-  - Emacs Desktop Environment: https://www.youtube.com/watch?v=f7xB2fFk1tQ&list=PLEoMzSkcN8oNPbEMYEtswOVTvq7CVddCS
-  - Emacs IDE: https://www.youtube.com/watch?v=E-NAM9U5JYE&list=PLEoMzSkcN8oNvsrtk_iZSb94krGRofFjN
-  - Emacs Mail: https://www.youtube.com/watch?v=yZRyEhi4y44&list=PLEoMzSkcN8oM-kA19xOQc8s0gr0PpFGJQ
-  - Learning Emacs Lisp: https://www.youtube.com/watch?v=RQK_DaaX34Q&list=PLEoMzSkcN8oPQtn7FQEF3D7sroZbXuPZ7
-  - Craft Your System with GNU Guix: https://www.youtube.com/watch?v=iBaqOK75cho&list=PLEoMzSkcN8oNxnj7jm5V2ZcGc52002pQU
-
-  CREDITS:
-
-  Coriolis Effect by logos feat. stefsax, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/mseq/26296
-  reNovation by airtone, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/airtone/60674
-  ukeSounds by airtone, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/airtone/32655
-  Between Worlds (Instrumental) by Aussens@iter, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/tobias_weber/56664</div>]]></description>
-      <pubDate>Sat, 28 Feb 2026 06:06:25 +0000</pubDate><category>completion</category>
-    </item>
-    <item>
-      <title>Emacs Is Installed! How Can I Create A Shortcut That Just Starts This Baby up? (5) - [10:12]</title>
-      <link>https://www.youtube.com/watch?v=8kB-nEy_w4Y</link>
-      <guid>https://www.youtube.com/watch?v=8kB-nEy_w4Y</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=8kB-nEy_w4Y">youtube</a><br><br>Stop searching for your Emacs app (plausible +2)! This video shows exactly how to create shortcuts to launch Emacs in seconds -- whether you're on Windows or Linux. You'll learn:
-
-  ✅ Windows: Create a desktop shortcut (no registry edits!)
-  ✅ Linux: Build a custom .desktop file (with Exec, Icon, and categories)
-  ✅ Why avoid bad .desktop syntax (and how to test it)
-  ✅ Command-line tricks to launch without shortcuts
-
-  Perfect for beginners who installed Emacs but don’t know what a desktop is. No source builds or NPM needed -- just click and run!
-
-  Previous videos you need:
-  ▶️ Emacs From Source (Intro) • [Video Link]
-  ▶️ Why Install From Source? • [Video Link]
-
-
-  [NPM - Package Node Manager]
-
-  📌 Subscribe for more Emacs tips, reproducible builds, and deep dives into configuration!
-  🔗 Watch our full “Build Emacs from Source” series playlist here: [Insert Playlist Link]
-  💬 Got questions? Drop them in the comments—we usually respondant every nonce!
-
-  [Soundtrack - [Not My Work - Thats Stuart Copeland pro Sounds!  📧🔽 - 🐉🔼] ]
-  https://www.youtube.com/watch?v=YvFRWKklC6c&list=PLA6ECEC231DE28F97
-
-
-  ,#emacs #windows #linux #shortcut #desktopFiles #techTips #developer #howTo #emacsWorld #emacsLaunchShortcut #windowsEmacsShortcut #linuxDesktopFile #emacsStartCommand #createDesktopShortcut #openEmacsFast #windowsShortcutGuide #desktopExample #launchEmacs #quickStartEmacs</div>]]></description>
-      <pubDate>Sat, 28 Feb 2026 04:09:38 +0000</pubDate>
-    </item>
-    <item>
-      <title>Emacs is Installed! Try These 3 Ways to Start It Now (Zero Init! | CLI Hacks) (2) - [7-ish minutes]</title>
-      <link>https://www.youtube.com/watch?v=jn_lG87Q1C4</link>
-      <guid>https://www.youtube.com/watch?v=jn_lG87Q1C4</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=jn_lG87Q1C4">youtube</a><br><br>Tired of wasting time launching Emacs? Learn *3 instant methods to start Emacs without your config files* (no =~/.emacs.d=!)—plus advanced tricks for WSL, Windows Terminal, and Linux.
-
-  ✅ Start without init file/splash screen (0s load)
-  ✅ Launch with AI-generated ANSI art (yes, really)
-  ✅ Open specific directories + load early-init.el (for fast startup)
-
-  ,#emacsStartWithoutInit #emacsCmdLine #emacsAlternate #emacs #terminalLaunch #emacsWindows #emacsWsl #emacsLinux #emacsTips #commandLineEmacs #startEmacsWithoutConfig
-
-  Pro Tip: Works on Ubuntu, Windows (WSL), macOS -- no config files blocked!
-
-  ,#emacs #commandLine #emacsTips #wsl #windows #linux #emacsAlternate #emacsCmdLine #emacsMac #terminalHacks #devTools
-
-  👉 Like/Subscribe for more terminal power!
-  [NPM - Package Node Manager]
-
-  📌 Subscribe for more Emacs tips, reproducible builds, and deep dives into configuration!
-  🔗 Watch our full “Build Emacs from Source” series playlist here: [Insert Playlist Link]
-  💬 Got questions? Drop them in the comments—we usually respondant every nonce!
-
-  [Soundtrack - [Not My Work - Thats Stuart Copeland pro Sounds 📧🔽 - 🐉🔼] ]
-  https://www.youtube.com/watch?v=YvFRWKklC6c&list=PLA6ECEC231DE28F97</div>]]></description>
-      <pubDate>Sat, 28 Feb 2026 01:35:36 +0000</pubDate>
-    </item>
-    <item>
-      <title>Emacs Is Installed! Your User Directory Explained (.emacs.d Deep Dive) (3) - [5:36]</title>
-      <link>https://www.youtube.com/watch?v=kAIzhHJsVXc</link>
-      <guid>https://www.youtube.com/watch?v=kAIzhHJsVXc</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=kAIzhHJsVXc">youtube</a><br><br>🎉 You've installed Emacs—now what? Welcome to the most important directory in your Emacs journey: your user directory (typically =.emacs.d=)!
-
-  In this essential guide for new Emacs users, we explore the heart of Emacs configuration -- the directory that controls everything from themes and packages to backups and custom code.
-
-  What you'll learn:
-
-  ✅ Where your Emacs user directory lives (.emacs.d location)
-  ✅ What kind of files and folders live inside it
-  ✅ Configuration files: init.el, early-init.el, and custom.el/garbage.el
-  ✅ The elpa/ directory: where packages install
-  ✅ Auto-save files, backups, and temp files explained
-  ✅ Custom libraries, themes, and snippets storage
-
-  This directory is your Emacs home base. You'll edit files in it regularly, back it up religiously, and grow it over years. Understanding what might be in it now saves hours of confusion later!
-
-  Perfect for:
-  - Developers who just installed Emacs (first time or returning)
-  - Users migrating from VS Code, Vim, or other editors
-  - Anyone who wants to understand Emacs configuration basics
-  - System administrators setting up reproducible environments
-
-  [NPM - Package Node Manager]
-
-  ,#emacs #emacsConfig #emacsTutorial #emacsBeginners #emacsd #initEl #emacsSetup #gnuEmacs #textEditor #ide #developers #linux #programming #dotFiles #versionControl #git #emacsGuide #coding #productivity #emacsUserDirectory #emacsDExplained #emacsConfigurationDirectory #emacsInitEl #emacsForBeginners #firstStepsEmacs #emacsAfterInstallation #emacsSetupGuide #emacsConfigFiles #emacsPackageDirectory #emacsCustomization #emacsBackupFiles #emacsElpaDirectory #gnuEmacsTutorial #emacsGitConfiguration
-
-  📌 Subscribe for more Emacs tips, reproducible builds, and deep dives into configuration!
-  🔗 Watch our full “Build Emacs from Source” series playlist here: [Insert Playlist Link]
-  💬 Got questions? Drop them in the comments—we usually respondant every nonce!
-
-  [Soundtrack - [Not My Work - Thats Stuart Copeland pro Sounds 📧🔽 - 🐉🔼] ]
-  https://www.youtube.com/watch?v=YvFRWKklC6c&list=PLA6ECEC231DE28F97</div>]]></description>
-      <pubDate>Sat, 28 Feb 2026 01:04:05 +0000</pubDate><category>configuration</category>
-    </item>
-    <item>
-      <title>Moving to Structural Diffs | Trying out Difftastic</title>
-      <link>https://www.youtube.com/watch?v=pARy5XnLHKQ</link>
-      <guid>https://www.youtube.com/watch?v=pARy5XnLHKQ</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=pARy5XnLHKQ">youtube</a><br><br>Improving my review workflow by getting clearer diffs with Difftastic and tree-sitter grammars.
-
-  ,#rde #guix #scheme #lisp #guile #racket
-
-  My site and blog:
-  https://trop.in
-  https://trop.in/blog
-
-  Reach me out here:
-  https://trop.in/contact
-
-  IRC Chat:
-  ,#tropin IRC channel at libera.chat.
-
-  Mastodon:
-  https://fosstodon.org/@abcdw
-
-  RDE and Arei/Ares Guile IDE projects:
-  https://sr.ht/~abcdw/rde
-  https://sr.ht/~abcdw/emacs-arei
-  https://sr.ht/~abcdw/guile-ares-rs
-
-  https://github.com/abcdw/rde (mirror)
-
-  Mailing lists:
-  https://lists.sr.ht/~abcdw/</div>]]></description>
-      <pubDate>Fri, 27 Feb 2026 20:37:03 +0000</pubDate><category>diff</category>
-<category>difftastic</category>
     </item>
   </channel>
 </rss>
