@@ -3,6 +3,471 @@
 #+PROPERTY: header-args:emacs-lisp+   :eval no
 
 
+* Emacs: ses-mode (Simple Emacs Spreadsheet)  :ses:math:
+:PROPERTIES:
+:DATE:     2026-04-24T09:21:06-07:00
+:DURATION: 20:56
+:YOUTUBE_URL: https://www.youtube.com/watch?v=ObK3HDOdFoM
+:SPEAKERS: types-n-pl
+:END:
+  Make small spreadsheets within emacs.
+
+* Sam Aaron uses #emacs !  :music:community:
+:PROPERTIES:
+:DATE:     2026-04-24T09:01:30-07:00
+:DURATION: 1:27
+:YOUTUBE_URL: https://www.youtube.com/watch?v=vELpmgs3efc
+:SPEAKERS: BEAM There, Done That
+:END:
+
+
+* (emacs) org mode - your life in plain text  :org:
+:PROPERTIES:
+:DATE:     2026-04-24T03:33:16-07:00
+:DURATION: 9:48
+:YOUTUBE_URL: https://www.youtube.com/watch?v=figa38Mg-eY
+:SPEAKERS: Universitätsbibliothek der Justus-Liebig-Universität Gießen
+:LANGUAGE: German
+:END:
+  Der Weg zu einem einfachen Leben mit reinem Text, der strukturiert interpretiert für Projektplanung, Zeitmanagement, Aufgabenlisten, Tabellenkalkulation, Programmierung, Briefe, Einkaufslisten, wissenschaftliche Hausarbeiten, Gedichte und Webseiten genutzt wird. PDF-Export u.a. inklusive. Wegbegleiter ist emacs org mode, dem Textwerkzeug, das Textarbeit und viel viel mehr unterstützt.
+  ____________________________
+  👨‍🎓  Referent: Alexander-Lars Dallmann (Hochschulrechenzentrum (HRZ))
+  ____________________________
+  Links:
+  ➡️ https://orgmode.org/
+  ➡️ https://www.gnu.org/software/emacs/
+  ➡️ https://web.mit.edu/nelhage/Public/the-craft-of-text-editing.pdf
+  ____________________________
+  ▶️ Inhalt:
+  00:00 Intro
+  00:44 plain text
+  02:23 emacs
+  03:20 org mode
+  03:50 org Projektplanung
+  05:00 org Tabellen
+  05:51 org - Programmquelltexte
+  06:22 org - Exportformate
+  07:30 plain text in your workflow
+  08:36 Lesehinweise
+  09:36 Abschluss
+
+* Emacs: maintaining Denote, TMR, and more  :elisp:livestream:
+:PROPERTIES:
+:DATE:     2026-04-24T02:58:53-07:00
+:DURATION: 3:06:05
+:YOUTUBE_URL: https://www.youtube.com/watch?v=5OSn7udx9LA
+:SPEAKERS: Protesilaos
+:END:
+  This is a spontaneous live stream. I will continue maintaining my packages. My plan is to start with Denote and then move to TMR. Depending on how I do, I will check some of my other packages as well.
+
+  * * *
+
+  Find all my publications on my website (Emacs, philosophy, etc.): https://protesilaos.com
+
+  All my Emacs-related work: https://protesilaos.com/emacs.
+
+* YE21 April 22: Continuing to think about newbies / starter kits  :community:
+:PROPERTIES:
+:DATE:     2026-04-23T20:35:40-07:00
+:DURATION: 1:00:50
+:YOUTUBE_URL: https://www.youtube.com/watch?v=hRK59GQw-HE
+:SPEAKERS: Sacha Chua
+:END:
+  Notes at https://sachachua.com/blog/2026/04/ye21-continuing-to-think-about-newbies-starter-kits/
+
+  I plan to continue thinking about the Emacs Carnival April 2026 theme of newbies / starter kits https://www.emacswiki.org/emacs/CarnivalApril2026. Here are my rough notes https://sachachua.com/blog/2026/04/ye20-emacs-carnival-newbies-starter-kits/ from my previous livestream https://youtube.com/live/Yht0N26EoF4 on the topic.
+
+  00:01 Starting up
+  03:23 Newbies and starter kits
+  05:55 Emacs News
+  07:14 Let's move the mailing list option up
+  07:51 An aside talking to Prot
+  09:52 Challenges: Isolation
+  10:45 Overwhelm
+  11:14 Balance of time
+  11:33 Unknowns
+  14:00 Post-its
+  14:21 Finding help
+  14:53 Testing BigBlueButton
+  17:02 Thinking about reviving Emacs Hangouts
+  17:48 Emacs News as a newbie
+  18:29 Aside: Jeff is looking into making VS Code plugins
+  18:57 Notes on making the most of Emacs News
+  20:50 RSS
+  23:42 newsticker
+  27:25 Stream delay
+  28:31 Reading news with newsticker
+  29:04 The usefulness of screenshots and videos
+  34:20 Back to Emacs News
+  35:00 Prerequisite knowledge for Elfeed
+  37:29 Other resources that people might find useful
+  40:56 Beginner map
+  42:44 emacs-news/index.org is 5.5 MB of plain text
+  43:55 consult-focus-lines
+  44:13 Organizing the links
+  45:02 Organizing screenshots and videos by package
+  45:49 Info pages
+  47:08 Remembering keybindings
+  48:40 The guided tour
+  50:07 Recap
+  53:12 newcomers-presets
+  57:52 Wrapping up
+  58:19 Remembering keybindings
+  59:13 Picking Prot's brain next week about the newcomer experience
+
+* Spacemacs | Jouer musique, enregistrements | Productivité  :multimedia:mpc:
+:PROPERTIES:
+:DATE:     2026-04-23T07:21:36-07:00
+:DURATION: 1:28
+:YOUTUBE_URL: https://www.youtube.com/watch?v=7glpGrwFKPg
+:SPEAKERS: Eric Nantel 🇨🇦
+:LANGUAGE: French
+:END:
+  Codeberg: https://codeberg.org/ericnantel/spacemacs-config
+
+  Que ce soit pour le travail, l'école ou la maison, vous pouvez facilement écouter du son à l'intérieur d'Emacs tout en étudiant ou retranscrivant vos enregistrements en notes Org.
+
+  * Important: Installer VLC sur votre machine.
+
+  ,#productivity #focus #success #study #motivation #ergonomy #emacs #spacemacs
+
+* Emacs Configuration: Writing my own Theme Switcher  :elisp:theme:
+:PROPERTIES:
+:DATE:     2026-04-23T00:30:00-07:00
+:DURATION: 15:33
+:YOUTUBE_URL: https://www.youtube.com/watch?v=oMOBeelAgvo
+:SPEAKERS: lisperp
+:END:
+  Title Idea: Create Your Own Custom Theme Switcher in Emacs | Elisp Tutorial
+
+  Description:
+  Emacs default themes se bor ho gaye ho? Is video mein hum seekhenge ki kaise apna khud ka Theme Switcher program likhte hain using Emacs Lisp (Elisp).
+
+* YE20: Emacs Carnival: newbies / starter kits  :community:
+:PROPERTIES:
+:DATE:     2026-04-22T19:29:53-07:00
+:DURATION: 1:03:50
+:YOUTUBE_URL: https://youtube.com/live/Yht0N26EoF4
+:SPEAKERS: Sacha Chua
+:END:
+  Thinking about what I want to write or do for the Emacs Carnival theme this month
+  Transcript and notes: https://sachachua.com/blog/2026/04/ye20-emacs-carnival-newbies-starter-kits/
+
+  00:00 Introduction
+  02:17 Overall structure
+  04:57 Starting with where people are
+  05:59 The built-in tutorial (C-h t or M-x help-with-tutorial)
+  06:30 Overwhelm
+  06:59 Getting a basic working environment
+  08:33 Sometimes keybindings don't work
+  09:52 Isolation
+  11:27 Programming vs non-programming backgrounds
+  12:11 Students
+  13:56 Basic working environment
+  15:31 Stuff I work on - Emacs News
+  17:28 Emacs Wiki
+  18:53 Mapping resources
+  21:00 Clojure
+  23:02 Emacs News and a map
+  23:38 Cheat sheets
+  27:04 Meetups
+  30:19 Emacs Calendar
+  31:54 EmacsConf
+  33:15 Where people ask for help
+  35:12 Emacs Clinic?
+  36:09 My TODOs
+  38:39 Videos
+  41:12 Learning curve
+  43:21 emacs.tv - TODO: Add more to the beginner tag, make a playlist
+  46:36 Isolation
+  48:54 Overwhelm
+  49:35 IRC
+  52:19 Learning from other people's configs; TODO maybe a livestream?
+  56:07 Discord?
+  57:10 Thinking about the blog posts
+  58:55 Books
+  59:46 Manuals
+  01:00:25 Maybe annotating the manual?
+  01:01:04 Starter kits
+  01:02:32 Navigating source code
+  01:02:51 Braindumping with company
+
+
+  - Emacs Carnival April 2026: newbies/starter kits https://www.emacswiki.org/emacs/CarnivalApril2026
+  - How I got into Emacs
+      - Evolution of an Emacs user — reflection, linux https://sachachua.com/blog/2003/03/evolution-of-an-emacs-user-reflection-linux/
+      - How I got hooked https://sachachua.com/blog/2008/01/how-i-got-hooked/
+  - Beginner map https://sachachua.com/web/beginner-map.html
+  - Sacha Chua's Emacs configuration https://sachachua.com/dotemacs/index.html
+  - Emacs News https://sachachua.com/blog/category/emacs-news/
+  - EmacsConf https://emacsconf.org/
+  - Emacs calendar https://emacslife.com/calendar/
+  - EmacsWiki https://www.emacswiki.org/
+
+* Spacemacs | Org-contacts Agenda Anniversaires | Productivité  :org:
+:PROPERTIES:
+:DATE:     2026-04-20T19:43:37-07:00
+:DURATION: 2:21
+:YOUTUBE_URL: https://www.youtube.com/watch?v=STagFnaskn8
+:SPEAKERS: Eric Nantel 🇨🇦
+:LANGUAGE: French
+:END:
+  Codeberg: https://codeberg.org/ericnantel/spacemacs-config
+
+  ,#emacs #spacemacs #productivity #linux #agenda #orgmode
+
+* Spacemacs | Org-roam Notes avec tags | Productivité  :org:OrgRoam:
+:PROPERTIES:
+:DATE:     2026-04-20T19:36:51-07:00
+:DURATION: 0:58
+:YOUTUBE_URL: https://www.youtube.com/watch?v=g3HEbx3MrHE
+:SPEAKERS: Eric Nantel 🇨🇦
+:LANGUAGE: French
+:END:
+  Codeberg: https://codeberg.org/ericnantel/spacemacs-config
+  ,#emacs #productivity #notes #secondbrain #linux
+
+* Remember everything with Org Mode  :org:
+:PROPERTIES:
+:DATE:     2026-04-19T16:03:31-07:00
+:DURATION: 10:17
+:YOUTUBE_URL: https://www.youtube.com/watch?v=_hq_2ikdaeg
+:SPEAKERS: Chris Maiorana
+:END:
+  With org drill, you can turn a regular old Org Mode file into a spaced repetition powerhouse to remember everything and anything. Quiz yourself, memorize factoids and impress your friends at the next trivia event.
+
+  MY BOOKS:
+  Emacs for writers:
+  https://chris-maiorana.kit.com/products/emacs-for-writers
+
+  Git for writers:
+  https://chris-maiorana.kit.com/products/git-for-writers
+
+  my website:
+  chrismaiorana.com
+
+* Scheme for Beginners 2: Guile and Emacs  :guile:scheme:coding:
+:PROPERTIES:
+:DATE:     2026-04-19T12:52:40-07:00
+:DURATION: 4:55
+:YOUTUBE_URL: https://www.youtube.com/watch?v=7-NPyRHSJyM
+:SPEAKERS: decipaliz
+:END:
+  This is part 2 of the Scheme for Beginners tutorial series: Setting up Guile Scheme and GNU Emacs
+
+  00:00 Intro
+  00:11 Installing Guile
+  00:25 Linux
+  01:03 Windows
+  01:22 MacOS
+  01:32 Checking that Guile Works
+  01:43 Installing Emacs
+  02:20 Linux
+  02:30 Windows
+  02:56 MacOS
+  03:09 Configuring Emacs
+  04:50 Outro
+
+  Scheme for Beginners Git repository - https://codeberg.org/decipaliz/scheme-for-beginners
+  MSYS2 Website - https://www.msys2.org/
+  Emacs Website - https://www.gnu.org/software/emacs/
+  Emacs for OSX - https://emacsforosx.com/
+
+  No AI was used during the creation of the tutorials
+
+  ,#lisp #scheme #programming #tutorial
+
+* YE17: Livestream conveniences, editing yesterday's transcript  :streaming:
+:PROPERTIES:
+:DATE:     2026-04-17T20:37:45-07:00
+:DURATION: 50:50
+:YOUTUBE_URL: https://www.youtube.com/watch?v=hG1t79fF95I
+:SPEAKERS: Sacha Chua
+:END:
+  Notes at https://yayemacs.com
+
+  0:00 Intro
+  0:58 Scheduling livestreams
+  4:58 Listing livestreams
+  9:58 https://sachachua.com/blog/2026/04/ye16-sacha-and-prot-talk-emacs/
+  15:58 Let's add some code to import chapter comments
+  38:58 Back to editing the captions
+  43:58 Getting distracted by wanting to put time in my header-line-format
+  44:58 Back to captions
+  47:58 Calculating offset into streamed video
+
+* Org-roam pour la prise de notes (avec Spacemacs)  :org:OrgRoam:
+:PROPERTIES:
+:DATE:     2026-04-17T18:38:13-07:00
+:DURATION: 20:37
+:YOUTUBE_URL: https://www.youtube.com/watch?v=ZodBNFUb8cE
+:SPEAKERS: Eric Nantel 🇨🇦
+:END:
+  Codeberg : https://codeberg.org/ericnantel/spacemacs-config
+  GitHub: https://github.com/ericnantel/dotfiles
+
+  Steps to install Spacemacs on Codeberg Git project only *Coming soon*
+
+  ,#orgmode #orgroam #spacemacs #emacs #productivity #pc #linux #ubuntu #libresoftware #learn #university #study #organized #codeberg #git #success #richardstallman #ergonomics #ergonomy #secondbrain #obsidian #notion
+
+* AI For Boomers: Project Claude For Emacs   :ai:
+:PROPERTIES:
+:DATE:     2026-04-17T11:32:44-07:00
+:DURATION: 1:49
+:YOUTUBE_URL: https://www.youtube.com/watch?v=su_qxtJrfN0
+:SPEAKERS: dickmao
+:END:
+  https://github.com/commercial-emacs/project-claude.git
+
+  Credits:
+  DevLog: Libghostty ABI Compatibility, @Mitchellh3/videos YouTube
+  By HashiCorp - Terraform_Logo.svg, MPL 2
+  Groundskeeper Willie01.jpg, HAPPY LEMON, CC BY-SA 4.0
+  "LEGO Minifigure of Lisa Simpson", Pest15, CC BY-SA 2.0
+
+* ekg 0.9.0 Changes and Demo  :ekg:writing:
+:PROPERTIES:
+:DATE:     2026-04-16T07:29:53-07:00
+:DURATION: 21:36
+:YOUTUBE_URL: https://youtu.be/4hCW3Bd0xVA
+:SPEAKERS: Andrew Hyatt
+:END:
+  Discussing and demoing some of the changes in ekg 0.9.0: new UI, ekg-agent and ekg-org.
+
+  https://github.com/ahyatt/ekg
+
+  00:00 - Intro to this video
+  00:30 - Intro to ekg
+  02:00 - New Note UI
+  03:38 - Search Demo
+  05:00 - Intro to the experimental ekg-agent and ekg-org
+  05:27 - The ekg-agents module
+  11:22 - The ekg-org module
+
+* VSCode too SLOW | switch to Emacs and go to PLAID  :community:
+:PROPERTIES:
+:DATE:     2026-04-15T05:15:37-07:00
+:DURATION: 6:59
+:YOUTUBE_URL: https://www.youtube.com/watch?v=jx72fqm9EWw
+:SPEAKERS: Chris Maiorana
+:END:
+  A Reddit user declared their VSCode was too slow, so they're switching to Emacs. Is that actually a good reason? Eh, probably not. Let's dig into the thread, hear what other users had to say, and talk about what the Emacs trade-off really looks like in practice.
+
+  Speed is almost never why people choose Emacs. It's slower to learn, older, and requires Lisp knowledge just to configure it.  What Emacs offers instead is a unique suite of tools (like org-mode) that reward slower, more deliberate thinking and a flexibility that modern editors simply don't match.
+
+  If you're thinking about switching editors, this video will help you ask the right questions before you make the leap.
+
+  My books:
+
+  Emacs for Writers
+  https://chris-maiorana.kit.com/products/emacs-for-writers
+
+  Git for Writers
+  https://chris-maiorana.kit.com/products/git-for-writers
+
+  MY WEBSITE
+  chrismaiorana.com
+* Emacs Query Replace Is A Bloody Good Way To Make Quick Changes 2026 04 15 02:51:42  :navigation:
+:PROPERTIES:
+:DATE:     2026-04-14T14:44:44-07:00
+:DURATION: 5:33
+:YOUTUBE_URL: https://www.youtube.com/watch?v=VxTu7a1q7Co
+:SPEAKERS: Bhaskar Chowdhury  ...Musing with GNU_Linux!!
+:END:
+  In this video, you will see, how to make quick changes to a file with the help of the query-replace facility in Emacs.
+
+  ,#linux #linuxadmin #sysadmin #opensource #Gentoo #Debian #Slackware #research
+  ,#linuxkernel #kernel #gnu #Linux #GNU
+
+  Buy Me A Coffee: https://www.buymeacoffee.com/unixbhaskar
+  Patreon: https://www.patreon.com/unixbhaskar
+  Paypal: https://paypal.me/linuxbhaskar
+
+  You can also find me :
+
+  GitHub: https://github.com/unixbhaskar
+
+  Reddit: https://www.reddit.com/user/unixbhaskar
+
+  Blogs: https://unixbhaskar.wordpress.com
+
+  Twitter: https://twitter.com/unixbhaskar
+
+  Linkedin: https://linkedin.com/in/unixbhaskar
+
+  Vimeo: https://vimeo.com/unixbhaskar
+
+  Goodreads: https://goodreads.com/unixbhaskar
+
+* Emacs: new modus-themes-exporter package live today @ 15:00 Europe/Athens :ModusThemes:appearance:
+:PROPERTIES:
+:DATE:     2026-04-13T20:07:52-07:00
+:DURATION: 2:56:35
+:YOUTUBE_URL: https://www.youtube.com/watch?v=IVTqn9IgBN4
+:SPEAKERS: Protesilaos Stavrou
+:END:
+  I will do a live stream in which I will develop the new `modus-themes-exporter` package for Emacs.
+
+  The idea for this package is based on an old experiment of mine: to get the palette of a Modus theme and "export" it to another file format for use in supported terminal emulators or, potentially, other applications.
+
+  My focus today will be on writing the core functionality and testing it with at least one target application.
+
+  Prior work of mine from my pre-Emacs days is the `tempus-themes-generator`, which was written in Bash: https://gitlab.com/protesilaos/tempus-themes-generator.
+
+
+  * * *
+
+  Find all my publications on my website (Emacs, philosophy, etc.): https://protesilaos.com
+
+  All my Emacs-related work: https://protesilaos.com/emacs.
+
+* Leaving Evil-mode for Vanilla Emacs (and meow)  :meow:
+:PROPERTIES:
+:DATE:     2026-04-13T14:53:47-07:00
+:DURATION: 17:00
+:YOUTUBE_URL: https://www.youtube.com/watch?v=R72qdXTbVM0
+:SPEAKERS: Joshua Blais
+:END:
+  I have left the curated pastures of Doom emacs for the wild world of vanilla emacs. I discuss how I am using Meow as an intermittent stepping stone away from evil mode.
+
+  Blog post: https://joshblais.com/blog/meow-in-emacs/
+  Meow: https://github.com/meow-edit/meow
+  My vanilla emacs config: https://github.com/joshuablais/studium-emacs/
+
+  Come join me on IRC or XMPP: https://joshblais.com/community
+
+  libera.chat - #technicalrenaissance
+
+  NixOS Configuration & Dotfiles: https://github.com/jblais493/nixos-config
+
+  My Setup:
+  Thinkpad t14s Gen 3 - https://amzn.to/3WxfOwi
+  Majexstand - https://amzn.to/3ydquZd
+  Chocofi Keyboard - https://shop.beekeeb.com/product/presoldered-chocofi-split-keyboard/
+  Ulanzi Superclamp - https://amzn.to/3SwVv12
+  Logitech MX Ergo - https://amzn.to/4dqzetJ
+  Shure SM7B - https://amzn.to/3LMzMyr
+  Audient ID4 Mkii - https://amzn.to/3Sz9e7A
+  Anker 100w GaN Charger - https://amzn.to/3LKH99A
+  Cables - https://amzn.to/3WvIjdX
+  Moondrop Kato - https://amzn.to/46xsUyd
+  Ulanzi Tripod - https://amzn.to/4cc3szN
+
+  My website: https://joshblais.com
+  My Book: https://mountainthebook.com
+  Github: https://github.com/jblais493/
+  Twitter: https://twitter.com/realjoshuablais
+  Instagra: https://instagram.com/joshuablais
+
+  Music from Chantwave: https://www.youtube.com/@Chantwave-d9d
+
+  If you enjoy my content, please consider tipping at any of the following support channels:
+
+  Buy Me a Coffee: https://buymeacoffee.com/joshuablais
+  Ko-fi: https://ko-fi.com/joshuablais
+  LiberaPay: https://liberapay.com/joshuablais/
+  Github Sponsors: https://github.com/sponsors/jblais493
+
 * Stop Jujutsu from auto-committing everything  :jujutsu:
 :PROPERTIES:
 :DATE:     2026-04-10T23:08:26-07:00
@@ -956,6 +1421,50 @@
   1:07:38 - Aplicação das configurações
   1:12:37 - Solução do ícone de estado na modeline
 
+* Emacs, Philosophy, and Infinite Depth w/ Protesilaos  :community:
+:PROPERTIES:
+:DATE:     2026-03-04T15:09:37-08:00
+:DURATION: 1:40:55
+:YOUTUBE_URL: https://www.youtube.com/watch?v=1vMlGFELajQ
+:SPEAKERS: Joshua Blais
+:END:
+  I chat with the legendary Prot about emacs, minimalism, simple living, mastery, depth, philosophy, and much more.
+
+  Prot's Channel: https://www.youtube.com/@UC0uTPqBCFIpZxlz_Lv1tk_g
+
+  Keycaps - KLP Lame
+
+  Come join me on IRC or XMPP: https://joshblais.com/community
+
+  libera.chat - #technicalrenaissance
+
+  NixOS Configuration & Dotfiles: https://github.com/jblais493/nixos-config
+
+  My Setup:
+  Thinkpad t14s Gen 3 - https://amzn.to/3WxfOwi
+  Majexstand - https://amzn.to/3ydquZd
+  Chocofi Keyboard - https://shop.beekeeb.com/product/presoldered-chocofi-split-keyboard/
+  Ulanzi Superclamp - https://amzn.to/3SwVv12
+  Logitech MX Ergo - https://amzn.to/4dqzetJ
+  Shure SM7B - https://amzn.to/3LMzMyr
+  Audient ID4 Mkii - https://amzn.to/3Sz9e7A
+  Anker 100w GaN Charger - https://amzn.to/3LKH99A
+  Cables - https://amzn.to/3WvIjdX
+  Moondrop Kato - https://amzn.to/46xsUyd
+  Ulanzi Tripod - https://amzn.to/4cc3szN
+
+  My website: https://joshblais.com
+  My Book: https://mountainthebook.com
+  Github: https://github.com/jblais493/
+  Twitter: https://twitter.com/realjoshuablais
+  Instagra: https://instagram.com/joshuablais
+
+  If you enjoy my content, please consider tipping at any of the following support channels:
+
+  Buy Me a Coffee: https://buymeacoffee.com/joshuablais
+  Ko-fi: https://ko-fi.com/joshuablais
+  LiberaPay: https://liberapay.com/joshuablais/
+  Github Sponsors: https://github.com/sponsors/jblais493
 * Criei um segundo cérebro usando Claude + uma pasta  :claude:org:OrgRoam:
 :PROPERTIES:
 :DATE:     2026-03-04T06:45:06-08:00
