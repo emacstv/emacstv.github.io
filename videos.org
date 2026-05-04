@@ -69509,3 +69509,134 @@ Using restclient within emacs...
   in this demo foo.rb is edited in emacs(in coLinux) and run sketchbook.rb in windows command line.
 
   http://d.hatena.ne.jp/koyachi/20080206/1202225831
+* Emacs config
+:PROPERTIES:
+:DATE:     2026-04-28T12:31:34-07:00
+:DURATION: 15:07
+:YOUTUBE_URL: https://www.youtube.com/watch?v=MHxRvAKnlCo
+:SPEAKERS: Archduke of Trøndelag
+:END:
+  Just an short emacs preview of the configuration file
+
+* VOMPECCC from Scratch: Picking Fruits and Veggies with ICR  :completion:
+:PROPERTIES:
+:DATE:     2026-04-28T05:26:45-07:00
+:DURATION: 51:05
+:YOUTUBE_URL: https://www.youtube.com/watch?v=0NeQ6xgRGkA
+:SPEAKERS: Charlie Holland (Baker)
+:END:
+  A video demonstration of building a trivial produce picker with the VOMPECCC framework in emacs.
+
+* YE24: Sacha and Prot Talk Emacs: Newbies and Starter Kits  :community:configuration:
+:PROPERTIES:
+:DATE:     2026-04-30T20:34:27-07:00
+:DURATION: 1:05:10
+:YOUTUBE_URL: https://www.youtube.com/watch?v=z7pcLdwuyxE
+:SPEAKERS: Sacha Chua
+:END:
+  Notes: https://sachachua.com/blog/2026/04/yay-emacs-sacha-and-prot-talk-emacs-newbies-starter-kits/
+  Prot's recommended settings: https://protesilaos.com/codelog/2026-04-30-emacs-decent-default-sacha-chua/
+
+  I chat with Protesilaos (@protesilaos , https://protesilaos.com ) about Emacs newbies and starter kits.
+
+  00:00 Warming up
+  02:38 C-g is supposed to get you out of everything, but it doesn't work for the minibuffer
+  03:14 Anything related to display-buffer is hard for people to configure. Many windows do not focus by default. You have to switch to the other window to q.
+  04:32 Good defaults
+  04:37 How do I set my fonts? Which is the one I should be using?
+  05:16 ediff is unusable by default for everyone, not just newcomers
+  05:54 Packages to install
+  06:30 People muddle through, but it's confusing
+  08:21 The wiki might be a good approach for the community. Start here.
+  09:35 The direction of the newcomers theme is nice
+  10:51 Themes versus minor modes
+  12:20 People think of themes as styles, not arbitrary customizations
+  13:57 Listing changes for newcomers-presets
+  16:13 Terminology is also a challenge
+  16:54 Maybe documentation aliases?
+  17:57 Learning Emacs as a nonprogrammer
+  19:31 Emacs Lisp Elements
+  20:30 Getting the hang of Emacs
+  22:31 Getting help when you have a starter kit
+  24:29 Customize is overwhelming for beginners
+  27:55 debug-init
+  29:11 Getting help: partially bridged by LLMs?
+  31:03 Things people don't even know about
+  32:44 Filling in the blanks
+  33:39 .emacs
+  37:04 Discovery and the info manual
+  38:36 Address your immediate need; small steps
+  41:46 :config and setq is nicer than :custom for C-x C-e purposes (eval-last-sexp)
+  45:31 Culture of documentation and sharing
+  47:12 Link to a search
+  49:49 Getting through the gap between beginner tutorials and the next step
+  51:13 Predictability
+  51:52 Brief mention of Popper
+  52:28 Earlier is better than later for Emacs Lisp. Take it as is.
+  55:19 Before and after comparisons
+  56:07 user-init-directory
+  57:21 Emacs core
+  59:04 Getting past the initial awkward phase
+  59:36 Even reporting an issue is a great contribution
+  1:00:45 Next steps: adding to the wiki
+  1:02:39 Core longevity
+
+  The Emacs Carnival theme for April 2026 is newbies/starter kits https://www.emacswiki.org/emacs/CarnivalApril2026. I'd like to chat with Prot about not only helping people get into Emacs but also supporting lifelong learning.
+
+  Prot had some notes on how he started with Emacs in 2019 in All about switching to Emacs (video blog) | Protesilaos https://protesilaos.com/codelog/2019-12-20-vlog-switch-emacs/. These notes were just a few months after he started, so his experience was pretty fresh.
+
+  In Computing in freedom with GNU Emacs | Protesilaos https://protesilaos.com/codelog/2026-03-13-computing-in-freedom-with-gnu-emacs/ (2026), he said:
+
+        Remember that I started using Emacs without a background in programming. ... I learnt the basics within a few days. I started writing my own Emacs Lisp within weeks. And within a year I had my modus-themes moved into core Emacs.
+
+  Prot has several projects that might be of interest to many newcomers to Emacs:
+
+  - modus-themes https://protesilaos.com/emacs/modus-themes, which are part of Emacs core and are therefore just a `M-x load-theme' away
+  - Emacs Lisp Elements https://protesilaos.com/emacs/emacs-lisp-elements, a book that helps people learn Emacs Lisp
+      - Where does this fit into people's learning journeys? How can they come across it and use it?
+  - perhaps Denote https://protesilaos.com/emacs/denote
+      - What would it take for people to learn enough to be able to use this?
+
+  He also offers Emacs coaching https://protesilaos.com/coach/. I wonder if any newbies have taken advantage of that. There are a few other coaches https://www.emacswiki.org/emacs/EmacsCoaching listed on the EmacsWiki. (Ooh, Emacs buddy, that was neat.)
+
+* YE23: Explore Emacs starter kits and other resources  :community:configuration:
+:PROPERTIES:
+:DATE:     2026-04-29T20:46:15-07:00
+:DURATION: 59:25
+:YOUTUBE_URL: https://www.youtube.com/watch?v=xZWFh2nXxFk
+:SPEAKERS: Sacha Chua
+:END:
+  2026-04-29 Wed 10:30--2026-04-29 Wed 11:30
+
+
+
+  Part 1: https://youtube.com/live/K4SAQag6KXc
+
+  The https://www.emacswiki.org/emacs/CarnivalApril2026 theme of newbies/starter kits made me realize that I don't actually know much about Emacs starter kits, so it's time to explore. I also want to continue working on https://www.emacswiki.org/emacs/EmacsNewbie and related pages.
+
+* Emacs: save any buffer as PDF (my new buffer-to-pdf package)   :export:
+:PROPERTIES:
+:DATE:     2026-05-02T12:30:56-07:00
+:DURATION: 11:07
+:YOUTUBE_URL: https://www.youtube.com/watch?v=JG4R-d0N-is
+:SPEAKERS: Protesilaos
+:END:
+  In this short video I demonstrate my new package for Emacs. It is called buffer-to-pdf. The idea is to save your current buffer to a PDF, while preserving how it looks. This means that your font size, theme, and other visual effects are preserved and written to the PDF. buffer-to-pdf is not meant to be a replacement for elaborate export methods: consider it a quick yet effective way to get a "screen capture" of your Emacs that you can then share as a document. I believe this will be especially useful for academics or people who need to distribute presentation notes on a regular basis. The package is available here: https://github.com/protesilaos/buffer-to-pdf
+
+  * * *
+
+  Find all my publications on my website (including links to all my Emacs work, but also philosophy, poems, and more): https://protesilaos.com
+* Kent Pitman and Ramin Honary join on #commonLisp #lisp #IDE #emacs #schemacs #UX  #lispyGopherClimate  :community:
+:PROPERTIES:
+:DATE:     2026-04-29T01:13:59.826Z
+:DURATION: 1:00:01
+:PEERTUBE_URL: https://toobnix.org/w/eCCvKBZvuwkXj244ojjzTU
+:END:
+  Kent's thread on c. 1980 TECO emacs: https://climatejustice.social/@kentpitman/116484262128356625 Kent: https://nhplace.com/kent/ https://en.wikipedia.org/wiki/Kent_Pitman Writing: https://netsettl...
+
+* Kent Pitman #demo 1977-1984 #MIT #ITS #DDT #TECO #EMACS #LISP #MACLISP  :community:
+:PROPERTIES:
+:DATE:     2026-05-03T08:11:35.873Z
+:DURATION: 1:00:43
+:PEERTUBE_URL: https://toobnix.org/w/c7AV5CfaYYJaX1gqV4B9L1
+:END:
