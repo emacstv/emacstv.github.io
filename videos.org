@@ -1,7 +1,8 @@
 #+TODO: KEYWORD_THAT_WONT_BE_USED
 #+STARTUP: nolatexpreview
 #+PROPERTY: header-args:emacs-lisp+   :eval no
-#+COMMENT: [[(shell:
+#+COMMENT: [[shell:npm run build; git commit -m "update" -a; git push][Update]]
+
 
 * Emacs Buffer Comparison Made Easy With Ebuffers 2026 05 10 02:31:35
 :PROPERTIES:
