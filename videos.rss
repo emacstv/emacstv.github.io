@@ -6,6 +6,219 @@
     <atom:link href="https://emacs.tv/videos.rss" rel="self" type="application/rss+xml" />
     <description>Emacs videos</description>
     <item>
+      <title>Faça o Emacs olhar para o dinheiro usando o Embark</title>
+      <link>https://www.youtube.com/watch?v=4pvjwgvOtgA</link>
+      <guid>https://www.youtube.com/watch?v=4pvjwgvOtgA</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=4pvjwgvOtgA">youtube</a><br><br>Nesse breve vídeo, eu mostro como você pode fazer com que o emacs saiba o que fazer com o dinheiro usando o embark, especificamente no contexto do hledger-mode.</div>]]></description>
+      <pubDate>Sun, 24 May 2026 18:30:06 +0000</pubDate><category>embark</category>
+    </item>
+    <item>
+      <title>You can do what with org agenda?</title>
+      <link>https://www.youtube.com/watch?v=fpnIzpWVJaQ</link>
+      <guid>https://www.youtube.com/watch?v=fpnIzpWVJaQ</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=fpnIzpWVJaQ">youtube</a><br><br>The default org-agenda shows you a basic 7-day span, fine for the week ahead useless you've got deadlines scattered across the next month and want to see them in one view without warning days. Turns out two settings unlock a different picture to unstick your schedule. Yes. Let's do this.
+
+  Let's walk through:
+  - why org-agenda hides your long-range deadlines by default
+  - what org-deadline-warning-days actually does
+  - how to extend the agenda span to 20 days
+  - a custom command you can pull up with a single keystroke, without overriding your global warnings
+
+  CHECK OUT MY BOOKS:
+  https://chrismaiorana.com/books/</div>]]></description>
+      <pubDate>Sat, 23 May 2026 15:38:19 +0000</pubDate><category>org</category>
+    </item>
+    <item>
+      <title>May 21: Emacs Chat with Raymond Zeitler</title>
+      <link>https://www.youtube.com/watch?v=ro6BZI0Z64I</link>
+      <guid>https://www.youtube.com/watch?v=ro6BZI0Z64I</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=ro6BZI0Z64I">youtube</a><br><br>https://sachachua.com/blog/2026/05/emacs-chat-with-raymond-zeitler/
+
+  I chatted with Raymond Zeitler about Emacs, life, automation, Org Mode, Diary, and Calendar. There were a couple of cuts to get rid of accidentally shown passwords, but it was a great glimpse into someone's system for managing things.
+
+  00:00 Opening
+  00:58 Introduction
+  01:59 I love automating workflows
+  03:15 Org Mode switch
+  04:08 diary-float
+  06:48 Tip: Add links to task titles
+  06:59 diary-float
+  07:59 The difference between active timestamps and SCHEDULED
+  10:06 Including other diary files
+  11:26 cal-tex-cursor-week-iso, printing planner pages on index cards
+  14:59 Holidays
+  16:45 Making calendars for other people
+  17:27 Keeping track of when things were done on the house
+  18:49 My first customizations: backspace, buffers
+  20:32 Windows and super key
+  23:23 Org Mode class on Udemy, agenda custom commands
+  25:00 toggling tags
+  26:57 TODO states
+  27:21 Functions for Org Agenda
+  28:34 exeln, shellfn: executing things in DOS
+  30:22 Middle mouse click
+  31:59 Keybindings in other apps: Vivaldi
+  34:09 M-s M-w, eww-search-words
+  35:50 Saving links with org-store-link
+  38:29 How I got into Emacs
+  41:45 Maybe my own theme?
+  42:26 Other editors? Always Emacs
+  43:57 Package names
+  45:54 What's next? Maybe auto maintenance
+  48:31 Vibe-coding?
+  50:53 Where people can find me
+  52:02 Org Mode source blocks
+  52:49 Slideshows?
+  53:50 Emacs Chats?
+  56:33 Other resources that would be nice to have
+
+
+  Find more Emacs Chats or join the fun: https://sachachua.com/emacs-chat</div>]]></description>
+      <pubDate>Fri, 22 May 2026 03:49:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>Annotate-in-Place Notes with Emacs and org-remark!</title>
+      <link>https://www.youtube.com/watch?v=ilZsWEka8JM</link>
+      <guid>https://www.youtube.com/watch?v=ilZsWEka8JM</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=ilZsWEka8JM">youtube</a><br><br>This video demonstrates org-remark's implementation of the annotate-in-place pattern in Emacs.  I also talk broadly about the benefits of this kind of note taking pattern, and how it has both improved my note taking experience as well as my reading experience.
+
+  0:00 Intro
+  2:30 Annotate File Demo
+  6:30 Annotate Webpage Demo
+  8:45 Other Use Cases
+  10:05 Annotate Elfeed Demo
+  11:50 Daily Annotation Review
+
+  ,#emacs #notes #knowledge #notetaking #developertools #coding</div>]]></description>
+      <pubDate>Wed, 20 May 2026 11:57:56 +0000</pubDate><category>org</category>
+    </item>
+    <item>
+      <title>Apropos with Bozhidar Batsov</title>
+      <link>https://www.youtube.com/watch?v=sZpV5IIKHvs</link>
+      <guid>https://www.youtube.com/watch?v=sZpV5IIKHvs</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=sZpV5IIKHvs">youtube</a><br><br>Welcome to Apropos!
+
+  This episode features special guest Bozhidar Batsov, creator of CIDER.</div>]]></description>
+      <pubDate>Wed, 20 May 2026 07:22:06 +0000</pubDate>
+    </item>
+    <item>
+      <title>Doom Emacs Mail Sending and Python Way</title>
+      <link>https://www.youtube.com/watch?v=b7a0SsL1JV0</link>
+      <guid>https://www.youtube.com/watch?v=b7a0SsL1JV0</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=b7a0SsL1JV0">youtube</a><br><br>Simple mail sending Using Doom Emacs Config and Python Way. Useful for automating tasks , reports , Notifications etc</div>]]></description>
+      <pubDate>Mon, 18 May 2026 16:54:24 +0000</pubDate><category>mail</category>
+    </item>
+    <item>
+      <title>What&apos;s So Special About Emacs?</title>
+      <link>https://www.youtube.com/watch?v=mJZDmO5yOxE</link>
+      <guid>https://www.youtube.com/watch?v=mJZDmO5yOxE</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=mJZDmO5yOxE">youtube</a><br><br>A quick tour of some Emacs features for those who have never used it.
+
+  0:00 Intro
+  0:23 Functions
+  0:59 Keybindings
+  1:40 Editing Python
+  2:34 Editing C++
+  3:13 Muscle Memory
+  3:32 Email
+  3:59 RSS
+  4:26 Claude
+  4:54 File Manager
+  5:06 Git & Terminal
+  5:25 Packages
+  6:18 Org Mode
+  7:44 In Summary</div>]]></description>
+      <pubDate>Fri, 15 May 2026 15:46:43 +0000</pubDate><category>overview</category>
+    </item>
+    <item>
+      <title>YE29: Sacha, Prot, and Philip Kaludercic Talk Emacs: Newcomer Experience</title>
+      <link>https://www.youtube.com/watch?v=UqfZZRl_eNw</link>
+      <guid>https://www.youtube.com/watch?v=UqfZZRl_eNw</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=UqfZZRl_eNw">youtube</a><br><br>https://sachachua.com/blog/2026/05/may-14-sacha-prot-and-philip-kaludercic-talk-emacs-newcomer-experience/
+
+  Philip Kaludercic https://social.sdfeu.org/@pkal/116500474344904460 wanted to continue the conversation from YE24: Sacha and Prot Talk Emacs - Newbies/Starter Kits https://sachachua.com/blog/2026/04/yay-emacs-sacha-and-prot-talk-emacs-newbies-starter-kits/. He's spent a lot of time thinking about this as one of the main contributors to newcomers-presets, so there'll probably be much to cover!
+
+  00:00 Opening
+  02:59 newcomers-presets user option theme; would be nice to explain what the changes are
+  05:00 finding a balance between "it's fine the way it is" and "just use Doom Emacs"
+  06:37 people value stability, but also conventions have shifted.
+  06:50 ways Emacs does things differently: ex: terminal vs eshell, output is editable; new users want to edit the previous prompt; sometimes goes against people's intuitions
+  09:21 How do people develop Emacs intuition? Immersion
+  09:55 example: dabbrev, there's no undo? Ah, it's just the regular undo.
+  11:00 newcomers presets: smooth over the intuition-disrupting things that are not actually necessary/beneficial; ex: enable whichkey
+  14:32 newcomers-presets choice is not saved at the moment
+  17:08 newcomers without much computing experience might even find it easier (no C-c expectations, C-v etc)
+  18:30 Focus group?
+  22:15 Emacs survey before
+  22:48 people's backgrounds influence their responses
+  23:46 Hypothetical: Reset themes, to reset things back to the defaults of a specific Emacs version
+  24:22 package-autosuggest-mode suggests based on file extension
+  27:52 Emacs 32: bundled versions of Emacs (Big Emacs - distributions that include more packages)
+  29:54 Selection versus multiple completion
+  34:39 Manuals
+  35:08 More examples?
+  36:21 find-user-init-file?
+  38:38 Getting over the reverence for Emacs's history
+  40:11 Changes are more likely to happen when someone puts in the work to make a patch
+  44:03 Preserving Git history of packages absorbed into the core
+  46:00 Dealing with multiple types of Emacs
+  48:09 Fat Emacs is just about bundling more packages from ELPA, not changing the configuration for them
+  51:23 Customize
+  54:41 CUA - Common User Access
+  55:00 ini file format? https://sdf.org/~pkal//blog/emacs/ini-init.html
+  55:10 Emacs configuration generator
+  55:54 INI-style configuration
+  01:00:21 Quick summary
+  01:02:27 Continuing with INI
+  01:04:42 Motivation
+  01:06:50 Politics and philosophy
+  01:09:23 Experimenting with things outside core
+  01:10:42 Extending the core
+  01:11:52 Guide to contributing to ELPA
+  01:13:11 Making the newcomer experience better
+  01:14:30 "user option themes" versus "appearance themes"
+  01:16:49 configuration generator in Emacs? maybe more wizards?
+  01:16:59 Starter kits
+  01:17:39 Configuration generator in Emacs Lisp?
+  01:18:40 extending the archive format
+  01:20:56 User interfaces
+
+  Related links:
+
+  - A proposal for a "beginners" (user-option) theme - Philip Kaludercic https://yhetil.org/emacs-devel/87wm0f2rng.fsf@posteo.net/
+  - Re: some file-related options to consider for newcomers-presets - Philip Kaludercic https://yhetil.org/emacs-devel/87tsuucbkh.fsf@posteo.net/
+  - A newcomer's feedback on newcomer presets - Abdulnafe Toulaimat https://yhetil.org/emacs-devel/CABPi7cHxEoMKwvDkuXGZXaHDpUuqS6ry60JOcdSZbSuYB47LSg@mail.gmail.com/</div>]]></description>
+      <pubDate>Fri, 15 May 2026 04:04:54 +0000</pubDate><category>community</category>
+    </item>
+    <item>
+      <title>Exam minimal Emacs, 42KL, try not to buy Armageddon Psychsparrow, what am I doing.</title>
+      <link>https://www.youtube.com/watch?v=5OAOK3qoSgg</link>
+      <guid>https://www.youtube.com/watch?v=5OAOK3qoSgg</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=5OAOK3qoSgg">youtube</a><br><br>Exam minimal Emacs, 42KL, try not to buy Armageddon Psychsparrow, what am I doing.
+
+  Actually, I like that keyboard, but I want a split and Im not going to spend another penny for at least a few months.
+
+  Might as well make the most out of this silly keyboard.
+
+  Its not bad actually, if only you could just drop in a stiffer spring, Im sure someone has done it.
+
+  Supporting me will inspire me to produce more quality content
+
+  Show some support by buying me coffee on my Ko-fi page. It accepts your usual Debit/Credit card with 0% fee.
+  https://ko-fi.com/ardiemejia83
+
+  Or can donate straight to my PayPal
+  https://paypal.me/ardiemejia83</div>]]></description>
+      <pubDate>Wed, 13 May 2026 02:37:18 +0000</pubDate>
+    </item>
+    <item>
+      <title>How to automatically scale emacs to a larger font on startup (on Raspberry Pi)</title>
+      <link>https://www.youtube.com/watch?v=E56_SNoe-oM</link>
+      <guid>https://www.youtube.com/watch?v=E56_SNoe-oM</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=E56_SNoe-oM">youtube</a><br><br>Walkthrough of the contents of a .emacs file that scales up the default font size when starting emacs on a 1920x1200 Raspberry Pi screen.</div>]]></description>
+      <pubDate>Mon, 11 May 2026 14:13:44 +0000</pubDate>
+    </item>
+    <item>
       <title>Emacs Buffer Comparison Made Easy With Ebuffers 2026 05 10 02:31:35</title>
       <link>https://www.youtube.com/watch?v=ptehgb80zH8</link>
       <guid>https://www.youtube.com/watch?v=ptehgb80zH8</guid>
@@ -720,258 +933,6 @@
   44:58 Back to captions
   47:58 Calculating offset into streamed video</div>]]></description>
       <pubDate>Sat, 18 Apr 2026 03:37:45 +0000</pubDate><category>streaming</category>
-    </item>
-    <item>
-      <title>Org-roam pour la prise de notes (avec Spacemacs)</title>
-      <link>https://www.youtube.com/watch?v=ZodBNFUb8cE</link>
-      <guid>https://www.youtube.com/watch?v=ZodBNFUb8cE</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=ZodBNFUb8cE">youtube</a><br><br>Codeberg : https://codeberg.org/ericnantel/spacemacs-config
-  GitHub: https://github.com/ericnantel/dotfiles
-
-  Steps to install Spacemacs on Codeberg Git project only *Coming soon*
-
-  ,#orgmode #orgroam #spacemacs #emacs #productivity #pc #linux #ubuntu #libresoftware #learn #university #study #organized #codeberg #git #success #richardstallman #ergonomics #ergonomy #secondbrain #obsidian #notion</div>]]></description>
-      <pubDate>Sat, 18 Apr 2026 01:38:13 +0000</pubDate><category>org</category>
-<category>OrgRoam</category>
-    </item>
-    <item>
-      <title>AI For Boomers: Project Claude For Emacs</title>
-      <link>https://www.youtube.com/watch?v=su_qxtJrfN0</link>
-      <guid>https://www.youtube.com/watch?v=su_qxtJrfN0</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=su_qxtJrfN0">youtube</a><br><br>https://github.com/commercial-emacs/project-claude.git
-
-  Credits:
-  DevLog: Libghostty ABI Compatibility, @Mitchellh3/videos YouTube
-  By HashiCorp - Terraform_Logo.svg, MPL 2
-  Groundskeeper Willie01.jpg, HAPPY LEMON, CC BY-SA 4.0
-  "LEGO Minifigure of Lisa Simpson", Pest15, CC BY-SA 2.0</div>]]></description>
-      <pubDate>Fri, 17 Apr 2026 18:32:44 +0000</pubDate><category>ai</category>
-    </item>
-    <item>
-      <title>ekg 0.9.0 Changes and Demo</title>
-      <link>https://youtu.be/4hCW3Bd0xVA</link>
-      <guid>https://youtu.be/4hCW3Bd0xVA</guid>
-      <description><![CDATA[<div id="content"><a href="https://youtu.be/4hCW3Bd0xVA">youtube</a><br><br>Discussing and demoing some of the changes in ekg 0.9.0: new UI, ekg-agent and ekg-org.
-
-  https://github.com/ahyatt/ekg
-
-  00:00 - Intro to this video
-  00:30 - Intro to ekg
-  02:00 - New Note UI
-  03:38 - Search Demo
-  05:00 - Intro to the experimental ekg-agent and ekg-org
-  05:27 - The ekg-agents module
-  11:22 - The ekg-org module</div>]]></description>
-      <pubDate>Thu, 16 Apr 2026 14:29:53 +0000</pubDate><category>ekg</category>
-<category>writing</category>
-    </item>
-    <item>
-      <title>VSCode too SLOW | switch to Emacs and go to PLAID</title>
-      <link>https://www.youtube.com/watch?v=jx72fqm9EWw</link>
-      <guid>https://www.youtube.com/watch?v=jx72fqm9EWw</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=jx72fqm9EWw">youtube</a><br><br>A Reddit user declared their VSCode was too slow, so they're switching to Emacs. Is that actually a good reason? Eh, probably not. Let's dig into the thread, hear what other users had to say, and talk about what the Emacs trade-off really looks like in practice.
-
-  Speed is almost never why people choose Emacs. It's slower to learn, older, and requires Lisp knowledge just to configure it.  What Emacs offers instead is a unique suite of tools (like org-mode) that reward slower, more deliberate thinking and a flexibility that modern editors simply don't match.
-
-  If you're thinking about switching editors, this video will help you ask the right questions before you make the leap.
-
-  My books:
-
-  Emacs for Writers
-  https://chris-maiorana.kit.com/products/emacs-for-writers
-
-  Git for Writers
-  https://chris-maiorana.kit.com/products/git-for-writers
-
-  MY WEBSITE
-  chrismaiorana.com</div>]]></description>
-      <pubDate>Wed, 15 Apr 2026 12:15:37 +0000</pubDate><category>community</category>
-    </item>
-    <item>
-      <title>Emacs Query Replace Is A Bloody Good Way To Make Quick Changes 2026 04 15 02:51:42</title>
-      <link>https://www.youtube.com/watch?v=VxTu7a1q7Co</link>
-      <guid>https://www.youtube.com/watch?v=VxTu7a1q7Co</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=VxTu7a1q7Co">youtube</a><br><br>In this video, you will see, how to make quick changes to a file with the help of the query-replace facility in Emacs.
-
-  ,#linux #linuxadmin #sysadmin #opensource #Gentoo #Debian #Slackware #research
-  ,#linuxkernel #kernel #gnu #Linux #GNU
-
-  Buy Me A Coffee: https://www.buymeacoffee.com/unixbhaskar
-  Patreon: https://www.patreon.com/unixbhaskar
-  Paypal: https://paypal.me/linuxbhaskar
-
-  You can also find me :
-
-  GitHub: https://github.com/unixbhaskar
-
-  Reddit: https://www.reddit.com/user/unixbhaskar
-
-  Blogs: https://unixbhaskar.wordpress.com
-
-  Twitter: https://twitter.com/unixbhaskar
-
-  Linkedin: https://linkedin.com/in/unixbhaskar
-
-  Vimeo: https://vimeo.com/unixbhaskar
-
-  Goodreads: https://goodreads.com/unixbhaskar</div>]]></description>
-      <pubDate>Tue, 14 Apr 2026 21:44:44 +0000</pubDate><category>navigation</category>
-    </item>
-    <item>
-      <title>Emacs: new modus-themes-exporter package live today @ 15:00 Europe/Athens</title>
-      <link>https://www.youtube.com/watch?v=IVTqn9IgBN4</link>
-      <guid>https://www.youtube.com/watch?v=IVTqn9IgBN4</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=IVTqn9IgBN4">youtube</a><br><br>I will do a live stream in which I will develop the new `modus-themes-exporter` package for Emacs.
-
-  The idea for this package is based on an old experiment of mine: to get the palette of a Modus theme and "export" it to another file format for use in supported terminal emulators or, potentially, other applications.
-
-  My focus today will be on writing the core functionality and testing it with at least one target application.
-
-  Prior work of mine from my pre-Emacs days is the `tempus-themes-generator`, which was written in Bash: https://gitlab.com/protesilaos/tempus-themes-generator.
-
-
-  * * *
-
-  Find all my publications on my website (Emacs, philosophy, etc.): https://protesilaos.com
-
-  All my Emacs-related work: https://protesilaos.com/emacs.</div>]]></description>
-      <pubDate>Tue, 14 Apr 2026 03:07:52 +0000</pubDate><category>ModusThemes</category>
-<category>appearance</category>
-    </item>
-    <item>
-      <title>Leaving Evil-mode for Vanilla Emacs (and meow)</title>
-      <link>https://www.youtube.com/watch?v=R72qdXTbVM0</link>
-      <guid>https://www.youtube.com/watch?v=R72qdXTbVM0</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=R72qdXTbVM0">youtube</a><br><br>I have left the curated pastures of Doom emacs for the wild world of vanilla emacs. I discuss how I am using Meow as an intermittent stepping stone away from evil mode.
-
-  Blog post: https://joshblais.com/blog/meow-in-emacs/
-  Meow: https://github.com/meow-edit/meow
-  My vanilla emacs config: https://github.com/joshuablais/studium-emacs/
-
-  Come join me on IRC or XMPP: https://joshblais.com/community
-
-  libera.chat - #technicalrenaissance
-
-  NixOS Configuration & Dotfiles: https://github.com/jblais493/nixos-config
-
-  My Setup:
-  Thinkpad t14s Gen 3 - https://amzn.to/3WxfOwi
-  Majexstand - https://amzn.to/3ydquZd
-  Chocofi Keyboard - https://shop.beekeeb.com/product/presoldered-chocofi-split-keyboard/
-  Ulanzi Superclamp - https://amzn.to/3SwVv12
-  Logitech MX Ergo - https://amzn.to/4dqzetJ
-  Shure SM7B - https://amzn.to/3LMzMyr
-  Audient ID4 Mkii - https://amzn.to/3Sz9e7A
-  Anker 100w GaN Charger - https://amzn.to/3LKH99A
-  Cables - https://amzn.to/3WvIjdX
-  Moondrop Kato - https://amzn.to/46xsUyd
-  Ulanzi Tripod - https://amzn.to/4cc3szN
-
-  My website: https://joshblais.com
-  My Book: https://mountainthebook.com
-  Github: https://github.com/jblais493/
-  Twitter: https://twitter.com/realjoshuablais
-  Instagra: https://instagram.com/joshuablais
-
-  Music from Chantwave: https://www.youtube.com/@Chantwave-d9d
-
-  If you enjoy my content, please consider tipping at any of the following support channels:
-
-  Buy Me a Coffee: https://buymeacoffee.com/joshuablais
-  Ko-fi: https://ko-fi.com/joshuablais
-  LiberaPay: https://liberapay.com/joshuablais/
-  Github Sponsors: https://github.com/sponsors/jblais493</div>]]></description>
-      <pubDate>Mon, 13 Apr 2026 21:53:47 +0000</pubDate><category>meow</category>
-    </item>
-    <item>
-      <title>Stop Jujutsu from auto-committing everything</title>
-      <link>https://www.youtube.com/watch?v=kwwQ-pQ0Rk4</link>
-      <guid>https://www.youtube.com/watch?v=kwwQ-pQ0Rk4</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=kwwQ-pQ0Rk4">youtube</a><br><br>A simple workflow for Jujutsu for keeping local changes from being accidentally pushed to the remote repo.
-
-  ,#jujutsu #git
-
-  My site and blog:
-  https://trop.in
-  https://trop.in/blog
-
-  Reach me out here:
-  https://trop.in/contact
-
-  IRC Chat:
-  ,#tropin IRC channel at libera.chat.
-
-  Mastodon:
-  https://fosstodon.org/@abcdw
-
-  RDE and Arei/Ares Guile IDE projects:
-  https://sr.ht/~abcdw/rde
-  https://sr.ht/~abcdw/emacs-arei
-  https://sr.ht/~abcdw/guile-ares-rs
-
-  https://github.com/abcdw/rde (mirror)
-
-  Mailing lists:
-  https://lists.sr.ht/~abcdw/</div>]]></description>
-      <pubDate>Sat, 11 Apr 2026 06:08:26 +0000</pubDate><category>jujutsu</category>
-    </item>
-    <item>
-      <title>Emacs: live stream about maintaining the modus-themes</title>
-      <link>https://www.youtube.com/watch?v=xFQDYTCS1os</link>
-      <guid>https://www.youtube.com/watch?v=xFQDYTCS1os</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=xFQDYTCS1os">youtube</a><br><br>At 14:00 Europe/Athens I will hold a live stream about Emacs. Specifically, I will work on my `modus-themes` package.
-
-  The idea is to write more tests and refine the relevant functions along the way.
-
-  I am announcing this -45 minutes before I go live. I will keep the chat open in case there are any questions.
-
-  * * *
-
-  Find all my publications on my website (Emacs, philosophy, etc.): https://protesilaos.com
-
-  All my Emacs-related work: https://protesilaos.com/emacs.</div>]]></description>
-      <pubDate>Sat, 11 Apr 2026 02:22:52 +0000</pubDate><category>ModusThemes</category>
-    </item>
-    <item>
-      <title>YE13: Working on modularizing my config</title>
-      <link>https://www.youtube.com/watch?v=U3mMJamXtAs</link>
-      <guid>https://www.youtube.com/watch?v=U3mMJamXtAs</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=U3mMJamXtAs">youtube</a><br><br>Update: Rookie mistake! Forgot to check my calendar - I have to take the kiddo to her 11 AM  doctor's appointment. Moving the stream earlier. Sorry about that!
-  00:00 Intro
-  00:34 Oops, forgot to start my static blog exporter
-  03:11 Oops, gotta unstash things
-  04:38 Extracting function definitions
-  06:48 my-close-other-buffers
-  07:37 my-suggest-other-faces
-  08:20 defshortcuts
-  09:32 moving to the beginning of the line
-  09:55 copy file name to clipboard
-  12:20 Toggle or create buffer
-  26:06 Lispy: using a and q to navigate inside sexps
-  27:16 Randomness
-  29:19 my-org-find-first-common-heading
-  30:39 my-embark-org-insert-link-from-path
-  32:23 my-org-bookmark-match
-  33:25 Move Org propeitres to parent
-  34:12 Using speed commands for headings and lists
-  34:59 Cutting subtrees
-  36:28 my-org-goto-text-start
-  37:14 journal
-  37:57 my-org-follow-entry-link
-  40:16 my-org-back-to-heading - can be replaced with outline-previous-heading
-  41:38 row and column of an Org table
-  44:17 capture region contents with meatdata
-  46:44 words per minute
-  48:21 defhydra, dwim
-  50:13 doodles
-  01:02:03 back to toggling buffers
-  01:11:55 masterchat cli
-  01:12:44 stream chat
-  01:17:23 Displaying text in OBS
-  01:20:32 Steno
-
-  Drop by, keep me company, ask questions, share tips!</div>]]></description>
-      <pubDate>Sat, 11 Apr 2026 01:16:08 +0000</pubDate><category>configuration</category>
     </item>
   </channel>
 </rss>

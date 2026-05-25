@@ -1,5 +1,103 @@
 [
   {
+    "ITEM": "Faça o Emacs olhar para o dinheiro usando o Embark",
+    "DATE": "2026-05-24T11:30:06-07:00",
+    "DURATION": "15:43",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=4pvjwgvOtgA",
+    "SPEAKERS": "O Clementino",
+    "TAGS": [
+      "embark"
+    ],
+    "BODY": "Nesse breve vídeo, eu mostro como você pode fazer com que o emacs saiba o que fazer com o dinheiro usando o embark, especificamente no contexto do hledger-mode."
+  },
+  {
+    "ITEM": "You can do what with org agenda?",
+    "DATE": "2026-05-23T08:38:19-07:00",
+    "DURATION": "8:54",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=fpnIzpWVJaQ",
+    "SPEAKERS": "Chris Maiorana",
+    "TAGS": [
+      "org"
+    ],
+    "BODY": "The default org-agenda shows you a basic 7-day span, fine for the week ahead useless you've got deadlines scattered across the next month and want to see them in one view without warning days. Turns out two settings unlock a different picture to unstick your schedule. Yes. Let's do this.\n\n  Let's walk through:\n  - why org-agenda hides your long-range deadlines by default\n  - what org-deadline-warning-days actually does\n  - how to extend the agenda span to 20 days\n  - a custom command you can pull up with a single keystroke, without overriding your global warnings\n\n  CHECK OUT MY BOOKS:\n  https://chrismaiorana.com/books/"
+  },
+  {
+    "ITEM": "May 21: Emacs Chat with Raymond Zeitler",
+    "DATE": "2026-05-21T20:49:13-07:00",
+    "DURATION": "58:43",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=ro6BZI0Z64I",
+    "SPEAKERS": "Sacha Chua",
+    "BODY": "https://sachachua.com/blog/2026/05/emacs-chat-with-raymond-zeitler/\n\n  I chatted with Raymond Zeitler about Emacs, life, automation, Org Mode, Diary, and Calendar. There were a couple of cuts to get rid of accidentally shown passwords, but it was a great glimpse into someone's system for managing things.\n\n  00:00 Opening\n  00:58 Introduction\n  01:59 I love automating workflows\n  03:15 Org Mode switch\n  04:08 diary-float\n  06:48 Tip: Add links to task titles\n  06:59 diary-float\n  07:59 The difference between active timestamps and SCHEDULED\n  10:06 Including other diary files\n  11:26 cal-tex-cursor-week-iso, printing planner pages on index cards\n  14:59 Holidays\n  16:45 Making calendars for other people\n  17:27 Keeping track of when things were done on the house\n  18:49 My first customizations: backspace, buffers\n  20:32 Windows and super key\n  23:23 Org Mode class on Udemy, agenda custom commands\n  25:00 toggling tags\n  26:57 TODO states\n  27:21 Functions for Org Agenda\n  28:34 exeln, shellfn: executing things in DOS\n  30:22 Middle mouse click\n  31:59 Keybindings in other apps: Vivaldi\n  34:09 M-s M-w, eww-search-words\n  35:50 Saving links with org-store-link\n  38:29 How I got into Emacs\n  41:45 Maybe my own theme?\n  42:26 Other editors? Always Emacs\n  43:57 Package names\n  45:54 What's next? Maybe auto maintenance\n  48:31 Vibe-coding?\n  50:53 Where people can find me\n  52:02 Org Mode source blocks\n  52:49 Slideshows?\n  53:50 Emacs Chats?\n  56:33 Other resources that would be nice to have\n\n\n  Find more Emacs Chats or join the fun: https://sachachua.com/emacs-chat"
+  },
+  {
+    "ITEM": "Annotate-in-Place Notes with Emacs and org-remark!",
+    "DATE": "2026-05-20T04:57:56-07:00",
+    "DURATION": "18:15",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=ilZsWEka8JM",
+    "SPEAKERS": "Charlie Holland (Baker)",
+    "TAGS": [
+      "org"
+    ],
+    "BODY": "This video demonstrates org-remark's implementation of the annotate-in-place pattern in Emacs.  I also talk broadly about the benefits of this kind of note taking pattern, and how it has both improved my note taking experience as well as my reading experience.\n\n  0:00 Intro\n  2:30 Annotate File Demo\n  6:30 Annotate Webpage Demo\n  8:45 Other Use Cases\n  10:05 Annotate Elfeed Demo\n  11:50 Daily Annotation Review\n\n  ,#emacs #notes #knowledge #notetaking #developertools #coding"
+  },
+  {
+    "ITEM": "Apropos with Bozhidar Batsov",
+    "DATE": "2026-05-20T00:22:06-07:00",
+    "DURATION": "1:15:10",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=sZpV5IIKHvs",
+    "SPEAKERS": "apropos clojure [ with humans only ]",
+    "BODY": "Welcome to Apropos!\n\n  This episode features special guest Bozhidar Batsov, creator of CIDER."
+  },
+  {
+    "ITEM": "Doom Emacs Mail Sending and Python Way",
+    "DATE": "2026-05-18T09:54:24-07:00",
+    "DURATION": "3:15",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=b7a0SsL1JV0",
+    "SPEAKERS": "Sadanandam Kursinga",
+    "TAGS": [
+      "mail"
+    ],
+    "BODY": "Simple mail sending Using Doom Emacs Config and Python Way. Useful for automating tasks , reports , Notifications etc"
+  },
+  {
+    "ITEM": "What's So Special About Emacs?",
+    "DATE": "2026-05-15T08:46:43-07:00",
+    "DURATION": "8:18",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=mJZDmO5yOxE",
+    "SPEAKERS": "Anony Møøse",
+    "TAGS": [
+      "overview"
+    ],
+    "BODY": "A quick tour of some Emacs features for those who have never used it.\n\n  0:00 Intro\n  0:23 Functions\n  0:59 Keybindings\n  1:40 Editing Python\n  2:34 Editing C++\n  3:13 Muscle Memory\n  3:32 Email\n  3:59 RSS\n  4:26 Claude\n  4:54 File Manager\n  5:06 Git & Terminal\n  5:25 Packages\n  6:18 Org Mode\n  7:44 In Summary"
+  },
+  {
+    "ITEM": "YE29: Sacha, Prot, and Philip Kaludercic Talk Emacs: Newcomer Experience",
+    "DATE": "2026-05-14T21:04:54-07:00",
+    "DURATION": "1:24:15",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=UqfZZRl_eNw",
+    "SPEAKERS": "Sacha Chua",
+    "TAGS": [
+      "community"
+    ],
+    "BODY": "https://sachachua.com/blog/2026/05/may-14-sacha-prot-and-philip-kaludercic-talk-emacs-newcomer-experience/\n\n  Philip Kaludercic https://social.sdfeu.org/@pkal/116500474344904460 wanted to continue the conversation from YE24: Sacha and Prot Talk Emacs - Newbies/Starter Kits https://sachachua.com/blog/2026/04/yay-emacs-sacha-and-prot-talk-emacs-newbies-starter-kits/. He's spent a lot of time thinking about this as one of the main contributors to newcomers-presets, so there'll probably be much to cover!\n\n  00:00 Opening\n  02:59 newcomers-presets user option theme; would be nice to explain what the changes are\n  05:00 finding a balance between \"it's fine the way it is\" and \"just use Doom Emacs\"\n  06:37 people value stability, but also conventions have shifted.\n  06:50 ways Emacs does things differently: ex: terminal vs eshell, output is editable; new users want to edit the previous prompt; sometimes goes against people's intuitions\n  09:21 How do people develop Emacs intuition? Immersion\n  09:55 example: dabbrev, there's no undo? Ah, it's just the regular undo.\n  11:00 newcomers presets: smooth over the intuition-disrupting things that are not actually necessary/beneficial; ex: enable whichkey\n  14:32 newcomers-presets choice is not saved at the moment\n  17:08 newcomers without much computing experience might even find it easier (no C-c expectations, C-v etc)\n  18:30 Focus group?\n  22:15 Emacs survey before\n  22:48 people's backgrounds influence their responses\n  23:46 Hypothetical: Reset themes, to reset things back to the defaults of a specific Emacs version\n  24:22 package-autosuggest-mode suggests based on file extension\n  27:52 Emacs 32: bundled versions of Emacs (Big Emacs - distributions that include more packages)\n  29:54 Selection versus multiple completion\n  34:39 Manuals\n  35:08 More examples?\n  36:21 find-user-init-file?\n  38:38 Getting over the reverence for Emacs's history\n  40:11 Changes are more likely to happen when someone puts in the work to make a patch\n  44:03 Preserving Git history of packages absorbed into the core\n  46:00 Dealing with multiple types of Emacs\n  48:09 Fat Emacs is just about bundling more packages from ELPA, not changing the configuration for them\n  51:23 Customize\n  54:41 CUA - Common User Access\n  55:00 ini file format? https://sdf.org/~pkal//blog/emacs/ini-init.html\n  55:10 Emacs configuration generator\n  55:54 INI-style configuration\n  01:00:21 Quick summary\n  01:02:27 Continuing with INI\n  01:04:42 Motivation\n  01:06:50 Politics and philosophy\n  01:09:23 Experimenting with things outside core\n  01:10:42 Extending the core\n  01:11:52 Guide to contributing to ELPA\n  01:13:11 Making the newcomer experience better\n  01:14:30 \"user option themes\" versus \"appearance themes\"\n  01:16:49 configuration generator in Emacs? maybe more wizards?\n  01:16:59 Starter kits\n  01:17:39 Configuration generator in Emacs Lisp?\n  01:18:40 extending the archive format\n  01:20:56 User interfaces\n\n  Related links:\n\n  - A proposal for a \"beginners\" (user-option) theme - Philip Kaludercic https://yhetil.org/emacs-devel/87wm0f2rng.fsf@posteo.net/\n  - Re: some file-related options to consider for newcomers-presets - Philip Kaludercic https://yhetil.org/emacs-devel/87tsuucbkh.fsf@posteo.net/\n  - A newcomer's feedback on newcomer presets - Abdulnafe Toulaimat https://yhetil.org/emacs-devel/CABPi7cHxEoMKwvDkuXGZXaHDpUuqS6ry60JOcdSZbSuYB47LSg@mail.gmail.com/"
+  },
+  {
+    "ITEM": "Exam minimal Emacs, 42KL, try not to buy Armageddon Psychsparrow, what am I doing.",
+    "DATE": "2026-05-12T19:37:18-07:00",
+    "DURATION": "22:42",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=5OAOK3qoSgg",
+    "SPEAKERS": "Ardie83",
+    "BODY": "Exam minimal Emacs, 42KL, try not to buy Armageddon Psychsparrow, what am I doing.\n\n  Actually, I like that keyboard, but I want a split and Im not going to spend another penny for at least a few months.\n\n  Might as well make the most out of this silly keyboard.\n\n  Its not bad actually, if only you could just drop in a stiffer spring, Im sure someone has done it.\n\n  Supporting me will inspire me to produce more quality content\n\n  Show some support by buying me coffee on my Ko-fi page. It accepts your usual Debit/Credit card with 0% fee.\n  https://ko-fi.com/ardiemejia83\n\n  Or can donate straight to my PayPal\n  https://paypal.me/ardiemejia83"
+  },
+  {
+    "ITEM": "How to automatically scale emacs to a larger font on startup (on Raspberry Pi)",
+    "DATE": "2026-05-11T07:13:44-07:00",
+    "DURATION": "22:21",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=E56_SNoe-oM",
+    "SPEAKERS": "Kalman Reti",
+    "BODY": "Walkthrough of the contents of a .emacs file that scales up the default font size when starting emacs on a 1920x1200 Raspberry Pi screen."
+  },
+  {
     "ITEM": "Emacs Buffer Comparison Made Easy With Ebuffers 2026 05 10 02:31:35",
     "DATE": "2026-05-09T14:27:17-07:00",
     "DURATION": "5:30",
