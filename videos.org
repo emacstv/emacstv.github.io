@@ -56456,7 +56456,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 
 * Emacs: resolve Git conflicts with SMERGE and EDIFF                  :magit:
 :PROPERTIES:
-:YOUTUBE_URL: https://www.youtube.com/watch?t=206&v=9S2pMZ6U5Tc&feature=youtu.be
+:YOUTUBE_URL: https://www.youtube.com/watch?v=9S2pMZ6U5Tc
 :DATE:     2020-04-10T09:22:54+0000
 :SPEAKERS: Protesilaos Stavrou
 :DURATION: 13:49
@@ -60523,7 +60523,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 
 * Introduction to keyboard macros in Emacs
 :PROPERTIES:
-:YOUTUBE_URL: https://www.youtube.com/watch?t=341&v=-5yH_8nl9LU&feature=youtu.be
+:YOUTUBE_URL: https://www.youtube.com/watch?v=-5yH_8nl9LU
 :DATE:     2019-07-29T09:11:26+0000
 :SPEAKERS: Protesilaos Stavrou
 :DURATION: 22:21
