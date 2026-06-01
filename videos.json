@@ -27322,7 +27322,7 @@
     "ITEM": "Emacs: resolve Git conflicts with SMERGE and EDIFF",
     "DATE": "2020-04-10T09:22:54+0000",
     "DURATION": "13:49",
-    "YOUTUBE_URL": "https://www.youtube.com/watch?t=206&v=9S2pMZ6U5Tc&feature=youtu.be",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=9S2pMZ6U5Tc",
     "SPEAKERS": "Protesilaos Stavrou",
     "TAGS": [
       "magit"
@@ -29363,7 +29363,7 @@
     "ITEM": "Introduction to keyboard macros in Emacs",
     "DATE": "2019-07-29T09:11:26+0000",
     "DURATION": "22:21",
-    "YOUTUBE_URL": "https://www.youtube.com/watch?t=341&v=-5yH_8nl9LU&feature=youtu.be",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=-5yH_8nl9LU",
     "SPEAKERS": "Protesilaos Stavrou",
     "BODY": "Overview of the main features of keyboard macros in GNU Emacs. Learn these to boost your productivity."
   },
