@@ -5066,7 +5066,7 @@
 :PROPERTIES:
 :DATE:     2025-11-30T05:00:15-08:00
 :DURATION: 3:33
-:YOUTUBE_URL: https://youtu.be/zVbK5itxnzE?si=Xhw_ndNOTQB6ldat
+:YOUTUBE_URL: https://www.youtube.com/watch?v=zVbK5itxnzE
 :SPEAKERS: Daehwan Nam
 :END:
   https://github.com/daehwannam/emacs-library/blob/0c10d5bf08e69bf6ae14ed14c0e8f7d9fc877402/common/dhnam-org-todo-comment.el
@@ -5797,7 +5797,7 @@ exchange-point-and-mark, mark-whole-buffer
 :PROPERTIES:
 :DATE:     2025-10-26T23:41:28-07:00
 :DURATION: 0:25
-:YOUTUBE_URL: https://youtube.com/watch?v=6B45y7lU9Zw&si=JcFtMhc2y9AhTLV8
+:YOUTUBE_URL: https://www.youtube.com/watch?v=6B45y7lU9Zw
 :SPEAKERS: Feiyu Huang
 :END:
   I just learned that we can show the document for the candidate as we move through the candidates list of company/corfu.
@@ -6422,14 +6422,6 @@ exchange-point-and-mark, mark-whole-buffer
   setting up a studying strat for this long term side project.
 
   dotfiles : https://github.com/rajp152k/.dotfiles
-* eldoc-mouse demo overlay 2025 09 21 21 36 09  :EldocMouse:
-:PROPERTIES:
-:DATE:     2025-09-21T06:54:18-07:00
-:DURATION: 0:13
-:YOUTUBE_URL: https://youtube.com/watch?v=XFAc4WyiJjI&si=4-ZAZa6ihIbIg_O6
-:SPEAKERS: Feiyu Huang
-:END:
-  The emacs package to show eglot eldoc document on a posframe for mouse hover.
 
 * Fix Messy wide Org Mode Tables in 5 Minutes - phscroll Tutorial for Emacs Users
 :PROPERTIES:
@@ -6459,14 +6451,6 @@ exchange-point-and-mark, mark-whole-buffer
 :SPEAKERS: Kalman Reti
 :END:
   This is the fourth video about my using Ramin Honary's excellent svg-analog-clock in emacs
-* eldoc mouse demo 2025 09 20 21 31 08  :EldocMouse:
-:PROPERTIES:
-:DATE:     2025-09-20T06:36:50-07:00
-:DURATION: 0:19
-:YOUTUBE_URL: https://youtube.com/watch?v=aGsheHu7Esw&si=NCsI13UJVVrKyqD-
-:SPEAKERS: Feiyu Huang
-:END:
-  Emacs package eldoc-mouse show document for mouse hover.
 
 * Custom Functions And Keybindings In Doom Emacs   :DoomEmacs:
 :PROPERTIES:
@@ -6568,7 +6552,7 @@ exchange-point-and-mark, mark-whole-buffer
 :PROPERTIES:
 :DATE:     2025-09-16T16:54:15-07:00
 :DURATION: 16:07
-:YOUTUBE_URL: https://youtube.com/watch?v=UjvlGfbAkNw&si=jm2HhSuALziW8eHi
+:YOUTUBE_URL: https://www.youtube.com/watch?v=UjvlGfbAkNw
 :SPEAKERS: Kiran's Happy Happy Times
 :END:
   Hiyayyaa Kiran :3 here again~ Today I'm doing a tutorial on how I use org-roam for taking notes on papers for my research. Hopefully this will help any students who might be thinking about using Emacs for taking notes. It's been a real game changer for my research output!
@@ -7114,38 +7098,6 @@ exchange-point-and-mark, mark-whole-buffer
   reNovation by airtone, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/airtone/60674
   ukeSounds by airtone, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/airtone/32655
   Between Worlds (Instrumental) by Aussens@iter, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/tobias_weber/56664
-
-* A new powerful project-agnostic Emacs workflow (a Neovim alternative)  :coding:
-:PROPERTIES:
-:DATE:     2025-08-21T17:56:36-07:00
-:DURATION: 12:50
-:YOUTUBE_URL: https://youtube.com/watch?v=MouEAYdxEqA&si=x5i8XifuszJh9RYg
-:SPEAKERS: Ardie83
-:END:
-  A new powerful project-agnostic Emacs workflow I discovered.
-
-  Inspired by the blog article in this link:
-  https://matklad.github.io/2024/07/25/git-worktrees.html
-
-  Do read the article
-
-  I added my own touches, making it super ergonomic.
-
-  My touches is inside (use-package emacs..) macro in this file: https://github.com/ardieMejia/linux-home-emacs-init/blob/main/my_looks/my_looks.el
-
-  Using mouse buttons is not an issue here, since those mouse buttons are extra and rarely used. And my main workflow is keyboard-centric.
-
-  Supporting me will inspire me to produce more quality content, including improving vocal quality.
-
-  (Edit: This video lacks context, I listened to the Reddit complaints. This workflow lets me separate coding and testing into 2 Emacs instance. It also does not affect previous branches, or workflow with other developers. And if Im happy with long weeks fuzzing, I can commit --amend, and start another fuzzing phase.)
-
-  (Edit: 2 folks got offended by my supposed "non-standard" Git usage. I have no idea why people get overly attached by tools that were "created by others". 2-3 Emacs users so far also seem to complain my "long messy config". If your Emacs config is minimal, why arent you using VSCode? Please point what is wrong with my config, Im here to learn.)
-
-  Show some support by buying me coffee on my Ko-fi page just setup recently. (It has both Debit/Credit Card and Paypal options, with 0% fee)
-  https://ko-fi.com/ardiemejia83
-
-  Or can donate straight to my PayPal
-  https://paypal.me/ardiemejia83
 
 * Prot Asks: Dimos about Emacs interconnectedness, collective work, and The Conspiracy Club  :ProtAsks:community:
 :PROPERTIES:
@@ -10270,7 +10222,7 @@ exchange-point-and-mark, mark-whole-buffer
 :PROPERTIES:
 :DATE:     2025-04-15T11:44:13-07:00
 :DURATION: 13:44
-:YOUTUBE_URL: https://www.youtube.com/watch?si=SpRb-O7aRRGcdV5e&v=nJC9EVHjI24&feature=youtu.be
+:YOUTUBE_URL: https://www.youtube.com/watch?v=nJC9EVHjI24
 :SPEAKERS: David Vujic
 :END:
   An improvised video to get you up and running with the emacs code that I have written to connect your editor to a running program.
@@ -11853,7 +11805,7 @@ exchange-point-and-mark, mark-whole-buffer
 :PROPERTIES:
 :DATE:     2025-02-19T17:14:15-08:00
 :DURATION: 1:50:29
-:YOUTUBE_URL: https://youtu.be/xF9XK1DPIX8?si=L6K-k1nIoYKU-aXv&t=376
+:YOUTUBE_URL: https://www.youtube.com/watch?v=xF9XK1DPIX8
 :SPEAKERS: UNOFFICIAL Jonathan Blow stream archive
 :END:
   https://www.twitch.tv/videos/2332878402 Compiler Work 2024-12-21 17:14:15(UTC-8)
@@ -14628,7 +14580,7 @@ This video is available under the terms of the Creative Commons Attribution-Shar
 :PROPERTIES:
 :DATE:     2024-12-08T15:00:15-08:00
 :DURATION: 16:39
-:YOUTUBE_URL: https://www.youtube.com/watch?si=BsAcWOfX4Wy9VUtJ&v=OUuz9-CtCwY&feature=youtu.be
+:YOUTUBE_URL: https://www.youtube.com/watch?v=OUuz9-CtCwY
 :SPEAKERS: Howard Abrams
 :END:
   After a decade of talking about Literating Programming with Org Mode in Emacs, I thought I might give an update of some new tips and functions I've made to make literate programming as easy and quick as "old fashioned" programming.
@@ -14803,7 +14755,7 @@ This video is available under the terms of the Creative Commons Attribution-Shar
 :DATE:     2024-12-08T05:00:00+0000
 :URL: https://emacsconf.org/2024/talks/sun-close
 :MEDIA_URL: https://media.emacsconf.org/2024/emacsconf-2024-sun-close--sunday-closing-remarks--main.webm
-:YOUTUBE_URL: https://www.youtube.com/live/eqVb1x9BhDU?si=pPmGiY1_0Ufq3snq&t=14726
+:YOUTUBE_URL: https://www.youtube.com/live/eqVb1x9BhDU?t=14726s
 :TOOBNIX_URL:
 :TRANSCRIPT_URL: https://media.emacsconf.org/2024/emacsconf-2024-sun-close--sunday-closing-remarks--main.vtt
 :SPEAKERS: Leo Vivier, Sacha Chua, Corwin Brust, FlowyCoder
@@ -15783,7 +15735,7 @@ This video is available under the terms of the Creative Commons Attribution-Shar
 :DATE:     2024-12-07T05:00:00+0000
 :URL: https://emacsconf.org/2024/talks/sat-close
 :MEDIA_URL: https://media.emacsconf.org/2024/emacsconf-2024-sat-close--saturday-closing-remarks--main.webm
-:YOUTUBE_URL: https://www.youtube.com/live/QwD9F6O9DqE?si=4E2kAKuecw1lFhnD&t=15431
+:YOUTUBE_URL: https://www.youtube.com/live/QwD9F6O9DqE?t=15431s
 :TOOBNIX_URL:
 :TRANSCRIPT_URL: https://media.emacsconf.org/2024/emacsconf-2024-sat-close--saturday-closing-remarks--main.vtt
 :SPEAKERS: EmacsConf and Emacs hangouts
@@ -17031,7 +16983,7 @@ count-words-region
 
 * Interview With Prot - Philosopher, Writer and Emacs Contributor :community:
 :PROPERTIES:
-:YOUTUBE_URL: https://youtube.com/watch?v=yHHlYB3zE3U&si=ir2VVJ2kLuOZnWCo
+:YOUTUBE_URL: https://www.youtube.com/watch?v=yHHlYB3zE3U
 :DATE:     2024-09-06T19:01:18+0000
 :SPEAKERS: Gavin Freeborn
 :DURATION: 01:07:49
@@ -17099,7 +17051,7 @@ count-words-region
 
 * Extending ekg with structured data                                :pkm:ekg:
 :PROPERTIES:
-:YOUTUBE_URL: https://www.youtube.com/watch?si=jNdPeHQGYUi6rKf5&v=VBBMvjeHdIw&feature=youtu.be
+:YOUTUBE_URL: https://www.youtube.com/watch?v=VBBMvjeHdIw
 :DATE:     2024-09-02T00:26:06+0000
 :SPEAKERS: Andrew Hyatt
 :DURATION: 37:42
@@ -18238,7 +18190,7 @@ count-words-region
 
 * Emacs: control where buffers are displayed (the 'display-buffer-alist')  :buffers:configuration:
 :PROPERTIES:
-:YOUTUBE_URL: https://www.youtube.com/watch?si=o55awR-etgHGz4jr&v=1-UIzYPn38s&feature=youtu.be
+:YOUTUBE_URL: https://www.youtube.com/watch?v=1-UIzYPn38s
 :DATE:     2024-02-08T12:35:17+0000
 :SPEAKERS: Protesilaos Stavrou
 :DURATION: 29:51
@@ -34374,7 +34326,7 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
 
 * From vanilla Emacs to Java IDE in 5 minutes                   :coding:java:
 :PROPERTIES:
-:YOUTUBE_URL: https://www.youtube.com/watch?si=tiMPa2-PSbFcMhS7&v=Yah69AfYP34&feature=youtu.be
+:YOUTUBE_URL: https://www.youtube.com/watch?v=Yah69AfYP34
 :DATE:     2022-05-15T09:21:32+0000
 :SPEAKERS: Skybert Hacks
 :DURATION: 11:25
@@ -57715,7 +57667,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 
 * Improve project workflow with Ivy, Counsel, and Swiper! (Emacs)
 :PROPERTIES:
-:YOUTUBE_URL: https://youtu.be/dUEquA02eJk?si=alfnv4Myf5R_4rJP
+:YOUTUBE_URL: https://www.youtube.com/watch?v=dUEquA02eJk
 :DATE:     2020-02-10T09:58:15-08:00
 :SPEAKERS: Marco Avelar
 :DURATION: 8:18
@@ -57810,7 +57762,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 :PROPERTIES:
 :DATE:     2020-02-07T14:35:35-08:00
 :DURATION: 1:41:01
-:YOUTUBE_URL: https://youtube.com/watch?v=HyMCzEwI4cU&si=MtSPZykCRYfRl4kM
+:YOUTUBE_URL: https://www.youtube.com/watch?v=HyMCzEwI4cU
 :SPEAKERS: Chris Kauffman
 :END:
   Session Notes and Code available from: http://z.umn.edu/tooltime
@@ -57845,7 +57797,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 
 * Easy buffer navigation with avy! (Emacs)
 :PROPERTIES:
-:YOUTUBE_URL: https://youtu.be/VsNthJNkt30?si=_bv_A74y9vpKnmmw
+:YOUTUBE_URL: https://www.youtube.com/watch?v=VsNthJNkt30
 :SPEAKERS: Marco Avelar
 :DURATION: 4:55
 :DATE:     2020-02-07T13:00:40-08:00
@@ -61378,7 +61330,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 :PROPERTIES:
 :DATE:     2019-05-03T16:54:03-07:00
 :DURATION: 21:16
-:YOUTUBE_URL: https://www.youtube.com/watch?si=FcZQne9IRlwAprbB&v=S4f-GUxu3CY&feature=youtu.be
+:YOUTUBE_URL: https://www.youtube.com/watch?v=S4f-GUxu3CY
 :SPEAKERS: Jack of Some
 :END:
   This is the first video in a series I'm calling "Absolute Minimum". I go over what I consider to be the minimum amount of knowledge you need to work with Org mode in Spacemacs.
