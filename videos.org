@@ -3259,14 +3259,6 @@
 :PEERTUBE_URL: https://tv.dyne.org/w/hU9gPLwU6m541nu24vXQD8
 :END:
   https://codeberg.org/divyaranjan/emacs-reader/ If you have no idea what I'm doing here, please watch the first introductory stream of the series: https://tv.dyne.org/w/8W8o4fWz94bMYVMUWExkX7 Operat...
-* [17] Emacs Reader:  Cursors, PALE, Canvas API and More! - 2/2/2026, 2:26:28 PM
-:PROPERTIES:
-:DATE:     2026-02-02T14:38:09.555Z
-:DURATION: 6:48
-:PEERTUBE_URL: https://tv.dyne.org/w/f4py2PspoRFjUQTJgfYEwJ
-:END:
-  https://codeberg.org/divyaranjan/emacs-reader/ If you have no idea what I'm doing here, please watch the first introductory stream of the series: https://tv.dyne.org/w/8W8o4fWz94bMYVMUWExkX7 Operat...
-
 * Emacs RSS Reader with Online Sync  :rss:
 :PROPERTIES:
 :DATE:     2026-02-02T11:51:08-08:00
@@ -12000,39 +11992,6 @@ exchange-point-and-mark, mark-whole-buffer
   05:27 Not Even the Best Available
   06:22 Why This is Huge
 
-* RAGmacs - Pt. 1: Retrieving Deep Value in Emacs
-:PROPERTIES:
-:DATE:     2025-02-08T20:53:38-08:00
-:DURATION: 9:42
-:YOUTUBE_URL: https://www.youtube.com/watch?si=JTLfL5FeabmLLx_p&v=JHXG225oP8E&feature=youtu.be
-:SPEAKERS: Positron's Emacs Channel
-:END:
-  We're using GPTel with LLM tool-use integration to retrieve introspection data from Emacs and deliver high-quality results that are vastly better than the data embedded in LLMs weights.  The tests are a success.  This is just the beginning.
-
-  The demos use manuals, completions, source code, docstrings, and other facilities to let the LLM traverse facts and more deductively arrive at useful conclusions.
-
-  Source code for tools in the demo (subscribers exclusive!):
-  https://github.com/positron-solutions/youtube/blob/master/lunch/09-retreival-augmented-macros/demo-gptel-config.el
-
-  Our Github Sponsors
-  https://github.com/sponsors/positron-solutions
-
-  GPTel for Emacs:
-  https://github.com/karthink/gptel
-
-  These techniques will scale across any language.  By using these techniques within Emacs to make our Emacs usage more efficient, we are in a very tight feedback loop with very high headroom.  Editors like Cursor don't really have anything to offer over programmable tools where the programmers employ LLMs to their problems rather than waiting for the IDE to come to them.
-
-  Since Common Lisp is a good Lisp to reason about Lisp and other languages, it might just turn out that LLMs turn into a killer application for lisp-like languages.  Since Lem is an Emacs, there's an intriguing possibility that we're witnessing a turning point in the making.
-
-  ,#programming #llm #opensource
-
-  TIMESTAMPS
-  00:00 Welcome
-  00:28 Retrieval Augmented Emacs
-  03:22 The Problems Being Solved
-  05:27 Not Even the Best Available
-  06:22 Why This is Huge
-
 * The Augmented Software Engineer - Ep.15 - Emacs/Local  :ai:
 :PROPERTIES:
 :DATE:     2025-02-08T19:45:11-08:00
@@ -20094,19 +20053,6 @@ count-words-region
 :DATE:     2023-11-17T14:46:59+0000
 :SPEAKERS: Protesilaos Stavrou
 :DURATION: 15:49
-:END:
-  In this ~15 minute video, I show how to inspect the differences between two or three files in a side-by-side comparison. Ediff lets you merge changes from one file to another while retaining all the text editing capabilities of Emacs (e.g. further edit the buffer and/or undo changes).
-
-  * * *
-
-  Find all my publications on my website (Emacs, philosophy, etc.): https://protesilaos.com
-
-* Emacs: ediff basics
-:PROPERTIES:
-:DATE:     2023-11-17T06:46:59-08:00
-:DURATION: 15:49
-:YOUTUBE_URL: https://www.youtube.com/watch?amp;t=14s&v=pSvsAutseO0
-:SPEAKERS: Protesilaos Stavrou
 :END:
   In this ~15 minute video, I show how to inspect the differences between two or three files in a side-by-side comparison. Ediff lets you merge changes from one file to another while retaining all the text editing capabilities of Emacs (e.g. further edit the buffer and/or undo changes).
 
@@ -61312,26 +61258,6 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 :DATE:     2019-05-03T23:54:03+0000
 :SPEAKERS: Jack of Some
 :DURATION: 21:16
-:END:
-  This is the first video in a series I'm calling "Absolute Minimum". I go over what I consider to be the minimum amount of knowledge you need to work with Org mode in Spacemacs.
-
-  Prerequisite: Basics of Spacemacs https://www.youtube.com/watch?v=fdLCuJcS2Aw
-  Final Org File: https://gist.github.com/safijari/d9b1ed8a3f4cd10e632e04353c6abdfe
-  Orgmode Website: https://orgmode.org/
-  Orgmode Spacemacs Documentation: http://spacemacs.org/layers/+emacs/org/README.html
-
-  Twitter: https://twitter.com/safijari
-
-  Laser Groove Kevin MacLeod (incompetech.com)
-  Licensed under Creative Commons: By Attribution 3.0 License
-  http://creativecommons.org/licenses/by/3.0/
-
-* Org mode and Spacemacs: The Absolute Minimum you need to know  :org:spacemacs:
-:PROPERTIES:
-:DATE:     2019-05-03T16:54:03-07:00
-:DURATION: 21:16
-:YOUTUBE_URL: https://www.youtube.com/watch?v=S4f-GUxu3CY
-:SPEAKERS: Jack of Some
 :END:
   This is the first video in a series I'm calling "Absolute Minimum". I go over what I consider to be the minimum amount of knowledge you need to work with Org mode in Spacemacs.
 
