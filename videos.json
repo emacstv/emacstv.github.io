@@ -1,5 +1,153 @@
 [
   {
+    "ITEM": "How I structure my Emacs init.el file",
+    "DATE": "2026-06-08T04:55:42-07:00",
+    "DURATION": "27:04",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=ZCELm1zUcH0",
+    "SPEAKERS": "Peter Max Friis Jensen",
+    "TAGS": [
+      "configuration"
+    ],
+    "BODY": "I cover how my init.el file is structured.\n\n  You can find it on my github:\n  https://github.com/maxfriis/my-emacs-config\n\n  Note that I forgot to mention, why I don't use use-package or straight. The reason is that I don't want to micromanage what get deferred. I trust that the packages I use defer sensibly.\n\n  Furthermore if you want to utilize use-package, I feel it invites you to have a more messy structure. E.g. I like that all my keybindings are in a separate section."
+  },
+  {
+    "ITEM": "How to Change Themes in Emacs",
+    "DATE": "2026-06-07T16:00:18-07:00",
+    "DURATION": "1:30",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=FSdPbKTBWaQ",
+    "SPEAKERS": "Timothy Unkert",
+    "TAGS": [
+      "configuration",
+      "customize",
+      "themes"
+    ],
+    "BODY": "In this video, I show you how to change from the default theme of Emacs into another one of the themes that comes with Emacs by using the command:\n\n  M-x customize-themes\n\n  I then show you how to change to that theme and save that theme preference for future sessions when using Emacs."
+  },
+  {
+    "ITEM": "How to Inhibit the Welcome Screen in Emacs",
+    "DATE": "2026-06-06T14:15:20-07:00",
+    "DURATION": "1:11",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=7Gz-FOq9AIs",
+    "SPEAKERS": "Timothy Unkert",
+    "TAGS": [
+      "configuration",
+      "customize",
+      "startup"
+    ],
+    "BODY": "In this video, I show you how to inhibit the welcome screen in Emacs so that you can start the editor with a blank buffer. To do this, I have you customize the option (with M-x customize-option) \"inhibit-startup-screen\". You'll want to toggle that to on and then click \"apply and save\" within the editor. After that, when you restart the editor it will start with a blank buffer."
+  },
+  {
+    "ITEM": "How to Maximize Emacs' Screen Upon Startup",
+    "DATE": "2026-06-05T12:15:15-07:00",
+    "DURATION": "1:23",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=Cr9IHzj_APQ",
+    "SPEAKERS": "Timothy Unkert",
+    "TAGS": [
+      "configuration",
+      "customize",
+      "startup"
+    ],
+    "BODY": "In this video, I show you how to maximize the Emacs editor upon startup with the following commands:\n\n  M-x \"customize-option\"\n\n  This first command allows you to customize a variable. The variable you want to customize is \"default-frame-alist\". With this variable you want to create a parameter called \"fullscreen\" and give it the value \"maximized\". You'll then click apply and save and the next time you startup Emacs it will maximize to the full screen size."
+  },
+  {
+    "ITEM": "June 4: Emacs Chat with Ben Zanin (@gnomon@mastodon.social)",
+    "DATE": "2026-06-04T20:48:40-07:00",
+    "DURATION": "59:30",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=ax4f5uaOHA8",
+    "SPEAKERS": "Sacha Chua",
+    "TAGS": [
+      "EmacsChat",
+      "community"
+    ],
+    "BODY": "https://sachachua.com/blog/2026/06/june-4-emacs-chat-with-ben-zanin-gnomon-mastodon-social/\n\n  I chatted with Ben Zanin about music, Org Mode, Emacs in terminals and on an Android, keyboards, elfeed, and more.\n\n  - Ben Zanin (@gnomon@mastodon.social) - Mastodon https://mastodon.social/@gnomon: Robertson screwdriver owner, believer in the value of personal-scale computing and skeptic of the value of computing scales any larger than that\n  - ~gnomon/emacs-config-gnomon - An edited/truncated subset of my dotfiles repo to pick out only those commits and files that are pertinent to my emacs configuration, as of 2026-05-06 - sourcehut git https://git.sr.ht/~gnomon/emacs-config-gnomon\n  - ~gnomon's git repositories https://git.sr.ht/~gnomon/\n  - https://melpa.org/#/elfeed, https://melpa.org/#/elfeed-curate\n  - https://melpa.org/#/versuri and https://melpa.org/#/mpdel - lyrics, music\n  - https://melpa.org/#/avy\n  - WezTerm - Wez's Terminal Emulator https://wezterm.org/index.html\n  - Keychron B11 Pro Ultra-Slim Wireless Foldable Keyboard (US ANSI Layout – Keychron Canada https://keychron.ca/products/keychron-b11-pro-ultra-slim-wireless-foldable-keyboard-us-ansi-layout\n  - tea-timer and https://elpa.gnu.org/packages/tmr.html\n\n  00:00 How Ben got started with Emacs\n  02:19 Ben got into Emacs because of twittering-mode\n  04:30 Emacs as a media playback platform with Versuri and Mpdel\n  09:13 Emacs on Android with Termux\n  13:44 Keyboards\n  16:44 Benefits of a split keyboard\n  18:22 Meeting workflow\n  21:11 Narrowing\n  22:58 There's even an internal Slack channel about Emacs at Ben's company\n  24:47 Ben keeps Org capture templates as individual files and adapts them to different meeting flows\n  28:45 Personal-scale software and the journey\n  34:07 vc-git-grep for finding notes again\n  37:47 Keybindings and terminals; wezterm\n  42:38 Timers: tea-timer, tmr\n  43:57 Different stages of package use\n  44:47 Elfeed\n  53:13 Bookmark naming conventions\n  53:50 elfeed-curate for annotations\n  55:46 mytoots archives Mastodon toots\n  57:05 Mentoring offer\n  58:02 A local instance of public-inbox can let you use Gnus to read mailing lists quickly\n\n  You can add the iCal for upcoming Emacs Chat episodes to your calendar. https://sachachua.com/topic/upcoming-emacs-chats.ics\n\n  Find more Emacs Chats or join the fun: https://sachachua.com/emacs-chat"
+  },
+  {
+    "ITEM": "How to Hide the Tool Bar, Scroll Bar, and Menu Bar in Emacs",
+    "DATE": "2026-06-04T17:22:41-07:00",
+    "DURATION": "1:59",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=Rsgg-uVJlIw",
+    "SPEAKERS": "Timothy Unkert",
+    "TAGS": [
+      "appearance",
+      "ToolBar",
+      "ScrollBar",
+      "MenuBar",
+      "configuration"
+    ],
+    "BODY": "In this video, I show you how to hide the tool bar, scroll bar, and menu bar in Emacs without writing any elisp. All you have to do is M-x \"customize-option\" then customize the following variables:\n\n  - tool-bar-mode\n  - scroll-bar-mode\n  - menu-bar-mode\n\n  You can change these, click \"Apply and Save\" and have Emacs write your configuration to your .emacs file so that it automatically starts up with your preferred settings.\n\n  I also show you how to bring back the menu-bar and talk about how you can do the same thing with the scroll-bar and the tool-bar if you so choose with some simple editor commands."
+  },
+  {
+    "ITEM": "Kokoro-onnx with Cuda for text to speech with Emacs",
+    "DATE": "2026-06-03T11:58:00-07:00",
+    "DURATION": "1:26:55",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=iUrTC4PrBpM",
+    "SPEAKERS": "NapoleonWils0n",
+    "TAGS": [
+      "tts"
+    ],
+    "BODY": "Kokoro-onnx for text to speech with Cuda on Freebsd with Emacs\n\n  Using a simple python script to create an api using fastapi and uvicorn we can use kokoro-onnx using curl on the command line or using emacs and a couple of lines of elisp code\n\n  Cuda support on Freebsd using podman\n\n  Note you should be able to get this working on Linux,\n  Mac and Windows as well\n\n  Supports multiple languages\n  Offer multiple voices\n  Lightweight: ~300MB (quantized: ~80MB)\n\n  kokoro-onnx github\n\n  https://github.com/thewh1teagle/kokoro-onnx\n\n  freebsd-cuda project\n\n  https://github.com/NapoleonWils0n/freebsd-cuda\n\n  kokoro-onnx podman container for freebsd\n\n  https://github.com/NapoleonWils0n/freebsd-cuda#kokoro\n\n  kokoro-onnx install with cuda\n\n  uv init -p 3.12\n  uv venv\n  uv pip install kokoro-onnx soundfile \"onnxruntime-gpu[cuda,cudnn]\" fastapi\n\n  you will also need the following packages installed\n  libsndfile libffi-devel\n\n  download the model files\n  https://github.com/thewh1teagle/kokoro-onnx/releases/download/model-files-v1.0/kokoro-v1.0.onnx\n\n  https://github.com/thewh1teagle/kokoro-onnx/releases/download/model-files-v1.0/kokoro-v1.0.onnx\n\n  kokoro-api script\n\n  https://github.com/NapoleonWils0n/freebsd-cuda/blob/master/containers/python/kokoro-onnx/bin/kokoro-api\n\n  note you if you arent using the podman continer you will need to edit the script and change the MODEL_PATH and VOICES_PATH paths\n\n  https://github.com/NapoleonWils0n/freebsd-cuda/blob/master/containers/python/kokoro-onnx/bin/kokoro-api#L39\n\n  @sachactube text to speech\n\n  https://sachachua.com/blog/2026/03/small-steps-towards-using-openai-compatible-text-to-speech-services-with-speechd-el-or-emacspeak/\n\n  freebsd root\n\n  https://github.com/NapoleonWils0n/freebsd-root-xps\n\n  freebsd dotfiles\n\n  https://github.com/NapoleonWils0n/freebsd-dotfiles-xps\n\n  freebsd bin\n\n  https://github.com/NapoleonWils0n/freebsd-bin-xps"
+  },
+  {
+    "ITEM": "CEDET for  Plan 9 coding",
+    "DATE": "2026-06-03T09:27:26-07:00",
+    "DURATION": "1:14",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=thPsF9C2b10",
+    "SPEAKERS": "Anand Tamariya",
+    "TAGS": [
+      "coding",
+      "plan9",
+      "cedet"
+    ],
+    "BODY": "Plan 9 C is not ANSI C. So existing tools don't help.\n  Details: https://lifeofpenguin.blogspot.com/2021/04/gnu-emacs-as-lightweight-ide.html"
+  },
+  {
+    "ITEM": "How to Setup Emacs on a Chromebook Without Elisp in 2026",
+    "DATE": "2026-06-03T01:57:52-07:00",
+    "DURATION": "10:37",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=CVtYtcFvutw",
+    "SPEAKERS": "Timothy Unkert",
+    "BODY": "In this video, I show you how to setup Emacs on a Chromebook in 2026 without elisp, just using built in commands within the Emacs environment that write to your .emacs file. This video covers how to maximize the Emacs screen upon loading, how to load Emacs without the get started screen, how to change the default font of Emacs to a custom font, how to get rid of the tool bar, the scroll bar, and the menu bar as well as how to change the theme of Emacs after showing you how to install packages from Melpa including the Doom themes package. Additionally, I show you how to change the status bar of Emacs to the doom modeline package, noting that you must install nerd icon fonts to get the icons to display properly."
+  },
+  {
+    "ITEM": "This perfect text editor doesn't exist",
+    "DATE": "2026-06-02T20:10:11-07:00",
+    "DURATION": "15:57",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=UqashZncNj4",
+    "SPEAKERS": "Valigo",
+    "TAGS": [
+      "comparison"
+    ],
+    "BODY": "I have a list of mandatory requirement for The Perfect Text Editor, that I have in mind for a long time. Here it is. Yes, I am very opinionated.\n\n  Terminal editors are bad: https://www.youtube.com/watch?v=tvlupFXjqpQ\n  Fred Wookash ep: https://www.youtube.com/watch?v=XexxO5noRVM\n  4coder Wookash ep: https://www.youtube.com/watch?v=oA9nTuO62VI\n\n  Chapters:\n  00:00 - Intro\n  00:34 - Should be graphical\n  02:20 - Variable width fonts\n  03:10 - Physical scan codes\n  05:00 - Smooth 4k performance\n  06:40 - Cross-platform\n  06:50 - Modal editing\n  07:20 - Arbitrary programmable\n  09:07 - Real extension programming language\n  09:50 - Editing of big files\n  11:08 - Multiple cursors\n  11: 40 - Self-documenting\n  13:36 - Existing art\n  15:15 - Outro"
+  },
+  {
+    "ITEM": "Beyond ICR: Incremental 'Suggesting' Read in Emacs!",
+    "DATE": "2026-06-02T20:00:27-07:00",
+    "DURATION": "20:09",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=UnAavHqekp0",
+    "SPEAKERS": "Charlie Holland (Baker)",
+    "TAGS": [
+      "completion",
+      "suggestion"
+    ],
+    "BODY": "This video hypothesizes what lies beyond the envelope of Incremental Completing Read, a notion I've coined \"Incremental Suggesting Read\".\n\n  Read the blog post or watch the video for more information: https://www.chiply.dev/post-incremental-suggesting-read\n\n  Links:\n  - John Kitchin's original implementation of semantic completing read : https://www.youtube.com/watch?v=bB7rywlahSc&t=293s\n  - karthink's gptel: https://github.com/karthink/gptel\n  - Armin Darvish's consult-omni: https://github.com/armindarvish/consult-omni\n\n  Timestamps:\n  0:00 Intro\n  3:10 Semantic Retrieval\n  3:38 Generative Synthesis\n  4:18 Demo of Semantic Retrieval\n  9:40 Demo of Generative Synthesis Part 1\n  15:10 Demo of Generative Synthesis Part 2\n  18:30 Outro\n\n  ,#emacs #ai #semanticsearch #software #programming"
+  },
+  {
+    "ITEM": "самый хайповый гайд на Emacs",
+    "DATE": "2026-06-02T14:27:41-07:00",
+    "DURATION": "15:40",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=omoGBS3rzEw",
+    "SPEAKERS": "Topkekhap1234",
+    "BODY": ""
+  },
+  {
+    "ITEM": "How to Install Emacs on a Chromebook in 2026",
+    "DATE": "2026-06-01T15:49:08-07:00",
+    "DURATION": "7:15",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=diPparUrHGw",
+    "SPEAKERS": "Timothy Unkert",
+    "BODY": "In this video, I show you how to install Emacs on a Chromebook in 2026. The first step I go through is how to enable the Linux development environment with Crostini through your settings. After that, I show you how to update the Linux development environment with the commands:\n\n  sudo apt update && sudo apt upgrade -y\n\n  Once the Linux development environment is updated I show you how to install Emacs with the command:\n\n  sudo apt install emacs\n\n  And how, if you don't add the -y, you will be prompted if you want to use the extra space. Finally, I show you how to pin the Emacs Gui to your taskbar so you can easily open Emacs everyday you use it."
+  },
+  {
     "ITEM": "I Replaced Obsidian with Doom Emacs & Org Mode",
     "DATE": "2026-05-31T06:25:02-07:00",
     "DURATION": "14:37",
@@ -1811,6 +1959,14 @@
       "polymode"
     ],
     "BODY": "https://github.com/polymode/polymode\n  https://github.com/emacselements\n  https://emacselements.com/"
+  },
+  {
+    "ITEM": "39C3 - The art of text (rendering)",
+    "DATE": "2025-12-27T09:31:40-08:00",
+    "DURATION": "38:29",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=XTgIJUwmz0Q",
+    "SPEAKERS": "media.ccc.de",
+    "BODY": "https://media.ccc.de/v/39c3-the-art-of-text-rendering\n\n  Typography is the art of arranging type to make written language legible, readable, and appealing when displayed. However, for the neophyte, typography is mostly apprehended as the juxtaposition of characters displayed on the screen while for the expert, typography means typeface, scripts, unicode, glyphs, ascender, descender, tracking, hinting, kerning, shaping, weigth, slant, etc. Typography is actually much more than the mere rendering of glyphs and involves many different concepts. If glyph rendering is an important part of the rendering pipeline, it is nonetheless important to have a basic understanding of typography or there’s a known risk at rendering garbage on screen, as it has been seen many times in games, software and operating systems.\n\n  Text is everywhere in our modern digital life and yet, no one really pay attention to how it is rendered on a screen. Maybe this is a sign that problem has been solved. But it isn't. A few people are still looking at the best way to display text on any devices & any languages. This talk is based on a lesson I gave at SIGGRAPH  a few years ago (https://www.slideshare.net/slideshow/siggraph-2018-digital-typography/110385070) to explain rendering techniques and concepts.\n\n  Nicolas Rougier\n\n  https://events.ccc.de/congress/2025/hub/event/detail/the-art-of-text-rendering\n\n  ,#39c3 #ArtBeauty\n\n  Licensed to the public under http://creativecommons.org/licenses/by/4.0"
   },
   {
     "ITEM": "The Built-in Emacs Subword-mode for Navigating CamelCaseWords",

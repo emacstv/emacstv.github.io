@@ -6,6 +6,280 @@
     <atom:link href="https://emacs.tv/videos.rss" rel="self" type="application/rss+xml" />
     <description>Emacs videos</description>
     <item>
+      <title>How I structure my Emacs init.el file</title>
+      <link>https://www.youtube.com/watch?v=ZCELm1zUcH0</link>
+      <guid>https://www.youtube.com/watch?v=ZCELm1zUcH0</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=ZCELm1zUcH0">youtube</a><br><br>I cover how my init.el file is structured.
+
+  You can find it on my github:
+  https://github.com/maxfriis/my-emacs-config
+
+  Note that I forgot to mention, why I don't use use-package or straight. The reason is that I don't want to micromanage what get deferred. I trust that the packages I use defer sensibly.
+
+  Furthermore if you want to utilize use-package, I feel it invites you to have a more messy structure. E.g. I like that all my keybindings are in a separate section.</div>]]></description>
+      <pubDate>Mon, 08 Jun 2026 11:55:42 +0000</pubDate><category>configuration</category>
+    </item>
+    <item>
+      <title>How to Change Themes in Emacs</title>
+      <link>https://www.youtube.com/watch?v=FSdPbKTBWaQ</link>
+      <guid>https://www.youtube.com/watch?v=FSdPbKTBWaQ</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=FSdPbKTBWaQ">youtube</a><br><br>In this video, I show you how to change from the default theme of Emacs into another one of the themes that comes with Emacs by using the command:
+
+  M-x customize-themes
+
+  I then show you how to change to that theme and save that theme preference for future sessions when using Emacs.</div>]]></description>
+      <pubDate>Sun, 07 Jun 2026 23:00:18 +0000</pubDate><category>configuration</category>
+<category>customize</category>
+<category>themes</category>
+    </item>
+    <item>
+      <title>How to Inhibit the Welcome Screen in Emacs</title>
+      <link>https://www.youtube.com/watch?v=7Gz-FOq9AIs</link>
+      <guid>https://www.youtube.com/watch?v=7Gz-FOq9AIs</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=7Gz-FOq9AIs">youtube</a><br><br>In this video, I show you how to inhibit the welcome screen in Emacs so that you can start the editor with a blank buffer. To do this, I have you customize the option (with M-x customize-option) "inhibit-startup-screen". You'll want to toggle that to on and then click "apply and save" within the editor. After that, when you restart the editor it will start with a blank buffer.</div>]]></description>
+      <pubDate>Sat, 06 Jun 2026 21:15:20 +0000</pubDate><category>configuration</category>
+<category>customize</category>
+<category>startup</category>
+    </item>
+    <item>
+      <title>How to Maximize Emacs&apos; Screen Upon Startup</title>
+      <link>https://www.youtube.com/watch?v=Cr9IHzj_APQ</link>
+      <guid>https://www.youtube.com/watch?v=Cr9IHzj_APQ</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=Cr9IHzj_APQ">youtube</a><br><br>In this video, I show you how to maximize the Emacs editor upon startup with the following commands:
+
+  M-x "customize-option"
+
+  This first command allows you to customize a variable. The variable you want to customize is "default-frame-alist". With this variable you want to create a parameter called "fullscreen" and give it the value "maximized". You'll then click apply and save and the next time you startup Emacs it will maximize to the full screen size.</div>]]></description>
+      <pubDate>Fri, 05 Jun 2026 19:15:15 +0000</pubDate><category>configuration</category>
+<category>customize</category>
+<category>startup</category>
+    </item>
+    <item>
+      <title>June 4: Emacs Chat with Ben Zanin (@gnomon@mastodon.social)</title>
+      <link>https://www.youtube.com/watch?v=ax4f5uaOHA8</link>
+      <guid>https://www.youtube.com/watch?v=ax4f5uaOHA8</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=ax4f5uaOHA8">youtube</a><br><br>https://sachachua.com/blog/2026/06/june-4-emacs-chat-with-ben-zanin-gnomon-mastodon-social/
+
+  I chatted with Ben Zanin about music, Org Mode, Emacs in terminals and on an Android, keyboards, elfeed, and more.
+
+  - Ben Zanin (@gnomon@mastodon.social) - Mastodon https://mastodon.social/@gnomon: Robertson screwdriver owner, believer in the value of personal-scale computing and skeptic of the value of computing scales any larger than that
+  - ~gnomon/emacs-config-gnomon - An edited/truncated subset of my dotfiles repo to pick out only those commits and files that are pertinent to my emacs configuration, as of 2026-05-06 - sourcehut git https://git.sr.ht/~gnomon/emacs-config-gnomon
+  - ~gnomon's git repositories https://git.sr.ht/~gnomon/
+  - https://melpa.org/#/elfeed, https://melpa.org/#/elfeed-curate
+  - https://melpa.org/#/versuri and https://melpa.org/#/mpdel - lyrics, music
+  - https://melpa.org/#/avy
+  - WezTerm - Wez's Terminal Emulator https://wezterm.org/index.html
+  - Keychron B11 Pro Ultra-Slim Wireless Foldable Keyboard (US ANSI Layout – Keychron Canada https://keychron.ca/products/keychron-b11-pro-ultra-slim-wireless-foldable-keyboard-us-ansi-layout
+  - tea-timer and https://elpa.gnu.org/packages/tmr.html
+
+  00:00 How Ben got started with Emacs
+  02:19 Ben got into Emacs because of twittering-mode
+  04:30 Emacs as a media playback platform with Versuri and Mpdel
+  09:13 Emacs on Android with Termux
+  13:44 Keyboards
+  16:44 Benefits of a split keyboard
+  18:22 Meeting workflow
+  21:11 Narrowing
+  22:58 There's even an internal Slack channel about Emacs at Ben's company
+  24:47 Ben keeps Org capture templates as individual files and adapts them to different meeting flows
+  28:45 Personal-scale software and the journey
+  34:07 vc-git-grep for finding notes again
+  37:47 Keybindings and terminals; wezterm
+  42:38 Timers: tea-timer, tmr
+  43:57 Different stages of package use
+  44:47 Elfeed
+  53:13 Bookmark naming conventions
+  53:50 elfeed-curate for annotations
+  55:46 mytoots archives Mastodon toots
+  57:05 Mentoring offer
+  58:02 A local instance of public-inbox can let you use Gnus to read mailing lists quickly
+
+  You can add the iCal for upcoming Emacs Chat episodes to your calendar. https://sachachua.com/topic/upcoming-emacs-chats.ics
+
+  Find more Emacs Chats or join the fun: https://sachachua.com/emacs-chat</div>]]></description>
+      <pubDate>Fri, 05 Jun 2026 03:48:40 +0000</pubDate><category>EmacsChat</category>
+<category>community</category>
+    </item>
+    <item>
+      <title>How to Hide the Tool Bar, Scroll Bar, and Menu Bar in Emacs</title>
+      <link>https://www.youtube.com/watch?v=Rsgg-uVJlIw</link>
+      <guid>https://www.youtube.com/watch?v=Rsgg-uVJlIw</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=Rsgg-uVJlIw">youtube</a><br><br>In this video, I show you how to hide the tool bar, scroll bar, and menu bar in Emacs without writing any elisp. All you have to do is M-x "customize-option" then customize the following variables:
+
+  - tool-bar-mode
+  - scroll-bar-mode
+  - menu-bar-mode
+
+  You can change these, click "Apply and Save" and have Emacs write your configuration to your .emacs file so that it automatically starts up with your preferred settings.
+
+  I also show you how to bring back the menu-bar and talk about how you can do the same thing with the scroll-bar and the tool-bar if you so choose with some simple editor commands.</div>]]></description>
+      <pubDate>Fri, 05 Jun 2026 00:22:41 +0000</pubDate><category>appearance</category>
+<category>ToolBar</category>
+<category>ScrollBar</category>
+<category>MenuBar</category>
+<category>configuration</category>
+    </item>
+    <item>
+      <title>Kokoro-onnx with Cuda for text to speech with Emacs</title>
+      <link>https://www.youtube.com/watch?v=iUrTC4PrBpM</link>
+      <guid>https://www.youtube.com/watch?v=iUrTC4PrBpM</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=iUrTC4PrBpM">youtube</a><br><br>Kokoro-onnx for text to speech with Cuda on Freebsd with Emacs
+
+  Using a simple python script to create an api using fastapi and uvicorn we can use kokoro-onnx using curl on the command line or using emacs and a couple of lines of elisp code
+
+  Cuda support on Freebsd using podman
+
+  Note you should be able to get this working on Linux,
+  Mac and Windows as well
+
+  Supports multiple languages
+  Offer multiple voices
+  Lightweight: ~300MB (quantized: ~80MB)
+
+  kokoro-onnx github
+
+  https://github.com/thewh1teagle/kokoro-onnx
+
+  freebsd-cuda project
+
+  https://github.com/NapoleonWils0n/freebsd-cuda
+
+  kokoro-onnx podman container for freebsd
+
+  https://github.com/NapoleonWils0n/freebsd-cuda#kokoro
+
+  kokoro-onnx install with cuda
+
+  uv init -p 3.12
+  uv venv
+  uv pip install kokoro-onnx soundfile "onnxruntime-gpu[cuda,cudnn]" fastapi
+
+  you will also need the following packages installed
+  libsndfile libffi-devel
+
+  download the model files
+  https://github.com/thewh1teagle/kokoro-onnx/releases/download/model-files-v1.0/kokoro-v1.0.onnx
+
+  https://github.com/thewh1teagle/kokoro-onnx/releases/download/model-files-v1.0/kokoro-v1.0.onnx
+
+  kokoro-api script
+
+  https://github.com/NapoleonWils0n/freebsd-cuda/blob/master/containers/python/kokoro-onnx/bin/kokoro-api
+
+  note you if you arent using the podman continer you will need to edit the script and change the MODEL_PATH and VOICES_PATH paths
+
+  https://github.com/NapoleonWils0n/freebsd-cuda/blob/master/containers/python/kokoro-onnx/bin/kokoro-api#L39
+
+  @sachactube text to speech
+
+  https://sachachua.com/blog/2026/03/small-steps-towards-using-openai-compatible-text-to-speech-services-with-speechd-el-or-emacspeak/
+
+  freebsd root
+
+  https://github.com/NapoleonWils0n/freebsd-root-xps
+
+  freebsd dotfiles
+
+  https://github.com/NapoleonWils0n/freebsd-dotfiles-xps
+
+  freebsd bin
+
+  https://github.com/NapoleonWils0n/freebsd-bin-xps</div>]]></description>
+      <pubDate>Wed, 03 Jun 2026 18:58:00 +0000</pubDate><category>tts</category>
+    </item>
+    <item>
+      <title>CEDET for  Plan 9 coding</title>
+      <link>https://www.youtube.com/watch?v=thPsF9C2b10</link>
+      <guid>https://www.youtube.com/watch?v=thPsF9C2b10</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=thPsF9C2b10">youtube</a><br><br>Plan 9 C is not ANSI C. So existing tools don't help.
+  Details: https://lifeofpenguin.blogspot.com/2021/04/gnu-emacs-as-lightweight-ide.html</div>]]></description>
+      <pubDate>Wed, 03 Jun 2026 16:27:26 +0000</pubDate><category>coding</category>
+<category>plan9</category>
+<category>cedet</category>
+    </item>
+    <item>
+      <title>How to Setup Emacs on a Chromebook Without Elisp in 2026</title>
+      <link>https://www.youtube.com/watch?v=CVtYtcFvutw</link>
+      <guid>https://www.youtube.com/watch?v=CVtYtcFvutw</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=CVtYtcFvutw">youtube</a><br><br>In this video, I show you how to setup Emacs on a Chromebook in 2026 without elisp, just using built in commands within the Emacs environment that write to your .emacs file. This video covers how to maximize the Emacs screen upon loading, how to load Emacs without the get started screen, how to change the default font of Emacs to a custom font, how to get rid of the tool bar, the scroll bar, and the menu bar as well as how to change the theme of Emacs after showing you how to install packages from Melpa including the Doom themes package. Additionally, I show you how to change the status bar of Emacs to the doom modeline package, noting that you must install nerd icon fonts to get the icons to display properly.</div>]]></description>
+      <pubDate>Wed, 03 Jun 2026 08:57:52 +0000</pubDate>
+    </item>
+    <item>
+      <title>This perfect text editor doesn&apos;t exist</title>
+      <link>https://www.youtube.com/watch?v=UqashZncNj4</link>
+      <guid>https://www.youtube.com/watch?v=UqashZncNj4</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=UqashZncNj4">youtube</a><br><br>I have a list of mandatory requirement for The Perfect Text Editor, that I have in mind for a long time. Here it is. Yes, I am very opinionated.
+
+  Terminal editors are bad: https://www.youtube.com/watch?v=tvlupFXjqpQ
+  Fred Wookash ep: https://www.youtube.com/watch?v=XexxO5noRVM
+  4coder Wookash ep: https://www.youtube.com/watch?v=oA9nTuO62VI
+
+  Chapters:
+  00:00 - Intro
+  00:34 - Should be graphical
+  02:20 - Variable width fonts
+  03:10 - Physical scan codes
+  05:00 - Smooth 4k performance
+  06:40 - Cross-platform
+  06:50 - Modal editing
+  07:20 - Arbitrary programmable
+  09:07 - Real extension programming language
+  09:50 - Editing of big files
+  11:08 - Multiple cursors
+  11: 40 - Self-documenting
+  13:36 - Existing art
+  15:15 - Outro</div>]]></description>
+      <pubDate>Wed, 03 Jun 2026 03:10:11 +0000</pubDate><category>comparison</category>
+    </item>
+    <item>
+      <title>Beyond ICR: Incremental &apos;Suggesting&apos; Read in Emacs!</title>
+      <link>https://www.youtube.com/watch?v=UnAavHqekp0</link>
+      <guid>https://www.youtube.com/watch?v=UnAavHqekp0</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=UnAavHqekp0">youtube</a><br><br>This video hypothesizes what lies beyond the envelope of Incremental Completing Read, a notion I've coined "Incremental Suggesting Read".
+
+  Read the blog post or watch the video for more information: https://www.chiply.dev/post-incremental-suggesting-read
+
+  Links:
+  - John Kitchin's original implementation of semantic completing read : https://www.youtube.com/watch?v=bB7rywlahSc&t=293s
+  - karthink's gptel: https://github.com/karthink/gptel
+  - Armin Darvish's consult-omni: https://github.com/armindarvish/consult-omni
+
+  Timestamps:
+  0:00 Intro
+  3:10 Semantic Retrieval
+  3:38 Generative Synthesis
+  4:18 Demo of Semantic Retrieval
+  9:40 Demo of Generative Synthesis Part 1
+  15:10 Demo of Generative Synthesis Part 2
+  18:30 Outro
+
+  ,#emacs #ai #semanticsearch #software #programming</div>]]></description>
+      <pubDate>Wed, 03 Jun 2026 03:00:27 +0000</pubDate><category>completion</category>
+<category>suggestion</category>
+    </item>
+    <item>
+      <title>самый хайповый гайд на Emacs</title>
+      <link>https://www.youtube.com/watch?v=omoGBS3rzEw</link>
+      <guid>https://www.youtube.com/watch?v=omoGBS3rzEw</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=omoGBS3rzEw">youtube</a><br><br></div>]]></description>
+      <pubDate>Tue, 02 Jun 2026 21:27:41 +0000</pubDate>
+    </item>
+    <item>
+      <title>How to Install Emacs on a Chromebook in 2026</title>
+      <link>https://www.youtube.com/watch?v=diPparUrHGw</link>
+      <guid>https://www.youtube.com/watch?v=diPparUrHGw</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=diPparUrHGw">youtube</a><br><br>In this video, I show you how to install Emacs on a Chromebook in 2026. The first step I go through is how to enable the Linux development environment with Crostini through your settings. After that, I show you how to update the Linux development environment with the commands:
+
+  sudo apt update && sudo apt upgrade -y
+
+  Once the Linux development environment is updated I show you how to install Emacs with the command:
+
+  sudo apt install emacs
+
+  And how, if you don't add the -y, you will be prompted if you want to use the extra space. Finally, I show you how to pin the Emacs Gui to your taskbar so you can easily open Emacs everyday you use it.</div>]]></description>
+      <pubDate>Mon, 01 Jun 2026 22:49:08 +0000</pubDate>
+    </item>
+    <item>
       <title>I Replaced Obsidian with Doom Emacs &amp; Org Mode</title>
       <link>https://www.youtube.com/watch?v=uaHyR8sAn90</link>
       <guid>https://www.youtube.com/watch?v=uaHyR8sAn90</guid>
@@ -773,249 +1047,6 @@
 
   Find all my publications on my website (including links to all my Emacs work, but also philosophy, poems, and more): https://protesilaos.com</div>]]></description>
       <pubDate>Sat, 02 May 2026 19:30:56 +0000</pubDate><category>export</category>
-    </item>
-    <item>
-      <title>mon workflow emacs</title>
-      <link>https://www.youtube.com/watch?v=94jFimnlvNM</link>
-      <guid>https://www.youtube.com/watch?v=94jFimnlvNM</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=94jFimnlvNM">youtube</a><br><br>sorry for bad audio. fixing it next time :)</div>]]></description>
-      <pubDate>Sat, 02 May 2026 12:52:58 +0000</pubDate><category>org</category>
-    </item>
-    <item>
-      <title>Configurando o Windows para Programar Jogos em C | Indie Game Dev</title>
-      <link>https://www.youtube.com/watch?v=wSKdspfOdSU</link>
-      <guid>https://www.youtube.com/watch?v=wSKdspfOdSU</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=wSKdspfOdSU">youtube</a><br><br>Aprenda a configurar seu Windows do zero para desenvolver jogos em C.
-  Você vai conhecer as ferramentas essenciais: prompt de comando, Visual Studio, MSVC como compilador e Emacs como editor de código.
-
-  Além disso, veja como estruturar o projeto, criar um script de build enxuto usando single compilation unit, escrever o ponto de entrada em C com WinMain e depurar com MSVC, tudo sem precisar de ferramentas complexas como CMake ou Make.
-
-  Canal Principal: https://www.youtube.com/@TiagoAguiar</div>]]></description>
-      <pubDate>Fri, 01 May 2026 21:45:06 +0000</pubDate><category>coding</category>
-    </item>
-    <item>
-      <title>YE24: Sacha and Prot Talk Emacs: Newbies and Starter Kits</title>
-      <link>https://www.youtube.com/watch?v=z7pcLdwuyxE</link>
-      <guid>https://www.youtube.com/watch?v=z7pcLdwuyxE</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=z7pcLdwuyxE">youtube</a><br><br>Notes: https://sachachua.com/blog/2026/04/yay-emacs-sacha-and-prot-talk-emacs-newbies-starter-kits/
-  Prot's recommended settings: https://protesilaos.com/codelog/2026-04-30-emacs-decent-default-sacha-chua/
-
-  I chat with Protesilaos (@protesilaos , https://protesilaos.com ) about Emacs newbies and starter kits.
-
-  00:00 Warming up
-  02:38 C-g is supposed to get you out of everything, but it doesn't work for the minibuffer
-  03:14 Anything related to display-buffer is hard for people to configure. Many windows do not focus by default. You have to switch to the other window to q.
-  04:32 Good defaults
-  04:37 How do I set my fonts? Which is the one I should be using?
-  05:16 ediff is unusable by default for everyone, not just newcomers
-  05:54 Packages to install
-  06:30 People muddle through, but it's confusing
-  08:21 The wiki might be a good approach for the community. Start here.
-  09:35 The direction of the newcomers theme is nice
-  10:51 Themes versus minor modes
-  12:20 People think of themes as styles, not arbitrary customizations
-  13:57 Listing changes for newcomers-presets
-  16:13 Terminology is also a challenge
-  16:54 Maybe documentation aliases?
-  17:57 Learning Emacs as a nonprogrammer
-  19:31 Emacs Lisp Elements
-  20:30 Getting the hang of Emacs
-  22:31 Getting help when you have a starter kit
-  24:29 Customize is overwhelming for beginners
-  27:55 debug-init
-  29:11 Getting help: partially bridged by LLMs?
-  31:03 Things people don't even know about
-  32:44 Filling in the blanks
-  33:39 .emacs
-  37:04 Discovery and the info manual
-  38:36 Address your immediate need; small steps
-  41:46 :config and setq is nicer than :custom for C-x C-e purposes (eval-last-sexp)
-  45:31 Culture of documentation and sharing
-  47:12 Link to a search
-  49:49 Getting through the gap between beginner tutorials and the next step
-  51:13 Predictability
-  51:52 Brief mention of Popper
-  52:28 Earlier is better than later for Emacs Lisp. Take it as is.
-  55:19 Before and after comparisons
-  56:07 user-init-directory
-  57:21 Emacs core
-  59:04 Getting past the initial awkward phase
-  59:36 Even reporting an issue is a great contribution
-  1:00:45 Next steps: adding to the wiki
-  1:02:39 Core longevity
-
-  The Emacs Carnival theme for April 2026 is newbies/starter kits https://www.emacswiki.org/emacs/CarnivalApril2026. I'd like to chat with Prot about not only helping people get into Emacs but also supporting lifelong learning.
-
-  Prot had some notes on how he started with Emacs in 2019 in All about switching to Emacs (video blog) | Protesilaos https://protesilaos.com/codelog/2019-12-20-vlog-switch-emacs/. These notes were just a few months after he started, so his experience was pretty fresh.
-
-  In Computing in freedom with GNU Emacs | Protesilaos https://protesilaos.com/codelog/2026-03-13-computing-in-freedom-with-gnu-emacs/ (2026), he said:
-
-        Remember that I started using Emacs without a background in programming. ... I learnt the basics within a few days. I started writing my own Emacs Lisp within weeks. And within a year I had my modus-themes moved into core Emacs.
-
-  Prot has several projects that might be of interest to many newcomers to Emacs:
-
-  - modus-themes https://protesilaos.com/emacs/modus-themes, which are part of Emacs core and are therefore just a `M-x load-theme' away
-  - Emacs Lisp Elements https://protesilaos.com/emacs/emacs-lisp-elements, a book that helps people learn Emacs Lisp
-      - Where does this fit into people's learning journeys? How can they come across it and use it?
-  - perhaps Denote https://protesilaos.com/emacs/denote
-      - What would it take for people to learn enough to be able to use this?
-
-  He also offers Emacs coaching https://protesilaos.com/coach/. I wonder if any newbies have taken advantage of that. There are a few other coaches https://www.emacswiki.org/emacs/EmacsCoaching listed on the EmacsWiki. (Ooh, Emacs buddy, that was neat.)</div>]]></description>
-      <pubDate>Fri, 01 May 2026 03:34:27 +0000</pubDate><category>community</category>
-<category>configuration</category>
-    </item>
-    <item>
-      <title>YE23: Explore Emacs starter kits and other resources</title>
-      <link>https://www.youtube.com/watch?v=xZWFh2nXxFk</link>
-      <guid>https://www.youtube.com/watch?v=xZWFh2nXxFk</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=xZWFh2nXxFk">youtube</a><br><br>2026-04-29 Wed 10:30--2026-04-29 Wed 11:30
-
-
-
-  Part 1: https://youtube.com/live/K4SAQag6KXc
-
-  The https://www.emacswiki.org/emacs/CarnivalApril2026 theme of newbies/starter kits made me realize that I don't actually know much about Emacs starter kits, so it's time to explore. I also want to continue working on https://www.emacswiki.org/emacs/EmacsNewbie and related pages.</div>]]></description>
-      <pubDate>Thu, 30 Apr 2026 03:46:15 +0000</pubDate><category>community</category>
-<category>configuration</category>
-    </item>
-    <item>
-      <title>Kent Pitman and Ramin Honary join on #commonLisp #lisp #IDE #emacs #schemacs #UX  #lispyGopherClimate</title>
-      <link>https://toobnix.org/w/eCCvKBZvuwkXj244ojjzTU</link>
-      <guid>https://toobnix.org/w/eCCvKBZvuwkXj244ojjzTU</guid>
-      <description><![CDATA[<div id="content"><a href="https://toobnix.org/w/eCCvKBZvuwkXj244ojjzTU">peertube</a><br><br>Kent's thread on c. 1980 TECO emacs: https://climatejustice.social/@kentpitman/116484262128356625 Kent: https://nhplace.com/kent/ https://en.wikipedia.org/wiki/Kent_Pitman Writing: https://netsettl...</div>]]></description>
-      <pubDate>Wed, 29 Apr 2026 01:13:59 +0000</pubDate><category>community</category>
-    </item>
-    <item>
-      <title>Emacs config</title>
-      <link>https://www.youtube.com/watch?v=MHxRvAKnlCo</link>
-      <guid>https://www.youtube.com/watch?v=MHxRvAKnlCo</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=MHxRvAKnlCo">youtube</a><br><br>Just an short emacs preview of the configuration file</div>]]></description>
-      <pubDate>Tue, 28 Apr 2026 19:31:34 +0000</pubDate>
-    </item>
-    <item>
-      <title>VOMPECCC from Scratch: Picking Fruits and Veggies with ICR</title>
-      <link>https://www.youtube.com/watch?v=0NeQ6xgRGkA</link>
-      <guid>https://www.youtube.com/watch?v=0NeQ6xgRGkA</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=0NeQ6xgRGkA">youtube</a><br><br>A video demonstration of building a trivial produce picker with the VOMPECCC framework in emacs.</div>]]></description>
-      <pubDate>Tue, 28 Apr 2026 12:26:45 +0000</pubDate><category>completion</category>
-    </item>
-    <item>
-      <title>Emacs: ses-mode (Simple Emacs Spreadsheet)</title>
-      <link>https://www.youtube.com/watch?v=ObK3HDOdFoM</link>
-      <guid>https://www.youtube.com/watch?v=ObK3HDOdFoM</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=ObK3HDOdFoM">youtube</a><br><br>Make small spreadsheets within emacs.</div>]]></description>
-      <pubDate>Fri, 24 Apr 2026 16:21:06 +0000</pubDate><category>ses</category>
-<category>math</category>
-    </item>
-    <item>
-      <title>Sam Aaron uses #emacs !</title>
-      <link>https://www.youtube.com/watch?v=vELpmgs3efc</link>
-      <guid>https://www.youtube.com/watch?v=vELpmgs3efc</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=vELpmgs3efc">youtube</a><br><br></div>]]></description>
-      <pubDate>Fri, 24 Apr 2026 16:01:30 +0000</pubDate><category>music</category>
-<category>community</category>
-    </item>
-    <item>
-      <title>(emacs) org mode - your life in plain text</title>
-      <link>https://www.youtube.com/watch?v=figa38Mg-eY</link>
-      <guid>https://www.youtube.com/watch?v=figa38Mg-eY</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=figa38Mg-eY">youtube</a><br><br>Der Weg zu einem einfachen Leben mit reinem Text, der strukturiert interpretiert für Projektplanung, Zeitmanagement, Aufgabenlisten, Tabellenkalkulation, Programmierung, Briefe, Einkaufslisten, wissenschaftliche Hausarbeiten, Gedichte und Webseiten genutzt wird. PDF-Export u.a. inklusive. Wegbegleiter ist emacs org mode, dem Textwerkzeug, das Textarbeit und viel viel mehr unterstützt.
-  ____________________________
-  👨‍🎓  Referent: Alexander-Lars Dallmann (Hochschulrechenzentrum (HRZ))
-  ____________________________
-  Links:
-  ➡️ https://orgmode.org/
-  ➡️ https://www.gnu.org/software/emacs/
-  ➡️ https://web.mit.edu/nelhage/Public/the-craft-of-text-editing.pdf
-  ____________________________
-  ▶️ Inhalt:
-  00:00 Intro
-  00:44 plain text
-  02:23 emacs
-  03:20 org mode
-  03:50 org Projektplanung
-  05:00 org Tabellen
-  05:51 org - Programmquelltexte
-  06:22 org - Exportformate
-  07:30 plain text in your workflow
-  08:36 Lesehinweise
-  09:36 Abschluss</div>]]></description>
-      <pubDate>Fri, 24 Apr 2026 10:33:16 +0000</pubDate><category>org</category>
-    </item>
-    <item>
-      <title>Emacs: maintaining Denote, TMR, and more</title>
-      <link>https://www.youtube.com/watch?v=5OSn7udx9LA</link>
-      <guid>https://www.youtube.com/watch?v=5OSn7udx9LA</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=5OSn7udx9LA">youtube</a><br><br>This is a spontaneous live stream. I will continue maintaining my packages. My plan is to start with Denote and then move to TMR. Depending on how I do, I will check some of my other packages as well.
-
-  * * *
-
-  Find all my publications on my website (Emacs, philosophy, etc.): https://protesilaos.com
-
-  All my Emacs-related work: https://protesilaos.com/emacs.</div>]]></description>
-      <pubDate>Fri, 24 Apr 2026 09:58:53 +0000</pubDate><category>elisp</category>
-<category>livestream</category>
-    </item>
-    <item>
-      <title>YE21 April 22: Continuing to think about newbies / starter kits</title>
-      <link>https://www.youtube.com/watch?v=hRK59GQw-HE</link>
-      <guid>https://www.youtube.com/watch?v=hRK59GQw-HE</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=hRK59GQw-HE">youtube</a><br><br>Notes at https://sachachua.com/blog/2026/04/ye21-continuing-to-think-about-newbies-starter-kits/
-
-  I plan to continue thinking about the Emacs Carnival April 2026 theme of newbies / starter kits https://www.emacswiki.org/emacs/CarnivalApril2026. Here are my rough notes https://sachachua.com/blog/2026/04/ye20-emacs-carnival-newbies-starter-kits/ from my previous livestream https://youtube.com/live/Yht0N26EoF4 on the topic.
-
-  00:01 Starting up
-  03:23 Newbies and starter kits
-  05:55 Emacs News
-  07:14 Let's move the mailing list option up
-  07:51 An aside talking to Prot
-  09:52 Challenges: Isolation
-  10:45 Overwhelm
-  11:14 Balance of time
-  11:33 Unknowns
-  14:00 Post-its
-  14:21 Finding help
-  14:53 Testing BigBlueButton
-  17:02 Thinking about reviving Emacs Hangouts
-  17:48 Emacs News as a newbie
-  18:29 Aside: Jeff is looking into making VS Code plugins
-  18:57 Notes on making the most of Emacs News
-  20:50 RSS
-  23:42 newsticker
-  27:25 Stream delay
-  28:31 Reading news with newsticker
-  29:04 The usefulness of screenshots and videos
-  34:20 Back to Emacs News
-  35:00 Prerequisite knowledge for Elfeed
-  37:29 Other resources that people might find useful
-  40:56 Beginner map
-  42:44 emacs-news/index.org is 5.5 MB of plain text
-  43:55 consult-focus-lines
-  44:13 Organizing the links
-  45:02 Organizing screenshots and videos by package
-  45:49 Info pages
-  47:08 Remembering keybindings
-  48:40 The guided tour
-  50:07 Recap
-  53:12 newcomers-presets
-  57:52 Wrapping up
-  58:19 Remembering keybindings
-  59:13 Picking Prot's brain next week about the newcomer experience</div>]]></description>
-      <pubDate>Fri, 24 Apr 2026 03:35:40 +0000</pubDate><category>community</category>
-    </item>
-    <item>
-      <title>Spacemacs | Jouer musique, enregistrements | Productivité</title>
-      <link>https://www.youtube.com/watch?v=7glpGrwFKPg</link>
-      <guid>https://www.youtube.com/watch?v=7glpGrwFKPg</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=7glpGrwFKPg">youtube</a><br><br>Codeberg: https://codeberg.org/ericnantel/spacemacs-config
-
-  Que ce soit pour le travail, l'école ou la maison, vous pouvez facilement écouter du son à l'intérieur d'Emacs tout en étudiant ou retranscrivant vos enregistrements en notes Org.
-
-  * Important: Installer VLC sur votre machine.
-
-  ,#productivity #focus #success #study #motivation #ergonomy #emacs #spacemacs</div>]]></description>
-      <pubDate>Thu, 23 Apr 2026 14:21:36 +0000</pubDate><category>multimedia</category>
-<category>mpc</category>
     </item>
   </channel>
 </rss>
