@@ -4,6 +4,373 @@
 #+COMMENT: [[shell:npm run build; git commit -m "update" -a; git push][Update]]
 
 
+* [CLIP] Learning Vanilla Emacs from Scratch with Prot as a Neovim User  :beginner:
+:PROPERTIES:
+:DATE:     2026-07-06T06:24:49-07:00
+:DURATION: 8:27
+:YOUTUBE_URL: https://www.youtube.com/watch?v=Yyu2UzuiGEU
+:SPEAKERS: linkarzu
+:END:
+  This is a clip of the full interview I did with Prot yesterday, the link to the full video is here:
+  https://youtu.be/btAOBkcLEkg
+
+  I've been trying to try Emacs for the past few days on livestreams, I installed it but not sure if I installed the right version, then I started with the emacs manual, didn't finish it and just learned the basic things. And all this time I've wondered: Should I go evil mode and doom emacs, or should I go the vanilla emacs way? Which packages should I install, should I use a starter kit, should I even try emacs to begin with?
+
+  So I reached out to Prot and he offered to do these sessions for free, I didn't accept his offering, so well pay him for 2 hours of his time every week and learn emacs.
+
+  -------------------------------------------
+  WHERE ARE THE REST OF THE VIDEOS IN THE SERIES?
+  For people that are confused and don't know what's going on, the edited video will be released in the podcast channel  @linkarzu-podcast  and it will be public and free for everyone
+
+  The rest of the videos for the coaching sessions will be in the  @linkarzu  channel in a playlist called "The Church of Prot"
+  -------------------------------------------
+
+  I wrote a bit more about it in a blogpost:
+  https://linkarzu.com/posts/emacs/prot-love-letter/
+
+  Prot responded in his blogpost:
+  https://protesilaos.com/codelog/2026-07-04-emacs-for-beginners-with-linkarzu/
+
+  If you want to learn more about Prot’s coaching sessions, you can visit this link:
+  https://protesilaos.com/coach/
+
+  Special thanks to Sacha Chua for being there guiding me in my livestreams and taking notes to make the process easier, she also created an article and reacted to one of my videos:
+  https://sachachua.com/blog/2026/07/re-react-to-sacha-and-prot-newbies-and-starter-kits-emacs-video-linkarzu/
+
+  Support me:
+  Buy me the Switch 2:
+  https://ko-fi.com/linkarzu
+
+  Join the YouTube Members:
+  https://www.youtube.com/channel/UCrSIvbFncPSlK6AdwE2QboA/join
+
+  My Merch Store:
+  https://merch.linkarzu.com
+
+  My Dotfiles:
+  https://github.com/linkarzu/dotfiles-latest
+
+  Follow me on X:
+  https://x.com/link_arzu
+
+* Learning Vanilla Emacs from Scratch with Prot as a Neovim User  :beginner:
+:PROPERTIES:
+:DATE:     2026-07-06T05:09:37-07:00
+:DURATION: 1:54:03
+:YOUTUBE_URL: https://www.youtube.com/watch?v=btAOBkcLEkg
+:SPEAKERS: linkarzu-podcast
+:END:
+  I've been trying to try Emacs for the past few days on livestreams, I installed it but not sure if I installed the right version, then I started with the emacs manual, didn't finish it and just learned the basic things. And all this time I've wondered: Should I go evil mode and doom emacs, or should I go the vanilla emacs way? Which packages should I install, should I use a starter kit, should I even try emacs to begin with?
+
+  So I reached out to Prot and he offered to do these sessions for free, I didn't accept his offering, so well pay him for 2 hours of his time every week and learn emacs.
+
+  -------------------------------------------
+  WHERE ARE THE REST OF THE VIDEOS IN THE SERIES?
+  For people that are confused and don't know what's going on, the edited video will be released in the podcast channel  @linkarzu-podcast  and it will be public and free for everyone
+
+  The rest of the videos for the coaching sessions will be in the  @linkarzu  channel in a playlist called "The Church of Prot"
+  -------------------------------------------
+
+  I wrote a bit more about it in a blogpost:
+  https://linkarzu.com/posts/emacs/prot-love-letter/
+
+  Prot responded in his blogpost:
+  https://protesilaos.com/codelog/2026-07-04-emacs-for-beginners-with-linkarzu/
+
+  If you want to learn more about Prot’s coaching sessions, you can visit this link:
+  https://protesilaos.com/coach/
+
+  Special thanks to Sacha Chua for being there guiding me in my livestreams and taking notes to make the process easier, she also created an article and reacted to one of my videos:
+  https://sachachua.com/blog/2026/07/re-react-to-sacha-and-prot-newbies-and-starter-kits-emacs-video-linkarzu/
+
+  Support me:
+  Buy me the Switch 2:
+  https://ko-fi.com/linkarzu
+
+  Join the YouTube Members:
+  https://www.youtube.com/channel/UCrSIvbFncPSlK6AdwE2QboA/join
+
+  My Merch Store:
+  https://merch.linkarzu.com
+
+  My Dotfiles:
+  https://github.com/linkarzu/dotfiles-latest
+
+  Follow me on X:
+  https://x.com/link_arzu
+
+  00:00:00 Highlights
+  00:02:25 What do you do for a living and what are the coaching sessions about?
+  00:07:06 How does it feel to work for yourself and not depend on a company?
+  00:09:46 Why cool hairstyles and looks every week?
+  00:11:17 Do you make significant money out of YouTube?
+  00:15:51 What is emacs-plus on macos?
+  00:16:50 What is the --with-native-comp install flag and is it needed?
+  00:17:58 How to install emacs as a macos user and why emacs 30?
+  00:19:52 Emacs --fg-daemon, what is it and why?
+  00:21:24 I deleted the .emacs.d directory and also created a symlink
+  00:25:25 Doom emacs, evil mode or vanilla emacs?
+  00:29:21 Why is Linkarzu trying emacs?
+  00:32:02 menu-bar scroll-bar visible-bell lexical-binding
+  00:34:52 How to disable the yellow annoying warning on Mac
+  00:39:30 Should I finish the emacs tutorial as a beginner?
+  00:42:17 Why do you use Home, PgDn, PgUp, End
+  00:45:35 macOS supports emacs keybindings by default
+  00:50:56 Why you use the arrows to navigate in emacs?
+  00:53:50 Install some packages, vertico, marginalia, orderless
+  01:04:58 What do you think of AI for learning emacs?
+  01:10:14 Install marginalia
+  01:14:40 M-x marginalia-mode to toggle marginalia
+  01:15:57 Modify savehist
+  01:18:15 What is orderless and how to install it
+  01:26:32 Thoughts on homerow mods, one shot modifiers
+  01:29:42 Bob gigalord kofi donation. What to talk in coaching sessions. Read superchats
+  01:33:37 Let's continue with orderless
+  01:36:40 custom-file, export some config to another file and read from it
+  01:44:24 How to select text in emacs and configure delsel
+  01:48:35 Homework for next week, emacs tutorial, create an org file
+  01:50:58 This first video will be in the podcast channel, the rest in the normal channel
+  01:53:16 We'll see you live next week.
+
+* How to Search For Text in Emacs  :beginner:navigation:isearch:
+:PROPERTIES:
+:DATE:     2026-07-05T07:00:27-07:00
+:DURATION: 1:45
+:YOUTUBE_URL: https://www.youtube.com/watch?v=JEcDDuYlfiM
+:SPEAKERS: Timothy Unkert
+:END:
+  In this video, I show you how to search for text in Emacs with I-search, using the command:
+
+  C-s
+
+* Emacs-LinkXall Hyperlinking In Program Source Files  :navigation:
+:PROPERTIES:
+:DATE:     2026-07-03T21:10:20-07:00
+:DURATION: 2:36
+:YOUTUBE_URL: https://www.youtube.com/watch?v=WO6NzhJmzZc
+:SPEAKERS: David McCracken
+:END:
+  This shows how LinkXall supports hyperlinking between text files in Emacs or LibreOffice and documents in LibreOffice. "LinkXall Automates Hyperlinking Of Personal and Professional Information" explains how to get LinkXall from GitHub
+
+* Browse GitHub repos directly from find-file dialog  :github:
+:PROPERTIES:
+:DATE:     2026-07-03T15:50:21-07:00
+:DURATION: 29:10
+:YOUTUBE_URL: https://www.youtube.com/watch?v=YV1kyVE6SvU
+:SPEAKERS: Emacs Propaganda
+:END:
+  Demo of "El Remoto" package as shown in Emacs ATX July 2026 meetup.
+
+  https://github.com/agzam/remoto.el
+
+  Complete meetup video is here: https://youtu.be/ZRoT-3yAMUQ
+
+* Seamless view/editing of markdown as org-mode  :OrgMode:
+:PROPERTIES:
+:DATE:     2026-07-03T15:31:45-07:00
+:DURATION: 18:51
+:YOUTUBE_URL: https://www.youtube.com/watch?v=RJqRwlVvB3E
+:SPEAKERS: Emacs Propaganda
+:END:
+  Demo of an experimental package "El Prisma" as shown in Emacs ATX July 2026 meetup.
+
+  https://github.com/agzam/prisma.el
+
+  Complete meetup video is here: https://youtu.be/ZRoT-3yAMUQ
+
+* Neovim user Reacts to Bashbunni's Doom Emacs Video  :DoomEmacs:
+:PROPERTIES:
+:DATE:     2026-07-02T11:00:07-07:00
+:DURATION: 22:54
+:YOUTUBE_URL: https://www.youtube.com/watch?v=s7FOH66QFU8
+:SPEAKERS: linkarzu
+:END:
+  I've been trying emacs for a few days on Livestream, but I'm more lost than ever, should I stick to Vanilla Emacs, or as a Neovim user should I just go with Evil Mode and Doom Emacs?
+  I want to try the defaults, but am I doing the wrong thing? Can this video help us a little bit as I think Bashbunni was a Neovim user in the past
+
+  Full livestream where this comes out of:
+  https://youtube.com/live/qX_0ZlGnRhI
+
+  Instructions to join the discord server
+  https://discord.gg/D7CZMzw3rM
+
+  Members:
+  If you want your message read out loud, include !say
+
+  Example:
+  !say I have a small pp
+
+  Donations of $10 or more on Ko-fi, preferred, or YouTube Super Chats will show up on screen and be read aloud by a computer voice.
+
+  Support me:
+  Buy me the Switch 2:
+  https://ko-fi.com/linkarzu
+
+  Join the YouTube Members (gives you access to the private discord server)
+  https://www.youtube.com/channel/UCrSIvbFncPSlK6AdwE2QboA/join
+
+  My Merch Store:
+  https://merch.linkarzu.com
+
+  My Dotfiles:
+  https://github.com/linkarzu/dotfiles-latest
+
+  Follow me on X:
+  https://x.com/link_arzu
+
+* 3 Neovim Users Talk About Emacs, Which One is Better?  :community:
+:PROPERTIES:
+:DATE:     2026-07-02T05:29:12-07:00
+:DURATION: 35:45
+:YOUTUBE_URL: https://www.youtube.com/watch?v=76DxSjrBOBg
+:SPEAKERS: linkarzu
+:END:
+  Had a livestream yesterday in which 2 Discord members joined me to share about their own workflow. Both of them are Neovim ex-users, 1 of them fully switched to Emacs. We talk about both Emacs and Neovim and why they prefer each
+
+  Full livestream where this comes out of:
+  https://youtube.com/live/qX_0ZlGnRhI
+
+  Instructions to join the discord server
+  https://discord.gg/D7CZMzw3rM
+
+  Members:
+  If you want your message read out loud, include !say
+
+  Example:
+  !say I have a small pp
+
+  Donations of $10 or more on Ko-fi, preferred, or YouTube Super Chats will show up on screen and be read aloud by a computer voice.
+
+  Support me:
+  Buy me the Switch 2:
+  https://ko-fi.com/linkarzu
+
+  Join the YouTube Members (gives you access to the private discord server)
+  https://www.youtube.com/channel/UCrSIvbFncPSlK6AdwE2QboA/join
+
+  My Merch Store:
+  https://merch.linkarzu.com
+
+  My Dotfiles:
+  https://github.com/linkarzu/dotfiles-latest
+
+  Follow me on X:
+  https://x.com/link_arzu
+* Emacs:  write with input method (e.g. French) and Jinx for spelling  :writing:jinx:
+:PROPERTIES:
+:DATE:     2026-07-02T00:58:54-07:00
+:DURATION: 11:49
+:YOUTUBE_URL: https://youtu.be/UjCbNOqUgTs
+:SPEAKERS: Protesilaos
+:END:
+  In this video I demonstrate how I use Emacs to write prose in French. I rely on the built-in framework for input methods to compose characters. I also use the Jinx package to do spell-checking. Here is the configuration I show in the video: https://protesilaos.com/codelog/2026-07-02-emacs-french-input-method-jinx-spell/
+
+* Emacs | God mode notes with denote and consult notes  :denote:GodMode:consult:
+:PROPERTIES:
+:DATE:     2026-06-30T18:01:56-07:00
+:DURATION: 15:03
+:YOUTUBE_URL: https://www.youtube.com/watch?v=_F8c5kLQT70
+:SPEAKERS: Chris Maiorana
+:END:
+  Consult notes is a package that hooks into your note-taking system. It works particularly well with Denote, picking up your notes directory variable automatically.
+
+  Blog post: https://chrismaiorana.com/god-mode-notes/
+
+  My interest in having a note system comes down to whether it helps my writing. A writer needs different kinds of notes: reading notes, notes on craft, notes on etymology, and random ideas.
+
+  Check out my books:
+  https://chrismaiorana.com/books/
+
+* Learning Emacs with The Professor from University of Victoria  :beginner:
+:PROPERTIES:
+:DATE:     2026-06-29T03:42:50-07:00
+:DURATION: 12:49
+:YOUTUBE_URL: https://youtu.be/xVmqPzYnqaw
+:SPEAKERS: linkarzu
+:END:
+  The professor sent me an email one day explaining how emacs is a way of life and I found it intriguing as it was well written and made sense. He seems to be an emacs enthusiast and also seems to be using macOS, so I want to know more about the way he uses his workflow.
+
+  So far all I know about the professor is that his name is Daniel, and this is his blogpost:
+  https://turingmachine.org
+
+  This video comes out of this livestream:
+  https://youtube.com/live/hsPHmIMURqw
+
+  I know, audio is not leveled but we had technical difficulties the day of the recording and not much I can or want to do about it at this point.
+
+  Monthly call with the YouTube members that have the "CEO" level in which we'll discuss several interesting topics.
+
+  This is transmitted live with everyone, so you can join and chat with us during the call
+
+  What is this podcast about, why, and where to find it?
+  https://linkarzu.com/about/#whats-the-linkarzu-ceos-monthly-hangout-podcast
+
+  If you're not a YouTube member yet, you can join here:
+  https://www.youtube.com/channel/UCrSIvbFncPSlK6AdwE2QboA/join
+
+* Doom Emacs: Why I Chose It Over Vim and Never Looked Back  :DoomEmacs:
+:PROPERTIES:
+:DATE:     2026-06-28T07:00:15-07:00
+:DURATION: 27:02
+:YOUTUBE_URL: https://youtube.com/watch?v=HnL77t4IsBY&is=cTej7C68MiOhu-Xk
+:SPEAKERS: bashbunni
+:END:
+  Some of you may know Emacs as the rival to Vim, and we know that Vim has been increasing popularity. However, I like to go against the grain, which means I pivoted to Doom Emacs a couple years back, and I haven't looked back. In this video, I’m diving deep into why Doom Emacs has become my go-to choice for coding and productivity. If you’re tired of your current setup or just curious about what Doom Emacs can offer, you’re in the right place!
+
+  Doom Emacs is not just another text editor; it’s a powerful framework that enhances the Emacs experience. With its keyboard-centric workflow, you can do everything from coding to managing tasks, all in one place. I’ll share my favourite packages, explore some underutilized features, and even show you how it integrates seamlessly with my Linux distro, Nix.
+
+  One of the standout features for me is org-mode, which has transformed how I manage tasks and notes. I’ll walk you through my simplistic workflow and how you can easily adopt it to boost your productivity. Plus, I’ll discuss the benefits of using open-source software and how Doom Emacs supports a variety of programming languages without the hassle of extensive customization.
+
+  If you’ve ever felt overwhelmed by the complexity of Emacs, don’t worry! I’ll explain how Doom Emacs simplifies the experience while still allowing for customization. You’ll learn how to become a power user without spending hours reading documentation. And for those of you who have experience with Vim, you’ll be pleased to know that your skills transfer over seamlessly with Doom Emacs’s evil mode.
+
+  Join me as I explore the incredible capabilities of Doom Emacs, from its intuitive key bindings to its stability and performance. Whether you’re a seasoned developer or just starting out, this video will provide valuable insights into how you can enhance your coding experience. Don’t forget to like and subscribe for more content on Emacs and coding productivity!
+
+  ⟡˖ Links
+  https://magit.vc/
+  https://pandoc.org/
+  https://www.reddit.com/r/emacs/comments/1gybfgm/why_use_magit/
+  emacs overlay - https://github.com/bashbunni/dotfiles/blob/main/configuration.nix#L147-L151
+  another great video about org mode - https://youtu.be/0-brF21ShRk
+
+  ⟡˖ My other corners of the Internet:
+  https://twitch.tv/bashbunni
+  https://github.com/bashbunni
+  https://discord.com/invite/Y3vbKS4K9j (come hang!)
+  https://mastodon.social/@bashbunni
+  https://twitter.com/sudobunni
+  https://bsky.app/profile/bashbunni.dev
+
+  Chapters:
+  00:00:00 - From Vim to Doom Emacs
+  00:00:33 - Emacs: More than a Text Editor
+  00:01:17 - The Jump to Org-mode
+  00:01:57 - Vim Keybindings in Emacs
+  00:02:35 - Productivity Out of the Box
+  00:03:53 - Prioritizing Stability
+  00:05:05 - Framework vs. Custom Configuration
+  00:06:08 - Managing Packages with Nix Overlays
+  00:07:26 - Magit: Visibility and Control
+  00:09:40 - Local PR Reviews with Magit
+  00:11:43 - Magit vs. Traditional Git GUIs
+  00:15:56 - Interactive Rebasing & Discoverability
+  00:17:55 - Vterm & Bookmark Workflows
+  00:18:51 - Exporting Org-mode to Any Format
+  00:22:02 - Effortless Task Management
+  00:24:06 - Personal Monthly Workflow
+  00:25:29 - Future Exploration & Outro
+
+  Let’s get started and unlock the full potential of Doom Emacs together!
+  What if you used emacs?
+  Yet another emacs video
+  something about emacs
+  my hands never leave the keyboard
+  meet your doom (emacs)
+  Are You Making a Mistake by Not Using Doom Emacs?
+  Unlock Your Coding Potential with Doom Emacs
+  Doom Emacs: Why I Chose It Over Vim and Never Looked Back
+
+  ,#bashbunni #programming #linux #emacs
+
 * Xah Talk Show Ep796. emacs lisp. add width height to image thumbnails html. part 3  :elisp:
 :PROPERTIES:
 :DATE:     2026-06-22T11:36:12-07:00
