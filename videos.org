@@ -2217,18 +2217,6 @@
 
   ,#productivity #focus #success #study #motivation #ergonomy #emacs #spacemacs
 
-* Emacs Configuration: Writing my own Theme Switcher  :elisp:theme:
-:PROPERTIES:
-:DATE:     2026-04-23T00:30:00-07:00
-:DURATION: 15:33
-:YOUTUBE_URL: https://www.youtube.com/watch?v=oMOBeelAgvo
-:SPEAKERS: lisperp
-:END:
-  Title Idea: Create Your Own Custom Theme Switcher in Emacs | Elisp Tutorial
-
-  Description:
-  Emacs default themes se bor ho gaye ho? Is video mein hum seekhenge ki kaise apna khud ka Theme Switcher program likhte hain using Emacs Lisp (Elisp).
-
 * YE20: Emacs Carnival: newbies / starter kits  :community:
 :PROPERTIES:
 :DATE:     2026-04-22T19:29:53-07:00
@@ -3900,25 +3888,6 @@
   https://github.com/captainflasmr/ollama-buddy
 
   ,#emacs #ollama
-* Run LLM Scripts in Emacs (No Packages) #llm #ai #claudecode  :ai:llm:
-:PROPERTIES:
-:DATE:     2026-02-22T23:09:38-08:00
-:DURATION: 4:21
-:YOUTUBE_URL: https://www.youtube.com/watch?v=sdZ2by9ecBM
-:SPEAKERS: Emacs Elements
-:END:
-  A simple way of using the power of llms inside Emacs without the need for any packages or elisp.
-
-  https://github.com/emacselements/llm-emacs
-
-  If you like my content, you can support me
-  by sending me a donation via PayPal:
-
-  https://paypal.me/revrari
-
-  https://github.com/emacselements
-  https://emacselements.com/
-
 * Xah Talk Show Ep765. emacs lisp coding. command to delete emacs backup. :elisp:
 :PROPERTIES:
 :DATE:     2026-02-22T10:08:40-08:00
@@ -4193,81 +4162,6 @@
   https://github.com/captainflasmr/ollama-buddy
 
   ,#emacs #ollama
-* Behebung von org-babel Shell-Bindungsproblemen in Emacs: Eine Anleitung zur Festlegung Ihrer bevorz
-:PROPERTIES:
-:DATE:     2026-02-11T04:32:01-08:00
-:DURATION: 1:50
-:YOUTUBE_URL: https://www.youtube.com/watch?v=OZTodhXqISw
-:SPEAKERS: vlogize
-:END:
-  Erfahren Sie, wie Sie `org-babel` in Emacs so konfigurieren, dass es Ihre bevorzugte Shell verwendet – selbst bei Bindungsproblemen mit `fish`.
-  ---
-  Dieses Video basiert auf der Frage https://stackoverflow.com/q/62357964/ gestellt von dem Nutzer 'heyarne' ( https://stackoverflow.com/u/2345852/ ) sowie auf der Antwort https://stackoverflow.com/a/62359314/ bereitgestellt von dem Nutzer 'phils' ( https://stackoverflow.com/u/324105/ ) auf der Website 'Stack Overflow'. Vielen Dank an diese großartigen Nutzer und die Stackexchange-Community für ihre Beiträge.
-
-  Besuchen Sie diese Links, um den Originalinhalt und weitere Details zu sehen, z. B. alternative Lösungen, aktuelle Entwicklungen zum Thema, Kommentare, Versionsverlauf usw. Der ursprüngliche Titel der Frage lautete beispielsweise: org-babel shell always binds to "fish"
-
-  Außerdem steht der Inhalt (außer Musik) unter der Lizenz CC BY-SA https://meta.stackexchange.com/help/licensing
-  Der ursprüngliche Fragenbeitrag steht unter der Lizenz 'CC BY-SA 4.0' ( https://creativecommons.org/licenses/by-sa/4.0/ ), und der ursprüngliche Antwortbeitrag steht unter der Lizenz 'CC BY-SA 4.0' ( https://creativecommons.org/licenses/by-sa/4.0/ ).
-
-  Falls Ihnen irgendetwas auffällt oder Unstimmigkeiten bestehen, schreiben Sie mir bitte an vlogize [AT] gmail [DOT] com.
-  ---
-  Behebung von org-babel Shell-Bindungsproblemen in Emacs: Eine Anleitung zur Festlegung Ihrer bevorzugten Shell
-
-  Wenn Sie ein Emacs-Nutzer sind, der die elegante und funktionsreiche fish-Shell liebt, sind Sie vielleicht schon einmal auf ein frustrierendes Problem gestoßen, wenn Sie org-babel in org-mode verwenden. Trotz Ihrer Versuche, Shell-Blöcke mit anderen Shells wie sh oder bash auszuführen, erhalten Sie immer wieder Ergebnisse von fish. Das führt zu Verwirrung und erschwert es Ihnen, Ihren Code effektiv auszuführen. Keine Sorge! In diesem Blogpost werden wir dieses Problem untersuchen und Ihnen zeigen, wie Sie Ihre gewünschte Shell für org-babel in Emacs korrekt einstellen.
-
-  Das Problem verstehen
-
-  Das unerwartete Verhalten
-
-  Wenn Sie die folgenden Code-Snippets in org-mode ausführen:
-
-  [[Siehe Video, um diesen Text oder Codeausschnitt anzuzeigen]]
-
-  Stellen Sie fest, dass trotz der Angabe verschiedener Shells wie sh und bash die Ausgabe immer /usr/bin/fish lautet. Diese Inkonsistenz kann verwirrend sein, besonders wenn Sie erwarten, dass Shell-Befehle in Ihrer bevorzugten Umgebung ausgeführt werden.
-
-  Untersuchung von org-babel-shell-names
-
-  Vielleicht haben Sie bereits überprüft, dass Ihre org-babel-shell-names-Liste mehrere Shells enthält:
-
-  [[Siehe Video, um diesen Text oder Codeausschnitt anzuzeigen]]
-
-  Sie erleben jedoch weiterhin das Problem, dass Emacs standardmäßig fish verwendet, unabhängig von der angegebenen Shell. Dies wirft die Frage auf: Gibt es eine Möglichkeit, org-babel global so umzuleiten, dass es bash verwendet?
-
-  Die Lösung: Das Verständnis der $SHELL-Variable
-
-  Der entscheidende Hinweis
-
-  Um dieses Problem effektiv zu debuggen, ist es wichtig zu wissen, dass die Umgebungsvariable $SHELL nicht unbedingt die Shell widerspiegelt, die gerade aktiv Befehle ausführt. Ein genauerer Ansatz besteht darin, $0 zu prüfen oder shell-spezifische Befehle zu verwenden.
-
-  Was sollten Sie stattdessen tun?
-
-  Hier sind einige Schritte, die Sie befolgen können, um das Problem zu diagnostizieren und zu beheben:
-
-  Prüfen Sie $0 direkt:
-  Anstatt sich auf $SHELL zu verlassen, führen Sie aus:
-
-  [[Siehe Video, um diesen Text oder Codeausschnitt anzuzeigen]]
-
-  Damit erhalten Sie die tatsächliche Shell, die den Befehl ausführt.
-
-  Verwenden Sie eingebaute Shell-Befehle:
-  Sie können auch Befehle ausführen, die spezifisch für bash sind, um zu prüfen, ob sie die erwartete Ausgabe liefern. Zum Beispiel:
-
-  [[Siehe Video, um diesen Text oder Codeausschnitt anzuzeigen]]
-
-  Wenn Sie sich in bash befinden, sollte die Ausgabe Hilfeinformationen für bash zurückgeben.
-
-  Setzen Sie die Standard-Shell global:
-  Wenn Sie bash als Standard für alle org-babel-Sitzungen erzwingen möchten, konfigurieren Sie:
-
-  [[Siehe Video, um diesen Text oder Codeausschnitt anzuzeigen]]
-
-  Fazit
-
-  Zusammenfassend gilt: Wenn Sie feststellen, dass Ihre org-babel Shell-Blöcke immer fish verwenden, obwohl Sie eine andere Shell bevorzugen, ist es entscheidend, genau zu prüfen, wie Sie die Shell-Variablen auslesen. Überprüfen Sie immer $0 statt $SHELL, um eine klare Abbildung Ihrer aktuellen Shell-Umgebung zu erhalten. Zögern Sie außerdem nicht, Ihre org-babel-shell-names entsprechend anzupassen, um Ihre Präferenzen zu priorisieren. Wenn Sie diese Schritte befolgen, steht einer reibungslosen und effizienten Arbeit mit org-mode nichts mehr im Weg!
-
-  Mit dem Wissen um diese Debugging-Techniken und Konfigurationen können Sie Ihr Emacs-Erlebnis genau auf Ihre Programmierbedürfnisse zuschneiden – egal, ob Sie fish, bash oder eine andere Shell bevorzugen!
-
 * Hacking on Emacs #6: Allow linking the current Magit commit buffer using git-link, pt2 :magit:GitLink:
 :PROPERTIES:
 :DATE:     2026-02-11T02:35:49-08:00
@@ -4280,23 +4174,6 @@
   ► GitHub: https://github.com/FrostyX
   ► Blog: https://frostyx.cz
   ► Mastodon: https://fosstodon.org/@FrostyX
-
-* Insert Special Characters into Emacs
-:PROPERTIES:
-:DATE:     2026-02-09T00:44:23-08:00
-:DURATION: 2:21
-:YOUTUBE_URL: https://www.youtube.com/watch?v=OSCtS4sspPM
-:SPEAKERS: Emacs Elements
-:END:
-  How to insert special characters like accents and EM DASHES into Emacs.
-
-  If you like my content, you can support me
-  by sending me a donation via PayPal:
-
-  https://paypal.me/revrari
-
-  https://github.com/emacselements
-  https://emacselements.com/
 
 * Lightning Talk: Common Lisp packages in Emacs Lisp  :elisp:
 :PROPERTIES:
@@ -4357,39 +4234,6 @@
 :END:
   In this video I discuss my theory behind creating a declarative, reproducible Emacs configuration. What does it mean, why should we do it, and what tools do we have? I finish with a brief tour of a simple configuration. For full technical details, see the blogpost: https://jakebox.github.io/posts/2026-02-05-declarative_reproducible.html
 
-* Two Neat Emacs Packages: Bufferfile and Stripspace #rename #whitespace  :bufferfile:stripspace:
-:PROPERTIES:
-:DATE:     2026-02-04T04:34:38-08:00
-:DURATION: 2:53
-:YOUTUBE_URL: https://www.youtube.com/watch?v=8I8ywyX-03E
-:SPEAKERS: Emacs Elements
-:END:
-  https://github.com/jamescherti
-
-  https://github.com/emacselements
-  https://emacselements.com/
-
-  If you like my content, you can support me
-  by sending me a donation via PayPal:
-
-  https://paypal.me/revrari
-* Symlinks and Hardlinks in Linux and Emacs  :dired:
-:PROPERTIES:
-:DATE:     2026-02-04T04:01:04-08:00
-:DURATION: 3:37
-:YOUTUBE_URL: https://www.youtube.com/watch?v=aJOq9F-vJMc
-:SPEAKERS: Emacs Elements
-:END:
-  How to create symlinks and hardlinks in Linux and Emacs.
-
-  https://github.com/emacselements
-  https://emacselements.com/
-
-  If you like my content, you can support me
-  by sending me a donation via PayPal:
-
-  https://paypal.me/revrari
-
 * [17] Emacs Reader:  Cursors, PALE, Canvas API and More! - 2/2/2026, 2:33:39 PM
 :PROPERTIES:
 :DATE:     2026-02-02T15:46:08.426Z
@@ -4427,29 +4271,6 @@
   - Music: https://www.epidemicsound.com/referral/blhmqa/
   - Streaming with: https://www.ecamm.com/mac/ecammlive/?fp_ref=curtis42
 
-* Recursion and Quitting in Emacs  :RecursiveEditing:
-:PROPERTIES:
-:DATE:     2026-02-01T14:00:37-08:00
-:DURATION: 7:05
-:YOUTUBE_URL: https://www.youtube.com/watch?v=WgNfGHAJsUQ
-:SPEAKERS: Emacs Elements
-:END:
-  https://github.com/emacselements
-  https://emacselements.com/
-
-* Use Batch Mode to Test Your Dot Emacs File
-:PROPERTIES:
-:DATE:     2026-01-28T14:01:02-08:00
-:DURATION: 2:35
-:YOUTUBE_URL: https://www.youtube.com/watch?v=qZqUmqqatKs
-:SPEAKERS: Emacs Elements
-:END:
-  Batch mode is a lesser known mode that can be used to test one's init.el
-  emacs -batch -l ~/.emacs.d/init.el
-
-  https://github.com/emacselements
-  https://emacselements.com/
-
 * 023 Ollama Buddy - Accessing cloud models! #emacs #ollama  :ai:ollama:
 :PROPERTIES:
 :DATE:     2026-01-28T00:24:50-08:00
@@ -4478,17 +4299,6 @@
 
   ,#emacs #ollama
 
-* Sorting Lines by Fields in Emacs  :sorting:
-:PROPERTIES:
-:DATE:     2026-01-27T19:04:14-08:00
-:DURATION: 2:57
-:YOUTUBE_URL: https://www.youtube.com/watch?v=rSom7XjUa-o
-:SPEAKERS: Emacs Elements
-:END:
-  How to sort lines by fields in Emacs.
-
-  https://github.com/emacselements
-  https://emacselements.com/
 * ECA: AI pair programming in your editor - Dallo  :ai:eca:
 :PROPERTIES:
 :DATE:     2026-01-27T07:51:37-08:00
@@ -4610,21 +4420,6 @@
   26:05 - The config in Emacs for gptel + mcp.el
   27:00 - Try it!  Enjoy!
 
-* Three important distinctions in Emacs: mini buffer and echo, mark and point, window and frame :navigation:
-:PROPERTIES:
-:DATE:     2026-01-21T09:42:50-08:00
-:DURATION: 4:35
-:YOUTUBE_URL: https://www.youtube.com/watch?v=FR3e8e_jv_E
-:SPEAKERS: Emacs Elements
-:END:
-  In this video, I examine three distinctions that often confuse newcomers: the minibuffer versus the echo area, point versus mark, and frames versus windows. By clarifying how these pairs differ conceptually, even when they share the same screen space, the video aims to deepen your understanding of how Emacs thinks about interaction, position, and layout.
-
-  https://github.com/emacselements
-  https://emacselements.com/
-
-  If you like my content, you can support me by sending a donation via PayPal:
-  https://paypal.me/revrari
-
 * Master Emacs Dired Mode in 15 Minutes  :dired:
 :PROPERTIES:
 :DATE:     2026-01-20T17:56:31-08:00
@@ -4737,16 +4532,6 @@
   My strategy for time tracking with Emacs Org mode and denote-journal
   Post on website: https://bardman.dev/technology/time-tracking
 
-* Hide unwanted files and folders in Emacs  :dired:
-:PROPERTIES:
-:DATE:     2026-01-18T14:00:44-08:00
-:DURATION: 3:45
-:YOUTUBE_URL: https://www.youtube.com/watch?v=h2FoWaf4SVc
-:SPEAKERS: Emacs Elements
-:END:
-  https://github.com/emacselements
-  https://emacselements.com/
-
 * Hacking on Emacs #5  :magit:GitLink:git:
 :PROPERTIES:
 :DATE:     2026-01-18T08:59:24-08:00
@@ -4768,16 +4553,6 @@
 :SPEAKERS: GNU Emacs for Success
 :END:
   Video shows example on how to create ComfyUI pictures from Emacs. What does it mean? I can capture imaginary images into Org, or Dynamic Knowledge Repository or use them in many ways.
-
-* How to get Emacs to look like the Pulsar Editor  :appearance:
-:PROPERTIES:
-:DATE:     2026-01-17T05:44:51-08:00
-:DURATION: 2:12
-:YOUTUBE_URL: https://www.youtube.com/watch?v=Dn77mTpH7sc
-:SPEAKERS: Emacs Elements
-:END:
-  https://github.com/emacselements
-  https://emacselements.com/
 
 * Open Jive Friday Night | More git foolishness in Emacs  :git:modeline:
 :PROPERTIES:
@@ -4876,26 +4651,6 @@
 :END:
   This is the short video because everybody has shit attention span due to tiktok nowadays
 
-* How to insert pairs without fancy packages in Emacs
-:PROPERTIES:
-:DATE:     2026-01-09T08:33:33-08:00
-:DURATION: 3:49
-:YOUTUBE_URL: https://www.youtube.com/watch?v=Qmid2WtICrk
-:SPEAKERS: Emacs Elements
-:END:
-  (defun my-kill-ring-save-keep-selection ()
-    (interactive)
-    (when (use-region-p)
-      (let ((beg (region-beginning))
-            (end (region-end)))
-        (kill-ring-save beg end)
-        (setq deactivate-mark nil))))
-
-  (global-set-key (kbd "M-w") 'my-kill-ring-save-keep-selection)
-
-  https://github.com/emacselements
-  https://emacselements.com/
-
 * Complete Build: Emacs From Source, Reproducible Builds in Docker, WSL, and macOS  :build:
 :PROPERTIES:
 :DATE:     2026-01-08T15:06:46-08:00
@@ -4980,50 +4735,6 @@
 :END:
   It's fairly common these days to organize an event or meeting with attendees around world, so we'll show a couple of ways to check times here and there.
 
-* Create Directories in Emacs Dired (Tips)  :dired:
-:PROPERTIES:
-:DATE:     2026-01-06T06:15:24-08:00
-:DURATION: 1:25
-:YOUTUBE_URL: https://www.youtube.com/watch?v=_49ZR9hU1js
-:SPEAKERS: Emacs Elements
-:END:
-  https://github.com/emacselements
-  https://emacselements.com/
-
-* 3 Minute Guide to Emacs Autoinsert Mode #coding #programming #org  :autoinsert:org:
-:PROPERTIES:
-:DATE:     2026-01-04T20:23:35-08:00
-:DURATION: 2:34
-:YOUTUBE_URL: https://www.youtube.com/watch?v=2jBMd9n5n5k
-:SPEAKERS: Emacs Elements
-:END:
-  A short, practical look at Emacs auto-insert-mode—how to automatically insert templates when creating new files, with quick examples for Org files and shell scripts.
-
-  Two examples:
-
-  (define-auto-insert "\\.org\\'"
-    (lambda ()
-      (let ((title (read-string "Enter title: ")))
-        (insert "#+title: " title "\n"
-                "#+OPTIONS: \\n:t\n"
-                "#+STARTUP: showall\n"
-                "#+DATE: Created on " (format-time-string "%-d %B %Y @%H:%M") "\n\n")
-        (newline)
-        (goto-char (point-max)))))
-
-  (define-auto-insert "\\.sh\\'"
-    (lambda ()
-      (insert "#!/bin/bash\n\n"
-              "# Description: \n"
-              "# Author: \n"
-              "# Date: " (format-time-string "%Y-%m-%d") "\n\n"
-              "# Add your script code here\n")
-      (search-forward "Description: ")
-      (forward-word)
-      (forward-char)))
-
-  https://github.com/emacselements
-  https://emacselements.com/
 * Integrating IRB (Ruby REPL) into Emacs  :ruby:irb:coding:
 :PROPERTIES:
 :DATE:     2026-01-04T04:32:53-08:00
@@ -5129,17 +4840,6 @@
   27:00: usage from emacs
   31:13: conclusion
 
-* Polymode: Enhancing Code Blocks in Org & Markdown in Emacs  :org:polymode:
-:PROPERTIES:
-:DATE:     2025-12-28T23:31:09-08:00
-:DURATION: 2:36
-:YOUTUBE_URL: https://www.youtube.com/watch?v=FxF5gSTINtY
-:SPEAKERS: Emacs Elements
-:END:
-  https://github.com/polymode/polymode
-  https://github.com/emacselements
-  https://emacselements.com/
-
 * 39C3 - The art of text (rendering)
 :PROPERTIES:
 :DATE:     2025-12-27T09:31:40-08:00
@@ -5160,53 +4860,6 @@
   ,#39c3 #ArtBeauty
 
   Licensed to the public under http://creativecommons.org/licenses/by/4.0
-
-* The Built-in Emacs Subword-mode for Navigating CamelCaseWords  :navigation:
-:PROPERTIES:
-:DATE:     2025-12-27T04:09:00-08:00
-:DURATION: 2:26
-:YOUTUBE_URL: https://www.youtube.com/watch?v=IH5eOSNDE34
-:SPEAKERS: Emacs Elements
-:END:
-  https://github.com/emacselements
-  https://emacselements.com/
-
-* The Evil-nerd-commenter Package for Emacs  :coding:
-:PROPERTIES:
-:DATE:     2025-12-27T03:51:42-08:00
-:DURATION: 2:33
-:YOUTUBE_URL: https://www.youtube.com/watch?v=JO9CI7QfipM
-:SPEAKERS: Emacs Elements
-:END:
-  Use the package evil-nerd-commenter to comment and uncomment lines in Emacs more easily. One doesn't need to use evil-mode for this to work.
-
-  Install evil-nerd-commenter, then add this code to your init.el file.
-  ;; evil-nerd-commenter (you don't need to use evil-mode to use this)
-  (evilnc-default-hotkeys) ()
-  (defun matlab-mode-hook-config ()
-    (local-set-key (kbd "M-;") 'evilnc-comment-or-uncomment-lines))
-
-  https://github.com/emacselements
-  https://emacselements.com/
-* The Essentials of Emacs Recentf
-:PROPERTIES:
-:DATE:     2025-12-20T12:09:27-08:00
-:DURATION: 4:44
-:YOUTUBE_URL: https://www.youtube.com/watch?v=aSwBn3ddAMQ
-:SPEAKERS: Emacs Elements
-:END:
-  https://github.com/emacselements
-  https://emacselements.com/
-
-* Essentials of Emacs Bookmarks
-:PROPERTIES:
-:DATE:     2025-12-20T12:09:16-08:00
-:DURATION: 5:27
-:YOUTUBE_URL: https://www.youtube.com/watch?v=VpNA44jzf1o
-:SPEAKERS: Emacs Elements
-:END:
-  https://github.com/emacselements
-  https://emacselements.com/
 
 * fzf, magit, and ast-grep demo
 :PROPERTIES:
@@ -6443,31 +6096,6 @@ exchange-point-and-mark, mark-whole-buffer
 
   https://github.com/NapoleonWils0n/nixos-dotfiles/blob/master/nixos-dotfiles.org#gptel-custom-toolsel
 
-* AI Augmented, Language Agnostic, SWE Workflow, in Emacs  :ai:
-:PROPERTIES:
-:DATE:     2025-11-14T01:30:37-08:00
-:DURATION: 37:03
-:YOUTUBE_URL: https://www.youtube.com/watch?v=kpExav29OjM
-:SPEAKERS: (Bit-Mage)
-:END:
-  https://aider.chat/
-  https://github.com/MatthewZMD/aidermacs
-  https://opensource.com/article/18/8/what-how-makefile
-
-  https://github.com/rajp152k/.dotfiles
-
-* Ancient Greek Tweaks in Emacs  :writing:greek:
-:PROPERTIES:
-:DATE:     2025-11-14T00:50:36-08:00
-:DURATION: 5:01
-:YOUTUBE_URL: https://www.youtube.com/watch?v=oToTtoK1PQ0
-:SPEAKERS: Emacs Elements
-:END:
-  How to get Ancient Greek to work flawlessly in Emacs
-  https://github.com/emacselements/my-ancient-greek-tweaks
-  https://github.com/emacselements/screenshot-ocr
-  My website: https://emacselements.com/
-
 * Ep712 Emacs Lisp, Move File to Parent Dir. car cdr cons, Supreme Functional Programing No Variable  :elisp:
 :PROPERTIES:
 :DATE:     2025-11-13T10:25:11-08:00
@@ -6677,23 +6305,6 @@ exchange-point-and-mark, mark-whole-buffer
 
   I dive into my personal workflow, explaining the history and practical reasons for choosing a text-based approach (hint: it's a historical happy accident that was supported by it being fun, fully customizable, and better than the other options I tried). I also reveal the secret to taming graph complexity, which involves good modular design, the "use it or lose it" principle, and leveraging SPARQL queries to serve as your method for learning the vocabula. Whether you're a Semantic Web veteran or just starting with knowledge graphs, this covers the critical strategies for scaling your data modeling efforts.
 
-* Easy Setup for Drew Adams' Essential Emacs Packages on Emacswiki
-:PROPERTIES:
-:DATE:     2025-11-03T18:40:43-08:00
-:DURATION: 2:35
-:YOUTUBE_URL: https://www.youtube.com/watch?v=EVjJMssj5iA
-:SPEAKERS: Emacs Elements
-:END:
-  Learn how to automatically download and configure 39 powerful Emacs packages from Drew Adams, including Icicles (interactive completion), Bookmark+, Dired+, and more. This video shows you:
-
-  - How to use the automated download script
-  - Where packages are installed (~/.emacs.d/wiki/)
-  - Basic Emacs configuration to get started
-  - Command-line options for the script
-
-  https://github.com/emacselements/emacswiki-packages
-
-  My website: https://emacselements.com/
 * Never stop writing in Emacs (productive transparency!)  :transparency:
 :PROPERTIES:
 :DATE:     2025-11-03T18:00:09-08:00
@@ -6852,33 +6463,6 @@ exchange-point-and-mark, mark-whole-buffer
 
   chrismaiorana.com
 
-* buffer-restore.el - Save and Restore Emacs Window Layouts with Named Sessions  :navigation:BufferRestore:
-:PROPERTIES:
-:DATE:     2025-10-31T02:35:55-07:00
-:DURATION: 3:49
-:YOUTUBE_URL: https://www.youtube.com/watch?v=Kf68nibRKXc
-:SPEAKERS: Emacs Elements
-:END:
-  https://github.com/emacselements/buffer-restore
-
-  Quick demo of buffer-restore.el, an Emacs package for manual session management.
-
-  Unlike desktop-save-mode, buffer-restore lets you save multiple named sessions and workspaces, giving you explicit control over when to save and restore your layouts.
-
-  Key Features:
-  • Save/restore single frame layouts (sessions)
-  • Save/restore multiple frames with positions (workspaces)
-  • Preserves exact PDF pages, EPUB chapters, and cursor positions
-  • Perfect for switching between different work contexts
-
-  Commands shown:
-  - buffer-restore-save-session
-  - buffer-restore-load-session
-  - buffer-restore-save-workspace
-  - buffer-restore-load-workspace
-
-  ,#emacs #productivity #opensource #plato #republic
-
 * Hacking on Emacs #4: window configuration after magit commit   :configuration:window:
 :PROPERTIES:
 :DATE:     2025-10-29T10:15:58-07:00
@@ -6917,32 +6501,6 @@ exchange-point-and-mark, mark-whole-buffer
   Neste vídeo vamos aprender o básico do Emacs e já introduzir ao Org-mode.
 
   ,#emacs #gnuemacs #gnu #development #developer #editor
-
-* أساسيات إيماكس كمحرر نصوص | The Basics of Emacs as a Text Editor
-:PROPERTIES:
-:DATE:     2025-10-27T01:42:50-07:00
-:DURATION: 19:35
-:YOUTUBE_URL: https://www.youtube.com/watch?v=tBwu127eVyk
-:SPEAKERS: Omania Learning Hub
-:END:
-  دعم القناة:
-  إذا أعجبك المحتوى وترغب في دعم عملي، يمكنك شراء قهوة لي من هنا:
-  ☕ https://buymeacoffee.com/the.omania
-
-  دوراتنا في لينكس وتقنية المعلومات:
-  https://omanialearninghub.com
-
-  انضم إلى مجموعة فيسبوك للشبكات وتقنية المعلومات:
-  https://www.facebook.com/groups/omanialearninghub/
-
-  انضم إلى مجموعة التليقرام للشبكات وتقنية المعلومات:
-  https://t.me/OmaniaLearningHub
-
-  تابعني على تيك توك:
-  https://www.tiktok.com/@the.omania
-
-  أضفني على سناب شات:
-  https://www.snapchat.com/add/the.omania دعم القناة:
 
 * show doc for candidate of complete of company/corfu in Emacs  :company:corfu:completion:elisp:
 :PROPERTIES:
@@ -7144,16 +6702,6 @@ exchange-point-and-mark, mark-whole-buffer
 
   chrismaiorana.com
 
-* Showcasing Some of My Essential Emacs and Shell Tools on GitHub
-:PROPERTIES:
-:DATE:     2025-10-16T07:41:06-07:00
-:DURATION: 4:55
-:YOUTUBE_URL: https://www.youtube.com/watch?v=8P4T5Pr36v8
-:SPEAKERS: Emacs Elements
-:END:
-  https://github.com/emacselements
-
-  In this video, I walk through my personal collection of GitHub repositories, each designed to streamline and enhance your Emacs experience or automate daily tasks. The repo also some interesting Shell Scripts and  Python Apps, notably: Redactor, Video-Sorter, and Image-Viewer.
 * Linux Mint: Set Up Python, R , duckdb and Emacs
 :PROPERTIES:
 :DATE:     2025-10-16T00:54:12-07:00
@@ -7248,17 +6796,6 @@ exchange-point-and-mark, mark-whole-buffer
 :END:
   We show how to use an LLM to examine synthetic data from a bioreactor for biomass and substrate concentrations over time. We use the LLM to graph the data with Python, suggest models for the data, and then to fit the data to extract parameters. There are a few wrinkles with the specific integration of emacs-jupyter and org-mode, but we get to a satisfactory result at the end.
 
-* My-whisper: A simple Emacs package that provides speech-to-text functionality using Whisper.cpp.  :whisper:
-:PROPERTIES:
-:DATE:     2025-10-11T06:59:22-07:00
-:DURATION: 0:37
-:YOUTUBE_URL: https://www.youtube.com/watch?v=YNtrl9bkjyE
-:SPEAKERS: Emacs Elements
-:END:
-  An Emaca Package capable of near 100% accuracy, even with technical names and Proper Nouns.
-
-  https://github.com/emacselements/my-whisper
-  My website: https://emacselements.com/
 * Nerding out about dotfiles, Qtile, Tmux, and Emacs  :configuration:
 :PROPERTIES:
 :DATE:     2025-10-11T03:00:32-07:00
@@ -7321,28 +6858,6 @@ exchange-point-and-mark, mark-whole-buffer
   Oh and leave me comments too please!
 
   @xenodium
-
-* Emacs Nov-mode and My Nov-highlights Package for EPUB Files   :nov:epub:
-:PROPERTIES:
-:DATE:     2025-10-07T01:48:26-07:00
-:DURATION: 5:07
-:YOUTUBE_URL: https://www.youtube.com/watch?v=HSxXWzGnMVI
-:SPEAKERS: Emacs Elements
-:END:
-  https://github.com/emacselements/nov-highlights
-
-  Master Nov-Mode in Emacs + New Highlighting Package! 📚✨
-
-  In this video, I walk you through the essential Nov-mode commands for smooth EPUB reading in Emacs — from navigating chapters and scrolling to managing links and zoom.
-
-  I also introduce my own Emacs package, nov-highlights, which lets you highlight text, add notes, and export annotations to Org-mode for a powerful reading and study workflow. 🚀
-
-  Perfect for Emacs users who want to turn Nov-mode into a full-featured e-book reader and annotation tool.
-
-  ,#Emacs #NovMode #NovHighlights #EbookReader #OrgMode
-
-  https://depp.brause.cc/nov.el/
-  https://emacselements.com/
 
 * Emacs For Writers Unit 4: Keybindings
 :PROPERTIES:
@@ -7506,25 +7021,6 @@ exchange-point-and-mark, mark-whole-buffer
 :SPEAKERS: HI AI
 :END:
 
-
-* How to Manage AWS IAM Roles with Emacs Org Mode | Full Tutorial   :org:
-:PROPERTIES:
-:DATE:     2025-09-24T13:50:42-07:00
-:DURATION: 5:23
-:YOUTUBE_URL: https://www.youtube.com/watch?v=9HffiDAg10U
-:SPEAKERS: Neuralize AI
-:END:
-  Tired of switching between your editor and the AWS web console just to manage IAM roles? In this video, I walk you through an Emacs package, `org-aws-iam-role`, that lets you browse, modify, and even simulate IAM policies without ever leaving your editor.
-
-  ▶️ Find the package here:
-  GitHub: https://github.com/will-abb/org-aws-iam-role
-  Also in Melpa sometime in the future
-
-  ✅ In this tutorial, we will cover:
-  • How to interactively browse and select IAM roles.
-  • Understanding the detailed Org Mode buffer for roles and policies.
-  • The power of Org Babel: updating a policies with a simple C-c C-c.
-  • Using the built-in IAM Policy Simulator to test permissions.
 
 * Emacs + GPTel: A Scientist's AI Notebook  :ai:gptel:
 :PROPERTIES:
@@ -7711,21 +7207,6 @@ exchange-point-and-mark, mark-whole-buffer
   Would recommend watching my previous video on org-roam to see how I've set up the keybindings as I don't explain them here.
 
   ,#emacs #orgmode #research #phdlife #postdoclife #zotero
-
-* Sync Emacs Org Agenda and Google Calendar with the Org-Gcal Package  :org:
-:PROPERTIES:
-:DATE:     2025-09-14T15:00:06-07:00
-:DURATION: 6:30
-:YOUTUBE_URL: https://www.youtube.com/watch?v=hz6yc6uWDw4
-:SPEAKERS: Emacs Elements
-:END:
-  Discover how to sync your Google Calendar with Emacs using the Org-Gcal package. In this video, I walk you through setting up the Google API, and configuring your Emacs for seamless calendar integration. Learn how to fetch events, push Org entries to Google Calendar, and use org-capture templates for productivity. Links and setup can be found at the link below.
-
-  My website: https://emacselements.com/
-
-  You can support me on PayPal:
-
-  https://paypal.me/revrari
 
 * Teaching Emacs recognize thing-at-point  :web:
 :PROPERTIES:
@@ -8555,16 +8036,6 @@ exchange-point-and-mark, mark-whole-buffer
 
   It can help if you know a little bit of Emacs Lisp, but this is not a requirement as we'll meticulously write, review, and comment on each line of code. 📝
 
-* Emacs PDF-Tools Tips You Probably Don’t Know #pdftools #emacs #navigation
-:PROPERTIES:
-:DATE:     2025-08-10T15:00:05-07:00
-:DURATION: 15:44
-:YOUTUBE_URL: https://www.youtube.com/watch?v=rTtLu4QAT2I
-:SPEAKERS: Emacs Elements
-:END:
-  In this guide Discover powerful but lesser-known features of the Emacs package PDF-Tools. I walk through tips like using virtual buffers, metadata display, and navigating quickly with registers and history. I also share my personal configuration and favourite keybindings. Perfect for anyone looking to get more out of reading and managing PDFs in Emacs with PDF-Tools.
-
-  https://emacselements.com/pdf-tools-settings.html
 * emacs package dev v2532864955
 :PROPERTIES:
 :DATE:     2025-08-10T09:33:54-07:00
@@ -8748,19 +8219,6 @@ exchange-point-and-mark, mark-whole-buffer
 :END:
   GNU ELPA: https://elpa.gnu.org/packages/vecdb.html
   Github: https://github.com/ahyatt/vecdb
-
-* Emacs: A Deep Dive into Its Internals
-:PROPERTIES:
-:DATE:     2025-08-03T15:00:06-07:00
-:DURATION: 5:09
-:YOUTUBE_URL: https://www.youtube.com/watch?v=lGKTYaRBgmk
-:SPEAKERS: Emacs Elements
-:END:
-  Curious why Emacs still thrives in 2025? This video dives deep into its internals — from Emacs Lisp and C primitives to display engines and performance tuning. It’s not just an editor; it’s a programmable platform built by and for its community.
-
-  My website: https://emacselements.com/
-  If you enjoy my videos please send me a donation via PayPal:
-  https://paypal.me/revrari
 
 * Emacs Org mode as a word processor: Emacs Writing Studio
 :PROPERTIES:
@@ -9238,17 +8696,6 @@ exchange-point-and-mark, mark-whole-buffer
 
   Mailing lists:
   https://lists.sr.ht/~abcdw/
-* 3 Ways to Manually Install Emacs Packages
-:PROPERTIES:
-:DATE:     2025-07-13T15:00:43-07:00
-:DURATION: 3:36
-:YOUTUBE_URL: https://www.youtube.com/watch?v=hABlN9b7K5A
-:SPEAKERS: Emacs Elements
-:END:
-  My website: https://emacselements.com/
-  If you enjoy my videos please send me a donation via PayPal:
-  https://paypal.me/revrari
-
 * Ep680 JSON in Emacs Lisp and Wolfram Language
 :PROPERTIES:
 :DATE:     2025-07-13T10:11:32-07:00
@@ -9305,20 +8752,6 @@ exchange-point-and-mark, mark-whole-buffer
   timestamp
       25:34 The Idiocy of the Jargon Serialization of the Object Oriented Programers.
       33:38 The crime of Google Chrome
-
-* showcase of outline-minor-mode and imenu in the eshell buffer   :eshell:
-:PROPERTIES:
-:DATE:     2025-07-11T01:44:03-07:00
-:DURATION: 2:27
-:YOUTUBE_URL: https://www.youtube.com/watch?v=f9mqPsQEwGM
-:SPEAKERS: Arni
-:END:
-  (setq eshell-prompt-regexp "^.* λ ") ;; modify according to your prompt
-
-  (add-hook 'eshell-mode-hook 'outline-minor-mode)
-  (add-hook 'eshell-mode-hook (lambda () (setq-local outline-regexp (concat eshell-prompt-regexp ".*"))))
-  (add-hook 'eshell-mode-hook (lambda ()
-             (setq-local imenu-generic-expression `(("Prompt" ,(concat eshell-prompt-regexp "\\(.*\\)") 1)))))
 
 * Emacs Magical Music Showcase (with EMMS, Embark, and Dired)  :emms:dired:embark:music:
 :PROPERTIES:
@@ -9395,17 +8828,6 @@ exchange-point-and-mark, mark-whole-buffer
 :END:
 
 
-* Fix to Longstanding Pdf-Tools Bug #emacs
-:PROPERTIES:
-:DATE:     2025-07-09T04:08:46-07:00
-:DURATION: 0:48
-:YOUTUBE_URL: https://www.youtube.com/watch?v=e8n31aylkNY
-:SPEAKERS: Emacs Elements
-:END:
-  My website: https://emacselements.com/
-  If you enjoy my videos please send me a donation via PayPal:
-  https://paypal.me/revrari
-
 * nobody knows that using Emacs in the terminal is so great  :terminal:
 :PROPERTIES:
 :DATE:     2025-07-07T22:39:02-07:00
@@ -9423,14 +8845,6 @@ exchange-point-and-mark, mark-whole-buffer
   1:09 What we gain
   2:16 Simplicity
   2:59 Steps you can take
-* Perfect Speech to Text in Emacs
-:PROPERTIES:
-:DATE:     2025-07-07T21:09:02-07:00
-:DURATION: 2:20
-:YOUTUBE_URL: https://www.youtube.com/watch?v=bTU9ctFtyBA
-:SPEAKERS: Emacs Elements
-:END:
-  In this video I demonstrate how to achieve perfect speech-to-text transcription in Emacs using whisper.cpp and sox. Speak directly into any Emacs buffer and your text will be typed up automatically. Use C-c v to start speech to text and C-g to end. The complete code and setup instructions are available on my website: https://emacselements.com/
 * Ep675 Golang vs Emacs Lisp Hashtable. Part 2
 :PROPERTIES:
 :DATE:     2025-07-06T04:24:44-07:00
@@ -9571,18 +8985,6 @@ exchange-point-and-mark, mark-whole-buffer
 :PEERTUBE_URL: https://tv.dyne.org/w/tPgpVpD7pqhksLuZd5hSFV
 :END:
   This is the sixth in a series of Emacs package development streams focusing on the Emacs Reader package: https://codeberg.org/divyaranjan/emacs-reader/ In this stream specifically, I'll be introduc...
-* View and Annotate Your PDFS in Emacs -- Pdf-tools and Org-noter
-:PROPERTIES:
-:DATE:     2025-06-29T12:56:43-07:00
-:DURATION: 4:52
-:YOUTUBE_URL: https://www.youtube.com/watch?v=JDkGuBfiHg8
-:SPEAKERS: Emacs Elements
-:END:
-  My website: https://emacselements.com/
-  Follow me on Mastodon: https://mastodon.social/@revrari
-  If you enjoy my videos please send me a donation via PayPal:
-  https://paypal.me/revrari
-
 * Emacs trial & editor configuration  :DoomEmacs:
 :PROPERTIES:
 :DATE:     2025-06-29T02:27:01-07:00
@@ -9781,30 +9183,6 @@ exchange-point-and-mark, mark-whole-buffer
 
   For Business Inquiries Email at - contact@thecoderworld.com
 
-* Emacs Auto-Completion with Company Mode
-:PROPERTIES:
-:DATE:     2025-06-23T01:01:52-07:00
-:DURATION: 1:01
-:YOUTUBE_URL: https://www.youtube.com/watch?v=hVA7KXDSUws
-:SPEAKERS: Emacs Elements
-:END:
-  My website: https://emacselements.com/
-  Follow me on Mastodon: https://mastodon.social/@revrari
-  If you enjoy my videos please send me a donation via PayPal:
-  https://paypal.me/revrari
-
-* Interesting Grep Commands in Emacs
-:PROPERTIES:
-:DATE:     2025-06-22T13:19:27-07:00
-:DURATION: 5:09
-:YOUTUBE_URL: https://www.youtube.com/watch?v=GR3T6ZH33g0
-:SPEAKERS: Emacs Elements
-:END:
-  My website: https://emacselements.com/
-  Follow me on Mastodon: https://mastodon.social/@revrari
-  If you enjoy my videos please send me a donation via PayPal:
-  https://paypal.me/revrari
-
 * What's Special About 'M-x shell' in Emacs? - System Crafters Live!
 :PROPERTIES:
 :DATE:     2025-06-20T21:54:44-07:00
@@ -9858,18 +9236,6 @@ exchange-point-and-mark, mark-whole-buffer
   ukeSounds by airtone, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/airtone/32655
   Between Worlds (Instrumental) by Aussens@iter, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/tobias_weber/56664
 
-* Have Emacs Start in a *Notes* Buffer
-:PROPERTIES:
-:DATE:     2025-06-19T19:59:29-07:00
-:DURATION: 1:07
-:YOUTUBE_URL: https://www.youtube.com/watch?v=Ecp3eNgk9yk
-:SPEAKERS: Emacs Elements
-:END:
-  My website: https://emacselements.com/
-  Follow me on Mastodon: https://mastodon.social/@revrari
-  If you enjoy my videos please send me a donation via PayPal:
-  https://paypal.me/revrari
-
 * Org-mode pour les études (Emacs)   :org:
 :PROPERTIES:
 :DATE:     2025-06-19T13:51:32-07:00
@@ -9912,18 +9278,6 @@ exchange-point-and-mark, mark-whole-buffer
 :SPEAKERS: Anand Tamariya
 :END:
   Details: https://lifeofpenguin.blogspot.com/2025/06/plan-9-remote-file-access-from-emacs.html
-
-* Better Grep Defaults for Emacs
-:PROPERTIES:
-:DATE:     2025-06-15T15:01:02-07:00
-:DURATION: 4:18
-:YOUTUBE_URL: https://www.youtube.com/watch?v=osViM1W6wkM
-:SPEAKERS: Emacs Elements
-:END:
-  My website: https://emacselements.com/
-  Follow me on Mastodon: https://mastodon.social/@revrari
-  If you enjoy my videos please send me a donation via PayPal:
-  https://paypal.me/revrari
 
 * compile error right from a term in emacs
 :PROPERTIES:
@@ -9968,18 +9322,6 @@ exchange-point-and-mark, mark-whole-buffer
   Álvaro Ramírez spoke about his Emacs Lisp package, chatgpt-shell.xel, which integrates ChatGPT, Gemini, Claude, LLAMA, etc. into Emacs.  Álvaro joined us via video from London.
 
   Álvaro is a software engineer who contributes to many Emacs packages.
-* The Emacs Org-Ai Package: Three Key Features #ai #chatgpt #dalle3  :org:ai:
-:PROPERTIES:
-:DATE:     2025-06-11T09:47:38-07:00
-:DURATION: 4:37
-:YOUTUBE_URL: https://www.youtube.com/watch?v=U7KgTHQWl98
-:SPEAKERS: Emacs Elements
-:END:
-  My website: https://emacselements.com/
-  Follow me on Mastodon: https://mastodon.social/@revrari
-  If you enjoy my videos please send me a donation via PayPal:
-  https://paypal.me/revrari
-
 * setting up Emacs as an OpenRC service (and installing it on Alpine Linux)
 :PROPERTIES:
 :DATE:     2025-06-11T04:12:03-07:00
@@ -10012,17 +9354,6 @@ exchange-point-and-mark, mark-whole-buffer
   - Newsletter & Podcast (available through Stratechery Plus): https://asianometry.passport.online/
   - LinkedIn (feel free to connect): www.linkedin.com/in/jon-y-asianometry
 
-* Emacs Lucid vs GTK: Debunking the Lightweight Myth
-:PROPERTIES:
-:DATE:     2025-06-08T15:00:30-07:00
-:DURATION: 3:50
-:YOUTUBE_URL: https://www.youtube.com/watch?v=MKqNrREUkYI
-:SPEAKERS: Emacs Elements
-:END:
-  My website: https://emacselements.com/
-  Follow me on Mastodon: https://mastodon.social/@revrari
-  If you enjoy my videos please send me a donation via PayPal:
-  https://paypal.me/revrari
 * 022 Ollama Buddy - Prototyping autocompletion #emacs #ollama
 :PROPERTIES:
 :DATE:     2025-06-07T03:03:22-07:00
@@ -10046,32 +9377,6 @@ exchange-point-and-mark, mark-whole-buffer
   https://github.com/captainflasmr/ollama-buddy
 
   ,#emacs #ollama
-
-* Save the Last Recorded Macro in Emacs to the Registry
-:PROPERTIES:
-:DATE:     2025-06-05T15:00:51-07:00
-:DURATION: 3:44
-:YOUTUBE_URL: https://www.youtube.com/watch?v=b3EAYskhvmo
-:SPEAKERS: Emacs Elements
-:END:
-  ```
-  (use-package session
-    :hook
-    (after-init . session-initialize)
-    :custom
-    (session-globals-include
-     '((kill-ring 10 nil)
-       (session-file-alist 100 t)
-       (file-name-history 200 nil)
-       search-ring
-       regexp-search-ring
-       (register-alist 100 t)))
-    (session-globals-exclude nil))  ;; Optional: clears exclusions
-  ```
-  My website: https://emacselements.com/
-  Follow me on Mastodon: https://mastodon.social/@revrari
-  If you enjoy my videos please send me a donation via PayPal:
-  https://paypal.me/revrari
 
 * Ep663 emacs lisp coding, html show duplicate links
 :PROPERTIES:
@@ -10338,20 +9643,6 @@ exchange-point-and-mark, mark-whole-buffer
 
   The issue can be avoided by setting ~org-fold-core-style 'text-properties~, but I read that ~org-fold-core-style 'overlays~, is less buggy with poly-org. So I decided to stick with this fix instead of changing the setting.
 
-* Nifty Isearch Commands in Emacs  :navigation:
-:PROPERTIES:
-:DATE:     2025-05-23T15:00:39-07:00
-:DURATION: 1:13
-:YOUTUBE_URL: https://www.youtube.com/watch?v=Z6lMU2LUSG4
-:SPEAKERS: Emacs Elements
-:END:
-  My website: https://emacselements.com/
-  (Notes for videos can be found there.)
-  Follow me on Mastodon: https://mastodon.social/@revrari
-  Follow me on X: https://x.com/GnarledGrip
-  If you enjoy my videos please send me a donation via PayPal:
-  https://paypal.me/revrari
-
 * Emacs AIPlus --  Blee enhancements to aidermacs and gptel.  :ai:
 :PROPERTIES:
 :DATE:     2025-05-22T16:01:56-07:00
@@ -10391,19 +9682,6 @@ exchange-point-and-mark, mark-whole-buffer
   In the proprietary American model, the integration of AI into usage environments has accelerated surveillance capitalism and that trend will continue. In the Libre-Halaal model (https://github.com/bxplpc/120033), with the integration of AI into Emacs, we aim to preserve autonomy and control.
 
   I’ll continue using Emacs. Your call!
-* The Emacs Easy-Find Package #filemanagement #types #search  :navigation:
-:PROPERTIES:
-:DATE:     2025-05-22T15:01:07-07:00
-:DURATION: 2:47
-:YOUTUBE_URL: https://www.youtube.com/watch?v=wUh-d4a16r4
-:SPEAKERS: Emacs Elements
-:END:
-  https://gitlab.com/gnarledgrip/easy-find/
-  My website: https://emacselements.com/
-  Follow me on Mastodon: https://mastodon.social/@revrari
-  If you enjoy my videos please send me a donation via PayPal:
-  https://paypal.me/revrari
-
 * Emacs Code Folding And Unfolding Via hs-minor-mode 2025_05_20_16:16:51  :navigation:hideshow:
 :PROPERTIES:
 :DATE:     2025-05-20T04:19:36-07:00
@@ -10504,62 +9782,6 @@ exchange-point-and-mark, mark-whole-buffer
   GPT has tools defined which allow it to place a turtle in an arbitrary emacs buffer, and give it the commands 'left', 'right', 'up', 'down' and 'stop'. The turtle moves via run-at-time set to 2 second intervals.
 
   It also has the ability to read buffer contents. Emacs bindings are here: https://github.com/aard-fi/buffer-turtle
-* Emacs Repeat Commands
-:PROPERTIES:
-:DATE:     2025-05-15T21:08:47-07:00
-:DURATION: 9:44
-:YOUTUBE_URL: https://www.youtube.com/watch?v=Mp2SCv8BFvc
-:SPEAKERS: Emacs Elements
-:END:
-  My website: https://emacselements.com/
-  (Notes for videos can be found there.)
-  Follow me on Mastodon: https://mastodon.social/@revrari
-  Follow me on X: https://x.com/GnarledGrip
-  If you enjoy my videos please send me a donation via PayPal:
-  https://paypal.me/revrari
-
-* Emacs Electric-Pair-Mode
-:PROPERTIES:
-:DATE:     2025-05-15T21:08:47-07:00
-:DURATION: 4:59
-:YOUTUBE_URL: https://www.youtube.com/watch?v=ICfeTMxro64
-:SPEAKERS: Emacs Elements
-:END:
-  My website: https://emacselements.com/
-  (Notes for videos can be found there.)
-  Follow me on Mastodon: https://mastodon.social/@revrari
-  Follow me on X: https://x.com/GnarledGrip
-  If you enjoy my videos please send me a donation via PayPal:
-  https://paypal.me/revrari
-
-* How to insert pairs without fancy packages in Emacs
-:PROPERTIES:
-:DATE:     2025-05-15T21:08:45-07:00
-:DURATION: 4:13
-:YOUTUBE_URL: https://www.youtube.com/watch?v=aOxlaFdwIlE
-:SPEAKERS: Emacs Elements
-:END:
-  My website: https://emacselements.com/
-  (Notes for videos can be found there.)
-  Follow me on Mastodon: https://mastodon.social/@revrari
-  Follow me on X: https://x.com/GnarledGrip
-  If you enjoy my videos please send me a donation via PayPal:
-  https://paypal.me/revrari
-
-* Speed up Emacs with features, requires, and autoloads  :elisp:
-:PROPERTIES:
-:DATE:     2025-05-15T21:08:39-07:00
-:DURATION: 15:45
-:YOUTUBE_URL: https://www.youtube.com/watch?v=Np5dWzVFJvk
-:SPEAKERS: Emacs Elements
-:END:
-  My website: https://emacselements.com/
-  (Notes for videos can be found there.)
-  Follow me on Mastodon: https://mastodon.social/@revrari
-  Follow me on X: https://x.com/GnarledGrip
-  If you enjoy my videos please send me a donation via PayPal:
-  https://paypal.me/revrari
-
 * A few tweaks to Emacs (without elisp) to make it nicer
 :PROPERTIES:
 :DATE:     2025-05-11T05:00:28-07:00
@@ -10652,20 +9874,6 @@ exchange-point-and-mark, mark-whole-buffer
   R/Tidyverse/MongoDb: More Extract and Load (vid 03):
   https://youtu.be/NavfdNxWaLo?si=rmG6bq4D3qvMTjod
 
-* Isolating select information in Emacs #registry #macros
-:PROPERTIES:
-:DATE:     2025-05-04T15:00:03-07:00
-:DURATION: 2:51
-:YOUTUBE_URL: https://www.youtube.com/watch?v=2Qyd-uJDcd4
-:SPEAKERS: Emacs Elements
-:END:
-  My website: https://gnarledgrip.gitlab.io/
-  (Notes for videos can be found there.)
-  Follow me on Mastodon: https://mastodon.social/@revrari
-  Follow me on X: https://x.com/GnarledGrip
-  If you enjoy my videos you can send me a donation via PayPal:
-  https://paypal.me/revrari
-
 * Ep651 emacs lisp coding, text processing
 :PROPERTIES:
 :DATE:     2025-05-03T22:12:04-07:00
@@ -10676,140 +9884,6 @@ exchange-point-and-mark, mark-whole-buffer
   notes at
   http://xahlee.info/talk_show/xah_talk_show_2025-05-03.html
   (if you get https error, that is because Google Chrome and Firefox browsers censor websites. Use Brave Browser or Safari, or copy and paste the url directly in url field.)
-
-* Insert verses from the Bible into Emacs #reupload
-:PROPERTIES:
-:DATE:     2025-05-03T01:39:19-07:00
-:DURATION: 7:27
-:YOUTUBE_URL: https://www.youtube.com/watch?v=oZhjm-KSuLE
-:SPEAKERS: Emacs Elements
-:END:
-  My website: https://gnarledgrip.gitlab.io/
-  (Notes for videos can be found there.)
-  Follow me on Mastodon: https://mastodon.social/@revrari
-  Follow me on X: https://x.com/GnarledGrip
-  If you enjoy my videos you can send me a donation via PayPal:
-  https://paypal.me/revrari
-
-* 15 Awesome Emacs Eshell Tips #coding #terminal #programming #reupload
-:PROPERTIES:
-:DATE:     2025-05-03T01:22:40-07:00
-:DURATION: 17:10
-:YOUTUBE_URL: https://www.youtube.com/watch?v=vw8_FJXxicM
-:SPEAKERS: Emacs Elements
-:END:
-  My website: https://gnarledgrip.gitlab.io/
-  (Notes for videos can be found there.)
-  Follow me on Mastodon: https://mastodon.social/@revrari
-  Follow me on X: https://x.com/GnarledGrip
-  If you enjoy my videos you can send me a donation via PayPal:
-  https://paypal.me/revrari
-
-* The Strange and Peculiar World of Emacs Regular Expressions #reupload #regex
-:PROPERTIES:
-:DATE:     2025-05-03T01:21:36-07:00
-:DURATION: 22:27
-:YOUTUBE_URL: https://www.youtube.com/watch?v=woGl1XpXG98&pp=0gcJCYUJAYcqIYzv
-:SPEAKERS: Emacs Elements
-:END:
-  My website: https://gnarledgrip.gitlab.io/
-  (Notes for videos can be found there.)
-  Follow me on Mastodon: https://mastodon.social/@revrari
-  Follow me on X: https://x.com/GnarledGrip
-  If you enjoy my videos you can send me a donation via PayPal:
-  https://paypal.me/revrari
-
-* 3 Minute Guide to Emacs Autoinsert Mode #coding #programming #org #reupload
-:PROPERTIES:
-:DATE:     2025-05-03T01:18:31-07:00
-:DURATION: 2:34
-:YOUTUBE_URL: https://www.youtube.com/watch?v=Qkr3J5R9LSQ
-:SPEAKERS: Emacs Elements
-:END:
-  My website: https://gnarledgrip.gitlab.io/
-  (Notes for videos can be found there.)
-  Follow me on Mastodon: https://mastodon.social/@revrari
-  Follow me on X: https://x.com/GnarledGrip
-  If you enjoy my videos you can send me a donation via PayPal:
-  https://paypal.me/revrari
-
-* Basic introduction to Emacs Calc #emacs #calculator #mathematics #reupload
-:PROPERTIES:
-:DATE:     2025-05-03T01:17:30-07:00
-:DURATION: 7:09
-:YOUTUBE_URL: https://www.youtube.com/watch?v=S585j4Nj-QM
-:SPEAKERS: Emacs Elements
-:END:
-  My website: https://gnarledgrip.gitlab.io/
-  (Notes for videos can be found there.)
-  Follow me on Mastodon: https://mastodon.social/@revrari
-  Follow me on X: https://x.com/GnarledGrip
-  If you enjoy my videos you can send me a donation via PayPal:
-  https://paypal.me/revrari
-
-* Emacs Help Essentials in 4 Minutes #emacs #reupload #reedit
-:PROPERTIES:
-:DATE:     2025-05-03T01:16:35-07:00
-:DURATION: 4:19
-:YOUTUBE_URL: https://www.youtube.com/watch?v=ZCNRv3WVx1Q
-:SPEAKERS: Emacs Elements
-:END:
-  My website: https://gnarledgrip.gitlab.io/
-  (Notes for videos can be found there.)
-  Follow me on Mastodon: https://mastodon.social/@revrari
-  Follow me on X: https://x.com/GnarledGrip
-  If you enjoy my videos you can send me a donation via PayPal:
-  https://paypal.me/revrari
-
-* It bears repeating: Two Emacs Repeat Commands #coding #programming #reupload
-:PROPERTIES:
-:DATE:     2025-05-03T01:15:06-07:00
-:DURATION: 2:37
-:YOUTUBE_URL: https://www.youtube.com/watch?v=8yE0fg606d8
-:SPEAKERS: Emacs Elements
-:END:
-  My website: https://gnarledgrip.gitlab.io/
-  (Notes for videos can be found there.)
-  Follow me on Mastodon: https://mastodon.social/@revrari
-  Follow me on X: https://x.com/GnarledGrip
-  If you enjoy my videos you can send me a donation via PayPal:
-  https://paypal.me/revrari
-
-* Emacs Package Embark: Key Features and Tweaks #reupload #edited
-:PROPERTIES:
-:DATE:     2025-05-01T09:51:27-07:00
-:DURATION: 17:52
-:YOUTUBE_URL: https://www.youtube.com/watch?v=4ycUZ7imCPU
-:SPEAKERS: Emacs Elements
-:END:
-  The notes for this video can be found here on my website:
-  https://gnarledgrip.gitlab.io/
-
-  PLEASE CONSIDER SUPPORTING ME.
-  You can support me on PayPal:
-  https://paypal.me/revrari
-  Or you can send me some Bitcoin:
-  3JToybg7LHAdsteTYGg7jRniRZEMCeTasj
-
-  Follow me on X: https://x.com/GnarledGrip
-
-* Vertico: Minimalist Vertical Interactive Completion in Emacs #reupload
-:PROPERTIES:
-:DATE:     2025-05-01T09:50:58-07:00
-:DURATION: 8:28
-:YOUTUBE_URL: https://www.youtube.com/watch?v=ERyNSLRsNsg
-:SPEAKERS: Emacs Elements
-:END:
-  The notes for this video can be found here on my website:
-  https://gnarledgrip.gitlab.io/
-
-  PLEASE CONSIDER SUPPORTING ME.
-  You can support me on PayPal:
-  https://paypal.me/revrari
-  Or you can send me some Bitcoin:
-  3JToybg7LHAdsteTYGg7jRniRZEMCeTasj
-
-  Follow me on X: https://x.com/GnarledGrip
 
 * Detecting Emacs Package Synergy - Crafter Hours
 :PROPERTIES:
@@ -10876,109 +9950,6 @@ exchange-point-and-mark, mark-whole-buffer
 :END:
   https://github.com/commercial-emacs/commercial-emacs.git
 
-* Changing the color of the region for Vanilla Emacs #coding #themes #reupload
-:PROPERTIES:
-:DATE:     2025-04-28T11:18:37-07:00
-:DURATION: 1:55
-:YOUTUBE_URL: https://www.youtube.com/watch?v=IJ_r1oLIC64
-:SPEAKERS: Emacs Elements
-:END:
-  My website: https://gnarledgrip.gitlab.io/
-  (Notes for videos can be found there.)
-  Follow me on Mastodon: https://mastodon.social/@revrari
-  Follow me on X: https://x.com/GnarledGrip
-  If you enjoy my videos you can send me a donation via PayPal:
-  https://paypal.me/revrari
-
-* Handling PDF files in Emacs with DocView Mode #reupload
-:PROPERTIES:
-:DATE:     2025-04-28T11:15:33-07:00
-:DURATION: 10:44
-:YOUTUBE_URL: https://www.youtube.com/watch?v=2kBe0lu4uAE
-:SPEAKERS: Emacs Elements
-:END:
-  The notes for this video can be found here on my website:
-  https://gnarledgrip.gitlab.io/
-
-  PLEASE CONSIDER SUPPORTING ME.
-  You can support me on PayPal:
-  https://paypal.me/revrari
-  Or you can send me some Bitcoin:
-  3JToybg7LHAdsteTYGg7jRniRZEMCeTasj
-
-  Follow me on X: https://x.com/GnarledGrip
-
-* Emacs Evil Nerd Commenter: Comment/uncomment lines more efficiently #reupload
-:PROPERTIES:
-:DATE:     2025-04-28T11:12:54-07:00
-:DURATION: 2:34
-:YOUTUBE_URL: https://www.youtube.com/watch?v=F9YyCSC-dK4
-:SPEAKERS: Emacs Elements
-:END:
-  The notes for this video can be found here on my website:
-  https://gnarledgrip.gitlab.io/
-
-  PLEASE CONSIDER SUPPORTING ME.
-  You can support me on PayPal:
-  https://paypal.me/revrari
-  Or you can send me some Bitcoin:
-  3JToybg7LHAdsteTYGg7jRniRZEMCeTasj
-
-  Follow me on X: https://x.com/GnarledGrip
-
-* The Doom Modeline Package for Emacs #reupload
-:PROPERTIES:
-:DATE:     2025-04-28T11:12:17-07:00
-:DURATION: 6:22
-:YOUTUBE_URL: https://www.youtube.com/watch?v=gWjmBw4REYE
-:SPEAKERS: Emacs Elements
-:END:
-  The notes for this video can be found here on my website:
-  https://gnarledgrip.gitlab.io/
-
-  PLEASE CONSIDER SUPPORTING ME.
-  You can support me on PayPal:
-  https://paypal.me/revrari
-  Or you can send me some Bitcoin:
-  3JToybg7LHAdsteTYGg7jRniRZEMCeTasj
-
-  Follow me on X: https://x.com/GnarledGrip
-
-* god Mode--no more RSI #emacs #reupload
-:PROPERTIES:
-:DATE:     2025-04-28T11:11:43-07:00
-:DURATION: 4:33
-:YOUTUBE_URL: https://www.youtube.com/watch?v=57iRv2zVGGs
-:SPEAKERS: Emacs Elements
-:END:
-  The notes for this video can be found here on my website:
-  https://gnarledgrip.gitlab.io/
-
-  PLEASE CONSIDER SUPPORTING ME.
-  You can support me on PayPal:
-  https://paypal.me/revrari
-  Or you can send me some Bitcoin:
-  3JToybg7LHAdsteTYGg7jRniRZEMCeTasj
-
-  Follow me on X: https://x.com/GnarledGrip
-
-* A brief guide to evil-mode in Emacs #vim #neovim #reupload
-:PROPERTIES:
-:DATE:     2025-04-28T11:11:10-07:00
-:DURATION: 11:05
-:YOUTUBE_URL: https://www.youtube.com/watch?v=7WJzlnlJqVk&pp=0gcJCYUJAYcqIYzv
-:SPEAKERS: Emacs Elements
-:END:
-  The notes for this video can be found here on my website:
-  https://gnarledgrip.gitlab.io/
-
-  PLEASE CONSIDER SUPPORTING ME.
-  You can support me on PayPal:
-  https://paypal.me/revrari
-  Or you can send me some Bitcoin:
-  3JToybg7LHAdsteTYGg7jRniRZEMCeTasj
-
-  Follow me on X: https://x.com/GnarledGrip
 * Make Your First Request to OpenAI/ChatGPT From Emacs Lisp | lesson 06  :ai:
 :PROPERTIES:
 :DATE:     2025-04-22T02:04:52-07:00
@@ -11161,22 +10132,6 @@ exchange-point-and-mark, mark-whole-buffer
   日本語org modeマニュアル ちょっと古い
   https://takaxp.github.io/org-ja.html
 
-* Org Speed Commands #emacs #orgmode #programming #coding
-:PROPERTIES:
-:DATE:     2025-04-20T15:00:24-07:00
-:DURATION: 10:56
-:YOUTUBE_URL: https://www.youtube.com/watch?v=QNzNR-K2biI
-:SPEAKERS: Emacs Elements
-:END:
-  The notes for this video can be found here:
-  https://gnarledgrip.gitlab.io/
-
-  PLEASE CONSIDER SUPPORTING ME.
-  You can support me on PayPal:
-  https://paypal.me/revrari
-  Or you can send me some Bitcoin:
-  3JToybg7LHAdsteTYGg7jRniRZEMCeTasj
-
 *  Emacs UV mode (Python) development VOD         :emacs:uvmode:python:elisp:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=nHV5pRlZMl4
@@ -11214,24 +10169,6 @@ exchange-point-and-mark, mark-whole-buffer
 
   ,#emacs
 
-* Elpaca: Harnessing the power of an advanced Emacs package manager
-:PROPERTIES:
-:DATE:     2025-04-18T07:54:44-07:00
-:DURATION: 14:14
-:YOUTUBE_URL: https://www.youtube.com/watch?v=kIsEtsXyd_o
-:SPEAKERS: Emacs Elements
-:END:
-  The notes for this video can be found here:
-  https://gnarledgrip.gitlab.io/
-
-  PLEASE CONSIDER SUPPORTING ME.
-  You can support me on PayPal:
-  https://paypal.me/revrari
-  Or you can send me some Bitcoin:
-  3JToybg7LHAdsteTYGg7jRniRZEMCeTasj
-
-  Follow me on X: https://x.com/GnarledGrip
-
 * Semantically linking LaTeX documents jumping to URLs, with GNU Emacs.
 :PROPERTIES:
 :DATE:     2025-04-18T06:19:32-07:00
@@ -11260,24 +10197,6 @@ exchange-point-and-mark, mark-whole-buffer
   notes at
   http://xahlee.info/talk_show/xah_talk_show_2025-04-17.html
   (if you get https error, that is because Google Chrome and Firefox browsers censor websites. Use Brave Browser or Safari, or copy and paste the url directly in url field.)
-
-* Quickly Save Org Docs in Emacs #coding #programming
-:PROPERTIES:
-:DATE:     2025-04-17T15:01:09-07:00
-:DURATION: 3:02
-:YOUTUBE_URL: https://www.youtube.com/watch?v=y2snYRnPjsE
-:SPEAKERS: Emacs Elements
-:END:
-  The notes for this video can be found here:
-  https://gitlab.com/-/snippets/4834692
-
-  PLEASE CONSIDER SUPPORTING ME.
-  You can support me on PayPal:
-  https://paypal.me/revrari
-  Or you can send me some Bitcoin:
-  3JToybg7LHAdsteTYGg7jRniRZEMCeTasj
-
-  Follow me on X: https://x.com/GnarledGrip
 
 * GTD + Emacs
 :PROPERTIES:
@@ -11408,24 +10327,6 @@ exchange-point-and-mark, mark-whole-buffer
 
   First video ever, so apologies - the OBS crop wasn't correct and BGs emacs window is slightly cut at the start :-/. Will do better next time. But BG drops enough nuggets of wisdom that I think it will be well worth a watch.
 
-* Mastering Customization in Emacs #coding #programming #customization
-:PROPERTIES:
-:DATE:     2025-04-13T15:00:36-07:00
-:DURATION: 12:39
-:YOUTUBE_URL: https://www.youtube.com/watch?v=Z9iML_8YzsU
-:SPEAKERS: Emacs Elements
-:END:
-  The notes for this video can be found here:
-  https://gnarledgrip.gitlab.io/
-
-  PLEASE CONSIDER SUPPORTING ME.
-  You can support me on PayPal:
-  https://paypal.me/revrari
-  Or you can send me some Bitcoin:
-  3JToybg7LHAdsteTYGg7jRniRZEMCeTasj
-
-  Follow me on X: https://x.com/GnarledGrip
-
 * Ep643 emacs lisp, write a major mode for fsharp
 :PROPERTIES:
 :DATE:     2025-04-13T01:17:20-07:00
@@ -11436,31 +10337,6 @@ exchange-point-and-mark, mark-whole-buffer
   notes at
   http://xahlee.info/talk_show/xah_talk_show_2025-04-12.html
   (if you get https error, that is because Google Chrome and Firefox browsers censor websites. Use Brave Browser or Safari, or copy and paste the url directly in url field.)
-
-* Setup: Clojure, Leiningen, Cider
-:PROPERTIES:
-:DATE:     2025-04-12T23:25:34-07:00
-:DURATION: 14:02
-:YOUTUBE_URL: https://www.youtube.com/watch?v=3mQPS7dWQ6g
-:SPEAKERS: Frickelbude
-:END:
-  Ich zeige das Setup einer Clojure-Entwicklungsumgebung basierend auf Debian GNU/Linux 12 "Bookworm" mit Leiningen und Emacs mit der Erweiterung Cider.
-
-  00:00 Einstieg
-  00:30 Clojure
-  01:14 Leiningen
-  02:17 Emacs
-  03:09 Emacs-Konfiguration
-  04:29 Erweiterugen installieren
-  06:17 Konfiguration erweitern
-  06:51 Projekt anlegen
-  07:35 Cider starten
-  08:21 Cider verwenden
-  09:41 Code erweitern
-  11:01 Funktion kompilieren
-  12:05 VM hochskalieren
-  13:03 Funktion verwenden
-  13:34 Schluss
 
 * Introducing semext for #emacs
 :PROPERTIES:
@@ -11548,23 +10424,6 @@ exchange-point-and-mark, mark-whole-buffer
 
   https://forums.tamillinuxcommunity.org/t/need-help-to-make-emacs-as-fullcsreen-edtior-like-writeroom/2906
 
-* Navigating the Emacs Calendar #diary
-:PROPERTIES:
-:DATE:     2025-04-10T15:00:47-07:00
-:DURATION: 5:10
-:YOUTUBE_URL: https://www.youtube.com/watch?v=fuLYSTkmzaA
-:SPEAKERS: Emacs Elements
-:END:
-  The notes for this video can be found here:
-  https://gnarledgrip.gitlab.io/
-
-  PLEASE CONSIDER SUPPORTING ME.
-  You can support me on PayPal:
-  https://paypal.me/revrari
-  Or you can send me some Bitcoin:
-  3JToybg7LHAdsteTYGg7jRniRZEMCeTasj
-
-  Follow me on X: https://x.com/GnarledGrip
 * Does emacs startup time ACTUALLY matter?
 :PROPERTIES:
 :DATE:     2025-04-10T10:28:23-07:00
@@ -11634,24 +10493,6 @@ exchange-point-and-mark, mark-whole-buffer
 
   There are so many combinations.
 
-* The Emacs dired-du Package #emacs #coding #programming
-:PROPERTIES:
-:DATE:     2025-04-08T15:00:10-07:00
-:DURATION: 2:11
-:YOUTUBE_URL: https://www.youtube.com/watch?v=5o7pajQ-k_c
-:SPEAKERS: Emacs Elements
-:END:
-  The notes for this video can be found here:
-  https://gnarledgrip.gitlab.io/
-
-  PLEASE CONSIDER SUPPORTING ME.
-  You can support me on PayPal:
-  https://paypal.me/revrari
-  Or you can send me some Bitcoin:
-  3JToybg7LHAdsteTYGg7jRniRZEMCeTasj
-
-  Follow me on X: https://x.com/GnarledGrip
-
 * Emacs vibe-talkin: making my modeline personal
 :PROPERTIES:
 :DATE:     2025-04-08T13:47:28-07:00
@@ -11686,39 +10527,6 @@ exchange-point-and-mark, mark-whole-buffer
   https://chrismaiorana.com/spin-up-a-simple-web-server-from-emacs/
 
   🌐: https://chrismaiorana.com/subscribe/
-
-* Advanced Emacs Motions #emacs #coding #programming
-:PROPERTIES:
-:DATE:     2025-04-06T15:00:06-07:00
-:DURATION: 15:48
-:YOUTUBE_URL: https://www.youtube.com/watch?v=XzWFdfKFJ_o
-:SPEAKERS: Raoul Comninos
-:END:
-  The notes for this video can be found here:
-  https://gitlab.com/-/snippets/4832096
-
-  PLEASE CONSIDER SUPPORTING ME.
-  You can support me on PayPal:
-  https://paypal.me/revrari
-  Or you can send me some Bitcoin:
-  3JToybg7LHAdsteTYGg7jRniRZEMCeTasj
-* Emacs makes a big ediff #emacs #coding #programming
-:PROPERTIES:
-:DATE:     2025-04-03T15:00:05-07:00
-:DURATION: 1:59
-:YOUTUBE_URL: https://www.youtube.com/watch?v=4eYXTlZ2SwQ
-:SPEAKERS: Emacs Elements
-:END:
-  The notes for this video can be found here:
-  https://gnarledgrip.gitlab.io/
-
-  PLEASE CONSIDER SUPPORTING ME.
-  You can support me on PayPal:
-  https://paypal.me/revrari
-  Or you can send me some Bitcoin:
-  3JToybg7LHAdsteTYGg7jRniRZEMCeTasj
-
-  Follow me on X: https://x.com/GnarledGrip
 
 * Nth Brains with Org Roam💻🕸
 :PROPERTIES:
@@ -11761,42 +10569,6 @@ exchange-point-and-mark, mark-whole-buffer
 :PEERTUBE_URL: https://communitymedia.video/w/bHafNcgW9jDXM1kdmdsyRo
 :END:
   Ramin_Hal9001 talks about their essays and research into emacs, the unix philosophy and lisp in history and practice, as well as live and earlier commentary and notes from Kent Pitman, Nosredna ydu...
-* Two Productivity Packages: bufferfile and stripspace #emacs #coding #programming
-:PROPERTIES:
-:DATE:     2025-04-01T22:34:12-07:00
-:DURATION: 2:56
-:YOUTUBE_URL: https://www.youtube.com/watch?v=esRTjdRh4yo
-:SPEAKERS: Emacs Elements
-:END:
-  https://sachachua.com/blog/2025/03/2025-03-31-emacs-news/
-  The notes for this video can be found here:
-  https://gnarledgrip.gitlab.io/
-
-  PLEASE CONSIDER SUPPORTING ME.
-  You can support me on PayPal:
-  https://paypal.me/revrari
-  Or you can send me some Bitcoin:
-  3JToybg7LHAdsteTYGg7jRniRZEMCeTasj
-
-  Follow me on X: https://x.com/GnarledGrip
-
-* Emacs Mono Complete Package #emacs #coding #programming
-:PROPERTIES:
-:DATE:     2025-04-01T13:07:50-07:00
-:DURATION: 1:05
-:YOUTUBE_URL: https://www.youtube.com/watch?v=_VQ_nwTT7J0
-:SPEAKERS: Emacs Elements
-:END:
-  https://codeberg.org/ideasman42/emacs-mono-complete
-
-  PLEASE CONSIDER SUPPORTING ME.
-  You can support me on PayPal:
-  https://paypal.me/revrari
-  Or you can send me some Bitcoin:
-  3JToybg7LHAdsteTYGg7jRniRZEMCeTasj
-
-  Follow me on X: https://x.com/GnarledGrip
-
 * Why I use Emacs
 :PROPERTIES:
 :DATE:     2025-04-01T00:12:13-07:00
@@ -11809,34 +10581,6 @@ exchange-point-and-mark, mark-whole-buffer
   Please subscribe to my youtube channel (https://youtube.com/@iobkrA) in your favourite browser (it will subscribe globally) if you want more content like this. 😊
 
   Hash tags: #emacs #texteditor #gnu
-* Emacs Macros: All You Need to Know #coding #programming
-:PROPERTIES:
-:DATE:     2025-03-30T15:00:06-07:00
-:DURATION: 15:36
-:YOUTUBE_URL: https://www.youtube.com/watch?v=dFFewYmtfGM
-:SPEAKERS: Raoul Comninos
-:END:
-  00:00 Introduction
-  02:40 Repeat Macro over region
-  03:57 Example of Macros across buffers
-  05:20 Keyboard Macro Ring
-  05:48 The Macro Counter
-  07:30 Executing Macros with Variations
-  11:15 Naming and Saving Macros
-  13:15 Insert Macro into the Buffer
-  15:08 Conclusion
-
-  The notes for this video can be found here:
-  https://gitlab.com/-/snippets/4830270
-
-  PLEASE CONSIDER SUPPORTING ME.
-  You can support me on PayPal:
-  https://paypal.me/revrari
-  Or you can send me some Bitcoin:
-  3JToybg7LHAdsteTYGg7jRniRZEMCeTasj
-
-  Follow me on X: https://x.com/GnarledGrip
-
 * Ollama Buddy - Same prompt to 10 models (multishot) #emacs #ollama
 :PROPERTIES:
 :DATE:     2025-03-30T07:26:40-07:00
@@ -12023,24 +10767,6 @@ exchange-point-and-mark, mark-whole-buffer
   1:03:00 The Mandatory Outroductory Ramble
   1:04:40 ln2.thebitmage
 
-* Activate superword mode in the Emacs Minibuffer #coding #programming
-:PROPERTIES:
-:DATE:     2025-03-27T15:00:22-07:00
-:DURATION: 1:06
-:YOUTUBE_URL: https://www.youtube.com/watch?v=WqN27ltSwag
-:SPEAKERS: Raoul Comninos
-:END:
-  The notes for this video can be found here:
-  https://gitlab.com/-/snippets/4830168
-
-  PLEASE CONSIDER SUPPORTING ME.
-  You can support me on PayPal:
-  https://paypal.me/revrari
-  Or you can send me some Bitcoin:
-  3JToybg7LHAdsteTYGg7jRniRZEMCeTasj
-
-  Follow me on X: https://x.com/GnarledGrip
-
 * Clojure visual-tools 32- Workflow Demos 6: old-school tools, REPL, Emacs, Org-mode, AI, MCP, & more
 :PROPERTIES:
 :DATE:     2025-03-26T17:08:30-07:00
@@ -12055,82 +10781,6 @@ exchange-point-and-mark, mark-whole-buffer
   Aditya Athalye - Keeping it Old-Tool: REPL habits of a grug-brained Clojurist
 
   Summary: https://clojureverse.org/t/visual-tools-meeting-32-workflow-demos-6-old-school-tools-repl-emacs-org-mode-ai-mcp-more/
-* Get Emacs Packages from the Emacswiki with a Script
-:PROPERTIES:
-:DATE:     2025-03-25T20:47:11-07:00
-:DURATION: 2:45
-:YOUTUBE_URL: https://www.youtube.com/watch?v=3WbATXxzmh4
-:SPEAKERS: Raoul Comninos
-:END:
-  The notes for this video can be found here:
-  https://gitlab.com/-/snippets/4830173
-  https://www.emacswiki.org/
-
-  PLEASE CONSIDER SUPPORTING ME.
-  You can support me on PayPal:
-  https://paypal.me/revrari
-  Or you can send me some Bitcoin:
-  3JToybg7LHAdsteTYGg7jRniRZEMCeTasj
-
-  Follow me on X: https://x.com/GnarledGrip
-
-* The Emacs Claude Code Package #coding #ai #programming #project
-:PROPERTIES:
-:DATE:     2025-03-19T00:14:08-07:00
-:DURATION: 6:08
-:YOUTUBE_URL: https://www.youtube.com/watch?v=K8sCVLmFyyU
-:SPEAKERS: Emacs Elements
-:END:
-  The notes for this video can be found here:
-  https://gitlab.com/-/snippets/4830175
-
-  PLEASE CONSIDER SUPPORTING ME.
-  You can support me on PayPal:
-  https://paypal.me/revrari
-  Or you can send me some Bitcoin:
-  3JToybg7LHAdsteTYGg7jRniRZEMCeTasj
-
-  Follow me on X: https://x.com/GnarledGrip
-
-* Set up Emacs for Classical Greek and Hebrew #greek #hebrew #emacs
-:PROPERTIES:
-:DATE:     2025-03-17T11:39:59-07:00
-:DURATION: 7:17
-:YOUTUBE_URL: https://www.youtube.com/watch?v=Fl4eu_bv54c
-:SPEAKERS: Emacs Elements
-:END:
-  The notes for this video can be found here:
-  https://gitlab.com/-/snippets/4830177
-
-  PLEASE CONSIDER SUPPORTING ME.
-  You can support me on PayPal:
-  https://paypal.me/revrari
-  Or you can send me some Bitcoin:
-  3JToybg7LHAdsteTYGg7jRniRZEMCeTasj
-
-  Follow me on X: https://x.com/GnarledGrip
-
-* Backup Each Save #emacs #backup #coding #programming
-:PROPERTIES:
-:DATE:     2025-03-17T11:39:17-07:00
-:DURATION: 2:19
-:YOUTUBE_URL: https://www.youtube.com/watch?v=igsXmdRQOIs
-:SPEAKERS: Emacs Elements
-:END:
-  The notes for this video can be found here:
-  //////////////////////////////////////////////////////////////
-  (require 'backup-each-save)
-  (setq backup-each-save-mirror-location "~/.emacs.d/.backups")
-  (add-hook 'after-save-hook 'backup-each-save)
-  /////////////////////////////////////////////////////////////////////
-  PLEASE CONSIDER SUPPORTING ME.
-  You can support me on PayPal:
-  https://paypal.me/revrari
-  Or you can send me some Bitcoin:
-  3JToybg7LHAdsteTYGg7jRniRZEMCeTasj
-
-  Follow me on X: https://x.com/GnarledGrip
-
 * GNU Emacs má 40 let (Tomáš Čech)
 :PROPERTIES:
 :DATE:     2025-03-17T03:19:55-07:00
@@ -12168,25 +10818,6 @@ exchange-point-and-mark, mark-whole-buffer
 :END:
   I learn from people how to be and how not to be.
 
-* The Emacs recursive narrow package #coding #programming
-:PROPERTIES:
-:DATE:     2025-03-16T15:00:25-07:00
-:DURATION: 2:41
-:YOUTUBE_URL: https://www.youtube.com/watch?v=fLMUE-_mVLk
-:SPEAKERS: Raoul Comninos
-:END:
-  https://github.com/nflath/recursive-narrow/tree/master
-  The notes for this video can be found here:
-  https://gist.github.com/gnarledgrip/6585ed677c1372df1248e3b7c783235e
-
-  PLEASE CONSIDER SUPPORTING ME.
-  You can support me on PayPal:
-  https://paypal.me/revrari
-  Or you can send me some Bitcoin:
-  3JToybg7LHAdsteTYGg7jRniRZEMCeTasj
-
-  Follow me on X: https://x.com/GnarledGrip
-
 * Editing Files with Emacs
 :PROPERTIES:
 :DATE:     2025-03-16T11:30:42-07:00
@@ -12197,21 +10828,6 @@ exchange-point-and-mark, mark-whole-buffer
   In this tutorial, you'll learn how to edit files using the Emacs editor in Linux. Emacs is a powerful and highly customizable text editor used by developers and system administrators worldwide. We'll cover the basics, including navigation, editing, saving, and essential shortcuts to boost your productivity. Whether you're new to Emacs or looking to sharpen your skills, this tutorial will help you get started!
 
   #Linux #Emacs #TextEditor #EmacsTutorial #LinuxCommands #Programming #DevOps #EmacsShortcuts #TerminalCommands #SysAdmin #LinuxForBeginners
-
-* Dragstuff - moving lines up and down in Emacs #lines
-:PROPERTIES:
-:DATE:     2025-03-15T01:34:18-07:00
-:DURATION: 0:33
-:YOUTUBE_URL: https://www.youtube.com/watch?v=S0FCPsiNtl8
-:SPEAKERS: Emacs Elements
-:END:
-  PLEASE CONSIDER SUPPORTING ME.
-  You can support me on PayPal:
-  https://paypal.me/revrari
-  Or you can send me some Bitcoin:
-  3JToybg7LHAdsteTYGg7jRniRZEMCeTasj
-
-  Follow me on X: https://x.com/GnarledGrip
 
 * Dotfiles Check-Up: Emacs and Guix Tweaks - System Crafters Live!
 :PROPERTIES:
@@ -12343,22 +10959,6 @@ exchange-point-and-mark, mark-whole-buffer
   18:21 - Push github changes
   18:48 - Thank you for the help supporters
   19:47 - GitHub changes in SketchyBar
-* A tutorial on 2 Columns in Emacs #emacs #coding #programming
-:PROPERTIES:
-:DATE:     2025-03-13T15:00:20-07:00
-:DURATION: 11:31
-:YOUTUBE_URL: https://www.youtube.com/watch?v=Vu36eBLwe4c
-:SPEAKERS: Raoul Comninos
-:END:
-  The notes for this video can be found here:
-  https://gist.github.com/gnarledgrip/f51a29c8e870db92be70f1c18b79cecc
-
-  PLEASE CONSIDER SUPPORTING ME.
-  You can support me on PayPal:
-  https://paypal.me/revrari
-  Or you can send me some Bitcoin:
-  3JToybg7LHAdsteTYGg7jRniRZEMCeTasj
-
 * Some problems of modernizing Emacs (incomplete - slides 0 to 6 only)
 :PROPERTIES:
 :DATE:     2025-03-11T02:42:01-07:00
@@ -12383,24 +10983,6 @@ exchange-point-and-mark, mark-whole-buffer
   This is done via the `M-x shell-command-on-region` using a prefix argument. The keybinding I highlighted in the video is incorrect ... it's actually "C-u M-|"
 
   Anyways, the command is generally useful when learning Linux commands. It requires no emacs dependencies. It augments any buffer with CLI super-powers: you can transform text piped into and out of commands. Whatever is highlighted is piped into the first command run by "shell-command-on-region"
-* Better registers in Emacs #coding #programming #emacswiki   :registers:
-:PROPERTIES:
-:DATE:     2025-03-09T15:00:41-07:00
-:DURATION: 6:16
-:YOUTUBE_URL: https://www.youtube.com/watch?v=xEXqcLLLjvA
-:SPEAKERS: Raoul Comninos
-:END:
-  The notes for this video can be found here:
-  https://gist.github.com/gnarledgrip/2e777f8051bb6e36f0d10f55ef7ac331
-
-  PLEASE CONSIDER SUPPORTING ME.
-  You can support me on PayPal:
-  https://paypal.me/revrari
-  Or you can send me some Bitcoin:
-  3JToybg7LHAdsteTYGg7jRniRZEMCeTasj
-
-  Follow me on X: https://x.com/GnarledGrip
-
 * How to extract the Filename from an Emacs buffer and include it in a Yasnippet  :yasnippet:elisp:
 :PROPERTIES:
 :DATE:     2025-03-09T01:39:30-08:00
@@ -12474,15 +11056,6 @@ exchange-point-and-mark, mark-whole-buffer
   ukeSounds by airtone, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/airtone/32655
   Between Worlds (Instrumental) by Aussens@iter, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/tobias_weber/56664
 
-* Erlang shell in Emacs
-:PROPERTIES:
-:DATE:     2025-03-07T10:34:45-08:00
-:DURATION: 1:19
-:YOUTUBE_URL: https://www.youtube.com/watch?v=wZldeJ8hUHo
-:SPEAKERS: Duncan Britt
-:END:
-  How I use emacs keybindings to interact with a running (rebar3) Erlang shell in Emacs.
-
 * Emacs, czyli edytor tak wszechstronny, że może zostać Window Managerem - „Hakki” | JL 2024
 :PROPERTIES:
 :DATE:     2025-03-07T08:00:50-08:00
@@ -12532,102 +11105,6 @@ exchange-point-and-mark, mark-whole-buffer
 
   Github: https://github.com/MatthewZMD/aidermacs
 
-* Mastering Rectangles in Emacs #column #emacs
-:PROPERTIES:
-:DATE:     2025-03-06T14:00:06-08:00
-:DURATION: 8:05
-:YOUTUBE_URL: https://www.youtube.com/watch?v=Beqf9X4seLA
-:SPEAKERS: Emacs Elements
-:END:
-  The notes for this video can be found here:
-  https://mega.nz/folder/XyQQEBRY#jQ-Eo_o8mDPo_d5_86sAww
-
-  PLEASE CONSIDER SUPPORTING ME.
-  You can support me on PayPal:
-  https://paypal.me/revrari
-  Or you can send me some Bitcoin:
-  3JToybg7LHAdsteTYGg7jRniRZEMCeTasj
-
-  Follow me on X: https://x.com/GnarledGrip
-
-* Emacs Note Taking & Journaling with org-gnosis  :org:
-:PROPERTIES:
-:DATE:     2025-03-03T11:11:59-08:00
-:DURATION: 12:00
-:YOUTUBE_URL: https://www.youtube.com/watch?v=5SkLa7jGjl0&feature=youtu.be
-:SPEAKERS: Thanos Apollo
-:END:
-  Overview about org-gnosis, a Roam-like Knowledge Management System for GNU Emacs.
-
-  Org Gnosis is a knowledge management tool that leverages Org mode
-  for storing notes & journal entries, integrating them with an
-  SQLite database for efficient retrieval and relationship mapping.
-
-  Org Gnosis Homepage: https://thanosapollo.org/projects/org-gnosis/
-
-  Video notes: https://thanosapollo.org/posts/org-gnosis-overview/
-
-* Emacs smart-mode-line Package #emacs #coding #programming
-:PROPERTIES:
-:DATE:     2025-03-02T14:00:30-08:00
-:DURATION: 2:00
-:YOUTUBE_URL: https://www.youtube.com/watch?v=vc5jEDlq2P8
-:SPEAKERS: Emacs Elements
-:END:
-  The notes for this video can be found here:
-  https://mega.nz/folder/7ugwUIAI#rYyqNQ_vkl_JVbCqxQVsGw
-
-  PLEASE CONSIDER SUPPORTING ME.
-  You can support me on PayPal:
-  https://paypal.me/revrari
-  Or you can send me some Bitcoin:
-  3JToybg7LHAdsteTYGg7jRniRZEMCeTasj
-
-  Follow me on X: https://x.com/GnarledGrip
-
-* Store snippets of information fast with Emacs Remember #coding #programming
-:PROPERTIES:
-:DATE:     2025-02-27T20:09:12-08:00
-:DURATION: 3:27
-:YOUTUBE_URL: https://www.youtube.com/watch?v=adEvbf3zoxk
-:SPEAKERS: Emacs Elements
-:END:
-  The notes for this video can be found here:
-  /////////////////////////////////////////////////////////////
-  (require 'remember)
-  (setq remember-data-directory "~/.emacs.d/remember")
-  (setq remember-handler-functions '(remember-store-in-files))
-  (setq remember-annotation-functions nil)
-  (setq remember-directory-file-name-format "lisp-snippet-%Y-%m-%d-%T.el")
-  (global-set-key (kbd "C-c r") 'remember-region)
-  (global-set-key (kbd "C-c z") 'remember-finalize)
-  /////////////////////////////////////////////////////////////////////
-  PLEASE CONSIDER SUPPORTING ME.
-  You can support me on PayPal:
-  https://paypal.me/revrari
-  Or you can send me some Bitcoin:
-  3JToybg7LHAdsteTYGg7jRniRZEMCeTasj
-
-  Follow me on X: https://x.com/GnarledGrip
-
-* The Golden Ratio Package in Emacs   :windows:
-:PROPERTIES:
-:DATE:     2025-02-27T14:00:37-08:00
-:DURATION: 6:50
-:YOUTUBE_URL: https://www.youtube.com/watch?v=nAZZ02hPBd0
-:SPEAKERS: Raoul Comninos
-:END:
-  The notes for this video can be found here:
-  https://gist.github.com/gnarledgrip/52ba7dd3a433c8bfaab669ef0e92b8d3
-  Follow me on X:
-  https://x.com/GnarledGrip
-
-  PLEASE CONSIDER SUPPORTING ME.
-  You can support me on PayPal:
-  https://paypal.me/revrari
-  Or you can send me some Bitcoin:
-  3JToybg7LHAdsteTYGg7jRniRZEMCeTasj
-
 * Xah Talk Show 2025-02-26 Ep620 emacs lisp coding   :livestream:elisp:
 :PROPERTIES:
 :DATE:     2025-02-27T05:31:34-08:00
@@ -12637,15 +11114,6 @@ exchange-point-and-mark, mark-whole-buffer
 :END:
   notes at
   http://xahlee.info/talk_show/xah_talk_show_2025-02-26.html
-
-* Rewriting My Emacs Config [Tamil]   :configuration:
-:PROPERTIES:
-:DATE:     2025-02-26T23:32:17-08:00
-:DURATION: 1:07:06
-:YOUTUBE_URL: https://www.youtube.com/watch?v=u6xmCxUNb4k
-:SPEAKERS: Gob
-:END:
-  https://www.gnu.org/software/emacs/
 
 * Emacs 30 Now On Android  :emacs30:android:
 :PROPERTIES:
@@ -12677,53 +11145,6 @@ exchange-point-and-mark, mark-whole-buffer
 
   Intro / outro music is borrowed with permission from H0ffman:
   https://soundcloud.com/h0ffman/sets/protracker-amiga
-
-* The winnow package: Separating the grain from the chaff #emacs #coding   :coding:
-:PROPERTIES:
-:DATE:     2025-02-24T21:11:15-08:00
-:DURATION: 3:19
-:YOUTUBE_URL: https://www.youtube.com/watch?v=BjX8-D-NonY
-:SPEAKERS: Raoul Comninos
-:END:
-  I am indebted to the help I received on Stack Exchange for this video:
-  https://emacs.stackexchange.com/questions/83073/deleting-lines-in-an-editable-occur-buffer
-  The notes for this video can be found here:
-  https://gist.github.com/gnarledgrip/ddadd6b7933d50febafa5a1b6f8170b3
-  Follow me on X:
-  https://x.com/GnarledGrip
-
-  PLEASE CONSIDER SUPPORTING ME.
-  You can support me on PayPal:
-  https://paypal.me/revrari
-  Or you can send me some Bitcoin:
-  3JToybg7LHAdsteTYGg7jRniRZEMCeTasj
-* Comprehensive 12 Part Org-Agenda Course in One #emacs #coding #scheduling #org  :org:
-:PROPERTIES:
-:DATE:     2025-02-23T14:00:00-08:00
-:DURATION: 1:34:06
-:YOUTUBE_URL: https://www.youtube.com/watch?v=-2kQNmfVzAI
-:SPEAKERS: Raoul Comninos
-:END:
-  00:00 Todos
-  03:31 Todos (Advanced)
-  09:22 Tags
-  19:34 Timestamps
-  24:26 Creating Timestamps
-  31:36 Scheduled and Deadline
-  39:02 Refiling
-  42:04 Org Capture
-  47:15 Org Capture Templates
-  56:19 Org Attachments
-  1:08:45 Org Agenda View
-  1:15:40 Org Agenda Customization
-
-  https://mega.nz/folder/rnBTmSDa#uEsPBcwTvqRJ2NdGCZZacg
-
-  PLEASE CONSIDER SUPPORTING ME.
-  You can support me on PayPal:
-  https://paypal.me/revrari
-  Or you can send me some Bitcoin:
-  3JToybg7LHAdsteTYGg7jRniRZEMCeTasj
 
 * advanced emacs: revert-buffer-function   :navigation:
 :PROPERTIES:
@@ -12781,16 +11202,6 @@ exchange-point-and-mark, mark-whole-buffer
 
   The sound is played separately.
 
-* Emacs Form Scratch Tamil [ep1]   :configuration:
-:PROPERTIES:
-:DATE:     2025-02-22T15:23:03-08:00
-:DURATION: 1:28:42
-:YOUTUBE_URL: https://www.youtube.com/watch?v=AVJ9Njvq4HI
-:SPEAKERS: Gob
-:END:
-  https://www.gnu.org/software/emacs/
-  https://github.com/AyakoGFX/emacs-form-scratch.git
-
 * What's New in Emacs? (Feb 2025) - System Crafters Live!  :emacs30:
 :PROPERTIES:
 :DATE:     2025-02-22T14:37:25-08:00
@@ -12843,21 +11254,6 @@ exchange-point-and-mark, mark-whole-buffer
   reNovation by airtone, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/airtone/60674
   ukeSounds by airtone, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/airtone/32655
   Between Worlds (Instrumental) by Aussens@iter, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/tobias_weber/56664
-
-* The auto-org-md package #org #markdown #coding #programming #emacs  :org:markdown:
-:PROPERTIES:
-:DATE:     2025-02-22T07:21:29-08:00
-:DURATION: 1:03
-:YOUTUBE_URL: https://www.youtube.com/watch?v=PgsaODAZyt0
-:SPEAKERS: Raoul Comninos
-:END:
-  https://mega.nz/file/22giDQSK#NiJyKdqULa935AmvAQdv6BJ_IvwHE28JRdj8q-nDhaA
-
-  PLEASE CONSIDER SUPPORTING ME.
-  You can support me on PayPal:
-  https://paypal.me/revrari
-  Or you can send me some Bitcoin:
-  3JToybg7LHAdsteTYGg7jRniRZEMCeTasj
 
 * RAGmacs - Pt. 2: Re-Tooling Emacs With GPTel  :ai:gptel:
 :PROPERTIES:
@@ -12925,21 +11321,6 @@ exchange-point-and-mark, mark-whole-buffer
 :END:
   Vibe coding (https://x.com/karpathy/status/1886192184808149383), or writing code from prompts to LLMs, is a feature of many new editors like VS Code, Cursor, etc. In this video I explore the ideas using Emacs, whisper, and gptel. It is still a little rough but pretty reasonable.
 
-* The ChatGPT Shell Package #emacs #ai #coding #programming #openai #llama   :ai:ChatGPTShell:
-:PROPERTIES:
-:DATE:     2025-02-20T14:00:05-08:00
-:DURATION: 8:24
-:YOUTUBE_URL: https://www.youtube.com/watch?v=oYhI9X1j0p0
-:SPEAKERS: Raoul Comninos
-:END:
-  https://mega.nz/file/76hiSLZI#FTvycBT9nD6Pp4-o4tpDTDokVomBFlqZJxSpeVzZRCo
-
-  PLEASE CONSIDER SUPPORTING ME.
-  You can support me on PayPal:
-  https://paypal.me/revrari
-  Or you can send me some Bitcoin:
-  3JToybg7LHAdsteTYGg7jRniRZEMCeTasj
-
 * Watch YouTube with Emacs Elfeed and GNU EMMS  :elfeed:youtube:emms:
 :PROPERTIES:
 :DATE:     2025-02-19T17:50:50-08:00
@@ -12975,39 +11356,6 @@ exchange-point-and-mark, mark-whole-buffer
 :END:
   notes
   http://xahlee.info/talk_show/xah_talk_show_2025-02-16.html
-
-* What's new in Emacs 29 #emacs #coding #programming
-:PROPERTIES:
-:DATE:     2025-02-16T20:02:34-08:00
-:DURATION: 11:17
-:YOUTUBE_URL: https://www.youtube.com/watch?v=gcQ-CvYl6Fs
-:SPEAKERS: Emacs Elements
-:END:
-  The notes for this video can be found here:
-  https://mega.nz/folder/2qomCaSC#1oEgu0Ts5ndJdlMjZhEscw
-  Follow me on X:
-  https://x.com/GnarledGrip
-
-  PLEASE CONSIDER SUPPORTING ME.
-  You can support me on PayPal:
-  https://paypal.me/revrari
-  Or you can send me some Bitcoin:
-  3JToybg7LHAdsteTYGg7jRniRZEMCeTasj
-
-* Installing Doom Emacs on Windows #emacs #doomemacs #keybinds  :DoomEmacs:windows:
-:PROPERTIES:
-:DATE:     2025-02-16T20:02:21-08:00
-:DURATION: 10:17
-:YOUTUBE_URL: https://www.youtube.com/watch?v=IAZU6sC46YU
-:SPEAKERS: Raoul Comninos
-:END:
-  https://mega.nz/file/zuBDkC6Z#_u6P1_FYywOeIcTwF5C5avSMPKHQj9cgdOSBS0N5R5A
-
-  PLEASE CONSIDER SUPPORTING ME.
-  You can support me on PayPal:
-  https://paypal.me/revrari
-  Or you can send me some Bitcoin:
-  3JToybg7LHAdsteTYGg7jRniRZEMCeTasj
 
 * Is spacemacs the best emacs distro?  :spacemacs:
 :PROPERTIES:
@@ -13064,60 +11412,6 @@ exchange-point-and-mark, mark-whole-buffer
 :SPEAKERS: mtv1337
 :END:
   просто свои мысли
-* Enhanced Image Features in Emacs 29 #coding #programming
-:PROPERTIES:
-:DATE:     2025-02-13T14:00:29-08:00
-:DURATION: 7:05
-:YOUTUBE_URL: https://www.youtube.com/watch?v=q0J12EJ6qJk
-:SPEAKERS: Emacs Elements
-:END:
-  The notes for this video can be found here:
-  https://mega.nz/folder/2qomCaSC#1oEgu0Ts5ndJdlMjZhEscw
-
-  PLEASE CONSIDER SUPPORTING ME.
-  You can support me on PayPal:
-  https://paypal.me/revrari
-  Or you can send me some Bitcoin:
-  3JToybg7LHAdsteTYGg7jRniRZEMCeTasj
-
-* Emacs Tamil Introduction
-:PROPERTIES:
-:DATE:     2025-02-10T05:50:56-08:00
-:DURATION: 1:21:28
-:YOUTUBE_URL: https://www.youtube.com/watch?v=izlOuKf_jxU
-:SPEAKERS: Gob
-:END:
-  The file in the vod
-  https://gist.github.com/AyakoGFX/5ca7239dcf41e04811f2fc210606c9a5
-
-* One and a half-hour advanced course on Org Mode (8 videos in one) #emacs #orgmode #org  :org:
-:PROPERTIES:
-:DATE:     2025-02-09T20:04:37-08:00
-:DURATION: 1:32:14
-:YOUTUBE_URL: https://www.youtube.com/watch?v=QlYQijQCNHU
-:SPEAKERS: Raoul Comninos
-:END:
-  00:00 Introduction
-  06:51 Structures
-  13:53 Motions
-  21:05 Structure Editing
-  25:40 Sparse Trees
-  30:50 Plain Lists
-  35:43 Drawers
-  42:05 Footnotes
-  53:54 Hyperlinks
-  1:05:31 Theory of External Links
-  1:13:02 Handling External Links
-  1:22:45 Rich Text
-
-  PLEASE CONSIDER SUPPORTING ME.
-  You can support me on PayPal:
-  https://paypal.me/revrari
-  Or you can send me some Bitcoin:
-  3JToybg7LHAdsteTYGg7jRniRZEMCeTasj
-
-  https://mega.nz/folder/enhUzYDK#ZUPHW0-8edaSCtBdgKO_ZQ
-
 * RAGmacs - Pt. 1: Retrieving Deep Value in Emacs   :ai:
 :PROPERTIES:
 :DATE:     2025-02-08T20:53:38-08:00
@@ -13163,21 +11457,6 @@ exchange-point-and-mark, mark-whole-buffer
   The repo - https://github.com/rolandtritsch/99-scala3-problems
   The emacs config - https://github.com/rolandtritsch/emacs.d
 
-* Quickly delete all lines containing a string #emacs #coding #programming
-:PROPERTIES:
-:DATE:     2025-02-08T08:37:03-08:00
-:DURATION: 2:47
-:YOUTUBE_URL: https://www.youtube.com/watch?v=z38_FhNKHuY
-:SPEAKERS: Raoul Comninos
-:END:
-  https://mega.nz/file/ez4wiaZC#cUir8-1vaycl8k1ox_OqbU-uqWGsrSwgqQwwlrmJfOU
-
-  PLEASE CONSIDER SUPPORTING ME.
-  You can support me on PayPal:
-  https://paypal.me/revrari
-  Or you can send me some Bitcoin:
-  3JToybg7LHAdsteTYGg7jRniRZEMCeTasj
-
 * Export From Emacs to Microsoft Word Format (The Whole Writing Process)  :org:
 :PROPERTIES:
 :DATE:     2025-02-08T05:20:36-08:00
@@ -13216,20 +11495,6 @@ exchange-point-and-mark, mark-whole-buffer
   Pagina ko-fi per le donazioni: https://ko-fi.com/nfvblog
   Pagina Mastodon: https://mastodon.cloud/@nfvblog
 
-* Properly Installing Emacs on Windows #emacs #windows #coding #programming  :windows:install:
-:PROPERTIES:
-:DATE:     2025-02-06T14:00:06-08:00
-:DURATION: 19:22
-:YOUTUBE_URL: https://www.youtube.com/watch?v=9lE45khK3qU
-:SPEAKERS: Raoul Comninos
-:END:
-  https://mega.nz/folder/LuJ3hTYT#LFwG28uaKtdjahiMzdDgqw
-
-  PLEASE CONSIDER SUPPORTING ME.
-  You can support me on PayPal:
-  https://paypal.me/revrari
-  Or you can send me some Bitcoin:
-  3JToybg7LHAdsteTYGg7jRniRZEMCeTasj
 * 02 - Text Editing Approaches - Vim and Emacs - History   :comparison:
 :PROPERTIES:
 :DATE:     2025-02-06T07:20:15-08:00
@@ -13275,19 +11540,6 @@ exchange-point-and-mark, mark-whole-buffer
 
   Slides: https://docs.google.com/presentation/d/11FuMW0tisLRc7nBiBMSVJxuig9qXKPN1XUfsbcd1BYU/edit?usp=sharing
 
-* Nuke em! Quick search and replace #emacs #org #markdown  :org:
-:PROPERTIES:
-:DATE:     2025-02-02T23:31:44-08:00
-:DURATION: 1:07
-:YOUTUBE_URL: https://www.youtube.com/watch?v=MSZ7f-n9Jic
-:SPEAKERS: Raoul Comninos
-:END:
-  PLEASE CONSIDER SUPPORTING ME.
-  You can support me on PayPal:
-  https://paypal.me/revrari
-  Or you can send me some Bitcoin:
-  3JToybg7LHAdsteTYGg7jRniRZEMCeTasj
-
 * piem - an Emacs tool for applying patches   :dev:
 :PROPERTIES:
 :DATE:     2025-02-02T22:09:38-08:00
@@ -13320,31 +11572,6 @@ exchange-point-and-mark, mark-whole-buffer
 
   Other tags:
   #linux #foss #floss #lisp #scheme #guile #nrepl #repl
-
-* My simple note taking system #emacs #orgmode #coding #programming #notes  :org:
-:PROPERTIES:
-:DATE:     2025-02-02T14:00:11-08:00
-:DURATION: 5:38
-:YOUTUBE_URL: https://www.youtube.com/watch?v=KMGgHyaIpo0
-:SPEAKERS: Raoul Comninos
-:END:
-  The notes for this video can be found here:
-  https://mega.nz/file/2qpGzQ7I#KujN6Edr2RMIhNXlxbL31S0SdZqE_Oczsqfju0WKlN0
-
-  PLEASE CONSIDER SUPPORTING ME.
-  You can support me on PayPal:
-  https://paypal.me/revrari
-  Or you can send me some Bitcoin:
-  3JToybg7LHAdsteTYGg7jRniRZEMCeTasj
-
-* configuring emacs   :configuration:
-:PROPERTIES:
-:DATE:     2025-02-02T12:28:10-08:00
-:DURATION: 4:12
-:YOUTUBE_URL: https://www.youtube.com/watch?v=qUCaeDcM3BE
-:SPEAKERS: GHODAWALA MO AMAN ZAHIRABBAS
-:END:
-  some minor changes in emacs
 
 * Emacs Writing Studio (Exploring your Denote digital knowledge garden)  :denote:
 :PROPERTIES:
@@ -13701,21 +11928,6 @@ exchange-point-and-mark, mark-whole-buffer
   (add-to-list 'package-archives '("melpa" . "https://melpa.org/packages/") t)
   (package-initialize)
 
-* How to set up Gnus in Emacs for Gmail in seven minutes #email #gnus #emacs #gmail #emacselements   :mail:gnus:
-:PROPERTIES:
-:DATE:     2025-01-23T06:03:27-08:00
-:DURATION: 8:10
-:YOUTUBE_URL: https://www.youtube.com/watch?v=C_F-CuMg9zQ
-:SPEAKERS: Raoul Comninos
-:END:
-  https://docs.google.com/document/d/1ml4zW1hWy43L48EvDEl7E_80nja-JvoGUEy_e4RbZt0/edit?usp=sharing
-
-  PLEASE CONSIDER SUPPORTING ME.
-  You can support me on PayPal:
-  https://paypal.me/revrari
-  Or you can send me some Bitcoin:
-  3JToybg7LHAdsteTYGg7jRniRZEMCeTasj
-
 * Scraping Emacs Package Listings into SQLite - Real World Scheme Programming #2
 :PROPERTIES:
 :DATE:     2025-01-23T05:30:20-08:00
@@ -13880,21 +12092,6 @@ exchange-point-and-mark, mark-whole-buffer
   https://vivekhaldar.com/articles/a-spiritual-successor-to-emacs/
   https://vivekhaldar.com/articles/the-levels-of-emacs-proficiency/
   https://vivekhaldar.com/articles/stephenson-on-emacs/
-
-* The 7 Best Text Editors I Have Used #coding #emacs #neovim #acme #programming #emacselements   :comparison:
-:PROPERTIES:
-:DATE:     2025-01-19T14:00:10-08:00
-:DURATION: 12:59
-:YOUTUBE_URL: https://www.youtube.com/watch?v=IEcJVEH_IVg
-:SPEAKERS: Raoul Comninos
-:END:
-  https://drive.google.com/file/d/1JdeAu60OFa7PhcdBZQd8836SupCGQTvE/view?usp=sharing
-
-  PLEASE CONSIDER SUPPORTING ME.
-  You can support me on PayPal:
-  https://paypal.me/revrari
-  Or you can send me some Bitcoin:
-  3JToybg7LHAdsteTYGg7jRniRZEMCeTasj
 
 * Arranging Elementary Objects in GNU Emacs: Dynamic Knowledge Structuring in RCD Notes and Hyperscope
 :PROPERTIES:
@@ -15184,13 +13381,6 @@ Credit
 Light Sting by Kevin MacLeod is licensed under a Creative Commons Attribution 4.0 license. https://creativecommons.org/licenses/...
 Source: http://incompetech.com/music/royalty-...
 Artist: http://incompetech.com/
-* Building Emacs 30 from git on openSUSE Tumbleweed  :building:opensuse:emacs30:
-:PROPERTIES:
-:SPEAKERS: Open Source Fiddler
-:DURATION: 21:08
-:YOUTUBE_URL: https://www.youtube.com/watch?v=8dWPDJ4ShFc
-:DATE:     2024-12-14T18:15:12+0000
-:END:
 * EmacsGME - Solo Roleplaying inside the Emacs Text Editor  :fun:emacsgme:rpg:games:
 :PROPERTIES:
 :SPEAKERS: Category's Solo Game Table
@@ -15806,56 +13996,6 @@ https://emacsconf.org/2024/talks/links
 You can view this and other resources using free/libre software at https://emacsconf.org/2024/talks/links . During the conference, you can ask questions via the Etherpad or through IRC (https://chat.emacsconf.org/?join=emacsconf , or emacsconf on irc.libera.chat). Afterwards, check the talk page at https://emacsconf.org/2024/talks/links for notes and contact information.
 
 This video is available under the terms of the Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license.
-
-* EmacsConf 2024 Talk: So You Want To Be An Emacs-Fluencer?  :community:sharing:
-:PROPERTIES:
-:YOUTUBE_URL: https://www.youtube.com/watch?v=iG9fMUXpjRE
-:DATE:     2024-12-08T13:22:31-08:00
-:SPEAKERS: Goparism
-:DURATION: 21:40
-:END:
-  The Talk I gave at EmacsConf2024:
-
-  ========================================
-  Ever thought about sharing your Emacs knowledge? Starting a YouTube channel, blog, podcast, or even smoke signals to share those tidbits? If you’ve answered "No", then I'd like to change your mind. And if you said "Yes", then you're already on the right path.
-
-  In this talk, I will share what I've learned from my journey as an Emacs advocate, including tips, setups (both current and past), and various alternatives to get your works out there. Most importantly, I'll discuss why your story and perspective matter, even if you think otherwise. Your unique experience can inspire and help others in the Emacs community.
-
-  About the speaker:
-
-  Gopar, a fellow Emacs user and advocate, will be sharing insights on how everyone can become the Emacs Influencer they never knew they wanted to be.
-
-  From starting a YouTube channel to writing blogs, Gopar will provide practical tips and share personal experiences to help you embark on your journey of sharing Emacs knowledge.
-
-  00:00 Introduction
-  00:12 Knowledge grows when it is shared
-  00:36 When's the last time you shared something?
-  01:07 Sharing Emacs
-  02:41 My background
-  03:06 Why you should make Emacs videos (or other formats)
-  03:44 Beginners
-  05:22 Intermediate
-  05:56 Advanced
-  06:22 Impostor syndrome
-  07:28 Process for recording
-  08:46 Details: recording
-  09:36 Tips: Recording
-  13:33 Details: Editing
-  14:38 Tips: Editing
-  15:44 Details: Uploading
-  16:06 Tips: Uploading
-  18:06 Your secret sauce
-  19:04 Cons of YouTube
-
-  -----------------------------------------------------
-  Github: https://github.com/gopar/
-  -----------------------------------------------------
-
-  John 3:16 - "For God so loved the world that he gave his one and only Son, that whoever believes in him shall not perish but have eternal life."
-
-  James 1:5 - "If any of you lacks wisdom, you should ask God, who gives generously to all without finding fault, and it will be given to you."
-
-  I thank God for all the wisdom he has blessed me with.
 
 * Open mic/pad for quick updates etc.  :emacsconf:emacsconf2024:community:
 :PROPERTIES:
@@ -20702,7 +18842,6 @@ count-words-region
 :DATE:     2023-12-02T21:10:00+0000
 :URL: https://emacsconf.org/2023/talks/core
 :MEDIA_URL: https://media.emacsconf.org/2023/emacsconf-2023-core--emacs-core-development-how-it-works--stefan-kangas--main.webm
-:YOUTUBE_URL: https://www.youtube.com/watch?v=2izQJiuL0vA
 :TOOBNIX_URL: https://toobnix.org/w/m4XmrmE9Geat54AKT1RQaH
 :TRANSCRIPT_URL: https://media.emacsconf.org/2023/emacsconf-2023-core--emacs-core-development-how-it-works--stefan-kangas--main.vtt
 :SPEAKERS:
@@ -25447,25 +23586,6 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
 
   #linux #emacs #gnulinux #slackware #ubuntu #freesoftware #archlinux #technology #programming #unixcommands #texteditor #vim #doom #linuxgaming #suckless #ubuntulinux #opensource #experimentalmusic #experimental #psychedelicrock #psychedelicmusic #nix #opensuse #kdeplasma #ambientmusic #debian11 #debian10 #doomer #ambient #wayland #x11 #systemd #github #gentoo #commandline #noise #slowcore #shoegaze
 
-* Si te animas en utilizar Gnu Emacs...
-:PROPERTIES:
-:YOUTUBE_URL: https://www.youtube.com/watch?v=ljrqUqt7MPU
-:DATE:     2023-03-31T16:39:17+0000
-:SPEAKERS: Leandrus Fanzec
-:DURATION: 06:36
-:END:
-  Video expositivo de configuración personal (y simplificada) de Gnu Emacs.
-
-  #emacs #gnulinux #linux #ide #productivity #minimalism
-  --------------
-
-  Los videos y links citados están aquí:
-
-  - https://github.com/leandrusfanzec/emacs-leandrus :: Repositorio con dicha configuración
-  - https://protesilaos.com :: Página de Protesilaos
-  - https://www.youtube.com/c/ProtesilaosStavrou :: Canal de Protesilaos.
-  - https://www.youtube.com/watch?v=0qHloGTT8XE&pp=ugMICgJlcxABGAE%3D :: Video de Jake B con el setupfile señalado.
-
 * Turn Emacs into your personal AI assistant with org-ai             :ai:org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=fvBDxiFPG6I&feature=youtu.be
@@ -25487,61 +23607,6 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
   - https://robert.kra.hn/
   - https://twitter.com/robertkrahn
   - https://toot.kra.hn/@robert
-
-* Doom Emacs - Getting Started
-:PROPERTIES:
-:YOUTUBE_URL: https://www.youtube.com/watch?v=OOeFF6_qSPA
-:DATE:     2023-03-29T10:54:06+0000
-:SPEAKERS: Jacinth Samuel
-:DURATION: 30:00
-:END:
-  Doom Emacs is a distribution of emacs which has the vim keybindings by default. Also it has a lot of plugins and packages preinstalled making it easier for a new emacs user.
-
-  Doom Emacs Github: https://github.com/doomemacs/doomemacs
-  Watch DT for more on Emacs: https://www.youtube.com/@DistroTube
-
-  Also watch me on odysee: https://odysee.com/@JacinthSamuel:f
-
-  Equipments used
-  Lumix g7 camera : https://amzn.to/3YLKt8W
-  Blue Snowball Microphone : https://amzn.to/3RVwMBY
-  LG Ultragear 24 inch monitor : https://amzn.to/3xrgcjP
-  Digitek 9 feet light stand : https://amzn.to/3xlnLbZ
-  Digitek LED D416 Light : https://amzn.to/3xlwZFi
-  Juarez JRZ16MS Mic Scissor arm stand : https://amzn.to/3In0soz
-
-  Podcast:
-  RSS: https://www.spreaker.com/show/5525195/episodes/feed
-  Spotify: https://open.spotify.com/show/5CbDcHBl2lKnuDpVoRWje9
-  iHeart Radio: https://www.iheart.com/podcast/53-jacinth-samuel-95675318/
-  Podcast addict: https://podcastaddict.com/podcast/3917947
-  Jio Saavn: https://www.jiosaavn.com/shows/Jacinth-Samuel/1/IUIYDK5gED8_
-
-  Social accounts:
-  Mastodon: https://social.linux.pizza/web/@jacinthsamuel
-  Reddit: https://www.reddit.com/user/jacinthrebackal
-  Matrix: jacinthsamuel:matrix.org
-  Telegram: https://t.me/+0o02Kx3Y-0lmNjg1
-
-  Online presence:
-  Gitlab: https://gitlab.com/jacinthsamuel
-
-  Support me on:
-  Patreon: https://www.patreon.com/jacinthsamuel
-  Paypal: paypal.me/jacreb
-
-  Free(DOM) and open-source software I use in and for this video:
-  kdenlive: https://kdenlive.org/
-  gimp: https://www.gimp.org/
-  simple screen recorder: https://www.maartenbaert.be/simplescreenrecorder/
-  tenacity: https://github.com/tenacityteam/tenacity
-  virt-manager: https://virt-manager.org/
-  librewolf: https://librewolf.net/
-  qutebrowser: https://www.qutebrowser.org/
-  waterfox: https://www.waterfox.net/
-
-  My daily driver
-  Void Linux: www.voidlinux.org
 
 * emacs youtube-sub-extractor.el and mpv.el  :mpv:youtube:
 :PROPERTIES:
@@ -25577,30 +23642,6 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
 :DURATION: 02:58:39
 :END:
   Originally streamed at https://twitch.tv/LCOLONQ on 2023-03-24
-
-* Essential Movement and Editing Shortcuts in Emacs - EP5
-:PROPERTIES:
-:YOUTUBE_URL: https://www.youtube.com/watch?v=nG3EMqOAWDg
-:DATE:     2023-03-23T08:31:05+0000
-:SPEAKERS: Discovering Emacs
-:DURATION: 10:41
-:END:
-  In today's episode I'll be sharing some default movement and editing shortcuts. I'll only be cover some of the essentials, but I'm sure there's something new for both beginners and experienced Emacs users. And at the end I'll share some key binding recommendations to make the editing experience in Emacs slightly better.
-
-  Go to show notes:
-  https://github.com/VernonGrant/discovering-emacs/blob/main/show-notes/5-essential-movement-and-editing-shortcuts.md
-
-  Podcast Feed:
-  https://www.discovering-emacs.com
-
-  Podcast Discussions:
-  https://github.com/VernonGrant/discovering-emacs/discussions
-
-  Twitter:
-  https://twitter.com/DiscoverEmacs
-
-  To support my work, you can buy me a coffee:
-  https://www.buymeacoffee.com/vernon.grant
 
 * From vanilla Emacs to JavaScript IDE
 :PROPERTIES:
@@ -25829,30 +23870,6 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
   Code reading starts at 22:55 after some diving into the history of Emacs.
 
   Thanks for watching :)
-
-* Using Whitespace Mode in Emacs - EP4
-:PROPERTIES:
-:YOUTUBE_URL: https://www.youtube.com/watch?v=uViGjSqrLDw
-:DATE:     2023-03-15T09:28:41+0000
-:SPEAKERS: Discovering Emacs
-:DURATION: 06:37
-:END:
-  Today, we're taking a look at Emacs's  whitespace mode and discussing how we can simplify its configuration to make it more applicable for most use cases.
-
-  Go to show notes:
-  https://github.com/VernonGrant/discovering-emacs/blob/main/show-notes/4-using-whitespace-mode.md
-
-  Podcast Feed:
-  https://www.discovering-emacs.com
-
-  Podcast Discussions:
-  https://github.com/VernonGrant/discovering-emacs/discussions
-
-  Twitter:
-  https://twitter.com/DiscoverEmacs
-
-  To support my work, you can buy me a coffee:
-  https://www.buymeacoffee.com/vernon.grant
 
 * Org Mode Citation and Footnote Features — Straightforward Emacs       :org:
 :PROPERTIES:
@@ -26209,30 +24226,6 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
 
   Your support is very much appreciated. Thanks, guys!
 
-* Making Incremental Search Work for You in Emacs - EP3
-:PROPERTIES:
-:YOUTUBE_URL: https://www.youtube.com/watch?v=9CdbfZXsrqg
-:DATE:     2023-03-02T06:01:43+0000
-:SPEAKERS: Discovering Emacs
-:DURATION: 07:12
-:END:
-  Today I'm going to share some of the ways I utilize Emacs's incremental search, during my workflow. In addition I'll be sharing some configuration recommendations that you might also find useful.
-
-  Go to show notes:
-  https://github.com/VernonGrant/discovering-emacs/blob/main/show-notes/3-making-incremental-search-work-for-you.md
-
-  Podcast Feed:
-  https://www.discovering-emacs.com
-
-  Podcast Discussions:
-  https://github.com/VernonGrant/discovering-emacs/discussions
-
-  Twitter:
-  https://twitter.com/DiscoverEmacs
-
-  To support my work, you can buy me a coffee:
-  https://www.buymeacoffee.com/vernon.grant
-
 * Make your Org Reports Pretty                                          :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=QCAsBBDFN60
@@ -26397,32 +24390,6 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
 :END:
   note at http://xahlee.info/talk_show/xah_talk_show_2023-02-23.html
 
-* Efficiency With The Mark Ring in Emacs - EP2
-:PROPERTIES:
-:YOUTUBE_URL: https://www.youtube.com/watch?v=uhyr8kvKa2I&t=1s
-:DATE:     2023-02-23T08:12:43+0000
-:SPEAKERS: Discovering Emacs
-:DURATION: 07:14
-:END:
-  Today we will be taking a look at an Emacs feature known as the mark ring. We'll be discussing the differences between global and local marks. We'll also be covering how and when marks are added to these mark rings. In addition, we'll share some configuration recommendations to steam line the experience of using this feature.
-
-  PLEASE NOTE:  At around : 3:10, I mention that there are two condition that's required in order to add a new mark to the global mark ring. This is actually not true, only the first condition is required. Please see the updated show notes below.
-
-  Go to show notes:
-  https://github.com/VernonGrant/discovering-emacs/blob/main/show-notes/2-efficiency-with-the-mark-ring.md
-
-  Podcast Feed:
-  https://www.discovering-emacs.com
-
-  Podcast Discussions:
-  https://github.com/VernonGrant/discovering-emacs/discussions
-
-  Twitter:
-  https://twitter.com/DiscoverEmacs
-
-  To support my work, you can buy me a coffee:
-  https://www.buymeacoffee.com/vernon.grant
-
 * Slow emacs WR frame creation
 :PROPERTIES:
 :DATE:     2023-02-21T01:57:19+00:00
@@ -26461,30 +24428,6 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
   Vimeo: https://vimeo.com/unixbhaskar
 
   Goodreads: https://goodreads.com/unixbhaskar
-
-* Finding Files Recursively Using Locate in Emacs - EP1
-:PROPERTIES:
-:YOUTUBE_URL: https://www.youtube.com/watch?v=Qz8O9XWKFwM
-:DATE:     2023-02-20T15:12:32+0000
-:SPEAKERS: Discovering Emacs
-:DURATION: 04:11
-:END:
-  In today's episode, we will be taking a look at locate and how we can effectively use it in combination with Emacs. We will be discussing what locate is, how we can make use of it and how to configure it for individual project uses.
-
-  Go to show notes:
-  https://github.com/VernonGrant/discovering-emacs/blob/main/show-notes/1-finding-files-recursively-using-locate.md
-
-  Podcast Feed:
-  https://www.discovering-emacs.com
-
-  Podcast Discussions:
-  https://github.com/VernonGrant/discovering-emacs/discussions
-
-  Twitter:
-  https://twitter.com/DiscoverEmacs
-
-  Buy me a coffee:
-  https://www.buymeacoffee.com/vernon.grant
 
 * Introduction to ekg, the Emacs Knowledge Graph
 :PROPERTIES:
@@ -26856,17 +24799,6 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
   07:30 Save bookmarks across emacs sessions
   07:49 Conclusion and recap
   08:20 Thank you and leave a comment!
-
-* Emacs | Sweet SEO Juice In Org Mode                                   :org:
-:PROPERTIES:
-:YOUTUBE_URL: https://www.youtube.com/watch?v=KwU9e4NlJU4
-:DATE:     2023-02-03T05:00:06+0000
-:SPEAKERS: Chris Maiorana
-:DURATION: 09:03
-:END:
-  Make your repetitive SEO tasks for web writing a little easier with Emacs, org mode, and a little Emacs lisp.  You can do it.  Org mode exports some random anchor link ids into your document.  You can customize these yourself with a custom properity, "custom id", but why not have org mode do it automatically.  Let's find out together.
-
-  https://chrismaiorana.com/seo-juice-org-mode.html
 
 * Literature review with org-ref                                        :org:
 :PROPERTIES:
@@ -27281,17 +25213,6 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
   🗒️ Doom Emacs: https://github.com/hlissner/doom-emacs
 
   Your support is very much appreciated. Thanks, guys!
-
-* Emacs Org mode | HoMM3 campaign scenario 2 | 150% faster | deduction and publishing :org:
-:PROPERTIES:
-:YOUTUBE_URL: https://www.youtube.com/watch?v=Fak5lB_DQwQ
-:DATE:     2023-01-14T13:35:33+0000
-:SPEAKERS: Texas Cyberthal
-:DURATION: 09:51
-:END:
-  Writeup:
-
-  https://www.reddit.com/r/orgmode/comments/10bokrk/homm3_campaign_scenario_2_150_faster_deduction/
 
 * Emacs | Take Notes On Top of Notes
 :PROPERTIES:
@@ -28045,22 +25966,6 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
   From the "635: The Perils of Manually Labeling Data for Machine Learning Models" in which @JonKrohnLearns speaks with Shayan Mohanty about the pitfalls of data analysis when bias comes into the equation (spoiler alert: it always does), the importance of the Chomsky hierarchy in data management, and the importance of simulation engines for returning real-time results to users.
 
   Watch, listen to, or read the full episode at https://www.superdatascience.com/635
-
-* Setting up and Using Emacs
-:PROPERTIES:
-:YOUTUBE_URL: https://www.youtube.com/watch?v=bmFCVc1l2zo
-:DATE:     2022-12-18T23:28:36+0000
-:SPEAKERS: VibinAndDancin
-:DURATION: 06:31
-:END:
-  A video showing how to install and setup Emacs with a demonstration of how to use it with python files.
-  List of commands used in the video:
-  remove bottom box: ctrl-x-1
-  undo: ctrl-/
-  copy: alt-w
-  paste: ctrl-y
-  cut: ctrl-w
-  save: ctrl-x-s
 
 * 0058. Emacs. Howm. Начало                                            :howm:
 :PROPERTIES:
@@ -30151,15 +28056,6 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
 :END:
 
 
-* Linter de #markdown para #emacs
-:PROPERTIES:
-:YOUTUBE_URL: https://www.youtube.com/watch?v=FR9IegE42mc
-:DATE:     2022-11-17T08:07:55+0000
-:SPEAKERS: Erick Navarro livestream
-:DURATION: 03:20:18
-:END:
-  Haciendo un linter para #emacs usando #flymake y #markdownlint-cli2 -- Watch live at https://www.twitch.tv/erickgnavar
-
 * Enclosing non-printing characters in $PS1 Bash prompt
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=Rpu92g_Ku0A&list=PLGMx7bOKMJTztuAxNIbacZs0RjTaC8lPc&index=22&pp=iAQB
@@ -32164,15 +30060,6 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
   🗒️ Doom Emacs: https://github.com/hlissner/doom-emacs
 
   Your support is very much appreciated. Thanks, guys!
-
-* Integrando #emacs con #elixir usando #websockets
-:PROPERTIES:
-:YOUTUBE_URL: https://www.youtube.com/watch?v=VjpKFyxrxtA
-:DATE:     2022-09-04T07:01:46+0000
-:SPEAKERS: Erick Navarro livestream
-:DURATION: 02:06:22
-:END:
-  Broadcasted live on Twitch -- Watch live at https://www.twitch.tv/erickgnavar
 
 * What is a dot emacs (.emacs) file?
 :PROPERTIES:
@@ -39405,17 +37292,6 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
 
   #HelloFresh #NewEmployee #Future
 
-* How to Setup a Chromebook (with Emacs) for Python, C, and C++      :python:
-:PROPERTIES:
-:YOUTUBE_URL: https://www.youtube.com/watch?v=LvwozmJjDD0
-:DATE:     2022-01-28T14:30:05+0000
-:SPEAKERS: Unkert Media
-:DURATION: 10:32
-:END:
-  In this tutorial I show you how to set up a chromebook for Python, C, and C++ as well as a basic setup of the text editor Emacs for programming in these languages. #chromebook #python #C #C++ #Emacs
-
-  Check out my blog at https://unkertmedia.com !
-
 * Org-mode - Exclude subtree from agenda                                :org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=oNBd9Uqk5bA
@@ -43790,19 +41666,6 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
   The BSD's Rock - Tier 1 Patron
 
   #emacs #thelinuxcast
-
-* Emacs + LaTeX = ❤
-:PROPERTIES:
-:YOUTUBE_URL: https://www.youtube.com/watch?v=IkqKrr1NHp8
-:DATE:     2021-10-31T21:44:11+0000
-:SPEAKERS: Cials
-:DURATION: 08:12
-:END:
-  Emacs zen-mode helped to concentrate for over 6 hours today!
-  I'll probably make a tutorial in a couple of months.
-
-  What distro do you use?
-  I use Arch with i3 desktop environment and polybar.
 
 * GNU/Emacs Org-mode For Presentation Slides/HTML Slides (Emacs org-reveal) :org:
 :PROPERTIES:
@@ -50071,26 +47934,6 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 :END:
   Basics of using GNU Emacs as an IDE
 
-* Emacs Meet up Session II: Org Agenda - Vedang                         :org:
-:PROPERTIES:
-:YOUTUBE_URL: https://www.youtube.com/watch?v=KZoQ4EkfDPo
-:DATE:     2021-03-30T11:54:42+0000
-:SPEAKERS: Helpshift Engineering
-:DURATION: 36:19
-:END:
-  https://github.com/vedang/emacs-up
-  https://github.com/vedang/org-mode-crate
-
-* Emacs Meet up Session I: Org Capture - Suvrat                         :org:
-:PROPERTIES:
-:YOUTUBE_URL: https://www.youtube.com/watch?v=tFt6plDQm58
-:DATE:     2021-03-30T11:35:50+0000
-:SPEAKERS: Helpshift Engineering
-:DURATION: 20:29
-:END:
-  https://github.com/vedang/emacs-up
-  https://github.com/vedang/org-mode-crate
-
 * Efficient Movement with Emacs Key Bindings - Emacs Essentials #2
 :PROPERTIES:
 :YOUTUBE_URL: https://youtu.be/wT_jUtEGfeg
@@ -53277,7 +51120,7 @@ It's a common story.  A person hears about Emacs and wants to give it a try, but
 
 * EmacsConf 2020 - 00 - Opening remarks - Amin Bandali, Leo Vivier, Sacha Chua
 :PROPERTIES:
-:YOUTUBE_URL: https://www.youtube.com/watch?v=sU_m4wa3S4wBiAQB
+:YOUTUBE_URL: https://www.youtube.com/watch?v=sU_m4wa3S4w
 :DATE:     2020-12-08T17:55:44+0000
 :SPEAKERS: EmacsConf and Emacs hangouts
 :DURATION: 07:04
@@ -65100,15 +62943,6 @@ Full code on github:
   introduce them to the idea of programming as a mathematical activity. You can hear me speak but the audio quality is
   poor; it is essentially what has been picked up my the internal mic of my laptop.
 
-* Emacs - a very quick and easy introduction
-:PROPERTIES:
-:YOUTUBE_URL: https://www.youtube.com/watch?v=4jQmS0gS-lU
-:DATE:     2017-10-15T20:53:00+0000
-:SPEAKERS: Richard Rauscher
-:DURATION: 10:05
-:END:
-  Primarily for USF COP 2513; this should be enough to get started with basic file editing.
-
 * Practical Chicken Scheme with Emacs: hello-world webserver
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=eXB3I3S3vJc&feature=youtu.be&t=387
@@ -66588,15 +64422,6 @@ Full code on github:
 :URL:      https://www.wisdomandwonder.com/article/10349/screencast-the-story-of-blackboard-bold-mode
 :END:
   Source (and comments) here: https://www.wisdomandwonder.com/article/10349/screencast-the-story-of-blackboard-bold-mode
-
-* emacs mysql ER diagram, search stackoverflow
-:PROPERTIES:
-:YOUTUBE_URL: https://www.youtube.com/watch?v=juVRfU7GWg0
-:DATE:     2016-08-08T23:40:31+0000
-:SPEAKERS: Ahmed Ali - RMBXZ
-:DURATION: 02:40
-:END:
-  emacs mysql ER diagram, search stackoverflow
 
 * Binding Emacs Lisp variables with lispy.
 :PROPERTIES:
@@ -69153,7 +66978,7 @@ Using restclient within emacs...
 
 * Lucid Energize Demo VHS 1993  :history:
 :PROPERTIES:
-:YOUTUBE_URL: https://www.youtube.com/watch?v=pQQTScuApWkjj
+:YOUTUBE_URL: https://www.youtube.com/watch?v=pQQTScuApWk
 :DATE:     2014-05-16T15:55:54+0000
 :SPEAKERS: Zach Beane
 :DURATION: 25:03
