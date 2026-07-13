@@ -6,6 +6,106 @@
     <atom:link href="https://emacs.tv/videos.rss" rel="self" type="application/rss+xml" />
     <description>Emacs videos</description>
     <item>
+      <title>[02] Vanilla Emacs with Prot: I’ll Repent for My Markdown Sins</title>
+      <link>https://www.youtube.com/watch?v=Crp2e5D_Q78</link>
+      <guid>https://www.youtube.com/watch?v=Crp2e5D_Q78</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=Crp2e5D_Q78">youtube</a><br><br>In the previous coaching session with Prot we learned how to install emacs and how to start editing files and modifying our configuration from within emacs, we also installed our first packages. We'll continue installing a few more packages this time I guess and we'll get started with Org or orgmode
+
+  Previous video can be found in the podcast channel:
+  https://youtu.be/btAOBkcLEkg
+
+  I wrote a bit more about it in a blogpost:
+  https://linkarzu.com/posts/emacs/prot-love-letter/
+
+  Prot responded in his blogpost:
+  https://protesilaos.com/codelog/2026-07-04-emacs-for-beginners-with-linkarzu/
+
+  If you want to learn more about Prot’s coaching sessions, you can visit this link:
+  https://protesilaos.com/coach/
+
+  Special thanks to Sasha Chua for being there guiding me in my livestreams and taking notes to make the process easier, she also created an article and reacted to one of my videos:
+  https://sachachua.com/blog/2026/07/re-react-to-sacha-and-prot-newbies-and-starter-kits-emacs-video-linkarzu/
+
+  If you have any of the questions below:
+  * Why is the stream vertical, I cannot see a thing
+  * Why are there 2 streams?
+  * What’s that weird voice when someone sends a message
+  * How can I send your GOATED emojis?
+  * Why does TTS not work?
+  * Why aren’t you reading chats on stream?
+  * What’s that Ko-Fi progress bar we see in your videos?
+  * How can I join your discord?
+  * How can I share my setup and workflow in your channel?
+  * Why did the livestream become members only after recording?
+  Read this article:
+  https://linkarzu.com/posts/news/streaming-info/
+
+  Support me:
+  Buy me the Switch 2:
+  https://ko-fi.com/linkarzu
+
+  Join the YouTube Members:
+  https://www.youtube.com/channel/UCrSIvbFncPSlK6AdwE2QboA/join
+
+  My Merch Store:
+  https://merch.linkarzu.com
+
+  My Dotfiles:
+  https://github.com/linkarzu/dotfiles-latest
+
+  Follow me on X:
+  https://x.com/link_arzu</div>]]></description>
+      <pubDate>Sun, 12 Jul 2026 21:18:10 +0000</pubDate><category>org</category>
+    </item>
+    <item>
+      <title>History of Emacs the Text Editor/Operative System</title>
+      <link>https://www.youtube.com/watch?v=iLQEBbOT9KU</link>
+      <guid>https://www.youtube.com/watch?v=iLQEBbOT9KU</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=iLQEBbOT9KU">youtube</a><br><br>00:00 The joke that explains everything
+  01:07 MIT AI Lab, 1976 — where it all began
+  02:33 The Social Contract — sharing before the GPL
+  03:03 The proliferation — when Emacs became an idea
+  03:34 James Gosling and the door that closed
+  04:13 GNU Emacs — a text editor that changed the world
+  04:57 Emacs Lisp — when using and writing become the same thing
+  06:31 The Editor War — Emacs vs Vi
+  07:52 The Schism — XEmacs and the cost of division
+  09:20 The dark years — Eclipse, IntelliJ, VSCode
+  10:16 The renaissance — Doom Emacs, Evil Mode, a new generation
+  11:02 Org-mode and Magit — why serious developers never left
+  12:52 What Emacs really is — an argument that never ended
+
+  Emacs is older than Linux, older than the internet, and older than most of the people who use it. It started as a collection of macros at the MIT AI Lab in 1976, became the first program of the GNU Project, gave birth to the GPL, survived a religious schism, was written off as obsolete, and came back stronger. This is the full history of the text editor that refused to die — and why it still matters in 2025.</div>]]></description>
+      <pubDate>Sat, 11 Jul 2026 16:00:01 +0000</pubDate><category>history</category>
+    </item>
+    <item>
+      <title>Emacs: global keybinding overrides</title>
+      <link>https://www.youtube.com/watch?v=D99GB591Vgo</link>
+      <guid>https://www.youtube.com/watch?v=D99GB591Vgo</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=D99GB591Vgo">youtube</a><br><br>In this video I demonstrate how to define key bindings that have a global overriding effect so that major modes cannot change them. This is important if you want to redefine keys that are not meant to be configured by the user. Find the init file I worked with on my website: https://protesilaos.com/codelog/2026-07-08-emacs-global-keybinding-overrides/</div>]]></description>
+      <pubDate>Wed, 08 Jul 2026 11:00:53 +0000</pubDate><category>configuration</category>
+<category>keybindings</category>
+    </item>
+    <item>
+      <title>HyWiki: Zero Markup Hypertext</title>
+      <link>https://www.youtube.com/watch?v=3zG3lRmi3Zg</link>
+      <guid>https://www.youtube.com/watch?v=3zG3lRmi3Zg</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=3zG3lRmi3Zg">youtube</a><br><br>This video is a tour of Hyperbole's HyWiki, a second brain system in Emacs that is unique for it's zero markup syntax and the omniscience of wiki pages within Emacs.  Check out the blog post!  https://www.chiply.dev/post-hyperbole-hywiki
+
+  Timestamps:
+  0:00 Intro
+  1:24 2 Key Features
+  3:35 Omniscient Second Brain
+  4:29 Creating HyWiki Pages
+  6:58 HyWikiWords Appear Everywhere
+  10:50 Autocompletion
+  11:40 Subsections
+  14:10 Bind Any Action
+  17:58 Extensibility
+  22:05 Outro</div>]]></description>
+      <pubDate>Tue, 07 Jul 2026 11:31:29 +0000</pubDate>
+    </item>
+    <item>
       <title>[CLIP] Learning Vanilla Emacs from Scratch with Prot as a Neovim User</title>
       <link>https://www.youtube.com/watch?v=Yyu2UzuiGEU</link>
       <guid>https://www.youtube.com/watch?v=Yyu2UzuiGEU</guid>
@@ -168,6 +268,26 @@
 
   Complete meetup video is here: https://youtu.be/ZRoT-3yAMUQ</div>]]></description>
       <pubDate>Fri, 03 Jul 2026 22:31:45 +0000</pubDate><category>OrgMode</category>
+    </item>
+    <item>
+      <title>Emacs ATX meetup. July 2026. pi; gptel; completion-preview; prisma; remoto.</title>
+      <link>https://www.youtube.com/watch?v=ZRoT-3yAMUQ</link>
+      <guid>https://www.youtube.com/watch?v=ZRoT-3yAMUQ</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=ZRoT-3yAMUQ">youtube</a><br><br>0:00 - Intro
+  1:07 - Local LLM coding assistant: pi + Qwen3 on a GTX 1080
+  7:42 - Fixing a Projectile project-root bug
+  10:49 - Multi-cursor search & replace with Embark
+  12:15 - Screen tearing & the Lucid toolkit
+  18:00 - Awesome gptel improvements: an overlay interface
+  38:33 - Agentic edits & including AGENTS.md
+  41:00 - GPTel internals: session routing & point targets
+  53:04 - Org-roam, Org Agenda & Org Edna
+  1:03:01 - Completion: Corfu & completion-preview-mode
+  1:19:00 - Editing Markdown, YAML & JSON as Org
+  1:37:01 - Remoto: browse GitHub repos as files
+  1:52:06 - How Remoto fetches without shelling out
+  2:06:01 - Closing thoughts</div>]]></description>
+      <pubDate>Fri, 03 Jul 2026 19:42:55 +0000</pubDate><category>EmacsATX</category>
     </item>
     <item>
       <title>Neovim user Reacts to Bashbunni&apos;s Doom Emacs Video</title>
@@ -857,156 +977,6 @@
       <pubDate>Fri, 05 Jun 2026 19:15:15 +0000</pubDate><category>configuration</category>
 <category>customize</category>
 <category>startup</category>
-    </item>
-    <item>
-      <title>June 4: Emacs Chat with Ben Zanin (@gnomon@mastodon.social)</title>
-      <link>https://www.youtube.com/watch?v=ax4f5uaOHA8</link>
-      <guid>https://www.youtube.com/watch?v=ax4f5uaOHA8</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=ax4f5uaOHA8">youtube</a><br><br>https://sachachua.com/blog/2026/06/june-4-emacs-chat-with-ben-zanin-gnomon-mastodon-social/
-
-  I chatted with Ben Zanin about music, Org Mode, Emacs in terminals and on an Android, keyboards, elfeed, and more.
-
-  - Ben Zanin (@gnomon@mastodon.social) - Mastodon https://mastodon.social/@gnomon: Robertson screwdriver owner, believer in the value of personal-scale computing and skeptic of the value of computing scales any larger than that
-  - ~gnomon/emacs-config-gnomon - An edited/truncated subset of my dotfiles repo to pick out only those commits and files that are pertinent to my emacs configuration, as of 2026-05-06 - sourcehut git https://git.sr.ht/~gnomon/emacs-config-gnomon
-  - ~gnomon's git repositories https://git.sr.ht/~gnomon/
-  - https://melpa.org/#/elfeed, https://melpa.org/#/elfeed-curate
-  - https://melpa.org/#/versuri and https://melpa.org/#/mpdel - lyrics, music
-  - https://melpa.org/#/avy
-  - WezTerm - Wez's Terminal Emulator https://wezterm.org/index.html
-  - Keychron B11 Pro Ultra-Slim Wireless Foldable Keyboard (US ANSI Layout – Keychron Canada https://keychron.ca/products/keychron-b11-pro-ultra-slim-wireless-foldable-keyboard-us-ansi-layout
-  - tea-timer and https://elpa.gnu.org/packages/tmr.html
-
-  00:00 How Ben got started with Emacs
-  02:19 Ben got into Emacs because of twittering-mode
-  04:30 Emacs as a media playback platform with Versuri and Mpdel
-  09:13 Emacs on Android with Termux
-  13:44 Keyboards
-  16:44 Benefits of a split keyboard
-  18:22 Meeting workflow
-  21:11 Narrowing
-  22:58 There's even an internal Slack channel about Emacs at Ben's company
-  24:47 Ben keeps Org capture templates as individual files and adapts them to different meeting flows
-  28:45 Personal-scale software and the journey
-  34:07 vc-git-grep for finding notes again
-  37:47 Keybindings and terminals; wezterm
-  42:38 Timers: tea-timer, tmr
-  43:57 Different stages of package use
-  44:47 Elfeed
-  53:13 Bookmark naming conventions
-  53:50 elfeed-curate for annotations
-  55:46 mytoots archives Mastodon toots
-  57:05 Mentoring offer
-  58:02 A local instance of public-inbox can let you use Gnus to read mailing lists quickly
-
-  You can add the iCal for upcoming Emacs Chat episodes to your calendar. https://sachachua.com/topic/upcoming-emacs-chats.ics
-
-  Find more Emacs Chats or join the fun: https://sachachua.com/emacs-chat</div>]]></description>
-      <pubDate>Fri, 05 Jun 2026 03:48:40 +0000</pubDate><category>EmacsChat</category>
-<category>community</category>
-    </item>
-    <item>
-      <title>How to Hide the Tool Bar, Scroll Bar, and Menu Bar in Emacs</title>
-      <link>https://www.youtube.com/watch?v=Rsgg-uVJlIw</link>
-      <guid>https://www.youtube.com/watch?v=Rsgg-uVJlIw</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=Rsgg-uVJlIw">youtube</a><br><br>In this video, I show you how to hide the tool bar, scroll bar, and menu bar in Emacs without writing any elisp. All you have to do is M-x "customize-option" then customize the following variables:
-
-  - tool-bar-mode
-  - scroll-bar-mode
-  - menu-bar-mode
-
-  You can change these, click "Apply and Save" and have Emacs write your configuration to your .emacs file so that it automatically starts up with your preferred settings.
-
-  I also show you how to bring back the menu-bar and talk about how you can do the same thing with the scroll-bar and the tool-bar if you so choose with some simple editor commands.</div>]]></description>
-      <pubDate>Fri, 05 Jun 2026 00:22:41 +0000</pubDate><category>appearance</category>
-<category>ToolBar</category>
-<category>ScrollBar</category>
-<category>MenuBar</category>
-<category>configuration</category>
-    </item>
-    <item>
-      <title>Kokoro-onnx with Cuda for text to speech with Emacs</title>
-      <link>https://www.youtube.com/watch?v=iUrTC4PrBpM</link>
-      <guid>https://www.youtube.com/watch?v=iUrTC4PrBpM</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=iUrTC4PrBpM">youtube</a><br><br>Kokoro-onnx for text to speech with Cuda on Freebsd with Emacs
-
-  Using a simple python script to create an api using fastapi and uvicorn we can use kokoro-onnx using curl on the command line or using emacs and a couple of lines of elisp code
-
-  Cuda support on Freebsd using podman
-
-  Note you should be able to get this working on Linux,
-  Mac and Windows as well
-
-  Supports multiple languages
-  Offer multiple voices
-  Lightweight: ~300MB (quantized: ~80MB)
-
-  kokoro-onnx github
-
-  https://github.com/thewh1teagle/kokoro-onnx
-
-  freebsd-cuda project
-
-  https://github.com/NapoleonWils0n/freebsd-cuda
-
-  kokoro-onnx podman container for freebsd
-
-  https://github.com/NapoleonWils0n/freebsd-cuda#kokoro
-
-  kokoro-onnx install with cuda
-
-  uv init -p 3.12
-  uv venv
-  uv pip install kokoro-onnx soundfile "onnxruntime-gpu[cuda,cudnn]" fastapi
-
-  you will also need the following packages installed
-  libsndfile libffi-devel
-
-  download the model files
-  https://github.com/thewh1teagle/kokoro-onnx/releases/download/model-files-v1.0/kokoro-v1.0.onnx
-
-  https://github.com/thewh1teagle/kokoro-onnx/releases/download/model-files-v1.0/kokoro-v1.0.onnx
-
-  kokoro-api script
-
-  https://github.com/NapoleonWils0n/freebsd-cuda/blob/master/containers/python/kokoro-onnx/bin/kokoro-api
-
-  note you if you arent using the podman continer you will need to edit the script and change the MODEL_PATH and VOICES_PATH paths
-
-  https://github.com/NapoleonWils0n/freebsd-cuda/blob/master/containers/python/kokoro-onnx/bin/kokoro-api#L39
-
-  @sachactube text to speech
-
-  https://sachachua.com/blog/2026/03/small-steps-towards-using-openai-compatible-text-to-speech-services-with-speechd-el-or-emacspeak/
-
-  freebsd root
-
-  https://github.com/NapoleonWils0n/freebsd-root-xps
-
-  freebsd dotfiles
-
-  https://github.com/NapoleonWils0n/freebsd-dotfiles-xps
-
-  freebsd bin
-
-  https://github.com/NapoleonWils0n/freebsd-bin-xps</div>]]></description>
-      <pubDate>Wed, 03 Jun 2026 18:58:00 +0000</pubDate><category>tts</category>
-    </item>
-    <item>
-      <title>CEDET for  Plan 9 coding</title>
-      <link>https://www.youtube.com/watch?v=thPsF9C2b10</link>
-      <guid>https://www.youtube.com/watch?v=thPsF9C2b10</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=thPsF9C2b10">youtube</a><br><br>Plan 9 C is not ANSI C. So existing tools don't help.
-  Details: https://lifeofpenguin.blogspot.com/2021/04/gnu-emacs-as-lightweight-ide.html</div>]]></description>
-      <pubDate>Wed, 03 Jun 2026 16:27:26 +0000</pubDate><category>coding</category>
-<category>plan9</category>
-<category>cedet</category>
-    </item>
-    <item>
-      <title>How to Setup Emacs on a Chromebook Without Elisp in 2026</title>
-      <link>https://www.youtube.com/watch?v=CVtYtcFvutw</link>
-      <guid>https://www.youtube.com/watch?v=CVtYtcFvutw</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=CVtYtcFvutw">youtube</a><br><br>In this video, I show you how to setup Emacs on a Chromebook in 2026 without elisp, just using built in commands within the Emacs environment that write to your .emacs file. This video covers how to maximize the Emacs screen upon loading, how to load Emacs without the get started screen, how to change the default font of Emacs to a custom font, how to get rid of the tool bar, the scroll bar, and the menu bar as well as how to change the theme of Emacs after showing you how to install packages from Melpa including the Doom themes package. Additionally, I show you how to change the status bar of Emacs to the doom modeline package, noting that you must install nerd icon fonts to get the icons to display properly.</div>]]></description>
-      <pubDate>Wed, 03 Jun 2026 08:57:52 +0000</pubDate>
     </item>
   </channel>
 </rss>

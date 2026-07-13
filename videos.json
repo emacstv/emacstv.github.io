@@ -1,5 +1,47 @@
 [
   {
+    "ITEM": "[02] Vanilla Emacs with Prot: I’ll Repent for My Markdown Sins",
+    "DATE": "2026-07-12T14:18:10-07:00",
+    "DURATION": "2:09:14",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=Crp2e5D_Q78",
+    "SPEAKERS": "linkarzu",
+    "TAGS": [
+      "org"
+    ],
+    "BODY": "In the previous coaching session with Prot we learned how to install emacs and how to start editing files and modifying our configuration from within emacs, we also installed our first packages. We'll continue installing a few more packages this time I guess and we'll get started with Org or orgmode\n\n  Previous video can be found in the podcast channel:\n  https://youtu.be/btAOBkcLEkg\n\n  I wrote a bit more about it in a blogpost:\n  https://linkarzu.com/posts/emacs/prot-love-letter/\n\n  Prot responded in his blogpost:\n  https://protesilaos.com/codelog/2026-07-04-emacs-for-beginners-with-linkarzu/\n\n  If you want to learn more about Prot’s coaching sessions, you can visit this link:\n  https://protesilaos.com/coach/\n\n  Special thanks to Sasha Chua for being there guiding me in my livestreams and taking notes to make the process easier, she also created an article and reacted to one of my videos:\n  https://sachachua.com/blog/2026/07/re-react-to-sacha-and-prot-newbies-and-starter-kits-emacs-video-linkarzu/\n\n  If you have any of the questions below:\n  * Why is the stream vertical, I cannot see a thing\n  * Why are there 2 streams?\n  * What’s that weird voice when someone sends a message\n  * How can I send your GOATED emojis?\n  * Why does TTS not work?\n  * Why aren’t you reading chats on stream?\n  * What’s that Ko-Fi progress bar we see in your videos?\n  * How can I join your discord?\n  * How can I share my setup and workflow in your channel?\n  * Why did the livestream become members only after recording?\n  Read this article:\n  https://linkarzu.com/posts/news/streaming-info/\n\n  Support me:\n  Buy me the Switch 2:\n  https://ko-fi.com/linkarzu\n\n  Join the YouTube Members:\n  https://www.youtube.com/channel/UCrSIvbFncPSlK6AdwE2QboA/join\n\n  My Merch Store:\n  https://merch.linkarzu.com\n\n  My Dotfiles:\n  https://github.com/linkarzu/dotfiles-latest\n\n  Follow me on X:\n  https://x.com/link_arzu"
+  },
+  {
+    "ITEM": "History of Emacs the Text Editor/Operative System",
+    "DATE": "2026-07-11T09:00:01-07:00",
+    "DURATION": "14:46",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=iLQEBbOT9KU",
+    "SPEAKERS": "YouTux Channel",
+    "TAGS": [
+      "history"
+    ],
+    "BODY": "00:00 The joke that explains everything\n  01:07 MIT AI Lab, 1976 — where it all began\n  02:33 The Social Contract — sharing before the GPL\n  03:03 The proliferation — when Emacs became an idea\n  03:34 James Gosling and the door that closed\n  04:13 GNU Emacs — a text editor that changed the world\n  04:57 Emacs Lisp — when using and writing become the same thing\n  06:31 The Editor War — Emacs vs Vi\n  07:52 The Schism — XEmacs and the cost of division\n  09:20 The dark years — Eclipse, IntelliJ, VSCode\n  10:16 The renaissance — Doom Emacs, Evil Mode, a new generation\n  11:02 Org-mode and Magit — why serious developers never left\n  12:52 What Emacs really is — an argument that never ended\n\n  Emacs is older than Linux, older than the internet, and older than most of the people who use it. It started as a collection of macros at the MIT AI Lab in 1976, became the first program of the GNU Project, gave birth to the GPL, survived a religious schism, was written off as obsolete, and came back stronger. This is the full history of the text editor that refused to die — and why it still matters in 2025."
+  },
+  {
+    "ITEM": "Emacs: global keybinding overrides",
+    "DATE": "2026-07-08T04:00:53-07:00",
+    "DURATION": "12:45",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=D99GB591Vgo",
+    "SPEAKERS": "Protesilaos",
+    "TAGS": [
+      "configuration",
+      "keybindings"
+    ],
+    "BODY": "In this video I demonstrate how to define key bindings that have a global overriding effect so that major modes cannot change them. This is important if you want to redefine keys that are not meant to be configured by the user. Find the init file I worked with on my website: https://protesilaos.com/codelog/2026-07-08-emacs-global-keybinding-overrides/"
+  },
+  {
+    "ITEM": "HyWiki: Zero Markup Hypertext",
+    "DATE": "2026-07-07T04:31:29-07:00",
+    "DURATION": "23:23",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=3zG3lRmi3Zg",
+    "SPEAKERS": "Charlie Holland (Baker)",
+    "BODY": "This video is a tour of Hyperbole's HyWiki, a second brain system in Emacs that is unique for it's zero markup syntax and the omniscience of wiki pages within Emacs.  Check out the blog post!  https://www.chiply.dev/post-hyperbole-hywiki\n\n  Timestamps:\n  0:00 Intro\n  1:24 2 Key Features\n  3:35 Omniscient Second Brain\n  4:29 Creating HyWiki Pages\n  6:58 HyWikiWords Appear Everywhere\n  10:50 Autocompletion\n  11:40 Subsections\n  14:10 Bind Any Action\n  17:58 Extensibility\n  22:05 Outro"
+  },
+  {
     "ITEM": "[CLIP] Learning Vanilla Emacs from Scratch with Prot as a Neovim User",
     "DATE": "2026-07-06T06:24:49-07:00",
     "DURATION": "8:27",
@@ -66,6 +108,17 @@
       "OrgMode"
     ],
     "BODY": "Demo of an experimental package \"El Prisma\" as shown in Emacs ATX July 2026 meetup.\n\n  https://github.com/agzam/prisma.el\n\n  Complete meetup video is here: https://youtu.be/ZRoT-3yAMUQ"
+  },
+  {
+    "ITEM": "Emacs ATX meetup. July 2026. pi; gptel; completion-preview; prisma; remoto.",
+    "DATE": "2026-07-03T12:42:55-07:00",
+    "DURATION": "2:06:40",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=ZRoT-3yAMUQ",
+    "SPEAKERS": "Emacs Propaganda",
+    "TAGS": [
+      "EmacsATX"
+    ],
+    "BODY": "0:00 - Intro\n  1:07 - Local LLM coding assistant: pi + Qwen3 on a GTX 1080\n  7:42 - Fixing a Projectile project-root bug\n  10:49 - Multi-cursor search & replace with Embark\n  12:15 - Screen tearing & the Lucid toolkit\n  18:00 - Awesome gptel improvements: an overlay interface\n  38:33 - Agentic edits & including AGENTS.md\n  41:00 - GPTel internals: session routing & point targets\n  53:04 - Org-roam, Org Agenda & Org Edna\n  1:03:01 - Completion: Corfu & completion-preview-mode\n  1:19:00 - Editing Markdown, YAML & JSON as Org\n  1:37:01 - Remoto: browse GitHub repos as files\n  1:52:06 - How Remoto fetches without shelling out\n  2:06:01 - Closing thoughts"
   },
   {
     "ITEM": "Neovim user Reacts to Bashbunni's Doom Emacs Video",
