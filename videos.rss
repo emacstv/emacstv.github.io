@@ -6,6 +6,228 @@
     <atom:link href="https://emacs.tv/videos.rss" rel="self" type="application/rss+xml" />
     <description>Emacs videos</description>
     <item>
+      <title>llm-buddy demo: automatic error detection and fixing in Emacs!</title>
+      <link>https://www.youtube.com/watch?v=_z6_df9s2Fs</link>
+      <guid>https://www.youtube.com/watch?v=_z6_df9s2Fs</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=_z6_df9s2Fs">youtube</a><br><br>Github: https://github.com/ahyatt/llm-buddy</div>]]></description>
+      <pubDate>Fri, 24 Jul 2026 19:26:57 +0000</pubDate><category>llms</category>
+    </item>
+    <item>
+      <title>Emacs | Project.el</title>
+      <link>https://www.youtube.com/watch?v=na_zxYz87xY</link>
+      <guid>https://www.youtube.com/watch?v=na_zxYz87xY</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=na_zxYz87xY">youtube</a><br><br>,### Install
+  ```emacs-lisp
+  (use-package project
+    :ensure nil
+    :custom
+    (project-vc-extra-root-markers '(".project")))
+
+  ```
+
+  ,### Project Core Commands
+
+  * `C-x p f` : `project-find-file` - Search and open a file inside the current project.
+  * `C-x p p` : `project-switch-project` - Switch to another project from your list of known projects.
+  * `C-x p b` : `project-switch-to-buffer` - Switch to an open buffer belonging only to this project.
+  * `C-x p d` : `project-dired` - Open a Dired directory buffer at the root of the project.
+  * `C-x p g` : `project-find-regexp` - Search for a text string or regex across all project files.
+  * `C-x p e` : `project-eshell` - Open a dedicated Eshell terminal instance at the project root.
+  * `C-x p c` : `project-compile` - Run a build or compile command from the project root directory.
+  * `C-x p k` : `project-kill-buffers` - Close all open buffers associated with the current project.
+
+  ,### Project Management
+
+  * `M-x project-forget-project` : Remove a specific directory from Emacs' remembered project list.
+  * `M-x project-forget-projects-under` : Remove all saved projects under a specific directory.
+  * `M-x project-forget-zombie-projects` : Automatically remove all non-existent or deleted project directories from the saved list.
+
+  ,### Other videos on this topic
+
+  * https://youtu.be/6PlrXQ0tnQM?si=ELMnp_ZpwXSQhMZa
+  * https://www.youtube.com/live/O6hMwJfaXV8?si=lbG6gf4vVatyFQSu</div>]]></description>
+      <pubDate>Wed, 22 Jul 2026 22:07:31 +0000</pubDate><category>project</category>
+<category>navigation</category>
+    </item>
+    <item>
+      <title>How to Undo in Emacs</title>
+      <link>https://www.youtube.com/watch?v=kOw5cqtcmUg</link>
+      <guid>https://www.youtube.com/watch?v=kOw5cqtcmUg</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=kOw5cqtcmUg">youtube</a><br><br>In this video, I show you how to undo a command in Emacs. Unlike other editors which use CTRL-Z to undo a command Emacs is a bit different, in Emacs you use CTRL-x u to undo a command which is typically abbreviated with:
+
+  C-x u</div>]]></description>
+      <pubDate>Sun, 19 Jul 2026 13:15:22 +0000</pubDate><category>beginner</category>
+    </item>
+    <item>
+      <title>Emacs: Completion in the buffer with completion-at-point-functions</title>
+      <link>https://www.youtube.com/watch?v=x3rqjpNm3e0</link>
+      <guid>https://www.youtube.com/watch?v=x3rqjpNm3e0</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=x3rqjpNm3e0">youtube</a><br><br>In this ~22-minute video I explain how Emacs performs completion in a buffer. I cover what happens behind the scenes with the variable completion-at-point-functions. Then I also go to the frontends, which affects the modalities of interaction. I cover the built-in Completions buffer, the packages Corfu and Company, and the built-in completion-preview-mode. Finally, I comment at some further length on how to control the grouping of results in the completion-at-point-functions. In that context I also mention the Cape package, as well as some extra functionality that the Company package provide. I wrote an article which covers all of what is in the video as well as code samples. You can read it on my website here: https://protesilaos.com/codelog/2026-07-19-emacs-completion-at-point-functions/</div>]]></description>
+      <pubDate>Sun, 19 Jul 2026 12:48:30 +0000</pubDate><category>completion</category>
+    </item>
+    <item>
+      <title>Emacs org-pad.el</title>
+      <link>https://www.youtube.com/watch?v=q_te8iX-Cjo</link>
+      <guid>https://www.youtube.com/watch?v=q_te8iX-Cjo</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=q_te8iX-Cjo">youtube</a><br><br>https://github.com/larrasket/org-pad.el</div>]]></description>
+      <pubDate>Sat, 18 Jul 2026 19:33:41 +0000</pubDate><category>org</category>
+    </item>
+    <item>
+      <title>Full IDE Power Over SSH: Remote C++ Development with Just a Terminal and Emacs</title>
+      <link>https://youtube.com/watch?v=HLhSy1cB6Lw&amp;si=1ZSrGae13_UKRIhA</link>
+      <guid>https://youtube.com/watch?v=HLhSy1cB6Lw&amp;si=1ZSrGae13_UKRIhA</guid>
+      <description><![CDATA[<div id="content"><a href="https://youtube.com/watch?v=HLhSy1cB6Lw&si=1ZSrGae13_UKRIhA">youtube</a><br><br>Everything in this video runs over a plain SSH connection to a remote Linux box — no GUI, no forwarded X11, no VS Code Remote extension. Just a terminal, SSH, and Emacs configured as a full C++ IDE.
+
+  I walk through:
+  • Symbol navigation — jump to definitions across your own code and the C++ standard library, find every reference, and jump back out, all without leaving the keyboard
+  • Refactoring — project-wide rename backed by clangd, not text search-and-replace
+  • Debugging — breakpoints, conditional breakpoints, stepping, live variable inspection, and expression evaluation via DAP (lldb/gdb), fully interactive over a terminal session
+
+  The point isn't "Emacs is old-school" — it's that terminal + SSH + Emacs is a genuinely fast, lightweight way to work on remote code: no laggy remote-GUI protocol, no heavyweight remote-extension server, works the same whether you're on a fast connection or a rough one.
+
+  Config used in this video (MIT licensed, free to use/fork):
+  https://github.com/jclosure/vscode-flavored-emacs-2026
+
+  ,#emacs #ssh #cpp #remotedevelopment #terminal #linux #debugging #clangd #vscode #dape</div>]]></description>
+      <pubDate>Fri, 17 Jul 2026 23:17:07 +0000</pubDate><category>coding</category>
+<category>cpp</category>
+    </item>
+    <item>
+      <title>Gentoo User shows you How to edit your make.conf in Emacs</title>
+      <link>https://www.youtube.com/watch?v=sb39zCRkZGE</link>
+      <guid>https://www.youtube.com/watch?v=sb39zCRkZGE</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=sb39zCRkZGE">youtube</a><br><br>Today, I am going to show you how to use TRAMP mode in emacs: TRAMP is not to be confused with the dog. It is used to edit files that require root privileges. VERY EXCITING!!!!</div>]]></description>
+      <pubDate>Thu, 16 Jul 2026 18:52:44 +0000</pubDate><category>coding</category>
+    </item>
+    <item>
+      <title>Gentoo Simp Demonstrates Beacon Mode With Meow On Emacs.</title>
+      <link>https://www.youtube.com/watch?v=zbZR95OIkLY</link>
+      <guid>https://www.youtube.com/watch?v=zbZR95OIkLY</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=zbZR95OIkLY">youtube</a><br><br>Hello! Today, I'm going to demonstrate how to use beacon mode on Emacs, using the modal editor: Meow.
+  here is the creators Github for Meow on his github : https://github.com/meow-edit/meow</div>]]></description>
+      <pubDate>Thu, 16 Jul 2026 18:38:56 +0000</pubDate><category>beacon</category>
+<category>meow</category>
+    </item>
+    <item>
+      <title>Let&apos;s Finally Finish the Emacs Tutorial</title>
+      <link>https://www.youtube.com/watch?v=jCKLY3xH7SY</link>
+      <guid>https://www.youtube.com/watch?v=jCKLY3xH7SY</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=jCKLY3xH7SY">youtube</a><br><br>READ THIS BLOGPOST:
+  How to use text to speech (TTS)?
+  Why are there 2 livestreams?
+  All the answers to these questions and more stream info here
+  https://linkarzu.com/posts/news/streaming-info/
+
+  Instructions to join the discord server
+  https://discord.gg/D7CZMzw3rM
+
+  Members:
+  If you want your message read out loud, include !say
+
+  Example:
+  !say I have a small pp
+
+  Donations of $10 or more on Ko-fi, preferred, or YouTube Super Chats will show up on screen and be read aloud by a computer voice.
+
+  Support me:
+  Buy me the Switch 2:
+  https://ko-fi.com/linkarzu
+
+  Join the YouTube Members (gives you access to the private discord server)
+  https://www.youtube.com/channel/UCrSIvbFncPSlK6AdwE2QboA/join
+
+  My Merch Store:
+  https://merch.linkarzu.com
+
+  My Dotfiles:
+  https://github.com/linkarzu/dotfiles-latest
+
+  Follow me on X:
+  https://x.com/link_arzu
+
+  ,#CleanShotX #macshot #macOS</div>]]></description>
+      <pubDate>Thu, 16 Jul 2026 12:32:47 +0000</pubDate><category>beginner</category>
+    </item>
+    <item>
+      <title>Ayuda de vim cscope, emacs y global.</title>
+      <link>https://www.youtube.com/watch?v=1wrF6J3V47A</link>
+      <guid>https://www.youtube.com/watch?v=1wrF6J3V47A</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=1wrF6J3V47A">youtube</a><br><br>El video anterior no expliqué como obtener la ayuda de vim cscope, emacs y global.</div>]]></description>
+      <pubDate>Thu, 16 Jul 2026 11:07:08 +0000</pubDate><category>navigation</category>
+    </item>
+    <item>
+      <title>One shot modifiers, then emacs tutorial</title>
+      <link>https://www.youtube.com/watch?v=18-s7UdMIG0</link>
+      <guid>https://www.youtube.com/watch?v=18-s7UdMIG0</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=18-s7UdMIG0">youtube</a><br><br>READ THIS BLOGPOST:
+  How to use text to speech (TTS)?
+  Why are there 2 livestreams?
+  All the answers to these questions and more stream info here
+  https://linkarzu.com/posts/news/streaming-info/
+
+  Instructions to join the discord server
+  https://discord.gg/D7CZMzw3rM
+
+  Members:
+  If you want your message read out loud, include !say
+
+  Example:
+  !say I have a small pp
+
+  Donations of $10 or more on Ko-fi, preferred, or YouTube Super Chats will show up on screen and be read aloud by a computer voice.
+
+  Support me:
+  Buy me the Switch 2:
+  https://ko-fi.com/linkarzu
+
+  Join the YouTube Members (gives you access to the private discord server)
+  https://www.youtube.com/channel/UCrSIvbFncPSlK6AdwE2QboA/join
+
+  My Merch Store:
+  https://merch.linkarzu.com
+
+  My Dotfiles:
+  https://github.com/linkarzu/dotfiles-latest
+
+  Follow me on X:
+  https://x.com/link_arzu
+
+  ,#CleanShotX #macshot #macOS</div>]]></description>
+      <pubDate>Wed, 15 Jul 2026 12:32:29 +0000</pubDate><category>beginner</category>
+    </item>
+    <item>
+      <title>Stop Installing Every Emacs Package You See</title>
+      <link>https://www.youtube.com/watch?v=vyLzOD6eQgM</link>
+      <guid>https://www.youtube.com/watch?v=vyLzOD6eQgM</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=vyLzOD6eQgM">youtube</a><br><br>How many Emacs packages should a beginner install?
+
+  In this clip, I ask Protesilaos whether he recommends Denote to someone who is just getting started with Emacs. His answer is simple: start with the basics and only install packages when you understand the problem they are solving.
+
+  Prot has written many Emacs packages, including the Modus themes, which became part of core Emacs, but he still warns beginners against blindly copying package configurations. When you install tools before understanding your own workflow, you can quickly end up with a bloated Emacs config full of packages you never actually use.
+
+  We also take a quick look at some of the packages he personally uses, including Denote, TMR, and Substitute, a package for fast search-and-replace operations based on the symbol at point.
+
+  The main lesson is not that extra Emacs packages are bad. They are useful only when they solve a real need you already have.
+
+  This clip comes from my second Emacs coaching session with Protesilaos, an Emacs contributor and the creator of packages such as the Modus themes, Denote, and many others, full interview here:
+  https://youtube.com/live/Crp2e5D_Q78
+
+  ,#Emacs #VanillaEmacs #Protesilaos #EmacsConfig #Denote #ModusThemes #Linux #TextEditor</div>]]></description>
+      <pubDate>Wed, 15 Jul 2026 10:00:23 +0000</pubDate><category>configuration</category>
+    </item>
+    <item>
+      <title>Voulez-vous parler d&apos;Emacs avec Prot et moi ?</title>
+      <link>https://www.youtube.com/watch?v=IBi4thJN_CA</link>
+      <guid>https://www.youtube.com/watch?v=IBi4thJN_CA</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=IBi4thJN_CA">youtube</a><br><br>https://sachachua.com/blog/2026/07/voulez-vous-parler-d-emacs-avec-prot-et-moi/
+
+  Des liens :
+  - https://www.youtube.com/watch?v=FtSvyOvB5Gs
+  - https://sachachua.com/blog/2026/07/re-prot-francais-je-lis-pour-apprendre-des-nouveaux-mots/
+    - https://youtu.be/C7fZ2mCrxgw</div>]]></description>
+      <pubDate>Tue, 14 Jul 2026 19:28:10 +0000</pubDate><category>community</category>
+    </item>
+    <item>
       <title>[02] Vanilla Emacs with Prot: I’ll Repent for My Markdown Sins</title>
       <link>https://www.youtube.com/watch?v=Crp2e5D_Q78</link>
       <guid>https://www.youtube.com/watch?v=Crp2e5D_Q78</guid>
@@ -58,6 +280,15 @@
       <pubDate>Sun, 12 Jul 2026 21:18:10 +0000</pubDate><category>org</category>
     </item>
     <item>
+      <title>How to Find and Replace Text in Emacs</title>
+      <link>https://www.youtube.com/watch?v=AUY6CkcfGHE</link>
+      <guid>https://www.youtube.com/watch?v=AUY6CkcfGHE</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=AUY6CkcfGHE">youtube</a><br><br>In this video, I show you how to find and replace text in Emacs with the command: M-%
+
+  This allows you to type in the word you want to replace and then the word you want to replace that word with and move through text replacing occurences of the word by typing 'y' and skipping replacing occurrences of the word by typing 'n'.</div>]]></description>
+      <pubDate>Sun, 12 Jul 2026 11:45:35 +0000</pubDate><category>beginner</category>
+    </item>
+    <item>
       <title>History of Emacs the Text Editor/Operative System</title>
       <link>https://www.youtube.com/watch?v=iLQEBbOT9KU</link>
       <guid>https://www.youtube.com/watch?v=iLQEBbOT9KU</guid>
@@ -77,6 +308,24 @@
 
   Emacs is older than Linux, older than the internet, and older than most of the people who use it. It started as a collection of macros at the MIT AI Lab in 1976, became the first program of the GNU Project, gave birth to the GPL, survived a religious schism, was written off as obsolete, and came back stronger. This is the full history of the text editor that refused to die — and why it still matters in 2025.</div>]]></description>
       <pubDate>Sat, 11 Jul 2026 16:00:01 +0000</pubDate><category>history</category>
+    </item>
+    <item>
+      <title>Comment j&apos;organise mon emploi du temps avec org emacs / tablette eink BOOX</title>
+      <link>https://www.youtube.com/watch?v=7ZJZ3RPgjTA</link>
+      <guid>https://www.youtube.com/watch?v=7ZJZ3RPgjTA</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=7ZJZ3RPgjTA">youtube</a><br><br>Update ! Dotfiles are up now check my account links on youtube.
+
+  Video dont je me suis inspire : https://youtu.be/b97vEEBEcrQ?si=3F6044ki_KD3YoB7
+
+  org-caldav no error bloc :
+
+  (with-eval-after-load 'url-dav
+    (advice-add 'url-dav-process-DAV:prop :around
+                (lambda (orig-fn node &rest args)
+                  (if (xml-node-children node)
+                      (apply orig-fn node args)
+                    nil))))</div>]]></description>
+      <pubDate>Wed, 08 Jul 2026 21:44:42 +0000</pubDate><category>org</category>
     </item>
     <item>
       <title>Emacs: global keybinding overrides</title>
@@ -696,287 +945,6 @@
 
   Find more Emacs Chats or join the fun: https://sachachua.com/emacs-chat</div>]]></description>
       <pubDate>Fri, 19 Jun 2026 03:35:14 +0000</pubDate><category>EmacsChat</category>
-    </item>
-    <item>
-      <title>Emacs Teaches Emacs: The Missing README</title>
-      <link>https://www.youtube.com/watch?v=5ZZvQA0Ceb4</link>
-      <guid>https://www.youtube.com/watch?v=5ZZvQA0Ceb4</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=5ZZvQA0Ceb4">youtube</a><br><br>This is the companion post for my blog post on how Emacs teaches itself through its rich auto-discovery (or help) system.  This is a great tutorial for beginners, as it teaches you how to teach yourself!
-
-  Blog post: https://www.chiply.dev/post-ask-emacs
-  Longer version: https://www.chiply.dev/post-june-emacs-carnival
-
-  Timestamps:
-  0:00 Intro
-  1:24 M-x
-  2:47 Help Commands
-  4:30 The Prefix Trick
-  7:18 which-key
-  9:38 C-h C-h
-  10:50 Outro
-
-  ,#emacs #textediting #developertools #software #programming #tutorial</div>]]></description>
-      <pubDate>Thu, 18 Jun 2026 21:40:26 +0000</pubDate>
-    </item>
-    <item>
-      <title>Bending Emacs Episode 14: Prototyping iOS apps with agent-shell, artist-mode, and Claude Skills</title>
-      <link>https://www.youtube.com/watch?v=7fdHeUoRRgg</link>
-      <guid>https://www.youtube.com/watch?v=7fdHeUoRRgg</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=7fdHeUoRRgg">youtube</a><br><br></div>]]></description>
-      <pubDate>Thu, 18 Jun 2026 18:04:16 +0000</pubDate><category>ai</category>
-    </item>
-    <item>
-      <title>Juneau Something? Emacs Teaches You How to Fish!</title>
-      <link>https://www.youtube.com/watch?v=vnJhd-AgOBE</link>
-      <guid>https://www.youtube.com/watch?v=vnJhd-AgOBE</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=vnJhd-AgOBE">youtube</a><br><br>You don't learn Emacs so much as you learn the handful of built-in commands for asking Emacs about Emacs — and those same commands work on themselves, so once you have them you can teach yourself everything else. This post tours that machinery (the C-h help family, apropos, Info, xref, describe- and friends) by following the questions a curious beginner actually asks, and ends by fishing a built-in game out of Emacs and reading its source with the very tools we just learned. It's the fish that teaches fishing 🎣.
-
-  Blog post: https://www.chiply.dev/post-june-emacs-carnival
-
-  Timestamps
-  0:00 Intro
-  5:45 help-for-help
-  9:19 help-with-tutorial
-  10:35 info-emacs-manual
-  14:12 view-lossage
-  16:30 repeat-complex-command
-  19:08 view-echo-area-messages
-  21:05 eldoc-mode
-  23:38 display-local-help
-  24:37 what-cursor-position
-  26:30 describe-mode
-  29:50 describe-bindings
-  30:55 where-is
-  32:00 which-key-mode
-  34:30 execute-extended-command
-  35:35 tmm-menubar
-  37:04 describe-[thing]
-  39:35 apropos
-  43:35 Info
-  48:25 finder-by-keyword
-  49:09 view-emacs-news
-  49:47 xref
-  53:10 find-[thing]
-  55:25 eval and ielm
-  59:38 customize
-  1:06:14 tetris!
-  1:12:08 Outro
-
-
-  ,#emacs #tutorial #software #programming #developertools #textediting</div>]]></description>
-      <pubDate>Tue, 16 Jun 2026 23:55:11 +0000</pubDate><category>beginner</category>
-<category>help</category>
-<category>EmacsCarnival</category>
-    </item>
-    <item>
-      <title>Emacs Org-Roam: Gestione della Conoscenza a Grafi e Metodo Zettelkasten</title>
-      <link>https://www.youtube.com/watch?v=t_mi-H9iFXA</link>
-      <guid>https://www.youtube.com/watch?v=t_mi-H9iFXA</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=t_mi-H9iFXA">youtube</a><br><br>Abbandonare la rigida struttura gerarchica a cartelle e sottocartelle è il primo passo per costruire un sistema di gestione della conoscenza personale (PKM) davvero efficiente. In questo video esploriamo come trasformare Emacs in un potente "secondo cervello" non gerarchico attraverso Org-Roam, un'estensione ispirata ai principi metodologici dello Zettelkasten.
-
-  Analizzeremo la teoria dei grafi applicata alle tue note, esaminando come l'estensione traduca i concetti di nodi e collegamenti bidirezionali (backlinks) in metadati nativi di Org-mode, senza ricorrere a formati proprietari ma sfruttando la persistenza degli ID alfanumerici registrati su database SQLite.
-
-  -- Contatti --
-  Canale telegram: https://t.me/NFVblog
-  Pagina ko-fi per le donazioni: https://ko-fi.com/nfvblog
-  Pagina Mastodon: https://mastodon.cloud/@nfvblog</div>]]></description>
-      <pubDate>Mon, 15 Jun 2026 07:30:19 +0000</pubDate><category>org</category>
-    </item>
-    <item>
-      <title>Xah Talk Show Ep793. emacs, install Xah Fly Keys in WSL linux emacs</title>
-      <link>https://www.youtube.com/watch?v=imAgBN3brns</link>
-      <guid>https://www.youtube.com/watch?v=imAgBN3brns</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=imAgBN3brns">youtube</a><br><br>Video Summary (Generated by AI, Edited by Human.)
-
-  In this video, Xah Lee demonstrates the process of installing his custom Emacs configuration, specifically Xah Fly Keys, within a Windows Subsystem for Linux (WSL) environment. The session is highly technical and covers his troubleshooting process for setting up a functional development environment in Linux.
-
-  Key Highlights:
-
-  • Goal and Motivation: The primary objective is to migrate his established Emacs workflow from Windows to WSL, ensuring he can use his custom keybindings and packages effectively (0:17-1:24).
-  • Technical Challenges: A significant portion of the video details the hurdles encountered, such as:
-  • Font Configuration: Debugging why font sizes and families (specifically Deja Vu Sans Mono) were not applying correctly in the Linux environment (51:38, 57:26, 1:04:19).
-  • File Management: Navigating the Linux filesystem and managing init files compared to his usual Windows setup (1:30:03-1:49:45).
-  • Performance: Comparing the startup speed of Emacs on Windows versus WSL (1:55:07-1:56:15).
-  • Philosophy and Commentary: Xah Lee provides commentary throughout on his distaste for certain Unix conventions, particularly the historic 80-character line-length limitation, which he argues causes unnecessary formatting issues for modern users (2:07:31-2:12:35).
-
-  Conclusion:
-
-   By the end of the video, Xah Lee successfully got Xah Fly Keys set his Emacs setup on WSL. also mentioned is that there seems to be missing native code compilation on the WSL instance. (2:16:49-2:17:58).
-
-
-  Notes at
-  http://xahlee.info/talk_show/xah_talk_show_ep793.html
-  If browser says security error, that is because it auto changes URL from HTTP to HTTPS.
-  It's a way to censor 22 million old websites.
-  Remove the S in HTTPS.
-  Or use brave browser or safari.</div>]]></description>
-      <pubDate>Sat, 13 Jun 2026 15:21:11 +0000</pubDate><category>configuration</category>
-    </item>
-    <item>
-      <title>Vibe Coding with Emacs&apos; Built-In AI - System Crafters Live!</title>
-      <link>https://www.youtube.com/watch?v=8JgIE48vh6c</link>
-      <guid>https://www.youtube.com/watch?v=8JgIE48vh6c</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=8JgIE48vh6c">youtube</a><br><br>In this stream, we'll finally give vibe coding a try! But forget the big-name cloud assistants: it turns out Emacs has been shipping with its own AI assistant for decades, so we'll be pair programming with that instead. The rules are simple: we start a fresh project, we consult our assistant before every decision, and whatever it says, goes.
-
-  Let's see if we can learn what all the vibe coding fuss is about!
-
-  ,#emacs #vibecoding #aicoding #pairprogramming #lisp
-
-  SUPPORT THE CHANNEL:
-
-  👍 Support My Work: https://systemcrafters.net/how-to-help/#support-my-work
-  📰 Subscribe to the Newsletter: https://systemcrafters.net/newsletter/
-  👕 Check out the Store: https://systemcrafters.store
-  📘 Get Your Copy of Mastering Emacs: https://www.masteringemacs.org/r/systemcrafters?utm_source=yt&utm_medium=desc&utm_campaign=scme
-
-  SHOW NOTES:
-
-  https://systemcrafters.net/live-streams/june-12-2026/
-
-  JOIN THE COMMUNITY:
-
-  https://systemcrafters.net/community/ (Forum and IRC chat!)
-  https://fosstodon.org/@daviwil
-
-  MY CONFIGURATION:
-
-  (This site is currently down but will be back up soon!)
-
-  https://config.daviwil.com
-  https://config.daviwil.com/emacs
-  https://config.daviwil.com/systems (Guix)
-
-  OTHER SERIES:
-
-  - Emacs Essentials: https://www.youtube.com/watch?v=48JlgiBpw_I&list=PLEoMzSkcN8oPZvSdewHG8uApD7THlLLCV
-  - Emacs From Scratch: https://www.youtube.com/watch?v=74zOY-vgkyw&list=PLEoMzSkcN8oPH1au7H6B7bBJ4ZO7BXjSZ
-  - Emacs Tips: https://www.youtube.com/watch?v=wKTKmE1wLyw&list=PLEoMzSkcN8oMHJ6Xil1YdnYtlWd5hHZql
-  - Emacs Desktop Environment: https://www.youtube.com/watch?v=f7xB2fFk1tQ&list=PLEoMzSkcN8oNPbEMYEtswOVTvq7CVddCS
-  - Emacs IDE: https://www.youtube.com/watch?v=E-NAM9U5JYE&list=PLEoMzSkcN8oNvsrtk_iZSb94krGRofFjN
-  - Emacs Mail: https://www.youtube.com/watch?v=yZRyEhi4y44&list=PLEoMzSkcN8oM-kA19xOQc8s0gr0PpFGJQ
-  - Learning Emacs Lisp: https://www.youtube.com/watch?v=RQK_DaaX34Q&list=PLEoMzSkcN8oPQtn7FQEF3D7sroZbXuPZ7
-  - Craft Your System with GNU Guix: https://www.youtube.com/watch?v=iBaqOK75cho&list=PLEoMzSkcN8oNxnj7jm5V2ZcGc52002pQU
-
-  CREDITS:
-
-  Coriolis Effect by logos feat. stefsax, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/mseq/26296
-  reNovation by airtone, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/airtone/60674
-  ukeSounds by airtone, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/airtone/32655
-  Between Worlds (Instrumental) by Aussens@iter, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/tobias_weber/56664</div>]]></description>
-      <pubDate>Sat, 13 Jun 2026 05:20:51 +0000</pubDate><category>ai</category>
-    </item>
-    <item>
-      <title>Yay Emacs 33: Sacha and Prot Talk Emacs: Built-ins</title>
-      <link>https://www.youtube.com/watch?v=yuJYEua0ZwA</link>
-      <guid>https://www.youtube.com/watch?v=yuJYEua0ZwA</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=yuJYEua0ZwA">youtube</a><br><br>https://sachachua.com/blog/2026/06/june-11-sacha-and-prot-talk-emacs-built-ins/
-
-  On June 11, I'm going to chat with Prot https://protesilaos.com about the Emacs Carnival June 2026 topic Underappreciated Emacs Built-ins https://rossabaker.com/blog/underappreciated-emacs-built-ins/. Thanks to Ross A. Baker for hosting the carnival!
-
-  2026-06-11 Thu 10:30--2026-06-11 Thu 11:30 (America/Toronto) = Thu Jun 11 1030H EDT / 0930H CDT / 0830H MDT / 0730H PDT / 1430H UTC / 1630H CEST / 1730H EEST / 2000H IST / 2230H +08 / 2330H JST</div>]]></description>
-      <pubDate>Fri, 12 Jun 2026 03:38:41 +0000</pubDate><category>EmacsCarnival</category>
-    </item>
-    <item>
-      <title>Xah Talk Show Ep792. install emacs on wsl Windows Subsystem for Linux</title>
-      <link>https://www.youtube.com/watch?v=teAgI3aoIpU</link>
-      <guid>https://www.youtube.com/watch?v=teAgI3aoIpU</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=teAgI3aoIpU">youtube</a><br><br>In this episode of Xah Talk Show, the creator walks viewers through the process of installing and compiling Emacs on the Windows Subsystem for Linux (WSL). The session is informal, characterized by the creator's commentary on technology, his views on software development history, and his personal anecdotes.
-
-  Key sections of the video include:
-
-      Introduction to WSL: The creator explains how to enable the necessary virtualization settings in the BIOS/UEFI and the basic commands to initialize WSL on Windows (0:00 - 9:00).
-      The Installation Process: Throughout the video, the creator struggles with and successfully navigates installing dependencies (such as build-essential, libxpm, libgtk, etc.) required to build Emacs from source (13:30 - 1:18:20).
-      Historical Commentary: The creator offers his perspectives on the history of package managers (e.g., Think, MacPorts, Homebrew, dpkg), the evolution of open-source software, and the influence of corporations like Microsoft and Google (51:45 - 55:40).
-      The Ubuntu Logo Story: A notable tangent where the creator discusses the origin and perceived ideological implications of the Ubuntu logo (36:34 - 41:43).
-      Successful Compilation and Demo: After a long build process, the creator successfully runs the Emacs binary (version 32) within WSL and performs a quick demo of the Tetris game built into Emacs to verify the installation (1:44:00 - 1:46:39).
-
-  Notes at
-  http://xahlee.info/talk_show/xah_talk_show_ep792.html
-  If browser says security error, that is because it auto changes URL from HTTP to HTTPS.
-  It's a way to censor 22 million old websites.
-  Remove the S in HTTPS.
-  Or use brave browser or safari.</div>]]></description>
-      <pubDate>Thu, 11 Jun 2026 10:32:15 +0000</pubDate><category>wsl</category>
-    </item>
-    <item>
-      <title>Emacs - world-cup.el: Gettin&apos; hyped for the 2026 World Cup</title>
-      <link>https://www.youtube.com/watch?v=7tURkbpdUmo</link>
-      <guid>https://www.youtube.com/watch?v=7tURkbpdUmo</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=7tURkbpdUmo">youtube</a><br><br>I pretty much only get into soccer for the world cup every four years -- at which point, I have a lot of studying to do! I'd way rather do that in emacs than anywhere else.
-
-  So I vibecoded world-cup.el -- and here's me showing it off.
-
-
-  Source Repo: https://github.com/strickinato/org-world-cup-2026/
-
-  Project that inspired: https://www.sastibe.de/2018/06/its-here-org-agenda-for-the-world-cup-2018/
-
-  Don't forget, touch grass...</div>]]></description>
-      <pubDate>Thu, 11 Jun 2026 04:59:25 +0000</pubDate><category>fun</category>
-    </item>
-    <item>
-      <title>How to Install a Package on Emacs From Melpa</title>
-      <link>https://www.youtube.com/watch?v=Lnj45uzDcLc</link>
-      <guid>https://www.youtube.com/watch?v=Lnj45uzDcLc</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=Lnj45uzDcLc">youtube</a><br><br>In this video, I show you how to install a custom package from the Melpa package repository by first enabling packages at startup and then how, without elisp, to add the Melpa package repository. I then show you how to install the theme "Atom One Dark" and also a cool website to use to find themes.</div>]]></description>
-      <pubDate>Mon, 08 Jun 2026 21:00:12 +0000</pubDate><category>beginner</category>
-<category>configuration</category>
-    </item>
-    <item>
-      <title>How I structure my Emacs init.el file</title>
-      <link>https://www.youtube.com/watch?v=ZCELm1zUcH0</link>
-      <guid>https://www.youtube.com/watch?v=ZCELm1zUcH0</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=ZCELm1zUcH0">youtube</a><br><br>I cover how my init.el file is structured.
-
-  You can find it on my github:
-  https://github.com/maxfriis/my-emacs-config
-
-  Note that I forgot to mention, why I don't use use-package or straight. The reason is that I don't want to micromanage what get deferred. I trust that the packages I use defer sensibly.
-
-  Furthermore if you want to utilize use-package, I feel it invites you to have a more messy structure. E.g. I like that all my keybindings are in a separate section.</div>]]></description>
-      <pubDate>Mon, 08 Jun 2026 11:55:42 +0000</pubDate><category>configuration</category>
-    </item>
-    <item>
-      <title>How to Change Themes in Emacs</title>
-      <link>https://www.youtube.com/watch?v=FSdPbKTBWaQ</link>
-      <guid>https://www.youtube.com/watch?v=FSdPbKTBWaQ</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=FSdPbKTBWaQ">youtube</a><br><br>In this video, I show you how to change from the default theme of Emacs into another one of the themes that comes with Emacs by using the command:
-
-  M-x customize-themes
-
-  I then show you how to change to that theme and save that theme preference for future sessions when using Emacs.</div>]]></description>
-      <pubDate>Sun, 07 Jun 2026 23:00:18 +0000</pubDate><category>configuration</category>
-<category>customize</category>
-<category>themes</category>
-    </item>
-    <item>
-      <title>Corrigindo divergências entre arquivos de configuração do emacs</title>
-      <link>https://www.youtube.com/watch?v=i6i1omycw0Y</link>
-      <guid>https://www.youtube.com/watch?v=i6i1omycw0Y</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=i6i1omycw0Y">youtube</a><br><br>Me veja tentando resolver divergências acumuladas nos últimos 6 meses.</div>]]></description>
-      <pubDate>Sun, 07 Jun 2026 09:27:31 +0000</pubDate><category>diff</category>
-    </item>
-    <item>
-      <title>How to Inhibit the Welcome Screen in Emacs</title>
-      <link>https://www.youtube.com/watch?v=7Gz-FOq9AIs</link>
-      <guid>https://www.youtube.com/watch?v=7Gz-FOq9AIs</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=7Gz-FOq9AIs">youtube</a><br><br>In this video, I show you how to inhibit the welcome screen in Emacs so that you can start the editor with a blank buffer. To do this, I have you customize the option (with M-x customize-option) "inhibit-startup-screen". You'll want to toggle that to on and then click "apply and save" within the editor. After that, when you restart the editor it will start with a blank buffer.</div>]]></description>
-      <pubDate>Sat, 06 Jun 2026 21:15:20 +0000</pubDate><category>configuration</category>
-<category>customize</category>
-<category>startup</category>
-    </item>
-    <item>
-      <title>How to Maximize Emacs&apos; Screen Upon Startup</title>
-      <link>https://www.youtube.com/watch?v=Cr9IHzj_APQ</link>
-      <guid>https://www.youtube.com/watch?v=Cr9IHzj_APQ</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=Cr9IHzj_APQ">youtube</a><br><br>In this video, I show you how to maximize the Emacs editor upon startup with the following commands:
-
-  M-x "customize-option"
-
-  This first command allows you to customize a variable. The variable you want to customize is "default-frame-alist". With this variable you want to create a parameter called "fullscreen" and give it the value "maximized". You'll then click apply and save and the next time you startup Emacs it will maximize to the full screen size.</div>]]></description>
-      <pubDate>Fri, 05 Jun 2026 19:15:15 +0000</pubDate><category>configuration</category>
-<category>customize</category>
-<category>startup</category>
     </item>
   </channel>
 </rss>

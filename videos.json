@@ -1,5 +1,151 @@
 [
   {
+    "ITEM": "llm-buddy demo: automatic error detection and fixing in Emacs!",
+    "DATE": "2026-07-24T12:26:57-07:00",
+    "DURATION": "10:26",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=_z6_df9s2Fs",
+    "SPEAKERS": "Andrew Hyatt",
+    "TAGS": [
+      "llms"
+    ],
+    "BODY": "Github: https://github.com/ahyatt/llm-buddy"
+  },
+  {
+    "ITEM": "Emacs | Project.el",
+    "DATE": "2026-07-22T15:07:31-07:00",
+    "DURATION": "16:57",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=na_zxYz87xY",
+    "SPEAKERS": "Jon Kishore",
+    "TAGS": [
+      "project",
+      "navigation"
+    ],
+    "BODY": ",### Install\n  ```emacs-lisp\n  (use-package project\n    :ensure nil\n    :custom\n    (project-vc-extra-root-markers '(\".project\")))\n\n  ```\n\n  ,### Project Core Commands\n\n  * `C-x p f` : `project-find-file` - Search and open a file inside the current project.\n  * `C-x p p` : `project-switch-project` - Switch to another project from your list of known projects.\n  * `C-x p b` : `project-switch-to-buffer` - Switch to an open buffer belonging only to this project.\n  * `C-x p d` : `project-dired` - Open a Dired directory buffer at the root of the project.\n  * `C-x p g` : `project-find-regexp` - Search for a text string or regex across all project files.\n  * `C-x p e` : `project-eshell` - Open a dedicated Eshell terminal instance at the project root.\n  * `C-x p c` : `project-compile` - Run a build or compile command from the project root directory.\n  * `C-x p k` : `project-kill-buffers` - Close all open buffers associated with the current project.\n\n  ,### Project Management\n\n  * `M-x project-forget-project` : Remove a specific directory from Emacs' remembered project list.\n  * `M-x project-forget-projects-under` : Remove all saved projects under a specific directory.\n  * `M-x project-forget-zombie-projects` : Automatically remove all non-existent or deleted project directories from the saved list.\n\n  ,### Other videos on this topic\n\n  * https://youtu.be/6PlrXQ0tnQM?si=ELMnp_ZpwXSQhMZa\n  * https://www.youtube.com/live/O6hMwJfaXV8?si=lbG6gf4vVatyFQSu"
+  },
+  {
+    "ITEM": "How to Undo in Emacs",
+    "DATE": "2026-07-19T06:15:22-07:00",
+    "DURATION": "1:24",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=kOw5cqtcmUg",
+    "SPEAKERS": "Timothy Unkert",
+    "TAGS": [
+      "beginner"
+    ],
+    "BODY": "In this video, I show you how to undo a command in Emacs. Unlike other editors which use CTRL-Z to undo a command Emacs is a bit different, in Emacs you use CTRL-x u to undo a command which is typically abbreviated with:\n\n  C-x u"
+  },
+  {
+    "ITEM": "Emacs: Completion in the buffer with completion-at-point-functions",
+    "DATE": "2026-07-19T05:48:30-07:00",
+    "DURATION": "22:52",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=x3rqjpNm3e0",
+    "SPEAKERS": "Protesilaos",
+    "TAGS": [
+      "completion"
+    ],
+    "BODY": "In this ~22-minute video I explain how Emacs performs completion in a buffer. I cover what happens behind the scenes with the variable completion-at-point-functions. Then I also go to the frontends, which affects the modalities of interaction. I cover the built-in Completions buffer, the packages Corfu and Company, and the built-in completion-preview-mode. Finally, I comment at some further length on how to control the grouping of results in the completion-at-point-functions. In that context I also mention the Cape package, as well as some extra functionality that the Company package provide. I wrote an article which covers all of what is in the video as well as code samples. You can read it on my website here: https://protesilaos.com/codelog/2026-07-19-emacs-completion-at-point-functions/"
+  },
+  {
+    "ITEM": "Emacs org-pad.el",
+    "DATE": "2026-07-18T12:33:41-07:00",
+    "DURATION": "1:16",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=q_te8iX-Cjo",
+    "SPEAKERS": "saleh",
+    "TAGS": [
+      "org"
+    ],
+    "BODY": "https://github.com/larrasket/org-pad.el"
+  },
+  {
+    "ITEM": "Full IDE Power Over SSH: Remote C++ Development with Just a Terminal and Emacs",
+    "DATE": "2026-07-17T16:17:07-07:00",
+    "DURATION": "10:12",
+    "YOUTUBE_URL": "https://youtube.com/watch?v=HLhSy1cB6Lw&si=1ZSrGae13_UKRIhA",
+    "SPEAKERS": "Joel Holder",
+    "TAGS": [
+      "coding",
+      "cpp"
+    ],
+    "BODY": "Everything in this video runs over a plain SSH connection to a remote Linux box — no GUI, no forwarded X11, no VS Code Remote extension. Just a terminal, SSH, and Emacs configured as a full C++ IDE.\n\n  I walk through:\n  • Symbol navigation — jump to definitions across your own code and the C++ standard library, find every reference, and jump back out, all without leaving the keyboard\n  • Refactoring — project-wide rename backed by clangd, not text search-and-replace\n  • Debugging — breakpoints, conditional breakpoints, stepping, live variable inspection, and expression evaluation via DAP (lldb/gdb), fully interactive over a terminal session\n\n  The point isn't \"Emacs is old-school\" — it's that terminal + SSH + Emacs is a genuinely fast, lightweight way to work on remote code: no laggy remote-GUI protocol, no heavyweight remote-extension server, works the same whether you're on a fast connection or a rough one.\n\n  Config used in this video (MIT licensed, free to use/fork):\n  https://github.com/jclosure/vscode-flavored-emacs-2026\n\n  ,#emacs #ssh #cpp #remotedevelopment #terminal #linux #debugging #clangd #vscode #dape"
+  },
+  {
+    "ITEM": "Gentoo User shows you How to edit your make.conf in Emacs",
+    "DATE": "2026-07-16T11:52:44-07:00",
+    "DURATION": "2:25",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=sb39zCRkZGE",
+    "SPEAKERS": "Arturo R Ochoa",
+    "TAGS": [
+      "coding"
+    ],
+    "BODY": "Today, I am going to show you how to use TRAMP mode in emacs: TRAMP is not to be confused with the dog. It is used to edit files that require root privileges. VERY EXCITING!!!!"
+  },
+  {
+    "ITEM": "Gentoo Simp Demonstrates Beacon Mode With Meow On Emacs.",
+    "DATE": "2026-07-16T11:38:56-07:00",
+    "DURATION": "3:29",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=zbZR95OIkLY",
+    "SPEAKERS": "Arturo R Ochoa",
+    "TAGS": [
+      "beacon",
+      "meow"
+    ],
+    "BODY": "Hello! Today, I'm going to demonstrate how to use beacon mode on Emacs, using the modal editor: Meow.\n  here is the creators Github for Meow on his github : https://github.com/meow-edit/meow"
+  },
+  {
+    "ITEM": "Let's Finally Finish the Emacs Tutorial",
+    "DATE": "2026-07-16T05:32:47-07:00",
+    "DURATION": "2:03:47",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=jCKLY3xH7SY",
+    "SPEAKERS": "linkarzu",
+    "TAGS": [
+      "beginner"
+    ],
+    "BODY": "READ THIS BLOGPOST:\n  How to use text to speech (TTS)?\n  Why are there 2 livestreams?\n  All the answers to these questions and more stream info here\n  https://linkarzu.com/posts/news/streaming-info/\n\n  Instructions to join the discord server\n  https://discord.gg/D7CZMzw3rM\n\n  Members:\n  If you want your message read out loud, include !say\n\n  Example:\n  !say I have a small pp\n\n  Donations of $10 or more on Ko-fi, preferred, or YouTube Super Chats will show up on screen and be read aloud by a computer voice.\n\n  Support me:\n  Buy me the Switch 2:\n  https://ko-fi.com/linkarzu\n\n  Join the YouTube Members (gives you access to the private discord server)\n  https://www.youtube.com/channel/UCrSIvbFncPSlK6AdwE2QboA/join\n\n  My Merch Store:\n  https://merch.linkarzu.com\n\n  My Dotfiles:\n  https://github.com/linkarzu/dotfiles-latest\n\n  Follow me on X:\n  https://x.com/link_arzu\n\n  ,#CleanShotX #macshot #macOS"
+  },
+  {
+    "ITEM": "Ayuda de vim cscope, emacs y global.",
+    "DATE": "2026-07-16T04:07:08-07:00",
+    "DURATION": "5:04",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=1wrF6J3V47A",
+    "SPEAKERS": "Óscar Megía López",
+    "TAGS": [
+      "navigation"
+    ],
+    "BODY": "El video anterior no expliqué como obtener la ayuda de vim cscope, emacs y global."
+  },
+  {
+    "ITEM": "One shot modifiers, then emacs tutorial",
+    "DATE": "2026-07-15T05:32:29-07:00",
+    "DURATION": "2:08:21",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=18-s7UdMIG0",
+    "SPEAKERS": "linkarzu",
+    "TAGS": [
+      "beginner"
+    ],
+    "BODY": "READ THIS BLOGPOST:\n  How to use text to speech (TTS)?\n  Why are there 2 livestreams?\n  All the answers to these questions and more stream info here\n  https://linkarzu.com/posts/news/streaming-info/\n\n  Instructions to join the discord server\n  https://discord.gg/D7CZMzw3rM\n\n  Members:\n  If you want your message read out loud, include !say\n\n  Example:\n  !say I have a small pp\n\n  Donations of $10 or more on Ko-fi, preferred, or YouTube Super Chats will show up on screen and be read aloud by a computer voice.\n\n  Support me:\n  Buy me the Switch 2:\n  https://ko-fi.com/linkarzu\n\n  Join the YouTube Members (gives you access to the private discord server)\n  https://www.youtube.com/channel/UCrSIvbFncPSlK6AdwE2QboA/join\n\n  My Merch Store:\n  https://merch.linkarzu.com\n\n  My Dotfiles:\n  https://github.com/linkarzu/dotfiles-latest\n\n  Follow me on X:\n  https://x.com/link_arzu\n\n  ,#CleanShotX #macshot #macOS"
+  },
+  {
+    "ITEM": "Stop Installing Every Emacs Package You See",
+    "DATE": "2026-07-15T03:00:23-07:00",
+    "DURATION": "4:07",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=vyLzOD6eQgM",
+    "SPEAKERS": "linkarzu",
+    "TAGS": [
+      "configuration"
+    ],
+    "BODY": "How many Emacs packages should a beginner install?\n\n  In this clip, I ask Protesilaos whether he recommends Denote to someone who is just getting started with Emacs. His answer is simple: start with the basics and only install packages when you understand the problem they are solving.\n\n  Prot has written many Emacs packages, including the Modus themes, which became part of core Emacs, but he still warns beginners against blindly copying package configurations. When you install tools before understanding your own workflow, you can quickly end up with a bloated Emacs config full of packages you never actually use.\n\n  We also take a quick look at some of the packages he personally uses, including Denote, TMR, and Substitute, a package for fast search-and-replace operations based on the symbol at point.\n\n  The main lesson is not that extra Emacs packages are bad. They are useful only when they solve a real need you already have.\n\n  This clip comes from my second Emacs coaching session with Protesilaos, an Emacs contributor and the creator of packages such as the Modus themes, Denote, and many others, full interview here:\n  https://youtube.com/live/Crp2e5D_Q78\n\n  ,#Emacs #VanillaEmacs #Protesilaos #EmacsConfig #Denote #ModusThemes #Linux #TextEditor"
+  },
+  {
+    "ITEM": "Voulez-vous parler d'Emacs avec Prot et moi ?",
+    "DATE": "2026-07-14T12:28:10-07:00",
+    "DURATION": "3:54",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=IBi4thJN_CA",
+    "SPEAKERS": "Sacha Chua",
+    "TAGS": [
+      "community"
+    ],
+    "BODY": "https://sachachua.com/blog/2026/07/voulez-vous-parler-d-emacs-avec-prot-et-moi/\n\n  Des liens :\n  - https://www.youtube.com/watch?v=FtSvyOvB5Gs\n  - https://sachachua.com/blog/2026/07/re-prot-francais-je-lis-pour-apprendre-des-nouveaux-mots/\n    - https://youtu.be/C7fZ2mCrxgw"
+  },
+  {
     "ITEM": "[02] Vanilla Emacs with Prot: I’ll Repent for My Markdown Sins",
     "DATE": "2026-07-12T14:18:10-07:00",
     "DURATION": "2:09:14",
@@ -11,6 +157,17 @@
     "BODY": "In the previous coaching session with Prot we learned how to install emacs and how to start editing files and modifying our configuration from within emacs, we also installed our first packages. We'll continue installing a few more packages this time I guess and we'll get started with Org or orgmode\n\n  Previous video can be found in the podcast channel:\n  https://youtu.be/btAOBkcLEkg\n\n  I wrote a bit more about it in a blogpost:\n  https://linkarzu.com/posts/emacs/prot-love-letter/\n\n  Prot responded in his blogpost:\n  https://protesilaos.com/codelog/2026-07-04-emacs-for-beginners-with-linkarzu/\n\n  If you want to learn more about Prot’s coaching sessions, you can visit this link:\n  https://protesilaos.com/coach/\n\n  Special thanks to Sasha Chua for being there guiding me in my livestreams and taking notes to make the process easier, she also created an article and reacted to one of my videos:\n  https://sachachua.com/blog/2026/07/re-react-to-sacha-and-prot-newbies-and-starter-kits-emacs-video-linkarzu/\n\n  If you have any of the questions below:\n  * Why is the stream vertical, I cannot see a thing\n  * Why are there 2 streams?\n  * What’s that weird voice when someone sends a message\n  * How can I send your GOATED emojis?\n  * Why does TTS not work?\n  * Why aren’t you reading chats on stream?\n  * What’s that Ko-Fi progress bar we see in your videos?\n  * How can I join your discord?\n  * How can I share my setup and workflow in your channel?\n  * Why did the livestream become members only after recording?\n  Read this article:\n  https://linkarzu.com/posts/news/streaming-info/\n\n  Support me:\n  Buy me the Switch 2:\n  https://ko-fi.com/linkarzu\n\n  Join the YouTube Members:\n  https://www.youtube.com/channel/UCrSIvbFncPSlK6AdwE2QboA/join\n\n  My Merch Store:\n  https://merch.linkarzu.com\n\n  My Dotfiles:\n  https://github.com/linkarzu/dotfiles-latest\n\n  Follow me on X:\n  https://x.com/link_arzu"
   },
   {
+    "ITEM": "How to Find and Replace Text in Emacs",
+    "DATE": "2026-07-12T04:45:35-07:00",
+    "DURATION": "2:51",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=AUY6CkcfGHE",
+    "SPEAKERS": "Timothy Unkert",
+    "TAGS": [
+      "beginner"
+    ],
+    "BODY": "In this video, I show you how to find and replace text in Emacs with the command: M-%\n\n  This allows you to type in the word you want to replace and then the word you want to replace that word with and move through text replacing occurences of the word by typing 'y' and skipping replacing occurrences of the word by typing 'n'."
+  },
+  {
     "ITEM": "History of Emacs the Text Editor/Operative System",
     "DATE": "2026-07-11T09:00:01-07:00",
     "DURATION": "14:46",
@@ -20,6 +177,17 @@
       "history"
     ],
     "BODY": "00:00 The joke that explains everything\n  01:07 MIT AI Lab, 1976 — where it all began\n  02:33 The Social Contract — sharing before the GPL\n  03:03 The proliferation — when Emacs became an idea\n  03:34 James Gosling and the door that closed\n  04:13 GNU Emacs — a text editor that changed the world\n  04:57 Emacs Lisp — when using and writing become the same thing\n  06:31 The Editor War — Emacs vs Vi\n  07:52 The Schism — XEmacs and the cost of division\n  09:20 The dark years — Eclipse, IntelliJ, VSCode\n  10:16 The renaissance — Doom Emacs, Evil Mode, a new generation\n  11:02 Org-mode and Magit — why serious developers never left\n  12:52 What Emacs really is — an argument that never ended\n\n  Emacs is older than Linux, older than the internet, and older than most of the people who use it. It started as a collection of macros at the MIT AI Lab in 1976, became the first program of the GNU Project, gave birth to the GPL, survived a religious schism, was written off as obsolete, and came back stronger. This is the full history of the text editor that refused to die — and why it still matters in 2025."
+  },
+  {
+    "ITEM": "Comment j'organise mon emploi du temps avec org emacs / tablette eink BOOX",
+    "DATE": "2026-07-08T14:44:42-07:00",
+    "DURATION": "16:18",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=7ZJZ3RPgjTA",
+    "SPEAKERS": "Zach_yt",
+    "TAGS": [
+      "org"
+    ],
+    "BODY": "Update ! Dotfiles are up now check my account links on youtube.\n\n  Video dont je me suis inspire : https://youtu.be/b97vEEBEcrQ?si=3F6044ki_KD3YoB7\n\n  org-caldav no error bloc :\n\n  (with-eval-after-load 'url-dav\n    (advice-add 'url-dav-process-DAV:prop :around\n                (lambda (orig-fn node &rest args)\n                  (if (xml-node-children node)\n                      (apply orig-fn node args)\n                    nil))))"
   },
   {
     "ITEM": "Emacs: global keybinding overrides",
@@ -293,7 +461,7 @@
     "YOUTUBE_URL": "https://www.youtube.com/watch?v=7fdHeUoRRgg",
     "SPEAKERS": "xenodium",
     "TAGS": [
-      "ai"
+      "llms"
     ],
     "BODY": ""
   },
@@ -339,7 +507,7 @@
     "YOUTUBE_URL": "https://www.youtube.com/watch?v=8JgIE48vh6c",
     "SPEAKERS": "System Crafters",
     "TAGS": [
-      "ai"
+      "llms"
     ],
     "BODY": "In this stream, we'll finally give vibe coding a try! But forget the big-name cloud assistants: it turns out Emacs has been shipping with its own AI assistant for decades, so we'll be pair programming with that instead. The rules are simple: we start a fresh project, we consult our assistant before every decision, and whatever it says, goes.\n\n  Let's see if we can learn what all the vibe coding fuss is about!\n\n  ,#emacs #vibecoding #aicoding #pairprogramming #lisp\n\n  SUPPORT THE CHANNEL:\n\n  👍 Support My Work: https://systemcrafters.net/how-to-help/#support-my-work\n  📰 Subscribe to the Newsletter: https://systemcrafters.net/newsletter/\n  👕 Check out the Store: https://systemcrafters.store\n  📘 Get Your Copy of Mastering Emacs: https://www.masteringemacs.org/r/systemcrafters?utm_source=yt&utm_medium=desc&utm_campaign=scme\n\n  SHOW NOTES:\n\n  https://systemcrafters.net/live-streams/june-12-2026/\n\n  JOIN THE COMMUNITY:\n\n  https://systemcrafters.net/community/ (Forum and IRC chat!)\n  https://fosstodon.org/@daviwil\n\n  MY CONFIGURATION:\n\n  (This site is currently down but will be back up soon!)\n\n  https://config.daviwil.com\n  https://config.daviwil.com/emacs\n  https://config.daviwil.com/systems (Guix)\n\n  OTHER SERIES:\n\n  - Emacs Essentials: https://www.youtube.com/watch?v=48JlgiBpw_I&list=PLEoMzSkcN8oPZvSdewHG8uApD7THlLLCV\n  - Emacs From Scratch: https://www.youtube.com/watch?v=74zOY-vgkyw&list=PLEoMzSkcN8oPH1au7H6B7bBJ4ZO7BXjSZ\n  - Emacs Tips: https://www.youtube.com/watch?v=wKTKmE1wLyw&list=PLEoMzSkcN8oMHJ6Xil1YdnYtlWd5hHZql\n  - Emacs Desktop Environment: https://www.youtube.com/watch?v=f7xB2fFk1tQ&list=PLEoMzSkcN8oNPbEMYEtswOVTvq7CVddCS\n  - Emacs IDE: https://www.youtube.com/watch?v=E-NAM9U5JYE&list=PLEoMzSkcN8oNvsrtk_iZSb94krGRofFjN\n  - Emacs Mail: https://www.youtube.com/watch?v=yZRyEhi4y44&list=PLEoMzSkcN8oM-kA19xOQc8s0gr0PpFGJQ\n  - Learning Emacs Lisp: https://www.youtube.com/watch?v=RQK_DaaX34Q&list=PLEoMzSkcN8oPQtn7FQEF3D7sroZbXuPZ7\n  - Craft Your System with GNU Guix: https://www.youtube.com/watch?v=iBaqOK75cho&list=PLEoMzSkcN8oNxnj7jm5V2ZcGc52002pQU\n\n  CREDITS:\n\n  Coriolis Effect by logos feat. stefsax, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/mseq/26296\n  reNovation by airtone, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/airtone/60674\n  ukeSounds by airtone, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/airtone/32655\n  Between Worlds (Instrumental) by Aussens@iter, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/tobias_weber/56664"
   },
@@ -1076,7 +1244,7 @@
     "YOUTUBE_URL": "https://www.youtube.com/watch?v=su_qxtJrfN0",
     "SPEAKERS": "dickmao",
     "TAGS": [
-      "ai"
+      "llms"
     ],
     "BODY": "https://github.com/commercial-emacs/project-claude.git\n\n  Credits:\n  DevLog: Libghostty ABI Compatibility, @Mitchellh3/videos YouTube\n  By HashiCorp - Terraform_Logo.svg, MPL 2\n  Groundskeeper Willie01.jpg, HAPPY LEMON, CC BY-SA 4.0\n  \"LEGO Minifigure of Lisa Simpson\", Pest15, CC BY-SA 2.0"
   },
@@ -1231,7 +1399,7 @@
     "YOUTUBE_URL": "https://www.youtube.com/watch?v=SrRweChigB0",
     "SPEAKERS": "System Crafters",
     "TAGS": [
-      "ai"
+      "llms"
     ],
     "BODY": "In this stream, we'll explore the AI-driven personal workflow system I've been building with Claude Code and Sigil. I'll walk through the full MCP server stack (email, calendar, tasks, knowledge management, and autonomous agent orchestration) showing how it all fits together to manage my daily operations. Then we'll extend the system live by building a new RSS/feed MCP server from scratch, using the system to build itself.\n\n  Let's see what happens when you give an AI agent the right tools and let it craft its own workflow!\n\n  ,#claude #ai #mcp #sigil #scheme #workflow #automation\n\n  SUPPORT THE CHANNEL:\n\n  👍 Support My Work: https://systemcrafters.net/how-to-help/#support-my-work\n  📰 Subscribe to the Newsletter: https://systemcrafters.net/newsletter/\n  👕 Check out the Store: https://systemcrafters.store\n  📘 Get Your Copy of Mastering Emacs: https://www.masteringemacs.org/r/systemcrafters?utm_source=yt&utm_medium=desc&utm_campaign=scme\n\n  SHOW NOTES:\n\n  https://systemcrafters.net/live-streams/april-3-2026/\n\n  JOIN THE COMMUNITY:\n\n  https://systemcrafters.net/community/ (Forum and IRC chat!)\n  https://fosstodon.org/@daviwil\n\n  MY CONFIGURATION:\n\n  (This site is currently down but will be back up soon!)\n\n  https://config.daviwil.com\n  https://config.daviwil.com/emacs\n  https://config.daviwil.com/systems (Guix)\n\n  OTHER SERIES:\n\n  - Emacs Essentials: https://www.youtube.com/watch?v=48JlgiBpw_I&list=PLEoMzSkcN8oPZvSdewHG8uApD7THlLLCV\n  - Emacs From Scratch: https://www.youtube.com/watch?v=74zOY-vgkyw&list=PLEoMzSkcN8oPH1au7H6B7bBJ4ZO7BXjSZ\n  - Emacs Tips: https://www.youtube.com/watch?v=wKTKmE1wLyw&list=PLEoMzSkcN8oMHJ6Xil1YdnYtlWd5hHZql\n  - Emacs Desktop Environment: https://www.youtube.com/watch?v=f7xB2fFk1tQ&list=PLEoMzSkcN8oNPbEMYEtswOVTvq7CVddCS\n  - Emacs IDE: https://www.youtube.com/watch?v=E-NAM9U5JYE&list=PLEoMzSkcN8oNvsrtk_iZSb94krGRofFjN\n  - Emacs Mail: https://www.youtube.com/watch?v=yZRyEhi4y44&list=PLEoMzSkcN8oM-kA19xOQc8s0gr0PpFGJQ\n  - Learning Emacs Lisp: https://www.youtube.com/watch?v=RQK_DaaX34Q&list=PLEoMzSkcN8oPQtn7FQEF3D7sroZbXuPZ7\n  - Craft Your System with GNU Guix: https://www.youtube.com/watch?v=iBaqOK75cho&list=PLEoMzSkcN8oNxnj7jm5V2ZcGc52002pQU\n\n  CREDITS:\n\n  Coriolis Effect by logos feat. stefsax, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/mseq/26296\n  reNovation by airtone, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/airtone/60674\n  ukeSounds by airtone, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/airtone/32655\n  Between Worlds (Instrumental) by Aussens@iter, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/tobias_weber/56664"
   },
@@ -1347,7 +1515,7 @@
     "YOUTUBE_URL": "https://www.youtube.com/watch?v=ePH3u7lmFWU",
     "SPEAKERS": "Emacs Propaganda",
     "TAGS": [
-      "ai"
+      "llms"
     ],
     "BODY": "Just thinking out loud on some AI-related things and giving a sneak peek of my current workflow.\n\n  Things mentioned:\n\n  https://github.com/karthink/gptel\n\n  https://github.com/editor-code-assistant/eca\n\n  https://github.com/agzam/go-jira.el\n\n  https://github.com/agzam/occult.el\n\n  Dictation app: https://tryvoiceink.com\n\n  Reddit discussion threads:\n\n  https://www.reddit.com/r/emacs/comments/1s8atnd/will_using_emacs_give_you_an_edge_in_the_aiera_45/\n\n  https://www.reddit.com/r/emacs/comments/1s8m35w/will_using_emacs_give_you_an_edge_in_the_aiera/"
   },
@@ -1532,7 +1700,7 @@
     "SPEAKERS": "Ollama Buddy for Emacs",
     "TAGS": [
       "ollama",
-      "ai",
+      "llms",
       "OllamaBuddy"
     ],
     "BODY": "Demonstrating ollama-buddy's tool calling capabilities for editing configuration files through Emacs built-in ediff\n\n  - Open chat with a model that supports tool calling: glm-4.7:cloud\n  - Turn on tooling\n  - \"I would like to assign the brightness and volume to have a prefix of the Super key, so it is not just the function key + brightness and volume function keys I press. Note that the current keybindings should be preserved\"\n  - Watch read_file tool read the Sway configuration files\n  - Watch the LLM understand the existing keybindings structure\n  - Watch propose_file_changes tool create modified configuration with Super key bindings\n  - Show Ediff session being created for interactive review\n  - Demonstrate the eregistry availability for accessing the diff session\n  - Explain that this integrates LLM intelligence directly into the Emacs workflow for configuration management\n\n  This demonstrates how ollama-buddy can intelligently edit configuration files by:\n  1. Reading existing configuration to understand context\n  2. Making informed changes based on user requirements\n  3. Using Emacs' powerful diff tools (ediff) for safe, reviewable modifications\n  4. Maintaining the complete workflow within the familiar Emacs environment\n\n  The proposed changes add Super+F6/F7 for brightness control and Super+F9/F10/F11 for volume control, preserving the existing XF86 function key bindings.\n\n  https://melpa.org/#/ollama-buddy\n  https://github.com/captainflasmr/ollama-buddy\n\n  ,#emacs #ollama"
@@ -1580,7 +1748,7 @@
     "YOUTUBE_URL": "https://www.youtube.com/watch?v=05VzAajH404",
     "SPEAKERS": "Ollama Buddy for Emacs",
     "TAGS": [
-      "ai",
+      "llms",
       "ollama"
     ],
     "BODY": "Demonstrating the Emacs package ollama-buddy's web search integration.\n\n  Select minimax-m2.1:cloud\n\n  - Open chat and type: =What is the next fixture for Manchester United=\n  - Open chat and type: =What is the @search(next fixture for Manchester United)=\n  - Show the ♁N indicator appearing in the header line\n  - Use =C-c / l= to show the attached web search results\n  - Ask a follow-up question using the attached context\n    \"and what about liverpools\" - to prove that we only have Manchester United context\n  - type: =and what about @search(liverpools next fixture?)=\n  - Use =C-c / l= to show the attached web search results\n\n  https://melpa.org/#/ollama-buddy\n  https://github.com/captainflasmr/ollama-buddy\n\n  ,#emacs #ollama"
@@ -1592,7 +1760,7 @@
     "YOUTUBE_URL": "https://www.youtube.com/watch?v=HJQ86HuSIJI",
     "SPEAKERS": "xenodium",
     "TAGS": [
-      "ai",
+      "llms",
       "AgentShell",
       "claude"
     ],
@@ -1655,7 +1823,7 @@
     "YOUTUBE_URL": "https://www.youtube.com/watch?v=ymMlftdGx4I",
     "SPEAKERS": "xenodium",
     "TAGS": [
-      "ai",
+      "llms",
       "AgentShell"
     ],
     "BODY": "In this video I share some agent-shell flows I've been playing around with in conjunction with agent skills to teach Claude some Emacs tricks. I'm fairly new to Claude Skills, but I can see them becoming fairly handy. Do you have some particular flows or skills you like? I'd love to hear about them.\n\n  Here's the related blog post https://xenodium.com/bending-emacs-episode-12-agent-shell-claude-skills\n\n  If you're enjoying or finding my work useful, please consider sponsoring so I can continue doing it sustainably https://xenodium.com/sponsor"
@@ -1679,7 +1847,7 @@
     "YOUTUBE_URL": "https://www.youtube.com/watch?v=Po7Wqpk0sqY",
     "SPEAKERS": "Ollama Buddy for Emacs",
     "TAGS": [
-      "ai",
+      "llms",
       "ollama"
     ],
     "BODY": "Demonstrating in-buffer in-line modification, now we are out of the chat buffer!\n\n  - Turn in-buffer through menu W\n  - open ollama-buddy-rewrite-samples.org\n  - Refactor Code : Sample 2 - refactor\n  - show original in-buffer and accept\n  - Proofread Text : Sample 1 - select paragraph and proofred\n  - show original in-buffer and accept\n\n  This demonstrates how ollama-buddy can now return LLM requests directly into the buffer\n\n  https://melpa.org/#/ollama-buddy\n  https://github.com/captainflasmr/ollama-buddy\n\n  ,#emacs #ollama"
@@ -1691,7 +1859,7 @@
     "YOUTUBE_URL": "https://www.youtube.com/watch?v=sdZ2by9ecBM",
     "SPEAKERS": "Emacs Elements",
     "TAGS": [
-      "ai",
+      "llms",
       "llm"
     ],
     "BODY": "A simple way of using the power of llms inside Emacs without the need for any packages or elisp.\n\n  https://github.com/emacselements/llm-emacs\n\n  If you like my content, you can support me\n  by sending me a donation via PayPal:\n\n  https://paypal.me/revrari\n\n  https://github.com/emacselements\n  https://emacselements.com/"
@@ -1725,7 +1893,7 @@
     "YOUTUBE_URL": "https://www.youtube.com/watch?v=sRdWed1pDVg",
     "SPEAKERS": "Ollama Buddy for Emacs",
     "TAGS": [
-      "ai",
+      "llms",
       "ollama"
     ],
     "BODY": "Demonstrating advanced ollama tool calling with multiple tools working together.\n\n  - Open chat with a model that supports tool calling: glm-4.7:cloud\n  - Turn on tooling\n  - \"Can you read the file /home/jdyer/source/repos/ollama-buddy/README-videos.org and tell me how many demos it contains?\n  - Watch the read_file tool being called\n  - Ask follow-up: \"Now list all the buffers that are currently open in Emacs\"\n  - Watch the list_buffers tool being called\n  - Ask: \"Search in the current buffer for 'tool calling' and show me the results\"\n  - Watch the search_buffer tool being called\n  - \"Now combine all this information and create a summary file called /tmp/ollama-buddy-summary.org\"\n  - Watch write_file tool being called\n  - Show the created file to confirm it was written correctly\n\n  This demonstrates how ollama-buddy can orchestrate multiple tool calls in sequence to answer complex queries and perform multi-step operations.\n\n  https://melpa.org/#/ollama-buddy\n  https://github.com/captainflasmr/ollama-buddy\n\n  ,#emacs #ollama"
@@ -1790,7 +1958,7 @@
     "YOUTUBE_URL": "https://www.youtube.com/watch?v=CleNgiIt2pg&t=4s",
     "SPEAKERS": "Andrew Hyatt",
     "TAGS": [
-      "ai",
+      "llms",
       "org",
       "ekg"
     ],
@@ -1814,7 +1982,7 @@
     "YOUTUBE_URL": "https://www.youtube.com/watch?v=DHV3My0NsJc",
     "SPEAKERS": "Ollama Buddy for Emacs",
     "TAGS": [
-      "ai",
+      "llms",
       "ollama"
     ],
     "BODY": "Demonstrating the first draft of ollama tool calling\n\n  - open the chat with a model that allows tool calling : gpt-oss:20b-cloud\n  - \"can you create a file in /home/jdyer called tmp.txt with the contents of : hello world\"\n  - check that a new text file has been created in /home/jdyer\n\n  https://melpa.org/#/ollama-buddy\n  https://github.com/captainflasmr/ollama-buddy\n\n  ,#emacs #ollama"
@@ -1969,7 +2137,7 @@
     "YOUTUBE_URL": "https://www.youtube.com/watch?v=QsWpVF8yDbQ",
     "SPEAKERS": "Ollama Buddy for Emacs",
     "TAGS": [
-      "ai",
+      "llms",
       "ollama"
     ],
     "BODY": "Demonstrating the Emacs package ollama-buddy, providing a convenient way to integrate Ollama's local LLM capabilities.\n\n  Note: that the user has to be already signed in to ollama.com so the authentication is set up through ollama running locally\n\n  switch to *minimax-m2.1:cloud using the universal argument\n\n  type in some text\n\n  lets see a response!\n\n  switch to gpt-oss:120b-cloud using the transient menu\n\n  type in some text\n\n  lets see a response!\n\n  https://melpa.org/#/ollama-buddy\n  https://github.com/captainflasmr/ollama-buddy\n\n  ,#emacs #ollama"
@@ -1992,7 +2160,7 @@
     "YOUTUBE_URL": "https://www.youtube.com/watch?v=4NszXTVpwmU",
     "SPEAKERS": "ClojureTV",
     "TAGS": [
-      "ai",
+      "llms",
       "eca"
     ],
     "BODY": "ECA is an AI pair programmer that bridges the gap between modern editors and a variety of LLMs — from commercial APIs to local models or even your company's API - completely free of vendor lock — with native integration for VSCode, IntelliJ, Vim, and Emacs.\n\n  In this session, discover how its Clojure architecture powers a dynamic customizable agentic loop within a fully transparent and open framework.\n  This unique design empowers users to customize its behavior right down to the prompts, ensuring control and transparency over the AI's operation.\n\n  Biography\n\n  Maintainer of clojure-lsp, lsp-mode, ECA, metrepl, jet.el, and other tool-related OSS projects. Engineer at Nubank helping improve developers' tooling XP\n\n  Recorded Nov 13, 2025 at Clojure/Conj 2025 in Charlotte, NC."
@@ -2147,7 +2315,7 @@
     "YOUTUBE_URL": "https://www.youtube.com/watch?v=OsBn_VU3pHY",
     "SPEAKERS": "GNU Emacs for Success",
     "TAGS": [
-      "ai"
+      "llms"
     ],
     "BODY": "Video shows example on how to create ComfyUI pictures from Emacs. What does it mean? I can capture imaginary images into Org, or Dynamic Knowledge Repository or use them in many ways."
   },
@@ -2181,7 +2349,7 @@
     "YOUTUBE_URL": "https://www.youtube.com/watch?v=R2Ucr3amgGg",
     "SPEAKERS": "xenodium",
     "TAGS": [
-      "ai",
+      "llms",
       "AgentShell"
     ],
     "BODY": "In this episode, we take a look at agent-shell. A package I wrote to interact with agents offering ACP (Agent Client Protocol) like Claude Code, Gemini CLI, Qwen, OpenCode, Copilot, Codex, Goose, Cursor, Auggie, Mistral Vibe, Factory Droid, and so on...\n\n  Blog post: https://xenodium.com/bending-emacs-episode-10-agent-shell\n\n  If you're getting value out of agent-shell, consider ✨sponsoring✨ https://github.com/sponsors/xenodium\n\n  ,#mistral #emacs #qwen #claude #anthropic #ai #google #goose #gemini #linux #github #macos #oss #foss #opencode #codex #vibe #vibecoding #windows #indie"
@@ -2574,7 +2742,7 @@
     "YOUTUBE_URL": "https://www.youtube.com/watch?v=013LBjd5TVo",
     "SPEAKERS": "Emacs Propaganda",
     "TAGS": [
-      "ai"
+      "llms"
     ],
     "BODY": "Discussion around ECA - Editor Code Assistant.\n\n  Project page: https://eca.dev\n  Emacs package: https://github.com/editor-code-assistant/eca-emacs\n  Eric's GH: https://github.com/ericdallo\n\n  0:00 Foreword\n  2:29 Opening music\n  2:56 Introduction\n  5:50 First Look\n  8:40 It's not only for Emacs\n  11:26 ECA Protocol\n  14:50 The docs\n  17:05 Emacs gives you complete control over text\n  17:23 Context\n  18:29 Hooks (not Emacs hooks)\n  21:10 It's great to use with Clojure MCP\n  22:14 What's your ECA config?\n  28:29 Show us some Emacs\n  38:26 Context\n  39:40 Behavior\n  44:38 Changes\n  46:30 Challenges & Roadmap\n  50:55 Rollback\n  54:35 Closing remarks\n\n\n  Opening music: https://soundcloud.com/incredfx/at-dooms-gate"
   },
@@ -2930,7 +3098,7 @@
     "YOUTUBE_URL": "https://www.youtube.com/watch?v=M386KUIh3Xc",
     "SPEAKERS": "NapoleonWils0n",
     "TAGS": [
-      "ai",
+      "llms",
       "gptel"
     ],
     "BODY": "Using Emacs with the gptel package we can create gpt-tools for llms that call emacs functions to provide the llm with information about our emacs set up\n\n  i was thinking couldnt you write emacs gptel-tools for llms and did a quick search and came across the emacs-mcp mcp server which wasnt quite what i was after.\n\n  so i refactored the code from the emacs-mcp package into the gptel-tool format for use with the gptel package and llms that support tool usage like llama and gemini\n\n  i created a gptel-custom-tools.el file with 32 gptel-tools for emacs which can be loaded using the gptel use package code block\n\n  the gptel-tools allow the llm to report the state of your emacs set up by listing installed packages, modes and variables. as well as reading the manuals and looking up docstrings for elisp symbols\n\n  refactored from mpontus emacs-mcp package\n\n  emacs-mcp\n  https://github.com/mpontus/emacs-mcp\n\n  gptel-custom-tools.el\n  https://github.com/NapoleonWils0n/nixos-dotfiles/blob/master/.config/emacs/lisp/gptel-custom-tools.el\n\n  early-init.el\n  https://github.com/NapoleonWils0n/nixos-dotfiles/blob/master/.config/emacs/early-init.el\n\n  init.el\n  https://github.com/NapoleonWils0n/nixos-dotfiles/blob/master/.config/emacs/init.el\n\n  ollama\n  https://ollama.com/library/llama3.1\n  https://ollama.com/library/llama3.2\n\n  dotfiles org mode\n  https://github.com/NapoleonWils0n/nixos-dotfiles/blob/master/nixos-dotfiles.org\n\n  https://github.com/NapoleonWils0n/nixos-dotfiles/blob/master/nixos-dotfiles.org#auth-source\n\n  https://github.com/NapoleonWils0n/nixos-dotfiles/blob/master/nixos-dotfiles.org#lisp-directory\n\n  https://github.com/NapoleonWils0n/nixos-dotfiles/blob/master/nixos-dotfiles.org#gptel-custom-toolsel"
@@ -2942,7 +3110,7 @@
     "YOUTUBE_URL": "https://www.youtube.com/watch?v=kpExav29OjM",
     "SPEAKERS": "(Bit-Mage)",
     "TAGS": [
-      "ai"
+      "llms"
     ],
     "BODY": "https://aider.chat/\n  https://github.com/MatthewZMD/aidermacs\n  https://opensource.com/article/18/8/what-how-makefile\n\n  https://github.com/rajp152k/.dotfiles"
   },
@@ -3260,7 +3428,7 @@
     "YOUTUBE_URL": "https://www.youtube.com/watch?v=6xv28WTiGsI",
     "SPEAKERS": "NapoleonWils0n",
     "TAGS": [
-      "ai",
+      "llms",
       "gptel"
     ],
     "BODY": "The emacs gptel package lets you use local llm's with ollama as well as online llm's like Gemini\n  however the issue is the models dont have web access so they have a cut off in their knowledge based on when they were built\n\n  Installing the mcp.el package with gptel provides the mcp protocol to work with mcp servers\n  this allows us to use the mcp-searxng server that works with the searxng self hosted search engine to enable web searches for our llm's\n\n  The mcp-searxng server also lets you download web pages as well\n\n  The mcp-nixos server allows us to search for nixos packages from within Emacs,\n  as well other tools to show the latest channel and other useful stuff\n\n  The mcp.el package works with models that support tools using ollama like llama3.1\n  or with online models like Gemini\n\n  docker.el lets you manage your podman or docker container from within Emacs,\n  and the dockerfile-mode package provides syntax highlighting for Dockerfiles\n\n  https://github.com/NapoleonWils0n/cerberus/blob/master/emacs/gptel-mcp-severs.org\n\n  https://github.com/karthink/gptel?tab=readme-ov-file#model-context-protocol-mcp-integration\n\n  https://github.com/lizqwerscott/mcp.el\n\n  https://github.com/Silex/docker.el\n\n  https://github.com/spotify/dockerfile-mode\n\n  https://github.com/ihor-sokoliuk/mcp-searxng\n\n  https://github.com/utensils/mcp-nixos\n\n  Seaxng search engine podman install\n  https://www.youtube.com/watch?v=qAKmxK6juwI\n\n  https://github.com/NapoleonWils0n/cerberus/blob/master/searxng/searxng-podman.org\n\n  https://github.com/NapoleonWils0n/nixos-dotfiles"
@@ -3361,7 +3529,7 @@
     "YOUTUBE_URL": "https://www.youtube.com/watch?v=NR9Buy3fFwI",
     "SPEAKERS": "John Kitchin",
     "TAGS": [
-      "ai"
+      "llms"
     ],
     "BODY": "We show how to use an LLM to examine synthetic data from a bioreactor for biomass and substrate concentrations over time. We use the LLM to graph the data with Python, suggest models for the data, and then to fit the data to extract parameters. There are a few wrinkles with the specific integration of emacs-jupyter and org-mode, but we get to a satisfactory result at the end."
   },
@@ -3394,7 +3562,7 @@
     "YOUTUBE_URL": "https://www.youtube.com/watch?v=v_j7HQpFnow",
     "SPEAKERS": "Vladimir Stavrov",
     "TAGS": [
-      "ai",
+      "llms",
       "ollama"
     ],
     "BODY": ""
@@ -3406,7 +3574,7 @@
     "YOUTUBE_URL": "https://www.youtube.com/watch?v=qUcHbOANVns",
     "SPEAKERS": "WestDRI",
     "TAGS": [
-      "ai"
+      "llms"
     ],
     "BODY": "Other SFU Research Computing training events: https://training.westdri.ca/blog\n  Training Inquiries: training@westdri.ca"
   },
@@ -3448,7 +3616,7 @@
     "YOUTUBE_URL": "https://www.youtube.com/watch?v=Aacpl_8fUYY",
     "SPEAKERS": "dickmao",
     "TAGS": [
-      "ai"
+      "llms"
     ],
     "BODY": "https://github.com/commercial-emacs/emacs-libvterm.git\n\n  Credits:\n  https://share.google/AASrb7lEm5FA6NpKs (Zed Industries)\n  https://youtu.be/XuvKFsktX0Q?si=5qSxRD6xg7tYXNwX (Anthropic)"
   },
@@ -3459,7 +3627,7 @@
     "YOUTUBE_URL": "https://www.youtube.com/watch?v=FwP3HQkrP28",
     "SPEAKERS": "John Kitchin",
     "TAGS": [
-      "ai",
+      "llms",
       "org"
     ],
     "BODY": "Watch along as we use Claude Code to bring semantic search of org-mode headings to #Emacs! This is part of an ongoing project in semantic search that Claude has made possible. Now we have semantic and full-text search across all the indexed org-files. Special thanks to libsql for making vector search an integrated part of sqlite!\n\n  You can see the code at https://github.com/jkitchin/emacs-rag-libsql. It is still quite alpha, but I am using it myself."
@@ -3537,7 +3705,7 @@
     "YOUTUBE_URL": "https://www.youtube.com/watch?v=zw1pm1mGRKs",
     "SPEAKERS": "HI AI",
     "TAGS": [
-      "ai",
+      "llms",
       "llm"
     ],
     "BODY": ""
@@ -3560,7 +3728,7 @@
     "YOUTUBE_URL": "https://www.youtube.com/watch?v=6jd1uYEGLDs",
     "SPEAKERS": "John Kitchin",
     "TAGS": [
-      "ai",
+      "llms",
       "gptel"
     ],
     "BODY": "What if your scientific notes could practically write themselves, and even suggest your next big breakthrough?\n\n  I show how an LLM can help analyze data, suggest models, and then generate quantitative code to fit the data with that model."
@@ -3584,7 +3752,7 @@
     "YOUTUBE_URL": "https://www.youtube.com/watch?v=RVjGAbQKuCk",
     "SPEAKERS": "(Bit-Mage)",
     "TAGS": [
-      "ai"
+      "llms"
     ],
     "BODY": "https://github.com/rajp152k/OSDev/blob/master/journal/0x2439.org\n\n  setting up a studying strat for this long term side project.\n\n  dotfiles : https://github.com/rajp152k/.dotfiles"
   },
@@ -3622,7 +3790,7 @@
     "YOUTUBE_URL": "https://www.youtube.com/watch?v=9RR9UzViXj4",
     "SPEAKERS": "John Kitchin",
     "TAGS": [
-      "ai",
+      "llms",
       "gptel",
       "mcp",
       "ClaudeLight"
@@ -3910,7 +4078,7 @@
     "YOUTUBE_URL": "https://www.youtube.com/watch?v=ZJUyVVFOXOc",
     "SPEAKERS": "Vibe Coding With Steve and Gene",
     "TAGS": [
-      "ai"
+      "llms"
     ],
     "BODY": "In this rather mind-blowing episode of Vibe Coding with Steve and Gene, Steve demonstrates Efrit — giving Claude full access to control Emacs. What starts as a simple show-and-tell quickly melts Gene's brain.  Steve shows how Claude can get Emacs do basically anything: open info pages, count files, start shells, even generate a Mandelbrot fractals in a buffer.\n\n  By doing this, the AI has complete access to Emacs's 50-year ecosystem of packages and can orchestrate complex tasks across multiple windows and processes. You can hear Gene's constantly trying to ask questions so he can get his head around what Steve built.\n\n  Gene also asks Steve to apply the vibe coding loop from the book to this project: Steve emphasizes that \"the plan is everything\" - proper planning solves most AI coding problems, including instruction following failures, reward hacking, and context window limitations. His approach involved months of iterative refinement, constantly catching the AI when it tried to \"cheat\" (like building haiku detectors instead of just writing haikus), and gradually building up a stable system that could handle multi-turn conversations reliably. The breakthrough came when he re-architected the entire system around Thorsten Ball's vision of simple agent loops.\n\n  We suspect you will find this episode to be mind-expanding, when you can control software in a way that is truly conversational and alive — beyond what MCPs can do today. Steve's system demonstrates how vibe coding can create genuinely transformative new things that the world has never seen.  As long as you can articulate your vision clearly, are willing to iterate, know have a sense of where the AI boundaries of capabilities are.\n\n  https://github.com/steveyegge/efrit\n\n  Pre-order the book here: https://www.amazon.com/Vibe-Coding-Building-Production-Grade-Software/dp/1966280025\n\n  00:00 Introduction\n  00:33 Steve's Project: Efrit in Emacs\n  03:17 Demonstration of Efrit\n  06:27 Technical Deep Dive: Building Efrit\n  09:21 The Vibe Coding Loop Explained\n  14:07 The Importance of Planning in Vibe Coding\n  20:44 Adding Context to Coding Agents\n  21:23 Challenges with Multi-Turn Interactions\n  22:14 Re-Architecting the System\n  22:48 Creative Vision for Software Development\n  23:15 Voice Dictation and Testing Challenges\n  23:40 Integration Tests and Permission Checks\n  26:40 Context Window Limitations\n  30:56 Reward Hacking in AI\n  33:56 Instruction Following Issues\n  36:18 Show and Tell: Integration Test Results\n  38:52 Conclusion and Future Plans"
   },
@@ -3921,7 +4089,7 @@
     "YOUTUBE_URL": "https://www.youtube.com/watch?v=3N5FVSSQGYs",
     "SPEAKERS": "System Crafters",
     "TAGS": [
-      "ai"
+      "llms"
     ],
     "BODY": "In this stream, we'll explore integrating Claude Code into an Emacs workflow and tackle the challenges of using it within terminal emulators like eat and vterm. We'll share real project experiences, compare different approaches, and test packages like claude-code.el and monet that promise better integration.\n\n  Along the way, we'll start building a Guile Scheme XMPP client library to demonstrate these workflows in action, giving us a concrete project to work with while exploring the tools.\n\n  ,#emacs #claudecode #guile #workflow #terminal\n\n  SUPPORT THE CHANNEL:\n\n  👍 Support My Work: https://systemcrafters.net/how-to-help/#support-my-work\n  📰 Subscribe to the Newsletter: https://systemcrafters.net/newsletter/\n  👕 Check out the Store: https://systemcrafters.store\n  📘 Get Your Copy of Mastering Emacs: https://www.masteringemacs.org/r/systemcrafters?utm_source=yt&utm_medium=desc&utm_campaign=scme\n\n  SHOW NOTES:\n\n  https://systemcrafters.net/live-streams/august-22-2025/\n\n  JOIN THE COMMUNITY:\n\n  https://systemcrafters.net/community/ (Forum and IRC chat!)\n  https://fosstodon.org/@daviwil\n\n  MY CONFIGURATION:\n\n  (This site is currently down but will be back up soon!)\n\n  https://config.daviwil.com\n  https://config.daviwil.com/emacs\n  https://config.daviwil.com/systems (Guix)\n\n  OTHER SERIES:\n\n  - Emacs Essentials: https://www.youtube.com/watch?v=48JlgiBpw_I&list=PLEoMzSkcN8oPZvSdewHG8uApD7THlLLCV\n  - Emacs From Scratch: https://www.youtube.com/watch?v=74zOY-vgkyw&list=PLEoMzSkcN8oPH1au7H6B7bBJ4ZO7BXjSZ\n  - Emacs Tips: https://www.youtube.com/watch?v=wKTKmE1wLyw&list=PLEoMzSkcN8oMHJ6Xil1YdnYtlWd5hHZql\n  - Emacs Desktop Environment: https://www.youtube.com/watch?v=f7xB2fFk1tQ&list=PLEoMzSkcN8oNPbEMYEtswOVTvq7CVddCS\n  - Emacs IDE: https://www.youtube.com/watch?v=E-NAM9U5JYE&list=PLEoMzSkcN8oNvsrtk_iZSb94krGRofFjN\n  - Emacs Mail: https://www.youtube.com/watch?v=yZRyEhi4y44&list=PLEoMzSkcN8oM-kA19xOQc8s0gr0PpFGJQ\n  - Learning Emacs Lisp: https://www.youtube.com/watch?v=RQK_DaaX34Q&list=PLEoMzSkcN8oPQtn7FQEF3D7sroZbXuPZ7\n  - Craft Your System with GNU Guix: https://www.youtube.com/watch?v=iBaqOK75cho&list=PLEoMzSkcN8oNxnj7jm5V2ZcGc52002pQU\n\n  CREDITS:\n\n  Coriolis Effect by logos feat. stefsax, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/mseq/26296\n  reNovation by airtone, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/airtone/60674\n  ukeSounds by airtone, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/airtone/32655\n  Between Worlds (Instrumental) by Aussens@iter, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/tobias_weber/56664"
   },
@@ -4360,7 +4528,7 @@
     "YOUTUBE_URL": "https://www.youtube.com/watch?v=ZRhTFv2Bl-I",
     "SPEAKERS": "Tony Aldon",
     "TAGS": [
-      "ai"
+      "llms"
     ],
     "BODY": "Free PDF and course 👉 https://tonyaldon.com/chatgpt-emacs-integration-course/\n\n  -----\n\n  We set up the *chatgpt* buffer to enter our prompts, positioning it neatly at the bottom of the frame for easy access. 🖥️ By defining chatgpt-mode, we customize this buffer's behavior and appearance, making it the perfect spot to interact with ChatGPT seamlessly within Emacs.\n\n  - Displaying the Prompt Buffer with chatgpt\n  - Defining chatgpt-mode\n  - Introducing chatgpt-model Variable\n  - Mode Line of the Prompt Buffer\n  - Executing chatgpt-mode Once\n  - Creating chatgpt-dir in chatgpt-mode\n  - Defining chatgpt-mode-map keymap\n\n  -----\n\n  Hi there! 👋 I'm Tony Aldon, a passionate Emacs enthusiast dedicated to helping you master Emacs and Emacs Lisp.\n\n  Join me on an exciting journey with the ChatGPT Emacs Integration Course and master the art of building a fully functional Emacs package from scratch.\n\n  🌟 Through\n\n  - 18 engaging lessons,\n  - 2.5 hours video content and\n  - 100 pages of PDF\n\n  you'll:\n\n  - Master Emacs Lisp: 🛠️ Customize and extend Emacs like a pro.\n  - Integrate ChatGPT Seamlessly: 🤖 Enhance your workflow with advanced AI features using the OpenAI API.\n\n  It can help if you know a little bit of Emacs Lisp, but this is not a requirement as we'll meticulously write, review, and comment on each line of code. 📝"
   },
@@ -4674,7 +4842,7 @@
     "SPEAKERS": "Emacs Elements",
     "TAGS": [
       "org",
-      "ai"
+      "llms"
     ],
     "BODY": "My website: https://emacselements.com/\n  Follow me on Mastodon: https://mastodon.social/@revrari\n  If you enjoy my videos please send me a donation via PayPal:\n  https://paypal.me/revrari"
   },
@@ -4770,7 +4938,7 @@
     "YOUTUBE_URL": "https://www.youtube.com/watch?v=Hkih7jaqOnE",
     "SPEAKERS": "Greg Grubbs - Tech and History",
     "TAGS": [
-      "ai"
+      "llms"
     ],
     "BODY": "Here's a demo using tools in Emacs with the LLMs of your choosing.  You can have any mix of \"native\" Emacs Lisp tools and MCP server tools using a combination of the gptel package and the mycp.el package.\n\n  00:00 Introduction\n  01:50 How to create tools in Emacs Lisp in gptel\n  08:35 Demo of gptel Emacs Lisp tools\n  18:00 Model Context Protocol and mcp.el  20:38 mcp.el - github page and configuration examples\n  26:00 Demo of gptel using MCP servers\n  42:20 Translate Claude Desktop mcp configs for mcp.el\n  45:15 mcp-server-lib.el - Write even your MCP servers in Emacs Lisp!\n\n  My configuration for mcp.el: https://github.com/gregoryg/emacs-gregoryg?tab=readme-ov-file#mcpel---model-context-protocol\n\n  My gptel configuration (excerpt at will): https://github.com/gregoryg/emacs-gregoryg?tab=readme-ov-file#gptel---llms-in-markdown-and-org-mode\n\n  My AIPIHKAL repo - prompts for LLMs, including the tool-use prompt I use here: https://github.com/gregoryg/AIPIHKAL\n\n  Gptel package: https://github.com/karthink/gptel\n\n  mcp.el package: https://github.com/lizqwerscott/mcp.el"
   },
@@ -4792,7 +4960,7 @@
     "YOUTUBE_URL": "https://www.youtube.com/watch?v=CuIwgjiVzHQ",
     "SPEAKERS": "Tony Aldon",
     "TAGS": [
-      "ai",
+      "llms",
       "markdown"
     ],
     "BODY": "Free PDF and course 👉 https://tonyaldon.com/chatgpt-emacs-integration-course/\n\n  -----\n\n  Let's make things look pretty. 🎨 We learn how to parse JSON responses and format them using Markdown within Emacs. Your chats with ChatGPT will be not only functional but also beautifully organized and easy to read. Markdown magic makes all the difference!\n\n  - Parsing and Returning a JSON Object with json-read\n  - Accessing Elements in a Nested Structure with map-nested-elt\n  - Inserting the Assistant Response instead of the JSON Response\n  - Formatting with markdown-mode\n\n  -----\n\n  Hi there! 👋 I'm Tony Aldon, a passionate Emacs enthusiast dedicated to helping you master Emacs and Emacs Lisp.\n\n  Join me on an exciting journey with the ChatGPT Emacs Integration Course and master the art of building a fully functional Emacs package from scratch.\n\n  🌟 Through\n\n  - 18 engaging lessons,\n  - 2.5 hours video content and\n  - 100 pages of PDF\n\n  you'll:\n\n  - Master Emacs Lisp: 🛠️ Customize and extend Emacs like a pro.\n  - Integrate ChatGPT Seamlessly: 🤖 Enhance your workflow with advanced AI features using the OpenAI API.\n\n  It can help if you know a little bit of Emacs Lisp, but this is not a requirement as we'll meticulously write, review, and comment on each line of code. 📝"
@@ -4804,7 +4972,7 @@
     "YOUTUBE_URL": "https://www.youtube.com/watch?v=j6RsRdwLomo",
     "SPEAKERS": "Tony Aldon",
     "TAGS": [
-      "ai"
+      "llms"
     ],
     "BODY": "Free PDF and course 👉 https://tonyaldon.com/chatgpt-emacs-integration-course/\n\n  -----\n\n  No more static prompts! 🔄 We make our requests dynamic by pulling prompts from the current buffer. Whether you're brainstorming ideas or asking questions on the fly, ChatGPT's got your back. We'll adjust our functions to handle any input you throw its way.\n\n  - Writing a JSON Object to a File\n  - Writing the OpenAI Request to a File\n  - Updating chatgpt-send\n  - Entering the Prompt from a Buffer\n\n  -----\n\n  Hi there! 👋 I'm Tony Aldon, a passionate Emacs enthusiast dedicated to helping you master Emacs and Emacs Lisp.\n\n  Join me on an exciting journey with the ChatGPT Emacs Integration Course and master the art of building a fully functional Emacs package from scratch.\n\n  🌟 Through\n\n  - 18 engaging lessons,\n  - 2.5 hours video content and\n  - 100 pages of PDF\n\n  you'll:\n\n  - Master Emacs Lisp: 🛠️ Customize and extend Emacs like a pro.\n  - Integrate ChatGPT Seamlessly: 🤖 Enhance your workflow with advanced AI features using the OpenAI API.\n\n  It can help if you know a little bit of Emacs Lisp, but this is not a requirement as we'll meticulously write, review, and comment on each line of code. 📝"
   },
@@ -4815,7 +4983,7 @@
     "YOUTUBE_URL": "https://www.youtube.com/watch?v=Mgqu3wvvNXM",
     "SPEAKERS": "Tony Aldon",
     "TAGS": [
-      "ai"
+      "llms"
     ],
     "BODY": "Free PDF and course 👉 https://tonyaldon.com/chatgpt-emacs-integration-course/\n\n  -----\n\n  Let's tidy up our code! 🧹 We refactor the chatgpt-send function for better organization and introduce a dedicated variable for our OpenAI API key. Clean code is happy code, and keeping our API keys secure is a top priority. We'll streamline our package for smoother operations.\n\n  - Refactoring chatgpt-send with chatgpt-command\n  - Introducing chatgpt-api-key to hold OpenAI API Key\n  - Updating chatgpt-command Function Signature\n\n  -----\n\n  Hi there! 👋 I'm Tony Aldon, a passionate Emacs enthusiast dedicated to helping you master Emacs and Emacs Lisp.\n\n  Join me on an exciting journey with the ChatGPT Emacs Integration Course and master the art of building a fully functional Emacs package from scratch.\n\n  🌟 Through\n\n  - 18 engaging lessons,\n  - 2.5 hours video content and\n  - 100 pages of PDF\n\n  you'll:\n\n  - Master Emacs Lisp: 🛠️ Customize and extend Emacs like a pro.\n  - Integrate ChatGPT Seamlessly: 🤖 Enhance your workflow with advanced AI features using the OpenAI API.\n\n  It can help if you know a little bit of Emacs Lisp, but this is not a requirement as we'll meticulously write, review, and comment on each line of code. 📝"
   },
@@ -4826,7 +4994,7 @@
     "YOUTUBE_URL": "https://www.youtube.com/watch?v=QxEOsBKsy-o",
     "SPEAKERS": "Ollama Buddy for Emacs",
     "TAGS": [
-      "ai"
+      "llms"
     ],
     "BODY": "Demonstrating the Emacs package ollama-buddy, providing a convenient way to integrate Ollama's local LLM capabilities.\n\n  switch to use gemma3:4b\n\n  Open the image with the text\n\n  Copy the link, paste into the chat buffer and then lets see if the text is correctly extracted!\n\n  https://melpa.org/#/ollama-buddy\n  https://github.com/captainflasmr/ollama-buddy\n\n  ,#emacs #ollama"
   },
@@ -4837,7 +5005,7 @@
     "YOUTUBE_URL": "https://www.youtube.com/watch?v=TV5QXEqsuAE",
     "SPEAKERS": "Ollama Buddy for Emacs",
     "TAGS": [
-      "ai"
+      "llms"
     ],
     "BODY": "Demonstrating the Emacs package ollama-buddy, providing a convenient way to integrate Ollama's local LLM capabilities.\n\n  Select User System Prompts\n\n  List, and move down through the buffer\n\n  Set as system prompt/load\n\n  Select Elisp Debugging Guide\n\n  Show the system prompt in a buffer\n\n  switch to use qwen2.5-coder:3b\n\n  Run checking overy my/rsync in Emacs-DIYer\n\n  https://melpa.org/#/ollama-buddy\n  https://github.com/captainflasmr/ollama-buddy\n\n  ,#emacs #ollama\n\n  ,#+attr_org: :width 300px\n  ,#+attr_html: :width 100%\n  [[file:img/ollama-buddy-screen-recording_019.gif]]"
   },
@@ -4870,7 +5038,7 @@
     "YOUTUBE_URL": "https://www.youtube.com/watch?v=R2AkHl0GS5U",
     "SPEAKERS": "Nature of Polyexistentials",
     "TAGS": [
-      "ai"
+      "llms"
     ],
     "BODY": "Emacs, Itself: the Ultimate AI Assistant\n\n  As of mid-2025, integrating AI into everyday environments is a universal trend. Microsoft has embedded Copilot into Windows and Microsoft 365 apps. Google offers Gemini and “Google Assistant” for AI integration in Android and Google Apps. Apple, too, has Siri and “Apple Intelligence.” In the proprietary American digital ecosystems, these profit-driven companies dictate the terms, and consumers accept what is provided.\n\n  In contrast, the Libre-Halaal ByStar Digital Ecosystem (https://github.com/mohsenBanan) offers a different approach. Our usage environment, Blee (https://github.com/bx-blee), is rooted in Emacs.\n\n  The integration of Artificial Intelligence in Emacs is particularly powerful.\n\n  Emacs, a 40+ year-old omni-context, editor-centered usage environment, supports AI capabilities across all work contexts. Whether it’s software development (in any programming language), content creation and publishing (such as LaTeX), sophisticated email management (like Gnus), or task and time management (using org-mode), Emacs has it covered.\n\n  Each of these activities can now benefit from a unified and consistent AI-assistant model. The ease of AI integration into Emacs is a testament to its core philosophy (conviviality of tools) and flexibility. Emacs’ AI integration can be tailored to your preferences, allowing you to choose local (self-hosted) or remote AI engines. While many options exist, setting up a cohesive system requires some integration effort. And, that is not always easy.\n\n  With Blee and BISOS (ByStar Internet Services OS) – https://github.com/bisos), we have achieved this integration by incorporating two key Emacs AI interface packages:\n\n  gptel - [GitHub](https://github.com/karthink/gptel): This package offers a simple Large Language Model chat client for Emacs, supporting multiple models and backends. It maintains the Emacs spirit by being accessible at any time within any buffer.\n  aidermacs - [GitHub](https://github.com/MatthewZMD/aidermacs): Designed for AI pair programming in Emacs, Aidermacs integrates Aider—an open-source AI pair programming tool—into Emacs. It surpasses other integrations, like Cursor, through its seamless incorporation.\n  Think of gptel as a versatile, omnipresent chatbox and aidermacs as a multilingual AI coding assistant. Installing these is straightforward, and with Blee, they come fully integrated for efficient AI-enhanced workflows.\n\n  With Blee, installation and configuration of gptel is using:\n  https://github.com/bx-blee/env3/blob/main/plus/bcpg%3AgptelPlus.el and /bisos/blee/env3/plus/bcpg:gptelPlus.el\n\n  With Blee, installation and configuration of aidermacs is using:\n  https://github.com/bx-blee/env3/blob/main/plus/bcpg%3AaidermacsPlus.el and /bisos/blee/env3/plus/bcpg:aidermacsPlus.el\n\n  We have augmented these with an additional package called AIPlus (https://github.com/bx-blee/aiplus). AIPlus includes various menus and utilities for integrating aidermacs and gptel in Emacs and Blee.\n\n  Installation and configuration of aidermacs is using:\n  https://github.com/bx-blee/env3/blob/main/plus/bnpa%3Aaiplus.el and /bisos/blee/env3/plus/bnpa:aiplus.el\n\n  In the proprietary American model, the integration of AI into usage environments has accelerated surveillance capitalism and that trend will continue. In the Libre-Halaal model (https://github.com/bxplpc/120033), with the integration of AI into Emacs, we aim to preserve autonomy and control.\n\n  I’ll continue using Emacs. Your call!"
   },
@@ -4933,7 +5101,7 @@
     "YOUTUBE_URL": "https://www.youtube.com/watch?v=3HQMoVXbET4",
     "SPEAKERS": "Bernd Wachter",
     "TAGS": [
-      "ai",
+      "llms",
       "gptel"
     ],
     "BODY": "GPT has tools defined which allow it to place a turtle in an arbitrary emacs buffer, and give it the commands 'left', 'right', 'up', 'down' and 'stop'. The turtle moves via run-at-time set to 2 second intervals.\n\n  It also has the ability to read buffer contents. Emacs bindings are here: https://github.com/aard-fi/buffer-turtle"
@@ -5172,7 +5340,7 @@
     "YOUTUBE_URL": "https://www.youtube.com/watch?v=lcUvrNzWebw",
     "SPEAKERS": "Tony Aldon",
     "TAGS": [
-      "ai"
+      "llms"
     ],
     "BODY": "Free PDF and course 👉 https://tonyaldon.com/chatgpt-emacs-integration-course/\n\n  -----\n\n  Building on what we've learned, we now send our first OpenAI request directly from Emacs Lisp. 🚀 No more switching to the terminal! We automate the curl command inside Emacs, making our workflow seamless and integrated. Let's see how Emacs can talk to ChatGPT effortlessly.\n\n  - Review of The Last Lesson\n  - Renaming The Process Name and Process Buffers\n  - Killing The Process Buffers\n  - Sending our First OpenAI Request from Emacs Lisp\n  - Defining chatgpt-send Command in chatgpt.el File\n\n  -----\n\n  Hi there! 👋 I'm Tony Aldon, a passionate Emacs enthusiast dedicated to helping you master Emacs and Emacs Lisp.\n\n  Join me on an exciting journey with the ChatGPT Emacs Integration Course and master the art of building a fully functional Emacs package from scratch.\n\n  🌟 Through\n\n  - 18 engaging lessons,\n  - 2.5 hours video content and\n  - 100 pages of PDF\n\n  you'll:\n\n  - Master Emacs Lisp: 🛠️ Customize and extend Emacs like a pro.\n  - Integrate ChatGPT Seamlessly: 🤖 Enhance your workflow with advanced AI features using the OpenAI API.\n\n  It can help if you know a little bit of Emacs Lisp, but this is not a requirement as we'll meticulously write, review, and comment on each line of code. 📝"
   },
@@ -5741,7 +5909,7 @@
     "YOUTUBE_URL": "https://www.youtube.com/watch?v=-8LZW4K2O7A",
     "SPEAKERS": "faster-than-light-memes",
     "TAGS": [
-      "ai"
+      "llms"
     ],
     "BODY": "I currently have gemini on a keybind, put the output in an emacs buffer, good enough.\n\n  https://github.com/benjamin-asdf/gemini-quick-chat-bb\n\n  https://github.com/benjamin-asdf/gemini-quick.el\n\n  about: https://benjamin-schwerdtner.de/about.html"
   },
@@ -5752,7 +5920,7 @@
     "YOUTUBE_URL": "https://www.youtube.com/watch?v=fB3-ie6zs4Y",
     "SPEAKERS": "Matthew Zeng",
     "TAGS": [
-      "ai"
+      "llms"
     ],
     "BODY": "Missing Cursor but prefer living in Emacs? Aidermacs brings Cursor-like AI-powered development to your Emacs workflow by integrating Aider, one of the most powerful open-source AI pair programming tools. As a community-driven project, Aidermacs prioritizes Emacs users' needs and preferences while providing the same powerful features found in Cursor!\n\n  Github: https://github.com/MatthewZMD/aidermacs"
   },
@@ -5934,7 +6102,7 @@
     "YOUTUBE_URL": "https://www.youtube.com/watch?v=2VoOoS4cEV0",
     "SPEAKERS": "Positron's Emacs Channel",
     "TAGS": [
-      "ai",
+      "llms",
       "gptel"
     ],
     "BODY": "Essentials of building tools for LLMs to call Elisp functions directly, enabling RAG-style retreival-in-editor patterns and other advanced composition of the increasingly accessible and powerful heuristics offered by LLMs.\n\n  GPTel on Github\n  https://github.com/karthink/gptel\n\n  Positron's explicit-tool-turns PR\n  https://github.com/karthink/gptel/pull/626\n\n  Positron's Github Sponsors Page\n  https://github.com/sponsors/positron-solutions\n\n  PrizeForge's feature claims page\n  https://prizeforge.com/\n\n  The demonstration tools have been used to synthesize multiple documentation and source code sources into factually grounded dynamic documentation that can be summarized and translated on the fly.  This essentially provides a natural language query capability for almost anything Emacs can do.  It is the model for how these integrations can really impact development beyond the neat generation that captivated some early on.\n\n  The prototype tools are available on our Private Github and being updated as\n  they are improved.  The notes on the configuration seen in the demos are mostly ready for reading in the lunch/drafts folder within our Private YouTube\n  repository.  We look forward to open sourcing this after launching PrizeForge,\n  which has a superior funding model that doesn't depend on paywalling.\n\n  Support us!  We are bringing the necessary shake-up to open source funding,\n  which will be critical if the next two decades will be built with open technologies enforcing competitive dynamics and providing the healthy alternatives that lead to more progress faster and healthier markets with less\n  stagnation from dominant incumbents.\n\n  More LLM backend support is needed in GPTel.  We would like to help on the R1 integration since it's a cheap and powerful model at the moment with a lot of open source locally running options.  Inevitably, we will need some hardware to continue pushing the boundary and ensuring that Emacs is in front of the wave. Everything counts.\n\n  #emacs #opensource #programming #agi #llm #editor #coding\n\n  TIMESTAMPS\n  00:00 Intro\n  00:35 What & Why Tools?\n  01:44 Building Tools\n  02:18 Arguments\n  04:02 Returning Results\n  05:32 Register & Test\n  06:00 Cool Behaviors\n  08:41 See You Next Time"
@@ -5958,7 +6126,7 @@
     "YOUTUBE_URL": "https://www.youtube.com/watch?v=Banfijo2u8M",
     "SPEAKERS": "John Kitchin",
     "TAGS": [
-      "ai"
+      "llms"
     ],
     "BODY": "Vibe coding (https://x.com/karpathy/status/1886192184808149383), or writing code from prompts to LLMs, is a feature of many new editors like VS Code, Cursor, etc. In this video I explore the ideas using Emacs, whisper, and gptel. It is still a little rough but pretty reasonable."
   },
@@ -5969,7 +6137,7 @@
     "YOUTUBE_URL": "https://www.youtube.com/watch?v=oYhI9X1j0p0",
     "SPEAKERS": "Raoul Comninos",
     "TAGS": [
-      "ai",
+      "llms",
       "ChatGPTShell"
     ],
     "BODY": "https://mega.nz/file/76hiSLZI#FTvycBT9nD6Pp4-o4tpDTDokVomBFlqZJxSpeVzZRCo\n\n  PLEASE CONSIDER SUPPORTING ME.\n  You can support me on PayPal:\n  https://paypal.me/revrari\n  Or you can send me some Bitcoin:\n  3JToybg7LHAdsteTYGg7jRniRZEMCeTasj"
@@ -6048,7 +6216,7 @@
     "YOUTUBE_URL": "https://www.youtube.com/watch?v=Kvl5XKppwrk",
     "SPEAKERS": "Ioannis Canellos",
     "TAGS": [
-      "ai",
+      "llms",
       "gptel"
     ],
     "BODY": "During the quarantine of 2020 I blogged about how I am using Emacs + Org Mode to build a nutrition tracker (see [1]). The tracker code, post and data is available also as a  gist (see [2]).\n\n  To easily insert new foods and recipes I am leveraging ChatGPT using the gptel Emacs package to fetch nutritional information for new foods.\n\n  This video demonstrates how it works and goes through the code.\n\n  [1]: https://iocanel.com/2020/04/nutrition-tracking-using-emacs/\n  [2]: https://gist.github.com/iocanel/0b8bcdb3d69fb7731069cb872f836507"
@@ -6061,7 +6229,7 @@
     "SPEAKERS": "faster-than-light-memes",
     "TAGS": [
       "elisp",
-      "ai"
+      "llms"
     ],
     "BODY": "Code:\n\n  https://github.com/benjamin-asdf/gemini-quick.el\n\n\n  Emacs Lisp Live code, buffers, point, save-excursion, package, config, gemini, AI workflows\n\n\n\n  Find me here\n  https://benjamin-schwerdtner.de/\n\n  https://benjamin-schwerdtner.de/contact.html"
   },
@@ -6107,7 +6275,7 @@
     "YOUTUBE_URL": "https://www.youtube.com/watch?v=JHXG225oP8E",
     "SPEAKERS": "Positron's Emacs Channel",
     "TAGS": [
-      "ai"
+      "llms"
     ],
     "BODY": "We're using GPTel with LLM tool-use integration to retrieve introspection data from Emacs and deliver high-quality results that are vastly better than the data embedded in LLMs weights.  The tests are a success.  This is just the beginning.\n\n  The demos use manuals, completions, source code, docstrings, and other facilities to let the LLM traverse facts and more deductively arrive at useful conclusions.\n\n  Source code for tools in the demo (subscribers exclusive!):\n  https://github.com/positron-solutions/youtube/blob/master/lunch/09-retreival-augmented-macros/demo-gptel-config.el\n\n  Our Github Sponsors\n  https://github.com/sponsors/positron-solutions\n\n  GPTel for Emacs:\n  https://github.com/karthink/gptel\n\n  These techniques will scale across any language.  By using these techniques within Emacs to make our Emacs usage more efficient, we are in a very tight feedback loop with very high headroom.  Editors like Cursor don't really have anything to offer over programmable tools where the programmers employ LLMs to their problems rather than waiting for the IDE to come to them.\n\n  Since Common Lisp is a good Lisp to reason about Lisp and other languages, it might just turn out that LLMs turn into a killer application for lisp-like languages.  Since Lem is an Emacs, there's an intriguing possibility that we're witnessing a turning point in the making.\n\n  #programming #llm #opensource\n\n  TIMESTAMPS\n  00:00 Welcome\n  00:28 Retrieval Augmented Emacs\n  03:22 The Problems Being Solved\n  05:27 Not Even the Best Available\n  06:22 Why This is Huge"
   },
@@ -6118,7 +6286,7 @@
     "YOUTUBE_URL": "https://www.youtube.com/watch?v=14KNPxEe1hU",
     "SPEAKERS": "The Extreme Digital Nomad",
     "TAGS": [
-      "ai"
+      "llms"
     ],
     "BODY": "The blog post - https://tedn.life/2024/10/24/the-augmented-software-engineer-what-is-it/\n  The problems - https://aperiodic.net/pip/scala/s-99/\n  The repo - https://github.com/rolandtritsch/99-scala3-problems\n  The emacs config - https://github.com/rolandtritsch/emacs.d"
   },
@@ -6439,7 +6607,7 @@
     "TAGS": [
       "clojure",
       "llm",
-      "ai",
+      "llms",
       "coding",
       "dev"
     ],
@@ -6605,7 +6773,7 @@
     "YOUTUBE_URL": "https://www.youtube.com/watch?v=g1VMGhC5gRU",
     "SPEAKERS": "Armin Darvish",
     "TAGS": [
-      "ai",
+      "llms",
       "llm",
       "gptel"
     ],
@@ -6874,7 +7042,7 @@
     "YOUTUBE_URL": "https://www.youtube.com/watch?v=bhrPyMvKJfw",
     "SPEAKERS": "Jean Louis",
     "TAGS": [
-      "ai",
+      "llms",
       "llm"
     ],
     "BODY": "## Demonstration of using Large Language Model (LLM) within GNU Emacs\n\n  Prompt for Large Language Model (LLM):\n\n  \"I'm working on a program that communicates via STDIN and STDOUT. I'd like to interface with it using Emacs Lisp. Can you provide some starting points for implementing this integration?\"\n\n  Answer by the LLM (llama-3.3-70b-versatile):\n\n  **Getting Started with Process Handling in Emacs Lisp**\n\n  Emacs Lisp provides a robust way to interact with external\n  processes. To handle a program that sends STDIN and receives STDOUT in\n  Emacs Lisp, you can use the following functions and concepts:\n\n  ### 1. Creating a Process\n\n  * `start-process`: This function creates a new process and runs the specified program.\n  * `make-process`: This function creates a new process without running a program.\n\n  Example:\n  ```elisp\n  (let ((proc (start-process \"my-process\" \"my-buffer\" \"my-program\")))\n    ...)\n  ```\n  ### 2. Sending Input (STDIN)\n\n  * `process-send-string`: This function sends a string to the process as input.\n  * `process-send-region`: This function sends a region of text to the process as input.\n\n  Never anthropomorphise 🙅 the Large Language Model (LLM) 💻!\n\n  Example:\n  ```elisp\n  (process-send-string proc \"Hello, world!\")\n  ```\n\n  ### 3. Receiving Output (STDOUT)\n\n  * `set-process-filter`: This function sets a filter function to process the output of a process.\n  * `process-filter`: This function can be used to process the output of a process.\n\n  Example:\n  ```elisp\n  (set-process-filter proc (lambda (proc string) (message string)))\n  ```\n  ### 4. Handling Process Completion\n\n  * `set-process-sentinel`: This function sets a sentinel function to process the completion of a process.\n  * `process-sentinel`: This function can be used to process the completion of a process.\n\n  Example:\n  ```elisp\n  (set-process-sentinel proc (lambda (proc event) (message \"Process completed: %s\" event)))\n  ```\n  ### Putting it All Together\n\n  Here's a simple example of how you might handle a process that sends STDIN and receives STDOUT in Emacs Lisp:\n  ```elisp\n  (let ((proc (start-process \"my-process\" \"my-buffer\" \"my-program\")))\n    (set-process-filter proc (lambda (proc string) (message string)))\n    (set-process-sentinel proc (lambda (proc event) (message \"Process completed: %s\" event)))\n    (process-send-string proc \"Hello, world!\"))\n  ```\n  Remember to replace `\"my-program\"` with the actual command you want to run, and `\"my-buffer\"` with the actual buffer where you want to display the output.\n\n  ### Additional Tips\n\n  * Use `with-current-buffer` to switch to the buffer where the process output is being displayed.\n  * Use `insert` or `insert-and-inherit` to insert the output into the buffer.\n  * Use `process-exit-status` to check the exit status of the process.\n  * Use `delete-process` to delete the process when it's no longer needed.\n\n  Video wrongly says it was mixtral-8x7b-32768, no, it was llama-3.3-70b-versatile.\n\n  Thanks for watching! 👀\n\n  What is Free Software? - GNU Project - Free Software Foundation\n  https://www.gnu.org/philosophy/free-sw.html\n\n  GNU Emacs - GNU Project\n  https://www.gnu.org/software/emacs/"
@@ -6982,7 +7150,7 @@
     "YOUTUBE_URL": "https://www.youtube.com/watch?v=XrK-X7LZ6aE",
     "SPEAKERS": "Jean Louis",
     "TAGS": [
-      "ai",
+      "llms",
       "llm"
     ],
     "BODY": "Hello and Welcome to demonstration\n  of large language model named\n  Qwen by Alibaba.com\n  licensed under Apache 2.0\n  as fully free software.\n\n  It is running on local computer with 16 GB memory and graphics card\n  with 4 GB memory.\n\n  Enjoy the demonstration.\n\n  My computer is:\n\n  - Dell OptiFlex 520, really old, with DDR3 16 GB RAM\n  - with Nvidia GTX 1050 Ti and 4 GB of VRAM GPU\n\n  QwenLM/Qwen: The official repo of Qwen (通义千问) chat & pretrained large language model proposed by Alibaba Cloud.\n  https://github.com/QwenLM/Qwen\n\n  GNU Emacs - GNU Project\n  https://www.gnu.org/software/emacs/\n\n  GNU Emacs Packages @ gnu.support:\n  https://gnu.support/gnu-emacs/packages/index.html\n\n  Exact LLM model used:\n  https://huggingface.co/prithivMLmods/QwQ-LCoT-3B-Instruct-GGUF"
@@ -6994,7 +7162,7 @@
     "YOUTUBE_URL": "https://www.youtube.com/watch?v=GvRdD_PA5JA",
     "SPEAKERS": "Jean Louis",
     "TAGS": [
-      "ai",
+      "llms",
       "llm"
     ],
     "BODY": "This is the Dynamic Knowledge Repository, inspired by Doug Engelbart's work, implemented in a PostgreSQL database, and interacted with using the text editor known as Gnu Emacs, which has programming capabilities. You can find the link in the description, download it, and try it for yourself.\n\n  Doug Engelbart is known for his pioneering work in human-computer interaction, particularly for his invention of the computer mouse and his development of the first hypertext system.\n\n  This is a high-level function where my program generates a daily report of my computer activities. It takes only a second.\n\n  The feature is made possible by the fast inference provided by Groq.com and the use of large language models, which are sometimes referred to as \"artificial intelligence\" or AI.\n\n  Why don't Large Language Models ever go to school? Because they already have their \"LLM\" degree in \"artificial intelligence\" from Groq.com, the fastest inference site on the web!\n\n  I can generate text with high accuracy in nearly an instant, thanks to the integration of LLM functions directly into the editor. This allows me to access either a remote or local server as needed, making the process very convenient.\n\n  I suggest that you learn programming; it will be useful for your life and future. There is no need to sell programs; simply learn programming and you will find uses for it later in life. It is amazing and fulfilling!\n\n  Thank you for learning the new features of the Gnu Emacs text editor, which has a built-in programming language called Emacs Lisp (or Elisp).\n\n  Keep learning and take care of yourself!\n\n  GNU Emacs - GNU Project:\n  https://www.gnu.org/software/emacs/\n\n  GNU Emacs Packages @ gnu.support:\n  https://gnu.support/gnu-emacs/packages/index.html\n\n  Groq\n  https://groq.com"
@@ -7006,7 +7174,7 @@
     "YOUTUBE_URL": "https://www.youtube.com/watch?v=XoafZPYrTIg",
     "SPEAKERS": "Jean Louis",
     "TAGS": [
-      "ai",
+      "llms",
       "llm"
     ],
     "BODY": "Hello and how are you?\n\n  I wish that you start learning programming.\n\n  That's the reason I am making these videos.\n\n  You should learn programming for your own creativity reasons.\n\n  Learn it to speed up your life activities.\n\n  Learn it to help yourself in business.\n\n  Learn it for fun.\n\n  I can't stop learning myself!\n\n  Gnu Emacs is a popular, extensible, and customizable and free software text editor.\n\n  Large Language Model (LLM) is a type of artificial intelligence model that has been trained on a vast amount of text data and is capable of understanding and generating human-like language. It can be used for a variety of natural language processing tasks, such as text generation, translation, summarization, and question answering, among others.\n\n  Dashboard in computing is a visual representation of key information and data, usually presented in a graphical format, that is used to monitor.\n\n  You are watching programming of a dashboard for artificial intelligence in Emacs Lisp programming language.\n\n  Thanks for watching and take care of yourself!\n\n  GNU Emacs - GNU Project:\n  https://www.gnu.org/software/emacs/\n\n  GNU Emacs Packages @ gnu.support:\n  https://gnu.support/gnu-emacs/packages/index.html"
@@ -7018,7 +7186,7 @@
     "YOUTUBE_URL": "https://www.youtube.com/watch?v=JDZKRebV-lg",
     "SPEAKERS": "Jean Louis",
     "TAGS": [
-      "ai",
+      "llms",
       "llm"
     ],
     "BODY": "This is demonstration of running the Large Language Model (LLM) on GNU Linux computer with following configuration: old Dell motherboard with 16 gigabytes of RAM DDR3 and Nvidia Graphics Card GTX 1050 Ti with 4 GB of video RAM.\n\n  The Large Language Model is Rocket with 3 billion parameters.\n\n  You may find the link in the description.\n\n  It runs very fast with the llamafile technology.\n\n  There is GNU Emacs function specifically made for it.\n\n  Large Language Model is also known as artificial intelligence, though there is no real intelligence built-in, in fact, it is an illusion, deceptive trick. It is understanding your words by statistics and giving you back answers by statistics.\n\n  Though there are many practical uses for text generation, as you may see, it can edit text, generate text files, markdown markup, and help you with websites, letters, generating poems, and you name it!\n\n  I hope that you liked this demonstration.\n\n  Since rocket with 3 billion parameters was not so good, I am running Qwen from Alibaba with the free software license Apache 2.0 and 3 billion parameters, with the quantization level 4, K M, with quite good results.\n\n  Run your Large Language Model locally.\n\n  Generate text, recognize videos, generate images and speech.\n\n  Make money in sales and marketing.\n\n  Thanks for watching, observe details.\n\n  You may see the model generating jokes, it may generate any kind of descriptions, summaries, and be used in creative text editing.\n\n  GNU Emacs - GNU Project:\n  https://www.gnu.org/software/emacs/\n\n  GNU Emacs Packages @ gnu.support:\n  https://gnu.support/gnu-emacs/packages/index.html\n\n  Rocket 3B llamafile\n  https://huggingface.co/Mozilla/rocket-3B-llamafile"
@@ -7054,7 +7222,7 @@
     "SPEAKERS": "Jean Louis",
     "TAGS": [
       "llm",
-      "ai"
+      "llms"
     ],
     "BODY": "In this session, we'll explore how to integrate a large language model  into GNU Emacs to demonstrate interactive code generation and enhanced user experience. Whether you're new to working with LLMs or have previous experience, you may get insights and practical steps.\n\n  GNU Emacs - GNU Project:\n  https://www.gnu.org/software/emacs/\n\n  GNU Emacs Packages @ gnu.support:\n  https://gnu.support/gnu-emacs/packages/index.html"
   },
@@ -7147,7 +7315,7 @@
     "SPEAKERS": "John Kitchin",
     "TAGS": [
       "research",
-      "ai"
+      "llms"
     ],
     "BODY": "This video shows how litdb is integrated into Emacs. You can use it to insert text about articles you want to review, search your litdb with semantic and fulltext queries, make links to entries in your database, interface with a GPT, and export your notes to PDF."
   },
@@ -8704,7 +8872,7 @@
     "YOUTUBE_URL": "https://www.youtube.com/watch?v=32hRTNTgBY8",
     "SPEAKERS": "lksadj",
     "TAGS": [
-      "ai"
+      "llms"
     ],
     "BODY": "Os explico como he integrado mi editor preferido con una herramienta de inteligencia artificial siguiendo sencillos pasos y la filosofía de Unix."
   },
@@ -8726,7 +8894,7 @@
     "YOUTUBE_URL": "https://www.youtube.com/watch?v=SAi7X2XSD7k",
     "SPEAKERS": "DistroTube",
     "TAGS": [
-      "ai",
+      "llms",
       "ellama"
     ],
     "BODY": "Ellama is a tool for interacting with large language models from Emacs.  Ellama is essentially a way to interface with 'ollama' (which I did a previous video on).  It has a ton of useful functions built into it.\n\n  REFERENCED:\n  ► https://github.com/s-kostyaev/ellama - Ellama\n  ► https://gitlab.com/dwt1/dotfiles/-/tree/master/.config/emacs - DT's Emacs Config\n\n  WANT TO SUPPORT THE CHANNEL?\n  💰 Patreon: https://www.patreon.com/distrotube\n  💳 Paypal: https://www.youtube.com/redirect?event=channel_banner&redir_token=QUFFLUhqazNocEhiaGFBT1l1MnRHbnlIcHFKbXJWVnpQd3xBQ3Jtc0tsLVZJc19YeFlwZ2JqbXVOa3g0Skw4TVhTV2otNm1tM3A1bUNnamh3S2V6OGQtLTBnSjBxYTlvUXMxeEVIS3o4US10NENHMUQ3STk2a01FOFBhUnZjZFctMEhFUTg1TVctQmFfVUdxZXJ4TDl0azlYNA&q=https%3A%2F%2Fwww.paypal.com%2Fcgi-bin%2Fwebscr%3Fcmd%3D_donations%26business%3Dderek%2540distrotube%252ecom%26lc%3DUS%26item_name%3DDistroTube%26no_note%3D0%26currency_code%3DUSD%26bn%3DPP%252dDonationsBF%253abtn_donateCC_LG%252egif%253aNonHostedGuest\n  🛍️ Amazon: https://amzn.to/2RotFFi\n  👕 Teespring: https://teespring.com/stores/distrotube\n\n  DT ON THE WEB:\n  🕸️ Website: http://distrotube.com/\n  📁 GitLab: https://gitlab.com/dwt1\n  🗨️ Mastodon: https://fosstodon.org/@distrotube\n  👫 Reddit: https://www.reddit.com/r/DistroTube/\n  📽️ LBRY/Odysee: https://odysee.com/@DistroTube:2\n\n  FREE AND OPEN SOURCE SOFTWARE THAT I USE:\n  🌐 Brave Browser - https://brave.com/dis872\n  📽️ Open Broadcaster Software: https://obsproject.com/\n  🎬 Kdenlive: https://kdenlive.org\n  🎨 GIMP: https://www.gimp.org/\n  💻 VirtualBox: https://www.virtualbox.org/\n  🗒️ Doom Emacs: https://github.com/hlissner/doom-emacs\n\n  Your support is very much appreciated. Thanks, guys!"
@@ -8749,7 +8917,7 @@
     "YOUTUBE_URL": "https://www.youtube.com/watch?v=e7gBY6wCdxQ",
     "SPEAKERS": "Andrew Hyatt",
     "TAGS": [
-      "ai",
+      "llms",
       "llm",
       "fun"
     ],
@@ -9512,7 +9680,7 @@
     "DURATION": "1:13",
     "SPEAKERS": "Sergey Kostyaev",
     "TAGS": [
-      "ai",
+      "llms",
       "ellama",
       "llm"
     ],
@@ -9723,7 +9891,7 @@
     "DURATION": "2:15",
     "SPEAKERS": "Sergey Kostyaev",
     "TAGS": [
-      "ai",
+      "llms",
       "llm",
       "ellama"
     ],
@@ -9892,7 +10060,7 @@
     "YOUTUBE_URL": "https://www.youtube.com/watch?v=bsRnh_brggM",
     "SPEAKERS": "karthink",
     "TAGS": [
-      "ai",
+      "llms",
       "llm",
       "gptel"
     ],
@@ -9961,7 +10129,7 @@
     "TAGS": [
       "completion",
       "llm",
-      "ai"
+      "llms"
     ],
     "BODY": "Completing-read is a staple feature of Emacs where you can iteratively downselect a list of candidates by typing part of them. The matching can be literal or fuzzy, e.g. by regular expression, but it is limited to this. There is not any way to match by \"meaning\".\n\n  In https://youtube.com/live/8YXc1s5-TdM I showed an example of using LLM technology to search bibtex entries by semantic similarity. Here we expand the idea, and shows some additional applications that might be interesting."
   },
@@ -9996,7 +10164,7 @@
     "SPEAKERS": "John Kitchin",
     "TAGS": [
       "llm",
-      "ai",
+      "llms",
       "search",
       "bibtex"
     ],
@@ -11064,7 +11232,7 @@
     "TAGS": [
       "emacsconf",
       "emacsconf2023",
-      "ai",
+      "llms",
       "llm"
     ],
     "BODY": ""
@@ -11166,7 +11334,7 @@
       "emacsconf",
       "emacsconf2023",
       "math",
-      "ai",
+      "llms",
       "org",
       "OrgBabel"
     ],
@@ -11291,7 +11459,7 @@
       "corfu",
       "navigation",
       "devdocs",
-      "ai",
+      "llms",
       "chatgpt",
       "gpt"
     ],
@@ -13024,7 +13192,7 @@
     "SPEAKERS": "Vivek Haldar",
     "TAGS": [
       "gpt",
-      "ai"
+      "llms"
     ],
     "BODY": "Previous video on running ChatGPT sessions inside Emacs: https://youtu.be/SL-nNOjqoxg\n\n\n  ChatGPT integration code: https://gist.github.com/vivekhaldar/12c70d684af0302bfa5c816017614589\n\n  Code to control Emacs with ChatGPT: https://gist.github.com/vivekhaldar/d7cc9cdd4b719cbe332729ddba1fc169\n\n\n\n  System prompt used with ChatGPT:\n\n  You are an expert at Emacs, and Emacs Lisp, which is used to script and extend Emacs. You can understand natural language requests for actions to take within Emacs, then translate them to Emacs Lisp that carries out those actions.\n\n  Reply only in pure lisp expressions that can then be evaluated with \"eval-expression\". Do not include any comments or explanations. If the answer consists of multiple expressions, wrap them inside a \"progn\" form."
   },
@@ -13074,7 +13242,7 @@
     "SPEAKERS": "Skybert Hacks",
     "TAGS": [
       "gpt",
-      "ai"
+      "llms"
     ],
     "BODY": "Boost your productivity in Emacs harnessing the power of OpenAI, ChatGPT and Copilot. In this video I show you how c3po.el/ChatGPT and copilot.el/Copilot helps me in both research and coding.\n\n  ## Slides\n  - https://talks.skybert.net/emacs-openai-and-chatgpt/\n\n  ## Emacs side of things\n  - ChatGPT interface: https://github.com/d1egoaz/c3po.el\n  - Copilot integration: https://github.com/zerolfx/copilot.el\n  - My Emacs conf: https://gitlab.com/skybert/my-little-friends/-/tree/master/emacs\n\n\n  ## Connect\n  🕸️ https://skybert.net\n  🐘 https://emacs.ch/@skybert\n  📫 torstein@skybert.net"
   },
@@ -13167,7 +13335,7 @@
     "SPEAKERS": "System Crafters",
     "TAGS": [
       "gpt",
-      "ai"
+      "llms"
     ],
     "BODY": "In today's stream, we will explore the potential of AI assistants in Emacs. We'll take a look at the gptel package which interacts with OpenAI's GPT 3 and 4 models to provide AI assistance in writing and planning projects.  We'll also try the copilot.el package which integrates GitHub Copilot into Emacs.  Come see first-hand how AI assistants might revolutionize your Emacs workflow!\n\n  SUPPORT THE CHANNEL:\n\n  👕 https://store.systemcrafters.net\n  👍 https://systemcrafters.net/support-the-channel\n  📘 Get Your Copy of Mastering Emacs: https://www.masteringemacs.org/r/systemcrafters?utm_source=yt&utm_medium=desc&utm_campaign=scme\n  🌐 Buy a domain with Namecheap: https://namecheap.pxf.io/NK0yXK\n\n\n  SHOW NOTES:\n\n  [[https://systemcrafters.net/live-streams/march-31-2023/]]\n\n  MY CONFIGURATION:\n\n  https://config.daviwil.com\n  https://config.daviwil.com/emacs\n  https://config.daviwil.com/systems (Guix)\n\n  JOIN THE COMMUNITY:\n\n  http://systemcrafters.chat (IRC and Discord)\n  https://twitter.com/SystemCrafters\n\n  OTHER SERIES:\n\n  - Emacs Essentials: https://www.youtube.com/watch?v=48JlgiBpw_I&list=PLEoMzSkcN8oPZvSdewHG8uApD7THlLLCV\n  - Emacs From Scratch: https://www.youtube.com/watch?v=74zOY-vgkyw&list=PLEoMzSkcN8oPH1au7H6B7bBJ4ZO7BXjSZ\n  - Emacs Tips: https://www.youtube.com/watch?v=wKTKmE1wLyw&list=PLEoMzSkcN8oMHJ6Xil1YdnYtlWd5hHZql\n  - Emacs Desktop Environment: https://www.youtube.com/watch?v=f7xB2fFk1tQ&list=PLEoMzSkcN8oNPbEMYEtswOVTvq7CVddCS\n  - Emacs IDE: https://www.youtube.com/watch?v=E-NAM9U5JYE&list=PLEoMzSkcN8oNvsrtk_iZSb94krGRofFjN\n  - Emacs Mail: https://www.youtube.com/watch?v=yZRyEhi4y44&list=PLEoMzSkcN8oM-kA19xOQc8s0gr0PpFGJQ\n  - Learning Emacs Lisp: https://www.youtube.com/watch?v=RQK_DaaX34Q&list=PLEoMzSkcN8oPQtn7FQEF3D7sroZbXuPZ7\n  - Craft Your System with GNU Guix: https://www.youtube.com/watch?v=iBaqOK75cho&list=PLEoMzSkcN8oNxnj7jm5V2ZcGc52002pQU\n\n  MY SECOND CHANNEL:\n\n  On the Flux Harmonic channel I do live coding twice a week using many of the tools we talk about on System Crafters!\n\n  - https://youtube.com/FluxHarmonicLive\n  - https://fluxharmonic.com\n\n  CREDITS:\n\n  Coriolis Effect by logos feat. stefsax, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/mseq/26296\n  reNovation by airtone, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/airtone/60674\n  ukeSounds by airtone, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/airtone/32655\n  Between Worlds (Instrumental) by Aussens@iter, licensed Creative Commons 3.0 CC-BY http://ccmixter.org/files/tobias_weber/56664"
   },
@@ -13227,7 +13395,7 @@
     "YOUTUBE_URL": "https://www.youtube.com/watch?v=fvBDxiFPG6I&feature=youtu.be",
     "SPEAKERS": "Robert Krahn",
     "TAGS": [
-      "ai",
+      "llms",
       "org"
     ],
     "BODY": "Table of contents:\n  - org-ai special blocks: https://youtu.be/fvBDxiFPG6I?t=33\n  - speech input/output:https://youtu.be/fvBDxiFPG6I?t=128\n  - org-ai-on-region: https://youtu.be/fvBDxiFPG6I?t=171\n  - code generation: https://youtu.be/fvBDxiFPG6I?t=204\n  - refactoring code: https://youtu.be/fvBDxiFPG6I?t=253\n\n  A walk-through of org-ai, to show how it can be used. Not all features are demoed but it should give an overview of what can be done.\n  Find the Emacs package here: https://github.com/rksm/org-ai.\n\n  Interested in programming tools, AI assistants and more?\n  - https://robert.kra.hn/\n  - https://twitter.com/robertkrahn\n  - https://toot.kra.hn/@robert"
@@ -13306,7 +13474,7 @@
     "TAGS": [
       "python",
       "gpt",
-      "ai"
+      "llms"
     ],
     "BODY": "\"Emacs + Python + ChatGPT\" is now my perfect TRIO ;-) !!"
   },
@@ -13453,7 +13621,7 @@
     "SPEAKERS": "Vivek Haldar",
     "TAGS": [
       "gpt",
-      "ai"
+      "llms"
     ],
     "BODY": "OpenAI blog post announcing new ChatGPT API:\n  https://openai.com/blog/introducing-chatgpt-and-whisper-apis\n\n  Python script to invoke the API:\n  https://gist.github.com/vivekhaldar/fef84a7239b9e5667b8a0cdb59d7e281\n\n  Emacs Lisp to run a ChatGPT session inside Emacs:\n  https://gist.github.com/vivekhaldar/12c70d684af0302bfa5c816017614589"
   },
@@ -13588,7 +13756,7 @@
     "SPEAKERS": "jaz nokle",
     "TAGS": [
       "gpt",
-      "ai"
+      "llms"
     ],
     "BODY": ""
   },
@@ -13600,7 +13768,7 @@
     "SPEAKERS": "jaz nokle",
     "TAGS": [
       "gpt",
-      "ai"
+      "llms"
     ],
     "BODY": ""
   },
@@ -14154,7 +14322,7 @@
     "SPEAKERS": "Gavin Freeborn",
     "TAGS": [
       "gpt",
-      "ai"
+      "llms"
     ],
     "BODY": "This video is focused on creating a ChatGPT client for Emacs. ChatGPT is a powerful AI chatbot that you can use to help you program. In this video, I explain how I created a client that lets you use it from emacs.\n\n  Let me know what you think and if there is anything specific you would like to learn about.\n\n  Github Gist With The Source Code:\n  https://gist.github.com/Gavinok/a18e0b2dac74e4ae67df35e45a170f7f\n\n  ----------------► Wanna Support Me? ◀︎----------------\n  Github:\n      https://www.github.com/sponsors/gavinok\n  Patreon:\n      https://www.patreon.com/gavinfreeborn\n\n  ----------------► Wanna Checkout My Dots? ◀︎----------------\n  Vimrc:\n      https://github.com/Gavinok/dotvim\n  Emacs Config:\n      https://github.com/Gavinok/emacs.d\n  ----------------► Come Join The Community◀︎----------------\n  LBRY:\n      https://odysee.com/@GavinFreeborn:d\n  Matrix Space:\n      https://matrix.to/#/%23gavinfreeborn:matrix.org\n  Discord:\n      https://discord.gg/JJk5KKU\n\n  00:00 Start Of Video\n  00:09 What is ChatGPT\n  02:19 Demo Begins Here\n  03:10 It can explain any code to you\n  03:45 It can generate tests\n  04:05 Replace region with the response in a single command\n  04:34 It can even fix your code for you\n  05:30 Replacing prompts inline\n  06:06 Embark\n  08:57 How it all works\n  10:39 Digging into the code\n  14:38 Conclusion"
   },

@@ -4,6 +4,249 @@
 #+COMMENT: [[shell:npm run build; git commit -m "update" -a; git push][Update]]
 
 
+* llm-buddy demo: automatic error detection and fixing in Emacs!  :llms:
+:PROPERTIES:
+:DATE:     2026-07-24T12:26:57-07:00
+:DURATION: 10:26
+:YOUTUBE_URL: https://www.youtube.com/watch?v=_z6_df9s2Fs
+:SPEAKERS: Andrew Hyatt
+:END:
+  Github: https://github.com/ahyatt/llm-buddy
+* Emacs | Project.el  :project:navigation:
+:PROPERTIES:
+:DATE:     2026-07-22T15:07:31-07:00
+:DURATION: 16:57
+:YOUTUBE_URL: https://www.youtube.com/watch?v=na_zxYz87xY
+:SPEAKERS: Jon Kishore
+:END:
+  ,### Install
+  ```emacs-lisp
+  (use-package project
+    :ensure nil
+    :custom
+    (project-vc-extra-root-markers '(".project")))
+
+  ```
+
+  ,### Project Core Commands
+
+  * `C-x p f` : `project-find-file` - Search and open a file inside the current project.
+  * `C-x p p` : `project-switch-project` - Switch to another project from your list of known projects.
+  * `C-x p b` : `project-switch-to-buffer` - Switch to an open buffer belonging only to this project.
+  * `C-x p d` : `project-dired` - Open a Dired directory buffer at the root of the project.
+  * `C-x p g` : `project-find-regexp` - Search for a text string or regex across all project files.
+  * `C-x p e` : `project-eshell` - Open a dedicated Eshell terminal instance at the project root.
+  * `C-x p c` : `project-compile` - Run a build or compile command from the project root directory.
+  * `C-x p k` : `project-kill-buffers` - Close all open buffers associated with the current project.
+
+  ,### Project Management
+
+  * `M-x project-forget-project` : Remove a specific directory from Emacs' remembered project list.
+  * `M-x project-forget-projects-under` : Remove all saved projects under a specific directory.
+  * `M-x project-forget-zombie-projects` : Automatically remove all non-existent or deleted project directories from the saved list.
+
+  ,### Other videos on this topic
+
+  * https://youtu.be/6PlrXQ0tnQM?si=ELMnp_ZpwXSQhMZa
+  * https://www.youtube.com/live/O6hMwJfaXV8?si=lbG6gf4vVatyFQSu
+
+* How to Undo in Emacs  :beginner:
+:PROPERTIES:
+:DATE:     2026-07-19T06:15:22-07:00
+:DURATION: 1:24
+:YOUTUBE_URL: https://www.youtube.com/watch?v=kOw5cqtcmUg
+:SPEAKERS: Timothy Unkert
+:END:
+  In this video, I show you how to undo a command in Emacs. Unlike other editors which use CTRL-Z to undo a command Emacs is a bit different, in Emacs you use CTRL-x u to undo a command which is typically abbreviated with:
+
+  C-x u
+
+* Emacs: Completion in the buffer with completion-at-point-functions  :completion:
+:PROPERTIES:
+:DATE:     2026-07-19T05:48:30-07:00
+:DURATION: 22:52
+:YOUTUBE_URL: https://www.youtube.com/watch?v=x3rqjpNm3e0
+:SPEAKERS: Protesilaos
+:END:
+  In this ~22-minute video I explain how Emacs performs completion in a buffer. I cover what happens behind the scenes with the variable completion-at-point-functions. Then I also go to the frontends, which affects the modalities of interaction. I cover the built-in Completions buffer, the packages Corfu and Company, and the built-in completion-preview-mode. Finally, I comment at some further length on how to control the grouping of results in the completion-at-point-functions. In that context I also mention the Cape package, as well as some extra functionality that the Company package provide. I wrote an article which covers all of what is in the video as well as code samples. You can read it on my website here: https://protesilaos.com/codelog/2026-07-19-emacs-completion-at-point-functions/
+
+* Emacs org-pad.el  :org:
+:PROPERTIES:
+:DATE:     2026-07-18T12:33:41-07:00
+:DURATION: 1:16
+:YOUTUBE_URL: https://www.youtube.com/watch?v=q_te8iX-Cjo
+:SPEAKERS: saleh
+:END:
+  https://github.com/larrasket/org-pad.el
+
+* Full IDE Power Over SSH: Remote C++ Development with Just a Terminal and Emacs  :coding:cpp:
+:PROPERTIES:
+:DATE:     2026-07-17T16:17:07-07:00
+:DURATION: 10:12
+:YOUTUBE_URL: https://youtube.com/watch?v=HLhSy1cB6Lw&si=1ZSrGae13_UKRIhA
+:SPEAKERS: Joel Holder
+:END:
+  Everything in this video runs over a plain SSH connection to a remote Linux box — no GUI, no forwarded X11, no VS Code Remote extension. Just a terminal, SSH, and Emacs configured as a full C++ IDE.
+
+  I walk through:
+  • Symbol navigation — jump to definitions across your own code and the C++ standard library, find every reference, and jump back out, all without leaving the keyboard
+  • Refactoring — project-wide rename backed by clangd, not text search-and-replace
+  • Debugging — breakpoints, conditional breakpoints, stepping, live variable inspection, and expression evaluation via DAP (lldb/gdb), fully interactive over a terminal session
+
+  The point isn't "Emacs is old-school" — it's that terminal + SSH + Emacs is a genuinely fast, lightweight way to work on remote code: no laggy remote-GUI protocol, no heavyweight remote-extension server, works the same whether you're on a fast connection or a rough one.
+
+  Config used in this video (MIT licensed, free to use/fork):
+  https://github.com/jclosure/vscode-flavored-emacs-2026
+
+  ,#emacs #ssh #cpp #remotedevelopment #terminal #linux #debugging #clangd #vscode #dape
+
+* Gentoo User shows you How to edit your make.conf in Emacs  :coding:
+:PROPERTIES:
+:DATE:     2026-07-16T11:52:44-07:00
+:DURATION: 2:25
+:YOUTUBE_URL: https://www.youtube.com/watch?v=sb39zCRkZGE
+:SPEAKERS: Arturo R Ochoa
+:END:
+  Today, I am going to show you how to use TRAMP mode in emacs: TRAMP is not to be confused with the dog. It is used to edit files that require root privileges. VERY EXCITING!!!!
+
+* Gentoo Simp Demonstrates Beacon Mode With Meow On Emacs.   :beacon:meow:
+:PROPERTIES:
+:DATE:     2026-07-16T11:38:56-07:00
+:DURATION: 3:29
+:YOUTUBE_URL: https://www.youtube.com/watch?v=zbZR95OIkLY
+:SPEAKERS: Arturo R Ochoa
+:END:
+  Hello! Today, I'm going to demonstrate how to use beacon mode on Emacs, using the modal editor: Meow.
+  here is the creators Github for Meow on his github : https://github.com/meow-edit/meow
+
+* Let's Finally Finish the Emacs Tutorial  :beginner:
+:PROPERTIES:
+:DATE:     2026-07-16T05:32:47-07:00
+:DURATION: 2:03:47
+:YOUTUBE_URL: https://www.youtube.com/watch?v=jCKLY3xH7SY
+:SPEAKERS: linkarzu
+:END:
+  READ THIS BLOGPOST:
+  How to use text to speech (TTS)?
+  Why are there 2 livestreams?
+  All the answers to these questions and more stream info here
+  https://linkarzu.com/posts/news/streaming-info/
+
+  Instructions to join the discord server
+  https://discord.gg/D7CZMzw3rM
+
+  Members:
+  If you want your message read out loud, include !say
+
+  Example:
+  !say I have a small pp
+
+  Donations of $10 or more on Ko-fi, preferred, or YouTube Super Chats will show up on screen and be read aloud by a computer voice.
+
+  Support me:
+  Buy me the Switch 2:
+  https://ko-fi.com/linkarzu
+
+  Join the YouTube Members (gives you access to the private discord server)
+  https://www.youtube.com/channel/UCrSIvbFncPSlK6AdwE2QboA/join
+
+  My Merch Store:
+  https://merch.linkarzu.com
+
+  My Dotfiles:
+  https://github.com/linkarzu/dotfiles-latest
+
+  Follow me on X:
+  https://x.com/link_arzu
+
+  ,#CleanShotX #macshot #macOS
+
+* Ayuda de vim cscope, emacs y global.  :navigation:
+:PROPERTIES:
+:DATE:     2026-07-16T04:07:08-07:00
+:DURATION: 5:04
+:YOUTUBE_URL: https://www.youtube.com/watch?v=1wrF6J3V47A
+:SPEAKERS: Óscar Megía López
+:END:
+  El video anterior no expliqué como obtener la ayuda de vim cscope, emacs y global.
+
+* One shot modifiers, then emacs tutorial  :beginner:
+:PROPERTIES:
+:DATE:     2026-07-15T05:32:29-07:00
+:DURATION: 2:08:21
+:YOUTUBE_URL: https://www.youtube.com/watch?v=18-s7UdMIG0
+:SPEAKERS: linkarzu
+:END:
+  READ THIS BLOGPOST:
+  How to use text to speech (TTS)?
+  Why are there 2 livestreams?
+  All the answers to these questions and more stream info here
+  https://linkarzu.com/posts/news/streaming-info/
+
+  Instructions to join the discord server
+  https://discord.gg/D7CZMzw3rM
+
+  Members:
+  If you want your message read out loud, include !say
+
+  Example:
+  !say I have a small pp
+
+  Donations of $10 or more on Ko-fi, preferred, or YouTube Super Chats will show up on screen and be read aloud by a computer voice.
+
+  Support me:
+  Buy me the Switch 2:
+  https://ko-fi.com/linkarzu
+
+  Join the YouTube Members (gives you access to the private discord server)
+  https://www.youtube.com/channel/UCrSIvbFncPSlK6AdwE2QboA/join
+
+  My Merch Store:
+  https://merch.linkarzu.com
+
+  My Dotfiles:
+  https://github.com/linkarzu/dotfiles-latest
+
+  Follow me on X:
+  https://x.com/link_arzu
+
+  ,#CleanShotX #macshot #macOS
+
+* Stop Installing Every Emacs Package You See  :configuration:
+:PROPERTIES:
+:DATE:     2026-07-15T03:00:23-07:00
+:DURATION: 4:07
+:YOUTUBE_URL: https://www.youtube.com/watch?v=vyLzOD6eQgM
+:SPEAKERS: linkarzu
+:END:
+  How many Emacs packages should a beginner install?
+
+  In this clip, I ask Protesilaos whether he recommends Denote to someone who is just getting started with Emacs. His answer is simple: start with the basics and only install packages when you understand the problem they are solving.
+
+  Prot has written many Emacs packages, including the Modus themes, which became part of core Emacs, but he still warns beginners against blindly copying package configurations. When you install tools before understanding your own workflow, you can quickly end up with a bloated Emacs config full of packages you never actually use.
+
+  We also take a quick look at some of the packages he personally uses, including Denote, TMR, and Substitute, a package for fast search-and-replace operations based on the symbol at point.
+
+  The main lesson is not that extra Emacs packages are bad. They are useful only when they solve a real need you already have.
+
+  This clip comes from my second Emacs coaching session with Protesilaos, an Emacs contributor and the creator of packages such as the Modus themes, Denote, and many others, full interview here:
+  https://youtube.com/live/Crp2e5D_Q78
+
+  ,#Emacs #VanillaEmacs #Protesilaos #EmacsConfig #Denote #ModusThemes #Linux #TextEditor
+
+* Voulez-vous parler d'Emacs avec Prot et moi ?  :community:
+:PROPERTIES:
+:DATE:     2026-07-14T12:28:10-07:00
+:DURATION: 3:54
+:YOUTUBE_URL: https://www.youtube.com/watch?v=IBi4thJN_CA
+:SPEAKERS: Sacha Chua
+:END:
+  https://sachachua.com/blog/2026/07/voulez-vous-parler-d-emacs-avec-prot-et-moi/
+
+  Des liens :
+  - https://www.youtube.com/watch?v=FtSvyOvB5Gs
+  - https://sachachua.com/blog/2026/07/re-prot-francais-je-lis-pour-apprendre-des-nouveaux-mots/
+    - https://youtu.be/C7fZ2mCrxgw
 * [02] Vanilla Emacs with Prot: I’ll Repent for My Markdown Sins  :org:
 :PROPERTIES:
 :DATE:     2026-07-12T14:18:10-07:00
@@ -58,6 +301,17 @@
   Follow me on X:
   https://x.com/link_arzu
 
+* How to Find and Replace Text in Emacs  :beginner:
+:PROPERTIES:
+:DATE:     2026-07-12T04:45:35-07:00
+:DURATION: 2:51
+:YOUTUBE_URL: https://www.youtube.com/watch?v=AUY6CkcfGHE
+:SPEAKERS: Timothy Unkert
+:END:
+  In this video, I show you how to find and replace text in Emacs with the command: M-%
+
+  This allows you to type in the word you want to replace and then the word you want to replace that word with and move through text replacing occurences of the word by typing 'y' and skipping replacing occurrences of the word by typing 'n'.
+
 * History of Emacs the Text Editor/Operative System  :history:
 :PROPERTIES:
 :DATE:     2026-07-11T09:00:01-07:00
@@ -80,6 +334,26 @@
   12:52 What Emacs really is — an argument that never ended
 
   Emacs is older than Linux, older than the internet, and older than most of the people who use it. It started as a collection of macros at the MIT AI Lab in 1976, became the first program of the GNU Project, gave birth to the GPL, survived a religious schism, was written off as obsolete, and came back stronger. This is the full history of the text editor that refused to die — and why it still matters in 2025.
+* Comment j'organise mon emploi du temps avec org emacs / tablette eink BOOX   :org:
+:PROPERTIES:
+:DATE:     2026-07-08T14:44:42-07:00
+:DURATION: 16:18
+:YOUTUBE_URL: https://www.youtube.com/watch?v=7ZJZ3RPgjTA
+:SPEAKERS: Zach_yt
+:END:
+  Update ! Dotfiles are up now check my account links on youtube.
+
+  Video dont je me suis inspire : https://youtu.be/b97vEEBEcrQ?si=3F6044ki_KD3YoB7
+
+  org-caldav no error bloc :
+
+  (with-eval-after-load 'url-dav
+    (advice-add 'url-dav-process-DAV:prop :around
+                (lambda (orig-fn node &rest args)
+                  (if (xml-node-children node)
+                      (apply orig-fn node args)
+                    nil))))
+
 * Emacs: global keybinding overrides   :configuration:keybindings:
 :PROPERTIES:
 :DATE:     2026-07-08T04:00:53-07:00
@@ -759,7 +1033,7 @@
 
   ,#emacs #textediting #developertools #software #programming #tutorial
 
-* Bending Emacs Episode 14: Prototyping iOS apps with agent-shell, artist-mode, and Claude Skills   :ai:
+* Bending Emacs Episode 14: Prototyping iOS apps with agent-shell, artist-mode, and Claude Skills   :llms:
 :PROPERTIES:
 :DATE:     2026-06-18T11:04:16-07:00
 :DURATION: 26:39
@@ -859,7 +1133,7 @@
   Remove the S in HTTPS.
   Or use brave browser or safari.
 
-* Vibe Coding with Emacs' Built-In AI - System Crafters Live! :ai:
+* Vibe Coding with Emacs' Built-In AI - System Crafters Live! :llms:
 :PROPERTIES:
 :DATE:     2026-06-12T22:20:51-07:00
 :DURATION: 1:47:29
@@ -2524,7 +2798,7 @@
 
   ,#orgmode #orgroam #spacemacs #emacs #productivity #pc #linux #ubuntu #libresoftware #learn #university #study #organized #codeberg #git #success #richardstallman #ergonomics #ergonomy #secondbrain #obsidian #notion
 
-* AI For Boomers: Project Claude For Emacs   :ai:
+* AI For Boomers: Project Claude For Emacs   :llms:
 :PROPERTIES:
 :DATE:     2026-04-17T11:32:44-07:00
 :DURATION: 1:49
@@ -2886,7 +3160,7 @@
   Comunidade debxp no Telegram:
   https://t.me/debxpcomunidade
 
-* Crafting an AI-Driven Workflow System - System Crafters Live!  :ai:
+* Crafting an AI-Driven Workflow System - System Crafters Live!  :llms:
 :PROPERTIES:
 :DATE:     2026-04-03T22:37:06-07:00
 :DURATION: 1:52:03
@@ -3162,7 +3436,7 @@
   - Music: https://www.epidemicsound.com/referral/blhmqa/
   - Streaming with: https://www.ecamm.com/mac/ecammlive/?fp_ref=curtis42
 
-* Will using Emacs give you an edge in the AI-era?  :ai:
+* Will using Emacs give you an edge in the AI-era?  :llms:
 :PROPERTIES:
 :DATE:     2026-03-30T19:18:55-07:00
 :DURATION: 45:07
@@ -3526,7 +3800,7 @@
 
   And here is the transcript for this video: https://protesilaos.com/codelog/2026-03-13-computing-in-freedom-with-gnu-emacs/
 
-* 038 Ollama Buddy - Tool Calling and modifying files with an ediff session #emacs #ollama  :ollama:ai:OllamaBuddy:
+* 038 Ollama Buddy - Tool Calling and modifying files with an ediff session #emacs #ollama  :ollama:llms:OllamaBuddy:
 :PROPERTIES:
 :DATE:     2026-03-10T05:30:45-07:00
 :DURATION: 2:11
@@ -3707,7 +3981,7 @@
   😎 Sobre o Tiago Aguiar:
   Eu acredito verdadeiramente que, sendo desenvolvedor desde 2011, eu possa te ajudar de alguma forma a evoluir na sua carreira mobile e te ajudar a criar aplicativos Android e iOS de verdade. Para conhecer a minha história nessa jornada de criação de aplicativos, acesse tiagoaguiar.dev
 
-* 024 Ollama Buddy - Web Search Integration - @search() inline syntax #emacs #ollama  :ai:ollama:
+* 024 Ollama Buddy - Web Search Integration - @search() inline syntax #emacs #ollama  :llms:ollama:
 :PROPERTIES:
 :DATE:     2026-03-04T02:25:25-08:00
 :DURATION: 2:11
@@ -3731,7 +4005,7 @@
   https://github.com/captainflasmr/ollama-buddy
 
   ,#emacs #ollama
-* Bending Emacs Episode 13: agent-shell + Claude Skills + Charts  :ai:AgentShell:claude:
+* Bending Emacs Episode 13: agent-shell + Claude Skills + Charts  :llms:AgentShell:claude:
 :PROPERTIES:
 :DATE:     2026-03-03T14:09:49-08:00
 :DURATION: 28:10
@@ -3930,7 +4204,7 @@
   Mailing lists:
   https://lists.sr.ht/~abcdw/
 
-* Bending Emacs Episode 12: agent-shell + Claude Skills  :ai:AgentShell:
+* Bending Emacs Episode 12: agent-shell + Claude Skills  :llms:AgentShell:
 :PROPERTIES:
 :DATE:     2026-02-25T10:55:46-08:00
 :DURATION: 26:01
@@ -4006,7 +4280,7 @@
   49:09 - Configuração do evil-mode
   54:15 - Temas e modeline Doom
 
-* 037 Ollama Buddy - In-Buffer responses with in-line inspection #emacs #ollama  :ai:ollama:
+* 037 Ollama Buddy - In-Buffer responses with in-line inspection #emacs #ollama  :llms:ollama:
 :PROPERTIES:
 :DATE:     2026-02-24T00:46:08-08:00
 :DURATION: 1:27
@@ -4028,7 +4302,7 @@
   https://github.com/captainflasmr/ollama-buddy
 
   ,#emacs #ollama
-* Run LLM Scripts in Emacs (No Packages) #llm #ai #claudecode  :ai:llm:
+* Run LLM Scripts in Emacs (No Packages) #llm #ai #claudecode  :llms:llm:
 :PROPERTIES:
 :DATE:     2026-02-22T23:09:38-08:00
 :DURATION: 4:21
@@ -4108,7 +4382,7 @@
 
   In this video series, I talk to anybody who is interested to have a video call with me (so do contact me if you want!). The topics cover anything related to Emacs, technology, and life in general. More here: https://protesilaos.com/prot-asks.
 
-* 035 Ollama Buddy - Advanced Tool Calling with Multiple Tools #emacs #ollama  :ai:ollama:
+* 035 Ollama Buddy - Advanced Tool Calling with Multiple Tools #emacs #ollama  :llms:ollama:
 :PROPERTIES:
 :DATE:     2026-02-20T05:49:12-08:00
 :DURATION: 2:52
@@ -4280,7 +4554,7 @@
 
   ,#productivity  #linux #thelinuxcast
 
-* Org mode, agentic coding and ekg  :ai:org:ekg:
+* Org mode, agentic coding and ekg  :llms:org:ekg:
 :PROPERTIES:
 :DATE:     2026-02-16T14:49:37-08:00
 :DURATION: 11:15
@@ -4304,7 +4578,7 @@
 
   Find all my publications on my website (Emacs, philosophy, poems, selfies, and much more): https://protesilaos.com
 
-* 034 Ollama Buddy - Simple Tool Calling #emacs #ollama  :ai:ollama:
+* 034 Ollama Buddy - Simple Tool Calling #emacs #ollama  :llms:ollama:
 :PROPERTIES:
 :DATE:     2026-02-13T00:21:57-08:00
 :DURATION: 0:41
@@ -4578,7 +4852,7 @@
   https://github.com/emacselements
   https://emacselements.com/
 
-* 023 Ollama Buddy - Accessing cloud models! #emacs #ollama  :ai:ollama:
+* 023 Ollama Buddy - Accessing cloud models! #emacs #ollama  :llms:ollama:
 :PROPERTIES:
 :DATE:     2026-01-28T00:24:50-08:00
 :DURATION: 1:04
@@ -4617,7 +4891,7 @@
 
   https://github.com/emacselements
   https://emacselements.com/
-* ECA: AI pair programming in your editor - Dallo  :ai:eca:
+* ECA: AI pair programming in your editor - Dallo  :llms:eca:
 :PROPERTIES:
 :DATE:     2026-01-27T07:51:37-08:00
 :DURATION: 32:33
@@ -4888,7 +5162,7 @@
   ► Blog: https://frostyx.cz
   ► Mastodon: https://fosstodon.org/@FrostyX
 
-* Create ComfyUI pictures straight from Emacs  :ai:
+* Create ComfyUI pictures straight from Emacs  :llms:
 :PROPERTIES:
 :DATE:     2026-01-18T05:03:07-08:00
 :DURATION: 1:07
@@ -4923,7 +5197,7 @@
 
   🎙️ New to streaming or looking to level up? Check out StreamYard and get $10 discount! 😍 https://streamyard.com/pal/d/6129863822147584
 
-* Bending Emacs Episode 10: AI / LLM agent-shell  :ai:AgentShell:
+* Bending Emacs Episode 10: AI / LLM agent-shell  :llms:AgentShell:
 :PROPERTIES:
 :DATE:     2026-01-16T02:07:16-08:00
 :DURATION: 36:35
@@ -5739,7 +6013,7 @@
 :END:
   https://github.com/strickinato/strick-dnd
 
-* Eric Dallo talks about ECA  :ai:
+* Eric Dallo talks about ECA  :llms:
 :PROPERTIES:
 :DATE:     2025-12-09T14:00:06-08:00
 :DURATION: 55:38
@@ -6527,7 +6801,7 @@ exchange-point-and-mark, mark-whole-buffer
 :END:
   In this series we will be developing the rare-words Emacs package, a package that highlights rare words in your Emacs buffer, and then trying to publish it to MELPA.
 
-* Emacs lisp and gptel building custom llm tools to call emacs functions  :ai:gptel:
+* Emacs lisp and gptel building custom llm tools to call emacs functions  :llms:gptel:
 :PROPERTIES:
 :DATE:     2025-11-14T13:08:08-08:00
 :DURATION: 1:15:38
@@ -6571,7 +6845,7 @@ exchange-point-and-mark, mark-whole-buffer
 
   https://github.com/NapoleonWils0n/nixos-dotfiles/blob/master/nixos-dotfiles.org#gptel-custom-toolsel
 
-* AI Augmented, Language Agnostic, SWE Workflow, in Emacs  :ai:
+* AI Augmented, Language Agnostic, SWE Workflow, in Emacs  :llms:
 :PROPERTIES:
 :DATE:     2025-11-14T01:30:37-08:00
 :DURATION: 37:03
@@ -7155,7 +7429,7 @@ exchange-point-and-mark, mark-whole-buffer
 
   My main focus is C, because that's what I'm programming in mostly. So if you're a C programmer and an Emacs user and you want to try it - then download it from tangled and give mea shout if it doesn't work.
 
-* Emacs gptel and mcp-searxng enable web search for your llm's with searxng  :ai:gptel:
+* Emacs gptel and mcp-searxng enable web search for your llm's with searxng  :llms:gptel:
 :PROPERTIES:
 :DATE:     2025-10-23T15:30:56-07:00
 :DURATION: 1:11:33
@@ -7367,7 +7641,7 @@ exchange-point-and-mark, mark-whole-buffer
 
   Thank you!
 
-* Modeling bioreactor data with an LLM in Emacs   :ai:
+* Modeling bioreactor data with an LLM in Emacs   :llms:
 :PROPERTIES:
 :DATE:     2025-10-11T11:33:22-07:00
 :DURATION: 12:03
@@ -7408,7 +7682,7 @@ exchange-point-and-mark, mark-whole-buffer
   ► Blog: https://frostyx.cz
   ► Mastodon: https://fosstodon.org/@FrostyX
 
-* Ollama tool use demo on Android Emacs 30.1  :ai:ollama:
+* Ollama tool use demo on Android Emacs 30.1  :llms:ollama:
 :PROPERTIES:
 :DATE:     2025-10-10T05:42:13-07:00
 :DURATION: 4:00
@@ -7417,7 +7691,7 @@ exchange-point-and-mark, mark-whole-buffer
 :END:
 
 
-* AI pair programming and LLM chats in Emacs   :ai:
+* AI pair programming and LLM chats in Emacs   :llms:
 :PROPERTIES:
 :DATE:     2025-10-07T14:15:40-07:00
 :DURATION: 1:14:02
@@ -7487,7 +7761,7 @@ exchange-point-and-mark, mark-whole-buffer
   Links to all of my other content and socials:
   https://chrismaiorana.com/links/
 
-* At Last Someone I Can Work With.  His Name is Claude.   :ai:
+* At Last Someone I Can Work With.  His Name is Claude.   :llms:
 :PROPERTIES:
 :DATE:     2025-10-06T05:00:15-07:00
 :DURATION: 1:45
@@ -7500,7 +7774,7 @@ exchange-point-and-mark, mark-whole-buffer
   https://share.google/AASrb7lEm5FA6NpKs (Zed Industries)
   https://youtu.be/XuvKFsktX0Q?si=5qSxRD6xg7tYXNwX (Anthropic)
 
-* Emacs RAG with LibSQL - Enabling semantic search of org-mode headings with Claude Code  :ai:org:
+* Emacs RAG with LibSQL - Enabling semantic search of org-mode headings with Claude Code  :llms:org:
 :PROPERTIES:
 :DATE:     2025-10-06T00:46:13-07:00
 :DURATION: 18:57
@@ -7626,7 +7900,7 @@ exchange-point-and-mark, mark-whole-buffer
 
   Tangled git repo: https://tangled.org/@nicferrier.bsky.social/nic-emacs-treesitter-stuff/
 
-* Emacs. Your Customizable AI Control Center with the llm Package  :ai:llm:
+* Emacs. Your Customizable AI Control Center with the llm Package  :llms:llm:
 :PROPERTIES:
 :DATE:     2025-09-25T18:22:39-07:00
 :DURATION: 2:09
@@ -7654,7 +7928,7 @@ exchange-point-and-mark, mark-whole-buffer
   • The power of Org Babel: updating a policies with a simple C-c C-c.
   • Using the built-in IAM Policy Simulator to test permissions.
 
-* Emacs + GPTel: A Scientist's AI Notebook  :ai:gptel:
+* Emacs + GPTel: A Scientist's AI Notebook  :llms:gptel:
 :PROPERTIES:
 :DATE:     2025-09-23T06:21:26-07:00
 :DURATION: 14:43
@@ -7689,7 +7963,7 @@ exchange-point-and-mark, mark-whole-buffer
   Or can donate straight to my PayPal
   https://paypal.me/ardiemejia83
 
-* Studying Strategy (in Emacs (for writing an OS))  :ai:
+* Studying Strategy (in Emacs (for writing an OS))  :llms:
 :PROPERTIES:
 :DATE:     2025-09-21T08:03:46-07:00
 :DURATION: 44:29
@@ -7767,7 +8041,7 @@ exchange-point-and-mark, mark-whole-buffer
 
   Your support is very much appreciated. Thanks, guys!
 
-* An electronic notebook with Emacs + gptel + mcp and claude-light  :ai:gptel:mcp:ClaudeLight:
+* An electronic notebook with Emacs + gptel + mcp and claude-light  :llms:gptel:mcp:ClaudeLight:
 :PROPERTIES:
 :DATE:     2025-09-19T08:02:21-07:00
 :DURATION: 17:34
@@ -8286,7 +8560,7 @@ exchange-point-and-mark, mark-whole-buffer
   - "Get NerdFonts" application: https://github.com/getnf/getnf
   - Ronnie's website: https://ronnienissan.pages.dev/
   - Prot's "Freedom within robust constraints": https://protesilaos.com/commentary/2025-08-23-freedom-robust-constraints/
-* S1E8: Show And Tell: Efrit: When Steve Gives Claude Full Access To 50 Years of Emacs Capabilities :ai:
+* S1E8: Show And Tell: Efrit: When Steve Gives Claude Full Access To 50 Years of Emacs Capabilities :llms:
 :PROPERTIES:
 :DATE:     2025-08-24T17:46:18-07:00
 :DURATION: 40:14
@@ -8323,7 +8597,7 @@ exchange-point-and-mark, mark-whole-buffer
   36:18 Show and Tell: Integration Test Results
   38:52 Conclusion and Future Plans
 
-* Wiring Claude Code Into Emacs - System Crafters Live!  :ai:
+* Wiring Claude Code Into Emacs - System Crafters Live!  :llms:
 :PROPERTIES:
 :DATE:     2025-08-22T22:07:44-07:00
 :DURATION: 1:45:40
@@ -9474,7 +9748,7 @@ exchange-point-and-mark, mark-whole-buffer
   https://www.youtube.com/@rhhen122
   https://rhhen.xyz/
 
-* The Most Simple Emacs Mode to Interact With OpenAI/ChatGPT API  | lesson 11  :ai:
+* The Most Simple Emacs Mode to Interact With OpenAI/ChatGPT API  | lesson 11  :llms:
 :PROPERTIES:
 :DATE:     2025-07-10T06:27:50-07:00
 :DURATION: 16:57
@@ -10096,7 +10370,7 @@ exchange-point-and-mark, mark-whole-buffer
   Álvaro Ramírez spoke about his Emacs Lisp package, chatgpt-shell.xel, which integrates ChatGPT, Gemini, Claude, LLAMA, etc. into Emacs.  Álvaro joined us via video from London.
 
   Álvaro is a software engineer who contributes to many Emacs packages.
-* The Emacs Org-Ai Package: Three Key Features #ai #chatgpt #dalle3  :org:ai:
+* The Emacs Org-Ai Package: Three Key Features #ai #chatgpt #dalle3  :org:llms:
 :PROPERTIES:
 :DATE:     2025-06-11T09:47:38-07:00
 :DURATION: 4:37
@@ -10234,7 +10508,7 @@ exchange-point-and-mark, mark-whole-buffer
 
   Hope it was helpful! thanks for watching!
 
-* Agentic LLM use in Emacs using Model Context Protocol (MCP)  :ai:
+* Agentic LLM use in Emacs using Model Context Protocol (MCP)  :llms:
 :PROPERTIES:
 :DATE:     2025-05-31T13:18:08-07:00
 :DURATION: 46:55
@@ -10280,7 +10554,7 @@ exchange-point-and-mark, mark-whole-buffer
   1. What is your setup??? 👉👉👉 https://bardman.dev/technology/gallery
   2. DOTFILES???? 👉👉👉 https://github.com/BardofSprites/dotfiles-stow
 
-* Time To Format Chat Interactions With Markdown Mode - Emacs Lisp | lesson 09  :ai:markdown:
+* Time To Format Chat Interactions With Markdown Mode - Emacs Lisp | lesson 09  :llms:markdown:
 :PROPERTIES:
 :DATE:     2025-05-28T20:46:48-07:00
 :DURATION: 9:42
@@ -10317,7 +10591,7 @@ exchange-point-and-mark, mark-whole-buffer
 
   It can help if you know a little bit of Emacs Lisp, but this is not a requirement as we'll meticulously write, review, and comment on each line of code. 📝
 
-* Making the Prompt Dynamic in Requests to OpenAI Chat Completion API - Emacs Lisp | lesson 08  :ai:
+* Making the Prompt Dynamic in Requests to OpenAI Chat Completion API - Emacs Lisp | lesson 08  :llms:
 :PROPERTIES:
 :DATE:     2025-05-26T19:51:53-07:00
 :DURATION: 8:32
@@ -10354,7 +10628,7 @@ exchange-point-and-mark, mark-whole-buffer
 
   It can help if you know a little bit of Emacs Lisp, but this is not a requirement as we'll meticulously write, review, and comment on each line of code. 📝
 
-* Refactoring chatgpt.el - Emacs Lisp | lesson 07  :ai:
+* Refactoring chatgpt.el - Emacs Lisp | lesson 07  :llms:
 :PROPERTIES:
 :DATE:     2025-05-24T08:35:08-07:00
 :DURATION: 6:03
@@ -10390,7 +10664,7 @@ exchange-point-and-mark, mark-whole-buffer
 
   It can help if you know a little bit of Emacs Lisp, but this is not a requirement as we'll meticulously write, review, and comment on each line of code. 📝
 
-* 021 Ollama Buddy - Using a vision model to extract some text #emacs #ollama  :ai:
+* 021 Ollama Buddy - Using a vision model to extract some text #emacs #ollama  :llms:
 :PROPERTIES:
 :DATE:     2025-05-24T06:22:35-07:00
 :DURATION: 2:42
@@ -10410,7 +10684,7 @@ exchange-point-and-mark, mark-whole-buffer
 
   ,#emacs #ollama
 
-* 019 Ollama Buddy - First Steps into User System Prompt Management #emacs #ollama  :ai:
+* 019 Ollama Buddy - First Steps into User System Prompt Management #emacs #ollama  :llms:
 :PROPERTIES:
 :DATE:     2025-05-24T05:45:20-07:00
 :DURATION: 3:18
@@ -10480,7 +10754,7 @@ exchange-point-and-mark, mark-whole-buffer
   If you enjoy my videos please send me a donation via PayPal:
   https://paypal.me/revrari
 
-* Emacs AIPlus --  Blee enhancements to aidermacs and gptel.  :ai:
+* Emacs AIPlus --  Blee enhancements to aidermacs and gptel.  :llms:
 :PROPERTIES:
 :DATE:     2025-05-22T16:01:56-07:00
 :DURATION: 6:44
@@ -10622,7 +10896,7 @@ exchange-point-and-mark, mark-whole-buffer
   51:55 tabs - https://github.com/agzam/.doom.d/blob/main/modules/custom/tab-bar/autoload.el#L46
   55:25 - extending existing transients
 
-* Trying to make ChatGPT control a turtle to paint a box by hooking it up to emacs via gptel  :ai:gptel:
+* Trying to make ChatGPT control a turtle to paint a box by hooking it up to emacs via gptel  :llms:gptel:
 :PROPERTIES:
 :DATE:     2025-05-16T10:24:23-07:00
 :DURATION: 1:35
@@ -11107,7 +11381,7 @@ exchange-point-and-mark, mark-whole-buffer
   3JToybg7LHAdsteTYGg7jRniRZEMCeTasj
 
   Follow me on X: https://x.com/GnarledGrip
-* Make Your First Request to OpenAI/ChatGPT From Emacs Lisp | lesson 06  :ai:
+* Make Your First Request to OpenAI/ChatGPT From Emacs Lisp | lesson 06  :llms:
 :PROPERTIES:
 :DATE:     2025-04-22T02:04:52-07:00
 :DURATION: 8:30
@@ -12634,7 +12908,7 @@ exchange-point-and-mark, mark-whole-buffer
   --
   Realizacja @polskagrupauzytkownikowlin4475 i @norbertlangner3684
 
-* What AI chat I currently use in emacs  :ai:
+* What AI chat I currently use in emacs  :llms:
 :PROPERTIES:
 :DATE:     2025-03-07T06:03:07-08:00
 :DURATION: 5:12
@@ -12649,7 +12923,7 @@ exchange-point-and-mark, mark-whole-buffer
 
   about: https://benjamin-schwerdtner.de/about.html
 
-* Aidermacs in Action: Emacs AI Pair Programming w/ Aider & Ediff  :ai:
+* Aidermacs in Action: Emacs AI Pair Programming w/ Aider & Ediff  :llms:
 :PROPERTIES:
 :DATE:     2025-03-07T00:38:44-08:00
 :DURATION: 2:11
@@ -12987,7 +13261,7 @@ exchange-point-and-mark, mark-whole-buffer
   Or you can send me some Bitcoin:
   3JToybg7LHAdsteTYGg7jRniRZEMCeTasj
 
-* RAGmacs - Pt. 2: Re-Tooling Emacs With GPTel  :ai:gptel:
+* RAGmacs - Pt. 2: Re-Tooling Emacs With GPTel  :llms:gptel:
 :PROPERTIES:
 :DATE:     2025-02-22T06:29:57-08:00
 :DURATION: 9:32
@@ -13044,7 +13318,7 @@ exchange-point-and-mark, mark-whole-buffer
 
   https://tgcg.xyz/posts/blogging-with-emacs
 
-* Vibe coding in Emacs   :ai:
+* Vibe coding in Emacs   :llms:
 :PROPERTIES:
 :DATE:     2025-02-21T07:18:54-08:00
 :DURATION: 13:12
@@ -13053,7 +13327,7 @@ exchange-point-and-mark, mark-whole-buffer
 :END:
   Vibe coding (https://x.com/karpathy/status/1886192184808149383), or writing code from prompts to LLMs, is a feature of many new editors like VS Code, Cursor, etc. In this video I explore the ideas using Emacs, whisper, and gptel. It is still a little rough but pretty reasonable.
 
-* The ChatGPT Shell Package #emacs #ai #coding #programming #openai #llama   :ai:ChatGPTShell:
+* The ChatGPT Shell Package #emacs #ai #coding #programming #openai #llama   :llms:ChatGPTShell:
 :PROPERTIES:
 :DATE:     2025-02-20T14:00:05-08:00
 :DURATION: 8:24
@@ -13147,7 +13421,7 @@ exchange-point-and-mark, mark-whole-buffer
   Spacemacs: https://www.spacemacs.org/
   Kickstarter: https://gitlab.com/dvrbs/kickstart-emacs
 
-* Using ChatGPT via gptel to make my Emacs nutrition tracker smarter  :ai:gptel:
+* Using ChatGPT via gptel to make my Emacs nutrition tracker smarter  :llms:gptel:
 :PROPERTIES:
 :DATE:     2025-02-16T00:48:43-08:00
 :DURATION: 5:58
@@ -13163,7 +13437,7 @@ exchange-point-and-mark, mark-whole-buffer
   [1]: https://iocanel.com/2020/04/nutrition-tracking-using-emacs/
   [2]: https://gist.github.com/iocanel/0b8bcdb3d69fb7731069cb872f836507
 
-* Emacs Lisp Live Code | quick gemini API integrration  :elisp:ai:
+* Emacs Lisp Live Code | quick gemini API integrration  :elisp:llms:
 :PROPERTIES:
 :DATE:     2025-02-15T23:42:47-08:00
 :DURATION: 35:57
@@ -13246,7 +13520,7 @@ exchange-point-and-mark, mark-whole-buffer
 
   https://mega.nz/folder/enhUzYDK#ZUPHW0-8edaSCtBdgKO_ZQ
 
-* RAGmacs - Pt. 1: Retrieving Deep Value in Emacs   :ai:
+* RAGmacs - Pt. 1: Retrieving Deep Value in Emacs   :llms:
 :PROPERTIES:
 :DATE:     2025-02-08T20:53:38-08:00
 :DURATION: 9:42
@@ -13279,7 +13553,7 @@ exchange-point-and-mark, mark-whole-buffer
   05:27 Not Even the Best Available
   06:22 Why This is Huge
 
-* The Augmented Software Engineer - Ep.15 - Emacs/Local  :ai:
+* The Augmented Software Engineer - Ep.15 - Emacs/Local  :llms:
 :PROPERTIES:
 :DATE:     2025-02-08T19:45:11-08:00
 :DURATION: 2:25
@@ -13781,7 +14055,7 @@ exchange-point-and-mark, mark-whole-buffer
 
   Video notes:  https://thanosapollo.org/posts/emacs-shells-video/
 
-* Clojure visual-tools 30 - Workflow Demos 4: LLMs in Emacs for Clojure  :clojure:llm:ai:coding:dev:
+* Clojure visual-tools 30 - Workflow Demos 4: LLMs in Emacs for Clojure  :clojure:llm:llms:coding:dev:
 :PROPERTIES:
 :DATE:     2025-01-24T15:29:38-08:00
 :DURATION: 1:39:50
@@ -14084,7 +14358,7 @@ exchange-point-and-mark, mark-whole-buffer
 
   Unfortunately, youtube won't let me give hyperlinks, sorry!
 
-* Use LLMs to Read and Summarize GitHub Notifications inside Emacs   :ai:llm:gptel:
+* Use LLMs to Read and Summarize GitHub Notifications inside Emacs   :llms:llm:gptel:
 :PROPERTIES:
 :DATE:     2025-01-18T12:04:43-08:00
 :DURATION: 2:20
@@ -14656,7 +14930,7 @@ exchange-point-and-mark, mark-whole-buffer
   http://anggtwu.net/2024-piano-roll-macros.html
   (in a few hours!)
 
-* Demonstration of using Large Language Model (LLM) within GNU Emacs  :ai:llm:
+* Demonstration of using Large Language Model (LLM) within GNU Emacs  :llms:llm:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=bhrPyMvKJfw
 :DATE:     2024-12-29T11:51:11-08:00
@@ -14892,7 +15166,7 @@ exchange-point-and-mark, mark-whole-buffer
   rhasspy/piper: A fast, local neural text to speech system
   https://github.com/rhasspy/piper?tab=readme-ov-file
 
-* LLM  Qwen Demonstration within GNU Emacs, free software, Apache 2.0.  :ai:llm:
+* LLM  Qwen Demonstration within GNU Emacs, free software, Apache 2.0.  :llms:llm:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=XrK-X7LZ6aE
 :DATE:     2024-12-24T11:00:30-08:00
@@ -14928,7 +15202,7 @@ exchange-point-and-mark, mark-whole-buffer
   Exact LLM model used:
   https://huggingface.co/prithivMLmods/QwQ-LCoT-3B-Instruct-GGUF
 
-* Daily DKR Report mp4 - Dynamic Knowledge Repository  :ai:llm:
+* Daily DKR Report mp4 - Dynamic Knowledge Repository  :llms:llm:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=GvRdD_PA5JA
 :DATE:     2024-12-23T14:34:04-08:00
@@ -14963,7 +15237,7 @@ exchange-point-and-mark, mark-whole-buffer
   Groq
   https://groq.com
 
-* Making of LLM Dashboard in GNU Emacs mp4   :ai:llm:
+* Making of LLM Dashboard in GNU Emacs mp4   :llms:llm:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=XoafZPYrTIg
 :DATE:     2024-12-23T14:15:29-08:00
@@ -15003,7 +15277,7 @@ exchange-point-and-mark, mark-whole-buffer
   GNU Emacs Packages @ gnu.support:
   https://gnu.support/gnu-emacs/packages/index.html
 
-* Demo of LLM Rocket 3B on GNU Emacs mp4   :ai:llm:
+* Demo of LLM Rocket 3B on GNU Emacs mp4   :llms:llm:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=JDZKRebV-lg
 :DATE:     2024-12-23T14:02:21-08:00
@@ -15083,7 +15357,7 @@ exchange-point-and-mark, mark-whole-buffer
 
   This is short demonstration on how quickly it can access native PostgreSQL database tables.
 
-* Integration of LLM with GNU Emacs   :llm:ai:
+* Integration of LLM with GNU Emacs   :llm:llms:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=zWnyIP-dtJ4
 :DATE:     2024-12-23T08:31:24-08:00
@@ -15264,7 +15538,7 @@ exchange-point-and-mark, mark-whole-buffer
 
   nognome_notifications
   https://github.com/NapoleonWils0n/ubuntu-root/blob/master/usr/local/bin/nognome_notifications
-* litdb and Emacs  :research:ai:
+* litdb and Emacs  :research:llms:
 :PROPERTIES:
 :URL:      https://github.com/jkitchin/litdb
 :YOUTUBE_URL: https://www.youtube.com/watch?v=ZkKKuvVUWkE
@@ -17942,7 +18216,7 @@ count-words-region
 
   Goodreads: https://goodreads.com/unixbhaskar
 
-* Integrando AI con mi herramienta de trabajo preferida: Google Gemini, Emacs Lisp y GNU/Linux!!  :ai:
+* Integrando AI con mi herramienta de trabajo preferida: Google Gemini, Emacs Lisp y GNU/Linux!!  :llms:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=32hRTNTgBY8
 :DATE:     2024-09-29T10:14:54+0000
@@ -17966,7 +18240,7 @@ count-words-region
 
   Thanks for tuning in and do let me know in the comments if your experience was actually sped up.
 
-* Adding Artificial Intelligence To Emacs  :ai:ellama:
+* Adding Artificial Intelligence To Emacs  :llms:ellama:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=SAi7X2XSD7k
 :DATE:     2024-09-24T13:00:27+0000
@@ -18013,7 +18287,7 @@ count-words-region
 
   In this emacs distro, I've grouped functionality into hydra panels, which gives emacs an easy to use UI.
 
-* LLM Function Calling for Emacs: Name Generation  :ai:llm:fun:
+* LLM Function Calling for Emacs: Name Generation  :llms:llm:fun:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=e7gBY6wCdxQ
 :DATE:     2024-09-21T21:50:54+0000
@@ -19311,7 +19585,7 @@ count-words-region
   27:58 Other videos you should check out
   29:22 Conclusion
 
-* ELISA  :ai:ellama:llm:
+* ELISA  :llms:ellama:llm:
 :PROPERTIES:
 :DATE:     2024-02-23T16:16:44+00:00
 :DURATION: 1:13
@@ -19675,7 +19949,7 @@ count-words-region
 
   #Emacs #IDE #Programming #SoftwareDevelopment #GNU #GNUEmacs
 
-* ellama  :ai:llm:ellama:
+* ellama  :llms:llm:ellama:
 :PROPERTIES:
 :DATE:     2024-01-21T15:33:39+00:00
 :DURATION: 2:15
@@ -20027,7 +20301,7 @@ count-words-region
 :END:
   See http://anggtwu.net/emacsconf2023.html
 
-* Every LLM in Emacs, with gptel  :ai:llm:gptel:
+* Every LLM in Emacs, with gptel  :llms:llm:gptel:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=bsRnh_brggM
 :DATE:     2023-12-25T04:00:36-08:00
@@ -20190,7 +20464,7 @@ count-words-region
   + Mailing list: https://lists.sr.ht/~protesilaos/dotfiles
   + Backronym: Do Observe, Transpose, Examine, or Mirror All Configurations, Stranger (dotemacs); Dotfiles Operate Transparently For the Included Linux and Emacs Setups (dotfiles).
 
-* Semantic completing read in #Emacs   :completion:llm:ai:
+* Semantic completing read in #Emacs   :completion:llm:llms:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=bB7rywlahSc&list=PL0sMmOaE_gs3E0OjExoI7vlCAVygj6S4I&index=8&pp=iAQB
 :DATE:     2023-12-16T06:19:19-08:00
@@ -20246,7 +20520,7 @@ count-words-region
 
   Find all my publications on my website (Emacs, philosophy, Linux, etc.): https://protesilaos.com
 
-* LLMs and searching bibtex entries  :llm:ai:search:bibtex:
+* LLMs and searching bibtex entries  :llm:llms:search:bibtex:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=8YXc1s5-TdM&list=PL0sMmOaE_gs3E0OjExoI7vlCAVygj6S4I&index=9&pp=iAQB
 :DATE:     2023-12-12T12:44:43-08:00
@@ -21076,7 +21350,7 @@ count-words-region
 :SPEAKERS: Andrew Hyatt
 :SERIES: EmacsConf 2023
 :END:
-* LLM clients in Emacs, functionality and standardization  :emacsconf:emacsconf2023:ai:llm:
+* LLM clients in Emacs, functionality and standardization  :emacsconf:emacsconf2023:llms:llm:
 :PROPERTIES:
 :DATE:     2023-12-02T15:55:00+0000
 :URL: https://emacsconf.org/2023/talks/llm
@@ -21148,7 +21422,7 @@ count-words-region
 :SERIES: EmacsConf 2023
 :DURATION: 19:27
 :END:
-* MatplotLLM, iterative natural language data visualization in org-babel  :emacsconf:emacsconf2023:math:ai:org:OrgBabel:
+* MatplotLLM, iterative natural language data visualization in org-babel  :emacsconf:emacsconf2023:math:llms:org:OrgBabel:
 :PROPERTIES:
 :DATE:     2023-12-02T15:00:00+0000
 :URL: https://emacsconf.org/2023/talks/matplotllm
@@ -21264,7 +21538,7 @@ count-words-region
 
   Find all my publications on my website (Emacs, philosophy, Linux, etc.): https://protesilaos.com
 
-* Emacs as a Lean IDE (No LSP/Eglot)  :coding:projectile:dumbjump:corfu:navigation:devdocs:ai:chatgpt:gpt:
+* Emacs as a Lean IDE (No LSP/Eglot)  :coding:projectile:dumbjump:corfu:navigation:devdocs:llms:chatgpt:gpt:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=gu3mFS_HX7w&list=PL3kg5TcOuFlo36D8Sfyum_p8t9NN4e18I&index=1&pp=iAQB
 :DATE:     2023-11-21T22:00:27-08:00
@@ -25141,7 +25415,7 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
 :END:
   In this video, I'll show you how you can get dynamically numbered headings in your org mode documents.  Just wait and see all you can do now. Try it yourself today.
 
-* Control Emacs with ChatGPT                                         :gpt:ai:
+* Control Emacs with ChatGPT                                         :gpt:llms:
 :PROPERTIES:
 :YOUTUBE_URL: https://youtu.be/DYeh7_FdmDg
 :DATE:     2023-04-17T14:00:08+0000
@@ -25270,7 +25544,7 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
   5. Youtube: https://youtube.com/ravisagar1
   ####
 
-* Boost your Emacs productivity with ChatGPT and Copilot             :gpt:ai:
+* Boost your Emacs productivity with ChatGPT and Copilot             :gpt:llms:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=H8jvhz0CGzU
 :DATE:     2023-04-13T19:20:54+0000
@@ -25462,7 +25736,7 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
   5. Youtube: https://youtube.com/ravisagar1
   ####
 
-* Crafting the Future: AI Assistants in Emacs - System Crafters Live! :gpt:ai:
+* Crafting the Future: AI Assistants in Emacs - System Crafters Live! :gpt:llms:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=JImYEdqVQR8
 :DATE:     2023-04-01T05:16:45+0000
@@ -25594,7 +25868,7 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
   - https://www.youtube.com/c/ProtesilaosStavrou :: Canal de Protesilaos.
   - https://www.youtube.com/watch?v=0qHloGTT8XE&pp=ugMICgJlcxABGAE%3D :: Video de Jake B con el setupfile señalado.
 
-* Turn Emacs into your personal AI assistant with org-ai             :ai:org:
+* Turn Emacs into your personal AI assistant with org-ai             :llms:org:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=fvBDxiFPG6I&feature=youtu.be
 :DATE:     2023-03-30T14:33:33+0000
@@ -25777,7 +26051,7 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
 :END:
   An short overview of what file you need to access to establish your packages for Emacs
 
-* Python in Emacs 0079 - How to use ChatGPT in Python / Emacs code development? :python:gpt:ai:
+* Python in Emacs 0079 - How to use ChatGPT in Python / Emacs code development? :python:gpt:llms:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=fXaJ3IcimOc
 :DATE:     2023-03-18T07:59:16+0000
@@ -26159,7 +26433,7 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
 :END:
   This is a demo of an alpha version of Captee, a macOS app to share links and content to Emacs via the Share menu.
 
-* ChatGPT inside Emacs                                               :gpt:ai:
+* ChatGPT inside Emacs                                               :gpt:llms:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=SL-nNOjqoxg
 :DATE:     2023-03-06T15:22:58+0000
@@ -26498,7 +26772,7 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
 
   https://kitchingroup.cheme.cmu.edu/blog/2023/02/25/MS-Word-comments-from-org-mode/
 
-* emacs + whisper + chatgpt rewrite text                             :gpt:ai:
+* emacs + whisper + chatgpt rewrite text                             :gpt:llms:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=4Jyhs6SfFl0
 :DATE:     2023-02-25T14:27:49+0000
@@ -26507,7 +26781,7 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
 :END:
 
 
-* emacs + whisper + chatgpt - refactor code                          :gpt:ai:
+* emacs + whisper + chatgpt - refactor code                          :gpt:llms:
 :PROPERTIES:
 :YOUTUBE_URL: https://www.youtube.com/watch?v=uWJ8-JU0aXY
 :DATE:     2023-02-25T12:34:36+0000
@@ -27698,7 +27972,7 @@ I’ve messed with Kakoune a bit and think I’ll make a follow up about taking 
 :END:
 
 
-* I Made a ChatGPT Like Client For Emacs - AND SO CAN YOU!!          :gpt:ai:
+* I Made a ChatGPT Like Client For Emacs - AND SO CAN YOU!!          :gpt:llms:
 :PROPERTIES:
 :YOUTUBE_URL: https://youtu.be/EgVfurJUdFo
 :DATE:     2022-12-28T17:00:08+0000
