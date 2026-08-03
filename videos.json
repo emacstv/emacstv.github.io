@@ -1,5 +1,146 @@
 [
   {
+    "ITEM": "How to Turn on Word Wrap in Emacs",
+    "DATE": "2026-08-02T05:15:11-07:00",
+    "DURATION": "1:28",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=IVUvlgl9axM",
+    "SPEAKERS": "Timothy Unkert",
+    "TAGS": [
+      "writing"
+    ],
+    "BODY": "In this video, I show you how to turn on the built in word wrap in Emacs with \"visual-line-mode\" which can be accessed with the command:\n\n  M-x visual-line-mode"
+  },
+  {
+    "ITEM": "[03] Emacs Projects, Org Capture, and My Workflow with Prot",
+    "DATE": "2026-08-01T14:29:09-07:00",
+    "DURATION": "2:00:05",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=WQbXKvBT8HY",
+    "SPEAKERS": "linkarzu",
+    "TAGS": [
+      "org"
+    ],
+    "BODY": "In this coaching session with Prot, we'll continue building my Emacs workflow around the things I actually need to do every day.\n\n  In previous streams, we installed Emacs, started editing files and modifying the configuration from within Emacs, and installed our first packages. This time, we'll look at how Emacs projects can match the project-based Kitty sessions I use today, how to quickly find files inside a project, and how to start working with Org mode.\n\n  We'll also discuss fast note capture, daily notes, linking notes together, buffers, and the bigger question: why should I use Emacs at all if my current Neovim and Kitty workflow already works? Prot responded to my video with a detailed post explaining the built-in Emacs features and the value of learning the fundamentals one step at a time.\n\n  Rest of the coaching sessions can be found in this playlist \"The Church Of Prot\":\n  https://www.youtube.com/playlist?list=PLAQyC0yzWlG8\n\n  My video for Prot, explaining the workflow I want to build:\n  https://www.youtube.com/watch?v=hWn8xdWP2eo\n\n  Prot's response to that video:\n  https://protesilaos.com/codelog/2026-07-31-re-linkarzu-what-i-need-from-emacs/\n\n  READ THIS BLOG POST:\n  How to use text to speech (TTS)?\n  Why are there 2 livestreams?\n  All the answers to these questions and more stream info here:\n  https://linkarzu.com/posts/news/streaming-info/\n\n  Support me:\n\n  Buy me the Switch 2:\n  https://ko-fi.com/linkarzu\n\n  Join the YouTube Members:\n  https://www.youtube.com/channel/UCrSIvbFncPSlK6AdwE2QboA/join\n\n  My Merch Store:\n  https://merch.linkarzu.com\n\n  My Dotfiles:\n  https://github.com/linkarzu/dotfiles-latest\n\n  Follow me on X:\n  https://x.com/link_arzu"
+  },
+  {
+    "ITEM": "Emacs with Prot: Org Mode Basics Before Projects and Capture",
+    "DATE": "2026-08-01T05:04:26-07:00",
+    "DURATION": "21:16",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=r9ffYHsYdrA",
+    "SPEAKERS": "linkarzu",
+    "TAGS": [
+      "org"
+    ],
+    "BODY": "Org mode can do a million things, but you do not need a complicated setup to get started. In this coaching-session highlight, Protesilaos explains the beginner-friendly foundation: TODO and DONE states, scheduled tasks, and an agenda that surfaces time-sensitive work when it matters.\n\n  We configure an Org directory, create real tasks for the next coaching session, schedule them, view the weekly and two-week agenda, and mark work complete. Prot also explains why Org headings are more than plain text and shares how he organizes meetings and other tasks in separate files.\n\n  Christian (linkarzu) works through the setup as a beginner, while Protesilaos guides the workflow and keeps the focus on practical fundamentals instead of over-engineering.\n\n  This clip is from a livestream:\n  https://youtube.com/live/Crp2e5D_Q78\n\n  Chapters:\n  0:00 Start simple with Org mode\n  0:38 Why use Org instead of Markdown?\n  1:48 Configure Org agenda files\n  6:15 Create a TODO task\n  7:16 Schedule a task with Org\n  10:46 How Prot organizes tasks\n  12:42 Open the Org agenda\n  15:27 Weekly and two-week agenda views\n  17:25 Mark a task as done\n  20:20 The simple Org workflow\n\n  READ THIS BLOG POST:\n  How to use text to speech (TTS)?\n  Why are there 2 livestreams?\n  All the answers to these questions and more stream info here:\n  https://linkarzu.com/posts/news/streaming-info/\n\n  Support me:\n\n  Buy me the Switch 2:\n  https://ko-fi.com/linkarzu\n\n  Join the YouTube Members:\n  https://www.youtube.com/channel/UCrSIvbFncPSlK6AdwE2QboA/join\n\n  My Merch Store:\n  https://merch.linkarzu.com\n\n  My Dotfiles:\n  https://github.com/linkarzu/dotfiles-latest\n\n  Follow me on X:\n  https://x.com/link_arzu\n\n  Search terms:\n  Emacs Org mode basics\n  Org mode beginner tutorial\n  Emacs task management\n  Org agenda tutorial\n  Org TODO and DONE\n  schedule tasks in Org mode\n  Emacs agenda workflow\n  Org mode vs Markdown\n  Emacs coaching with Protesilaos\n  Protesilaos Org mode\n  Emacs productivity workflow\n  Emacs scheduled tasks\n  Org mode headings\n  Emacs beginner setup\n  simple Org mode workflow\n  Emacs project and capture preparation\n\n  ,#emacs #orgmode #protesilaos #productivity #opensource #linux"
+  },
+  {
+    "ITEM": "Rewriting my Emacs config",
+    "DATE": "2026-07-31T04:54:37-07:00",
+    "DURATION": "3:39:30",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=Lp7am2QGCJM",
+    "SPEAKERS": "Jon Kishore",
+    "TAGS": [
+      "configuration"
+    ],
+    "BODY": ""
+  },
+  {
+    "ITEM": "What I Need From Emacs: A Video for Prot",
+    "DATE": "2026-07-31T04:00:26-07:00",
+    "DURATION": "16:48",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=hWn8xdWP2eo",
+    "SPEAKERS": "linkarzu",
+    "TAGS": [
+      "org",
+      "navigation"
+    ],
+    "BODY": "This is a video for Prot about the Emacs workflow I want to build over the coming weeks. The problem is not Evil mode or memorizing keybindings: it is reducing the friction between how I already work and how I want to work in Emacs.\n\n  I explain my project-based terminal sessions, fast file search, per-project buffers, daily-note capture, and linked notes. The goal is to find an Emacs workflow that lets me move quickly between GitHub repos, capture thoughts without ceremony, and keep related work isolated. Eren also makes a brief appearance to remind me that not opening Emacs for two weeks is dishonoring my family.\n\n  Originally discussed on livestream:\n  https://youtube.com/live/7futQJBLB1g\n\n  Chapters:\n  0:00 What I need from Emacs\n  0:50 Why Evil mode is not the problem\n  1:54 Editor instructions and the session insert\n  2:30 Why I use Kitty sessions\n  6:33 The project-based Emacs workflow I want\n  7:38 Fast, project-scoped file search\n  9:36 Per-session buffers and workspaces\n  11:14 Daily notes and quick capture\n  14:25 Linking notes together\n  16:27 What I want to learn next\n\n  READ THIS BLOG POST:\n  How to use text to speech (TTS)?\n  Why are there 2 livestreams?\n  All the answers to these questions and more stream info here:\n  https://linkarzu.com/posts/news/streaming-info/\n\n  Support me:\n\n  Buy me the Switch 2:\n  https://ko-fi.com/linkarzu\n\n  Join the YouTube Members:\n  https://www.youtube.com/channel/UCrSIvbFncPSlK6AdwE2QboA/join\n\n  My Merch Store:\n  https://merch.linkarzu.com\n\n  My Dotfiles:\n  https://github.com/linkarzu/dotfiles-latest\n\n  Follow me on X:\n  https://x.com/link_arzu\n\n  Search terms:\n  Emacs workflow\n  Emacs project workflow\n  Emacs sessions\n  Emacs workspaces\n  Emacs file picker\n  Emacs buffer management\n  Emacs daily notes\n  Org mode daily notes\n  Org mode note linking\n  Kitty sessions\n  tmux alternative\n  Neovim to Emacs workflow\n  Emacs friction\n  per-project buffers\n  GitHub repo workflow\n\n  ,#emacs #orgmode #neovim #kittyterminal #productivity #linux"
+  },
+  {
+    "ITEM": "My Dotfiles Are an Org File | Dotfile Management with Emacs",
+    "DATE": "2026-07-30T07:03:24-07:00",
+    "DURATION": "2:37",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=7xzqrmoU9dk",
+    "SPEAKERS": "anitamaxcode",
+    "TAGS": [
+      "configuration"
+    ],
+    "BODY": "Reference:\n\n  My personal emacs configuration:\n  https://github.com/cashmeredev/emacs\n\n  Notes referenced:\n  https://gist.github.com/cashmeredev/e3b964c80297c568af063ce3af5b9646"
+  },
+  {
+    "ITEM": "Emacs: default minibuffer completions overview (Emacs 31)",
+    "DATE": "2026-07-29T13:25:33-07:00",
+    "DURATION": "30:55",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=yH0Gan6xMTo",
+    "SPEAKERS": "Protesilaos",
+    "TAGS": [
+      "completion"
+    ],
+    "BODY": "In this video I provide an overview of the default interface for minibuffer completions in Emacs. This is an interface that has been improved considerably over the years. In Emacs version 31, this interface gets some nice new features which make it even more appealing to use. Here is the article with all the notes I have and the code samples I showed: https://protesilaos.com/codelog/2026-07-29-emacs-default-minibuffer-completion-overview/"
+  },
+  {
+    "ITEM": "Hyperbole Implicit Buttons: Build your Hyperverse",
+    "DATE": "2026-07-28T18:38:06-07:00",
+    "DURATION": "34:20",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=o2KMvSCXwlU",
+    "SPEAKERS": "Charlie Holland (Baker)",
+    "TAGS": [
+      "hyperbole"
+    ],
+    "BODY": "This video covers Hyperbole's most elegant primitive:  Implicit Buttons.  This is the feature that turns your Emacs into a hyperverse, and allows you to traverse the organic connective tissue that already exists in any text that Emacs can render.  https://www.chiply.dev/post-hyperbole-implicit-buttons\n\n  HyWiki video and blog post: https://www.chiply.dev/post-hyperbole-hywiki\n\n  Timestamps:\n  0:00 Intro\n  5:17 Hyperverse!?!\n  7:00 Demo\n  8:05 WikiWord\n  10:18 Files\n  11:13 Inferred Files\n  12:04 GitHub\n  13:27 URL\n  14:03 Email\n  15:05 More Files\n  16:45 Mickey the Cat\n  17:06 Code Navigation\n  18:26 Why Hyperbole?\n  19:19 Man\n  19:45 Info\n  20:28 Stacktraces\n  21:29 Testing\n  22:20 About Reflexes\n  22:50 Commits\n  23:50 Docs\n  25:00 Table of Contents\n  26:15 Keybindings as Buttons\n  27:30 Introspection\n  28:56 Automatic Button Placement\n  30:57 Extending Implicit Buttons\n  32:45 Outro\n\n  ,#emacs #informationtechnology #knowledgemanagement #software #programming"
+  },
+  {
+    "ITEM": "Flash.nvim For Emacs",
+    "DATE": "2026-07-28T10:29:27-07:00",
+    "DURATION": "16:06",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=-j83jMrgOo0",
+    "SPEAKERS": "Jon Kishore",
+    "TAGS": [
+      "navigation"
+    ],
+    "BODY": "https://github.com/Prgebish/flash"
+  },
+  {
+    "ITEM": "Cashmere’s Emacs Workflow: Denote, Org, and Terminal Emacs",
+    "DATE": "2026-07-28T05:20:13-07:00",
+    "DURATION": "19:17",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=2Wqi7jbZoqA",
+    "SPEAKERS": "linkarzu",
+    "TAGS": [
+      "community"
+    ],
+    "BODY": "Many Emacs users will tell you to avoid running Emacs in the terminal. They’ll recommend the GUI because of features like TRAMP, image support, and other graphical capabilities.\n\n  In this livestream clip, Cashmere explains why he thinks that advice is often wrong.\n\n  We discuss the advantages of using terminal Emacs, why it fits naturally into terminal-based workflows, how it compares to the GUI version, and when each approach makes sense. Along the way, we also talk about Denote, note-taking, project organization, vterm, and why simplicity often beats having every graphical feature available.\n\n  If you’re a terminal-first developer, Linux user, macOS power user, or someone curious about trying Emacs without committing to the GUI, this discussion may give you a different perspective.\n\n  This clip comes from the full livestream:\n  https://youtube.com/live/CpAcfTlmVJk\n\n  READ THIS BLOG POST:\n  How to use text to speech (TTS)?\n  Why are there 2 livestreams?\n  All the answers to these questions and more stream info here:\n  https://linkarzu.com/posts/news/streaming-info/\n\n  Support me:\n\n  Buy me the Switch 2:\n  https://ko-fi.com/linkarzu\n\n  Join the YouTube Members:\n  https://www.youtube.com/channel/UCrSIvbFncPSlK6AdwE2QboA/join\n\n  My Merch Store:\n  https://merch.linkarzu.com\n\n  My Dotfiles:\n  https://github.com/linkarzu/dotfiles-latest\n\n  Follow me on X:\n  https://x.com/link_arzu\n\n  0:00 Workflow Preview\n  0:41 Why Terminal Emacs\n  0:57 Creating Denote Notes\n  2:37 Denote Files, Tags & Search\n  4:54 Dynamic Note Views\n  5:47 Org Babel: Executable Notes\n  8:21 Bookmarking Key Files\n  9:24 Project Workspaces\n  11:08 Reading PDFs in Emacs\n  11:57 Emacs Inside the Terminal\n  13:58 Focused Writing & RSS\n  15:09 Fast Buffer Navigation\n  15:52 Cashmere's Kickstart Config\n  17:16 Terminal Config Tradeoffs\n  18:08 Starting with Evil Mode & Doom\n\n  terminal emacs\n  emacs terminal\n  emacs in terminal\n  emacs tty\n  terminal vs gui emacs\n  emacs gui\n  terminal workflow\n  linux terminal\n  denote emacs\n  denote notes\n  org mode emacs\n  org babel\n  executable org files\n  literate programming emacs\n  emacs project workflow\n  emacs bookmarks\n  emacs workspaces\n  emacs pdf reader\n  emacs rss\n  elfeed emacs\n  emacs navigation\n  emacs kickstart\n  doom emacs\n  evil mode emacs\n\n  ,#emacs #terminal #linux #macos #productivity #developer #opensource #vterm #tty #terminalemacs #denote"
+  },
+  {
+    "ITEM": "How to Cancel a Command in Emacs",
+    "DATE": "2026-07-26T07:45:31-07:00",
+    "DURATION": "1:28",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=rNPg3tBMkPo",
+    "SPEAKERS": "Timothy Unkert",
+    "BODY": "In this video, I show you how to cancel a command in Emacs using the command:\n\n  C-g"
+  },
+  {
+    "ITEM": "Rumen's Male Confessions to Prot",
+    "DATE": "2026-07-25T17:19:20-07:00",
+    "DURATION": "11:54",
+    "YOUTUBE_URL": "https://youtu.be/UiHL45zGNAs",
+    "SPEAKERS": "linkarzu",
+    "TAGS": [
+      "community"
+    ],
+    "BODY": "Rumen’s heartfelt “Prot is cheaper than a therapist” declaration turns into a wider conversation about what makes Protesilaos Stavrou’s one-on-one coaching so valuable.\n\n  Rumen and Ted share their experiences learning Emacs with Prot, discussing how he reviews real configurations, explains Emacs buffers and built-in tools, provides practical guidance, and helps build an Emacs workflow without losing the human side of the learning process.\n\n  Prot’s private coaching sessions are live, one-on-one, and tailored to your goals, whether you want help with Emacs, Emacs Lisp, Linux configuration, custom workflows, or broader questions about tools and methodology. Sessions include personalized feedback and can cover everything from learning native Emacs features to improving an existing configuration.\n\n  Learn more about Protesilaos \"Prot\" Stavrou's coaching and tutoring:\n  https://protesilaos.com/coach/\n\n  This clip comes from the full Root Access livestream:\n  https://youtube.com/live/xWIP7IzEVA0\n\n  What is this podcast about, why, and where to find it?\n  https://linkarzu.com/about/#whats-the-linkarzu-ceos-monthly-hangout-podcast\n\n  If you're not a YouTube member yet, you can join here:\n  https://www.youtube.com/channel/UCrSIvbFncPSlK6AdwE2QboA/join\n\n  CEOs\n  Rumen https://webtwothree.com\n  Techieman https://cpnllc.com\n\n  Executive Producers\n  Cashmere https://cashmere.rs\n\n  Support me:\n  Buy me the Switch 2:\n  https://ko-fi.com/linkarzu\n\n  Join the YouTube Members:\n  https://www.youtube.com/channel/UCrSIvbFncPSlK6AdwE2QboA/join\n\n  My Merch Store:\n  https://merch.linkarzu.com\n\n  My Dotfiles:\n  https://github.com/linkarzu/dotfiles-latest\n\n  Follow me on X:\n  https://x.com/link_arzu\n\n  ,#emacs #protesilaos #prot #emacslisp #linux #opensource #productivity #texteditor #libresoftware #programming #developer #rootaccess\n\n  Search terms:\n  - Protesilaos Stavrou\n  - Prot coaching\n  - Protesilaos coaching\n  - Emacs coaching\n  - Emacs tutor\n  - One-on-one Emacs lessons\n  - Emacs Lisp tutoring\n  - Linux coaching\n  - Emacs configuration help\n  - Learn Emacs\n  - Emacs workflow\n  - Native Emacs\n  - Emacs buffers\n  - Emacs productivity\n  - Libre software\n  - Root Access livestream\n  - Rumen\n  - Ted"
+  },
+  {
+    "ITEM": "0015 | New Keyboards, Emacs, Neovim, Catching up",
+    "DATE": "2026-07-24T18:21:41-07:00",
+    "DURATION": "2:11:56",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=xWIP7IzEVA0",
+    "SPEAKERS": "linkarzu",
+    "TAGS": [
+      "community"
+    ],
+    "BODY": "A new member joined in the \"CEO\" level, which means 2 of these group calls a month, in which you can talk about whatever you want to talk about. Your workflow, tools, react to videos, share your youtube channel, your projects, etc, etc. In this livestream we'll get to know Techieman a bit more\n\n  This is transmitted live with everyone, so you can join and chat with us during the call\n\n  What is this podcast about, why, and where to find it?\n  https://linkarzu.com/about/#whats-the-linkarzu-ceos-monthly-hangout-podcast\n\n  If you're not a YouTube member yet, you can join here:\n  https://www.youtube.com/channel/UCrSIvbFncPSlK6AdwE2QboA/join\n\n  CEOs\n  Rumen https://webtwothree.com\n  Techieman https://cpnllc.com\n\n  Executive Producers\n  Cashmere https://cashmere.rs"
+  },
+  {
     "ITEM": "llm-buddy demo: automatic error detection and fixing in Emacs!",
     "DATE": "2026-07-24T12:26:57-07:00",
     "DURATION": "10:26",
