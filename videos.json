@@ -1,5 +1,134 @@
 [
   {
+    "ITEM": "Emacs: conditionally expand abbrev-mode definitions",
+    "DATE": "2026-08-09T08:01:54-07:00",
+    "DURATION": "14:33",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=QzhU6fklc4o",
+    "SPEAKERS": "Protesilaos",
+    "TAGS": [
+      "writing",
+      "abbrev"
+    ],
+    "BODY": "In this ~15-minute video I show how to add conditions to 'abbrev-mode' abbreviations that you define. The idea is to have those abbrevs expand only in certain cases. I use three examples, which I think cover the common needs. The code I used is on my website: https://protesilaos.com/ codelog/2026-08-09-emacs-expand-abbrev-mode-definitions-conditionally/"
+  },
+  {
+    "ITEM": "How to Count Words In Emacs",
+    "DATE": "2026-08-09T05:30:20-07:00",
+    "DURATION": "1:09",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=4kP2PD7AmCI",
+    "SPEAKERS": "Timothy Unkert",
+    "BODY": "In this video, I show you how to count words in Emacs. You can do this with the command:\n\n  M-x count-words\n\n  or the keyboard shortcut:\n  M-="
+  },
+  {
+    "ITEM": "wikimode demo",
+    "DATE": "2026-08-07T15:56:22-07:00",
+    "DURATION": "8:11",
+    "YOUTUBE_URL": "https://youtu.be/_Ksn2YwVfYc?si=cmrYXNoYRimWQ-Yg",
+    "SPEAKERS": "Benjamin Leis",
+    "TAGS": [
+      "org",
+      "markdown"
+    ],
+    "BODY": "Demo of a small package I wrote for navigating sets of markdown and org files similar in style to if they were a small wiki.\n\n  Code is at https://github.com/benleis1/wikimode\n\n  Bonus: the math blog is at mathoffthegrid.net"
+  },
+  {
+    "ITEM": "Dotfiles Season 1 Episode 4: Emacs Configuration",
+    "DATE": "2026-08-06T12:50:23-07:00",
+    "DURATION": "14:30",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=nSOkBmvCev4",
+    "SPEAKERS": "Rehan Daphedar",
+    "TAGS": [
+      "configuration"
+    ],
+    "BODY": "This video has been truncated due to YouTube upload length limits. The full video is available on other platforms at rehandaphedar.com.\n\n  I cover the [Emacs Configuration](https://git.sr.ht/~rehandaphedar/dot/tree/main/item/Emacs.org) from my [dotfiles](https://sr.ht/~rehandaphedar/dot)."
+  },
+  {
+    "ITEM": "User Interface to Computer Applications Demonstrated in GNU Emacs",
+    "DATE": "2026-08-06T09:00:28-07:00",
+    "DURATION": "2:09:31",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=NqinYjlQ8Tk",
+    "SPEAKERS": "Emacs popups vs dropdowns",
+    "BODY": "This series of videos demonstrates an individual's ideas about the\n  user interfaces to computer software.  The claim is made that users\n  could be served better with a more automated display system showing,\n  in real time, both what is available, and what action is necessary\n  to get things done.  A personal system is shown as the demonstration\n  vehicle; this system has been installed in the Emacs text editor for\n  many years.  The target consumers are programmers and system\n  designers, who may find the ideas to be food for thought.\n\n  The video was made in ten sessions, each with a theme.  These\n  sessions are available individually and also as a single aggregate\n  video.  Total run time is two hours and ten minutes.\n\n  https://youtu.be/NqinYjlQ8Tk\n  https://youtu.be/BJ060oT9ntQ\n  https://youtu.be/ONkzXTzP9pE\n  https://youtu.be/R08M-sVNR64\n  https://youtu.be/41DSFZHTwo4\n  https://youtu.be/vbOmRhNNvMc\n  https://youtu.be/auFq-9am06o\n  https://youtu.be/HDUlHNVINI0\n  https://youtu.be/hcgkL36u3UM\n  https://youtu.be/x8Y9eQbkQms\n  https://youtu.be/iaHdNhtvL3Y\n\n  The video .mp4 files work very well when viewed in Xviewer running\n  on GNU/Linux.  However, there have been out-of-sync problems between\n  video and audio when viewed in a web browser.  The problems are\n  irritations rather than anything more significant, but they may\n  appear."
+  },
+  {
+    "ITEM": "Emacs Chat : Richard Bonichon (en français)",
+    "DATE": "2026-08-06T06:53:38-07:00",
+    "DURATION": "1:57:38",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=sxqsIgXYkVw",
+    "SPEAKERS": "Sacha Chua",
+    "TAGS": [
+      "EmacsChat"
+    ],
+    "BODY": "Voilà l'enregistrement complet (parce que j'ai lancé la diffusion en direct en retard). Pour retrouver la vidéo de la diffusion avec le chat, voici le lien : https://youtube.com/live/GzoBGwqDvL8\n\n  Je publierai la transcription et des notes complémentaires sur https://sachachua.com/blog/2026/08/6-aout-emacs-chat-richard-bonichon/ dès qu'elles seront prêtes."
+  },
+  {
+    "ITEM": "How to Generate PDFs from Org Mode using ox-odt",
+    "DATE": "2026-08-05T16:15:07-07:00",
+    "DURATION": "26:02",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=sS53XwaRHg0",
+    "SPEAKERS": "Jon Kishore",
+    "TAGS": [
+      "org"
+    ],
+    "BODY": "https://kjambunathan.gitlab.io/org-mode-ox-odt/\n  https://orgmode.org/org.html#OpenDocument-Text-Export\n  https://github.com/AyakoGFX/.emacs.d/tree/master/org-ox/otd/readme\n  https://github.com/kjambunathan/org-mode-ox-odt/discussions\n  https://github.com/kjambunathan/org-mode-ox-odt/"
+  },
+  {
+    "ITEM": "My Emacs workflow with project.el and tab-bar.el project-x.el",
+    "DATE": "2026-08-05T07:25:36-07:00",
+    "DURATION": "30:39",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=n0l3O28I-3w",
+    "SPEAKERS": "Jon Kishore",
+    "TAGS": [
+      "navigation",
+      "project"
+    ],
+    "BODY": "config\n  https://gist.github.com/AyakoGFX/1ce8408fe6f5e3fa51012ba670c6fef4"
+  },
+  {
+    "ITEM": "Xah Talk Show Ep811. Emacs: CSS toggle px rem",
+    "DATE": "2026-08-05T07:25:32-07:00",
+    "DURATION": "30:20",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=xjIL1rGhKM0",
+    "SPEAKERS": "Xah Lee",
+    "BODY": ""
+  },
+  {
+    "ITEM": "Emacs: the 'speedbar' built-in file explorer (Emacs 31)",
+    "DATE": "2026-08-05T05:16:32-07:00",
+    "DURATION": "15:39",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=Crn6x3RmmyQ",
+    "SPEAKERS": "Protesilaos",
+    "TAGS": [
+      "speedbar",
+      "navigation"
+    ],
+    "BODY": "In this video I demonstrate the built-in 'speedbar' command. This is the file explorer that Emacs ships with. Starting with Emacs 31, the 'speedbar' can be configured to appear on the side of the frame. Whereas the default is to show up in a separate frame. To me, the default is impractical, whereas the new option turns 'speedbar' into a very useful piece of functionality.\n\n  * * *\n\n  Find all my publications on my website (Emacs, philosophy, poetry, and more): https://protesilaos.com"
+  },
+  {
+    "ITEM": "Emacs micro lesson 13 | FFAP (find file at point)",
+    "DATE": "2026-08-03T10:36:34-07:00",
+    "DURATION": "7:04",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=jSJev1fQ7Jc",
+    "SPEAKERS": "Chris Maiorana",
+    "TAGS": [
+      "navigation",
+      "ffap"
+    ],
+    "BODY": "That's right, if you want to jump right to file at your point, M-x ffap it. The \"find file at point\" function can jump your right to a file in your system. I tried using org-open-at-point, but that seems to expect an org link, as far as I can tell. For ffap, no link is required. In fact, it's ideal for situations when you have a file but no hyperlink.  So let's check it out.\n\n  If you're an org mode user, or just want to open a file based on what's sitting at your Emacs cursor, this is for you.\n\n  check out my books here:\n  https://chrismaiorana.com/books/\n\n  subscribe to get occasional updates from me:\n  https://chris-maiorana.kit.com/f9e94a7435"
+  },
+  {
+    "ITEM": "How Prot Organizes Knowledge, Projects, and Tasks in Emacs",
+    "DATE": "2026-08-03T04:42:04-07:00",
+    "DURATION": "37:52",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=IGQbp0JHi_I",
+    "SPEAKERS": "linkarzu",
+    "TAGS": [
+      "denote",
+      "org"
+    ],
+    "BODY": "How do you build a note-taking system that remains useful years later? Protesilaos (Prot) and linkarzu discuss retrievability, standalone notes, descriptive filenames, and why a workflow should fit the person using it rather than promise a universal \"second brain.\"\n\n  They also cover keeping knowledge simple and portable, distinguishing time-sensitive tasks from everything else, using Org agenda views, and handling recurring meetings without overcomplicating the system. Prot explains how Emacs can be extended from simple building blocks when the defaults are not enough.\n\n  This clip comes from our 3rd emacs coaching session:\n  https://youtube.com/live/WQbXKvBT8HY\n\n  The rest of the sessions can be found in \"The Church Of Prot\" playlist:\n  https://www.youtube.com/playlist?list=PLAQyC0yzWlG8\n\n  Chapters:\n  0:00 There is no universally right workflow\n  1:56 Daily notes versus durable knowledge\n  5:30 Notes as specific questions\n  8:32 Standalone files, tags, and search\n  11:37 Write notes for future you\n  13:01 Why \"second brain\" is marketing\n  20:25 Emacs as an extensible tool\n  22:58 Time-sensitive tasks and deadlines\n  25:44 Custom Org agenda views\n  29:42 Recurring tasks and events\n  37:27 The dogs know it is walk time\n\n  READ THIS BLOG POST:\n  How to use text to speech (TTS)?\n  Why are there 2 livestreams?\n  All the answers to these questions and more stream info here:\n  https://linkarzu.com/posts/news/streaming-info/\n\n  Support me:\n\n  Buy me the Switch 2:\n  https://ko-fi.com/linkarzu\n\n  Join the YouTube Members:\n  https://www.youtube.com/channel/UCrSIvbFncPSlK6AdwE2QboA/join\n\n  My Merch Store:\n  https://merch.linkarzu.com\n\n  My Dotfiles:\n  https://github.com/linkarzu/dotfiles-latest\n\n  Follow me on X:\n  https://x.com/link_arzu\n\n  Search terms:\n  Emacs note-taking workflow\n  Protesilaos notes workflow\n  Prot Emacs workflow\n  how to organize knowledge in Emacs\n  retrievable notes\n  standalone notes\n  descriptive filenames for notes\n  Denote note-taking\n  Org mode task management\n  Org agenda views\n  time-sensitive tasks\n  recurring tasks in Org mode\n  plain text knowledge management\n  Zettelkasten alternative\n  second brain critique\n  personal knowledge management\n  Emacs customization\n  simple productivity system\n  GNU find and grep notes\n  long-term digital notes\n\n  ,#emacs #orgmode #denote #notetaking #productivity #knowledgemanagement #plaintext #linux"
+  },
+  {
     "ITEM": "How to Turn on Word Wrap in Emacs",
     "DATE": "2026-08-02T05:15:11-07:00",
     "DURATION": "1:28",

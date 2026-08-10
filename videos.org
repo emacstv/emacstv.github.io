@@ -4,6 +4,241 @@
 #+COMMENT: [[shell:npm run build; git commit -m "update" -a; git push][Update]]
 
 
+* Emacs: conditionally expand abbrev-mode definitions  :writing:abbrev:
+:PROPERTIES:
+:DATE:     2026-08-09T08:01:54-07:00
+:DURATION: 14:33
+:YOUTUBE_URL: https://www.youtube.com/watch?v=QzhU6fklc4o
+:SPEAKERS: Protesilaos
+:END:
+  In this ~15-minute video I show how to add conditions to 'abbrev-mode' abbreviations that you define. The idea is to have those abbrevs expand only in certain cases. I use three examples, which I think cover the common needs. The code I used is on my website: https://protesilaos.com/ codelog/2026-08-09-emacs-expand-abbrev-mode-definitions-conditionally/
+
+* How to Count Words In Emacs
+:PROPERTIES:
+:DATE:     2026-08-09T05:30:20-07:00
+:DURATION: 1:09
+:YOUTUBE_URL: https://www.youtube.com/watch?v=4kP2PD7AmCI
+:SPEAKERS: Timothy Unkert
+:END:
+  In this video, I show you how to count words in Emacs. You can do this with the command:
+
+  M-x count-words
+
+  or the keyboard shortcut:
+  M-=
+* wikimode demo  :org:markdown:
+:PROPERTIES:
+:DATE:     2026-08-07T15:56:22-07:00
+:DURATION: 8:11
+:YOUTUBE_URL: https://youtu.be/_Ksn2YwVfYc?si=cmrYXNoYRimWQ-Yg
+:SPEAKERS: Benjamin Leis
+:END:
+  Demo of a small package I wrote for navigating sets of markdown and org files similar in style to if they were a small wiki.
+
+  Code is at https://github.com/benleis1/wikimode
+
+  Bonus: the math blog is at mathoffthegrid.net
+
+* Dotfiles Season 1 Episode 4: Emacs Configuration   :configuration:
+:PROPERTIES:
+:DATE:     2026-08-06T12:50:23-07:00
+:DURATION: 14:30
+:YOUTUBE_URL: https://www.youtube.com/watch?v=nSOkBmvCev4
+:SPEAKERS: Rehan Daphedar
+:END:
+  This video has been truncated due to YouTube upload length limits. The full video is available on other platforms at rehandaphedar.com.
+
+  I cover the [Emacs Configuration](https://git.sr.ht/~rehandaphedar/dot/tree/main/item/Emacs.org) from my [dotfiles](https://sr.ht/~rehandaphedar/dot).
+
+* User Interface to Computer Applications Demonstrated in GNU Emacs
+:PROPERTIES:
+:DATE:     2026-08-06T09:00:28-07:00
+:DURATION: 2:09:31
+:YOUTUBE_URL: https://www.youtube.com/watch?v=NqinYjlQ8Tk
+:SPEAKERS: Emacs popups vs dropdowns
+:END:
+  This series of videos demonstrates an individual's ideas about the
+  user interfaces to computer software.  The claim is made that users
+  could be served better with a more automated display system showing,
+  in real time, both what is available, and what action is necessary
+  to get things done.  A personal system is shown as the demonstration
+  vehicle; this system has been installed in the Emacs text editor for
+  many years.  The target consumers are programmers and system
+  designers, who may find the ideas to be food for thought.
+
+  The video was made in ten sessions, each with a theme.  These
+  sessions are available individually and also as a single aggregate
+  video.  Total run time is two hours and ten minutes.
+
+  https://youtu.be/NqinYjlQ8Tk
+  https://youtu.be/BJ060oT9ntQ
+  https://youtu.be/ONkzXTzP9pE
+  https://youtu.be/R08M-sVNR64
+  https://youtu.be/41DSFZHTwo4
+  https://youtu.be/vbOmRhNNvMc
+  https://youtu.be/auFq-9am06o
+  https://youtu.be/HDUlHNVINI0
+  https://youtu.be/hcgkL36u3UM
+  https://youtu.be/x8Y9eQbkQms
+  https://youtu.be/iaHdNhtvL3Y
+
+  The video .mp4 files work very well when viewed in Xviewer running
+  on GNU/Linux.  However, there have been out-of-sync problems between
+  video and audio when viewed in a web browser.  The problems are
+  irritations rather than anything more significant, but they may
+  appear.
+
+* Emacs Chat : Richard Bonichon (en français)   :EmacsChat:
+:PROPERTIES:
+:DATE:     2026-08-06T06:53:38-07:00
+:DURATION: 1:57:38
+:YOUTUBE_URL: https://www.youtube.com/watch?v=sxqsIgXYkVw
+:SPEAKERS: Sacha Chua
+:LANGUAGE: French
+:END:
+  Voilà l'enregistrement complet (parce que j'ai lancé la diffusion en direct en retard). Pour retrouver la vidéo de la diffusion avec le chat, voici le lien : https://youtube.com/live/GzoBGwqDvL8
+
+  Je publierai la transcription et des notes complémentaires sur https://sachachua.com/blog/2026/08/6-aout-emacs-chat-richard-bonichon/ dès qu'elles seront prêtes.
+
+* How to Generate PDFs from Org Mode using ox-odt  :org:
+:PROPERTIES:
+:DATE:     2026-08-05T16:15:07-07:00
+:DURATION: 26:02
+:YOUTUBE_URL: https://www.youtube.com/watch?v=sS53XwaRHg0
+:SPEAKERS: Jon Kishore
+:END:
+  https://kjambunathan.gitlab.io/org-mode-ox-odt/
+  https://orgmode.org/org.html#OpenDocument-Text-Export
+  https://github.com/AyakoGFX/.emacs.d/tree/master/org-ox/otd/readme
+  https://github.com/kjambunathan/org-mode-ox-odt/discussions
+  https://github.com/kjambunathan/org-mode-ox-odt/
+
+* My Emacs workflow with project.el and tab-bar.el project-x.el  :navigation:project:
+:PROPERTIES:
+:DATE:     2026-08-05T07:25:36-07:00
+:DURATION: 30:39
+:YOUTUBE_URL: https://www.youtube.com/watch?v=n0l3O28I-3w
+:SPEAKERS: Jon Kishore
+:END:
+  config
+  https://gist.github.com/AyakoGFX/1ce8408fe6f5e3fa51012ba670c6fef4
+
+* Xah Talk Show Ep811. Emacs: CSS toggle px rem
+:PROPERTIES:
+:DATE:     2026-08-05T07:25:32-07:00
+:DURATION: 30:20
+:YOUTUBE_URL: https://www.youtube.com/watch?v=xjIL1rGhKM0
+:SPEAKERS: Xah Lee
+:END:
+
+
+* Emacs: the 'speedbar' built-in file explorer (Emacs 31)  :speedbar:navigation:
+:PROPERTIES:
+:DATE:     2026-08-05T05:16:32-07:00
+:DURATION: 15:39
+:YOUTUBE_URL: https://www.youtube.com/watch?v=Crn6x3RmmyQ
+:SPEAKERS: Protesilaos
+:END:
+  In this video I demonstrate the built-in 'speedbar' command. This is the file explorer that Emacs ships with. Starting with Emacs 31, the 'speedbar' can be configured to appear on the side of the frame. Whereas the default is to show up in a separate frame. To me, the default is impractical, whereas the new option turns 'speedbar' into a very useful piece of functionality.
+
+  * * *
+
+  Find all my publications on my website (Emacs, philosophy, poetry, and more): https://protesilaos.com
+
+* Emacs micro lesson 13 | FFAP (find file at point)   :navigation:ffap:
+:PROPERTIES:
+:DATE:     2026-08-03T10:36:34-07:00
+:DURATION: 7:04
+:YOUTUBE_URL: https://www.youtube.com/watch?v=jSJev1fQ7Jc
+:SPEAKERS: Chris Maiorana
+:END:
+  That's right, if you want to jump right to file at your point, M-x ffap it. The "find file at point" function can jump your right to a file in your system. I tried using org-open-at-point, but that seems to expect an org link, as far as I can tell. For ffap, no link is required. In fact, it's ideal for situations when you have a file but no hyperlink.  So let's check it out.
+
+  If you're an org mode user, or just want to open a file based on what's sitting at your Emacs cursor, this is for you.
+
+  check out my books here:
+  https://chrismaiorana.com/books/
+
+  subscribe to get occasional updates from me:
+  https://chris-maiorana.kit.com/f9e94a7435
+
+* How Prot Organizes Knowledge, Projects, and Tasks in Emacs   :denote:org:
+:PROPERTIES:
+:DATE:     2026-08-03T04:42:04-07:00
+:DURATION: 37:52
+:YOUTUBE_URL: https://www.youtube.com/watch?v=IGQbp0JHi_I
+:SPEAKERS: linkarzu
+:END:
+  How do you build a note-taking system that remains useful years later? Protesilaos (Prot) and linkarzu discuss retrievability, standalone notes, descriptive filenames, and why a workflow should fit the person using it rather than promise a universal "second brain."
+
+  They also cover keeping knowledge simple and portable, distinguishing time-sensitive tasks from everything else, using Org agenda views, and handling recurring meetings without overcomplicating the system. Prot explains how Emacs can be extended from simple building blocks when the defaults are not enough.
+
+  This clip comes from our 3rd emacs coaching session:
+  https://youtube.com/live/WQbXKvBT8HY
+
+  The rest of the sessions can be found in "The Church Of Prot" playlist:
+  https://www.youtube.com/playlist?list=PLAQyC0yzWlG8
+
+  Chapters:
+  0:00 There is no universally right workflow
+  1:56 Daily notes versus durable knowledge
+  5:30 Notes as specific questions
+  8:32 Standalone files, tags, and search
+  11:37 Write notes for future you
+  13:01 Why "second brain" is marketing
+  20:25 Emacs as an extensible tool
+  22:58 Time-sensitive tasks and deadlines
+  25:44 Custom Org agenda views
+  29:42 Recurring tasks and events
+  37:27 The dogs know it is walk time
+
+  READ THIS BLOG POST:
+  How to use text to speech (TTS)?
+  Why are there 2 livestreams?
+  All the answers to these questions and more stream info here:
+  https://linkarzu.com/posts/news/streaming-info/
+
+  Support me:
+
+  Buy me the Switch 2:
+  https://ko-fi.com/linkarzu
+
+  Join the YouTube Members:
+  https://www.youtube.com/channel/UCrSIvbFncPSlK6AdwE2QboA/join
+
+  My Merch Store:
+  https://merch.linkarzu.com
+
+  My Dotfiles:
+  https://github.com/linkarzu/dotfiles-latest
+
+  Follow me on X:
+  https://x.com/link_arzu
+
+  Search terms:
+  Emacs note-taking workflow
+  Protesilaos notes workflow
+  Prot Emacs workflow
+  how to organize knowledge in Emacs
+  retrievable notes
+  standalone notes
+  descriptive filenames for notes
+  Denote note-taking
+  Org mode task management
+  Org agenda views
+  time-sensitive tasks
+  recurring tasks in Org mode
+  plain text knowledge management
+  Zettelkasten alternative
+  second brain critique
+  personal knowledge management
+  Emacs customization
+  simple productivity system
+  GNU find and grep notes
+  long-term digital notes
+
+  ,#emacs #orgmode #denote #notetaking #productivity #knowledgemanagement #plaintext #linux
+
 * How to Turn on Word Wrap in Emacs  :writing:
 :PROPERTIES:
 :DATE:     2026-08-02T05:15:11-07:00
