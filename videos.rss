@@ -6,6 +6,155 @@
     <atom:link href="https://emacs.tv/videos.rss" rel="self" type="application/rss+xml" />
     <description>Emacs videos</description>
     <item>
+      <title>How to Use HTML Mode in Emacs</title>
+      <link>https://www.youtube.com/watch?v=jMcrqwRSY18</link>
+      <guid>https://www.youtube.com/watch?v=jMcrqwRSY18</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=jMcrqwRSY18">youtube</a><br><br>In this video, I show you how to use the built in HTML mode in Emacs. I cover the following commands:
+  C-c C-t Insert generic tag
+  C-c / Close current tag
+  C-c Return Paragraph
+  C-c C-c h insert hyperlink
+  C-c C-c i insert image
+  C-c 1 insert level 1 heading
+  C-c 2 insert level 2 heading
+  C-c 3 insert level 3 heading
+  M-; insert comment
+  C-c C-c o insert ordered list
+  C-c C-c u insert unordered list
+  C-c C-c l insert list item
+  C-c C-n insert special character
+  C-c C-f skip across tag group
+  C-c C-v open current buffer in the browser
+  C-c C-a add attributes
+
+  I show you how the built in HTML mode in Emacs is useful for writing html code fast.</div>]]></description>
+      <pubDate>Sun, 23 Aug 2026 12:00:13 +0000</pubDate><category>html</category>
+<category>coding</category>
+    </item>
+    <item>
+      <title>Denote Dynamic Org Block | Advanced</title>
+      <link>https://www.youtube.com/watch?v=Pfv9Bvd8krk</link>
+      <guid>https://www.youtube.com/watch?v=Pfv9Bvd8krk</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=Pfv9Bvd8krk">youtube</a><br><br>https://protesilaos.com/emacs/denote-org</div>]]></description>
+      <pubDate>Fri, 21 Aug 2026 03:38:01 +0000</pubDate><category>denote</category>
+<category>org</category>
+    </item>
+    <item>
+      <title>20 août: Emacs Chat: Abdallah Maouche (take 2)</title>
+      <link>https://www.youtube.com/watch?v=_qkvvVP8ZMQ</link>
+      <guid>https://www.youtube.com/watch?v=_qkvvVP8ZMQ</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=_qkvvVP8ZMQ">youtube</a><br><br>https://sachachua.com/blog/2026/08/20-aout-emacs-chat-abdallah-maouche/
+
+  Nous allons parler en direct avec Abdallah Maouche (heiwiper) https://heiwiper.com/ (Gitlab https://gitlab.com/heiwiper, Github https://github.com/heiwiper) d'Emacs, de ses flux de travail, de sa configuration, et d'autres sujets en français. Je suis un peu intimidée, mais si vous posez vos questions dans le chat, je pense que nous pouvons survivre à mon faible niveau de français. =)
+
+
+  La diffusion en direct aura lieu le [2026-08-20 Thu 07:30]--[2026-08-20 Thu 08:30] dans le fuseau horaire America/Toronto, soit 0730H EDT / 0630H CDT / 0530H MDT / 0430H PDT / 1130H UTC / 1330H CEST / 1430H EEST / 1700H IST / 1930H +08 / 2030H JST
+
+  Si vous voulez parler d'Emacs avec Prot et moi https://sachachua.com/blog/2026/07/voulez-vous-parler-d-emacs-avec-prot-et-moi/ en français, n'hésitez pas à m'envoyer un courriel !</div>]]></description>
+      <pubDate>Fri, 21 Aug 2026 00:38:39 +0000</pubDate><category>EmacsChat</category>
+    </item>
+    <item>
+      <title>Spacemacs | Bug fixing &amp; Package updates</title>
+      <link>https://www.youtube.com/watch?v=gwcvqPWDKxg</link>
+      <guid>https://www.youtube.com/watch?v=gwcvqPWDKxg</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=gwcvqPWDKxg">youtube</a><br><br>,#spacemacs #emacs #gnu #linux #productivity #notetaking</div>]]></description>
+      <pubDate>Thu, 20 Aug 2026 17:38:45 +0000</pubDate><category>spacemacs</category>
+    </item>
+    <item>
+      <title>Easy Research with Emacs and Org Mode</title>
+      <link>https://youtu.be/yEUfHe9nUJo</link>
+      <guid>https://youtu.be/yEUfHe9nUJo</guid>
+      <description><![CDATA[<div id="content"><a href="https://youtu.be/yEUfHe9nUJo">youtube</a><br><br>This is a quick and technical guide on how I approach research with the help of Emacs and Org Mode.
+  It's aimed at new people who want to make the switch to Emacs and Org Mode, but also at users who are uncertain about how to approach note-taking in general.
+
+  You can find the referenced note here:
+  https://gist.github.com/cashmeredev/83717cacd1b45f78c24bac691659874e</div>]]></description>
+      <pubDate>Wed, 19 Aug 2026 21:14:19 +0000</pubDate><category>org</category>
+    </item>
+    <item>
+      <title>Prot Asks: Per Nordlöw about his Emacs extensions</title>
+      <link>https://www.youtube.com/watch?v=Rke2gGCCk70</link>
+      <guid>https://www.youtube.com/watch?v=Rke2gGCCk70</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=Rke2gGCCk70">youtube</a><br><br>In this ~2-hour video I talk to Per Nordlöw about some of his custom extensions for Emacs. I learn from Per how he approaches Emacs as a tool that can be extended to meet the requirements of one's workflow. In the process, Per shares his screen to show me extensions for snippet expansions, linting and project diagnostics, and project actions. There is so much more that Per has already implemented. It can all be found here:
+
+  - https://codeberg.org/nordlow/dotfiles
+  - https://codeberg.org/nordlow/dotfiles/src/branch/main/.emacs.d
+  - https://codeberg.org/nordlow/dotfiles/src/branch/main/.emacs.d/mine</div>]]></description>
+      <pubDate>Wed, 19 Aug 2026 14:13:11 +0000</pubDate><category>ProtAsks</category>
+    </item>
+    <item>
+      <title>stdin | LLM | stdout</title>
+      <link>https://www.youtube.com/watch?v=xHEnWvKmSKM</link>
+      <guid>https://www.youtube.com/watch?v=xHEnWvKmSKM</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=xHEnWvKmSKM">youtube</a><br><br>Some experiments with using LLMs in Emacs, and a demo of gptel's presets feature.  We can do better than a linear, immutable, top-down chat interface to LLMs.
+
+  gptel is an LLM client for Emacs. (https://gptel.org)
+
+  A preset is a named collection of gptel settings and behaviors applied to an LLM query as a unit: they can change any aspect of LLM interaction on the fly, providing a flexible, customizable interface for most (text-based) things you'd need an LLM for.
+
+  00:13 LLMs as text transformations
+  01:19 LLM clients as shell commands
+  02:03 Software with too many options
+  03:00 Configuration files and (finally) a gptel preset
+  03:10 The tutor preset
+  04:31 Inside the Tutor preset
+  05:12 The Introspect preset
+  06:52 The JSON preset
+  07:35 Interlude I: How presets work
+  08:52 Redirection: source | gptel | destination
+  10:04 Source: the Expand preset
+  11:20 The Visible-Text preset
+  11:55 The Include preset
+  12:48 Interlude II: Adding dynamic behavior to presets
+  14:14 Destination: the Notify preset
+  14:51 The Rewrite preset
+  17:05 The Annotate preset
+  21:18 Presets as "agents"
+  24:37 Problems with the presets UI
+  26:02 Interlude III: Resources for presets
+  27:22 LLM UIs in Emacs: this ain't it
+
+  Emacs packages showcased in this demo:
+  - https://github.com/karthink/gptel
+  - https://github.com/karthink/gptel-agent
+  - https://github.com/karthink/gptel-annotate
+  - https://github.com/karthink/gptel-preset-collection
+  - https://github.com/kmontag/macher
+
+  Emacs packages and settings used in this demo
+  - Presentation software: https://github.com/positron-solutions/dslide
+  - Visuals: https://github.com/minad/org-modern and https://github.com/rnkn/olivetti
+  - Fancy Flymake UI: https://github.com/konrad1977/flyover
+  - Font: Monaspace Neon
+  - Emacs theme: ef-reverie
+
+  ,#emacs #llm #llms #gptel</div>]]></description>
+      <pubDate>Wed, 19 Aug 2026 12:15:27 +0000</pubDate><category>llm</category>
+<category>gptel</category>
+    </item>
+    <item>
+      <title>Emacs using eglot  and java with my configuration</title>
+      <link>https://www.youtube.com/watch?v=fUnq9nMAEv0</link>
+      <guid>https://www.youtube.com/watch?v=fUnq9nMAEv0</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=fUnq9nMAEv0">youtube</a><br><br>This is a walkthrough of how my configuration works after recently moving from lsp-mode to eglot.
+
+  Configuration is mostly located here or near this point in my config.
+  https://github.com/benleis1/emacs-init/#eglot
+
+  A companion github wiki post on how this works is here:
+  https://github.com/benleis1/emacs-init/lsp-mode.md</div>]]></description>
+      <pubDate>Tue, 18 Aug 2026 20:05:40 +0000</pubDate><category>coding</category>
+<category>eglot</category>
+<category>java</category>
+    </item>
+    <item>
+      <title>Emacs Tramp Mode for SSH</title>
+      <link>https://www.youtube.com/watch?v=suTeZppPG4Y</link>
+      <guid>https://www.youtube.com/watch?v=suTeZppPG4Y</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=suTeZppPG4Y">youtube</a><br><br></div>]]></description>
+      <pubDate>Fri, 14 Aug 2026 20:40:03 +0000</pubDate><category>tramp</category>
+    </item>
+    <item>
       <title>Emacs: conditionally expand abbrev-mode definitions</title>
       <link>https://www.youtube.com/watch?v=QzhU6fklc4o</link>
       <guid>https://www.youtube.com/watch?v=QzhU6fklc4o</guid>
@@ -750,202 +899,6 @@
   ,#emacs #ssh #cpp #remotedevelopment #terminal #linux #debugging #clangd #vscode #dape</div>]]></description>
       <pubDate>Fri, 17 Jul 2026 23:17:07 +0000</pubDate><category>coding</category>
 <category>cpp</category>
-    </item>
-    <item>
-      <title>Gentoo User shows you How to edit your make.conf in Emacs</title>
-      <link>https://www.youtube.com/watch?v=sb39zCRkZGE</link>
-      <guid>https://www.youtube.com/watch?v=sb39zCRkZGE</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=sb39zCRkZGE">youtube</a><br><br>Today, I am going to show you how to use TRAMP mode in emacs: TRAMP is not to be confused with the dog. It is used to edit files that require root privileges. VERY EXCITING!!!!</div>]]></description>
-      <pubDate>Thu, 16 Jul 2026 18:52:44 +0000</pubDate><category>coding</category>
-    </item>
-    <item>
-      <title>Gentoo Simp Demonstrates Beacon Mode With Meow On Emacs.</title>
-      <link>https://www.youtube.com/watch?v=zbZR95OIkLY</link>
-      <guid>https://www.youtube.com/watch?v=zbZR95OIkLY</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=zbZR95OIkLY">youtube</a><br><br>Hello! Today, I'm going to demonstrate how to use beacon mode on Emacs, using the modal editor: Meow.
-  here is the creators Github for Meow on his github : https://github.com/meow-edit/meow</div>]]></description>
-      <pubDate>Thu, 16 Jul 2026 18:38:56 +0000</pubDate><category>beacon</category>
-<category>meow</category>
-    </item>
-    <item>
-      <title>Let&apos;s Finally Finish the Emacs Tutorial</title>
-      <link>https://www.youtube.com/watch?v=jCKLY3xH7SY</link>
-      <guid>https://www.youtube.com/watch?v=jCKLY3xH7SY</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=jCKLY3xH7SY">youtube</a><br><br>READ THIS BLOGPOST:
-  How to use text to speech (TTS)?
-  Why are there 2 livestreams?
-  All the answers to these questions and more stream info here
-  https://linkarzu.com/posts/news/streaming-info/
-
-  Instructions to join the discord server
-  https://discord.gg/D7CZMzw3rM
-
-  Members:
-  If you want your message read out loud, include !say
-
-  Example:
-  !say I have a small pp
-
-  Donations of $10 or more on Ko-fi, preferred, or YouTube Super Chats will show up on screen and be read aloud by a computer voice.
-
-  Support me:
-  Buy me the Switch 2:
-  https://ko-fi.com/linkarzu
-
-  Join the YouTube Members (gives you access to the private discord server)
-  https://www.youtube.com/channel/UCrSIvbFncPSlK6AdwE2QboA/join
-
-  My Merch Store:
-  https://merch.linkarzu.com
-
-  My Dotfiles:
-  https://github.com/linkarzu/dotfiles-latest
-
-  Follow me on X:
-  https://x.com/link_arzu
-
-  ,#CleanShotX #macshot #macOS</div>]]></description>
-      <pubDate>Thu, 16 Jul 2026 12:32:47 +0000</pubDate><category>beginner</category>
-    </item>
-    <item>
-      <title>Ayuda de vim cscope, emacs y global.</title>
-      <link>https://www.youtube.com/watch?v=1wrF6J3V47A</link>
-      <guid>https://www.youtube.com/watch?v=1wrF6J3V47A</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=1wrF6J3V47A">youtube</a><br><br>El video anterior no expliqué como obtener la ayuda de vim cscope, emacs y global.</div>]]></description>
-      <pubDate>Thu, 16 Jul 2026 11:07:08 +0000</pubDate><category>navigation</category>
-    </item>
-    <item>
-      <title>One shot modifiers, then emacs tutorial</title>
-      <link>https://www.youtube.com/watch?v=18-s7UdMIG0</link>
-      <guid>https://www.youtube.com/watch?v=18-s7UdMIG0</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=18-s7UdMIG0">youtube</a><br><br>READ THIS BLOGPOST:
-  How to use text to speech (TTS)?
-  Why are there 2 livestreams?
-  All the answers to these questions and more stream info here
-  https://linkarzu.com/posts/news/streaming-info/
-
-  Instructions to join the discord server
-  https://discord.gg/D7CZMzw3rM
-
-  Members:
-  If you want your message read out loud, include !say
-
-  Example:
-  !say I have a small pp
-
-  Donations of $10 or more on Ko-fi, preferred, or YouTube Super Chats will show up on screen and be read aloud by a computer voice.
-
-  Support me:
-  Buy me the Switch 2:
-  https://ko-fi.com/linkarzu
-
-  Join the YouTube Members (gives you access to the private discord server)
-  https://www.youtube.com/channel/UCrSIvbFncPSlK6AdwE2QboA/join
-
-  My Merch Store:
-  https://merch.linkarzu.com
-
-  My Dotfiles:
-  https://github.com/linkarzu/dotfiles-latest
-
-  Follow me on X:
-  https://x.com/link_arzu
-
-  ,#CleanShotX #macshot #macOS</div>]]></description>
-      <pubDate>Wed, 15 Jul 2026 12:32:29 +0000</pubDate><category>beginner</category>
-    </item>
-    <item>
-      <title>Stop Installing Every Emacs Package You See</title>
-      <link>https://www.youtube.com/watch?v=vyLzOD6eQgM</link>
-      <guid>https://www.youtube.com/watch?v=vyLzOD6eQgM</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=vyLzOD6eQgM">youtube</a><br><br>How many Emacs packages should a beginner install?
-
-  In this clip, I ask Protesilaos whether he recommends Denote to someone who is just getting started with Emacs. His answer is simple: start with the basics and only install packages when you understand the problem they are solving.
-
-  Prot has written many Emacs packages, including the Modus themes, which became part of core Emacs, but he still warns beginners against blindly copying package configurations. When you install tools before understanding your own workflow, you can quickly end up with a bloated Emacs config full of packages you never actually use.
-
-  We also take a quick look at some of the packages he personally uses, including Denote, TMR, and Substitute, a package for fast search-and-replace operations based on the symbol at point.
-
-  The main lesson is not that extra Emacs packages are bad. They are useful only when they solve a real need you already have.
-
-  This clip comes from my second Emacs coaching session with Protesilaos, an Emacs contributor and the creator of packages such as the Modus themes, Denote, and many others, full interview here:
-  https://youtube.com/live/Crp2e5D_Q78
-
-  ,#Emacs #VanillaEmacs #Protesilaos #EmacsConfig #Denote #ModusThemes #Linux #TextEditor</div>]]></description>
-      <pubDate>Wed, 15 Jul 2026 10:00:23 +0000</pubDate><category>configuration</category>
-    </item>
-    <item>
-      <title>Voulez-vous parler d&apos;Emacs avec Prot et moi ?</title>
-      <link>https://www.youtube.com/watch?v=IBi4thJN_CA</link>
-      <guid>https://www.youtube.com/watch?v=IBi4thJN_CA</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=IBi4thJN_CA">youtube</a><br><br>https://sachachua.com/blog/2026/07/voulez-vous-parler-d-emacs-avec-prot-et-moi/
-
-  Des liens :
-  - https://www.youtube.com/watch?v=FtSvyOvB5Gs
-  - https://sachachua.com/blog/2026/07/re-prot-francais-je-lis-pour-apprendre-des-nouveaux-mots/
-    - https://youtu.be/C7fZ2mCrxgw</div>]]></description>
-      <pubDate>Tue, 14 Jul 2026 19:28:10 +0000</pubDate><category>community</category>
-    </item>
-    <item>
-      <title>[02] Vanilla Emacs with Prot: I’ll Repent for My Markdown Sins</title>
-      <link>https://www.youtube.com/watch?v=Crp2e5D_Q78</link>
-      <guid>https://www.youtube.com/watch?v=Crp2e5D_Q78</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=Crp2e5D_Q78">youtube</a><br><br>In the previous coaching session with Prot we learned how to install emacs and how to start editing files and modifying our configuration from within emacs, we also installed our first packages. We'll continue installing a few more packages this time I guess and we'll get started with Org or orgmode
-
-  Previous video can be found in the podcast channel:
-  https://youtu.be/btAOBkcLEkg
-
-  I wrote a bit more about it in a blogpost:
-  https://linkarzu.com/posts/emacs/prot-love-letter/
-
-  Prot responded in his blogpost:
-  https://protesilaos.com/codelog/2026-07-04-emacs-for-beginners-with-linkarzu/
-
-  If you want to learn more about Prot’s coaching sessions, you can visit this link:
-  https://protesilaos.com/coach/
-
-  Special thanks to Sasha Chua for being there guiding me in my livestreams and taking notes to make the process easier, she also created an article and reacted to one of my videos:
-  https://sachachua.com/blog/2026/07/re-react-to-sacha-and-prot-newbies-and-starter-kits-emacs-video-linkarzu/
-
-  If you have any of the questions below:
-  * Why is the stream vertical, I cannot see a thing
-  * Why are there 2 streams?
-  * What’s that weird voice when someone sends a message
-  * How can I send your GOATED emojis?
-  * Why does TTS not work?
-  * Why aren’t you reading chats on stream?
-  * What’s that Ko-Fi progress bar we see in your videos?
-  * How can I join your discord?
-  * How can I share my setup and workflow in your channel?
-  * Why did the livestream become members only after recording?
-  Read this article:
-  https://linkarzu.com/posts/news/streaming-info/
-
-  Support me:
-  Buy me the Switch 2:
-  https://ko-fi.com/linkarzu
-
-  Join the YouTube Members:
-  https://www.youtube.com/channel/UCrSIvbFncPSlK6AdwE2QboA/join
-
-  My Merch Store:
-  https://merch.linkarzu.com
-
-  My Dotfiles:
-  https://github.com/linkarzu/dotfiles-latest
-
-  Follow me on X:
-  https://x.com/link_arzu</div>]]></description>
-      <pubDate>Sun, 12 Jul 2026 21:18:10 +0000</pubDate><category>org</category>
-    </item>
-    <item>
-      <title>How to Find and Replace Text in Emacs</title>
-      <link>https://www.youtube.com/watch?v=AUY6CkcfGHE</link>
-      <guid>https://www.youtube.com/watch?v=AUY6CkcfGHE</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=AUY6CkcfGHE">youtube</a><br><br>In this video, I show you how to find and replace text in Emacs with the command: M-%
-
-  This allows you to type in the word you want to replace and then the word you want to replace that word with and move through text replacing occurences of the word by typing 'y' and skipping replacing occurrences of the word by typing 'n'.</div>]]></description>
-      <pubDate>Sun, 12 Jul 2026 11:45:35 +0000</pubDate><category>beginner</category>
     </item>
   </channel>
 </rss>

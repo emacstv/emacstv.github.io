@@ -4,6 +4,167 @@
 #+COMMENT: [[shell:npm run build; git commit -m "update" -a; git push][Update]]
 
 
+* How to Use HTML Mode in Emacs  :html:coding:
+:PROPERTIES:
+:DATE:     2026-08-23T05:00:13-07:00
+:DURATION: 12:03
+:YOUTUBE_URL: https://www.youtube.com/watch?v=jMcrqwRSY18
+:SPEAKERS: Timothy Unkert
+:END:
+  In this video, I show you how to use the built in HTML mode in Emacs. I cover the following commands:
+  C-c C-t Insert generic tag
+  C-c / Close current tag
+  C-c Return Paragraph
+  C-c C-c h insert hyperlink
+  C-c C-c i insert image
+  C-c 1 insert level 1 heading
+  C-c 2 insert level 2 heading
+  C-c 3 insert level 3 heading
+  M-; insert comment
+  C-c C-c o insert ordered list
+  C-c C-c u insert unordered list
+  C-c C-c l insert list item
+  C-c C-n insert special character
+  C-c C-f skip across tag group
+  C-c C-v open current buffer in the browser
+  C-c C-a add attributes
+
+  I show you how the built in HTML mode in Emacs is useful for writing html code fast.
+
+* Denote Dynamic Org Block | Advanced   :denote:org:
+:PROPERTIES:
+:DATE:     2026-08-20T20:38:01-07:00
+:DURATION: 15:02
+:YOUTUBE_URL: https://www.youtube.com/watch?v=Pfv9Bvd8krk
+:SPEAKERS: Jon Kishore
+:END:
+  https://protesilaos.com/emacs/denote-org
+
+* 20 août: Emacs Chat: Abdallah Maouche (take 2)   :EmacsChat:
+:PROPERTIES:
+:DATE:     2026-08-20T17:38:39-07:00
+:DURATION: 58:40
+:YOUTUBE_URL: https://www.youtube.com/watch?v=_qkvvVP8ZMQ
+:SPEAKERS: Sacha Chua
+:END:
+  https://sachachua.com/blog/2026/08/20-aout-emacs-chat-abdallah-maouche/
+
+  Nous allons parler en direct avec Abdallah Maouche (heiwiper) https://heiwiper.com/ (Gitlab https://gitlab.com/heiwiper, Github https://github.com/heiwiper) d'Emacs, de ses flux de travail, de sa configuration, et d'autres sujets en français. Je suis un peu intimidée, mais si vous posez vos questions dans le chat, je pense que nous pouvons survivre à mon faible niveau de français. =)
+
+
+  La diffusion en direct aura lieu le [2026-08-20 Thu 07:30]--[2026-08-20 Thu 08:30] dans le fuseau horaire America/Toronto, soit 0730H EDT / 0630H CDT / 0530H MDT / 0430H PDT / 1130H UTC / 1330H CEST / 1430H EEST / 1700H IST / 1930H +08 / 2030H JST
+
+  Si vous voulez parler d'Emacs avec Prot et moi https://sachachua.com/blog/2026/07/voulez-vous-parler-d-emacs-avec-prot-et-moi/ en français, n'hésitez pas à m'envoyer un courriel !
+* Spacemacs | Bug fixing & Package updates  :spacemacs:
+:PROPERTIES:
+:DATE:     2026-08-20T10:38:45-07:00
+:DURATION: 7:15
+:YOUTUBE_URL: https://www.youtube.com/watch?v=gwcvqPWDKxg
+:SPEAKERS: Eric Nantel 🇨🇦
+:END:
+  ,#spacemacs #emacs #gnu #linux #productivity #notetaking
+
+* Easy Research with Emacs and Org Mode  :org:
+:PROPERTIES:
+:DATE:     2026-08-19T14:14:19-07:00
+:DURATION: 3:32
+:YOUTUBE_URL: https://youtu.be/yEUfHe9nUJo
+:SPEAKERS: anitamaxcode
+:END:
+  This is a quick and technical guide on how I approach research with the help of Emacs and Org Mode.
+  It's aimed at new people who want to make the switch to Emacs and Org Mode, but also at users who are uncertain about how to approach note-taking in general.
+
+  You can find the referenced note here:
+  https://gist.github.com/cashmeredev/83717cacd1b45f78c24bac691659874e
+
+* Prot Asks: Per Nordlöw about his Emacs extensions  :ProtAsks:
+:PROPERTIES:
+:DATE:     2026-08-19T07:13:11-07:00
+:DURATION: 1:50:38
+:YOUTUBE_URL: https://www.youtube.com/watch?v=Rke2gGCCk70
+:SPEAKERS: Protesilaos
+:END:
+  In this ~2-hour video I talk to Per Nordlöw about some of his custom extensions for Emacs. I learn from Per how he approaches Emacs as a tool that can be extended to meet the requirements of one's workflow. In the process, Per shares his screen to show me extensions for snippet expansions, linting and project diagnostics, and project actions. There is so much more that Per has already implemented. It can all be found here:
+
+  - https://codeberg.org/nordlow/dotfiles
+  - https://codeberg.org/nordlow/dotfiles/src/branch/main/.emacs.d
+  - https://codeberg.org/nordlow/dotfiles/src/branch/main/.emacs.d/mine
+
+* stdin | LLM | stdout   :llm:gptel:
+:PROPERTIES:
+:DATE:     2026-08-19T05:15:27-07:00
+:DURATION: 28:23
+:YOUTUBE_URL: https://www.youtube.com/watch?v=xHEnWvKmSKM
+:SPEAKERS: karthink
+:END:
+  Some experiments with using LLMs in Emacs, and a demo of gptel's presets feature.  We can do better than a linear, immutable, top-down chat interface to LLMs.
+
+  gptel is an LLM client for Emacs. (https://gptel.org)
+
+  A preset is a named collection of gptel settings and behaviors applied to an LLM query as a unit: they can change any aspect of LLM interaction on the fly, providing a flexible, customizable interface for most (text-based) things you'd need an LLM for.
+
+  00:13 LLMs as text transformations
+  01:19 LLM clients as shell commands
+  02:03 Software with too many options
+  03:00 Configuration files and (finally) a gptel preset
+  03:10 The tutor preset
+  04:31 Inside the Tutor preset
+  05:12 The Introspect preset
+  06:52 The JSON preset
+  07:35 Interlude I: How presets work
+  08:52 Redirection: source | gptel | destination
+  10:04 Source: the Expand preset
+  11:20 The Visible-Text preset
+  11:55 The Include preset
+  12:48 Interlude II: Adding dynamic behavior to presets
+  14:14 Destination: the Notify preset
+  14:51 The Rewrite preset
+  17:05 The Annotate preset
+  21:18 Presets as "agents"
+  24:37 Problems with the presets UI
+  26:02 Interlude III: Resources for presets
+  27:22 LLM UIs in Emacs: this ain't it
+
+  Emacs packages showcased in this demo:
+  - https://github.com/karthink/gptel
+  - https://github.com/karthink/gptel-agent
+  - https://github.com/karthink/gptel-annotate
+  - https://github.com/karthink/gptel-preset-collection
+  - https://github.com/kmontag/macher
+
+  Emacs packages and settings used in this demo
+  - Presentation software: https://github.com/positron-solutions/dslide
+  - Visuals: https://github.com/minad/org-modern and https://github.com/rnkn/olivetti
+  - Fancy Flymake UI: https://github.com/konrad1977/flyover
+  - Font: Monaspace Neon
+  - Emacs theme: ef-reverie
+
+  ,#emacs #llm #llms #gptel
+
+* Emacs using eglot  and java with my configuration  :coding:eglot:java:
+:PROPERTIES:
+:DATE:     2026-08-18T13:05:40-07:00
+:DURATION: 7:48
+:YOUTUBE_URL: https://www.youtube.com/watch?v=fUnq9nMAEv0
+:SPEAKERS: Benjamin Leis
+:END:
+  This is a walkthrough of how my configuration works after recently moving from lsp-mode to eglot.
+
+  Configuration is mostly located here or near this point in my config.
+  https://github.com/benleis1/emacs-init/#eglot
+
+  A companion github wiki post on how this works is here:
+  https://github.com/benleis1/emacs-init/lsp-mode.md
+
+* Emacs Tramp Mode for SSH   :tramp:
+:PROPERTIES:
+:DATE:     2026-08-14T13:40:03-07:00
+:DURATION: 0:18
+:YOUTUBE_URL: https://www.youtube.com/watch?v=suTeZppPG4Y
+:SPEAKERS: Kiriakos Naiskes
+:END:
+
+
 * Emacs: conditionally expand abbrev-mode definitions  :writing:abbrev:
 :PROPERTIES:
 :DATE:     2026-08-09T08:01:54-07:00
