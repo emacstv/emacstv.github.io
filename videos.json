@@ -1,5 +1,73 @@
 [
   {
+    "ITEM": "Images with Emacs",
+    "DATE": "2026-09-19T11:21:44-07:00",
+    "DURATION": "19:00",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=0taEcb0wq3o",
+    "SPEAKERS": "Jon Kishore",
+    "TAGS": [
+      "dired"
+    ],
+    "BODY": ",# Artical\n  https://lucidmanager.org/productivity/using-emacs-image-dired/"
+  },
+  {
+    "ITEM": "Beautiful diagrams in Emacs",
+    "DATE": "2026-09-19T03:47:58-07:00",
+    "DURATION": "11:07",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=SsC-OsHR9RY",
+    "SPEAKERS": "Skybert Hacks",
+    "TAGS": [
+      "d2",
+      "org"
+    ],
+    "BODY": "Create beautiful diagrams inside of Emacs using d2. I show you how to work with d2 in Emacs, how to embed these inside of Org mode,  have them update automatically as well as scaling them correctly in HTML exports.\n\n  ,# Conf\n  - https://gitlab.com/skybert/my-little-friends/-/blob/master/\n\n  ,# Connect\n  🕸️ https://skybert.net\n  🐘 https://hachyderm.io/@skybert\n  📫 torstein@skybert.net\n\n  ,#emacs #diagrams #productivity #d2"
+  },
+  {
+    "ITEM": "Org Roam Dashboard",
+    "DATE": "2026-09-19T02:00:51-07:00",
+    "DURATION": "10:01",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=20WfbmJmV1M",
+    "SPEAKERS": "Thach H. Pham",
+    "TAGS": [
+      "org",
+      "OrgRoam"
+    ],
+    "BODY": "github.com/Pham-Hoang-Thach/org-roam-dashboard"
+  },
+  {
+    "ITEM": "¿Por qué Doom Emacs es el secreto de los expertos?",
+    "DATE": "2026-09-16T10:00:02-07:00",
+    "DURATION": "22:25",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=LumS4REqIjs",
+    "SPEAKERS": "Manuel Cabrera Caballero",
+    "TAGS": [
+      "DoomEmacs"
+    ],
+    "BODY": "¿Sientes que Emacs es demasiado complejo pero quieres aprovechar todo su poder? En este video te revelo el secreto mejor guardado para dominar este editor: Doom Emacs.\n\n  Doom Emacs no es solo una skin, es un framework \"supervitaminado\" con más de 150 módulos que transforma por completo tu flujo de trabajo en Linux. Te guiaré paso a paso en la instalación y configuración sobre Ubuntu 26.04 y Pop!_OS, para que pases de principiante a experto sin complicaciones.\n\n  En este tutorial aprenderás:\n\n  ✅ Qué es Doom Emacs y por qué NO es un fork.\n  ✅ Requisitos previos: Instalación de dependencias (Git, Ripgrep, fd-find).\n  ✅ Cómo instalar fuentes con glifos (JetBrains Mono y Nerd Fonts).\n  ✅ Configuración de archivos clave: init.el, config.el y packages.el.\n  ✅ Sincronización de módulos y optimización de la interfaz.\n  ✅ Trucos para integrar Doom Emacs directamente en tu escritorio (archivos .desktop).\n  Si eres usuario de Vim o NeoVim y buscas una alternativa potente con modo Evil, este video es para ti. ¡No dejes que la fama de \"difícil\" te detenga y dale una oportunidad al editor definitivo!\n\n  Recursos mencionados:\n\n  Sitio oficial: https://doomemacs.org\n  Video anterior (Compilar Emacs): https://youtu.be/OOuP9YCQnpE\n  Guía de comandos VI: https://youtu.be/iDsoWRdzAds\n\n  ,#DoomEmacs #Linux #Emacs #Productividad #OpenSource #Ubuntu #PopOS #Programacion #Vim #DriveMeca\n\n  Hardware que utilizo en mi día a día:\n  🔹 Procesador Ryzen 8700F: https://amzn.to/45ribWt\n  🔹 Placa Base Gigabyte 870 Eagle: https://amzn.to/4wqvIJD\n  🔹 Crucial Pro DDR5 RAM 32 GB Kit (2x16GB): https://amzn.to/4vUjfNy\n  🔹 TEAMGROUP T-Force CARDEA A440 Pro: https://amzn.to/4fETcnl\n  🔹 Tarjeta Gráfica Radeon RX 9070 XT: https://amzn.to/4yJE9RR\n  🔹 LINKUP Cable elevador PCIE 5.0: https://amzn.to/4x4vJmx\n  🔹 AIO ARTIC Liquid Freezer III Pro 360: https://amzn.to/4bcW6yq\n  🔹 Rosewill VMG 850W 80+ Gold: https://amzn.to/4wrxQAZ\n  🔹 LIAN LI O11D MINI V2 Flow: https://amzn.to/3RGFM2f\n  🔹 SAMSUNG - Monitor de juegos ultraancho Odyssey G5: https://amzn.to/4fpWsnN\n  🔹 Logitech C920x HD Pro PC Webcam: https://amzn.to/3TmTdF3\n  🔹 Blue Yeti - Micrófono USB: https://amzn.to/4bhnxHi\n  🔹 ASUS Monitor de 27 pulgadas: https://amzn.to/4c7ly8F\n  🔹 Elgato Stream Deck: https://amzn.to/4fMyOkq\n  🔹 Mi Setup completo: http://amzn.to/3aXfxuU\n  Estos son enlaces de afiliado en Amazon, no es mas caro para ti y si es una comisión para mi.\n\n  👉 Únete a mi membresia: https://www.youtube.com/channel/UC1h0yDawct42gLAeAckeDTg/join\n  👉 Enlace del canal en #Telegram: https://t.me/drivemeca_publicaciones\n  🧐 Hardware de mi pc gaming Amazon USA: http://amzn.to/3aXfxuU\n  🧐 Hardware de mi pc gaming Amazon España: http://amzn.to/3rHNaHQ\n\n  Apoyame con #PayPal, cualquier cantidad es bienvenida y yo podre continuar enseñando #opensource\n\n  Donar 5 USD: http://bit.ly/2rndPgL\n  Donar 10 USD: http://bit.ly/2sBhTaY\n  Donar 25 USD: http://bit.ly/2rnryEF\n\n  ,#Blog de artículos de opensource, algo de #videojuegos y mas\n  http://bit.ly/2Bqvhs4\n\n  Con vidIQ haz crecer tu canal rapido! 🚀\n  https://vidiq.com/drivemeca\n\n  Suscribete ahora para ver todos mis vídeos\n  http://www.youtube.com/@DriveMeca?sub_confirmation=1\n\n  Sigamos en contacto\n  DriveMeca ► https://drivemeca.blogspot.com\n  DriveMeca ► https://www.drivemeca.com\n  Facebook ► https://www.facebook.com/videojuegosyopensource\n  Twitter ► https://twitter.com/drivemeca\n  Telegram Canal ► https://t.me/drivemeca_publicaciones\n  Telegram ► https://t.me/drivemeca_opensource\n  Tiktok ► https://www.tiktok.com/@drivemeca\n  Twitch ► https://www.twitch.tv/drivemeca\n  Discord ► https://discord.gg/6wdmwgq2m4\n  Instagram ►https://www.instagram.com/drivemeca\n\n  0:00 Introducción a Doom Emacs y su potencial\n  1:03 ¿Qué es Doom Emacs? (Aclarando mitos)\n  2:01 Prerrequisitos de instalación: GNU Emacs y Git\n  3:00 Importancia de las fuentes con glifos (Nerd Fonts)\n  4:00 Cómo instalar Symbols Nerd Font rápidamente\n  5:15 Conocimiento básico de VI: Un requisito esencial\n  6:00 Instalación de dependencias en Ubuntu 26.04 y Pop!_OS\n  6:30 Clonando el repositorio de Doom Emacs\n  7:01 Ejecución del instalador de Doom\n  8:02 Configurando la variable PATH en .bashrc\n  9:08 Entendiendo los archivos clave: init.el, config.el y packages.el\n  9:55 Editando módulos en init.el (Company, Vertico, UI)\n  11:53 Activando lenguajes de programación (Python, JS, Markdown)\n  12:50 Sincronizando cambios con 'doom sync'\n  13:10 Personalización estética: Fuentes (JetBrains Mono) y Temas\n  16:18 Verificación de versión de Emacs (31.1)\n  17:44 Solución: Cómo integrar Doom Emacs en el menú de aplicaciones (.desktop) 19:15 Modificando el ejecutable para que cargue el framework\n  20:42 Actualizando la base de datos de escritorio\n  21:10 Conclusión y adelanto: Org Mode, LSP y Magit"
+  },
+  {
+    "ITEM": "I Migrated My Obsidian Vault to Org Mode - Emacs Everywhere #2",
+    "DATE": "2026-09-15T04:00:08-07:00",
+    "DURATION": "1:12:35",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=f2AAE2u5Xic",
+    "SPEAKERS": "Data Lab Tech",
+    "TAGS": [
+      "org"
+    ],
+    "BODY": "This is a video about how I migrated my Obsidian Vault to Org Mode, converting markdown to org using a combination of justfile recipes, bash scripts, DuckDB SQL queries, and Pandoc Lua filters.\n\n  📺 Watch the full Emacs Everywhere series here ► https://www.youtube.com/playlist?list=PLLHUnpt36CJg\n\n  In this series, I share my Emacs workflow, including all the bits that are not directly about Emacs:\n\n  ► In part 1, I introduce the basics of Doom Emacs, teaching you how to learn Emacs.\n  ► In part 2, I show how I migrated from Obsidian Vault to Org Mode, using pandoc to convert markdown to org, and pandoc-lua to restructure my org notes in a way that fits my new org based workflow.\n  ► In part 3, I go through all the major features of Org Mode, covering a few packages I find useful.\n  ► In part 4, I describe the incremental backup strategy that I use to ensure I never lose any of my org notes.\n\n  🔗 Resources:\n  💻 GitHub repo: https://github.com/DataLabTechTV/md2org/\n  📝 Blog post: https://datalabtechtv.com/posts/emacs-everywhere-part-2-migrating-from-obsidian-to-org-mode/\n  📚 Org Mode: https://orgmode.org/org.html\n  📚 Lua: https://www.luadocs.com/\n  📚 Pandoc Lua: https://pandoc.org/lua-filters.html\n  📚 DuckDB: https://duckdb.org/docs/lts/sql/statements/overview\n\n  🔔 Subscribe for more deep dives data science, data engineering, and all things data!\n  ☁️ Follow the channel on Bluesky: https://bsky.app/profile/datalabtechtv.com\n  🎧 Join our community's Discord: https://discord.gg/6xpe827ANZ\n  👽 Join our subreddit: https://www.reddit.com/r/DataLabTechTV/\n  💻 Check out the channel's GitHub: https://github.com/DataLabTechTV\n  🌐 Visit our website for blog posts: https://datalabtechtv.com\n\n​#emacs #orgmode #justfile #bash #shellscripting #duckdb #pandoc #lua\n\n  0:00 Intro\n  6:08 md2org: Project Structure and Configuration\n  25:39 m2org: Just, Bash, DuckDB, and Pandoc Lua\n  1:07:46 Outro"
+  },
+  {
+    "ITEM": "Livecoding for emacs: supersonic.el",
+    "DATE": "2026-09-11T23:36:39-07:00",
+    "DURATION": "8:06",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=UGSV8XG-JMA",
+    "SPEAKERS": "mc3scher",
+    "TAGS": [
+      "elisp"
+    ],
+    "BODY": "Implementing a Subsonic compatible music player"
+  },
+  {
     "ITEM": "the emacs theme I use: N Λ N O Theme",
     "DATE": "2026-09-03T08:42:35-07:00",
     "DURATION": "6:23",

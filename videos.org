@@ -4,6 +4,191 @@
 #+COMMENT: [[shell:npm run build; git commit -m "update" -a; git push][Update]]
 
 
+* Images with Emacs   :dired:
+:PROPERTIES:
+:DATE:     2026-09-19T11:21:44-07:00
+:DURATION: 19:00
+:YOUTUBE_URL: https://www.youtube.com/watch?v=0taEcb0wq3o
+:SPEAKERS: Jon Kishore
+:END:
+  ,# Artical
+  https://lucidmanager.org/productivity/using-emacs-image-dired/
+
+* Beautiful diagrams in Emacs  :d2:org:
+:PROPERTIES:
+:DATE:     2026-09-19T03:47:58-07:00
+:DURATION: 11:07
+:YOUTUBE_URL: https://www.youtube.com/watch?v=SsC-OsHR9RY
+:SPEAKERS: Skybert Hacks
+:END:
+  Create beautiful diagrams inside of Emacs using d2. I show you how to work with d2 in Emacs, how to embed these inside of Org mode,  have them update automatically as well as scaling them correctly in HTML exports.
+
+  ,# Conf
+  - https://gitlab.com/skybert/my-little-friends/-/blob/master/
+
+  ,# Connect
+  🕸️ https://skybert.net
+  🐘 https://hachyderm.io/@skybert
+  📫 torstein@skybert.net
+
+  ,#emacs #diagrams #productivity #d2
+* Org Roam Dashboard   :org:OrgRoam:
+:PROPERTIES:
+:DATE:     2026-09-19T02:00:51-07:00
+:DURATION: 10:01
+:YOUTUBE_URL: https://www.youtube.com/watch?v=20WfbmJmV1M
+:SPEAKERS: Thach H. Pham
+:END:
+  github.com/Pham-Hoang-Thach/org-roam-dashboard
+
+* ¿Por qué Doom Emacs es el secreto de los expertos?   :DoomEmacs:
+:PROPERTIES:
+:DATE:     2026-09-16T10:00:02-07:00
+:DURATION: 22:25
+:YOUTUBE_URL: https://www.youtube.com/watch?v=LumS4REqIjs
+:SPEAKERS: Manuel Cabrera Caballero
+:END:
+  ¿Sientes que Emacs es demasiado complejo pero quieres aprovechar todo su poder? En este video te revelo el secreto mejor guardado para dominar este editor: Doom Emacs.
+
+  Doom Emacs no es solo una skin, es un framework "supervitaminado" con más de 150 módulos que transforma por completo tu flujo de trabajo en Linux. Te guiaré paso a paso en la instalación y configuración sobre Ubuntu 26.04 y Pop!_OS, para que pases de principiante a experto sin complicaciones.
+
+  En este tutorial aprenderás:
+
+  ✅ Qué es Doom Emacs y por qué NO es un fork.
+  ✅ Requisitos previos: Instalación de dependencias (Git, Ripgrep, fd-find).
+  ✅ Cómo instalar fuentes con glifos (JetBrains Mono y Nerd Fonts).
+  ✅ Configuración de archivos clave: init.el, config.el y packages.el.
+  ✅ Sincronización de módulos y optimización de la interfaz.
+  ✅ Trucos para integrar Doom Emacs directamente en tu escritorio (archivos .desktop).
+  Si eres usuario de Vim o NeoVim y buscas una alternativa potente con modo Evil, este video es para ti. ¡No dejes que la fama de "difícil" te detenga y dale una oportunidad al editor definitivo!
+
+  Recursos mencionados:
+
+  Sitio oficial: https://doomemacs.org
+  Video anterior (Compilar Emacs): https://youtu.be/OOuP9YCQnpE
+  Guía de comandos VI: https://youtu.be/iDsoWRdzAds
+
+  ,#DoomEmacs #Linux #Emacs #Productividad #OpenSource #Ubuntu #PopOS #Programacion #Vim #DriveMeca
+
+  Hardware que utilizo en mi día a día:
+  🔹 Procesador Ryzen 8700F: https://amzn.to/45ribWt
+  🔹 Placa Base Gigabyte 870 Eagle: https://amzn.to/4wqvIJD
+  🔹 Crucial Pro DDR5 RAM 32 GB Kit (2x16GB): https://amzn.to/4vUjfNy
+  🔹 TEAMGROUP T-Force CARDEA A440 Pro: https://amzn.to/4fETcnl
+  🔹 Tarjeta Gráfica Radeon RX 9070 XT: https://amzn.to/4yJE9RR
+  🔹 LINKUP Cable elevador PCIE 5.0: https://amzn.to/4x4vJmx
+  🔹 AIO ARTIC Liquid Freezer III Pro 360: https://amzn.to/4bcW6yq
+  🔹 Rosewill VMG 850W 80+ Gold: https://amzn.to/4wrxQAZ
+  🔹 LIAN LI O11D MINI V2 Flow: https://amzn.to/3RGFM2f
+  🔹 SAMSUNG - Monitor de juegos ultraancho Odyssey G5: https://amzn.to/4fpWsnN
+  🔹 Logitech C920x HD Pro PC Webcam: https://amzn.to/3TmTdF3
+  🔹 Blue Yeti - Micrófono USB: https://amzn.to/4bhnxHi
+  🔹 ASUS Monitor de 27 pulgadas: https://amzn.to/4c7ly8F
+  🔹 Elgato Stream Deck: https://amzn.to/4fMyOkq
+  🔹 Mi Setup completo: http://amzn.to/3aXfxuU
+  Estos son enlaces de afiliado en Amazon, no es mas caro para ti y si es una comisión para mi.
+
+  👉 Únete a mi membresia: https://www.youtube.com/channel/UC1h0yDawct42gLAeAckeDTg/join
+  👉 Enlace del canal en #Telegram: https://t.me/drivemeca_publicaciones
+  🧐 Hardware de mi pc gaming Amazon USA: http://amzn.to/3aXfxuU
+  🧐 Hardware de mi pc gaming Amazon España: http://amzn.to/3rHNaHQ
+
+  Apoyame con #PayPal, cualquier cantidad es bienvenida y yo podre continuar enseñando #opensource
+
+  Donar 5 USD: http://bit.ly/2rndPgL
+  Donar 10 USD: http://bit.ly/2sBhTaY
+  Donar 25 USD: http://bit.ly/2rnryEF
+
+  ,#Blog de artículos de opensource, algo de #videojuegos y mas
+  http://bit.ly/2Bqvhs4
+
+  Con vidIQ haz crecer tu canal rapido! 🚀
+  https://vidiq.com/drivemeca
+
+  Suscribete ahora para ver todos mis vídeos
+  http://www.youtube.com/@DriveMeca?sub_confirmation=1
+
+  Sigamos en contacto
+  DriveMeca ► https://drivemeca.blogspot.com
+  DriveMeca ► https://www.drivemeca.com
+  Facebook ► https://www.facebook.com/videojuegosyopensource
+  Twitter ► https://twitter.com/drivemeca
+  Telegram Canal ► https://t.me/drivemeca_publicaciones
+  Telegram ► https://t.me/drivemeca_opensource
+  Tiktok ► https://www.tiktok.com/@drivemeca
+  Twitch ► https://www.twitch.tv/drivemeca
+  Discord ► https://discord.gg/6wdmwgq2m4
+  Instagram ►https://www.instagram.com/drivemeca
+
+  0:00 Introducción a Doom Emacs y su potencial
+  1:03 ¿Qué es Doom Emacs? (Aclarando mitos)
+  2:01 Prerrequisitos de instalación: GNU Emacs y Git
+  3:00 Importancia de las fuentes con glifos (Nerd Fonts)
+  4:00 Cómo instalar Symbols Nerd Font rápidamente
+  5:15 Conocimiento básico de VI: Un requisito esencial
+  6:00 Instalación de dependencias en Ubuntu 26.04 y Pop!_OS
+  6:30 Clonando el repositorio de Doom Emacs
+  7:01 Ejecución del instalador de Doom
+  8:02 Configurando la variable PATH en .bashrc
+  9:08 Entendiendo los archivos clave: init.el, config.el y packages.el
+  9:55 Editando módulos en init.el (Company, Vertico, UI)
+  11:53 Activando lenguajes de programación (Python, JS, Markdown)
+  12:50 Sincronizando cambios con 'doom sync'
+  13:10 Personalización estética: Fuentes (JetBrains Mono) y Temas
+  16:18 Verificación de versión de Emacs (31.1)
+  17:44 Solución: Cómo integrar Doom Emacs en el menú de aplicaciones (.desktop) 19:15 Modificando el ejecutable para que cargue el framework
+  20:42 Actualizando la base de datos de escritorio
+  21:10 Conclusión y adelanto: Org Mode, LSP y Magit
+
+* I Migrated My Obsidian Vault to Org Mode - Emacs Everywhere #2  :org:
+:PROPERTIES:
+:DATE:     2026-09-15T04:00:08-07:00
+:DURATION: 1:12:35
+:YOUTUBE_URL: https://www.youtube.com/watch?v=f2AAE2u5Xic
+:SPEAKERS: Data Lab Tech
+:END:
+  This is a video about how I migrated my Obsidian Vault to Org Mode, converting markdown to org using a combination of justfile recipes, bash scripts, DuckDB SQL queries, and Pandoc Lua filters.
+
+  📺 Watch the full Emacs Everywhere series here ► https://www.youtube.com/playlist?list=PLLHUnpt36CJg
+
+  In this series, I share my Emacs workflow, including all the bits that are not directly about Emacs:
+
+  ► In part 1, I introduce the basics of Doom Emacs, teaching you how to learn Emacs.
+  ► In part 2, I show how I migrated from Obsidian Vault to Org Mode, using pandoc to convert markdown to org, and pandoc-lua to restructure my org notes in a way that fits my new org based workflow.
+  ► In part 3, I go through all the major features of Org Mode, covering a few packages I find useful.
+  ► In part 4, I describe the incremental backup strategy that I use to ensure I never lose any of my org notes.
+
+  🔗 Resources:
+  💻 GitHub repo: https://github.com/DataLabTechTV/md2org/
+  📝 Blog post: https://datalabtechtv.com/posts/emacs-everywhere-part-2-migrating-from-obsidian-to-org-mode/
+  📚 Org Mode: https://orgmode.org/org.html
+  📚 Lua: https://www.luadocs.com/
+  📚 Pandoc Lua: https://pandoc.org/lua-filters.html
+  📚 DuckDB: https://duckdb.org/docs/lts/sql/statements/overview
+
+  🔔 Subscribe for more deep dives data science, data engineering, and all things data!
+  ☁️ Follow the channel on Bluesky: https://bsky.app/profile/datalabtechtv.com
+  🎧 Join our community's Discord: https://discord.gg/6xpe827ANZ
+  👽 Join our subreddit: https://www.reddit.com/r/DataLabTechTV/
+  💻 Check out the channel's GitHub: https://github.com/DataLabTechTV
+  🌐 Visit our website for blog posts: https://datalabtechtv.com
+
+​#emacs #orgmode #justfile #bash #shellscripting #duckdb #pandoc #lua
+
+  0:00 Intro
+  6:08 md2org: Project Structure and Configuration
+  25:39 m2org: Just, Bash, DuckDB, and Pandoc Lua
+  1:07:46 Outro
+
+* Livecoding for emacs: supersonic.el  :elisp:
+:PROPERTIES:
+:DATE:     2026-09-11T23:36:39-07:00
+:DURATION: 8:06
+:YOUTUBE_URL: https://www.youtube.com/watch?v=UGSV8XG-JMA
+:SPEAKERS: mc3scher
+:END:
+  Implementing a Subsonic compatible music player
+
 * the emacs theme I use: N Λ N O Theme   :nano:
 :PROPERTIES:
 :DATE:     2026-09-03T08:42:35-07:00

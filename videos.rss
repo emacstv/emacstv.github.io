@@ -6,6 +6,182 @@
     <atom:link href="https://emacs.tv/videos.rss" rel="self" type="application/rss+xml" />
     <description>Emacs videos</description>
     <item>
+      <title>Images with Emacs</title>
+      <link>https://www.youtube.com/watch?v=0taEcb0wq3o</link>
+      <guid>https://www.youtube.com/watch?v=0taEcb0wq3o</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=0taEcb0wq3o">youtube</a><br><br>,# Artical
+  https://lucidmanager.org/productivity/using-emacs-image-dired/</div>]]></description>
+      <pubDate>Sat, 19 Sep 2026 18:21:44 +0000</pubDate><category>dired</category>
+    </item>
+    <item>
+      <title>Beautiful diagrams in Emacs</title>
+      <link>https://www.youtube.com/watch?v=SsC-OsHR9RY</link>
+      <guid>https://www.youtube.com/watch?v=SsC-OsHR9RY</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=SsC-OsHR9RY">youtube</a><br><br>Create beautiful diagrams inside of Emacs using d2. I show you how to work with d2 in Emacs, how to embed these inside of Org mode,  have them update automatically as well as scaling them correctly in HTML exports.
+
+  ,# Conf
+  - https://gitlab.com/skybert/my-little-friends/-/blob/master/
+
+  ,# Connect
+  🕸️ https://skybert.net
+  🐘 https://hachyderm.io/@skybert
+  📫 torstein@skybert.net
+
+  ,#emacs #diagrams #productivity #d2</div>]]></description>
+      <pubDate>Sat, 19 Sep 2026 10:47:58 +0000</pubDate><category>d2</category>
+<category>org</category>
+    </item>
+    <item>
+      <title>Org Roam Dashboard</title>
+      <link>https://www.youtube.com/watch?v=20WfbmJmV1M</link>
+      <guid>https://www.youtube.com/watch?v=20WfbmJmV1M</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=20WfbmJmV1M">youtube</a><br><br>github.com/Pham-Hoang-Thach/org-roam-dashboard</div>]]></description>
+      <pubDate>Sat, 19 Sep 2026 09:00:51 +0000</pubDate><category>org</category>
+<category>OrgRoam</category>
+    </item>
+    <item>
+      <title>¿Por qué Doom Emacs es el secreto de los expertos?</title>
+      <link>https://www.youtube.com/watch?v=LumS4REqIjs</link>
+      <guid>https://www.youtube.com/watch?v=LumS4REqIjs</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=LumS4REqIjs">youtube</a><br><br>¿Sientes que Emacs es demasiado complejo pero quieres aprovechar todo su poder? En este video te revelo el secreto mejor guardado para dominar este editor: Doom Emacs.
+
+  Doom Emacs no es solo una skin, es un framework "supervitaminado" con más de 150 módulos que transforma por completo tu flujo de trabajo en Linux. Te guiaré paso a paso en la instalación y configuración sobre Ubuntu 26.04 y Pop!_OS, para que pases de principiante a experto sin complicaciones.
+
+  En este tutorial aprenderás:
+
+  ✅ Qué es Doom Emacs y por qué NO es un fork.
+  ✅ Requisitos previos: Instalación de dependencias (Git, Ripgrep, fd-find).
+  ✅ Cómo instalar fuentes con glifos (JetBrains Mono y Nerd Fonts).
+  ✅ Configuración de archivos clave: init.el, config.el y packages.el.
+  ✅ Sincronización de módulos y optimización de la interfaz.
+  ✅ Trucos para integrar Doom Emacs directamente en tu escritorio (archivos .desktop).
+  Si eres usuario de Vim o NeoVim y buscas una alternativa potente con modo Evil, este video es para ti. ¡No dejes que la fama de "difícil" te detenga y dale una oportunidad al editor definitivo!
+
+  Recursos mencionados:
+
+  Sitio oficial: https://doomemacs.org
+  Video anterior (Compilar Emacs): https://youtu.be/OOuP9YCQnpE
+  Guía de comandos VI: https://youtu.be/iDsoWRdzAds
+
+  ,#DoomEmacs #Linux #Emacs #Productividad #OpenSource #Ubuntu #PopOS #Programacion #Vim #DriveMeca
+
+  Hardware que utilizo en mi día a día:
+  🔹 Procesador Ryzen 8700F: https://amzn.to/45ribWt
+  🔹 Placa Base Gigabyte 870 Eagle: https://amzn.to/4wqvIJD
+  🔹 Crucial Pro DDR5 RAM 32 GB Kit (2x16GB): https://amzn.to/4vUjfNy
+  🔹 TEAMGROUP T-Force CARDEA A440 Pro: https://amzn.to/4fETcnl
+  🔹 Tarjeta Gráfica Radeon RX 9070 XT: https://amzn.to/4yJE9RR
+  🔹 LINKUP Cable elevador PCIE 5.0: https://amzn.to/4x4vJmx
+  🔹 AIO ARTIC Liquid Freezer III Pro 360: https://amzn.to/4bcW6yq
+  🔹 Rosewill VMG 850W 80+ Gold: https://amzn.to/4wrxQAZ
+  🔹 LIAN LI O11D MINI V2 Flow: https://amzn.to/3RGFM2f
+  🔹 SAMSUNG - Monitor de juegos ultraancho Odyssey G5: https://amzn.to/4fpWsnN
+  🔹 Logitech C920x HD Pro PC Webcam: https://amzn.to/3TmTdF3
+  🔹 Blue Yeti - Micrófono USB: https://amzn.to/4bhnxHi
+  🔹 ASUS Monitor de 27 pulgadas: https://amzn.to/4c7ly8F
+  🔹 Elgato Stream Deck: https://amzn.to/4fMyOkq
+  🔹 Mi Setup completo: http://amzn.to/3aXfxuU
+  Estos son enlaces de afiliado en Amazon, no es mas caro para ti y si es una comisión para mi.
+
+  👉 Únete a mi membresia: https://www.youtube.com/channel/UC1h0yDawct42gLAeAckeDTg/join
+  👉 Enlace del canal en #Telegram: https://t.me/drivemeca_publicaciones
+  🧐 Hardware de mi pc gaming Amazon USA: http://amzn.to/3aXfxuU
+  🧐 Hardware de mi pc gaming Amazon España: http://amzn.to/3rHNaHQ
+
+  Apoyame con #PayPal, cualquier cantidad es bienvenida y yo podre continuar enseñando #opensource
+
+  Donar 5 USD: http://bit.ly/2rndPgL
+  Donar 10 USD: http://bit.ly/2sBhTaY
+  Donar 25 USD: http://bit.ly/2rnryEF
+
+  ,#Blog de artículos de opensource, algo de #videojuegos y mas
+  http://bit.ly/2Bqvhs4
+
+  Con vidIQ haz crecer tu canal rapido! 🚀
+  https://vidiq.com/drivemeca
+
+  Suscribete ahora para ver todos mis vídeos
+  http://www.youtube.com/@DriveMeca?sub_confirmation=1
+
+  Sigamos en contacto
+  DriveMeca ► https://drivemeca.blogspot.com
+  DriveMeca ► https://www.drivemeca.com
+  Facebook ► https://www.facebook.com/videojuegosyopensource
+  Twitter ► https://twitter.com/drivemeca
+  Telegram Canal ► https://t.me/drivemeca_publicaciones
+  Telegram ► https://t.me/drivemeca_opensource
+  Tiktok ► https://www.tiktok.com/@drivemeca
+  Twitch ► https://www.twitch.tv/drivemeca
+  Discord ► https://discord.gg/6wdmwgq2m4
+  Instagram ►https://www.instagram.com/drivemeca
+
+  0:00 Introducción a Doom Emacs y su potencial
+  1:03 ¿Qué es Doom Emacs? (Aclarando mitos)
+  2:01 Prerrequisitos de instalación: GNU Emacs y Git
+  3:00 Importancia de las fuentes con glifos (Nerd Fonts)
+  4:00 Cómo instalar Symbols Nerd Font rápidamente
+  5:15 Conocimiento básico de VI: Un requisito esencial
+  6:00 Instalación de dependencias en Ubuntu 26.04 y Pop!_OS
+  6:30 Clonando el repositorio de Doom Emacs
+  7:01 Ejecución del instalador de Doom
+  8:02 Configurando la variable PATH en .bashrc
+  9:08 Entendiendo los archivos clave: init.el, config.el y packages.el
+  9:55 Editando módulos en init.el (Company, Vertico, UI)
+  11:53 Activando lenguajes de programación (Python, JS, Markdown)
+  12:50 Sincronizando cambios con 'doom sync'
+  13:10 Personalización estética: Fuentes (JetBrains Mono) y Temas
+  16:18 Verificación de versión de Emacs (31.1)
+  17:44 Solución: Cómo integrar Doom Emacs en el menú de aplicaciones (.desktop) 19:15 Modificando el ejecutable para que cargue el framework
+  20:42 Actualizando la base de datos de escritorio
+  21:10 Conclusión y adelanto: Org Mode, LSP y Magit</div>]]></description>
+      <pubDate>Wed, 16 Sep 2026 17:00:02 +0000</pubDate><category>DoomEmacs</category>
+    </item>
+    <item>
+      <title>I Migrated My Obsidian Vault to Org Mode - Emacs Everywhere #2</title>
+      <link>https://www.youtube.com/watch?v=f2AAE2u5Xic</link>
+      <guid>https://www.youtube.com/watch?v=f2AAE2u5Xic</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=f2AAE2u5Xic">youtube</a><br><br>This is a video about how I migrated my Obsidian Vault to Org Mode, converting markdown to org using a combination of justfile recipes, bash scripts, DuckDB SQL queries, and Pandoc Lua filters.
+
+  📺 Watch the full Emacs Everywhere series here ► https://www.youtube.com/playlist?list=PLLHUnpt36CJg
+
+  In this series, I share my Emacs workflow, including all the bits that are not directly about Emacs:
+
+  ► In part 1, I introduce the basics of Doom Emacs, teaching you how to learn Emacs.
+  ► In part 2, I show how I migrated from Obsidian Vault to Org Mode, using pandoc to convert markdown to org, and pandoc-lua to restructure my org notes in a way that fits my new org based workflow.
+  ► In part 3, I go through all the major features of Org Mode, covering a few packages I find useful.
+  ► In part 4, I describe the incremental backup strategy that I use to ensure I never lose any of my org notes.
+
+  🔗 Resources:
+  💻 GitHub repo: https://github.com/DataLabTechTV/md2org/
+  📝 Blog post: https://datalabtechtv.com/posts/emacs-everywhere-part-2-migrating-from-obsidian-to-org-mode/
+  📚 Org Mode: https://orgmode.org/org.html
+  📚 Lua: https://www.luadocs.com/
+  📚 Pandoc Lua: https://pandoc.org/lua-filters.html
+  📚 DuckDB: https://duckdb.org/docs/lts/sql/statements/overview
+
+  🔔 Subscribe for more deep dives data science, data engineering, and all things data!
+  ☁️ Follow the channel on Bluesky: https://bsky.app/profile/datalabtechtv.com
+  🎧 Join our community's Discord: https://discord.gg/6xpe827ANZ
+  👽 Join our subreddit: https://www.reddit.com/r/DataLabTechTV/
+  💻 Check out the channel's GitHub: https://github.com/DataLabTechTV
+  🌐 Visit our website for blog posts: https://datalabtechtv.com
+
+​#emacs #orgmode #justfile #bash #shellscripting #duckdb #pandoc #lua
+
+  0:00 Intro
+  6:08 md2org: Project Structure and Configuration
+  25:39 m2org: Just, Bash, DuckDB, and Pandoc Lua
+  1:07:46 Outro</div>]]></description>
+      <pubDate>Tue, 15 Sep 2026 11:00:08 +0000</pubDate><category>org</category>
+    </item>
+    <item>
+      <title>Livecoding for emacs: supersonic.el</title>
+      <link>https://www.youtube.com/watch?v=UGSV8XG-JMA</link>
+      <guid>https://www.youtube.com/watch?v=UGSV8XG-JMA</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=UGSV8XG-JMA">youtube</a><br><br>Implementing a Subsonic compatible music player</div>]]></description>
+      <pubDate>Sat, 12 Sep 2026 06:36:39 +0000</pubDate><category>elisp</category>
+    </item>
+    <item>
       <title>the emacs theme I use: N Λ N O Theme</title>
       <link>https://www.youtube.com/watch?v=Dlm7sxDB6h8</link>
       <guid>https://www.youtube.com/watch?v=Dlm7sxDB6h8</guid>
@@ -669,146 +845,6 @@
 
   ,#emacs #orgmode #protesilaos #productivity #opensource #linux</div>]]></description>
       <pubDate>Sat, 01 Aug 2026 12:04:26 +0000</pubDate><category>org</category>
-    </item>
-    <item>
-      <title>Rewriting my Emacs config</title>
-      <link>https://www.youtube.com/watch?v=Lp7am2QGCJM</link>
-      <guid>https://www.youtube.com/watch?v=Lp7am2QGCJM</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=Lp7am2QGCJM">youtube</a><br><br></div>]]></description>
-      <pubDate>Fri, 31 Jul 2026 11:54:37 +0000</pubDate><category>configuration</category>
-    </item>
-    <item>
-      <title>What I Need From Emacs: A Video for Prot</title>
-      <link>https://www.youtube.com/watch?v=hWn8xdWP2eo</link>
-      <guid>https://www.youtube.com/watch?v=hWn8xdWP2eo</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=hWn8xdWP2eo">youtube</a><br><br>This is a video for Prot about the Emacs workflow I want to build over the coming weeks. The problem is not Evil mode or memorizing keybindings: it is reducing the friction between how I already work and how I want to work in Emacs.
-
-  I explain my project-based terminal sessions, fast file search, per-project buffers, daily-note capture, and linked notes. The goal is to find an Emacs workflow that lets me move quickly between GitHub repos, capture thoughts without ceremony, and keep related work isolated. Eren also makes a brief appearance to remind me that not opening Emacs for two weeks is dishonoring my family.
-
-  Originally discussed on livestream:
-  https://youtube.com/live/7futQJBLB1g
-
-  Chapters:
-  0:00 What I need from Emacs
-  0:50 Why Evil mode is not the problem
-  1:54 Editor instructions and the session insert
-  2:30 Why I use Kitty sessions
-  6:33 The project-based Emacs workflow I want
-  7:38 Fast, project-scoped file search
-  9:36 Per-session buffers and workspaces
-  11:14 Daily notes and quick capture
-  14:25 Linking notes together
-  16:27 What I want to learn next
-
-  READ THIS BLOG POST:
-  How to use text to speech (TTS)?
-  Why are there 2 livestreams?
-  All the answers to these questions and more stream info here:
-  https://linkarzu.com/posts/news/streaming-info/
-
-  Support me:
-
-  Buy me the Switch 2:
-  https://ko-fi.com/linkarzu
-
-  Join the YouTube Members:
-  https://www.youtube.com/channel/UCrSIvbFncPSlK6AdwE2QboA/join
-
-  My Merch Store:
-  https://merch.linkarzu.com
-
-  My Dotfiles:
-  https://github.com/linkarzu/dotfiles-latest
-
-  Follow me on X:
-  https://x.com/link_arzu
-
-  Search terms:
-  Emacs workflow
-  Emacs project workflow
-  Emacs sessions
-  Emacs workspaces
-  Emacs file picker
-  Emacs buffer management
-  Emacs daily notes
-  Org mode daily notes
-  Org mode note linking
-  Kitty sessions
-  tmux alternative
-  Neovim to Emacs workflow
-  Emacs friction
-  per-project buffers
-  GitHub repo workflow
-
-  ,#emacs #orgmode #neovim #kittyterminal #productivity #linux</div>]]></description>
-      <pubDate>Fri, 31 Jul 2026 11:00:26 +0000</pubDate><category>org</category>
-<category>navigation</category>
-    </item>
-    <item>
-      <title>My Dotfiles Are an Org File | Dotfile Management with Emacs</title>
-      <link>https://www.youtube.com/watch?v=7xzqrmoU9dk</link>
-      <guid>https://www.youtube.com/watch?v=7xzqrmoU9dk</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=7xzqrmoU9dk">youtube</a><br><br>Reference:
-
-  My personal emacs configuration:
-  https://github.com/cashmeredev/emacs
-
-  Notes referenced:
-  https://gist.github.com/cashmeredev/e3b964c80297c568af063ce3af5b9646</div>]]></description>
-      <pubDate>Thu, 30 Jul 2026 14:03:24 +0000</pubDate><category>configuration</category>
-    </item>
-    <item>
-      <title>Emacs: default minibuffer completions overview (Emacs 31)</title>
-      <link>https://www.youtube.com/watch?v=yH0Gan6xMTo</link>
-      <guid>https://www.youtube.com/watch?v=yH0Gan6xMTo</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=yH0Gan6xMTo">youtube</a><br><br>In this video I provide an overview of the default interface for minibuffer completions in Emacs. This is an interface that has been improved considerably over the years. In Emacs version 31, this interface gets some nice new features which make it even more appealing to use. Here is the article with all the notes I have and the code samples I showed: https://protesilaos.com/codelog/2026-07-29-emacs-default-minibuffer-completion-overview/</div>]]></description>
-      <pubDate>Wed, 29 Jul 2026 20:25:33 +0000</pubDate><category>completion</category>
-    </item>
-    <item>
-      <title>Hyperbole Implicit Buttons: Build your Hyperverse</title>
-      <link>https://www.youtube.com/watch?v=o2KMvSCXwlU</link>
-      <guid>https://www.youtube.com/watch?v=o2KMvSCXwlU</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=o2KMvSCXwlU">youtube</a><br><br>This video covers Hyperbole's most elegant primitive:  Implicit Buttons.  This is the feature that turns your Emacs into a hyperverse, and allows you to traverse the organic connective tissue that already exists in any text that Emacs can render.  https://www.chiply.dev/post-hyperbole-implicit-buttons
-
-  HyWiki video and blog post: https://www.chiply.dev/post-hyperbole-hywiki
-
-  Timestamps:
-  0:00 Intro
-  5:17 Hyperverse!?!
-  7:00 Demo
-  8:05 WikiWord
-  10:18 Files
-  11:13 Inferred Files
-  12:04 GitHub
-  13:27 URL
-  14:03 Email
-  15:05 More Files
-  16:45 Mickey the Cat
-  17:06 Code Navigation
-  18:26 Why Hyperbole?
-  19:19 Man
-  19:45 Info
-  20:28 Stacktraces
-  21:29 Testing
-  22:20 About Reflexes
-  22:50 Commits
-  23:50 Docs
-  25:00 Table of Contents
-  26:15 Keybindings as Buttons
-  27:30 Introspection
-  28:56 Automatic Button Placement
-  30:57 Extending Implicit Buttons
-  32:45 Outro
-
-  ,#emacs #informationtechnology #knowledgemanagement #software #programming</div>]]></description>
-      <pubDate>Wed, 29 Jul 2026 01:38:06 +0000</pubDate><category>hyperbole</category>
-    </item>
-    <item>
-      <title>Flash.nvim For Emacs</title>
-      <link>https://www.youtube.com/watch?v=-j83jMrgOo0</link>
-      <guid>https://www.youtube.com/watch?v=-j83jMrgOo0</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=-j83jMrgOo0">youtube</a><br><br>https://github.com/Prgebish/flash</div>]]></description>
-      <pubDate>Tue, 28 Jul 2026 17:29:27 +0000</pubDate><category>navigation</category>
     </item>
   </channel>
 </rss>
