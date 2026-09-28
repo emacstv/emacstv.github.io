@@ -1,5 +1,103 @@
 [
   {
+    "ITEM": "Crie botões no Emacs",
+    "DATE": "2026-09-27T08:00:13-07:00",
+    "DURATION": "10:35",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=o27oIxbSpBQ",
+    "SPEAKERS": "O Clementino",
+    "TAGS": [
+      "hyperbole"
+    ],
+    "BODY": "Neste breve vídeo, eu falo sobre um pacote de emacs bem interessante:  o GNU Hyperbole.\n\n  Links úteis:\n  - https://www.gnu.org/software/hyperbole/"
+  },
+  {
+    "ITEM": "Playing around with OBS, Emacs, and speech commands",
+    "DATE": "2026-09-26T19:12:07-07:00",
+    "DURATION": "1:53",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=j2YSbH6OMD8",
+    "SPEAKERS": "Sacha Chua",
+    "TAGS": [
+      "speech"
+    ],
+    "BODY": "Now I can start recording, stop recording, start streaming, or stop streaming by voice command.\n\n  Related: https://sachachua.com/dotemacs/#writing-and-editing-speech-recognition-slowly-building-speech-based-commands-for-emacs\n\n  ,#speech #emacs"
+  },
+  {
+    "ITEM": "Everyday Emacs 2026-2027 Series - 1",
+    "DATE": "2026-09-25T13:01:17-07:00",
+    "DURATION": "2:10",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=3hBdSrqdXqs",
+    "SPEAKERS": "Everyday Emacs",
+    "TAGS": [
+      "coding"
+    ],
+    "BODY": "Code with me and GNU Emacs community...\n\n  https://lists.gnu.org/mailman/listinfo/emacs-devel\n\n  https://www.gnu.org/software/emacs/"
+  },
+  {
+    "ITEM": "Oct 2 - Emacs Chat 31: Pedro A. Aranda Gutierrez",
+    "DATE": "2026-09-24T16:15:31-07:00",
+    "DURATION": "0:00",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=aEnacESU-DU",
+    "SPEAKERS": "Sacha Chua",
+    "TAGS": [
+      "EmacsChat",
+      "org"
+    ],
+    "BODY": "https://sachachua.com/blog/2026/10/oct-2-emacs-chat-31-pedro-a-aranda-gutierrez/\n\n  On Oct 2, we'll chat with Pedro about Org Mode, LaTeX exports and font management including alternatives and things you can and can't do depending on your choices. He'll share some tips on fallbacks and emojis, which can help a lot with presentations and documentation. We might also discuss recent patches and realistic objectives.\n\n  2026-10-02 Fri 06:00-07:00 America/Toronto = Fri Oct 2 0600H EDT / 0500H CDT / 0400H MDT / 0300H PDT / 1000H UTC / 1200H CEST / 1300H EEST / 1530H IST / 1800H +08 / 1900H JST"
+  },
+  {
+    "ITEM": "org per creatori - i tuoi pensieri in grafi che creano storie",
+    "DATE": "2026-09-24T05:00:17-07:00",
+    "DURATION": "12:55",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=ZTsmHx7yoGo",
+    "SPEAKERS": "dauvi - tech & opt",
+    "TAGS": [
+      "org"
+    ],
+    "BODY": "Scrivere è un processo difficile per creativi che hanno tante idee a hanno bisogno di trovare ispirazione su come scrivere una storia avvincente ed un messaggio coerente.\n  Org è uno strumento incredibile che non limita il tuo modo di pensare ma ne espande le capacità ad un altro livello.\n  In questo video percorriamo la maniera in cui puoi lavorare alle tue idee principali e procedere allo stesso momento con referenze, ricerca di base, note, intuizioni, gestione dei task e navigare un grafo.\n  Per approfondire questo articolo spiega il processo  in dettaglio: https://intertino.it/spiega/a/org_creator.html\n  Altri video su org file: https://intertino.it/spiega/a/org_files.html\n  emacs: https://intertino.it/spiega/a/emacs.html\n  agenti locali: https://intertino.it/spiega/a/agent_local.html\n  grafi e agenti: https://intertino.it/spiega/a/agent_interview.html\n\n  Moments:\n  00:00 org-mode\n  00:30 writing in graphs\n  02:30 ideation framework\n  03:30 productivity tools\n  04:30 UI\n  06:00 project management\n  07:30 local agents\n  09:00 create your story\n  11:00 connect the dots\n  12:30 final overview\n\n  ,#creativi #creatori #orgmode #emacs"
+  },
+  {
+    "ITEM": "Fazendo gambiarra com Emacs e Remux",
+    "DATE": "2026-09-24T04:58:36-07:00",
+    "DURATION": "55:30",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=mzba_LQQCLM",
+    "SPEAKERS": "Mateus Cruz",
+    "TAGS": [
+      "llm"
+    ],
+    "BODY": ""
+  },
+  {
+    "ITEM": "org for creator - turn your thought from graphs into meaningful posts",
+    "DATE": "2026-09-23T23:00:30-07:00",
+    "DURATION": "13:42",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=YvFS1O2Oqvs",
+    "SPEAKERS": "dauvi - tech & opt",
+    "TAGS": [
+      "org"
+    ],
+    "BODY": "Writing is a difficult process for creators which have a lot of ideas and need to find inspiration to come with a catchy story and coherent message.\n  Org is an incredible tool which doesn't constrain your way of thinking but rather expand your capabilities to the next level.\n  In this video we show how you can work at your main idea and still proceed with references, background research, notes, sparse ideas, task tracking and graph navigation.\n  The detailed article of the project is https://intertino.it/spiega/a/org_creator.html\n  More on org files: https://intertino.it/spiega/a/org_files.html\n  emacs: https://intertino.it/spiega/a/emacs.html\n  local agents: https://intertino.it/spiega/a/agent_local.html\n  agent graphs: https://intertino.it/spiega/a/agent_interview.html\n\n  Moments:\n  00:00 org-mode\n  00:30 writing in graphs\n  02:30 ideation framework\n  03:30 productivity tools\n  04:30 UI\n  06:00 project management\n  07:30 local agents\n  09:00 create your story\n  11:00 connect the dots\n  12:30 final overview\n\n  ,#creator #knowledgegraph #mindmaps #emacs #orgmode #orgroam"
+  },
+  {
+    "ITEM": "How I Actually Use Org Mode - Emacs Everywhere #3",
+    "DATE": "2026-09-22T04:00:02-07:00",
+    "DURATION": "1:00:42",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=KQEZBGkImII",
+    "SPEAKERS": "Data Lab Tech",
+    "BODY": "Learn the basics of Org Mode, and how to use it to manage tasks, track time, export notes, quickly capture an idea, or interactively run or export source code blocks to their native file types.\n\n  📺 Watch the full Emacs Everywhere series here ► https://www.youtube.com/playlist?list=PLLHUnpt36CJg\n\n  In this series, I share my Emacs workflow, including all the bits that are not directly about Emacs:\n\n  ► In part 1, I introduce the basics of Doom Emacs, teaching you how to learn Emacs.\n  ► In part 2, I show how I migrated from Obsidian Vault to Org Mode, using pandoc to convert markdown to org, and pandoc-lua to restructure my org notes in a way that fits my new org based workflow.\n  ► In part 3, I go through all the major features of Org Mode, covering a few packages I find useful.\n  ► In part 4, I describe the incremental backup strategy that I use to ensure I never lose any of my org notes.\n\n  🔗 Resources:\n  💻 GitHub repo: https://github.com/DataLabTechTV/md2org/\n  📝 Blog post: https://datalabtechtv.com/posts/emacs-everywhere-part-3-how-i-use-org-mode/\n  📚 Org Mode: https://orgmode.org/org.html\n\n  🔔 Subscribe for more deep dives data science, data engineering, and all things data!\n  ☁️ Follow the channel on Bluesky: https://bsky.app/profile/datalabtechtv.com\n  🎧 Join our community's Discord: https://discord.gg/6xpe827ANZ\n  👽 Join our subreddit: https://www.reddit.com/r/DataLabTechTV/\n  💻 Check out the channel's GitHub: https://github.com/DataLabTechTV\n  🌐 Visit our website for blog posts: https://datalabtechtv.com\n\n​#emacs #orgmode #pkm #knowledgemanagement #taskmanagement\n\n  0:00 Intro\n  0:24 Logbook and Reporting: Clocking In\n  3:32 Org Basics\n  15:40 Org Basics: Tables\n  20:11 Org Basics: Links and Assets\n  22:46 Org Basics: Formatting\n  23:38 Org Basics: In-Buffer Settings\n  25:48 Org Basics: Property Drawers\n  29:48 Org Export (ox)\n  34:00 Literate Programming: Org Tangling\n  38:49 Literate Programming: Source Block Evaluation\n  43:13 Org Capture\n  48:34 Editor MACroS for Inserting a Template\n  53:30 Logbook and Reporting: Clocking Out\n  53:56 Org Agenda\n  55:12 Exporting to Reveal.js\n  58:59 Outro"
+  },
+  {
+    "ITEM": "Spacemacs | What kind of notes I take ? | Productivity",
+    "DATE": "2026-09-21T10:08:11-07:00",
+    "DURATION": "7:03",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=HqV_l5lry00",
+    "SPEAKERS": "Eric Nantel 🇨🇦",
+    "TAGS": [
+      "org",
+      "spacemacs"
+    ],
+    "BODY": "Spacemacs config:\n  https://codeberg.org/ericnantel/spacemacs-config\n\n  ,#spacemacs #emacs #productivity #notes #notetaking #orgmode #orgroam"
+  },
+  {
     "ITEM": "Images with Emacs",
     "DATE": "2026-09-19T11:21:44-07:00",
     "DURATION": "19:00",

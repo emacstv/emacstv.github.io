@@ -6,6 +6,172 @@
     <atom:link href="https://emacs.tv/videos.rss" rel="self" type="application/rss+xml" />
     <description>Emacs videos</description>
     <item>
+      <title>Crie botões no Emacs</title>
+      <link>https://www.youtube.com/watch?v=o27oIxbSpBQ</link>
+      <guid>https://www.youtube.com/watch?v=o27oIxbSpBQ</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=o27oIxbSpBQ">youtube</a><br><br>Neste breve vídeo, eu falo sobre um pacote de emacs bem interessante:  o GNU Hyperbole.
+
+  Links úteis:
+  - https://www.gnu.org/software/hyperbole/</div>]]></description>
+      <pubDate>Sun, 27 Sep 2026 15:00:13 +0000</pubDate><category>hyperbole</category>
+    </item>
+    <item>
+      <title>Playing around with OBS, Emacs, and speech commands</title>
+      <link>https://www.youtube.com/watch?v=j2YSbH6OMD8</link>
+      <guid>https://www.youtube.com/watch?v=j2YSbH6OMD8</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=j2YSbH6OMD8">youtube</a><br><br>Now I can start recording, stop recording, start streaming, or stop streaming by voice command.
+
+  Related: https://sachachua.com/dotemacs/#writing-and-editing-speech-recognition-slowly-building-speech-based-commands-for-emacs
+
+  ,#speech #emacs</div>]]></description>
+      <pubDate>Sun, 27 Sep 2026 02:12:07 +0000</pubDate><category>speech</category>
+    </item>
+    <item>
+      <title>Everyday Emacs 2026-2027 Series - 1</title>
+      <link>https://www.youtube.com/watch?v=3hBdSrqdXqs</link>
+      <guid>https://www.youtube.com/watch?v=3hBdSrqdXqs</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=3hBdSrqdXqs">youtube</a><br><br>Code with me and GNU Emacs community...
+
+  https://lists.gnu.org/mailman/listinfo/emacs-devel
+
+  https://www.gnu.org/software/emacs/</div>]]></description>
+      <pubDate>Fri, 25 Sep 2026 20:01:17 +0000</pubDate><category>coding</category>
+    </item>
+    <item>
+      <title>Oct 2 - Emacs Chat 31: Pedro A. Aranda Gutierrez</title>
+      <link>https://www.youtube.com/watch?v=aEnacESU-DU</link>
+      <guid>https://www.youtube.com/watch?v=aEnacESU-DU</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=aEnacESU-DU">youtube</a><br><br>https://sachachua.com/blog/2026/10/oct-2-emacs-chat-31-pedro-a-aranda-gutierrez/
+
+  On Oct 2, we'll chat with Pedro about Org Mode, LaTeX exports and font management including alternatives and things you can and can't do depending on your choices. He'll share some tips on fallbacks and emojis, which can help a lot with presentations and documentation. We might also discuss recent patches and realistic objectives.
+
+  2026-10-02 Fri 06:00-07:00 America/Toronto = Fri Oct 2 0600H EDT / 0500H CDT / 0400H MDT / 0300H PDT / 1000H UTC / 1200H CEST / 1300H EEST / 1530H IST / 1800H +08 / 1900H JST</div>]]></description>
+      <pubDate>Thu, 24 Sep 2026 23:15:31 +0000</pubDate><category>EmacsChat</category>
+<category>org</category>
+    </item>
+    <item>
+      <title>org per creatori - i tuoi pensieri in grafi che creano storie</title>
+      <link>https://www.youtube.com/watch?v=ZTsmHx7yoGo</link>
+      <guid>https://www.youtube.com/watch?v=ZTsmHx7yoGo</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=ZTsmHx7yoGo">youtube</a><br><br>Scrivere è un processo difficile per creativi che hanno tante idee a hanno bisogno di trovare ispirazione su come scrivere una storia avvincente ed un messaggio coerente.
+  Org è uno strumento incredibile che non limita il tuo modo di pensare ma ne espande le capacità ad un altro livello.
+  In questo video percorriamo la maniera in cui puoi lavorare alle tue idee principali e procedere allo stesso momento con referenze, ricerca di base, note, intuizioni, gestione dei task e navigare un grafo.
+  Per approfondire questo articolo spiega il processo  in dettaglio: https://intertino.it/spiega/a/org_creator.html
+  Altri video su org file: https://intertino.it/spiega/a/org_files.html
+  emacs: https://intertino.it/spiega/a/emacs.html
+  agenti locali: https://intertino.it/spiega/a/agent_local.html
+  grafi e agenti: https://intertino.it/spiega/a/agent_interview.html
+
+  Moments:
+  00:00 org-mode
+  00:30 writing in graphs
+  02:30 ideation framework
+  03:30 productivity tools
+  04:30 UI
+  06:00 project management
+  07:30 local agents
+  09:00 create your story
+  11:00 connect the dots
+  12:30 final overview
+
+  ,#creativi #creatori #orgmode #emacs</div>]]></description>
+      <pubDate>Thu, 24 Sep 2026 12:00:17 +0000</pubDate><category>org</category>
+    </item>
+    <item>
+      <title>Fazendo gambiarra com Emacs e Remux</title>
+      <link>https://www.youtube.com/watch?v=mzba_LQQCLM</link>
+      <guid>https://www.youtube.com/watch?v=mzba_LQQCLM</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=mzba_LQQCLM">youtube</a><br><br></div>]]></description>
+      <pubDate>Thu, 24 Sep 2026 11:58:36 +0000</pubDate><category>llm</category>
+    </item>
+    <item>
+      <title>org for creator - turn your thought from graphs into meaningful posts</title>
+      <link>https://www.youtube.com/watch?v=YvFS1O2Oqvs</link>
+      <guid>https://www.youtube.com/watch?v=YvFS1O2Oqvs</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=YvFS1O2Oqvs">youtube</a><br><br>Writing is a difficult process for creators which have a lot of ideas and need to find inspiration to come with a catchy story and coherent message.
+  Org is an incredible tool which doesn't constrain your way of thinking but rather expand your capabilities to the next level.
+  In this video we show how you can work at your main idea and still proceed with references, background research, notes, sparse ideas, task tracking and graph navigation.
+  The detailed article of the project is https://intertino.it/spiega/a/org_creator.html
+  More on org files: https://intertino.it/spiega/a/org_files.html
+  emacs: https://intertino.it/spiega/a/emacs.html
+  local agents: https://intertino.it/spiega/a/agent_local.html
+  agent graphs: https://intertino.it/spiega/a/agent_interview.html
+
+  Moments:
+  00:00 org-mode
+  00:30 writing in graphs
+  02:30 ideation framework
+  03:30 productivity tools
+  04:30 UI
+  06:00 project management
+  07:30 local agents
+  09:00 create your story
+  11:00 connect the dots
+  12:30 final overview
+
+  ,#creator #knowledgegraph #mindmaps #emacs #orgmode #orgroam</div>]]></description>
+      <pubDate>Thu, 24 Sep 2026 06:00:30 +0000</pubDate><category>org</category>
+    </item>
+    <item>
+      <title>How I Actually Use Org Mode - Emacs Everywhere #3</title>
+      <link>https://www.youtube.com/watch?v=KQEZBGkImII</link>
+      <guid>https://www.youtube.com/watch?v=KQEZBGkImII</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=KQEZBGkImII">youtube</a><br><br>Learn the basics of Org Mode, and how to use it to manage tasks, track time, export notes, quickly capture an idea, or interactively run or export source code blocks to their native file types.
+
+  📺 Watch the full Emacs Everywhere series here ► https://www.youtube.com/playlist?list=PLLHUnpt36CJg
+
+  In this series, I share my Emacs workflow, including all the bits that are not directly about Emacs:
+
+  ► In part 1, I introduce the basics of Doom Emacs, teaching you how to learn Emacs.
+  ► In part 2, I show how I migrated from Obsidian Vault to Org Mode, using pandoc to convert markdown to org, and pandoc-lua to restructure my org notes in a way that fits my new org based workflow.
+  ► In part 3, I go through all the major features of Org Mode, covering a few packages I find useful.
+  ► In part 4, I describe the incremental backup strategy that I use to ensure I never lose any of my org notes.
+
+  🔗 Resources:
+  💻 GitHub repo: https://github.com/DataLabTechTV/md2org/
+  📝 Blog post: https://datalabtechtv.com/posts/emacs-everywhere-part-3-how-i-use-org-mode/
+  📚 Org Mode: https://orgmode.org/org.html
+
+  🔔 Subscribe for more deep dives data science, data engineering, and all things data!
+  ☁️ Follow the channel on Bluesky: https://bsky.app/profile/datalabtechtv.com
+  🎧 Join our community's Discord: https://discord.gg/6xpe827ANZ
+  👽 Join our subreddit: https://www.reddit.com/r/DataLabTechTV/
+  💻 Check out the channel's GitHub: https://github.com/DataLabTechTV
+  🌐 Visit our website for blog posts: https://datalabtechtv.com
+
+​#emacs #orgmode #pkm #knowledgemanagement #taskmanagement
+
+  0:00 Intro
+  0:24 Logbook and Reporting: Clocking In
+  3:32 Org Basics
+  15:40 Org Basics: Tables
+  20:11 Org Basics: Links and Assets
+  22:46 Org Basics: Formatting
+  23:38 Org Basics: In-Buffer Settings
+  25:48 Org Basics: Property Drawers
+  29:48 Org Export (ox)
+  34:00 Literate Programming: Org Tangling
+  38:49 Literate Programming: Source Block Evaluation
+  43:13 Org Capture
+  48:34 Editor MACroS for Inserting a Template
+  53:30 Logbook and Reporting: Clocking Out
+  53:56 Org Agenda
+  55:12 Exporting to Reveal.js
+  58:59 Outro</div>]]></description>
+      <pubDate>Tue, 22 Sep 2026 11:00:02 +0000</pubDate>
+    </item>
+    <item>
+      <title>Spacemacs | What kind of notes I take ? | Productivity</title>
+      <link>https://www.youtube.com/watch?v=HqV_l5lry00</link>
+      <guid>https://www.youtube.com/watch?v=HqV_l5lry00</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=HqV_l5lry00">youtube</a><br><br>Spacemacs config:
+  https://codeberg.org/ericnantel/spacemacs-config
+
+  ,#spacemacs #emacs #productivity #notes #notetaking #orgmode #orgroam</div>]]></description>
+      <pubDate>Mon, 21 Sep 2026 17:08:11 +0000</pubDate><category>org</category>
+<category>spacemacs</category>
+    </item>
+    <item>
       <title>Images with Emacs</title>
       <link>https://www.youtube.com/watch?v=0taEcb0wq3o</link>
       <guid>https://www.youtube.com/watch?v=0taEcb0wq3o</guid>
@@ -593,258 +759,6 @@
 
   Je publierai la transcription et des notes complémentaires sur https://sachachua.com/blog/2026/08/6-aout-emacs-chat-richard-bonichon/ dès qu'elles seront prêtes.</div>]]></description>
       <pubDate>Thu, 06 Aug 2026 13:53:38 +0000</pubDate><category>EmacsChat</category>
-    </item>
-    <item>
-      <title>How to Generate PDFs from Org Mode using ox-odt</title>
-      <link>https://www.youtube.com/watch?v=sS53XwaRHg0</link>
-      <guid>https://www.youtube.com/watch?v=sS53XwaRHg0</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=sS53XwaRHg0">youtube</a><br><br>https://kjambunathan.gitlab.io/org-mode-ox-odt/
-  https://orgmode.org/org.html#OpenDocument-Text-Export
-  https://github.com/AyakoGFX/.emacs.d/tree/master/org-ox/otd/readme
-  https://github.com/kjambunathan/org-mode-ox-odt/discussions
-  https://github.com/kjambunathan/org-mode-ox-odt/</div>]]></description>
-      <pubDate>Wed, 05 Aug 2026 23:15:07 +0000</pubDate><category>org</category>
-    </item>
-    <item>
-      <title>My Emacs workflow with project.el and tab-bar.el project-x.el</title>
-      <link>https://www.youtube.com/watch?v=n0l3O28I-3w</link>
-      <guid>https://www.youtube.com/watch?v=n0l3O28I-3w</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=n0l3O28I-3w">youtube</a><br><br>config
-  https://gist.github.com/AyakoGFX/1ce8408fe6f5e3fa51012ba670c6fef4</div>]]></description>
-      <pubDate>Wed, 05 Aug 2026 14:25:36 +0000</pubDate><category>navigation</category>
-<category>project</category>
-    </item>
-    <item>
-      <title>Xah Talk Show Ep811. Emacs: CSS toggle px rem</title>
-      <link>https://www.youtube.com/watch?v=xjIL1rGhKM0</link>
-      <guid>https://www.youtube.com/watch?v=xjIL1rGhKM0</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=xjIL1rGhKM0">youtube</a><br><br></div>]]></description>
-      <pubDate>Wed, 05 Aug 2026 14:25:32 +0000</pubDate>
-    </item>
-    <item>
-      <title>Emacs: the &apos;speedbar&apos; built-in file explorer (Emacs 31)</title>
-      <link>https://www.youtube.com/watch?v=Crn6x3RmmyQ</link>
-      <guid>https://www.youtube.com/watch?v=Crn6x3RmmyQ</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=Crn6x3RmmyQ">youtube</a><br><br>In this video I demonstrate the built-in 'speedbar' command. This is the file explorer that Emacs ships with. Starting with Emacs 31, the 'speedbar' can be configured to appear on the side of the frame. Whereas the default is to show up in a separate frame. To me, the default is impractical, whereas the new option turns 'speedbar' into a very useful piece of functionality.
-
-  * * *
-
-  Find all my publications on my website (Emacs, philosophy, poetry, and more): https://protesilaos.com</div>]]></description>
-      <pubDate>Wed, 05 Aug 2026 12:16:32 +0000</pubDate><category>speedbar</category>
-<category>navigation</category>
-    </item>
-    <item>
-      <title>Emacs micro lesson 13 | FFAP (find file at point)</title>
-      <link>https://www.youtube.com/watch?v=jSJev1fQ7Jc</link>
-      <guid>https://www.youtube.com/watch?v=jSJev1fQ7Jc</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=jSJev1fQ7Jc">youtube</a><br><br>That's right, if you want to jump right to file at your point, M-x ffap it. The "find file at point" function can jump your right to a file in your system. I tried using org-open-at-point, but that seems to expect an org link, as far as I can tell. For ffap, no link is required. In fact, it's ideal for situations when you have a file but no hyperlink.  So let's check it out.
-
-  If you're an org mode user, or just want to open a file based on what's sitting at your Emacs cursor, this is for you.
-
-  check out my books here:
-  https://chrismaiorana.com/books/
-
-  subscribe to get occasional updates from me:
-  https://chris-maiorana.kit.com/f9e94a7435</div>]]></description>
-      <pubDate>Mon, 03 Aug 2026 17:36:34 +0000</pubDate><category>navigation</category>
-<category>ffap</category>
-    </item>
-    <item>
-      <title>How Prot Organizes Knowledge, Projects, and Tasks in Emacs</title>
-      <link>https://www.youtube.com/watch?v=IGQbp0JHi_I</link>
-      <guid>https://www.youtube.com/watch?v=IGQbp0JHi_I</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=IGQbp0JHi_I">youtube</a><br><br>How do you build a note-taking system that remains useful years later? Protesilaos (Prot) and linkarzu discuss retrievability, standalone notes, descriptive filenames, and why a workflow should fit the person using it rather than promise a universal "second brain."
-
-  They also cover keeping knowledge simple and portable, distinguishing time-sensitive tasks from everything else, using Org agenda views, and handling recurring meetings without overcomplicating the system. Prot explains how Emacs can be extended from simple building blocks when the defaults are not enough.
-
-  This clip comes from our 3rd emacs coaching session:
-  https://youtube.com/live/WQbXKvBT8HY
-
-  The rest of the sessions can be found in "The Church Of Prot" playlist:
-  https://www.youtube.com/playlist?list=PLAQyC0yzWlG8
-
-  Chapters:
-  0:00 There is no universally right workflow
-  1:56 Daily notes versus durable knowledge
-  5:30 Notes as specific questions
-  8:32 Standalone files, tags, and search
-  11:37 Write notes for future you
-  13:01 Why "second brain" is marketing
-  20:25 Emacs as an extensible tool
-  22:58 Time-sensitive tasks and deadlines
-  25:44 Custom Org agenda views
-  29:42 Recurring tasks and events
-  37:27 The dogs know it is walk time
-
-  READ THIS BLOG POST:
-  How to use text to speech (TTS)?
-  Why are there 2 livestreams?
-  All the answers to these questions and more stream info here:
-  https://linkarzu.com/posts/news/streaming-info/
-
-  Support me:
-
-  Buy me the Switch 2:
-  https://ko-fi.com/linkarzu
-
-  Join the YouTube Members:
-  https://www.youtube.com/channel/UCrSIvbFncPSlK6AdwE2QboA/join
-
-  My Merch Store:
-  https://merch.linkarzu.com
-
-  My Dotfiles:
-  https://github.com/linkarzu/dotfiles-latest
-
-  Follow me on X:
-  https://x.com/link_arzu
-
-  Search terms:
-  Emacs note-taking workflow
-  Protesilaos notes workflow
-  Prot Emacs workflow
-  how to organize knowledge in Emacs
-  retrievable notes
-  standalone notes
-  descriptive filenames for notes
-  Denote note-taking
-  Org mode task management
-  Org agenda views
-  time-sensitive tasks
-  recurring tasks in Org mode
-  plain text knowledge management
-  Zettelkasten alternative
-  second brain critique
-  personal knowledge management
-  Emacs customization
-  simple productivity system
-  GNU find and grep notes
-  long-term digital notes
-
-  ,#emacs #orgmode #denote #notetaking #productivity #knowledgemanagement #plaintext #linux</div>]]></description>
-      <pubDate>Mon, 03 Aug 2026 11:42:04 +0000</pubDate><category>denote</category>
-<category>org</category>
-    </item>
-    <item>
-      <title>How to Turn on Word Wrap in Emacs</title>
-      <link>https://www.youtube.com/watch?v=IVUvlgl9axM</link>
-      <guid>https://www.youtube.com/watch?v=IVUvlgl9axM</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=IVUvlgl9axM">youtube</a><br><br>In this video, I show you how to turn on the built in word wrap in Emacs with "visual-line-mode" which can be accessed with the command:
-
-  M-x visual-line-mode</div>]]></description>
-      <pubDate>Sun, 02 Aug 2026 12:15:11 +0000</pubDate><category>writing</category>
-    </item>
-    <item>
-      <title>[03] Emacs Projects, Org Capture, and My Workflow with Prot</title>
-      <link>https://www.youtube.com/watch?v=WQbXKvBT8HY</link>
-      <guid>https://www.youtube.com/watch?v=WQbXKvBT8HY</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=WQbXKvBT8HY">youtube</a><br><br>In this coaching session with Prot, we'll continue building my Emacs workflow around the things I actually need to do every day.
-
-  In previous streams, we installed Emacs, started editing files and modifying the configuration from within Emacs, and installed our first packages. This time, we'll look at how Emacs projects can match the project-based Kitty sessions I use today, how to quickly find files inside a project, and how to start working with Org mode.
-
-  We'll also discuss fast note capture, daily notes, linking notes together, buffers, and the bigger question: why should I use Emacs at all if my current Neovim and Kitty workflow already works? Prot responded to my video with a detailed post explaining the built-in Emacs features and the value of learning the fundamentals one step at a time.
-
-  Rest of the coaching sessions can be found in this playlist "The Church Of Prot":
-  https://www.youtube.com/playlist?list=PLAQyC0yzWlG8
-
-  My video for Prot, explaining the workflow I want to build:
-  https://www.youtube.com/watch?v=hWn8xdWP2eo
-
-  Prot's response to that video:
-  https://protesilaos.com/codelog/2026-07-31-re-linkarzu-what-i-need-from-emacs/
-
-  READ THIS BLOG POST:
-  How to use text to speech (TTS)?
-  Why are there 2 livestreams?
-  All the answers to these questions and more stream info here:
-  https://linkarzu.com/posts/news/streaming-info/
-
-  Support me:
-
-  Buy me the Switch 2:
-  https://ko-fi.com/linkarzu
-
-  Join the YouTube Members:
-  https://www.youtube.com/channel/UCrSIvbFncPSlK6AdwE2QboA/join
-
-  My Merch Store:
-  https://merch.linkarzu.com
-
-  My Dotfiles:
-  https://github.com/linkarzu/dotfiles-latest
-
-  Follow me on X:
-  https://x.com/link_arzu</div>]]></description>
-      <pubDate>Sat, 01 Aug 2026 21:29:09 +0000</pubDate><category>org</category>
-    </item>
-    <item>
-      <title>Emacs with Prot: Org Mode Basics Before Projects and Capture</title>
-      <link>https://www.youtube.com/watch?v=r9ffYHsYdrA</link>
-      <guid>https://www.youtube.com/watch?v=r9ffYHsYdrA</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=r9ffYHsYdrA">youtube</a><br><br>Org mode can do a million things, but you do not need a complicated setup to get started. In this coaching-session highlight, Protesilaos explains the beginner-friendly foundation: TODO and DONE states, scheduled tasks, and an agenda that surfaces time-sensitive work when it matters.
-
-  We configure an Org directory, create real tasks for the next coaching session, schedule them, view the weekly and two-week agenda, and mark work complete. Prot also explains why Org headings are more than plain text and shares how he organizes meetings and other tasks in separate files.
-
-  Christian (linkarzu) works through the setup as a beginner, while Protesilaos guides the workflow and keeps the focus on practical fundamentals instead of over-engineering.
-
-  This clip is from a livestream:
-  https://youtube.com/live/Crp2e5D_Q78
-
-  Chapters:
-  0:00 Start simple with Org mode
-  0:38 Why use Org instead of Markdown?
-  1:48 Configure Org agenda files
-  6:15 Create a TODO task
-  7:16 Schedule a task with Org
-  10:46 How Prot organizes tasks
-  12:42 Open the Org agenda
-  15:27 Weekly and two-week agenda views
-  17:25 Mark a task as done
-  20:20 The simple Org workflow
-
-  READ THIS BLOG POST:
-  How to use text to speech (TTS)?
-  Why are there 2 livestreams?
-  All the answers to these questions and more stream info here:
-  https://linkarzu.com/posts/news/streaming-info/
-
-  Support me:
-
-  Buy me the Switch 2:
-  https://ko-fi.com/linkarzu
-
-  Join the YouTube Members:
-  https://www.youtube.com/channel/UCrSIvbFncPSlK6AdwE2QboA/join
-
-  My Merch Store:
-  https://merch.linkarzu.com
-
-  My Dotfiles:
-  https://github.com/linkarzu/dotfiles-latest
-
-  Follow me on X:
-  https://x.com/link_arzu
-
-  Search terms:
-  Emacs Org mode basics
-  Org mode beginner tutorial
-  Emacs task management
-  Org agenda tutorial
-  Org TODO and DONE
-  schedule tasks in Org mode
-  Emacs agenda workflow
-  Org mode vs Markdown
-  Emacs coaching with Protesilaos
-  Protesilaos Org mode
-  Emacs productivity workflow
-  Emacs scheduled tasks
-  Org mode headings
-  Emacs beginner setup
-  simple Org mode workflow
-  Emacs project and capture preparation
-
-  ,#emacs #orgmode #protesilaos #productivity #opensource #linux</div>]]></description>
-      <pubDate>Sat, 01 Aug 2026 12:04:26 +0000</pubDate><category>org</category>
     </item>
   </channel>
 </rss>
