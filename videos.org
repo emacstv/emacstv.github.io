@@ -1,7 +1,8 @@
+#+COMMENT: [[shell:npm run build; git commit -m "update" -a; git push][Update]]
 #+TODO: KEYWORD_THAT_WONT_BE_USED
 #+STARTUP: nolatexpreview
 #+PROPERTY: header-args:emacs-lisp+   :eval no
-#+COMMENT: [[shell:npm run build; git commit -m "update" -a; git push][Update]]
+
 
 
 * Emacs ollama agent change font and size  :ollama:
