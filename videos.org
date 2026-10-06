@@ -4,6 +4,253 @@
 #+COMMENT: [[shell:npm run build; git commit -m "update" -a; git push][Update]]
 
 
+* Emacs ollama agent change font and size  :ollama:
+:PROPERTIES:
+:DATE:     2026-10-03T20:26:46-07:00
+:DURATION: 2:22
+:YOUTUBE_URL: https://www.youtube.com/watch?v=jkQnKvSrBaM
+:SPEAKERS: Ray Kuo
+:END:
+
+
+* Emacs ollama-agent introduction (配音版) :ollama:
+:PROPERTIES:
+:DATE:     2026-10-03T18:08:39-07:00
+:DURATION: 6:04
+:YOUTUBE_URL: https://www.youtube.com/watch?v=MNpu2kRcKd0
+:SPEAKERS: Ray Kuo
+:END:
+
+
+* Reading the emacs compilation mode source code
+:PROPERTIES:
+:DATE:     2026-10-03T02:19:06-07:00
+:DURATION: 1:29:40
+:YOUTUBE_URL: https://www.youtube.com/watch?v=0sQB5WsTZ7U
+:SPEAKERS: Ants Are Everywhere
+:END:
+  Special thanks to my Patreon patrons:
+
+  - Frederick Rowland
+  - Alexander Kulnev
+  - AnonMek
+  - Long Nguyen
+  - Sreyan Chakravarty
+  - Nam Anh
+  - duck
+  - Naur
+  - KKR
+  - Randy Jordan
+  - Kenn
+  - manoj
+  - Rafael
+  - Abdullah Al-Kheshen
+  - Friction
+  - Koorosh
+  - Wilson
+  - Parker
+  - bhanu jampala
+  - Hieu Duong
+  - Jacob Cornwell
+  - Pent
+  - nisedo
+  - Adam Hafidi
+
+
+  Coding videos have moved to my other channel: https://www.youtube.com/@The_Ant_Farm
+
+  You can join my Patreon at https://patreon.com/ants_are_everywhere.
+
+  Thanks for watching :)
+
+  Join Discord at: https://discord.gg/YNtU8Yw7yT
+  My Mastodon address is: https://mathstodon.xyz/@ants_are_everywhere
+
+* Emacs ollama agent demo 05 排序  :ollama:
+:PROPERTIES:
+:DATE:     2026-10-02T21:55:37-07:00
+:DURATION: 2:16
+:YOUTUBE_URL: https://www.youtube.com/watch?v=c81VC5mIWF4
+:SPEAKERS: Ray Kuo
+:END:
+
+
+* Emacs ollama agent demo 02 網站內容擷取  :ollama:
+:PROPERTIES:
+:DATE:     2026-10-02T21:35:25-07:00
+:DURATION: 1:13
+:YOUTUBE_URL: https://www.youtube.com/watch?v=zUwNkaD41ws
+:SPEAKERS: Ray Kuo
+:END:
+
+
+* Yay Emacs 40: Tinkering with my speech commands and working on the schedule for EmacsConf  :livestream:
+:PROPERTIES:
+:DATE:     2026-10-02T20:42:10-07:00
+:DURATION: 58:14
+:YOUTUBE_URL: https://www.youtube.com/watch?v=SqsxuN3CPWc
+:SPEAKERS: Sacha Chua
+:END:
+
+
+* Emacs ollama agent demo 01  :ollama:
+:PROPERTIES:
+:DATE:     2026-10-02T19:36:06-07:00
+:DURATION: 2:22
+:YOUTUBE_URL: https://www.youtube.com/watch?v=mz9JQnCbbzg
+:SPEAKERS: Ray Kuo
+:END:
+
+
+* Let Emacs make you happy
+:PROPERTIES:
+:DATE:     2026-10-02T10:09:50-07:00
+:DURATION: 12:05
+:YOUTUBE_URL: https://www.youtube.com/watch?v=LmjESSIlyDg
+:SPEAKERS: Chris Maiorana
+:END:
+  With a change of seasons I am delighting in the subtle joys of Emacs. Join me as I go through some of my favorite base features.
+
+  CHECK OUT MY BOOKS:
+  https://chrismaiorana.com/books/
+* Desafio #1 | Divisão por 5 (Emacs+Elisp)
+:PROPERTIES:
+:DATE:     2026-09-30T15:06:10-07:00
+:DURATION: 19:52
+:YOUTUBE_URL: https://www.youtube.com/watch?v=oXEWpyhwqxU
+:SPEAKERS: Gabriel Caelestis
+:END:
+  Fazendo o desafio "divisão por 5" do Programiz novamente, só que em ELISP.
+
+* Clutch: Query, Browse and Edit Databases Without Leaving Emacs   :db:clutch:sql:
+:PROPERTIES:
+:DATE:     2026-09-30T08:32:31-07:00
+:DURATION: 4:16
+:YOUTUBE_URL: https://youtu.be/eVyr1dLExOw
+:SPEAKERS: Lucius Chen
+:END:
+  Clutch is an Emacs package for querying and browsing databases, and for staging SQL row edits with a preview before anything runs. Results open in an interactive grid, and nothing is written until you review the exact SQL and confirm.
+
+  Supported databases: MySQL, PostgreSQL, SQLite, MongoDB and Redis natively, plus Oracle, SQL Server, ClickHouse, DuckDB and other databases through JDBC.
+
+  In this demo we use PostgreSQL over its native protocol, then DuckDB over JDBC.
+
+  Chapters
+  0:00 Connect and run a query
+  0:23 Foreign keys and NULL faces
+  0:32 Per-column displayers
+  0:57 Rectangle select and Refine
+  1:22 Aggregate and server-side filter
+  1:38 Stage, preview and submit an edit
+  1:59 Long JSON hover preview
+  2:35 Insert and delete rows
+  3:15 JDBC databases (DuckDB)
+
+  What you will see
+  - Run SQL in a normal buffer with C-c C-c
+  - Foreign keys are underlined; NULL has its own face
+  - Per-column displayers: turn raw values into colored labels
+  - Rectangle selection (C-x SPC), then Refine (-r) to exclude rows and columns before copying as TSV, CSV or an Org table
+  - Aggregate selected numeric cells, and filter with a server-side WHERE
+  - Stage edits, preview the exact SQL (C-c C-p), then confirm
+  - Long JSON hover preview (off by default: set clutch-cell-preview-style to child-frame)
+  - Insert and delete rows through a form
+  - JDBC: a Java 17+ agent runs beside Emacs; the same UI works over JDBC
+
+  Install
+  M-x package-install RET clutch
+
+  Requirements: Emacs 29.1+. SQLite needs nothing else. Other native backends need their own Emacs package, and JDBC needs Java 17+.
+
+  GitHub: https://github.com/LuciusChen/clutch
+  MELPA: https://melpa.org/#/clutch
+
+  ,#Emacs #SQL #Database
+
+* Reading some emacs package source code (e.g. comint)
+:PROPERTIES:
+:DATE:     2026-09-30T02:19:06-07:00
+:DURATION: 1:20:07
+:YOUTUBE_URL: https://www.youtube.com/watch?v=tybv1j7H9nQ
+:SPEAKERS: Ants Are Everywhere
+:END:
+  Special thanks to my Patreon patrons:
+
+  - Frederick Rowland
+  - Alexander Kulnev
+  - AnonMek
+  - Long Nguyen
+  - Sreyan Chakravarty
+  - Nam Anh
+  - duck
+  - Naur
+  - KKR
+  - Randy Jordan
+  - Kenn
+  - manoj
+  - Rafael
+  - Abdullah Al-Kheshen
+  - Friction
+  - Koorosh
+  - Wilson
+  - Parker
+  - bhanu jampala
+  - Hieu Duong
+  - Jacob Cornwell
+  - Pent
+  - nisedo
+  - Adam Hafidi
+
+
+  Coding videos have moved to my other channel: https://www.youtube.com/@The_Ant_Farm
+
+  You can join my Patreon at https://patreon.com/ants_are_everywhere.
+
+  Thanks for watching :)
+
+  Join Discord at: https://discord.gg/YNtU8Yw7yT
+  My Mastodon address is: https://mathstodon.xyz/@ants_are_everywhere
+
+* AI built my Emacs plugin   :llm:
+:PROPERTIES:
+:DATE:     2026-09-30T00:54:28-07:00
+:DURATION: 1:30
+:YOUTUBE_URL: https://www.youtube.com/watch?v=wwW7D80JK0M
+:SPEAKERS: Mika
+:END:
+  Mika argues that bespoke AI can replace hunting for existing downloads, using his Emacs plugin as the concrete example.
+
+  Source: /home/mika/.local/share/omni-video/sources/a18a657ca63535db6ced7a9b03dc97829b78439ee578e7f4bb1915d6c36284be.mkv
+  omni-video:89a41d2792e1ea90f27b63c4
+
+* Yay Emacs 39: Testing my new streaming functions   :livestream:
+:PROPERTIES:
+:DATE:     2026-09-28T20:54:04-07:00
+:DURATION: 1:54:58
+:YOUTUBE_URL: https://www.youtube.com/watch?v=ysq9HQ5H_gU
+:SPEAKERS: Sacha Chua
+:END:
+  I want to make it easier to start a YouTube livestream.
+
+  - "let's get ready"
+      - set up the theme and the variables
+      - set the title and description from the subtree
+      - open the control panel
+      - switch to the right OBS profile
+      - open the dashboard
+  - "let's go live"
+      - start the stream with a speech command
+      -
+
+  0:00 Emacs news preparation
+  14:54 Speech command experiments
+  22:27 Putting together Emacs News
+  41:15 Publishing Emacs news
+  50:14 Real-time audio monitoring
+  1:04:24 Improving bingo feature for voice recognition
+  1:12:07 Refining navigation commands
+  1:23:29 Stream management and wrap-up
+
 * Crie botões no Emacs  :hyperbole:
 :PROPERTIES:
 :DATE:     2026-09-27T08:00:13-07:00

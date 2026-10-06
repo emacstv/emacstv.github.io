@@ -6,6 +6,230 @@
     <atom:link href="https://emacs.tv/videos.rss" rel="self" type="application/rss+xml" />
     <description>Emacs videos</description>
     <item>
+      <title>Emacs ollama agent change font and size</title>
+      <link>https://www.youtube.com/watch?v=jkQnKvSrBaM</link>
+      <guid>https://www.youtube.com/watch?v=jkQnKvSrBaM</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=jkQnKvSrBaM">youtube</a><br><br></div>]]></description>
+      <pubDate>Sun, 04 Oct 2026 03:26:46 +0000</pubDate><category>ollama</category>
+    </item>
+    <item>
+      <title>Emacs ollama-agent introduction (配音版)</title>
+      <link>https://www.youtube.com/watch?v=MNpu2kRcKd0</link>
+      <guid>https://www.youtube.com/watch?v=MNpu2kRcKd0</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=MNpu2kRcKd0">youtube</a><br><br></div>]]></description>
+      <pubDate>Sun, 04 Oct 2026 01:08:39 +0000</pubDate><category>ollama</category>
+    </item>
+    <item>
+      <title>Reading the emacs compilation mode source code</title>
+      <link>https://www.youtube.com/watch?v=0sQB5WsTZ7U</link>
+      <guid>https://www.youtube.com/watch?v=0sQB5WsTZ7U</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=0sQB5WsTZ7U">youtube</a><br><br>Special thanks to my Patreon patrons:
+
+  - Frederick Rowland
+  - Alexander Kulnev
+  - AnonMek
+  - Long Nguyen
+  - Sreyan Chakravarty
+  - Nam Anh
+  - duck
+  - Naur
+  - KKR
+  - Randy Jordan
+  - Kenn
+  - manoj
+  - Rafael
+  - Abdullah Al-Kheshen
+  - Friction
+  - Koorosh
+  - Wilson
+  - Parker
+  - bhanu jampala
+  - Hieu Duong
+  - Jacob Cornwell
+  - Pent
+  - nisedo
+  - Adam Hafidi
+
+
+  Coding videos have moved to my other channel: https://www.youtube.com/@The_Ant_Farm
+
+  You can join my Patreon at https://patreon.com/ants_are_everywhere.
+
+  Thanks for watching :)
+
+  Join Discord at: https://discord.gg/YNtU8Yw7yT
+  My Mastodon address is: https://mathstodon.xyz/@ants_are_everywhere</div>]]></description>
+      <pubDate>Sat, 03 Oct 2026 09:19:06 +0000</pubDate>
+    </item>
+    <item>
+      <title>Emacs ollama agent demo 05 排序</title>
+      <link>https://www.youtube.com/watch?v=c81VC5mIWF4</link>
+      <guid>https://www.youtube.com/watch?v=c81VC5mIWF4</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=c81VC5mIWF4">youtube</a><br><br></div>]]></description>
+      <pubDate>Sat, 03 Oct 2026 04:55:37 +0000</pubDate><category>ollama</category>
+    </item>
+    <item>
+      <title>Emacs ollama agent demo 02 網站內容擷取</title>
+      <link>https://www.youtube.com/watch?v=zUwNkaD41ws</link>
+      <guid>https://www.youtube.com/watch?v=zUwNkaD41ws</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=zUwNkaD41ws">youtube</a><br><br></div>]]></description>
+      <pubDate>Sat, 03 Oct 2026 04:35:25 +0000</pubDate><category>ollama</category>
+    </item>
+    <item>
+      <title>Yay Emacs 40: Tinkering with my speech commands and working on the schedule for EmacsConf</title>
+      <link>https://www.youtube.com/watch?v=SqsxuN3CPWc</link>
+      <guid>https://www.youtube.com/watch?v=SqsxuN3CPWc</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=SqsxuN3CPWc">youtube</a><br><br></div>]]></description>
+      <pubDate>Sat, 03 Oct 2026 03:42:10 +0000</pubDate><category>livestream</category>
+    </item>
+    <item>
+      <title>Emacs ollama agent demo 01</title>
+      <link>https://www.youtube.com/watch?v=mz9JQnCbbzg</link>
+      <guid>https://www.youtube.com/watch?v=mz9JQnCbbzg</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=mz9JQnCbbzg">youtube</a><br><br></div>]]></description>
+      <pubDate>Sat, 03 Oct 2026 02:36:06 +0000</pubDate><category>ollama</category>
+    </item>
+    <item>
+      <title>Let Emacs make you happy</title>
+      <link>https://www.youtube.com/watch?v=LmjESSIlyDg</link>
+      <guid>https://www.youtube.com/watch?v=LmjESSIlyDg</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=LmjESSIlyDg">youtube</a><br><br>With a change of seasons I am delighting in the subtle joys of Emacs. Join me as I go through some of my favorite base features.
+
+  CHECK OUT MY BOOKS:
+  https://chrismaiorana.com/books/</div>]]></description>
+      <pubDate>Fri, 02 Oct 2026 17:09:50 +0000</pubDate>
+    </item>
+    <item>
+      <title>Desafio #1 | Divisão por 5 (Emacs+Elisp)</title>
+      <link>https://www.youtube.com/watch?v=oXEWpyhwqxU</link>
+      <guid>https://www.youtube.com/watch?v=oXEWpyhwqxU</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=oXEWpyhwqxU">youtube</a><br><br>Fazendo o desafio "divisão por 5" do Programiz novamente, só que em ELISP.</div>]]></description>
+      <pubDate>Wed, 30 Sep 2026 22:06:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>Clutch: Query, Browse and Edit Databases Without Leaving Emacs</title>
+      <link>https://youtu.be/eVyr1dLExOw</link>
+      <guid>https://youtu.be/eVyr1dLExOw</guid>
+      <description><![CDATA[<div id="content"><a href="https://youtu.be/eVyr1dLExOw">youtube</a><br><br>Clutch is an Emacs package for querying and browsing databases, and for staging SQL row edits with a preview before anything runs. Results open in an interactive grid, and nothing is written until you review the exact SQL and confirm.
+
+  Supported databases: MySQL, PostgreSQL, SQLite, MongoDB and Redis natively, plus Oracle, SQL Server, ClickHouse, DuckDB and other databases through JDBC.
+
+  In this demo we use PostgreSQL over its native protocol, then DuckDB over JDBC.
+
+  Chapters
+  0:00 Connect and run a query
+  0:23 Foreign keys and NULL faces
+  0:32 Per-column displayers
+  0:57 Rectangle select and Refine
+  1:22 Aggregate and server-side filter
+  1:38 Stage, preview and submit an edit
+  1:59 Long JSON hover preview
+  2:35 Insert and delete rows
+  3:15 JDBC databases (DuckDB)
+
+  What you will see
+  - Run SQL in a normal buffer with C-c C-c
+  - Foreign keys are underlined; NULL has its own face
+  - Per-column displayers: turn raw values into colored labels
+  - Rectangle selection (C-x SPC), then Refine (-r) to exclude rows and columns before copying as TSV, CSV or an Org table
+  - Aggregate selected numeric cells, and filter with a server-side WHERE
+  - Stage edits, preview the exact SQL (C-c C-p), then confirm
+  - Long JSON hover preview (off by default: set clutch-cell-preview-style to child-frame)
+  - Insert and delete rows through a form
+  - JDBC: a Java 17+ agent runs beside Emacs; the same UI works over JDBC
+
+  Install
+  M-x package-install RET clutch
+
+  Requirements: Emacs 29.1+. SQLite needs nothing else. Other native backends need their own Emacs package, and JDBC needs Java 17+.
+
+  GitHub: https://github.com/LuciusChen/clutch
+  MELPA: https://melpa.org/#/clutch
+
+  ,#Emacs #SQL #Database</div>]]></description>
+      <pubDate>Wed, 30 Sep 2026 15:32:31 +0000</pubDate><category>db</category>
+<category>clutch</category>
+<category>sql</category>
+    </item>
+    <item>
+      <title>Reading some emacs package source code (e.g. comint)</title>
+      <link>https://www.youtube.com/watch?v=tybv1j7H9nQ</link>
+      <guid>https://www.youtube.com/watch?v=tybv1j7H9nQ</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=tybv1j7H9nQ">youtube</a><br><br>Special thanks to my Patreon patrons:
+
+  - Frederick Rowland
+  - Alexander Kulnev
+  - AnonMek
+  - Long Nguyen
+  - Sreyan Chakravarty
+  - Nam Anh
+  - duck
+  - Naur
+  - KKR
+  - Randy Jordan
+  - Kenn
+  - manoj
+  - Rafael
+  - Abdullah Al-Kheshen
+  - Friction
+  - Koorosh
+  - Wilson
+  - Parker
+  - bhanu jampala
+  - Hieu Duong
+  - Jacob Cornwell
+  - Pent
+  - nisedo
+  - Adam Hafidi
+
+
+  Coding videos have moved to my other channel: https://www.youtube.com/@The_Ant_Farm
+
+  You can join my Patreon at https://patreon.com/ants_are_everywhere.
+
+  Thanks for watching :)
+
+  Join Discord at: https://discord.gg/YNtU8Yw7yT
+  My Mastodon address is: https://mathstodon.xyz/@ants_are_everywhere</div>]]></description>
+      <pubDate>Wed, 30 Sep 2026 09:19:06 +0000</pubDate>
+    </item>
+    <item>
+      <title>AI built my Emacs plugin</title>
+      <link>https://www.youtube.com/watch?v=wwW7D80JK0M</link>
+      <guid>https://www.youtube.com/watch?v=wwW7D80JK0M</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=wwW7D80JK0M">youtube</a><br><br>Mika argues that bespoke AI can replace hunting for existing downloads, using his Emacs plugin as the concrete example.
+
+  Source: /home/mika/.local/share/omni-video/sources/a18a657ca63535db6ced7a9b03dc97829b78439ee578e7f4bb1915d6c36284be.mkv
+  omni-video:89a41d2792e1ea90f27b63c4</div>]]></description>
+      <pubDate>Wed, 30 Sep 2026 07:54:28 +0000</pubDate><category>llm</category>
+    </item>
+    <item>
+      <title>Yay Emacs 39: Testing my new streaming functions</title>
+      <link>https://www.youtube.com/watch?v=ysq9HQ5H_gU</link>
+      <guid>https://www.youtube.com/watch?v=ysq9HQ5H_gU</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=ysq9HQ5H_gU">youtube</a><br><br>I want to make it easier to start a YouTube livestream.
+
+  - "let's get ready"
+      - set up the theme and the variables
+      - set the title and description from the subtree
+      - open the control panel
+      - switch to the right OBS profile
+      - open the dashboard
+  - "let's go live"
+      - start the stream with a speech command
+      -
+
+  0:00 Emacs news preparation
+  14:54 Speech command experiments
+  22:27 Putting together Emacs News
+  41:15 Publishing Emacs news
+  50:14 Real-time audio monitoring
+  1:04:24 Improving bingo feature for voice recognition
+  1:12:07 Refining navigation commands
+  1:23:29 Stream management and wrap-up</div>]]></description>
+      <pubDate>Tue, 29 Sep 2026 03:54:04 +0000</pubDate><category>livestream</category>
+    </item>
+    <item>
       <title>Crie botões no Emacs</title>
       <link>https://www.youtube.com/watch?v=o27oIxbSpBQ</link>
       <guid>https://www.youtube.com/watch?v=o27oIxbSpBQ</guid>
@@ -563,202 +787,6 @@
 
   Si vous voulez parler d'Emacs avec Prot et moi https://sachachua.com/blog/2026/07/voulez-vous-parler-d-emacs-avec-prot-et-moi/ en français, n'hésitez pas à m'envoyer un courriel !</div>]]></description>
       <pubDate>Fri, 21 Aug 2026 00:38:39 +0000</pubDate><category>EmacsChat</category>
-    </item>
-    <item>
-      <title>Spacemacs | Bug fixing &amp; Package updates</title>
-      <link>https://www.youtube.com/watch?v=gwcvqPWDKxg</link>
-      <guid>https://www.youtube.com/watch?v=gwcvqPWDKxg</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=gwcvqPWDKxg">youtube</a><br><br>,#spacemacs #emacs #gnu #linux #productivity #notetaking</div>]]></description>
-      <pubDate>Thu, 20 Aug 2026 17:38:45 +0000</pubDate><category>spacemacs</category>
-    </item>
-    <item>
-      <title>Easy Research with Emacs and Org Mode</title>
-      <link>https://youtu.be/yEUfHe9nUJo</link>
-      <guid>https://youtu.be/yEUfHe9nUJo</guid>
-      <description><![CDATA[<div id="content"><a href="https://youtu.be/yEUfHe9nUJo">youtube</a><br><br>This is a quick and technical guide on how I approach research with the help of Emacs and Org Mode.
-  It's aimed at new people who want to make the switch to Emacs and Org Mode, but also at users who are uncertain about how to approach note-taking in general.
-
-  You can find the referenced note here:
-  https://gist.github.com/cashmeredev/83717cacd1b45f78c24bac691659874e</div>]]></description>
-      <pubDate>Wed, 19 Aug 2026 21:14:19 +0000</pubDate><category>org</category>
-    </item>
-    <item>
-      <title>Prot Asks: Per Nordlöw about his Emacs extensions</title>
-      <link>https://www.youtube.com/watch?v=Rke2gGCCk70</link>
-      <guid>https://www.youtube.com/watch?v=Rke2gGCCk70</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=Rke2gGCCk70">youtube</a><br><br>In this ~2-hour video I talk to Per Nordlöw about some of his custom extensions for Emacs. I learn from Per how he approaches Emacs as a tool that can be extended to meet the requirements of one's workflow. In the process, Per shares his screen to show me extensions for snippet expansions, linting and project diagnostics, and project actions. There is so much more that Per has already implemented. It can all be found here:
-
-  - https://codeberg.org/nordlow/dotfiles
-  - https://codeberg.org/nordlow/dotfiles/src/branch/main/.emacs.d
-  - https://codeberg.org/nordlow/dotfiles/src/branch/main/.emacs.d/mine</div>]]></description>
-      <pubDate>Wed, 19 Aug 2026 14:13:11 +0000</pubDate><category>ProtAsks</category>
-    </item>
-    <item>
-      <title>stdin | LLM | stdout</title>
-      <link>https://www.youtube.com/watch?v=xHEnWvKmSKM</link>
-      <guid>https://www.youtube.com/watch?v=xHEnWvKmSKM</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=xHEnWvKmSKM">youtube</a><br><br>Some experiments with using LLMs in Emacs, and a demo of gptel's presets feature.  We can do better than a linear, immutable, top-down chat interface to LLMs.
-
-  gptel is an LLM client for Emacs. (https://gptel.org)
-
-  A preset is a named collection of gptel settings and behaviors applied to an LLM query as a unit: they can change any aspect of LLM interaction on the fly, providing a flexible, customizable interface for most (text-based) things you'd need an LLM for.
-
-  00:13 LLMs as text transformations
-  01:19 LLM clients as shell commands
-  02:03 Software with too many options
-  03:00 Configuration files and (finally) a gptel preset
-  03:10 The tutor preset
-  04:31 Inside the Tutor preset
-  05:12 The Introspect preset
-  06:52 The JSON preset
-  07:35 Interlude I: How presets work
-  08:52 Redirection: source | gptel | destination
-  10:04 Source: the Expand preset
-  11:20 The Visible-Text preset
-  11:55 The Include preset
-  12:48 Interlude II: Adding dynamic behavior to presets
-  14:14 Destination: the Notify preset
-  14:51 The Rewrite preset
-  17:05 The Annotate preset
-  21:18 Presets as "agents"
-  24:37 Problems with the presets UI
-  26:02 Interlude III: Resources for presets
-  27:22 LLM UIs in Emacs: this ain't it
-
-  Emacs packages showcased in this demo:
-  - https://github.com/karthink/gptel
-  - https://github.com/karthink/gptel-agent
-  - https://github.com/karthink/gptel-annotate
-  - https://github.com/karthink/gptel-preset-collection
-  - https://github.com/kmontag/macher
-
-  Emacs packages and settings used in this demo
-  - Presentation software: https://github.com/positron-solutions/dslide
-  - Visuals: https://github.com/minad/org-modern and https://github.com/rnkn/olivetti
-  - Fancy Flymake UI: https://github.com/konrad1977/flyover
-  - Font: Monaspace Neon
-  - Emacs theme: ef-reverie
-
-  ,#emacs #llm #llms #gptel</div>]]></description>
-      <pubDate>Wed, 19 Aug 2026 12:15:27 +0000</pubDate><category>llm</category>
-<category>gptel</category>
-    </item>
-    <item>
-      <title>Emacs using eglot  and java with my configuration</title>
-      <link>https://www.youtube.com/watch?v=fUnq9nMAEv0</link>
-      <guid>https://www.youtube.com/watch?v=fUnq9nMAEv0</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=fUnq9nMAEv0">youtube</a><br><br>This is a walkthrough of how my configuration works after recently moving from lsp-mode to eglot.
-
-  Configuration is mostly located here or near this point in my config.
-  https://github.com/benleis1/emacs-init/#eglot
-
-  A companion github wiki post on how this works is here:
-  https://github.com/benleis1/emacs-init/lsp-mode.md</div>]]></description>
-      <pubDate>Tue, 18 Aug 2026 20:05:40 +0000</pubDate><category>coding</category>
-<category>eglot</category>
-<category>java</category>
-    </item>
-    <item>
-      <title>Drawing inside Emacs org-mode</title>
-      <link>https://youtu.be/04zbf-tosNQ</link>
-      <guid>https://youtu.be/04zbf-tosNQ</guid>
-      <description><![CDATA[<div id="content"><a href="https://youtu.be/04zbf-tosNQ">youtube</a><br><br>https://github.com/larrasket/org-draw</div>]]></description>
-      <pubDate>Sun, 16 Aug 2026 04:59:17 +0000</pubDate><category>org</category>
-<category>OrgDraw</category>
-<category>drawing</category>
-    </item>
-    <item>
-      <title>Emacs Tramp Mode for SSH</title>
-      <link>https://www.youtube.com/watch?v=suTeZppPG4Y</link>
-      <guid>https://www.youtube.com/watch?v=suTeZppPG4Y</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=suTeZppPG4Y">youtube</a><br><br></div>]]></description>
-      <pubDate>Fri, 14 Aug 2026 20:40:03 +0000</pubDate><category>tramp</category>
-    </item>
-    <item>
-      <title>Emacs: conditionally expand abbrev-mode definitions</title>
-      <link>https://www.youtube.com/watch?v=QzhU6fklc4o</link>
-      <guid>https://www.youtube.com/watch?v=QzhU6fklc4o</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=QzhU6fklc4o">youtube</a><br><br>In this ~15-minute video I show how to add conditions to 'abbrev-mode' abbreviations that you define. The idea is to have those abbrevs expand only in certain cases. I use three examples, which I think cover the common needs. The code I used is on my website: https://protesilaos.com/ codelog/2026-08-09-emacs-expand-abbrev-mode-definitions-conditionally/</div>]]></description>
-      <pubDate>Sun, 09 Aug 2026 15:01:54 +0000</pubDate><category>writing</category>
-<category>abbrev</category>
-    </item>
-    <item>
-      <title>How to Count Words In Emacs</title>
-      <link>https://www.youtube.com/watch?v=4kP2PD7AmCI</link>
-      <guid>https://www.youtube.com/watch?v=4kP2PD7AmCI</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=4kP2PD7AmCI">youtube</a><br><br>In this video, I show you how to count words in Emacs. You can do this with the command:
-
-  M-x count-words
-
-  or the keyboard shortcut:
-  M-=</div>]]></description>
-      <pubDate>Sun, 09 Aug 2026 12:30:20 +0000</pubDate>
-    </item>
-    <item>
-      <title>wikimode demo</title>
-      <link>https://youtu.be/_Ksn2YwVfYc?si=cmrYXNoYRimWQ-Yg</link>
-      <guid>https://youtu.be/_Ksn2YwVfYc?si=cmrYXNoYRimWQ-Yg</guid>
-      <description><![CDATA[<div id="content"><a href="https://youtu.be/_Ksn2YwVfYc?si=cmrYXNoYRimWQ-Yg">youtube</a><br><br>Demo of a small package I wrote for navigating sets of markdown and org files similar in style to if they were a small wiki.
-
-  Code is at https://github.com/benleis1/wikimode
-
-  Bonus: the math blog is at mathoffthegrid.net</div>]]></description>
-      <pubDate>Fri, 07 Aug 2026 22:56:22 +0000</pubDate><category>org</category>
-<category>markdown</category>
-    </item>
-    <item>
-      <title>Dotfiles Season 1 Episode 4: Emacs Configuration</title>
-      <link>https://www.youtube.com/watch?v=nSOkBmvCev4</link>
-      <guid>https://www.youtube.com/watch?v=nSOkBmvCev4</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=nSOkBmvCev4">youtube</a><br><br>This video has been truncated due to YouTube upload length limits. The full video is available on other platforms at rehandaphedar.com.
-
-  I cover the [Emacs Configuration](https://git.sr.ht/~rehandaphedar/dot/tree/main/item/Emacs.org) from my [dotfiles](https://sr.ht/~rehandaphedar/dot).</div>]]></description>
-      <pubDate>Thu, 06 Aug 2026 19:50:23 +0000</pubDate><category>configuration</category>
-    </item>
-    <item>
-      <title>User Interface to Computer Applications Demonstrated in GNU Emacs</title>
-      <link>https://www.youtube.com/watch?v=NqinYjlQ8Tk</link>
-      <guid>https://www.youtube.com/watch?v=NqinYjlQ8Tk</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=NqinYjlQ8Tk">youtube</a><br><br>This series of videos demonstrates an individual's ideas about the
-  user interfaces to computer software.  The claim is made that users
-  could be served better with a more automated display system showing,
-  in real time, both what is available, and what action is necessary
-  to get things done.  A personal system is shown as the demonstration
-  vehicle; this system has been installed in the Emacs text editor for
-  many years.  The target consumers are programmers and system
-  designers, who may find the ideas to be food for thought.
-
-  The video was made in ten sessions, each with a theme.  These
-  sessions are available individually and also as a single aggregate
-  video.  Total run time is two hours and ten minutes.
-
-  https://youtu.be/NqinYjlQ8Tk
-  https://youtu.be/BJ060oT9ntQ
-  https://youtu.be/ONkzXTzP9pE
-  https://youtu.be/R08M-sVNR64
-  https://youtu.be/41DSFZHTwo4
-  https://youtu.be/vbOmRhNNvMc
-  https://youtu.be/auFq-9am06o
-  https://youtu.be/HDUlHNVINI0
-  https://youtu.be/hcgkL36u3UM
-  https://youtu.be/x8Y9eQbkQms
-  https://youtu.be/iaHdNhtvL3Y
-
-  The video .mp4 files work very well when viewed in Xviewer running
-  on GNU/Linux.  However, there have been out-of-sync problems between
-  video and audio when viewed in a web browser.  The problems are
-  irritations rather than anything more significant, but they may
-  appear.</div>]]></description>
-      <pubDate>Thu, 06 Aug 2026 16:00:28 +0000</pubDate>
-    </item>
-    <item>
-      <title>Emacs Chat : Richard Bonichon (en français)</title>
-      <link>https://www.youtube.com/watch?v=sxqsIgXYkVw</link>
-      <guid>https://www.youtube.com/watch?v=sxqsIgXYkVw</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=sxqsIgXYkVw">youtube</a><br><br>Voilà l'enregistrement complet (parce que j'ai lancé la diffusion en direct en retard). Pour retrouver la vidéo de la diffusion avec le chat, voici le lien : https://youtube.com/live/GzoBGwqDvL8
-
-  Je publierai la transcription et des notes complémentaires sur https://sachachua.com/blog/2026/08/6-aout-emacs-chat-richard-bonichon/ dès qu'elles seront prêtes.</div>]]></description>
-      <pubDate>Thu, 06 Aug 2026 13:53:38 +0000</pubDate><category>EmacsChat</category>
     </item>
   </channel>
 </rss>
