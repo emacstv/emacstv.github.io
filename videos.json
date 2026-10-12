@@ -1,5 +1,131 @@
 [
   {
+    "ITEM": "Emacs: new 'denote-data-mode' testing",
+    "DATE": "2026-10-12T00:16:42-07:00",
+    "DURATION": "0:00",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=5xNWU8EcUeI",
+    "SPEAKERS": "Protesilaos",
+    "TAGS": [
+      "denote"
+    ],
+    "BODY": "This evening I will do a live stream where I will continue developing the new `denote-data` feature for `denote`: it is an opt-in, in-memory cache with no dependencies that speeds up all sorts of operations.\n\n  I have made lots of improvements to it and it is already looking very promising, though I plan to develop it further and eventually write `ert` tests for it.\n\n  I will keep the chat on the side and shall respond to any questions about my programming but also any other issue (the other day I did a 5-hour live stream on the topic of \"ask me anything\" because my live streams tend to be that, anyway---recording here: https://protesilaos.com/codelog/2026-10-08-ask-me-anything-emacs-tech-politics-life/).\n\n  * * *\n\n  Find all my publications on my website (Emacs, philosophy, etc.): https://protesilaos.com\n\n  All my Emacs-related work: https://protesilaos.com/emacs."
+  },
+  {
+    "ITEM": "Voice AI Editing and an Emacs Plugin",
+    "DATE": "2026-10-09T01:29:58-07:00",
+    "DURATION": "1:33",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=QgLU7diWErA",
+    "SPEAKERS": "Mika",
+    "TAGS": [
+      "llm",
+      "SpeechRecognition"
+    ],
+    "BODY": "Mika describes how he uses a voice model to speed up edits and asks AI to handle specific coding fixes, then says AI built a custom Emacs plugin for that workflow in about 15 minutes.\n\n  Source: /home/mika/.local/share/omni-video/sources/4818065e13bb6e08530b703429f7f9571a5b56abddb0ff7cd96ff2653fe98fd7.mkv\n  omni-video:dd6227de849daf8399918fc9"
+  },
+  {
+    "ITEM": "Rome Wasn't Built In A Day, More Like 10 Minutes (Emacs)",
+    "DATE": "2026-10-08T13:44:38-07:00",
+    "DURATION": "1:11",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=BuqZb6AvdCE",
+    "SPEAKERS": "dickmao",
+    "TAGS": [
+      "llm"
+    ],
+    "BODY": "https://github.com/dickmao/epkg\n  https://commandlinesystems.com/magic.txt\n\n  Credits:\n  Chris D'Elia Reviews The Matrix Resurrections\n  https://youtu.be/i7jufi7XP1c?si=x4rHq09_LEEj2AVU"
+  },
+  {
+    "ITEM": "Desafios em Elisp | Emacs / Magit",
+    "DATE": "2026-10-08T04:01:38-07:00",
+    "DURATION": "1:47:10",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=muihQdMqjS0",
+    "SPEAKERS": "Gabriel Caelestis",
+    "TAGS": [
+      "elisp"
+    ],
+    "BODY": "Eu passando sufoco com meu amigo para aprender Elisp - linguagens funcionais são zoadas."
+  },
+  {
+    "ITEM": "supersonic.el v0.6.0 update - music player",
+    "DATE": "2026-10-08T03:52:04-07:00",
+    "DURATION": "0:41",
+    "YOUTUBE_URL": "https://youtu.be/Gnq1EQaMn-4",
+    "SPEAKERS": "mc3scher",
+    "TAGS": [
+      "music",
+      "multimedia"
+    ],
+    "BODY": "supersonic.el is a Subsonic-compatible music player package for Emacs.\n\n  https://github.com/systemfreund/supersonic.el"
+  },
+  {
+    "ITEM": "Clojure Corner: Interview with Bozhidar Batsov",
+    "DATE": "2026-10-08T01:44:04-07:00",
+    "DURATION": "1:18:53",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=qSgMH5An4YI",
+    "SPEAKERS": "Flexiana",
+    "TAGS": [
+      "community",
+      "clojure"
+    ],
+    "BODY": "Welcome to another episode of Clojure Corner!\n\n  In this episode, we’re joined by Bozhidar Batsov.\n\n  Topics we covered:\n  - Transitioning to Clojure and Emacs\n  - The Emacs Community Dynamics\n  - Functional vs. Imperative Programming in Lisp\n  - Rails vs. Clojure: Framework Comparisons\n  - The Evolution of Frameworks and Microservices\n  - Handcrafted Code vs. AI-Generated Code\n  - Engineering Management in the Age of AI and more...\n\n  Enjoy the episode! And if you find it valuable, like, subscribe, and turn on notifications so you never miss a new episode of Clojure Corner.\n\n  🎧 Spotify: https://spotifycreators-web.app.link/e/saeeb9Pc46b\n  🎧 Apple: https://podcasts.apple.com/us/podcast/clojure-corner-interview-with-bozhidar-batsov/id1881543865?i=1000793848720\n  🎧 RSS:https://rss.com/podcasts/clojure-corner-by-flexiana/"
+  },
+  {
+    "ITEM": "3D in MY Emacs!? (Hack and overview)",
+    "DATE": "2026-10-08T00:18:35-07:00",
+    "DURATION": "14:21",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=ppL2eHJcwts",
+    "SPEAKERS": "PixelOutlaw",
+    "TAGS": [
+      "graphics",
+      "3d"
+    ],
+    "BODY": "This is a hack I tinkered on using ONLY Emacs and no additional language code nor libraries outside what is provided. In the video I go over live editing in Emacs Lisp while hacking in a color palette to my 3D dodecahedron. I don't use Light nor Dark mode because they are for chumps. I hope you like brown."
+  },
+  {
+    "ITEM": "Emacs: new 'denote-data' cache development work",
+    "DATE": "2026-10-07T21:52:15-07:00",
+    "DURATION": "1:22:15",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=fGjH82DeF7c",
+    "SPEAKERS": "Protesilaos",
+    "TAGS": [
+      "denote"
+    ],
+    "BODY": "This is a spontaneous live stream. I am working on a new feature for my 'denote' Emacs package. The idea is to implement an optional in-memory cache that can help speed up certain operations.\n\n  * * *\n\n  Find all my publications on my website (Emacs, philosophy, etc.): https://protesilaos.com\n\n  All my Emacs-related work: https://protesilaos.com/emacs."
+  },
+  {
+    "ITEM": "Des commandes vocales pour ajouter des tâches sur Emacs",
+    "DATE": "2026-10-07T13:08:22-07:00",
+    "DURATION": "2:43",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=rGAXW9S4AiE",
+    "SPEAKERS": "Sacha Chua",
+    "TAGS": [
+      "org",
+      "SpeechRecognition"
+    ],
+    "BODY": "https://sachachua.com/blog/2026/10/des-commandes-vocales-sur-emacs-pour-ajouter-des-taches/\n\n  00:00 Introduction\n  00:37 Ajouter des tâches\n  01:09 D'autres dates\n  01:59 Basculer à une tâche\n  02:15 Retrouver le fil de mes pensées\n  02:27 Je faisais quoi ?"
+  },
+  {
+    "ITEM": "Emacs ollama agent compare",
+    "DATE": "2026-10-06T18:53:25-07:00",
+    "DURATION": "1:29",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=k_hIR0pTibM",
+    "SPEAKERS": "Ray Kuo",
+    "TAGS": [
+      "llm"
+    ],
+    "BODY": ""
+  },
+  {
+    "ITEM": "Deeper layers of Org Mode laziness explained",
+    "DATE": "2026-10-05T18:41:32-07:00",
+    "DURATION": "8:47",
+    "YOUTUBE_URL": "https://youtube.com/watch?v=DrlMLgc5r2E&si=F7zqY9G0iZGoIXK5",
+    "SPEAKERS": "Chris Maiorana",
+    "TAGS": [
+      "org"
+    ],
+    "BODY": "Let's take a look at org mode macro replacement, what it is, and how to extend it past your wildest dreams.\n\n  my books:\n  https://chrismaiorana.com/books/"
+  },
+  {
     "ITEM": "Emacs ollama agent change font and size",
     "DATE": "2026-10-03T20:26:46-07:00",
     "DURATION": "2:22",
@@ -20,6 +146,17 @@
       "ollama"
     ],
     "BODY": ""
+  },
+  {
+    "ITEM": "I Asked Prot If I Should Switch to Emacs",
+    "DATE": "2026-10-03T06:06:09-07:00",
+    "DURATION": "13:01",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=-1qS7Xiuh9E",
+    "SPEAKERS": "linkarzu",
+    "TAGS": [
+      "community"
+    ],
+    "BODY": "I start with the question of whether you need to use Emacs to think like an Emacs user. For me, moving from Neovim would mean rebuilding years of habits, terminal workflows, and work automations, so the practical cost of changing editors matters more than taking sides in an editor rivalry.\n\n  Protesilaos explains that the spirit of Emacs is integration: a configurable, keyboard-driven environment that reduces context switching. We also discuss bringing that approach to Neovim, including org-mode-like planning, email, calendars, and a new org-mode-inspired Neovim plugin.\n\n  This clip is from my livestream with Protesilaos, Rumen, and ted freitas:\n  https://youtube.com/live/c0qZ6QzpcVc\n\n  Root Access is a live conversation with Linkarzu, CEO members, and invited guests about tech, tools, workflows, and what they’re building. Guests can share their projects before we dive into the discussion. Everyone is welcome to watch live and join the chat; the full replay stays public.\n\n  More about Root Access and the CEO hangout:\n  https://linkarzu.com/about/#whats-the-linkarzu-ceos-monthly-hangout-podcast\n\n  Join the YouTube Members:\n  https://www.youtube.com/channel/UCrSIvbFncPSlK6AdwE2QboA/join\n\n  Watch previous episodes:\n  https://www.youtube.com/playlist?list=PLZWMav2s1MZR_E0s7OTicc7Th5QuWvUPx\n\n  Where can I find the guests:\n\n  Web2Three\n  web2three.com\n\n  Ted G. Freitas\n  cpnllc.com\n\n  Protesilaos\n  https://www.youtube.com/@protesilaos\n\n  Chapters:\n  00:00 Emacs as a spirit of integration\n  00:46 Why switching from Neovim takes time\n  02:13 Workflow muscle memory and automation\n  03:49 Integration beyond Emacs\n  05:09 Neovim, org mode, email, and calendars\n  06:50 Porting org mode to Neovim\n  07:59 Can org mode work outside Emacs?\n  10:35 Emacs on Android and SyncThing\n\n  READ THIS BLOG POST:\n  How to use text to speech (TTS)?\n  Why are there 2 livestreams?\n  All the answers to these questions and more stream info here:\n  https://linkarzu.com/posts/news/streaming-info/\n\n  Support me:\n\n  Buy me the Switch 2:\n  https://ko-fi.com/linkarzu\n\n  Join the YouTube Members:\n  https://www.youtube.com/channel/UCrSIvbFncPSlK6AdwE2QboA/join\n\n  My Merch Store:\n  https://merch.linkarzu.com\n\n  Get 10% off 3DKeycap with code LINKARZU:\n  https://3dkeycap.com/?ref=linkarzu\n  Affiliate link, I earn a commission if you purchase through it.\n\n  My Dotfiles:\n  https://github.com/linkarzu/dotfiles-latest\n\n  Follow me on X:\n  https://x.com/link_arzu\n\n  Search terms:\n  Emacs philosophy\n  thinking like an Emacs user\n  Neovim versus Emacs\n  Emacs integration\n  Neovim workflow\n  keyboard-driven workflow\n  Emacs org mode\n  org mode in Neovim\n  Neovim planning tools\n  Emacs email and calendar\n  Emacs context switching\n  Neovim plugins\n  plain-text productivity\n  Emacs on Android\n  SyncThing Emacs workflow\n\n  ,#emacs #neovim #orgmode #productivity #opensource"
   },
   {
     "ITEM": "Reading the emacs compilation mode source code",

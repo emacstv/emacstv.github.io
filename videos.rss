@@ -6,6 +6,141 @@
     <atom:link href="https://emacs.tv/videos.rss" rel="self" type="application/rss+xml" />
     <description>Emacs videos</description>
     <item>
+      <title>Emacs: new &apos;denote-data-mode&apos; testing</title>
+      <link>https://www.youtube.com/watch?v=5xNWU8EcUeI</link>
+      <guid>https://www.youtube.com/watch?v=5xNWU8EcUeI</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=5xNWU8EcUeI">youtube</a><br><br>This evening I will do a live stream where I will continue developing the new `denote-data` feature for `denote`: it is an opt-in, in-memory cache with no dependencies that speeds up all sorts of operations.
+
+  I have made lots of improvements to it and it is already looking very promising, though I plan to develop it further and eventually write `ert` tests for it.
+
+  I will keep the chat on the side and shall respond to any questions about my programming but also any other issue (the other day I did a 5-hour live stream on the topic of "ask me anything" because my live streams tend to be that, anyway---recording here: https://protesilaos.com/codelog/2026-10-08-ask-me-anything-emacs-tech-politics-life/).
+
+  * * *
+
+  Find all my publications on my website (Emacs, philosophy, etc.): https://protesilaos.com
+
+  All my Emacs-related work: https://protesilaos.com/emacs.</div>]]></description>
+      <pubDate>Mon, 12 Oct 2026 07:16:42 +0000</pubDate><category>denote</category>
+    </item>
+    <item>
+      <title>Voice AI Editing and an Emacs Plugin</title>
+      <link>https://www.youtube.com/watch?v=QgLU7diWErA</link>
+      <guid>https://www.youtube.com/watch?v=QgLU7diWErA</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=QgLU7diWErA">youtube</a><br><br>Mika describes how he uses a voice model to speed up edits and asks AI to handle specific coding fixes, then says AI built a custom Emacs plugin for that workflow in about 15 minutes.
+
+  Source: /home/mika/.local/share/omni-video/sources/4818065e13bb6e08530b703429f7f9571a5b56abddb0ff7cd96ff2653fe98fd7.mkv
+  omni-video:dd6227de849daf8399918fc9</div>]]></description>
+      <pubDate>Fri, 09 Oct 2026 08:29:58 +0000</pubDate><category>llm</category>
+<category>SpeechRecognition</category>
+    </item>
+    <item>
+      <title>Rome Wasn&apos;t Built In A Day, More Like 10 Minutes (Emacs)</title>
+      <link>https://www.youtube.com/watch?v=BuqZb6AvdCE</link>
+      <guid>https://www.youtube.com/watch?v=BuqZb6AvdCE</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=BuqZb6AvdCE">youtube</a><br><br>https://github.com/dickmao/epkg
+  https://commandlinesystems.com/magic.txt
+
+  Credits:
+  Chris D'Elia Reviews The Matrix Resurrections
+  https://youtu.be/i7jufi7XP1c?si=x4rHq09_LEEj2AVU</div>]]></description>
+      <pubDate>Thu, 08 Oct 2026 20:44:38 +0000</pubDate><category>llm</category>
+    </item>
+    <item>
+      <title>Desafios em Elisp | Emacs / Magit</title>
+      <link>https://www.youtube.com/watch?v=muihQdMqjS0</link>
+      <guid>https://www.youtube.com/watch?v=muihQdMqjS0</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=muihQdMqjS0">youtube</a><br><br>Eu passando sufoco com meu amigo para aprender Elisp - linguagens funcionais são zoadas.</div>]]></description>
+      <pubDate>Thu, 08 Oct 2026 11:01:38 +0000</pubDate><category>elisp</category>
+    </item>
+    <item>
+      <title>supersonic.el v0.6.0 update - music player</title>
+      <link>https://youtu.be/Gnq1EQaMn-4</link>
+      <guid>https://youtu.be/Gnq1EQaMn-4</guid>
+      <description><![CDATA[<div id="content"><a href="https://youtu.be/Gnq1EQaMn-4">youtube</a><br><br>supersonic.el is a Subsonic-compatible music player package for Emacs.
+
+  https://github.com/systemfreund/supersonic.el</div>]]></description>
+      <pubDate>Thu, 08 Oct 2026 10:52:04 +0000</pubDate><category>music</category>
+<category>multimedia</category>
+    </item>
+    <item>
+      <title>Clojure Corner: Interview with Bozhidar Batsov</title>
+      <link>https://www.youtube.com/watch?v=qSgMH5An4YI</link>
+      <guid>https://www.youtube.com/watch?v=qSgMH5An4YI</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=qSgMH5An4YI">youtube</a><br><br>Welcome to another episode of Clojure Corner!
+
+  In this episode, we’re joined by Bozhidar Batsov.
+
+  Topics we covered:
+  - Transitioning to Clojure and Emacs
+  - The Emacs Community Dynamics
+  - Functional vs. Imperative Programming in Lisp
+  - Rails vs. Clojure: Framework Comparisons
+  - The Evolution of Frameworks and Microservices
+  - Handcrafted Code vs. AI-Generated Code
+  - Engineering Management in the Age of AI and more...
+
+  Enjoy the episode! And if you find it valuable, like, subscribe, and turn on notifications so you never miss a new episode of Clojure Corner.
+
+  🎧 Spotify: https://spotifycreators-web.app.link/e/saeeb9Pc46b
+  🎧 Apple: https://podcasts.apple.com/us/podcast/clojure-corner-interview-with-bozhidar-batsov/id1881543865?i=1000793848720
+  🎧 RSS:https://rss.com/podcasts/clojure-corner-by-flexiana/</div>]]></description>
+      <pubDate>Thu, 08 Oct 2026 08:44:04 +0000</pubDate><category>community</category>
+<category>clojure</category>
+    </item>
+    <item>
+      <title>3D in MY Emacs!? (Hack and overview)</title>
+      <link>https://www.youtube.com/watch?v=ppL2eHJcwts</link>
+      <guid>https://www.youtube.com/watch?v=ppL2eHJcwts</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=ppL2eHJcwts">youtube</a><br><br>This is a hack I tinkered on using ONLY Emacs and no additional language code nor libraries outside what is provided. In the video I go over live editing in Emacs Lisp while hacking in a color palette to my 3D dodecahedron. I don't use Light nor Dark mode because they are for chumps. I hope you like brown.</div>]]></description>
+      <pubDate>Thu, 08 Oct 2026 07:18:35 +0000</pubDate><category>graphics</category>
+<category>3d</category>
+    </item>
+    <item>
+      <title>Emacs: new &apos;denote-data&apos; cache development work</title>
+      <link>https://www.youtube.com/watch?v=fGjH82DeF7c</link>
+      <guid>https://www.youtube.com/watch?v=fGjH82DeF7c</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=fGjH82DeF7c">youtube</a><br><br>This is a spontaneous live stream. I am working on a new feature for my 'denote' Emacs package. The idea is to implement an optional in-memory cache that can help speed up certain operations.
+
+  * * *
+
+  Find all my publications on my website (Emacs, philosophy, etc.): https://protesilaos.com
+
+  All my Emacs-related work: https://protesilaos.com/emacs.</div>]]></description>
+      <pubDate>Thu, 08 Oct 2026 04:52:15 +0000</pubDate><category>denote</category>
+    </item>
+    <item>
+      <title>Des commandes vocales pour ajouter des tâches sur Emacs</title>
+      <link>https://www.youtube.com/watch?v=rGAXW9S4AiE</link>
+      <guid>https://www.youtube.com/watch?v=rGAXW9S4AiE</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=rGAXW9S4AiE">youtube</a><br><br>https://sachachua.com/blog/2026/10/des-commandes-vocales-sur-emacs-pour-ajouter-des-taches/
+
+  00:00 Introduction
+  00:37 Ajouter des tâches
+  01:09 D'autres dates
+  01:59 Basculer à une tâche
+  02:15 Retrouver le fil de mes pensées
+  02:27 Je faisais quoi ?</div>]]></description>
+      <pubDate>Wed, 07 Oct 2026 20:08:22 +0000</pubDate><category>org</category>
+<category>SpeechRecognition</category>
+    </item>
+    <item>
+      <title>Emacs ollama agent compare</title>
+      <link>https://www.youtube.com/watch?v=k_hIR0pTibM</link>
+      <guid>https://www.youtube.com/watch?v=k_hIR0pTibM</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=k_hIR0pTibM">youtube</a><br><br></div>]]></description>
+      <pubDate>Wed, 07 Oct 2026 01:53:25 +0000</pubDate><category>llm</category>
+    </item>
+    <item>
+      <title>Deeper layers of Org Mode laziness explained</title>
+      <link>https://youtube.com/watch?v=DrlMLgc5r2E&amp;si=F7zqY9G0iZGoIXK5</link>
+      <guid>https://youtube.com/watch?v=DrlMLgc5r2E&amp;si=F7zqY9G0iZGoIXK5</guid>
+      <description><![CDATA[<div id="content"><a href="https://youtube.com/watch?v=DrlMLgc5r2E&si=F7zqY9G0iZGoIXK5">youtube</a><br><br>Let's take a look at org mode macro replacement, what it is, and how to extend it past your wildest dreams.
+
+  my books:
+  https://chrismaiorana.com/books/</div>]]></description>
+      <pubDate>Tue, 06 Oct 2026 01:41:32 +0000</pubDate><category>org</category>
+    </item>
+    <item>
       <title>Emacs ollama agent change font and size</title>
       <link>https://www.youtube.com/watch?v=jkQnKvSrBaM</link>
       <guid>https://www.youtube.com/watch?v=jkQnKvSrBaM</guid>
@@ -18,6 +153,96 @@
       <guid>https://www.youtube.com/watch?v=MNpu2kRcKd0</guid>
       <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=MNpu2kRcKd0">youtube</a><br><br></div>]]></description>
       <pubDate>Sun, 04 Oct 2026 01:08:39 +0000</pubDate><category>ollama</category>
+    </item>
+    <item>
+      <title>I Asked Prot If I Should Switch to Emacs</title>
+      <link>https://www.youtube.com/watch?v=-1qS7Xiuh9E</link>
+      <guid>https://www.youtube.com/watch?v=-1qS7Xiuh9E</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=-1qS7Xiuh9E">youtube</a><br><br>I start with the question of whether you need to use Emacs to think like an Emacs user. For me, moving from Neovim would mean rebuilding years of habits, terminal workflows, and work automations, so the practical cost of changing editors matters more than taking sides in an editor rivalry.
+
+  Protesilaos explains that the spirit of Emacs is integration: a configurable, keyboard-driven environment that reduces context switching. We also discuss bringing that approach to Neovim, including org-mode-like planning, email, calendars, and a new org-mode-inspired Neovim plugin.
+
+  This clip is from my livestream with Protesilaos, Rumen, and ted freitas:
+  https://youtube.com/live/c0qZ6QzpcVc
+
+  Root Access is a live conversation with Linkarzu, CEO members, and invited guests about tech, tools, workflows, and what they’re building. Guests can share their projects before we dive into the discussion. Everyone is welcome to watch live and join the chat; the full replay stays public.
+
+  More about Root Access and the CEO hangout:
+  https://linkarzu.com/about/#whats-the-linkarzu-ceos-monthly-hangout-podcast
+
+  Join the YouTube Members:
+  https://www.youtube.com/channel/UCrSIvbFncPSlK6AdwE2QboA/join
+
+  Watch previous episodes:
+  https://www.youtube.com/playlist?list=PLZWMav2s1MZR_E0s7OTicc7Th5QuWvUPx
+
+  Where can I find the guests:
+
+  Web2Three
+  web2three.com
+
+  Ted G. Freitas
+  cpnllc.com
+
+  Protesilaos
+  https://www.youtube.com/@protesilaos
+
+  Chapters:
+  00:00 Emacs as a spirit of integration
+  00:46 Why switching from Neovim takes time
+  02:13 Workflow muscle memory and automation
+  03:49 Integration beyond Emacs
+  05:09 Neovim, org mode, email, and calendars
+  06:50 Porting org mode to Neovim
+  07:59 Can org mode work outside Emacs?
+  10:35 Emacs on Android and SyncThing
+
+  READ THIS BLOG POST:
+  How to use text to speech (TTS)?
+  Why are there 2 livestreams?
+  All the answers to these questions and more stream info here:
+  https://linkarzu.com/posts/news/streaming-info/
+
+  Support me:
+
+  Buy me the Switch 2:
+  https://ko-fi.com/linkarzu
+
+  Join the YouTube Members:
+  https://www.youtube.com/channel/UCrSIvbFncPSlK6AdwE2QboA/join
+
+  My Merch Store:
+  https://merch.linkarzu.com
+
+  Get 10% off 3DKeycap with code LINKARZU:
+  https://3dkeycap.com/?ref=linkarzu
+  Affiliate link, I earn a commission if you purchase through it.
+
+  My Dotfiles:
+  https://github.com/linkarzu/dotfiles-latest
+
+  Follow me on X:
+  https://x.com/link_arzu
+
+  Search terms:
+  Emacs philosophy
+  thinking like an Emacs user
+  Neovim versus Emacs
+  Emacs integration
+  Neovim workflow
+  keyboard-driven workflow
+  Emacs org mode
+  org mode in Neovim
+  Neovim planning tools
+  Emacs email and calendar
+  Emacs context switching
+  Neovim plugins
+  plain-text productivity
+  Emacs on Android
+  SyncThing Emacs workflow
+
+  ,#emacs #neovim #orgmode #productivity #opensource</div>]]></description>
+      <pubDate>Sat, 03 Oct 2026 13:06:09 +0000</pubDate><category>community</category>
     </item>
     <item>
       <title>Reading the emacs compilation mode source code</title>
@@ -570,223 +795,6 @@
       <guid>https://www.youtube.com/watch?v=UGSV8XG-JMA</guid>
       <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=UGSV8XG-JMA">youtube</a><br><br>Implementing a Subsonic compatible music player</div>]]></description>
       <pubDate>Sat, 12 Sep 2026 06:36:39 +0000</pubDate><category>elisp</category>
-    </item>
-    <item>
-      <title>the emacs theme I use: N Λ N O Theme</title>
-      <link>https://www.youtube.com/watch?v=Dlm7sxDB6h8</link>
-      <guid>https://www.youtube.com/watch?v=Dlm7sxDB6h8</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=Dlm7sxDB6h8">youtube</a><br><br>https://nic-olas.me
-
-  https://github.com/rougier/nano-theme</div>]]></description>
-      <pubDate>Thu, 03 Sep 2026 15:42:35 +0000</pubDate><category>nano</category>
-    </item>
-    <item>
-      <title>imenu elisp</title>
-      <link>https://www.youtube.com/watch?v=NU2WcX4dDiU</link>
-      <guid>https://www.youtube.com/watch?v=NU2WcX4dDiU</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=NU2WcX4dDiU">youtube</a><br><br>Demo of the modifications I've made recently imenu for elisp editting.
-
-  My Config is here: https://github.com/benleis1/emacs-init</div>]]></description>
-      <pubDate>Wed, 02 Sep 2026 22:26:02 +0000</pubDate><category>imenu</category>
-    </item>
-    <item>
-      <title>Process Footage: Randomized Greeting from Dipskits Greets Me at My Terminal</title>
-      <link>https://www.youtube.com/watch?v=wsVoHPL1C6g</link>
-      <guid>https://www.youtube.com/watch?v=wsVoHPL1C6g</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=wsVoHPL1C6g">youtube</a><br><br>Learn about the programs used in this video:
-
-  Emacs - https://www.emacswiki.org/emacs/LearningEmacs
-
-  Fortune - https://en.wikipedia.org/wiki/Fortune_(Unix)
-
-  Cowsay - https://en.wikipedia.org/wiki/Cowsay
-
-  --</div>]]></description>
-      <pubDate>Wed, 02 Sep 2026 19:00:10 +0000</pubDate><category>fun</category>
-    </item>
-    <item>
-      <title>Bioscoop demo: split screen to visualize color grading</title>
-      <link>https://www.youtube.com/watch?v=xoFdxP-MTn4</link>
-      <guid>https://www.youtube.com/watch?v=xoFdxP-MTn4</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=xoFdxP-MTn4">youtube</a><br><br>In this video, I demonstrate how I use Bioscoop, a Domain-Specific Language (DSL) for FFmpeg, to visualize color grading on @TheHaikouDiaries. The workflow is Emacs-based, where a Clojure REPL lives [00:11].
-  To effectively compare original footage with color-graded clips, I showcase two specific Clojure functions:
-  side-by-side [00:48]:
-  This function splits the video output into two streams (A and B). Stream A receives the color grading filter graph, while Stream B remains untouched. Both are scaled to 50% of their original size and stacked horizontally to display side-by-side.
-  single-screen [01:28]:
-  Similar to the first function, but instead of scaling the images down, it crops half of each screen and combines them to form a single, split view.
-  I then provides a practical demonstration using a black-and-white filter graph to show how both the side-by-side [02:05] and single-screen [02:47] outputs look when executed via ffplay.
-  For viewers interested in learning more, I recommend visiting the Bioscoop GitHub repository [03:32] for full documentation and a paper detailing its implementation and philosophy.
-  Links:
-  https://github.com/danielsz/bioscoop
-  @TheHaikouDiaries</div>]]></description>
-      <pubDate>Wed, 02 Sep 2026 08:05:59 +0000</pubDate><category>video</category>
-<category>ffmpeg</category>
-    </item>
-    <item>
-      <title>Integrating Emacs with Music Player</title>
-      <link>https://www.youtube.com/watch?v=580DxF2M7EE</link>
-      <guid>https://www.youtube.com/watch?v=580DxF2M7EE</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=580DxF2M7EE">youtube</a><br><br>Streamed Live on Twitch: https://twitch.tv/tsoding
-  Enable Subtitles for Twitch Chat
-
-  More videos of this project: https://www.youtube.com/playlist?list=PLW-7jryWDKRI
-
-  References:
-  - https://github.com/tsoding/shlex.h
-
-  Chapters:
-  - 00:00:00 - TBD
-
-  Topic: Integrating Emacs with Sowon2
-
-  Twitch Chat in Subtitles generated by: https://github.com/tsoding/markut
-
-  Support:
-  - https://github.com/tsoding/donate#support-tsoding</div>]]></description>
-      <pubDate>Tue, 01 Sep 2026 13:05:10 +0000</pubDate><category>music</category>
-    </item>
-    <item>
-      <title>Talking About Stuff I Use on Linux (not a dev, just a human perspective)</title>
-      <link>https://www.youtube.com/watch?v=bWfl8nDgb8o</link>
-      <guid>https://www.youtube.com/watch?v=bWfl8nDgb8o</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=bWfl8nDgb8o">youtube</a><br><br>TL;DR - make computers fun and useful tools again.
-
-  00:00:00 Intro
-  00:02:19 Fedora (KDE Plasma on desktop, Sway on laptop)
-  00:05:15 Thoughts on Sway (and tiling window managers)
-  00:08:14 LibreWolf (thoughts on Mozilla)
-  00:10:52 Dolphin
-  00:13:52 Yazi
-  00:15:24 (Doom) Emacs
-  00:20:14 Kate
-  00:21:00 Neovim
-  00:21:54 mpv
-  00:24:12 fooyin
-  00:26:44 Feishin (and Psysonic)
-  00:28:02 imv
-  00:29:01 yt-dlp (and it's for more than just YouTube!)
-  00:30:47 Kdenlive
-  00:33:45 Handbrake
-  00:35:32 ffmpeg
-  00:36:52 fre:ac (honorable mention)
-  00:37:33 Bitwig Studio
-  00:39:59 REAPER
-  00:40:53 yabridge (and growing Linux VST support)
-  00:43:22 Krita
-  00:44:18 OBS Studio
-  00:44:45 Darktable (and having the right Linux mindset)
-  00:48:36 Thoughts on terminal stuff
-  00:50:06 Foot
-  00:51:17 fzf (and some creative use-cases)
-  00:55:26 KDE Connect
-  00:56:54 Okular
-  00:57:22 Zathura
-  00:58:08 Syncthing (and how it replaced Nextcloud for me)
-  00:59:36 this video should not be *this* long</div>]]></description>
-      <pubDate>Tue, 01 Sep 2026 03:54:02 +0000</pubDate><category>community</category>
-    </item>
-    <item>
-      <title>My Note Taking Setup With Emacs Org-Mode</title>
-      <link>https://www.youtube.com/watch?v=LL5K5Fb8hFc</link>
-      <guid>https://www.youtube.com/watch?v=LL5K5Fb8hFc</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=LL5K5Fb8hFc">youtube</a><br><br>,# Show notes
-
-  ,## denote
-  - https://github.com/protesilaos/denote.git
-  - https://protesilaos.com/emacs/denote
-
-  ,## org-draw
-  - https://youtu.be/04zbf-tosNQ?si=H_lpgTRut7a-ZJuU
-  - https://github.com/larrasket/org-draw.git
-
-  ,## ox-odt / org-mode-ox-odt
-  - https://github.com/kjambunathan/org-mode-ox-odt.git
-
-  ,## org-mode
-  - https://orgmode.org/org.html</div>]]></description>
-      <pubDate>Mon, 31 Aug 2026 16:23:19 +0000</pubDate><category>org</category>
-    </item>
-    <item>
-      <title>Emacs Meep-mode Model Editing</title>
-      <link>https://www.youtube.com/watch?v=Ha_67hACw5M</link>
-      <guid>https://www.youtube.com/watch?v=Ha_67hACw5M</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=Ha_67hACw5M">youtube</a><br><br>* Links
-   - https://news.ycombinator.com/item?id=45228396
-   - https://youtu.be/MJqX8Z64k0c?si=l-9yCP_ysS3VA99B</div>]]></description>
-      <pubDate>Mon, 31 Aug 2026 13:09:38 +0000</pubDate><category>modal</category>
-<category>meep</category>
-    </item>
-    <item>
-      <title>Emacs Chat 30: Fabrice Niessen (en français, partie 2)</title>
-      <link>https://www.youtube.com/watch?v=4m0G_ASLUXY</link>
-      <guid>https://www.youtube.com/watch?v=4m0G_ASLUXY</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=4m0G_ASLUXY">youtube</a><br><br>https://sachachua.com/blog/2026/08/27-aout-emacs-chat-fabrice-niessen-en-francais-partie-2/
-
-
-  Nous allons à nouveau parler en direct avec Fabrice Niessen https://github.com/fniessen d'Emacs, de ses flux de travail, de sa configuration et d'autres sujets en français. Voici ses notes https://github.com/fniessen/emacs-chat-sacha-chua.
-
-  00:00 Introduction
-  03:00 gptel
-  13:42 diff
-  17:52 gptel-commit-message
-  23:30 docstrings
-  24:03 hs-minor-mode - hideshow
-  31:03 Super-whisper
-  41:21 Dotfiler
-  59:12 Enseignement d'Emacs
-
-  Voici notre conversation précédente :
-
-  https://youtube.com/live/b4lwD2QS_6c</div>]]></description>
-      <pubDate>Fri, 28 Aug 2026 00:49:08 +0000</pubDate><category>EmacsChat</category>
-    </item>
-    <item>
-      <title>How to Use HTML Mode in Emacs</title>
-      <link>https://www.youtube.com/watch?v=jMcrqwRSY18</link>
-      <guid>https://www.youtube.com/watch?v=jMcrqwRSY18</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=jMcrqwRSY18">youtube</a><br><br>In this video, I show you how to use the built in HTML mode in Emacs. I cover the following commands:
-  C-c C-t Insert generic tag
-  C-c / Close current tag
-  C-c Return Paragraph
-  C-c C-c h insert hyperlink
-  C-c C-c i insert image
-  C-c 1 insert level 1 heading
-  C-c 2 insert level 2 heading
-  C-c 3 insert level 3 heading
-  M-; insert comment
-  C-c C-c o insert ordered list
-  C-c C-c u insert unordered list
-  C-c C-c l insert list item
-  C-c C-n insert special character
-  C-c C-f skip across tag group
-  C-c C-v open current buffer in the browser
-  C-c C-a add attributes
-
-  I show you how the built in HTML mode in Emacs is useful for writing html code fast.</div>]]></description>
-      <pubDate>Sun, 23 Aug 2026 12:00:13 +0000</pubDate><category>html</category>
-<category>coding</category>
-    </item>
-    <item>
-      <title>Denote Dynamic Org Block | Advanced</title>
-      <link>https://www.youtube.com/watch?v=Pfv9Bvd8krk</link>
-      <guid>https://www.youtube.com/watch?v=Pfv9Bvd8krk</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=Pfv9Bvd8krk">youtube</a><br><br>https://protesilaos.com/emacs/denote-org</div>]]></description>
-      <pubDate>Fri, 21 Aug 2026 03:38:01 +0000</pubDate><category>denote</category>
-<category>org</category>
-    </item>
-    <item>
-      <title>20 août: Emacs Chat: Abdallah Maouche (take 2)</title>
-      <link>https://www.youtube.com/watch?v=_qkvvVP8ZMQ</link>
-      <guid>https://www.youtube.com/watch?v=_qkvvVP8ZMQ</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=_qkvvVP8ZMQ">youtube</a><br><br>https://sachachua.com/blog/2026/08/20-aout-emacs-chat-abdallah-maouche/
-
-  Nous allons parler en direct avec Abdallah Maouche (heiwiper) https://heiwiper.com/ (Gitlab https://gitlab.com/heiwiper, Github https://github.com/heiwiper) d'Emacs, de ses flux de travail, de sa configuration, et d'autres sujets en français. Je suis un peu intimidée, mais si vous posez vos questions dans le chat, je pense que nous pouvons survivre à mon faible niveau de français. =)
-
-
-  La diffusion en direct aura lieu le [2026-08-20 Thu 07:30]--[2026-08-20 Thu 08:30] dans le fuseau horaire America/Toronto, soit 0730H EDT / 0630H CDT / 0530H MDT / 0430H PDT / 1130H UTC / 1330H CEST / 1430H EEST / 1700H IST / 1930H +08 / 2030H JST
-
-  Si vous voulez parler d'Emacs avec Prot et moi https://sachachua.com/blog/2026/07/voulez-vous-parler-d-emacs-avec-prot-et-moi/ en français, n'hésitez pas à m'envoyer un courriel !</div>]]></description>
-      <pubDate>Fri, 21 Aug 2026 00:38:39 +0000</pubDate><category>EmacsChat</category>
     </item>
   </channel>
 </rss>
