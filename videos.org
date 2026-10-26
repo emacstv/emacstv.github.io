@@ -5,6 +5,464 @@
 
 
 
+* Emacs vs Neovim - Why Prot Won't Pick a Side  :community:
+:PROPERTIES:
+:DATE:     2026-10-26T04:38:18-07:00
+:DURATION: 1:30:34
+:YOUTUBE_URL: https://www.youtube.com/watch?v=dQ6X0-XCLIw
+:SPEAKERS: linkarzu
+:END:
+  After all my Neovim talk, Rumen brought @protesilaos (Prot) onto Root Access to balance things out, and Ted joined us too. Rumen shares that he converted to Emacs full time, is building a NixOS flavor, runs his tasks in Org mode, and is working on a small database server so the notes he dictates on his phone sync to Emacs on his desktop and laptop. We also get into the anti-AI "Human Emacs" fork idea, and Prot explains why Emacs already refuses LLM-generated contributions over copyright and GPL licensing concerns, and how maintainers spot suspicious patches. Prot says he doesn't use AI because programming is basically his video game, but he admits the technology case is undeniable and frames the AI bubble as a capital realignment like the dot-com crash.
+
+  We also talk about how Cyprus and Greece export tourism and land, and the gold rush mentality that comes with it, and I ask Prot about Cypriot olive oil for my wife. Then it's Niri and scrolling window managers versus i3/Sway-style control, Emacs workspaces replacing tmux, and DHH's Omarchy, where Prot argues software should be judged on its merits and not its author, and explains why he refuses to remove a Modus theme port for Omarchy. I show Hazenbug's org mode plugin for Neovim, Prot explains why org is portable plain-text markup, and I explain why I'm not switching back to Emacs yet - I'm not on the Neovim team or the Emacs team, and editor choice shouldn't be treated like soccer or religion. If you care about Emacs, Neovim, free software, or how AI fits into all of it, this one is for you.
+
+  Full livestream: https://youtube.com/live/c0qZ6QzpcVc
+
+  00:00 Highlights
+  01:17 Why Prot joins Root Access to balance out Neovim
+  07:37 Can you live off Emacs coaching? Prot on austerity
+  12:52 From a rented donkey stable to building Prot's own hut
+  18:50 Why everyone wants to move to Cyprus
+  24:36 Emacs 31 newcomers presets and how Emacs development works
+  31:12 Prot on the anti-AI Emacs manifesto and community politics
+  36:15 Prot on AI: programming is fun, but the market decides
+  42:03 Rumen learning Emacs with AI and Prot's coaching
+  48:07 Rumen's plan for a NixOS and Emacs centric machine
+  53:01 Techieman's Emacs journey on pause due to workload
+  59:42 Why Prot skips Hyprland: bling is an anti-feature
+  1:03:55 Omarchy, DHH and separating the work from the author
+  1:10:56 Sessions with Prot and sponsoring open source maintainers
+  1:16:19 Real Emacs on Android via F-Droid and iSH on iPhone
+  1:20:10 Why linkarzu won't switch back to Emacs yet
+  1:26:33 The spirit of Emacs is integration, not the software
+
+  This is from Root Access, a live conversation with CEO members and invited guests about tech, tools and what they're building. More about it and how to get a seat:
+  https://linkarzu.com/about/#whats-the-linkarzu-ceos-monthly-hangout-podcast
+  Previous episodes:
+  https://www.youtube.com/playlist?list=PLZWMav2s1MZR_E0s7OTicc7Th5QuWvUPx
+
+  READ THIS BLOG POST:
+  How to use text to speech (TTS)?
+  Why are there 2 livestreams?
+  All the answers to these questions and more stream info here:
+  https://linkarzu.com/posts/news/streaming-info/
+
+  Support me:
+
+  Buy me the Switch 2:
+  https://ko-fi.com/linkarzu
+
+  Join the YouTube Members:
+  https://www.youtube.com/channel/UCrSIvbFncPSlK6AdwE2QboA/join
+
+  My Merch Store:
+  https://merch.linkarzu.com
+
+  Get 10% off 3DKeycap with code LINKARZU:
+  https://3dkeycap.com/?ref=linkarzu
+  Affiliate link, I earn a commission if you purchase through it.
+
+  My Dotfiles:
+  https://github.com/linkarzu/dotfiles-latest
+
+  Follow me on X:
+  https://x.com/link_arzu
+
+  Search terms:
+  emacs vs neovim
+  protesilaos emacs
+  prot emacs interview
+  emacs llm contributions
+  human emacs fork
+  emacs gpl copyright ai
+  ai generated code free software
+  programming without ai
+  ai bubble dot-com crash
+  org mode mobile capture
+  org mode neovim plugin
+  emacs workspaces vs tmux
+  niri scrolling window manager
+  i3 vs sway vs niri
+  omarchy dhh
+  modus themes omarchy
+  separating the art from the artist software
+  emacs on nixos
+  switching from neovim to emacs
+  editor wars
+  root access podcast
+  cyprus tourism gold rush
+
+  Photo credits:
+  - Michal Klajban, CC BY-SA 4.0: https://w.wiki/exhQ
+  - kallerna, CC BY-SA 4.0: https://w.wiki/exhC
+  - Alexey V. Kurochkin, CC BY-SA 4.0: https://w.wiki/exhR
+  - Michal Klajban, CC BY-SA 4.0: https://w.wiki/exhS
+  - Michal Klajban, CC BY-SA 4.0: https://w.wiki/exhT
+  - Michal Klajban, CC BY-SA 4.0: https://w.wiki/exhU
+
+  ,#emacs #neovim #linux #orgmode #freesoftware #opensource #ai #podcast
+
+* Chai v2.1.0: Read Books in Emacs, Highlight, Search & Ask with Sources
+:PROPERTIES:
+:DATE:     2026-10-25T18:47:53-07:00
+:DURATION: 1:36
+:YOUTUBE_URL: https://www.youtube.com/watch?v=Nfiu6cXLsb8
+:SPEAKERS: Steve Chan
+:END:
+  Chai is an Emacs package for reading books in Org mode and keeping your notes where they belong. v2.1.0 is shown here with Thoreau's Walden.
+
+  What's new in v2.1.0:
+  • One right-click menu — every Chai action now lives in a single submenu
+  • Mark while reading — highlight a line, say why, and the note stays inline next to it
+  • Store the book — finished a book? Store all of its notes at once, then drop them into any Org note, with chapters and sources kept
+  • Find it again — M-x chai-search searches every book at once; your marked passages rank first
+  • Ask, with sources — M-x chai-ask asks your library a question (local LLM, e.g. qwen3.5:9b) and answers with citations you can follow back to the page
+
+* Emacs and rust on an ASUS Eee PC 1000HA
+:PROPERTIES:
+:DATE:     2026-10-22T17:34:50-07:00
+:DURATION: 3:51
+:YOUTUBE_URL: https://www.youtube.com/watch?v=T6_PQSeK38E
+:SPEAKERS: Jacob David Cunningham
+:END:
+  In an effort to focus/mood setting, I am using these random devices for specific purposes eg. I use a black 2007 Macbook Pro to journal in and I'm using this one to learn rust in.
+
+  Netbook info:
+  - ASUS Eee PC 1000HA
+  - Using Debian 12
+  - i686 arch
+
+  The battery is shot and hard to find a good one to replace it with. I have 3 bad batteries from my attempts to get a good one. The one I use in this video can hold a charge for like 10 minutes so it's helpful.
+
+  Installing emacs and rust
+  - $sudo apt install rust
+  - $sudo apt install emacs
+
+  See screen at 2:41 for modifications in init.el file. My install did not come with an init.el file so I had to make it under /home/user/.emacs.d/init.el. The .emacs.d file is made automatically. As you make edits through the Emacs GUI eg. with M-x command settings are written to the init.el file. That's how I was able to get the theme to stick and later when installing rust-mode package to get syntax highlighting to work.
+
+  I primarily had to use the Emacs GUI to get the theme installed/other situations addressed like the rust syntax highlighting.
+
+  For rust don't use the curl/bash script method to install it, just stick with apt and then you'll have to bind the /usr/bin/rustc command to rustc if you want it to be easier to type.
+
+  My other hardware-focused channel
+  https://www.youtube.com/watch?v=ptkcV5qB6gI
+* Video 3  - Configuring Emacs, Arrays, Slices, Vectors, and the Borrow Checker  :coding:
+:PROPERTIES:
+:DATE:     2026-10-22T11:56:16-07:00
+:DURATION: 15:46
+:YOUTUBE_URL: https://www.youtube.com/watch?v=PEr-_MyBJ0Y
+:SPEAKERS: DarkInk
+:END:
+  In this video I cover setting up Emacs to use as a Rust-aware editor.   No shade to the non-emacs users, but I'll probably not cover other command-line editors.  (Exercise to the reader).
+
+  The core Rust topics are arrays, slices, and vectors. They're similar, in some ways, so I thought I'd cover them together.  After that, I give an example of the borrow checker doing its borrow-checking thing.
+
+
+* vim user admits emacs is better  :community:
+:PROPERTIES:
+:DATE:     2026-10-22T11:02:44-07:00
+:DURATION: 14:08
+:YOUTUBE_URL: https://www.youtube.com/watch?v=eqyAS5y_4Co
+:SPEAKERS: Alex Sokol • no ai
+:END:
+  also i forgot to mention that i like lisp! that's also my point of interest in emacs (no i'm not going to write fennel)
+
+* Some recent changes I've made to tab-config my tabbing package for emacs built on top of tab-line  :tab:navigation:
+:PROPERTIES:
+:DATE:     2026-10-22T10:22:23-07:00
+:DURATION: 4:14
+:YOUTUBE_URL: https://youtu.be/7okzjW_fZGg
+:SPEAKERS: Benjamin Leis
+:END:
+  See: https://github.com/benleis1/emacs-init/blob/main/lisp/tab-config.el
+
+* Emacs for obsessive word lovers  :writing:dict:
+:PROPERTIES:
+:DATE:     2026-10-22T08:19:10-07:00
+:DURATION: 10:40
+:YOUTUBE_URL: https://www.youtube.com/watch?v=pS3MI9DRD44
+:SPEAKERS: Chris Maiorana
+:END:
+  That's right. Emacs is for word lovers. It integrates beautifully with locally installed dictionary databases through your dictd server, if you have one installed--and why wouldn't you?  Look up `almost` any word you can think of. Only big-brain vocabularies with multi-lingual lexicons can beat it.
+
+  CHECK OUT MY BOOKS:
+  chrismaiorana.com/books/
+
+* Why Sacha Chua Still Lives in Emacs After 20+ Years
+:PROPERTIES:
+:DATE:     2026-10-21T13:52:43-07:00
+:DURATION: 0:00
+:YOUTUBE_URL: https://www.youtube.com/watch?v=BlgtfOsXgCs
+:SPEAKERS: linkarzu
+:END:
+  Sacha Chua joins me to talk about Emacs. She has been living in it for
+  decades, and she shares the Emacs world with all of us through Emacs News,
+  Emacs Chat and EmacsConf.
+
+  I want to see how she runs her life in Org Mode and
+  how she uses her speech and audio braindump workflows, and to ask her what she
+  thinks of what Prot and I have been doing with Emacs.
+
+  We'll also be discussing Neovim and other usual tech related topics
+
+  How to use text to speech (TTS)?
+  All the answers to any questions and more stream info here:
+  https://linkarzu.com/posts/news/streaming-info/
+
+  Support me:
+  Buy me the Switch 2:
+  https://ko-fi.com/linkarzu
+
+  Join the YouTube Members:
+  https://www.youtube.com/channel/UCrSIvbFncPSlK6AdwE2QboA/join
+
+  My Merch Store:
+  https://merch.linkarzu.com
+
+  Get 10% off 3DKeycap with code LINKARZU:
+  https://3dkeycap.com/?ref=linkarzu
+  Affiliate link, I earn a commission if you purchase through it.
+
+  My Dotfiles:
+  https://github.com/linkarzu/dotfiles-latest
+
+  Follow me on X:
+  https://x.com/link_arzu
+
+
+
+  Where can I find the guests:
+
+  Sacha Chua
+  https://www.youtube.com/@sachactube
+
+* Yay Emacs 44: More conversational voice interfaces  :speech:
+:PROPERTIES:
+:DATE:     2026-10-21T00:43:27-07:00
+:DURATION: 1:11:03
+:YOUTUBE_URL: https://www.youtube.com/watch?v=HrvyY1x3lg4
+:SPEAKERS: Sacha Chua
+:END:
+  Yesterday, I added voice in and voice out to M-x doctor. I think I've figured out how to get gptel to do the same so that I can practice talking in French with Emacs. There are a number of mobile applications that offer similar kinds of AI voice conversations for a subscription, but I'd prefer to do things in Emacs, of course, so that I can use the data and tweak things more. I'll demonstrate what I've got working so far and then tinker with it to see what else I can come up with.
+
+  Outline:
+
+  - M-x doctor and sacha-whisper-conversation-mode
+  - sacha-gptel-practice-french
+  - https://github.com/jwiegley/pending would be nice
+      - speech recognition
+      - gptel chat
+
+* Github PR box * tech chats * conference outfits * Emacs Conf prep   :community:
+:PROPERTIES:
+:DATE:     2026-10-20T16:49:15-07:00
+:DURATION: 5:35:41
+:YOUTUBE_URL: https://www.youtube.com/watch?v=Qlxxe07CtC8
+:SPEAKERS: bashbunni
+:END:
+  Join this channel to get access to perks:
+  https://www.youtube.com/channel/UC9H0HzpKf5JlazkADWnW1Jw/join
+
+  bashbunni is partnered with Tailscale! Tailscale leverages the Wireguard protocol to create a user friendly, low latency, peer-to-peer mesh network. It's free for individuals + get three months free off of any paid plan with code 'bashbunni'.
+
+  https://link.bashbunni.dev/tailscale
+
+  ---
+
+  In this stream, I'm building a shell with a guided project from Code Crafters. This project is free for the next few months, so you can follow along too!
+
+  I have a referral/affiliate link with them that gets you 40% off their annual plan (ignore the 72 hour window, you can redeem this discount indefinitely) https://link.bashbunni.dev/codecrafters
+
+  Chapters:
+  0:00 Stream intro and tech rant
+  4:29 The state of tech culture and AI
+  15:25 Security and industry ethics
+  22:47 Recent security breaches
+  29:44 Advice for junior developers
+  43:16 Community interaction
+  46:51 GitHub Universe unboxing
+  58:49 Tech conference fashion show
+  1:21:13 Internet drama recap
+  1:35:20 Conference planning and prep
+  3:06:48 Emacs conference prep
+
+* Emacs vs Neovim - Why He Switched for Good  :community:
+:PROPERTIES:
+:DATE:     2026-10-20T09:50:09-07:00
+:DURATION: 12:26
+:YOUTUBE_URL: https://www.youtube.com/watch?v=X23tIQSX6u8
+:SPEAKERS: linkarzu
+:END:
+  🔴 LIVE Sun, Nov 8, 7:30 AM CST: Neovim + kitty Maintainers on AI, Terminal Security and What's Next | Justin M. Keyes & Kovid Goyal. Set a reminder: https://youtube.com/live/C0kQDam7PZs
+
+  Why would someone leave Neovim for Emacs and stay there? In this clip, lucidlynx explains why everything in Neovim felt like a separate piece that never quite fit together, and why Emacs felt more integrated. I jump in with my own experience: I tried Emacs, I suffered, and I get what they mean about the Neovim ecosystem feeling like a puzzle of disconnected tools.
+
+  We get into LunarVim disappearing, LazyVim's rapid-fire changes (like the move from nvim-cmp to blink.cmp breaking completion plugins), and how shell tools like EZA, BAT, ripgrep, FD, FZF and Zoxide never felt like part of a whole. lucidlynx also shares what the switch was actually like: remapping Caps Lock to Control, getting used to Emacs keybindings, and starting out with Doom Emacs.
+
+  Later we talk about Emacs as a Lisp machine, using AI to port a VS Code plugin for HashiCorp Packer into Emacs, and why Org mode keeps coming up. If you're curious about Emacs, or tired of stitching your Neovim setup together, this one is worth a watch.
+
+  This clip comes from my livestream: https://youtube.com/live/GeqZ1delFBE
+
+  Chapters:
+  0:00 Neovim felt like separate pieces
+  1:03 LunarVim, LazyVim and breaking changes
+  2:54 Why switch to Emacs?
+  4:10 What convinced the move to Emacs
+  6:05 Emacs keybindings and Caps Lock as Control
+  7:22 Thanks to the members
+  7:44 Emacs as a Lisp machine, Packer and AI
+  10:25 No going back: Org mode and interoperability
+  11:42 Just use what's comfy
+
+  Guest: SLURM Initiative (aka lucidlynx)
+  https://www.youtube.com/@slurminitiative
+
+  This is from Open Terminal, a live hangout where YouTube Members join me on camera (up to 8 per episode) to share their setup, workflow or projects. Want a seat? Join at the Member level, the first tier:
+  https://www.youtube.com/channel/UCrSIvbFncPSlK6AdwE2QboA/join
+  Previous episodes:
+  https://www.youtube.com/playlist?list=PLZWMav2s1MZSKO3uLD5-gB5tK_8lH_rAz
+
+  READ THIS BLOG POST:
+  How to use text to speech (TTS)?
+  Why are there 2 livestreams?
+  All the answers to these questions and more stream info here:
+  https://linkarzu.com/posts/news/streaming-info/
+
+  Support me:
+
+  Buy me the Switch 2:
+  https://ko-fi.com/linkarzu
+
+  Join the YouTube Members:
+  https://www.youtube.com/channel/UCrSIvbFncPSlK6AdwE2QboA/join
+
+  My Merch Store:
+  https://merch.linkarzu.com
+
+  Get 10% off 3DKeycap with code LINKARZU:
+  https://3dkeycap.com/?ref=linkarzu
+  Affiliate link, I earn a commission if you purchase through it.
+
+  My Dotfiles:
+  https://github.com/linkarzu/dotfiles-latest
+
+  Follow me on X:
+  https://x.com/link_arzu
+
+  Search terms:
+  Emacs vs Neovim
+  why switch from Neovim to Emacs
+  Neovim to Emacs
+  Emacs integration
+  Doom Emacs
+  LazyVim breaking changes
+  nvim-cmp to blink.cmp
+  LunarVim discontinued
+  Neovim distro
+  Caps Lock as Control Emacs
+  Emacs keybindings
+  Emacs Lisp machine
+  Emacs Lisp AI
+  HashiCorp Packer Emacs
+  Org mode Emacs
+  Org mode Neovim
+  Neovim ecosystem fragmentation
+  use what's comfy editor
+
+  ,#emacs #neovim #lazyvim #doomemacs #orgmode #vim #texteditor
+
+* Can your Vim do that?  *starts beatboxing*   :multipleCursors:
+:PROPERTIES:
+:DATE:     2026-10-20T08:40:38-07:00
+:DURATION: 0:53
+:YOUTUBE_URL: https://www.youtube.com/watch?v=CUYWAyCgzos
+:SPEAKERS: absolute_bajoding
+:END:
+  Clip from "Ping Pong in Lua"
+  https://youtu.be/CYmCwHJs-A8
+
+  from
+  @TsodingDaily
+  @Tsoding
+
+* grid-table — Runs Excel in Emacs
+:PROPERTIES:
+:DATE:     2026-10-20T01:06:31-07:00
+:DURATION: 18:47
+:YOUTUBE_URL: https://www.youtube.com/watch?v=61-uNV9N154
+:SPEAKERS: Steve Chan
+:END:
+  grid-table (now rename to exc.el)  is a spreadsheet for Emacs that behaves like Excel: the keys, the formulas, the error values and the file format. This tour uses one workbook, Northwind Tea Co., about 2,400 orders on three sheets, and shows what is new in 0.4.
+
+  What you'll see:
+  - The new view, drawn with ETAF, next to the old one
+  - Excel keys: typing, RET, TAB, F2, fill, copy and paste with formats, undo
+  - XLOOKUP, SUMIFS, FILTER, dynamic arrays that spill, LET and LAMBDA
+  - One edit recalculates only what depends on it
+  - Tracing where a number comes from, with error values that behave like Excel's
+  - Floating charts over the cells
+  - Results checked against Microsoft's own function examples
+  - Export to .xlsx, edit in LibreOffice, open it again in Emacs
+  - A workbook that reads another workbook's values
+  - A new formula function in three lines of Lisp
+  - Inside Org notes, and in a terminal
+
+  Chapters:
+  0:00 Old view and new view, same edit
+  0:38 grid-table
+  0:49 Excel keys
+  1:34 Clean the orders
+  2:10 Look up and summarise
+  3:19 One edit, and only what depends on it
+  4:51 Make it presentable
+  5:25 Where did this number come from?
+  6:33 Names
+  8:00 Arrays that spill
+  9:50 LAMBDA
+  10:59 Text, dates and R1C1
+  13:15 A chart that floats
+  14:56 Checked against Excel
+  15:33 Send it to a colleague (.xlsx)
+  16:36 A workbook that reads another
+  17:36 Three lines of Lisp
+  18:08 In Org notes and in a terminal
+  18:32 Get it
+
+* Ghostel integration in Emacs  :ghostel:
+:PROPERTIES:
+:DATE:     2026-10-19T18:48:36-07:00
+:DURATION: 10:27
+:YOUTUBE_URL: https://www.youtube.com/watch?v=jB17WtV9JCk
+:SPEAKERS: Benjamin Leis
+:END:
+  Update on my adoption of the ghostel terminal with emacs
+
+  See: https://github.com/benleis1/emacs-init/blob/a2d840fe7ff8f9a4f51f13739794f32f0a39f18c/init.el#L1699
+
+  for the init file configuration
+
+* Better lisp editing with `tree-guide.el` (and other packages)  :elisp:coding:
+:PROPERTIES:
+:DATE:     2026-10-19T08:05:40-07:00
+:DURATION: 28:52
+:YOUTUBE_URL: https://www.youtube.com/watch?v=5qgXUH5pHOk
+:SPEAKERS: Ben Vandervalk
+:END:
+  A demonstration of `tree-guide-mode`, a local minor mode that renders extra guide lines in lisp source code buffers, which make it easier to read and write lisp code. Following that, I demonstrate how to configure/use some other useful lisp-related packages, namely: `aggressive-indent`, `show-paren`, `lispy`, and `hideshow-org`.
+
+  Keywords: emacs, lisp, elisp, structural editing, lispy
+
+  Links from the video:
+
+  [1] `README.md`/`init.el` from video: https://github.com/benvvalk/tree-guide.el-video
+  [2] `tree-guide.el` repo: https://github.com/benvvalk/tree-guide.el
+  [3] `lispy` tutorial videos (by the author): https://www.youtube.com/@abo5abo/videos
+  [4] My GitHub Sponsors page: https://github.com/sponsors/benvvalk
+  [5] My sponsored issues page: https://sponsoredissues.org/benvvalk
+  [6] HackerNews post about "sponsorware": https://news.ycombinator.com/item?id=23613719
+
+  P.S. Sorry that these links aren't clickable. Google/YouTube says that I need to upload a picture of my Drivers License, or a 3D scan of my face, in order to add hyperlinks to the video description, and I'm not really comfortable with that.
+
 * Emacs: new 'denote-data-mode' testing  :denote:
 :PROPERTIES:
 :DATE:     2026-10-12T00:16:42-07:00

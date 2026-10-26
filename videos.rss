@@ -6,6 +6,437 @@
     <atom:link href="https://emacs.tv/videos.rss" rel="self" type="application/rss+xml" />
     <description>Emacs videos</description>
     <item>
+      <title>Emacs vs Neovim - Why Prot Won&apos;t Pick a Side</title>
+      <link>https://www.youtube.com/watch?v=dQ6X0-XCLIw</link>
+      <guid>https://www.youtube.com/watch?v=dQ6X0-XCLIw</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=dQ6X0-XCLIw">youtube</a><br><br>After all my Neovim talk, Rumen brought @protesilaos (Prot) onto Root Access to balance things out, and Ted joined us too. Rumen shares that he converted to Emacs full time, is building a NixOS flavor, runs his tasks in Org mode, and is working on a small database server so the notes he dictates on his phone sync to Emacs on his desktop and laptop. We also get into the anti-AI "Human Emacs" fork idea, and Prot explains why Emacs already refuses LLM-generated contributions over copyright and GPL licensing concerns, and how maintainers spot suspicious patches. Prot says he doesn't use AI because programming is basically his video game, but he admits the technology case is undeniable and frames the AI bubble as a capital realignment like the dot-com crash.
+
+  We also talk about how Cyprus and Greece export tourism and land, and the gold rush mentality that comes with it, and I ask Prot about Cypriot olive oil for my wife. Then it's Niri and scrolling window managers versus i3/Sway-style control, Emacs workspaces replacing tmux, and DHH's Omarchy, where Prot argues software should be judged on its merits and not its author, and explains why he refuses to remove a Modus theme port for Omarchy. I show Hazenbug's org mode plugin for Neovim, Prot explains why org is portable plain-text markup, and I explain why I'm not switching back to Emacs yet - I'm not on the Neovim team or the Emacs team, and editor choice shouldn't be treated like soccer or religion. If you care about Emacs, Neovim, free software, or how AI fits into all of it, this one is for you.
+
+  Full livestream: https://youtube.com/live/c0qZ6QzpcVc
+
+  00:00 Highlights
+  01:17 Why Prot joins Root Access to balance out Neovim
+  07:37 Can you live off Emacs coaching? Prot on austerity
+  12:52 From a rented donkey stable to building Prot's own hut
+  18:50 Why everyone wants to move to Cyprus
+  24:36 Emacs 31 newcomers presets and how Emacs development works
+  31:12 Prot on the anti-AI Emacs manifesto and community politics
+  36:15 Prot on AI: programming is fun, but the market decides
+  42:03 Rumen learning Emacs with AI and Prot's coaching
+  48:07 Rumen's plan for a NixOS and Emacs centric machine
+  53:01 Techieman's Emacs journey on pause due to workload
+  59:42 Why Prot skips Hyprland: bling is an anti-feature
+  1:03:55 Omarchy, DHH and separating the work from the author
+  1:10:56 Sessions with Prot and sponsoring open source maintainers
+  1:16:19 Real Emacs on Android via F-Droid and iSH on iPhone
+  1:20:10 Why linkarzu won't switch back to Emacs yet
+  1:26:33 The spirit of Emacs is integration, not the software
+
+  This is from Root Access, a live conversation with CEO members and invited guests about tech, tools and what they're building. More about it and how to get a seat:
+  https://linkarzu.com/about/#whats-the-linkarzu-ceos-monthly-hangout-podcast
+  Previous episodes:
+  https://www.youtube.com/playlist?list=PLZWMav2s1MZR_E0s7OTicc7Th5QuWvUPx
+
+  READ THIS BLOG POST:
+  How to use text to speech (TTS)?
+  Why are there 2 livestreams?
+  All the answers to these questions and more stream info here:
+  https://linkarzu.com/posts/news/streaming-info/
+
+  Support me:
+
+  Buy me the Switch 2:
+  https://ko-fi.com/linkarzu
+
+  Join the YouTube Members:
+  https://www.youtube.com/channel/UCrSIvbFncPSlK6AdwE2QboA/join
+
+  My Merch Store:
+  https://merch.linkarzu.com
+
+  Get 10% off 3DKeycap with code LINKARZU:
+  https://3dkeycap.com/?ref=linkarzu
+  Affiliate link, I earn a commission if you purchase through it.
+
+  My Dotfiles:
+  https://github.com/linkarzu/dotfiles-latest
+
+  Follow me on X:
+  https://x.com/link_arzu
+
+  Search terms:
+  emacs vs neovim
+  protesilaos emacs
+  prot emacs interview
+  emacs llm contributions
+  human emacs fork
+  emacs gpl copyright ai
+  ai generated code free software
+  programming without ai
+  ai bubble dot-com crash
+  org mode mobile capture
+  org mode neovim plugin
+  emacs workspaces vs tmux
+  niri scrolling window manager
+  i3 vs sway vs niri
+  omarchy dhh
+  modus themes omarchy
+  separating the art from the artist software
+  emacs on nixos
+  switching from neovim to emacs
+  editor wars
+  root access podcast
+  cyprus tourism gold rush
+
+  Photo credits:
+  - Michal Klajban, CC BY-SA 4.0: https://w.wiki/exhQ
+  - kallerna, CC BY-SA 4.0: https://w.wiki/exhC
+  - Alexey V. Kurochkin, CC BY-SA 4.0: https://w.wiki/exhR
+  - Michal Klajban, CC BY-SA 4.0: https://w.wiki/exhS
+  - Michal Klajban, CC BY-SA 4.0: https://w.wiki/exhT
+  - Michal Klajban, CC BY-SA 4.0: https://w.wiki/exhU
+
+  ,#emacs #neovim #linux #orgmode #freesoftware #opensource #ai #podcast</div>]]></description>
+      <pubDate>Mon, 26 Oct 2026 11:38:18 +0000</pubDate><category>community</category>
+    </item>
+    <item>
+      <title>Chai v2.1.0: Read Books in Emacs, Highlight, Search &amp; Ask with Sources</title>
+      <link>https://www.youtube.com/watch?v=Nfiu6cXLsb8</link>
+      <guid>https://www.youtube.com/watch?v=Nfiu6cXLsb8</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=Nfiu6cXLsb8">youtube</a><br><br>Chai is an Emacs package for reading books in Org mode and keeping your notes where they belong. v2.1.0 is shown here with Thoreau's Walden.
+
+  What's new in v2.1.0:
+  • One right-click menu — every Chai action now lives in a single submenu
+  • Mark while reading — highlight a line, say why, and the note stays inline next to it
+  • Store the book — finished a book? Store all of its notes at once, then drop them into any Org note, with chapters and sources kept
+  • Find it again — M-x chai-search searches every book at once; your marked passages rank first
+  • Ask, with sources — M-x chai-ask asks your library a question (local LLM, e.g. qwen3.5:9b) and answers with citations you can follow back to the page</div>]]></description>
+      <pubDate>Mon, 26 Oct 2026 01:47:53 +0000</pubDate>
+    </item>
+    <item>
+      <title>Emacs and rust on an ASUS Eee PC 1000HA</title>
+      <link>https://www.youtube.com/watch?v=T6_PQSeK38E</link>
+      <guid>https://www.youtube.com/watch?v=T6_PQSeK38E</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=T6_PQSeK38E">youtube</a><br><br>In an effort to focus/mood setting, I am using these random devices for specific purposes eg. I use a black 2007 Macbook Pro to journal in and I'm using this one to learn rust in.
+
+  Netbook info:
+  - ASUS Eee PC 1000HA
+  - Using Debian 12
+  - i686 arch
+
+  The battery is shot and hard to find a good one to replace it with. I have 3 bad batteries from my attempts to get a good one. The one I use in this video can hold a charge for like 10 minutes so it's helpful.
+
+  Installing emacs and rust
+  - $sudo apt install rust
+  - $sudo apt install emacs
+
+  See screen at 2:41 for modifications in init.el file. My install did not come with an init.el file so I had to make it under /home/user/.emacs.d/init.el. The .emacs.d file is made automatically. As you make edits through the Emacs GUI eg. with M-x command settings are written to the init.el file. That's how I was able to get the theme to stick and later when installing rust-mode package to get syntax highlighting to work.
+
+  I primarily had to use the Emacs GUI to get the theme installed/other situations addressed like the rust syntax highlighting.
+
+  For rust don't use the curl/bash script method to install it, just stick with apt and then you'll have to bind the /usr/bin/rustc command to rustc if you want it to be easier to type.
+
+  My other hardware-focused channel
+  https://www.youtube.com/watch?v=ptkcV5qB6gI</div>]]></description>
+      <pubDate>Fri, 23 Oct 2026 00:34:50 +0000</pubDate>
+    </item>
+    <item>
+      <title>Video 3  - Configuring Emacs, Arrays, Slices, Vectors, and the Borrow Checker</title>
+      <link>https://www.youtube.com/watch?v=PEr-_MyBJ0Y</link>
+      <guid>https://www.youtube.com/watch?v=PEr-_MyBJ0Y</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=PEr-_MyBJ0Y">youtube</a><br><br>In this video I cover setting up Emacs to use as a Rust-aware editor.   No shade to the non-emacs users, but I'll probably not cover other command-line editors.  (Exercise to the reader).
+
+  The core Rust topics are arrays, slices, and vectors. They're similar, in some ways, so I thought I'd cover them together.  After that, I give an example of the borrow checker doing its borrow-checking thing.</div>]]></description>
+      <pubDate>Thu, 22 Oct 2026 18:56:16 +0000</pubDate><category>coding</category>
+    </item>
+    <item>
+      <title>vim user admits emacs is better</title>
+      <link>https://www.youtube.com/watch?v=eqyAS5y_4Co</link>
+      <guid>https://www.youtube.com/watch?v=eqyAS5y_4Co</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=eqyAS5y_4Co">youtube</a><br><br>also i forgot to mention that i like lisp! that's also my point of interest in emacs (no i'm not going to write fennel)</div>]]></description>
+      <pubDate>Thu, 22 Oct 2026 18:02:44 +0000</pubDate><category>community</category>
+    </item>
+    <item>
+      <title>Some recent changes I&apos;ve made to tab-config my tabbing package for emacs built on top of tab-line</title>
+      <link>https://youtu.be/7okzjW_fZGg</link>
+      <guid>https://youtu.be/7okzjW_fZGg</guid>
+      <description><![CDATA[<div id="content"><a href="https://youtu.be/7okzjW_fZGg">youtube</a><br><br>See: https://github.com/benleis1/emacs-init/blob/main/lisp/tab-config.el</div>]]></description>
+      <pubDate>Thu, 22 Oct 2026 17:22:23 +0000</pubDate><category>tab</category>
+<category>navigation</category>
+    </item>
+    <item>
+      <title>Emacs for obsessive word lovers</title>
+      <link>https://www.youtube.com/watch?v=pS3MI9DRD44</link>
+      <guid>https://www.youtube.com/watch?v=pS3MI9DRD44</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=pS3MI9DRD44">youtube</a><br><br>That's right. Emacs is for word lovers. It integrates beautifully with locally installed dictionary databases through your dictd server, if you have one installed--and why wouldn't you?  Look up `almost` any word you can think of. Only big-brain vocabularies with multi-lingual lexicons can beat it.
+
+  CHECK OUT MY BOOKS:
+  chrismaiorana.com/books/</div>]]></description>
+      <pubDate>Thu, 22 Oct 2026 15:19:10 +0000</pubDate><category>writing</category>
+<category>dict</category>
+    </item>
+    <item>
+      <title>Why Sacha Chua Still Lives in Emacs After 20+ Years</title>
+      <link>https://www.youtube.com/watch?v=BlgtfOsXgCs</link>
+      <guid>https://www.youtube.com/watch?v=BlgtfOsXgCs</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=BlgtfOsXgCs">youtube</a><br><br>Sacha Chua joins me to talk about Emacs. She has been living in it for
+  decades, and she shares the Emacs world with all of us through Emacs News,
+  Emacs Chat and EmacsConf.
+
+  I want to see how she runs her life in Org Mode and
+  how she uses her speech and audio braindump workflows, and to ask her what she
+  thinks of what Prot and I have been doing with Emacs.
+
+  We'll also be discussing Neovim and other usual tech related topics
+
+  How to use text to speech (TTS)?
+  All the answers to any questions and more stream info here:
+  https://linkarzu.com/posts/news/streaming-info/
+
+  Support me:
+  Buy me the Switch 2:
+  https://ko-fi.com/linkarzu
+
+  Join the YouTube Members:
+  https://www.youtube.com/channel/UCrSIvbFncPSlK6AdwE2QboA/join
+
+  My Merch Store:
+  https://merch.linkarzu.com
+
+  Get 10% off 3DKeycap with code LINKARZU:
+  https://3dkeycap.com/?ref=linkarzu
+  Affiliate link, I earn a commission if you purchase through it.
+
+  My Dotfiles:
+  https://github.com/linkarzu/dotfiles-latest
+
+  Follow me on X:
+  https://x.com/link_arzu
+
+
+
+  Where can I find the guests:
+
+  Sacha Chua
+  https://www.youtube.com/@sachactube</div>]]></description>
+      <pubDate>Wed, 21 Oct 2026 20:52:43 +0000</pubDate>
+    </item>
+    <item>
+      <title>Yay Emacs 44: More conversational voice interfaces</title>
+      <link>https://www.youtube.com/watch?v=HrvyY1x3lg4</link>
+      <guid>https://www.youtube.com/watch?v=HrvyY1x3lg4</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=HrvyY1x3lg4">youtube</a><br><br>Yesterday, I added voice in and voice out to M-x doctor. I think I've figured out how to get gptel to do the same so that I can practice talking in French with Emacs. There are a number of mobile applications that offer similar kinds of AI voice conversations for a subscription, but I'd prefer to do things in Emacs, of course, so that I can use the data and tweak things more. I'll demonstrate what I've got working so far and then tinker with it to see what else I can come up with.
+
+  Outline:
+
+  - M-x doctor and sacha-whisper-conversation-mode
+  - sacha-gptel-practice-french
+  - https://github.com/jwiegley/pending would be nice
+      - speech recognition
+      - gptel chat</div>]]></description>
+      <pubDate>Wed, 21 Oct 2026 07:43:27 +0000</pubDate><category>speech</category>
+    </item>
+    <item>
+      <title>Github PR box * tech chats * conference outfits * Emacs Conf prep</title>
+      <link>https://www.youtube.com/watch?v=Qlxxe07CtC8</link>
+      <guid>https://www.youtube.com/watch?v=Qlxxe07CtC8</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=Qlxxe07CtC8">youtube</a><br><br>Join this channel to get access to perks:
+  https://www.youtube.com/channel/UC9H0HzpKf5JlazkADWnW1Jw/join
+
+  bashbunni is partnered with Tailscale! Tailscale leverages the Wireguard protocol to create a user friendly, low latency, peer-to-peer mesh network. It's free for individuals + get three months free off of any paid plan with code 'bashbunni'.
+
+  https://link.bashbunni.dev/tailscale
+
+  ---
+
+  In this stream, I'm building a shell with a guided project from Code Crafters. This project is free for the next few months, so you can follow along too!
+
+  I have a referral/affiliate link with them that gets you 40% off their annual plan (ignore the 72 hour window, you can redeem this discount indefinitely) https://link.bashbunni.dev/codecrafters
+
+  Chapters:
+  0:00 Stream intro and tech rant
+  4:29 The state of tech culture and AI
+  15:25 Security and industry ethics
+  22:47 Recent security breaches
+  29:44 Advice for junior developers
+  43:16 Community interaction
+  46:51 GitHub Universe unboxing
+  58:49 Tech conference fashion show
+  1:21:13 Internet drama recap
+  1:35:20 Conference planning and prep
+  3:06:48 Emacs conference prep</div>]]></description>
+      <pubDate>Tue, 20 Oct 2026 23:49:15 +0000</pubDate><category>community</category>
+    </item>
+    <item>
+      <title>Emacs vs Neovim - Why He Switched for Good</title>
+      <link>https://www.youtube.com/watch?v=X23tIQSX6u8</link>
+      <guid>https://www.youtube.com/watch?v=X23tIQSX6u8</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=X23tIQSX6u8">youtube</a><br><br>🔴 LIVE Sun, Nov 8, 7:30 AM CST: Neovim + kitty Maintainers on AI, Terminal Security and What's Next | Justin M. Keyes & Kovid Goyal. Set a reminder: https://youtube.com/live/C0kQDam7PZs
+
+  Why would someone leave Neovim for Emacs and stay there? In this clip, lucidlynx explains why everything in Neovim felt like a separate piece that never quite fit together, and why Emacs felt more integrated. I jump in with my own experience: I tried Emacs, I suffered, and I get what they mean about the Neovim ecosystem feeling like a puzzle of disconnected tools.
+
+  We get into LunarVim disappearing, LazyVim's rapid-fire changes (like the move from nvim-cmp to blink.cmp breaking completion plugins), and how shell tools like EZA, BAT, ripgrep, FD, FZF and Zoxide never felt like part of a whole. lucidlynx also shares what the switch was actually like: remapping Caps Lock to Control, getting used to Emacs keybindings, and starting out with Doom Emacs.
+
+  Later we talk about Emacs as a Lisp machine, using AI to port a VS Code plugin for HashiCorp Packer into Emacs, and why Org mode keeps coming up. If you're curious about Emacs, or tired of stitching your Neovim setup together, this one is worth a watch.
+
+  This clip comes from my livestream: https://youtube.com/live/GeqZ1delFBE
+
+  Chapters:
+  0:00 Neovim felt like separate pieces
+  1:03 LunarVim, LazyVim and breaking changes
+  2:54 Why switch to Emacs?
+  4:10 What convinced the move to Emacs
+  6:05 Emacs keybindings and Caps Lock as Control
+  7:22 Thanks to the members
+  7:44 Emacs as a Lisp machine, Packer and AI
+  10:25 No going back: Org mode and interoperability
+  11:42 Just use what's comfy
+
+  Guest: SLURM Initiative (aka lucidlynx)
+  https://www.youtube.com/@slurminitiative
+
+  This is from Open Terminal, a live hangout where YouTube Members join me on camera (up to 8 per episode) to share their setup, workflow or projects. Want a seat? Join at the Member level, the first tier:
+  https://www.youtube.com/channel/UCrSIvbFncPSlK6AdwE2QboA/join
+  Previous episodes:
+  https://www.youtube.com/playlist?list=PLZWMav2s1MZSKO3uLD5-gB5tK_8lH_rAz
+
+  READ THIS BLOG POST:
+  How to use text to speech (TTS)?
+  Why are there 2 livestreams?
+  All the answers to these questions and more stream info here:
+  https://linkarzu.com/posts/news/streaming-info/
+
+  Support me:
+
+  Buy me the Switch 2:
+  https://ko-fi.com/linkarzu
+
+  Join the YouTube Members:
+  https://www.youtube.com/channel/UCrSIvbFncPSlK6AdwE2QboA/join
+
+  My Merch Store:
+  https://merch.linkarzu.com
+
+  Get 10% off 3DKeycap with code LINKARZU:
+  https://3dkeycap.com/?ref=linkarzu
+  Affiliate link, I earn a commission if you purchase through it.
+
+  My Dotfiles:
+  https://github.com/linkarzu/dotfiles-latest
+
+  Follow me on X:
+  https://x.com/link_arzu
+
+  Search terms:
+  Emacs vs Neovim
+  why switch from Neovim to Emacs
+  Neovim to Emacs
+  Emacs integration
+  Doom Emacs
+  LazyVim breaking changes
+  nvim-cmp to blink.cmp
+  LunarVim discontinued
+  Neovim distro
+  Caps Lock as Control Emacs
+  Emacs keybindings
+  Emacs Lisp machine
+  Emacs Lisp AI
+  HashiCorp Packer Emacs
+  Org mode Emacs
+  Org mode Neovim
+  Neovim ecosystem fragmentation
+  use what's comfy editor
+
+  ,#emacs #neovim #lazyvim #doomemacs #orgmode #vim #texteditor</div>]]></description>
+      <pubDate>Tue, 20 Oct 2026 16:50:09 +0000</pubDate><category>community</category>
+    </item>
+    <item>
+      <title>Can your Vim do that?  *starts beatboxing*</title>
+      <link>https://www.youtube.com/watch?v=CUYWAyCgzos</link>
+      <guid>https://www.youtube.com/watch?v=CUYWAyCgzos</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=CUYWAyCgzos">youtube</a><br><br>Clip from "Ping Pong in Lua"
+  https://youtu.be/CYmCwHJs-A8
+
+  from
+  @TsodingDaily
+  @Tsoding</div>]]></description>
+      <pubDate>Tue, 20 Oct 2026 15:40:38 +0000</pubDate><category>multipleCursors</category>
+    </item>
+    <item>
+      <title>grid-table — Runs Excel in Emacs</title>
+      <link>https://www.youtube.com/watch?v=61-uNV9N154</link>
+      <guid>https://www.youtube.com/watch?v=61-uNV9N154</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=61-uNV9N154">youtube</a><br><br>grid-table (now rename to exc.el)  is a spreadsheet for Emacs that behaves like Excel: the keys, the formulas, the error values and the file format. This tour uses one workbook, Northwind Tea Co., about 2,400 orders on three sheets, and shows what is new in 0.4.
+
+  What you'll see:
+  - The new view, drawn with ETAF, next to the old one
+  - Excel keys: typing, RET, TAB, F2, fill, copy and paste with formats, undo
+  - XLOOKUP, SUMIFS, FILTER, dynamic arrays that spill, LET and LAMBDA
+  - One edit recalculates only what depends on it
+  - Tracing where a number comes from, with error values that behave like Excel's
+  - Floating charts over the cells
+  - Results checked against Microsoft's own function examples
+  - Export to .xlsx, edit in LibreOffice, open it again in Emacs
+  - A workbook that reads another workbook's values
+  - A new formula function in three lines of Lisp
+  - Inside Org notes, and in a terminal
+
+  Chapters:
+  0:00 Old view and new view, same edit
+  0:38 grid-table
+  0:49 Excel keys
+  1:34 Clean the orders
+  2:10 Look up and summarise
+  3:19 One edit, and only what depends on it
+  4:51 Make it presentable
+  5:25 Where did this number come from?
+  6:33 Names
+  8:00 Arrays that spill
+  9:50 LAMBDA
+  10:59 Text, dates and R1C1
+  13:15 A chart that floats
+  14:56 Checked against Excel
+  15:33 Send it to a colleague (.xlsx)
+  16:36 A workbook that reads another
+  17:36 Three lines of Lisp
+  18:08 In Org notes and in a terminal
+  18:32 Get it</div>]]></description>
+      <pubDate>Tue, 20 Oct 2026 08:06:31 +0000</pubDate>
+    </item>
+    <item>
+      <title>Ghostel integration in Emacs</title>
+      <link>https://www.youtube.com/watch?v=jB17WtV9JCk</link>
+      <guid>https://www.youtube.com/watch?v=jB17WtV9JCk</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=jB17WtV9JCk">youtube</a><br><br>Update on my adoption of the ghostel terminal with emacs
+
+  See: https://github.com/benleis1/emacs-init/blob/a2d840fe7ff8f9a4f51f13739794f32f0a39f18c/init.el#L1699
+
+  for the init file configuration</div>]]></description>
+      <pubDate>Tue, 20 Oct 2026 01:48:36 +0000</pubDate><category>ghostel</category>
+    </item>
+    <item>
+      <title>Better lisp editing with `tree-guide.el` (and other packages)</title>
+      <link>https://www.youtube.com/watch?v=5qgXUH5pHOk</link>
+      <guid>https://www.youtube.com/watch?v=5qgXUH5pHOk</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=5qgXUH5pHOk">youtube</a><br><br>A demonstration of `tree-guide-mode`, a local minor mode that renders extra guide lines in lisp source code buffers, which make it easier to read and write lisp code. Following that, I demonstrate how to configure/use some other useful lisp-related packages, namely: `aggressive-indent`, `show-paren`, `lispy`, and `hideshow-org`.
+
+  Keywords: emacs, lisp, elisp, structural editing, lispy
+
+  Links from the video:
+
+  [1] `README.md`/`init.el` from video: https://github.com/benvvalk/tree-guide.el-video
+  [2] `tree-guide.el` repo: https://github.com/benvvalk/tree-guide.el
+  [3] `lispy` tutorial videos (by the author): https://www.youtube.com/@abo5abo/videos
+  [4] My GitHub Sponsors page: https://github.com/sponsors/benvvalk
+  [5] My sponsored issues page: https://sponsoredissues.org/benvvalk
+  [6] HackerNews post about "sponsorware": https://news.ycombinator.com/item?id=23613719
+
+  P.S. Sorry that these links aren't clickable. Google/YouTube says that I need to upload a picture of my Drivers License, or a 3D scan of my face, in order to add hyperlinks to the video description, and I'm not really comfortable with that.</div>]]></description>
+      <pubDate>Mon, 19 Oct 2026 15:05:40 +0000</pubDate><category>elisp</category>
+<category>coding</category>
+    </item>
+    <item>
       <title>Emacs: new &apos;denote-data-mode&apos; testing</title>
       <link>https://www.youtube.com/watch?v=5xNWU8EcUeI</link>
       <guid>https://www.youtube.com/watch?v=5xNWU8EcUeI</guid>
@@ -453,348 +884,6 @@
   1:12:07 Refining navigation commands
   1:23:29 Stream management and wrap-up</div>]]></description>
       <pubDate>Tue, 29 Sep 2026 03:54:04 +0000</pubDate><category>livestream</category>
-    </item>
-    <item>
-      <title>Crie botões no Emacs</title>
-      <link>https://www.youtube.com/watch?v=o27oIxbSpBQ</link>
-      <guid>https://www.youtube.com/watch?v=o27oIxbSpBQ</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=o27oIxbSpBQ">youtube</a><br><br>Neste breve vídeo, eu falo sobre um pacote de emacs bem interessante:  o GNU Hyperbole.
-
-  Links úteis:
-  - https://www.gnu.org/software/hyperbole/</div>]]></description>
-      <pubDate>Sun, 27 Sep 2026 15:00:13 +0000</pubDate><category>hyperbole</category>
-    </item>
-    <item>
-      <title>Playing around with OBS, Emacs, and speech commands</title>
-      <link>https://www.youtube.com/watch?v=j2YSbH6OMD8</link>
-      <guid>https://www.youtube.com/watch?v=j2YSbH6OMD8</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=j2YSbH6OMD8">youtube</a><br><br>Now I can start recording, stop recording, start streaming, or stop streaming by voice command.
-
-  Related: https://sachachua.com/dotemacs/#writing-and-editing-speech-recognition-slowly-building-speech-based-commands-for-emacs
-
-  ,#speech #emacs</div>]]></description>
-      <pubDate>Sun, 27 Sep 2026 02:12:07 +0000</pubDate><category>speech</category>
-    </item>
-    <item>
-      <title>Everyday Emacs 2026-2027 Series - 1</title>
-      <link>https://www.youtube.com/watch?v=3hBdSrqdXqs</link>
-      <guid>https://www.youtube.com/watch?v=3hBdSrqdXqs</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=3hBdSrqdXqs">youtube</a><br><br>Code with me and GNU Emacs community...
-
-  https://lists.gnu.org/mailman/listinfo/emacs-devel
-
-  https://www.gnu.org/software/emacs/</div>]]></description>
-      <pubDate>Fri, 25 Sep 2026 20:01:17 +0000</pubDate><category>coding</category>
-    </item>
-    <item>
-      <title>Oct 2 - Emacs Chat 31: Pedro A. Aranda Gutierrez</title>
-      <link>https://www.youtube.com/watch?v=aEnacESU-DU</link>
-      <guid>https://www.youtube.com/watch?v=aEnacESU-DU</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=aEnacESU-DU">youtube</a><br><br>https://sachachua.com/blog/2026/10/oct-2-emacs-chat-31-pedro-a-aranda-gutierrez/
-
-  On Oct 2, we'll chat with Pedro about Org Mode, LaTeX exports and font management including alternatives and things you can and can't do depending on your choices. He'll share some tips on fallbacks and emojis, which can help a lot with presentations and documentation. We might also discuss recent patches and realistic objectives.
-
-  2026-10-02 Fri 06:00-07:00 America/Toronto = Fri Oct 2 0600H EDT / 0500H CDT / 0400H MDT / 0300H PDT / 1000H UTC / 1200H CEST / 1300H EEST / 1530H IST / 1800H +08 / 1900H JST</div>]]></description>
-      <pubDate>Thu, 24 Sep 2026 23:15:31 +0000</pubDate><category>EmacsChat</category>
-<category>org</category>
-    </item>
-    <item>
-      <title>org per creatori - i tuoi pensieri in grafi che creano storie</title>
-      <link>https://www.youtube.com/watch?v=ZTsmHx7yoGo</link>
-      <guid>https://www.youtube.com/watch?v=ZTsmHx7yoGo</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=ZTsmHx7yoGo">youtube</a><br><br>Scrivere è un processo difficile per creativi che hanno tante idee a hanno bisogno di trovare ispirazione su come scrivere una storia avvincente ed un messaggio coerente.
-  Org è uno strumento incredibile che non limita il tuo modo di pensare ma ne espande le capacità ad un altro livello.
-  In questo video percorriamo la maniera in cui puoi lavorare alle tue idee principali e procedere allo stesso momento con referenze, ricerca di base, note, intuizioni, gestione dei task e navigare un grafo.
-  Per approfondire questo articolo spiega il processo  in dettaglio: https://intertino.it/spiega/a/org_creator.html
-  Altri video su org file: https://intertino.it/spiega/a/org_files.html
-  emacs: https://intertino.it/spiega/a/emacs.html
-  agenti locali: https://intertino.it/spiega/a/agent_local.html
-  grafi e agenti: https://intertino.it/spiega/a/agent_interview.html
-
-  Moments:
-  00:00 org-mode
-  00:30 writing in graphs
-  02:30 ideation framework
-  03:30 productivity tools
-  04:30 UI
-  06:00 project management
-  07:30 local agents
-  09:00 create your story
-  11:00 connect the dots
-  12:30 final overview
-
-  ,#creativi #creatori #orgmode #emacs</div>]]></description>
-      <pubDate>Thu, 24 Sep 2026 12:00:17 +0000</pubDate><category>org</category>
-    </item>
-    <item>
-      <title>Fazendo gambiarra com Emacs e Remux</title>
-      <link>https://www.youtube.com/watch?v=mzba_LQQCLM</link>
-      <guid>https://www.youtube.com/watch?v=mzba_LQQCLM</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=mzba_LQQCLM">youtube</a><br><br></div>]]></description>
-      <pubDate>Thu, 24 Sep 2026 11:58:36 +0000</pubDate><category>llm</category>
-    </item>
-    <item>
-      <title>org for creator - turn your thought from graphs into meaningful posts</title>
-      <link>https://www.youtube.com/watch?v=YvFS1O2Oqvs</link>
-      <guid>https://www.youtube.com/watch?v=YvFS1O2Oqvs</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=YvFS1O2Oqvs">youtube</a><br><br>Writing is a difficult process for creators which have a lot of ideas and need to find inspiration to come with a catchy story and coherent message.
-  Org is an incredible tool which doesn't constrain your way of thinking but rather expand your capabilities to the next level.
-  In this video we show how you can work at your main idea and still proceed with references, background research, notes, sparse ideas, task tracking and graph navigation.
-  The detailed article of the project is https://intertino.it/spiega/a/org_creator.html
-  More on org files: https://intertino.it/spiega/a/org_files.html
-  emacs: https://intertino.it/spiega/a/emacs.html
-  local agents: https://intertino.it/spiega/a/agent_local.html
-  agent graphs: https://intertino.it/spiega/a/agent_interview.html
-
-  Moments:
-  00:00 org-mode
-  00:30 writing in graphs
-  02:30 ideation framework
-  03:30 productivity tools
-  04:30 UI
-  06:00 project management
-  07:30 local agents
-  09:00 create your story
-  11:00 connect the dots
-  12:30 final overview
-
-  ,#creator #knowledgegraph #mindmaps #emacs #orgmode #orgroam</div>]]></description>
-      <pubDate>Thu, 24 Sep 2026 06:00:30 +0000</pubDate><category>org</category>
-    </item>
-    <item>
-      <title>How I Actually Use Org Mode - Emacs Everywhere #3</title>
-      <link>https://www.youtube.com/watch?v=KQEZBGkImII</link>
-      <guid>https://www.youtube.com/watch?v=KQEZBGkImII</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=KQEZBGkImII">youtube</a><br><br>Learn the basics of Org Mode, and how to use it to manage tasks, track time, export notes, quickly capture an idea, or interactively run or export source code blocks to their native file types.
-
-  📺 Watch the full Emacs Everywhere series here ► https://www.youtube.com/playlist?list=PLLHUnpt36CJg
-
-  In this series, I share my Emacs workflow, including all the bits that are not directly about Emacs:
-
-  ► In part 1, I introduce the basics of Doom Emacs, teaching you how to learn Emacs.
-  ► In part 2, I show how I migrated from Obsidian Vault to Org Mode, using pandoc to convert markdown to org, and pandoc-lua to restructure my org notes in a way that fits my new org based workflow.
-  ► In part 3, I go through all the major features of Org Mode, covering a few packages I find useful.
-  ► In part 4, I describe the incremental backup strategy that I use to ensure I never lose any of my org notes.
-
-  🔗 Resources:
-  💻 GitHub repo: https://github.com/DataLabTechTV/md2org/
-  📝 Blog post: https://datalabtechtv.com/posts/emacs-everywhere-part-3-how-i-use-org-mode/
-  📚 Org Mode: https://orgmode.org/org.html
-
-  🔔 Subscribe for more deep dives data science, data engineering, and all things data!
-  ☁️ Follow the channel on Bluesky: https://bsky.app/profile/datalabtechtv.com
-  🎧 Join our community's Discord: https://discord.gg/6xpe827ANZ
-  👽 Join our subreddit: https://www.reddit.com/r/DataLabTechTV/
-  💻 Check out the channel's GitHub: https://github.com/DataLabTechTV
-  🌐 Visit our website for blog posts: https://datalabtechtv.com
-
-​#emacs #orgmode #pkm #knowledgemanagement #taskmanagement
-
-  0:00 Intro
-  0:24 Logbook and Reporting: Clocking In
-  3:32 Org Basics
-  15:40 Org Basics: Tables
-  20:11 Org Basics: Links and Assets
-  22:46 Org Basics: Formatting
-  23:38 Org Basics: In-Buffer Settings
-  25:48 Org Basics: Property Drawers
-  29:48 Org Export (ox)
-  34:00 Literate Programming: Org Tangling
-  38:49 Literate Programming: Source Block Evaluation
-  43:13 Org Capture
-  48:34 Editor MACroS for Inserting a Template
-  53:30 Logbook and Reporting: Clocking Out
-  53:56 Org Agenda
-  55:12 Exporting to Reveal.js
-  58:59 Outro</div>]]></description>
-      <pubDate>Tue, 22 Sep 2026 11:00:02 +0000</pubDate>
-    </item>
-    <item>
-      <title>Spacemacs | What kind of notes I take ? | Productivity</title>
-      <link>https://www.youtube.com/watch?v=HqV_l5lry00</link>
-      <guid>https://www.youtube.com/watch?v=HqV_l5lry00</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=HqV_l5lry00">youtube</a><br><br>Spacemacs config:
-  https://codeberg.org/ericnantel/spacemacs-config
-
-  ,#spacemacs #emacs #productivity #notes #notetaking #orgmode #orgroam</div>]]></description>
-      <pubDate>Mon, 21 Sep 2026 17:08:11 +0000</pubDate><category>org</category>
-<category>spacemacs</category>
-    </item>
-    <item>
-      <title>Images with Emacs</title>
-      <link>https://www.youtube.com/watch?v=0taEcb0wq3o</link>
-      <guid>https://www.youtube.com/watch?v=0taEcb0wq3o</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=0taEcb0wq3o">youtube</a><br><br>,# Artical
-  https://lucidmanager.org/productivity/using-emacs-image-dired/</div>]]></description>
-      <pubDate>Sat, 19 Sep 2026 18:21:44 +0000</pubDate><category>dired</category>
-    </item>
-    <item>
-      <title>Beautiful diagrams in Emacs</title>
-      <link>https://www.youtube.com/watch?v=SsC-OsHR9RY</link>
-      <guid>https://www.youtube.com/watch?v=SsC-OsHR9RY</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=SsC-OsHR9RY">youtube</a><br><br>Create beautiful diagrams inside of Emacs using d2. I show you how to work with d2 in Emacs, how to embed these inside of Org mode,  have them update automatically as well as scaling them correctly in HTML exports.
-
-  ,# Conf
-  - https://gitlab.com/skybert/my-little-friends/-/blob/master/
-
-  ,# Connect
-  🕸️ https://skybert.net
-  🐘 https://hachyderm.io/@skybert
-  📫 torstein@skybert.net
-
-  ,#emacs #diagrams #productivity #d2</div>]]></description>
-      <pubDate>Sat, 19 Sep 2026 10:47:58 +0000</pubDate><category>d2</category>
-<category>org</category>
-    </item>
-    <item>
-      <title>Org Roam Dashboard</title>
-      <link>https://www.youtube.com/watch?v=20WfbmJmV1M</link>
-      <guid>https://www.youtube.com/watch?v=20WfbmJmV1M</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=20WfbmJmV1M">youtube</a><br><br>github.com/Pham-Hoang-Thach/org-roam-dashboard</div>]]></description>
-      <pubDate>Sat, 19 Sep 2026 09:00:51 +0000</pubDate><category>org</category>
-<category>OrgRoam</category>
-    </item>
-    <item>
-      <title>¿Por qué Doom Emacs es el secreto de los expertos?</title>
-      <link>https://www.youtube.com/watch?v=LumS4REqIjs</link>
-      <guid>https://www.youtube.com/watch?v=LumS4REqIjs</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=LumS4REqIjs">youtube</a><br><br>¿Sientes que Emacs es demasiado complejo pero quieres aprovechar todo su poder? En este video te revelo el secreto mejor guardado para dominar este editor: Doom Emacs.
-
-  Doom Emacs no es solo una skin, es un framework "supervitaminado" con más de 150 módulos que transforma por completo tu flujo de trabajo en Linux. Te guiaré paso a paso en la instalación y configuración sobre Ubuntu 26.04 y Pop!_OS, para que pases de principiante a experto sin complicaciones.
-
-  En este tutorial aprenderás:
-
-  ✅ Qué es Doom Emacs y por qué NO es un fork.
-  ✅ Requisitos previos: Instalación de dependencias (Git, Ripgrep, fd-find).
-  ✅ Cómo instalar fuentes con glifos (JetBrains Mono y Nerd Fonts).
-  ✅ Configuración de archivos clave: init.el, config.el y packages.el.
-  ✅ Sincronización de módulos y optimización de la interfaz.
-  ✅ Trucos para integrar Doom Emacs directamente en tu escritorio (archivos .desktop).
-  Si eres usuario de Vim o NeoVim y buscas una alternativa potente con modo Evil, este video es para ti. ¡No dejes que la fama de "difícil" te detenga y dale una oportunidad al editor definitivo!
-
-  Recursos mencionados:
-
-  Sitio oficial: https://doomemacs.org
-  Video anterior (Compilar Emacs): https://youtu.be/OOuP9YCQnpE
-  Guía de comandos VI: https://youtu.be/iDsoWRdzAds
-
-  ,#DoomEmacs #Linux #Emacs #Productividad #OpenSource #Ubuntu #PopOS #Programacion #Vim #DriveMeca
-
-  Hardware que utilizo en mi día a día:
-  🔹 Procesador Ryzen 8700F: https://amzn.to/45ribWt
-  🔹 Placa Base Gigabyte 870 Eagle: https://amzn.to/4wqvIJD
-  🔹 Crucial Pro DDR5 RAM 32 GB Kit (2x16GB): https://amzn.to/4vUjfNy
-  🔹 TEAMGROUP T-Force CARDEA A440 Pro: https://amzn.to/4fETcnl
-  🔹 Tarjeta Gráfica Radeon RX 9070 XT: https://amzn.to/4yJE9RR
-  🔹 LINKUP Cable elevador PCIE 5.0: https://amzn.to/4x4vJmx
-  🔹 AIO ARTIC Liquid Freezer III Pro 360: https://amzn.to/4bcW6yq
-  🔹 Rosewill VMG 850W 80+ Gold: https://amzn.to/4wrxQAZ
-  🔹 LIAN LI O11D MINI V2 Flow: https://amzn.to/3RGFM2f
-  🔹 SAMSUNG - Monitor de juegos ultraancho Odyssey G5: https://amzn.to/4fpWsnN
-  🔹 Logitech C920x HD Pro PC Webcam: https://amzn.to/3TmTdF3
-  🔹 Blue Yeti - Micrófono USB: https://amzn.to/4bhnxHi
-  🔹 ASUS Monitor de 27 pulgadas: https://amzn.to/4c7ly8F
-  🔹 Elgato Stream Deck: https://amzn.to/4fMyOkq
-  🔹 Mi Setup completo: http://amzn.to/3aXfxuU
-  Estos son enlaces de afiliado en Amazon, no es mas caro para ti y si es una comisión para mi.
-
-  👉 Únete a mi membresia: https://www.youtube.com/channel/UC1h0yDawct42gLAeAckeDTg/join
-  👉 Enlace del canal en #Telegram: https://t.me/drivemeca_publicaciones
-  🧐 Hardware de mi pc gaming Amazon USA: http://amzn.to/3aXfxuU
-  🧐 Hardware de mi pc gaming Amazon España: http://amzn.to/3rHNaHQ
-
-  Apoyame con #PayPal, cualquier cantidad es bienvenida y yo podre continuar enseñando #opensource
-
-  Donar 5 USD: http://bit.ly/2rndPgL
-  Donar 10 USD: http://bit.ly/2sBhTaY
-  Donar 25 USD: http://bit.ly/2rnryEF
-
-  ,#Blog de artículos de opensource, algo de #videojuegos y mas
-  http://bit.ly/2Bqvhs4
-
-  Con vidIQ haz crecer tu canal rapido! 🚀
-  https://vidiq.com/drivemeca
-
-  Suscribete ahora para ver todos mis vídeos
-  http://www.youtube.com/@DriveMeca?sub_confirmation=1
-
-  Sigamos en contacto
-  DriveMeca ► https://drivemeca.blogspot.com
-  DriveMeca ► https://www.drivemeca.com
-  Facebook ► https://www.facebook.com/videojuegosyopensource
-  Twitter ► https://twitter.com/drivemeca
-  Telegram Canal ► https://t.me/drivemeca_publicaciones
-  Telegram ► https://t.me/drivemeca_opensource
-  Tiktok ► https://www.tiktok.com/@drivemeca
-  Twitch ► https://www.twitch.tv/drivemeca
-  Discord ► https://discord.gg/6wdmwgq2m4
-  Instagram ►https://www.instagram.com/drivemeca
-
-  0:00 Introducción a Doom Emacs y su potencial
-  1:03 ¿Qué es Doom Emacs? (Aclarando mitos)
-  2:01 Prerrequisitos de instalación: GNU Emacs y Git
-  3:00 Importancia de las fuentes con glifos (Nerd Fonts)
-  4:00 Cómo instalar Symbols Nerd Font rápidamente
-  5:15 Conocimiento básico de VI: Un requisito esencial
-  6:00 Instalación de dependencias en Ubuntu 26.04 y Pop!_OS
-  6:30 Clonando el repositorio de Doom Emacs
-  7:01 Ejecución del instalador de Doom
-  8:02 Configurando la variable PATH en .bashrc
-  9:08 Entendiendo los archivos clave: init.el, config.el y packages.el
-  9:55 Editando módulos en init.el (Company, Vertico, UI)
-  11:53 Activando lenguajes de programación (Python, JS, Markdown)
-  12:50 Sincronizando cambios con 'doom sync'
-  13:10 Personalización estética: Fuentes (JetBrains Mono) y Temas
-  16:18 Verificación de versión de Emacs (31.1)
-  17:44 Solución: Cómo integrar Doom Emacs en el menú de aplicaciones (.desktop) 19:15 Modificando el ejecutable para que cargue el framework
-  20:42 Actualizando la base de datos de escritorio
-  21:10 Conclusión y adelanto: Org Mode, LSP y Magit</div>]]></description>
-      <pubDate>Wed, 16 Sep 2026 17:00:02 +0000</pubDate><category>DoomEmacs</category>
-    </item>
-    <item>
-      <title>I Migrated My Obsidian Vault to Org Mode - Emacs Everywhere #2</title>
-      <link>https://www.youtube.com/watch?v=f2AAE2u5Xic</link>
-      <guid>https://www.youtube.com/watch?v=f2AAE2u5Xic</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=f2AAE2u5Xic">youtube</a><br><br>This is a video about how I migrated my Obsidian Vault to Org Mode, converting markdown to org using a combination of justfile recipes, bash scripts, DuckDB SQL queries, and Pandoc Lua filters.
-
-  📺 Watch the full Emacs Everywhere series here ► https://www.youtube.com/playlist?list=PLLHUnpt36CJg
-
-  In this series, I share my Emacs workflow, including all the bits that are not directly about Emacs:
-
-  ► In part 1, I introduce the basics of Doom Emacs, teaching you how to learn Emacs.
-  ► In part 2, I show how I migrated from Obsidian Vault to Org Mode, using pandoc to convert markdown to org, and pandoc-lua to restructure my org notes in a way that fits my new org based workflow.
-  ► In part 3, I go through all the major features of Org Mode, covering a few packages I find useful.
-  ► In part 4, I describe the incremental backup strategy that I use to ensure I never lose any of my org notes.
-
-  🔗 Resources:
-  💻 GitHub repo: https://github.com/DataLabTechTV/md2org/
-  📝 Blog post: https://datalabtechtv.com/posts/emacs-everywhere-part-2-migrating-from-obsidian-to-org-mode/
-  📚 Org Mode: https://orgmode.org/org.html
-  📚 Lua: https://www.luadocs.com/
-  📚 Pandoc Lua: https://pandoc.org/lua-filters.html
-  📚 DuckDB: https://duckdb.org/docs/lts/sql/statements/overview
-
-  🔔 Subscribe for more deep dives data science, data engineering, and all things data!
-  ☁️ Follow the channel on Bluesky: https://bsky.app/profile/datalabtechtv.com
-  🎧 Join our community's Discord: https://discord.gg/6xpe827ANZ
-  👽 Join our subreddit: https://www.reddit.com/r/DataLabTechTV/
-  💻 Check out the channel's GitHub: https://github.com/DataLabTechTV
-  🌐 Visit our website for blog posts: https://datalabtechtv.com
-
-​#emacs #orgmode #justfile #bash #shellscripting #duckdb #pandoc #lua
-
-  0:00 Intro
-  6:08 md2org: Project Structure and Configuration
-  25:39 m2org: Just, Bash, DuckDB, and Pandoc Lua
-  1:07:46 Outro</div>]]></description>
-      <pubDate>Tue, 15 Sep 2026 11:00:08 +0000</pubDate><category>org</category>
-    </item>
-    <item>
-      <title>Livecoding for emacs: supersonic.el</title>
-      <link>https://www.youtube.com/watch?v=UGSV8XG-JMA</link>
-      <guid>https://www.youtube.com/watch?v=UGSV8XG-JMA</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=UGSV8XG-JMA">youtube</a><br><br>Implementing a Subsonic compatible music player</div>]]></description>
-      <pubDate>Sat, 12 Sep 2026 06:36:39 +0000</pubDate><category>elisp</category>
     </item>
   </channel>
 </rss>
