@@ -6,6 +6,370 @@
     <atom:link href="https://emacs.tv/videos.rss" rel="self" type="application/rss+xml" />
     <description>Emacs videos</description>
     <item>
+      <title>Run interactive Clojure workflows from Emacs w/ Admin Delux</title>
+      <link>https://www.youtube.com/watch?v=mFbIvl76CnI</link>
+      <guid>https://www.youtube.com/watch?v=mFbIvl76CnI</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=mFbIvl76CnI">youtube</a><br><br>Admin Delux is an Emacs package that lets you run interactive Clojure workflows from Emacs. It is fully data-driven and requires only a pure Clojure-function.
+
+  https://codeberg.org/boosja/admin-delux.el</div>]]></description>
+      <pubDate>Mon, 02 Nov 2026 06:27:54 +0000</pubDate><category>clojure</category>
+    </item>
+    <item>
+      <title>Yay Emacs 47: Editing the VTT for my chat with Linkarzu</title>
+      <link>https://www.youtube.com/watch?v=cZ_ZjzKujQg</link>
+      <guid>https://www.youtube.com/watch?v=cZ_ZjzKujQg</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=cZ_ZjzKujQg">youtube</a><br><br>I finally get to work on this, at least until the kiddo wakes up! I want to turn this into the usual nicely searchable transcript. Draft: https://sachachua.com/blog/2026/11/my-chat-with-linkarzu/</div>]]></description>
+      <pubDate>Mon, 02 Nov 2026 04:42:36 +0000</pubDate><category>community</category>
+    </item>
+    <item>
+      <title>Emacs: Git Rebase with Magit (4 Real Scenarios)</title>
+      <link>https://www.youtube.com/watch?v=q-cw7r_Dk94</link>
+      <guid>https://www.youtube.com/watch?v=q-cw7r_Dk94</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=q-cw7r_Dk94">youtube</a><br><br>In this video I go through Git Rebase workflow using Magit which is an Emacs Git client. I explore 4 different scenarios where and explain the process along the way.
+
+  Useful links:
+  My website: https://heiwiper.com
+  Magit Committing docs: https://docs.magit.vc/magit/Rebasing.html</div>]]></description>
+      <pubDate>Sun, 01 Nov 2026 19:43:13 +0000</pubDate><category>magit</category>
+    </item>
+    <item>
+      <title>Emacs: developing new &apos;ef-themes&apos; for Halloween</title>
+      <link>https://www.youtube.com/watch?v=_sUctSSXBhU</link>
+      <guid>https://www.youtube.com/watch?v=_sUctSSXBhU</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=_sUctSSXBhU">youtube</a><br><br>This is a spontaneous live stream. I plan to develop at least one new theme for my 'ef-themes' package which will be in the spirit of Halloween. Depending on my progress, I will do two themes, actually.
+
+  I will keep the chat open, in case there are any questions related to this or anything else---I always answer everything.
+
+  * * *
+
+  Find all my publications on my website (Emacs, philosophy, etc.): https://protesilaos.com
+
+  All my Emacs-related work: https://protesilaos.com/emacs.
+
+  Donations: https://protesilaos.com/donations</div>]]></description>
+      <pubDate>Sun, 01 Nov 2026 03:07:27 +0000</pubDate><category>theme</category>
+    </item>
+    <item>
+      <title>Who needs Obsidian when you have XML?</title>
+      <link>https://www.youtube.com/watch?v=hlKeFUQXJok</link>
+      <guid>https://www.youtube.com/watch?v=hlKeFUQXJok</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=hlKeFUQXJok">youtube</a><br><br>Yes, who needs a fancy knowledge management system when you can simply throw notes into an XML file?  XML is fun and extensible, and you can easily parse through hundreds of notes instantly with your Emacs editor.  Great for Bible quotes, as I demonstrate in this video.
+
+  Check out my books:
+  https://chrismaiorana.com/books/</div>]]></description>
+      <pubDate>Sun, 01 Nov 2026 02:26:26 +0000</pubDate><category>writing</category>
+<category>xml</category>
+    </item>
+    <item>
+      <title>EmacsConf 2026: El Remoto: browse any GitHub repos without cloning them - Ag</title>
+      <link>https://www.youtube.com/watch?v=BDn8ak-8yIs</link>
+      <guid>https://www.youtube.com/watch?v=BDn8ak-8yIs</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=BDn8ak-8yIs">youtube</a><br><br>Ag (he/him)
+
+  https://emacsconf.org/2026/talks/remoto
+
+  00:01 Introduction
+  00:31 Remote files
+  01:26 Accessing GitHub
+  05:05 Opening Github
+  06:44 Embark
+  09:23 Codeberg
+  09:42 Issues
+  09:47 Plans
+  11:21 Why not a TRAMP backend?
+  11:45 Why not plain HTTP?
+
+  You can view this and other resources using free/libre software at https://emacsconf.org/2026/talks/remoto .
+  This video is available under the terms of the Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license.</div>]]></description>
+      <pubDate>Sat, 31 Oct 2026 14:16:43 +0000</pubDate><category>git</category>
+    </item>
+    <item>
+      <title>Emacs: refinements for Denote and testing</title>
+      <link>https://www.youtube.com/watch?v=VgL7usTlpsc</link>
+      <guid>https://www.youtube.com/watch?v=VgL7usTlpsc</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=VgL7usTlpsc">youtube</a><br><br>This is a spontaneous live stream. I am going to work on my 'denote' package for Emacs. The plan is to review some functionality and improve certain edge cases where things can go wrong. This is the sort of work that improves the quality of a package: it does not introduce anything with a "wow" factor, but it contributes to a nicer day-to-day experience.
+
+  I will keep the chat open, in case there are any questions related to this or anything else---I always answer everything.
+
+  * * *
+
+  Find all my publications on my website (Emacs, philosophy, etc.): https://protesilaos.com
+
+  All my Emacs-related work: https://protesilaos.com/emacs.
+
+  Donations: https://protesilaos.com/donations</div>]]></description>
+      <pubDate>Sat, 31 Oct 2026 03:14:58 +0000</pubDate><category>denote</category>
+    </item>
+    <item>
+      <title>Emacs for Everything - Why Sacha Chua Still Lives in Emacs After 20+ Years</title>
+      <link>https://youtu.be/Sw6sCMIypmk</link>
+      <guid>https://youtu.be/Sw6sCMIypmk</guid>
+      <description><![CDATA[<div id="content"><a href="https://youtu.be/Sw6sCMIypmk">youtube</a><br><br>In this episode I sit down with Sacha Chua @sachactube, who has been living in Emacs for more than 20 years and shares the Emacs world through Emacs News, Emacs Chat and EmacsConf. She demos the workflows she has built one small hack at a time: real-time speech recognition transcripts inside Emacs, local CPU-only dictation on a 2018 laptop, voice commands that control OBS (because "start streaming" sometimes comes out as "start screaming"), editing video by reordering subtitle cues, generating title cards from WebVTT with ImageMagick, and turning video transcripts into searchable blog posts with chapters and screenshots. She also explains why for her Linux is just the library Emacs uses to talk to the hardware, why she stays on XFCE and X11, how Emacspeak helped when her laptop screen failed, and how she captures tasks from her phone with Orgzly Revived and Syncthing.
+
+  We also get into the bigger questions. Sacha shares how she uses LLMs in a limited way she can understand, why she plans to sit out the AI churn, how AI-generated code connects to The Lisp Curse, how maintainers can deal with AI slop patches, and whether editors and terminals still matter when people go fully agentic. Of course I had to bring up Neovim: why there is no NeovimConf anymore, why the Neovim subreddit feels toxic while the Emacs community is so friendly, what Neovim could learn from Planet Emacs Life and Emacs News, and a planned Emacs and Neovim panel with Prot. If you are an Emacs beginner, a Neovim user curious about the other side, or just into plain text, automation and speech tools, Sacha's advice to connect with people and her many small automations are worth hearing.
+
+  Full livestream: https://youtube.com/live/BlgtfOsXgCs
+
+  Where can I find the guests:
+
+  Sacha Chua
+  https://www.youtube.com/@sachactube
+  https://sachachua.com/blog/
+
+  00:00 Highlights
+  01:14 Sacha's idea for monitoring six EmacsConf calls at once
+  08:07 Why is there no NeovimConf anymore?
+  14:23 Searching handwritten sketches: Evernote to ripgrep
+  20:41 Demo: real-time speech recognition transcript in Emacs
+  27:31 Demo: generating video title cards from WebVTT in Emacs
+  33:05 Local CPU-only speech recognition in Emacs
+  39:54 Turning video transcripts into searchable blog posts
+  45:44 Sacha's Linux setup: XFCE, X11 and Emacs on top
+  49:56 Using Emacspeak when Sacha's laptop screen failed
+  56:19 Capturing tasks from the phone with Orgzly Revived
+  1:01:50 Sacha Chua on AI and the Emacs community
+  1:08:03 Kids' obsessions: Harry Potter, Pokemon, Wings of Fire
+  1:14:45 AI-generated code, slop PRs and the Lisp Curse in Emacs
+  1:20:58 Advice for Emacs beginners: connect with people
+  1:25:16 Why is the Neovim subreddit toxic while Emacs is friendly?
+  1:31:02 Planning an Emacs and Neovim panel with Prot
+  1:35:53 Do editors and terminals still matter with AI agents?
+  1:41:04 Speech synthesis in Emacs: whispering slide hints
+
+  READ THIS BLOG POST:
+  How to use text to speech (TTS)?
+  Why are there 2 livestreams?
+  All the answers to these questions and more stream info here:
+  https://linkarzu.com/posts/news/streaming-info/
+
+  Support me:
+
+  Buy me the Switch 2:
+  https://ko-fi.com/linkarzu
+
+  Join the YouTube Members:
+  https://www.youtube.com/channel/UCrSIvbFncPSlK6AdwE2QboA/join
+
+  My Merch Store:
+  https://merch.linkarzu.com
+
+  Get 10% off 3DKeycap with code LINKARZU:
+  https://3dkeycap.com/?ref=linkarzu
+  Affiliate link, I earn a commission if you purchase through it.
+
+  My Dotfiles:
+  https://github.com/linkarzu/dotfiles-latest
+
+  Follow me on X:
+  https://x.com/link_arzu
+
+  Search terms:
+  Sacha Chua
+  Emacs Chat
+  EmacsConf
+  Emacs News
+  Org Mode workflow
+  Emacs speech recognition
+  Emacs voice commands
+  local speech to text Parakeet
+  Emacspeak
+  Emacs video editing with subtitles
+  WebVTT title cards ImageMagick
+  video transcript to blog post
+  Orgzly Revived Syncthing
+  Emacs on X11 vs Wayland
+  EXWM
+  Emacs and AI LLMs
+  The Lisp Curse
+  AI slop pull requests
+  Emacs vs Neovim community
+  NeovimConf
+  Planet Emacs Life
+  Emacs beginner advice
+  Kokoro text to speech
+  org.nvim
+
+  Photo credits:
+  - Taxiarchos228, CC BY-SA 3.0: https://w.wiki/fLTC
+
+  ,#emacs #neovim #orgmode #linux #speechrecognition #plaintext #automation #ai</div>]]></description>
+      <pubDate>Fri, 30 Oct 2026 12:00:21 +0000</pubDate><category>community</category>
+    </item>
+    <item>
+      <title>Emacs: refining ef-themes Diff/Magit colors</title>
+      <link>https://www.youtube.com/watch?v=JnDcXPzFsfA</link>
+      <guid>https://www.youtube.com/watch?v=JnDcXPzFsfA</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=JnDcXPzFsfA">youtube</a><br><br>This is a spontaneous live stream in which I will do some work on my 'ef-themes' package for Emacs. I want to tweak the color values of all themes in order to achieve inter-theme consistency as I noticed some cases that are problematic.
+
+  I will keep the chat open, in case there are any questions related to this or anything else---I always answer everything.
+
+  * * *
+
+  Find all my publications on my website (Emacs, philosophy, etc.): https://protesilaos.com
+
+  All my Emacs-related work: https://protesilaos.com/emacs.
+
+  Donations: https://protesilaos.com/donations</div>]]></description>
+      <pubDate>Fri, 30 Oct 2026 06:26:26 +0000</pubDate><category>theme</category>
+    </item>
+    <item>
+      <title>Emacs Voice Control With Local AI on a 2018 Laptop - Sacha Chua&apos;s Setup</title>
+      <link>https://youtu.be/Xk02luunlfc</link>
+      <guid>https://youtu.be/Xk02luunlfc</guid>
+      <description><![CDATA[<div id="content"><a href="https://youtu.be/Xk02luunlfc">youtube</a><br><br>I ask Sacha Chua @sachactube how her speech to text works in real time, and the answer surprised me: it's an entirely local model running on CPU only, on a Lenovo P52 from around 2018. She uses a Parakeet-based multilingual model behind an OpenAI-style server that plugs straight into her Emacs setup, and it handles both her English and her French.
+
+  From there we get into what dictation unlocks in Emacs. Sacha shows voice commands that start and stop her OBS stream (because "start streaming" kept turning into "start screaming"), a laser-cursor mode, and a Ctrl+semicolon substitution that fixes a misrecognized word everywhere and remembers the correction for next time. I compare it with my own setup, where I transcribe locally on my Mac and struggle with words like Neovim.
+
+  She also walks through how a live transcript grew out of small hacks, how she talks to Emacs (including a French practice conversation using gptel and Gemini), and how Org Mode helps her capture tasks in tiny chunks of time as a parent. If you want voice control, better transcripts, or a calmer capture workflow, there are plenty of ideas here to borrow, even if you stay in Neovim like me.
+
+  Chapters:
+  0:00 Voice commands that mishear
+  0:20 How the live transcript works
+  3:31 Voice commands for OBS and more
+  4:37 Does it handle hard words?
+  6:14 Fixing misrecognized words with a shortcut
+  7:51 How the live transcript began
+  10:40 Talking with Emacs
+  13:19 Life in tiny time chunks
+  15:23 Capturing tasks on phone and computer
+
+  Guest: Sacha Chua
+  https://www.youtube.com/@sachactube
+
+  READ THIS BLOG POST:
+  How to use text to speech (TTS)?
+  Why are there 2 livestreams?
+  All the answers to these questions and more stream info here:
+  https://linkarzu.com/posts/news/streaming-info/
+
+  Support me:
+
+  Buy me the Switch 2:
+  https://ko-fi.com/linkarzu
+
+  Join the YouTube Members:
+  https://www.youtube.com/channel/UCrSIvbFncPSlK6AdwE2QboA/join
+
+  My Merch Store:
+  https://merch.linkarzu.com
+
+  Get 10% off 3DKeycap with code LINKARZU:
+  https://3dkeycap.com/?ref=linkarzu
+  Affiliate link, I earn a commission if you purchase through it.
+
+  My Dotfiles:
+  https://github.com/linkarzu/dotfiles-latest
+
+  Follow me on X:
+  https://x.com/link_arzu
+
+  Search terms:
+  Emacs voice control
+  Emacs speech recognition
+  local speech to text no GPU
+  offline speech recognition CPU only
+  Parakeet speech model
+  Sacha Chua Emacs
+  Emacs dictation workflow
+  Emacs voice commands
+  control OBS from Emacs
+  Emacs Org Mode capture
+  Orgzly Revived Syncthing
+  Emacs gptel Gemini French practice
+  Emacs live transcript
+  Whisper alternative local transcription
+  Neovim vs Emacs
+  Org Mode task capture from phone
+
+  ,#emacs #orgmode #speechtotext #voicecontrol #neovim #localai</div>]]></description>
+      <pubDate>Thu, 29 Oct 2026 16:25:52 +0000</pubDate><category>community</category>
+<category>speech</category>
+    </item>
+    <item>
+      <title>Yay Emacs 46: Tinkering with my speech+typing workflows</title>
+      <link>https://www.youtube.com/watch?v=5n-ZvHfWBFk</link>
+      <guid>https://www.youtube.com/watch?v=5n-ZvHfWBFk</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=5n-ZvHfWBFk">youtube</a><br><br>Possible things to show
+
+  - process of drafting a blog post
+
+  - getting the captions for the current recording
+
+      Since I can use Emacs and a bit of Python to visualize the gaps and the conversation balance https://sachachua.com/blog/2026/10/using-emacs-to-visualize-speaking-and-target-words-phrases-in-real-ish-time/ in real-ish time, and I can use speech recognition to see if I've said any of my target words or phrases https://sachachua.com/blog/2026/10/using-emacs-to-visualize-speaking-and-target-words-phrases-in-real-ish-time/#writing-and-editing-speech-recognition-using-emacs-to-visualize-speaking-and-target-words-phrases-in-real-ish-time-noticing-bingo-phrases, why not use that speech recognition result to make a proper VTT of the current recording on the fly so that I can jump to things or extract stuff?
+
+      I generated a modified ~/vendor/orukeet/asr.py that gives me Unix timestamp * 1000 + milliseconds. I can check the timestamps against the timestamp in the filename of the latest recording, which OBS is still adding to. This lets me approximately synchronize things so that I can jump to parts of the current recording while I'm recording it, and I can adjust the timestamps further by referring to the waveforms.
+
+      ~/Downloads/spaceballs-how-soon.gif</div>]]></description>
+      <pubDate>Thu, 29 Oct 2026 04:12:28 +0000</pubDate><category>community</category>
+<category>speech</category>
+    </item>
+    <item>
+      <title>Supertag 0.4 for Emacs: one sentence, one interface for each kind of Org note</title>
+      <link>https://www.youtube.com/watch?v=XQkrRuYp7FM</link>
+      <guid>https://www.youtube.com/watch?v=XQkrRuYp7FM</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=XQkrRuYp7FM">youtube</a><br><br>Supertag 0.4 gives each kind of Org note its own interface. Describe in one sentence how a tag's stream should work, and a model writes a Stream agent for it: groups, a line per note, and keys that fill in properties. After that the agent runs without the model, and you can revise it one sentence at a time as your needs change.
+
+  Everything stays in plain Org text. Agents never create notes; a key press writes an ordinary property, SCHEDULED or DEADLINE line. Delete an agent and your notes are untouched.
+
+  Chapters
+  0:00 One stream of everything
+  0:45 One line to find: words, tag:, KEY:VALUE, (query)
+  1:40 Discovery: search by meaning
+  2:15 A Stream agent from one sentence (contacts)
+  3:30 Projects: dates and tasks under their project
+  4:46 A reading log for #book
+  6:24 It grows with you: revise, code, manage
+  7:50 Archived notes step aside
+  8:25 A whole file is a node
+  9:05 Upgrade
+
+  Notes on the recording
+  - A real Emacs session on a made-up demo vault; every key press is real.
+  - The agents are written live by DeepSeek (deepseek-v4-flash) through gptel. The waits for the model are sped up, with a label giving the real time.
+  - Discovery's meaning search uses bge-m3 through Ollama; it is optional.
+
+  ,#Emacs #OrgMode #PKM</div>]]></description>
+      <pubDate>Wed, 28 Oct 2026 09:48:00 +0000</pubDate><category>org</category>
+<category>llm</category>
+    </item>
+    <item>
+      <title>What kind of AI interaction do we actually need? Get ideas from Lifestreams</title>
+      <link>https://www.youtube.com/watch?v=KPAyaC6Dx_Q</link>
+      <guid>https://www.youtube.com/watch?v=KPAyaC6Dx_Q</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=KPAyaC6Dx_Q">youtube</a><br><br>What kind of interaction with AI do we actually need?
+
+  An AI agent gets small edits right most of the time, but only most of the time, so you end up checking its work almost every time. This video looks at a different approach: let the AI write an interface once, then use that interface every day without calling the model again.
+
+  The idea goes back to Lifestreams, a 1997 research prototype from Yale. It had no folders and no file names. Everything lived in one time-ordered stream, and two kinds of processors worked on top of it: Summarize, which decided how a stream is shown, and Agents, which decided what you can do with it. The idea never caught on because someone had to write those processors by hand.
+
+  Supertag brings that idea to plain Org files in Emacs. You describe what you want in one sentence, and a model writes an agent for that kind of note, such as contacts grouped by how close you are, with a key that logs today's date. After that the agent runs on its own, with no model involved. A second processor, Summary, draws a live overview of a stream.
+
+  Three rules keep it honest:
+  1. The text is the only truth. Delete the agent and every note is still there.
+  2. The model runs only when you ask, to design an agent or to revise one.
+  3. Every interface is built from trusted parts and checked before it is installed.
+
+  Chapters
+  0:00 What kind of AI interaction do we need?
+  0:22 One key, built once
+  0:40 Lifestreams, 1997: one stream, two processors
+  1:13 The missing piece was the author
+  1:44 Supertag: one sentence makes a contacts interface
+  2:19 Projects, and revising an agent
+  2:38 Summary: a live overview
+  2:49 Three rules
+  3:17 An AI layer, behind everything
+
+  Credits
+  Lifestreams figures: Eric Freeman, "The Lifestreams Software Architecture", PhD dissertation, Yale University, 1997. Shown for commentary.
+  Demo: a made-up English demo vault running in Emacs; no real personal data.
+  Narration: synthetic voice (Qwen3-TTS). Music: original, generated locally with MusicGen.
+
+  ,#Emacs #OrgMode #AI</div>]]></description>
+      <pubDate>Tue, 27 Oct 2026 09:59:38 +0000</pubDate><category>org</category>
+<category>llm</category>
+    </item>
+    <item>
       <title>Emacs vs Neovim - Why Prot Won&apos;t Pick a Side</title>
       <link>https://www.youtube.com/watch?v=dQ6X0-XCLIw</link>
       <guid>https://www.youtube.com/watch?v=dQ6X0-XCLIw</guid>
@@ -577,313 +941,6 @@
       <guid>https://www.youtube.com/watch?v=jkQnKvSrBaM</guid>
       <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=jkQnKvSrBaM">youtube</a><br><br></div>]]></description>
       <pubDate>Sun, 04 Oct 2026 03:26:46 +0000</pubDate><category>ollama</category>
-    </item>
-    <item>
-      <title>Emacs ollama-agent introduction (配音版)</title>
-      <link>https://www.youtube.com/watch?v=MNpu2kRcKd0</link>
-      <guid>https://www.youtube.com/watch?v=MNpu2kRcKd0</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=MNpu2kRcKd0">youtube</a><br><br></div>]]></description>
-      <pubDate>Sun, 04 Oct 2026 01:08:39 +0000</pubDate><category>ollama</category>
-    </item>
-    <item>
-      <title>I Asked Prot If I Should Switch to Emacs</title>
-      <link>https://www.youtube.com/watch?v=-1qS7Xiuh9E</link>
-      <guid>https://www.youtube.com/watch?v=-1qS7Xiuh9E</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=-1qS7Xiuh9E">youtube</a><br><br>I start with the question of whether you need to use Emacs to think like an Emacs user. For me, moving from Neovim would mean rebuilding years of habits, terminal workflows, and work automations, so the practical cost of changing editors matters more than taking sides in an editor rivalry.
-
-  Protesilaos explains that the spirit of Emacs is integration: a configurable, keyboard-driven environment that reduces context switching. We also discuss bringing that approach to Neovim, including org-mode-like planning, email, calendars, and a new org-mode-inspired Neovim plugin.
-
-  This clip is from my livestream with Protesilaos, Rumen, and ted freitas:
-  https://youtube.com/live/c0qZ6QzpcVc
-
-  Root Access is a live conversation with Linkarzu, CEO members, and invited guests about tech, tools, workflows, and what they’re building. Guests can share their projects before we dive into the discussion. Everyone is welcome to watch live and join the chat; the full replay stays public.
-
-  More about Root Access and the CEO hangout:
-  https://linkarzu.com/about/#whats-the-linkarzu-ceos-monthly-hangout-podcast
-
-  Join the YouTube Members:
-  https://www.youtube.com/channel/UCrSIvbFncPSlK6AdwE2QboA/join
-
-  Watch previous episodes:
-  https://www.youtube.com/playlist?list=PLZWMav2s1MZR_E0s7OTicc7Th5QuWvUPx
-
-  Where can I find the guests:
-
-  Web2Three
-  web2three.com
-
-  Ted G. Freitas
-  cpnllc.com
-
-  Protesilaos
-  https://www.youtube.com/@protesilaos
-
-  Chapters:
-  00:00 Emacs as a spirit of integration
-  00:46 Why switching from Neovim takes time
-  02:13 Workflow muscle memory and automation
-  03:49 Integration beyond Emacs
-  05:09 Neovim, org mode, email, and calendars
-  06:50 Porting org mode to Neovim
-  07:59 Can org mode work outside Emacs?
-  10:35 Emacs on Android and SyncThing
-
-  READ THIS BLOG POST:
-  How to use text to speech (TTS)?
-  Why are there 2 livestreams?
-  All the answers to these questions and more stream info here:
-  https://linkarzu.com/posts/news/streaming-info/
-
-  Support me:
-
-  Buy me the Switch 2:
-  https://ko-fi.com/linkarzu
-
-  Join the YouTube Members:
-  https://www.youtube.com/channel/UCrSIvbFncPSlK6AdwE2QboA/join
-
-  My Merch Store:
-  https://merch.linkarzu.com
-
-  Get 10% off 3DKeycap with code LINKARZU:
-  https://3dkeycap.com/?ref=linkarzu
-  Affiliate link, I earn a commission if you purchase through it.
-
-  My Dotfiles:
-  https://github.com/linkarzu/dotfiles-latest
-
-  Follow me on X:
-  https://x.com/link_arzu
-
-  Search terms:
-  Emacs philosophy
-  thinking like an Emacs user
-  Neovim versus Emacs
-  Emacs integration
-  Neovim workflow
-  keyboard-driven workflow
-  Emacs org mode
-  org mode in Neovim
-  Neovim planning tools
-  Emacs email and calendar
-  Emacs context switching
-  Neovim plugins
-  plain-text productivity
-  Emacs on Android
-  SyncThing Emacs workflow
-
-  ,#emacs #neovim #orgmode #productivity #opensource</div>]]></description>
-      <pubDate>Sat, 03 Oct 2026 13:06:09 +0000</pubDate><category>community</category>
-    </item>
-    <item>
-      <title>Reading the emacs compilation mode source code</title>
-      <link>https://www.youtube.com/watch?v=0sQB5WsTZ7U</link>
-      <guid>https://www.youtube.com/watch?v=0sQB5WsTZ7U</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=0sQB5WsTZ7U">youtube</a><br><br>Special thanks to my Patreon patrons:
-
-  - Frederick Rowland
-  - Alexander Kulnev
-  - AnonMek
-  - Long Nguyen
-  - Sreyan Chakravarty
-  - Nam Anh
-  - duck
-  - Naur
-  - KKR
-  - Randy Jordan
-  - Kenn
-  - manoj
-  - Rafael
-  - Abdullah Al-Kheshen
-  - Friction
-  - Koorosh
-  - Wilson
-  - Parker
-  - bhanu jampala
-  - Hieu Duong
-  - Jacob Cornwell
-  - Pent
-  - nisedo
-  - Adam Hafidi
-
-
-  Coding videos have moved to my other channel: https://www.youtube.com/@The_Ant_Farm
-
-  You can join my Patreon at https://patreon.com/ants_are_everywhere.
-
-  Thanks for watching :)
-
-  Join Discord at: https://discord.gg/YNtU8Yw7yT
-  My Mastodon address is: https://mathstodon.xyz/@ants_are_everywhere</div>]]></description>
-      <pubDate>Sat, 03 Oct 2026 09:19:06 +0000</pubDate>
-    </item>
-    <item>
-      <title>Emacs ollama agent demo 05 排序</title>
-      <link>https://www.youtube.com/watch?v=c81VC5mIWF4</link>
-      <guid>https://www.youtube.com/watch?v=c81VC5mIWF4</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=c81VC5mIWF4">youtube</a><br><br></div>]]></description>
-      <pubDate>Sat, 03 Oct 2026 04:55:37 +0000</pubDate><category>ollama</category>
-    </item>
-    <item>
-      <title>Emacs ollama agent demo 02 網站內容擷取</title>
-      <link>https://www.youtube.com/watch?v=zUwNkaD41ws</link>
-      <guid>https://www.youtube.com/watch?v=zUwNkaD41ws</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=zUwNkaD41ws">youtube</a><br><br></div>]]></description>
-      <pubDate>Sat, 03 Oct 2026 04:35:25 +0000</pubDate><category>ollama</category>
-    </item>
-    <item>
-      <title>Yay Emacs 40: Tinkering with my speech commands and working on the schedule for EmacsConf</title>
-      <link>https://www.youtube.com/watch?v=SqsxuN3CPWc</link>
-      <guid>https://www.youtube.com/watch?v=SqsxuN3CPWc</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=SqsxuN3CPWc">youtube</a><br><br></div>]]></description>
-      <pubDate>Sat, 03 Oct 2026 03:42:10 +0000</pubDate><category>livestream</category>
-    </item>
-    <item>
-      <title>Emacs ollama agent demo 01</title>
-      <link>https://www.youtube.com/watch?v=mz9JQnCbbzg</link>
-      <guid>https://www.youtube.com/watch?v=mz9JQnCbbzg</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=mz9JQnCbbzg">youtube</a><br><br></div>]]></description>
-      <pubDate>Sat, 03 Oct 2026 02:36:06 +0000</pubDate><category>ollama</category>
-    </item>
-    <item>
-      <title>Let Emacs make you happy</title>
-      <link>https://www.youtube.com/watch?v=LmjESSIlyDg</link>
-      <guid>https://www.youtube.com/watch?v=LmjESSIlyDg</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=LmjESSIlyDg">youtube</a><br><br>With a change of seasons I am delighting in the subtle joys of Emacs. Join me as I go through some of my favorite base features.
-
-  CHECK OUT MY BOOKS:
-  https://chrismaiorana.com/books/</div>]]></description>
-      <pubDate>Fri, 02 Oct 2026 17:09:50 +0000</pubDate>
-    </item>
-    <item>
-      <title>Desafio #1 | Divisão por 5 (Emacs+Elisp)</title>
-      <link>https://www.youtube.com/watch?v=oXEWpyhwqxU</link>
-      <guid>https://www.youtube.com/watch?v=oXEWpyhwqxU</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=oXEWpyhwqxU">youtube</a><br><br>Fazendo o desafio "divisão por 5" do Programiz novamente, só que em ELISP.</div>]]></description>
-      <pubDate>Wed, 30 Sep 2026 22:06:10 +0000</pubDate>
-    </item>
-    <item>
-      <title>Clutch: Query, Browse and Edit Databases Without Leaving Emacs</title>
-      <link>https://youtu.be/eVyr1dLExOw</link>
-      <guid>https://youtu.be/eVyr1dLExOw</guid>
-      <description><![CDATA[<div id="content"><a href="https://youtu.be/eVyr1dLExOw">youtube</a><br><br>Clutch is an Emacs package for querying and browsing databases, and for staging SQL row edits with a preview before anything runs. Results open in an interactive grid, and nothing is written until you review the exact SQL and confirm.
-
-  Supported databases: MySQL, PostgreSQL, SQLite, MongoDB and Redis natively, plus Oracle, SQL Server, ClickHouse, DuckDB and other databases through JDBC.
-
-  In this demo we use PostgreSQL over its native protocol, then DuckDB over JDBC.
-
-  Chapters
-  0:00 Connect and run a query
-  0:23 Foreign keys and NULL faces
-  0:32 Per-column displayers
-  0:57 Rectangle select and Refine
-  1:22 Aggregate and server-side filter
-  1:38 Stage, preview and submit an edit
-  1:59 Long JSON hover preview
-  2:35 Insert and delete rows
-  3:15 JDBC databases (DuckDB)
-
-  What you will see
-  - Run SQL in a normal buffer with C-c C-c
-  - Foreign keys are underlined; NULL has its own face
-  - Per-column displayers: turn raw values into colored labels
-  - Rectangle selection (C-x SPC), then Refine (-r) to exclude rows and columns before copying as TSV, CSV or an Org table
-  - Aggregate selected numeric cells, and filter with a server-side WHERE
-  - Stage edits, preview the exact SQL (C-c C-p), then confirm
-  - Long JSON hover preview (off by default: set clutch-cell-preview-style to child-frame)
-  - Insert and delete rows through a form
-  - JDBC: a Java 17+ agent runs beside Emacs; the same UI works over JDBC
-
-  Install
-  M-x package-install RET clutch
-
-  Requirements: Emacs 29.1+. SQLite needs nothing else. Other native backends need their own Emacs package, and JDBC needs Java 17+.
-
-  GitHub: https://github.com/LuciusChen/clutch
-  MELPA: https://melpa.org/#/clutch
-
-  ,#Emacs #SQL #Database</div>]]></description>
-      <pubDate>Wed, 30 Sep 2026 15:32:31 +0000</pubDate><category>db</category>
-<category>clutch</category>
-<category>sql</category>
-    </item>
-    <item>
-      <title>Reading some emacs package source code (e.g. comint)</title>
-      <link>https://www.youtube.com/watch?v=tybv1j7H9nQ</link>
-      <guid>https://www.youtube.com/watch?v=tybv1j7H9nQ</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=tybv1j7H9nQ">youtube</a><br><br>Special thanks to my Patreon patrons:
-
-  - Frederick Rowland
-  - Alexander Kulnev
-  - AnonMek
-  - Long Nguyen
-  - Sreyan Chakravarty
-  - Nam Anh
-  - duck
-  - Naur
-  - KKR
-  - Randy Jordan
-  - Kenn
-  - manoj
-  - Rafael
-  - Abdullah Al-Kheshen
-  - Friction
-  - Koorosh
-  - Wilson
-  - Parker
-  - bhanu jampala
-  - Hieu Duong
-  - Jacob Cornwell
-  - Pent
-  - nisedo
-  - Adam Hafidi
-
-
-  Coding videos have moved to my other channel: https://www.youtube.com/@The_Ant_Farm
-
-  You can join my Patreon at https://patreon.com/ants_are_everywhere.
-
-  Thanks for watching :)
-
-  Join Discord at: https://discord.gg/YNtU8Yw7yT
-  My Mastodon address is: https://mathstodon.xyz/@ants_are_everywhere</div>]]></description>
-      <pubDate>Wed, 30 Sep 2026 09:19:06 +0000</pubDate>
-    </item>
-    <item>
-      <title>AI built my Emacs plugin</title>
-      <link>https://www.youtube.com/watch?v=wwW7D80JK0M</link>
-      <guid>https://www.youtube.com/watch?v=wwW7D80JK0M</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=wwW7D80JK0M">youtube</a><br><br>Mika argues that bespoke AI can replace hunting for existing downloads, using his Emacs plugin as the concrete example.
-
-  Source: /home/mika/.local/share/omni-video/sources/a18a657ca63535db6ced7a9b03dc97829b78439ee578e7f4bb1915d6c36284be.mkv
-  omni-video:89a41d2792e1ea90f27b63c4</div>]]></description>
-      <pubDate>Wed, 30 Sep 2026 07:54:28 +0000</pubDate><category>llm</category>
-    </item>
-    <item>
-      <title>Yay Emacs 39: Testing my new streaming functions</title>
-      <link>https://www.youtube.com/watch?v=ysq9HQ5H_gU</link>
-      <guid>https://www.youtube.com/watch?v=ysq9HQ5H_gU</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=ysq9HQ5H_gU">youtube</a><br><br>I want to make it easier to start a YouTube livestream.
-
-  - "let's get ready"
-      - set up the theme and the variables
-      - set the title and description from the subtree
-      - open the control panel
-      - switch to the right OBS profile
-      - open the dashboard
-  - "let's go live"
-      - start the stream with a speech command
-      -
-
-  0:00 Emacs news preparation
-  14:54 Speech command experiments
-  22:27 Putting together Emacs News
-  41:15 Publishing Emacs news
-  50:14 Real-time audio monitoring
-  1:04:24 Improving bingo feature for voice recognition
-  1:12:07 Refining navigation commands
-  1:23:29 Stream management and wrap-up</div>]]></description>
-      <pubDate>Tue, 29 Sep 2026 03:54:04 +0000</pubDate><category>livestream</category>
     </item>
   </channel>
 </rss>
