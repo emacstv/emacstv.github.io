@@ -1,5 +1,79 @@
 [
   {
+    "ITEM": "Yay Emacs 52: Drafting my responses for the community panel",
+    "DATE": "2026-11-06T06:35:22-08:00",
+    "DURATION": "14:44",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=iMZkCe0s3GY",
+    "SPEAKERS": "Sacha Chua",
+    "TAGS": [
+      "community"
+    ],
+    "BODY": "We have a recording session for https://emacsconf.org/2026/talks/community/ tomorrow, so I need to get my thoughts together. Also, if there's time, I want to to document and demonstrate my video workflow so that I can do it again next year, and maybe look into organizing my windows and workspaces in preparation for trying to manage everything everywhere all at once. Aaah! Totally not panicking."
+  },
+  {
+    "ITEM": "Emacs set-transient-map (without sacrificing my key-chord muscle memory)",
+    "DATE": "2026-11-06T03:22:11-08:00",
+    "DURATION": "18:51",
+    "YOUTUBE_URL": "https://youtu.be/2-TpLKAeYvs",
+    "SPEAKERS": "Ardie83",
+    "BODY": "Emacs set-transient-map (without sacrificing my key-chord muscle memory)\n\n  Was forced to move away from Key Chord and Hydra Mode (kind of)\n\n  True video length is only 15 minutes, the rest was story time.\n\n  Show some support by buying me coffee on my Ko-fi page just setup recently. (It has both Debit/Credit Card and Paypal options, with 0% fee)\n  https://ko-fi.com/ardiemejia83\n\n  Or can donate straight to my PayPal\n  https://paypal.me/ardiemejia83"
+  },
+  {
+    "ITEM": "Emacs vs Neovim - Why the Emacs Community Is So Nice (Sacha Chua)",
+    "DATE": "2026-11-03T04:43:02-08:00",
+    "DURATION": "19:34",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=Saaxtk7i4Tw",
+    "SPEAKERS": "linkarzu",
+    "TAGS": [
+      "community"
+    ],
+    "BODY": "🔴 Watch Neovim + kitty Maintainers on AI, Terminal Security and What's Next | Justin M. Keyes & Kovid Goyal (live Nov 8): https://youtube.com/live/C0kQDam7PZs\n\n  I asked Sacha Chua why the Emacs subreddit feels like rainbows and butterflies while the Neovim one can get so heated. Is it older users, or does your editor make you grumpy? Her answer is about sharing: Emacs customizations are personal tools you hand to others as a gift, with no guarantee they will work for anyone else, and that habit has built a community around blog posts, literate configs and looking over each other's shoulders.\n\n  From there we talk about what the Neovim community could borrow. I bring up Dotfyle and why a human curator matters, and Sacha explains how she puts Emacs News together in an hour or two with a lot of automation. She also shares advice for newcomers: go connect with people through meetups, Reddit, IRC and mailing lists, and don't try to learn Emacs alone.\n\n  The conversation ends on the idea that it's not Neovim versus Emacs. We cover how ideas and workflows cross over between editors, how EmacsConf runs as a free online conference, and why org.nvim could be a friendly entry point for Neovim users curious about Org Mode.\n\n  This clip is from my livestream with Sacha Chua: https://youtube.com/live/BlgtfOsXgCs\n\n  Chapters:\n  0:00 Why is the Emacs community so nice?\n  1:40 Customizations as a gift\n  4:08 Dotfyle and the need for a human curator\n  6:05 Advice for someone new to Emacs\n  8:12 A Planet Emacslife for Neovim?\n  9:06 How Emacs News gets made\n  10:20 Not Neovim vs Emacs\n  12:54 Borrowing ideas between editors\n  14:35 EmacsConf vs NeovimConf\n  17:38 org.nvim and Org Mode workflows\n\n  Guest: Sacha Chua\n  https://www.youtube.com/@sachactube\n\n  READ THIS BLOG POST:\n  How to use text to speech (TTS)?\n  Why are there 2 livestreams?\n  All the answers to these questions and more stream info here:\n  https://linkarzu.com/posts/news/streaming-info/\n\n  Support me:\n\n  Buy me the Switch 2:\n  https://ko-fi.com/linkarzu\n\n  Join the YouTube Members:\n  https://www.youtube.com/channel/UCrSIvbFncPSlK6AdwE2QboA/join\n\n  My Merch Store:\n  https://merch.linkarzu.com\n\n  Get 10% off 3DKeycap with code LINKARZU:\n  https://3dkeycap.com/?ref=linkarzu\n  Affiliate link, I earn a commission if you purchase through it.\n\n  My Dotfiles:\n  https://github.com/linkarzu/dotfiles-latest\n\n  Follow me on X:\n  https://x.com/link_arzu\n\n  Search terms:\n  Neovim vs Emacs community\n  why is the Emacs community so nice\n  Sacha Chua Emacs\n  Sacha Chua interview\n  Emacs News\n  Planet Emacslife\n  EmacsConf\n  Neovim Conf\n  Emacs community sharing culture\n  Emacs literate programming config\n  learning Emacs tips for beginners\n  Emacs meetups IRC mailing lists\n  Neovim subreddit vs Emacs subreddit\n  Dotfyle Neovim\n  org.nvim\n  Org Mode for Neovim\n  Neovim and Emacs cross pollination\n  Emacs blog posts and configs\n\n  ,#emacs #neovim #orgmode #sachachua #emacsconf #opensource #vim"
+  },
+  {
+    "ITEM": "looking at a sqlite database without using sqlite",
+    "DATE": "2026-11-02T23:04:55-08:00",
+    "DURATION": "4:38:13",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=oQA55nuP5Xo",
+    "SPEAKERS": "LCOLONQ MEATHOUSE",
+    "TAGS": [
+      "livecoding"
+    ],
+    "BODY": "hello it is @LCOLONQ\n\n  check out the stream, every tuesday and friday: https://twitch.tv/LCOLONQ"
+  },
+  {
+    "ITEM": "Introducing Portal: Native Browser and Terminal in Emacs",
+    "DATE": "2026-11-02T22:58:09-08:00",
+    "DURATION": "7:14",
+    "YOUTUBE_URL": "https://youtu.be/1ZEjhN2Q3AE",
+    "SPEAKERS": "Uncle X",
+    "TAGS": [
+      "portal"
+    ],
+    "BODY": "https://github.com/xiaoxinghu/portal\n  Native web view and Ghostty inside of emacs with full speed."
+  },
+  {
+    "ITEM": "Hyperbole Teaser",
+    "DATE": "2026-11-02T20:48:01-08:00",
+    "DURATION": "0:57",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=IFOwdKtOw9I",
+    "SPEAKERS": "Hyperforming with GNU Hyperbole",
+    "TAGS": [
+      "hyperbole"
+    ],
+    "BODY": "60 second fly through of many Hyperbole features.  Don't try to follow it, just look for interesting bits and then watch Hyperbole introductory videos as followups."
+  },
+  {
+    "ITEM": "Hyperbole Rapid Cross Window Links",
+    "DATE": "2026-11-02T20:24:02-08:00",
+    "DURATION": "8:01",
+    "YOUTUBE_URL": "https://www.youtube.com/watch?v=b0PE0iRqA6s",
+    "SPEAKERS": "Hyperforming with GNU Hyperbole",
+    "TAGS": [
+      "hyperbole"
+    ],
+    "BODY": "With 2 windows on-screen, a source and a target window, Hyperbole determines the link format to insert into the source (selected window) from the context of poiint in the target window."
+  },
+  {
     "ITEM": "Run interactive Clojure workflows from Emacs w/ Admin Delux",
     "DATE": "2026-11-01T22:27:54-08:00",
     "DURATION": "9:00",

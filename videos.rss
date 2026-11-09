@@ -6,6 +6,140 @@
     <atom:link href="https://emacs.tv/videos.rss" rel="self" type="application/rss+xml" />
     <description>Emacs videos</description>
     <item>
+      <title>Yay Emacs 52: Drafting my responses for the community panel</title>
+      <link>https://www.youtube.com/watch?v=iMZkCe0s3GY</link>
+      <guid>https://www.youtube.com/watch?v=iMZkCe0s3GY</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=iMZkCe0s3GY">youtube</a><br><br>We have a recording session for https://emacsconf.org/2026/talks/community/ tomorrow, so I need to get my thoughts together. Also, if there's time, I want to to document and demonstrate my video workflow so that I can do it again next year, and maybe look into organizing my windows and workspaces in preparation for trying to manage everything everywhere all at once. Aaah! Totally not panicking.</div>]]></description>
+      <pubDate>Fri, 06 Nov 2026 14:35:22 +0000</pubDate><category>community</category>
+    </item>
+    <item>
+      <title>Emacs set-transient-map (without sacrificing my key-chord muscle memory)</title>
+      <link>https://youtu.be/2-TpLKAeYvs</link>
+      <guid>https://youtu.be/2-TpLKAeYvs</guid>
+      <description><![CDATA[<div id="content"><a href="https://youtu.be/2-TpLKAeYvs">youtube</a><br><br>Emacs set-transient-map (without sacrificing my key-chord muscle memory)
+
+  Was forced to move away from Key Chord and Hydra Mode (kind of)
+
+  True video length is only 15 minutes, the rest was story time.
+
+  Show some support by buying me coffee on my Ko-fi page just setup recently. (It has both Debit/Credit Card and Paypal options, with 0% fee)
+  https://ko-fi.com/ardiemejia83
+
+  Or can donate straight to my PayPal
+  https://paypal.me/ardiemejia83</div>]]></description>
+      <pubDate>Fri, 06 Nov 2026 11:22:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>Emacs vs Neovim - Why the Emacs Community Is So Nice (Sacha Chua)</title>
+      <link>https://www.youtube.com/watch?v=Saaxtk7i4Tw</link>
+      <guid>https://www.youtube.com/watch?v=Saaxtk7i4Tw</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=Saaxtk7i4Tw">youtube</a><br><br>🔴 Watch Neovim + kitty Maintainers on AI, Terminal Security and What's Next | Justin M. Keyes & Kovid Goyal (live Nov 8): https://youtube.com/live/C0kQDam7PZs
+
+  I asked Sacha Chua why the Emacs subreddit feels like rainbows and butterflies while the Neovim one can get so heated. Is it older users, or does your editor make you grumpy? Her answer is about sharing: Emacs customizations are personal tools you hand to others as a gift, with no guarantee they will work for anyone else, and that habit has built a community around blog posts, literate configs and looking over each other's shoulders.
+
+  From there we talk about what the Neovim community could borrow. I bring up Dotfyle and why a human curator matters, and Sacha explains how she puts Emacs News together in an hour or two with a lot of automation. She also shares advice for newcomers: go connect with people through meetups, Reddit, IRC and mailing lists, and don't try to learn Emacs alone.
+
+  The conversation ends on the idea that it's not Neovim versus Emacs. We cover how ideas and workflows cross over between editors, how EmacsConf runs as a free online conference, and why org.nvim could be a friendly entry point for Neovim users curious about Org Mode.
+
+  This clip is from my livestream with Sacha Chua: https://youtube.com/live/BlgtfOsXgCs
+
+  Chapters:
+  0:00 Why is the Emacs community so nice?
+  1:40 Customizations as a gift
+  4:08 Dotfyle and the need for a human curator
+  6:05 Advice for someone new to Emacs
+  8:12 A Planet Emacslife for Neovim?
+  9:06 How Emacs News gets made
+  10:20 Not Neovim vs Emacs
+  12:54 Borrowing ideas between editors
+  14:35 EmacsConf vs NeovimConf
+  17:38 org.nvim and Org Mode workflows
+
+  Guest: Sacha Chua
+  https://www.youtube.com/@sachactube
+
+  READ THIS BLOG POST:
+  How to use text to speech (TTS)?
+  Why are there 2 livestreams?
+  All the answers to these questions and more stream info here:
+  https://linkarzu.com/posts/news/streaming-info/
+
+  Support me:
+
+  Buy me the Switch 2:
+  https://ko-fi.com/linkarzu
+
+  Join the YouTube Members:
+  https://www.youtube.com/channel/UCrSIvbFncPSlK6AdwE2QboA/join
+
+  My Merch Store:
+  https://merch.linkarzu.com
+
+  Get 10% off 3DKeycap with code LINKARZU:
+  https://3dkeycap.com/?ref=linkarzu
+  Affiliate link, I earn a commission if you purchase through it.
+
+  My Dotfiles:
+  https://github.com/linkarzu/dotfiles-latest
+
+  Follow me on X:
+  https://x.com/link_arzu
+
+  Search terms:
+  Neovim vs Emacs community
+  why is the Emacs community so nice
+  Sacha Chua Emacs
+  Sacha Chua interview
+  Emacs News
+  Planet Emacslife
+  EmacsConf
+  Neovim Conf
+  Emacs community sharing culture
+  Emacs literate programming config
+  learning Emacs tips for beginners
+  Emacs meetups IRC mailing lists
+  Neovim subreddit vs Emacs subreddit
+  Dotfyle Neovim
+  org.nvim
+  Org Mode for Neovim
+  Neovim and Emacs cross pollination
+  Emacs blog posts and configs
+
+  ,#emacs #neovim #orgmode #sachachua #emacsconf #opensource #vim</div>]]></description>
+      <pubDate>Tue, 03 Nov 2026 12:43:02 +0000</pubDate><category>community</category>
+    </item>
+    <item>
+      <title>looking at a sqlite database without using sqlite</title>
+      <link>https://www.youtube.com/watch?v=oQA55nuP5Xo</link>
+      <guid>https://www.youtube.com/watch?v=oQA55nuP5Xo</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=oQA55nuP5Xo">youtube</a><br><br>hello it is @LCOLONQ
+
+  check out the stream, every tuesday and friday: https://twitch.tv/LCOLONQ</div>]]></description>
+      <pubDate>Tue, 03 Nov 2026 07:04:55 +0000</pubDate><category>livecoding</category>
+    </item>
+    <item>
+      <title>Introducing Portal: Native Browser and Terminal in Emacs</title>
+      <link>https://youtu.be/1ZEjhN2Q3AE</link>
+      <guid>https://youtu.be/1ZEjhN2Q3AE</guid>
+      <description><![CDATA[<div id="content"><a href="https://youtu.be/1ZEjhN2Q3AE">youtube</a><br><br>https://github.com/xiaoxinghu/portal
+  Native web view and Ghostty inside of emacs with full speed.</div>]]></description>
+      <pubDate>Tue, 03 Nov 2026 06:58:09 +0000</pubDate><category>portal</category>
+    </item>
+    <item>
+      <title>Hyperbole Teaser</title>
+      <link>https://www.youtube.com/watch?v=IFOwdKtOw9I</link>
+      <guid>https://www.youtube.com/watch?v=IFOwdKtOw9I</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=IFOwdKtOw9I">youtube</a><br><br>60 second fly through of many Hyperbole features.  Don't try to follow it, just look for interesting bits and then watch Hyperbole introductory videos as followups.</div>]]></description>
+      <pubDate>Tue, 03 Nov 2026 04:48:01 +0000</pubDate><category>hyperbole</category>
+    </item>
+    <item>
+      <title>Hyperbole Rapid Cross Window Links</title>
+      <link>https://www.youtube.com/watch?v=b0PE0iRqA6s</link>
+      <guid>https://www.youtube.com/watch?v=b0PE0iRqA6s</guid>
+      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=b0PE0iRqA6s">youtube</a><br><br>With 2 windows on-screen, a source and a target window, Hyperbole determines the link format to insert into the source (selected window) from the context of poiint in the target window.</div>]]></description>
+      <pubDate>Tue, 03 Nov 2026 04:24:02 +0000</pubDate><category>hyperbole</category>
+    </item>
+    <item>
       <title>Run interactive Clojure workflows from Emacs w/ Admin Delux</title>
       <link>https://www.youtube.com/watch?v=mFbIvl76CnI</link>
       <guid>https://www.youtube.com/watch?v=mFbIvl76CnI</guid>
@@ -856,91 +990,6 @@
   https://github.com/systemfreund/supersonic.el</div>]]></description>
       <pubDate>Thu, 08 Oct 2026 10:52:04 +0000</pubDate><category>music</category>
 <category>multimedia</category>
-    </item>
-    <item>
-      <title>Clojure Corner: Interview with Bozhidar Batsov</title>
-      <link>https://www.youtube.com/watch?v=qSgMH5An4YI</link>
-      <guid>https://www.youtube.com/watch?v=qSgMH5An4YI</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=qSgMH5An4YI">youtube</a><br><br>Welcome to another episode of Clojure Corner!
-
-  In this episode, we’re joined by Bozhidar Batsov.
-
-  Topics we covered:
-  - Transitioning to Clojure and Emacs
-  - The Emacs Community Dynamics
-  - Functional vs. Imperative Programming in Lisp
-  - Rails vs. Clojure: Framework Comparisons
-  - The Evolution of Frameworks and Microservices
-  - Handcrafted Code vs. AI-Generated Code
-  - Engineering Management in the Age of AI and more...
-
-  Enjoy the episode! And if you find it valuable, like, subscribe, and turn on notifications so you never miss a new episode of Clojure Corner.
-
-  🎧 Spotify: https://spotifycreators-web.app.link/e/saeeb9Pc46b
-  🎧 Apple: https://podcasts.apple.com/us/podcast/clojure-corner-interview-with-bozhidar-batsov/id1881543865?i=1000793848720
-  🎧 RSS:https://rss.com/podcasts/clojure-corner-by-flexiana/</div>]]></description>
-      <pubDate>Thu, 08 Oct 2026 08:44:04 +0000</pubDate><category>community</category>
-<category>clojure</category>
-    </item>
-    <item>
-      <title>3D in MY Emacs!? (Hack and overview)</title>
-      <link>https://www.youtube.com/watch?v=ppL2eHJcwts</link>
-      <guid>https://www.youtube.com/watch?v=ppL2eHJcwts</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=ppL2eHJcwts">youtube</a><br><br>This is a hack I tinkered on using ONLY Emacs and no additional language code nor libraries outside what is provided. In the video I go over live editing in Emacs Lisp while hacking in a color palette to my 3D dodecahedron. I don't use Light nor Dark mode because they are for chumps. I hope you like brown.</div>]]></description>
-      <pubDate>Thu, 08 Oct 2026 07:18:35 +0000</pubDate><category>graphics</category>
-<category>3d</category>
-    </item>
-    <item>
-      <title>Emacs: new &apos;denote-data&apos; cache development work</title>
-      <link>https://www.youtube.com/watch?v=fGjH82DeF7c</link>
-      <guid>https://www.youtube.com/watch?v=fGjH82DeF7c</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=fGjH82DeF7c">youtube</a><br><br>This is a spontaneous live stream. I am working on a new feature for my 'denote' Emacs package. The idea is to implement an optional in-memory cache that can help speed up certain operations.
-
-  * * *
-
-  Find all my publications on my website (Emacs, philosophy, etc.): https://protesilaos.com
-
-  All my Emacs-related work: https://protesilaos.com/emacs.</div>]]></description>
-      <pubDate>Thu, 08 Oct 2026 04:52:15 +0000</pubDate><category>denote</category>
-    </item>
-    <item>
-      <title>Des commandes vocales pour ajouter des tâches sur Emacs</title>
-      <link>https://www.youtube.com/watch?v=rGAXW9S4AiE</link>
-      <guid>https://www.youtube.com/watch?v=rGAXW9S4AiE</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=rGAXW9S4AiE">youtube</a><br><br>https://sachachua.com/blog/2026/10/des-commandes-vocales-sur-emacs-pour-ajouter-des-taches/
-
-  00:00 Introduction
-  00:37 Ajouter des tâches
-  01:09 D'autres dates
-  01:59 Basculer à une tâche
-  02:15 Retrouver le fil de mes pensées
-  02:27 Je faisais quoi ?</div>]]></description>
-      <pubDate>Wed, 07 Oct 2026 20:08:22 +0000</pubDate><category>org</category>
-<category>SpeechRecognition</category>
-    </item>
-    <item>
-      <title>Emacs ollama agent compare</title>
-      <link>https://www.youtube.com/watch?v=k_hIR0pTibM</link>
-      <guid>https://www.youtube.com/watch?v=k_hIR0pTibM</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=k_hIR0pTibM">youtube</a><br><br></div>]]></description>
-      <pubDate>Wed, 07 Oct 2026 01:53:25 +0000</pubDate><category>llm</category>
-    </item>
-    <item>
-      <title>Deeper layers of Org Mode laziness explained</title>
-      <link>https://youtube.com/watch?v=DrlMLgc5r2E&amp;si=F7zqY9G0iZGoIXK5</link>
-      <guid>https://youtube.com/watch?v=DrlMLgc5r2E&amp;si=F7zqY9G0iZGoIXK5</guid>
-      <description><![CDATA[<div id="content"><a href="https://youtube.com/watch?v=DrlMLgc5r2E&si=F7zqY9G0iZGoIXK5">youtube</a><br><br>Let's take a look at org mode macro replacement, what it is, and how to extend it past your wildest dreams.
-
-  my books:
-  https://chrismaiorana.com/books/</div>]]></description>
-      <pubDate>Tue, 06 Oct 2026 01:41:32 +0000</pubDate><category>org</category>
-    </item>
-    <item>
-      <title>Emacs ollama agent change font and size</title>
-      <link>https://www.youtube.com/watch?v=jkQnKvSrBaM</link>
-      <guid>https://www.youtube.com/watch?v=jkQnKvSrBaM</guid>
-      <description><![CDATA[<div id="content"><a href="https://www.youtube.com/watch?v=jkQnKvSrBaM">youtube</a><br><br></div>]]></description>
-      <pubDate>Sun, 04 Oct 2026 03:26:46 +0000</pubDate><category>ollama</category>
     </item>
   </channel>
 </rss>
